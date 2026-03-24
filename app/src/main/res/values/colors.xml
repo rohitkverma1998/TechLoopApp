@@ -1,0 +1,11 @@
+<resources>
+    <color name="brand_primary">#0E5E5D</color>
+    <color name="brand_primary_dark">#0A4544</color>
+    <color name="brand_secondary">#F2A541</color>
+    <color name="screen_top">#FFF6EB</color>
+    <color name="screen_bottom">#F5F8F4</color>
+    <color name="card_surface">#FFFCF7</color>
+    <color name="card_stroke">#D8E2DC</color>
+    <color name="text_primary">#172B2A</color>
+    <color name="text_secondary">#4D6462</color>
+</resources>
