@@ -1,7 +1,45 @@
 package com.book.teachloop
 
 object LessonRepository {
+    const val BOOK_ID = "class5_math_mela_grade_5"
     const val BOOK_TITLE = "NCERT Math-Mela Grade 5"
+    private val SUBTOPIC_FOCUS = listOf(
+        text("Key idea", "मुख्य विचार"),
+        text("Worked example", "उदाहरण के साथ"),
+        text("Try it yourself", "खुद करके देखो"),
+    )
+    private val SUBTOPIC_PROMPTS = listOf(
+        text(
+            "Do you already know the key idea in this part?",
+            "क्या आपको इस भाग का मुख्य विचार पहले से पता है?"
+        ),
+        text(
+            "Can you follow the example in this part?",
+            "क्या आप इस भाग के उदाहरण को समझ सकते हैं?"
+        ),
+        text(
+            "Can you solve the quick check in this part?",
+            "क्या आप इस भाग की झटपट जाँच हल कर सकते हैं?"
+        ),
+    )
+    private val SUBTOPIC_TITLES = listOf(
+        text("Core concept", "मूल अवधारणा"),
+        text("Guided practice", "मार्गदर्शित अभ्यास"),
+        text("Independent check", "स्वतंत्र जाँच"),
+    )
+
+    fun library(): List<StudyBook> {
+        return listOf(grade5MathMelaBook())
+    }
+
+    fun grade5MathMelaBook(): StudyBook {
+        return StudyBook(
+            id = BOOK_ID,
+            subjectTitle = text("Mathematics", "गणित"),
+            bookTitle = text(BOOK_TITLE, "एनसीईआरटी मैथ मेला कक्षा 5"),
+            topics = grade5MathMela().flatMap(::expandTopicIntoSubtopics),
+        )
+    }
 
     fun grade5MathMela(): List<LessonTopic> {
         return listOf(
@@ -514,6 +552,96 @@ object LessonRepository {
                 )
             ),
         )
+    }
+
+    private fun expandTopicIntoSubtopics(source: LessonTopic): List<StudyTopic> {
+        val paragraphs = source.explanationParagraphs.takeIf { it.isNotEmpty() }
+            ?: listOf(source.explanationTitle)
+        val exampleSet = source.examples.takeIf { it.isNotEmpty() }
+            ?: listOf(source.topicTitle)
+
+        return SUBTOPIC_TITLES.mapIndexed { index, subtopicTitle ->
+            val paragraph = paragraphs.getOrElse(index) { paragraphs.last() }
+            val exampleWindow = listOfNotNull(
+                exampleSet.getOrNull(index),
+                exampleSet.getOrNull((index + 1).coerceAtMost(exampleSet.lastIndex)),
+            ).distinct()
+
+            val visualChips = extractVisualChips(exampleWindow + paragraph)
+            val visuals = listOf(
+                VisualBlock(
+                    title = text("Book visual", "पुस्तक दृश्य"),
+                    description = text(
+                        english = paragraph,
+                        hindi = "इस भाग का मुख्य संकेत: $paragraph"
+                    ),
+                    chips = visualChips,
+                ),
+                VisualBlock(
+                    title = text("Quick cues", "त्वरित संकेत"),
+                    description = text(
+                        english = "Use these small cues before answering the question.",
+                        hindi = "उत्तर देने से पहले इन छोटे संकेतों को देखिए।",
+                    ),
+                    chips = exampleWindow.map { text(it, it) },
+                ),
+            )
+
+            StudyTopic(
+                id = "${source.id}_step_${index + 1}",
+                sourceLessonId = source.id,
+                chapterNumber = source.chapterNumber,
+                chapterTitle = text(source.chapterTitle, source.chapterTitle),
+                lessonTitle = text(source.topicTitle, source.topicTitle),
+                subtopicTitle = subtopicTitle,
+                knowPrompt = SUBTOPIC_PROMPTS[index],
+                explanationTitle = SUBTOPIC_FOCUS[index],
+                explanationParagraphs = listOf(
+                    text(paragraph, paragraph),
+                    text(
+                        english = buildStepSummary(source, index),
+                        hindi = buildHindiStepSummary(index)
+                    )
+                ),
+                examples = exampleWindow.map { text(it, it) },
+                visuals = visuals,
+                questions = source.questions,
+                questionSeedIndex = index % source.questions.size.coerceAtLeast(1),
+            )
+        }
+    }
+
+    private fun buildStepSummary(
+        source: LessonTopic,
+        index: Int,
+    ): String {
+        return when (index) {
+            0 -> "Start with the main idea in ${source.topicTitle} before trying examples."
+            1 -> "Now connect the idea to an example from the book and notice the pattern."
+            else -> "Use the pattern on your own and get ready for the check question."
+        }
+    }
+
+    private fun buildHindiStepSummary(index: Int): String {
+        return when (index) {
+            0 -> "पहले मुख्य विचार को समझिए, फिर उदाहरण की ओर जाइए।"
+            1 -> "अब पुस्तक के उदाहरण से विचार और पैटर्न को जोड़िए।"
+            else -> "अब पैटर्न का उपयोग खुद कीजिए और प्रश्न के लिए तैयार हो जाइए।"
+        }
+    }
+
+    private fun extractVisualChips(values: List<String>): List<LocalizedText> {
+        val tokens = values
+            .flatMap { value ->
+                Regex("\\d+[\\d,/xX]*|[A-Za-z]+")
+                    .findAll(value)
+                    .map { match -> match.value }
+                    .toList()
+            }
+            .distinct()
+            .take(5)
+
+        return tokens.map { token -> text(token, token) }
     }
 
     private fun mcq(
