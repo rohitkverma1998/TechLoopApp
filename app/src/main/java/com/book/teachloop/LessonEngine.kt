@@ -226,7 +226,16 @@ class LessonEngine(
                 message = text("No question is available for this topic."),
             )
 
-        val isCorrect = question.acceptedAnswers.any { normalize(it) == normalize(answer) }
+        val normalizedAnswer = normalize(answer)
+        val unitFreeAnswer = normalizeIgnoringUnits(answer)
+        val isCorrect = question.acceptedAnswers.any { accepted ->
+            val normalizedAccepted = normalize(accepted)
+            val unitFreeAccepted = normalizeIgnoringUnits(accepted)
+            normalizedAccepted == normalizedAnswer ||
+                unitFreeAccepted == unitFreeAnswer ||
+                normalizedAccepted == unitFreeAnswer ||
+                unitFreeAccepted == normalizedAnswer
+        }
         return finishAnswer(isCorrect, question, now)
     }
 
@@ -318,6 +327,66 @@ class LessonEngine(
             .replace("-", " ")
             .replace("'", "")
             .replace(Regex("\\s+"), " ")
+    }
+
+    private fun normalizeIgnoringUnits(value: String): String {
+        if (value.none { it.isDigit() }) {
+            return normalize(value)
+        }
+
+        var sanitized = value.lowercase()
+        val unitPatterns = listOf(
+            "sq\\.?\\s*(cm|m|km|mm)",
+            "cu\\.?\\s*(cm|m|km|mm)",
+            "square\\s+(centimetres?|centimeters?|metres?|meters?|kilometres?|kilometers?|millimetres?|millimeters?)",
+            "cubic\\s+(centimetres?|centimeters?|metres?|meters?|kilometres?|kilometers?|millimetres?|millimeters?)",
+            "centimetres?",
+            "centimeters?",
+            "metres?",
+            "meters?",
+            "kilometres?",
+            "kilometers?",
+            "millimetres?",
+            "millimeters?",
+            "kilograms?",
+            "milligrams?",
+            "grams?",
+            "millilitres?",
+            "milliliters?",
+            "litres?",
+            "liters?",
+            "rupees?",
+            "paise",
+            "paisa",
+            "cm2",
+            "m2",
+            "km2",
+            "mm2",
+            "cm3",
+            "m3",
+            "km3",
+            "mm3",
+            "kg",
+            "mg",
+            "kl",
+            "hl",
+            "ml",
+            "km",
+            "hm",
+            "dam",
+            "dm",
+            "cm",
+            "mm",
+            "rs\\.?",
+            "g",
+            "l",
+            "m",
+            "₹",
+        )
+        unitPatterns.forEach { pattern ->
+            sanitized = sanitized.replace(Regex("\\b(?:$pattern)\\b"), " ")
+        }
+        return normalize(sanitized)
     }
 }
 

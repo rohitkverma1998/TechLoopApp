@@ -88,6 +88,18 @@ ANSWER_CUT_MARKERS = (
 QUESTION_PATTERN = re.compile(r"(?m)^\s*([1-9]\d?)\.\s+")
 PART_PATTERN = re.compile(r"\(([a-z])\)", re.IGNORECASE)
 PART_KEY_PATTERN = re.compile(r"\(([a-z])\)", re.IGNORECASE)
+EXAMPLE_PATTERN = re.compile(r"\bExample\s+\d+\b", re.IGNORECASE)
+ACTIVITY_PATTERN = re.compile(r"\bActivity(?:\s+Time|\s+\d+)\b", re.IGNORECASE)
+
+PROMPT_TRIM_MARKERS = (
+    "Things to Remember",
+    "Summary",
+    "Question bag",
+    "Question Bag",
+    "ASSESSMENT",
+    "Assessment",
+    "Solved Examples",
+)
 
 NOTEBOOK_ACCEPTED_ANSWERS = ["done", "completed", "drawn", "ready", "finished"]
 QUESTION_VERBS = (
@@ -104,6 +116,7 @@ QUESTION_VERBS = (
     "express",
     "fill",
     "find",
+    "give",
     "identify",
     "look",
     "mark",
@@ -113,10 +126,13 @@ QUESTION_VERBS = (
     "name",
     "observe",
     "read",
+    "reduce",
     "rewrite",
     "round",
+    "simplify",
     "state",
     "subtract",
+    "think",
     "tick",
     "use",
     "verify",
@@ -124,8 +140,38 @@ QUESTION_VERBS = (
     "which",
     "write",
 )
+QUESTION_START_PATTERN = re.compile(
+    rf"\b(?:{'|'.join(re.escape(verb) for verb in QUESTION_VERBS)})\b",
+    re.IGNORECASE,
+)
+HEADING_OPENERS = (
+    "find ",
+    "which of the following",
+    "by using suitable grouping",
+    "fill in the blanks",
+    "identify ",
+    "mark ",
+    "match ",
+    "draw ",
+    "measure ",
+    "convert ",
+    "express ",
+    "write ",
+    "state ",
+    "tick ",
+    "use ",
+)
 
 MANUAL_SOURCE_OVERRIDES: dict[int, dict[int, str]] = {
+    3: {
+        13: (
+            "Answer the following. "
+            "(a) What comes just after 9536999? "
+            "(b) What comes just before 9900000? "
+            "(c) What comes just after 13700899? "
+            "(d) What comes just before 10000000?"
+        ),
+    },
     4: {
         4: (
             "Encircle the largest number in each of the following. "
@@ -135,8 +181,56 @@ MANUAL_SOURCE_OVERRIDES: dict[int, dict[int, str]] = {
             "(d) 9000009, 90000001, 9935469, 87590909, 88888888"
         ),
     },
+    7: {
+        9: "A number exceeds 35637844 by 7674156. What is that number?",
+    },
+    9: {
+        11: (
+            "In an examination, 506212 candidates could get through. Out of these, 197538 passed "
+            "in first division, 238604 passed in second division. How many passed in third division?"
+        ),
+    },
     17: {
         15: "Write all odd numbers between (a) 64 and 80 (b) 624 and 640.",
+    },
+    18: {
+        3: "List all prime numbers between 1 and 50.",
+        4: "List all prime numbers between 51 and 100.",
+        5: "List all twin-primes between 1 and 50.",
+        6: "List seven consecutive composite numbers less than 100.",
+        7: "Give four examples of pairs of co-primes.",
+        10: "Give examples of 4 pairs of prime numbers which have only one composite number between them.",
+        11: (
+            "Fill in the blanks. "
+            "(a) ..................... is a factor of every number. "
+            "(b) The least prime number is ..................... . "
+            "(c) The smallest composite number is ..................... . "
+            "(d) Each prime number has exactly ..................... factors. "
+            "(e) ..................... is neither prime nor composite. "
+            "(f) ..................... is the only even prime number. "
+            "(g) The largest 2-digit prime number is ..................... ."
+        ),
+    },
+    19: {
+        6: (
+            "Find the HCF of the following numbers, using division method. "
+            "(a) 60, 96 and 150 "
+            "(b) 75, 100 and 140 "
+            "(c) 270, 945 and 2175 "
+            "(d) 902, 1394 and 3321"
+        ),
+    },
+    23: {
+        18: "Reduce each of the following fractions to simplest form: 51/68.",
+    },
+    24: {
+        4: (
+            "Arrange the following fractions in descending order. "
+            "(a) 3/7, 3/5, 3/11, 3/8, 3/14 "
+            "(b) 8/9, 8/15, 8/11, 8/17, 8/13 "
+            "(c) 5/8, 5/6, 5/11, 5/14, 5/12 "
+            "(d) 10/21, 10/17, 10/19, 10/23, 10/11"
+        ),
     },
     27: {
         17: "Add the fractions: 1/2 + 1/3 + 1/4 + 1/6.",
@@ -144,6 +238,7 @@ MANUAL_SOURCE_OVERRIDES: dict[int, dict[int, str]] = {
     },
     28: {
         10: "Find the sum: 3 2/5 + 1 1/10 + 4/15.",
+        12: "Find the sum: 7 1/2 + 5/9 + 2/3.",
     },
     31: {
         10: "Find the result: 10 - 3 1/5 - 5 3/10.",
@@ -151,13 +246,122 @@ MANUAL_SOURCE_OVERRIDES: dict[int, dict[int, str]] = {
     34: {
         18: "Multiply: 0.0325 by 0.09.",
     },
+    36: {
+        18: (
+            "3/8 of the population of a village consists of women. If 2/3 of the women of that village "
+            "are illiterate, what fraction of the population in that village consists of illiterate women?"
+        ),
+    },
+    39: {
+        5: (
+            "Write each of the following in short form. "
+            "(a) 20 + 7 + 3/10 + 6/100 "
+            "(b) 400 + 30 + 6 + 1/10 + 3/100 + 5/1000 "
+            "(c) 40 + 8/10 + 3/100 + 4/1000 "
+            "(d) 500 + 7 + 2/100 + 3/1000 "
+            "(e) 3000 + 200 + 1 + 6/10 + 7/1000 "
+            "(f) 6000 + 9 + 7/10 + 6/1000"
+        ),
+    },
+    40: {
+        4: (
+            "Arrange the following decimals in descending order. "
+            "(a) 0.1, 0.01, 0.001, 1.1, 1.01 "
+            "(b) 3.1, 0.75, 3.01, 0.57, 2.3, 2.03 "
+            "(c) 1.93, 2.01, 2.1, 1.9, 2.13, 1.87 "
+            "(d) 55.5, 5.55, 55.05, 5.5, 5.05, 55.55 "
+            "(e) 6.06, 6.6, 6.006, 0.66, 0.06, 0.6 "
+            "(f) 2.002, 2.22, 2.02, 2.2, 2.012, 2.021 "
+            "(g) 1.9, 2.6, 1.09, 2.06, 1.009, 2.006"
+        ),
+    },
+    41: {
+        12: (
+            "Find the perimeter of a rectangular park whose length and breadth are "
+            "45 1/2 m and 34 3/4 m respectively."
+        ),
+        14: (
+            "A drum contained 60 litres of milk. Out of this, 15.75 litres of milk was taken out "
+            "in one bucket and 8.5 litres in another bucket. How much milk is left in the drum?"
+        ),
+    },
+    44: {
+        29: "Verify that: 9.8 × 6.4 = 0.98 × 64.",
+        30: "Verify that: 35.079 × 8.5 = 350.79 × 0.85.",
+        31: "Verify that: 6.9 × 5.8 = 5.8 × 6.9.",
+    },
     35: {
         20: "The cost of one pencil is 3 13/20 rupees. What is the cost of 12 such pencils?",
+    },
+    48: {
+        22: (
+            "Fill in the blanks. "
+            "(a) 168.84 ÷ 14 = 1688.4 ÷ .............. "
+            "(b) 32.87 ÷ 1.9 = 3.287 ÷ .............. "
+            "(c) 3.288 ÷ 60 = .............. ÷ 5 "
+            "(d) 36 ÷ 150 = 0.036 ÷ .............."
+        ),
+    },
+    51: {
+        12: (
+            "Think of rounding to the nearest thousand. What numbers could be rounded to "
+            "(a) 9000? (b) 18000? (c) 27000?"
+        ),
+    },
+    53: {
+        8: (
+            "Convert: "
+            "(a) 12 km 34 m into m "
+            "(b) 50 km 9 m into m "
+            "(c) 62 cm 5 mm into mm "
+            "(d) 7 m 8 cm into cm"
+        ),
+    },
+    55: {
+        18: "A man covers 255 km in 6 hours on scooter at a uniform speed. Find his speed in km per hour.",
+    },
+    56: {
+        9: "Subtract: 8 kg 25 g from 10 kg 10 g.",
+        10: (
+            "Nisha bought 8 kg 260 g apples, 6 kg 325 g chikoos and 9 kg 85 g guavas. "
+            "What is the total weight of fruits bought by her?"
+        ),
+        11: "Ashu weighs 36 kg 540 g while his sister Nisha weighs 40 kg 125 g. Who weighs more and by how much?",
+        12: "Shashi and Sakshi together weigh 73 kg 250 g. If Shashi weighs 38 kg 675 g, what is Shaksi's weight?",
+        13: "If each bag of wheat weighs 25 kg 650 g, what is the total weight of 8 such bags?",
+        14: "The total weight of 6 bags of rice is 52 kg 500 g and all the bags weigh equally. Find the weight of each bag.",
+    },
+    57: {
+        1: (
+            "Convert: "
+            "(a) 8 L into mL "
+            "(b) 3 L 360 mL into mL "
+            "(c) 6 kL 250 L into L "
+            "(d) 5 daL 6 L into L"
+        ),
+        2: (
+            "Convert: "
+            "(a) 65 kL 345 L into L "
+            "(b) 5 kL 35 L into L "
+            "(c) 36 kL 5 L into L"
+        ),
+        3: (
+            "Convert: "
+            "(a) 8 L 375 mL into mL "
+            "(b) 37 L 65 mL into mL "
+            "(c) 15 L 6 mL into mL"
+        ),
     },
     60: {
         4: "Find the average of first nine counting numbers.",
     },
+    64: {
+        12: "Find the interval between 7:25 a.m. and 3:10 p.m.",
+    },
     70: {
+        1: "Which of the following figures represents an angle? (a) (b) (c) (d)",
+        2: "Name the angles in each of the following figures. Also, name the vertex and the arms in each case. (a) (b)",
+        3: "How many angles are formed in each of the following figures? Name them. (a) (b) (c) (d)",
         5: (
             "In the adjoining figure, name the points: "
             "(a) on the angle "
@@ -170,6 +374,42 @@ MANUAL_SOURCE_OVERRIDES: dict[int, dict[int, str]] = {
             "Measure the six angles shown in the book with a protractor and fill in the blanks: "
             "(a) angle PQR, (b) angle LMN, (c) angle XYZ, (d) angle DEF, (e) angle ABC, "
             "(f) angle RTS. Write the measurements in your notebook, then type done."
+        ),
+        8: (
+            "Fill in the blanks. "
+            "(a) When two rays form an angle, their common end point is called the ............ of the angle. "
+            "(b) Angles are measured in ............ . "
+            "(c) Angles are measured with the help of a ............ . "
+            "(d) The measure of a right angle is ............ . "
+            "(e) The measure of a ............ angle is 180 degrees."
+        ),
+    },
+    76: {
+        1: "In the given figure, O is the centre of a circle. Name the radii and the diameters in the circle.",
+        2: "In the figure given here, O is the centre of the circle. Name the chords of the circle.",
+        3: (
+            "Fill in the blanks. "
+            "(a) If A and B are two points on a circle, then the line segment AB is called a ............ of the circle. "
+            "(b) A line segment passing through the centre of a circle with its end points on the circle is a ............ of the circle. "
+            "(c) A diameter is the ............ chord of the circle."
+        ),
+    },
+    79: {
+        10: (
+            "Amit has sixty 1 cm cubes. Which of these cuboids can he not build? "
+            "(a) 5 cm long, 4 cm wide, 3 cm high "
+            "(b) 2 cm long, 3 cm wide, 10 cm high "
+            "(c) 4 cm long, 4 cm wide, 4 cm high "
+            "(d) 6 cm long, 5 cm wide, 2 cm high"
+        ),
+        11: "Volume of a cuboid is 1/8 cu m. What is its volume in cu cm?",
+    },
+    51: {
+        9: (
+            "The population of an Indian state is 85642574. Write the population "
+            "(a) to the nearest crore. "
+            "(b) to the nearest lakh. "
+            "(c) to the nearest thousand."
         ),
     },
     80: {
@@ -235,6 +475,251 @@ MANUAL_SOURCE_OVERRIDES: dict[int, dict[int, str]] = {
     },
 }
 
+ADDITIONAL_MANUAL_SOURCE_OVERRIDES: dict[int, dict[int, str]] = {
+    1: {
+        11: (
+            "Write the smallest number of different digits formed by using the digits 5, 9, 3, 1 and 0. "
+            "Also write the greatest number of different digits formed by using the digits 2, 0, 8, 7 and 5."
+        ),
+        31: (
+            "Fill in the missing numerals. "
+            "(a) 9/16 = 27/____ "
+            "(b) 9/13 = ____/78 "
+            "(c) 11/17 = ____/51"
+        ),
+        34: (
+            "Arrange the following fractions in ascending order. "
+            "(a) 2/7, 3/7, 6/7, 5/7 "
+            "(b) 13/19, 15/19, 2/19, 10/19 "
+            "(c) 1/7, 1/4, 1/2, 1/5, 1/3 "
+            "(d) 5/6, 5/10, 5/8, 5/11, 5/9"
+        ),
+        35: (
+            "Add. "
+            "(a) 3/7 + 2/7 "
+            "(b) 2/9 + 5/9 "
+            "(c) 3/8 + 4/8 "
+            "(d) 3/11 + 4/11 + 2/11"
+        ),
+        36: (
+            "Find the difference. "
+            "(a) 4/5 - 2/5 "
+            "(b) 5/7 - 2/7 "
+            "(c) 9/13 - 7/13 "
+            "(d) 11/15 - 7/15"
+        ),
+        37: (
+            "Convert each of the following mixed numerals into an improper fraction. "
+            "(a) 6 5/7 "
+            "(b) 9 3/8 "
+            "(c) 5 11/17"
+        ),
+        38: (
+            "Convert the following improper fractions into mixed numerals. "
+            "(a) 107/9 "
+            "(b) 189/11 "
+            "(c) 212/15"
+        ),
+        28: (
+            "Circle the prime numbers: 2, 5, 9, 13, 17, 21, 27, 31, 37, 43, 49, 54, 63, 68, "
+            "69, 71, 73, 75, 77, 83, 85, 87, 91, 93, 95, 97, 99."
+        ),
+        33: (
+            "Put the correct symbol > or < in the placeholders. "
+            "(a) 5/9 ... 8/9 "
+            "(b) 19/20 ... 17/20 "
+            "(c) 3/8 ... 7/8 "
+            "(d) 7/11 ... 7/15 "
+            "(e) 15/23 ... 15/19 "
+            "(f) 21/20 ... 21/29"
+        ),
+        47: (
+            "Change: "
+            "(a) 2 hm 3 dam into metres "
+            "(b) 8 m 56 mm into mm "
+            "(c) 3 quintals 65 kg into kg "
+            "(d) 2 kL 5 L into L "
+            "(e) 15 L 730 mL into mL "
+            "(f) 12 kg 220 g into g"
+        ),
+        48: (
+            "Change: "
+            "(a) 5530 mm into m and cm "
+            "(b) 2685 mL into L and mL "
+            "(c) 565 kg into quintals and kg "
+            "(d) 8760 g into kg and g"
+        ),
+    },
+    3: {
+        4: "Using Indian place value system, write the place value of each of the digits in the numeral 64,19,70,528.",
+    },
+    6: {
+        5: "Add: 43268974 + 6794347 + 316554.",
+        6: "Add: 16875309 + 23426793 + 4231518.",
+        7: "Add: 134526729 + 243647394 + 69318453.",
+        8: "Add: 245719563 + 463267478 + 71932345.",
+        9: "Add: 5764239 + 43075786 + 139608945 + 96578.",
+        10: "Add: 546271285 + 173827493 + 10374678 + 2992789.",
+        13: "Find the sum: 474361279 + 236554385 + 53168837 + 20716314.",
+    },
+    8: {
+        7: "Subtract: 231629547 - 192739789.",
+        10: "Subtract: 302415206 - 203516438.",
+        14: "Find the difference: 12034504 - 8075698.",
+    },
+    9: {
+        5: "The sum of two numbers is 13604050. If one of the numbers is 7824361, find the other number.",
+    },
+    10: {
+        17: "By using suitable grouping, find the product: 2 x 5726 x 500.",
+    },
+    17: {
+        13: (
+            "Separate even and odd numbers from the following. "
+            "(a) 23 (b) 36 (c) 41 (d) 87 (e) 60 (f) 74 (g) 258 (h) 605."
+        ),
+    },
+    21: {
+        11: (
+            "Six bells commence tolling together and toll at intervals of 2, 4, 6, 8, 10 and 12 seconds "
+            "respectively. After how much time will they toll together again?"
+        ),
+    },
+    22: {
+        2: "Circle each one of the unit fractions given below: 6/1, 1/4, 3/6, 1/7, 9/1, 1/10, 5/5, 1/11.",
+        3: (
+            "Circle each pair of like fractions given below. "
+            "(a) 3/5, 4/5 (b) 2/5, 2/7 (c) 5/9, 7/9 (d) 6/7, 6/11."
+        ),
+        4: (
+            "Circle each pair of unlike fractions given below. "
+            "(a) 1/4, 1/7 (b) 3/4, 3/5 (c) 4/9, 7/9 (d) 5/11, 7/11."
+        ),
+        5: (
+            "Circle each one of the proper fractions given below. "
+            "(a) 5/3 (b) 6/7 (c) 3/3 (d) 8/11 (e) 6/1."
+        ),
+        6: (
+            "Circle each one of the improper fractions given below. "
+            "(a) 7/8 (b) 4/4 (c) 11/6 (d) 8/1 (e) 1/1."
+        ),
+        10: (
+            "Replace the blank in each of the following by the correct numeral. "
+            "(a) 3/5 = 12/____ "
+            "(b) 6/13 = ____/52 "
+            "(c) 7/17 = 35/____ "
+            "(d) 11/27 = 33/____"
+        ),
+        15: (
+            "Check whether the given fractions are equivalent or not. "
+            "(a) 3/4 and 15/20 "
+            "(b) 4/5 and 12/20 "
+            "(c) 2/3 and 10/15 "
+            "(d) 5/8 and 15/24 "
+            "(e) 7/11 and 28/44 "
+            "(f) 3/10 and 12/50"
+        ),
+    },
+    26: {
+        12: "Find the sum of the following: 12/19 + 8/19 + 6/19.",
+    },
+    27: {
+        13: "Find the sum: 5/9 + 7/12 + 1/3.",
+        14: "Find the sum: 3/4 + 5/8 + 7/12.",
+        15: "Find the sum: 3/8 + 5/16 + 13/24.",
+        16: "Find the sum: 5/6 + 7/12 + 11/18.",
+    },
+    30: {
+        24: "Subtract: 1 11/24 - 7/8.",
+    },
+    32: {
+        6: "A drum full of rice weighs 40 1/6 kg. If the empty drum weighs 13 3/4 kg, find the weight of rice in the drum.",
+    },
+    33: {
+        16: "Multiply: 2 10/21 x 28.",
+    },
+    34: {
+        20: "Multiply: 2 1/4 x 1 1/5 x 3 1/3.",
+    },
+    37: {
+        17: "Express 25 minutes as a fraction of an hour.",
+    },
+    38: {
+        9: "The area of a rectangle is 37 4/5 sq. cm. If its length is 6 3/4 cm, find its breadth.",
+    },
+    45: {
+        15: "Amit weighs 50.84 kg. His father is 1.5 times heavier than he is. Calculate his father's weight.",
+    },
+    46: {
+        9: "Divide: 217.44 by 18.",
+    },
+    47: {
+        24: "Find the quotient: 182.5 / 5000.",
+    },
+    49: {
+        22: "Convert the following fraction into decimal: 15/32.",
+    },
+    67: {
+        5: "Add: Rs. 372.56, Rs. 168.68 and Rs. 37.86.",
+    },
+    74: {
+        1: (
+            "In triangle LMN, name the following. "
+            "(a) the vertices of the triangle "
+            "(b) the sides of the triangle "
+            "(c) the angles of the triangle."
+        ),
+        2: (
+            "Classify the following triangles with respect to their sides. "
+            "(a) Triangle LMN with sides 3.2 cm, 3.2 cm and 4 cm "
+            "(b) Triangle PQR with sides 3.4 cm, 3.4 cm and 3.4 cm "
+            "(c) Triangle XYZ with sides 4 cm, 2.8 cm and 4 cm "
+            "(d) Triangle DEF with sides 5 cm, 3 cm and 4 cm "
+            "(e) Triangle ABC with sides 3.6 cm, 3.6 cm and 4.2 cm "
+            "(f) Triangle GHK with sides 4.8 cm, 3.2 cm and 3.5 cm."
+        ),
+        4: (
+            "Is it possible to form a triangle by three line segments of the following lengths? "
+            "(a) 8 cm, 5 cm, 15 cm "
+            "(b) 6 cm, 7 cm, 13 cm "
+            "(c) 7 cm, 6 cm, 11 cm "
+            "(d) 6.5 cm, 16.5 cm, 5.6 cm "
+            "(e) 6 cm, 6 cm, 6 cm "
+            "(f) 7 cm, 8 cm, 10 cm"
+        ),
+        5: (
+            "Fill in the blanks. "
+            "(a) A scalene triangle has all sides of ......................... lengths. "
+            "(b) .................... sides of an isosceles triangle are ........................ in length. "
+            "(c) A triangle with all sides of the same length is called an .................... triangle. "
+            "(d) The sum of the lengths of any two sides of a triangle is always ................. than the length of the third side. "
+            "(e) Each angle of an equilateral triangle measures ............................ . "
+            "(f) All the three angles of a scalene triangle are of .......................... measures. "
+            "(g) The measures of the angles opposite to equal sides of an isosceles triangle are ................... ."
+        ),
+        6: (
+            "State whether the given statement is true or false. "
+            "(a) A triangle having only two sides equal, is called an equilateral triangle. "
+            "(b) An equilateral triangle is also an isosceles triangle. "
+            "(c) The sum of any two sides of a triangle is always greater than the third side. "
+            "(d) Each angle of an isosceles triangle is 60 degrees. "
+            "(e) Two angles of an isosceles triangle are always equal."
+        ),
+    },
+    75: {
+        3: "In triangle ABC, if angle B = 46 degrees and angle C = 54 degrees, find angle A.",
+    },
+    77: {
+        5: (
+            "The perimeter of a triangle is 16 cm and two of its sides measure 3.8 cm and 5.6 cm "
+            "respectively. Find the third side."
+        ),
+    },
+}
+
+for exercise_number, overrides in ADDITIONAL_MANUAL_SOURCE_OVERRIDES.items():
+    MANUAL_SOURCE_OVERRIDES.setdefault(exercise_number, {}).update(overrides)
+
 MANUAL_ANSWER_OVERRIDES: dict[int, dict[int, object]] = {
     20: {
         2: {
@@ -258,6 +743,7 @@ MANUAL_ANSWER_OVERRIDES: dict[int, dict[int, object]] = {
         31: ["40.02", "both products are equal to 40.02"],
     },
     56: {
+        9: ["1 kg 985 g", "1kg 985g", "1985 g"],
         10: ["23 kg 670 g", "23kg 670g", "23670 g"],
         11: [
             "nisha by 3 kg 585 g",
@@ -266,6 +752,25 @@ MANUAL_ANSWER_OVERRIDES: dict[int, dict[int, object]] = {
         ],
         12: ["34 kg 575 g", "34kg 575g", "34575 g"],
         13: ["205 kg 200 g", "205kg 200g", "205200 g"],
+        14: ["8 kg 750 g", "8kg 750g", "8750 g"],
+    },
+    57: {
+        1: {
+            "a": ["8000 mL", "8000ml", "8000"],
+            "b": ["3360 mL", "3360ml", "3360"],
+            "c": ["6250 L", "6250l", "6250"],
+            "d": ["56 L", "56l", "56"],
+        },
+        2: {
+            "a": ["65345 L", "65345l", "65345"],
+            "b": ["5035 L", "5035l", "5035"],
+            "c": ["36005 L", "36005l", "36005"],
+        },
+        3: {
+            "a": ["8375 mL", "8375ml", "8375"],
+            "b": ["37065 mL", "37065ml", "37065"],
+            "c": ["15006 mL", "15006ml", "15006"],
+        },
     },
     79: {
         10: [
@@ -285,6 +790,26 @@ MANUAL_ANSWER_OVERRIDES: dict[int, dict[int, object]] = {
             "e": ["on bicycle", "bicycle"],
         },
     },
+}
+
+ADDITIONAL_MANUAL_ANSWER_OVERRIDES: dict[int, dict[int, object]] = {
+    74: {
+        2: {
+            "a": ["Isosceles"],
+            "b": ["Equilateral"],
+            "c": ["Isosceles"],
+            "d": ["Scalene"],
+            "e": ["Isosceles"],
+            "f": ["Scalene"],
+        },
+    },
+}
+
+for exercise_number, overrides in ADDITIONAL_MANUAL_ANSWER_OVERRIDES.items():
+    MANUAL_ANSWER_OVERRIDES.setdefault(exercise_number, {}).update(overrides)
+
+MANUAL_EXERCISE_QUESTION_LIMITS: dict[int, int] = {
+    57: 3,
 }
 
 
@@ -322,6 +847,7 @@ def clean_text(text: str, *, strip_page_numbers: bool = False) -> str:
     for old, new in replacements.items():
         text = text.replace(old, new)
     text = re.sub(r"(?<!\n)[\t ]{2,}([1-9]\d?\.\s)", r"\n\1", text)
+    text = re.sub(r"\bN\s*C\s*i(?:t)?\s*M\s*(?:th|h)\s*(?:ti|i)\s*5\b", " ", text, flags=re.IGNORECASE)
     text = re.sub(r"(?:\b[A-Za-z]\b\s*){4,}\b\d+\b", " ", text)
     return text
 
@@ -330,17 +856,274 @@ def compact_text(text: str) -> str:
     return re.sub(r"\s+", " ", clean_text(text)).strip(" .;:-")
 
 
-def split_question_items(text: str) -> dict[int, str]:
+FRACTION_STYLE_EXERCISES = {1, *range(22, 39), 49}
+MIXED_PROMPT_EXERCISES = {28, 31, 32, 33, 34, 35, 36, 37, 38}
+MIXED_ANSWER_HINT_EXERCISES = {22, *range(26, 39)}
+NON_MIXED_ANSWER_KEYWORDS = (
+    "equivalent fraction",
+    "simplest form",
+    "lowest terms",
+    "improper fraction",
+    "as a fraction",
+    "unit fractions",
+    "like fractions",
+    "unlike fractions",
+    "proper fraction",
+    "proper fractions",
+    "improper fractions",
+    "greater fraction",
+    "smaller fraction",
+    "reduce",
+    "circle",
+    "compare",
+    "express",
+)
+
+
+def prefers_mixed_fraction_answer(prompt_text: str, exercise_number: int | None) -> bool:
+    prompt = compact_text(prompt_text).lower()
+    if not prompt:
+        return False
+    if "mixed number" in prompt or "mixed numeral" in prompt or "mixed numerals" in prompt:
+        return True
+    if any(keyword in prompt for keyword in NON_MIXED_ANSWER_KEYWORDS):
+        return False
+    if exercise_number in MIXED_PROMPT_EXERCISES:
+        return True
+    if exercise_number in MIXED_ANSWER_HINT_EXERCISES:
+        return any(
+            keyword in prompt
+            for keyword in (
+                "find the sum",
+                "find the difference",
+                "subtract",
+                "multiply",
+                "divide",
+                "quotient",
+                "product",
+                "what must be",
+                "how much",
+                "how far",
+                "what is the weight",
+                "what is the cost",
+                "breadth",
+                "length",
+            )
+        )
+    return False
+
+
+def split_joined_mixed_number(value: str, denominator_text: str) -> str | None:
+    if len(value) < 2 or not denominator_text.isdigit():
+        return None
+    denominator = int(denominator_text)
+    if denominator <= 0:
+        return None
+    for split_index in range(1, len(value)):
+        whole = value[:split_index]
+        numerator = value[split_index:]
+        if numerator.startswith("0"):
+            continue
+        numerator_value = int(numerator)
+        if 0 < numerator_value < denominator:
+            return f"{int(whole)} {numerator_value}/{denominator}"
+    return None
+
+
+def format_fraction_text(
+    text: str,
+    exercise_number: int | None,
+    *,
+    prompt_text: str | None = None,
+    answer_mode: bool = False,
+) -> str:
+    formatted = compact_text(text)
+    if not formatted or exercise_number not in FRACTION_STYLE_EXERCISES:
+        return formatted
+
+    prefers_mixed = (
+        prefers_mixed_fraction_answer(prompt_text or formatted, exercise_number)
+        if answer_mode
+        else exercise_number in MIXED_PROMPT_EXERCISES
+    )
+
+    if prefers_mixed:
+        formatted = re.sub(
+            r"\b(\d+)\s+(\d+)\s+(\d+)\b",
+            lambda match: f"{int(match.group(1))} {int(match.group(2))}/{int(match.group(3))}",
+            formatted,
+        )
+        formatted = re.sub(
+            r"\b(\d{2,4})\s+(\d+)\b",
+            lambda match: split_joined_mixed_number(match.group(1), match.group(2)) or match.group(0),
+            formatted,
+        )
+    else:
+        formatted = re.sub(
+            r"\b(\d+)\s+(\d+)\s+(\d+)\b",
+            lambda match: f"{int(match.group(1))}{int(match.group(2))}/{int(match.group(3))}",
+            formatted,
+        )
+
+    formatted = re.sub(
+        r"\b(\d+)\s+(\d+)\b(?!/)",
+        lambda match: f"{int(match.group(1))}/{int(match.group(2))}",
+        formatted,
+    )
+    formatted = re.sub(r"\s+([,.;:?])", r"\1", formatted)
+    formatted = re.sub(r"([(/])\s+", r"\1", formatted)
+    formatted = re.sub(r"\s+([/)])", r"\1", formatted)
+    return formatted
+
+
+def extract_heading(context: str) -> str | None:
+    lines = [compact_text(line) for line in clean_text(context).splitlines() if compact_text(line)]
+    for line in reversed(lines):
+        lowered = line.lower()
+        if len(line) < 3 or len(line) > 180:
+            continue
+        if EXAMPLE_PATTERN.search(line):
+            continue
+        if any(marker.lower() in lowered for marker in PROMPT_TRIM_MARKERS):
+            continue
+        if lowered.startswith(("hence", "solution", "method", "step ", "we know", "we observe", "read the")):
+            continue
+        if "=" in line:
+            continue
+        if looks_like_real_question(line) or line.endswith(":"):
+            return line.rstrip(":")
+    return None
+
+
+def should_apply_heading(value: str, heading: str | None) -> bool:
+    if not heading:
+        return False
+    lowered = value.lower()
+    if heading.lower() in lowered:
+        return False
+    if looks_like_real_question(value):
+        return False
+    if lowered.startswith("part ("):
+        return False
+    return len(value.split()) <= 18
+
+
+def starts_with_question_clause(text: str) -> bool:
+    compact = compact_text(text).lower()
+    return any(compact.startswith(f"{verb} ") for verb in QUESTION_VERBS)
+
+
+def split_trailing_heading(value: str) -> tuple[str, str | None]:
+    normalized = re.sub(r"\s+", " ", clean_text(value)).strip()
+    compact = compact_text(normalized)
+    if not compact:
+        return compact, None
+
+    for match in QUESTION_START_PATTERN.finditer(normalized):
+        if match.start() <= 12:
+            continue
+        prefix_raw = normalized[:match.start()].rstrip()
+        suffix_raw = normalized[match.start():].lstrip()
+        prefix = compact_text(prefix_raw)
+        suffix = compact_text(suffix_raw)
+        if not prefix or not suffix:
+            continue
+        if prefix_raw.endswith((".", "?", "!")) and not re.search(r"\brepresented by\s+\.$", prefix_raw, re.IGNORECASE):
+            continue
+        lowered_suffix = suffix.lower()
+        is_heading = any(lowered_suffix.startswith(opener) for opener in HEADING_OPENERS)
+        if looks_like_real_question(prefix):
+            if is_heading and not re.search(r"\d", suffix) and len(suffix.split()) <= 12:
+                return prefix, suffix.rstrip(":")
+            continue
+        if is_heading:
+            if starts_with_question_clause(compact) and (re.search(r"\d", suffix) or len(suffix.split()) > 12):
+                continue
+            return prefix, suffix.rstrip(":")
+    if starts_with_question_clause(compact):
+        return compact, None
+    return compact, None
+
+
+def instruction_heading(prompt_text: str) -> str | None:
+    compact = compact_text(prompt_text)
+    if not compact or ":" not in compact:
+        return None
+    heading, tail = compact.split(":", 1)
+    heading = compact_text(heading)
+    tail = compact_text(tail)
+    if not heading or not tail:
+        return None
+    return heading if looks_like_real_question(heading) else None
+
+
+def has_question_clause(prompt_text: str) -> bool:
+    compact = compact_text(prompt_text)
+    if looks_like_real_question(compact):
+        return True
+    if instruction_heading(compact) is not None:
+        return True
+    return bool(re.search(r"[.:;]\s*(?:which|what|how|find|fill|draw|measure|mark|identify|match|write|convert|express|state|tick|use)\b", compact, re.IGNORECASE))
+
+
+def is_valid_source_prompt(prompt_text: str) -> bool:
+    compact = compact_text(prompt_text)
+    if not compact:
+        return False
+    return has_question_clause(compact)
+
+
+def ordered_question_occurrences(text: str) -> list[tuple[int, str]]:
     text = clean_text(text, strip_page_numbers=True)
     matches = list(QUESTION_PATTERN.finditer(text))
-    items: dict[int, str] = {}
+    items: list[tuple[int, str]] = []
+    current_heading: str | None = None
+    previous_end = 0
     for index, match in enumerate(matches):
+        next_question_number = int(matches[index + 1].group(1)) if index + 1 < len(matches) else None
+        heading = extract_heading(text[previous_end:match.start()])
+        if heading:
+            current_heading = heading
         question_number = int(match.group(1))
         end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
-        value = compact_text(text[match.end():end])
+        value = text[match.end():end]
+        if not value:
+            previous_end = end
+            continue
+        value, trailing_heading = split_trailing_heading(value)
+        if should_apply_heading(value, current_heading):
+            value = f"{current_heading}: {value}"
+        value = compact_text(value)
         if value:
-            items.setdefault(question_number, value)
+            items.append((question_number, value))
+        rescued_question_number = None
+        if (
+            trailing_heading
+            and next_question_number is not None
+            and next_question_number > 1
+            and next_question_number - 1 < question_number
+        ):
+            rescued_question_number = next_question_number - 1
+            items.append((rescued_question_number, compact_text(trailing_heading)))
+        if trailing_heading and rescued_question_number is None:
+            current_heading = trailing_heading
+        previous_end = end
     return items
+
+
+def split_question_occurrences(text: str) -> dict[int, list[str]]:
+    items: dict[int, list[str]] = {}
+    for question_number, value in ordered_question_occurrences(text):
+        items.setdefault(question_number, []).append(value)
+    return items
+
+
+def split_question_items(text: str) -> dict[int, str]:
+    return {
+        question_number: values[0]
+        for question_number, values in split_question_occurrences(text).items()
+        if values
+    }
 
 
 def cut_at_markers(text: str, markers: tuple[str, ...]) -> str:
@@ -419,17 +1202,61 @@ def notebook_solution(prompt_text: str) -> str:
     return "Complete this textbook task neatly in your notebook and then type done."
 
 
-def accepted_answers_from_source(answer_source: object) -> list[str]:
-    if isinstance(answer_source, list):
-        answers: list[str] = []
-        for value in answer_source:
-            compact = compact_text(str(value))
-            if compact:
+def unitless_answer_variants(answer_text: str) -> list[str]:
+    variant = answer_text
+    unit_patterns = (
+        r"\bsq\.?\s*(?:cm|m|km|mm)\b",
+        r"\bcu\.?\s*(?:cm|m|km|mm)\b",
+        r"\b(?:square|cubic)\s+(?:centimetres?|centimeters?|metres?|meters?|kilometres?|kilometers?|millimetres?|millimeters?)\b",
+        r"\b(?:centimetres?|centimeters?|metres?|meters?|kilometres?|kilometers?|millimetres?|millimeters?)\b",
+        r"\b(?:kilograms?|grams?|milligrams?|litres?|liters?|millilitres?|milliliters?|rupees?|paisa|paise)\b",
+        r"\b(?:cm2|m2|km2|mm2|cm3|m3|km3|mm3)\b",
+        r"\b(?:kg|g|mg|kl|hl|l|ml|km|hm|dam|dm|cm|mm|m)\b",
+        r"\brs\.?\b",
+        r"₹",
+    )
+    for pattern in unit_patterns:
+        variant = re.sub(pattern, " ", variant, flags=re.IGNORECASE)
+    compact = compact_text(variant)
+    return [compact] if compact and compact != compact_text(answer_text) else []
+
+
+def accepted_answers_from_source(
+    answer_source: object,
+    *,
+    exercise_number: int | None = None,
+    prompt_text: str = "",
+) -> list[str]:
+    answers: list[str] = []
+
+    def add_answer(value: str) -> None:
+        variants = [
+            format_fraction_text(
+                value,
+                exercise_number,
+                prompt_text=prompt_text,
+                answer_mode=True,
+            ),
+            compact_text(value),
+        ]
+        for compact in variants:
+            if not compact:
+                continue
+            if compact not in answers:
                 answers.append(compact)
+            for variant in unitless_answer_variants(compact):
+                if variant not in answers:
+                    answers.append(variant)
+
+    if isinstance(answer_source, list):
+        for value in answer_source:
+            add_answer(str(value))
         return answers
     if isinstance(answer_source, str):
-        answer = compact_text(answer_source)
-        return [answer] if answer else []
+        parts = [part.strip() for part in re.split(r"\bor\b", answer_source, flags=re.IGNORECASE) if part.strip()]
+        for part in parts or [answer_source]:
+            add_answer(part)
+        return answers
     return []
 
 
@@ -439,6 +1266,17 @@ def selected_part_keys(answer_source: str) -> set[str]:
 
 def selection_answers_for_stem(stem: str, *, selected: bool) -> list[str] | None:
     compact = compact_text(stem).lower()
+    is_selection_prompt = any(
+        marker in compact
+        for marker in (
+            "circle",
+            "tick",
+            "encircle",
+            "which of the following",
+            "separate even and odd",
+            "identify",
+        )
+    )
     if "meaningless" in compact:
         return ["meaningless", "yes"] if selected else ["meaningful", "no", "not meaningless"]
     divisible_match = re.search(r"divisible by (\d+)", compact)
@@ -449,7 +1287,7 @@ def selection_answers_for_stem(stem: str, *, selected: bool) -> list[str] | None
             if selected
             else ["not divisible", "no", f"not divisible by {divisor}"]
         )
-    if "improper fractions" in compact:
+    if "improper fractions" in compact and is_selection_prompt:
         return ["improper fraction", "improper", "yes"] if selected else ["proper fraction", "proper", "no"]
     return None
 
@@ -460,6 +1298,80 @@ def is_consecutive_prefix(keys: set[str]) -> bool:
     ordered = sorted(keys)
     expected = [chr(code) for code in range(ord("a"), ord("a") + len(ordered))]
     return ordered == expected
+
+
+def trim_prompt_candidate(
+    prompt_text: str,
+    chapter_number: int | None = None,
+    chapters: dict[int, tuple[str, str]] | None = None,
+) -> str:
+    trimmed = compact_text(prompt_text)
+    trim_points: list[int] = []
+    for marker in PROMPT_TRIM_MARKERS:
+        match = re.search(re.escape(marker), trimmed, re.IGNORECASE)
+        if match and match.start() > 0:
+            trim_points.append(match.start())
+    for pattern in (EXAMPLE_PATTERN, ACTIVITY_PATTERN):
+        match = pattern.search(trimmed)
+        if match and match.start() > 0:
+            trim_points.append(match.start())
+    if chapter_number is not None and chapters is not None and chapter_number + 1 in chapters:
+        next_title = chapters[chapter_number + 1][0]
+        next_marker = re.search(rf"{re.escape(next_title)}\s+{chapter_number + 1}\b", trimmed, re.IGNORECASE)
+        if next_marker and next_marker.start() > 0:
+            trim_points.append(next_marker.start())
+    exercise_match = re.search(r"\bExercise\s+\d+\b", trimmed, re.IGNORECASE)
+    if exercise_match and exercise_match.start() > 0:
+        trim_points.append(exercise_match.start())
+    if trim_points:
+        trimmed = trimmed[: min(trim_points)]
+    trimmed = re.sub(r"\bN\s*C\s*i(?:t)?\s*M\s*(?:th|h)\s*(?:ti|i)\s*5\b", " ", trimmed, flags=re.IGNORECASE)
+    return compact_text(trimmed)
+
+
+def prompt_score(prompt_text: str) -> tuple[int, int]:
+    compact = compact_text(prompt_text)
+    lowered = compact.lower()
+    score = 0
+    if looks_like_real_question(compact):
+        score += 80
+    if "?" in compact:
+        score += 20
+    if re.search(r"\d", compact):
+        score += 12
+    if any(marker.lower() in lowered for marker in PROMPT_TRIM_MARKERS):
+        score -= 120
+    if EXAMPLE_PATTERN.search(compact):
+        score -= 100
+    if ACTIVITY_PATTERN.search(compact):
+        score -= 90
+    if "n c it" in lowered:
+        score -= 60
+    if len(compact) > 320:
+        score -= 40
+    if not looks_like_real_question(compact) and not re.search(r"\d", compact):
+        score -= 20
+    return score, -len(compact)
+
+
+def choose_best_prompt(
+    candidates: list[str],
+    chapter_number: int | None = None,
+    chapters: dict[int, tuple[str, str]] | None = None,
+) -> str | None:
+    best_prompt: str | None = None
+    best_score: tuple[int, int] | None = None
+    seen: set[str] = set()
+    for candidate in candidates:
+        trimmed = trim_prompt_candidate(candidate, chapter_number, chapters)
+        if not trimmed or trimmed in seen:
+            continue
+        seen.add(trimmed)
+        score = prompt_score(trimmed)
+        if best_score is None or score > best_score:
+            best_score = score
+            best_prompt = trimmed
+    return best_prompt
 
 
 class ExercisePdfParser:
@@ -482,11 +1394,17 @@ class ExercisePdfParser:
             for match in re.finditer(r"Exercise\s+(\d+)", self.answer_text, re.IGNORECASE)
         }
 
-    def source_questions(self, exercise_number: int) -> dict[int, str]:
+    def source_questions(
+        self,
+        exercise_number: int,
+        chapter_number: int | None = None,
+        chapters: dict[int, tuple[str, str]] | None = None,
+    ) -> dict[int, str]:
         page_number, start_index = self.source_headers[exercise_number]
         next_exercise = next((number for number in sorted(self.source_headers) if number > exercise_number), None)
+        answer_items = self.answer_questions(exercise_number)
 
-        block_parts = [self.page_texts[page_number - 1][start_index:]]
+        block_parts = [self.page_texts[page_number - 1]]
         if next_exercise is not None:
             next_page_number, next_start_index = self.source_headers[next_exercise]
             for current_page in range(page_number + 1, next_page_number):
@@ -494,26 +1412,30 @@ class ExercisePdfParser:
             if next_page_number > page_number:
                 block_parts.append(self.page_texts[next_page_number - 1][:next_start_index])
 
-        question_items = split_question_items(cut_at_markers("\n".join(block_parts), SOURCE_CUT_MARKERS))
-        prefix_items = split_question_items(clean_text(self.page_texts[page_number - 1][:start_index], strip_page_numbers=True))
-        answer_items = self.answer_questions(exercise_number)
+        question_items: dict[int, str] = {}
+        for question_number, candidate in ordered_question_occurrences(cut_at_markers("\n".join(block_parts), SOURCE_CUT_MARKERS)):
+            if question_number in question_items:
+                continue
+            trimmed = trim_prompt_candidate(candidate, chapter_number, chapters)
+            if is_valid_source_prompt(trimmed):
+                question_items[question_number] = trimmed
+
         fill_limit = max(answer_items) if answer_items else (max(question_items) if question_items else 0)
-        for question_number in range(1, fill_limit + 1):
-            if question_number not in question_items and question_number in prefix_items:
-                question_items[question_number] = prefix_items[question_number]
-        if not question_items and prefix_items:
-            question_items = prefix_items.copy()
+        if answer_items and page_number > 1:
+            for question_number, candidate in ordered_question_occurrences(self.page_texts[page_number - 2]):
+                if question_number in question_items or question_number > fill_limit:
+                    continue
+                trimmed = trim_prompt_candidate(candidate, chapter_number, chapters)
+                if is_valid_source_prompt(trimmed):
+                    question_items[question_number] = trimmed
 
         if answer_items:
             max_answer_question = max(answer_items)
             question_items = {
                 question_number: prompt_text
                 for question_number, prompt_text in question_items.items()
-                if question_number <= max_answer_question or (
-                    looks_like_real_question(prompt_text) and
-                    "Example" not in prompt_text and
-                    "Solution:" not in prompt_text
-                )
+                if question_number <= max_answer_question
+                or is_notebook_task(prompt_text)
             }
 
         overrides = MANUAL_SOURCE_OVERRIDES.get(exercise_number, {})
@@ -556,17 +1478,58 @@ def make_notebook_answer(prompt_text: str) -> dict[str, object]:
     }
 
 
-def make_text_answer(answer_source: object) -> dict[str, object]:
-    accepted_answers = accepted_answers_from_source(answer_source)
-    solution_text = compact_text(accepted_answers[0] if accepted_answers else "")
+def display_answer_from_source(
+    answer_source: object,
+    *,
+    exercise_number: int | None = None,
+    prompt_text: str = "",
+) -> str:
+    if isinstance(answer_source, list) and answer_source:
+        return format_fraction_text(
+            str(answer_source[0]),
+            exercise_number,
+            prompt_text=prompt_text,
+            answer_mode=True,
+        )
+    if isinstance(answer_source, str):
+        parts = [part.strip() for part in re.split(r"\bor\b", answer_source, flags=re.IGNORECASE) if part.strip()]
+        first_part = parts[0] if parts else answer_source
+        return format_fraction_text(
+            first_part,
+            exercise_number,
+            prompt_text=prompt_text,
+            answer_mode=True,
+        )
+    return ""
+
+
+def make_text_answer(
+    answer_source: object,
+    *,
+    exercise_number: int | None = None,
+    prompt_text: str = "",
+) -> dict[str, object]:
+    accepted_answers = accepted_answers_from_source(
+        answer_source,
+        exercise_number=exercise_number,
+        prompt_text=prompt_text,
+    )
+    solution_text = display_answer_from_source(
+        answer_source,
+        exercise_number=exercise_number,
+        prompt_text=prompt_text,
+    ) or compact_text(accepted_answers[0] if accepted_answers else "")
     return {
         "acceptedAnswers": accepted_answers,
         "solutionText": solution_text,
-        "wrongReason": "Check the textbook answer carefully and compare the final form again.",
-        "supportExample": f"Textbook answer: {solution_text}",
-        "reteachTitle": "Textbook answer check",
-        "reteachParagraphs": [f"Official answer: {solution_text}"],
-        "exampleText": f"Textbook answer: {solution_text}",
+        "wrongReason": "Solve the question again step by step and compare the final value. Units can be ignored while checking the answer.",
+        "supportExample": f"Solved answer: {solution_text}",
+        "reteachTitle": "See solution",
+        "reteachParagraphs": [
+            "Solve the question again and compare the final value with the answer key. Do not worry if you skip the unit words.",
+            f"Final answer: {solution_text}",
+        ],
+        "exampleText": f"Solved answer: {solution_text}",
         "quizPromptSuffix": "",
     }
 
@@ -588,8 +1551,17 @@ def build_topic(
 ) -> dict[str, object]:
     chapter_title_en, chapter_title_hi = chapters[chapter_number]
     label = question_label(chapter_number, exercise_number, question_number, part_key)
-    answer_payload = make_text_answer(answer_source) if answer_source is not None else make_notebook_answer(prompt_text)
-    quiz_prompt = compact_text(prompt_text)
+    display_prompt_text = format_fraction_text(prompt_text, exercise_number)
+    answer_payload = (
+        make_text_answer(
+            answer_source,
+            exercise_number=exercise_number,
+            prompt_text=display_prompt_text,
+        )
+        if answer_source is not None
+        else make_notebook_answer(display_prompt_text)
+    )
+    quiz_prompt = compact_text(display_prompt_text)
     prompt_suffix = answer_payload["quizPromptSuffix"]
     normalized_prompt_suffix = compact_text(str(prompt_suffix))
     if normalized_prompt_suffix and not quiz_prompt.lower().endswith(normalized_prompt_suffix.lower()):
@@ -616,7 +1588,7 @@ def build_topic(
             loc(
                 f"This is Exercise {exercise_number}, Question {label} from Chapter {chapter_number}."
             ),
-            loc(f"Book question: {compact_text(prompt_text)}"),
+            loc(f"Book question: {display_prompt_text}"),
         ],
         "examples": [loc(str(answer_payload["exampleText"]))],
         "visuals": [],
@@ -745,9 +1717,30 @@ def build_exercise_topics(chapters: dict[int, tuple[str, str]]) -> list[dict[str
 
     for exercise_number in sorted(EXERCISE_TO_CHAPTER):
         chapter_number = EXERCISE_TO_CHAPTER[exercise_number]
-        source_questions = parser.source_questions(exercise_number)
+        source_questions = parser.source_questions(
+            exercise_number,
+            chapter_number=chapter_number,
+            chapters=chapters,
+        )
         answer_questions = parser.answer_questions(exercise_number)
         manual_answers = MANUAL_ANSWER_OVERRIDES.get(exercise_number, {})
+        question_limit = MANUAL_EXERCISE_QUESTION_LIMITS.get(exercise_number)
+        if question_limit is not None:
+            source_questions = {
+                question_number: prompt_text
+                for question_number, prompt_text in source_questions.items()
+                if question_number <= question_limit
+            }
+            answer_questions = {
+                question_number: answer_source
+                for question_number, answer_source in answer_questions.items()
+                if question_number <= question_limit
+            }
+            manual_answers = {
+                question_number: answer_source
+                for question_number, answer_source in manual_answers.items()
+                if question_number <= question_limit
+            }
 
         all_question_numbers = sorted(set(source_questions) | set(answer_questions) | set(manual_answers))
         for question_number in all_question_numbers:
