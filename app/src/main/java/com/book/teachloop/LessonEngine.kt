@@ -383,6 +383,28 @@ object StudyPlanner {
             .take(6)
             .map { it.subtopicTitle }
 
+        val firstAttemptCorrectTopics = eligibleTopics(book, profile)
+            .mapNotNull { topic ->
+                val progress = profile.topicProgress[topic.id] ?: return@mapNotNull null
+                if (progress.firstAttemptCorrect == true) attemptSummaryText(topic, progress) else null
+            }
+
+        val firstAttemptWrongTopics = eligibleTopics(book, profile)
+            .mapNotNull { topic ->
+                val progress = profile.topicProgress[topic.id] ?: return@mapNotNull null
+                if (progress.firstAttemptCorrect == false) attemptSummaryText(topic, progress) else null
+            }
+
+        val legacyTrackedTopics = eligibleTopics(book, profile)
+            .mapNotNull { topic ->
+                val progress = profile.topicProgress[topic.id] ?: return@mapNotNull null
+                if (progress.totalAttempts > 0 && progress.firstAttemptCorrect == null) {
+                    attemptSummaryText(topic, progress)
+                } else {
+                    null
+                }
+            }
+
         val chapterMastery = book.topics
             .groupBy { it.chapterNumber }
             .toSortedMap()
@@ -437,6 +459,9 @@ object StudyPlanner {
             weakTopics = weakTopics,
             supportHeavyTopics = supportHeavyTopics,
             totalStars = profile.totalStars,
+            firstAttemptCorrectTopics = firstAttemptCorrectTopics,
+            firstAttemptWrongTopics = firstAttemptWrongTopics,
+            legacyTrackedTopics = legacyTrackedTopics,
             focusTopics = focusTopics,
             weakTopicTitles = weakTopicTitles,
             chartPoints = chartPoints,
@@ -454,6 +479,7 @@ object StudyPlanner {
         book: StudyBook,
         profile: StudentProfile,
         topic: StudyTopic,
+        questionPrompt: LocalizedText?,
         difficulty: Difficulty,
         mode: StudyMode?,
         correct: Boolean,
@@ -471,6 +497,8 @@ object StudyPlanner {
         } else {
             existing.mistakeCounts
         }
+        val firstAttemptCorrect = existing.firstAttemptCorrect ?: correct
+        val firstAttemptQuestionPrompt = existing.firstAttemptQuestionPrompt ?: questionPrompt
 
         val updatedProgress = if (correct) {
             val stage = when {
@@ -478,13 +506,21 @@ object StudyPlanner {
                 mode == StudyMode.REVISION -> (existing.reviewStage + 1).coerceAtMost(reviewDelays.lastIndex)
                 else -> existing.reviewStage
             }
+            val firstAttemptWasCorrect = existing.totalAttempts == 0 && existing.wrongAnswers == 0
+            val topicStars = if (firstAttemptWasCorrect) {
+                max(existing.starsEarned, difficulty.starValue)
+            } else {
+                existing.starsEarned
+            }
 
             existing.copy(
                 totalAttempts = existing.totalAttempts + 1,
                 correctAnswers = existing.correctAnswers + 1,
+                firstAttemptCorrect = firstAttemptCorrect,
+                firstAttemptQuestionPrompt = firstAttemptQuestionPrompt,
                 explanationRepeats = existing.explanationRepeats + explanationRepeats,
                 mastered = true,
-                starsEarned = max(existing.starsEarned, difficulty.starValue),
+                starsEarned = topicStars,
                 reviewStage = stage,
                 lastStudiedAt = now,
                 nextRevisionAt = now + reviewDelays[stage] * DAY_IN_MILLIS,
@@ -495,6 +531,8 @@ object StudyPlanner {
             existing.copy(
                 totalAttempts = existing.totalAttempts + 1,
                 wrongAnswers = existing.wrongAnswers + 1,
+                firstAttemptCorrect = firstAttemptCorrect,
+                firstAttemptQuestionPrompt = firstAttemptQuestionPrompt,
                 explanationRepeats = existing.explanationRepeats + explanationRepeats,
                 lastStudiedAt = now,
                 reviewStage = 0,
@@ -661,6 +699,21 @@ object StudyPlanner {
     private fun isWeak(progress: TopicProgress?): Boolean {
         progress ?: return false
         return !progress.mastered || progress.wrongAnswers >= 2 || progress.explanationRepeats >= 2
+    }
+
+    private fun attemptSummaryText(
+        topic: StudyTopic,
+        progress: TopicProgress,
+    ): LocalizedText {
+        val prompt = progress.firstAttemptQuestionPrompt ?: topic.questions.firstOrNull()?.prompt
+        return if (prompt == null) {
+            topic.subtopicTitle
+        } else {
+            text(
+                english = "${topic.subtopicTitle.english} -> ${prompt.english}",
+                hindi = "${topic.subtopicTitle.hindi} -> ${prompt.hindi}",
+            )
+        }
     }
 
     private fun dayKey(now: Long): String {

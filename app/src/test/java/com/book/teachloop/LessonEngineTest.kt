@@ -32,6 +32,7 @@ class LessonEngineTest {
             book = book,
             profile = profile,
             topic = topic,
+            questionPrompt = topic.questions.firstOrNull()?.prompt,
             difficulty = Difficulty.EASY,
             mode = StudyMode.MAIN_PATH,
             correct = false,
@@ -84,6 +85,7 @@ class LessonEngineTest {
             book = book,
             profile = firstPass,
             topic = topic,
+            questionPrompt = topic.questions.firstOrNull()?.prompt,
             difficulty = Difficulty.MEDIUM,
             mode = StudyMode.REVISION,
             correct = true,
@@ -95,5 +97,85 @@ class LessonEngineTest {
 
         assertEquals(1, updated.revisionRewardCount)
         assertTrue(updated.topicProgress.getValue(topic.id).mastered)
+    }
+
+    @Test
+    fun retryAfterFirstWrongAnswer_doesNotEarnTopicStars() {
+        val topic = book.topics.first()
+        val profile = StudentProfile(id = "p1", name = "Student")
+
+        val afterWrong = StudyPlanner.updateProfileAfterAttempt(
+            book = book,
+            profile = profile,
+            topic = topic,
+            questionPrompt = topic.questions.firstOrNull()?.prompt,
+            difficulty = Difficulty.EASY,
+            mode = StudyMode.MAIN_PATH,
+            correct = false,
+            explanationRepeats = 0,
+            mistakeType = MistakeType.READING,
+            timeSpentMillis = 1000L,
+            now = 1_000L,
+        )
+        val afterRetryCorrect = StudyPlanner.updateProfileAfterAttempt(
+            book = book,
+            profile = afterWrong,
+            topic = topic,
+            questionPrompt = topic.questions.firstOrNull()?.prompt,
+            difficulty = Difficulty.EASY,
+            mode = StudyMode.MAIN_PATH,
+            correct = true,
+            explanationRepeats = 1,
+            mistakeType = null,
+            timeSpentMillis = 1000L,
+            now = 2_000L,
+        )
+
+        assertEquals(0, afterRetryCorrect.totalStars)
+        assertEquals(0, afterRetryCorrect.topicProgress.getValue(topic.id).starsEarned)
+        assertTrue(afterRetryCorrect.topicProgress.getValue(topic.id).mastered)
+    }
+
+    @Test
+    fun report_separatesFirstAttemptCorrectAndWrongTopics() {
+        val firstTopic = book.topics[0]
+        val secondTopic = book.topics[1]
+        val thirdTopic = book.topics[2]
+        val profile = StudentProfile(
+            id = "p1",
+            name = "Student",
+            topicProgress = mapOf(
+                firstTopic.id to TopicProgress(
+                    topicId = firstTopic.id,
+                    totalAttempts = 1,
+                    correctAnswers = 1,
+                    firstAttemptCorrect = true,
+                    firstAttemptQuestionPrompt = firstTopic.questions.firstOrNull()?.prompt,
+                    mastered = true,
+                    starsEarned = 1,
+                ),
+                secondTopic.id to TopicProgress(
+                    topicId = secondTopic.id,
+                    totalAttempts = 2,
+                    correctAnswers = 1,
+                    wrongAnswers = 1,
+                    firstAttemptCorrect = false,
+                    firstAttemptQuestionPrompt = secondTopic.questions.firstOrNull()?.prompt,
+                    mastered = true,
+                ),
+                thirdTopic.id to TopicProgress(
+                    topicId = thirdTopic.id,
+                    totalAttempts = 1,
+                    correctAnswers = 1,
+                    mastered = true,
+                ),
+            ),
+        )
+
+        val report = StudyPlanner.buildReport(book, profile, now = 10_000L)
+
+        assertTrue(report.firstAttemptCorrectTopics.any { it.english.contains(firstTopic.subtopicTitle.english) })
+        assertTrue(report.firstAttemptWrongTopics.any { it.english.contains(secondTopic.subtopicTitle.english) })
+        assertTrue(report.legacyTrackedTopics.any { it.english.contains(thirdTopic.subtopicTitle.english) })
     }
 }

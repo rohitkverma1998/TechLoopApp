@@ -412,6 +412,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             book = book,
             profile = previousProfile,
             topic = topic,
+            questionPrompt = currentQuestion.prompt,
             difficulty = Difficulty.EASY,
             mode = engine.session.mode,
             correct = result.correct,
@@ -673,6 +674,21 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         } else {
             report.focusTopics.joinToString("\n") { "- ${it.display(appState.language)}" }
         }
+        val firstTryCorrectText = reportListText(
+            items = report.firstAttemptCorrectTopics,
+            emptyEnglish = "No topic has been solved correctly on the first try yet.",
+            emptyHindi = "अभी तक कोई विषय पहली कोशिश में सही हल नहीं हुआ है।",
+        )
+        val firstTryWrongText = reportListText(
+            items = report.firstAttemptWrongTopics,
+            emptyEnglish = "No first-try mistakes yet.",
+            emptyHindi = "अभी तक पहली कोशिश की कोई गलती नहीं है।",
+        )
+        val legacyTrackedText = reportListText(
+            items = report.legacyTrackedTopics,
+            emptyEnglish = "No older topics need migration notes.",
+            emptyHindi = "कोई पुराना विषय माइग्रेशन नोट के लिए नहीं है।",
+        )
 
         binding.reportBodyText.text = listOf(
             ui(
@@ -689,6 +705,12 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 "à¤¬à¤¾à¤°-à¤¬à¤¾à¤° à¤¸à¤®à¤à¤¾à¤¨à¥‡ à¤µà¤¾à¤²à¥‡ à¤µà¤¿à¤·à¤¯: ${report.supportHeavyTopics}",
             ),
             ui("Total stars: ${report.totalStars}", "à¤•à¥à¤² à¤¸à¤¿à¤¤à¤¾à¤°à¥‡: ${report.totalStars}"),
+            "${ui("First attempt correct", "पहली कोशिश में सही")}:\n$firstTryCorrectText",
+            "${ui("First attempt wrong", "पहली कोशिश में गलत")}:\n$firstTryWrongText",
+            "${ui("Older tracked topics", "पुराने ट्रैक किए गए विषय")}:\n${ui(
+                "These were answered before first-try tracking was added, so the exact first attempt is unknown.",
+                "इनका उत्तर पहली-कोशिश ट्रैकिंग जुड़ने से पहले दिया गया था, इसलिए पहली कोशिश का सटीक परिणाम उपलब्ध नहीं है।",
+            )}\n$legacyTrackedText",
             "${ui("Focus topics", "à¤§à¥à¤¯à¤¾à¤¨ à¤¦à¥‡à¤¨à¥‡ à¤µà¤¾à¤²à¥‡ à¤µà¤¿à¤·à¤¯")}:\n$focusText",
         ).joinToString("\n\n")
         renderMetricBars(report)
@@ -1901,6 +1923,8 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             totalAttempts = progress.totalAttempts.coerceAtLeast(0),
             correctAnswers = progress.correctAnswers.coerceAtLeast(0),
             wrongAnswers = progress.wrongAnswers.coerceAtLeast(0),
+            firstAttemptCorrect = progress.firstAttemptCorrect,
+            firstAttemptQuestionPrompt = progress.firstAttemptQuestionPrompt?.let(::sanitizeLocalizedText),
             explanationRepeats = progress.explanationRepeats.coerceAtLeast(0),
             mastered = progress.mastered,
             starsEarned = progress.starsEarned.coerceAtLeast(0),
@@ -1962,7 +1986,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     private fun barText(value: Int, maxValue: Int): String {
         val safeMax = maxValue.coerceAtLeast(1)
         val filled = ((value.coerceAtLeast(0).toFloat() / safeMax.toFloat()) * 10f).toInt().coerceIn(0, 10)
-        return "â–ˆ".repeat(filled) + "â–‘".repeat(10 - filled)
+        return "[" + "#".repeat(filled) + ".".repeat(10 - filled) + "]"
     }
 
     private fun mistakeLabel(type: MistakeType): String {
@@ -1991,6 +2015,21 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     private fun compactUi(english: String, hindi: String): String {
         val safeHindi = if (looksCorruptedHindi(hindi)) english else hindi
         return if (appState.language == AppLanguage.HINDI) safeHindi else english
+    }
+
+    private fun sanitizeLocalizedText(value: LocalizedText): LocalizedText {
+        val english = value.english.ifBlank { value.hindi }
+        val hindi = value.hindi.ifBlank { english }
+        return LocalizedText(english = english, hindi = hindi)
+    }
+
+    private fun reportListText(
+        items: List<LocalizedText>,
+        emptyEnglish: String,
+        emptyHindi: String,
+    ): String {
+        if (items.isEmpty()) return ui(emptyEnglish, emptyHindi)
+        return items.joinToString("\n") { "- ${it.display(appState.language)}" }
     }
 
     private fun looksCorruptedHindi(value: String): Boolean {
