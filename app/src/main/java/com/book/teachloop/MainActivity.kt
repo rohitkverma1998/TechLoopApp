@@ -8,6 +8,7 @@ import android.os.Looper
 import android.provider.Settings
 import android.speech.tts.TextToSpeech
 import android.speech.tts.UtteranceProgressListener
+import android.speech.tts.Voice
 import android.text.InputType
 import android.util.Log
 import android.view.Gravity
@@ -62,6 +63,14 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     private var ttsInitializing = false
     private var lastSpokenToken: String? = null
     private var ttsIssueMessage: String? = null
+    private var englishSpeechProfile: SpeechProfile? = null
+    private var hindiSpeechProfile: SpeechProfile? = null
+    private var activeSpeechProfileKey: String? = null
+
+    private data class SpeechProfile(
+        val locale: Locale,
+        val voice: Voice? = null,
+    )
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -175,7 +184,17 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             }
             if (updatedLanguage != appState.language) {
                 appState = appState.copy(language = updatedLanguage)
-                latestStatusMessage = ui("Language updated.", "à¤­à¤¾à¤·à¤¾ à¤¬à¤¦à¤² à¤¦à¥€ à¤—à¤ˆà¥¤")
+                textToSpeech?.stop()
+                lastSpokenToken = null
+                activeSpeechProfileKey = null
+                if (textToSpeech != null && !ttsInitializing) {
+                    ttsReady = configureSpeechLanguage()
+                }
+                latestStatusMessage = if (ttsReady || textToSpeech == null) {
+                    ui("Language updated.", "à¤­à¤¾à¤·à¤¾ à¤¬à¤¦à¤² à¤¦à¥€ à¤—à¤ˆà¥¤")
+                } else {
+                    ttsIssueMessage ?: TTS_UNAVAILABLE_MESSAGE
+                }
                 render()
             }
         }
@@ -1541,6 +1560,14 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         activeChalkCharacterCount = 0
         engine.currentTopic()?.let(::renderExplanationSentences)
         val sentence = currentSpeechSentences.getOrElse(currentSpeechIndex) { currentSpeechSentences.last() }
+        val speechProfile = speechProfileForText(sentence) ?: defaultSpeechProfile()
+        if (speechProfile == null || !applySpeechProfile(speechProfile, reason = "utterance")) {
+            ttsReady = false
+            ttsIssueMessage = TTS_UNAVAILABLE_MESSAGE
+            latestStatusMessage = ttsIssueMessage
+            renderStatus()
+            return
+        }
         textToSpeech?.speak(sentence, TextToSpeech.QUEUE_FLUSH, null, "topic_sentence_$currentSpeechIndex")
     }
 
@@ -1676,22 +1703,169 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun configureSpeechLanguage(): Boolean {
-        val preferredLocales = when (appState.language) {
-            AppLanguage.HINDI -> listOf(Locale("hi", "IN"), Locale.forLanguageTag("hi-IN"), Locale.getDefault())
-            AppLanguage.BILINGUAL -> listOf(Locale("hi", "IN"), Locale.US, Locale.getDefault())
-            AppLanguage.ENGLISH -> listOf(Locale.US, Locale.UK, Locale.getDefault())
-        }.distinct()
+        englishSpeechProfile = resolveSpeechProfile(
+            preferredLocales = listOf(
+                Locale("en", "IN"),
+                Locale.UK,
+                Locale.US,
+                Locale.getDefault(),
+            ),
+        )
+        hindiSpeechProfile = resolveSpeechProfile(
+            preferredLocales = listOf(
+                Locale("hi", "IN"),
+                Locale("hi"),
+                Locale.getDefault(),
+            ),
+        )
+        Log.d(
+            TAG,
+            "Resolved speech profiles english=${describeSpeechProfile(englishSpeechProfile)} hindi=${describeSpeechProfile(hindiSpeechProfile)}",
+        )
 
-        preferredLocales.forEach { locale ->
-            val result = textToSpeech?.setLanguage(locale) ?: TextToSpeech.LANG_NOT_SUPPORTED
-            if (result != TextToSpeech.LANG_MISSING_DATA && result != TextToSpeech.LANG_NOT_SUPPORTED) {
-                textToSpeech?.setSpeechRate(appState.narrationPace.speechRate)
-                return true
+        activeSpeechProfileKey = null
+        val defaultProfile = defaultSpeechProfile()
+        if (defaultProfile == null || !applySpeechProfile(defaultProfile, reason = "configure")) {
+            ttsIssueMessage = TTS_UNAVAILABLE_MESSAGE
+            return false
+        }
+
+        ttsIssueMessage = null
+        return true
+    }
+
+    private fun resolveSpeechProfile(preferredLocales: List<Locale>): SpeechProfile? {
+        val tts = textToSpeech ?: return null
+        preferredLocales.distinct().forEach { locale ->
+            val availability = tts.isLanguageAvailable(locale)
+            if (isSupportedSpeechResult(availability)) {
+                return SpeechProfile(
+                    locale = locale,
+                    voice = selectVoiceForLocale(locale),
+                )
+            }
+        }
+        return null
+    }
+
+    private fun selectVoiceForLocale(locale: Locale): Voice? {
+        return textToSpeech
+            ?.voices
+            .orEmpty()
+            .filter { voice -> voice.locale.language == locale.language }
+            .sortedWith(
+                compareBy<Voice>(
+                    { !isExactLocaleMatch(it.locale, locale) },
+                    { !isCountryMatch(it.locale, locale) },
+                    { it.isNetworkConnectionRequired },
+                    { isVoiceNotInstalled(it) },
+                    { it.name.lowercase(Locale.US) },
+                ),
+            )
+            .firstOrNull()
+    }
+
+    private fun defaultSpeechProfile(): SpeechProfile? {
+        return when (appState.language) {
+            AppLanguage.ENGLISH -> englishSpeechProfile ?: hindiSpeechProfile
+            AppLanguage.HINDI -> hindiSpeechProfile ?: englishSpeechProfile
+            AppLanguage.BILINGUAL -> hindiSpeechProfile ?: englishSpeechProfile
+        }
+    }
+
+    private fun speechProfileForText(text: String): SpeechProfile? {
+        val hasDevanagari = containsDevanagari(text)
+        val hasLatinLetters = containsLatinLetters(text)
+        return when {
+            hasDevanagari -> hindiSpeechProfile ?: englishSpeechProfile
+            hasLatinLetters -> englishSpeechProfile ?: hindiSpeechProfile
+            appState.language == AppLanguage.ENGLISH -> englishSpeechProfile ?: hindiSpeechProfile
+            else -> hindiSpeechProfile ?: englishSpeechProfile
+        }
+    }
+
+    private fun applySpeechProfile(
+        profile: SpeechProfile,
+        reason: String,
+    ): Boolean {
+        val tts = textToSpeech ?: return false
+        val desiredKey = buildSpeechProfileKey(profile)
+        if (activeSpeechProfileKey == desiredKey) {
+            tts.setSpeechRate(appState.narrationPace.speechRate)
+            return true
+        }
+
+        val languageResult = tts.setLanguage(profile.locale)
+        if (!isSupportedSpeechResult(languageResult)) {
+            Log.w(TAG, "Speech locale ${profile.locale.toLanguageTag()} is not supported at playback time.")
+            return false
+        }
+
+        val selectedVoice = profile.voice
+        if (selectedVoice != null) {
+            runCatching {
+                tts.voice = selectedVoice
+            }.onFailure { error ->
+                Log.w(TAG, "Unable to apply voice ${selectedVoice.name}", error)
             }
         }
 
-        ttsIssueMessage = TTS_UNAVAILABLE_MESSAGE
-        return false
+        tts.setSpeechRate(appState.narrationPace.speechRate)
+        activeSpeechProfileKey = buildSpeechProfileKey(
+            SpeechProfile(
+                locale = profile.locale,
+                voice = tts.voice,
+            ),
+        )
+        Log.d(
+            TAG,
+            "Applied speech profile ($reason) locale=${profile.locale.toLanguageTag()} voice=${tts.voice?.name ?: "default"} network=${tts.voice?.isNetworkConnectionRequired == true}",
+        )
+        return true
+    }
+
+    private fun buildSpeechProfileKey(profile: SpeechProfile): String {
+        return "${profile.locale.toLanguageTag()}|${profile.voice?.name.orEmpty()}"
+    }
+
+    private fun describeSpeechProfile(profile: SpeechProfile?): String {
+        if (profile == null) return "unavailable"
+        return "${profile.locale.toLanguageTag()}|${profile.voice?.name ?: "default"}"
+    }
+
+    private fun isSupportedSpeechResult(result: Int): Boolean {
+        return result != TextToSpeech.LANG_MISSING_DATA && result != TextToSpeech.LANG_NOT_SUPPORTED
+    }
+
+    private fun isExactLocaleMatch(
+        candidate: Locale,
+        target: Locale,
+    ): Boolean {
+        return candidate.language == target.language && candidate.country == target.country
+    }
+
+    private fun isCountryMatch(
+        candidate: Locale,
+        target: Locale,
+    ): Boolean {
+        return target.country.isBlank() || candidate.country == target.country
+    }
+
+    private fun isVoiceNotInstalled(voice: Voice): Boolean {
+        return voice.features.any { feature -> feature.equals("notInstalled", ignoreCase = true) }
+    }
+
+    private fun containsDevanagari(text: String): Boolean {
+        return text.any { character ->
+            Character.UnicodeScript.of(character.code) == Character.UnicodeScript.DEVANAGARI
+        }
+    }
+
+    private fun containsLatinLetters(text: String): Boolean {
+        return text.any { character ->
+            character.isLetter() &&
+                Character.UnicodeScript.of(character.code) == Character.UnicodeScript.LATIN
+        }
     }
 
     private fun initializeTextToSpeech(forceRestart: Boolean = false) {
