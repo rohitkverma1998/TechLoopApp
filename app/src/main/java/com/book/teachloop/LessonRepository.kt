@@ -8,7 +8,7 @@ object LessonRepository {
     private val builtInCatalog = listOf(
         SubjectPackCatalogItem(
             id = BOOK_ID,
-            title = text("RS Aggarwal Mathematics Class 5", "??. ??. ??????? ???? ????? 5"),
+            title = text("RS Aggarwal Mathematics Class 5", "आर. एस. अग्रवाल गणित कक्षा 5"),
             assetPath = "subject_packs/class5_rs_aggarwal_math.json",
         ),
         SubjectPackCatalogItem(
@@ -50,10 +50,10 @@ object LessonRepository {
         return StudyBook(
             id = BOOK_ID,
             subjectTitle = text("Mathematics", "गणित"),
-            bookTitle = text("RS Aggarwal Mathematics Class 5", "??. ??. ??????? ???? ????? 5"),
+            bookTitle = text("RS Aggarwal Mathematics Class 5", "आर. एस. अग्रवाल गणित कक्षा 5"),
             teacherNote = text(
                 english = "Use the main path first, then revision and weak-topic practice with the book examples.",
-                hindi = "???? ????? ?? ?????, ??? ?????? ?? ???????? ?? ??? ??????????? ?? ?????-???? ?????? ??????",
+                hindi = "पहले मुख्य पथ चलाइए, फिर पुनरावृत्ति और कमज़ोर-विषय अभ्यास कराइए।",
             ),
             topics = baseGrade5MathTopics().flatMap(::expandTopicIntoAuthoredSubtopics),
         )
