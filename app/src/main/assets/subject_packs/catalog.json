@@ -1,0 +1,26 @@
+[
+  {
+    "id": "class5_math_mela_grade_5",
+    "title": {
+      "english": "NCERT Math-Mela Grade 5",
+      "hindi": "एनसीईआरटी मैथ-मेला कक्षा 5"
+    },
+    "assetPath": null
+  },
+  {
+    "id": "class5_science_story_lab",
+    "title": {
+      "english": "Science Story Lab",
+      "hindi": "साइंस स्टोरी लैब"
+    },
+    "assetPath": "subject_packs/class5_science_story_lab.json"
+  },
+  {
+    "id": "class5_english_reading_trails",
+    "title": {
+      "english": "English Reading Trails",
+      "hindi": "इंग्लिश रीडिंग ट्रेल्स"
+    },
+    "assetPath": "subject_packs/class5_english_reading_trails.json"
+  }
+]

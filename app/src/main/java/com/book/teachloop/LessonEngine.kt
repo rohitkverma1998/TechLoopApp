@@ -1,5 +1,8 @@
 package com.book.teachloop
 
+import java.time.Instant
+import java.time.LocalDate
+import java.time.ZoneId
 import kotlin.math.max
 
 class LessonEngine(
@@ -25,11 +28,13 @@ class LessonEngine(
 
     fun snapshot(): SessionSnapshot = session
 
-    fun hasActiveSession(): Boolean {
-        return session.state != LearningState.DASHBOARD
-    }
+    fun hasActiveSession(): Boolean = session.state != LearningState.DASHBOARD
 
-    fun startSession(mode: StudyMode, topicIds: List<String>) {
+    fun startSession(
+        mode: StudyMode,
+        topicIds: List<String>,
+        now: Long = System.currentTimeMillis(),
+    ) {
         if (topicIds.isEmpty()) {
             session = SessionSnapshot(bookId = book.id)
             return
@@ -41,6 +46,7 @@ class LessonEngine(
             queueTopicIds = topicIds,
             queueIndex = 0,
             state = LearningState.ASK_IF_KNOWN,
+            currentTopicStartedAt = now,
         )
     }
 
@@ -58,8 +64,12 @@ class LessonEngine(
 
     fun currentExplanationRepeats(): Int = session.explanationRepeats
 
+    fun currentMistakeType(): MistakeType? = session.lastMistakeType
+
+    fun currentTopicStartedAt(): Long = session.currentTopicStartedAt
+
     fun answerKnowTopic(knowsTopic: Boolean) {
-        val topic = currentTopic() ?: run {
+        currentTopic() ?: run {
             session = SessionSnapshot(bookId = book.id)
             return
         }
@@ -75,7 +85,7 @@ class LessonEngine(
     }
 
     fun answerUnderstood(understood: Boolean) {
-        val topic = currentTopic() ?: run {
+        currentTopic() ?: run {
             session = SessionSnapshot(bookId = book.id)
             return
         }
@@ -94,21 +104,19 @@ class LessonEngine(
         val topic = currentTopic() ?: return null
         if (topic.questions.isEmpty()) return null
 
-        val baseIndex = (topic.questionSeedIndex + session.questionIndex) % topic.questions.size
+        val baseIndex = session.questionIndex % topic.questions.size
         val baseQuestion = topic.questions[baseIndex]
-        val supportExample = topic.examples.firstOrNull() ?: text(
-            english = topic.explanationParagraphs.first().english,
-            hindi = topic.explanationParagraphs.first().hindi,
-        )
-
-        val wrongReason = text(
-            english = "This answer does not match the key idea in ${topic.subtopicTitle.english.lowercase()}.",
-            hindi = "${topic.subtopicTitle.hindi.lowercase()} का विचार इस उत्तर से मेल नहीं खाता।",
+        val supportExample = baseQuestion.supportExample
+            ?: topic.examples.firstOrNull()
+            ?: topic.explanationParagraphs.first()
+        val wrongReason = baseQuestion.wrongReason ?: text(
+            english = "This answer does not match the key idea of ${topic.subtopicTitle.english.lowercase()}.",
+            hindi = "${topic.subtopicTitle.hindi.lowercase()} के मुख्य विचार से यह उत्तर मेल नहीं खाता।",
         )
 
         val correctText = when (baseQuestion.type) {
             QuestionType.MULTIPLE_CHOICE -> {
-                baseQuestion.options[baseQuestion.correctOptionIndex ?: 0]
+                baseQuestion.options[baseQuestion.correctOptionIndex ?: 0].english
             }
 
             QuestionType.TEXT_INPUT -> {
@@ -119,65 +127,74 @@ class LessonEngine(
         return when (difficulty) {
             Difficulty.EASY -> RenderedQuestion(
                 id = "${baseQuestion.id}_easy",
-                prompt = text(baseQuestion.prompt, baseQuestion.prompt),
+                prompt = baseQuestion.prompt,
                 type = baseQuestion.type,
-                options = baseQuestion.options.map(::text),
+                options = baseQuestion.options,
                 correctOptionIndex = baseQuestion.correctOptionIndex,
                 acceptedAnswers = baseQuestion.acceptedAnswers,
-                hint = baseQuestion.hint?.let { text(it, it) },
+                hint = baseQuestion.hint,
                 wrongReason = wrongReason,
                 supportExample = supportExample,
+                mistakeType = baseQuestion.mistakeType,
+                reteachTitle = baseQuestion.reteachTitle,
+                reteachParagraphs = baseQuestion.reteachParagraphs,
             )
 
             Difficulty.MEDIUM -> RenderedQuestion(
                 id = "${baseQuestion.id}_medium",
                 prompt = text(
-                    english = "${baseQuestion.prompt} Solve it carefully without depending only on the hint.",
-                    hindi = "${baseQuestion.prompt} इसे ध्यान से हल कीजिए, केवल संकेत पर निर्भर मत रहिए।",
+                    english = "${baseQuestion.prompt.english} Solve it carefully and say the pattern to yourself.",
+                    hindi = "${baseQuestion.prompt.hindi} इसे ध्यान से हल कीजिए और पैटर्न मन में बोलिए।",
                 ),
                 type = baseQuestion.type,
-                options = baseQuestion.options.map(::text),
+                options = baseQuestion.options,
                 correctOptionIndex = baseQuestion.correctOptionIndex,
                 acceptedAnswers = baseQuestion.acceptedAnswers,
-                hint = text(
-                    english = "Use the example from the lesson and think step by step.",
-                    hindi = "पाठ के उदाहरण का उपयोग कीजिए और कदम-दर-कदम सोचिए।",
+                hint = baseQuestion.hint ?: text(
+                    english = "Think step by step before answering.",
+                    hindi = "उत्तर देने से पहले एक-एक कदम सोचिए।",
                 ),
                 wrongReason = wrongReason,
                 supportExample = supportExample,
+                mistakeType = baseQuestion.mistakeType,
+                reteachTitle = baseQuestion.reteachTitle,
+                reteachParagraphs = baseQuestion.reteachParagraphs,
             )
 
-            Difficulty.HARD -> {
-                val hardPrompt = when (baseQuestion.type) {
+            Difficulty.HARD -> RenderedQuestion(
+                id = "${baseQuestion.id}_hard",
+                prompt = when (baseQuestion.type) {
                     QuestionType.MULTIPLE_CHOICE -> {
                         text(
-                            english = "${baseQuestion.prompt} Type the correct answer instead of picking an option.",
-                            hindi = "${baseQuestion.prompt} विकल्प चुनने के बजाय सही उत्तर लिखिए।",
+                            english = "${baseQuestion.prompt.english} Type the correct answer instead of choosing an option.",
+                            hindi = "${baseQuestion.prompt.hindi} विकल्प चुनने के बजाय सही उत्तर लिखिए।",
                         )
                     }
 
                     QuestionType.TEXT_INPUT -> {
                         text(
-                            english = "${baseQuestion.prompt} Write the final answer without using the hint.",
-                            hindi = "${baseQuestion.prompt} संकेत के बिना अंतिम उत्तर लिखिए।",
+                            english = "${baseQuestion.prompt.english} Write the final answer without using the hint.",
+                            hindi = "${baseQuestion.prompt.hindi} संकेत देखे बिना अंतिम उत्तर लिखिए।",
                         )
                     }
-                }
-
-                RenderedQuestion(
-                    id = "${baseQuestion.id}_hard",
-                    prompt = hardPrompt,
-                    type = QuestionType.TEXT_INPUT,
-                    acceptedAnswers = listOf(correctText),
-                    hint = null,
-                    wrongReason = wrongReason,
-                    supportExample = supportExample,
-                )
-            }
+                },
+                type = QuestionType.TEXT_INPUT,
+                acceptedAnswers = (listOf(correctText) + baseQuestion.acceptedAnswers).distinct(),
+                hint = null,
+                wrongReason = wrongReason,
+                supportExample = supportExample,
+                mistakeType = baseQuestion.mistakeType,
+                reteachTitle = baseQuestion.reteachTitle,
+                reteachParagraphs = baseQuestion.reteachParagraphs,
+            )
         }
     }
 
-    fun submitChoice(selectedIndex: Int, difficulty: Difficulty): QuizResult {
+    fun submitChoice(
+        selectedIndex: Int,
+        difficulty: Difficulty,
+        now: Long = System.currentTimeMillis(),
+    ): QuizResult {
         val question = currentQuestion(difficulty)
             ?: return QuizResult(
                 correct = false,
@@ -186,10 +203,14 @@ class LessonEngine(
 
         val isCorrect = question.type == QuestionType.MULTIPLE_CHOICE &&
             question.correctOptionIndex == selectedIndex
-        return finishAnswer(isCorrect, question)
+        return finishAnswer(isCorrect, question, now)
     }
 
-    fun submitText(answer: String, difficulty: Difficulty): QuizResult {
+    fun submitText(
+        answer: String,
+        difficulty: Difficulty,
+        now: Long = System.currentTimeMillis(),
+    ): QuizResult {
         val question = currentQuestion(difficulty)
             ?: return QuizResult(
                 correct = false,
@@ -197,7 +218,7 @@ class LessonEngine(
             )
 
         val isCorrect = question.acceptedAnswers.any { normalize(it) == normalize(answer) }
-        return finishAnswer(isCorrect, question)
+        return finishAnswer(isCorrect, question, now)
     }
 
     fun explanationToken(): String {
@@ -208,6 +229,7 @@ class LessonEngine(
     private fun finishAnswer(
         isCorrect: Boolean,
         question: RenderedQuestion,
+        now: Long,
     ): QuizResult {
         val topic = currentTopic()
             ?: return QuizResult(
@@ -223,6 +245,8 @@ class LessonEngine(
                     questionIndex = 0,
                     explanationRepeats = 0,
                     state = LearningState.SESSION_COMPLETE,
+                    currentTopicStartedAt = now,
+                    lastMistakeType = null,
                 )
             } else {
                 session.copy(
@@ -230,6 +254,8 @@ class LessonEngine(
                     questionIndex = 0,
                     explanationRepeats = 0,
                     state = LearningState.ASK_IF_KNOWN,
+                    currentTopicStartedAt = now,
+                    lastMistakeType = null,
                 )
             }
 
@@ -240,7 +266,7 @@ class LessonEngine(
                 )
             } else {
                 text(
-                    english = "Correct. ${topic.subtopicTitle.english} is done. Moving to the next step.",
+                    english = "Correct. ${topic.subtopicTitle.english} is complete. Moving to the next step.",
                     hindi = "सही। ${topic.subtopicTitle.hindi} पूरा हुआ। अब अगले चरण पर चलते हैं।",
                 )
             }
@@ -250,15 +276,13 @@ class LessonEngine(
                 message = message,
             )
         } else {
-            val nextQuestionIndex = if (topic.questions.isEmpty()) {
-                0
-            } else {
-                (session.questionIndex + 1) % max(topic.questions.size, 1)
-            }
+            val nextQuestionIndex = (session.questionIndex + 1) % max(topic.questions.size, 1)
             session = session.copy(
                 questionIndex = nextQuestionIndex,
                 explanationRepeats = 0,
                 state = LearningState.ASK_IF_KNOWN,
+                currentTopicStartedAt = now,
+                lastMistakeType = question.mistakeType,
             )
 
             QuizResult(
@@ -269,6 +293,9 @@ class LessonEngine(
                 ),
                 wrongReason = question.wrongReason,
                 supportExample = question.supportExample,
+                mistakeType = question.mistakeType,
+                reteachTitle = question.reteachTitle,
+                reteachParagraphs = question.reteachParagraphs,
             )
         }
     }
@@ -290,7 +317,7 @@ object StudyPlanner {
     private val reviewDelays = listOf(1L, 3L, 7L)
 
     fun buildMainQueue(book: StudyBook, profile: StudentProfile): List<String> {
-        return book.topics
+        return eligibleTopics(book, profile)
             .filter { !(profile.topicProgress[it.id]?.mastered ?: false) }
             .map { it.id }
     }
@@ -300,7 +327,7 @@ object StudyPlanner {
         profile: StudentProfile,
         now: Long,
     ): List<String> {
-        return book.topics
+        return eligibleTopics(book, profile)
             .filter { topic ->
                 val progress = profile.topicProgress[topic.id] ?: return@filter false
                 progress.mastered && progress.nextRevisionAt in 1..now
@@ -313,10 +340,8 @@ object StudyPlanner {
         book: StudyBook,
         profile: StudentProfile,
     ): List<String> {
-        return book.topics
-            .filter { topic ->
-                isWeak(profile.topicProgress[topic.id])
-            }
+        return eligibleTopics(book, profile)
+            .filter { topic -> isWeak(profile.topicProgress[topic.id]) }
             .sortedByDescending { topic ->
                 val progress = profile.topicProgress[topic.id]
                 (progress?.wrongAnswers ?: 0) + (progress?.explanationRepeats ?: 0)
@@ -333,7 +358,7 @@ object StudyPlanner {
         val dueRevisionTopics = profile.topicProgress.values.count { it.mastered && it.nextRevisionAt in 1..now }
         val weakTopics = profile.topicProgress.values.count(::isWeak)
         val supportHeavyTopics = profile.topicProgress.values.count { it.explanationRepeats >= 2 }
-        val focusTopics = book.topics
+        val focusTopics = eligibleTopics(book, profile)
             .filter { topic ->
                 val progress = profile.topicProgress[topic.id]
                 ((progress?.wrongAnswers ?: 0) + (progress?.explanationRepeats ?: 0)) > 0
@@ -342,8 +367,60 @@ object StudyPlanner {
                 val progress = profile.topicProgress[topic.id]
                 (progress?.wrongAnswers ?: 0) + (progress?.explanationRepeats ?: 0)
             }
-            .take(3)
-            .map { topic -> topic.lessonTitle }
+            .take(4)
+            .map { it.subtopicTitle }
+
+        val weakTopicTitles = eligibleTopics(book, profile)
+            .filter { topic -> isWeak(profile.topicProgress[topic.id]) }
+            .take(6)
+            .map { it.subtopicTitle }
+
+        val chapterMastery = book.topics
+            .groupBy { it.chapterNumber }
+            .toSortedMap()
+            .map { (chapterNumber, topics) ->
+                ChapterMastery(
+                    chapterNumber = chapterNumber,
+                    chapterTitle = topics.first().chapterTitle,
+                    masteredTopics = topics.count { profile.topicProgress[it.id]?.mastered == true },
+                    totalTopics = topics.size,
+                )
+            }
+
+        val totalTimeMinutes = profile.topicProgress.values.sumOf { it.timeSpentMillis } / 60000
+        val topMistakes = profile.topicProgress.values
+            .flatMap { progress -> progress.mistakeCounts.entries }
+            .groupBy({ it.key }, { it.value })
+            .mapNotNull { (typeName, values) ->
+                runCatching { MistakeType.valueOf(typeName) }.getOrNull()?.let { type ->
+                    MistakeBreakdown(type = type, count = values.sum())
+                }
+            }
+            .sortedByDescending { it.count }
+            .take(4)
+
+        val chartPoints = listOf(
+            ChartPoint(
+                label = text("Mastery", "मास्टरी"),
+                value = masteredTopics,
+                maxValue = book.topics.size.coerceAtLeast(1),
+            ),
+            ChartPoint(
+                label = text("Revision due", "रिविजन"),
+                value = dueRevisionTopics,
+                maxValue = book.topics.size.coerceAtLeast(1),
+            ),
+            ChartPoint(
+                label = text("Weak topics", "कमजोर विषय"),
+                value = weakTopics,
+                maxValue = book.topics.size.coerceAtLeast(1),
+            ),
+            ChartPoint(
+                label = text("Stars", "सितारे"),
+                value = profile.totalStars,
+                maxValue = max(profile.totalStars, book.topics.size * Difficulty.HARD.starValue).coerceAtLeast(1),
+            ),
+        )
 
         return ReportSummary(
             masteredTopics = masteredTopics,
@@ -353,19 +430,40 @@ object StudyPlanner {
             supportHeavyTopics = supportHeavyTopics,
             totalStars = profile.totalStars,
             focusTopics = focusTopics,
+            weakTopicTitles = weakTopicTitles,
+            chartPoints = chartPoints,
+            chapterMastery = chapterMastery,
+            topMistakes = topMistakes,
+            totalTimeMinutes = totalTimeMinutes.toInt(),
+            streakDays = profile.streakDays,
+            badges = profile.badges.takeLast(8).reversed(),
+            chapterTrophies = profile.chapterTrophies.sorted(),
+            revisionRewardCount = profile.revisionRewardCount,
         )
     }
 
     fun updateProfileAfterAttempt(
+        book: StudyBook,
         profile: StudentProfile,
         topic: StudyTopic,
         difficulty: Difficulty,
         mode: StudyMode?,
         correct: Boolean,
         explanationRepeats: Int,
+        mistakeType: MistakeType?,
+        timeSpentMillis: Long,
         now: Long,
     ): StudentProfile {
         val existing = profile.topicProgress[topic.id] ?: TopicProgress(topicId = topic.id)
+        val updatedMistakeCounts = if (!correct && mistakeType != null) {
+            existing.mistakeCounts.toMutableMap().apply {
+                val key = mistakeType.name
+                this[key] = (this[key] ?: 0) + 1
+            }
+        } else {
+            existing.mistakeCounts
+        }
+
         val updatedProgress = if (correct) {
             val stage = when {
                 !existing.mastered -> 0
@@ -382,6 +480,8 @@ object StudyPlanner {
                 reviewStage = stage,
                 lastStudiedAt = now,
                 nextRevisionAt = now + reviewDelays[stage] * DAY_IN_MILLIS,
+                timeSpentMillis = existing.timeSpentMillis + timeSpentMillis,
+                mistakeCounts = updatedMistakeCounts,
             )
         } else {
             existing.copy(
@@ -391,21 +491,175 @@ object StudyPlanner {
                 lastStudiedAt = now,
                 reviewStage = 0,
                 nextRevisionAt = now + DAY_IN_MILLIS,
+                timeSpentMillis = existing.timeSpentMillis + timeSpentMillis,
+                lastMistakeType = mistakeType,
+                mistakeCounts = updatedMistakeCounts,
             )
         }
 
         val updatedMap = profile.topicProgress.toMutableMap()
         updatedMap[topic.id] = updatedProgress
-        val totalStars = updatedMap.values.sumOf { it.starsEarned }
-        return profile.copy(
-            topicProgress = updatedMap,
-            totalStars = totalStars,
+        val baseStars = updatedMap.values.sumOf { it.starsEarned }
+        val revisionBonus = if (correct && mode == StudyMode.REVISION) 1 else 0
+        val streakDays = updatedStreak(profile, now)
+        val revisionRewards = profile.revisionRewardCount + revisionBonus
+        val chapterTrophies = updateChapterTrophies(book, updatedMap, profile.chapterTrophies)
+        val badges = updateBadges(
+            book = book,
+            existingProfile = profile,
+            updatedProgressMap = updatedMap,
+            topic = topic,
+            mode = mode,
+            correct = correct,
+            explanationRepeats = explanationRepeats,
+            streakDays = streakDays,
+            chapterTrophies = chapterTrophies,
+            now = now,
         )
+
+        return profile.copy(
+            totalStars = baseStars + revisionBonus,
+            topicProgress = updatedMap,
+            badges = badges,
+            chapterTrophies = chapterTrophies,
+            streakDays = streakDays,
+            lastActiveDay = dayKey(now),
+            revisionRewardCount = revisionRewards,
+        )
+    }
+
+    private fun updateChapterTrophies(
+        book: StudyBook,
+        progressMap: Map<String, TopicProgress>,
+        currentTrophies: List<Int>,
+    ): List<Int> {
+        val trophies = currentTrophies.toMutableSet()
+        book.topics.groupBy { it.chapterNumber }.forEach { (chapterNumber, topics) ->
+            if (topics.all { progressMap[it.id]?.mastered == true }) {
+                trophies += chapterNumber
+            }
+        }
+        return trophies.toList().sorted()
+    }
+
+    private fun updateBadges(
+        book: StudyBook,
+        existingProfile: StudentProfile,
+        updatedProgressMap: Map<String, TopicProgress>,
+        topic: StudyTopic,
+        mode: StudyMode?,
+        correct: Boolean,
+        explanationRepeats: Int,
+        streakDays: Int,
+        chapterTrophies: List<Int>,
+        now: Long,
+    ): List<BadgeAward> {
+        val badges = existingProfile.badges.toMutableList()
+        val masteredCount = updatedProgressMap.values.count { it.mastered }
+
+        fun award(type: BadgeType, title: LocalizedText, reason: LocalizedText) {
+            val exists = badges.any { it.type == type && it.reason.english == reason.english }
+            if (!exists) {
+                badges += BadgeAward(
+                    type = type,
+                    title = title,
+                    reason = reason,
+                    earnedAt = now,
+                )
+            }
+        }
+
+        if (correct && masteredCount == 1) {
+            award(
+                BadgeType.FIRST_MASTERED,
+                text("First step", "पहला कदम"),
+                text("Completed the first mastered topic.", "पहला विषय पूरी तरह सीखा।"),
+            )
+        }
+
+        if (correct && explanationRepeats > 0) {
+            award(
+                BadgeType.BRAVE_RETRY,
+                text("Brave retry", "बहादुर दोबारा प्रयास"),
+                text("Came back after support and answered correctly.", "सहायता के बाद फिर से सही उत्तर दिया।"),
+            )
+        }
+
+        if (correct && mode == StudyMode.REVISION) {
+            award(
+                BadgeType.REVISION_RANGER,
+                text("Revision ranger", "रिविजन रेंजर"),
+                text("Completed a spaced revision check.", "अंतराल वाली पुनरावृत्ति पूरी की।"),
+            )
+        }
+
+        if (streakDays >= 3) {
+            award(
+                BadgeType.STREAK_KEEPER,
+                text("Streak keeper", "स्ट्रीक कीपर"),
+                text("Learned on three or more days in a row.", "लगातार तीन या अधिक दिनों तक सीखा।"),
+            )
+        }
+
+        if (correct && chapterTrophies.contains(topic.chapterNumber)) {
+            award(
+                BadgeType.CHAPTER_CHAMP,
+                text("Chapter champ", "अध्याय चैंप"),
+                text(
+                    english = "Finished every subtopic in Chapter ${topic.chapterNumber}.",
+                    hindi = "अध्याय ${topic.chapterNumber} के सभी उपविषय पूरे किए।",
+                ),
+            )
+        }
+
+        if (correct && existingProfile.assignedChapterNumbers.isNotEmpty()) {
+            val assignedTopics = book.topics.filter { it.chapterNumber in existingProfile.assignedChapterNumbers }
+            val assignedComplete = assignedTopics.isNotEmpty() &&
+                assignedTopics.all { updatedProgressMap[it.id]?.mastered == true }
+            if (assignedComplete) {
+                award(
+                    BadgeType.ASSIGNMENT_ACE,
+                    text("Assignment ace", "असाइनमेंट ऐस"),
+                    text("Completed every teacher-assigned chapter.", "शिक्षक द्वारा दिए गए सभी अध्याय पूरे किए।"),
+                )
+            }
+        }
+
+        return badges.sortedBy { it.earnedAt }
+    }
+
+    private fun updatedStreak(profile: StudentProfile, now: Long): Int {
+        val today = dayKey(now)
+        if (profile.lastActiveDay.isBlank()) return 1
+        if (profile.lastActiveDay == today) return profile.streakDays.coerceAtLeast(1)
+
+        val previousDay = runCatching { LocalDate.parse(profile.lastActiveDay) }.getOrNull()
+        val currentDay = runCatching { LocalDate.parse(today) }.getOrNull()
+        return if (previousDay != null && currentDay != null && previousDay.plusDays(1) == currentDay) {
+            profile.streakDays + 1
+        } else {
+            1
+        }
+    }
+
+    private fun eligibleTopics(book: StudyBook, profile: StudentProfile): List<StudyTopic> {
+        return if (profile.assignedChapterNumbers.isEmpty()) {
+            book.topics
+        } else {
+            book.topics.filter { it.chapterNumber in profile.assignedChapterNumbers }
+        }
     }
 
     private fun isWeak(progress: TopicProgress?): Boolean {
         progress ?: return false
         return !progress.mastered || progress.wrongAnswers >= 2 || progress.explanationRepeats >= 2
+    }
+
+    private fun dayKey(now: Long): String {
+        return Instant.ofEpochMilli(now)
+            .atZone(ZoneId.systemDefault())
+            .toLocalDate()
+            .toString()
     }
 
     private const val DAY_IN_MILLIS = 24L * 60L * 60L * 1000L

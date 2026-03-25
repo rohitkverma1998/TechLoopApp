@@ -44,10 +44,30 @@
                     android:textColor="#DDF7F5"
                     android:textSize="15sp" />
 
+                <TextView
+                    android:id="@+id/bookLabelText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:textColor="#DDF7F5"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/bookSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/chip_surface"
+                    android:minHeight="48dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:spinnerMode="dropdown" />
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="18dp"
+                    android:layout_marginTop="14dp"
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
 
@@ -265,6 +285,81 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Reset child progress" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/teacherModeButton"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Teacher mode" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/teacherCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:visibility="gone"
+            app:cardBackgroundColor="@color/card_surface"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/card_stroke"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="18dp">
+
+                <TextView
+                    android:id="@+id/teacherTitleText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/teacherSummaryText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="4dp"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/teacherAssignmentsButton"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="Assign chapters" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/teacherWeakTopicsButton"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="View weak topics" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/teacherExportButton"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Export summary" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/teacherLockButton"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lock teacher mode" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -302,6 +397,34 @@
                     android:lineSpacingExtra="4dp"
                     android:textColor="@color/text_primary"
                     android:textSize="15sp" />
+
+                <LinearLayout
+                    android:id="@+id/chartContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:orientation="vertical" />
+
+                <LinearLayout
+                    android:id="@+id/masteryMapContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:orientation="vertical" />
+
+                <LinearLayout
+                    android:id="@+id/mistakeContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:orientation="vertical" />
+
+                <LinearLayout
+                    android:id="@+id/badgeContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:orientation="vertical" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -414,7 +537,15 @@
                         android:layout_marginTop="12dp"
                         android:lineSpacingExtra="4dp"
                         android:textColor="@color/text_primary"
-                        android:textSize="15sp" />
+                        android:textSize="15sp"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/explanationSentenceContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:orientation="vertical" />
 
                     <LinearLayout
                         android:id="@+id/visualsContainer"
@@ -441,6 +572,40 @@
                         android:textColor="@color/text_primary"
                         android:textSize="15sp" />
 
+                    <TextView
+                        android:id="@+id/voiceLabelText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.button.MaterialButtonToggleGroup
+                        android:id="@+id/paceToggle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        app:selectionRequired="true"
+                        app:singleSelection="true">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/paceNormalButton"
+                            style="@style/Widget.Material3.Button.OutlinedButton"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Normal" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/paceSlowButton"
+                            style="@style/Widget.Material3.Button.OutlinedButton"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Slow" />
+                    </com.google.android.material.button.MaterialButtonToggleGroup>
+
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/playVoiceButton"
                         style="@style/Widget.Material3.Button.OutlinedButton"
@@ -456,6 +621,57 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="6dp"
                         android:text="Open voice settings" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/pauseVoiceButton"
+                        style="@style/Widget.Material3.Button.TextButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pause voice" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/replaySentenceButton"
+                        style="@style/Widget.Material3.Button.TextButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Replay sentence" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/feedbackCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/card_surface"
+                app:cardCornerRadius="24dp"
+                app:cardElevation="0dp"
+                app:strokeColor="@color/card_stroke"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="18dp">
+
+                    <TextView
+                        android:id="@+id/feedbackTitleText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_primary"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/feedbackBodyText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:lineSpacingExtra="4dp"
+                        android:textColor="@color/text_primary"
+                        android:textSize="15sp" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 

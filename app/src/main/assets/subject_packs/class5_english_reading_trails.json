@@ -1,0 +1,275 @@
+{
+  "id": "class5_english_reading_trails",
+  "subjectTitle": {
+    "english": "English",
+    "hindi": "अंग्रेज़ी"
+  },
+  "bookTitle": {
+    "english": "English Reading Trails",
+    "hindi": "इंग्लिश रीडिंग ट्रेल्स"
+  },
+  "teacherNote": {
+    "english": "Use read-aloud and short speaking checks.",
+    "hindi": "उच्चारण के साथ पढ़ाइए और छोटे बोलने वाले अभ्यास कराइए।"
+  },
+  "topics": [
+    {
+      "id": "english_story_elements_1",
+      "sourceLessonId": "english_story_elements",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Story Time",
+        "hindi": "कहानी समय"
+      },
+      "lessonTitle": {
+        "english": "Characters and Setting",
+        "hindi": "पात्र और परिवेश"
+      },
+      "subtopicTitle": {
+        "english": "Find who and where",
+        "hindi": "कौन और कहाँ खोजो"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to find the characters and setting in a story?",
+        "hindi": "क्या आप जानते हैं कि कहानी में पात्र और परिवेश कैसे पहचानते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Characters are people or animals; setting is the place",
+        "hindi": "पात्र लोग या जानवर होते हैं; परिवेश वह जगह होती है"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Characters are the people or animals in the story. The setting tells where and sometimes when the story happens.",
+          "hindi": "पात्र कहानी के लोग या जानवर होते हैं। परिवेश बताता है कि कहानी कहाँ और कभी-कभी कब घटती है।"
+        },
+        {
+          "english": "A child can ask: Who is in the story? Where are they? Those two questions reveal the basic story map.",
+          "hindi": "बच्चा पूछ सकता है: कहानी में कौन है? वे कहाँ हैं? ये दो प्रश्न कहानी का मूल नक्शा बता देते हैं।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Character: a rabbit",
+          "hindi": "पात्र: एक खरगोश"
+        },
+        {
+          "english": "Setting: a forest",
+          "hindi": "परिवेश: एक जंगल"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Story map",
+            "hindi": "कहानी मानचित्र"
+          },
+          "description": {
+            "english": "Ask two quick questions.",
+            "hindi": "दो छोटे प्रश्न पूछो।"
+          },
+          "kind": "STEP_FLOW",
+          "chips": [
+            {
+              "english": "Who?",
+              "hindi": "कौन?"
+            },
+            {
+              "english": "Where?",
+              "hindi": "कहाँ?"
+            }
+          ],
+          "rows": []
+        }
+      ],
+      "questions": [
+        {
+          "id": "english_q1",
+          "prompt": {
+            "english": "In a sentence about a rabbit in a forest, what is the setting?",
+            "hindi": "एक वाक्य में यदि खरगोश जंगल में है, तो परिवेश क्या है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "rabbit",
+              "hindi": "खरगोश"
+            },
+            {
+              "english": "forest",
+              "hindi": "जंगल"
+            },
+            {
+              "english": "running",
+              "hindi": "दौड़ना"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Setting means place.",
+            "hindi": "परिवेश का मतलब जगह है।"
+          },
+          "wrongReason": {
+            "english": "The place and the character were mixed up.",
+            "hindi": "जगह और पात्र में गड़बड़ी हो गई।"
+          },
+          "supportExample": {
+            "english": "The rabbit is the character; the forest is the setting.",
+            "hindi": "खरगोश पात्र है; जंगल परिवेश है।"
+          },
+          "mistakeType": "READING",
+          "reteachTitle": {
+            "english": "Ask who and where",
+            "hindi": "कौन और कहाँ पूछो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "If you ask who and where, the answer becomes clear.",
+              "hindi": "यदि आप कौन और कहाँ पूछें, तो उत्तर साफ हो जाता है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "story",
+          "hindi": "कहानी"
+        }
+      ],
+      "mistakeFocus": "READING"
+    },
+    {
+      "id": "english_sentence_types_1",
+      "sourceLessonId": "english_sentence_types",
+      "chapterNumber": 2,
+      "chapterTitle": {
+        "english": "Sentence Fun",
+        "hindi": "वाक्य खेल"
+      },
+      "lessonTitle": {
+        "english": "Statements and Questions",
+        "hindi": "कथन और प्रश्न"
+      },
+      "subtopicTitle": {
+        "english": "Notice sentence purpose",
+        "hindi": "वाक्य का उद्देश्य पहचानो"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to tell a statement from a question?",
+        "hindi": "क्या आप कथन और प्रश्न में अंतर पहचान सकते हैं?"
+      },
+      "explanationTitle": {
+        "english": "A question asks; a statement tells",
+        "hindi": "प्रश्न पूछता है; कथन बताता है"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "A statement tells something. A question asks for information and often ends with a question mark.",
+          "hindi": "कथन कुछ बताता है। प्रश्न जानकारी पूछता है और प्रायः प्रश्नवाचक चिह्न पर समाप्त होता है।"
+        },
+        {
+          "english": "Children can read the sentence aloud to hear whether it sounds like telling or asking.",
+          "hindi": "बच्चे वाक्य को बोलकर पढ़ें तो सुन सकते हैं कि वह बताने जैसा है या पूछने जैसा।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "The sky is blue.",
+          "hindi": "आकाश नीला है।"
+        },
+        {
+          "english": "Is the sky blue?",
+          "hindi": "क्या आकाश नीला है?"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Sentence purpose",
+            "hindi": "वाक्य का उद्देश्य"
+          },
+          "description": {
+            "english": "Sort by tell or ask.",
+            "hindi": "बताओ या पूछो के आधार पर बाँटो।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "statement",
+                "hindi": "कथन"
+              },
+              {
+                "english": "tells",
+                "hindi": "बताता है"
+              }
+            ],
+            [
+              {
+                "english": "question",
+                "hindi": "प्रश्न"
+              },
+              {
+                "english": "asks",
+                "hindi": "पूछता है"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "english_q2",
+          "prompt": {
+            "english": "Which sentence is a question?",
+            "hindi": "इनमें से कौन-सा वाक्य प्रश्न है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "The sky is blue.",
+              "hindi": "आकाश नीला है।"
+            },
+            {
+              "english": "Is the sky blue?",
+              "hindi": "क्या आकाश नीला है?"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Listen for the asking voice and the question mark.",
+            "hindi": "पूछने वाली आवाज़ और प्रश्नवाचक चिह्न को सुनो/देखो।"
+          },
+          "wrongReason": {
+            "english": "The sentence purpose was identified incorrectly.",
+            "hindi": "वाक्य का उद्देश्य सही तरह नहीं पहचाना गया।"
+          },
+          "supportExample": {
+            "english": "A question asks for an answer.",
+            "hindi": "प्रश्न उत्तर माँगता है।"
+          },
+          "mistakeType": "READING",
+          "reteachTitle": {
+            "english": "Hear tell and ask",
+            "hindi": "बताने और पूछने की ध्वनि सुनो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Read the sentence aloud and notice whether it tells or asks.",
+              "hindi": "वाक्य को बोलकर पढ़ो और देखो कि वह बताता है या पूछता है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "sentences",
+          "hindi": "वाक्य"
+        }
+      ],
+      "mistakeFocus": "READING"
+    }
+  ]
+}
