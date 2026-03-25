@@ -238,21 +238,6 @@
                     android:layout_marginTop="10dp" />
 
                 <com.google.android.material.button.MaterialButton
-                    android:id="@+id/reportButton"
-                    style="@style/Widget.Material3.Button.TextButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:text="Show report" />
-
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/resetProgressButton"
-                    style="@style/Widget.Material3.Button.TextButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Reset child progress" />
-
-                <com.google.android.material.button.MaterialButton
                     android:id="@+id/teacherModeButton"
                     style="@style/Widget.Material3.Button.TextButton"
                     android:layout_width="wrap_content"
@@ -319,6 +304,21 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:text="Export summary" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/reportButton"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Show report" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/resetProgressButton"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reset child progress" />
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/teacherLockButton"

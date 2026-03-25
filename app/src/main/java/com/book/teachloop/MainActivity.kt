@@ -528,12 +528,6 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         }
         binding.languageToggle.check(languageButtonId)
 
-        binding.resetProgressButton.text = ui("Reset child progress", "à¤¬à¤šà¥à¤šà¥‡ à¤•à¥€ à¤ªà¥à¤°à¤—à¤¤à¤¿ à¤°à¥€à¤¸à¥‡à¤Ÿ à¤•à¤°à¥‡à¤‚")
-        binding.reportButton.text = if (reportExpanded) {
-            ui("Hide report", "à¤°à¤¿à¤ªà¥‹à¤°à¥à¤Ÿ à¤›à¥à¤ªà¤¾à¤à¤")
-        } else {
-            ui("Show report", "à¤°à¤¿à¤ªà¥‹à¤°à¥à¤Ÿ à¤¦à¤¿à¤–à¤¾à¤à¤")
-        }
     }
 
     private fun syncBookSpinner() {
@@ -663,11 +657,19 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         binding.teacherAssignmentsButton.text = ui("Assign chapters", "à¤…à¤§à¥à¤¯à¤¾à¤¯ à¤¸à¥Œà¤‚à¤ªà¥‡à¤‚")
         binding.teacherWeakTopicsButton.text = ui("View weak topics", "à¤•à¤®à¤œà¥‹à¤° à¤µà¤¿à¤·à¤¯ à¤¦à¥‡à¤–à¥‡à¤‚")
         binding.teacherExportButton.text = ui("Export summary", "à¤¸à¤¾à¤°à¤¾à¤‚à¤¶ à¤­à¥‡à¤œà¥‡à¤‚")
+        binding.resetProgressButton.text = ui("Reset child progress", "à¤¬à¤šà¥à¤šà¥‡ à¤•à¥€ à¤ªà¥à¤°à¤—à¤¤à¤¿ à¤°à¥€à¤¸à¥‡à¤Ÿ à¤•à¤°à¥‡à¤‚")
+        binding.reportButton.text = if (reportExpanded) {
+            ui("Hide report", "à¤°à¤¿à¤ªà¥‹à¤°à¥à¤Ÿ à¤›à¥à¤ªà¤¾à¤à¤")
+        } else {
+            ui("Show report", "à¤°à¤¿à¤ªà¥‹à¤°à¥à¤Ÿ à¤¦à¤¿à¤–à¤¾à¤à¤")
+        }
         binding.teacherLockButton.text = ui("Lock teacher mode", "à¤Ÿà¥€à¤šà¤° à¤®à¥‹à¤¡ à¤¬à¤‚à¤¦ à¤•à¤°à¥‡à¤‚")
     }
 
     private fun renderReport(report: ReportSummary) {
-        binding.reportCard.isVisible = !engine.hasActiveSession() && reportExpanded
+        binding.reportCard.isVisible = !engine.hasActiveSession() &&
+            appState.teacherModeUnlocked &&
+            reportExpanded
         binding.reportTitleText.text = ui("Parent and teacher report", "à¤…à¤­à¤¿à¤­à¤¾à¤µà¤• à¤”à¤° à¤¶à¤¿à¤•à¥à¤·à¤• à¤°à¤¿à¤ªà¥‹à¤°à¥à¤Ÿ")
         val focusText = if (report.focusTopics.isEmpty()) {
             ui("No high-need topics yet.", "à¤…à¤­à¥€ à¤•à¥‹à¤ˆ à¤µà¤¿à¤¶à¥‡à¤· à¤•à¤ à¤¿à¤¨ à¤µà¤¿à¤·à¤¯ à¤¨à¤¹à¥€à¤‚ à¤¹à¥ˆà¥¤")
