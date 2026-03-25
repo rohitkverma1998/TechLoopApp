@@ -1,0 +1,4712 @@
+{
+  "id": "class5_rs_aggarwal_maths",
+  "subjectTitle": {
+    "english": "Mathematics",
+    "hindi": "गणित"
+  },
+  "bookTitle": {
+    "english": "RS Aggarwal Mathematics Class 5",
+    "hindi": "आर. एस. अग्रवाल गणित कक्षा 5"
+  },
+  "teacherNote": {
+    "english": "Use the main path first, then revision and weak-topic practice with the book examples.",
+    "hindi": "पहले मुख्य पथ चलाइए, फिर पुस्तक के उदाहरणों के साथ पुनरावृत्ति और कमजोर-विषय अभ्यास कराइए।"
+  },
+  "topics": [
+    {
+      "id": "rs_ch01_revision",
+      "sourceLessonId": "rs_ch01",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Revision",
+        "hindi": "पुनरावृत्ति"
+      },
+      "lessonTitle": {
+        "english": "Revision",
+        "hindi": "पुनरावृत्ति"
+      },
+      "subtopicTitle": {
+        "english": "review mixed number skills",
+        "hindi": "मिश्रित संख्या कौशल की पुनरावृत्ति"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to review mixed number skills?",
+        "hindi": "क्या आप जानते हैं कि मिश्रित संख्या कौशल की पुनरावृत्ति कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Bring old ideas together",
+        "hindi": "पुराने विचारों को साथ लाओ"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "This chapter revises place value, number names, and the four basic operations through short mixed exercises.",
+          "hindi": "यह अध्याय स्थान-मूल्य, संख्या नाम और चारों मूल संक्रियाओं को छोटे-छोटे मिश्रित प्रश्नों से दोहराता है।"
+        },
+        {
+          "english": "The best way to revise is to read the number carefully, decide the operation, and then check whether the answer is reasonable.",
+          "hindi": "पुनरावृत्ति का सबसे अच्छा तरीका है संख्या को ध्यान से पढ़ना, सही संक्रिया चुनना और फिर देखना कि उत्तर उचित है या नहीं।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "In 63,245 the digit 3 is in the thousands place.",
+          "hindi": "63,245 में अंक 3 हजार के स्थान पर है।"
+        },
+        {
+          "english": "4,587 + 326 = 4,913",
+          "hindi": "4,587 + 326 = 4,913"
+        },
+        {
+          "english": "If an answer is too small after addition, recheck the carrying step.",
+          "hindi": "यदि जोड़ के बाद उत्तर बहुत छोटा लगे, तो कैरी वाले चरण को फिर देखो।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Revision checklist",
+            "hindi": "पुनरावृत्ति सूची"
+          },
+          "description": {
+            "english": "Read, choose the operation, solve, and check.",
+            "hindi": "पढ़ो, संक्रिया चुनो, हल करो और जाँचो।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "read digits",
+                "hindi": "अंकों को पढ़ो"
+              },
+              {
+                "english": "identify place value",
+                "hindi": "स्थान-मूल्य पहचानो"
+              }
+            ],
+            [
+              {
+                "english": "choose operation",
+                "hindi": "संक्रिया चुनो"
+              },
+              {
+                "english": "solve carefully",
+                "hindi": "सावधानी से हल करो"
+              }
+            ],
+            [
+              {
+                "english": "estimate",
+                "hindi": "अनुमान लगाओ"
+              },
+              {
+                "english": "check answer",
+                "hindi": "उत्तर जाँचो"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs1_q1",
+          "prompt": {
+            "english": "In 63,245 the digit 3 is in which place?",
+            "hindi": "63,245 में अंक 3 किस स्थान पर है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "ones",
+              "hindi": "इकाई"
+            },
+            {
+              "english": "hundreds",
+              "hindi": "सैकड़ा"
+            },
+            {
+              "english": "thousands",
+              "hindi": "हजार"
+            },
+            {
+              "english": "ten thousands",
+              "hindi": "दस हजार"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Read the number from right to left by place value.",
+            "hindi": "स्थान-मूल्य के अनुसार संख्या को दाएँ से बाएँ पढ़ो।"
+          },
+          "wrongReason": {
+            "english": "The digit was not matched with its correct place.",
+            "hindi": "अंक को उसके सही स्थान से नहीं मिलाया गया।"
+          },
+          "supportExample": {
+            "english": "63,245 = 6 ten-thousands, 3 thousands, 2 hundreds, 4 tens, 5 ones.",
+            "hindi": "63,245 = 6 दस हजार, 3 हजार, 2 सैकड़े, 4 दहाई, 5 इकाई।"
+          },
+          "mistakeType": "PLACE_VALUE",
+          "reteachTitle": {
+            "english": "Use the place-value chart",
+            "hindi": "स्थान-मूल्य तालिका का उपयोग करो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Count ones, tens, hundreds, and thousands in order.",
+              "hindi": "इकाई, दहाई, सैकड़ा और हजार को क्रम से गिनो।"
+            }
+          ]
+        },
+        {
+          "id": "rs1_q2",
+          "prompt": {
+            "english": "Fill in the answer: 4,587 + 326 = ?",
+            "hindi": "उत्तर भरिए: 4,587 + 326 = ?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "4913",
+            "4,913"
+          ],
+          "hint": {
+            "english": "Add ones, tens, and hundreds column by column.",
+            "hindi": "इकाई, दहाई और सैकड़े को स्तंभ के अनुसार जोड़ो।"
+          },
+          "wrongReason": {
+            "english": "One of the addition steps was missed or carried incorrectly.",
+            "hindi": "जोड़ का कोई चरण छूट गया या कैरी गलत हुआ।"
+          },
+          "supportExample": {
+            "english": "7 + 6 = 13, so write 3 and carry 1.",
+            "hindi": "7 + 6 = 13, इसलिए 3 लिखो और 1 कैरी करो।"
+          },
+          "mistakeType": "OPERATION_LINK",
+          "reteachTitle": {
+            "english": "Check each column once more",
+            "hindi": "हर स्तंभ को एक बार फिर जाँचो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Addition becomes easy when you move from ones to hundreds in order.",
+              "hindi": "जोड़ आसान हो जाता है जब तुम इकाई से सैकड़े तक क्रम से चलते हो।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "revision",
+          "hindi": "पुनरावृत्ति"
+        },
+        {
+          "english": "operations",
+          "hindi": "संक्रियाएँ"
+        }
+      ],
+      "mistakeFocus": "OPERATION_LINK"
+    },
+    {
+      "id": "rs_ch02_roman_numerals",
+      "sourceLessonId": "rs_ch02",
+      "chapterNumber": 2,
+      "chapterTitle": {
+        "english": "Roman Numerals",
+        "hindi": "रोमन अंक"
+      },
+      "lessonTitle": {
+        "english": "Roman Numerals",
+        "hindi": "रोमन अंक"
+      },
+      "subtopicTitle": {
+        "english": "read and write Roman numerals",
+        "hindi": "रोमन अंकों को पढ़ना और लिखना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to read and write roman numerals?",
+        "hindi": "क्या आप जानते हैं कि रोमन अंकों को पढ़ना और लिखना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Build numbers with Roman symbols",
+        "hindi": "रोमन चिह्नों से संख्याएँ बनाओ"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Roman numerals use letters such as I, V, X, L, C and D instead of ordinary digits.",
+          "hindi": "रोमन अंकों में सामान्य अंकों की जगह I, V, X, L, C और D जैसे अक्षरों का उपयोग होता है।"
+        },
+        {
+          "english": "When a smaller symbol comes before a bigger symbol, it is subtracted; when it comes after, it is added.",
+          "hindi": "जब छोटा चिह्न बड़े चिह्न से पहले आता है, तो उसे घटाया जाता है; बाद में आने पर जोड़ा जाता है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "XIX = 19",
+          "hindi": "XIX = 19"
+        },
+        {
+          "english": "XL = 40",
+          "hindi": "XL = 40"
+        },
+        {
+          "english": "LXV = 65",
+          "hindi": "LXV = 65"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Roman numeral map",
+            "hindi": "रोमन अंक तालिका"
+          },
+          "description": {
+            "english": "Remember the basic symbols first.",
+            "hindi": "पहले मूल चिह्न याद करो।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "I = 1",
+                "hindi": "I = 1"
+              },
+              {
+                "english": "V = 5",
+                "hindi": "V = 5"
+              }
+            ],
+            [
+              {
+                "english": "X = 10",
+                "hindi": "X = 10"
+              },
+              {
+                "english": "L = 50",
+                "hindi": "L = 50"
+              }
+            ],
+            [
+              {
+                "english": "C = 100",
+                "hindi": "C = 100"
+              },
+              {
+                "english": "D = 500",
+                "hindi": "D = 500"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs2_q1",
+          "prompt": {
+            "english": "What is the value of XL?",
+            "hindi": "XL का मान क्या है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "60",
+              "hindi": "60"
+            },
+            {
+              "english": "40",
+              "hindi": "40"
+            },
+            {
+              "english": "15",
+              "hindi": "15"
+            },
+            {
+              "english": "90",
+              "hindi": "90"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "A smaller symbol before a bigger one means subtraction.",
+            "hindi": "छोटा चिह्न बड़े चिह्न से पहले हो तो घटाव होता है।"
+          },
+          "wrongReason": {
+            "english": "The subtractive rule of Roman numerals was not used correctly.",
+            "hindi": "रोमन अंकों का घटाव वाला नियम सही ढंग से उपयोग नहीं हुआ।"
+          },
+          "supportExample": {
+            "english": "XL means 50 - 10 = 40.",
+            "hindi": "XL का अर्थ 50 - 10 = 40 है।"
+          },
+          "mistakeType": "READING",
+          "reteachTitle": {
+            "english": "Read left to right carefully",
+            "hindi": "बाएँ से दाएँ ध्यान से पढ़ो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Check whether the first symbol is smaller or bigger than the next one.",
+              "hindi": "देखो कि पहला चिह्न अगले चिह्न से छोटा है या बड़ा।"
+            }
+          ]
+        },
+        {
+          "id": "rs2_q2",
+          "prompt": {
+            "english": "Write 19 in Roman numerals.",
+            "hindi": "19 को रोमन अंकों में लिखिए।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "xix",
+            "XIX"
+          ],
+          "hint": {
+            "english": "Think of 10 + 9.",
+            "hindi": "10 + 9 के रूप में सोचो।"
+          },
+          "wrongReason": {
+            "english": "The Roman numeral did not match the value 19.",
+            "hindi": "रोमन अंक 19 के मान से मेल नहीं खाता।"
+          },
+          "supportExample": {
+            "english": "19 = X + IX, so XIX.",
+            "hindi": "19 = X + IX, इसलिए XIX।"
+          },
+          "mistakeType": "READING",
+          "reteachTitle": {
+            "english": "Break the number into parts",
+            "hindi": "संख्या को भागों में बाँटो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Write 10 first and then write 9 as IX.",
+              "hindi": "पहले 10 लिखो और फिर 9 को IX के रूप में लिखो।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "roman numerals",
+          "hindi": "रोमन अंक"
+        },
+        {
+          "english": "symbols",
+          "hindi": "चिह्न"
+        }
+      ],
+      "mistakeFocus": "READING"
+    },
+    {
+      "id": "rs_ch03_large_numbers",
+      "sourceLessonId": "rs_ch03",
+      "chapterNumber": 3,
+      "chapterTitle": {
+        "english": "Large Numbers (Up to Ten Crores)",
+        "hindi": "बड़ी संख्याएँ (दस करोड़ तक)"
+      },
+      "lessonTitle": {
+        "english": "Large Numbers (Up to Ten Crores)",
+        "hindi": "बड़ी संख्याएँ (दस करोड़ तक)"
+      },
+      "subtopicTitle": {
+        "english": "read, write, and compare large numbers",
+        "hindi": "बड़ी संख्याओं को पढ़ना, लिखना और तुलना करना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to read, write, and compare large numbers?",
+        "hindi": "क्या आप जानते हैं कि बड़ी संख्याओं को पढ़ना, लिखना और तुलना करना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Use the Indian place-value system",
+        "hindi": "भारतीय स्थान-मूल्य पद्धति का उपयोग करो"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "In the Indian system we read numbers using ones, thousands, lakhs, and crores.",
+          "hindi": "भारतीय पद्धति में संख्याओं को इकाई, हजार, लाख और करोड़ के आधार पर पढ़ते हैं।"
+        },
+        {
+          "english": "To compare large numbers, first compare the highest place value and then move rightward if needed.",
+          "hindi": "बड़ी संख्याओं की तुलना में पहले सबसे बड़े स्थान-मूल्य को देखो और जरूरत हो तो फिर दाएँ की ओर बढ़ो।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "7,05,20,008 is read as seven crore five lakh twenty thousand eight.",
+          "hindi": "7,05,20,008 को सात करोड़ पाँच लाख बीस हजार आठ पढ़ते हैं।"
+        },
+        {
+          "english": "9,12,45,000 is greater than 8,99,99,999 because 9 crores is greater than 8 crores.",
+          "hindi": "9,12,45,000, 8,99,99,999 से बड़ा है क्योंकि 9 करोड़, 8 करोड़ से बड़ा है।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Indian place-value chart",
+            "hindi": "भारतीय स्थान-मूल्य तालिका"
+          },
+          "description": {
+            "english": "Read from crores toward ones.",
+            "hindi": "करोड़ से इकाई की ओर पढ़ो।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "crore",
+                "hindi": "करोड़"
+              },
+              {
+                "english": "lakh",
+                "hindi": "लाख"
+              },
+              {
+                "english": "thousand",
+                "hindi": "हजार"
+              },
+              {
+                "english": "ones",
+                "hindi": "इकाई"
+              }
+            ],
+            [
+              {
+                "english": "7",
+                "hindi": "7"
+              },
+              {
+                "english": "05",
+                "hindi": "05"
+              },
+              {
+                "english": "20",
+                "hindi": "20"
+              },
+              {
+                "english": "008",
+                "hindi": "008"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs3_q1",
+          "prompt": {
+            "english": "Which number is greater?",
+            "hindi": "कौन-सी संख्या बड़ी है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "8,99,99,999",
+              "hindi": "8,99,99,999"
+            },
+            {
+              "english": "9,12,45,000",
+              "hindi": "9,12,45,000"
+            },
+            {
+              "english": "both are equal",
+              "hindi": "दोनों बराबर हैं"
+            },
+            {
+              "english": "cannot say",
+              "hindi": "नहीं बता सकते"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Compare the crores place first.",
+            "hindi": "पहले करोड़ के स्थान की तुलना करो।"
+          },
+          "wrongReason": {
+            "english": "The comparison did not begin with the highest place value.",
+            "hindi": "तुलना सबसे बड़े स्थान-मूल्य से शुरू नहीं की गई।"
+          },
+          "supportExample": {
+            "english": "9 crores is greater than 8 crores.",
+            "hindi": "9 करोड़, 8 करोड़ से बड़ा है।"
+          },
+          "mistakeType": "PLACE_VALUE",
+          "reteachTitle": {
+            "english": "Start with the highest place",
+            "hindi": "सबसे बड़े स्थान से शुरू करो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "When the leading place value changes, the whole number changes immediately.",
+              "hindi": "जब सबसे आगे का स्थान-मूल्य बदलता है, तो पूरी संख्या बदल जाती है।"
+            }
+          ]
+        },
+        {
+          "id": "rs3_q2",
+          "prompt": {
+            "english": "Write seven crore five lakh twenty thousand eight in figures.",
+            "hindi": "सात करोड़ पाँच लाख बीस हजार आठ को अंकों में लिखिए।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "70520008",
+            "7,05,20,008"
+          ],
+          "hint": {
+            "english": "Place the commas in the Indian system after 3 digits and then every 2 digits.",
+            "hindi": "भारतीय पद्धति में पहले 3 अंकों के बाद और फिर हर 2 अंकों के बाद कॉमा लगाओ।"
+          },
+          "wrongReason": {
+            "english": "The number groups did not match the spoken number name.",
+            "hindi": "संख्या के समूह बोले गए संख्या नाम से मेल नहीं खाते।"
+          },
+          "supportExample": {
+            "english": "7 crore = 7,00,00,000; 5 lakh = 5,00,000; 20 thousand = 20,000; 8 = 8.",
+            "hindi": "7 करोड़ = 7,00,00,000; 5 लाख = 5,00,000; 20 हजार = 20,000; 8 = 8।"
+          },
+          "mistakeType": "PLACE_VALUE",
+          "reteachTitle": {
+            "english": "Write part by part",
+            "hindi": "भागों में लिखो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Write crore, lakh, thousand, and ones separately and then combine them.",
+              "hindi": "करोड़, लाख, हजार और इकाई को अलग-अलग लिखकर फिर जोड़ो।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "large numbers",
+          "hindi": "बड़ी संख्याएँ"
+        },
+        {
+          "english": "place value",
+          "hindi": "स्थान-मूल्य"
+        }
+      ],
+      "mistakeFocus": "PLACE_VALUE"
+    },
+    {
+      "id": "rs_ch04_operations_large_numbers",
+      "sourceLessonId": "rs_ch04",
+      "chapterNumber": 4,
+      "chapterTitle": {
+        "english": "Operations on Large Numbers",
+        "hindi": "बड़ी संख्याओं पर संक्रियाएँ"
+      },
+      "lessonTitle": {
+        "english": "Operations on Large Numbers",
+        "hindi": "बड़ी संख्याओं पर संक्रियाएँ"
+      },
+      "subtopicTitle": {
+        "english": "solve operations on large numbers",
+        "hindi": "बड़ी संख्याओं पर संक्रियाएँ हल करना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to solve operations on large numbers?",
+        "hindi": "क्या आप जानते हैं कि बड़ी संख्याओं पर संक्रियाएँ हल करना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Work column by column",
+        "hindi": "स्तंभ दर स्तंभ काम करो"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Addition and subtraction of large numbers follow the same column method used for smaller numbers.",
+          "hindi": "बड़ी संख्याओं का जोड़ और घटाव उसी स्तंभ विधि से होता है जो छोटी संख्याओं में उपयोग होती है।"
+        },
+        {
+          "english": "While multiplying or dividing, keep the place values aligned so that each step remains meaningful.",
+          "hindi": "गुणा या भाग करते समय स्थान-मूल्य को ठीक से मिलाकर रखो ताकि हर चरण सही अर्थ दे।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "4,56,000 + 24,000 = 4,80,000",
+          "hindi": "4,56,000 + 24,000 = 4,80,000"
+        },
+        {
+          "english": "56,000 - 17,850 = 38,150",
+          "hindi": "56,000 - 17,850 = 38,150"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Operation steps",
+            "hindi": "संक्रिया के चरण"
+          },
+          "description": {
+            "english": "Align place values before solving.",
+            "hindi": "हल करने से पहले स्थान-मूल्य मिलाओ।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "ones below ones",
+                "hindi": "इकाई के नीचे इकाई"
+              },
+              {
+                "english": "tens below tens",
+                "hindi": "दहाई के नीचे दहाई"
+              }
+            ],
+            [
+              {
+                "english": "borrow if needed",
+                "hindi": "आवश्यक हो तो उधार लो"
+              },
+              {
+                "english": "check with estimate",
+                "hindi": "अनुमान से जाँचो"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs4_q1",
+          "prompt": {
+            "english": "What is 4,56,000 + 24,000?",
+            "hindi": "4,56,000 + 24,000 कितना होगा?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "4,70,000",
+              "hindi": "4,70,000"
+            },
+            {
+              "english": "4,80,000",
+              "hindi": "4,80,000"
+            },
+            {
+              "english": "4,60,000",
+              "hindi": "4,60,000"
+            },
+            {
+              "english": "4,90,000",
+              "hindi": "4,90,000"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Add the thousands and ten-thousands carefully.",
+            "hindi": "हजार और दस हजार वाले स्थान को ध्यान से जोड़ो।"
+          },
+          "wrongReason": {
+            "english": "The addition did not keep the place values aligned correctly.",
+            "hindi": "जोड़ में स्थान-मूल्य ठीक से नहीं मिलाए गए।"
+          },
+          "supportExample": {
+            "english": "56,000 + 24,000 = 80,000, so the total becomes 4,80,000.",
+            "hindi": "56,000 + 24,000 = 80,000, इसलिए कुल 4,80,000 होगा।"
+          },
+          "mistakeType": "OPERATION_LINK",
+          "reteachTitle": {
+            "english": "Track each place value",
+            "hindi": "हर स्थान-मूल्य पर नज़र रखो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A large-number addition is still the same old addition with bigger place names.",
+              "hindi": "बड़ी संख्याओं का जोड़ भी वही पुराना जोड़ है, बस स्थान के नाम बड़े हैं।"
+            }
+          ]
+        },
+        {
+          "id": "rs4_q2",
+          "prompt": {
+            "english": "Fill in the answer: 56,000 - 17,850 = ?",
+            "hindi": "उत्तर भरिए: 56,000 - 17,850 = ?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "38150",
+            "38,150"
+          ],
+          "hint": {
+            "english": "Subtract from right to left and borrow where needed.",
+            "hindi": "दाएँ से बाएँ घटाओ और जरूरत होने पर उधार लो।"
+          },
+          "wrongReason": {
+            "english": "A subtraction or borrowing step was done incorrectly.",
+            "hindi": "घटाव या उधार लेने का कोई चरण गलत हुआ।"
+          },
+          "supportExample": {
+            "english": "After subtraction the answer should be a little less than 40,000.",
+            "hindi": "घटाने के बाद उत्तर लगभग 40,000 से थोड़ा कम होना चाहिए।"
+          },
+          "mistakeType": "OPERATION_LINK",
+          "reteachTitle": {
+            "english": "Borrow carefully",
+            "hindi": "उधार सावधानी से लो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In subtraction, a quick estimate helps you see whether the answer is sensible.",
+              "hindi": "घटाव में त्वरित अनुमान से पता चलता है कि उत्तर ठीक है या नहीं।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "large operations",
+          "hindi": "बड़ी संक्रियाएँ"
+        },
+        {
+          "english": "column method",
+          "hindi": "स्तंभ विधि"
+        }
+      ],
+      "mistakeFocus": "OPERATION_LINK"
+    },
+    {
+      "id": "rs_ch05_simplification",
+      "sourceLessonId": "rs_ch05",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "subtopicTitle": {
+        "english": "simplify expressions in the correct order",
+        "hindi": "सही क्रम में व्यंजक का सरलीकरण करना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to simplify expressions in the correct order?",
+        "hindi": "क्या आप जानते हैं कि सही क्रम में व्यंजक का सरलीकरण करना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Follow the order of operations",
+        "hindi": "संक्रियाओं का सही क्रम अपनाओ"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "In simplification we do the bracket work first and then multiplication or division before addition or subtraction.",
+          "hindi": "सरलीकरण में पहले कोष्ठक का काम करते हैं और फिर जोड़-घटाव से पहले गुणा या भाग करते हैं।"
+        },
+        {
+          "english": "This order stops confusion and gives the same answer to every student.",
+          "hindi": "यह क्रम भ्रम को रोकता है और हर विद्यार्थी को एक ही उत्तर तक पहुँचाता है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "18 - 6 × 2 = 18 - 12 = 6",
+          "hindi": "18 - 6 × 2 = 18 - 12 = 6"
+        },
+        {
+          "english": "(24 ÷ 6) + 5 = 4 + 5 = 9",
+          "hindi": "(24 ÷ 6) + 5 = 4 + 5 = 9"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Order of work",
+            "hindi": "काम का क्रम"
+          },
+          "description": {
+            "english": "Brackets first, then multiply or divide, then add or subtract.",
+            "hindi": "पहले कोष्ठक, फिर गुणा या भाग, फिर जोड़ या घटाव।"
+          },
+          "kind": "STEP_FLOW",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "brackets",
+                "hindi": "कोष्ठक"
+              }
+            ],
+            [
+              {
+                "english": "multiply / divide",
+                "hindi": "गुणा / भाग"
+              }
+            ],
+            [
+              {
+                "english": "add / subtract",
+                "hindi": "जोड़ / घटाव"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs5_q1",
+          "prompt": {
+            "english": "What is 18 - 6 × 2?",
+            "hindi": "18 - 6 × 2 का मान क्या है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "24",
+              "hindi": "24"
+            },
+            {
+              "english": "6",
+              "hindi": "6"
+            },
+            {
+              "english": "12",
+              "hindi": "12"
+            },
+            {
+              "english": "30",
+              "hindi": "30"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Do multiplication before subtraction.",
+            "hindi": "घटाव से पहले गुणा करो।"
+          },
+          "wrongReason": {
+            "english": "The expression was solved in the wrong order.",
+            "hindi": "व्यंजक को गलत क्रम में हल किया गया।"
+          },
+          "supportExample": {
+            "english": "6 × 2 = 12, and 18 - 12 = 6.",
+            "hindi": "6 × 2 = 12, और 18 - 12 = 6।"
+          },
+          "mistakeType": "OPERATION_LINK",
+          "reteachTitle": {
+            "english": "Remember the operation order",
+            "hindi": "संक्रियाओं का क्रम याद रखो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "If you subtract first, the whole expression changes.",
+              "hindi": "यदि तुम पहले घटाव करोगे, तो पूरा व्यंजक बदल जाएगा।"
+            }
+          ]
+        },
+        {
+          "id": "rs5_q2",
+          "prompt": {
+            "english": "Solve: (24 ÷ 6) + 5 = ?",
+            "hindi": "हल कीजिए: (24 ÷ 6) + 5 = ?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "9"
+          ],
+          "hint": {
+            "english": "First solve inside the brackets.",
+            "hindi": "पहले कोष्ठक के अंदर का भाग हल करो।"
+          },
+          "wrongReason": {
+            "english": "The bracket step or the final addition was incorrect.",
+            "hindi": "कोष्ठक वाला चरण या अंतिम जोड़ गलत हुआ।"
+          },
+          "supportExample": {
+            "english": "24 ÷ 6 = 4, and 4 + 5 = 9.",
+            "hindi": "24 ÷ 6 = 4, और 4 + 5 = 9।"
+          },
+          "mistakeType": "OPERATION_LINK",
+          "reteachTitle": {
+            "english": "Finish one step at a time",
+            "hindi": "एक-एक चरण पूरा करो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Brackets tell you exactly which operation must be done first.",
+              "hindi": "कोष्ठक बताते हैं कि पहले कौन-सी संक्रिया करनी है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "simplification",
+          "hindi": "सरलीकरण"
+        },
+        {
+          "english": "order",
+          "hindi": "क्रम"
+        }
+      ],
+      "mistakeFocus": "OPERATION_LINK"
+    },
+    {
+      "id": "rs_ch21_circles",
+      "sourceLessonId": "rs_ch21",
+      "chapterNumber": 21,
+      "chapterTitle": {
+        "english": "Circles",
+        "hindi": "वृत्त"
+      },
+      "lessonTitle": {
+        "english": "Circles",
+        "hindi": "वृत्त"
+      },
+      "subtopicTitle": {
+        "english": "identify the main parts of a circle",
+        "hindi": "वृत्त के मुख्य भागों की पहचान करना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to identify the main parts of a circle?",
+        "hindi": "क्या आप जानते हैं कि वृत्त के मुख्य भागों की पहचान करना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Every circle grows from its centre",
+        "hindi": "हर वृत्त अपने केंद्र से बनता है"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "A circle is a set of points at the same distance from a fixed point called the centre.",
+          "hindi": "वृत्त उन बिंदुओं का समूह है जो एक निश्चित बिंदु, यानी केंद्र, से समान दूरी पर हों।"
+        },
+        {
+          "english": "Radius, diameter, chord, semicircle, and circumference are the main parts children meet in this chapter.",
+          "hindi": "त्रिज्या, व्यास, जीवा, अर्धवृत्त और परिधि इस अध्याय के मुख्य भाग हैं।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "The diameter is twice the radius.",
+          "hindi": "व्यास, त्रिज्या का दुगुना होता है।"
+        },
+        {
+          "english": "If radius = 5 cm, then diameter = 10 cm.",
+          "hindi": "यदि त्रिज्या = 5 सेमी, तो व्यास = 10 सेमी।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Circle parts",
+            "hindi": "वृत्त के भाग"
+          },
+          "description": {
+            "english": "Start from the centre and move outward.",
+            "hindi": "केंद्र से शुरू करके बाहर की ओर जाओ।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "radius",
+                "hindi": "त्रिज्या"
+              },
+              {
+                "english": "centre to circle",
+                "hindi": "केंद्र से वृत्त तक"
+              }
+            ],
+            [
+              {
+                "english": "diameter",
+                "hindi": "व्यास"
+              },
+              {
+                "english": "twice the radius",
+                "hindi": "त्रिज्या का दुगुना"
+              }
+            ],
+            [
+              {
+                "english": "chord",
+                "hindi": "जीवा"
+              },
+              {
+                "english": "joins two points",
+                "hindi": "दो बिंदुओं को जोड़ती है"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs21_q1",
+          "prompt": {
+            "english": "The diameter is how many times the radius?",
+            "hindi": "व्यास, त्रिज्या का कितने गुना होता है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "one time",
+              "hindi": "एक गुना"
+            },
+            {
+              "english": "two times",
+              "hindi": "दो गुना"
+            },
+            {
+              "english": "three times",
+              "hindi": "तीन गुना"
+            },
+            {
+              "english": "half",
+              "hindi": "आधा"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "A diameter passes through the centre and covers two radii.",
+            "hindi": "व्यास केंद्र से होकर जाता है और दो त्रिज्याएँ समेटता है।"
+          },
+          "wrongReason": {
+            "english": "The relation between radius and diameter was not remembered correctly.",
+            "hindi": "त्रिज्या और व्यास का संबंध सही याद नहीं रहा।"
+          },
+          "supportExample": {
+            "english": "Diameter = 2 × radius.",
+            "hindi": "व्यास = 2 × त्रिज्या।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "See the two radii",
+            "hindi": "दो त्रिज्याएँ देखो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A diameter can be imagined as two radii joined back to back.",
+              "hindi": "व्यास को दो त्रिज्याओं को जोड़कर समझा जा सकता है।"
+            }
+          ]
+        },
+        {
+          "id": "rs21_q2",
+          "prompt": {
+            "english": "If the radius of a circle is 5 cm, what is its diameter?",
+            "hindi": "यदि किसी वृत्त की त्रिज्या 5 सेमी है, तो उसका व्यास कितना होगा?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "10",
+            "10 cm",
+            "10 centimetres"
+          ],
+          "hint": {
+            "english": "Double the radius.",
+            "hindi": "त्रिज्या को दुगुना करो।"
+          },
+          "wrongReason": {
+            "english": "The diameter was not found using the radius relation correctly.",
+            "hindi": "त्रिज्या के संबंध से व्यास सही नहीं निकाला गया।"
+          },
+          "supportExample": {
+            "english": "2 × 5 = 10.",
+            "hindi": "2 × 5 = 10।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Use the diameter rule",
+            "hindi": "व्यास का नियम लगाओ"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Once you know the radius, the diameter is just twice as much.",
+              "hindi": "त्रिज्या पता हो तो व्यास उसका दुगुना होता है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "circles",
+          "hindi": "वृत्त"
+        },
+        {
+          "english": "radius",
+          "hindi": "त्रिज्या"
+        }
+      ],
+      "mistakeFocus": "CONCEPT_CONFUSION"
+    },
+    {
+      "id": "rs_ch22_perimeter",
+      "sourceLessonId": "rs_ch22",
+      "chapterNumber": 22,
+      "chapterTitle": {
+        "english": "Perimeters of Rectilinear Figures",
+        "hindi": "रेखीय आकृतियों की परिमिति"
+      },
+      "lessonTitle": {
+        "english": "Perimeters of Rectilinear Figures",
+        "hindi": "रेखीय आकृतियों की परिमिति"
+      },
+      "subtopicTitle": {
+        "english": "find the perimeter of rectilinear figures",
+        "hindi": "रेखीय आकृतियों की परिमिति ज्ञात करना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to find the perimeter of rectilinear figures?",
+        "hindi": "क्या आप जानते हैं कि रेखीय आकृतियों की परिमिति ज्ञात करना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Perimeter means the boundary length",
+        "hindi": "परिमिति का अर्थ है सीमा की कुल लंबाई"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Perimeter is the total length around a closed figure.",
+          "hindi": "परिमिति किसी बंद आकृति के चारों ओर की कुल लंबाई होती है।"
+        },
+        {
+          "english": "For rectilinear figures we add all side lengths, and for missing sides we use equal-opposite side ideas when possible.",
+          "hindi": "रेखीय आकृतियों में हम सभी भुजाओं की लंबाइयाँ जोड़ते हैं, और जहाँ संभव हो वहाँ बराबर विपरीत भुजाओं का विचार उपयोग करते हैं।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Perimeter of a square of side 6 cm is 24 cm.",
+          "hindi": "6 सेमी भुजा वाले वर्ग की परिमिति 24 सेमी है।"
+        },
+        {
+          "english": "Perimeter of a rectangle of length 8 cm and breadth 3 cm is 22 cm.",
+          "hindi": "8 सेमी लंबाई और 3 सेमी चौड़ाई वाले आयत की परिमिति 22 सेमी है।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Perimeter rules",
+            "hindi": "परिमिति के नियम"
+          },
+          "description": {
+            "english": "Add the outside lengths only.",
+            "hindi": "सिर्फ बाहरी लंबाइयों को जोड़ो।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "square",
+                "hindi": "वर्ग"
+              },
+              {
+                "english": "4 × side",
+                "hindi": "4 × भुजा"
+              }
+            ],
+            [
+              {
+                "english": "rectangle",
+                "hindi": "आयत"
+              },
+              {
+                "english": "2 × (length + breadth)",
+                "hindi": "2 × (लंबाई + चौड़ाई)"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs22_q1",
+          "prompt": {
+            "english": "What is the perimeter of a square of side 6 cm?",
+            "hindi": "6 सेमी भुजा वाले वर्ग की परिमिति क्या है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "12 cm",
+              "hindi": "12 सेमी"
+            },
+            {
+              "english": "18 cm",
+              "hindi": "18 सेमी"
+            },
+            {
+              "english": "24 cm",
+              "hindi": "24 सेमी"
+            },
+            {
+              "english": "36 cm",
+              "hindi": "36 सेमी"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "A square has four equal sides.",
+            "hindi": "वर्ग की चार बराबर भुजाएँ होती हैं।"
+          },
+          "wrongReason": {
+            "english": "Not all boundary sides were included correctly.",
+            "hindi": "सीमा की सभी भुजाएँ सही तरह शामिल नहीं की गईं।"
+          },
+          "supportExample": {
+            "english": "4 × 6 = 24 cm.",
+            "hindi": "4 × 6 = 24 सेमी।"
+          },
+          "mistakeType": "OPERATION_LINK",
+          "reteachTitle": {
+            "english": "Count all four sides",
+            "hindi": "चारों भुजाएँ गिनो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Perimeter walks around the whole shape once.",
+              "hindi": "परिमिति आकृति के चारों ओर एक पूरा चक्कर लगाती है।"
+            }
+          ]
+        },
+        {
+          "id": "rs22_q2",
+          "prompt": {
+            "english": "Find the perimeter of a rectangle with length 8 cm and breadth 3 cm.",
+            "hindi": "8 सेमी लंबाई और 3 सेमी चौड़ाई वाले आयत की परिमिति ज्ञात कीजिए।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "22",
+            "22 cm",
+            "22 centimetres"
+          ],
+          "hint": {
+            "english": "Use 2 × (length + breadth).",
+            "hindi": "2 × (लंबाई + चौड़ाई) का उपयोग करो।"
+          },
+          "wrongReason": {
+            "english": "The rectangle perimeter rule was not applied correctly.",
+            "hindi": "आयत की परिमिति का नियम सही नहीं लगाया गया।"
+          },
+          "supportExample": {
+            "english": "2 × (8 + 3) = 22.",
+            "hindi": "2 × (8 + 3) = 22।"
+          },
+          "mistakeType": "OPERATION_LINK",
+          "reteachTitle": {
+            "english": "Add then double",
+            "hindi": "पहले जोड़ो, फिर दुगुना करो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "For rectangles, opposite sides are equal, so one length and one breadth are doubled.",
+              "hindi": "आयत में विपरीत भुजाएँ बराबर होती हैं, इसलिए एक लंबाई और एक चौड़ाई को दुगुना करते हैं।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "perimeter",
+          "hindi": "परिमिति"
+        },
+        {
+          "english": "rectangles",
+          "hindi": "आयत"
+        }
+      ],
+      "mistakeFocus": "OPERATION_LINK"
+    },
+    {
+      "id": "rs_ch23_area",
+      "sourceLessonId": "rs_ch23",
+      "chapterNumber": 23,
+      "chapterTitle": {
+        "english": "Area",
+        "hindi": "क्षेत्रफल"
+      },
+      "lessonTitle": {
+        "english": "Area",
+        "hindi": "क्षेत्रफल"
+      },
+      "subtopicTitle": {
+        "english": "find area using square units",
+        "hindi": "वर्ग इकाइयों द्वारा क्षेत्रफल ज्ञात करना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to find area using square units?",
+        "hindi": "क्या आप जानते हैं कि वर्ग इकाइयों द्वारा क्षेत्रफल ज्ञात करना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Area measures covered surface",
+        "hindi": "क्षेत्रफल ढकी हुई सतह को मापता है"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Area tells how much surface a flat shape covers.",
+          "hindi": "क्षेत्रफल बताता है कि कोई समतल आकृति कितनी सतह घेरती है।"
+        },
+        {
+          "english": "For rectangles we count square units or use length × breadth.",
+          "hindi": "आयत के लिए हम वर्ग इकाइयाँ गिनते हैं या लंबाई × चौड़ाई का उपयोग करते हैं।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Area of a rectangle 5 cm by 4 cm = 20 square cm.",
+          "hindi": "5 सेमी × 4 सेमी आयत का क्षेत्रफल = 20 वर्ग सेमी।"
+        },
+        {
+          "english": "Area of a square of side 7 cm = 49 square cm.",
+          "hindi": "7 सेमी भुजा वाले वर्ग का क्षेत्रफल = 49 वर्ग सेमी।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Area ideas",
+            "hindi": "क्षेत्रफल की समझ"
+          },
+          "description": {
+            "english": "Count the small squares or multiply length and breadth.",
+            "hindi": "छोटे वर्ग गिनो या लंबाई और चौड़ाई का गुणा करो।"
+          },
+          "kind": "GRID",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "rectangle",
+                "hindi": "आयत"
+              },
+              {
+                "english": "length × breadth",
+                "hindi": "लंबाई × चौड़ाई"
+              }
+            ],
+            [
+              {
+                "english": "square",
+                "hindi": "वर्ग"
+              },
+              {
+                "english": "side × side",
+                "hindi": "भुजा × भुजा"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs23_q1",
+          "prompt": {
+            "english": "What is the area of a rectangle of length 5 cm and breadth 4 cm?",
+            "hindi": "5 सेमी लंबाई और 4 सेमी चौड़ाई वाले आयत का क्षेत्रफल क्या है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "9 sq cm",
+              "hindi": "9 वर्ग सेमी"
+            },
+            {
+              "english": "18 sq cm",
+              "hindi": "18 वर्ग सेमी"
+            },
+            {
+              "english": "20 sq cm",
+              "hindi": "20 वर्ग सेमी"
+            },
+            {
+              "english": "40 sq cm",
+              "hindi": "40 वर्ग सेमी"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Multiply length by breadth.",
+            "hindi": "लंबाई का चौड़ाई से गुणा करो।"
+          },
+          "wrongReason": {
+            "english": "The area rule was mixed up with another measurement idea.",
+            "hindi": "क्षेत्रफल का नियम किसी दूसरी माप की धारणा से मिल गया।"
+          },
+          "supportExample": {
+            "english": "5 × 4 = 20 square cm.",
+            "hindi": "5 × 4 = 20 वर्ग सेमी।"
+          },
+          "mistakeType": "MEASUREMENT_ESTIMATE",
+          "reteachTitle": {
+            "english": "Area uses squares",
+            "hindi": "क्षेत्रफल वर्ग इकाइयों में होता है"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Perimeter adds boundary lengths, but area multiplies to count the inside surface.",
+              "hindi": "परिमिति सीमा जोड़ती है, पर क्षेत्रफल अंदर की सतह गिनने के लिए गुणा करता है।"
+            }
+          ]
+        },
+        {
+          "id": "rs23_q2",
+          "prompt": {
+            "english": "Find the area of a square of side 7 cm.",
+            "hindi": "7 सेमी भुजा वाले वर्ग का क्षेत्रफल ज्ञात कीजिए।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "49",
+            "49 sq cm",
+            "49 square cm"
+          ],
+          "hint": {
+            "english": "For a square, multiply the side by itself.",
+            "hindi": "वर्ग के लिए भुजा का उसी से गुणा करो।"
+          },
+          "wrongReason": {
+            "english": "The area of the square was not computed correctly.",
+            "hindi": "वर्ग का क्षेत्रफल सही नहीं निकाला गया।"
+          },
+          "supportExample": {
+            "english": "7 × 7 = 49.",
+            "hindi": "7 × 7 = 49।"
+          },
+          "mistakeType": "MEASUREMENT_ESTIMATE",
+          "reteachTitle": {
+            "english": "Use side × side",
+            "hindi": "भुजा × भुजा का उपयोग करो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A square is a rectangle with equal sides, so its area rule becomes side × side.",
+              "hindi": "वर्ग बराबर भुजाओं वाला आयत है, इसलिए उसका क्षेत्रफल नियम भुजा × भुजा होता है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "area",
+          "hindi": "क्षेत्रफल"
+        },
+        {
+          "english": "square units",
+          "hindi": "वर्ग इकाइयाँ"
+        }
+      ],
+      "mistakeFocus": "MEASUREMENT_ESTIMATE"
+    },
+    {
+      "id": "rs_ch24_volume",
+      "sourceLessonId": "rs_ch24",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "subtopicTitle": {
+        "english": "understand volume as occupied space",
+        "hindi": "आयतन को घिरे हुए स्थान के रूप में समझना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to understand volume as occupied space?",
+        "hindi": "क्या आप जानते हैं कि आयतन को घिरे हुए स्थान के रूप में समझना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Volume measures space inside a solid",
+        "hindi": "आयतन ठोस के भीतर का स्थान मापता है"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume tells how much space a solid object occupies.",
+          "hindi": "आयतन बताता है कि कोई ठोस वस्तु कितना स्थान घेरती है।"
+        },
+        {
+          "english": "For a cuboid we can think of layers of equal cubes or use length × breadth × height.",
+          "hindi": "घनाभ के लिए हम बराबर घनों की परतों के रूप में सोच सकते हैं या लंबाई × चौड़ाई × ऊँचाई का उपयोग कर सकते हैं।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Volume of a cuboid 4 × 3 × 2 = 24 cubic units.",
+          "hindi": "4 × 3 × 2 घनाभ का आयतन = 24 घन इकाई।"
+        },
+        {
+          "english": "Volume of a cube of side 3 = 27 cubic units.",
+          "hindi": "3 भुजा वाले घन का आयतन = 27 घन इकाई।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Volume rules",
+            "hindi": "आयतन के नियम"
+          },
+          "description": {
+            "english": "Count layers of cubes mentally.",
+            "hindi": "मन में घनों की परतें गिनो।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "cuboid",
+                "hindi": "घनाभ"
+              },
+              {
+                "english": "l × b × h",
+                "hindi": "ल × च × ऊँ"
+              }
+            ],
+            [
+              {
+                "english": "cube",
+                "hindi": "घन"
+              },
+              {
+                "english": "side × side × side",
+                "hindi": "भुजा × भुजा × भुजा"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs24_q1",
+          "prompt": {
+            "english": "What is the volume of a cuboid with length 4, breadth 3, and height 2?",
+            "hindi": "लंबाई 4, चौड़ाई 3 और ऊँचाई 2 वाले घनाभ का आयतन कितना है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "9",
+              "hindi": "9"
+            },
+            {
+              "english": "12",
+              "hindi": "12"
+            },
+            {
+              "english": "24",
+              "hindi": "24"
+            },
+            {
+              "english": "48",
+              "hindi": "48"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Multiply the three dimensions.",
+            "hindi": "तीनों आयामों का गुणा करो।"
+          },
+          "wrongReason": {
+            "english": "The solid was not measured with all three dimensions.",
+            "hindi": "ठोस को तीनों आयामों से नहीं मापा गया।"
+          },
+          "supportExample": {
+            "english": "4 × 3 × 2 = 24.",
+            "hindi": "4 × 3 × 2 = 24।"
+          },
+          "mistakeType": "MEASUREMENT_ESTIMATE",
+          "reteachTitle": {
+            "english": "Use three dimensions",
+            "hindi": "तीन आयामों का उपयोग करो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Area uses two dimensions, but volume uses three.",
+              "hindi": "क्षेत्रफल दो आयामों का उपयोग करता है, पर आयतन तीन आयामों का।"
+            }
+          ]
+        },
+        {
+          "id": "rs24_q2",
+          "prompt": {
+            "english": "Find the volume of a cube of side 3 units.",
+            "hindi": "3 इकाई भुजा वाले घन का आयतन ज्ञात कीजिए।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "27",
+            "27 cubic units"
+          ],
+          "hint": {
+            "english": "Multiply the side three times.",
+            "hindi": "भुजा का तीन बार गुणा करो।"
+          },
+          "wrongReason": {
+            "english": "The cube volume rule was not applied correctly.",
+            "hindi": "घन के आयतन का नियम सही नहीं लगाया गया।"
+          },
+          "supportExample": {
+            "english": "3 × 3 × 3 = 27.",
+            "hindi": "3 × 3 × 3 = 27।"
+          },
+          "mistakeType": "MEASUREMENT_ESTIMATE",
+          "reteachTitle": {
+            "english": "Think in cubic units",
+            "hindi": "घन इकाइयों में सोचो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A cube stacks equal square layers on top of each other.",
+              "hindi": "घन में बराबर वर्गाकार परतें एक-दूसरे के ऊपर होती हैं।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "volume",
+          "hindi": "आयतन"
+        },
+        {
+          "english": "cuboid",
+          "hindi": "घनाभ"
+        }
+      ],
+      "mistakeFocus": "MEASUREMENT_ESTIMATE"
+    },
+    {
+      "id": "rs_ch25_graphs",
+      "sourceLessonId": "rs_ch25",
+      "chapterNumber": 25,
+      "chapterTitle": {
+        "english": "Pictograph and Bar Graph",
+        "hindi": "चित्रालेख और दण्ड आलेख"
+      },
+      "lessonTitle": {
+        "english": "Pictograph and Bar Graph",
+        "hindi": "चित्रालेख और दण्ड आलेख"
+      },
+      "subtopicTitle": {
+        "english": "read data from pictographs and bar graphs",
+        "hindi": "चित्रालेख और दण्ड आलेख से आँकड़े पढ़ना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to read data from pictographs and bar graphs?",
+        "hindi": "क्या आप जानते हैं कि चित्रालेख और दण्ड आलेख से आँकड़े पढ़ना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Graphs turn data into pictures",
+        "hindi": "आलेख आँकड़ों को चित्रों में बदलते हैं"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "A pictograph uses repeated symbols, while a bar graph uses bars of different heights or lengths to show data.",
+          "hindi": "चित्रालेख दोहराए गए चिन्हों का उपयोग करता है, जबकि दण्ड आलेख आँकड़े दिखाने के लिए अलग-अलग ऊँचाई या लंबाई की पट्टियाँ उपयोग करता है।"
+        },
+        {
+          "english": "The key or scale is important because each symbol or bar unit may represent more than one item.",
+          "hindi": "कुंजी या पैमाना बहुत महत्त्वपूर्ण है क्योंकि हर चिन्ह या पट्टी इकाई एक से अधिक वस्तुएँ दिखा सकती है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "If one symbol stands for 2 apples, then 3 symbols mean 6 apples.",
+          "hindi": "यदि एक चिन्ह 2 सेब दिखाता है, तो 3 चिन्ह 6 सेब दिखाएँगे।"
+        },
+        {
+          "english": "In a bar graph, the tallest bar shows the highest value.",
+          "hindi": "दण्ड आलेख में सबसे ऊँची पट्टी सबसे बड़ा मान दिखाती है।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Graph reading clues",
+            "hindi": "आलेख पढ़ने के संकेत"
+          },
+          "description": {
+            "english": "First read the labels, then the scale, then compare values.",
+            "hindi": "पहले लेबल पढ़ो, फिर पैमाना, फिर मानों की तुलना करो।"
+          },
+          "kind": "PICTOGRAPH",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "key / scale",
+                "hindi": "कुंजी / पैमाना"
+              },
+              {
+                "english": "value of one mark",
+                "hindi": "एक चिन्ह का मान"
+              }
+            ],
+            [
+              {
+                "english": "taller bar",
+                "hindi": "ऊँची पट्टी"
+              },
+              {
+                "english": "greater value",
+                "hindi": "बड़ा मान"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs25_q1",
+          "prompt": {
+            "english": "If one symbol in a pictograph means 2 apples, what do 3 symbols mean?",
+            "hindi": "यदि चित्रालेख में एक चिन्ह 2 सेब दिखाता है, तो 3 चिन्ह क्या दिखाएँगे?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "3 apples",
+              "hindi": "3 सेब"
+            },
+            {
+              "english": "5 apples",
+              "hindi": "5 सेब"
+            },
+            {
+              "english": "6 apples",
+              "hindi": "6 सेब"
+            },
+            {
+              "english": "8 apples",
+              "hindi": "8 सेब"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Use the key for each symbol.",
+            "hindi": "हर चिन्ह के लिए कुंजी का उपयोग करो।"
+          },
+          "wrongReason": {
+            "english": "The pictograph key was not used correctly.",
+            "hindi": "चित्रालेख की कुंजी सही तरह उपयोग नहीं की गई।"
+          },
+          "supportExample": {
+            "english": "3 symbols × 2 apples each = 6 apples.",
+            "hindi": "3 चिन्ह × 2 सेब प्रति चिन्ह = 6 सेब।"
+          },
+          "mistakeType": "DATA_SCALE",
+          "reteachTitle": {
+            "english": "Read the key first",
+            "hindi": "पहले कुंजी पढ़ो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A graph answer is correct only when the scale is used correctly.",
+              "hindi": "आलेख का उत्तर तभी सही होगा जब पैमाना सही लगाया जाए।"
+            }
+          ]
+        },
+        {
+          "id": "rs25_q2",
+          "prompt": {
+            "english": "In a bar graph, Monday shows 5 books and Tuesday shows 7 books. How many more books were sold on Tuesday?",
+            "hindi": "दण्ड आलेख में सोमवार 5 किताबें और मंगलवार 7 किताबें दिखाता है। मंगलवार को कितनी अधिक किताबें बिकीं?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "2",
+            "two",
+            "दो"
+          ],
+          "hint": {
+            "english": "Compare the two values by subtraction.",
+            "hindi": "दोनों मानों की घटाव से तुलना करो।"
+          },
+          "wrongReason": {
+            "english": "The bar values were not compared correctly.",
+            "hindi": "पट्टियों के मानों की सही तुलना नहीं की गई।"
+          },
+          "supportExample": {
+            "english": "7 - 5 = 2.",
+            "hindi": "7 - 5 = 2।"
+          },
+          "mistakeType": "DATA_SCALE",
+          "reteachTitle": {
+            "english": "Compare bar heights",
+            "hindi": "पट्टियों की ऊँचाई की तुलना करो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A difference question in graphs usually becomes a subtraction question.",
+              "hindi": "आलेख में अंतर पूछने वाला प्रश्न प्रायः घटाव का प्रश्न बन जाता है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "graphs",
+          "hindi": "आलेख"
+        },
+        {
+          "english": "data",
+          "hindi": "आँकड़े"
+        }
+      ],
+      "mistakeFocus": "DATA_SCALE"
+    },
+    {
+      "id": "rs_ch16_money",
+      "sourceLessonId": "rs_ch16",
+      "chapterNumber": 16,
+      "chapterTitle": {
+        "english": "Money",
+        "hindi": "धन"
+      },
+      "lessonTitle": {
+        "english": "Money",
+        "hindi": "धन"
+      },
+      "subtopicTitle": {
+        "english": "solve money problems with rupees and paise",
+        "hindi": "रुपये और पैसे के साथ धन के प्रश्न हल करना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to solve money problems with rupees and paise?",
+        "hindi": "क्या आप जानते हैं कि रुपये और पैसे के साथ धन के प्रश्न हल करना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Money problems use real-life arithmetic",
+        "hindi": "धन के प्रश्न रोज़मर्रा की गणित हैं"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Money questions connect arithmetic with shopping, bills, and change.",
+          "hindi": "धन के प्रश्न अंकगणित को खरीदारी, बिल और बाकी राशि से जोड़ते हैं।"
+        },
+        {
+          "english": "Whenever there are many items, write each cost clearly and then find the total or the change.",
+          "hindi": "जब कई वस्तुएँ हों, तो हर कीमत साफ-साफ लिखो और फिर कुल या बाकी राशि निकालो।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Rs 50 - Rs 18 = Rs 32",
+          "hindi": "₹50 - ₹18 = ₹32"
+        },
+        {
+          "english": "3 notebooks at Rs 12 each cost Rs 36.",
+          "hindi": "₹12 की 3 कॉपियों की कुल कीमत ₹36 है।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Money steps",
+            "hindi": "धन के चरण"
+          },
+          "description": {
+            "english": "Cost, total, and change are linked.",
+            "hindi": "कीमत, कुल और बची राशि आपस में जुड़ी हैं।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "quantity × price",
+                "hindi": "मात्रा × कीमत"
+              },
+              {
+                "english": "total cost",
+                "hindi": "कुल कीमत"
+              }
+            ],
+            [
+              {
+                "english": "money given - total",
+                "hindi": "दी गई राशि - कुल"
+              },
+              {
+                "english": "change",
+                "hindi": "बाकी राशि"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs16_q1",
+          "prompt": {
+            "english": "If you have Rs 50 and spend Rs 18, how much is left?",
+            "hindi": "यदि आपके पास ₹50 हैं और ₹18 खर्च हुए, तो कितने बचेंगे?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Rs 28",
+              "hindi": "₹28"
+            },
+            {
+              "english": "Rs 32",
+              "hindi": "₹32"
+            },
+            {
+              "english": "Rs 30",
+              "hindi": "₹30"
+            },
+            {
+              "english": "Rs 68",
+              "hindi": "₹68"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Money left means subtraction.",
+            "hindi": "बची राशि का अर्थ घटाव है।"
+          },
+          "wrongReason": {
+            "english": "The story problem was not linked to the correct operation.",
+            "hindi": "कहानी वाले प्रश्न को सही संक्रिया से नहीं जोड़ा गया।"
+          },
+          "supportExample": {
+            "english": "50 - 18 = 32.",
+            "hindi": "50 - 18 = 32।"
+          },
+          "mistakeType": "OPERATION_LINK",
+          "reteachTitle": {
+            "english": "Match the story to the operation",
+            "hindi": "कहानी को संक्रिया से मिलाओ"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "When money is spent, the remaining amount is found by subtraction.",
+              "hindi": "जब पैसा खर्च होता है, तो बची राशि घटाव से मिलती है।"
+            }
+          ]
+        },
+        {
+          "id": "rs16_q2",
+          "prompt": {
+            "english": "What is the cost of 3 notebooks at Rs 12 each?",
+            "hindi": "₹12 की 3 कॉपियों की कुल कीमत क्या होगी?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "36",
+            "36 rupees",
+            "rs 36",
+            "₹36"
+          ],
+          "hint": {
+            "english": "Repeated equal cost means multiplication.",
+            "hindi": "बार-बार समान कीमत हो तो गुणा करते हैं।"
+          },
+          "wrongReason": {
+            "english": "The total cost was not found using repeated addition or multiplication correctly.",
+            "hindi": "कुल कीमत सही तरह गुणा या बार-बार जोड़कर नहीं निकाली गई।"
+          },
+          "supportExample": {
+            "english": "3 × 12 = 36.",
+            "hindi": "3 × 12 = 36।"
+          },
+          "mistakeType": "OPERATION_LINK",
+          "reteachTitle": {
+            "english": "Use equal groups",
+            "hindi": "बराबर समूहों का उपयोग करो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Equal items at the same price form an easy multiplication question.",
+              "hindi": "एक ही कीमत वाली बराबर वस्तुएँ आसान गुणा का प्रश्न बनाती हैं।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "money",
+          "hindi": "धन"
+        },
+        {
+          "english": "shopping",
+          "hindi": "खरीदारी"
+        }
+      ],
+      "mistakeFocus": "OPERATION_LINK"
+    },
+    {
+      "id": "rs_ch17_basic_geometry",
+      "sourceLessonId": "rs_ch17",
+      "chapterNumber": 17,
+      "chapterTitle": {
+        "english": "Basic Geometrical Concepts",
+        "hindi": "ज्यामिति की मूल अवधारणाएँ"
+      },
+      "lessonTitle": {
+        "english": "Basic Geometrical Concepts",
+        "hindi": "ज्यामिति की मूल अवधारणाएँ"
+      },
+      "subtopicTitle": {
+        "english": "identify points, lines, rays, and line segments",
+        "hindi": "बिंदु, रेखा, किरण और रेखाखंड की पहचान करना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to identify points, lines, rays, and line segments?",
+        "hindi": "क्या आप जानते हैं कि बिंदु, रेखा, किरण और रेखाखंड की पहचान करना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Geometry begins with simple shapes",
+        "hindi": "ज्यामिति सरल रूपों से शुरू होती है"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Basic geometry starts with point, line, ray, and line segment.",
+          "hindi": "मूल ज्यामिति बिंदु, रेखा, किरण और रेखाखंड से शुरू होती है।"
+        },
+        {
+          "english": "These ideas help children describe paths, edges, corners, and drawings accurately.",
+          "hindi": "ये विचार बच्चों को रास्तों, किनारों, कोनों और रेखाचित्रों का सही वर्णन करने में मदद करते हैं।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "A line segment has two endpoints.",
+          "hindi": "रेखाखंड के दो अंतिम बिंदु होते हैं।"
+        },
+        {
+          "english": "A ray starts at one point and goes on in one direction.",
+          "hindi": "किरण एक बिंदु से शुरू होकर एक दिशा में आगे बढ़ती है।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Geometry words",
+            "hindi": "ज्यामिति के शब्द"
+          },
+          "description": {
+            "english": "Each idea has its own special picture.",
+            "hindi": "हर विचार का अपना अलग चित्र होता है।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "point",
+                "hindi": "बिंदु"
+              },
+              {
+                "english": "a location",
+                "hindi": "एक स्थान"
+              }
+            ],
+            [
+              {
+                "english": "line segment",
+                "hindi": "रेखाखंड"
+              },
+              {
+                "english": "two endpoints",
+                "hindi": "दो अंतिम बिंदु"
+              }
+            ],
+            [
+              {
+                "english": "ray",
+                "hindi": "किरण"
+              },
+              {
+                "english": "one endpoint",
+                "hindi": "एक अंतिम बिंदु"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs17_q1",
+          "prompt": {
+            "english": "A line segment has:",
+            "hindi": "रेखाखंड के होते हैं:"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "no endpoints",
+              "hindi": "कोई अंतिम बिंदु नहीं"
+            },
+            {
+              "english": "one endpoint",
+              "hindi": "एक अंतिम बिंदु"
+            },
+            {
+              "english": "two endpoints",
+              "hindi": "दो अंतिम बिंदु"
+            },
+            {
+              "english": "three endpoints",
+              "hindi": "तीन अंतिम बिंदु"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Think of a small straight edge drawn between two dots.",
+            "hindi": "दो बिंदुओं के बीच खींची गई छोटी सीधी रेखा सोचो।"
+          },
+          "wrongReason": {
+            "english": "The geometric figure was identified with the wrong property.",
+            "hindi": "ज्यामितीय आकृति की पहचान गलत गुण से की गई।"
+          },
+          "supportExample": {
+            "english": "A segment begins and ends at fixed points.",
+            "hindi": "रेखाखंड निश्चित बिंदुओं पर शुरू और समाप्त होता है।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Look at the endpoints",
+            "hindi": "अंतिम बिंदु देखो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The number of endpoints tells you whether the figure is a line, segment, or ray.",
+              "hindi": "अंतिम बिंदुओं की संख्या बताती है कि आकृति रेखा है, रेखाखंड है या किरण।"
+            }
+          ]
+        },
+        {
+          "id": "rs17_q2",
+          "prompt": {
+            "english": "How many endpoints does a ray have?",
+            "hindi": "किरण के कितने अंतिम बिंदु होते हैं?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "1",
+            "one",
+            "एक"
+          ],
+          "hint": {
+            "english": "A ray starts at one point and continues forever in one direction.",
+            "hindi": "किरण एक बिंदु से शुरू होती है और एक दिशा में आगे बढ़ती रहती है।"
+          },
+          "wrongReason": {
+            "english": "The ray property was not recalled correctly.",
+            "hindi": "किरण का गुण सही तरह याद नहीं रहा।"
+          },
+          "supportExample": {
+            "english": "So it has exactly one endpoint.",
+            "hindi": "इसलिए उसका केवल एक अंतिम बिंदु होता है।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Picture the figure",
+            "hindi": "आकृति की कल्पना करो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A simple drawing often makes geometry words easy to remember.",
+              "hindi": "एक सरल रेखाचित्र ज्यामिति के शब्द आसानी से याद करा देता है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "geometry",
+          "hindi": "ज्यामिति"
+        },
+        {
+          "english": "line segment",
+          "hindi": "रेखाखंड"
+        }
+      ],
+      "mistakeFocus": "CONCEPT_CONFUSION"
+    },
+    {
+      "id": "rs_ch18_angles",
+      "sourceLessonId": "rs_ch18",
+      "chapterNumber": 18,
+      "chapterTitle": {
+        "english": "Concept of Angles",
+        "hindi": "कोण की अवधारणा"
+      },
+      "lessonTitle": {
+        "english": "Concept of Angles",
+        "hindi": "कोण की अवधारणा"
+      },
+      "subtopicTitle": {
+        "english": "identify common types of angles",
+        "hindi": "सामान्य प्रकार के कोण पहचानना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to identify common types of angles?",
+        "hindi": "क्या आप जानते हैं कि सामान्य प्रकार के कोण पहचानना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Angles show the amount of turn",
+        "hindi": "कोण मोड़ की मात्रा दिखाते हैं"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "An angle is made when two rays meet at a common point.",
+          "hindi": "जब दो किरणें एक सामान्य बिंदु पर मिलती हैं, तो कोण बनता है।"
+        },
+        {
+          "english": "Acute, right, obtuse, and straight angles are recognised by the amount of turn or opening.",
+          "hindi": "न्यून, सम, अधिक और सीधा कोण उनके खुलाव या मोड़ की मात्रा से पहचाने जाते हैं।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "A right angle measures 90 degrees.",
+          "hindi": "समकोण 90 डिग्री का होता है।"
+        },
+        {
+          "english": "An obtuse angle is more than 90 degrees and less than 180 degrees.",
+          "hindi": "अधिक कोण 90 डिग्री से बड़ा और 180 डिग्री से छोटा होता है।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Angle types",
+            "hindi": "कोण के प्रकार"
+          },
+          "description": {
+            "english": "Compare each angle with a right angle.",
+            "hindi": "हर कोण की तुलना समकोण से करो।"
+          },
+          "kind": "COMPASS",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "acute",
+                "hindi": "न्यून"
+              },
+              {
+                "english": "less than 90°",
+                "hindi": "90° से कम"
+              }
+            ],
+            [
+              {
+                "english": "right",
+                "hindi": "सम"
+              },
+              {
+                "english": "90°",
+                "hindi": "90°"
+              }
+            ],
+            [
+              {
+                "english": "obtuse",
+                "hindi": "अधिक"
+              },
+              {
+                "english": "between 90° and 180°",
+                "hindi": "90° और 180° के बीच"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs18_q1",
+          "prompt": {
+            "english": "Which angle is more than 90° and less than 180°?",
+            "hindi": "कौन-सा कोण 90° से बड़ा और 180° से छोटा होता है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "acute angle",
+              "hindi": "न्यून कोण"
+            },
+            {
+              "english": "right angle",
+              "hindi": "समकोण"
+            },
+            {
+              "english": "obtuse angle",
+              "hindi": "अधिक कोण"
+            },
+            {
+              "english": "straight angle",
+              "hindi": "सीधा कोण"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Compare it with a right angle.",
+            "hindi": "इसे समकोण से तुलना करो।"
+          },
+          "wrongReason": {
+            "english": "The angle type was matched with the wrong turn size.",
+            "hindi": "कोण का प्रकार गलत मोड़ के साथ मिला दिया गया।"
+          },
+          "supportExample": {
+            "english": "An obtuse angle opens wider than a right angle but not fully straight.",
+            "hindi": "अधिक कोण समकोण से अधिक खुलता है, पर सीधा नहीं होता।"
+          },
+          "mistakeType": "ANGLE_TURN",
+          "reteachTitle": {
+            "english": "Think of the turn amount",
+            "hindi": "मोड़ की मात्रा सोचो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The angle name depends on how much the rays open.",
+              "hindi": "कोण का नाम किरणों के खुलने की मात्रा पर निर्भर करता है।"
+            }
+          ]
+        },
+        {
+          "id": "rs18_q2",
+          "prompt": {
+            "english": "A right angle is how many degrees?",
+            "hindi": "समकोण कितने डिग्री का होता है?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "90",
+            "90 degrees",
+            "90 degree"
+          ],
+          "hint": {
+            "english": "A notebook corner is a right angle.",
+            "hindi": "कॉपी का कोना एक समकोण होता है।"
+          },
+          "wrongReason": {
+            "english": "The degree measure of a right angle was not recalled correctly.",
+            "hindi": "समकोण का डिग्री मान सही याद नहीं रहा।"
+          },
+          "supportExample": {
+            "english": "A right angle always measures 90°.",
+            "hindi": "समकोण हमेशा 90° का होता है।"
+          },
+          "mistakeType": "ANGLE_TURN",
+          "reteachTitle": {
+            "english": "Use the familiar corner",
+            "hindi": "पहचाने हुए कोने का उपयोग करो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Real objects such as book corners help you remember angle sizes.",
+              "hindi": "किताब या कॉपी के कोने जैसी वस्तुएँ कोण के माप याद रखने में मदद करती हैं।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "angles",
+          "hindi": "कोण"
+        },
+        {
+          "english": "degree",
+          "hindi": "डिग्री"
+        }
+      ],
+      "mistakeFocus": "ANGLE_TURN"
+    },
+    {
+      "id": "rs_ch19_parallel_perpendicular",
+      "sourceLessonId": "rs_ch19",
+      "chapterNumber": 19,
+      "chapterTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लम्ब रेखाएँ"
+      },
+      "lessonTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लम्ब रेखाएँ"
+      },
+      "subtopicTitle": {
+        "english": "recognise parallel and perpendicular lines",
+        "hindi": "समांतर और लम्ब रेखाओं को पहचानना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to recognise parallel and perpendicular lines?",
+        "hindi": "क्या आप जानते हैं कि समांतर और लम्ब रेखाओं को पहचानना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Line relationships matter in geometry",
+        "hindi": "ज्यामिति में रेखाओं का संबंध महत्त्वपूर्ण है"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Parallel lines stay the same distance apart and never meet.",
+          "hindi": "समांतर रेखाएँ हर जगह समान दूरी पर रहती हैं और कभी नहीं मिलतीं।"
+        },
+        {
+          "english": "Perpendicular lines meet to form a right angle.",
+          "hindi": "लम्ब रेखाएँ मिलकर समकोण बनाती हैं।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Railway tracks are often shown as parallel lines.",
+          "hindi": "रेल की पटरियाँ अक्सर समांतर रेखाओं से दिखाई जाती हैं।"
+        },
+        {
+          "english": "The corner of a room shows perpendicular lines.",
+          "hindi": "कमरे का कोना लम्ब रेखाएँ दिखाता है।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Line relationships",
+            "hindi": "रेखाओं के संबंध"
+          },
+          "description": {
+            "english": "Notice whether the lines meet and how they meet.",
+            "hindi": "देखो रेखाएँ मिलती हैं या नहीं, और कैसे मिलती हैं।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "parallel",
+                "hindi": "समांतर"
+              },
+              {
+                "english": "never meet",
+                "hindi": "कभी नहीं मिलतीं"
+              }
+            ],
+            [
+              {
+                "english": "perpendicular",
+                "hindi": "लम्ब"
+              },
+              {
+                "english": "meet at 90°",
+                "hindi": "90° पर मिलती हैं"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs19_q1",
+          "prompt": {
+            "english": "Railway tracks are usually represented by which kind of lines?",
+            "hindi": "रेल की पटरियाँ सामान्यतः किस प्रकार की रेखाओं से दिखाई जाती हैं?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "parallel",
+              "hindi": "समांतर"
+            },
+            {
+              "english": "perpendicular",
+              "hindi": "लम्ब"
+            },
+            {
+              "english": "curved",
+              "hindi": "वक्र"
+            },
+            {
+              "english": "broken",
+              "hindi": "टूटी हुई"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "The two tracks stay side by side without meeting.",
+            "hindi": "दोनों पटरी साथ-साथ चलती हैं और मिलती नहीं हैं।"
+          },
+          "wrongReason": {
+            "english": "The property of parallel lines was not used correctly.",
+            "hindi": "समांतर रेखाओं का गुण सही नहीं लगाया गया।"
+          },
+          "supportExample": {
+            "english": "Parallel lines stay side by side at the same distance.",
+            "hindi": "समांतर रेखाएँ समान दूरी पर साथ-साथ चलती हैं।"
+          },
+          "mistakeType": "DIRECTION",
+          "reteachTitle": {
+            "english": "Check whether they meet",
+            "hindi": "देखो कि वे मिलती हैं या नहीं"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "If lines never meet, they are parallel.",
+              "hindi": "यदि रेखाएँ कभी नहीं मिलतीं, तो वे समांतर हैं।"
+            }
+          ]
+        },
+        {
+          "id": "rs19_q2",
+          "prompt": {
+            "english": "At what angle do perpendicular lines meet?",
+            "hindi": "लम्ब रेखाएँ किस कोण पर मिलती हैं?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "90",
+            "90 degrees",
+            "90 degree"
+          ],
+          "hint": {
+            "english": "Perpendicular lines form a right angle.",
+            "hindi": "लम्ब रेखाएँ समकोण बनाती हैं।"
+          },
+          "wrongReason": {
+            "english": "The meeting angle of perpendicular lines was not identified correctly.",
+            "hindi": "लम्ब रेखाओं के मिलने का कोण सही नहीं पहचाना गया।"
+          },
+          "supportExample": {
+            "english": "A right angle measures 90°.",
+            "hindi": "समकोण 90° का होता है।"
+          },
+          "mistakeType": "DIRECTION",
+          "reteachTitle": {
+            "english": "Link perpendicular with right angle",
+            "hindi": "लम्ब को समकोण से जोड़ो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Perpendicular is another way of saying the lines meet like a square corner.",
+              "hindi": "लम्ब का अर्थ है रेखाएँ वर्ग के कोने की तरह मिलती हैं।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "parallel",
+          "hindi": "समांतर"
+        },
+        {
+          "english": "perpendicular",
+          "hindi": "लम्ब"
+        }
+      ],
+      "mistakeFocus": "DIRECTION"
+    },
+    {
+      "id": "rs_ch20_triangles",
+      "sourceLessonId": "rs_ch20",
+      "chapterNumber": 20,
+      "chapterTitle": {
+        "english": "Triangles",
+        "hindi": "त्रिभुज"
+      },
+      "lessonTitle": {
+        "english": "Triangles",
+        "hindi": "त्रिभुज"
+      },
+      "subtopicTitle": {
+        "english": "classify triangles by sides and angles",
+        "hindi": "त्रिभुजों को भुजाओं और कोणों के आधार पर वर्गीकृत करना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to classify triangles by sides and angles?",
+        "hindi": "क्या आप जानते हैं कि त्रिभुजों को भुजाओं और कोणों के आधार पर वर्गीकृत करना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Three sides create many triangle types",
+        "hindi": "तीन भुजाएँ कई प्रकार के त्रिभुज बनाती हैं"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Triangles are named by their sides as equilateral, isosceles, or scalene.",
+          "hindi": "त्रिभुजों को भुजाओं के आधार पर समभुज, समद्विबाहु या विषमभुज कहा जाता है।"
+        },
+        {
+          "english": "They are also named by their angles, such as right-angled triangle or acute-angled triangle.",
+          "hindi": "कोणों के आधार पर भी इन्हें समकोण त्रिभुज या न्यूनकोण त्रिभुज कहा जाता है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "An equilateral triangle has all three sides equal.",
+          "hindi": "समभुज त्रिभुज की तीनों भुजाएँ बराबर होती हैं।"
+        },
+        {
+          "english": "A right triangle has one right angle.",
+          "hindi": "समकोण त्रिभुज में एक समकोण होता है।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Triangle types",
+            "hindi": "त्रिभुज के प्रकार"
+          },
+          "description": {
+            "english": "Watch the sides and the angles.",
+            "hindi": "भुजाओं और कोणों को देखो।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "equilateral",
+                "hindi": "समभुज"
+              },
+              {
+                "english": "all sides equal",
+                "hindi": "सभी भुजाएँ बराबर"
+              }
+            ],
+            [
+              {
+                "english": "isosceles",
+                "hindi": "समद्विबाहु"
+              },
+              {
+                "english": "two sides equal",
+                "hindi": "दो भुजाएँ बराबर"
+              }
+            ],
+            [
+              {
+                "english": "right triangle",
+                "hindi": "समकोण त्रिभुज"
+              },
+              {
+                "english": "one right angle",
+                "hindi": "एक समकोण"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs20_q1",
+          "prompt": {
+            "english": "Which triangle has all sides equal?",
+            "hindi": "किस त्रिभुज की सभी भुजाएँ बराबर होती हैं?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "isosceles",
+              "hindi": "समद्विबाहु"
+            },
+            {
+              "english": "scalene",
+              "hindi": "विषमभुज"
+            },
+            {
+              "english": "equilateral",
+              "hindi": "समभुज"
+            },
+            {
+              "english": "right triangle",
+              "hindi": "समकोण त्रिभुज"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Look for the word that means equal sides.",
+            "hindi": "उस शब्द को पहचानो जिसका अर्थ बराबर भुजाएँ है।"
+          },
+          "wrongReason": {
+            "english": "The triangle type was not matched with its side property.",
+            "hindi": "त्रिभुज के प्रकार को उसकी भुजा विशेषता से नहीं जोड़ा गया।"
+          },
+          "supportExample": {
+            "english": "Equilateral triangles have all three sides equal.",
+            "hindi": "समभुज त्रिभुज की तीनों भुजाएँ बराबर होती हैं।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Use the side clue",
+            "hindi": "भुजाओं वाले संकेत का उपयोग करो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The triangle name often comes from the side pattern you notice.",
+              "hindi": "त्रिभुज का नाम अक्सर भुजाओं के पैटर्न से मिलता है।"
+            }
+          ]
+        },
+        {
+          "id": "rs20_q2",
+          "prompt": {
+            "english": "A triangle with one right angle is called what?",
+            "hindi": "जिस त्रिभुज में एक समकोण हो उसे क्या कहते हैं?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "right triangle",
+            "right-angled triangle",
+            "right angled triangle",
+            "समकोण त्रिभुज"
+          ],
+          "hint": {
+            "english": "Name it by the angle it contains.",
+            "hindi": "उसके अंदर मौजूद कोण के आधार पर नाम दो।"
+          },
+          "wrongReason": {
+            "english": "The triangle was not named using its angle property.",
+            "hindi": "त्रिभुज को उसके कोण गुण के आधार पर सही नाम नहीं दिया गया।"
+          },
+          "supportExample": {
+            "english": "One right angle means a right-angled triangle.",
+            "hindi": "एक समकोण होने का अर्थ है समकोण त्रिभुज।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Focus on the angle name",
+            "hindi": "कोण वाले नाम पर ध्यान दो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Angle-based names tell you what kind of opening the triangle has.",
+              "hindi": "कोण के आधार पर नाम बताते हैं कि त्रिभुज में किस प्रकार का खुलाव है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "triangles",
+          "hindi": "त्रिभुज"
+        },
+        {
+          "english": "classification",
+          "hindi": "वर्गीकरण"
+        }
+      ],
+      "mistakeFocus": "CONCEPT_CONFUSION"
+    },
+    {
+      "id": "rs_ch11_rounding_numbers",
+      "sourceLessonId": "rs_ch11",
+      "chapterNumber": 11,
+      "chapterTitle": {
+        "english": "Rounding Numbers",
+        "hindi": "संख्याओं का राउंडिंग"
+      },
+      "lessonTitle": {
+        "english": "Rounding Numbers",
+        "hindi": "संख्याओं का राउंडिंग"
+      },
+      "subtopicTitle": {
+        "english": "round numbers to nearby place values",
+        "hindi": "संख्याओं को निकटतम स्थान-मूल्य तक राउंड करना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to round numbers to nearby place values?",
+        "hindi": "क्या आप जानते हैं कि संख्याओं को निकटतम स्थान-मूल्य तक राउंड करना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Find the nearest convenient number",
+        "hindi": "सबसे नज़दीकी आसान संख्या खोजो"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Rounding gives a nearby number that is easier to read, estimate, and compare.",
+          "hindi": "राउंडिंग से पास की ऐसी संख्या मिलती है जिसे पढ़ना, अनुमान लगाना और तुलना करना आसान होता है।"
+        },
+        {
+          "english": "To round, look at the next digit: 5 or more means round up, and 4 or less means round down.",
+          "hindi": "राउंड करने के लिए अगले अंक को देखो: 5 या उससे अधिक हो तो ऊपर बढ़ाओ, और 4 या उससे कम हो तो नीचे रखो।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "347 rounded to the nearest ten is 350.",
+          "hindi": "347 को निकटतम दहाई तक राउंड करें तो 350 मिलता है।"
+        },
+        {
+          "english": "4,651 rounded to the nearest hundred is 4,700.",
+          "hindi": "4,651 को निकटतम सैकड़े तक राउंड करें तो 4,700 मिलता है।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Rounding rule",
+            "hindi": "राउंडिंग नियम"
+          },
+          "description": {
+            "english": "Look at the next digit to decide up or down.",
+            "hindi": "ऊपर या नीचे जाने के लिए अगले अंक को देखो।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "0 to 4",
+                "hindi": "0 से 4"
+              },
+              {
+                "english": "round down",
+                "hindi": "नीचे रखो"
+              }
+            ],
+            [
+              {
+                "english": "5 to 9",
+                "hindi": "5 से 9"
+              },
+              {
+                "english": "round up",
+                "hindi": "ऊपर बढ़ाओ"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs11_q1",
+          "prompt": {
+            "english": "Round 347 to the nearest ten.",
+            "hindi": "347 को निकटतम दहाई तक राउंड कीजिए।"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "340",
+              "hindi": "340"
+            },
+            {
+              "english": "350",
+              "hindi": "350"
+            },
+            {
+              "english": "300",
+              "hindi": "300"
+            },
+            {
+              "english": "360",
+              "hindi": "360"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Check the ones digit 7.",
+            "hindi": "इकाई का अंक 7 देखो।"
+          },
+          "wrongReason": {
+            "english": "The rule for rounding up or down was not applied correctly.",
+            "hindi": "ऊपर या नीचे राउंड करने का नियम सही नहीं लगाया गया।"
+          },
+          "supportExample": {
+            "english": "Since 7 is more than 5, 347 rounds up to 350.",
+            "hindi": "क्योंकि 7, 5 से अधिक है, इसलिए 347 को 350 तक बढ़ाते हैं।"
+          },
+          "mistakeType": "PLACE_VALUE",
+          "reteachTitle": {
+            "english": "Watch the next digit",
+            "hindi": "अगले अंक पर ध्यान दो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The digit in the rounding place changes only when the next digit tells it to.",
+              "hindi": "राउंडिंग वाले स्थान का अंक तभी बदलता है जब अगला अंक ऐसा कहे।"
+            }
+          ]
+        },
+        {
+          "id": "rs11_q2",
+          "prompt": {
+            "english": "Round 4,651 to the nearest hundred.",
+            "hindi": "4,651 को निकटतम सैकड़े तक राउंड कीजिए।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "4700",
+            "4,700"
+          ],
+          "hint": {
+            "english": "Look at the tens digit.",
+            "hindi": "दहाई के अंक को देखो।"
+          },
+          "wrongReason": {
+            "english": "The number was not rounded to the nearest hundred correctly.",
+            "hindi": "संख्या को निकटतम सैकड़े तक सही तरह राउंड नहीं किया गया।"
+          },
+          "supportExample": {
+            "english": "The tens digit is 5, so 4,600 becomes 4,700.",
+            "hindi": "दहाई का अंक 5 है, इसलिए 4,600 बढ़कर 4,700 बनता है।"
+          },
+          "mistakeType": "PLACE_VALUE",
+          "reteachTitle": {
+            "english": "Check the neighbour digit",
+            "hindi": "पड़ोसी अंक देखो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "For nearest hundred, the tens digit decides the answer.",
+              "hindi": "निकटतम सैकड़े के लिए दहाई का अंक उत्तर तय करता है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "rounding",
+          "hindi": "राउंडिंग"
+        },
+        {
+          "english": "estimation",
+          "hindi": "अनुमान"
+        }
+      ],
+      "mistakeFocus": "PLACE_VALUE"
+    },
+    {
+      "id": "rs_ch12_measures",
+      "sourceLessonId": "rs_ch12",
+      "chapterNumber": 12,
+      "chapterTitle": {
+        "english": "Measures of Length, Mass and Capacity",
+        "hindi": "लंबाई, भार और धारिता के माप"
+      },
+      "lessonTitle": {
+        "english": "Measures of Length, Mass and Capacity",
+        "hindi": "लंबाई, भार और धारिता के माप"
+      },
+      "subtopicTitle": {
+        "english": "convert units of length, mass, and capacity",
+        "hindi": "लंबाई, भार और धारिता की इकाइयों का रूपांतरण करना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to convert units of length, mass, and capacity?",
+        "hindi": "क्या आप जानते हैं कि लंबाई, भार और धारिता की इकाइयों का रूपांतरण करना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Move between bigger and smaller units",
+        "hindi": "बड़ी और छोटी इकाइयों के बीच चलो"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Measurement becomes easier when we know the links between standard units such as metre and centimetre, kilogram and gram, litre and millilitre.",
+          "hindi": "मापन आसान हो जाता है जब हमें मीटर और सेंटीमीटर, किलोग्राम और ग्राम, लीटर और मिलीलीटर जैसी मानक इकाइयों के संबंध पता हों।"
+        },
+        {
+          "english": "To move from a bigger unit to a smaller unit, we multiply. To move back, we divide.",
+          "hindi": "बड़ी इकाई से छोटी इकाई में जाने पर गुणा करते हैं। वापस आने पर भाग करते हैं।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "1 metre = 100 centimetres",
+          "hindi": "1 मीटर = 100 सेंटीमीटर"
+        },
+        {
+          "english": "2 kg 500 g = 2,500 g",
+          "hindi": "2 कि.ग्रा. 500 ग्राम = 2,500 ग्राम"
+        },
+        {
+          "english": "3 litres = 3,000 millilitres",
+          "hindi": "3 लीटर = 3,000 मिलीलीटर"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Unit links",
+            "hindi": "इकाई संबंध"
+          },
+          "description": {
+            "english": "Remember the common conversion facts.",
+            "hindi": "सामान्य रूपांतरण तथ्य याद रखो।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "1 m",
+                "hindi": "1 मी."
+              },
+              {
+                "english": "100 cm",
+                "hindi": "100 से.मी."
+              }
+            ],
+            [
+              {
+                "english": "1 kg",
+                "hindi": "1 कि.ग्रा."
+              },
+              {
+                "english": "1000 g",
+                "hindi": "1000 ग्राम"
+              }
+            ],
+            [
+              {
+                "english": "1 L",
+                "hindi": "1 ली."
+              },
+              {
+                "english": "1000 mL",
+                "hindi": "1000 मि.ली."
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs12_q1",
+          "prompt": {
+            "english": "How many centimetres are there in 1 metre?",
+            "hindi": "1 मीटर में कितने सेंटीमीटर होते हैं?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "10",
+              "hindi": "10"
+            },
+            {
+              "english": "100",
+              "hindi": "100"
+            },
+            {
+              "english": "1000",
+              "hindi": "1000"
+            },
+            {
+              "english": "50",
+              "hindi": "50"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "This is one of the basic unit facts.",
+            "hindi": "यह मूल इकाई तथ्यों में से एक है।"
+          },
+          "wrongReason": {
+            "english": "The standard unit relationship was not recalled correctly.",
+            "hindi": "मानक इकाई संबंध सही तरह याद नहीं किया गया।"
+          },
+          "supportExample": {
+            "english": "1 m = 100 cm.",
+            "hindi": "1 मी. = 100 से.मी."
+          },
+          "mistakeType": "UNIT_CONVERSION",
+          "reteachTitle": {
+            "english": "Recall the standard conversion",
+            "hindi": "मानक रूपांतरण याद करो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Length conversions become easy when the benchmark facts are memorised.",
+              "hindi": "जब मानक तथ्य याद हों तो लंबाई का रूपांतरण आसान हो जाता है।"
+            }
+          ]
+        },
+        {
+          "id": "rs12_q2",
+          "prompt": {
+            "english": "Convert 2 kg 500 g into grams.",
+            "hindi": "2 कि.ग्रा. 500 ग्राम को ग्राम में बदलिए।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "2500",
+            "2,500"
+          ],
+          "hint": {
+            "english": "First convert kilograms to grams.",
+            "hindi": "पहले किलोग्राम को ग्राम में बदलिए।"
+          },
+          "wrongReason": {
+            "english": "The mass units were not converted into the same unit correctly.",
+            "hindi": "भार की इकाइयों को एक ही इकाई में सही तरह नहीं बदला गया।"
+          },
+          "supportExample": {
+            "english": "2 kg = 2,000 g. Then add 500 g.",
+            "hindi": "2 कि.ग्रा. = 2,000 ग्राम। फिर 500 ग्राम जोड़ो।"
+          },
+          "mistakeType": "UNIT_CONVERSION",
+          "reteachTitle": {
+            "english": "Convert the bigger unit first",
+            "hindi": "पहले बड़ी इकाई बदलो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Write both parts in the same unit before adding them.",
+              "hindi": "जोड़ने से पहले दोनों भागों को एक ही इकाई में लिखो।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "measurement",
+          "hindi": "मापन"
+        },
+        {
+          "english": "unit conversion",
+          "hindi": "इकाई रूपांतरण"
+        }
+      ],
+      "mistakeFocus": "UNIT_CONVERSION"
+    },
+    {
+      "id": "rs_ch13_average",
+      "sourceLessonId": "rs_ch13",
+      "chapterNumber": 13,
+      "chapterTitle": {
+        "english": "Average",
+        "hindi": "औसत"
+      },
+      "lessonTitle": {
+        "english": "Average",
+        "hindi": "औसत"
+      },
+      "subtopicTitle": {
+        "english": "find the average of a group",
+        "hindi": "संख्याओं के समूह का औसत निकालना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to find the average of a group?",
+        "hindi": "क्या आप जानते हैं कि संख्याओं के समूह का औसत निकालना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Average shares the total equally",
+        "hindi": "औसत कुल को बराबर बाँटता है"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Average tells us the equal share when a total is distributed equally among all items.",
+          "hindi": "औसत बताता है कि जब कुल को सभी वस्तुओं में बराबर बाँटा जाए तो हर एक का हिस्सा कितना होगा।"
+        },
+        {
+          "english": "So the rule is simple: add all values and divide by the number of values.",
+          "hindi": "इसलिए नियम सरल है: सभी मानों को जोड़ो और मानों की संख्या से भाग दो।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Average of 4, 6, 8 is (4 + 6 + 8) ÷ 3 = 6",
+          "hindi": "4, 6, 8 का औसत (4 + 6 + 8) ÷ 3 = 6 है।"
+        },
+        {
+          "english": "Average of 10, 12, 14, 16 is 13",
+          "hindi": "10, 12, 14, 16 का औसत 13 है।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Average rule",
+            "hindi": "औसत का नियम"
+          },
+          "description": {
+            "english": "Add all values and divide by the count.",
+            "hindi": "सभी मान जोड़ो और कुल संख्या से भाग दो।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "sum of values",
+                "hindi": "मानों का योग"
+              },
+              {
+                "english": "divide by count",
+                "hindi": "संख्या से भाग"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs13_q1",
+          "prompt": {
+            "english": "What is the average of 4, 6, and 8?",
+            "hindi": "4, 6 और 8 का औसत क्या है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "5",
+              "hindi": "5"
+            },
+            {
+              "english": "6",
+              "hindi": "6"
+            },
+            {
+              "english": "7",
+              "hindi": "7"
+            },
+            {
+              "english": "18",
+              "hindi": "18"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Add first and then divide by 3.",
+            "hindi": "पहले जोड़ो और फिर 3 से भाग दो।"
+          },
+          "wrongReason": {
+            "english": "The average formula was not used correctly.",
+            "hindi": "औसत का सूत्र सही तरह उपयोग नहीं हुआ।"
+          },
+          "supportExample": {
+            "english": "4 + 6 + 8 = 18, and 18 ÷ 3 = 6.",
+            "hindi": "4 + 6 + 8 = 18, और 18 ÷ 3 = 6।"
+          },
+          "mistakeType": "OPERATION_LINK",
+          "reteachTitle": {
+            "english": "Total first, share next",
+            "hindi": "पहले कुल, फिर बराबर बाँटो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Average is not the sum alone; it is the equal share from the sum.",
+              "hindi": "औसत केवल योग नहीं है; वह योग का बराबर बाँटा गया हिस्सा है।"
+            }
+          ]
+        },
+        {
+          "id": "rs13_q2",
+          "prompt": {
+            "english": "Find the average of 10, 12, 14, and 16.",
+            "hindi": "10, 12, 14 और 16 का औसत ज्ञात कीजिए।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "13"
+          ],
+          "hint": {
+            "english": "Add the four numbers and divide by 4.",
+            "hindi": "चारों संख्याएँ जोड़कर 4 से भाग दो।"
+          },
+          "wrongReason": {
+            "english": "Either the total or the divisor was incorrect.",
+            "hindi": "या तो योग गलत है या भाजक।"
+          },
+          "supportExample": {
+            "english": "10 + 12 + 14 + 16 = 52, and 52 ÷ 4 = 13.",
+            "hindi": "10 + 12 + 14 + 16 = 52, और 52 ÷ 4 = 13।"
+          },
+          "mistakeType": "OPERATION_LINK",
+          "reteachTitle": {
+            "english": "Count the items correctly",
+            "hindi": "वस्तुओं की संख्या सही गिनो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A wrong divisor gives the wrong average, so count the values carefully.",
+              "hindi": "गलत भाजक गलत औसत देता है, इसलिए मानों की संख्या सावधानी से गिनो।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "average",
+          "hindi": "औसत"
+        },
+        {
+          "english": "equal share",
+          "hindi": "बराबर बाँटना"
+        }
+      ],
+      "mistakeFocus": "OPERATION_LINK"
+    },
+    {
+      "id": "rs_ch14_percentage",
+      "sourceLessonId": "rs_ch14",
+      "chapterNumber": 14,
+      "chapterTitle": {
+        "english": "Percentage",
+        "hindi": "प्रतिशत"
+      },
+      "lessonTitle": {
+        "english": "Percentage",
+        "hindi": "प्रतिशत"
+      },
+      "subtopicTitle": {
+        "english": "understand percent as parts out of one hundred",
+        "hindi": "प्रतिशत को सौ में से भाग के रूप में समझना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to understand percent as parts out of one hundred?",
+        "hindi": "क्या आप जानते हैं कि प्रतिशत को सौ में से भाग के रूप में समझना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Percent means 'out of 100'",
+        "hindi": "प्रतिशत का अर्थ है 'सौ में से'"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "The symbol % means 'per hundred', so percentage always talks about parts out of 100.",
+          "hindi": "चिह्न % का अर्थ 'प्रति सौ' है, इसलिए प्रतिशत हमेशा 100 में से हिस्सों की बात करता है।"
+        },
+        {
+          "english": "This helps us compare marks, discounts, and shaded parts on the same scale.",
+          "hindi": "इससे हम अंक, छूट और छायांकित भागों की तुलना एक ही पैमाने पर कर पाते हैं।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "25% means 25 out of 100.",
+          "hindi": "25% का अर्थ 100 में से 25 है।"
+        },
+        {
+          "english": "10% of 50 = 5",
+          "hindi": "50 का 10% = 5"
+        },
+        {
+          "english": "50% is the same as one-half.",
+          "hindi": "50% एक-आधा के बराबर है।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Percent connections",
+            "hindi": "प्रतिशत संबंध"
+          },
+          "description": {
+            "english": "Link common percentages to fractions.",
+            "hindi": "सामान्य प्रतिशतों को भिन्नों से जोड़ो।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "50%",
+                "hindi": "50%"
+              },
+              {
+                "english": "1/2",
+                "hindi": "1/2"
+              }
+            ],
+            [
+              {
+                "english": "25%",
+                "hindi": "25%"
+              },
+              {
+                "english": "1/4",
+                "hindi": "1/4"
+              }
+            ],
+            [
+              {
+                "english": "10%",
+                "hindi": "10%"
+              },
+              {
+                "english": "10 out of 100",
+                "hindi": "100 में से 10"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs14_q1",
+          "prompt": {
+            "english": "What is 25% of 100?",
+            "hindi": "100 का 25% कितना है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "10",
+              "hindi": "10"
+            },
+            {
+              "english": "20",
+              "hindi": "20"
+            },
+            {
+              "english": "25",
+              "hindi": "25"
+            },
+            {
+              "english": "50",
+              "hindi": "50"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Percent means out of 100.",
+            "hindi": "प्रतिशत का अर्थ 100 में से है।"
+          },
+          "wrongReason": {
+            "english": "The percent was not interpreted as parts out of 100.",
+            "hindi": "प्रतिशत को 100 में से भाग के रूप में नहीं समझा गया।"
+          },
+          "supportExample": {
+            "english": "25% of 100 is 25.",
+            "hindi": "100 का 25% = 25।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Think in hundred parts",
+            "hindi": "इसे सौ भागों में सोचो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "When the whole is 100, the percent value itself tells the answer.",
+              "hindi": "जब पूरा 100 हो, तो प्रतिशत का मान ही उत्तर बता देता है।"
+            }
+          ]
+        },
+        {
+          "id": "rs14_q2",
+          "prompt": {
+            "english": "Find 10% of 50.",
+            "hindi": "50 का 10% ज्ञात कीजिए।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "5"
+          ],
+          "hint": {
+            "english": "Ten percent means one-tenth.",
+            "hindi": "10% का अर्थ एक-दसवाँ होता है।"
+          },
+          "wrongReason": {
+            "english": "The percentage was not converted into the correct part of the whole.",
+            "hindi": "प्रतिशत को पूरे के सही भाग में नहीं बदला गया।"
+          },
+          "supportExample": {
+            "english": "One-tenth of 50 is 5.",
+            "hindi": "50 का एक-दसवाँ 5 है।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Change percent into a simple fraction",
+            "hindi": "प्रतिशत को सरल भिन्न में बदलो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "10% = 10/100 = 1/10, so divide 50 by 10.",
+              "hindi": "10% = 10/100 = 1/10, इसलिए 50 को 10 से भाग दो।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "percentage",
+          "hindi": "प्रतिशत"
+        },
+        {
+          "english": "parts of 100",
+          "hindi": "सौ में से भाग"
+        }
+      ],
+      "mistakeFocus": "CONCEPT_CONFUSION"
+    },
+    {
+      "id": "rs_ch15_time",
+      "sourceLessonId": "rs_ch15",
+      "chapterNumber": 15,
+      "chapterTitle": {
+        "english": "Time",
+        "hindi": "समय"
+      },
+      "lessonTitle": {
+        "english": "Time",
+        "hindi": "समय"
+      },
+      "subtopicTitle": {
+        "english": "read clocks and find elapsed time",
+        "hindi": "घड़ी पढ़ना और बीता समय निकालना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to read clocks and find elapsed time?",
+        "hindi": "क्या आप जानते हैं कि घड़ी पढ़ना और बीता समय निकालना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Clock reading needs careful units",
+        "hindi": "घड़ी पढ़ने में इकाइयों का ध्यान जरूरी है"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Time uses hours and minutes, so we must read the clock face carefully and understand quarter past, half past, and quarter to.",
+          "hindi": "समय में घंटे और मिनट होते हैं, इसलिए घड़ी के पटल को ध्यान से पढ़ना और सवा, साढ़े, पौने जैसे रूप समझना जरूरी है।"
+        },
+        {
+          "english": "Elapsed time means the duration between a starting time and an ending time.",
+          "hindi": "बीता समय किसी शुरू समय और समाप्त समय के बीच की अवधि होता है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Quarter past 3 means 3:15.",
+          "hindi": "सवा 3 का अर्थ 3:15 है।"
+        },
+        {
+          "english": "From 8:30 to 1:00 the elapsed time is 4 hours 30 minutes.",
+          "hindi": "8:30 से 1:00 तक बीता समय 4 घंटे 30 मिनट है।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Time words",
+            "hindi": "समय के शब्द"
+          },
+          "description": {
+            "english": "Link common phrases to clock times.",
+            "hindi": "सामान्य वाक्यों को घड़ी के समय से जोड़ो।"
+          },
+          "kind": "CLOCK",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "quarter past",
+                "hindi": "सवा"
+              },
+              {
+                "english": "15 minutes after",
+                "hindi": "15 मिनट बाद"
+              }
+            ],
+            [
+              {
+                "english": "half past",
+                "hindi": "साढ़े"
+              },
+              {
+                "english": "30 minutes after",
+                "hindi": "30 मिनट बाद"
+              }
+            ],
+            [
+              {
+                "english": "quarter to",
+                "hindi": "पौने"
+              },
+              {
+                "english": "15 minutes before",
+                "hindi": "15 मिनट पहले"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs15_q1",
+          "prompt": {
+            "english": "Quarter past 3 is written as:",
+            "hindi": "सवा 3 को कैसे लिखते हैं?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "3:15",
+              "hindi": "3:15"
+            },
+            {
+              "english": "3:30",
+              "hindi": "3:30"
+            },
+            {
+              "english": "2:45",
+              "hindi": "2:45"
+            },
+            {
+              "english": "4:15",
+              "hindi": "4:15"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Quarter past means 15 minutes after the hour.",
+            "hindi": "सवा का अर्थ घंटे के 15 मिनट बाद है।"
+          },
+          "wrongReason": {
+            "english": "The phrase on the clock was not interpreted correctly.",
+            "hindi": "घड़ी के वाक्यांश को सही तरह नहीं समझा गया।"
+          },
+          "supportExample": {
+            "english": "3 o'clock plus 15 minutes becomes 3:15.",
+            "hindi": "3 बजे में 15 मिनट जोड़ने पर 3:15 होता है।"
+          },
+          "mistakeType": "TIME_READING",
+          "reteachTitle": {
+            "english": "Connect words to minutes",
+            "hindi": "शब्दों को मिनटों से जोड़ो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The clock language becomes easy when you remember quarter = 15 minutes.",
+              "hindi": "जब तुम quarter = 15 मिनट याद रखते हो तो घड़ी की भाषा आसान हो जाती है।"
+            }
+          ]
+        },
+        {
+          "id": "rs15_q2",
+          "prompt": {
+            "english": "How much time passes from 8:30 to 1:00?",
+            "hindi": "8:30 से 1:00 तक कितना समय बीतता है?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "4 hours 30 minutes",
+            "4 hrs 30 minutes",
+            "4 hour 30 minutes",
+            "4 hours and 30 minutes",
+            "4:30",
+            "4 hr 30 min"
+          ],
+          "hint": {
+            "english": "Count hours first and then minutes.",
+            "hindi": "पहले घंटे गिनो, फिर मिनट।"
+          },
+          "wrongReason": {
+            "english": "The elapsed time between the two clock times was not found correctly.",
+            "hindi": "दो समयों के बीच बीता समय सही नहीं निकाला गया।"
+          },
+          "supportExample": {
+            "english": "8:30 to 12:30 is 4 hours, and then 30 more minutes to 1:00.",
+            "hindi": "8:30 से 12:30 तक 4 घंटे, फिर 1:00 तक 30 मिनट और।"
+          },
+          "mistakeType": "TIME_READING",
+          "reteachTitle": {
+            "english": "Move in small time jumps",
+            "hindi": "छोटे-छोटे समय चरणों में चलो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Breaking elapsed time into easy jumps reduces mistakes.",
+              "hindi": "बीते समय को छोटे आसान चरणों में बाँटने से गलतियाँ कम होती हैं।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "time",
+          "hindi": "समय"
+        },
+        {
+          "english": "elapsed time",
+          "hindi": "बीता समय"
+        }
+      ],
+      "mistakeFocus": "TIME_READING"
+    },
+    {
+      "id": "rs_ch06_factors_multiples",
+      "sourceLessonId": "rs_ch06",
+      "chapterNumber": 6,
+      "chapterTitle": {
+        "english": "Factors and Multiples",
+        "hindi": "गुणनखंड और गुणज"
+      },
+      "lessonTitle": {
+        "english": "Factors and Multiples",
+        "hindi": "गुणनखंड और गुणज"
+      },
+      "subtopicTitle": {
+        "english": "use factors and multiples",
+        "hindi": "गुणनखंड और गुणज का उपयोग करना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to use factors and multiples?",
+        "hindi": "क्या आप जानते हैं कि गुणनखंड और गुणज का उपयोग करना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "See division and multiplication links",
+        "hindi": "भाग और गुणा का संबंध देखो"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "A factor divides a number exactly, while a multiple is found by multiplying the number.",
+          "hindi": "गुणनखंड किसी संख्या को पूरा-पूरा विभाजित करता है, जबकि गुणज उस संख्या को गुणा करके मिलता है।"
+        },
+        {
+          "english": "The chapter also uses these ideas for common factors, common multiples, HCF, and LCM.",
+          "hindi": "यह अध्याय इन्हीं विचारों से समान गुणनखंड, समान गुणज, HCF और LCM तक पहुँचता है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "6 is a factor of 24 because 24 ÷ 6 = 4.",
+          "hindi": "6, 24 का गुणनखंड है क्योंकि 24 ÷ 6 = 4।"
+        },
+        {
+          "english": "Multiples of 4 are 4, 8, 12, 16, ...",
+          "hindi": "4 के गुणज 4, 8, 12, 16, ... हैं।"
+        },
+        {
+          "english": "LCM of 4 and 6 is 12.",
+          "hindi": "4 और 6 का LCM 12 है।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Factor and multiple table",
+            "hindi": "गुणनखंड और गुणज तालिका"
+          },
+          "description": {
+            "english": "One number can be seen in two ways.",
+            "hindi": "एक संख्या को दो तरीकों से देखो।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "24",
+                "hindi": "24"
+              },
+              {
+                "english": "factors: 1, 2, 3, 4, 6, 8, 12, 24",
+                "hindi": "गुणनखंड: 1, 2, 3, 4, 6, 8, 12, 24"
+              }
+            ],
+            [
+              {
+                "english": "4",
+                "hindi": "4"
+              },
+              {
+                "english": "multiples: 4, 8, 12, 16, ...",
+                "hindi": "गुणज: 4, 8, 12, 16, ..."
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs6_q1",
+          "prompt": {
+            "english": "Which of these is a factor of 24?",
+            "hindi": "इनमें से 24 का गुणनखंड कौन है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "5",
+              "hindi": "5"
+            },
+            {
+              "english": "6",
+              "hindi": "6"
+            },
+            {
+              "english": "7",
+              "hindi": "7"
+            },
+            {
+              "english": "10",
+              "hindi": "10"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Check which number divides 24 exactly.",
+            "hindi": "देखो कौन-सी संख्या 24 को पूरा-पूरा विभाजित करती है।"
+          },
+          "wrongReason": {
+            "english": "The chosen number does not divide 24 exactly.",
+            "hindi": "चुनी गई संख्या 24 को पूरा-पूरा विभाजित नहीं करती।"
+          },
+          "supportExample": {
+            "english": "24 ÷ 6 = 4 with no remainder.",
+            "hindi": "24 ÷ 6 = 4, शेषफल 0 है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Test the division",
+            "hindi": "भाग देकर जाँचो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A factor always leaves remainder 0.",
+              "hindi": "गुणनखंड हमेशा शेषफल 0 छोड़ता है।"
+            }
+          ]
+        },
+        {
+          "id": "rs6_q2",
+          "prompt": {
+            "english": "Find the LCM of 4 and 6.",
+            "hindi": "4 और 6 का LCM ज्ञात कीजिए।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "12"
+          ],
+          "hint": {
+            "english": "Write a few multiples of both numbers.",
+            "hindi": "दोनों संख्याओं के कुछ गुणज लिखो।"
+          },
+          "wrongReason": {
+            "english": "The common multiple was not identified correctly.",
+            "hindi": "समान गुणज सही तरह नहीं पहचाना गया।"
+          },
+          "supportExample": {
+            "english": "Multiples of 4: 4, 8, 12. Multiples of 6: 6, 12.",
+            "hindi": "4 के गुणज: 4, 8, 12। 6 के गुणज: 6, 12।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Look for the first common multiple",
+            "hindi": "पहला समान गुणज खोजो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "LCM means the smallest number found in both multiple lists.",
+              "hindi": "LCM का अर्थ दोनों गुणज सूचियों में मिलने वाली सबसे छोटी समान संख्या है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "factors",
+          "hindi": "गुणनखंड"
+        },
+        {
+          "english": "multiples",
+          "hindi": "गुणज"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "rs_ch07_fractions",
+      "sourceLessonId": "rs_ch07",
+      "chapterNumber": 7,
+      "chapterTitle": {
+        "english": "Fractions",
+        "hindi": "भिन्न"
+      },
+      "lessonTitle": {
+        "english": "Fractions",
+        "hindi": "भिन्न"
+      },
+      "subtopicTitle": {
+        "english": "understand parts of a whole",
+        "hindi": "पूर्ण भाग के हिस्सों को समझना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to understand parts of a whole?",
+        "hindi": "क्या आप जानते हैं कि पूर्ण भाग के हिस्सों को समझना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "A fraction shows equal parts",
+        "hindi": "भिन्न बराबर हिस्से दिखाती है"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "A fraction tells how many equal parts are taken from a whole.",
+          "hindi": "भिन्न बताती है कि पूरे में से कितने बराबर हिस्से लिए गए हैं।"
+        },
+        {
+          "english": "Children compare fractions better when they keep the whole same and then look at numerator and denominator carefully.",
+          "hindi": "बच्चे भिन्नों की तुलना तब बेहतर करते हैं जब वे पूरा भाग एक जैसा रखते हैं और फिर अंश तथा हर को ध्यान से देखते हैं।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "3/5 is a proper fraction.",
+          "hindi": "3/5 एक शुद्ध भिन्न है।"
+        },
+        {
+          "english": "7/4 is an improper fraction.",
+          "hindi": "7/4 एक अशुद्ध भिन्न है।"
+        },
+        {
+          "english": "If denominators are equal, the bigger numerator gives the bigger fraction.",
+          "hindi": "यदि हर बराबर हों, तो बड़ा अंश बड़ी भिन्न देता है।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Fraction idea",
+            "hindi": "भिन्न की समझ"
+          },
+          "description": {
+            "english": "Numerator counts parts taken and denominator counts equal parts in the whole.",
+            "hindi": "अंश लिए गए भाग गिनता है और हर पूरे के बराबर भाग गिनता है।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "numerator",
+                "hindi": "अंश"
+              },
+              {
+                "english": "parts taken",
+                "hindi": "लिए गए भाग"
+              }
+            ],
+            [
+              {
+                "english": "denominator",
+                "hindi": "हर"
+              },
+              {
+                "english": "equal parts in whole",
+                "hindi": "पूरे के बराबर भाग"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs7_q1",
+          "prompt": {
+            "english": "Which of these is a proper fraction?",
+            "hindi": "इनमें से शुद्ध भिन्न कौन-सी है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "7/4",
+              "hindi": "7/4"
+            },
+            {
+              "english": "3/5",
+              "hindi": "3/5"
+            },
+            {
+              "english": "9/8",
+              "hindi": "9/8"
+            },
+            {
+              "english": "5/5",
+              "hindi": "5/5"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "In a proper fraction, numerator is smaller than denominator.",
+            "hindi": "शुद्ध भिन्न में अंश, हर से छोटा होता है।"
+          },
+          "wrongReason": {
+            "english": "The fraction type was identified incorrectly.",
+            "hindi": "भिन्न का प्रकार सही नहीं पहचाना गया।"
+          },
+          "supportExample": {
+            "english": "3 is less than 5, so 3/5 is proper.",
+            "hindi": "3, 5 से छोटा है, इसलिए 3/5 शुद्ध भिन्न है।"
+          },
+          "mistakeType": "FRACTION_COMPARE",
+          "reteachTitle": {
+            "english": "Compare numerator and denominator",
+            "hindi": "अंश और हर की तुलना करो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A proper fraction always represents less than one whole.",
+              "hindi": "शुद्ध भिन्न हमेशा एक पूरे से कम होती है।"
+            }
+          ]
+        },
+        {
+          "id": "rs7_q2",
+          "prompt": {
+            "english": "Which is greater: 3/4 or 2/4?",
+            "hindi": "कौन-सी बड़ी है: 3/4 या 2/4?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "3/4",
+            "three fourth",
+            "three fourths",
+            "3 by 4"
+          ],
+          "hint": {
+            "english": "The denominators are the same, so compare numerators.",
+            "hindi": "दोनों का हर समान है, इसलिए अंश की तुलना करो।"
+          },
+          "wrongReason": {
+            "english": "The comparison did not use the equal denominator rule.",
+            "hindi": "तुलना में समान हर वाला नियम उपयोग नहीं किया गया।"
+          },
+          "supportExample": {
+            "english": "Among fourths, 3 parts are more than 2 parts.",
+            "hindi": "चौथाई हिस्सों में 3 भाग, 2 भाग से अधिक हैं।"
+          },
+          "mistakeType": "FRACTION_COMPARE",
+          "reteachTitle": {
+            "english": "Keep the whole same",
+            "hindi": "पूरा भाग एक जैसा रखो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "When the denominators match, only the numerators decide which fraction is bigger.",
+              "hindi": "जब हर समान हों, तो कौन-सी भिन्न बड़ी है यह अंश तय करता है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "fractions",
+          "hindi": "भिन्न"
+        },
+        {
+          "english": "comparison",
+          "hindi": "तुलना"
+        }
+      ],
+      "mistakeFocus": "FRACTION_COMPARE"
+    },
+    {
+      "id": "rs_ch08_add_subtract_fractions",
+      "sourceLessonId": "rs_ch08",
+      "chapterNumber": 8,
+      "chapterTitle": {
+        "english": "Addition and Subtraction of Fractions",
+        "hindi": "भिन्नों का जोड़ और घटाव"
+      },
+      "lessonTitle": {
+        "english": "Addition and Subtraction of Fractions",
+        "hindi": "भिन्नों का जोड़ और घटाव"
+      },
+      "subtopicTitle": {
+        "english": "add and subtract fractions carefully",
+        "hindi": "भिन्नों का सावधानी से जोड़ और घटाव करना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to add and subtract fractions carefully?",
+        "hindi": "क्या आप जानते हैं कि भिन्नों का सावधानी से जोड़ और घटाव करना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Keep denominators in mind",
+        "hindi": "हर को ध्यान में रखो"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Fractions with the same denominator can be added or subtracted by working only with the numerators.",
+          "hindi": "समान हर वाली भिन्नों में जोड़ या घटाव करते समय केवल अंशों पर काम करते हैं।"
+        },
+        {
+          "english": "After finding the answer, simplify it if the numerator and denominator have a common factor.",
+          "hindi": "उत्तर मिलने के बाद यदि अंश और हर में कोई समान गुणनखंड हो तो उसे सरल भी करो।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "1/4 + 2/4 = 3/4",
+          "hindi": "1/4 + 2/4 = 3/4"
+        },
+        {
+          "english": "7/8 - 2/8 = 5/8",
+          "hindi": "7/8 - 2/8 = 5/8"
+        },
+        {
+          "english": "5/6 - 1/6 = 4/6 = 2/3",
+          "hindi": "5/6 - 1/6 = 4/6 = 2/3"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Same denominator rule",
+            "hindi": "समान हर का नियम"
+          },
+          "description": {
+            "english": "Add or subtract numerators and keep the denominator.",
+            "hindi": "अंश जोड़ो या घटाओ और हर वही रखो।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "a/b + c/b = (a + c)/b",
+                "hindi": "a/b + c/b = (a + c)/b"
+              }
+            ],
+            [
+              {
+                "english": "a/b - c/b = (a - c)/b",
+                "hindi": "a/b - c/b = (a - c)/b"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs8_q1",
+          "prompt": {
+            "english": "What is 1/4 + 2/4?",
+            "hindi": "1/4 + 2/4 कितना होगा?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "3/4",
+              "hindi": "3/4"
+            },
+            {
+              "english": "3/8",
+              "hindi": "3/8"
+            },
+            {
+              "english": "1/2",
+              "hindi": "1/2"
+            },
+            {
+              "english": "2/8",
+              "hindi": "2/8"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "The denominator stays 4.",
+            "hindi": "हर 4 ही रहेगा।"
+          },
+          "wrongReason": {
+            "english": "The fraction addition rule for same denominators was not used correctly.",
+            "hindi": "समान हर वाली भिन्नों के जोड़ का नियम सही नहीं लगा।"
+          },
+          "supportExample": {
+            "english": "1 + 2 = 3, so the answer is 3/4.",
+            "hindi": "1 + 2 = 3, इसलिए उत्तर 3/4 है।"
+          },
+          "mistakeType": "FRACTION_COMPARE",
+          "reteachTitle": {
+            "english": "Work with the numerators",
+            "hindi": "अंशों पर काम करो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "When denominators are equal, do not add the denominators.",
+              "hindi": "जब हर समान हों, तो हरों को मत जोड़ो।"
+            }
+          ]
+        },
+        {
+          "id": "rs8_q2",
+          "prompt": {
+            "english": "Solve: 7/8 - 2/8 = ?",
+            "hindi": "हल कीजिए: 7/8 - 2/8 = ?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "5/8",
+            "5 by 8"
+          ],
+          "hint": {
+            "english": "Subtract the numerators and keep the denominator 8.",
+            "hindi": "अंशों को घटाओ और हर 8 ही रखो।"
+          },
+          "wrongReason": {
+            "english": "The subtraction changed the denominator or the numerator incorrectly.",
+            "hindi": "घटाव में हर या अंश गलत बदल दिया गया।"
+          },
+          "supportExample": {
+            "english": "7 - 2 = 5, so 7/8 - 2/8 = 5/8.",
+            "hindi": "7 - 2 = 5, इसलिए 7/8 - 2/8 = 5/8।"
+          },
+          "mistakeType": "FRACTION_COMPARE",
+          "reteachTitle": {
+            "english": "Do one part at a time",
+            "hindi": "एक-एक भाग करके हल करो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Same denominators make the operation shorter and clearer.",
+              "hindi": "समान हर होने से संक्रिया छोटी और स्पष्ट हो जाती है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "fraction addition",
+          "hindi": "भिन्न जोड़"
+        },
+        {
+          "english": "fraction subtraction",
+          "hindi": "भिन्न घटाव"
+        }
+      ],
+      "mistakeFocus": "FRACTION_COMPARE"
+    },
+    {
+      "id": "rs_ch09_multiply_divide_fractions",
+      "sourceLessonId": "rs_ch09",
+      "chapterNumber": 9,
+      "chapterTitle": {
+        "english": "Multiplication and Division of Fractions",
+        "hindi": "भिन्नों का गुणा और भाग"
+      },
+      "lessonTitle": {
+        "english": "Multiplication and Division of Fractions",
+        "hindi": "भिन्नों का गुणा और भाग"
+      },
+      "subtopicTitle": {
+        "english": "multiply and divide fractions step by step",
+        "hindi": "भिन्नों का चरण-दर-चरण गुणा और भाग करना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to multiply and divide fractions step by step?",
+        "hindi": "क्या आप जानते हैं कि भिन्नों का चरण-दर-चरण गुणा और भाग करना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Read fraction multiplication as 'of'",
+        "hindi": "भिन्न के गुणा को 'का' के रूप में पढ़ो"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "In Class V this chapter often starts with ideas like one-half of a quantity or three-fourths of a quantity.",
+          "hindi": "कक्षा V में यह अध्याय अक्सर किसी मात्रा का आधा या तीन-चौथाई जैसे विचारों से शुरू होता है।"
+        },
+        {
+          "english": "Division of fractions is first understood through equal sharing and repeated subtraction models.",
+          "hindi": "भिन्नों का भाग पहले समान बाँटने और बार-बार घटाने के मॉडल से समझा जाता है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "1/2 of 8 = 4",
+          "hindi": "8 का 1/2 = 4"
+        },
+        {
+          "english": "3/4 of 8 = 6",
+          "hindi": "8 का 3/4 = 6"
+        },
+        {
+          "english": "If 8 is split into 4 equal parts, each part is 2.",
+          "hindi": "यदि 8 को 4 बराबर भागों में बाँटें, तो हर भाग 2 होगा।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Fraction of a number",
+            "hindi": "किसी संख्या का भिन्न"
+          },
+          "description": {
+            "english": "First divide by the denominator, then take the numerator parts.",
+            "hindi": "पहले हर से भाग करो, फिर अंश के बराबर भाग लो।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "3/4 of 8",
+                "hindi": "8 का 3/4"
+              },
+              {
+                "english": "8 ÷ 4 = 2",
+                "hindi": "8 ÷ 4 = 2"
+              }
+            ],
+            [
+              {
+                "english": "2 × 3 = 6",
+                "hindi": "2 × 3 = 6"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs9_q1",
+          "prompt": {
+            "english": "What is 1/2 of 8?",
+            "hindi": "8 का 1/2 कितना है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "2",
+              "hindi": "2"
+            },
+            {
+              "english": "4",
+              "hindi": "4"
+            },
+            {
+              "english": "6",
+              "hindi": "6"
+            },
+            {
+              "english": "8",
+              "hindi": "8"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Half means divide by 2.",
+            "hindi": "आधा का अर्थ 2 से भाग करना है।"
+          },
+          "wrongReason": {
+            "english": "The fraction of the quantity was not found correctly.",
+            "hindi": "मात्रा का भिन्न सही तरह नहीं निकाला गया।"
+          },
+          "supportExample": {
+            "english": "8 ÷ 2 = 4.",
+            "hindi": "8 ÷ 2 = 4।"
+          },
+          "mistakeType": "OPERATION_LINK",
+          "reteachTitle": {
+            "english": "Find the equal share first",
+            "hindi": "पहले बराबर भाग निकालो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "One-half of a number means making two equal parts and taking one part.",
+              "hindi": "किसी संख्या का आधा मतलब उसे दो बराबर भागों में बाँटकर एक भाग लेना है।"
+            }
+          ]
+        },
+        {
+          "id": "rs9_q2",
+          "prompt": {
+            "english": "Find 3/4 of 8.",
+            "hindi": "8 का 3/4 ज्ञात कीजिए।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "6"
+          ],
+          "hint": {
+            "english": "Divide 8 by 4 first.",
+            "hindi": "पहले 8 को 4 से भाग दो।"
+          },
+          "wrongReason": {
+            "english": "The denominator step or the numerator step was not used correctly.",
+            "hindi": "हर वाला चरण या अंश वाला चरण सही नहीं किया गया।"
+          },
+          "supportExample": {
+            "english": "8 ÷ 4 = 2, and 2 × 3 = 6.",
+            "hindi": "8 ÷ 4 = 2, और 2 × 3 = 6।"
+          },
+          "mistakeType": "OPERATION_LINK",
+          "reteachTitle": {
+            "english": "Divide, then multiply",
+            "hindi": "पहले भाग, फिर गुणा"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "This two-step method helps you see the fraction as equal parts of the whole.",
+              "hindi": "यह दो-चरण विधि भिन्न को पूरे के बराबर भागों के रूप में दिखाती है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "fraction multiplication",
+          "hindi": "भिन्न गुणा"
+        },
+        {
+          "english": "of a number",
+          "hindi": "किसी संख्या का भिन्न"
+        }
+      ],
+      "mistakeFocus": "OPERATION_LINK"
+    },
+    {
+      "id": "rs_ch10_decimals",
+      "sourceLessonId": "rs_ch10",
+      "chapterNumber": 10,
+      "chapterTitle": {
+        "english": "Decimals",
+        "hindi": "दशमलव"
+      },
+      "lessonTitle": {
+        "english": "Decimals",
+        "hindi": "दशमलव"
+      },
+      "subtopicTitle": {
+        "english": "read and use decimals",
+        "hindi": "दशमलव को पढ़ना और उपयोग करना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to read and use decimals?",
+        "hindi": "क्या आप जानते हैं कि दशमलव को पढ़ना और उपयोग करना कैसे करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Tenths and hundredths extend place value",
+        "hindi": "दशांश और शतांश स्थान-मूल्य को आगे बढ़ाते हैं"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Decimals continue the place-value system to the right of the point.",
+          "hindi": "दशमलव बिंदु के दाईं ओर स्थान-मूल्य पद्धति को आगे बढ़ाते हैं।"
+        },
+        {
+          "english": "Tenths, hundredths, and thousandths help us show parts smaller than one whole.",
+          "hindi": "दशांश, शतांश और सहस्रांश हमें एक पूरे से छोटे भाग दिखाने में मदद करते हैं।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "0.7 means seven tenths.",
+          "hindi": "0.7 का अर्थ सात दशांश है।"
+        },
+        {
+          "english": "2.5 + 0.4 = 2.9",
+          "hindi": "2.5 + 0.4 = 2.9"
+        },
+        {
+          "english": "1.25 has 1 one, 2 tenths, and 5 hundredths.",
+          "hindi": "1.25 में 1 इकाई, 2 दशांश और 5 शतांश हैं।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Decimal place-value chart",
+            "hindi": "दशमलव स्थान-मूल्य तालिका"
+          },
+          "description": {
+            "english": "Read from ones to tenths and hundredths.",
+            "hindi": "इकाई से दशांश और शतांश तक पढ़ो।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "ones",
+                "hindi": "इकाई"
+              },
+              {
+                "english": "point",
+                "hindi": "बिंदु"
+              },
+              {
+                "english": "tenths",
+                "hindi": "दशांश"
+              },
+              {
+                "english": "hundredths",
+                "hindi": "शतांश"
+              }
+            ],
+            [
+              {
+                "english": "1",
+                "hindi": "1"
+              },
+              {
+                "english": ".",
+                "hindi": "."
+              },
+              {
+                "english": "2",
+                "hindi": "2"
+              },
+              {
+                "english": "5",
+                "hindi": "5"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "rs10_q1",
+          "prompt": {
+            "english": "What does 0.7 mean?",
+            "hindi": "0.7 का अर्थ क्या है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "seven ones",
+              "hindi": "सात इकाई"
+            },
+            {
+              "english": "seven tenths",
+              "hindi": "सात दशांश"
+            },
+            {
+              "english": "seven hundredths",
+              "hindi": "सात शतांश"
+            },
+            {
+              "english": "seventy tenths",
+              "hindi": "सत्तर दशांश"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "The first place after the decimal point is tenths.",
+            "hindi": "दशमलव बिंदु के बाद पहला स्थान दशांश होता है।"
+          },
+          "wrongReason": {
+            "english": "The decimal place value was read incorrectly.",
+            "hindi": "दशमलव का स्थान-मूल्य गलत पढ़ा गया।"
+          },
+          "supportExample": {
+            "english": "0.7 means 7 parts out of 10 equal parts.",
+            "hindi": "0.7 का अर्थ 10 बराबर भागों में से 7 भाग है।"
+          },
+          "mistakeType": "PLACE_VALUE",
+          "reteachTitle": {
+            "english": "Check the decimal place",
+            "hindi": "दशमलव स्थान देखो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Each move right from the point gives a smaller place value.",
+              "hindi": "बिंदु से दाईं ओर हर कदम छोटा स्थान-मूल्य देता है।"
+            }
+          ]
+        },
+        {
+          "id": "rs10_q2",
+          "prompt": {
+            "english": "Fill in the answer: 2.5 + 0.4 = ?",
+            "hindi": "उत्तर भरिए: 2.5 + 0.4 = ?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "2.9"
+          ],
+          "hint": {
+            "english": "Align the decimal points before adding.",
+            "hindi": "जोड़ने से पहले दशमलव बिंदु मिलाओ।"
+          },
+          "wrongReason": {
+            "english": "The decimal points or place values were not aligned properly.",
+            "hindi": "दशमलव बिंदु या स्थान-मूल्य ठीक से नहीं मिलाए गए।"
+          },
+          "supportExample": {
+            "english": "5 tenths + 4 tenths = 9 tenths.",
+            "hindi": "5 दशांश + 4 दशांश = 9 दशांश।"
+          },
+          "mistakeType": "PLACE_VALUE",
+          "reteachTitle": {
+            "english": "Add like places together",
+            "hindi": "समान स्थानों को साथ जोड़ो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Ones stay with ones and tenths stay with tenths.",
+              "hindi": "इकाई, इकाई के साथ और दशांश, दशांश के साथ रहते हैं।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "decimals",
+          "hindi": "दशमलव"
+        },
+        {
+          "english": "place value",
+          "hindi": "स्थान-मूल्य"
+        }
+      ],
+      "mistakeFocus": "PLACE_VALUE"
+    }
+  ]
+}

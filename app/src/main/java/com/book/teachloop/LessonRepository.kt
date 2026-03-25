@@ -3,13 +3,13 @@ package com.book.teachloop
 import android.content.Context
 
 object LessonRepository {
-    const val BOOK_ID = "class5_math_mela_grade_5"
+    const val BOOK_ID = "class5_rs_aggarwal_maths"
 
     private val builtInCatalog = listOf(
         SubjectPackCatalogItem(
             id = BOOK_ID,
-            title = text("NCERT Math-Mela Grade 5", "एनसीईआरटी मैथ-मेला कक्षा 5"),
-            assetPath = null,
+            title = text("RS Aggarwal Mathematics Class 5", "??. ??. ??????? ???? ????? 5"),
+            assetPath = "subject_packs/class5_rs_aggarwal_math.json",
         ),
         SubjectPackCatalogItem(
             id = "class5_science_story_lab",
@@ -50,10 +50,10 @@ object LessonRepository {
         return StudyBook(
             id = BOOK_ID,
             subjectTitle = text("Mathematics", "गणित"),
-            bookTitle = text("NCERT Math-Mela Grade 5", "एनसीईआरटी मैथ-मेला कक्षा 5"),
+            bookTitle = text("RS Aggarwal Mathematics Class 5", "??. ??. ??????? ???? ????? 5"),
             teacherNote = text(
-                english = "Use the main path first, then revision and weak-topic practice.",
-                hindi = "पहले मुख्य पथ चलाइए, फिर पुनरावृत्ति और कमजोर-विषय अभ्यास कराइए।",
+                english = "Use the main path first, then revision and weak-topic practice with the book examples.",
+                hindi = "???? ????? ?? ?????, ??? ?????? ?? ???????? ?? ??? ??????????? ?? ?????-???? ?????? ??????",
             ),
             topics = baseGrade5MathTopics().flatMap(::expandTopicIntoAuthoredSubtopics),
         )

@@ -25,7 +25,7 @@ class ProgressStore(context: Context) {
     }
 
     private companion object {
-        const val PREFS_NAME = "teach_loop_progress_v2"
+        const val PREFS_NAME = "teach_loop_progress_v3"
         const val KEY_APP_STATE = "app_state"
     }
 }

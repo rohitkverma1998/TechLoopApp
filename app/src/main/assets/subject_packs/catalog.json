@@ -1,11 +1,11 @@
 [
   {
-    "id": "class5_math_mela_grade_5",
+    "id": "class5_rs_aggarwal_maths",
     "title": {
-      "english": "NCERT Math-Mela Grade 5",
-      "hindi": "एनसीईआरटी मैथ-मेला कक्षा 5"
+      "english": "RS Aggarwal Mathematics Class 5",
+      "hindi": "??. ??. ??????? ???? ????? 5"
     },
-    "assetPath": null
+    "assetPath": "subject_packs/class5_rs_aggarwal_math.json"
   },
   {
     "id": "class5_science_story_lab",
