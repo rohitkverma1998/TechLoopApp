@@ -5,6 +5,8 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
+from rs_aggarwal_exercise_builder import build_exercise_topics
+
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_PATH = ROOT / "app" / "src" / "main" / "assets" / "subject_packs" / "class5_rs_aggarwal_math.json"
@@ -2700,6 +2702,7 @@ TOPIC_SPECS.extend([
 
 def build_book() -> dict:
     topics = [render_topic(spec) for spec in TOPIC_SPECS]
+    topics.extend(build_exercise_topics(CHAPTERS))
     present = {topic["chapterNumber"] for topic in topics}
     missing = sorted(set(CHAPTERS) - present)
     if missing:

@@ -213,6 +213,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         }
 
         binding.startLearningButton.setOnClickListener { startMode(StudyMode.MAIN_PATH) }
+        binding.exercisePathButton.setOnClickListener { startMode(StudyMode.EXERCISE_PATH) }
         binding.revisionButton.setOnClickListener { startMode(StudyMode.REVISION) }
         binding.weakTopicsButton.setOnClickListener { startMode(StudyMode.WEAK_TOPICS) }
 
@@ -321,6 +322,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         solutionPreviewActive = false
         val queue = when (mode) {
             StudyMode.MAIN_PATH -> StudyPlanner.buildMainQueue(book, selectedProfile())
+            StudyMode.EXERCISE_PATH -> StudyPlanner.buildExerciseQueue(book, selectedProfile())
             StudyMode.REVISION -> StudyPlanner.buildRevisionQueue(book, selectedProfile(), System.currentTimeMillis())
             StudyMode.WEAK_TOPICS -> StudyPlanner.buildWeakTopicQueue(book, selectedProfile())
         }
@@ -330,6 +332,11 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 StudyMode.MAIN_PATH -> ui(
                     "Main path is complete for this child. Use revision or weak-topic practice next.",
                     "à¤‡à¤¸ à¤¬à¤šà¥à¤šà¥‡ à¤•à¥‡ à¤²à¤¿à¤ à¤®à¥à¤–à¥à¤¯ à¤ªà¤¥ à¤ªà¥‚à¤°à¤¾ à¤¹à¥‹ à¤šà¥à¤•à¤¾ à¤¹à¥ˆà¥¤ à¤…à¤¬ à¤ªà¥à¤¨à¤°à¤¾à¤µà¥ƒà¤¤à¥à¤¤à¤¿ à¤¯à¤¾ à¤•à¤®à¤œà¥‹à¤° à¤µà¤¿à¤·à¤¯ à¤…à¤­à¥à¤¯à¤¾à¤¸ à¤•à¤°à¥‡à¤‚à¥¤",
+                )
+
+                StudyMode.EXERCISE_PATH -> ui(
+                    "Exercise path is complete for this child.",
+                    "à¤‡à¤¸ à¤¬à¤šà¥à¤šà¥‡ à¤•à¥‡ à¤²à¤¿à¤ à¤…à¤­à¥à¤¯à¤¾à¤¸ à¤ªà¤¥ à¤ªà¥‚à¤°à¤¾ à¤¹à¥‹ à¤šà¥à¤•à¤¾ à¤¹à¥ˆà¥¤",
                 )
 
                 StudyMode.REVISION -> ui(
@@ -353,6 +360,11 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             StudyMode.MAIN_PATH -> ui(
                 "Starting the next learning path.",
                 "à¤…à¤—à¤²à¤¾ à¤¸à¥€à¤–à¤¨à¥‡ à¤•à¤¾ à¤ªà¤¥ à¤¶à¥à¤°à¥‚ à¤¹à¥‹ à¤°à¤¹à¤¾ à¤¹à¥ˆà¥¤",
+            )
+
+            StudyMode.EXERCISE_PATH -> ui(
+                "Starting the exercise path.",
+                "à¤…à¤­à¥à¤¯à¤¾à¤¸ à¤ªà¤¥ à¤¶à¥à¤°à¥‚ à¤¹à¥‹ à¤°à¤¹à¤¾ à¤¹à¥ˆà¥¤",
             )
 
             StudyMode.REVISION -> ui(
@@ -522,6 +534,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         )
         binding.modeChipText.text = when (engine.session.mode) {
             StudyMode.MAIN_PATH -> ui("Main path", "à¤®à¥à¤–à¥à¤¯ à¤ªà¤¥")
+            StudyMode.EXERCISE_PATH -> ui("Exercise path", "à¤…à¤­à¥à¤¯à¤¾à¤¸ à¤ªà¤¥")
             StudyMode.REVISION -> ui("Revision mode", "à¤ªà¥à¤¨à¤°à¤¾à¤µà¥ƒà¤¤à¥à¤¤à¤¿")
             StudyMode.WEAK_TOPICS -> ui("Weak topics", "à¤•à¤®à¤œà¥‹à¤° à¤µà¤¿à¤·à¤¯")
             null -> ui(
@@ -603,6 +616,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private fun renderDashboard(report: ReportSummary) {
         val mainQueueCount = StudyPlanner.buildMainQueue(book, selectedProfile()).size
+        val exerciseQueueCount = StudyPlanner.buildExerciseQueue(book, selectedProfile()).size
         val revisionCount = StudyPlanner.buildRevisionQueue(book, selectedProfile(), System.currentTimeMillis()).size
         val weakCount = StudyPlanner.buildWeakTopicQueue(book, selectedProfile()).size
 
@@ -614,8 +628,12 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         )
         binding.dashboardBodyText.text = listOf(
             ui(
-                "${selectedProfile().name} has mastered ${report.masteredTopics} of ${report.totalTopics} study steps.",
-                "${selectedProfile().name} à¤¨à¥‡ ${report.totalTopics} à¤®à¥‡à¤‚ à¤¸à¥‡ ${report.masteredTopics} à¤…à¤§à¥à¤¯à¤¯à¤¨ à¤šà¤°à¤£ à¤ªà¥‚à¤°à¥‡ à¤•à¤¿à¤ à¤¹à¥ˆà¤‚à¥¤",
+                "Main path -> Stars ${report.mainStars} | Mastered ${report.masteredTopics}/${report.totalTopics}",
+                "à¤®à¥à¤–à¥à¤¯ à¤ªà¤¥ -> à¤¸à¤¿à¤¤à¤¾à¤°à¥‡ ${report.mainStars} | à¤¸à¥€à¤–à¥‡ à¤—à¤ ${report.masteredTopics}/${report.totalTopics}",
+            ),
+            ui(
+                "Exercise path -> Stars ${report.exerciseStars} | Mastered ${report.exerciseMasteredTopics}/${report.exerciseTotalTopics}",
+                "à¤…à¤­à¥à¤¯à¤¾à¤¸ à¤ªà¤¥ -> à¤¸à¤¿à¤¤à¤¾à¤°à¥‡ ${report.exerciseStars} | à¤¸à¥€à¤–à¥‡ à¤—à¤ ${report.exerciseMasteredTopics}/${report.exerciseTotalTopics}",
             ),
             ui(
                 "$revisionCount revision topics are due, and $weakCount topics still need extra support.",
@@ -632,6 +650,16 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             ui("Main path complete", "à¤®à¥à¤–à¥à¤¯ à¤ªà¤¥ à¤ªà¥‚à¤°à¤¾")
         }
         binding.startLearningButton.isEnabled = mainQueueCount > 0
+
+        binding.exercisePathButton.text = if (exerciseQueueCount > 0) {
+            ui(
+                "Continue exercise path ($exerciseQueueCount questions)",
+                "à¤…à¤­à¥à¤¯à¤¾à¤¸ à¤ªà¤¥ à¤œà¤¾à¤°à¥€ à¤°à¤–à¥‡à¤‚ ($exerciseQueueCount à¤ªà¥à¤°à¤¶à¥à¤¨)",
+            )
+        } else {
+            ui("Exercise path complete", "à¤…à¤­à¥à¤¯à¤¾à¤¸ à¤ªà¤¥ à¤ªà¥‚à¤°à¤¾")
+        }
+        binding.exercisePathButton.isEnabled = exerciseQueueCount > 0
 
         binding.revisionButton.text = ui(
             "Revision mode ($revisionCount due)",
@@ -668,6 +696,10 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 "${selectedProfile().name}, ${book.bookTitle.display(appState.language)} à¤ªà¤¢à¤¼ à¤°à¤¹à¤¾/à¤°à¤¹à¥€ à¤¹à¥ˆà¥¤",
             ),
             assignmentText,
+            ui(
+                "Exercise path: ${report.exerciseMasteredTopics}/${report.exerciseTotalTopics} | Exercise stars: ${report.exerciseStars}",
+                "à¤…à¤­à¥à¤¯à¤¾à¤¸ à¤ªà¤¥: ${report.exerciseMasteredTopics}/${report.exerciseTotalTopics} | à¤…à¤­à¥à¤¯à¤¾à¤¸ à¤¸à¤¿à¤¤à¤¾à¤°à¥‡: ${report.exerciseStars}",
+            ),
             ui(
                 "Weak topics: ${report.weakTopics} | Revision due: ${report.dueRevisionTopics}",
                 "à¤•à¤®à¤œà¥‹à¤° à¤µà¤¿à¤·à¤¯: ${report.weakTopics} | à¤¦à¥‡à¤¯ à¤ªà¥à¤¨à¤°à¤¾à¤µà¥ƒà¤¤à¥à¤¤à¤¿: ${report.dueRevisionTopics}",
@@ -726,6 +758,10 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 "à¤¬à¤¾à¤°-à¤¬à¤¾à¤° à¤¸à¤®à¤à¤¾à¤¨à¥‡ à¤µà¤¾à¤²à¥‡ à¤µà¤¿à¤·à¤¯: ${report.supportHeavyTopics}",
             ),
             ui("Total stars: ${report.totalStars}", "à¤•à¥à¤² à¤¸à¤¿à¤¤à¤¾à¤°à¥‡: ${report.totalStars}"),
+            ui(
+                "Exercise path: ${report.exerciseMasteredTopics}/${report.exerciseTotalTopics} | Exercise stars: ${report.exerciseStars}",
+                "à¤…à¤­à¥à¤¯à¤¾à¤¸ à¤ªà¤¥: ${report.exerciseMasteredTopics}/${report.exerciseTotalTopics} | à¤…à¤­à¥à¤¯à¤¾à¤¸ à¤¸à¤¿à¤¤à¤¾à¤°à¥‡: ${report.exerciseStars}",
+            ),
             "${ui("First attempt correct", "पहली कोशिश में सही")}:\n$firstTryCorrectText",
             "${ui("First attempt wrong", "पहली कोशिश में गलत")}:\n$firstTryWrongText",
             "${ui("Older tracked topics", "पुराने ट्रैक किए गए विषय")}:\n${ui(
@@ -1332,6 +1368,11 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 "à¤¬à¤¹à¥à¤¤ à¤…à¤šà¥à¤›à¤¾à¥¤ à¤‡à¤¸ à¤¬à¤šà¥à¤šà¥‡ à¤¨à¥‡ à¤…à¤­à¥€ à¤•à¤¾ à¤®à¥à¤–à¥à¤¯ à¤…à¤§à¥à¤¯à¤¯à¤¨-à¤ªà¤¥ à¤ªà¥‚à¤°à¤¾ à¤•à¤° à¤²à¤¿à¤¯à¤¾ à¤¹à¥ˆà¥¤ à¤…à¤¬ à¤†à¤ª à¤¡à¥ˆà¤¶à¤¬à¥‹à¤°à¥à¤¡ à¤ªà¤° à¤²à¥Œà¤Ÿà¤•à¤° à¤ªà¥à¤¨à¤°à¤¾à¤µà¥ƒà¤¤à¥à¤¤à¤¿, à¤•à¤®à¤œà¥‹à¤° à¤µà¤¿à¤·à¤¯ à¤…à¤­à¥à¤¯à¤¾à¤¸, à¤¯à¤¾ à¤°à¤¿à¤ªà¥‹à¤°à¥à¤Ÿ à¤¦à¥‡à¤– à¤¸à¤•à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤",
             )
 
+            StudyMode.EXERCISE_PATH -> ui(
+                "Exercise practice is complete for now. You can return to the dashboard for more exercise questions, revision, or the report.",
+                "à¤…à¤­à¥à¤¯à¤¾à¤¸ à¤ªà¤¥ à¤…à¤­à¥€ à¤•à¥‡ à¤²à¤¿à¤ à¤ªà¥‚à¤°à¤¾ à¤¹à¥‹ à¤—à¤¯à¤¾ à¤¹à¥ˆà¥¤ à¤…à¤¬ à¤†à¤ª à¤¡à¥ˆà¤¶à¤¬à¥‹à¤°à¥à¤¡ à¤ªà¤° à¤²à¥Œà¤Ÿà¤•à¤° à¤…à¤­à¥à¤¯à¤¾à¤¸, à¤ªà¥à¤¨à¤°à¤¾à¤µà¥ƒà¤¤à¥à¤¤à¤¿ à¤¯à¤¾ à¤°à¤¿à¤ªà¥‹à¤°à¥à¤Ÿ à¤¦à¥‡à¤– à¤¸à¤•à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤",
+            )
+
             StudyMode.REVISION -> ui(
                 "Revision topics are complete for now. The next due set will appear automatically later.",
                 "à¤…à¤­à¥€ à¤•à¥‡ à¤²à¤¿à¤ à¤ªà¥à¤¨à¤°à¤¾à¤µà¥ƒà¤¤à¥à¤¤à¤¿ à¤µà¤¿à¤·à¤¯ à¤ªà¥‚à¤°à¥‡ à¤¹à¥‹ à¤—à¤ à¤¹à¥ˆà¤‚à¥¤ à¤…à¤—à¤²à¤¾ à¤¦à¥‡à¤¯ à¤¸à¥‡à¤Ÿ à¤¬à¤¾à¤¦ à¤®à¥‡à¤‚ à¤…à¤ªà¤¨à¥‡-à¤†à¤ª à¤¦à¤¿à¤–à¤¾à¤ˆ à¤¦à¥‡à¤—à¤¾à¥¤",
@@ -1685,9 +1726,11 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         val summary = buildString {
             appendLine("${selectedProfile().name} - ${book.bookTitle.display(AppLanguage.ENGLISH)}")
             appendLine("Mastered: ${report.masteredTopics}/${report.totalTopics}")
+            appendLine("Exercise path: ${report.exerciseMasteredTopics}/${report.exerciseTotalTopics}")
             appendLine("Revision due: ${report.dueRevisionTopics}")
             appendLine("Weak topics: ${report.weakTopics}")
             appendLine("Stars: ${report.totalStars}")
+            appendLine("Exercise stars: ${report.exerciseStars}")
             if (report.focusTopics.isNotEmpty()) {
                 appendLine("Focus topics: ${report.focusTopics.joinToString { it.english }}")
             }

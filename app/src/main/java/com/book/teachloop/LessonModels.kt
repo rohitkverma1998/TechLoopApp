@@ -14,6 +14,7 @@ enum class Difficulty(val starValue: Int) {
 
 enum class StudyMode {
     MAIN_PATH,
+    EXERCISE_PATH,
     REVISION,
     WEAK_TOPICS,
 }
@@ -282,6 +283,10 @@ data class ReportSummary(
     val weakTopics: Int,
     val supportHeavyTopics: Int,
     val totalStars: Int,
+    val mainStars: Int,
+    val exerciseMasteredTopics: Int,
+    val exerciseTotalTopics: Int,
+    val exerciseStars: Int,
     val firstAttemptCorrectTopics: List<LocalizedText>,
     val firstAttemptWrongTopics: List<LocalizedText>,
     val legacyTrackedTopics: List<LocalizedText>,

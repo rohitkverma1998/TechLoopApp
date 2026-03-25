@@ -224,6 +224,13 @@
                     android:layout_marginTop="18dp" />
 
                 <com.google.android.material.button.MaterialButton
+                    android:id="@+id/exercisePathButton"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" />
+
+                <com.google.android.material.button.MaterialButton
                     android:id="@+id/revisionButton"
                     style="@style/Widget.Material3.Button.OutlinedButton"
                     android:layout_width="match_parent"

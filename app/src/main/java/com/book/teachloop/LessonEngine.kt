@@ -325,7 +325,13 @@ object StudyPlanner {
     private val reviewDelays = listOf(1L, 3L, 7L)
 
     fun buildMainQueue(book: StudyBook, profile: StudentProfile): List<String> {
-        return eligibleTopics(book, profile)
+        return eligibleMainTopics(book, profile)
+            .filter { !(profile.topicProgress[it.id]?.mastered ?: false) }
+            .map { it.id }
+    }
+
+    fun buildExerciseQueue(book: StudyBook, profile: StudentProfile): List<String> {
+        return eligibleExerciseTopics(book, profile)
             .filter { !(profile.topicProgress[it.id]?.mastered ?: false) }
             .map { it.id }
     }
@@ -335,7 +341,7 @@ object StudyPlanner {
         profile: StudentProfile,
         now: Long,
     ): List<String> {
-        return eligibleTopics(book, profile)
+        return eligibleMainTopics(book, profile)
             .filter { topic ->
                 val progress = profile.topicProgress[topic.id] ?: return@filter false
                 progress.mastered && progress.nextRevisionAt in 1..now
@@ -348,7 +354,7 @@ object StudyPlanner {
         book: StudyBook,
         profile: StudentProfile,
     ): List<String> {
-        return eligibleTopics(book, profile)
+        return eligibleMainTopics(book, profile)
             .filter { topic -> isWeak(profile.topicProgress[topic.id]) }
             .sortedByDescending { topic ->
                 val progress = profile.topicProgress[topic.id]
@@ -362,11 +368,20 @@ object StudyPlanner {
         profile: StudentProfile,
         now: Long,
     ): ReportSummary {
-        val masteredTopics = profile.topicProgress.values.count { it.mastered }
-        val dueRevisionTopics = profile.topicProgress.values.count { it.mastered && it.nextRevisionAt in 1..now }
-        val weakTopics = profile.topicProgress.values.count(::isWeak)
-        val supportHeavyTopics = profile.topicProgress.values.count { it.explanationRepeats >= 2 }
-        val focusTopics = eligibleTopics(book, profile)
+        val mainBookTopics = book.topics.filterNot(::isExerciseTopic)
+        val exerciseBookTopics = book.topics.filter(::isExerciseTopic)
+        val reportMainTopics = eligibleMainTopics(book, profile)
+        val masteredTopics = mainBookTopics.count { profile.topicProgress[it.id]?.mastered == true }
+        val exerciseMasteredTopics = exerciseBookTopics.count { profile.topicProgress[it.id]?.mastered == true }
+        val dueRevisionTopics = reportMainTopics.count { topic ->
+            val progress = profile.topicProgress[topic.id]
+            progress?.mastered == true && progress.nextRevisionAt in 1..now
+        }
+        val weakTopics = reportMainTopics.count { topic -> isWeak(profile.topicProgress[topic.id]) }
+        val supportHeavyTopics = reportMainTopics.count { topic ->
+            (profile.topicProgress[topic.id]?.explanationRepeats ?: 0) >= 2
+        }
+        val focusTopics = reportMainTopics
             .filter { topic ->
                 val progress = profile.topicProgress[topic.id]
                 ((progress?.wrongAnswers ?: 0) + (progress?.explanationRepeats ?: 0)) > 0
@@ -378,24 +393,24 @@ object StudyPlanner {
             .take(4)
             .map { it.subtopicTitle }
 
-        val weakTopicTitles = eligibleTopics(book, profile)
+        val weakTopicTitles = reportMainTopics
             .filter { topic -> isWeak(profile.topicProgress[topic.id]) }
             .take(6)
             .map { it.subtopicTitle }
 
-        val firstAttemptCorrectTopics = eligibleTopics(book, profile)
+        val firstAttemptCorrectTopics = reportMainTopics
             .mapNotNull { topic ->
                 val progress = profile.topicProgress[topic.id] ?: return@mapNotNull null
                 if (progress.firstAttemptCorrect == true) attemptSummaryText(topic, progress) else null
             }
 
-        val firstAttemptWrongTopics = eligibleTopics(book, profile)
+        val firstAttemptWrongTopics = reportMainTopics
             .mapNotNull { topic ->
                 val progress = profile.topicProgress[topic.id] ?: return@mapNotNull null
                 if (progress.firstAttemptCorrect == false) attemptSummaryText(topic, progress) else null
             }
 
-        val legacyTrackedTopics = eligibleTopics(book, profile)
+        val legacyTrackedTopics = reportMainTopics
             .mapNotNull { topic ->
                 val progress = profile.topicProgress[topic.id] ?: return@mapNotNull null
                 if (progress.totalAttempts > 0 && progress.firstAttemptCorrect == null) {
@@ -405,7 +420,7 @@ object StudyPlanner {
                 }
             }
 
-        val chapterMastery = book.topics
+        val chapterMastery = mainBookTopics
             .groupBy { it.chapterNumber }
             .toSortedMap()
             .map { (chapterNumber, topics) ->
@@ -418,6 +433,8 @@ object StudyPlanner {
             }
 
         val totalTimeMinutes = profile.topicProgress.values.sumOf { it.timeSpentMillis } / 60000
+        val exerciseStars = starsForTopics(exerciseBookTopics, profile)
+        val mainStars = profile.totalStars - exerciseStars
         val topMistakes = profile.topicProgress.values
             .flatMap { progress -> progress.mistakeCounts.entries }
             .groupBy({ it.key }, { it.value })
@@ -433,32 +450,39 @@ object StudyPlanner {
             ChartPoint(
                 label = text("Mastery", "मास्टरी"),
                 value = masteredTopics,
-                maxValue = book.topics.size.coerceAtLeast(1),
+                maxValue = mainBookTopics.size.coerceAtLeast(1),
             ),
             ChartPoint(
                 label = text("Revision due", "रिविजन"),
                 value = dueRevisionTopics,
-                maxValue = book.topics.size.coerceAtLeast(1),
+                maxValue = mainBookTopics.size.coerceAtLeast(1),
             ),
             ChartPoint(
                 label = text("Weak topics", "कमजोर विषय"),
                 value = weakTopics,
-                maxValue = book.topics.size.coerceAtLeast(1),
+                maxValue = mainBookTopics.size.coerceAtLeast(1),
             ),
             ChartPoint(
                 label = text("Stars", "सितारे"),
                 value = profile.totalStars,
-                maxValue = max(profile.totalStars, book.topics.size * Difficulty.HARD.starValue).coerceAtLeast(1),
+                maxValue = max(
+                    profile.totalStars,
+                    mainBookTopics.size * Difficulty.HARD.starValue,
+                ).coerceAtLeast(1),
             ),
         )
 
         return ReportSummary(
             masteredTopics = masteredTopics,
-            totalTopics = book.topics.size,
+            totalTopics = mainBookTopics.size,
             dueRevisionTopics = dueRevisionTopics,
             weakTopics = weakTopics,
             supportHeavyTopics = supportHeavyTopics,
             totalStars = profile.totalStars,
+            mainStars = mainStars,
+            exerciseMasteredTopics = exerciseMasteredTopics,
+            exerciseTotalTopics = exerciseBookTopics.size,
+            exerciseStars = exerciseStars,
             firstAttemptCorrectTopics = firstAttemptCorrectTopics,
             firstAttemptWrongTopics = firstAttemptWrongTopics,
             legacyTrackedTopics = legacyTrackedTopics,
@@ -580,7 +604,10 @@ object StudyPlanner {
         currentTrophies: List<Int>,
     ): List<Int> {
         val trophies = currentTrophies.toMutableSet()
-        book.topics.groupBy { it.chapterNumber }.forEach { (chapterNumber, topics) ->
+        book.topics
+            .filterNot(::isExerciseTopic)
+            .groupBy { it.chapterNumber }
+            .forEach { (chapterNumber, topics) ->
             if (topics.all { progressMap[it.id]?.mastered == true }) {
                 trophies += chapterNumber
             }
@@ -647,7 +674,7 @@ object StudyPlanner {
             )
         }
 
-        if (correct && chapterTrophies.contains(topic.chapterNumber)) {
+        if (correct && !isExerciseTopic(topic) && chapterTrophies.contains(topic.chapterNumber)) {
             award(
                 BadgeType.CHAPTER_CHAMP,
                 text("Chapter champ", "अध्याय चैंप"),
@@ -658,8 +685,10 @@ object StudyPlanner {
             )
         }
 
-        if (correct && existingProfile.assignedChapterNumbers.isNotEmpty()) {
-            val assignedTopics = book.topics.filter { it.chapterNumber in existingProfile.assignedChapterNumbers }
+        if (correct && !isExerciseTopic(topic) && existingProfile.assignedChapterNumbers.isNotEmpty()) {
+            val assignedTopics = book.topics
+                .filterNot(::isExerciseTopic)
+                .filter { it.chapterNumber in existingProfile.assignedChapterNumbers }
             val assignedComplete = assignedTopics.isNotEmpty() &&
                 assignedTopics.all { updatedProgressMap[it.id]?.mastered == true }
             if (assignedComplete) {
@@ -696,9 +725,30 @@ object StudyPlanner {
         }
     }
 
+    private fun eligibleMainTopics(book: StudyBook, profile: StudentProfile): List<StudyTopic> {
+        return eligibleTopics(book, profile).filterNot(::isExerciseTopic)
+    }
+
+    private fun eligibleExerciseTopics(book: StudyBook, profile: StudentProfile): List<StudyTopic> {
+        return eligibleTopics(book, profile).filter(::isExerciseTopic)
+    }
+
     private fun isWeak(progress: TopicProgress?): Boolean {
         progress ?: return false
         return !progress.mastered || progress.wrongAnswers >= 2 || progress.explanationRepeats >= 2
+    }
+
+    private fun isExerciseTopic(topic: StudyTopic): Boolean {
+        return topic.id.startsWith("rs_ex_") ||
+            topic.sourceLessonId.startsWith("rs_exercise_") ||
+            topic.tags.any { it.english.equals("Exercise Path", ignoreCase = true) }
+    }
+
+    private fun starsForTopics(
+        topics: List<StudyTopic>,
+        profile: StudentProfile,
+    ): Int {
+        return topics.sumOf { topic -> profile.topicProgress[topic.id]?.starsEarned ?: 0 }
     }
 
     private fun attemptSummaryText(
