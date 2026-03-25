@@ -165,6 +165,7 @@ data class RenderedQuestion(
     val options: List<LocalizedText> = emptyList(),
     val correctOptionIndex: Int? = null,
     val acceptedAnswers: List<String> = emptyList(),
+    val solutionAnswer: LocalizedText = text(""),
     val hint: LocalizedText? = null,
     val wrongReason: LocalizedText,
     val supportExample: LocalizedText,

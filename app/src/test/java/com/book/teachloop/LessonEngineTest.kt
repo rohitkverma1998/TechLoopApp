@@ -48,6 +48,23 @@ class LessonEngineTest {
     }
 
     @Test
+    fun wrongAnswer_keepsSameQuestionReadyForRetry() {
+        val engine = LessonEngine(book)
+        val firstTopicId = book.topics.first().id
+        engine.startSession(StudyMode.MAIN_PATH, listOf(firstTopicId))
+        engine.answerKnowTopic(knowsTopic = true)
+
+        val beforeQuestion = engine.currentQuestion(Difficulty.EASY)
+        val wrongIndex = if (beforeQuestion?.correctOptionIndex == 0) 1 else 0
+        engine.submitChoice(wrongIndex, Difficulty.EASY)
+
+        val afterQuestion = engine.currentQuestion(Difficulty.EASY)
+
+        assertEquals(LearningState.ASK_IF_KNOWN, engine.session.state)
+        assertEquals(beforeQuestion?.id, afterQuestion?.id)
+    }
+
+    @Test
     fun correctRevision_addsRewardAndMastery() {
         val topic = book.topics.first()
         val firstPass = StudentProfile(

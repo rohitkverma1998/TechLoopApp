@@ -100,7 +100,7 @@ class LessonEngine(
         }
     }
 
-    fun currentQuestion(difficulty: Difficulty): RenderedQuestion? {
+    fun currentQuestion(difficulty: Difficulty = Difficulty.EASY): RenderedQuestion? {
         val topic = currentTopic() ?: return null
         if (topic.questions.isEmpty()) return null
 
@@ -132,6 +132,10 @@ class LessonEngine(
                 options = baseQuestion.options,
                 correctOptionIndex = baseQuestion.correctOptionIndex,
                 acceptedAnswers = baseQuestion.acceptedAnswers,
+                solutionAnswer = when (baseQuestion.type) {
+                    QuestionType.MULTIPLE_CHOICE -> baseQuestion.options[baseQuestion.correctOptionIndex ?: 0]
+                    QuestionType.TEXT_INPUT -> text(correctText, correctText)
+                },
                 hint = baseQuestion.hint,
                 wrongReason = wrongReason,
                 supportExample = supportExample,
@@ -150,6 +154,10 @@ class LessonEngine(
                 options = baseQuestion.options,
                 correctOptionIndex = baseQuestion.correctOptionIndex,
                 acceptedAnswers = baseQuestion.acceptedAnswers,
+                solutionAnswer = when (baseQuestion.type) {
+                    QuestionType.MULTIPLE_CHOICE -> baseQuestion.options[baseQuestion.correctOptionIndex ?: 0]
+                    QuestionType.TEXT_INPUT -> text(correctText, correctText)
+                },
                 hint = baseQuestion.hint ?: text(
                     english = "Think step by step before answering.",
                     hindi = "उत्तर देने से पहले एक-एक कदम सोचिए।",
@@ -180,6 +188,7 @@ class LessonEngine(
                 },
                 type = QuestionType.TEXT_INPUT,
                 acceptedAnswers = (listOf(correctText) + baseQuestion.acceptedAnswers).distinct(),
+                solutionAnswer = text(correctText, correctText),
                 hint = null,
                 wrongReason = wrongReason,
                 supportExample = supportExample,
@@ -276,9 +285,8 @@ class LessonEngine(
                 message = message,
             )
         } else {
-            val nextQuestionIndex = (session.questionIndex + 1) % max(topic.questions.size, 1)
             session = session.copy(
-                questionIndex = nextQuestionIndex,
+                questionIndex = session.questionIndex.coerceIn(0, max(topic.questions.lastIndex, 0)),
                 explanationRepeats = 0,
                 state = LearningState.ASK_IF_KNOWN,
                 currentTopicStartedAt = now,

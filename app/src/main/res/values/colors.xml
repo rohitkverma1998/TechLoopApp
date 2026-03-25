@@ -8,4 +8,9 @@
     <color name="card_stroke">#D8E2DC</color>
     <color name="text_primary">#172B2A</color>
     <color name="text_secondary">#4D6462</color>
+    <color name="chalk_board">#183835</color>
+    <color name="chalk_board_stroke">#2B5A56</color>
+    <color name="chalk_text">#F5FAF7</color>
+    <color name="chalk_text_dim">#D8E7E1</color>
+    <color name="feedback_error">#B3261E</color>
 </resources>
