@@ -843,9 +843,14 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 "बोर्ड को देखिए। शिक्षक हर चरण, दृश्य और उदाहरण को एक-एक करके समझाएँगे।",
             )
             renderExplanationSentences(topic)
-            binding.examplesLabelText.text = ui("Examples", "à¤‰à¤¦à¤¾à¤¹à¤°à¤£")
-            binding.examplesText.text = topic.examples.joinToString("\n") {
-                "- ${it.display(appState.language)}"
+            val hasExamples = topic.examples.isNotEmpty()
+            binding.examplesLabelText.isVisible = hasExamples
+            binding.examplesText.isVisible = hasExamples
+            if (hasExamples) {
+                binding.examplesLabelText.text = ui("Examples", "उदाहरण")
+                binding.examplesText.text = topic.examples.joinToString("\n") {
+                    "- ${it.display(appState.language)}"
+                }
             }
             renderVisuals(topic.visuals)
         }

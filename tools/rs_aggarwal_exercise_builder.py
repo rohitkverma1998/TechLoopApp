@@ -2007,12 +2007,10 @@ def build_topic(
         "knowPrompt": loc(f"Can you solve {subtopic_title}?"),
         "explanationTitle": loc(explanation_title),
         "explanationParagraphs": [
-            loc(
-                f"This is Exercise {exercise_number}, Question {label} from Chapter {chapter_number}."
-            ),
-            loc(f"Book question: {display_prompt_text}"),
+            loc(f"Question: {display_prompt_text}"),
+            *[loc(str(para)) for para in answer_payload.get("reteachParagraphs", [])],
         ],
-        "examples": [loc(str(answer_payload["exampleText"]))],
+        "examples": [],
         "visuals": [],
         "questions": [
             {
