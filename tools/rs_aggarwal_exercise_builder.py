@@ -1872,6 +1872,315 @@ def display_answer_from_source(
     return ""
 
 
+def _parse_measurement(text: str) -> tuple[float, str] | None:
+    """Parse a measurement like '18 cm', '2 m 50 cm', '3.4 m' → (value_in_base_unit, unit).
+    Returns (value_in_metres, 'm') for metre-based, (value_in_cm, 'cm') otherwise.
+    """
+    t = text.strip()
+    # "X m Y cm" → convert to metres
+    m = re.match(r"^(\d+\.?\d*)\s*m\s+(\d+\.?\d*)\s*cm$", t)
+    if m:
+        return float(m.group(1)) + float(m.group(2)) / 100, "m"
+    # "X m" or "X.Y m"
+    m = re.match(r"^(\d+\.?\d*)\s*m$", t)
+    if m:
+        return float(m.group(1)), "m"
+    # "X cm"
+    m = re.match(r"^(\d+\.?\d*)\s*cm$", t)
+    if m:
+        return float(m.group(1)), "cm"
+    return None
+
+
+def _fmt_num(v: float) -> str:
+    """Format a float: drop trailing zeros after decimal."""
+    if v == int(v):
+        return str(int(v))
+    s = f"{v:.6f}".rstrip("0").rstrip(".")
+    return s
+
+
+def _area_unit(unit: str) -> str:
+    return f"sq {unit}"
+
+
+def _vol_unit(unit: str) -> str:
+    return f"cu {unit}"
+
+
+def _to_same_unit(a: tuple[float, str], b: tuple[float, str]) -> tuple[float, float, str]:
+    """Convert two measurements to the same unit (prefer metres if either is metres)."""
+    va, ua = a
+    vb, ub = b
+    if ua == ub:
+        return va, vb, ua
+    # one is m, other is cm — convert cm→m
+    if ua == "m":
+        return va, vb / 100, "m"
+    return va / 100, vb, "m"
+
+
+def try_solve_geometry(prompt_text: str) -> tuple[str, list[str]] | None:
+    """Try to solve a geometry question and return (answer_str, steps) or None."""
+    p = prompt_text.strip()
+    pl = p.lower()
+
+    # ── Area of rectangle: "Find the area of the rectangles having dimensions: Length = X, Breadth = Y" ──
+    if "find the area" in pl and "rectangl" in pl and "dimension" in pl:
+        m = re.search(r"[Ll]ength\s*=\s*([\d.]+\s*(?:m\s+\d+\.?\d*\s*cm|m|cm))\s*[,;]?\s*[Bb]readth\s*=\s*([\d.]+\s*(?:m\s+\d+\.?\d*\s*cm|m|cm))", p)
+        if m:
+            la = _parse_measurement(m.group(1))
+            lb = _parse_measurement(m.group(2))
+            if la and lb:
+                vl, vb, unit = _to_same_unit(la, lb)
+                area = vl * vb
+                area_str = _fmt_num(area)
+                au = _area_unit(unit)
+                steps = [
+                    f"Given: Length = {m.group(1).strip()}, Breadth = {m.group(2).strip()}",
+                    f"Formula: Area of a rectangle = Length × Breadth",
+                    f"Area = {_fmt_num(vl)} {unit} × {_fmt_num(vb)} {unit}",
+                    f"Area = {area_str} {au}",
+                ]
+                return f"{area_str} {au}", steps
+
+    # ── Area of square: "Find the area of the square each of whose sides is: X" ──
+    if "find the area" in pl and "square" in pl and "side" in pl:
+        m = re.search(r"sides?\s+is[:\s]+([\d.]+\s*(?:m\s+\d+\.?\d*\s*cm|m|cm))", p)
+        if m:
+            ms = _parse_measurement(m.group(1))
+            if ms:
+                vs, unit = ms
+                area = vs * vs
+                area_str = _fmt_num(area)
+                au = _area_unit(unit)
+                steps = [
+                    f"Given: Side = {m.group(1).strip()}",
+                    f"Formula: Area of a square = Side × Side",
+                    f"Area = {_fmt_num(vs)} {unit} × {_fmt_num(vs)} {unit}",
+                    f"Area = {area_str} {au}",
+                ]
+                return f"{area_str} {au}", steps
+
+    # ── Find length: "Find the length of the rectangle whose ... area = A sq unit and breadth = B unit" ──
+    if "find the length" in pl and "rectangl" in pl:
+        m = re.search(r"area\s*=\s*(\d+\.?\d*)\s*(sq\.?\s*\w+)\s+and\s+breadth\s*=\s*([\d.]+)\s*(\w+)", p, re.IGNORECASE)
+        if m:
+            area = float(m.group(1))
+            sq_unit = m.group(2).strip()
+            breadth = float(m.group(3))
+            unit = m.group(4).strip()
+            length = area / breadth
+            length_str = _fmt_num(length)
+            steps = [
+                f"Given: Area = {_fmt_num(area)} {sq_unit}, Breadth = {_fmt_num(breadth)} {unit}",
+                f"Formula: Area = Length × Breadth",
+                f"So: Length = Area ÷ Breadth",
+                f"Length = {_fmt_num(area)} ÷ {_fmt_num(breadth)}",
+                f"Length = {length_str} {unit}",
+            ]
+            return f"{length_str} {unit}", steps
+
+    # ── Find breadth: "Find the breadth of the rectangle whose ... area = A sq unit and length = L unit" ──
+    if "find the breadth" in pl and "rectangl" in pl:
+        m = re.search(r"area\s*=\s*(\d+\.?\d*)\s*(sq\.?\s*\w+)\s+and\s+length\s*=\s*([\d.]+)\s*(\w+)", p, re.IGNORECASE)
+        if m:
+            area = float(m.group(1))
+            sq_unit = m.group(2).strip()
+            length = float(m.group(3))
+            unit = m.group(4).strip()
+            breadth = area / length
+            breadth_str = _fmt_num(breadth)
+            steps = [
+                f"Given: Area = {_fmt_num(area)} {sq_unit}, Length = {_fmt_num(length)} {unit}",
+                f"Formula: Area = Length × Breadth",
+                f"So: Breadth = Area ÷ Length",
+                f"Breadth = {_fmt_num(area)} ÷ {_fmt_num(length)}",
+                f"Breadth = {breadth_str} {unit}",
+            ]
+            return f"{breadth_str} {unit}", steps
+
+    # ── Triangle perimeter from three sides: "Part (x): A, B, C" ──
+    if "perimeter" in pl and "triangle" in pl and "sides are given" in pl:
+        m = re.search(r"Part\s*\(\w+\):\s*([\d.]+)\s*(cm|m)\s*[,;]\s*([\d.]+)\s*(cm|m)\s*[,;]\s*([\d.]+)\s*(cm|m)", p, re.IGNORECASE)
+        if m:
+            a, ua = float(m.group(1)), m.group(2)
+            b, ub = float(m.group(3)), m.group(4)
+            c, uc = float(m.group(5)), m.group(6)
+            unit = ua
+            total = a + b + c
+            total_str = _fmt_num(total)
+            steps = [
+                f"Given: Sides = {_fmt_num(a)} {ua}, {_fmt_num(b)} {ub}, {_fmt_num(c)} {uc}",
+                f"Formula: Perimeter of a triangle = Sum of all three sides",
+                f"Perimeter = {_fmt_num(a)} + {_fmt_num(b)} + {_fmt_num(c)}",
+                f"Perimeter = {total_str} {unit}",
+            ]
+            return f"{total_str} {unit}", steps
+
+    # ── Isosceles triangle perimeter: "equal sides measures X and ... base is Y" ──
+    if "isosceles" in pl and "perimeter" in pl:
+        m = re.search(r"equal sides?\s+measures?\s+([\d.]+)\s*(cm|m).*?(?:base|third side)\s+(?:is\s+)?([\d.]+)\s*(cm|m)", p, re.IGNORECASE)
+        if m:
+            eq, ue = float(m.group(1)), m.group(2)
+            base, ub = float(m.group(3)), m.group(4)
+            unit = ue
+            total = 2 * eq + base
+            total_str = _fmt_num(total)
+            steps = [
+                f"Given: Equal sides = {_fmt_num(eq)} {ue} each, Base = {_fmt_num(base)} {ub}",
+                f"Formula: Perimeter of isosceles triangle = 2 × equal side + base",
+                f"Perimeter = 2 × {_fmt_num(eq)} + {_fmt_num(base)}",
+                f"Perimeter = {_fmt_num(2*eq)} + {_fmt_num(base)}",
+                f"Perimeter = {total_str} {unit}",
+            ]
+            return f"{total_str} {unit}", steps
+
+    # ── Equilateral triangle perimeter: "Find the perimeter of an equilateral triangle each of whose sides is X" ──
+    if "equilateral" in pl and "perimeter" in pl and "find the perimeter" in pl:
+        m = re.search(r"sides?\s+is\s+([\d.]+)\s*(cm|m)", p, re.IGNORECASE)
+        if m:
+            side, unit = float(m.group(1)), m.group(2)
+            total = 3 * side
+            total_str = _fmt_num(total)
+            steps = [
+                f"Given: Side of equilateral triangle = {_fmt_num(side)} {unit}",
+                f"Formula: Perimeter of equilateral triangle = 3 × side",
+                f"Perimeter = 3 × {_fmt_num(side)}",
+                f"Perimeter = {total_str} {unit}",
+            ]
+            return f"{total_str} {unit}", steps
+
+    # ── Find perimeter of equilateral triangle from perimeter: "The perimeter of an equilateral triangle is P. Find the length of each side" ──
+    if "equilateral" in pl and "perimeter" in pl and "find the length of each side" in pl:
+        m = re.search(r"perimeter.*?is\s+([\d.]+)\s*(cm|m)", p, re.IGNORECASE)
+        if m:
+            perim, unit = float(m.group(1)), m.group(2)
+            side = perim / 3
+            side_str = _fmt_num(side)
+            steps = [
+                f"Given: Perimeter of equilateral triangle = {_fmt_num(perim)} {unit}",
+                f"Formula: Perimeter = 3 × side, so Side = Perimeter ÷ 3",
+                f"Side = {_fmt_num(perim)} ÷ 3",
+                f"Side = {side_str} {unit}",
+            ]
+            return f"{side_str} {unit}", steps
+
+    # ── Find missing third side of triangle: "perimeter of a triangle is P and two sides are X and Y" ──
+    if "perimeter of a triangle" in pl and "find the third side" in pl:
+        m = re.search(r"perimeter.*?is\s+([\d.]+)\s*(cm|m).*?sides?\s+measure\s+([\d.]+)\s*(cm|m)\s+and\s+([\d.]+)\s*(cm|m)", p, re.IGNORECASE)
+        if m:
+            perim, up = float(m.group(1)), m.group(2)
+            s1, u1 = float(m.group(3)), m.group(4)
+            s2, u2 = float(m.group(5)), m.group(6)
+            unit = up
+            third = perim - s1 - s2
+            third_str = _fmt_num(third)
+            steps = [
+                f"Given: Perimeter = {_fmt_num(perim)} {up}, two sides = {_fmt_num(s1)} {u1} and {_fmt_num(s2)} {u2}",
+                f"Formula: Perimeter = side1 + side2 + side3",
+                f"So: Third side = Perimeter - side1 - side2",
+                f"Third side = {_fmt_num(perim)} - {_fmt_num(s1)} - {_fmt_num(s2)}",
+                f"Third side = {third_str} {unit}",
+            ]
+            return f"{third_str} {unit}", steps
+
+    # ── Rectangle perimeter: "Find the perimeter of each of the rectangles ... Length = L, Breadth = B" ──
+    if "perimeter" in pl and "rectangl" in pl and ("length" in pl or "l =" in pl):
+        m = re.search(r"[Ll]ength\s*=\s*([\d.]+\s*(?:m\s+\d+\.?\d*\s*cm|m|cm))\s*[,;]?\s*[Bb]readth\s*=\s*([\d.]+\s*(?:m\s+\d+\.?\d*\s*cm|m|cm))", p)
+        if m and "find the perimeter" in pl:
+            la = _parse_measurement(m.group(1))
+            lb = _parse_measurement(m.group(2))
+            if la and lb:
+                vl, vb, unit = _to_same_unit(la, lb)
+                perim = 2 * (vl + vb)
+                perim_str = _fmt_num(perim)
+                steps = [
+                    f"Given: Length = {m.group(1).strip()}, Breadth = {m.group(2).strip()}",
+                    f"Formula: Perimeter of a rectangle = 2 × (Length + Breadth)",
+                    f"Perimeter = 2 × ({_fmt_num(vl)} + {_fmt_num(vb)})",
+                    f"Perimeter = 2 × {_fmt_num(vl + vb)}",
+                    f"Perimeter = {perim_str} {unit}",
+                ]
+                return f"{perim_str} {unit}", steps
+
+    # ── Find breadth from rectangle perimeter: "perimeter of a rectangle is P and its length is L" ──
+    if "perimeter of a rect" in pl and ("breadth" in pl or "width" in pl) and ("length is" in pl or "length =" in pl):
+        m = re.search(r"perimeter.*?is\s+([\d.]+)\s*(cm|m).*?length\s+is\s+([\d.]+)\s*(cm|m)", p, re.IGNORECASE)
+        if m:
+            perim, up = float(m.group(1)), m.group(2)
+            length, ul = float(m.group(3)), m.group(4)
+            unit = up
+            breadth = perim / 2 - length
+            breadth_str = _fmt_num(breadth)
+            steps = [
+                f"Given: Perimeter = {_fmt_num(perim)} {up}, Length = {_fmt_num(length)} {ul}",
+                f"Formula: Perimeter = 2 × (Length + Breadth)",
+                f"So: Length + Breadth = Perimeter ÷ 2 = {_fmt_num(perim)} ÷ 2 = {_fmt_num(perim/2)} {unit}",
+                f"Breadth = {_fmt_num(perim/2)} - {_fmt_num(length)}",
+                f"Breadth = {breadth_str} {unit}",
+            ]
+            return f"{breadth_str} {unit}", steps
+
+    # ── Square perimeter: "Find the perimeter of the square, each of whose sides measures X" ──
+    if "perimeter" in pl and "square" in pl and "sides" in pl and "find" in pl:
+        m = re.search(r"Part\s*\(\w+\):\s*([\d.]+\s*(?:m\s+\d+\.?\d*\s*cm|m|cm))", p, re.IGNORECASE)
+        if not m:
+            m = re.search(r"sides?\s+measures?\s+([\d.]+\s*(?:m\s+\d+\.?\d*\s*cm|m|cm))", p, re.IGNORECASE)
+        if m:
+            ms = _parse_measurement(m.group(1))
+            if ms:
+                vs, unit = ms
+                perim = 4 * vs
+                perim_str = _fmt_num(perim)
+                steps = [
+                    f"Given: Side of square = {m.group(1).strip()}",
+                    f"Formula: Perimeter of a square = 4 × side",
+                    f"Perimeter = 4 × {_fmt_num(vs)}",
+                    f"Perimeter = {perim_str} {unit}",
+                ]
+                return f"{perim_str} {unit}", steps
+
+    # ── Volume of cuboid: "Find the volume of the cuboid ... length = L, breadth = B, height = H" ──
+    if "volume" in pl and "cuboid" in pl:
+        m = re.search(r"length\s*=\s*([\d.]+)\s*(cm|m)\s*[,;]?\s*breadth\s*=\s*([\d.]+)\s*(cm|m)\s*[,;]?\s*height\s*=\s*([\d.]+)\s*(cm|m)", p, re.IGNORECASE)
+        if m:
+            l, ul = float(m.group(1)), m.group(2)
+            b, ub = float(m.group(3)), m.group(4)
+            h, uh = float(m.group(5)), m.group(6)
+            unit = ul
+            vol = l * b * h
+            vol_str = _fmt_num(vol)
+            vu = _vol_unit(unit)
+            steps = [
+                f"Given: Length = {_fmt_num(l)} {ul}, Breadth = {_fmt_num(b)} {ub}, Height = {_fmt_num(h)} {uh}",
+                f"Formula: Volume of a cuboid = Length × Breadth × Height",
+                f"Volume = {_fmt_num(l)} × {_fmt_num(b)} × {_fmt_num(h)}",
+                f"Volume = {vol_str} {vu}",
+            ]
+            return f"{vol_str} {vu}", steps
+
+    # ── Volume of cube: "Find the volume of the cube whose edge is X" ──
+    if "volume" in pl and "cube" in pl and "edge" in pl:
+        m = re.search(r"Part\s*\(\w+\):\s*([\d.]+)\s*(cm|m)", p, re.IGNORECASE)
+        if not m:
+            m = re.search(r"edge\s+is\s+([\d.]+)\s*(cm|m)", p, re.IGNORECASE)
+        if m:
+            edge, unit = float(m.group(1)), m.group(2)
+            vol = edge ** 3
+            vol_str = _fmt_num(vol)
+            vu = _vol_unit(unit)
+            steps = [
+                f"Given: Edge of cube = {_fmt_num(edge)} {unit}",
+                f"Formula: Volume of a cube = Edge × Edge × Edge",
+                f"Volume = {_fmt_num(edge)} × {_fmt_num(edge)} × {_fmt_num(edge)}",
+                f"Volume = {vol_str} {vu}",
+            ]
+            return f"{vol_str} {vu}", steps
+
+    return None
+
+
 def make_text_answer(
     answer_source: object,
     *,
@@ -1880,6 +2189,9 @@ def make_text_answer(
 ) -> dict[str, object]:
     # ── Try to compute the answer arithmetically from the prompt ──────────
     computed = try_solve_arithmetic(prompt_text, exercise_number) if prompt_text else None
+    # ── If arithmetic solver didn't fire, try geometry solver ──────────────
+    if computed is None and prompt_text:
+        computed = try_solve_geometry(prompt_text)
 
     if computed is not None:
         computed_answer_str, steps = computed
