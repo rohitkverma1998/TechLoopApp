@@ -930,13 +930,11 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             "बोर्ड को देखिए। शिक्षक बताएँगे कि उत्तर गलत क्यों था और सही हल कैसे करना है।",
         )
         renderExplanationSentences(topic)
-        binding.examplesLabelText.text = ui("Solution summary", "समाधान सार")
-        binding.examplesText.text = listOfNotNull(
-            ui("Correct answer", "सही उत्तर") + ": " + question.solutionAnswer.display(appState.language),
-            result?.supportExample?.display(appState.language)?.let {
-                ui("Example", "उदाहरण") + ": " + it
-            },
-        ).joinToString("\n")
+        binding.examplesLabelText.text = ui("How to solve", "हल कैसे करें")
+        binding.examplesText.text = ui(
+            "Follow each step on the board carefully. Work through the solution yourself, then try the question again.",
+            "बोर्ड पर हर चरण को ध्यान से देखें। खुद हल करें, फिर प्रश्न दोबारा हल करने की कोशिश करें।",
+        )
         renderVisuals(emptyList())
     }
 

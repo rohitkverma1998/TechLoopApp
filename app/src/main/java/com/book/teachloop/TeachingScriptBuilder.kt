@@ -45,17 +45,8 @@ object TeachingScriptBuilder {
     ): List<String> {
         val script = mutableListOf<String>()
 
-        appendLines(script, text("Solution for this question", "इस प्रश्न का समाधान").display(language))
-        appendLines(script, text("Topic", "विषय").display(language) + ": " + topic.subtopicTitle.display(language))
         appendLines(script, text("Question", "प्रश्न").display(language) + ": " + question.prompt.display(language))
-        appendLines(script, text("Correct answer", "सही उत्तर").display(language) + ": " + question.solutionAnswer.display(language))
-        result?.wrongReason?.let { appendLines(script, it.display(language)) }
-        question.reteachTitle?.let { appendLines(script, it.display(language)) }
         question.reteachParagraphs.forEach { appendLines(script, it.display(language)) }
-        appendLines(
-            script,
-            text("Example", "उदाहरण").display(language) + ": " + question.supportExample.display(language),
-        )
 
         return dedupe(script)
     }

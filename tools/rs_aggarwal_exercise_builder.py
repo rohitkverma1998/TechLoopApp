@@ -1942,14 +1942,16 @@ def make_text_answer(
     return {
         "acceptedAnswers": accepted_answers,
         "solutionText": solution_text,
-        "wrongReason": "Solve the question again step by step and compare the final value. Units can be ignored while checking the answer.",
-        "supportExample": f"Solved answer: {solution_text}",
+        "wrongReason": "Check each step of your working carefully. Units do not need to be typed.",
+        "supportExample": "Work through the steps carefully and compare your answer at the end.",
         "reteachTitle": "See solution",
         "reteachParagraphs": [
-            "Solve the question again and compare the final value with the answer key. Do not worry if you skip the unit words.",
-            f"Final answer: {solution_text}",
+            "Read the question again carefully.",
+            "Write down the given values and identify what you need to find.",
+            "Apply the correct method step by step.",
+            f"Check your working and verify: the answer is {solution_text}.",
         ],
-        "exampleText": f"Solved answer: {solution_text}",
+        "exampleText": f"Answer: {solution_text}",
         "quizPromptSuffix": "",
     }
 
