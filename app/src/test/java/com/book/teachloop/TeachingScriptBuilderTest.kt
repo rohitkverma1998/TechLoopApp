@@ -1,5 +1,6 @@
 package com.book.teachloop
 
+import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
 
@@ -52,7 +53,7 @@ class TeachingScriptBuilderTest {
     }
 
     @Test
-    fun buildQuestionSolution_includesCorrectAnswerAndSupportExample() {
+    fun buildQuestionSolution_includesQuestionAndSolutionOnly() {
         val topic = StudyTopic(
             id = "topic_1",
             sourceLessonId = "lesson_1",
@@ -91,9 +92,41 @@ class TeachingScriptBuilderTest {
 
         val script = TeachingScriptBuilder.buildQuestionSolution(topic, question, result, AppLanguage.ENGLISH)
 
-        assertTrue(script.any { it.contains("Solution for this question") })
-        assertTrue(script.any { it.contains("Correct answer: thirteen thousand five hundred twenty") })
-        assertTrue(script.any { it.contains("You skipped the hundreds part.") })
-        assertTrue(script.any { it.contains("Example: 10,024 is ten thousand twenty-four.") })
+        assertTrue(script.any { it == "Question: 13,520 is read as" })
+        assertTrue(script.any { it == "Solution:" })
+        assertTrue(script.any { it.contains("Say the thousands part first and then the hundreds part.") })
+        assertTrue(script.none { it.contains("You skipped the hundreds part.") })
+        assertTrue(script.none { it.contains("10,024 is ten thousand twenty-four.") })
+    }
+
+    @Test
+    fun build_forChapterOneTeach_omitsGenericTitleAndExampleLabels() {
+        val topic = StudyTopic(
+            id = "topic_1",
+            sourceLessonId = "rs_ch01",
+            chapterNumber = 1,
+            chapterTitle = text("Revision"),
+            lessonTitle = text("Revision"),
+            subtopicTitle = text("Roman Numerals Revision"),
+            knowPrompt = text("Do you know this?"),
+            explanationTitle = text("Roman Numerals Revision"),
+            explanationParagraphs = listOf(
+                text("The seven Roman symbols are I = 1, V = 5 and X = 10."),
+                text("Rule 1: Repeat I, X, C and M up to 3 times."),
+            ),
+            examples = listOf(
+                text("94 = 90 + 4 = XC + IV = XCIV."),
+            ),
+            visuals = emptyList(),
+            questions = emptyList(),
+        )
+
+        val script = TeachingScriptBuilder.build(topic, AppLanguage.ENGLISH)
+
+        assertFalse(script.any { it == "Roman Numerals Revision" })
+        assertFalse(script.any { it == "Examples" })
+        assertFalse(script.any { it.startsWith("Example 1:") })
+        assertTrue(script.any { it.contains("The seven Roman symbols are I = 1, V = 5 and X = 10.") })
+        assertTrue(script.any { it.contains("94 = 90 + 4 = XC + IV = XCIV.") })
     }
 }

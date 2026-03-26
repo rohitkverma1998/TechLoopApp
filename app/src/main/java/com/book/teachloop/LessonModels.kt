@@ -305,3 +305,12 @@ data class ReportSummary(
 fun text(english: String, hindi: String = english): LocalizedText {
     return LocalizedText(english = english, hindi = hindi)
 }
+
+fun chapterLabel(chapterNumber: Int, chapterTitle: LocalizedText): LocalizedText {
+    val englishTitle = chapterTitle.english.ifBlank { chapterTitle.hindi }
+    val hindiTitle = chapterTitle.hindi.ifBlank { englishTitle }
+    return LocalizedText(
+        english = "Chapter $chapterNumber : $englishTitle",
+        hindi = "अध्याय $chapterNumber : $hindiTitle",
+    )
+}

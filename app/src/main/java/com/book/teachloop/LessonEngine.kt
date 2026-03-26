@@ -744,12 +744,13 @@ object StudyPlanner {
         }
 
         if (correct && !isExerciseTopic(topic) && chapterTrophies.contains(topic.chapterNumber)) {
+            val chapterName = chapterLabel(topic.chapterNumber, topic.chapterTitle)
             award(
                 BadgeType.CHAPTER_CHAMP,
                 text("Chapter champ", "अध्याय चैंप"),
                 text(
-                    english = "Finished every subtopic in Chapter ${topic.chapterNumber}.",
-                    hindi = "अध्याय ${topic.chapterNumber} के सभी उपविषय पूरे किए।",
+                    english = "Finished every subtopic in ${chapterName.english}.",
+                    hindi = "${chapterName.hindi} के सभी उपविषय पूरे किए।",
                 ),
             )
         }

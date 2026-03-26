@@ -492,10 +492,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
         solutionPreviewActive = true
         lastSpokenToken = null
-        latestStatusMessage = ui(
-            "Opening the step-by-step solution.",
-            "चरण-दर-चरण समाधान खोला जा रहा है।",
-        )
+        latestStatusMessage = null
 
         if (engine.session.state == LearningState.ASK_IF_KNOWN) {
             engine.answerKnowTopic(knowsTopic = false)
@@ -793,12 +790,9 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             "Step ${engine.currentTopicPosition()} of ${engine.totalQueuedTopics()}",
             "à¤šà¤°à¤£ ${engine.currentTopicPosition()} / ${engine.totalQueuedTopics()}",
         )
-        binding.chapterLabelText.text = ui("Chapter ${topic.chapterNumber}", "à¤…à¤§à¥à¤¯à¤¾à¤¯ ${topic.chapterNumber}")
+        binding.chapterLabelText.text = chapterLabel(topic.chapterNumber, topic.chapterTitle).display(appState.language)
         binding.topicTitleText.text = topic.subtopicTitle.display(appState.language)
-        binding.topicSourceText.text = listOf(
-            topic.lessonTitle.display(appState.language),
-            topic.chapterTitle.display(appState.language),
-        ).joinToString(" - ")
+        binding.topicSourceText.text = topicSourceText(topic.lessonTitle, topic.chapterTitle)
 
         when (engine.session.state) {
             LearningState.ASK_IF_KNOWN -> renderKnowPrompt(topic)
@@ -809,6 +803,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun renderKnowPrompt(topic: StudyTopic) {
+        binding.promptText.isVisible = true
         binding.promptText.text = topic.knowPrompt.display(appState.language)
         binding.explanationCard.isVisible = false
         binding.quizCard.isVisible = false
@@ -822,6 +817,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun renderExplanation(topic: StudyTopic) {
+        binding.promptText.isVisible = true
         binding.explanationCard.isVisible = true
         binding.quizCard.isVisible = false
         binding.teacherPlaybackCard.isVisible = true
@@ -829,27 +825,37 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         if (solutionPreviewActive) {
             renderQuestionSolution(topic)
         } else {
-            binding.promptText.text = ui(
-                "Here is the lesson. Have you understood this topic?",
-                "à¤¯à¤¹ à¤ªà¤¾à¤  à¤¹à¥ˆà¥¤ à¤•à¥à¤¯à¤¾ à¤†à¤ªà¤•à¥‹ à¤¯à¤¹ à¤µà¤¿à¤·à¤¯ à¤¸à¤®à¤ à¤†à¤¯à¤¾?",
-            )
             binding.positiveButton.text = ui("Yes, I understood", "à¤¹à¤¾à¤, à¤¸à¤®à¤ à¤†à¤¯à¤¾")
             binding.negativeButton.text = ui("No, explain again", "à¤¨à¤¹à¥€à¤‚, à¤«à¤¿à¤° à¤¸à¤®à¤à¤¾à¤‡à¤")
-
-            binding.explanationTitleText.text = topic.explanationTitle.display(appState.language)
-            binding.explanationBodyText.isVisible = true
-            binding.explanationBodyText.text = ui(
-                "Watch the board. The teacher explains every step, visual, and example one by one.",
-                "बोर्ड को देखिए। शिक्षक हर चरण, दृश्य और उदाहरण को एक-एक करके समझाएँगे।",
-            )
+            if (useImmersiveTeachLayout(topic)) {
+                binding.promptText.isVisible = false
+                binding.explanationTitleText.isVisible = false
+                binding.explanationBodyText.isVisible = false
+                binding.examplesLabelText.isVisible = false
+                binding.examplesText.isVisible = false
+            } else {
+                binding.promptText.text = ui(
+                    "Here is the lesson. Have you understood this topic?",
+                    "à¤¯à¤¹ à¤ªà¤¾à¤  à¤¹à¥ˆà¥¤ à¤•à¥à¤¯à¤¾ à¤†à¤ªà¤•à¥‹ à¤¯à¤¹ à¤µà¤¿à¤·à¤¯ à¤¸à¤®à¤ à¤†à¤¯à¤¾?",
+                )
+                binding.explanationTitleText.text = topic.explanationTitle.display(appState.language)
+                binding.explanationTitleText.isVisible = true
+                binding.explanationBodyText.isVisible = true
+                binding.explanationBodyText.text = ui(
+                    "Watch the board. The teacher explains every step, visual, and example one by one.",
+                    "बोर्ड को देखिए। शिक्षक हर चरण, दृश्य और उदाहरण को एक-एक करके समझाएँगे।",
+                )
+            }
             renderExplanationSentences(topic)
-            val hasExamples = topic.examples.isNotEmpty()
-            binding.examplesLabelText.isVisible = hasExamples
-            binding.examplesText.isVisible = hasExamples
-            if (hasExamples) {
-                binding.examplesLabelText.text = ui("Examples", "उदाहरण")
-                binding.examplesText.text = topic.examples.joinToString("\n") {
-                    "- ${it.display(appState.language)}"
+            if (!useImmersiveTeachLayout(topic)) {
+                val hasExamples = topic.examples.isNotEmpty()
+                binding.examplesLabelText.isVisible = hasExamples
+                binding.examplesText.isVisible = hasExamples
+                if (hasExamples) {
+                    binding.examplesLabelText.text = ui("Examples", "उदाहरण")
+                    binding.examplesText.text = topic.examples.joinToString("\n") {
+                        "- ${it.display(appState.language)}"
+                    }
                 }
             }
             renderVisuals(topic.visuals)
@@ -871,6 +877,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     private fun renderQuiz(topic: StudyTopic) {
         val question = engine.currentQuestion(Difficulty.EASY) ?: return
 
+        binding.promptText.isVisible = true
         binding.promptText.text = ui("Answer this check question.", "à¤‡à¤¸ à¤œà¤¾à¤à¤š à¤ªà¥à¤°à¤¶à¥à¤¨ à¤•à¤¾ à¤‰à¤¤à¥à¤¤à¤° à¤¦à¥‡à¤‚à¥¤")
         binding.explanationCard.isVisible = false
         binding.feedbackCard.isVisible = false
@@ -916,30 +923,16 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun renderQuestionSolution(topic: StudyTopic) {
-        val question = latestIncorrectQuestion ?: return
-        val result = latestQuizResult
+        latestIncorrectQuestion ?: return
 
-        binding.promptText.text = ui(
-            "Here is the solution. Have you understood how to solve this question?",
-            "यह समाधान है। क्या अब आपको यह प्रश्न हल करना समझ आया?",
-        )
+        binding.promptText.isVisible = false
         binding.positiveButton.text = ui("Yes, try again", "हाँ, फिर कोशिश करूँगा")
         binding.negativeButton.text = ui("Explain solution again", "समाधान फिर समझाइए")
-        binding.explanationTitleText.text = ui(
-            "Step-by-step solution",
-            "चरण-दर-चरण समाधान",
-        )
-        binding.explanationBodyText.isVisible = true
-        binding.explanationBodyText.text = ui(
-            "Watch the board. The teacher explains why the answer was incorrect and how to solve it correctly.",
-            "बोर्ड को देखिए। शिक्षक बताएँगे कि उत्तर गलत क्यों था और सही हल कैसे करना है।",
-        )
+        binding.explanationTitleText.isVisible = false
+        binding.explanationBodyText.isVisible = false
         renderExplanationSentences(topic)
-        binding.examplesLabelText.text = ui("How to solve", "हल कैसे करें")
-        binding.examplesText.text = ui(
-            "Follow each step on the board carefully. Work through the solution yourself, then try the question again.",
-            "बोर्ड पर हर चरण को ध्यान से देखें। खुद हल करें, फिर प्रश्न दोबारा हल करने की कोशिश करें।",
-        )
+        binding.examplesLabelText.isVisible = false
+        binding.examplesText.isVisible = false
         renderVisuals(emptyList())
     }
 
@@ -1327,7 +1320,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         binding.masteryMapContainer.removeAllViews()
         binding.masteryMapContainer.addView(sectionText(ui("Chapter mastery", "à¤…à¤§à¥à¤¯à¤¾à¤¯ à¤®à¤¾à¤¸à¥à¤Ÿà¤°à¥€"), false, true))
         report.chapterMastery.forEach { chapter ->
-            val line = "${ui("Chapter", "à¤…à¤§à¥à¤¯à¤¾à¤¯")} ${chapter.chapterNumber}: ${barText(chapter.masteredTopics, chapter.totalTopics)} ${chapter.masteredTopics}/${chapter.totalTopics}"
+            val line = "${chapterLabel(chapter.chapterNumber, chapter.chapterTitle).display(appState.language)} ${barText(chapter.masteredTopics, chapter.totalTopics)} ${chapter.masteredTopics}/${chapter.totalTopics}"
             binding.masteryMapContainer.addView(sectionText(line, true))
         }
     }
@@ -1392,7 +1385,11 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun renderStatus() {
-        binding.statusText.isVisible = !latestStatusMessage.isNullOrBlank()
+        val hideStatusForImmersiveTeach =
+            !solutionPreviewActive &&
+                engine.session.state == LearningState.EXPLAIN_TOPIC &&
+                engine.currentTopic()?.let(::useImmersiveTeachLayout) == true
+        binding.statusText.isVisible = !hideStatusForImmersiveTeach && !latestStatusMessage.isNullOrBlank()
         binding.statusText.text = latestStatusMessage.orEmpty()
     }
 
@@ -1688,8 +1685,13 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private fun showAssignmentsDialog() {
         val chapterNumbers = book.topics.map { it.chapterNumber }.distinct().sorted()
+        val chapterTitlesByNumber = book.topics
+            .groupBy { it.chapterNumber }
+            .mapValues { (_, topics) -> topics.first().chapterTitle }
         val checked = chapterNumbers.map { it in selectedProfile().assignedChapterNumbers }.toBooleanArray()
-        val labels = chapterNumbers.map { ui("Chapter $it", "à¤…à¤§à¥à¤¯à¤¾à¤¯ $it") }.toTypedArray()
+        val labels = chapterNumbers
+            .map { chapterNumber -> chapterLabel(chapterNumber, chapterTitlesByNumber.getValue(chapterNumber)).display(appState.language) }
+            .toTypedArray()
 
         AlertDialog.Builder(this)
             .setTitle(ui("Assign chapters", "à¤…à¤§à¥à¤¯à¤¾à¤¯ à¤¸à¥Œà¤‚à¤ªà¥‡à¤‚"))
@@ -1702,7 +1704,10 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 latestStatusMessage = if (selectedChapters.isEmpty()) {
                     ui("Assignments cleared for this child.", "à¤‡à¤¸ à¤¬à¤šà¥à¤šà¥‡ à¤•à¥‡ à¤²à¤¿à¤ à¤…à¤¸à¤¾à¤‡à¤¨à¤®à¥‡à¤‚à¤Ÿ à¤¹à¤Ÿà¤¾à¤ à¤—à¤à¥¤")
                 } else {
-                    ui("Assigned chapters: ${selectedChapters.joinToString(", ")}", "à¤¸à¥Œà¤‚à¤ªà¥‡ à¤—à¤ à¤…à¤§à¥à¤¯à¤¾à¤¯: ${selectedChapters.joinToString(", ")}")
+                    val assignedLabels = selectedChapters.joinToString(", ") { chapterNumber ->
+                        chapterLabel(chapterNumber, chapterTitlesByNumber.getValue(chapterNumber)).display(appState.language)
+                    }
+                    ui("Assigned chapters: $assignedLabels", "à¤¸à¥Œà¤‚à¤ªà¥‡ à¤—à¤ à¤…à¤§à¥à¤¯à¤¾à¤¯: $assignedLabels")
                 }
                 render()
             }
@@ -2245,6 +2250,19 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         return LocalizedText(english = english, hindi = hindi)
     }
 
+    private fun topicSourceText(vararg values: LocalizedText): String {
+        return values
+            .map(::sanitizeLocalizedText)
+            .map { it.display(appState.language).trim() }
+            .filter { it.isNotEmpty() }
+            .distinct()
+            .joinToString(" - ")
+    }
+
+    private fun useImmersiveTeachLayout(topic: StudyTopic): Boolean {
+        return topic.sourceLessonId == "rs_ch01"
+    }
+
     private fun reportListText(
         items: List<LocalizedText>,
         emptyEnglish: String,
@@ -2280,9 +2298,5 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             "Could not open voice settings. Search for Text-to-speech in your phone settings."
     }
 }
-
-
-
-
 
 

@@ -6,8 +6,11 @@ object TeachingScriptBuilder {
         language: AppLanguage,
     ): List<String> {
         val script = mutableListOf<String>()
+        val immersiveTeachScript = topic.sourceLessonId == "rs_ch01"
 
-        appendLines(script, topic.explanationTitle.display(language))
+        if (!immersiveTeachScript) {
+            appendLines(script, topic.explanationTitle.display(language))
+        }
         topic.explanationParagraphs.forEach { paragraph ->
             appendLines(script, paragraph.display(language))
         }
@@ -27,16 +30,23 @@ object TeachingScriptBuilder {
         }
 
         if (topic.examples.isNotEmpty()) {
-            appendLines(script, text("Examples", "उदाहरण").display(language))
-            topic.examples.forEachIndexed { index, example ->
-                val prefix = text("Example ${index + 1}", "उदाहरण ${index + 1}").display(language)
-                appendLines(script, "$prefix: ${example.display(language)}")
+            if (immersiveTeachScript) {
+                topic.examples.forEach { example ->
+                    appendLines(script, example.display(language))
+                }
+            } else {
+                appendLines(script, text("Examples", "उदाहरण").display(language))
+                topic.examples.forEachIndexed { index, example ->
+                    val prefix = text("Example ${index + 1}", "उदाहरण ${index + 1}").display(language)
+                    appendLines(script, "$prefix: ${example.display(language)}")
+                }
             }
         }
 
         return dedupe(script)
     }
 
+    @Suppress("UNUSED_PARAMETER")
     fun buildQuestionSolution(
         topic: StudyTopic,
         question: RenderedQuestion,
@@ -46,6 +56,7 @@ object TeachingScriptBuilder {
         val script = mutableListOf<String>()
 
         appendLines(script, text("Question", "प्रश्न").display(language) + ": " + question.prompt.display(language))
+        appendLines(script, text("Solution", "समाधान").display(language) + ":")
         question.reteachParagraphs.forEach { appendLines(script, it.display(language)) }
 
         return dedupe(script)
