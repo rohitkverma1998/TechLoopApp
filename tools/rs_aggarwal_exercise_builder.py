@@ -1,6 +1,9 @@
 from __future__ import annotations
 
 import re
+from fractions import Fraction as _Frac
+from functools import reduce as _reduce
+from math import gcd as _gcd
 from pathlib import Path
 
 import fitz
@@ -1464,6 +1467,372 @@ def question_label(chapter_number: int, exercise_number: int, question_number: i
     return f"{chapter_number}.{exercise_number}.{question_number}{suffix}"
 
 
+# ─────────────────────────────────────────────────────────────
+# ARITHMETIC SOLVER  –  computes correct answers from prompt
+# ─────────────────────────────────────────────────────────────
+
+
+def _lcm2(a: int, b: int) -> int:
+    return a * b // _gcd(a, b)
+
+
+def _lcm_list(nums: list[int]) -> int:
+    return _reduce(_lcm2, nums, 1)
+
+
+def _frac_display(f: _Frac, *, prefer_mixed: bool = True) -> str:
+    """Return a human-readable fraction string: '1 1/4', '5/7', '3', '-1/2'."""
+    if f == 0:
+        return "0"
+    sign = "-" if f < 0 else ""
+    fa = abs(f)
+    if fa.denominator == 1:
+        return f"{sign}{fa.numerator}"
+    if prefer_mixed and fa.numerator > fa.denominator:
+        w = fa.numerator // fa.denominator
+        r = fa.numerator % fa.denominator
+        return f"{sign}{w} {r}/{fa.denominator}"
+    return f"{sign}{fa.numerator}/{fa.denominator}"
+
+
+def _parse_frac(s: str) -> _Frac | None:
+    """Parse '1 2/3', '5/7', or '3' into a Fraction. Returns None on failure."""
+    s = s.strip()
+    m = re.match(r"^(\d+)\s+(\d+)/(\d+)$", s)
+    if m:
+        w, n, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        return None if d == 0 else _Frac(w * d + n, d)
+    m = re.match(r"^(\d+)/(\d+)$", s)
+    if m:
+        n, d = int(m.group(1)), int(m.group(2))
+        return None if d == 0 else _Frac(n, d)
+    m = re.match(r"^(\d+)$", s)
+    if m:
+        return _Frac(int(m.group(1)))
+    return None
+
+
+def _tokenize_expr(expr: str) -> list | None:
+    """
+    Tokenize a fraction arithmetic expression.
+    Returns alternating list [Frac, op, Frac, op, Frac, …] or None on failure.
+    Operators: + - × (→ *) ÷ (→ ^)
+    """
+    # Normalise operator glyphs; ^ = internal division placeholder
+    text = (
+        expr
+        .replace("×", "*")
+        .replace("÷", "^")
+        .replace("\u2013", "-")  # EN DASH used as minus in some prompts
+        .replace("\u2212", "-")  # MINUS SIGN
+    )
+    tokens: list = []
+    i = 0
+    n = len(text)
+    while i < n:
+        if text[i].isspace():
+            i += 1
+            continue
+        # Mixed number: digit+ SPACE digit+/digit+
+        m = re.match(r"(\d+)\s+(\d+)/(\d+)", text[i:])
+        if m:
+            w, num, den = int(m.group(1)), int(m.group(2)), int(m.group(3))
+            if den == 0:
+                return None
+            tokens.append(_Frac(w * den + num, den))
+            i += m.end()
+            continue
+        # Simple fraction: digit+/digit+
+        m = re.match(r"(\d+)/(\d+)", text[i:])
+        if m:
+            num, den = int(m.group(1)), int(m.group(2))
+            if den == 0:
+                return None
+            tokens.append(_Frac(num, den))
+            i += m.end()
+            continue
+        # Decimal: digit+.digit+
+        m = re.match(r"(\d+\.\d+)", text[i:])
+        if m:
+            try:
+                tokens.append(_Frac(m.group(1)))
+            except Exception:
+                return None
+            i += m.end()
+            continue
+        # Integer
+        m = re.match(r"(\d+)", text[i:])
+        if m:
+            tokens.append(_Frac(int(m.group(1))))
+            i += m.end()
+            continue
+        # Operator
+        if text[i] in "+-*^":
+            tokens.append(text[i])
+            i += 1
+            continue
+        return None  # Unknown character
+    return tokens
+
+
+def _eval_bodmas(tokens: list) -> _Frac | None:
+    """Evaluate token list with BODMAS (* ^ before + -)."""
+    if not tokens or len(tokens) % 2 == 0:
+        return None
+    operands = tokens[0::2]
+    ops = tokens[1::2]
+    if not all(isinstance(v, _Frac) for v in operands):
+        return None
+    if not all(isinstance(op, str) and op in "+-*^" for op in ops):
+        return None
+    # First pass: multiply / divide
+    vals = list(operands)
+    ops2 = list(ops)
+    i = 0
+    while i < len(ops2):
+        if ops2[i] in ("*", "^"):
+            a, b = vals[i], vals[i + 1]
+            vals[i] = a * b if ops2[i] == "*" else (a / b if b != 0 else None)
+            if vals[i] is None:
+                return None
+            vals.pop(i + 1)
+            ops2.pop(i)
+        else:
+            i += 1
+    # Second pass: add / subtract
+    result = vals[0]
+    for idx, op in enumerate(ops2):
+        result = result + vals[idx + 1] if op == "+" else result - vals[idx + 1]
+    return result
+
+
+def _add_sub_steps(operands: list, ops: list, result: _Frac, prefer_mixed: bool) -> list[str]:
+    """Step-by-step solution for addition / subtraction of fractions."""
+    steps: list[str] = []
+    denoms = [int(f.denominator) for f in operands]
+    display = lambda f: _frac_display(f, prefer_mixed=prefer_mixed)  # noqa: E731
+
+    if len(set(denoms)) == 1:
+        d = denoms[0]
+        nums = [int(f.numerator) for f in operands]
+        steps.append(f"Same denominator: {d}")
+        if all(op == "+" for op in ops):
+            expr = " + ".join(str(n) for n in nums)
+            total = sum(nums)
+            steps.append(f"Add numerators: {expr} = {total}")
+        else:
+            parts = [str(nums[0])]
+            total = nums[0]
+            for op, n in zip(ops, nums[1:]):
+                sym = "+" if op == "+" else "-"
+                parts.append(f"{sym} {n}")
+                total = total + n if op == "+" else total - n
+            steps.append(f"Numerators: {' '.join(parts)} = {total}")
+        raw = _Frac(
+            sum(int(f.numerator) * (1 if i == 0 or ops[i - 1] == "+" else -1)
+                for i, f in enumerate(operands)),
+            d,
+        )
+        if raw != result:
+            steps.append(f"Simplify: {_frac_display(raw, prefer_mixed=False)} = {display(result)}")
+        else:
+            steps.append(f"Result: {display(result)}")
+    else:
+        lcd = _lcm_list(denoms)
+        steps.append(f"LCM of {', '.join(str(d) for d in denoms)} = {lcd}")
+        converted: list[int] = []
+        for f in operands:
+            mult = lcd // f.denominator
+            cn = f.numerator * mult
+            converted.append(cn)
+            if mult != 1:
+                steps.append(f"Convert {display(f)} → {cn}/{lcd}")
+        # Combine numerators
+        parts = [str(converted[0])]
+        total = converted[0]
+        for op, cn in zip(ops, converted[1:]):
+            sym = "+" if op == "+" else "-"
+            parts.append(f"{sym} {cn}")
+            total = total + cn if op == "+" else total - cn
+        steps.append(f"Numerators: {' '.join(parts)} = {total}")
+        raw = _Frac(total, lcd)
+        if raw != result:
+            steps.append(f"Simplify: {_frac_display(raw, prefer_mixed=False)} = {display(result)}")
+        else:
+            steps.append(f"Result: {display(result)}")
+    steps.append(f"Answer: {display(result)}")
+    return steps
+
+
+def _mul_div_steps(operands: list, ops: list, result: _Frac, prefer_mixed: bool) -> list[str]:
+    """Step-by-step solution for multiplication / division of fractions."""
+    steps: list[str] = []
+    display = lambda f: _frac_display(f, prefer_mixed=prefer_mixed)  # noqa: E731
+
+    if all(op == "*" for op in ops):
+        nums = [int(f.numerator) for f in operands]
+        dens = [int(f.denominator) for f in operands]
+        np_ = _reduce(lambda a, b: a * b, nums)
+        dp_ = _reduce(lambda a, b: a * b, dens)
+        steps.append(f"Multiply numerators: {' × '.join(str(n) for n in nums)} = {np_}")
+        steps.append(f"Multiply denominators: {' × '.join(str(d) for d in dens)} = {dp_}")
+        raw = _Frac(np_, dp_)
+        if raw != result:
+            steps.append(f"Simplify: {np_}/{dp_} = {display(result)}")
+    elif len(ops) == 1 and ops[0] == "^":
+        a, b = operands[0], operands[1]
+        steps.append(f"Reciprocal of {display(b)}: {b.denominator}/{b.numerator}")
+        np_ = a.numerator * b.denominator
+        dp_ = a.denominator * b.numerator
+        raw = _Frac(np_, dp_)
+        steps.append(f"Multiply: {display(a)} × {b.denominator}/{b.numerator} = {np_}/{dp_}")
+        if raw != result:
+            steps.append(f"Simplify: {display(result)}")
+    else:
+        # Mixed × and ^
+        running = operands[0]
+        for op, f in zip(ops, operands[1:]):
+            sym = "×" if op == "*" else "÷"
+            prev = running
+            running = running * f if op == "*" else running / f
+            steps.append(f"{display(prev)} {sym} {display(f)} = {display(running)}")
+    steps.append(f"Answer: {display(result)}")
+    return steps
+
+
+def _bodmas_steps(tokens: list, result: _Frac, prefer_mixed: bool) -> list[str]:
+    """Step-by-step BODMAS solution for mixed +/-/×/÷."""
+    steps = ["Apply BODMAS: × and ÷ before + and −."]
+    display = lambda f: _frac_display(f, prefer_mixed=prefer_mixed)  # noqa: E731
+    operands = tokens[0::2]
+    ops = tokens[1::2]
+    vals = list(operands)
+    ops2 = list(ops)
+    i = 0
+    while i < len(ops2):
+        if ops2[i] in ("*", "^"):
+            sym = "×" if ops2[i] == "*" else "÷"
+            product = vals[i] * vals[i + 1] if ops2[i] == "*" else vals[i] / vals[i + 1]
+            steps.append(f"{display(vals[i])} {sym} {display(vals[i + 1])} = {display(product)}")
+            vals[i] = product
+            vals.pop(i + 1)
+            ops2.pop(i)
+        else:
+            i += 1
+    if len(vals) > 1:
+        steps.extend(_add_sub_steps(vals, ops2, result, prefer_mixed))
+    else:
+        steps.append(f"Answer: {display(result)}")
+    return steps
+
+
+def _frac_accepted_list(f: _Frac, prefer_mixed: bool) -> list[str]:
+    """Return primary + alternate string forms for a Fraction result."""
+    forms = []
+    primary = _frac_display(f, prefer_mixed=prefer_mixed)
+    if primary not in forms:
+        forms.append(primary)
+    # Also add the other display form
+    alt = _frac_display(f, prefer_mixed=not prefer_mixed)
+    if alt and alt not in forms:
+        forms.append(alt)
+    # Add improper if mixed was primary
+    if f.denominator != 1 and f > 1:
+        imp = f"{f.numerator}/{f.denominator}"
+        if imp not in forms:
+            forms.append(imp)
+    return forms
+
+
+def try_solve_arithmetic(
+    prompt_text: str,
+    exercise_number: int | None = None,
+) -> tuple[str, list[str]] | None:
+    """
+    Try to compute the answer for a pure arithmetic prompt.
+    Returns (answer_str, steps) or None if the prompt cannot be solved.
+    Only attempted for FRACTION_STYLE_EXERCISES.
+    """
+    if exercise_number is not None and exercise_number not in FRACTION_STYLE_EXERCISES:
+        return None
+
+    # Extract expression after the last colon
+    colon_idx = prompt_text.rfind(":")
+    if colon_idx < 0:
+        return None
+    expr = prompt_text[colon_idx + 1:].strip().rstrip(".?")
+    if not expr:
+        return None
+
+    # Remove "Part (x):" prefix if still present
+    expr = re.sub(r"^Part\s*\([a-z]\):\s*", "", expr, flags=re.IGNORECASE).strip()
+
+    try:
+        tokens = _tokenize_expr(expr)
+        if tokens is None or len(tokens) == 0:
+            return None
+        # Must be alternating; single number with no operator = skip
+        if len(tokens) == 1:
+            return None  # e.g., Roman numeral prompt
+        if len(tokens) % 2 == 0:
+            return None
+
+        operands = tokens[0::2]
+        ops = tokens[1::2]
+        if not all(isinstance(v, _Frac) for v in operands):
+            return None
+        valid_ops = set("+-*^")
+        if not all(isinstance(op, str) and op in valid_ops for op in ops):
+            return None
+
+        # Safety: skip if any operand looks like a concatenated mixed number
+        # (2-digit numerator where trailing digit < small denominator — ambiguous).
+        for frac in operands:
+            num_str = str(frac.numerator)
+            if (
+                frac.numerator > 9
+                and frac.denominator <= 12
+                and len(num_str) == 2
+            ):
+                trailing = int(num_str[1])
+                if 0 < trailing < frac.denominator:
+                    return None  # Could be "6 2/3" compacted to "62/3" — skip
+
+        result = _eval_bodmas(tokens)
+        if result is None:
+            return None
+
+        op_set = set(ops)
+
+        prefer_mixed = prefers_mixed_fraction_answer(prompt_text, exercise_number)
+        # For add/subtract in fraction-style exercises, prefer mixed when result > 1
+        if (
+            not prefer_mixed
+            and exercise_number in MIXED_ANSWER_HINT_EXERCISES
+            and op_set <= {"+", "-"}
+        ):
+            lower = compact_text(prompt_text).lower()
+            if any(k in lower for k in ("add", "sum", "subtract", "difference")):
+                prefer_mixed = True
+        answer_str = _frac_display(result, prefer_mixed=prefer_mixed)
+
+        if op_set <= {"+", "-"}:
+            steps = _add_sub_steps(operands, ops, result, prefer_mixed)
+        elif op_set <= {"*"}:
+            steps = _mul_div_steps(operands, ops, result, prefer_mixed)
+        elif op_set == {"^"} and len(ops) == 1:
+            steps = _mul_div_steps(operands, ops, result, prefer_mixed)
+        elif op_set <= {"*", "^"} and "+" not in op_set and "-" not in op_set:
+            steps = _mul_div_steps(operands, ops, result, prefer_mixed)
+        else:
+            steps = _bodmas_steps(tokens, result, prefer_mixed)
+
+        return answer_str, steps
+
+    except Exception:
+        return None
+
+
 def make_notebook_answer(prompt_text: str) -> dict[str, object]:
     solution_text = notebook_solution(prompt_text)
     return {
@@ -1509,6 +1878,57 @@ def make_text_answer(
     exercise_number: int | None = None,
     prompt_text: str = "",
 ) -> dict[str, object]:
+    # ── Try to compute the answer arithmetically from the prompt ──────────
+    computed = try_solve_arithmetic(prompt_text, exercise_number) if prompt_text else None
+
+    if computed is not None:
+        computed_answer_str, steps = computed
+
+        # Build accepted answers: computed primary forms + unit-free variants
+        accepted_answers: list[str] = []
+
+        def _add_accepted(val: str) -> None:
+            v = compact_text(val)
+            if v and v not in accepted_answers:
+                accepted_answers.append(v)
+            for uv in unitless_answer_variants(v):
+                if uv and uv not in accepted_answers:
+                    accepted_answers.append(uv)
+
+        # Formatted primary (exercise-aware fraction style)
+        fmt_primary = format_fraction_text(
+            computed_answer_str,
+            exercise_number,
+            prompt_text=prompt_text,
+            answer_mode=True,
+        ) or computed_answer_str
+        _add_accepted(fmt_primary)
+        _add_accepted(computed_answer_str)
+
+        # Also absorb any PDF-extracted answer as additional fallback
+        if answer_source is not None:
+            for a in accepted_answers_from_source(
+                answer_source,
+                exercise_number=exercise_number,
+                prompt_text=prompt_text,
+            ):
+                _add_accepted(a)
+
+        solution_text = fmt_primary
+        reteach_paragraphs = steps  # actual worked solution steps
+
+        return {
+            "acceptedAnswers": accepted_answers,
+            "solutionText": solution_text,
+            "wrongReason": "Solve step by step and check each line. Units do not need to be typed.",
+            "supportExample": f"See the step-by-step solution below.",
+            "reteachTitle": "See solution",
+            "reteachParagraphs": reteach_paragraphs,
+            "exampleText": f"Answer: {solution_text}",
+            "quizPromptSuffix": "",
+        }
+
+    # ── Fall back to PDF-extracted answer ────────────────────────────────
     accepted_answers = accepted_answers_from_source(
         answer_source,
         exercise_number=exercise_number,
