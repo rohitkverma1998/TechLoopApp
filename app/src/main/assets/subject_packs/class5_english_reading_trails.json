@@ -43,8 +43,20 @@
           "hindi": "पात्र कहानी के लोग या जानवर होते हैं। परिवेश बताता है कि कहानी कहाँ और कभी-कभी कब घटती है।"
         },
         {
-          "english": "A child can ask: Who is in the story? Where are they? Those two questions reveal the basic story map.",
-          "hindi": "बच्चा पूछ सकता है: कहानी में कौन है? वे कहाँ हैं? ये दो प्रश्न कहानी का मूल नक्शा बता देते हैं।"
+          "english": "A quick way to identify them is to ask three questions: Who is in the story? Where are they? When is it happening?",
+          "hindi": "उन्हें पहचानने का एक आसान तरीका है तीन प्रश्न पूछना: कहानी में कौन है? वे कहाँ हैं? यह कब हो रहा है?"
+        },
+        {
+          "english": "Names of people, animals, or groups usually show the characters. Words like park, forest, classroom, village, or home often show the setting.",
+          "hindi": "लोगों, जानवरों या समूहों के नाम प्रायः पात्र बताते हैं। पार्क, जंगल, कक्षा, गाँव या घर जैसे शब्द प्रायः परिवेश बताते हैं।"
+        },
+        {
+          "english": "Action words tell what is happening, but they do not usually tell the setting. For example, running is an action, not a place.",
+          "hindi": "क्रिया वाले शब्द बताते हैं कि क्या हो रहा है, पर वे सामान्यतः परिवेश नहीं बताते। जैसे running एक क्रिया है, जगह नहीं।"
+        },
+        {
+          "english": "In the line 'A rabbit runs in a forest at dawn', rabbit is the character, forest is the place setting, and dawn tells the time setting.",
+          "hindi": "वाक्य 'A rabbit runs in a forest at dawn' में rabbit पात्र है, forest स्थान-परिवेश है और dawn समय-परिवेश बताता है।"
         }
       ],
       "examples": [
@@ -124,8 +136,20 @@
           },
           "reteachParagraphs": [
             {
-              "english": "If you ask who and where, the answer becomes clear.",
-              "hindi": "यदि आप कौन और कहाँ पूछें, तो उत्तर साफ हो जाता है।"
+              "english": "Read the sentence once and ask: who is in it, and where is that character?",
+              "hindi": "वाक्य को एक बार पढ़ो और पूछो: इसमें कौन है, और वह पात्र कहाँ है?"
+            },
+            {
+              "english": "Rabbit names the animal in the sentence, so rabbit is the character.",
+              "hindi": "Rabbit वाक्य के जानवर का नाम है, इसलिए rabbit पात्र है।"
+            },
+            {
+              "english": "Forest names the place, so forest is the setting.",
+              "hindi": "Forest जगह का नाम है, इसलिए forest परिवेश है।"
+            },
+            {
+              "english": "Running tells the action, not the place. So the correct answer is forest.",
+              "hindi": "Running क्रिया बताता है, जगह नहीं। इसलिए सही उत्तर forest है।"
             }
           ]
         }
@@ -168,8 +192,20 @@
           "hindi": "कथन कुछ बताता है। प्रश्न जानकारी पूछता है और प्रायः प्रश्नवाचक चिह्न पर समाप्त होता है।"
         },
         {
+          "english": "A statement gives information such as a fact, idea, or description. A question expects an answer from someone.",
+          "hindi": "कथन कोई तथ्य, विचार या वर्णन देता है। प्रश्न किसी से उत्तर चाहता है।"
+        },
+        {
           "english": "Children can read the sentence aloud to hear whether it sounds like telling or asking.",
           "hindi": "बच्चे वाक्य को बोलकर पढ़ें तो सुन सकते हैं कि वह बताने जैसा है या पूछने जैसा।"
+        },
+        {
+          "english": "Many questions begin with words like is, are, do, does, what, when, or why. A question mark at the end is also an important clue.",
+          "hindi": "कई प्रश्न is, are, do, does, what, when या why जैसे शब्दों से शुरू होते हैं। अंत का प्रश्नवाचक चिह्न भी एक महत्वपूर्ण संकेत है।"
+        },
+        {
+          "english": "Compare these two lines: 'The sky is blue.' tells something, but 'Is the sky blue?' asks something.",
+          "hindi": "इन दो वाक्यों की तुलना करो: 'The sky is blue.' कुछ बताता है, पर 'Is the sky blue?' कुछ पूछता है।"
         }
       ],
       "examples": [
@@ -257,8 +293,20 @@
           },
           "reteachParagraphs": [
             {
-              "english": "Read the sentence aloud and notice whether it tells or asks.",
-              "hindi": "वाक्य को बोलकर पढ़ो और देखो कि वह बताता है या पूछता है।"
+              "english": "Read each option aloud and listen for the asking voice.",
+              "hindi": "हर विकल्प को बोलकर पढ़ो और पूछने वाली आवाज़ को सुनो।"
+            },
+            {
+              "english": "A statement simply gives information, so 'The sky is blue.' is a statement.",
+              "hindi": "कथन केवल जानकारी देता है, इसलिए 'The sky is blue.' एक कथन है।"
+            },
+            {
+              "english": "A question asks for an answer and ends with a question mark, so 'Is the sky blue?' is the question.",
+              "hindi": "प्रश्न उत्तर माँगता है और प्रश्नवाचक चिह्न पर समाप्त होता है, इसलिए 'Is the sky blue?' प्रश्न है।"
+            },
+            {
+              "english": "So the correct choice is 'Is the sky blue?'",
+              "hindi": "इसलिए सही विकल्प 'Is the sky blue?' है।"
             }
           ]
         }

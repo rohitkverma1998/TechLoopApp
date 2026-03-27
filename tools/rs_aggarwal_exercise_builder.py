@@ -6,7 +6,10 @@ from functools import reduce as _reduce
 from math import gcd as _gcd
 from pathlib import Path
 
-import fitz
+try:
+    import fitz
+except ModuleNotFoundError:  # pragma: no cover - optional for asset refresh from existing JSON
+    fitz = None
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -105,6 +108,158 @@ PROMPT_TRIM_MARKERS = (
 )
 
 NOTEBOOK_ACCEPTED_ANSWERS = ["done", "completed", "drawn", "ready", "finished"]
+CHAPTER_EXERCISE_GUIDES: dict[int, dict[str, str]] = {
+    1: {
+        "key_idea": "Revision questions become easy when you recall the old rule first and then apply it one small step at a time.",
+        "how_to_start": "Identify the topic involved, break the question into smaller parts, and use the rule that matches that topic.",
+        "example": "First identify the topic being revised, then apply that topic rule one small step at a time.",
+        "notebook": "Keep every label, line, and number neat so the revision work stays easy to check.",
+    },
+    2: {
+        "key_idea": "Roman numerals are written by combining the correct symbols in order, using subtraction pairs like IV, IX, XL, XC, CD, and CM when needed.",
+        "how_to_start": "Break the number into hundreds, tens, and ones, then write each part in Roman numerals before joining them.",
+        "example": "94 = 90 + 4 = XC + IV = XCIV.",
+        "notebook": "Write each Roman symbol clearly and keep the symbols in the correct order.",
+    },
+    3: {
+        "key_idea": "Large numbers are read and written by using the Indian place-value periods: crores, lakhs, thousands, hundreds, tens, and ones.",
+        "how_to_start": "Mark commas in the Indian system first, then read or write one period at a time from left to right.",
+        "example": "Seven crore four lakh two thousand nine is written as 7,04,02,009.",
+        "notebook": "Write each period clearly so the place values stay easy to read.",
+    },
+    4: {
+        "key_idea": "Operations on large numbers work best when digits are arranged according to place value before adding, subtracting, multiplying, or dividing.",
+        "how_to_start": "Line up the numbers carefully, check the operation sign, and solve column by column or step by step.",
+        "example": "5,08,420 + 26,905 is solved by matching the places first and then adding each column.",
+        "notebook": "Leave enough space between columns so carrying and borrowing remain clear.",
+    },
+    5: {
+        "key_idea": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+        "how_to_start": "Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+        "example": "18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+        "notebook": "Show one line for each stage so the order of operations is easy to follow.",
+    },
+    6: {
+        "key_idea": "Factors divide a number exactly, multiples are repeated products, and HCF or LCM questions depend on checking common factors or common multiples.",
+        "how_to_start": "Decide whether the question is about factors, multiples, HCF, or LCM, then list or divide carefully.",
+        "example": "The first common multiple of 6 and 8 is 24, so their LCM is 24.",
+        "notebook": "List factors or multiples in an organized way so you can compare them easily.",
+    },
+    7: {
+        "key_idea": "Fractions show equal parts of a whole, so the numerator and denominator must be read and compared carefully.",
+        "how_to_start": "Notice whether the denominators are the same or different, then compare or rewrite the fractions as needed.",
+        "example": "Between 3/8 and 5/8, the denominators match, so the larger numerator gives the larger fraction.",
+        "notebook": "Draw equal parts neatly if the question needs a shaded or visual fraction model.",
+    },
+    8: {
+        "key_idea": "Fractions can be added or subtracted directly only when their denominators match, so unlike fractions must first be converted to like fractions.",
+        "how_to_start": "Check the denominators, take the LCM when needed, then combine the numerators carefully.",
+        "example": "2/5 + 1/10 = 4/10 + 1/10 = 5/10 = 1/2.",
+        "notebook": "Rewrite the equivalent fractions clearly before doing the final addition or subtraction.",
+    },
+    9: {
+        "key_idea": "In multiplication of fractions, multiply numerators and denominators; in division, multiply by the reciprocal of the second fraction.",
+        "how_to_start": "First identify whether you are multiplying or dividing, then simplify before or after the operation if possible.",
+        "example": "3/4 x 2/5 = 6/20 = 3/10.",
+        "notebook": "Keep the reciprocal step and every simplification on separate lines.",
+    },
+    10: {
+        "key_idea": "Decimals depend on place value after the decimal point, and decimal operations stay correct when the decimal points are lined up properly.",
+        "how_to_start": "Read the whole and decimal parts carefully, then keep the decimal point fixed in the correct place.",
+        "example": "16.23 is read as sixteen point two three, and 3.5 + 1.2 = 4.7 after lining up the decimal points.",
+        "notebook": "Write the decimal points one below another so the places do not shift.",
+    },
+    11: {
+        "key_idea": "Rounding depends on the digit just to the right of the required place, because that digit tells whether to keep or increase the target digit.",
+        "how_to_start": "Circle the place you need to round to, then inspect the next digit before changing anything.",
+        "example": "4,768 rounded to the nearest hundred becomes 4,800 because the tens digit is 6.",
+        "notebook": "Underline the rounding place first so the change happens at the correct digit.",
+    },
+    12: {
+        "key_idea": "Measures of length, mass, and capacity become easier when all quantities are first changed into the same unit.",
+        "how_to_start": "Write the unit conversions you need, convert every quantity carefully, and only then compare or calculate.",
+        "example": "2 m 35 cm = 235 cm after changing metres into centimetres.",
+        "notebook": "Write each conversion clearly so the final unit remains correct.",
+    },
+    13: {
+        "key_idea": "Average means equal sharing, so you first find the total and then divide by the number of items.",
+        "how_to_start": "Add all the given values and count how many values there are before dividing.",
+        "example": "The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
+        "notebook": "Show both the total and the number of items before writing the average.",
+    },
+    14: {
+        "key_idea": "Percentage means out of one hundred, so percent questions connect naturally with fractions, decimals, and part-whole comparisons.",
+        "how_to_start": "Write the quantity as a fraction or compare it with 100, then convert it into the required form.",
+        "example": "25% = 25/100 = 1/4.",
+        "notebook": "Keep the percent sign and fraction form clear so the final conversion is easy to read.",
+    },
+    15: {
+        "key_idea": "Time questions are solved by managing hours and minutes carefully, remembering that 60 minutes make 1 hour.",
+        "how_to_start": "Write the times clearly, convert extra minutes into hours when needed, and keep track of a.m. or p.m.",
+        "example": "2 h 45 min + 1 h 30 min = 4 h 15 min after regrouping 75 minutes as 1 hour 15 minutes.",
+        "notebook": "Arrange hours and minutes separately so regrouping stays clear.",
+    },
+    16: {
+        "key_idea": "Money questions use rupees and paise together, and 100 paise make 1 rupee.",
+        "how_to_start": "Write amounts in rupees and paise carefully, line up the decimal or paise places, and then calculate.",
+        "example": "Rs 12.50 + Rs 7.75 = Rs 20.25.",
+        "notebook": "Keep the rupees and paise columns neat so no digit shifts place.",
+    },
+    17: {
+        "key_idea": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
+        "how_to_start": "Read the name or property being asked, then match it with the correct geometrical idea or figure.",
+        "example": "A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
+        "notebook": "Label each point and figure clearly so the geometry diagram stays readable.",
+    },
+    18: {
+        "key_idea": "Angles are compared and measured by the turn they make, and a protractor is used when the exact measure is needed.",
+        "how_to_start": "Identify whether the angle is acute, right, obtuse, or reflex, or place the protractor correctly to measure it.",
+        "example": "A right angle measures exactly 90 degrees.",
+        "notebook": "Place the protractor center and baseline correctly before reading the angle mark.",
+    },
+    19: {
+        "key_idea": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+        "how_to_start": "Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither.",
+        "example": "The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines.",
+        "notebook": "Use a ruler or set square carefully so the lines remain straight and accurate.",
+    },
+    20: {
+        "key_idea": "Triangle questions often depend on counting sides, comparing angles, or using simple triangle properties and perimeter ideas.",
+        "how_to_start": "First notice what type of triangle is involved, then use the side or angle information given in the question.",
+        "example": "An equilateral triangle has three equal sides, so its perimeter is 3 x one side.",
+        "notebook": "Draw the triangle neatly and label each side or angle before measuring or calculating.",
+    },
+    21: {
+        "key_idea": "Circle questions are based on parts like center, radius, diameter, chord, arc, and circumference-related ideas at this level.",
+        "how_to_start": "Identify which part of the circle the question mentions, then use the relation between those parts.",
+        "example": "If the radius is 6 cm, the diameter is 12 cm because diameter = 2 x radius.",
+        "notebook": "Mark the center first and draw radii or diameters clearly from it.",
+    },
+    22: {
+        "key_idea": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
+        "how_to_start": "Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
+        "example": "For a rectangle, perimeter = 2 x (length + breadth).",
+        "notebook": "Label every side length clearly before adding them for the perimeter.",
+    },
+    23: {
+        "key_idea": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
+        "how_to_start": "Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
+        "example": "For a rectangle, area = length x breadth.",
+        "notebook": "Write the final answer with square units and keep the dimensions clearly marked.",
+    },
+    24: {
+        "key_idea": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+        "how_to_start": "Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+        "example": "A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+        "notebook": "Keep the dimensions and cubic units clearly written while solving.",
+    },
+    25: {
+        "key_idea": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
+        "how_to_start": "Read the title, labels, and scale first, then count symbols or compare bar heights carefully.",
+        "example": "If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
+        "notebook": "Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
+    },
+}
 QUESTION_VERBS = (
     "add",
     "answer",
@@ -166,6 +321,47 @@ HEADING_OPENERS = (
 )
 
 MANUAL_SOURCE_OVERRIDES: dict[int, dict[int, str]] = {
+    1: {
+        12: (
+            "Write the required numbers. "
+            "(a) Write the smallest 4-digit number using the digits 6, 0 and 5, repeating 5 twice. "
+            "(b) Write the greatest 4-digit number using the digits 3, 6 and 9, repeating 6 twice."
+        ),
+        13: (
+            "Add. "
+            "(a) 37548 + 20976 + 116394 "
+            "(b) 205968 + 346593 + 54876 "
+            "(c) 1650784 + 439567 + 86249 "
+            "(d) 283967 + 3032188 + 9793"
+        ),
+        16: (
+            "Subtract. "
+            "(a) 510324 - 274569 "
+            "(b) 801605 - 534578 "
+            "(c) 3240202 - 1785696"
+        ),
+        17: "The sum of two numbers is 102003. If one of them is 64597, find the other.",
+        18: "The difference between two numbers is 78489. If the larger number is 350102, find the smaller number.",
+        20: (
+            "Find the following products. "
+            "(a) 23719 x 87 "
+            "(b) 9647 x 238 "
+            "(c) 8765 x 306"
+        ),
+        22: (
+            "In each of the following division sums, find the quotient and remainder. "
+            "(a) 66863 ÷ 76 "
+            "(b) 431035 ÷ 49 "
+            "(c) 850658 ÷ 97 "
+            "(d) 132507 ÷ 10 "
+            "(e) 1046549 ÷ 100 "
+            "(f) 235174 ÷ 1000"
+        ),
+        25: "List all the factors of: (a) 48 (b) 120.",
+        26: "Write the required multiples. (a) Write the first five multiples of 7. (b) Write the first four multiples of 18.",
+        27: "Write the required number lists. (a) Write down the first 20 odd numbers. (b) Write down all even numbers between 71 and 89.",
+        59: "Look at the two figures given in the book and find the perimeter of each one by adding all the outside sides.",
+    },
     3: {
         13: (
             "Answer the following. "
@@ -279,6 +475,15 @@ MANUAL_SOURCE_OVERRIDES: dict[int, dict[int, str]] = {
         ),
     },
     41: {
+        1: (
+            "Add. "
+            "(a) 153.46 + 47.89 + 6.3 "
+            "(b) 102.54 + 8.94 + 3.27 "
+            "(c) 56.87 + 432.93 + 18.76 + 0.38 "
+            "(d) 43.67 + 8.45 + 5.807 "
+            "(e) 30.9 + 0.63 + 138.07 "
+            "(f) 16.28 + 24.87 + 8.9"
+        ),
         12: (
             "Find the perimeter of a rectangular park whose length and breadth are "
             "45 1/2 m and 34 3/4 m respectively."
@@ -306,6 +511,12 @@ MANUAL_SOURCE_OVERRIDES: dict[int, dict[int, str]] = {
         ),
     },
     51: {
+        9: (
+            "The population of an Indian state is 85642574. Write the population "
+            "(a) to the nearest crore. "
+            "(b) to the nearest lakh. "
+            "(c) to the nearest thousand."
+        ),
         12: (
             "Think of rounding to the nearest thousand. What numbers could be rounded to "
             "(a) 9000? (b) 18000? (c) 27000?"
@@ -363,7 +574,7 @@ MANUAL_SOURCE_OVERRIDES: dict[int, dict[int, str]] = {
     },
     70: {
         1: "Which of the following figures represents an angle? (a) (b) (c) (d)",
-        2: "Name the angles in each of the following figures. Also, name the vertex and the arms in each case. (a) (b)",
+        2: "Look at the angle figures in the book and name each angle together with its vertex and its arms.",
         3: "How many angles are formed in each of the following figures? Name them. (a) (b) (c) (d)",
         5: (
             "In the adjoining figure, name the points: "
@@ -406,14 +617,6 @@ MANUAL_SOURCE_OVERRIDES: dict[int, dict[int, str]] = {
             "(d) 6 cm long, 5 cm wide, 2 cm high"
         ),
         11: "Volume of a cuboid is 1/8 cu m. What is its volume in cu cm?",
-    },
-    51: {
-        9: (
-            "The population of an Indian state is 85642574. Write the population "
-            "(a) to the nearest crore. "
-            "(b) to the nearest lakh. "
-            "(c) to the nearest thousand."
-        ),
     },
     80: {
         1: (
@@ -1205,6 +1408,300 @@ def notebook_solution(prompt_text: str) -> str:
     return "Complete this textbook task neatly in your notebook and then type done."
 
 
+def ensure_sentence(text: str) -> str:
+    compact = compact_text(text)
+    if not compact:
+        return ""
+    if compact.endswith(("?", "!", ".")):
+        return compact
+    return f"{compact}."
+
+
+def unique_text_lines(lines: list[str]) -> list[str]:
+    unique: list[str] = []
+    seen: set[str] = set()
+    for line in lines:
+        normalized = compact_text(line)
+        if not normalized:
+            continue
+        key = normalized.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        unique.append(ensure_sentence(normalized))
+    return unique
+
+
+def chapter_exercise_guide(chapter_number: int) -> dict[str, str]:
+    return CHAPTER_EXERCISE_GUIDES.get(
+        chapter_number,
+        {
+            "key_idea": "Read the question carefully, choose the correct rule, and solve one clear step at a time.",
+            "how_to_start": "Identify what is given, what has to be found, and the method that matches the chapter.",
+            "example": "Work a small similar example first, then use the same pattern in the textbook question.",
+            "notebook": "Keep the notebook work neat, clearly labelled, and checked before you finish.",
+        },
+    )
+
+
+def preview_text(text: str, *, limit: int = 180) -> str:
+    compact = compact_text(text)
+    if len(compact) <= limit:
+        return compact
+    return f"{compact[: limit - 3].rstrip()}..."
+
+
+def sanitize_ocr_text(text: str) -> str:
+    sanitized = clean_text(text)
+    sanitized = sanitized.replace("`", " Rs ")
+    sanitized = re.sub(
+        r"(?<!\d)(?:\d\s+){1,}\d\s*\.\s*(?:\d\s+){1,}\d(?!\d)",
+        lambda match: re.sub(r"\s+", "", match.group(0)),
+        sanitized,
+    )
+    sanitized = re.sub(
+        r"\bRs\s+(\d+)\s+(\d+)\s+(\d+)\b",
+        lambda match: (
+            f"Rs {match.group(1)} {match.group(2)}/{match.group(3)}"
+            if 0 < int(match.group(2)) < int(match.group(3)) <= 20
+            else f"Rs {match.group(1)} {match.group(2)} {match.group(3)}"
+        ),
+        sanitized,
+        flags=re.IGNORECASE,
+    )
+    sanitized = re.sub(r"(\d)(?=(?:more|less|hours?|lines?|students?|words?|rupees?|paise|months?|years?)\b)", r"\1 ", sanitized, flags=re.IGNORECASE)
+    sanitized = re.sub(r"\s+([,.;:?])", r"\1", sanitized)
+    sanitized = re.sub(r"([,:?])(?=[A-Za-z(])", r"\1 ", sanitized)
+    if ":" in sanitized:
+        prefix, suffix = sanitized.rsplit(":", 1)
+        if "?" in prefix and re.search(r"\b(?:what|which|how|find|write|add|subtract|divide|convert|express|state|tick|measure|draw|mark|identify|use)\b", suffix, re.IGNORECASE):
+            sanitized = suffix
+    return compact_text(sanitized)
+
+
+def exercise_focus(prompt_text: str) -> str:
+    prompt = sanitize_ocr_text(prompt_text)
+    part_match = re.search(r"Part\s*\([a-z]\):\s*(.+)$", prompt, re.IGNORECASE)
+    if part_match:
+        return preview_text(part_match.group(1), limit=150)
+    if ":" in prompt:
+        heading, tail = prompt.rsplit(":", 1)
+        heading = compact_text(heading)
+        tail = compact_text(tail)
+        if heading and tail and (looks_like_real_question(heading) or any(heading.lower().startswith(opener) for opener in HEADING_OPENERS)):
+            return preview_text(f"{heading}: {tail}", limit=150)
+    return preview_text(prompt, limit=150)
+
+
+def exercise_given_info(prompt_text: str) -> str:
+    prompt = sanitize_ocr_text(prompt_text)
+    part_split = re.split(r"Part\s*\([a-z]\):", prompt, maxsplit=1, flags=re.IGNORECASE)
+    stem = compact_text(part_split[0]) if part_split else prompt
+    part_value = compact_text(part_split[1]) if len(part_split) > 1 else ""
+    stem = re.sub(r"\bAnswer the following questions\b", "", stem, flags=re.IGNORECASE).strip(" :.")
+    candidate = stem
+    if ":" in stem:
+        heading, tail = stem.rsplit(":", 1)
+        heading = compact_text(heading)
+        tail = compact_text(tail)
+        if tail and (looks_like_real_question(heading) or any(heading.lower().startswith(opener) for opener in HEADING_OPENERS)):
+            candidate = tail
+    if part_value and not re.search(r"\d", candidate):
+        candidate = part_value
+    if not candidate or any(candidate.lower().startswith(opener) for opener in HEADING_OPENERS):
+        candidate = part_value or prompt
+    return preview_text(candidate, limit=160)
+
+
+def exercise_method_line(
+    prompt_text: str,
+    guide: dict[str, str],
+    *,
+    notebook_task: bool,
+) -> str:
+    prompt = sanitize_ocr_text(prompt_text).lower()
+    if notebook_task:
+        return "Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
+    if "quotient and remainder" in prompt:
+        return "Divide carefully, write the whole-number quotient first, and then write the leftover as the remainder."
+    if any(keyword in prompt for keyword in ("maximum", "greatest", "largest", "highest")):
+        return "Compare all the given values and choose the one with the greatest value."
+    if any(keyword in prompt for keyword in ("minimum", "smallest", "least", "lowest", "driest")):
+        return "Compare all the given values and choose the one with the smallest value."
+    if "factors" in prompt:
+        return "List the numbers that divide the given number exactly, without leaving any remainder."
+    if "multiples" in prompt:
+        return "Keep adding the same number again and again to make the required multiples."
+    if "odd numbers" in prompt:
+        return "Write the numbers that are not divisible by 2 and keep them in increasing order."
+    if "even numbers" in prompt:
+        return "Write the numbers divisible by 2 and keep them in increasing order."
+    if "roman numeral" in prompt and "hindu-arabic" in prompt:
+        return "Read each Roman symbol in order, add or subtract its value correctly, and then write the ordinary number."
+    if "roman numeral" in prompt:
+        return "Break the number into parts and write the matching Roman symbols for each part before joining them."
+    if "in figures" in prompt:
+        return "Convert each place-value part into digits first, and then place commas correctly if needed."
+    if "in words" in prompt:
+        return "Read the number or amount part by part and write the answer in words in the same order."
+    if "ascending order" in prompt:
+        return "Compare all the given values and arrange them from the smallest to the greatest."
+    if "descending order" in prompt:
+        return "Compare all the given values and arrange them from the greatest to the smallest."
+    if "simplest form" in prompt or "lowest term" in prompt or "lowest terms" in prompt:
+        return "Find a common factor of the numerator and denominator and divide both by it."
+    if "equivalent fraction" in prompt:
+        return "Multiply or divide the numerator and denominator by the same number."
+    if "bar graph" in prompt or "pictograph" in prompt:
+        return "Read the title, labels, and scale first, and then match each value with the correct category."
+    if "convert" in prompt:
+        return "Change the quantity into the required unit first, and only then write the answer."
+    return guide["how_to_start"]
+
+
+def exercise_answer_reason_line(
+    prompt_text: str,
+    solution_text: str,
+    *,
+    notebook_task: bool,
+) -> str:
+    solution = sanitize_ocr_text(solution_text)
+    prompt = sanitize_ocr_text(prompt_text).lower()
+    if notebook_task:
+        return "Your notebook work should show the figure, labels, and measurements clearly."
+    if solution in {"<", ">", "="}:
+        return f"After comparing the values carefully, the correct sign is {solution}."
+    if "quotient and remainder" in prompt:
+        return f"Write both parts clearly as {solution}."
+    if "factors" in prompt:
+        return f"Write every exact divisor in order as {solution}."
+    if "multiples" in prompt or "odd numbers" in prompt or "even numbers" in prompt:
+        return f"Keep the numbers in order and write them as {solution}."
+    if any(keyword in prompt for keyword in ("maximum", "greatest", "largest", "highest", "minimum", "smallest", "least", "lowest", "driest")):
+        return f"After comparing the required values, the answer is {solution}."
+    return f"When you apply the rule carefully, you reach {solution}."
+
+
+def exercise_check_line(
+    prompt_text: str,
+    solution_text: str,
+    guide: dict[str, str],
+    *,
+    notebook_task: bool,
+) -> str:
+    prompt = sanitize_ocr_text(prompt_text).lower()
+    if notebook_task:
+        return guide["notebook"]
+    if "quotient and remainder" in prompt:
+        return "Divisor x quotient + remainder should give the dividend."
+    if any(keyword in prompt for keyword in ("maximum", "greatest", "largest", "highest", "minimum", "smallest", "least", "lowest", "driest")):
+        return "Compare once more with every other value so no larger or smaller value is missed."
+    if "ascending order" in prompt or "descending order" in prompt:
+        return "Read the list once more from left to right and verify the order."
+    if re.search(r"\b(perimeter|area|volume|length|breadth|height|mass|capacity|money|rupees|paise|metre|meter|centimetre|centimeter|litre|liter|gram|kilogram)\b", prompt):
+        return "Make sure both the number and the unit are correct."
+    return "Read the question again and make sure your final answer matches exactly what it asked."
+
+
+def for_this_exercise_line(prompt_text: str) -> str:
+    prompt = sanitize_ocr_text(prompt_text)
+    if not prompt:
+        return "For this exercise, focus on the exact quantity, figure, or form that has to be found."
+    if len(prompt) > 220:
+        prompt = f"{prompt[:217].rstrip()}..."
+    first = prompt[:1]
+    rest = prompt[1:]
+    if first.isalpha():
+        prompt = first.lower() + rest
+    return f"For this exercise, {prompt}"
+
+
+def final_form_hint(prompt_text: str, solution_text: str, *, notebook_task: bool) -> str:
+    prompt = sanitize_ocr_text(prompt_text).lower()
+    answer = sanitize_ocr_text(solution_text)
+
+    if notebook_task:
+        return "Finish the construction or drawing neatly, label it properly, and only then type done."
+    if "roman numeral" in prompt or "roman numerals" in prompt:
+        return "Write the final answer only in Roman numerals."
+    if "in words" in prompt:
+        return "Write the final answer in words exactly as the question asks."
+    if "ascending order" in prompt:
+        return "Arrange the answers from the smallest to the greatest before writing them."
+    if "descending order" in prompt:
+        return "Arrange the answers from the greatest to the smallest before writing them."
+    if "simplest form" in prompt or "lowest term" in prompt or "lowest terms" in prompt:
+        return "Reduce the fraction fully before writing the final answer."
+    if "mixed number" in prompt or "mixed numeral" in prompt:
+        return "Convert the result into a mixed number before writing the final answer."
+    if answer in {"<", ">", "="}:
+        return "Write only the correct comparison sign in the blank."
+    if re.search(r"\b(perimeter|area|volume|length|breadth|height|mass|capacity|money|rupees|paise|metre|meter|centimetre|centimeter|litre|liter|gram|kilogram)\b", prompt):
+        return "Check that the final number is written with the correct unit."
+    return "Write the final answer in the same form that the question asks for."
+
+
+def detailed_teaching_paragraphs(
+    chapter_number: int,
+    prompt_text: str,
+    solution_text: str,
+    *,
+    notebook_task: bool,
+) -> list[str]:
+    guide = chapter_exercise_guide(chapter_number)
+    prompt = sanitize_ocr_text(prompt_text)
+    solution = sanitize_ocr_text(solution_text)
+    paragraphs = [
+        guide["key_idea"],
+        f"This question is about {exercise_focus(prompt)}",
+        f"From the question, we should notice {exercise_given_info(prompt)}",
+        f"To move toward the answer, use this method. {exercise_method_line(prompt, guide, notebook_task=notebook_task)}",
+        f"A similar model helps here. {guide['example']}",
+        f"While writing the answer, remember this. {final_form_hint(prompt, solution, notebook_task=notebook_task)}",
+        f"At the end, check once more. {exercise_check_line(prompt, solution, guide, notebook_task=notebook_task)}",
+    ]
+    if notebook_task:
+        paragraphs.append(f"Your notebook work should stay neat and complete. {guide['notebook']}")
+    else:
+        paragraphs.append("Work slowly, keep one clear step on each line, and compare your final line with what the question asked.")
+    return unique_text_lines(paragraphs)
+
+
+def detailed_solution_paragraphs(
+    chapter_number: int,
+    prompt_text: str,
+    solution_text: str,
+    *,
+    notebook_task: bool,
+    computed_steps: list[str] | None = None,
+) -> list[str]:
+    guide = chapter_exercise_guide(chapter_number)
+    prompt = sanitize_ocr_text(prompt_text)
+    solution = sanitize_ocr_text(solution_text)
+    paragraphs = [
+        f"We begin with the main idea used in this exercise. {guide['key_idea']}",
+        f"Here the question is asking about {exercise_focus(prompt)}",
+        f"The information given to us is {exercise_given_info(prompt)}",
+        f"So we follow this method. {exercise_method_line(prompt, guide, notebook_task=notebook_task)}",
+    ]
+    if computed_steps:
+        paragraphs.extend(computed_steps)
+    else:
+        paragraphs.extend(
+            [
+                f"A worked pattern for the same kind of question is this. {guide['example']}",
+                exercise_answer_reason_line(prompt, solution, notebook_task=notebook_task),
+            ]
+        )
+    paragraphs.append(f"Before writing the last line, keep this in mind. {final_form_hint(prompt, solution, notebook_task=notebook_task)}")
+    paragraphs.append(f"Now check the result once more. {exercise_check_line(prompt, solution, guide, notebook_task=notebook_task)}")
+    if notebook_task:
+        paragraphs.append("After completing the notebook work neatly, type done.")
+    else:
+        paragraphs.append(f"So the final answer is {solution}")
+    return unique_text_lines(paragraphs)
+
+
 def unitless_answer_variants(answer_text: str) -> list[str]:
     variant = answer_text
     unit_patterns = (
@@ -1233,6 +1730,7 @@ def accepted_answers_from_source(
     answers: list[str] = []
 
     def add_answer(value: str) -> None:
+        value = sanitize_ocr_text(value)
         variants = [
             format_fraction_text(
                 value,
@@ -1379,6 +1877,8 @@ def choose_best_prompt(
 
 class ExercisePdfParser:
     def __init__(self, pdf_path: Path) -> None:
+        if fitz is None:
+            raise ModuleNotFoundError("PyMuPDF (fitz) is required to parse the RS Aggarwal PDF.")
         if not pdf_path.exists():
             raise FileNotFoundError(f"RS Aggarwal PDF not found: {pdf_path}")
 
@@ -1755,6 +2255,20 @@ def try_solve_arithmetic(
     """
     if exercise_number is not None and exercise_number not in FRACTION_STYLE_EXERCISES:
         return None
+    prompt_lower = sanitize_ocr_text(prompt_text).lower()
+    if any(
+        marker in prompt_lower
+        for marker in (
+            "quotient and remainder",
+            "find the quotient",
+            "list all the factors",
+            "write the first five multiples",
+            "write the first four multiples",
+            "odd numbers",
+            "even numbers",
+        )
+    ):
+        return None
 
     # Extract expression after the last colon
     colon_idx = prompt_text.rfind(":")
@@ -1833,7 +2347,7 @@ def try_solve_arithmetic(
         return None
 
 
-def make_notebook_answer(prompt_text: str) -> dict[str, object]:
+def make_notebook_answer(prompt_text: str, *, chapter_number: int) -> dict[str, object]:
     solution_text = notebook_solution(prompt_text)
     return {
         "acceptedAnswers": NOTEBOOK_ACCEPTED_ANSWERS,
@@ -1841,7 +2355,19 @@ def make_notebook_answer(prompt_text: str) -> dict[str, object]:
         "wrongReason": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
         "supportExample": solution_text,
         "reteachTitle": "How to complete this notebook task",
-        "reteachParagraphs": [solution_text],
+        "reteachParagraphs": detailed_solution_paragraphs(
+            chapter_number,
+            prompt_text,
+            "done",
+            notebook_task=True,
+            computed_steps=[solution_text],
+        ),
+        "teachingParagraphs": detailed_teaching_paragraphs(
+            chapter_number,
+            prompt_text,
+            "done",
+            notebook_task=True,
+        ),
         "exampleText": solution_text,
         "quizPromptSuffix": "Then type done.",
     }
@@ -1855,7 +2381,7 @@ def display_answer_from_source(
 ) -> str:
     if isinstance(answer_source, list) and answer_source:
         return format_fraction_text(
-            str(answer_source[0]),
+            sanitize_ocr_text(str(answer_source[0])),
             exercise_number,
             prompt_text=prompt_text,
             answer_mode=True,
@@ -1864,7 +2390,7 @@ def display_answer_from_source(
         parts = [part.strip() for part in re.split(r"\bor\b", answer_source, flags=re.IGNORECASE) if part.strip()]
         first_part = parts[0] if parts else answer_source
         return format_fraction_text(
-            first_part,
+            sanitize_ocr_text(first_part),
             exercise_number,
             prompt_text=prompt_text,
             answer_mode=True,
@@ -2184,6 +2710,7 @@ def try_solve_geometry(prompt_text: str) -> tuple[str, list[str]] | None:
 def make_text_answer(
     answer_source: object,
     *,
+    chapter_number: int,
     exercise_number: int | None = None,
     prompt_text: str = "",
 ) -> dict[str, object]:
@@ -2235,7 +2762,19 @@ def make_text_answer(
             "wrongReason": "Solve step by step and check each line. Units do not need to be typed.",
             "supportExample": f"See the step-by-step solution below.",
             "reteachTitle": "See solution",
-            "reteachParagraphs": reteach_paragraphs,
+            "reteachParagraphs": detailed_solution_paragraphs(
+                chapter_number,
+                prompt_text,
+                solution_text,
+                notebook_task=False,
+                computed_steps=reteach_paragraphs,
+            ),
+            "teachingParagraphs": detailed_teaching_paragraphs(
+                chapter_number,
+                prompt_text,
+                solution_text,
+                notebook_task=False,
+            ),
             "exampleText": f"Answer: {solution_text}",
             "quizPromptSuffix": "",
         }
@@ -2257,19 +2796,29 @@ def make_text_answer(
         "wrongReason": "Check each step of your working carefully. Units do not need to be typed.",
         "supportExample": "Work through the steps carefully and compare your answer at the end.",
         "reteachTitle": "See solution",
-        "reteachParagraphs": [
-            "Read the question again carefully.",
-            "Write down the given values and identify what you need to find.",
-            "Apply the correct method step by step.",
-            f"Check your working and verify: the answer is {solution_text}.",
-        ],
+        "reteachParagraphs": detailed_solution_paragraphs(
+            chapter_number,
+            prompt_text,
+            solution_text,
+            notebook_task=False,
+        ),
+        "teachingParagraphs": detailed_teaching_paragraphs(
+            chapter_number,
+            prompt_text,
+            solution_text,
+            notebook_task=False,
+        ),
         "exampleText": f"Answer: {solution_text}",
         "quizPromptSuffix": "",
     }
 
 
 def compose_part_prompt(stem: str, part_key: str, part_text: str) -> str:
+    stem = compact_text(stem)
+    part_text = compact_text(part_text)
     if stem:
+        if stem.lower().endswith(" to"):
+            return f"{stem} {part_text}"
         return f"{stem} Part ({part_key}): {part_text}"
     return f"Part ({part_key}): {part_text}"
 
@@ -2285,15 +2834,16 @@ def build_topic(
 ) -> dict[str, object]:
     chapter_title_en, chapter_title_hi = chapters[chapter_number]
     label = question_label(chapter_number, exercise_number, question_number, part_key)
-    display_prompt_text = format_fraction_text(prompt_text, exercise_number)
+    display_prompt_text = sanitize_ocr_text(format_fraction_text(prompt_text, exercise_number))
     answer_payload = (
         make_text_answer(
             answer_source,
+            chapter_number=chapter_number,
             exercise_number=exercise_number,
             prompt_text=display_prompt_text,
         )
         if answer_source is not None
-        else make_notebook_answer(display_prompt_text)
+        else make_notebook_answer(display_prompt_text, chapter_number=chapter_number)
     )
     quiz_prompt = compact_text(display_prompt_text)
     prompt_suffix = answer_payload["quizPromptSuffix"]
@@ -2318,10 +2868,7 @@ def build_topic(
         "subtopicTitle": loc(subtopic_title),
         "knowPrompt": loc(f"Can you solve {subtopic_title}?"),
         "explanationTitle": loc(explanation_title),
-        "explanationParagraphs": [
-            loc(f"Question: {display_prompt_text}"),
-            *[loc(str(para)) for para in answer_payload.get("reteachParagraphs", [])],
-        ],
+        "explanationParagraphs": [loc(str(para)) for para in answer_payload.get("teachingParagraphs", [])],
         "examples": [],
         "visuals": [],
         "questions": [
@@ -2357,6 +2904,7 @@ def build_topics_for_question(
     prompt_text: str,
     answer_source: object | None,
 ) -> list[dict[str, object]]:
+    prompt_text = sanitize_ocr_text(prompt_text)
     manual_answer_parts = answer_source if isinstance(answer_source, dict) else None
     prompt_parts = split_parts(prompt_text)
     parsed_answer_parts = None

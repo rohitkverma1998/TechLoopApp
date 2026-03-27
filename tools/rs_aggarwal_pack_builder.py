@@ -5,8 +5,6 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
-from rs_aggarwal_exercise_builder import build_exercise_topics
-
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_PATH = ROOT / "app" / "src" / "main" / "assets" / "subject_packs" / "class5_rs_aggarwal_math.json"
@@ -573,6 +571,46 @@ CHAPTER_ONE_DETAILED_TEACHING: dict[str, tuple[tuple[str, ...], tuple[str, ...]]
     ),
 }
 
+SPECIAL_TOPIC_DETAILED_TEACHING: dict[tuple[int, str], tuple[tuple[str, ...], tuple[str, ...]]] = {
+    (23, "Area of a Rectangle and a Square"): (
+        (
+            "The area of a shape tells us how much flat surface it covers. Since area measures surface, it is written in square units such as cm², m² or square metres.",
+            "A rectangle has a length and a breadth. To find how much space it covers, we multiply the length by the breadth. So the area of a rectangle is length x breadth.",
+            "For example, if a rectangle is 6 cm long and 4 cm wide, its area is 6 x 4 = 24 cm². This means the rectangle covers 24 square centimetres of surface.",
+            "A square is a special rectangle in which all four sides are equal. Because both measurements are the same, we multiply the side by itself. So the area of a square is side x side or s².",
+            "For example, if the side of a square is 5 m, its area is 5 x 5 = 25 m². The small 2 in m² shows that area comes from multiplying one length by another length.",
+            "So remember the difference clearly: a rectangle needs two measurements, length and breadth, while a square needs only one measurement, the side. In fact, a square is just a rectangle whose length and breadth are equal.",
+        ),
+        (
+            "किसी आकृति का क्षेत्रफल बताता है कि वह समतल सतह पर कितनी जगह घेरती है। क्षेत्रफल हमेशा वर्ग इकाइयों में लिखा जाता है, जैसे सेमी², मी² या वर्ग मीटर।",
+            "आयत में लंबाई और चौड़ाई होती है। वह कितनी जगह घेरता है, यह जानने के लिए लंबाई को चौड़ाई से गुणा करते हैं। इसलिए आयत का क्षेत्रफल = लंबाई x चौड़ाई।",
+            "उदाहरण के लिए, यदि किसी आयत की लंबाई 6 सेमी और चौड़ाई 4 सेमी है, तो उसका क्षेत्रफल 6 x 4 = 24 सेमी² होगा। इसका मतलब है कि आयत के भीतर 24 वर्ग सेमी सतह आती है।",
+            "वर्ग, आयत का एक विशेष रूप है जिसमें चारों भुजाएँ बराबर होती हैं। इसलिए उसमें दोनों माप एक जैसे होते हैं और हम भुजा को उसी भुजा से गुणा करते हैं। इसलिए वर्ग का क्षेत्रफल = भुजा x भुजा या s² होता है।",
+            "उदाहरण के लिए, यदि किसी वर्ग की भुजा 5 मी है, तो उसका क्षेत्रफल 5 x 5 = 25 मी² होगा। मी² में लिखा छोटा 2 यह दिखाता है कि क्षेत्रफल दो लंबाइयों के गुणन से मिला है।",
+            "इसलिए अंतर साफ रखिए: आयत का क्षेत्रफल निकालने के लिए लंबाई और चौड़ाई दोनों चाहिए, जबकि वर्ग का क्षेत्रफल निकालने के लिए केवल भुजा जानना काफी है। वास्तव में वर्ग ऐसा आयत है जिसमें लंबाई और चौड़ाई बराबर होती हैं।",
+        ),
+    ),
+}
+
+SPECIAL_TOPIC_DETAILED_SOLUTIONS: dict[tuple[int, str], tuple[tuple[str, ...], tuple[str, ...]]] = {
+    (23, "Area of a Rectangle and a Square"): (
+        (
+            "In this question, we have to find the area of a rectangle, so we use the formula area = length x breadth.",
+            "The rectangle is 12 cm long and 8 cm broad. That means we multiply 12 by 8.",
+            "12 x 8 = 96, so the area of the rectangle is 96 square centimetres.",
+            "We write the unit as cm² because area is always written in square units.",
+            "The same idea helps us understand squares too. If a square has side 5 m, then its area is 5 x 5 = 25 m² because both side measurements are equal.",
+        ),
+        (
+            "इस प्रश्न में हमें आयत का क्षेत्रफल निकालना है, इसलिए हम क्षेत्रफल = लंबाई x चौड़ाई वाला सूत्र लगाते हैं।",
+            "आयत की लंबाई 12 सेमी और चौड़ाई 8 सेमी है। इसलिए हमें 12 को 8 से गुणा करना है।",
+            "12 x 8 = 96, इसलिए आयत का क्षेत्रफल 96 वर्ग सेमी होगा।",
+            "इकाई cm² या वर्ग सेमी लिखते हैं, क्योंकि क्षेत्रफल हमेशा वर्ग इकाइयों में लिखा जाता है।",
+            "यही बात वर्ग पर भी लागू होती है। यदि किसी वर्ग की भुजा 5 मी हो, तो उसका क्षेत्रफल 5 x 5 = 25 मी² होगा, क्योंकि उसकी दोनों दिशाओं की लंबाई बराबर होती है।",
+        ),
+    ),
+}
+
 
 @dataclass(frozen=True)
 class TextTopicSpec:
@@ -648,44 +686,163 @@ def know_prompt(title_en: str, title_hi: str) -> dict[str, str]:
 
 def generic_wrong_reason(title_en: str, title_hi: str) -> dict[str, str]:
     return loc(
-        f"The key rule of {title_en.lower()} was not used correctly.",
-        f"{title_hi} का मुख्य नियम सही तरह से लागू नहीं हुआ।",
+        f"The main idea in {title_en.lower()} was not used correctly.",
+        f"{title_hi} के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।",
     )
 
 
 def generic_reteach_title(title_en: str, title_hi: str) -> dict[str, str]:
     return loc(
-        f"Key idea of {title_en}",
-        f"{title_hi} का मुख्य विचार",
+        f"Understanding {title_en}",
+        f"{title_hi} को समझें",
     )
 
 
+def preview_text(text: str, *, limit: int = 150) -> str:
+    compact = re.sub(r"\s+", " ", text).strip()
+    if len(compact) <= limit:
+        return compact
+    return f"{compact[: limit - 3].rstrip()}..."
+
+
+def primary_answer_text(spec: TopicSpec) -> tuple[str, str] | None:
+    if isinstance(spec, McqTopicSpec):
+        return spec.options[spec.correct_option_index]
+    if spec.accepted_answers:
+        answer = max(
+            spec.accepted_answers,
+            key=lambda value: (
+                bool(re.search(r"[A-Za-z]", value)) + bool(re.search(r"[\u0900-\u097F]", value)),
+                sum(token in value.lower() for token in ("cm", "mm", "km", " m", "kg", "g", "l", "ml", "sq", "a.m", "p.m")),
+                sum(char in value for char in (",", " ", "/", ":", "°")),
+                len(value),
+            ),
+        )
+        return answer, answer
+    return None
+
+
+def unique_paragraphs(paragraphs: list[dict[str, str]]) -> list[dict[str, str]]:
+    unique: list[dict[str, str]] = []
+    seen: set[tuple[str, str]] = set()
+    for paragraph in paragraphs:
+        key = (paragraph["english"].strip(), paragraph["hindi"].strip())
+        if key in seen:
+            continue
+        seen.add(key)
+        unique.append(paragraph)
+    return unique
+
+
+def generic_detailed_solution_paragraphs(spec: TopicSpec) -> list[dict[str, str]]:
+    closing_en = (
+        "After solving, choose the option that matches the idea and the final value."
+        if isinstance(spec, McqTopicSpec)
+        else "After solving, write the answer in the same form the question asks for, and include the unit whenever one is needed."
+    )
+    closing_hi = (
+        "हल करने के बाद वही विकल्प चुनिए जो सही विचार और अंतिम मान से मेल खाता हो।"
+        if isinstance(spec, McqTopicSpec)
+        else "हल पूरा होने पर उत्तर उसी रूप में लिखिए जिस रूप में प्रश्न ने माँगा है, और जहाँ ज़रूरत हो वहाँ सही इकाई भी लिखिए।"
+    )
+    paragraphs = [
+        loc(
+            f"This question is solved by using the same idea from the topic. {spec.concept_en}",
+            f"यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। {spec.concept_hi}",
+        ),
+        loc(
+            f"The question asks us to work with this situation: {preview_text(spec.prompt_en)}",
+            f"प्रश्न हमें यह स्थिति देता है: {preview_text(spec.prompt_hi)}",
+        ),
+        loc(
+            f"To move from the question to the answer, use this idea directly: {spec.hint_en}",
+            f"प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: {spec.hint_hi}",
+        ),
+        loc(
+            f"A similar example makes the method clear. {spec.example_en}",
+            f"एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। {spec.example_hi}",
+        ),
+        loc(
+            f"Using the same method here, we get: {spec.support_en}",
+            f"यही विधि यहाँ लगाने पर हमें मिलता है: {spec.support_hi}",
+        ),
+        loc(closing_en, closing_hi),
+    ]
+    answer = primary_answer_text(spec)
+    if answer is not None:
+        answer_en, answer_hi = answer
+        paragraphs.append(
+            loc(
+                f"So the correct answer is {answer_en}.",
+                f"इसलिए सही उत्तर {answer_hi} है।",
+            )
+        )
+    return unique_paragraphs(paragraphs)
+
+
+def generic_detailed_teaching_paragraphs(spec: TopicSpec) -> list[dict[str, str]]:
+    chapter_en, chapter_hi = chapter_title(spec.chapter_number)
+    closing_en = (
+        "When the question is multiple choice, solve it first and then match your result with the correct option."
+        if isinstance(spec, McqTopicSpec)
+        else "When the answer needs a number or a measure, write it in the form the question asks for and keep the correct unit with it."
+    )
+    closing_hi = (
+        "यदि प्रश्न बहुविकल्पीय हो, तो पहले उसे हल कीजिए और फिर अपने परिणाम से सही विकल्प मिलाइए।"
+        if isinstance(spec, McqTopicSpec)
+        else "यदि उत्तर संख्या या माप में हो, तो उसे उसी रूप में लिखिए जिस रूप में प्रश्न ने माँगा है और सही इकाई साथ रखिए।"
+    )
+    paragraphs = [
+        loc(spec.concept_en, spec.concept_hi),
+        loc(
+            f"In the chapter on {chapter_en}, you may see questions like this: {preview_text(spec.prompt_en)}",
+            f"{chapter_hi} के अध्याय में ऐसे प्रश्न मिलते हैं: {preview_text(spec.prompt_hi)}",
+        ),
+        loc(
+            f"To solve that kind of question, keep this step in mind: {spec.hint_en}",
+            f"ऐसे प्रश्न को हल करते समय यह बात याद रखिए: {spec.hint_hi}",
+        ),
+        loc(
+            f"One example makes the idea clear. {spec.example_en}",
+            f"एक उदाहरण से यह बात साफ हो जाती है। {spec.example_hi}",
+        ),
+        loc(
+            f"The same rule works again in similar questions. {spec.support_en}",
+            f"इसी तरह के दूसरे प्रश्नों में भी यही नियम चलता है। {spec.support_hi}",
+        ),
+        loc(closing_en, closing_hi),
+    ]
+    return unique_paragraphs(paragraphs)
+
+
 def solution_paragraphs(spec: TopicSpec) -> list[dict[str, str]]:
+    detailed = SPECIAL_TOPIC_DETAILED_SOLUTIONS.get((spec.chapter_number, spec.title_en))
+    if detailed is not None:
+        english_steps, hindi_steps = detailed
+        return [loc(english, hindi) for english, hindi in zip(english_steps, hindi_steps)]
+
     if spec.chapter_number == 1:
         detailed = CHAPTER_ONE_DETAILED_SOLUTIONS.get(spec.title_en)
         if detailed is not None:
             english_steps, hindi_steps = detailed
             return [loc(english, hindi) for english, hindi in zip(english_steps, hindi_steps)]
 
-    paragraphs = [loc(spec.concept_en, spec.concept_hi)]
-    if (spec.support_en, spec.support_hi) != (spec.concept_en, spec.concept_hi):
-        paragraphs.append(loc(spec.support_en, spec.support_hi))
-    return paragraphs
+    return generic_detailed_solution_paragraphs(spec)
 
 
 def teaching_paragraphs(spec: TopicSpec) -> list[dict[str, str]]:
+    detailed = SPECIAL_TOPIC_DETAILED_TEACHING.get((spec.chapter_number, spec.title_en))
+    if detailed is not None:
+        english_steps, hindi_steps = detailed
+        return [loc(english, hindi) for english, hindi in zip(english_steps, hindi_steps)]
+
     if spec.chapter_number == 1:
         detailed = CHAPTER_ONE_DETAILED_TEACHING.get(spec.title_en)
         if detailed is not None:
             english_steps, hindi_steps = detailed
             return [loc(english, hindi) for english, hindi in zip(english_steps, hindi_steps)]
 
-    chapter_en, chapter_hi = chapter_title(spec.chapter_number)
-    intro_en, intro_hi = generic_intro(spec.title_en, spec.title_hi, spec.chapter_number)
-    return [
-        loc(intro_en, intro_hi),
-        loc(spec.concept_en, spec.concept_hi),
-    ]
+    return generic_detailed_teaching_paragraphs(spec)
 
 
 def text_question(spec: TextTopicSpec) -> dict:
@@ -727,7 +884,6 @@ def render_topic(spec: TopicSpec) -> dict:
     question = text_question(spec) if isinstance(spec, TextTopicSpec) else mcq_question(spec)
     slug = slugify(f"ch{spec.chapter_number:02d}_{spec.title_en}")
     explanation_paragraphs = teaching_paragraphs(spec)
-    examples = [] if spec.chapter_number == 1 else [loc(spec.example_en, spec.example_hi)]
     return {
         "id": f"rs_{slug}",
         "sourceLessonId": f"rs_ch{spec.chapter_number:02d}",
@@ -738,7 +894,7 @@ def render_topic(spec: TopicSpec) -> dict:
         "knowPrompt": know_prompt(spec.title_en, spec.title_hi),
         "explanationTitle": loc(spec.title_en, spec.title_hi),
         "explanationParagraphs": explanation_paragraphs,
-        "examples": examples,
+        "examples": [],
         "visuals": [],
         "questions": [question],
         "tags": [
@@ -3253,6 +3409,8 @@ TOPIC_SPECS.extend([
 
 
 def build_book() -> dict:
+    from rs_aggarwal_exercise_builder import build_exercise_topics
+
     topics = [render_topic(spec) for spec in TOPIC_SPECS]
     topics.extend(build_exercise_topics(CHAPTERS))
     present = {topic["chapterNumber"] for topic in topics}
