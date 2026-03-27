@@ -2260,7 +2260,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun useImmersiveTeachLayout(topic: StudyTopic): Boolean {
-        return topic.sourceLessonId == "rs_ch01"
+        return topic.usesImmersiveTeachExperience()
     }
 
     private fun reportListText(
@@ -2298,5 +2298,3 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             "Could not open voice settings. Search for Text-to-speech in your phone settings."
     }
 }
-
-

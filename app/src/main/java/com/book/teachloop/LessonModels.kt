@@ -142,6 +142,11 @@ data class StudyTopic(
     val mistakeFocus: MistakeType = MistakeType.GENERAL,
 )
 
+fun StudyTopic.usesImmersiveTeachExperience(): Boolean {
+    return sourceLessonId.startsWith("rs_ch") ||
+        sourceLessonId.startsWith("rs_exercise_")
+}
+
 data class StudyBook(
     val id: String,
     val subjectTitle: LocalizedText,

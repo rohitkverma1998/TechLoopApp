@@ -100,22 +100,22 @@ class TeachingScriptBuilderTest {
     }
 
     @Test
-    fun build_forChapterOneTeach_omitsGenericTitleAndExampleLabels() {
+    fun build_forRsMainTeach_omitsGenericTitleAndExampleLabels() {
         val topic = StudyTopic(
             id = "topic_1",
-            sourceLessonId = "rs_ch01",
-            chapterNumber = 1,
-            chapterTitle = text("Revision"),
-            lessonTitle = text("Revision"),
-            subtopicTitle = text("Roman Numerals Revision"),
+            sourceLessonId = "rs_ch10",
+            chapterNumber = 10,
+            chapterTitle = text("Decimals"),
+            lessonTitle = text("Decimals"),
+            subtopicTitle = text("Decimal Fractions and Place Value Chart"),
             knowPrompt = text("Do you know this?"),
-            explanationTitle = text("Roman Numerals Revision"),
+            explanationTitle = text("Decimal Fractions and Place Value Chart"),
             explanationParagraphs = listOf(
-                text("The seven Roman symbols are I = 1, V = 5 and X = 10."),
-                text("Rule 1: Repeat I, X, C and M up to 3 times."),
+                text("Key idea: Decimal fractions use places after the decimal point."),
+                text("Worked example: In 18.956, the digit 5 is in the hundredths place."),
             ),
             examples = listOf(
-                text("94 = 90 + 4 = XC + IV = XCIV."),
+                text("Remember: The 5 is in the second place after the decimal point."),
             ),
             visuals = emptyList(),
             questions = emptyList(),
@@ -123,10 +123,42 @@ class TeachingScriptBuilderTest {
 
         val script = TeachingScriptBuilder.build(topic, AppLanguage.ENGLISH)
 
-        assertFalse(script.any { it == "Roman Numerals Revision" })
+        assertFalse(script.any { it == "Decimal Fractions and Place Value Chart" })
         assertFalse(script.any { it == "Examples" })
         assertFalse(script.any { it.startsWith("Example 1:") })
-        assertTrue(script.any { it.contains("The seven Roman symbols are I = 1, V = 5 and X = 10.") })
-        assertTrue(script.any { it.contains("94 = 90 + 4 = XC + IV = XCIV.") })
+        assertTrue(script.any { it.contains("Key idea: Decimal fractions use places after the decimal point.") })
+        assertTrue(script.any { it.contains("Remember: The 5 is in the second place after the decimal point.") })
+    }
+
+    @Test
+    fun build_forRsExerciseTeach_omitsGenericTitleAndExampleLabels() {
+        val topic = StudyTopic(
+            id = "topic_2",
+            sourceLessonId = "rs_exercise_ch10_ex39",
+            chapterNumber = 10,
+            chapterTitle = text("Decimals"),
+            lessonTitle = text("Exercise 39"),
+            subtopicTitle = text("Question 10.39.1(a)"),
+            knowPrompt = text("Can you solve Question 10.39.1(a)?"),
+            explanationTitle = text("Question 10.39.1(a)"),
+            explanationParagraphs = listOf(
+                text("Key idea: Decimals depend on place value after the decimal point."),
+                text("How to begin: Read the whole-number part, then say each digit after the decimal point."),
+                text("Use this model: 16.23 is read as sixteen point two three."),
+                text("Write the final answer in words exactly as the question asks."),
+            ),
+            examples = emptyList(),
+            visuals = emptyList(),
+            questions = emptyList(),
+        )
+
+        val script = TeachingScriptBuilder.build(topic, AppLanguage.ENGLISH)
+
+        assertFalse(script.any { it == "Question 10.39.1(a)" })
+        assertFalse(script.any { it == "Examples" })
+        assertFalse(script.any { it.startsWith("Example 1:") })
+        assertTrue(script.any { it.contains("Key idea: Decimals depend on place value after the decimal point.") })
+        assertTrue(script.any { it.contains("Use this model: 16.23 is read as sixteen point two three.") })
+        assertTrue(script.any { it.contains("Write the final answer in words exactly as the question asks.") })
     }
 }

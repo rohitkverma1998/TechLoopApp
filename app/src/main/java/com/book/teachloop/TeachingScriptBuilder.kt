@@ -6,7 +6,7 @@ object TeachingScriptBuilder {
         language: AppLanguage,
     ): List<String> {
         val script = mutableListOf<String>()
-        val immersiveTeachScript = topic.sourceLessonId == "rs_ch01"
+        val immersiveTeachScript = topic.usesImmersiveTeachExperience()
 
         if (!immersiveTeachScript) {
             appendLines(script, topic.explanationTitle.display(language))

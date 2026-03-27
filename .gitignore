@@ -10,3 +10,4 @@ captures/
 *.keystore
 __pycache__/
 *.pyc
+tools/.refresh_math_topic_explanations_state.json
