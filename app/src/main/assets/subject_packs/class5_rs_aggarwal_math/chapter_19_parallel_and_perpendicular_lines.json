@@ -1,0 +1,2207 @@
+{
+  "chapterNumber": 19,
+  "chapterTitle": {
+    "english": "Parallel and Perpendicular Lines",
+    "hindi": "समांतर और लंबवत रेखाएँ"
+  },
+  "topics": [
+    {
+      "id": "rs_ch19_intersecting_lines",
+      "sourceLessonId": "rs_ch19",
+      "chapterNumber": 19,
+      "chapterTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "lessonTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "subtopicTitle": {
+        "english": "Intersecting Lines",
+        "hindi": "प्रतिच्छेदी रेखाएँ"
+      },
+      "knowPrompt": {
+        "english": "Do you know this topic: Intersecting Lines?",
+        "hindi": "क्या आप यह विषय जानते हैं: प्रतिच्छेदी रेखाएँ?"
+      },
+      "explanationTitle": {
+        "english": "Intersecting Lines",
+        "hindi": "प्रतिच्छेदी रेखाएँ"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Intersecting lines are two lines that meet at exactly one point. That meeting point is called the point of intersection. So, when two lines meet at one point, we call them intersecting lines. This is different from parallel lines, which never meet.",
+          "hindi": "जो दो रेखाएँ ठीक एक बिंदु पर मिलती या कटती हैं, उन्हें intersecting lines या प्रतिच्छेदी रेखाएँ कहते हैं। जिस बिंदु पर वे मिलती हैं, उसे point of intersection या प्रतिच्छेदन बिंदु कहते हैं। इसलिए जब दो रेखाएँ एक बिंदु पर मिलती हैं, तो हम उन्हें intersecting lines कहते हैं। यह parallel lines से अलग हैं, क्योंकि parallel lines कभी नहीं मिलतीं।"
+        },
+        {
+          "english": "When two lines intersect, they form four angles around the same point. The key rules are that vertically opposite angles are equal, and adjacent angles on a straight line add up to 180°. If one angle is a, then the angle opposite it is also a, and each neighboring angle is 180° - a. In short, angle 1 = angle 3, angle 2 = angle 4, and angle 1 + angle 2 = 180°.",
+          "hindi": "जब दो रेखाएँ एक-दूसरे को काटती हैं, तो उस बिंदु के आसपास चार कोण बनते हैं। सबसे जरूरी नियम यह है कि सामने वाले कोण, जिन्हें vertically opposite angles कहते हैं, बराबर होते हैं, और बगल वाले कोणों का योग 180° होता है यदि वे एक सीधी रेखा पर हों। अगर एक कोण a है, तो उसके सामने वाला कोण भी a होगा, और उसके बगल वाले दोनों कोण 180° - a होंगे। संक्षेप में, angle 1 = angle 3, angle 2 = angle 4, और angle 1 + angle 2 = 180°."
+        },
+        {
+          "english": "You can see intersecting lines in real life at a road crossing, in the blades of scissors, in the shape of the letter X, in crossed wires, and in clock hands when they pass through the same point. Not every intersection makes a right angle. If two lines meet at 90°, they are called perpendicular lines, which are a special kind of intersecting lines.",
+          "hindi": "असल जीवन में intersecting lines सड़क के चौराहे पर, कैंची की दो धारों में, X जैसी आकृति में, एक-दूसरे को काटती तारों में, और घड़ी की सुइयों में दिखाई देती हैं जब वे एक ही बिंदु पर आती हुई लगती हैं। हर बार 90° का कोण नहीं बनता। अगर दो रेखाएँ 90° पर मिलें, तो उन्हें perpendicular lines कहते हैं, जो intersecting lines का एक खास प्रकार हैं।"
+        },
+        {
+          "english": "A common mistake is thinking that intersecting lines must always meet at 90°, but that is only true for perpendicular lines. Another common mistake is mixing up opposite angles and adjacent angles. Opposite angles are equal, but adjacent angles usually are not equal; they add to 180°. Some learners also forget that the lines meet at one point, not along a whole stretch.",
+          "hindi": "एक सामान्य गलती यह है कि कुछ विद्यार्थी सोचते हैं कि intersecting lines हमेशा 90° पर ही मिलती हैं, जबकि ऐसा केवल perpendicular lines में होता है। दूसरी गलती सामने वाले कोण और बगल वाले कोण को गड़बड़ कर देना है। सामने वाले कोण बराबर होते हैं, लेकिन बगल वाले कोण आम तौर पर बराबर नहीं होते; उनका योग 180° होता है। कुछ विद्यार्थी यह भी भूल जाते हैं कि रेखाएँ एक ही बिंदु पर मिलती हैं, किसी पूरी लंबाई पर नहीं।"
+        },
+        {
+          "english": "For an easy example, suppose one angle at the intersection is 40°, and we want the angle directly opposite it. First, notice that the required angle is opposite, not adjacent. Next, use the rule that vertically opposite angles are equal. So the opposite angle is 40°. The final answer is 40°. A common mistake here is using 180° even though the question is about the opposite angle, not the neighboring angle.",
+          "hindi": "एक आसान उदाहरण लें। मान लीजिए प्रतिच्छेदन पर एक कोण 40° है और हमें उसके ठीक सामने वाला कोण निकालना है। पहले देखिए कि पूछा गया कोण सामने वाला है, बगल वाला नहीं। फिर सामने वाले कोणों के बराबर होने वाला नियम लगाइए। इसलिए सामने वाला कोण भी 40° होगा। अंतिम उत्तर 40° है। यहाँ सामान्य गलती यह है कि विद्यार्थी 180° का नियम लगा देते हैं, जबकि प्रश्न सामने वाले कोण का था, बगल वाले का नहीं।"
+        },
+        {
+          "english": "For a medium example, one angle is 65°, and we want all four angles. Start with the opposite angle: it is also 65° because vertically opposite angles are equal. Then find each neighboring angle by using 180° - 65° = 115°, since adjacent angles on a straight line sum to 180°. The fourth angle is opposite 115°, so it is also 115°. The full set of angles is 65°, 115°, 65°, and 115°. A common mistake is assuming the other three angles are all 115°.",
+          "hindi": "अब थोड़ा बड़ा उदाहरण लें। एक कोण 65° है और हमें चारों कोण निकालने हैं। सबसे पहले उसके सामने वाला कोण भी 65° होगा, क्योंकि vertically opposite angles बराबर होते हैं। फिर उसके बगल वाले हर कोण के लिए 180° - 65° = 115° करेंगे, क्योंकि बगल वाले कोणों का योग 180° होता है। चौथा कोण 115° के सामने है, इसलिए वह भी 115° होगा। इस तरह चारों कोण 65°, 115°, 65°, और 115° हैं। यहाँ सामान्य गलती यह है कि विद्यार्थी सोच लेते हैं कि बाकी तीनों कोण 115° होंगे।"
+        },
+        {
+          "english": "For a harder example, two adjacent angles are (3x + 20)° and (2x + 10)°. Because they are adjacent angles on a straight line, their sum is 180°. So we write (3x + 20) + (2x + 10) = 180. Now combine like terms: 5x + 30 = 180. Subtract 30 from both sides to get 5x = 150, and then divide by 5 to get x = 30. Put x = 30 back into each expression: 3(30) + 20 = 110° and 2(30) + 10 = 70°. Since opposite angles are equal, the four angles are 110°, 70°, 110°, and 70°. A common mistake is setting the two expressions equal, even though the angles are adjacent, not opposite.",
+          "hindi": "अब एक कठिन उदाहरण लें। दो बगल वाले कोण (3x + 20)° और (2x + 10)° हैं। क्योंकि ये बगल वाले कोण हैं और एक सीधी रेखा बनाते हैं, इसलिए इनका योग 180° होगा। इसलिए हम लिखते हैं (3x + 20) + (2x + 10) = 180। अब समान पद जोड़ने पर 5x + 30 = 180 मिलता है। दोनों तरफ से 30 घटाने पर 5x = 150 मिलता है, और 5 से भाग देने पर x = 30 मिलता है। अब x = 30 को दोनों expressions में रखिए: 3(30) + 20 = 110° और 2(30) + 10 = 70°। सामने वाले कोण बराबर होते हैं, इसलिए चारों कोण 110°, 70°, 110°, और 70° होंगे। यहाँ सामान्य गलती यह है कि विद्यार्थी दोनों expressions को बराबर मान लेते हैं, जबकि ये सामने वाले नहीं, बगल वाले कोण हैं।"
+        },
+        {
+          "english": "The safest way to solve any intersecting-lines question is to first decide whether the unknown angle is opposite or adjacent to the known angle. If it is opposite, use equal angles. If it is adjacent, use the rule that the sum is 180°. Once you find one more angle, the rest become easy. This simple idea is the main rule behind most questions on intersecting lines.",
+          "hindi": "किसी भी intersecting lines वाले प्रश्न को हल करने का सबसे सुरक्षित तरीका यह है कि पहले तय करें कि अज्ञात कोण, दिए गए कोण के सामने है या बगल में। अगर सामने है, तो बराबरी वाला नियम लगाइए। अगर बगल में है, तो योग 180° वाला नियम लगाइए। जैसे ही एक और कोण मिल जाता है, बाकी कोण आसानी से निकल जाते हैं। यही छोटा सा विचार intersecting lines के अधिकतर प्रश्नों की नींव है।"
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "intersecting_lines_q1",
+          "prompt": {
+            "english": "What do we call two lines that meet at one point?",
+            "hindi": "जो दो रेखाएँ एक बिंदु पर मिलती हैं, उन्हें क्या कहते हैं?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Intersecting lines",
+              "hindi": "प्रतिच्छेदी रेखाएँ"
+            },
+            {
+              "english": "Parallel lines",
+              "hindi": "समांतर रेखाएँ"
+            },
+            {
+              "english": "Perpendicular bisectors",
+              "hindi": "लंब समद्विभाजक"
+            },
+            {
+              "english": "Curves",
+              "hindi": "वक्र"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Look for lines that cross each other.",
+            "hindi": "एक-दूसरे को काटती हुई रेखाओं के बारे में सोचिए।"
+          },
+          "wrongReason": {
+            "english": "The main idea in intersecting lines was not used correctly.",
+            "hindi": "प्रतिच्छेदी रेखाएँ के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
+          },
+          "supportExample": {
+            "english": "Lines that meet are called intersecting lines.",
+            "hindi": "जो रेखाएँ मिलती हैं उन्हें प्रतिच्छेदी रेखाएँ कहते हैं।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Understanding Intersecting Lines",
+            "hindi": "प्रतिच्छेदी रेखाएँ को समझें"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "This question is solved by using the same idea from the topic. Intersecting lines meet at a point.",
+              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। प्रतिच्छेदी रेखाएँ एक बिंदु पर मिलती हैं।"
+            },
+            {
+              "english": "The question asks us to work with this situation: What do we call two lines that meet at one point?",
+              "hindi": "प्रश्न हमें यह स्थिति देता है: जो दो रेखाएँ एक बिंदु पर मिलती हैं, उन्हें क्या कहते हैं?"
+            },
+            {
+              "english": "To move from the question to the answer, use this idea directly: Look for lines that cross each other.",
+              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: एक-दूसरे को काटती हुई रेखाओं के बारे में सोचिए।"
+            },
+            {
+              "english": "A similar example makes the method clear. The lines in the letter X intersect.",
+              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। X अक्षर में रेखाएँ एक-दूसरे को काटती हैं।"
+            },
+            {
+              "english": "Using the same method here, we get: Lines that meet are called intersecting lines.",
+              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: जो रेखाएँ मिलती हैं उन्हें प्रतिच्छेदी रेखाएँ कहते हैं।"
+            },
+            {
+              "english": "After solving, choose the option that matches the idea and the final value.",
+              "hindi": "हल करने के बाद वही विकल्प चुनिए जो सही विचार और अंतिम मान से मेल खाता हो।"
+            },
+            {
+              "english": "So the correct answer is Intersecting lines.",
+              "hindi": "इसलिए सही उत्तर प्रतिच्छेदी रेखाएँ है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Parallel and Perpendicular Lines",
+          "hindi": "समांतर और लंबवत रेखाएँ"
+        },
+        {
+          "english": "Intersecting Lines",
+          "hindi": "प्रतिच्छेदी रेखाएँ"
+        }
+      ],
+      "mistakeFocus": "CONCEPT_CONFUSION"
+    },
+    {
+      "id": "rs_ch19_parallel_lines",
+      "sourceLessonId": "rs_ch19",
+      "chapterNumber": 19,
+      "chapterTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "lessonTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "subtopicTitle": {
+        "english": "Parallel Lines",
+        "hindi": "समांतर रेखाएँ"
+      },
+      "knowPrompt": {
+        "english": "Do you know this topic: Parallel Lines?",
+        "hindi": "क्या आप यह विषय जानते हैं: समांतर रेखाएँ?"
+      },
+      "explanationTitle": {
+        "english": "Parallel Lines",
+        "hindi": "समांतर रेखाएँ"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Parallel lines are two straight lines that never meet, even if we extend them a lot on both sides. They always stay the same distance apart. So two lines that never meet and remain equally apart are called parallel lines.",
+          "hindi": "समांतर रेखाएँ दो सीधी रेखाएँ होती हैं जो दोनों तरफ कितना भी आगे बढ़ाओ, फिर भी कभी नहीं मिलतीं। वे हमेशा एक-दूसरे से बराबर दूरी पर रहती हैं। इसलिए जो दो रेखाएँ कभी नहीं मिलतीं और बराबर दूरी पर रहती हैं, उन्हें समांतर रेखाएँ कहते हैं।"
+        },
+        {
+          "english": "This topic does not have a special number formula. The main rule is the idea itself: parallel lines never meet and remain equally apart. We can write this as a ∥ b, which means line a is parallel to line b. If the gap between two lines becomes bigger or smaller anywhere, then they are not parallel.",
+          "hindi": "इस विषय में जोड़ या क्षेत्रफल जैसी कोई खास संख्या वाली सूत्र नहीं होती। यहाँ सबसे बड़ा नियम यही है कि समांतर रेखाएँ कभी नहीं मिलतीं और बराबर दूरी पर रहती हैं। इसे a ∥ b भी लिख सकते हैं, जिसका अर्थ है कि रेखा a, रेखा b के समांतर है। अगर दो रेखाओं के बीच की दूरी कहीं भी बढ़े या घटे, तो वे समांतर नहीं हैं।"
+        },
+        {
+          "english": "You can see parallel lines in real life in the lines on a notebook page, the two long edges of a ruler, railway tracks, and the opposite sides of a door or window. In a picture, railway tracks may look as if they meet far away, but that is only how the picture looks. In real life, the tracks are kept equally apart, so they are parallel.",
+          "hindi": "समांतर रेखाएँ हमें रोजमर्रा की चीजों में दिखती हैं, जैसे कॉपी की लाइनें, स्केल के दो लंबे किनारे, रेल की पटरियाँ, और दरवाजे या खिड़की के आमने-सामने वाले किनारे। चित्र में रेल की पटरियाँ दूर जाकर मिलती हुई लग सकती हैं, लेकिन वह केवल देखने का तरीका है। असली जीवन में पटरियाँ बराबर दूरी पर रखी जाती हैं, इसलिए वे समांतर होती हैं।"
+        },
+        {
+          "english": "Common mistakes are very important to avoid. Some children think any two slanting lines are parallel, but slanting lines can still meet. Some check only one end, but the distance must stay equal everywhere. Some also think lines that touch once and then move away are parallel, but if two lines meet even one time, they are not parallel.",
+          "hindi": "कुछ सामान्य गलतियों से बचना बहुत जरूरी है। कई बच्चे सोचते हैं कि तिरछी दिखने वाली कोई भी दो रेखाएँ समांतर होती हैं, लेकिन तिरछी रेखाएँ भी आगे जाकर मिल सकती हैं। कुछ बच्चे केवल एक सिरा देखते हैं, जबकि दूरी हर जगह बराबर होनी चाहिए। कुछ यह भी मान लेते हैं कि अगर रेखाएँ एक बार छूकर अलग हो जाएँ तो वे समांतर हैं, लेकिन अगर दो रेखाएँ एक बार भी मिलें, तो वे समांतर नहीं हैं।"
+        },
+        {
+          "english": "Here is an easy worked solution. A notebook has two straight writing lines. Are they parallel? First, check whether both lines are straight. Yes. Second, imagine making both lines longer on both sides. They still do not meet. Third, look at the gap between them. The gap stays equal from one end to the other. So the answer is yes, these two lines are parallel.",
+          "hindi": "अब एक आसान हल देखते हैं। एक कॉपी में लिखने की दो सीधी लाइनें बनी हैं। क्या वे समांतर हैं? पहले देखो कि क्या दोनों रेखाएँ सीधी हैं। हाँ। फिर सोचो कि अगर उन्हें दोनों तरफ बढ़ाया जाए तो क्या वे मिलेंगी। नहीं। अब उनके बीच की दूरी देखो। दूरी शुरू से अंत तक बराबर रहती है। इसलिए उत्तर है हाँ, ये दोनों रेखाएँ समांतर हैं।"
+        },
+        {
+          "english": "Now a medium worked solution. Two straight lines are drawn. The distance between them is 3 cm on the left, 3 cm in the middle, and 3 cm on the right. Are they parallel? First, both are straight lines. Second, the distance is equal at all three places. Third, when two straight lines stay equally apart, they do not meet. So the answer is yes, the lines are parallel.",
+          "hindi": "अब एक मध्यम स्तर का हल देखते हैं। दो सीधी रेखाएँ खींची गई हैं। उनके बीच की दूरी बाएँ 3 सेमी, बीच में 3 सेमी, और दाएँ 3 सेमी है। क्या वे समांतर हैं? पहले, दोनों रेखाएँ सीधी हैं। दूसरा, तीनों जगह दूरी बराबर है। तीसरा, जब दो सीधी रेखाएँ बराबर दूरी पर रहती हैं, तो वे नहीं मिलतीं। इसलिए उत्तर है हाँ, ये रेखाएँ समांतर हैं।"
+        },
+        {
+          "english": "Now a harder worked solution. A rectangle is named ABCD. Which sides are parallel? First, look at side AB and side CD. They are opposite sides, so they run in the same direction and never meet. Therefore AB is parallel to CD. Next, look at side BC and side AD. They are also opposite sides, so BC is parallel to AD. Finally, check AB and BC. They meet at one corner, so they are not parallel. The final answer is AB ∥ CD and BC ∥ AD.",
+          "hindi": "अब थोड़ा कठिन हल देखते हैं। एक आयत ABCD है। इसमें कौन-कौन सी भुजाएँ समांतर हैं? पहले AB और CD को देखो। ये आमने-सामने वाली भुजाएँ हैं, इसलिए एक ही दिशा में चलती हैं और कभी नहीं मिलतीं। इसलिए AB, CD के समांतर है। अब BC और AD को देखो। ये भी आमने-सामने वाली भुजाएँ हैं, इसलिए BC, AD के समांतर है। अब AB और BC को देखो। ये एक कोने पर मिलती हैं, इसलिए ये समांतर नहीं हैं। अंतिम उत्तर है AB ∥ CD और BC ∥ AD।"
+        },
+        {
+          "english": "Whenever you want to check parallel lines, ask three simple questions. Are both lines straight? Do they never meet, even if extended? Is the distance between them equal all the way? If the answers are yes, yes, and yes, then the lines are parallel. Remember that parallel lines can be flat, standing, or slanting. Their position does not matter; the rule of never meeting and staying equally apart matters.",
+          "hindi": "जब भी तुम्हें देखना हो कि रेखाएँ समांतर हैं या नहीं, तीन आसान सवाल पूछो। क्या दोनों रेखाएँ सीधी हैं? क्या वे आगे बढ़ाने पर भी कभी नहीं मिलतीं? क्या उनके बीच की दूरी पूरी लंबाई में बराबर है? अगर तीनों का उत्तर हाँ है, तो वे समांतर रेखाएँ हैं। याद रखो, समांतर रेखाएँ सीधी पड़ी हों, खड़ी हों, या तिरछी हों, उससे फर्क नहीं पड़ता। असली बात यह है कि वे कभी नहीं मिलतीं और बराबर दूरी पर रहती हैं।"
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "parallel_lines_q1",
+          "prompt": {
+            "english": "What do we call two lines that never meet and remain equally apart?",
+            "hindi": "जो दो रेखाएँ कभी नहीं मिलतीं और बराबर दूरी पर रहती हैं, उन्हें क्या कहते हैं?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Parallel lines",
+              "hindi": "समांतर रेखाएँ"
+            },
+            {
+              "english": "Intersecting lines",
+              "hindi": "प्रतिच्छेदी रेखाएँ"
+            },
+            {
+              "english": "Perpendicular lines",
+              "hindi": "लंबवत रेखाएँ"
+            },
+            {
+              "english": "Rays",
+              "hindi": "किरणें"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Think of railway tracks.",
+            "hindi": "रेल की पटरियों के बारे में सोचिए।"
+          },
+          "wrongReason": {
+            "english": "The main idea in parallel lines was not used correctly.",
+            "hindi": "समांतर रेखाएँ के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
+          },
+          "supportExample": {
+            "english": "Parallel lines never meet.",
+            "hindi": "समांतर रेखाएँ कभी नहीं मिलतीं।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Understanding Parallel Lines",
+            "hindi": "समांतर रेखाएँ को समझें"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "This question is solved by using the same idea from the topic. Parallel lines stay the same distance apart and never meet.",
+              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। समांतर रेखाएँ बराबर दूरी पर रहती हैं और कभी नहीं मिलतीं।"
+            },
+            {
+              "english": "The question asks us to work with this situation: What do we call two lines that never meet and remain equally apart?",
+              "hindi": "प्रश्न हमें यह स्थिति देता है: जो दो रेखाएँ कभी नहीं मिलतीं और बराबर दूरी पर रहती हैं, उन्हें क्या कहते हैं?"
+            },
+            {
+              "english": "To move from the question to the answer, use this idea directly: Think of railway tracks.",
+              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: रेल की पटरियों के बारे में सोचिए।"
+            },
+            {
+              "english": "A similar example makes the method clear. Railway tracks are often shown as parallel lines.",
+              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। रेल की पटरियाँ अक्सर समांतर रेखाओं के रूप में दिखाई जाती हैं।"
+            },
+            {
+              "english": "Using the same method here, we get: Parallel lines never meet.",
+              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: समांतर रेखाएँ कभी नहीं मिलतीं।"
+            },
+            {
+              "english": "After solving, choose the option that matches the idea and the final value.",
+              "hindi": "हल करने के बाद वही विकल्प चुनिए जो सही विचार और अंतिम मान से मेल खाता हो।"
+            },
+            {
+              "english": "So the correct answer is Parallel lines.",
+              "hindi": "इसलिए सही उत्तर समांतर रेखाएँ है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Parallel and Perpendicular Lines",
+          "hindi": "समांतर और लंबवत रेखाएँ"
+        },
+        {
+          "english": "Parallel Lines",
+          "hindi": "समांतर रेखाएँ"
+        }
+      ],
+      "mistakeFocus": "CONCEPT_CONFUSION"
+    },
+    {
+      "id": "rs_ch19_perpendicular_lines",
+      "sourceLessonId": "rs_ch19",
+      "chapterNumber": 19,
+      "chapterTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "lessonTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "subtopicTitle": {
+        "english": "Perpendicular Lines",
+        "hindi": "लंबवत रेखाएँ"
+      },
+      "knowPrompt": {
+        "english": "Do you know this topic: Perpendicular Lines?",
+        "hindi": "क्या आप यह विषय जानते हैं: लंबवत रेखाएँ?"
+      },
+      "explanationTitle": {
+        "english": "Perpendicular Lines",
+        "hindi": "लंबवत रेखाएँ"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Perpendicular lines are two lines that meet each other and make a square corner. This square corner is called a right angle. When you look at the corner of a book, a window, or a floor tile, you often see perpendicular lines.",
+          "hindi": "लंब रेखाएँ वे दो रेखाएँ होती हैं जो एक-दूसरे को मिलती हैं और एक चौकोर कोना बनाती हैं। इस चौकोर कोने को समकोण कहते हैं। किताब, खिड़की या फर्श की टाइल के कोने में तुम्हें ऐसी रेखाएँ अक्सर दिखती हैं।"
+        },
+        {
+          "english": "In this topic, there is no special formula to memorize. The main rule is simple: perpendicular lines always form an angle of 90°. So if two lines meet and the angle is 90°, the lines are perpendicular. If the angle is not 90°, they are not perpendicular.",
+          "hindi": "इस पाठ में याद करने के लिए कोई खास सूत्र नहीं है। सबसे मुख्य नियम यह है कि लंब रेखाएँ हमेशा 90° का कोण बनाती हैं। इसलिए अगर दो रेखाएँ मिलें और उनके बीच का कोण 90° हो, तो वे लंब रेखाएँ हैं। अगर कोण 90° नहीं है, तो वे लंब रेखाएँ नहीं हैं।"
+        },
+        {
+          "english": "You can see this idea in real life all around you. The corner of a notebook, the corner of a blackboard, a door frame, and many road crossings show perpendicular lines. One line may go up and down and the other may go across, but the most important check is still the same: do they meet at 90°?",
+          "hindi": "यह बात तुम्हें अपने आसपास की चीजों में भी दिखती है। कॉपी का कोना, ब्लैकबोर्ड का कोना, दरवाज़े का फ्रेम और कई सड़क चौराहे लंब रेखाओं के उदाहरण हैं। एक रेखा ऊपर-नीचे जा सकती है और दूसरी आड़ी जा सकती है, लेकिन सबसे ज़रूरी जाँच वही है कि क्या वे 90° पर मिल रही हैं।"
+        },
+        {
+          "english": "Now think about the question, perpendicular lines form which angle? First, remember the rule that perpendicular lines make a right angle. Next, remember that a right angle measures 90°. So the answer is 90°. This is the basic fact you should remember every time.",
+          "hindi": "अब इस सवाल को सोचो कि लंब रेखाएँ कौन-सा कोण बनाती हैं। पहले नियम याद करो कि लंब रेखाएँ समकोण बनाती हैं। फिर याद करो कि समकोण 90° का होता है। इसलिए उत्तर 90° है। यही सबसे ज़रूरी बात है जिसे तुम्हें हर बार याद रखना है।"
+        },
+        {
+          "english": "Suppose two lines meet, and the angle between them is 60°. Are they perpendicular? First, check whether the lines meet. Yes, they meet. Next, check the angle. It is 60°, not 90°. Since perpendicular lines must make exactly 90°, these lines are not perpendicular. This shows that every crossing is not a perpendicular crossing.",
+          "hindi": "मान लो दो रेखाएँ मिलती हैं और उनके बीच का कोण 60° है। क्या वे लंब रेखाएँ हैं? पहले देखो कि क्या रेखाएँ मिल रही हैं। हाँ, वे मिल रही हैं। अब कोण देखो। वह 60° है, 90° नहीं। क्योंकि लंब रेखाएँ ठीक 90° का कोण बनाती हैं, इसलिए ये रेखाएँ लंब रेखाएँ नहीं हैं। इससे समझ आता है कि हर काटने वाली रेखा लंब नहीं होती।"
+        },
+        {
+          "english": "Now take a rectangle with sides AB, BC, CD, and DA. Find the perpendicular pairs. First, remember that each corner of a rectangle is 90°. At corner B, AB meets BC, so AB is perpendicular to BC. At corner C, BC is perpendicular to CD. At corner D, CD is perpendicular to DA. At corner A, DA is perpendicular to AB. So the perpendicular pairs are AB and BC, BC and CD, CD and DA, and DA and AB. AB and CD are not a perpendicular pair because they do not meet. BC and DA are also not a perpendicular pair because they do not meet.",
+          "hindi": "अब एक आयत लो जिसकी भुजाएँ AB, BC, CD और DA हैं। इसमें लंब जोड़े ढूँढ़ो। पहले याद करो कि आयत का हर कोना 90° का होता है। कोने B पर AB, BC से मिलती है, इसलिए AB, BC पर लंब है। कोने C पर BC, CD पर लंब है। कोने D पर CD, DA पर लंब है। कोने A पर DA, AB पर लंब है। इसलिए लंब जोड़े हैं AB और BC, BC और CD, CD और DA, और DA और AB। AB और CD लंब जोड़ा नहीं हैं क्योंकि वे मिलती नहीं हैं। BC और DA भी लंब जोड़ा नहीं हैं क्योंकि वे मिलती नहीं हैं।"
+        },
+        {
+          "english": "A common mistake is to think that any two lines that cross are perpendicular. That is wrong, because the angle must be exactly 90°. Another common mistake is to think lines are perpendicular even when they do not meet. Lines must meet to form the 90° angle. Students also sometimes confuse perpendicular lines with parallel lines. Parallel lines go side by side and never meet.",
+          "hindi": "एक आम गलती यह है कि जो भी दो रेखाएँ एक-दूसरे को काटें, उन्हें लंब मान लिया जाए। यह गलत है, क्योंकि कोण ठीक 90° होना चाहिए। दूसरी गलती यह है कि बिना मिले हुए रेखाओं को भी लंब कह देना। 90° का कोण बनाने के लिए रेखाओं का मिलना ज़रूरी है। कई बच्चे लंब रेखाओं और समांतर रेखाओं में भी गड़बड़ी कर देते हैं। समांतर रेखाएँ साथ-साथ चलती हैं और कभी नहीं मिलतीं।"
+        },
+        {
+          "english": "So the idea is simple and strong: perpendicular lines meet and make a 90° angle. Whenever you are unsure, ask two questions. Do the lines meet? Is the angle 90°? If both answers are yes, the lines are perpendicular.",
+          "hindi": "इसलिए पूरी बात बहुत सरल है। लंब रेखाएँ मिलती हैं और 90° का कोण बनाती हैं। जब भी तुम्हें संदेह हो, दो सवाल पूछो। क्या रेखाएँ मिलती हैं? क्या कोण 90° है? अगर दोनों का उत्तर हाँ है, तो वे लंब रेखाएँ हैं।"
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "perpendicular_lines_q1",
+          "prompt": {
+            "english": "Perpendicular lines form which angle?",
+            "hindi": "लंबवत रेखाएँ कौन-सा कोण बनाती हैं?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Right angle",
+              "hindi": "समकोण"
+            },
+            {
+              "english": "Acute angle",
+              "hindi": "न्यून कोण"
+            },
+            {
+              "english": "Obtuse angle",
+              "hindi": "स्थूल कोण"
+            },
+            {
+              "english": "Zero angle",
+              "hindi": "शून्य कोण"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Think of the corner of a book.",
+            "hindi": "किताब के कोने के बारे में सोचिए।"
+          },
+          "wrongReason": {
+            "english": "The main idea in perpendicular lines was not used correctly.",
+            "hindi": "लंबवत रेखाएँ के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
+          },
+          "supportExample": {
+            "english": "Perpendicular lines meet at 90°.",
+            "hindi": "लंबवत रेखाएँ 90° पर मिलती हैं।"
+          },
+          "mistakeType": "ANGLE_TURN",
+          "reteachTitle": {
+            "english": "Understanding Perpendicular Lines",
+            "hindi": "लंबवत रेखाएँ को समझें"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "This question is solved by using the same idea from the topic. Perpendicular lines meet to form a right angle.",
+              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। लंबवत रेखाएँ मिलकर समकोण बनाती हैं।"
+            },
+            {
+              "english": "The question asks us to work with this situation: Perpendicular lines form which angle?",
+              "hindi": "प्रश्न हमें यह स्थिति देता है: लंबवत रेखाएँ कौन-सा कोण बनाती हैं?"
+            },
+            {
+              "english": "To move from the question to the answer, use this idea directly: Think of the corner of a book.",
+              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: किताब के कोने के बारे में सोचिए।"
+            },
+            {
+              "english": "A similar example makes the method clear. The corner of a notebook shows perpendicular lines.",
+              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। कापी का कोना लंबवत रेखाएँ दिखाता है।"
+            },
+            {
+              "english": "Using the same method here, we get: Perpendicular lines meet at 90°.",
+              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: लंबवत रेखाएँ 90° पर मिलती हैं।"
+            },
+            {
+              "english": "After solving, choose the option that matches the idea and the final value.",
+              "hindi": "हल करने के बाद वही विकल्प चुनिए जो सही विचार और अंतिम मान से मेल खाता हो।"
+            },
+            {
+              "english": "So the correct answer is Right angle.",
+              "hindi": "इसलिए सही उत्तर समकोण है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Parallel and Perpendicular Lines",
+          "hindi": "समांतर और लंबवत रेखाएँ"
+        },
+        {
+          "english": "Perpendicular Lines",
+          "hindi": "लंबवत रेखाएँ"
+        }
+      ],
+      "mistakeFocus": "ANGLE_TURN"
+    },
+    {
+      "id": "rs_ch19_set_squares",
+      "sourceLessonId": "rs_ch19",
+      "chapterNumber": 19,
+      "chapterTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "lessonTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "subtopicTitle": {
+        "english": "Set Squares",
+        "hindi": "सेट-स्क्वायर"
+      },
+      "knowPrompt": {
+        "english": "Do you know this topic: Set Squares?",
+        "hindi": "क्या आप यह विषय जानते हैं: सेट-स्क्वायर?"
+      },
+      "explanationTitle": {
+        "english": "Set Squares",
+        "hindi": "सेट-स्क्वायर"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Set squares are triangle-shaped maths tools used for drawing very neat lines and angles. They are usually made of plastic and have straight edges. In school, we use them with a ruler to make shapes more accurately. A set of set squares usually has two pieces. One set square has angles of 45°, 45°, and 90°. The other has angles of 30°, 60°, and 90°.",
+          "hindi": "सेट स्क्वेयर त्रिकोण के आकार का गणित का औजार होता है, जिससे बहुत साफ रेखाएँ और कोण बनाए जाते हैं। यह अक्सर प्लास्टिक का बना होता है और इसकी भुजाएँ सीधी होती हैं। स्कूल में हम इसे रूलर के साथ मिलाकर ज्यादा सही चित्र बनाते हैं। आम तौर पर सेट स्क्वेयर के दो टुकड़े होते हैं। एक में 45°, 45° और 90° के कोण होते हैं। दूसरे में 30°, 60° और 90° के कोण होते हैं।"
+        },
+        {
+          "english": "Set squares do not have a formula like addition or area. They are a drawing tool, so the main idea to remember is this: they help us draw fixed angles correctly. The most important fixed angles on set squares are 90°, 45°, 30°, and 60°. A 90° angle is a right angle. This means if you place the correct corner on a line, you can draw another line that makes an exact corner.",
+          "hindi": "सेट स्क्वेयर का कोई सूत्र नहीं होता, जैसे जोड़ या क्षेत्रफल का होता है। यह एक ड्रॉइंग का औजार है, इसलिए याद रखने वाली सबसे जरूरी बात यह है कि इससे निश्चित कोण ठीक-ठीक बनाए जाते हैं। सेट स्क्वेयर के मुख्य निश्चित कोण 90°, 45°, 30° और 60° होते हैं। 90° का कोण समकोण कहलाता है। इसका मतलब है कि अगर सही कोना किसी रेखा पर रखा जाए, तो हम बिल्कुल ठीक कोना बनाती हुई दूसरी रेखा खींच सकते हैं।"
+        },
+        {
+          "english": "In real life, set squares are useful wherever people need clean corners and neat slanting lines. A carpenter checks if a corner of a table is square. A tile worker wants floor tiles to meet properly. A student uses a set square to draw shapes in geometry. So, if someone asks, “Set squares are mainly used to draw,” the best simple answer is straight lines at fixed angles, especially right angles, perpendicular lines, and parallel lines.",
+          "hindi": "असल जीवन में सेट स्क्वेयर वहाँ काम आता है जहाँ साफ कोने और सीधी तिरछी रेखाएँ चाहिए होती हैं। बढ़ई मेज के कोने को ठीक समकोण में देखता है। टाइल लगाने वाला चाहता है कि फर्श की टाइलें ठीक से मिलें। छात्र ज्यामिति में आकृतियाँ बनाने के लिए सेट स्क्वेयर का उपयोग करता है। इसलिए अगर कोई पूछे, “Set squares are mainly used to draw,” तो आसान उत्तर यह है कि इनसे निश्चित कोणों वाली सीधी रेखाएँ बनाई जाती हैं, खासकर समकोण, लम्ब रेखाएँ और समानांतर रेखाएँ।"
+        },
+        {
+          "english": "Here is the first worked solution, the easy one. Question: Draw a right angle using a set square. Step 1: Draw one straight line with a ruler and mark a point A on it. Step 2: Place the 90° corner of the set square exactly at point A. Step 3: Keep one edge of the set square along the line. Step 4: Draw a line along the other edge starting from A. Step 5: The two lines meet at A and make a 90° angle. So the answer is a right angle.",
+          "hindi": "यह पहला हल किया हुआ सवाल है, और यह आसान है। प्रश्न: सेट स्क्वेयर की मदद से एक समकोण बनाइए। चरण 1: रूलर से एक सीधी रेखा खींचिए और उस पर A बिंदु बनाइए। चरण 2: सेट स्क्वेयर का 90° वाला कोना ठीक A पर रखिए। चरण 3: सेट स्क्वेयर की एक भुजा को बनी हुई रेखा के साथ मिलाइए। चरण 4: A से दूसरी भुजा के सहारे एक नई रेखा खींचिए। चरण 5: अब दोनों रेखाएँ A पर मिलकर 90° का कोण बनाती हैं। इसलिए उत्तर समकोण है।"
+        },
+        {
+          "english": "Here is the second worked solution, a medium one. Question: Draw a 45° angle using a set square. Step 1: Draw a straight base line and mark a point B on it. Step 2: Take the set square that has a 45° corner. Step 3: Place one side of that set square on the base line with the 45° corner at B. Step 4: Draw a line from B along the slant edge. Step 5: The angle between the base line and the new line is 45°. So the required angle is 45°.",
+          "hindi": "यह दूसरा हल किया हुआ सवाल है, और यह मध्यम स्तर का है। प्रश्न: सेट स्क्वेयर की मदद से 45° का कोण बनाइए। चरण 1: एक सीधी आधार रेखा खींचिए और उस पर B बिंदु लगाइए। चरण 2: वह सेट स्क्वेयर लीजिए जिसमें 45° का कोना हो। चरण 3: उसकी एक भुजा आधार रेखा पर रखिए और 45° वाला कोना B पर रखिए। चरण 4: B से तिरछी भुजा के साथ एक रेखा खींचिए। चरण 5: अब आधार रेखा और नई रेखा के बीच का कोण 45° है। इसलिए आवश्यक कोण 45° है।"
+        },
+        {
+          "english": "Here is the third worked solution, the harder one. Question: Draw two parallel lines using a ruler and set squares. Step 1: Draw one straight line l with a ruler. Step 2: Place one set square against the ruler. Step 3: Keep the ruler fixed and slide the set square carefully without changing its direction. Step 4: When the set square reaches the new place, draw another line along the same edge. Step 5: Because the edge stayed in the same direction while sliding, the new line and line l never meet. So the two lines are parallel lines.",
+          "hindi": "यह तीसरा हल किया हुआ सवाल है, और यह थोड़ा कठिन है। प्रश्न: रूलर और सेट स्क्वेयर की मदद से दो समानांतर रेखाएँ बनाइए। चरण 1: रूलर से एक सीधी रेखा l खींचिए। चरण 2: एक सेट स्क्वेयर को रूलर के सहारे लगाइए। चरण 3: रूलर को स्थिर रखिए और सेट स्क्वेयर को धीरे-धीरे सरकाइए, पर उसकी दिशा मत बदलाइए। चरण 4: नई जगह पर पहुँचने पर उसी भुजा के सहारे दूसरी रेखा खींचिए। चरण 5: क्योंकि भुजा सरकते समय उसी दिशा में रही, इसलिए नई रेखा और रेखा l कभी नहीं मिलेंगी। इसलिए वे समानांतर रेखाएँ हैं।"
+        },
+        {
+          "english": "Common mistakes are very easy to make, so check carefully. Many children use the wrong corner and get 60° when they wanted 45°. Some forget to keep the ruler or set square still, and the line shifts. Some place the 90° corner a little away from the point, so the angle is not exact. Some draw on a curved or damaged edge. The safe rule is to check the angle marking first, hold the tool firmly, and draw thin, neat lines.",
+          "hindi": "गलतियाँ बहुत आसानी से हो जाती हैं, इसलिए ध्यान से जाँच करना चाहिए। कई बच्चे गलत कोना चुन लेते हैं और 45° की जगह 60° बना देते हैं। कुछ बच्चे रूलर या सेट स्क्वेयर को स्थिर नहीं रखते, इसलिए रेखा खिसक जाती है। कुछ बच्चे 90° वाला कोना बिंदु से थोड़ा दूर रख देते हैं, इसलिए कोण सही नहीं बनता। कुछ बच्चे टूटी या घिसी हुई भुजा पर रेखा खींचते हैं। सबसे सुरक्षित नियम यह है कि पहले कोण का निशान देखो, औजार को मजबूती से पकड़ो और पतली, साफ रेखाएँ खींचो।"
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "set_squares_q1",
+          "prompt": {
+            "english": "Set squares are mainly used to draw:",
+            "hindi": "सेट-स्क्वायर का उपयोग मुख्यतः किसे बनाने में होता है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Right angles and perpendicular lines",
+              "hindi": "समकोण और लंबवत रेखाएँ"
+            },
+            {
+              "english": "Circles only",
+              "hindi": "केवल वृत्त"
+            },
+            {
+              "english": "Fractions",
+              "hindi": "भिन्न"
+            },
+            {
+              "english": "Bar graphs only",
+              "hindi": "केवल दंड आलेख"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Think of the geometry tool used for 90° corners.",
+            "hindi": "90° कोनों के लिए उपयोग होने वाले यंत्र के बारे में सोचिए।"
+          },
+          "wrongReason": {
+            "english": "The main idea in set squares was not used correctly.",
+            "hindi": "सेट-स्क्वायर के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
+          },
+          "supportExample": {
+            "english": "A set square helps us make 90° lines neatly.",
+            "hindi": "सेट-स्क्वायर से 90° रेखाएँ साफ़ बनती हैं।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Understanding Set Squares",
+            "hindi": "सेट-स्क्वायर को समझें"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "This question is solved by using the same idea from the topic. Set squares help us draw perpendicular and parallel lines accurately.",
+              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। सेट-स्क्वायर की मदद से लंबवत और समांतर रेखाएँ सही ढंग से बनाई जाती हैं।"
+            },
+            {
+              "english": "The question asks us to work with this situation: Set squares are mainly used to draw:",
+              "hindi": "प्रश्न हमें यह स्थिति देता है: सेट-स्क्वायर का उपयोग मुख्यतः किसे बनाने में होता है?"
+            },
+            {
+              "english": "To move from the question to the answer, use this idea directly: Think of the geometry tool used for 90° corners.",
+              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: 90° कोनों के लिए उपयोग होने वाले यंत्र के बारे में सोचिए।"
+            },
+            {
+              "english": "A similar example makes the method clear. A set square is often used to draw a right angle.",
+              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। समकोण बनाने के लिए सेट-स्क्वायर का उपयोग किया जाता है।"
+            },
+            {
+              "english": "Using the same method here, we get: A set square helps us make 90° lines neatly.",
+              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: सेट-स्क्वायर से 90° रेखाएँ साफ़ बनती हैं।"
+            },
+            {
+              "english": "After solving, choose the option that matches the idea and the final value.",
+              "hindi": "हल करने के बाद वही विकल्प चुनिए जो सही विचार और अंतिम मान से मेल खाता हो।"
+            },
+            {
+              "english": "So the correct answer is Right angles and perpendicular lines.",
+              "hindi": "इसलिए सही उत्तर समकोण और लंबवत रेखाएँ है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Parallel and Perpendicular Lines",
+          "hindi": "समांतर और लंबवत रेखाएँ"
+        },
+        {
+          "english": "Set Squares",
+          "hindi": "सेट-स्क्वायर"
+        }
+      ],
+      "mistakeFocus": "CONCEPT_CONFUSION"
+    },
+    {
+      "id": "rs_ex_ch19_ex73_q01_a",
+      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "chapterNumber": 19,
+      "chapterTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "lessonTitle": {
+        "english": "Exercise 73",
+        "hindi": "Exercise 73"
+      },
+      "subtopicTitle": {
+        "english": "Question 19.73.1(a)",
+        "hindi": "Question 19.73.1(a)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 19.73.1(a)?",
+        "hindi": "Can you solve Question 19.73.1(a)?"
+      },
+      "explanationTitle": {
+        "english": "Question 19.73.1(a)",
+        "hindi": "Question 19.73.1(a)"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+          "hindi": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+        },
+        {
+          "english": "This question is about How many sets of parallel line segments can you find? Name them.",
+          "hindi": "This question is about How many sets of parallel line segments can you find? Name them."
+        },
+        {
+          "english": "From the question, we should notice How many sets of parallel line segments can you find? Name them.",
+          "hindi": "From the question, we should notice How many sets of parallel line segments can you find? Name them."
+        },
+        {
+          "english": "To move toward the answer, use this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither.",
+          "hindi": "To move toward the answer, use this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither."
+        },
+        {
+          "english": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines.",
+          "hindi": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch19_ex73_q01_a_q1",
+          "prompt": {
+            "english": "The adjoining figure shows a cuboid Part (a): How many sets of parallel line segments can you find? Name them",
+            "hindi": "The adjoining figure shows a cuboid Part (a): How many sets of parallel line segments can you find? Name them"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "12; (AB, CD), (CD, GH), (GH, EF), (EF, AB), (BF, CG), (CG, DH), (DH, AE), (AE, BF), (BC, FG), (FG, EH), (EH, AD), (AD, BC)"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+              "hindi": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+            },
+            {
+              "english": "Here the question is asking about How many sets of parallel line segments can you find? Name them.",
+              "hindi": "Here the question is asking about How many sets of parallel line segments can you find? Name them."
+            },
+            {
+              "english": "The information given to us is How many sets of parallel line segments can you find? Name them.",
+              "hindi": "The information given to us is How many sets of parallel line segments can you find? Name them."
+            },
+            {
+              "english": "So we follow this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither.",
+              "hindi": "So we follow this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines.",
+              "hindi": "A worked pattern for the same kind of question is this. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 12; (AB, CD), (CD, GH), (GH, EF), (EF, AB), (BF, CG), (CG, DH), (DH, AE), (AE, BF), (BC, FG), (FG, EH), (EH, AD), (AD, BC).",
+              "hindi": "When you apply the rule carefully, you reach 12; (AB, CD), (CD, GH), (GH, EF), (EF, AB), (BF, CG), (CG, DH), (DH, AE), (AE, BF), (BC, FG), (FG, EH), (EH, AD), (AD, BC)."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 12; (AB, CD), (CD, GH), (GH, EF), (EF, AB), (BF, CG), (CG, DH), (DH, AE), (AE, BF), (BC, FG), (FG, EH), (EH, AD), (AD, BC).",
+              "hindi": "So the final answer is 12; (AB, CD), (CD, GH), (GH, EF), (EF, AB), (BF, CG), (CG, DH), (DH, AE), (AE, BF), (BC, FG), (FG, EH), (EH, AD), (AD, BC)."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 73",
+          "hindi": "Exercise 73"
+        },
+        {
+          "english": "Question 19.73.1(a)",
+          "hindi": "Question 19.73.1(a)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch19_ex73_q01_b",
+      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "chapterNumber": 19,
+      "chapterTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "lessonTitle": {
+        "english": "Exercise 73",
+        "hindi": "Exercise 73"
+      },
+      "subtopicTitle": {
+        "english": "Question 19.73.1(b)",
+        "hindi": "Question 19.73.1(b)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 19.73.1(b)?",
+        "hindi": "Can you solve Question 19.73.1(b)?"
+      },
+      "explanationTitle": {
+        "english": "Question 19.73.1(b)",
+        "hindi": "Question 19.73.1(b)"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+          "hindi": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+        },
+        {
+          "english": "This question is about How many sets of perpendicular line segments can you find?",
+          "hindi": "This question is about How many sets of perpendicular line segments can you find?"
+        },
+        {
+          "english": "From the question, we should notice How many sets of perpendicular line segments can you find?",
+          "hindi": "From the question, we should notice How many sets of perpendicular line segments can you find?"
+        },
+        {
+          "english": "To move toward the answer, use this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither.",
+          "hindi": "To move toward the answer, use this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither."
+        },
+        {
+          "english": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines.",
+          "hindi": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch19_ex73_q01_b_q1",
+          "prompt": {
+            "english": "The adjoining figure shows a cuboid Part (b): How many sets of perpendicular line segments can you find?",
+            "hindi": "The adjoining figure shows a cuboid Part (b): How many sets of perpendicular line segments can you find?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "24"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+              "hindi": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+            },
+            {
+              "english": "Here the question is asking about How many sets of perpendicular line segments can you find?",
+              "hindi": "Here the question is asking about How many sets of perpendicular line segments can you find?"
+            },
+            {
+              "english": "The information given to us is How many sets of perpendicular line segments can you find?",
+              "hindi": "The information given to us is How many sets of perpendicular line segments can you find?"
+            },
+            {
+              "english": "So we follow this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither.",
+              "hindi": "So we follow this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines.",
+              "hindi": "A worked pattern for the same kind of question is this. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 24.",
+              "hindi": "When you apply the rule carefully, you reach 24."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 24.",
+              "hindi": "So the final answer is 24."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 73",
+          "hindi": "Exercise 73"
+        },
+        {
+          "english": "Question 19.73.1(b)",
+          "hindi": "Question 19.73.1(b)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch19_ex73_q02_a",
+      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "chapterNumber": 19,
+      "chapterTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "lessonTitle": {
+        "english": "Exercise 73",
+        "hindi": "Exercise 73"
+      },
+      "subtopicTitle": {
+        "english": "Question 19.73.2(a)",
+        "hindi": "Question 19.73.2(a)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 19.73.2(a)?",
+        "hindi": "Can you solve Question 19.73.2(a)?"
+      },
+      "explanationTitle": {
+        "english": "Question 19.73.2(a)",
+        "hindi": "Question 19.73.2(a)"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+          "hindi": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+        },
+        {
+          "english": "This question is about Two parallel lines do not..........................., when produced.",
+          "hindi": "This question is about Two parallel lines do not..........................., when produced."
+        },
+        {
+          "english": "From the question, we should notice Two parallel lines do not..........................., when produced.",
+          "hindi": "From the question, we should notice Two parallel lines do not..........................., when produced."
+        },
+        {
+          "english": "To move toward the answer, use this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither.",
+          "hindi": "To move toward the answer, use this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither."
+        },
+        {
+          "english": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines.",
+          "hindi": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch19_ex73_q02_a_q1",
+          "prompt": {
+            "english": "Fill in the blanks Part (a): Two parallel lines do not..........................., when produced",
+            "hindi": "Fill in the blanks Part (a): Two parallel lines do not..........................., when produced"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "intersect"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+              "hindi": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+            },
+            {
+              "english": "Here the question is asking about Two parallel lines do not..........................., when produced.",
+              "hindi": "Here the question is asking about Two parallel lines do not..........................., when produced."
+            },
+            {
+              "english": "The information given to us is Two parallel lines do not..........................., when produced.",
+              "hindi": "The information given to us is Two parallel lines do not..........................., when produced."
+            },
+            {
+              "english": "So we follow this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither.",
+              "hindi": "So we follow this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines.",
+              "hindi": "A worked pattern for the same kind of question is this. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach intersect.",
+              "hindi": "When you apply the rule carefully, you reach intersect."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is intersect.",
+              "hindi": "So the final answer is intersect."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 73",
+          "hindi": "Exercise 73"
+        },
+        {
+          "english": "Question 19.73.2(a)",
+          "hindi": "Question 19.73.2(a)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch19_ex73_q02_b",
+      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "chapterNumber": 19,
+      "chapterTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "lessonTitle": {
+        "english": "Exercise 73",
+        "hindi": "Exercise 73"
+      },
+      "subtopicTitle": {
+        "english": "Question 19.73.2(b)",
+        "hindi": "Question 19.73.2(b)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 19.73.2(b)?",
+        "hindi": "Can you solve Question 19.73.2(b)?"
+      },
+      "explanationTitle": {
+        "english": "Question 19.73.2(b)",
+        "hindi": "Question 19.73.2(b)"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+          "hindi": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+        },
+        {
+          "english": "This question is about When two lines intersect and make a........................... they are said to be perpendicular to each other.",
+          "hindi": "This question is about When two lines intersect and make a........................... they are said to be perpendicular to each other."
+        },
+        {
+          "english": "From the question, we should notice When two lines intersect and make a........................... they are said to be perpendicular to each other.",
+          "hindi": "From the question, we should notice When two lines intersect and make a........................... they are said to be perpendicular to each other."
+        },
+        {
+          "english": "To move toward the answer, use this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither.",
+          "hindi": "To move toward the answer, use this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither."
+        },
+        {
+          "english": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines.",
+          "hindi": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch19_ex73_q02_b_q1",
+          "prompt": {
+            "english": "Fill in the blanks Part (b): When two lines intersect and make a........................... they are said to be perpendicular to each other",
+            "hindi": "Fill in the blanks Part (b): When two lines intersect and make a........................... they are said to be perpendicular to each other"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "right angle"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+              "hindi": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+            },
+            {
+              "english": "Here the question is asking about When two lines intersect and make a........................... they are said to be perpendicular to each other.",
+              "hindi": "Here the question is asking about When two lines intersect and make a........................... they are said to be perpendicular to each other."
+            },
+            {
+              "english": "The information given to us is When two lines intersect and make a........................... they are said to be perpendicular to each other.",
+              "hindi": "The information given to us is When two lines intersect and make a........................... they are said to be perpendicular to each other."
+            },
+            {
+              "english": "So we follow this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither.",
+              "hindi": "So we follow this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines.",
+              "hindi": "A worked pattern for the same kind of question is this. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach right angle.",
+              "hindi": "When you apply the rule carefully, you reach right angle."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is right angle.",
+              "hindi": "So the final answer is right angle."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 73",
+          "hindi": "Exercise 73"
+        },
+        {
+          "english": "Question 19.73.2(b)",
+          "hindi": "Question 19.73.2(b)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch19_ex73_q02_c",
+      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "chapterNumber": 19,
+      "chapterTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "lessonTitle": {
+        "english": "Exercise 73",
+        "hindi": "Exercise 73"
+      },
+      "subtopicTitle": {
+        "english": "Question 19.73.2(c)",
+        "hindi": "Question 19.73.2(c)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 19.73.2(c)?",
+        "hindi": "Can you solve Question 19.73.2(c)?"
+      },
+      "explanationTitle": {
+        "english": "Question 19.73.2(c)",
+        "hindi": "Question 19.73.2(c)"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+          "hindi": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+        },
+        {
+          "english": "This question is about The distance between two parallel lines always.",
+          "hindi": "This question is about The distance between two parallel lines always."
+        },
+        {
+          "english": "From the question, we should notice The distance between two parallel lines always.",
+          "hindi": "From the question, we should notice The distance between two parallel lines always."
+        },
+        {
+          "english": "To move toward the answer, use this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither.",
+          "hindi": "To move toward the answer, use this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither."
+        },
+        {
+          "english": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines.",
+          "hindi": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch19_ex73_q02_c_q1",
+          "prompt": {
+            "english": "Fill in the blanks Part (c): The distance between two parallel lines always",
+            "hindi": "Fill in the blanks Part (c): The distance between two parallel lines always"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "remains constant"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+              "hindi": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+            },
+            {
+              "english": "Here the question is asking about The distance between two parallel lines always.",
+              "hindi": "Here the question is asking about The distance between two parallel lines always."
+            },
+            {
+              "english": "The information given to us is The distance between two parallel lines always.",
+              "hindi": "The information given to us is The distance between two parallel lines always."
+            },
+            {
+              "english": "So we follow this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither.",
+              "hindi": "So we follow this method. Look for direction and angle clues first, then decide whether the lines are parallel, perpendicular, or neither."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines.",
+              "hindi": "A worked pattern for the same kind of question is this. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach remains constant.",
+              "hindi": "When you apply the rule carefully, you reach remains constant."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is remains constant.",
+              "hindi": "So the final answer is remains constant."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 73",
+          "hindi": "Exercise 73"
+        },
+        {
+          "english": "Question 19.73.2(c)",
+          "hindi": "Question 19.73.2(c)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch19_ex73_q03",
+      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "chapterNumber": 19,
+      "chapterTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "lessonTitle": {
+        "english": "Exercise 73",
+        "hindi": "Exercise 73"
+      },
+      "subtopicTitle": {
+        "english": "Question 19.73.3",
+        "hindi": "Question 19.73.3"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 19.73.3?",
+        "hindi": "Can you solve Question 19.73.3?"
+      },
+      "explanationTitle": {
+        "english": "Question 19.73.3",
+        "hindi": "Question 19.73.3"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+          "hindi": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+        },
+        {
+          "english": "This question is about Draw a line EF and take a point P above EF. Draw a line GH passing through P such that GH EF.",
+          "hindi": "This question is about Draw a line EF and take a point P above EF. Draw a line GH passing through P such that GH EF."
+        },
+        {
+          "english": "From the question, we should notice Draw a line EF and take a point P above EF. Draw a line GH passing through P such that GH EF.",
+          "hindi": "From the question, we should notice Draw a line EF and take a point P above EF. Draw a line GH passing through P such that GH EF."
+        },
+        {
+          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
+          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
+        },
+        {
+          "english": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines.",
+          "hindi": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines."
+        },
+        {
+          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
+          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
+        },
+        {
+          "english": "At the end, check once more. Use a ruler or set square carefully so the lines remain straight and accurate.",
+          "hindi": "At the end, check once more. Use a ruler or set square carefully so the lines remain straight and accurate."
+        },
+        {
+          "english": "Your notebook work should stay neat and complete. Use a ruler or set square carefully so the lines remain straight and accurate.",
+          "hindi": "Your notebook work should stay neat and complete. Use a ruler or set square carefully so the lines remain straight and accurate."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch19_ex73_q03_q1",
+          "prompt": {
+            "english": "Draw a line EF and take a point P above EF. Draw a line GH passing through P such that GH EF Then type done",
+            "hindi": "Draw a line EF and take a point P above EF. Draw a line GH passing through P such that GH EF Then type done"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "done",
+            "completed",
+            "drawn",
+            "ready",
+            "finished"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
+            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
+          },
+          "supportExample": {
+            "english": "Complete this textbook task neatly in your notebook and then type done.",
+            "hindi": "Complete this textbook task neatly in your notebook and then type done."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "How to complete this notebook task",
+            "hindi": "How to complete this notebook task"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+              "hindi": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+            },
+            {
+              "english": "Here the question is asking about Draw a line EF and take a point P above EF. Draw a line GH passing through P such that GH EF.",
+              "hindi": "Here the question is asking about Draw a line EF and take a point P above EF. Draw a line GH passing through P such that GH EF."
+            },
+            {
+              "english": "The information given to us is Draw a line EF and take a point P above EF. Draw a line GH passing through P such that GH EF.",
+              "hindi": "The information given to us is Draw a line EF and take a point P above EF. Draw a line GH passing through P such that GH EF."
+            },
+            {
+              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
+              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
+            },
+            {
+              "english": "Complete this textbook task neatly in your notebook and then type done.",
+              "hindi": "Complete this textbook task neatly in your notebook and then type done."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
+              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
+            },
+            {
+              "english": "Now check the result once more. Use a ruler or set square carefully so the lines remain straight and accurate.",
+              "hindi": "Now check the result once more. Use a ruler or set square carefully so the lines remain straight and accurate."
+            },
+            {
+              "english": "After completing the notebook work neatly, type done.",
+              "hindi": "After completing the notebook work neatly, type done."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 73",
+          "hindi": "Exercise 73"
+        },
+        {
+          "english": "Question 19.73.3",
+          "hindi": "Question 19.73.3"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch19_ex73_q04",
+      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "chapterNumber": 19,
+      "chapterTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "lessonTitle": {
+        "english": "Exercise 73",
+        "hindi": "Exercise 73"
+      },
+      "subtopicTitle": {
+        "english": "Question 19.73.4",
+        "hindi": "Question 19.73.4"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 19.73.4?",
+        "hindi": "Can you solve Question 19.73.4?"
+      },
+      "explanationTitle": {
+        "english": "Question 19.73.4",
+        "hindi": "Question 19.73.4"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+          "hindi": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+        },
+        {
+          "english": "This question is about Draw a line RS and take a point T below RS. Draw a line PQ passing through T such that PQ RS.",
+          "hindi": "This question is about Draw a line RS and take a point T below RS. Draw a line PQ passing through T such that PQ RS."
+        },
+        {
+          "english": "From the question, we should notice Draw a line RS and take a point T below RS. Draw a line PQ passing through T such that PQ RS.",
+          "hindi": "From the question, we should notice Draw a line RS and take a point T below RS. Draw a line PQ passing through T such that PQ RS."
+        },
+        {
+          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
+          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
+        },
+        {
+          "english": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines.",
+          "hindi": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines."
+        },
+        {
+          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
+          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
+        },
+        {
+          "english": "At the end, check once more. Use a ruler or set square carefully so the lines remain straight and accurate.",
+          "hindi": "At the end, check once more. Use a ruler or set square carefully so the lines remain straight and accurate."
+        },
+        {
+          "english": "Your notebook work should stay neat and complete. Use a ruler or set square carefully so the lines remain straight and accurate.",
+          "hindi": "Your notebook work should stay neat and complete. Use a ruler or set square carefully so the lines remain straight and accurate."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch19_ex73_q04_q1",
+          "prompt": {
+            "english": "Draw a line RS and take a point T below RS. Draw a line PQ passing through T such that PQ RS Then type done",
+            "hindi": "Draw a line RS and take a point T below RS. Draw a line PQ passing through T such that PQ RS Then type done"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "done",
+            "completed",
+            "drawn",
+            "ready",
+            "finished"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
+            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
+          },
+          "supportExample": {
+            "english": "Complete this textbook task neatly in your notebook and then type done.",
+            "hindi": "Complete this textbook task neatly in your notebook and then type done."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "How to complete this notebook task",
+            "hindi": "How to complete this notebook task"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+              "hindi": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+            },
+            {
+              "english": "Here the question is asking about Draw a line RS and take a point T below RS. Draw a line PQ passing through T such that PQ RS.",
+              "hindi": "Here the question is asking about Draw a line RS and take a point T below RS. Draw a line PQ passing through T such that PQ RS."
+            },
+            {
+              "english": "The information given to us is Draw a line RS and take a point T below RS. Draw a line PQ passing through T such that PQ RS.",
+              "hindi": "The information given to us is Draw a line RS and take a point T below RS. Draw a line PQ passing through T such that PQ RS."
+            },
+            {
+              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
+              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
+            },
+            {
+              "english": "Complete this textbook task neatly in your notebook and then type done.",
+              "hindi": "Complete this textbook task neatly in your notebook and then type done."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
+              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
+            },
+            {
+              "english": "Now check the result once more. Use a ruler or set square carefully so the lines remain straight and accurate.",
+              "hindi": "Now check the result once more. Use a ruler or set square carefully so the lines remain straight and accurate."
+            },
+            {
+              "english": "After completing the notebook work neatly, type done.",
+              "hindi": "After completing the notebook work neatly, type done."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 73",
+          "hindi": "Exercise 73"
+        },
+        {
+          "english": "Question 19.73.4",
+          "hindi": "Question 19.73.4"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch19_ex73_q05",
+      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "chapterNumber": 19,
+      "chapterTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "lessonTitle": {
+        "english": "Exercise 73",
+        "hindi": "Exercise 73"
+      },
+      "subtopicTitle": {
+        "english": "Question 19.73.5",
+        "hindi": "Question 19.73.5"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 19.73.5?",
+        "hindi": "Can you solve Question 19.73.5?"
+      },
+      "explanationTitle": {
+        "english": "Question 19.73.5",
+        "hindi": "Question 19.73.5"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+          "hindi": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+        },
+        {
+          "english": "This question is about Draw a line AB. Mark a point P on it. Draw a line at P perpendicular to AB, using set squares.",
+          "hindi": "This question is about Draw a line AB. Mark a point P on it. Draw a line at P perpendicular to AB, using set squares."
+        },
+        {
+          "english": "From the question, we should notice Draw a line AB. Mark a point P on it. Draw a line at P perpendicular to AB, using set squares.",
+          "hindi": "From the question, we should notice Draw a line AB. Mark a point P on it. Draw a line at P perpendicular to AB, using set squares."
+        },
+        {
+          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
+          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
+        },
+        {
+          "english": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines.",
+          "hindi": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines."
+        },
+        {
+          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
+          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
+        },
+        {
+          "english": "At the end, check once more. Use a ruler or set square carefully so the lines remain straight and accurate.",
+          "hindi": "At the end, check once more. Use a ruler or set square carefully so the lines remain straight and accurate."
+        },
+        {
+          "english": "Your notebook work should stay neat and complete. Use a ruler or set square carefully so the lines remain straight and accurate.",
+          "hindi": "Your notebook work should stay neat and complete. Use a ruler or set square carefully so the lines remain straight and accurate."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch19_ex73_q05_q1",
+          "prompt": {
+            "english": "Draw a line AB. Mark a point P on it. Draw a line at P perpendicular to AB, using set squares Then type done",
+            "hindi": "Draw a line AB. Mark a point P on it. Draw a line at P perpendicular to AB, using set squares Then type done"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "done",
+            "completed",
+            "drawn",
+            "ready",
+            "finished"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
+            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
+          },
+          "supportExample": {
+            "english": "Complete this textbook task neatly in your notebook and then type done.",
+            "hindi": "Complete this textbook task neatly in your notebook and then type done."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "How to complete this notebook task",
+            "hindi": "How to complete this notebook task"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+              "hindi": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+            },
+            {
+              "english": "Here the question is asking about Draw a line AB. Mark a point P on it. Draw a line at P perpendicular to AB, using set squares.",
+              "hindi": "Here the question is asking about Draw a line AB. Mark a point P on it. Draw a line at P perpendicular to AB, using set squares."
+            },
+            {
+              "english": "The information given to us is Draw a line AB. Mark a point P on it. Draw a line at P perpendicular to AB, using set squares.",
+              "hindi": "The information given to us is Draw a line AB. Mark a point P on it. Draw a line at P perpendicular to AB, using set squares."
+            },
+            {
+              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
+              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
+            },
+            {
+              "english": "Complete this textbook task neatly in your notebook and then type done.",
+              "hindi": "Complete this textbook task neatly in your notebook and then type done."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
+              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
+            },
+            {
+              "english": "Now check the result once more. Use a ruler or set square carefully so the lines remain straight and accurate.",
+              "hindi": "Now check the result once more. Use a ruler or set square carefully so the lines remain straight and accurate."
+            },
+            {
+              "english": "After completing the notebook work neatly, type done.",
+              "hindi": "After completing the notebook work neatly, type done."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 73",
+          "hindi": "Exercise 73"
+        },
+        {
+          "english": "Question 19.73.5",
+          "hindi": "Question 19.73.5"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch19_ex73_q06",
+      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "chapterNumber": 19,
+      "chapterTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "lessonTitle": {
+        "english": "Exercise 73",
+        "hindi": "Exercise 73"
+      },
+      "subtopicTitle": {
+        "english": "Question 19.73.6",
+        "hindi": "Question 19.73.6"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 19.73.6?",
+        "hindi": "Can you solve Question 19.73.6?"
+      },
+      "explanationTitle": {
+        "english": "Question 19.73.6",
+        "hindi": "Question 19.73.6"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+          "hindi": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+        },
+        {
+          "english": "This question is about Draw a line PQ. Mark a point R on it. Draw a line at R perpendicular to PQ, using a protractor. X P Y X Q P Y B C D E F G H A.",
+          "hindi": "This question is about Draw a line PQ. Mark a point R on it. Draw a line at R perpendicular to PQ, using a protractor. X P Y X Q P Y B C D E F G H A."
+        },
+        {
+          "english": "From the question, we should notice Draw a line PQ. Mark a point R on it. Draw a line at R perpendicular to PQ, using a protractor. X P Y X Q P Y B C D E F G H A.",
+          "hindi": "From the question, we should notice Draw a line PQ. Mark a point R on it. Draw a line at R perpendicular to PQ, using a protractor. X P Y X Q P Y B C D E F G H A."
+        },
+        {
+          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
+          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
+        },
+        {
+          "english": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines.",
+          "hindi": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines."
+        },
+        {
+          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
+          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
+        },
+        {
+          "english": "At the end, check once more. Use a ruler or set square carefully so the lines remain straight and accurate.",
+          "hindi": "At the end, check once more. Use a ruler or set square carefully so the lines remain straight and accurate."
+        },
+        {
+          "english": "Your notebook work should stay neat and complete. Use a ruler or set square carefully so the lines remain straight and accurate.",
+          "hindi": "Your notebook work should stay neat and complete. Use a ruler or set square carefully so the lines remain straight and accurate."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch19_ex73_q06_q1",
+          "prompt": {
+            "english": "Draw a line PQ. Mark a point R on it. Draw a line at R perpendicular to PQ, using a protractor. X P Y X Q P Y B C D E F G H A Then type done",
+            "hindi": "Draw a line PQ. Mark a point R on it. Draw a line at R perpendicular to PQ, using a protractor. X P Y X Q P Y B C D E F G H A Then type done"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "done",
+            "completed",
+            "drawn",
+            "ready",
+            "finished"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
+            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
+          },
+          "supportExample": {
+            "english": "Use the required instrument carefully, mark the measurement neatly in your notebook, complete the construction, and then type done.",
+            "hindi": "Use the required instrument carefully, mark the measurement neatly in your notebook, complete the construction, and then type done."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "How to complete this notebook task",
+            "hindi": "How to complete this notebook task"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+              "hindi": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+            },
+            {
+              "english": "Here the question is asking about Draw a line PQ. Mark a point R on it. Draw a line at R perpendicular to PQ, using a protractor. X P Y X Q P Y B C D E F G H A.",
+              "hindi": "Here the question is asking about Draw a line PQ. Mark a point R on it. Draw a line at R perpendicular to PQ, using a protractor. X P Y X Q P Y B C D E F G H A."
+            },
+            {
+              "english": "The information given to us is Draw a line PQ. Mark a point R on it. Draw a line at R perpendicular to PQ, using a protractor. X P Y X Q P Y B C D E F G H A.",
+              "hindi": "The information given to us is Draw a line PQ. Mark a point R on it. Draw a line at R perpendicular to PQ, using a protractor. X P Y X Q P Y B C D E F G H A."
+            },
+            {
+              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
+              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
+            },
+            {
+              "english": "Use the required instrument carefully, mark the measurement neatly in your notebook, complete the construction, and then type done.",
+              "hindi": "Use the required instrument carefully, mark the measurement neatly in your notebook, complete the construction, and then type done."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
+              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
+            },
+            {
+              "english": "Now check the result once more. Use a ruler or set square carefully so the lines remain straight and accurate.",
+              "hindi": "Now check the result once more. Use a ruler or set square carefully so the lines remain straight and accurate."
+            },
+            {
+              "english": "After completing the notebook work neatly, type done.",
+              "hindi": "After completing the notebook work neatly, type done."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 73",
+          "hindi": "Exercise 73"
+        },
+        {
+          "english": "Question 19.73.6",
+          "hindi": "Question 19.73.6"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch19_ex73_q07",
+      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "chapterNumber": 19,
+      "chapterTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "lessonTitle": {
+        "english": "Exercise 73",
+        "hindi": "Exercise 73"
+      },
+      "subtopicTitle": {
+        "english": "Question 19.73.7",
+        "hindi": "Question 19.73.7"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 19.73.7?",
+        "hindi": "Can you solve Question 19.73.7?"
+      },
+      "explanationTitle": {
+        "english": "Question 19.73.7",
+        "hindi": "Question 19.73.7"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+          "hindi": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+        },
+        {
+          "english": "This question is about Draw a line segment CD = 5 cm. Mark a point E on CD such that CE = 2 cm. At E.",
+          "hindi": "This question is about Draw a line segment CD = 5 cm. Mark a point E on CD such that CE = 2 cm. At E."
+        },
+        {
+          "english": "From the question, we should notice Draw a line segment CD = 5 cm. Mark a point E on CD such that CE = 2 cm. At E.",
+          "hindi": "From the question, we should notice Draw a line segment CD = 5 cm. Mark a point E on CD such that CE = 2 cm. At E."
+        },
+        {
+          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
+          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
+        },
+        {
+          "english": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines.",
+          "hindi": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines."
+        },
+        {
+          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
+          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
+        },
+        {
+          "english": "At the end, check once more. Use a ruler or set square carefully so the lines remain straight and accurate.",
+          "hindi": "At the end, check once more. Use a ruler or set square carefully so the lines remain straight and accurate."
+        },
+        {
+          "english": "Your notebook work should stay neat and complete. Use a ruler or set square carefully so the lines remain straight and accurate.",
+          "hindi": "Your notebook work should stay neat and complete. Use a ruler or set square carefully so the lines remain straight and accurate."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch19_ex73_q07_q1",
+          "prompt": {
+            "english": "Draw a line segment CD = 5 cm. Mark a point E on CD such that CE = 2 cm. At E Then type done",
+            "hindi": "Draw a line segment CD = 5 cm. Mark a point E on CD such that CE = 2 cm. At E Then type done"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "done",
+            "completed",
+            "drawn",
+            "ready",
+            "finished"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
+            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
+          },
+          "supportExample": {
+            "english": "Complete this textbook task neatly in your notebook and then type done.",
+            "hindi": "Complete this textbook task neatly in your notebook and then type done."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "How to complete this notebook task",
+            "hindi": "How to complete this notebook task"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+              "hindi": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+            },
+            {
+              "english": "Here the question is asking about Draw a line segment CD = 5 cm. Mark a point E on CD such that CE = 2 cm. At E.",
+              "hindi": "Here the question is asking about Draw a line segment CD = 5 cm. Mark a point E on CD such that CE = 2 cm. At E."
+            },
+            {
+              "english": "The information given to us is Draw a line segment CD = 5 cm. Mark a point E on CD such that CE = 2 cm. At E.",
+              "hindi": "The information given to us is Draw a line segment CD = 5 cm. Mark a point E on CD such that CE = 2 cm. At E."
+            },
+            {
+              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
+              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
+            },
+            {
+              "english": "Complete this textbook task neatly in your notebook and then type done.",
+              "hindi": "Complete this textbook task neatly in your notebook and then type done."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
+              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
+            },
+            {
+              "english": "Now check the result once more. Use a ruler or set square carefully so the lines remain straight and accurate.",
+              "hindi": "Now check the result once more. Use a ruler or set square carefully so the lines remain straight and accurate."
+            },
+            {
+              "english": "After completing the notebook work neatly, type done.",
+              "hindi": "After completing the notebook work neatly, type done."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 73",
+          "hindi": "Exercise 73"
+        },
+        {
+          "english": "Question 19.73.7",
+          "hindi": "Question 19.73.7"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch19_ex73_q08",
+      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "chapterNumber": 19,
+      "chapterTitle": {
+        "english": "Parallel and Perpendicular Lines",
+        "hindi": "समांतर और लंबवत रेखाएँ"
+      },
+      "lessonTitle": {
+        "english": "Exercise 73",
+        "hindi": "Exercise 73"
+      },
+      "subtopicTitle": {
+        "english": "Question 19.73.8",
+        "hindi": "Question 19.73.8"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 19.73.8?",
+        "hindi": "Can you solve Question 19.73.8?"
+      },
+      "explanationTitle": {
+        "english": "Question 19.73.8",
+        "hindi": "Question 19.73.8"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+          "hindi": "Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+        },
+        {
+          "english": "This question is about Draw a line segment LM = 5.4 cm. Mark a point N on LM such that LN = 2.3 cm. At N.",
+          "hindi": "This question is about Draw a line segment LM = 5.4 cm. Mark a point N on LM such that LN = 2.3 cm. At N."
+        },
+        {
+          "english": "From the question, we should notice Draw a line segment LM = 5.4 cm. Mark a point N on LM such that LN = 2.3 cm. At N.",
+          "hindi": "From the question, we should notice Draw a line segment LM = 5.4 cm. Mark a point N on LM such that LN = 2.3 cm. At N."
+        },
+        {
+          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
+          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
+        },
+        {
+          "english": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines.",
+          "hindi": "A similar model helps here. The sides of a square next to each other are perpendicular, and railway tracks are a common example of parallel lines."
+        },
+        {
+          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
+          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
+        },
+        {
+          "english": "At the end, check once more. Use a ruler or set square carefully so the lines remain straight and accurate.",
+          "hindi": "At the end, check once more. Use a ruler or set square carefully so the lines remain straight and accurate."
+        },
+        {
+          "english": "Your notebook work should stay neat and complete. Use a ruler or set square carefully so the lines remain straight and accurate.",
+          "hindi": "Your notebook work should stay neat and complete. Use a ruler or set square carefully so the lines remain straight and accurate."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch19_ex73_q08_q1",
+          "prompt": {
+            "english": "Draw a line segment LM = 5.4 cm. Mark a point N on LM such that LN = 2.3 cm. At N Then type done",
+            "hindi": "Draw a line segment LM = 5.4 cm. Mark a point N on LM such that LN = 2.3 cm. At N Then type done"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "done",
+            "completed",
+            "drawn",
+            "ready",
+            "finished"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
+            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
+          },
+          "supportExample": {
+            "english": "Complete this textbook task neatly in your notebook and then type done.",
+            "hindi": "Complete this textbook task neatly in your notebook and then type done."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "How to complete this notebook task",
+            "hindi": "How to complete this notebook task"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle.",
+              "hindi": "We begin with the main idea used in this exercise. Parallel lines stay the same distance apart and never meet, while perpendicular lines meet to form a right angle."
+            },
+            {
+              "english": "Here the question is asking about Draw a line segment LM = 5.4 cm. Mark a point N on LM such that LN = 2.3 cm. At N.",
+              "hindi": "Here the question is asking about Draw a line segment LM = 5.4 cm. Mark a point N on LM such that LN = 2.3 cm. At N."
+            },
+            {
+              "english": "The information given to us is Draw a line segment LM = 5.4 cm. Mark a point N on LM such that LN = 2.3 cm. At N.",
+              "hindi": "The information given to us is Draw a line segment LM = 5.4 cm. Mark a point N on LM such that LN = 2.3 cm. At N."
+            },
+            {
+              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
+              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
+            },
+            {
+              "english": "Complete this textbook task neatly in your notebook and then type done.",
+              "hindi": "Complete this textbook task neatly in your notebook and then type done."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
+              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
+            },
+            {
+              "english": "Now check the result once more. Use a ruler or set square carefully so the lines remain straight and accurate.",
+              "hindi": "Now check the result once more. Use a ruler or set square carefully so the lines remain straight and accurate."
+            },
+            {
+              "english": "After completing the notebook work neatly, type done.",
+              "hindi": "After completing the notebook work neatly, type done."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 73",
+          "hindi": "Exercise 73"
+        },
+        {
+          "english": "Question 19.73.8",
+          "hindi": "Question 19.73.8"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    }
+  ]
+}

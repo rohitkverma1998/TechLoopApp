@@ -1,9 +1,10 @@
 from __future__ import annotations
 
-import json
 import re
 from dataclasses import dataclass
 from pathlib import Path
+
+from subject_pack_io import save_book
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -3431,10 +3432,7 @@ def build_book() -> dict:
 
 def write_pack(output_path: Path = OUTPUT_PATH) -> dict:
     book = build_book()
-    output_path.write_text(
-        json.dumps(book, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
+    save_book(output_path, book)
     return book
 
 
@@ -3444,7 +3442,7 @@ def main() -> None:
     chapter_counts: dict[int, int] = {}
     for topic in topics:
         chapter_counts[topic["chapterNumber"]] = chapter_counts.get(topic["chapterNumber"], 0) + 1
-    print(f"Wrote {len(topics)} topics to {OUTPUT_PATH}")
+    print(f"Wrote {len(topics)} topics across {len(chapter_counts)} chapter files using {OUTPUT_PATH}")
     for chapter_number in sorted(chapter_counts):
         chapter_en, _ = chapter_title(chapter_number)
         print(f"Chapter {chapter_number:02d}: {chapter_counts[chapter_number]} topic(s) - {chapter_en}")

@@ -1,0 +1,166 @@
+{
+  "chapterNumber": 2,
+  "chapterTitle": {
+    "english": "Plant Life",
+    "hindi": "पौधों का जीवन"
+  },
+  "topics": [
+    {
+      "id": "science_plants_1",
+      "sourceLessonId": "science_plants",
+      "chapterNumber": 2,
+      "chapterTitle": {
+        "english": "Plant Life",
+        "hindi": "पौधों का जीवन"
+      },
+      "lessonTitle": {
+        "english": "Parts of a Plant",
+        "hindi": "पौधे के भाग"
+      },
+      "subtopicTitle": {
+        "english": "Roots, stems, leaves",
+        "hindi": "जड़, तना, पत्तियाँ"
+      },
+      "knowPrompt": {
+        "english": "Do you know what the main parts of a plant do?",
+        "hindi": "क्या आप जानते हैं कि पौधे के मुख्य भाग क्या काम करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Each part helps the plant live",
+        "hindi": "हर भाग पौधे को जीवित रहने में मदद करता है"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Roots fix the plant in the soil and absorb water. The stem supports the plant and carries water upward.",
+          "hindi": "जड़ पौधे को मिट्टी में पकड़ती है और पानी सोखती है। तना पौधे को सहारा देता है और पानी ऊपर पहुँचाता है।"
+        },
+        {
+          "english": "Leaves prepare food using sunlight, air, and water, so they are often called the food factories of the plant.",
+          "hindi": "पत्तियाँ सूर्य के प्रकाश, हवा और पानी की मदद से भोजन बनाती हैं, इसलिए उन्हें पौधे की भोजन-फैक्टरी कहा जाता है।"
+        },
+        {
+          "english": "Each part has a special job. If roots do not absorb water, the plant dries. If leaves do not make food, the plant cannot grow well.",
+          "hindi": "हर भाग का एक विशेष काम होता है। यदि जड़ पानी न सोखे, तो पौधा सूख जाता है। यदि पत्तियाँ भोजन न बनाएँ, तो पौधा ठीक से बढ़ नहीं पाता।"
+        },
+        {
+          "english": "When a question asks about a plant part, it helps to match the part with its main job: roots for absorption, stem for support and transport, leaves for food-making.",
+          "hindi": "जब प्रश्न पौधे के किसी भाग के बारे में पूछे, तो उस भाग को उसके मुख्य काम से मिलाना मदद करता है: जड़ - सोखना, तना - सहारा और ले जाना, पत्तियाँ - भोजन बनाना।"
+        },
+        {
+          "english": "A simple memory aid is: roots below, stem in the middle, leaves above, and each one helps the whole plant live.",
+          "hindi": "एक आसान याद रखने का तरीका है: जड़ नीचे, तना बीच में, पत्तियाँ ऊपर, और तीनों मिलकर पूरे पौधे को जीवित रखती हैं।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Roots absorb water.",
+          "hindi": "जड़ पानी सोखती है।"
+        },
+        {
+          "english": "Stem supports the plant.",
+          "hindi": "तना पौधे को सहारा देता है।"
+        },
+        {
+          "english": "Leaves make food.",
+          "hindi": "पत्तियाँ भोजन बनाती हैं।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Plant map",
+            "hindi": "पौधा मानचित्र"
+          },
+          "description": {
+            "english": "Match each part with its work.",
+            "hindi": "हर भाग को उसके काम से मिलाओ।"
+          },
+          "kind": "STEP_FLOW",
+          "chips": [
+            {
+              "english": "roots -> water",
+              "hindi": "जड़ -> पानी"
+            },
+            {
+              "english": "stem -> support",
+              "hindi": "तना -> सहारा"
+            },
+            {
+              "english": "leaf -> food",
+              "hindi": "पत्ती -> भोजन"
+            }
+          ],
+          "rows": []
+        }
+      ],
+      "questions": [
+        {
+          "id": "science_q2",
+          "prompt": {
+            "english": "Which part of a plant prepares food?",
+            "hindi": "पौधे का कौन-सा भाग भोजन बनाता है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Root",
+              "hindi": "जड़"
+            },
+            {
+              "english": "Stem",
+              "hindi": "तना"
+            },
+            {
+              "english": "Leaf",
+              "hindi": "पत्ती"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Think of the green part that catches sunlight.",
+            "hindi": "उस हरे भाग के बारे में सोचो जो सूरज की रोशनी पकड़ता है।"
+          },
+          "wrongReason": {
+            "english": "The plant part and its job were mixed up.",
+            "hindi": "पौधे का भाग और उसका काम आपस में गड़बड़ा गया।"
+          },
+          "supportExample": {
+            "english": "Leaves make food using sunlight.",
+            "hindi": "पत्तियाँ सूर्य के प्रकाश से भोजन बनाती हैं।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Match part with function",
+            "hindi": "भाग को काम से मिलाओ"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Match each plant part with its main work before choosing the answer.",
+              "hindi": "उत्तर चुनने से पहले पौधे के हर भाग को उसके मुख्य काम से मिलाओ।"
+            },
+            {
+              "english": "Roots mainly absorb water and hold the plant in the soil.",
+              "hindi": "जड़ मुख्य रूप से पानी सोखती है और पौधे को मिट्टी में पकड़ती है।"
+            },
+            {
+              "english": "The stem supports the plant and carries water and food from one part to another.",
+              "hindi": "तना पौधे को सहारा देता है और पानी व भोजन को एक भाग से दूसरे भाग तक पहुँचाता है।"
+            },
+            {
+              "english": "Leaves make food using sunlight, so the correct answer is Leaf.",
+              "hindi": "पत्तियाँ सूर्य के प्रकाश की मदद से भोजन बनाती हैं, इसलिए सही उत्तर पत्ती है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "plants",
+          "hindi": "पौधे"
+        }
+      ],
+      "mistakeFocus": "CONCEPT_CONFUSION"
+    }
+  ]
+}

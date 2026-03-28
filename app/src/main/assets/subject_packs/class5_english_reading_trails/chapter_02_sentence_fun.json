@@ -1,0 +1,166 @@
+{
+  "chapterNumber": 2,
+  "chapterTitle": {
+    "english": "Sentence Fun",
+    "hindi": "वाक्य खेल"
+  },
+  "topics": [
+    {
+      "id": "english_sentence_types_1",
+      "sourceLessonId": "english_sentence_types",
+      "chapterNumber": 2,
+      "chapterTitle": {
+        "english": "Sentence Fun",
+        "hindi": "वाक्य खेल"
+      },
+      "lessonTitle": {
+        "english": "Statements and Questions",
+        "hindi": "कथन और प्रश्न"
+      },
+      "subtopicTitle": {
+        "english": "Notice sentence purpose",
+        "hindi": "वाक्य का उद्देश्य पहचानो"
+      },
+      "knowPrompt": {
+        "english": "Do you know how to tell a statement from a question?",
+        "hindi": "क्या आप कथन और प्रश्न में अंतर पहचान सकते हैं?"
+      },
+      "explanationTitle": {
+        "english": "A question asks; a statement tells",
+        "hindi": "प्रश्न पूछता है; कथन बताता है"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "A statement tells something. A question asks for information and often ends with a question mark.",
+          "hindi": "कथन कुछ बताता है। प्रश्न जानकारी पूछता है और प्रायः प्रश्नवाचक चिह्न पर समाप्त होता है।"
+        },
+        {
+          "english": "A statement gives information such as a fact, idea, or description. A question expects an answer from someone.",
+          "hindi": "कथन कोई तथ्य, विचार या वर्णन देता है। प्रश्न किसी से उत्तर चाहता है।"
+        },
+        {
+          "english": "Children can read the sentence aloud to hear whether it sounds like telling or asking.",
+          "hindi": "बच्चे वाक्य को बोलकर पढ़ें तो सुन सकते हैं कि वह बताने जैसा है या पूछने जैसा।"
+        },
+        {
+          "english": "Many questions begin with words like is, are, do, does, what, when, or why. A question mark at the end is also an important clue.",
+          "hindi": "कई प्रश्न is, are, do, does, what, when या why जैसे शब्दों से शुरू होते हैं। अंत का प्रश्नवाचक चिह्न भी एक महत्वपूर्ण संकेत है।"
+        },
+        {
+          "english": "Compare these two lines: 'The sky is blue.' tells something, but 'Is the sky blue?' asks something.",
+          "hindi": "इन दो वाक्यों की तुलना करो: 'The sky is blue.' कुछ बताता है, पर 'Is the sky blue?' कुछ पूछता है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "The sky is blue.",
+          "hindi": "आकाश नीला है।"
+        },
+        {
+          "english": "Is the sky blue?",
+          "hindi": "क्या आकाश नीला है?"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "Sentence purpose",
+            "hindi": "वाक्य का उद्देश्य"
+          },
+          "description": {
+            "english": "Sort by tell or ask.",
+            "hindi": "बताओ या पूछो के आधार पर बाँटो।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "statement",
+                "hindi": "कथन"
+              },
+              {
+                "english": "tells",
+                "hindi": "बताता है"
+              }
+            ],
+            [
+              {
+                "english": "question",
+                "hindi": "प्रश्न"
+              },
+              {
+                "english": "asks",
+                "hindi": "पूछता है"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "english_q2",
+          "prompt": {
+            "english": "Which sentence is a question?",
+            "hindi": "इनमें से कौन-सा वाक्य प्रश्न है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "The sky is blue.",
+              "hindi": "आकाश नीला है।"
+            },
+            {
+              "english": "Is the sky blue?",
+              "hindi": "क्या आकाश नीला है?"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Listen for the asking voice and the question mark.",
+            "hindi": "पूछने वाली आवाज़ और प्रश्नवाचक चिह्न को सुनो/देखो।"
+          },
+          "wrongReason": {
+            "english": "The sentence purpose was identified incorrectly.",
+            "hindi": "वाक्य का उद्देश्य सही तरह नहीं पहचाना गया।"
+          },
+          "supportExample": {
+            "english": "A question asks for an answer.",
+            "hindi": "प्रश्न उत्तर माँगता है।"
+          },
+          "mistakeType": "READING",
+          "reteachTitle": {
+            "english": "Hear tell and ask",
+            "hindi": "बताने और पूछने की ध्वनि सुनो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Read each option aloud and listen for the asking voice.",
+              "hindi": "हर विकल्प को बोलकर पढ़ो और पूछने वाली आवाज़ को सुनो।"
+            },
+            {
+              "english": "A statement simply gives information, so 'The sky is blue.' is a statement.",
+              "hindi": "कथन केवल जानकारी देता है, इसलिए 'The sky is blue.' एक कथन है।"
+            },
+            {
+              "english": "A question asks for an answer and ends with a question mark, so 'Is the sky blue?' is the question.",
+              "hindi": "प्रश्न उत्तर माँगता है और प्रश्नवाचक चिह्न पर समाप्त होता है, इसलिए 'Is the sky blue?' प्रश्न है।"
+            },
+            {
+              "english": "So the correct choice is 'Is the sky blue?'",
+              "hindi": "इसलिए सही विकल्प 'Is the sky blue?' है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "sentences",
+          "hindi": "वाक्य"
+        }
+      ],
+      "mistakeFocus": "READING"
+    }
+  ]
+}

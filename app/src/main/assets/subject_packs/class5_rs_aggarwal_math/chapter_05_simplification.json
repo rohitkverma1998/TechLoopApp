@@ -1,0 +1,3189 @@
+{
+  "chapterNumber": 5,
+  "chapterTitle": {
+    "english": "Simplification",
+    "hindi": "सरलीकरण"
+  },
+  "topics": [
+    {
+      "id": "rs_ch05_numerical_expressions",
+      "sourceLessonId": "rs_ch05",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "subtopicTitle": {
+        "english": "Numerical Expressions",
+        "hindi": "संख्यात्मक व्यंजक"
+      },
+      "knowPrompt": {
+        "english": "Do you know this topic: Numerical Expressions?",
+        "hindi": "क्या आप यह विषय जानते हैं: संख्यात्मक व्यंजक?"
+      },
+      "explanationTitle": {
+        "english": "Numerical Expressions",
+        "hindi": "संख्यात्मक व्यंजक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "A numerical expression is a math phrase made of numbers and operation signs such as +, -, ×, ÷, and sometimes brackets or powers. It does not compare two sides for equality. Instead, it tells you to calculate one final value. For example, 15 + 6 × 4 is a numerical expression. The goal is to simplify it carefully until only one number is left.",
+          "hindi": "न्यूमेरिकल एक्सप्रेशन, जिसे संख्यात्मक व्यंजक भी कहते हैं, अंकों और चिन्हों से बना एक गणितीय वाक्य होता है, जैसे +, -, ×, ÷, और कभी-कभी brackets या powers। इसमें दो पक्षों की बराबरी नहीं देखी जाती। इसमें हमें एक अंतिम मान निकालना होता है। उदाहरण के लिए, 15 + 6 × 4 एक numerical expression है। इसे सरल करते-करते हमें अंत में सिर्फ एक संख्या तक पहुँचना होता है।"
+        },
+        {
+          "english": "There is no single formula for all numerical expressions, but there is one main rule for solving them: use the order of operations. A simple version is BODMAS or PEMDAS. First solve brackets, then powers if any, then multiplication and division from left to right, and finally addition and subtraction from left to right. This rule matters because 2 + 3 × 4 is not the same as (2 + 3) × 4.",
+          "hindi": "हर numerical expression के लिए कोई एक fixed formula नहीं होता, लेकिन उसे हल करने का एक मुख्य नियम होता है: order of operations। इसे BODMAS या PEMDAS भी कहते हैं। पहले brackets, फिर powers, फिर multiplication और division को left to right, और अंत में addition और subtraction को left to right करते हैं। यह नियम बहुत जरूरी है, क्योंकि 2 + 3 × 4 और (2 + 3) × 4 एक जैसे नहीं होते।"
+        },
+        {
+          "english": "Numerical expressions appear in real life all the time. If one notebook costs 6 rupees and you buy 4 notebooks, then add a 15-rupee pen, the cost can be written as 15 + 6 × 4. If a shop gives 3 boxes with 5 chocolates each and then adds 2 extra chocolates, that becomes 3 × 5 + 2. If a ride costs 50 rupees plus 8 rupees for each of 3 kilometers, that becomes 50 + 8 × 3. Expressions help us turn everyday situations into math.",
+          "hindi": "न्यूमेरिकल एक्सप्रेशन रोजमर्रा की जिंदगी में भी बहुत काम आते हैं। अगर एक notebook 6 रुपये की है और आप 4 notebooks लेते हैं, फिर 15 रुपये की एक pen जोड़ते हैं, तो कुल खर्च 15 + 6 × 4 से लिखा जा सकता है। अगर किसी दुकान में 5 chocolates वाले 3 boxes हैं और फिर 2 extra chocolates मिलती हैं, तो वह 3 × 5 + 2 होगा। अगर किसी ride का base fare 50 रुपये है और 3 kilometers के लिए 8 रुपये प्रति kilometer लगते हैं, तो वह 50 + 8 × 3 होगा। इस तरह expressions रोज की situations को math में बदल देते हैं।"
+        },
+        {
+          "english": "Now solve an easy example: 15 + 6 × 4. First do multiplication because it comes before addition. So 6 × 4 = 24. The expression becomes 15 + 24. Then add: 15 + 24 = 39. So the final answer is 39.",
+          "hindi": "अब आसान उदाहरण हल करते हैं: 15 + 6 × 4। सबसे पहले multiplication करेंगे, क्योंकि addition से पहले multiplication आता है। इसलिए 6 × 4 = 24। अब expression बनता है 15 + 24। फिर जोड़ते हैं: 15 + 24 = 39। इसलिए अंतिम उत्तर 39 है।"
+        },
+        {
+          "english": "Try a medium example: (18 - 6) ÷ 3 + 5. First solve the brackets: 18 - 6 = 12. Now the expression is 12 ÷ 3 + 5. Next do division: 12 ÷ 3 = 4. Now the expression is 4 + 5. Finally add: 4 + 5 = 9. So the answer is 9.",
+          "hindi": "अब एक मध्यम स्तर का उदाहरण देखें: (18 - 6) ÷ 3 + 5। सबसे पहले brackets हल करें: 18 - 6 = 12। अब expression है 12 ÷ 3 + 5। अगला कदम division है: 12 ÷ 3 = 4। अब expression बनता है 4 + 5। आखिर में जोड़ते हैं: 4 + 5 = 9। इसलिए उत्तर 9 है।"
+        },
+        {
+          "english": "Now a harder example: 2 + 3 × (4^2 - 5). First solve the power. 4^2 means 4 × 4, so 4^2 = 16. The expression becomes 2 + 3 × (16 - 5). Next solve the brackets: 16 - 5 = 11. The expression becomes 2 + 3 × 11. Now do multiplication: 3 × 11 = 33. The expression becomes 2 + 33. Finally add: 2 + 33 = 35. So the answer is 35.",
+          "hindi": "अब थोड़ा कठिन उदाहरण देखें: 2 + 3 × (4^2 - 5)। सबसे पहले power हल करें। 4^2 का मतलब 4 × 4 होता है, इसलिए 4^2 = 16। अब expression है 2 + 3 × (16 - 5)। फिर brackets हल करें: 16 - 5 = 11। अब expression बनता है 2 + 3 × 11। अब multiplication करें: 3 × 11 = 33। अब expression है 2 + 33। आखिर में जोड़ें: 2 + 33 = 35। इसलिए अंतिम उत्तर 35 है।"
+        },
+        {
+          "english": "Common mistakes happen when students ignore the order of operations or rush through steps. In 15 + 6 × 4, a common mistake is doing 15 + 6 first and getting 21 × 4 = 84, which is wrong because multiplication should come first. Another mistake is forgetting that multiplication and division are done left to right when both appear together. It also helps to rewrite the expression after each step instead of doing many things in your head. If you stay patient and follow the rule in order, numerical expressions become much easier.",
+          "hindi": "सबसे आम गलतियाँ तब होती हैं जब विद्यार्थी order of operations को भूल जाते हैं या जल्दीबाजी करते हैं। 15 + 6 × 4 में एक सामान्य गलती है पहले 15 + 6 करना और 21 × 4 = 84 लिख देना, जो गलत है, क्योंकि multiplication पहले होना चाहिए। एक और गलती यह है कि multiplication और division साथ हों तो उन्हें left to right करना भूल जाना। हर step के बाद expression को दोबारा लिखना बहुत मदद करता है, क्योंकि इससे गलती कम होती है। अगर आप धैर्य से सही क्रम का पालन करेंगे, तो numerical expressions आसान लगने लगेंगे।"
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "numerical_expressions_q1",
+          "prompt": {
+            "english": "Simplify: 15 + 6 × 4.",
+            "hindi": "सरल कीजिए: 15 + 6 × 4।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "39"
+          ],
+          "hint": {
+            "english": "Do multiplication before addition.",
+            "hindi": "जोड़ से पहले गुणा कीजिए।"
+          },
+          "wrongReason": {
+            "english": "The main idea in numerical expressions was not used correctly.",
+            "hindi": "संख्यात्मक व्यंजक के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
+          },
+          "supportExample": {
+            "english": "6 × 4 = 24 and 15 + 24 = 39.",
+            "hindi": "6 × 4 = 24 और 15 + 24 = 39।"
+          },
+          "mistakeType": "OPERATION_LINK",
+          "reteachTitle": {
+            "english": "Understanding Numerical Expressions",
+            "hindi": "संख्यात्मक व्यंजक को समझें"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "This question is solved by using the same idea from the topic. A numerical expression is simplified by following the correct order of operations.",
+              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। संख्यात्मक व्यंजक को हल करते समय संक्रियाओं का सही क्रम मानते हैं।"
+            },
+            {
+              "english": "The question asks us to work with this situation: Simplify: 15 + 6 × 4.",
+              "hindi": "प्रश्न हमें यह स्थिति देता है: सरल कीजिए: 15 + 6 × 4।"
+            },
+            {
+              "english": "To move from the question to the answer, use this idea directly: Do multiplication before addition.",
+              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: जोड़ से पहले गुणा कीजिए।"
+            },
+            {
+              "english": "A similar example makes the method clear. In 15 + 6 × 4, multiplication is done before addition.",
+              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। 15 + 6 × 4 में जोड़ से पहले गुणा किया जाता है।"
+            },
+            {
+              "english": "Using the same method here, we get: 6 × 4 = 24 and 15 + 24 = 39.",
+              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: 6 × 4 = 24 और 15 + 24 = 39।"
+            },
+            {
+              "english": "After solving, write the answer in the same form the question asks for, and include the unit whenever one is needed.",
+              "hindi": "हल पूरा होने पर उत्तर उसी रूप में लिखिए जिस रूप में प्रश्न ने माँगा है, और जहाँ ज़रूरत हो वहाँ सही इकाई भी लिखिए।"
+            },
+            {
+              "english": "So the correct answer is 39.",
+              "hindi": "इसलिए सही उत्तर 39 है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Simplification",
+          "hindi": "सरलीकरण"
+        },
+        {
+          "english": "Numerical Expressions",
+          "hindi": "संख्यात्मक व्यंजक"
+        }
+      ],
+      "mistakeFocus": "OPERATION_LINK"
+    },
+    {
+      "id": "rs_ch05_use_of_brackets",
+      "sourceLessonId": "rs_ch05",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "subtopicTitle": {
+        "english": "Use of Brackets",
+        "hindi": "कोष्ठकों का उपयोग"
+      },
+      "knowPrompt": {
+        "english": "Do you know this topic: Use of Brackets?",
+        "hindi": "क्या आप यह विषय जानते हैं: कोष्ठकों का उपयोग?"
+      },
+      "explanationTitle": {
+        "english": "Use of Brackets",
+        "hindi": "कोष्ठकों का उपयोग"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Brackets are symbols like (), [], and {} used to group numbers or operations. They tell us which part of a calculation to do first. For a beginner, the main idea is simple: when you see brackets, pause and work inside them before moving to the rest of the expression. Brackets make calculations clear and prevent confusion because the same numbers can give different answers when grouped in different ways.",
+          "hindi": "ब्रैकेट ऐसे चिन्ह होते हैं जैसे (), [] और {}, जो किसी गणना के एक हिस्से को साथ में दिखाते हैं। ये बताते हैं कि किस भाग को पहले करना है। शुरुआत करने वाले छात्र के लिए सबसे जरूरी बात यह है कि अगर ब्रैकेट दिखे, तो पहले उसके अंदर की गणना करो, फिर बाकी सवाल करो। ब्रैकेट गणना को साफ बनाते हैं और गलती कम करते हैं, क्योंकि वही संख्याएँ अलग तरह से समूह बनाकर अलग उत्तर दे सकती हैं।"
+        },
+        {
+          "english": "There is no single special formula for brackets, but there is a key rule: solve the innermost bracket first, then continue using the usual order of operations. In simple school maths, this is often remembered as BODMAS or PEMDAS. For example, 2 × (3 + 4) = 2 × 7 = 14, but 2 × 3 + 4 = 6 + 4 = 10. The numbers are the same, but the bracket changes the meaning, so the answer changes.",
+          "hindi": "ब्रैकेट के लिए कोई एक अलग खास सूत्र नहीं होता, लेकिन एक मुख्य नियम होता है: सबसे अंदर वाले ब्रैकेट को पहले हल करो, फिर सामान्य क्रम से आगे बढ़ो। स्कूल में इसे अक्सर BODMAS या PEMDAS से याद रखा जाता है। उदाहरण के लिए, 2 × (3 + 4) = 2 × 7 = 14, लेकिन 2 × 3 + 4 = 6 + 4 = 10। संख्याएँ वही हैं, पर ब्रैकेट ने सवाल का मतलब बदल दिया, इसलिए उत्तर भी बदल गया।"
+        },
+        {
+          "english": "Brackets are useful in real life whenever we combine some values before doing something else with the total. If three friends share the total cost of snacks, we may write (60 + 30) ÷ 3. If a shop gives a discount before we buy many items, we may write 5 × (100 - 20). If a teacher adds marks from two tests and then finds the average, the idea is like (18 + 22) ÷ 2. In each case, the bracket shows the part that must be completed first.",
+          "hindi": "ब्रैकेट का उपयोग रोजमर्रा की जिंदगी में भी होता है, जब हमें कुछ मानों को पहले जोड़ना या घटाना होता है और फिर उस पूरे परिणाम पर कोई अगला काम करना होता है। अगर तीन दोस्त स्नैक्स का कुल बिल बराबर बाँटते हैं, तो हम (60 + 30) ÷ 3 जैसा लिख सकते हैं। अगर दुकान पहले छूट देती है और फिर हम कई वस्तुएँ खरीदते हैं, तो 5 × (100 - 20) जैसा लिख सकते हैं। अगर शिक्षक दो परीक्षाओं के अंक जोड़कर औसत निकालते हैं, तो विचार (18 + 22) ÷ 2 जैसा होता है। हर जगह ब्रैकेट दिखाता है कि कौन सा भाग पहले पूरा करना है।"
+        },
+        {
+          "english": "Here is an easy worked solution: (18 + 6) ÷ 3. First, solve the bracket: 18 + 6 = 24. Now the expression becomes 24 ÷ 3. Next, divide: 24 ÷ 3 = 8. So the final answer is 8. We do not divide 6 by 3 first, because the bracket must be done before division.",
+          "hindi": "अब एक आसान हल देखते हैं: (18 + 6) ÷ 3। सबसे पहले ब्रैकेट के अंदर जोड़ करो: 18 + 6 = 24। अब सवाल बन गया 24 ÷ 3। फिर भाग करो: 24 ÷ 3 = 8। इसलिए अंतिम उत्तर 8 है। यहाँ 6 को 3 से पहले भाग नहीं करेंगे, क्योंकि ब्रैकेट को भाग से पहले हल करना जरूरी है।"
+        },
+        {
+          "english": "Here is a medium worked solution: 4 × (9 - 5) + 6. First, solve the bracket: 9 - 5 = 4. Now the expression becomes 4 × 4 + 6. Next, do multiplication before addition: 4 × 4 = 16. Now the expression becomes 16 + 6. Finally, add: 16 + 6 = 22. So the final answer is 22. This shows that after finishing the bracket, we still follow the normal order of operations.",
+          "hindi": "अब एक मध्यम स्तर का हल देखते हैं: 4 × (9 - 5) + 6। सबसे पहले ब्रैकेट के अंदर घटाव करो: 9 - 5 = 4। अब सवाल बन गया 4 × 4 + 6। इसके बाद जोड़ से पहले गुणा करो: 4 × 4 = 16। अब सवाल बन गया 16 + 6। अंत में जोड़ करो: 16 + 6 = 22। इसलिए अंतिम उत्तर 22 है। इससे समझ आता है कि ब्रैकेट पूरा करने के बाद भी हमें सामान्य क्रम का पालन करना होता है।"
+        },
+        {
+          "english": "Here is a harder worked solution with brackets inside brackets: 50 - [12 ÷ (2 + 1)] × 2. First, solve the round bracket: 2 + 1 = 3. Now the expression becomes 50 - [12 ÷ 3] × 2. Next, solve inside the square bracket: 12 ÷ 3 = 4. Now the expression becomes 50 - 4 × 2. Next, do multiplication: 4 × 2 = 8. Now the expression becomes 50 - 8. Finally, subtract: 50 - 8 = 42. So the final answer is 42. When different kinds of brackets appear, work from the inside outward.",
+          "hindi": "अब एक थोड़ा कठिन हल देखते हैं, जिसमें एक ब्रैकेट के अंदर दूसरा ब्रैकेट है: 50 - [12 ÷ (2 + 1)] × 2। सबसे पहले गोल ब्रैकेट हल करो: 2 + 1 = 3। अब सवाल बन गया 50 - [12 ÷ 3] × 2। फिर स्क्वेयर ब्रैकेट के अंदर भाग करो: 12 ÷ 3 = 4। अब सवाल बन गया 50 - 4 × 2। इसके बाद गुणा करो: 4 × 2 = 8। अब सवाल बन गया 50 - 8। अंत में घटाव करो: 50 - 8 = 42। इसलिए अंतिम उत्तर 42 है। जब अलग-अलग प्रकार के ब्रैकेट हों, तो अंदर से बाहर की ओर हल करना चाहिए।"
+        },
+        {
+          "english": "Common mistakes are very common here. One mistake is ignoring the bracket and doing another operation first. Another mistake is forgetting that brackets change meaning, as in 2 × (3 + 4) and 2 × 3 + 4. A third mistake is making sign errors after opening or solving a bracket, especially when subtraction is involved. The safe method is to read slowly, solve the bracket fully, rewrite the new expression, and then continue one step at a time. If you do that, brackets become much easier.",
+          "hindi": "इस विषय में कुछ सामान्य गलतियाँ बहुत बार होती हैं। पहली गलती यह है कि ब्रैकेट को नजरअंदाज करके कोई दूसरी क्रिया पहले कर दी जाती है। दूसरी गलती यह है कि छात्र भूल जाते हैं कि ब्रैकेट सवाल का मतलब बदल देता है, जैसे 2 × (3 + 4) और 2 × 3 + 4। तीसरी गलती यह है कि ब्रैकेट हल करने के बाद चिन्हों में गलती हो जाती है, खासकर जब घटाव शामिल हो। सबसे सुरक्षित तरीका है सवाल को धीरे पढ़ना, ब्रैकेट को पूरा हल करना, नया सवाल दोबारा लिखना, और फिर एक-एक कदम आगे बढ़ना। ऐसा करने पर ब्रैकेट आसान लगने लगते हैं।"
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "use_of_brackets_q1",
+          "prompt": {
+            "english": "Simplify: (18 + 6) ÷ 3.",
+            "hindi": "सरल कीजिए: (18 + 6) ÷ 3।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "8"
+          ],
+          "hint": {
+            "english": "Work inside the brackets first.",
+            "hindi": "पहले कोष्ठक के अंदर हल कीजिए।"
+          },
+          "wrongReason": {
+            "english": "The main idea in use of brackets was not used correctly.",
+            "hindi": "कोष्ठकों का उपयोग के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
+          },
+          "supportExample": {
+            "english": "18 + 6 = 24 and 24 ÷ 3 = 8.",
+            "hindi": "18 + 6 = 24 और 24 ÷ 3 = 8।"
+          },
+          "mistakeType": "OPERATION_LINK",
+          "reteachTitle": {
+            "english": "Understanding Use of Brackets",
+            "hindi": "कोष्ठकों का उपयोग को समझें"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "This question is solved by using the same idea from the topic. Brackets tell us to do the operation inside them first.",
+              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। कोष्ठक बताते हैं कि उनके भीतर की संक्रिया पहले करनी है।"
+            },
+            {
+              "english": "The question asks us to work with this situation: Simplify: (18 + 6) ÷ 3.",
+              "hindi": "प्रश्न हमें यह स्थिति देता है: सरल कीजिए: (18 + 6) ÷ 3।"
+            },
+            {
+              "english": "To move from the question to the answer, use this idea directly: Work inside the brackets first.",
+              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: पहले कोष्ठक के अंदर हल कीजिए।"
+            },
+            {
+              "english": "A similar example makes the method clear. (18 + 6) ÷ 3 = 24 ÷ 3 = 8.",
+              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। (18 + 6) ÷ 3 = 24 ÷ 3 = 8।"
+            },
+            {
+              "english": "Using the same method here, we get: 18 + 6 = 24 and 24 ÷ 3 = 8.",
+              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: 18 + 6 = 24 और 24 ÷ 3 = 8।"
+            },
+            {
+              "english": "After solving, write the answer in the same form the question asks for, and include the unit whenever one is needed.",
+              "hindi": "हल पूरा होने पर उत्तर उसी रूप में लिखिए जिस रूप में प्रश्न ने माँगा है, और जहाँ ज़रूरत हो वहाँ सही इकाई भी लिखिए।"
+            },
+            {
+              "english": "So the correct answer is 8.",
+              "hindi": "इसलिए सही उत्तर 8 है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Simplification",
+          "hindi": "सरलीकरण"
+        },
+        {
+          "english": "Use of Brackets",
+          "hindi": "कोष्ठकों का उपयोग"
+        }
+      ],
+      "mistakeFocus": "OPERATION_LINK"
+    },
+    {
+      "id": "rs_ex_ch05_ex15_q01",
+      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 15",
+        "hindi": "Exercise 15"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.15.1",
+        "hindi": "Question 5.15.1"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.15.1?",
+        "hindi": "Can you solve Question 5.15.1?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.15.1",
+        "hindi": "Question 5.15.1"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 12 + 9 ÷ 3.",
+          "hindi": "This question is about Simplify: 12 + 9 ÷ 3."
+        },
+        {
+          "english": "From the question, we should notice 12 + 9 ÷ 3.",
+          "hindi": "From the question, we should notice 12 + 9 ÷ 3."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex15_q01_q1",
+          "prompt": {
+            "english": "Simplify: 12 + 9 ÷ 3",
+            "hindi": "Simplify: 12 + 9 ÷ 3"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "15"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 12 + 9 ÷ 3.",
+              "hindi": "Here the question is asking about Simplify: 12 + 9 ÷ 3."
+            },
+            {
+              "english": "The information given to us is 12 + 9 ÷ 3.",
+              "hindi": "The information given to us is 12 + 9 ÷ 3."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 15.",
+              "hindi": "When you apply the rule carefully, you reach 15."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 15.",
+              "hindi": "So the final answer is 15."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 15",
+          "hindi": "Exercise 15"
+        },
+        {
+          "english": "Question 5.15.1",
+          "hindi": "Question 5.15.1"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex15_q02",
+      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 15",
+        "hindi": "Exercise 15"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.15.2",
+        "hindi": "Question 5.15.2"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.15.2?",
+        "hindi": "Can you solve Question 5.15.2?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.15.2",
+        "hindi": "Question 5.15.2"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 16 × 8 ÷ 4.",
+          "hindi": "This question is about Simplify: 16 × 8 ÷ 4."
+        },
+        {
+          "english": "From the question, we should notice 16 × 8 ÷ 4.",
+          "hindi": "From the question, we should notice 16 × 8 ÷ 4."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex15_q02_q1",
+          "prompt": {
+            "english": "Simplify: 16 × 8 ÷ 4",
+            "hindi": "Simplify: 16 × 8 ÷ 4"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "32"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 16 × 8 ÷ 4.",
+              "hindi": "Here the question is asking about Simplify: 16 × 8 ÷ 4."
+            },
+            {
+              "english": "The information given to us is 16 × 8 ÷ 4.",
+              "hindi": "The information given to us is 16 × 8 ÷ 4."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 32.",
+              "hindi": "When you apply the rule carefully, you reach 32."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 32.",
+              "hindi": "So the final answer is 32."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 15",
+          "hindi": "Exercise 15"
+        },
+        {
+          "english": "Question 5.15.2",
+          "hindi": "Question 5.15.2"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex15_q03",
+      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 15",
+        "hindi": "Exercise 15"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.15.3",
+        "hindi": "Question 5.15.3"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.15.3?",
+        "hindi": "Can you solve Question 5.15.3?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.15.3",
+        "hindi": "Question 5.15.3"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 23 – 8 × 2.",
+          "hindi": "This question is about Simplify: 23 – 8 × 2."
+        },
+        {
+          "english": "From the question, we should notice 23 – 8 × 2.",
+          "hindi": "From the question, we should notice 23 – 8 × 2."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex15_q03_q1",
+          "prompt": {
+            "english": "Simplify: 23 – 8 × 2",
+            "hindi": "Simplify: 23 – 8 × 2"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "7"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 23 – 8 × 2.",
+              "hindi": "Here the question is asking about Simplify: 23 – 8 × 2."
+            },
+            {
+              "english": "The information given to us is 23 – 8 × 2.",
+              "hindi": "The information given to us is 23 – 8 × 2."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 7.",
+              "hindi": "When you apply the rule carefully, you reach 7."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 7.",
+              "hindi": "So the final answer is 7."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 15",
+          "hindi": "Exercise 15"
+        },
+        {
+          "english": "Question 5.15.3",
+          "hindi": "Question 5.15.3"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex15_q04",
+      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 15",
+        "hindi": "Exercise 15"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.15.4",
+        "hindi": "Question 5.15.4"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.15.4?",
+        "hindi": "Can you solve Question 5.15.4?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.15.4",
+        "hindi": "Question 5.15.4"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 32 ÷ 8 + 4 × 6 – 2.",
+          "hindi": "This question is about Simplify: 32 ÷ 8 + 4 × 6 – 2."
+        },
+        {
+          "english": "From the question, we should notice 32 ÷ 8 + 4 × 6 – 2.",
+          "hindi": "From the question, we should notice 32 ÷ 8 + 4 × 6 – 2."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex15_q04_q1",
+          "prompt": {
+            "english": "Simplify: 32 ÷ 8 + 4 × 6 – 2",
+            "hindi": "Simplify: 32 ÷ 8 + 4 × 6 – 2"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "26"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 32 ÷ 8 + 4 × 6 – 2.",
+              "hindi": "Here the question is asking about Simplify: 32 ÷ 8 + 4 × 6 – 2."
+            },
+            {
+              "english": "The information given to us is 32 ÷ 8 + 4 × 6 – 2.",
+              "hindi": "The information given to us is 32 ÷ 8 + 4 × 6 – 2."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 26.",
+              "hindi": "When you apply the rule carefully, you reach 26."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 26.",
+              "hindi": "So the final answer is 26."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 15",
+          "hindi": "Exercise 15"
+        },
+        {
+          "english": "Question 5.15.4",
+          "hindi": "Question 5.15.4"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex15_q05",
+      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 15",
+        "hindi": "Exercise 15"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.15.5",
+        "hindi": "Question 5.15.5"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.15.5?",
+        "hindi": "Can you solve Question 5.15.5?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.15.5",
+        "hindi": "Question 5.15.5"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 100 – 72 ÷ 8 + 4 × 3.",
+          "hindi": "This question is about Simplify: 100 – 72 ÷ 8 + 4 × 3."
+        },
+        {
+          "english": "From the question, we should notice 100 – 72 ÷ 8 + 4 × 3.",
+          "hindi": "From the question, we should notice 100 – 72 ÷ 8 + 4 × 3."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex15_q05_q1",
+          "prompt": {
+            "english": "Simplify: 100 – 72 ÷ 8 + 4 × 3",
+            "hindi": "Simplify: 100 – 72 ÷ 8 + 4 × 3"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "103"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 100 – 72 ÷ 8 + 4 × 3.",
+              "hindi": "Here the question is asking about Simplify: 100 – 72 ÷ 8 + 4 × 3."
+            },
+            {
+              "english": "The information given to us is 100 – 72 ÷ 8 + 4 × 3.",
+              "hindi": "The information given to us is 100 – 72 ÷ 8 + 4 × 3."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 103.",
+              "hindi": "When you apply the rule carefully, you reach 103."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 103.",
+              "hindi": "So the final answer is 103."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 15",
+          "hindi": "Exercise 15"
+        },
+        {
+          "english": "Question 5.15.5",
+          "hindi": "Question 5.15.5"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex15_q06",
+      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 15",
+        "hindi": "Exercise 15"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.15.6",
+        "hindi": "Question 5.15.6"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.15.6?",
+        "hindi": "Can you solve Question 5.15.6?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.15.6",
+        "hindi": "Question 5.15.6"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 30 + 75 ÷ 15 × 4 – 18.",
+          "hindi": "This question is about Simplify: 30 + 75 ÷ 15 × 4 – 18."
+        },
+        {
+          "english": "From the question, we should notice 30 + 75 ÷ 15 × 4 – 18.",
+          "hindi": "From the question, we should notice 30 + 75 ÷ 15 × 4 – 18."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex15_q06_q1",
+          "prompt": {
+            "english": "Simplify: 30 + 75 ÷ 15 × 4 – 18",
+            "hindi": "Simplify: 30 + 75 ÷ 15 × 4 – 18"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "32"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 30 + 75 ÷ 15 × 4 – 18.",
+              "hindi": "Here the question is asking about Simplify: 30 + 75 ÷ 15 × 4 – 18."
+            },
+            {
+              "english": "The information given to us is 30 + 75 ÷ 15 × 4 – 18.",
+              "hindi": "The information given to us is 30 + 75 ÷ 15 × 4 – 18."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 32.",
+              "hindi": "When you apply the rule carefully, you reach 32."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 32.",
+              "hindi": "So the final answer is 32."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 15",
+          "hindi": "Exercise 15"
+        },
+        {
+          "english": "Question 5.15.6",
+          "hindi": "Question 5.15.6"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex15_q07",
+      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 15",
+        "hindi": "Exercise 15"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.15.7",
+        "hindi": "Question 5.15.7"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.15.7?",
+        "hindi": "Can you solve Question 5.15.7?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.15.7",
+        "hindi": "Question 5.15.7"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 8 × 6 + 24 ÷ 6 – 18.",
+          "hindi": "This question is about Simplify: 8 × 6 + 24 ÷ 6 – 18."
+        },
+        {
+          "english": "From the question, we should notice 8 × 6 + 24 ÷ 6 – 18.",
+          "hindi": "From the question, we should notice 8 × 6 + 24 ÷ 6 – 18."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex15_q07_q1",
+          "prompt": {
+            "english": "Simplify: 8 × 6 + 24 ÷ 6 – 18",
+            "hindi": "Simplify: 8 × 6 + 24 ÷ 6 – 18"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "34"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 8 × 6 + 24 ÷ 6 – 18.",
+              "hindi": "Here the question is asking about Simplify: 8 × 6 + 24 ÷ 6 – 18."
+            },
+            {
+              "english": "The information given to us is 8 × 6 + 24 ÷ 6 – 18.",
+              "hindi": "The information given to us is 8 × 6 + 24 ÷ 6 – 18."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 34.",
+              "hindi": "When you apply the rule carefully, you reach 34."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 34.",
+              "hindi": "So the final answer is 34."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 15",
+          "hindi": "Exercise 15"
+        },
+        {
+          "english": "Question 5.15.7",
+          "hindi": "Question 5.15.7"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex15_q08",
+      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 15",
+        "hindi": "Exercise 15"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.15.8",
+        "hindi": "Question 5.15.8"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.15.8?",
+        "hindi": "Can you solve Question 5.15.8?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.15.8",
+        "hindi": "Question 5.15.8"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 56 – 36 ÷ 4 × 2 + 7.",
+          "hindi": "This question is about Simplify: 56 – 36 ÷ 4 × 2 + 7."
+        },
+        {
+          "english": "From the question, we should notice 56 – 36 ÷ 4 × 2 + 7.",
+          "hindi": "From the question, we should notice 56 – 36 ÷ 4 × 2 + 7."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex15_q08_q1",
+          "prompt": {
+            "english": "Simplify: 56 – 36 ÷ 4 × 2 + 7",
+            "hindi": "Simplify: 56 – 36 ÷ 4 × 2 + 7"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "45"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 56 – 36 ÷ 4 × 2 + 7.",
+              "hindi": "Here the question is asking about Simplify: 56 – 36 ÷ 4 × 2 + 7."
+            },
+            {
+              "english": "The information given to us is 56 – 36 ÷ 4 × 2 + 7.",
+              "hindi": "The information given to us is 56 – 36 ÷ 4 × 2 + 7."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 45.",
+              "hindi": "When you apply the rule carefully, you reach 45."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 45.",
+              "hindi": "So the final answer is 45."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 15",
+          "hindi": "Exercise 15"
+        },
+        {
+          "english": "Question 5.15.8",
+          "hindi": "Question 5.15.8"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex15_q09",
+      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 15",
+        "hindi": "Exercise 15"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.15.9",
+        "hindi": "Question 5.15.9"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.15.9?",
+        "hindi": "Can you solve Question 5.15.9?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.15.9",
+        "hindi": "Question 5.15.9"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 56 ÷ 14 × 3 – 10 ÷ 5 + 1.",
+          "hindi": "This question is about Simplify: 56 ÷ 14 × 3 – 10 ÷ 5 + 1."
+        },
+        {
+          "english": "From the question, we should notice 56 ÷ 14 × 3 – 10 ÷ 5 + 1.",
+          "hindi": "From the question, we should notice 56 ÷ 14 × 3 – 10 ÷ 5 + 1."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex15_q09_q1",
+          "prompt": {
+            "english": "Simplify: 56 ÷ 14 × 3 – 10 ÷ 5 + 1",
+            "hindi": "Simplify: 56 ÷ 14 × 3 – 10 ÷ 5 + 1"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "11"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 56 ÷ 14 × 3 – 10 ÷ 5 + 1.",
+              "hindi": "Here the question is asking about Simplify: 56 ÷ 14 × 3 – 10 ÷ 5 + 1."
+            },
+            {
+              "english": "The information given to us is 56 ÷ 14 × 3 – 10 ÷ 5 + 1.",
+              "hindi": "The information given to us is 56 ÷ 14 × 3 – 10 ÷ 5 + 1."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 11.",
+              "hindi": "When you apply the rule carefully, you reach 11."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 11.",
+              "hindi": "So the final answer is 11."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 15",
+          "hindi": "Exercise 15"
+        },
+        {
+          "english": "Question 5.15.9",
+          "hindi": "Question 5.15.9"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex15_q10",
+      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 15",
+        "hindi": "Exercise 15"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.15.10",
+        "hindi": "Question 5.15.10"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.15.10?",
+        "hindi": "Can you solve Question 5.15.10?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.15.10",
+        "hindi": "Question 5.15.10"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 198 – 42 × 15 ÷ 5 + 6.",
+          "hindi": "This question is about Simplify: 198 – 42 × 15 ÷ 5 + 6."
+        },
+        {
+          "english": "From the question, we should notice 198 – 42 × 15 ÷ 5 + 6.",
+          "hindi": "From the question, we should notice 198 – 42 × 15 ÷ 5 + 6."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex15_q10_q1",
+          "prompt": {
+            "english": "Simplify: 198 – 42 × 15 ÷ 5 + 6",
+            "hindi": "Simplify: 198 – 42 × 15 ÷ 5 + 6"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "78"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 198 – 42 × 15 ÷ 5 + 6.",
+              "hindi": "Here the question is asking about Simplify: 198 – 42 × 15 ÷ 5 + 6."
+            },
+            {
+              "english": "The information given to us is 198 – 42 × 15 ÷ 5 + 6.",
+              "hindi": "The information given to us is 198 – 42 × 15 ÷ 5 + 6."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 78.",
+              "hindi": "When you apply the rule carefully, you reach 78."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 78.",
+              "hindi": "So the final answer is 78."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 15",
+          "hindi": "Exercise 15"
+        },
+        {
+          "english": "Question 5.15.10",
+          "hindi": "Question 5.15.10"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex15_q11",
+      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 15",
+        "hindi": "Exercise 15"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.15.11",
+        "hindi": "Question 5.15.11"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.15.11?",
+        "hindi": "Can you solve Question 5.15.11?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.15.11",
+        "hindi": "Question 5.15.11"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 105 × 14 ÷ 7 + 6 – 1.",
+          "hindi": "This question is about Simplify: 105 × 14 ÷ 7 + 6 – 1."
+        },
+        {
+          "english": "From the question, we should notice 105 × 14 ÷ 7 + 6 – 1.",
+          "hindi": "From the question, we should notice 105 × 14 ÷ 7 + 6 – 1."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex15_q11_q1",
+          "prompt": {
+            "english": "Simplify: 105 × 14 ÷ 7 + 6 – 1",
+            "hindi": "Simplify: 105 × 14 ÷ 7 + 6 – 1"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "215"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 105 × 14 ÷ 7 + 6 – 1.",
+              "hindi": "Here the question is asking about Simplify: 105 × 14 ÷ 7 + 6 – 1."
+            },
+            {
+              "english": "The information given to us is 105 × 14 ÷ 7 + 6 – 1.",
+              "hindi": "The information given to us is 105 × 14 ÷ 7 + 6 – 1."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 215.",
+              "hindi": "When you apply the rule carefully, you reach 215."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 215.",
+              "hindi": "So the final answer is 215."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 15",
+          "hindi": "Exercise 15"
+        },
+        {
+          "english": "Question 5.15.11",
+          "hindi": "Question 5.15.11"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex15_q12",
+      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 15",
+        "hindi": "Exercise 15"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.15.12",
+        "hindi": "Question 5.15.12"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.15.12?",
+        "hindi": "Can you solve Question 5.15.12?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.15.12",
+        "hindi": "Question 5.15.12"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 17 + 34 ÷ 17 × 5 – 20.",
+          "hindi": "This question is about Simplify: 17 + 34 ÷ 17 × 5 – 20."
+        },
+        {
+          "english": "From the question, we should notice 17 + 34 ÷ 17 × 5 – 20.",
+          "hindi": "From the question, we should notice 17 + 34 ÷ 17 × 5 – 20."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex15_q12_q1",
+          "prompt": {
+            "english": "Simplify: 17 + 34 ÷ 17 × 5 – 20",
+            "hindi": "Simplify: 17 + 34 ÷ 17 × 5 – 20"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "7"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 17 + 34 ÷ 17 × 5 – 20.",
+              "hindi": "Here the question is asking about Simplify: 17 + 34 ÷ 17 × 5 – 20."
+            },
+            {
+              "english": "The information given to us is 17 + 34 ÷ 17 × 5 – 20.",
+              "hindi": "The information given to us is 17 + 34 ÷ 17 × 5 – 20."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 7.",
+              "hindi": "When you apply the rule carefully, you reach 7."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 7.",
+              "hindi": "So the final answer is 7."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 15",
+          "hindi": "Exercise 15"
+        },
+        {
+          "english": "Question 5.15.12",
+          "hindi": "Question 5.15.12"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex16_q01",
+      "sourceLessonId": "rs_exercise_ch05_ex16",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 16",
+        "hindi": "Exercise 16"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.16.1",
+        "hindi": "Question 5.16.1"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.16.1?",
+        "hindi": "Can you solve Question 5.16.1?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.16.1",
+        "hindi": "Question 5.16.1"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 12 + 9 ÷ 3.",
+          "hindi": "This question is about Simplify: 12 + 9 ÷ 3."
+        },
+        {
+          "english": "From the question, we should notice 12 + 9 ÷ 3.",
+          "hindi": "From the question, we should notice 12 + 9 ÷ 3."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex16_q01_q1",
+          "prompt": {
+            "english": "Simplify: 12 + 9 ÷ 3",
+            "hindi": "Simplify: 12 + 9 ÷ 3"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "17"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 12 + 9 ÷ 3.",
+              "hindi": "Here the question is asking about Simplify: 12 + 9 ÷ 3."
+            },
+            {
+              "english": "The information given to us is 12 + 9 ÷ 3.",
+              "hindi": "The information given to us is 12 + 9 ÷ 3."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 17.",
+              "hindi": "When you apply the rule carefully, you reach 17."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 17.",
+              "hindi": "So the final answer is 17."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 16",
+          "hindi": "Exercise 16"
+        },
+        {
+          "english": "Question 5.16.1",
+          "hindi": "Question 5.16.1"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex16_q02",
+      "sourceLessonId": "rs_exercise_ch05_ex16",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 16",
+        "hindi": "Exercise 16"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.16.2",
+        "hindi": "Question 5.16.2"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.16.2?",
+        "hindi": "Can you solve Question 5.16.2?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.16.2",
+        "hindi": "Question 5.16.2"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 16 × 8 ÷ 4.",
+          "hindi": "This question is about Simplify: 16 × 8 ÷ 4."
+        },
+        {
+          "english": "From the question, we should notice 16 × 8 ÷ 4.",
+          "hindi": "From the question, we should notice 16 × 8 ÷ 4."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex16_q02_q1",
+          "prompt": {
+            "english": "Simplify: 16 × 8 ÷ 4",
+            "hindi": "Simplify: 16 × 8 ÷ 4"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "12"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 16 × 8 ÷ 4.",
+              "hindi": "Here the question is asking about Simplify: 16 × 8 ÷ 4."
+            },
+            {
+              "english": "The information given to us is 16 × 8 ÷ 4.",
+              "hindi": "The information given to us is 16 × 8 ÷ 4."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 12.",
+              "hindi": "When you apply the rule carefully, you reach 12."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 12.",
+              "hindi": "So the final answer is 12."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 16",
+          "hindi": "Exercise 16"
+        },
+        {
+          "english": "Question 5.16.2",
+          "hindi": "Question 5.16.2"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex16_q03",
+      "sourceLessonId": "rs_exercise_ch05_ex16",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 16",
+        "hindi": "Exercise 16"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.16.3",
+        "hindi": "Question 5.16.3"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.16.3?",
+        "hindi": "Can you solve Question 5.16.3?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.16.3",
+        "hindi": "Question 5.16.3"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 23 – 8 × 2.",
+          "hindi": "This question is about Simplify: 23 – 8 × 2."
+        },
+        {
+          "english": "From the question, we should notice 23 – 8 × 2.",
+          "hindi": "From the question, we should notice 23 – 8 × 2."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex16_q03_q1",
+          "prompt": {
+            "english": "Simplify: 23 – 8 × 2",
+            "hindi": "Simplify: 23 – 8 × 2"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "18"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 23 – 8 × 2.",
+              "hindi": "Here the question is asking about Simplify: 23 – 8 × 2."
+            },
+            {
+              "english": "The information given to us is 23 – 8 × 2.",
+              "hindi": "The information given to us is 23 – 8 × 2."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 18.",
+              "hindi": "When you apply the rule carefully, you reach 18."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 18.",
+              "hindi": "So the final answer is 18."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 16",
+          "hindi": "Exercise 16"
+        },
+        {
+          "english": "Question 5.16.3",
+          "hindi": "Question 5.16.3"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex16_q04",
+      "sourceLessonId": "rs_exercise_ch05_ex16",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 16",
+        "hindi": "Exercise 16"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.16.4",
+        "hindi": "Question 5.16.4"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.16.4?",
+        "hindi": "Can you solve Question 5.16.4?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.16.4",
+        "hindi": "Question 5.16.4"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 32 ÷ 8 + 4 × 6 – 2.",
+          "hindi": "This question is about Simplify: 32 ÷ 8 + 4 × 6 – 2."
+        },
+        {
+          "english": "From the question, we should notice 32 ÷ 8 + 4 × 6 – 2.",
+          "hindi": "From the question, we should notice 32 ÷ 8 + 4 × 6 – 2."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex16_q04_q1",
+          "prompt": {
+            "english": "Simplify: 32 ÷ 8 + 4 × 6 – 2",
+            "hindi": "Simplify: 32 ÷ 8 + 4 × 6 – 2"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "16"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 32 ÷ 8 + 4 × 6 – 2.",
+              "hindi": "Here the question is asking about Simplify: 32 ÷ 8 + 4 × 6 – 2."
+            },
+            {
+              "english": "The information given to us is 32 ÷ 8 + 4 × 6 – 2.",
+              "hindi": "The information given to us is 32 ÷ 8 + 4 × 6 – 2."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 16.",
+              "hindi": "When you apply the rule carefully, you reach 16."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 16.",
+              "hindi": "So the final answer is 16."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 16",
+          "hindi": "Exercise 16"
+        },
+        {
+          "english": "Question 5.16.4",
+          "hindi": "Question 5.16.4"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex16_q05",
+      "sourceLessonId": "rs_exercise_ch05_ex16",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 16",
+        "hindi": "Exercise 16"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.16.5",
+        "hindi": "Question 5.16.5"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.16.5?",
+        "hindi": "Can you solve Question 5.16.5?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.16.5",
+        "hindi": "Question 5.16.5"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 100 – 72 ÷ 8 + 4 × 3.",
+          "hindi": "This question is about Simplify: 100 – 72 ÷ 8 + 4 × 3."
+        },
+        {
+          "english": "From the question, we should notice 100 – 72 ÷ 8 + 4 × 3.",
+          "hindi": "From the question, we should notice 100 – 72 ÷ 8 + 4 × 3."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex16_q05_q1",
+          "prompt": {
+            "english": "Simplify: 100 – 72 ÷ 8 + 4 × 3",
+            "hindi": "Simplify: 100 – 72 ÷ 8 + 4 × 3"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "60"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 100 – 72 ÷ 8 + 4 × 3.",
+              "hindi": "Here the question is asking about Simplify: 100 – 72 ÷ 8 + 4 × 3."
+            },
+            {
+              "english": "The information given to us is 100 – 72 ÷ 8 + 4 × 3.",
+              "hindi": "The information given to us is 100 – 72 ÷ 8 + 4 × 3."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 60.",
+              "hindi": "When you apply the rule carefully, you reach 60."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 60.",
+              "hindi": "So the final answer is 60."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 16",
+          "hindi": "Exercise 16"
+        },
+        {
+          "english": "Question 5.16.5",
+          "hindi": "Question 5.16.5"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex16_q06",
+      "sourceLessonId": "rs_exercise_ch05_ex16",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 16",
+        "hindi": "Exercise 16"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.16.6",
+        "hindi": "Question 5.16.6"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.16.6?",
+        "hindi": "Can you solve Question 5.16.6?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.16.6",
+        "hindi": "Question 5.16.6"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 30 + 75 ÷ 15 × 4 – 18.",
+          "hindi": "This question is about Simplify: 30 + 75 ÷ 15 × 4 – 18."
+        },
+        {
+          "english": "From the question, we should notice 30 + 75 ÷ 15 × 4 – 18.",
+          "hindi": "From the question, we should notice 30 + 75 ÷ 15 × 4 – 18."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex16_q06_q1",
+          "prompt": {
+            "english": "Simplify: 30 + 75 ÷ 15 × 4 – 18",
+            "hindi": "Simplify: 30 + 75 ÷ 15 × 4 – 18"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "8"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 30 + 75 ÷ 15 × 4 – 18.",
+              "hindi": "Here the question is asking about Simplify: 30 + 75 ÷ 15 × 4 – 18."
+            },
+            {
+              "english": "The information given to us is 30 + 75 ÷ 15 × 4 – 18.",
+              "hindi": "The information given to us is 30 + 75 ÷ 15 × 4 – 18."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 8.",
+              "hindi": "When you apply the rule carefully, you reach 8."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 8.",
+              "hindi": "So the final answer is 8."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 16",
+          "hindi": "Exercise 16"
+        },
+        {
+          "english": "Question 5.16.6",
+          "hindi": "Question 5.16.6"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex16_q07",
+      "sourceLessonId": "rs_exercise_ch05_ex16",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 16",
+        "hindi": "Exercise 16"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.16.7",
+        "hindi": "Question 5.16.7"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.16.7?",
+        "hindi": "Can you solve Question 5.16.7?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.16.7",
+        "hindi": "Question 5.16.7"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 8 × 6 + 24 ÷ 6 – 18.",
+          "hindi": "This question is about Simplify: 8 × 6 + 24 ÷ 6 – 18."
+        },
+        {
+          "english": "From the question, we should notice 8 × 6 + 24 ÷ 6 – 18.",
+          "hindi": "From the question, we should notice 8 × 6 + 24 ÷ 6 – 18."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex16_q07_q1",
+          "prompt": {
+            "english": "Simplify: 8 × 6 + 24 ÷ 6 – 18",
+            "hindi": "Simplify: 8 × 6 + 24 ÷ 6 – 18"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "4"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 8 × 6 + 24 ÷ 6 – 18.",
+              "hindi": "Here the question is asking about Simplify: 8 × 6 + 24 ÷ 6 – 18."
+            },
+            {
+              "english": "The information given to us is 8 × 6 + 24 ÷ 6 – 18.",
+              "hindi": "The information given to us is 8 × 6 + 24 ÷ 6 – 18."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 4.",
+              "hindi": "When you apply the rule carefully, you reach 4."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 4.",
+              "hindi": "So the final answer is 4."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 16",
+          "hindi": "Exercise 16"
+        },
+        {
+          "english": "Question 5.16.7",
+          "hindi": "Question 5.16.7"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch05_ex16_q08",
+      "sourceLessonId": "rs_exercise_ch05_ex16",
+      "chapterNumber": 5,
+      "chapterTitle": {
+        "english": "Simplification",
+        "hindi": "सरलीकरण"
+      },
+      "lessonTitle": {
+        "english": "Exercise 16",
+        "hindi": "Exercise 16"
+      },
+      "subtopicTitle": {
+        "english": "Question 5.16.8",
+        "hindi": "Question 5.16.8"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 5.16.8?",
+        "hindi": "Can you solve Question 5.16.8?"
+      },
+      "explanationTitle": {
+        "english": "Question 5.16.8",
+        "hindi": "Question 5.16.8"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+          "hindi": "Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+        },
+        {
+          "english": "This question is about Simplify: 56 – 36 ÷ 4 × 2 + 7.",
+          "hindi": "This question is about Simplify: 56 – 36 ÷ 4 × 2 + 7."
+        },
+        {
+          "english": "From the question, we should notice 56 – 36 ÷ 4 × 2 + 7.",
+          "hindi": "From the question, we should notice 56 – 36 ÷ 4 × 2 + 7."
+        },
+        {
+          "english": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+          "hindi": "To move toward the answer, use this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+        },
+        {
+          "english": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+          "hindi": "A similar model helps here. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch05_ex16_q08_q1",
+          "prompt": {
+            "english": "Simplify: 56 – 36 ÷ 4 × 2 + 7",
+            "hindi": "Simplify: 56 – 36 ÷ 4 × 2 + 7"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "3"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction.",
+              "hindi": "We begin with the main idea used in this exercise. Simplification follows the correct order of operations, so brackets and multiplication or division are handled before addition or subtraction."
+            },
+            {
+              "english": "Here the question is asking about Simplify: 56 – 36 ÷ 4 × 2 + 7.",
+              "hindi": "Here the question is asking about Simplify: 56 – 36 ÷ 4 × 2 + 7."
+            },
+            {
+              "english": "The information given to us is 56 – 36 ÷ 4 × 2 + 7.",
+              "hindi": "The information given to us is 56 – 36 ÷ 4 × 2 + 7."
+            },
+            {
+              "english": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly.",
+              "hindi": "So we follow this method. Read the whole expression first, then solve it in the correct order instead of moving from left to right blindly."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition.",
+              "hindi": "A worked pattern for the same kind of question is this. 18 + 6 x 4 = 18 + 24 = 42 because multiplication is done before addition."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 3.",
+              "hindi": "When you apply the rule carefully, you reach 3."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 3.",
+              "hindi": "So the final answer is 3."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 16",
+          "hindi": "Exercise 16"
+        },
+        {
+          "english": "Question 5.16.8",
+          "hindi": "Question 5.16.8"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    }
+  ]
+}

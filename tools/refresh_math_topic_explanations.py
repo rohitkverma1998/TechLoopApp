@@ -9,6 +9,8 @@ from pathlib import Path
 from shutil import which
 from typing import Any
 
+from subject_pack_io import load_book, save_book
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_PACK_PATH = ROOT / "app" / "src" / "main" / "assets" / "subject_packs" / "class5_rs_aggarwal_math.json"
@@ -36,20 +38,20 @@ SCHEMA: dict[str, Any] = {
 }
 
 
-def load_json(path: Path) -> dict[str, Any]:
+def load_json_file(path: Path) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def save_json(path: Path, payload: dict[str, Any]) -> None:
+def save_json_file(path: Path, payload: dict[str, Any]) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def ensure_state(path: Path, *, reset: bool) -> dict[str, Any]:
     if reset or not path.exists():
         state = {"completed_topic_ids": [], "failed_topic_ids": {}, "pack_path": str(DEFAULT_PACK_PATH)}
-        save_json(path, state)
+        save_json_file(path, state)
         return state
-    return load_json(path)
+    return load_json_file(path)
 
 
 def topic_title(topic: dict[str, Any]) -> str:
@@ -236,7 +238,7 @@ def main() -> None:
     state_path.parent.mkdir(parents=True, exist_ok=True)
 
     state = ensure_state(state_path, reset=args.reset_state)
-    pack = load_json(pack_path)
+    pack = load_book(pack_path)
     only_topic_ids = set(args.only_topic_ids) if args.only_topic_ids else None
     pending_entries = selected_topic_entries(
         pack,
@@ -291,15 +293,15 @@ def main() -> None:
                     failed = dict(state.get("failed_topic_ids", {}))
                     failed.pop(topic_id, None)
                     state["failed_topic_ids"] = failed
-                    save_json(pack_path, pack)
-                    save_json(state_path, state)
+                    save_book(pack_path, pack)
+                    save_json_file(state_path, state)
                     processed += 1
                     print(f"[{processed}/{total}] refreshed {topic_id} -> {title}")
                 except Exception as exc:  # pragma: no cover - long-running external command errors
                     failed = dict(state.get("failed_topic_ids", {}))
                     failed[topic_id] = str(exc)
                     state["failed_topic_ids"] = failed
-                    save_json(state_path, state)
+                    save_json_file(state_path, state)
                     print(f"[error] {topic_id}: {exc}")
 
         if state.get("failed_topic_ids"):

@@ -1,0 +1,3137 @@
+{
+  "chapterNumber": 24,
+  "chapterTitle": {
+    "english": "Volume",
+    "hindi": "आयतन"
+  },
+  "topics": [
+    {
+      "id": "rs_ch24_solids",
+      "sourceLessonId": "rs_ch24",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "subtopicTitle": {
+        "english": "Solids",
+        "hindi": "ठोस आकृतियाँ"
+      },
+      "knowPrompt": {
+        "english": "Do you know this topic: Solids?",
+        "hindi": "क्या आप यह विषय जानते हैं: ठोस आकृतियाँ?"
+      },
+      "explanationTitle": {
+        "english": "Solids",
+        "hindi": "ठोस आकृतियाँ"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "A solid is a shape that has length, breadth, and height. It is not flat. A solid takes up space, and we can usually hold it in our hand. A ball, a box, a can, and an ice-cream cone are all examples of solids. Solids are also called 3D shapes because they have three dimensions.",
+          "hindi": "ठोस आकृति वह आकृति होती है जिसमें लंबाई, चौड़ाई और ऊँचाई होती है। यह सपाट नहीं होती। ठोस आकृति जगह घेरती है, और हम उसे अक्सर हाथ में पकड़ सकते हैं। गेंद, डिब्बा, कैन और आइसक्रीम कोन ठोस आकृतियों के उदाहरण हैं। ठोस आकृतियों को 3D आकार भी कहा जाता है क्योंकि इनमें तीन माप होते हैं।"
+        },
+        {
+          "english": "When we study solids, we look at some simple parts. A face is a flat surface of a solid. An edge is the line where two faces meet. A vertex is a corner where edges meet. A cube has 6 faces, 12 edges, and 8 vertices. A cuboid also has 6 faces, 12 edges, and 8 vertices. A sphere has no flat face, no edge, and no vertex. A cylinder has 2 flat circular faces and 1 curved surface. A cone has 1 flat circular face, 1 curved surface, and 1 vertex.",
+          "hindi": "जब हम ठोस आकृतियों को पढ़ते हैं, तब हम उनके कुछ आसान भाग देखते हैं। फलक वह समतल सतह है जो किसी ठोस आकृति पर होती है। धार वह रेखा है जहाँ दो फलक मिलते हैं। शीर्ष वह कोना है जहाँ धारें मिलती हैं। घन में 6 फलक, 12 धारें और 8 शीर्ष होते हैं। घनाभ में भी 6 फलक, 12 धारें और 8 शीर्ष होते हैं। गोले में कोई समतल फलक, कोई धार और कोई शीर्ष नहीं होता। बेलन में 2 समतल गोल फलक और 1 वक्र सतह होती है। शंकु में 1 समतल गोल फलक, 1 वक्र सतह और 1 शीर्ष होता है।"
+        },
+        {
+          "english": "A good way to know whether something is a solid is to ask this: Does it have thickness and can it occupy space? If the answer is yes, it is a solid. A square drawn on paper is flat, so it is not a solid. A football is a solid because it has shape and takes up space. So, in a question like which of the following is a solid, choose the object that is not flat and has depth.",
+          "hindi": "यह जानने का अच्छा तरीका है कि कोई वस्तु ठोस है या नहीं, हम यह पूछें: क्या इसमें मोटाई है और क्या यह जगह घेरती है? अगर उत्तर हाँ है, तो वह ठोस है। कागज पर बना वर्ग सपाट होता है, इसलिए वह ठोस नहीं है। फुटबॉल ठोस है क्योंकि उसका आकार है और वह जगह घेरती है। इसलिए, यदि प्रश्न हो कि इनमें से कौन-सी आकृति ठोस है, तो वही वस्तु चुनो जो सपाट न हो और जिसमें गहराई हो।"
+        },
+        {
+          "english": "Some solids have simple formulas to find how much space is inside them. This inside space is called volume. For a cube, volume = side × side × side. For a cuboid, volume = length × breadth × height. We use these formulas only when the measurements are given and when the solid is a cube or a cuboid. For many class 5 questions, you may only need to identify the solid or count faces, edges, and vertices.",
+          "hindi": "कुछ ठोस आकृतियों के लिए यह जानने के आसान सूत्र होते हैं कि उनके अंदर कितनी जगह है। इस अंदर की जगह को आयतन कहते हैं। घन का आयतन = भुजा × भुजा × भुजा। घनाभ का आयतन = लंबाई × चौड़ाई × ऊँचाई। हम ये सूत्र तभी उपयोग करते हैं जब माप दिए हों और आकृति घन या घनाभ हो। कक्षा 5 के बहुत से प्रश्नों में तुम्हें केवल ठोस आकृति पहचाननी होती है या उसके फलक, धार और शीर्ष गिनने होते हैं।"
+        },
+        {
+          "english": "We see solids everywhere in real life. A dice is like a cube. A brick, a book, and a pencil box are like cuboids. A football and an orange are like spheres. A cold drink can is like a cylinder. An ice-cream cone and a birthday cap are like cones. Looking at real objects makes solids easy to understand because maths connects with things around us.",
+          "hindi": "हमें ठोस आकृतियाँ रोजमर्रा की जिंदगी में हर जगह दिखती हैं। पासा घन जैसा होता है। ईंट, किताब और पेंसिल बॉक्स घनाभ जैसे होते हैं। फुटबॉल और संतरा गोले जैसे होते हैं। ठंडे पेय का कैन बेलन जैसा होता है। आइसक्रीम कोन और जन्मदिन की टोपी शंकु जैसे होते हैं। जब हम आसपास की चीजों को देखते हैं, तब ठोस आकृतियाँ समझना आसान हो जाता है क्योंकि गणित हमारी रोज की चीजों से जुड़ जाता है।"
+        },
+        {
+          "english": "Now look at an easy worked solution. Suppose the question is: Which is a solid among a square, a circle, and a ball? First, think about the square. It is flat, so it is not a solid. Next, think about the circle. It is also flat, so it is not a solid. Now think about the ball. It has thickness and takes up space, so it is a solid. Therefore, the correct answer is the ball.",
+          "hindi": "अब एक आसान हल किया हुआ सवाल देखो। मान लो प्रश्न है: वर्ग, वृत्त और गेंद में से कौन-सी ठोस आकृति है? पहले वर्ग के बारे में सोचो। वह सपाट है, इसलिए वह ठोस नहीं है। फिर वृत्त के बारे में सोचो। वह भी सपाट है, इसलिए वह भी ठोस नहीं है। अब गेंद के बारे में सोचो। उसमें मोटाई है और वह जगह घेरती है, इसलिए वह ठोस है। इसलिए सही उत्तर गेंद है।"
+        },
+        {
+          "english": "Now take a medium worked solution. A toy box is shaped like a cuboid. Find its faces, edges, and vertices. Step 1: Remember the cuboid facts. A cuboid has 6 faces. Step 2: Count the edges. A cuboid has 12 edges. Step 3: Count the corners. A cuboid has 8 vertices. So the toy box has 6 faces, 12 edges, and 8 vertices. We did not need any formula here, only the correct properties of a cuboid.",
+          "hindi": "अब एक मध्यम स्तर का हल किया हुआ सवाल देखो। एक खिलौने का डिब्बा घनाभ के आकार का है। उसके फलक, धार और शीर्ष बताओ। चरण 1: घनाभ के गुण याद करो। घनाभ में 6 फलक होते हैं। चरण 2: धारें गिनो। घनाभ में 12 धारें होती हैं। चरण 3: कोने गिनो। घनाभ में 8 शीर्ष होते हैं। इसलिए उस खिलौने के डिब्बे में 6 फलक, 12 धारें और 8 शीर्ष हैं। यहाँ हमें किसी सूत्र की जरूरत नहीं पड़ी, केवल घनाभ के सही गुण याद रखने थे।"
+        },
+        {
+          "english": "Now take a harder worked solution. A cube-shaped block has side 4 cm. Find its volume. Step 1: Write the formula. Volume of a cube = side × side × side. Step 2: Put the side value in the formula. Volume = 4 × 4 × 4. Step 3: Multiply step by step. First 4 × 4 = 16. Then 16 × 4 = 64. Step 4: Write the unit. The volume is 64 cubic centimetres, written as 64 cm cubed. So, the volume of the cube is 64 cm cubed.",
+          "hindi": "अब एक थोड़ा कठिन हल किया हुआ सवाल देखो। एक घन के आकार के ब्लॉक की भुजा 4 सेमी है। उसका आयतन निकालो। चरण 1: सूत्र लिखो। घन का आयतन = भुजा × भुजा × भुजा। चरण 2: भुजा का मान सूत्र में रखो। आयतन = 4 × 4 × 4। चरण 3: गुणा धीरे-धीरे करो। पहले 4 × 4 = 16। फिर 16 × 4 = 64। चरण 4: सही इकाई लिखो। आयतन 64 घन सेमी होगा। इसलिए घन का आयतन 64 घन सेमी है।"
+        },
+        {
+          "english": "Common mistakes are very simple but important. Children sometimes think a square is a solid, but it is only a flat shape. Some children mix up edges and vertices, so remember that edges are lines and vertices are corners. Some children try to use the volume formula for every solid, but that is wrong. Use the formula only when the question gives measurements and the solid is a cube or cuboid. Also count carefully, because one missed edge or corner gives the wrong answer.",
+          "hindi": "सामान्य गलतियाँ छोटी लगती हैं, लेकिन बहुत महत्वपूर्ण होती हैं। बच्चे कभी-कभी सोचते हैं कि वर्ग एक ठोस आकृति है, लेकिन वह केवल एक सपाट आकृति है। कुछ बच्चे धार और शीर्ष में गड़बड़ कर देते हैं, इसलिए याद रखो कि धार रेखाएँ होती हैं और शीर्ष कोने होते हैं। कुछ बच्चे हर ठोस आकृति में आयतन का सूत्र लगा देते हैं, लेकिन यह गलत है। सूत्र तभी लगाओ जब प्रश्न में माप दिए हों और आकृति घन या घनाभ हो। गिनती भी ध्यान से करो, क्योंकि एक धार या एक कोना छूट जाने पर उत्तर गलत हो जाएगा।"
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "solids_q1",
+          "prompt": {
+            "english": "Which of the following is a solid?",
+            "hindi": "निम्न में से कौन-सी ठोस आकृति है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Cube",
+              "hindi": "घन"
+            },
+            {
+              "english": "Line",
+              "hindi": "रेखा"
+            },
+            {
+              "english": "Ray",
+              "hindi": "किरण"
+            },
+            {
+              "english": "Angle",
+              "hindi": "कोण"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "A solid has length, breadth and height.",
+            "hindi": "ठोस आकृति में लंबाई, चौड़ाई और ऊँचाई होती है।"
+          },
+          "wrongReason": {
+            "english": "The main idea in solids was not used correctly.",
+            "hindi": "ठोस आकृतियाँ के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
+          },
+          "supportExample": {
+            "english": "A cube occupies space in three dimensions.",
+            "hindi": "घन तीन आयामों में स्थान घेरता है।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Understanding Solids",
+            "hindi": "ठोस आकृतियाँ को समझें"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "This question is solved by using the same idea from the topic. A solid is a three-dimensional object that occupies space.",
+              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। ठोस आकृति त्रि-आयामी होती है और स्थान घेरती है।"
+            },
+            {
+              "english": "The question asks us to work with this situation: Which of the following is a solid?",
+              "hindi": "प्रश्न हमें यह स्थिति देता है: निम्न में से कौन-सी ठोस आकृति है?"
+            },
+            {
+              "english": "To move from the question to the answer, use this idea directly: A solid has length, breadth and height.",
+              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: ठोस आकृति में लंबाई, चौड़ाई और ऊँचाई होती है।"
+            },
+            {
+              "english": "A similar example makes the method clear. A cube is a solid.",
+              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। घन एक ठोस आकृति है।"
+            },
+            {
+              "english": "Using the same method here, we get: A cube occupies space in three dimensions.",
+              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: घन तीन आयामों में स्थान घेरता है।"
+            },
+            {
+              "english": "After solving, choose the option that matches the idea and the final value.",
+              "hindi": "हल करने के बाद वही विकल्प चुनिए जो सही विचार और अंतिम मान से मेल खाता हो।"
+            },
+            {
+              "english": "So the correct answer is Cube.",
+              "hindi": "इसलिए सही उत्तर घन है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Volume",
+          "hindi": "आयतन"
+        },
+        {
+          "english": "Solids",
+          "hindi": "ठोस आकृतियाँ"
+        }
+      ],
+      "mistakeFocus": "CONCEPT_CONFUSION"
+    },
+    {
+      "id": "rs_ch24_volume_of_a_solid_and_units_of_volume",
+      "sourceLessonId": "rs_ch24",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "subtopicTitle": {
+        "english": "Volume of a Solid and Units of Volume",
+        "hindi": "ठोस का आयतन और आयतन की इकाइयाँ"
+      },
+      "knowPrompt": {
+        "english": "Do you know this topic: Volume of a Solid and Units of Volume?",
+        "hindi": "क्या आप यह विषय जानते हैं: ठोस का आयतन और आयतन की इकाइयाँ?"
+      },
+      "explanationTitle": {
+        "english": "Volume of a Solid and Units of Volume",
+        "hindi": "ठोस का आयतन और आयतन की इकाइयाँ"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume means the space inside a solid object. A solid is something that has length, breadth, and height, such as a box, brick, dice, cupboard, or eraser. If one box can hold more things inside than another box, then it has a greater volume. So volume helps us understand how big a solid is on the inside.",
+          "hindi": "आयतन का मतलब है किसी ठोस वस्तु के अंदर की जगह। ठोस वस्तु वह होती है जिसकी लंबाई, चौड़ाई और ऊँचाई होती है, जैसे डिब्बा, ईंट, पासा, अलमारी या रबर। अगर एक डिब्बे के अंदर दूसरी चीजों के लिए ज्यादा जगह है, तो उसका आयतन ज्यादा है। इसलिए आयतन हमें बताता है कि किसी ठोस के अंदर कितनी जगह है।"
+        },
+        {
+          "english": "Volume is measured in cubic units. So if someone asks, \"Volume is measured in:\", the correct idea is cubic units. Common units are cubic centimetres (cm³), cubic metres (m³), and cubic millimetres (mm³). One cubic centimetre means a tiny cube that is 1 cm long, 1 cm wide, and 1 cm high.",
+          "hindi": "आयतन को घन इकाइयों में मापा जाता है। इसलिए अगर कोई पूछे, \"Volume is measured in:\", तो सही बात है घन इकाइयाँ। सामान्य इकाइयाँ हैं घन सेंटीमीटर (cm³), घन मीटर (m³) और घन मिलीमीटर (mm³)। एक घन सेंटीमीटर का मतलब है 1 सेमी लंबा, 1 सेमी चौड़ा और 1 सेमी ऊँचा एक छोटा घन।"
+        },
+        {
+          "english": "The most useful formula for class 5 is for a cuboid, which is a box-shaped solid. Volume of a cuboid = length × breadth × height. For a cube, all sides are equal, so volume of a cube = side × side × side. We multiply because we are finding how many small cubes fit in each row, in each layer, and then in the full height.",
+          "hindi": "कक्षा 5 में सबसे उपयोगी सूत्र घनाभ के लिए होता है। घनाभ एक डिब्बे जैसी ठोस आकृति होती है। घनाभ का आयतन = लंबाई × चौड़ाई × ऊँचाई। घन में सभी भुजाएँ बराबर होती हैं, इसलिए घन का आयतन = भुजा × भुजा × भुजा। हम गुणा इसलिए करते हैं क्योंकि हमें पता करना होता है कि कितने छोटे घन एक पंक्ति में, एक परत में और पूरी ऊँचाई तक आ सकते हैं।"
+        },
+        {
+          "english": "We use volume in real life all the time. A lunch box with more volume can hold more food. A storage box with more volume can keep more toys. A brick with bigger length, breadth, and height has more volume. Even a room has volume because it has space inside it.",
+          "hindi": "हम रोजमर्रा की जिंदगी में आयतन का उपयोग करते हैं। जिस टिफिन बॉक्स का आयतन ज्यादा होगा, उसमें ज्यादा खाना आ सकता है। जिस स्टोरेज बॉक्स का आयतन ज्यादा होगा, उसमें ज्यादा खिलौने रखे जा सकते हैं। बड़ी लंबाई, चौड़ाई और ऊँचाई वाली ईंट का आयतन भी ज्यादा होगा। एक कमरा भी आयतन रखता है, क्योंकि उसके अंदर जगह होती है।"
+        },
+        {
+          "english": "Now take an easy question. A cube has side 3 cm. The formula is volume = side × side × side. Put the number in the formula: 3 × 3 × 3. First, 3 × 3 = 9. Then, 9 × 3 = 27. So the volume of the cube is 27 cm³.",
+          "hindi": "अब एक आसान सवाल लेते हैं। एक घन की भुजा 3 सेमी है। सूत्र है आयतन = भुजा × भुजा × भुजा। अब मान रखो: 3 × 3 × 3। पहले 3 × 3 = 9। फिर 9 × 3 = 27। इसलिए उस घन का आयतन 27 cm³ है।"
+        },
+        {
+          "english": "Now take a medium question. A cuboid has length 5 cm, breadth 4 cm, and height 3 cm. The formula is volume = length × breadth × height. Put the values in: 5 × 4 × 3. First, 5 × 4 = 20. Then, 20 × 3 = 60. So the volume of the cuboid is 60 cm³.",
+          "hindi": "अब एक मध्यम सवाल लेते हैं। एक घनाभ की लंबाई 5 सेमी, चौड़ाई 4 सेमी और ऊँचाई 3 सेमी है। सूत्र है आयतन = लंबाई × चौड़ाई × ऊँचाई। अब मान रखो: 5 × 4 × 3। पहले 5 × 4 = 20। फिर 20 × 3 = 60। इसलिए उस घनाभ का आयतन 60 cm³ है।"
+        },
+        {
+          "english": "Now take a harder question with unit change. A box is 1 m long, 20 cm wide, and 15 cm high. First make the units the same. Since 1 m = 100 cm, the box is 100 cm long, 20 cm wide, and 15 cm high. Now use the formula volume = length × breadth × height. So volume = 100 × 20 × 15. First, 100 × 20 = 2000. Then, 2000 × 15 = 30000. So the volume of the box is 30000 cm³.",
+          "hindi": "अब एक थोड़ा कठिन सवाल लेते हैं जिसमें इकाई बदलनी है। एक डिब्बा 1 मीटर लंबा, 20 सेमी चौड़ा और 15 सेमी ऊँचा है। पहले सभी इकाइयाँ एक जैसी करो। क्योंकि 1 मीटर = 100 सेमी, इसलिए डिब्बे की लंबाई 100 सेमी, चौड़ाई 20 सेमी और ऊँचाई 15 सेमी होगी। अब सूत्र लगाओ: आयतन = लंबाई × चौड़ाई × ऊँचाई। इसलिए आयतन = 100 × 20 × 15। पहले 100 × 20 = 2000। फिर 2000 × 15 = 30000। इसलिए डिब्बे का आयतन 30000 cm³ है।"
+        },
+        {
+          "english": "Common mistakes are very important to avoid. Do not add length, breadth, and height, because volume needs multiplication, not addition. Do not write the answer in cm or cm², because volume is written in cubic units like cm³ or m³. Do not mix different units without changing them first. Also remember that area is for flat surfaces, but volume is for the space inside a solid.",
+          "hindi": "कुछ सामान्य गलतियों से बचना बहुत जरूरी है। लंबाई, चौड़ाई और ऊँचाई को जोड़ना नहीं है, क्योंकि आयतन में गुणा होता है, जोड़ नहीं। उत्तर cm या cm² में नहीं लिखना है, क्योंकि आयतन घन इकाइयों में लिखा जाता है, जैसे cm³ या m³। अलग-अलग इकाइयों को बिना बदले एक साथ नहीं लेना चाहिए। और याद रखो, क्षेत्रफल सपाट सतह के लिए होता है, जबकि आयतन ठोस वस्तु के अंदर की जगह के लिए होता है।"
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "volume_of_a_solid_and_units_of_volume_q1",
+          "prompt": {
+            "english": "Volume is measured in:",
+            "hindi": "आयतन किसमें मापा जाता है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Cubic units",
+              "hindi": "घन इकाइयाँ"
+            },
+            {
+              "english": "Degrees",
+              "hindi": "डिग्री"
+            },
+            {
+              "english": "Metres only",
+              "hindi": "केवल मीटर"
+            },
+            {
+              "english": "Percent",
+              "hindi": "प्रतिशत"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Look for a three-dimensional unit.",
+            "hindi": "तीन आयामी इकाई के बारे में सोचिए।"
+          },
+          "wrongReason": {
+            "english": "The main idea in volume of a solid and units of volume was not used correctly.",
+            "hindi": "ठोस का आयतन और आयतन की इकाइयाँ के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
+          },
+          "supportExample": {
+            "english": "Volume uses cubic units such as cm3 or m3.",
+            "hindi": "आयतन के लिए cm3 या m3 जैसी घन इकाइयाँ होती हैं।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Understanding Volume of a Solid and Units of Volume",
+            "hindi": "ठोस का आयतन और आयतन की इकाइयाँ को समझें"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "This question is solved by using the same idea from the topic. Volume tells how much space a solid occupies, and it is measured in cubic units.",
+              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। आयतन बताता है कि ठोस आकृति कितना स्थान घेरती है, और इसे घन इकाइयों में मापते हैं।"
+            },
+            {
+              "english": "The question asks us to work with this situation: Volume is measured in:",
+              "hindi": "प्रश्न हमें यह स्थिति देता है: आयतन किसमें मापा जाता है?"
+            },
+            {
+              "english": "To move from the question to the answer, use this idea directly: Look for a three-dimensional unit.",
+              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: तीन आयामी इकाई के बारे में सोचिए।"
+            },
+            {
+              "english": "A similar example makes the method clear. A small box can be measured in cubic centimetres.",
+              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। एक छोटे डिब्बे का आयतन घन सेंटीमीटर में मापा जा सकता है।"
+            },
+            {
+              "english": "Using the same method here, we get: Volume uses cubic units such as cm3 or m3.",
+              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: आयतन के लिए cm3 या m3 जैसी घन इकाइयाँ होती हैं।"
+            },
+            {
+              "english": "After solving, choose the option that matches the idea and the final value.",
+              "hindi": "हल करने के बाद वही विकल्प चुनिए जो सही विचार और अंतिम मान से मेल खाता हो।"
+            },
+            {
+              "english": "So the correct answer is Cubic units.",
+              "hindi": "इसलिए सही उत्तर घन इकाइयाँ है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Volume",
+          "hindi": "आयतन"
+        },
+        {
+          "english": "Volume of a Solid and Units of Volume",
+          "hindi": "ठोस का आयतन और आयतन की इकाइयाँ"
+        }
+      ],
+      "mistakeFocus": "CONCEPT_CONFUSION"
+    },
+    {
+      "id": "rs_ch24_volume_of_a_cuboid_and_volume_of_a_cube",
+      "sourceLessonId": "rs_ch24",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "subtopicTitle": {
+        "english": "Volume of a Cuboid and Volume of a Cube",
+        "hindi": "घनाभ और घन का आयतन"
+      },
+      "knowPrompt": {
+        "english": "Do you know this topic: Volume of a Cuboid and Volume of a Cube?",
+        "hindi": "क्या आप यह विषय जानते हैं: घनाभ और घन का आयतन?"
+      },
+      "explanationTitle": {
+        "english": "Volume of a Cuboid and Volume of a Cube",
+        "hindi": "घनाभ और घन का आयतन"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume means the space inside a solid object. If you fill a box with tiny 1 cm cubes, the total number of cubes that fit inside tells you the volume. So volume helps us know how much a box, tank, room, or container can hold.",
+          "hindi": "आयतन का मतलब किसी ठोस वस्तु के अंदर की जगह होता है। अगर आप किसी डिब्बे को 1 सेमी वाले छोटे घनों से भरें, तो अंदर जितने घन आएंगे, वही उसका आयतन बताएंगे। इसलिए आयतन से हमें पता चलता है कि कोई डिब्बा, टंकी, कमरा या बर्तन अंदर से कितना भर सकता है।"
+        },
+        {
+          "english": "A cuboid is a box-shaped object. Many things around us are cuboids, such as a book, a brick, a lunch box, and a cupboard. To find the volume of a cuboid, we multiply its length, breadth, and height. Volume of a cuboid = length × breadth × height. We multiply because the length tells how many cubes fit in one row, the breadth tells how many rows fit in one layer, and the height tells how many layers fit one above another. The answer is written in cubic units such as cm³ or m³.",
+          "hindi": "घनाभ डिब्बे जैसी आकृति होती है। हमारे आसपास की बहुत सी चीजें घनाभ होती हैं, जैसे किताब, ईंट, टिफिन बॉक्स और अलमारी। घनाभ का आयतन निकालने के लिए हम उसकी लंबाई, चौड़ाई और ऊँचाई को गुणा करते हैं। घनाभ का आयतन = लंबाई × चौड़ाई × ऊँचाई। हम गुणा इसलिए करते हैं क्योंकि लंबाई बताती है कि एक पंक्ति में कितने छोटे घन आएंगे, चौड़ाई बताती है कि एक परत में कितनी पंक्तियां आएंगी, और ऊँचाई बताती है कि ऐसी कितनी परतें एक के ऊपर एक लगेंगी। उत्तर घन इकाइयों में लिखा जाता है, जैसे cm³ या m³।"
+        },
+        {
+          "english": "A cube is a special cuboid in which all edges are equal. Dice, ice cubes, and some gift boxes look like cubes. Since all three measurements are the same, we do not need three different numbers. Volume of a cube = side × side × side. This is also written as side³. It only means the side is multiplied by itself three times.",
+          "hindi": "घन एक खास प्रकार का घनाभ है जिसमें सभी किनारे बराबर होते हैं। पासा, बर्फ का घन और कुछ उपहार डिब्बे घन जैसे दिखते हैं। क्योंकि इसकी तीनों माप बराबर होती हैं, इसलिए हमें तीन अलग संख्याओं की जरूरत नहीं होती। घन का आयतन = भुजा × भुजा × भुजा। इसे भुजा³ भी लिखा जाता है। इसका मतलब केवल इतना है कि भुजा को तीन बार आपस में गुणा करना है।"
+        },
+        {
+          "english": "Think of real life. If a box is 10 cm long, 5 cm broad, and 4 cm high, its volume tells how much space is inside it. If a cube-shaped toy box has side 6 cm, its volume tells how many small cubes or how much material it can hold. Volume always measures inside space, not just the outer surface.",
+          "hindi": "इसे रोजमर्रा की चीजों से समझो। अगर किसी डिब्बे की लंबाई 10 सेमी, चौड़ाई 5 सेमी और ऊँचाई 4 सेमी है, तो उसका आयतन बताता है कि उसके अंदर कितनी जगह है। अगर कोई खिलौनों का डिब्बा घन के आकार का है और उसकी भुजा 6 सेमी है, तो उसका आयतन बताता है कि उसमें कितने छोटे घन या कितनी चीजें समा सकती हैं। आयतन हमेशा अंदर की जगह को मापता है, केवल बाहर की सतह को नहीं।"
+        },
+        {
+          "english": "Let us solve an easy question. A cube has side 3 cm. First write the formula. Volume of a cube = side × side × side. Now put the side value. Volume = 3 × 3 × 3. Multiply 3 × 3 = 9. Then multiply 9 × 3 = 27. So the volume of the cube is 27 cm³.",
+          "hindi": "अब एक आसान सवाल हल करते हैं। एक घन की भुजा 3 सेमी है। पहले सूत्र लिखो। घन का आयतन = भुजा × भुजा × भुजा। अब भुजा की कीमत रखो। आयतन = 3 × 3 × 3। पहले 3 × 3 = 9। फिर 9 × 3 = 27। इसलिए घन का आयतन 27 cm³ है।"
+        },
+        {
+          "english": "Now solve a cuboid question. A cuboid has length 6 cm, breadth 4 cm, and height 3 cm. First write the formula. Volume of a cuboid = length × breadth × height. Now put the values. Volume = 6 × 4 × 3. Multiply 6 × 4 = 24. Then multiply 24 × 3 = 72. So the volume of the cuboid is 72 cm³.",
+          "hindi": "अब एक घनाभ का सवाल हल करते हैं। एक घनाभ की लंबाई 6 सेमी, चौड़ाई 4 सेमी और ऊँचाई 3 सेमी है। पहले सूत्र लिखो। घनाभ का आयतन = लंबाई × चौड़ाई × ऊँचाई। अब मान रखो। आयतन = 6 × 4 × 3। पहले 6 × 4 = 24। फिर 24 × 3 = 72। इसलिए घनाभ का आयतन 72 cm³ है।"
+        },
+        {
+          "english": "Now try a little harder one. A pencil box shaped like a cuboid is 12 cm long, 7 cm broad, and 5 cm high. First write the formula. Volume of a cuboid = length × breadth × height. Now put the numbers. Volume = 12 × 7 × 5. Multiply 12 × 7 = 84. Then multiply 84 × 5 = 420. So the volume of the pencil box is 420 cm³.",
+          "hindi": "अब थोड़ा कठिन सवाल करते हैं। एक पेंसिल बॉक्स घनाभ के आकार का है। उसकी लंबाई 12 सेमी, चौड़ाई 7 सेमी और ऊँचाई 5 सेमी है। पहले सूत्र लिखो। घनाभ का आयतन = लंबाई × चौड़ाई × ऊँचाई। अब संख्याएं रखो। आयतन = 12 × 7 × 5। पहले 12 × 7 = 84। फिर 84 × 5 = 420। इसलिए पेंसिल बॉक्स का आयतन 420 cm³ है।"
+        },
+        {
+          "english": "Some common mistakes are easy to avoid. Do not add length, breadth, and height when finding volume. We multiply them. Do not forget to use the same unit for every measurement. Do not write plain cm when the answer is volume, because volume is written in cm³. Also remember that a cube has all sides equal, but a cuboid can have different length, breadth, and height. If you remember inside space, multiply the measurements, and write cubic units, you will get the correct answer.",
+          "hindi": "कुछ सामान्य गलतियां आसानी से बचाई जा सकती हैं। आयतन निकालते समय लंबाई, चौड़ाई और ऊँचाई को जोड़ना नहीं है। इन्हें गुणा करना है। यह भी ध्यान रखो कि सभी माप एक ही इकाई में हों। आयतन के उत्तर में केवल cm नहीं लिखना है, क्योंकि आयतन cm³ में लिखा जाता है। और याद रखो कि घन में सभी भुजाएं बराबर होती हैं, लेकिन घनाभ में लंबाई, चौड़ाई और ऊँचाई अलग हो सकती हैं। अगर तुम अंदर की जगह को समझोगे, मापों का गुणा करोगे और घन इकाई लिखोगे, तो सही उत्तर मिलेगा।"
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "volume_of_a_cuboid_and_volume_of_a_cube_q1",
+          "prompt": {
+            "english": "Find the volume of a cuboid of length 6 cm, breadth 4 cm and height 3 cm.",
+            "hindi": "6 सेमी लंबाई, 4 सेमी चौड़ाई और 3 सेमी ऊँचाई वाले घनाभ का आयतन लिखिए।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "72",
+            "72 cubic cm",
+            "72 cm3"
+          ],
+          "hint": {
+            "english": "Multiply the three dimensions.",
+            "hindi": "तीनों आयामों का गुणा कीजिए।"
+          },
+          "wrongReason": {
+            "english": "The main idea in volume of a cuboid and volume of a cube was not used correctly.",
+            "hindi": "घनाभ और घन का आयतन के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
+          },
+          "supportExample": {
+            "english": "6 × 4 × 3 = 72 cubic cm.",
+            "hindi": "6 × 4 × 3 = 72 घन सेमी।"
+          },
+          "mistakeType": "UNIT_CONVERSION",
+          "reteachTitle": {
+            "english": "Understanding Volume of a Cuboid and Volume of a Cube",
+            "hindi": "घनाभ और घन का आयतन को समझें"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "This question is solved by using the same idea from the topic. The volume of a cuboid is length × breadth × height.",
+              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। घनाभ का आयतन = लंबाई × चौड़ाई × ऊँचाई होता है।"
+            },
+            {
+              "english": "The question asks us to work with this situation: Find the volume of a cuboid of length 6 cm, breadth 4 cm and height 3 cm.",
+              "hindi": "प्रश्न हमें यह स्थिति देता है: 6 सेमी लंबाई, 4 सेमी चौड़ाई और 3 सेमी ऊँचाई वाले घनाभ का आयतन लिखिए।"
+            },
+            {
+              "english": "To move from the question to the answer, use this idea directly: Multiply the three dimensions.",
+              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: तीनों आयामों का गुणा कीजिए।"
+            },
+            {
+              "english": "A similar example makes the method clear. For 6 cm, 4 cm and 3 cm, volume = 72 cubic cm.",
+              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। यदि लंबाई 6 सेमी, चौड़ाई 4 सेमी और ऊँचाई 3 सेमी हो, तो आयतन = 72 घन सेमी होगा।"
+            },
+            {
+              "english": "Using the same method here, we get: 6 × 4 × 3 = 72 cubic cm.",
+              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: 6 × 4 × 3 = 72 घन सेमी।"
+            },
+            {
+              "english": "After solving, write the answer in the same form the question asks for, and include the unit whenever one is needed.",
+              "hindi": "हल पूरा होने पर उत्तर उसी रूप में लिखिए जिस रूप में प्रश्न ने माँगा है, और जहाँ ज़रूरत हो वहाँ सही इकाई भी लिखिए।"
+            },
+            {
+              "english": "So the correct answer is 72 cubic cm.",
+              "hindi": "इसलिए सही उत्तर 72 cubic cm है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Volume",
+          "hindi": "आयतन"
+        },
+        {
+          "english": "Volume of a Cuboid and Volume of a Cube",
+          "hindi": "घनाभ और घन का आयतन"
+        }
+      ],
+      "mistakeFocus": "UNIT_CONVERSION"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q01_a",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.1(a)",
+        "hindi": "Question 24.79.1(a)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.1(a)?",
+        "hindi": "Can you solve Question 24.79.1(a)?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.1(a)",
+        "hindi": "Question 24.79.1(a)"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about length = 16 cm, breadth = 12 cm, height = 8 cm.",
+          "hindi": "This question is about length = 16 cm, breadth = 12 cm, height = 8 cm."
+        },
+        {
+          "english": "From the question, we should notice length = 16 cm, breadth = 12 cm, height = 8 cm.",
+          "hindi": "From the question, we should notice length = 16 cm, breadth = 12 cm, height = 8 cm."
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
+          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
+        },
+        {
+          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
+          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q01_a_q1",
+          "prompt": {
+            "english": "Find the volume of the cuboid whose dimensions are Part (a): length = 16 cm, breadth = 12 cm, height = 8 cm",
+            "hindi": "Find the volume of the cuboid whose dimensions are Part (a): length = 16 cm, breadth = 12 cm, height = 8 cm"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "1536 cu cm",
+            "1536",
+            "1536 cu. cm"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Solve step by step and check each line. Units do not need to be typed.",
+            "hindi": "Solve step by step and check each line. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "See the step-by-step solution below.",
+            "hindi": "See the step-by-step solution below."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about length = 16 cm, breadth = 12 cm, height = 8 cm.",
+              "hindi": "Here the question is asking about length = 16 cm, breadth = 12 cm, height = 8 cm."
+            },
+            {
+              "english": "The information given to us is length = 16 cm, breadth = 12 cm, height = 8 cm.",
+              "hindi": "The information given to us is length = 16 cm, breadth = 12 cm, height = 8 cm."
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "Given: Length = 16 cm, Breadth = 12 cm, Height = 8 cm.",
+              "hindi": "Given: Length = 16 cm, Breadth = 12 cm, Height = 8 cm."
+            },
+            {
+              "english": "Formula: Volume of a cuboid = Length × Breadth × Height.",
+              "hindi": "Formula: Volume of a cuboid = Length × Breadth × Height."
+            },
+            {
+              "english": "Volume = 16 × 12 × 8.",
+              "hindi": "Volume = 16 × 12 × 8."
+            },
+            {
+              "english": "Volume = 1536 cu cm.",
+              "hindi": "Volume = 1536 cu cm."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
+              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
+            },
+            {
+              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
+              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
+            },
+            {
+              "english": "So the final answer is 1536 cu cm.",
+              "hindi": "So the final answer is 1536 cu cm."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.1(a)",
+          "hindi": "Question 24.79.1(a)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q01_b",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.1(b)",
+        "hindi": "Question 24.79.1(b)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.1(b)?",
+        "hindi": "Can you solve Question 24.79.1(b)?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.1(b)",
+        "hindi": "Question 24.79.1(b)"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about length = 14 m, breadth = 8 m, height = 2.5 m.",
+          "hindi": "This question is about length = 14 m, breadth = 8 m, height = 2.5 m."
+        },
+        {
+          "english": "From the question, we should notice length = 14 m, breadth = 8 m, height = 2.5 m.",
+          "hindi": "From the question, we should notice length = 14 m, breadth = 8 m, height = 2.5 m."
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
+          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
+        },
+        {
+          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
+          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q01_b_q1",
+          "prompt": {
+            "english": "Find the volume of the cuboid whose dimensions are Part (b): length = 14 m, breadth = 8 m, height = 2.5 m",
+            "hindi": "Find the volume of the cuboid whose dimensions are Part (b): length = 14 m, breadth = 8 m, height = 2.5 m"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "280 cu m",
+            "280",
+            "280 cu. m"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Solve step by step and check each line. Units do not need to be typed.",
+            "hindi": "Solve step by step and check each line. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "See the step-by-step solution below.",
+            "hindi": "See the step-by-step solution below."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about length = 14 m, breadth = 8 m, height = 2.5 m.",
+              "hindi": "Here the question is asking about length = 14 m, breadth = 8 m, height = 2.5 m."
+            },
+            {
+              "english": "The information given to us is length = 14 m, breadth = 8 m, height = 2.5 m.",
+              "hindi": "The information given to us is length = 14 m, breadth = 8 m, height = 2.5 m."
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "Given: Length = 14 m, Breadth = 8 m, Height = 2.5 m.",
+              "hindi": "Given: Length = 14 m, Breadth = 8 m, Height = 2.5 m."
+            },
+            {
+              "english": "Formula: Volume of a cuboid = Length × Breadth × Height.",
+              "hindi": "Formula: Volume of a cuboid = Length × Breadth × Height."
+            },
+            {
+              "english": "Volume = 14 × 8 × 2.5.",
+              "hindi": "Volume = 14 × 8 × 2.5."
+            },
+            {
+              "english": "Volume = 280 cu m.",
+              "hindi": "Volume = 280 cu m."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
+              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
+            },
+            {
+              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
+              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
+            },
+            {
+              "english": "So the final answer is 280 cu m.",
+              "hindi": "So the final answer is 280 cu m."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.1(b)",
+          "hindi": "Question 24.79.1(b)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q02_a",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.2(a)",
+        "hindi": "Question 24.79.2(a)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.2(a)?",
+        "hindi": "Can you solve Question 24.79.2(a)?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.2(a)",
+        "hindi": "Question 24.79.2(a)"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about 14 cm.",
+          "hindi": "This question is about 14 cm."
+        },
+        {
+          "english": "From the question, we should notice 14 cm.",
+          "hindi": "From the question, we should notice 14 cm."
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
+          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
+        },
+        {
+          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
+          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q02_a_q1",
+          "prompt": {
+            "english": "Find the volume of the cube whose edge is Part (a): 14 cm",
+            "hindi": "Find the volume of the cube whose edge is Part (a): 14 cm"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "2744 cu cm",
+            "2744",
+            "2744 cu. cm"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Solve step by step and check each line. Units do not need to be typed.",
+            "hindi": "Solve step by step and check each line. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "See the step-by-step solution below.",
+            "hindi": "See the step-by-step solution below."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about 14 cm.",
+              "hindi": "Here the question is asking about 14 cm."
+            },
+            {
+              "english": "The information given to us is 14 cm.",
+              "hindi": "The information given to us is 14 cm."
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "Given: Edge of cube = 14 cm.",
+              "hindi": "Given: Edge of cube = 14 cm."
+            },
+            {
+              "english": "Formula: Volume of a cube = Edge × Edge × Edge.",
+              "hindi": "Formula: Volume of a cube = Edge × Edge × Edge."
+            },
+            {
+              "english": "Volume = 14 × 14 × 14.",
+              "hindi": "Volume = 14 × 14 × 14."
+            },
+            {
+              "english": "Volume = 2744 cu cm.",
+              "hindi": "Volume = 2744 cu cm."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
+              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
+            },
+            {
+              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
+              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
+            },
+            {
+              "english": "So the final answer is 2744 cu cm.",
+              "hindi": "So the final answer is 2744 cu cm."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.2(a)",
+          "hindi": "Question 24.79.2(a)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q02_b",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.2(b)",
+        "hindi": "Question 24.79.2(b)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.2(b)?",
+        "hindi": "Can you solve Question 24.79.2(b)?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.2(b)",
+        "hindi": "Question 24.79.2(b)"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about 31 2 m.",
+          "hindi": "This question is about 31 2 m."
+        },
+        {
+          "english": "From the question, we should notice 31 2 m.",
+          "hindi": "From the question, we should notice 31 2 m."
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
+          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
+        },
+        {
+          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
+          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q02_b_q1",
+          "prompt": {
+            "english": "Find the volume of the cube whose edge is Part (b): 31 2 m",
+            "hindi": "Find the volume of the cube whose edge is Part (b): 31 2 m"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "42.875 cu. m",
+            "42.875"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about 31 2 m.",
+              "hindi": "Here the question is asking about 31 2 m."
+            },
+            {
+              "english": "The information given to us is 31 2 m.",
+              "hindi": "The information given to us is 31 2 m."
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+              "hindi": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 42.875 cu. m.",
+              "hindi": "When you apply the rule carefully, you reach 42.875 cu. m."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
+              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
+            },
+            {
+              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
+              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
+            },
+            {
+              "english": "So the final answer is 42.875 cu. m.",
+              "hindi": "So the final answer is 42.875 cu. m."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.2(b)",
+          "hindi": "Question 24.79.2(b)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q02_c",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.2(c)",
+        "hindi": "Question 24.79.2(c)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.2(c)?",
+        "hindi": "Can you solve Question 24.79.2(c)?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.2(c)",
+        "hindi": "Question 24.79.2(c)"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about 1.2 m.",
+          "hindi": "This question is about 1.2 m."
+        },
+        {
+          "english": "From the question, we should notice 1.2 m.",
+          "hindi": "From the question, we should notice 1.2 m."
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
+          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
+        },
+        {
+          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
+          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q02_c_q1",
+          "prompt": {
+            "english": "Find the volume of the cube whose edge is Part (c): 1.2 m",
+            "hindi": "Find the volume of the cube whose edge is Part (c): 1.2 m"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "1.728 cu m",
+            "1.728",
+            "1.728 cu. m"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Solve step by step and check each line. Units do not need to be typed.",
+            "hindi": "Solve step by step and check each line. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "See the step-by-step solution below.",
+            "hindi": "See the step-by-step solution below."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about 1.2 m.",
+              "hindi": "Here the question is asking about 1.2 m."
+            },
+            {
+              "english": "The information given to us is 1.2 m.",
+              "hindi": "The information given to us is 1.2 m."
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "Given: Edge of cube = 1.2 m.",
+              "hindi": "Given: Edge of cube = 1.2 m."
+            },
+            {
+              "english": "Formula: Volume of a cube = Edge × Edge × Edge.",
+              "hindi": "Formula: Volume of a cube = Edge × Edge × Edge."
+            },
+            {
+              "english": "Volume = 1.2 × 1.2 × 1.2.",
+              "hindi": "Volume = 1.2 × 1.2 × 1.2."
+            },
+            {
+              "english": "Volume = 1.728 cu m.",
+              "hindi": "Volume = 1.728 cu m."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
+              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
+            },
+            {
+              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
+              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
+            },
+            {
+              "english": "So the final answer is 1.728 cu m.",
+              "hindi": "So the final answer is 1.728 cu m."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.2(c)",
+          "hindi": "Question 24.79.2(c)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q02_d",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.2(d)",
+        "hindi": "Question 24.79.2(d)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.2(d)?",
+        "hindi": "Can you solve Question 24.79.2(d)?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.2(d)",
+        "hindi": "Question 24.79.2(d)"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about 6.5 cm.",
+          "hindi": "This question is about 6.5 cm."
+        },
+        {
+          "english": "From the question, we should notice 6.5 cm.",
+          "hindi": "From the question, we should notice 6.5 cm."
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
+          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
+        },
+        {
+          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
+          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q02_d_q1",
+          "prompt": {
+            "english": "Find the volume of the cube whose edge is Part (d): 6.5 cm",
+            "hindi": "Find the volume of the cube whose edge is Part (d): 6.5 cm"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "274.625 cu cm",
+            "274.625",
+            "274.625 cu. cm"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Solve step by step and check each line. Units do not need to be typed.",
+            "hindi": "Solve step by step and check each line. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "See the step-by-step solution below.",
+            "hindi": "See the step-by-step solution below."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about 6.5 cm.",
+              "hindi": "Here the question is asking about 6.5 cm."
+            },
+            {
+              "english": "The information given to us is 6.5 cm.",
+              "hindi": "The information given to us is 6.5 cm."
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "Given: Edge of cube = 6.5 cm.",
+              "hindi": "Given: Edge of cube = 6.5 cm."
+            },
+            {
+              "english": "Formula: Volume of a cube = Edge × Edge × Edge.",
+              "hindi": "Formula: Volume of a cube = Edge × Edge × Edge."
+            },
+            {
+              "english": "Volume = 6.5 × 6.5 × 6.5.",
+              "hindi": "Volume = 6.5 × 6.5 × 6.5."
+            },
+            {
+              "english": "Volume = 274.625 cu cm.",
+              "hindi": "Volume = 274.625 cu cm."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
+              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
+            },
+            {
+              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
+              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
+            },
+            {
+              "english": "So the final answer is 274.625 cu cm.",
+              "hindi": "So the final answer is 274.625 cu cm."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.2(d)",
+          "hindi": "Question 24.79.2(d)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q03",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.3",
+        "hindi": "Question 24.79.3"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.3?",
+        "hindi": "Can you solve Question 24.79.3?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.3",
+        "hindi": "Question 24.79.3"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about Find the volume of the earth dug out from a pit 6.5 m long, 2.4 m wide and 1.5 m deep.",
+          "hindi": "This question is about Find the volume of the earth dug out from a pit 6.5 m long, 2.4 m wide and 1.5 m deep."
+        },
+        {
+          "english": "From the question, we should notice Find the volume of the earth dug out from a pit 6.5 m long, 2.4 m wide and 1.5 m deep.",
+          "hindi": "From the question, we should notice Find the volume of the earth dug out from a pit 6.5 m long, 2.4 m wide and 1.5 m deep."
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
+          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
+        },
+        {
+          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
+          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q03_q1",
+          "prompt": {
+            "english": "Find the volume of the earth dug out from a pit 6.5 m long, 2.4 m wide and 1.5 m deep",
+            "hindi": "Find the volume of the earth dug out from a pit 6.5 m long, 2.4 m wide and 1.5 m deep"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "23.4 cu. m",
+            "23.4"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about Find the volume of the earth dug out from a pit 6.5 m long, 2.4 m wide and 1.5 m deep.",
+              "hindi": "Here the question is asking about Find the volume of the earth dug out from a pit 6.5 m long, 2.4 m wide and 1.5 m deep."
+            },
+            {
+              "english": "The information given to us is Find the volume of the earth dug out from a pit 6.5 m long, 2.4 m wide and 1.5 m deep.",
+              "hindi": "The information given to us is Find the volume of the earth dug out from a pit 6.5 m long, 2.4 m wide and 1.5 m deep."
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+              "hindi": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 23.4 cu. m.",
+              "hindi": "When you apply the rule carefully, you reach 23.4 cu. m."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
+              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
+            },
+            {
+              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
+              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
+            },
+            {
+              "english": "So the final answer is 23.4 cu. m.",
+              "hindi": "So the final answer is 23.4 cu. m."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.3",
+          "hindi": "Question 24.79.3"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q04",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.4",
+        "hindi": "Question 24.79.4"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.4?",
+        "hindi": "Can you solve Question 24.79.4?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.4",
+        "hindi": "Question 24.79.4"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about Find the volume of the earth dug out from a cubical pit each of whose edges measures 4.1 metres.",
+          "hindi": "This question is about Find the volume of the earth dug out from a cubical pit each of whose edges measures 4.1 metres."
+        },
+        {
+          "english": "From the question, we should notice Find the volume of the earth dug out from a cubical pit each of whose edges measures 4.1 metres.",
+          "hindi": "From the question, we should notice Find the volume of the earth dug out from a cubical pit each of whose edges measures 4.1 metres."
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
+          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
+        },
+        {
+          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
+          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q04_q1",
+          "prompt": {
+            "english": "Find the volume of the earth dug out from a cubical pit each of whose edges measures 4.1 metres",
+            "hindi": "Find the volume of the earth dug out from a cubical pit each of whose edges measures 4.1 metres"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "68.921 cu. m",
+            "68.921"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about Find the volume of the earth dug out from a cubical pit each of whose edges measures 4.1 metres.",
+              "hindi": "Here the question is asking about Find the volume of the earth dug out from a cubical pit each of whose edges measures 4.1 metres."
+            },
+            {
+              "english": "The information given to us is Find the volume of the earth dug out from a cubical pit each of whose edges measures 4.1 metres.",
+              "hindi": "The information given to us is Find the volume of the earth dug out from a cubical pit each of whose edges measures 4.1 metres."
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+              "hindi": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 68.921 cu. m.",
+              "hindi": "When you apply the rule carefully, you reach 68.921 cu. m."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
+              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
+            },
+            {
+              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
+              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
+            },
+            {
+              "english": "So the final answer is 68.921 cu. m.",
+              "hindi": "So the final answer is 68.921 cu. m."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.4",
+          "hindi": "Question 24.79.4"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q05_a",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.5(a)",
+        "hindi": "Question 24.79.5(a)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.5(a)?",
+        "hindi": "Can you solve Question 24.79.5(a)?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.5(a)",
+        "hindi": "Question 24.79.5(a)"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about How much air does it contain?",
+          "hindi": "This question is about How much air does it contain?"
+        },
+        {
+          "english": "From the question, we should notice A room is 12 m long, 7.8 m broad and 5 m high.",
+          "hindi": "From the question, we should notice A room is 12 m long, 7.8 m broad and 5 m high."
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q05_a_q1",
+          "prompt": {
+            "english": "A room is 12 m long, 7.8 m broad and 5 m high Part (a): How much air does it contain?",
+            "hindi": "A room is 12 m long, 7.8 m broad and 5 m high Part (a): How much air does it contain?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "468 cu.m",
+            "468"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about How much air does it contain?",
+              "hindi": "Here the question is asking about How much air does it contain?"
+            },
+            {
+              "english": "The information given to us is A room is 12 m long, 7.8 m broad and 5 m high.",
+              "hindi": "The information given to us is A room is 12 m long, 7.8 m broad and 5 m high."
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+              "hindi": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 468 cu.m.",
+              "hindi": "When you apply the rule carefully, you reach 468 cu.m."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 468 cu.m.",
+              "hindi": "So the final answer is 468 cu.m."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.5(a)",
+          "hindi": "Question 24.79.5(a)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q05_b",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.5(b)",
+        "hindi": "Question 24.79.5(b)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.5(b)?",
+        "hindi": "Can you solve Question 24.79.5(b)?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.5(b)",
+        "hindi": "Question 24.79.5(b)"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about How many boys can sit in the room, if each boy occupies 2.6 cubic metres of air space?",
+          "hindi": "This question is about How many boys can sit in the room, if each boy occupies 2.6 cubic metres of air space?"
+        },
+        {
+          "english": "From the question, we should notice A room is 12 m long, 7.8 m broad and 5 m high.",
+          "hindi": "From the question, we should notice A room is 12 m long, 7.8 m broad and 5 m high."
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q05_b_q1",
+          "prompt": {
+            "english": "A room is 12 m long, 7.8 m broad and 5 m high Part (b): How many boys can sit in the room, if each boy occupies 2.6 cubic metres of air space?",
+            "hindi": "A room is 12 m long, 7.8 m broad and 5 m high Part (b): How many boys can sit in the room, if each boy occupies 2.6 cubic metres of air space?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "180"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about How many boys can sit in the room, if each boy occupies 2.6 cubic metres of air space?",
+              "hindi": "Here the question is asking about How many boys can sit in the room, if each boy occupies 2.6 cubic metres of air space?"
+            },
+            {
+              "english": "The information given to us is A room is 12 m long, 7.8 m broad and 5 m high.",
+              "hindi": "The information given to us is A room is 12 m long, 7.8 m broad and 5 m high."
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+              "hindi": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 180.",
+              "hindi": "When you apply the rule carefully, you reach 180."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 180.",
+              "hindi": "So the final answer is 180."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.5(b)",
+          "hindi": "Question 24.79.5(b)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q06",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.6",
+        "hindi": "Question 24.79.6"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.6?",
+        "hindi": "Can you solve Question 24.79.6?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.6",
+        "hindi": "Question 24.79.6"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about How many boxes, each of size 10 cm × 8 cm × 5 cm can be packed in a carton of size 1 m × 72 cm × 50 cm?",
+          "hindi": "This question is about How many boxes, each of size 10 cm × 8 cm × 5 cm can be packed in a carton of size 1 m × 72 cm × 50 cm?"
+        },
+        {
+          "english": "From the question, we should notice How many boxes, each of size 10 cm × 8 cm × 5 cm can be packed in a carton of size 1 m × 72 cm × 50 cm?",
+          "hindi": "From the question, we should notice How many boxes, each of size 10 cm × 8 cm × 5 cm can be packed in a carton of size 1 m × 72 cm × 50 cm?"
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q06_q1",
+          "prompt": {
+            "english": "How many boxes, each of size 10 cm × 8 cm × 5 cm can be packed in a carton of size 1 m × 72 cm × 50 cm?",
+            "hindi": "How many boxes, each of size 10 cm × 8 cm × 5 cm can be packed in a carton of size 1 m × 72 cm × 50 cm?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "900"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about How many boxes, each of size 10 cm × 8 cm × 5 cm can be packed in a carton of size 1 m × 72 cm × 50 cm?",
+              "hindi": "Here the question is asking about How many boxes, each of size 10 cm × 8 cm × 5 cm can be packed in a carton of size 1 m × 72 cm × 50 cm?"
+            },
+            {
+              "english": "The information given to us is How many boxes, each of size 10 cm × 8 cm × 5 cm can be packed in a carton of size 1 m × 72 cm × 50 cm?",
+              "hindi": "The information given to us is How many boxes, each of size 10 cm × 8 cm × 5 cm can be packed in a carton of size 1 m × 72 cm × 50 cm?"
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+              "hindi": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 900.",
+              "hindi": "When you apply the rule carefully, you reach 900."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 900.",
+              "hindi": "So the final answer is 900."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.6",
+          "hindi": "Question 24.79.6"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q07",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.7",
+        "hindi": "Question 24.79.7"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.7?",
+        "hindi": "Can you solve Question 24.79.7?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.7",
+        "hindi": "Question 24.79.7"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about How many bricks each 25 cm long, 16 cm wide and 7.5 cm thick will be required to build a terrace 5 m long, 3 m broad and 80 cm high?",
+          "hindi": "This question is about How many bricks each 25 cm long, 16 cm wide and 7.5 cm thick will be required to build a terrace 5 m long, 3 m broad and 80 cm high?"
+        },
+        {
+          "english": "From the question, we should notice How many bricks each 25 cm long, 16 cm wide and 7.5 cm thick will be required to build a terrace 5 m long, 3 m broad and 80 cm high?",
+          "hindi": "From the question, we should notice How many bricks each 25 cm long, 16 cm wide and 7.5 cm thick will be required to build a terrace 5 m long, 3 m broad and 80 cm high?"
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q07_q1",
+          "prompt": {
+            "english": "How many bricks each 25 cm long, 16 cm wide and 7.5 cm thick will be required to build a terrace 5 m long, 3 m broad and 80 cm high?",
+            "hindi": "How many bricks each 25 cm long, 16 cm wide and 7.5 cm thick will be required to build a terrace 5 m long, 3 m broad and 80 cm high?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "4000"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about How many bricks each 25 cm long, 16 cm wide and 7.5 cm thick will be required to build a terrace 5 m long, 3 m broad and 80 cm high?",
+              "hindi": "Here the question is asking about How many bricks each 25 cm long, 16 cm wide and 7.5 cm thick will be required to build a terrace 5 m long, 3 m broad and 80 cm high?"
+            },
+            {
+              "english": "The information given to us is How many bricks each 25 cm long, 16 cm wide and 7.5 cm thick will be required to build a terrace 5 m long, 3 m broad and 80 cm high?",
+              "hindi": "The information given to us is How many bricks each 25 cm long, 16 cm wide and 7.5 cm thick will be required to build a terrace 5 m long, 3 m broad and 80 cm high?"
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+              "hindi": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 4000.",
+              "hindi": "When you apply the rule carefully, you reach 4000."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 4000.",
+              "hindi": "So the final answer is 4000."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.7",
+          "hindi": "Question 24.79.7"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q08",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.8",
+        "hindi": "Question 24.79.8"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.8?",
+        "hindi": "Can you solve Question 24.79.8?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.8",
+        "hindi": "Question 24.79.8"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about A wooden block measures 24 cm by 18 cm by 15 cm. How many cubical blocks of edge 6 cm can be cut from it?",
+          "hindi": "This question is about A wooden block measures 24 cm by 18 cm by 15 cm. How many cubical blocks of edge 6 cm can be cut from it?"
+        },
+        {
+          "english": "From the question, we should notice A wooden block measures 24 cm by 18 cm by 15 cm. How many cubical blocks of edge 6 cm can be cut from it?",
+          "hindi": "From the question, we should notice A wooden block measures 24 cm by 18 cm by 15 cm. How many cubical blocks of edge 6 cm can be cut from it?"
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q08_q1",
+          "prompt": {
+            "english": "A wooden block measures 24 cm by 18 cm by 15 cm. How many cubical blocks of edge 6 cm can be cut from it?",
+            "hindi": "A wooden block measures 24 cm by 18 cm by 15 cm. How many cubical blocks of edge 6 cm can be cut from it?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "30"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about A wooden block measures 24 cm by 18 cm by 15 cm. How many cubical blocks of edge 6 cm can be cut from it?",
+              "hindi": "Here the question is asking about A wooden block measures 24 cm by 18 cm by 15 cm. How many cubical blocks of edge 6 cm can be cut from it?"
+            },
+            {
+              "english": "The information given to us is A wooden block measures 24 cm by 18 cm by 15 cm. How many cubical blocks of edge 6 cm can be cut from it?",
+              "hindi": "The information given to us is A wooden block measures 24 cm by 18 cm by 15 cm. How many cubical blocks of edge 6 cm can be cut from it?"
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+              "hindi": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 30.",
+              "hindi": "When you apply the rule carefully, you reach 30."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is 30.",
+              "hindi": "So the final answer is 30."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.8",
+          "hindi": "Question 24.79.8"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q09_a",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.9(a)",
+        "hindi": "Question 24.79.9(a)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.9(a)?",
+        "hindi": "Can you solve Question 24.79.9(a)?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.9(a)",
+        "hindi": "Question 24.79.9(a)"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about The measure of the amount of space occupied by a solid is called its.",
+          "hindi": "This question is about The measure of the amount of space occupied by a solid is called its."
+        },
+        {
+          "english": "From the question, we should notice The measure of the amount of space occupied by a solid is called its.",
+          "hindi": "From the question, we should notice The measure of the amount of space occupied by a solid is called its."
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q09_a_q1",
+          "prompt": {
+            "english": "Fill in the blanks Part (a): The measure of the amount of space occupied by a solid is called its",
+            "hindi": "Fill in the blanks Part (a): The measure of the amount of space occupied by a solid is called its"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "volume"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about The measure of the amount of space occupied by a solid is called its.",
+              "hindi": "Here the question is asking about The measure of the amount of space occupied by a solid is called its."
+            },
+            {
+              "english": "The information given to us is The measure of the amount of space occupied by a solid is called its.",
+              "hindi": "The information given to us is The measure of the amount of space occupied by a solid is called its."
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+              "hindi": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach volume.",
+              "hindi": "When you apply the rule carefully, you reach volume."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is volume.",
+              "hindi": "So the final answer is volume."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.9(a)",
+          "hindi": "Question 24.79.9(a)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q09_b",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.9(b)",
+        "hindi": "Question 24.79.9(b)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.9(b)?",
+        "hindi": "Can you solve Question 24.79.9(b)?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.9(b)",
+        "hindi": "Question 24.79.9(b)"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about Volume of a cuboid =.................... ×.................... ×.",
+          "hindi": "This question is about Volume of a cuboid =.................... ×.................... ×."
+        },
+        {
+          "english": "From the question, we should notice Volume of a cuboid =.................... ×.................... ×.",
+          "hindi": "From the question, we should notice Volume of a cuboid =.................... ×.................... ×."
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
+          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
+        },
+        {
+          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
+          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q09_b_q1",
+          "prompt": {
+            "english": "Fill in the blanks Part (b): Volume of a cuboid =.................... ×.................... ×",
+            "hindi": "Fill in the blanks Part (b): Volume of a cuboid =.................... ×.................... ×"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "length, breadth, height"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about Volume of a cuboid =.................... ×.................... ×.",
+              "hindi": "Here the question is asking about Volume of a cuboid =.................... ×.................... ×."
+            },
+            {
+              "english": "The information given to us is Volume of a cuboid =.................... ×.................... ×.",
+              "hindi": "The information given to us is Volume of a cuboid =.................... ×.................... ×."
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+              "hindi": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach length, breadth, height.",
+              "hindi": "When you apply the rule carefully, you reach length, breadth, height."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
+              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
+            },
+            {
+              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
+              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
+            },
+            {
+              "english": "So the final answer is length, breadth, height.",
+              "hindi": "So the final answer is length, breadth, height."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.9(b)",
+          "hindi": "Question 24.79.9(b)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q09_c",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.9(c)",
+        "hindi": "Question 24.79.9(c)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.9(c)?",
+        "hindi": "Can you solve Question 24.79.9(c)?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.9(c)",
+        "hindi": "Question 24.79.9(c)"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about Volume of a cube =.................... ×.................... ×.",
+          "hindi": "This question is about Volume of a cube =.................... ×.................... ×."
+        },
+        {
+          "english": "From the question, we should notice Volume of a cube =.................... ×.................... ×.",
+          "hindi": "From the question, we should notice Volume of a cube =.................... ×.................... ×."
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
+          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
+        },
+        {
+          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
+          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q09_c_q1",
+          "prompt": {
+            "english": "Fill in the blanks Part (c): Volume of a cube =.................... ×.................... ×",
+            "hindi": "Fill in the blanks Part (c): Volume of a cube =.................... ×.................... ×"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "side, side, side"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about Volume of a cube =.................... ×.................... ×.",
+              "hindi": "Here the question is asking about Volume of a cube =.................... ×.................... ×."
+            },
+            {
+              "english": "The information given to us is Volume of a cube =.................... ×.................... ×.",
+              "hindi": "The information given to us is Volume of a cube =.................... ×.................... ×."
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+              "hindi": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach side, side, side.",
+              "hindi": "When you apply the rule carefully, you reach side, side, side."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
+              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
+            },
+            {
+              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
+              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
+            },
+            {
+              "english": "So the final answer is side, side, side.",
+              "hindi": "So the final answer is side, side, side."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.9(c)",
+          "hindi": "Question 24.79.9(c)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q10",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.10",
+        "hindi": "Question 24.79.10"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.10?",
+        "hindi": "Can you solve Question 24.79.10?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.10",
+        "hindi": "Question 24.79.10"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about Amit has sixty 1 cm cubes. Which of these cuboids can he not build? (a) 5 cm long, 4 cm wide, 3 cm high (b) 2 cm long, 3 cm wide, 10 cm high (c) 4.",
+          "hindi": "This question is about Amit has sixty 1 cm cubes. Which of these cuboids can he not build? (a) 5 cm long, 4 cm wide, 3 cm high (b) 2 cm long, 3 cm wide, 10 cm high (c) 4."
+        },
+        {
+          "english": "From the question, we should notice Amit has sixty 1 cm cubes. Which of these cuboids can he not build? (a) 5 cm long, 4 cm wide, 3 cm high (b) 2 cm long, 3 cm wide, 10 cm high (c) 4 cm long, 4.",
+          "hindi": "From the question, we should notice Amit has sixty 1 cm cubes. Which of these cuboids can he not build? (a) 5 cm long, 4 cm wide, 3 cm high (b) 2 cm long, 3 cm wide, 10 cm high (c) 4 cm long, 4."
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
+          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
+        },
+        {
+          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
+          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q10_q1",
+          "prompt": {
+            "english": "Amit has sixty 1 cm cubes. Which of these cuboids can he not build? (a) 5 cm long, 4 cm wide, 3 cm high (b) 2 cm long, 3 cm wide, 10 cm high (c) 4 cm long, 4 cm wide, 4 cm high (d) 6 cm long, 5 cm wide, 2 cm high",
+            "hindi": "Amit has sixty 1 cm cubes. Which of these cuboids can he not build? (a) 5 cm long, 4 cm wide, 3 cm high (b) 2 cm long, 3 cm wide, 10 cm high (c) 4 cm long, 4 cm wide, 4 cm high (d) 6 cm long, 5 cm wide, 2 cm high"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "c",
+            "option c",
+            "4 cm long, 4 cm wide, 4 cm high",
+            "4 long, 4 wide, 4 high",
+            "4 cm long 4 cm wide 4 cm high",
+            "4 long 4 wide 4 high"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about Amit has sixty 1 cm cubes. Which of these cuboids can he not build? (a) 5 cm long, 4 cm wide, 3 cm high (b) 2 cm long, 3 cm wide, 10 cm high (c) 4.",
+              "hindi": "Here the question is asking about Amit has sixty 1 cm cubes. Which of these cuboids can he not build? (a) 5 cm long, 4 cm wide, 3 cm high (b) 2 cm long, 3 cm wide, 10 cm high (c) 4."
+            },
+            {
+              "english": "The information given to us is Amit has sixty 1 cm cubes. Which of these cuboids can he not build? (a) 5 cm long, 4 cm wide, 3 cm high (b) 2 cm long, 3 cm wide, 10 cm high (c) 4 cm long, 4.",
+              "hindi": "The information given to us is Amit has sixty 1 cm cubes. Which of these cuboids can he not build? (a) 5 cm long, 4 cm wide, 3 cm high (b) 2 cm long, 3 cm wide, 10 cm high (c) 4 cm long, 4."
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+              "hindi": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach c.",
+              "hindi": "When you apply the rule carefully, you reach c."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
+              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
+            },
+            {
+              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
+              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
+            },
+            {
+              "english": "So the final answer is c.",
+              "hindi": "So the final answer is c."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.10",
+          "hindi": "Question 24.79.10"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rs_ex_ch24_ex79_q11",
+      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.11",
+        "hindi": "Question 24.79.11"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.11?",
+        "hindi": "Can you solve Question 24.79.11?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.11",
+        "hindi": "Question 24.79.11"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+          "hindi": "Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+        },
+        {
+          "english": "This question is about Volume of a cuboid is 1/8 cu m. What is its volume in cu cm?",
+          "hindi": "This question is about Volume of a cuboid is 1/8 cu m. What is its volume in cu cm?"
+        },
+        {
+          "english": "From the question, we should notice Volume of a cuboid is 1/8 cu m. What is its volume in cu cm?",
+          "hindi": "From the question, we should notice Volume of a cuboid is 1/8 cu m. What is its volume in cu cm?"
+        },
+        {
+          "english": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+          "hindi": "To move toward the answer, use this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+        },
+        {
+          "english": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+          "hindi": "A similar model helps here. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+        },
+        {
+          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
+          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
+        },
+        {
+          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
+          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
+        },
+        {
+          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
+          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
+        }
+      ],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rs_ex_ch24_ex79_q11_q1",
+          "prompt": {
+            "english": "Volume of a cuboid is 1/8 cu m. What is its volume in cu cm?",
+            "hindi": "Volume of a cuboid is 1/8 cu m. What is its volume in cu cm?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "125000",
+            "125000 cu cm",
+            "125000 cubic cm",
+            "125000 cubic"
+          ],
+          "hint": {
+            "english": "Check the textbook rule, the numbers, and the final form carefully.",
+            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
+          },
+          "wrongReason": {
+            "english": "Check each step of your working carefully. Units do not need to be typed.",
+            "hindi": "Check each step of your working carefully. Units do not need to be typed."
+          },
+          "supportExample": {
+            "english": "Work through the steps carefully and compare your answer at the end.",
+            "hindi": "Work through the steps carefully and compare your answer at the end."
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "See solution",
+            "hindi": "See solution"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly.",
+              "hindi": "We begin with the main idea used in this exercise. Volume measures the space inside a solid shape, so length, breadth, and height or edge length must be used correctly."
+            },
+            {
+              "english": "Here the question is asking about Volume of a cuboid is 1/8 cu m. What is its volume in cu cm?",
+              "hindi": "Here the question is asking about Volume of a cuboid is 1/8 cu m. What is its volume in cu cm?"
+            },
+            {
+              "english": "The information given to us is Volume of a cuboid is 1/8 cu m. What is its volume in cu cm?",
+              "hindi": "The information given to us is Volume of a cuboid is 1/8 cu m. What is its volume in cu cm?"
+            },
+            {
+              "english": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula.",
+              "hindi": "So we follow this method. Find out whether the solid is a cuboid or a cube, note the dimensions, and then apply the correct volume formula."
+            },
+            {
+              "english": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm.",
+              "hindi": "A worked pattern for the same kind of question is this. A cuboid of 4 cm x 3 cm x 2 cm has volume 24 cubic cm."
+            },
+            {
+              "english": "When you apply the rule carefully, you reach 125000.",
+              "hindi": "When you apply the rule carefully, you reach 125000."
+            },
+            {
+              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
+              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
+            },
+            {
+              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
+              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
+            },
+            {
+              "english": "So the final answer is 125000.",
+              "hindi": "So the final answer is 125000."
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.11",
+          "hindi": "Question 24.79.11"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "chapterNumber": 1,
+  "chapterTitle": {
+    "english": "Matter Around Us",
+    "hindi": "हमारे आसपास पदार्थ"
+  },
+  "topics": [
+    {
+      "id": "science_states_matter_1",
+      "sourceLessonId": "science_states_matter",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Matter Around Us",
+        "hindi": "हमारे आसपास पदार्थ"
+      },
+      "lessonTitle": {
+        "english": "Solids, Liquids, and Gases",
+        "hindi": "ठोस, द्रव और गैस"
+      },
+      "subtopicTitle": {
+        "english": "Compare the three states",
+        "hindi": "तीनों अवस्थाओं की तुलना"
+      },
+      "knowPrompt": {
+        "english": "Do you know how solids, liquids, and gases behave differently?",
+        "hindi": "क्या आप जानते हैं कि ठोस, द्रव और गैस अलग-अलग तरह से कैसे व्यवहार करते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Shape and flow make them different",
+        "hindi": "आकार और बहाव उन्हें अलग बनाते हैं"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "A solid keeps its own shape, a liquid takes the shape of its container, and a gas spreads out.",
+          "hindi": "ठोस अपना आकार बनाए रखता है, द्रव बर्तन का आकार लेता है और गैस फैल जाती है।"
+        },
+        {
+          "english": "A solid usually feels fixed and does not flow on its own. A liquid can be poured, so it changes shape when the container changes.",
+          "hindi": "ठोस सामान्यतः स्थिर लगता है और अपने-आप नहीं बहता। द्रव को उँडेला जा सकता है, इसलिए बर्तन बदलने पर उसका आकार बदल जाता है।"
+        },
+        {
+          "english": "A gas has no fixed shape and no fixed volume at this level of understanding. It spreads to fill the space available.",
+          "hindi": "गैस का कोई निश्चित आकार नहीं होता और इस स्तर की समझ में उसका निश्चित आयतन भी नहीं माना जाता। वह उपलब्ध जगह में फैल जाती है।"
+        },
+        {
+          "english": "Children can compare ice, water, and water vapour to notice the change clearly.",
+          "hindi": "बच्चे बर्फ, पानी और जलवाष्प की तुलना करके यह अंतर साफ देख सकते हैं।"
+        },
+        {
+          "english": "When a child is confused, two helpful checks are: Does it keep its own shape? Can it flow or spread?",
+          "hindi": "जब बच्चा उलझ जाए, तो दो उपयोगी जाँच हैं: क्या यह अपना आकार बनाए रखता है? क्या यह बह सकता है या फैल सकता है?"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Stone is a solid.",
+          "hindi": "पत्थर ठोस है।"
+        },
+        {
+          "english": "Milk is a liquid.",
+          "hindi": "दूध द्रव है।"
+        },
+        {
+          "english": "Air is a gas.",
+          "hindi": "हवा गैस है।"
+        }
+      ],
+      "visuals": [
+        {
+          "title": {
+            "english": "State comparison",
+            "hindi": "अवस्था तुलना"
+          },
+          "description": {
+            "english": "Compare shape and movement.",
+            "hindi": "आकार और गति की तुलना करो।"
+          },
+          "kind": "TABLE",
+          "chips": [],
+          "rows": [
+            [
+              {
+                "english": "solid",
+                "hindi": "ठोस"
+              },
+              {
+                "english": "fixed shape",
+                "hindi": "निश्चित आकार"
+              }
+            ],
+            [
+              {
+                "english": "liquid",
+                "hindi": "द्रव"
+              },
+              {
+                "english": "takes container shape",
+                "hindi": "बर्तन का आकार लेता है"
+              }
+            ],
+            [
+              {
+                "english": "gas",
+                "hindi": "गैस"
+              },
+              {
+                "english": "spreads out",
+                "hindi": "फैल जाती है"
+              }
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "science_q1",
+          "prompt": {
+            "english": "Which of these is a liquid?",
+            "hindi": "इनमें से कौन-सा द्रव है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Stone",
+              "hindi": "पत्थर"
+            },
+            {
+              "english": "Milk",
+              "hindi": "दूध"
+            },
+            {
+              "english": "Air",
+              "hindi": "हवा"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": {
+            "english": "Think about what can flow.",
+            "hindi": "सोचो क्या बह सकता है।"
+          },
+          "wrongReason": {
+            "english": "The state of matter was not matched correctly.",
+            "hindi": "पदार्थ की अवस्था सही तरह नहीं पहचानी गई।"
+          },
+          "supportExample": {
+            "english": "Milk can be poured, so it is a liquid.",
+            "hindi": "दूध उँडेला जा सकता है, इसलिए वह द्रव है।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Check shape and flow",
+            "hindi": "आकार और बहाव देखो"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Ask whether the material keeps its own shape, takes the shape of a container, or spreads out.",
+              "hindi": "पूछो कि पदार्थ अपना आकार रखता है, बर्तन का आकार लेता है या फैल जाता है।"
+            },
+            {
+              "english": "Stone keeps its own shape, so it is a solid.",
+              "hindi": "पत्थर अपना आकार बनाए रखता है, इसलिए वह ठोस है।"
+            },
+            {
+              "english": "Air spreads out and fills space, so it is a gas.",
+              "hindi": "हवा फैलती है और जगह भरती है, इसलिए वह गैस है।"
+            },
+            {
+              "english": "Milk can be poured and takes the shape of its container, so the correct answer is Milk.",
+              "hindi": "दूध उँडेला जा सकता है और बर्तन का आकार लेता है, इसलिए सही उत्तर दूध है।"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "matter",
+          "hindi": "पदार्थ"
+        }
+      ],
+      "mistakeFocus": "CONCEPT_CONFUSION"
+    }
+  ]
+}
