@@ -2,40 +2,17 @@ from __future__ import annotations
 
 import argparse
 import json
-import subprocess
-import tempfile
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from shutil import which
 from typing import Any
 
+from codex_math_content import generate_existing_topic_content
 from subject_pack_io import load_book, save_book
 
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_PACK_PATH = ROOT / "app" / "src" / "main" / "assets" / "subject_packs" / "class5_rs_aggarwal_math.json"
 DEFAULT_STATE_PATH = ROOT / "tools" / ".refresh_math_topic_explanations_state.json"
-
-SCHEMA: dict[str, Any] = {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "type": "object",
-    "additionalProperties": False,
-    "properties": {
-        "english_paragraphs": {
-            "type": "array",
-            "items": {"type": "string"},
-            "minItems": 6,
-            "maxItems": 12,
-        },
-        "hindi_paragraphs": {
-            "type": "array",
-            "items": {"type": "string"},
-            "minItems": 6,
-            "maxItems": 12,
-        },
-    },
-    "required": ["english_paragraphs", "hindi_paragraphs"],
-}
 
 
 def load_json_file(path: Path) -> dict[str, Any]:
@@ -64,119 +41,6 @@ def topic_title(topic: dict[str, Any]) -> str:
     return str(topic.get("id", "Unknown Topic"))
 
 
-def topic_context_prompt(topic: dict[str, Any]) -> str:
-    questions = topic.get("questions") or []
-    if not questions:
-        return ""
-    prompt_block = questions[0].get("prompt")
-    if isinstance(prompt_block, dict):
-        return str(prompt_block.get("english", "")).strip()
-    return str(prompt_block or "").strip()
-
-
-def build_prompt(title: str, context_prompt: str) -> str:
-    exact_request = (
-        f"I am a beginner at maths. Explain {title} in detail with the formula, real-life examples, "
-        "and 3 worked solutions from easy to hard. Show every step clearly and point out common mistakes"
-    )
-    lines = [
-        f'Write a JSON object with "english_paragraphs" and "hindi_paragraphs" for the maths topic "{title}".',
-        f'Use this exact English teaching request to shape the explanation: "{exact_request}"',
-    ]
-    if context_prompt:
-        lines.append(f'Use this practice question only as extra context when helpful: "{context_prompt}"')
-    lines.extend(
-        [
-            "Keep both languages beginner-friendly and natural.",
-            "Keep the explanation strictly suitable for class 5 students.",
-            "No bullets, no headings, no labels, and no markdown.",
-            "Ensure the English and Hindi arrays have the same number of paragraphs and correspond in order.",
-            "Use formulas only when the topic truly has one. If a topic is conceptual, explain the key rule or idea clearly instead of inventing a formula.",
-            "The worked solutions should stay accurate for the topic and move from easy to hard.",
-            "Do not use coordinate geometry, slope, equations of lines, x-axis, y-axis, algebraic proofs, negative reciprocals, or any advanced ideas beyond class 5.",
-            "Return only the JSON object that matches the schema.",
-        ]
-    )
-    return "\n".join(lines)
-
-
-def normalize_paragraphs(values: list[str]) -> list[str]:
-    normalized: list[str] = []
-    for value in values:
-        text = " ".join(str(value).split()).strip()
-        if text:
-            normalized.append(text)
-    return normalized
-
-
-def run_codex_prompt(
-    *,
-    prompt: str,
-    schema_path: Path,
-    model: str,
-    workdir: Path,
-    timeout_seconds: int,
-) -> dict[str, list[str]]:
-    codex_bin = which("codex")
-    if not codex_bin:
-        raise RuntimeError("codex CLI was not found in PATH.")
-
-    with tempfile.NamedTemporaryFile(prefix="topic_explanation_", suffix=".json", delete=False) as output_file:
-        output_path = Path(output_file.name)
-
-    try:
-        command = [
-            codex_bin,
-            "exec",
-            "-C",
-            str(workdir),
-            "--sandbox",
-            "read-only",
-            "--ephemeral",
-            "--color",
-            "never",
-            "--model",
-            model,
-            "--output-schema",
-            str(schema_path),
-            "-o",
-            str(output_path),
-            prompt,
-        ]
-        completed = subprocess.run(
-            command,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True,
-            timeout=timeout_seconds,
-            check=False,
-        )
-        if completed.returncode != 0:
-            raise RuntimeError(
-                f"codex exec failed with exit code {completed.returncode}\nSTDOUT:\n{completed.stdout}\nSTDERR:\n{completed.stderr}"
-            )
-
-        payload = json.loads(output_path.read_text(encoding="utf-8"))
-        english = normalize_paragraphs(list(payload.get("english_paragraphs", [])))
-        hindi = normalize_paragraphs(list(payload.get("hindi_paragraphs", [])))
-        if not english or not hindi:
-            raise RuntimeError(f"codex returned empty paragraphs: {payload}")
-        count = min(len(english), len(hindi))
-        return {
-            "english_paragraphs": english[:count],
-            "hindi_paragraphs": hindi[:count],
-        }
-    finally:
-        output_path.unlink(missing_ok=True)
-
-
-def build_explanation_paragraphs(result: dict[str, list[str]]) -> list[dict[str, str]]:
-    return [
-        {"english": english, "hindi": hindi}
-        for english, hindi in zip(result["english_paragraphs"], result["hindi_paragraphs"])
-    ]
-
-
 def selected_topic_entries(
     pack: dict[str, Any],
     *,
@@ -200,25 +64,20 @@ def selected_topic_entries(
 def worker_payload(
     topic: dict[str, Any],
     *,
-    schema_path: Path,
     model: str,
-    workdir: Path,
     timeout_seconds: int,
-) -> tuple[str, list[dict[str, str]]]:
+) -> tuple[str, list[dict[str, str]], list[dict[str, str]]]:
     title = topic_title(topic)
-    prompt = build_prompt(title, topic_context_prompt(topic))
-    result = run_codex_prompt(
-        prompt=prompt,
-        schema_path=schema_path,
+    content = generate_existing_topic_content(
+        topic,
         model=model,
-        workdir=workdir,
         timeout_seconds=timeout_seconds,
     )
-    return title, build_explanation_paragraphs(result)
+    return title, content["teaching_paragraphs"], content["solution_paragraphs"]
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Refresh beginner-friendly bilingual explanations for math topics.")
+    parser = argparse.ArgumentParser(description="Refresh bilingual math topic teaching and solution paragraphs with Codex.")
     parser.add_argument("--pack", type=Path, default=DEFAULT_PACK_PATH)
     parser.add_argument("--state", type=Path, default=DEFAULT_STATE_PATH)
     parser.add_argument("--model", default="gpt-5.4")
@@ -257,57 +116,51 @@ def main() -> None:
         print("No pending topics to refresh.")
         return
 
-    with tempfile.NamedTemporaryFile(prefix="topic_explanation_schema_", suffix=".json", mode="w", encoding="utf-8", delete=False) as schema_file:
-        schema_path = Path(schema_file.name)
-        schema_file.write(json.dumps(SCHEMA))
-
-    print(f"Refreshing {len(pending_entries)} topic explanations from {pack_path.name}")
+    print(f"Refreshing {len(pending_entries)} topic content from {pack_path.name}")
     print(f"Workers: {args.max_workers} | Model: {args.model}")
 
-    try:
-        futures = {}
-        with ThreadPoolExecutor(max_workers=args.max_workers) as executor:
-            for index, topic in pending_entries:
-                future = executor.submit(
-                    worker_payload,
-                    topic,
-                    schema_path=schema_path,
-                    model=args.model,
-                    workdir=ROOT,
-                    timeout_seconds=args.timeout_seconds,
-                )
-                futures[future] = (index, topic)
+    futures = {}
+    with ThreadPoolExecutor(max_workers=args.max_workers) as executor:
+        for index, topic in pending_entries:
+            future = executor.submit(
+                worker_payload,
+                topic,
+                model=args.model,
+                timeout_seconds=args.timeout_seconds,
+            )
+            futures[future] = (index, topic)
 
-            processed = 0
-            total = len(futures)
-            for future in as_completed(futures):
-                index, topic = futures[future]
-                topic_id = str(topic.get("id", ""))
-                try:
-                    title, explanation_paragraphs = future.result()
-                    pack["topics"][index]["explanationParagraphs"] = explanation_paragraphs
-                    completed_list = list(state.get("completed_topic_ids", []))
-                    if topic_id not in completed_list:
-                        completed_list.append(topic_id)
-                    state["completed_topic_ids"] = completed_list
-                    failed = dict(state.get("failed_topic_ids", {}))
-                    failed.pop(topic_id, None)
-                    state["failed_topic_ids"] = failed
-                    save_book(pack_path, pack)
-                    save_json_file(state_path, state)
-                    processed += 1
-                    print(f"[{processed}/{total}] refreshed {topic_id} -> {title}")
-                except Exception as exc:  # pragma: no cover - long-running external command errors
-                    failed = dict(state.get("failed_topic_ids", {}))
-                    failed[topic_id] = str(exc)
-                    state["failed_topic_ids"] = failed
-                    save_json_file(state_path, state)
-                    print(f"[error] {topic_id}: {exc}")
+        processed = 0
+        total = len(futures)
+        for future in as_completed(futures):
+            index, topic = futures[future]
+            topic_id = str(topic.get("id", ""))
+            try:
+                title, teaching_paragraphs, solution_paragraphs = future.result()
+                pack["topics"][index]["explanationParagraphs"] = teaching_paragraphs
+                questions = pack["topics"][index].get("questions") or []
+                if questions:
+                    questions[0]["reteachParagraphs"] = solution_paragraphs
+                completed_list = list(state.get("completed_topic_ids", []))
+                if topic_id not in completed_list:
+                    completed_list.append(topic_id)
+                state["completed_topic_ids"] = completed_list
+                failed = dict(state.get("failed_topic_ids", {}))
+                failed.pop(topic_id, None)
+                state["failed_topic_ids"] = failed
+                save_book(pack_path, pack)
+                save_json_file(state_path, state)
+                processed += 1
+                print(f"[{processed}/{total}] refreshed {topic_id} -> {title}")
+            except Exception as exc:  # pragma: no cover - long-running external command errors
+                failed = dict(state.get("failed_topic_ids", {}))
+                failed[topic_id] = str(exc)
+                state["failed_topic_ids"] = failed
+                save_json_file(state_path, state)
+                print(f"[error] {topic_id}: {exc}")
 
-        if state.get("failed_topic_ids"):
-            raise SystemExit(f"Finished with failures. See {state_path}")
-    finally:
-        schema_path.unlink(missing_ok=True)
+    if state.get("failed_topic_ids"):
+        raise SystemExit(f"Finished with failures. See {state_path}")
 
 
 if __name__ == "__main__":

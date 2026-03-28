@@ -4,6 +4,7 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
+from codex_math_content import generate_math_content
 from subject_pack_io import save_book
 
 
@@ -723,6 +724,36 @@ def primary_answer_text(spec: TopicSpec) -> tuple[str, str] | None:
     return None
 
 
+def codex_content_for_spec(spec: TopicSpec) -> dict[str, list[dict[str, str]]]:
+    chapter_en, chapter_hi = chapter_title(spec.chapter_number)
+    answer_en, answer_hi = primary_answer_text(spec) or ("", "")
+    return generate_math_content(
+        content_kind="main_topic",
+        chapter_title_en=chapter_en,
+        chapter_title_hi=chapter_hi,
+        topic_title_en=spec.title_en,
+        topic_title_hi=spec.title_hi,
+        question_prompt_en=spec.prompt_en,
+        question_prompt_hi=spec.prompt_hi,
+        authoritative_answer_en=answer_en,
+        authoritative_answer_hi=answer_hi,
+        question_type="MULTIPLE_CHOICE" if isinstance(spec, McqTopicSpec) else "TEXT_INPUT",
+        concept_en=spec.concept_en,
+        concept_hi=spec.concept_hi,
+        hint_en=spec.hint_en,
+        hint_hi=spec.hint_hi,
+        example_en=spec.example_en,
+        example_hi=spec.example_hi,
+        support_en=spec.support_en,
+        support_hi=spec.support_hi,
+        options=(
+            [{"english": option_en, "hindi": option_hi} for option_en, option_hi in spec.options]
+            if isinstance(spec, McqTopicSpec)
+            else None
+        ),
+    )
+
+
 def unique_paragraphs(paragraphs: list[dict[str, str]]) -> list[dict[str, str]]:
     unique: list[dict[str, str]] = []
     seen: set[tuple[str, str]] = set()
@@ -817,33 +848,11 @@ def generic_detailed_teaching_paragraphs(spec: TopicSpec) -> list[dict[str, str]
 
 
 def solution_paragraphs(spec: TopicSpec) -> list[dict[str, str]]:
-    detailed = SPECIAL_TOPIC_DETAILED_SOLUTIONS.get((spec.chapter_number, spec.title_en))
-    if detailed is not None:
-        english_steps, hindi_steps = detailed
-        return [loc(english, hindi) for english, hindi in zip(english_steps, hindi_steps)]
-
-    if spec.chapter_number == 1:
-        detailed = CHAPTER_ONE_DETAILED_SOLUTIONS.get(spec.title_en)
-        if detailed is not None:
-            english_steps, hindi_steps = detailed
-            return [loc(english, hindi) for english, hindi in zip(english_steps, hindi_steps)]
-
-    return generic_detailed_solution_paragraphs(spec)
+    return codex_content_for_spec(spec)["solution_paragraphs"]
 
 
 def teaching_paragraphs(spec: TopicSpec) -> list[dict[str, str]]:
-    detailed = SPECIAL_TOPIC_DETAILED_TEACHING.get((spec.chapter_number, spec.title_en))
-    if detailed is not None:
-        english_steps, hindi_steps = detailed
-        return [loc(english, hindi) for english, hindi in zip(english_steps, hindi_steps)]
-
-    if spec.chapter_number == 1:
-        detailed = CHAPTER_ONE_DETAILED_TEACHING.get(spec.title_en)
-        if detailed is not None:
-            english_steps, hindi_steps = detailed
-            return [loc(english, hindi) for english, hindi in zip(english_steps, hindi_steps)]
-
-    return generic_detailed_teaching_paragraphs(spec)
+    return codex_content_for_spec(spec)["teaching_paragraphs"]
 
 
 def text_question(spec: TextTopicSpec) -> dict:

@@ -6,6 +6,8 @@ from functools import reduce as _reduce
 from math import gcd as _gcd
 from pathlib import Path
 
+from codex_math_content import generate_math_content
+
 try:
     import fitz
 except ModuleNotFoundError:  # pragma: no cover - optional for asset refresh from existing JSON
@@ -1643,63 +1645,81 @@ def final_form_hint(prompt_text: str, solution_text: str, *, notebook_task: bool
 
 def detailed_teaching_paragraphs(
     chapter_number: int,
-    prompt_text: str,
-    solution_text: str,
-    *,
-    notebook_task: bool,
-) -> list[str]:
-    guide = chapter_exercise_guide(chapter_number)
-    prompt = sanitize_ocr_text(prompt_text)
-    solution = sanitize_ocr_text(solution_text)
-    paragraphs = [
-        guide["key_idea"],
-        f"This question is about {exercise_focus(prompt)}",
-        f"From the question, we should notice {exercise_given_info(prompt)}",
-        f"To move toward the answer, use this method. {exercise_method_line(prompt, guide, notebook_task=notebook_task)}",
-        f"A similar model helps here. {guide['example']}",
-        f"While writing the answer, remember this. {final_form_hint(prompt, solution, notebook_task=notebook_task)}",
-        f"At the end, check once more. {exercise_check_line(prompt, solution, guide, notebook_task=notebook_task)}",
-    ]
-    if notebook_task:
-        paragraphs.append(f"Your notebook work should stay neat and complete. {guide['notebook']}")
-    else:
-        paragraphs.append("Work slowly, keep one clear step on each line, and compare your final line with what the question asked.")
-    return unique_text_lines(paragraphs)
-
-
-def detailed_solution_paragraphs(
-    chapter_number: int,
+    chapter_title_en: str,
+    chapter_title_hi: str,
     prompt_text: str,
     solution_text: str,
     *,
     notebook_task: bool,
     computed_steps: list[str] | None = None,
-) -> list[str]:
+) -> list[dict[str, str]]:
+    return exercise_codex_content(
+        chapter_number=chapter_number,
+        chapter_title_en=chapter_title_en,
+        chapter_title_hi=chapter_title_hi,
+        prompt_text=prompt_text,
+        solution_text=solution_text,
+        notebook_task=notebook_task,
+        computed_steps=computed_steps,
+    )["teaching_paragraphs"]
+
+
+def detailed_solution_paragraphs(
+    chapter_number: int,
+    chapter_title_en: str,
+    chapter_title_hi: str,
+    prompt_text: str,
+    solution_text: str,
+    *,
+    notebook_task: bool,
+    computed_steps: list[str] | None = None,
+) -> list[dict[str, str]]:
+    return exercise_codex_content(
+        chapter_number=chapter_number,
+        chapter_title_en=chapter_title_en,
+        chapter_title_hi=chapter_title_hi,
+        prompt_text=prompt_text,
+        solution_text=solution_text,
+        notebook_task=notebook_task,
+        computed_steps=computed_steps,
+    )["solution_paragraphs"]
+
+
+def exercise_codex_content(
+    *,
+    chapter_number: int,
+    chapter_title_en: str,
+    chapter_title_hi: str,
+    prompt_text: str,
+    solution_text: str,
+    notebook_task: bool,
+    computed_steps: list[str] | None = None,
+) -> dict[str, list[dict[str, str]]]:
     guide = chapter_exercise_guide(chapter_number)
     prompt = sanitize_ocr_text(prompt_text)
     solution = sanitize_ocr_text(solution_text)
-    paragraphs = [
-        f"We begin with the main idea used in this exercise. {guide['key_idea']}",
-        f"Here the question is asking about {exercise_focus(prompt)}",
-        f"The information given to us is {exercise_given_info(prompt)}",
-        f"So we follow this method. {exercise_method_line(prompt, guide, notebook_task=notebook_task)}",
-    ]
-    if computed_steps:
-        paragraphs.extend(computed_steps)
-    else:
-        paragraphs.extend(
-            [
-                f"A worked pattern for the same kind of question is this. {guide['example']}",
-                exercise_answer_reason_line(prompt, solution, notebook_task=notebook_task),
-            ]
-        )
-    paragraphs.append(f"Before writing the last line, keep this in mind. {final_form_hint(prompt, solution, notebook_task=notebook_task)}")
-    paragraphs.append(f"Now check the result once more. {exercise_check_line(prompt, solution, guide, notebook_task=notebook_task)}")
-    if notebook_task:
-        paragraphs.append("After completing the notebook work neatly, type done.")
-    else:
-        paragraphs.append(f"So the final answer is {solution}")
-    return unique_text_lines(paragraphs)
+    return generate_math_content(
+        content_kind="exercise_question",
+        chapter_title_en=chapter_title_en,
+        chapter_title_hi=chapter_title_hi,
+        topic_title_en="Exercise Question",
+        topic_title_hi="अभ्यास प्रश्न",
+        question_prompt_en=prompt,
+        question_prompt_hi="",
+        authoritative_answer_en=solution,
+        authoritative_answer_hi=solution,
+        question_type="TEXT_INPUT",
+        concept_en=guide["key_idea"],
+        concept_hi=guide["key_idea"],
+        hint_en=exercise_method_line(prompt, guide, notebook_task=notebook_task),
+        hint_hi=exercise_method_line(prompt, guide, notebook_task=notebook_task),
+        example_en=guide["example"],
+        example_hi=guide["example"],
+        support_en=final_form_hint(prompt, solution, notebook_task=notebook_task),
+        support_hi=final_form_hint(prompt, solution, notebook_task=notebook_task),
+        notebook_task=notebook_task,
+        computed_steps=unique_text_lines(computed_steps or []),
+    )
 
 
 def unitless_answer_variants(answer_text: str) -> list[str]:
@@ -2347,7 +2367,13 @@ def try_solve_arithmetic(
         return None
 
 
-def make_notebook_answer(prompt_text: str, *, chapter_number: int) -> dict[str, object]:
+def make_notebook_answer(
+    prompt_text: str,
+    *,
+    chapter_number: int,
+    chapter_title_en: str,
+    chapter_title_hi: str,
+) -> dict[str, object]:
     solution_text = notebook_solution(prompt_text)
     return {
         "acceptedAnswers": NOTEBOOK_ACCEPTED_ANSWERS,
@@ -2357,6 +2383,8 @@ def make_notebook_answer(prompt_text: str, *, chapter_number: int) -> dict[str, 
         "reteachTitle": "How to complete this notebook task",
         "reteachParagraphs": detailed_solution_paragraphs(
             chapter_number,
+            chapter_title_en,
+            chapter_title_hi,
             prompt_text,
             "done",
             notebook_task=True,
@@ -2364,9 +2392,12 @@ def make_notebook_answer(prompt_text: str, *, chapter_number: int) -> dict[str, 
         ),
         "teachingParagraphs": detailed_teaching_paragraphs(
             chapter_number,
+            chapter_title_en,
+            chapter_title_hi,
             prompt_text,
             "done",
             notebook_task=True,
+            computed_steps=[solution_text],
         ),
         "exampleText": solution_text,
         "quizPromptSuffix": "Then type done.",
@@ -2711,6 +2742,8 @@ def make_text_answer(
     answer_source: object,
     *,
     chapter_number: int,
+    chapter_title_en: str,
+    chapter_title_hi: str,
     exercise_number: int | None = None,
     prompt_text: str = "",
 ) -> dict[str, object]:
@@ -2764,6 +2797,8 @@ def make_text_answer(
             "reteachTitle": "See solution",
             "reteachParagraphs": detailed_solution_paragraphs(
                 chapter_number,
+                chapter_title_en,
+                chapter_title_hi,
                 prompt_text,
                 solution_text,
                 notebook_task=False,
@@ -2771,9 +2806,12 @@ def make_text_answer(
             ),
             "teachingParagraphs": detailed_teaching_paragraphs(
                 chapter_number,
+                chapter_title_en,
+                chapter_title_hi,
                 prompt_text,
                 solution_text,
                 notebook_task=False,
+                computed_steps=reteach_paragraphs,
             ),
             "exampleText": f"Answer: {solution_text}",
             "quizPromptSuffix": "",
@@ -2798,12 +2836,16 @@ def make_text_answer(
         "reteachTitle": "See solution",
         "reteachParagraphs": detailed_solution_paragraphs(
             chapter_number,
+            chapter_title_en,
+            chapter_title_hi,
             prompt_text,
             solution_text,
             notebook_task=False,
         ),
         "teachingParagraphs": detailed_teaching_paragraphs(
             chapter_number,
+            chapter_title_en,
+            chapter_title_hi,
             prompt_text,
             solution_text,
             notebook_task=False,
@@ -2839,11 +2881,18 @@ def build_topic(
         make_text_answer(
             answer_source,
             chapter_number=chapter_number,
+            chapter_title_en=chapter_title_en,
+            chapter_title_hi=chapter_title_hi,
             exercise_number=exercise_number,
             prompt_text=display_prompt_text,
         )
         if answer_source is not None
-        else make_notebook_answer(display_prompt_text, chapter_number=chapter_number)
+        else make_notebook_answer(
+            display_prompt_text,
+            chapter_number=chapter_number,
+            chapter_title_en=chapter_title_en,
+            chapter_title_hi=chapter_title_hi,
+        )
     )
     quiz_prompt = compact_text(display_prompt_text)
     prompt_suffix = answer_payload["quizPromptSuffix"]
@@ -2868,7 +2917,7 @@ def build_topic(
         "subtopicTitle": loc(subtopic_title),
         "knowPrompt": loc(f"Can you solve {subtopic_title}?"),
         "explanationTitle": loc(explanation_title),
-        "explanationParagraphs": [loc(str(para)) for para in answer_payload.get("teachingParagraphs", [])],
+        "explanationParagraphs": list(answer_payload.get("teachingParagraphs", [])),
         "examples": [],
         "visuals": [],
         "questions": [
@@ -2884,7 +2933,7 @@ def build_topic(
                 "supportExample": loc(str(answer_payload["supportExample"])),
                 "mistakeType": "GENERAL",
                 "reteachTitle": loc(str(answer_payload["reteachTitle"])),
-                "reteachParagraphs": [loc(paragraph) for paragraph in answer_payload["reteachParagraphs"]],
+                "reteachParagraphs": list(answer_payload["reteachParagraphs"]),
             }
         ],
         "tags": [
