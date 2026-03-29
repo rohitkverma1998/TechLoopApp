@@ -969,17 +969,9 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             addedSentenceContent = true
 
             val sentenceView = TextView(this).apply {
-                text = if (isActiveLine) {
-                    chalkDisplayText(sentence)
-                } else {
-                    sentence
-                }
+                text = renderStyledText(if (isActiveLine) chalkDisplayText(sentence) else sentence)
                 textSize = 15f
-                setTextColor(
-                    getColor(
-                        if (isActiveLine) R.color.chalk_text else R.color.chalk_text_dim,
-                    )
-                )
+                setTextColor(getColor(R.color.chalk_text))
                 setLineSpacing(0f, 1.15f)
                 letterSpacing = 0.03f
                 typeface = android.graphics.Typeface.MONOSPACE
@@ -1160,6 +1152,59 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 }
             }
         }
+    }
+
+    /**
+     * Renders a sentence with 4 color layers:
+     *  - Hindi  (Devanagari)  → warm orange  #FFB347
+     *  - English              → sky blue     #A8D8FF
+     *  - Bold **…**           → gold         #FFD700  (also bold weight)
+     *  - Leading point/step   → mint green   #7FFFD4
+     */
+    /**
+     * Renders a sentence with 4 color layers:
+     *  - Hindi  (Devanagari)  → warm orange  #FFB347
+     *  - English              → sky blue     #A8D8FF
+     *  - Bold **…**           → gold         #FFD700  (also bold weight)
+     *  - Leading point/step   → mint green   #7FFFD4
+     */
+    private fun renderStyledText(text: String): CharSequence {
+        val hasDevanagari = text.any { it in '\u0900'..'\u097F' }
+        val baseColor = if (hasDevanagari) 0xFFFFB347.toInt() else 0xFFBFA8FF.toInt()
+        val boldColor  = 0xFFFFD700.toInt()   // gold
+        val pointColor = 0xFF7FFFD4.toInt()   // aquamarine / mint
+
+        val spannable = android.text.SpannableStringBuilder()
+        val boldPattern = Regex("""\*\*(.+?)\*\*""")
+
+        // Build spannable applying bold spans and language color
+        var last = 0
+        boldPattern.findAll(text).forEach { match ->
+            if (match.range.first > last) {
+                val s = spannable.length
+                spannable.append(text, last, match.range.first)
+                spannable.setSpan(android.text.style.ForegroundColorSpan(baseColor), s, spannable.length, android.text.Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+            }
+            val s = spannable.length
+            spannable.append(match.groupValues[1])
+            spannable.setSpan(android.text.style.StyleSpan(android.graphics.Typeface.BOLD), s, spannable.length, android.text.Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+            spannable.setSpan(android.text.style.ForegroundColorSpan(boldColor), s, spannable.length, android.text.Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+            last = match.range.last + 1
+        }
+        if (last < text.length) {
+            val s = spannable.length
+            spannable.append(text, last, text.length)
+            spannable.setSpan(android.text.style.ForegroundColorSpan(baseColor), s, spannable.length, android.text.Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+        }
+
+        // Color leading point number / step prefix in mint green
+        val prefixMatch = Regex("""^(\s*(?:\d+[.):\-]|Step\s*\d+[.:]|[-•]))""", RegexOption.IGNORE_CASE).find(text)
+        prefixMatch?.let {
+            val end = minOf(it.range.last + 1, spannable.length)
+            spannable.setSpan(android.text.style.ForegroundColorSpan(pointColor), it.range.first, end, android.text.Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
+        }
+
+        return spannable
     }
 
     private fun chalkDisplayText(sentence: String): String {
@@ -1685,7 +1730,18 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             renderStatus()
             return
         }
-        textToSpeech?.speak(sentence, TextToSpeech.QUEUE_FLUSH, null, "topic_sentence_$currentSpeechIndex")
+        val spokenText = sentence
+            .replace("**", "")
+            .lines()
+            .filter { line ->
+                val t = line.trim()
+                !t.matches(Regex("^[|\\-: ]+$"))  // skip table separator rows like |---|---|
+            }
+            .joinToString(" ")
+            .replace("|", " ")  // replace remaining pipe chars with space
+            .replace(Regex("\\s{2,}"), " ")
+            .trim()
+        textToSpeech?.speak(spokenText, TextToSpeech.QUEUE_FLUSH, null, "topic_sentence_$currentSpeechIndex")
     }
 
     private fun switchBook(bookId: String) {

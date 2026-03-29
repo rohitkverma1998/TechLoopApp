@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch11_rounding_off_a_number_to_the_nearest_ten",
+      "id": "rsch11roundingoffanumbertothenearest_ten",
       "sourceLessonId": "rs_ch11",
       "chapterNumber": 11,
       "chapterTitle": {
@@ -29,12 +29,22 @@
         "english": "Rounding off a Number to the Nearest Ten",
         "hindi": "निकटतम दहाई तक पूर्णांकन"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**What is Rounding?**\nRounding means changing a number to a simpler number that is close to the original. We do this when we don't need an exact number — for example, \"about 350 students\" instead of \"347 students\".\n\n**Rule for Rounding to the Nearest Ten:**\n1. Look at the **ones digit** (the last digit on the right).\n2. If the ones digit is **0, 1, 2, 3, or 4** → round **down** (keep the tens digit the same, replace ones with 0).\n3. If the ones digit is **5, 6, 7, 8, or 9** → round **up** (increase tens digit by 1, replace ones with 0).\n\n**Examples:**\n- Round 43 → ones digit is 3 (less than 5) → round down → **40**\n- Round 47 → ones digit is 7 (5 or more) → round up → **50**\n- Round 65 → ones digit is 5 → round up → **70**",
+          "hindi": "## व्याख्या (हिंदी)\n\n**पूर्णांकन क्या है?**\nपूर्णांकन का मतलब है किसी संख्या को एक सरल, नजदीकी संख्या में बदलना। हम यह तब करते हैं जब हमें बिल्कुल सटीक संख्या की जरूरत नहीं होती — जैसे \"347 छात्र\" की जगह \"लगभग 350 छात्र\" कहना।\n\n**निकटतम दहाई तक पूर्णांकन का नियम:**\n1. **इकाई अंक** (सबसे दाहिनी तरफ का अंक) देखें।\n2. अगर इकाई अंक **0, 1, 2, 3 या 4** है → **नीचे पूर्णांकित करें** (दहाई का अंक वही रहेगा, इकाई की जगह 0 लिखें)।\n3. अगर इकाई अंक **5, 6, 7, 8 या 9** है → **ऊपर पूर्णांकित करें** (दहाई का अंक 1 बढ़ाएं, इकाई की जगह 0 लिखें)।\n\n**उदाहरण:**\n- 43 → इकाई अंक 3 है (5 से कम) → नीचे → **40**\n- 47 → इकाई अंक 7 है (5 या उससे अधिक) → ऊपर → **50**\n- 65 → इकाई अंक 5 है → ऊपर → **70**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**What is Rounding?**\nRounding means changing a number to a simpler number that is close to the original. We do this when we don't need an exact number — for example, \"about 350 students\" instead of \"347 students\".",
+          "hindi": "**उदाहरण:**\n- 43 → इकाई अंक 3 है (5 से कम) → नीचे → **40**\n- 47 → इकाई अंक 7 है (5 या उससे अधिक) → ऊपर → **50**\n- 65 → इकाई अंक 5 है → ऊपर → **70**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "rounding_off_a_number_to_the_nearest_ten_q1",
+          "id": "roundingoffanumbertothenearesttenq1",
           "prompt": {
             "english": "Round 347 to the nearest ten.",
             "hindi": "347 को निकटतम दहाई तक पूर्णांकित कीजिए।"
@@ -46,11 +56,37 @@
             "350"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Look at the ones digit of 347.\n- 347 → ones digit = **7**\n\n**Step 2:** Since 7 is 5 or more, we round **up**.\n\n**Step 3:** Increase the tens digit by 1: tens digit 4 becomes 5. Replace ones digit with 0.\n\n**Answer: 350**",
+            "hindi": "**Step 1:** Look at the ones digit of 347.\n- 347 → ones digit = **7**\n\n**Step 2:** Since 7 is 5 or more, we round **up**.\n\n**Step 3:** Increase the tens digit by 1: tens digit 4 becomes 5. Replace ones digit with 0.\n\n**Answer: 350**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Look at the ones digit of 347.\n- 347 → ones digit = **7**\n**Step 2:** Since 7 is 5 or more, we round **up**.",
+            "hindi": "**Step 1:** Look at the ones digit of 347.\n- 347 → ones digit = **7**\n**Step 2:** Since 7 is 5 or more, we round **up**."
+          },
           "mistakeType": "PLACE_VALUE",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Look at the ones digit of 347.\n- 347 → ones digit = **7**",
+              "hindi": "**Step 1:** Look at the ones digit of 347.\n- 347 → ones digit = **7**"
+            },
+            {
+              "english": "**Step 2:** Since 7 is 5 or more, we round **up**.",
+              "hindi": "**Step 2:** Since 7 is 5 or more, we round **up**."
+            },
+            {
+              "english": "**Step 3:** Increase the tens digit by 1: tens digit 4 becomes 5. Replace ones digit with 0.",
+              "hindi": "**Step 3:** Increase the tens digit by 1: tens digit 4 becomes 5. Replace ones digit with 0."
+            },
+            {
+              "english": "**Answer: 350**",
+              "hindi": "**Answer: 350**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -66,7 +102,7 @@
       "mistakeFocus": "PLACE_VALUE"
     },
     {
-      "id": "rs_ch11_rounding_off_a_number_to_the_nearest_hundred",
+      "id": "rsch11roundingoffanumbertothenearest_hundred",
       "sourceLessonId": "rs_ch11",
       "chapterNumber": 11,
       "chapterTitle": {
@@ -89,12 +125,17 @@
         "english": "Rounding off a Number to the Nearest Hundred",
         "hindi": "निकटतम सैकड़ा तक पूर्णांकन"
       },
-      "explanationParagraphs": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Rule for Rounding to the Nearest Hundred:**\n1. Look at the **tens digit** of the number.\n2. If the tens digit is **0, 1, 2, 3, or 4** → round **down** (replace tens and ones digits with 0).\n3. If the tens digit is **5, 6, 7, 8, or 9** → round **up** (increase hundreds digit by 1, replace tens and ones with 0).\n\n**Examples:**\n- Round 320 → tens digit is 2 (less than 5) → round down → **300**\n- Round 380 → tens digit is 8 (5 or more) → round up → **400**\n- Round 1,264 → tens digit is 6 → round up → **1,300**",
+          "hindi": "## व्याख्या (हिंदी)\n\n**निकटतम सैकड़ा तक पूर्णांकन का नियम:**\n1. संख्या का **दहाई का अंक** देखें।\n2. अगर दहाई का अंक **0, 1, 2, 3 या 4** है → **नीचे पूर्णांकित करें** (दहाई और इकाई दोनों की जगह 0 लिखें)।\n3. अगर दहाई का अंक **5, 6, 7, 8 या 9** है → **ऊपर पूर्णांकित करें** (सैकड़े का अंक 1 बढ़ाएं, दहाई और इकाई की जगह 0 लिखें)।\n\n**उदाहरण:**\n- 320 → दहाई अंक 2 है → नीचे → **300**\n- 380 → दहाई अंक 8 है → ऊपर → **400**\n- 1,264 → दहाई अंक 6 है → ऊपर → **1,300**"
+        }
+      ],
       "examples": [],
       "visuals": [],
       "questions": [
         {
-          "id": "rounding_off_a_number_to_the_nearest_hundred_q1",
+          "id": "roundingoffanumbertothenearesthundredq1",
           "prompt": {
             "english": "Round 1,264 to the nearest hundred.",
             "hindi": "1,264 को निकटतम सैकड़ा तक पूर्णांकित कीजिए।"
@@ -107,11 +148,37 @@
             "1,300"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Identify the tens digit of 1,264.\n- 1,264 → digits: thousands=1, hundreds=2, tens=**6**, ones=4\n\n**Step 2:** The tens digit is 6, which is 5 or more → round **up**.\n\n**Step 3:** Increase the hundreds digit by 1: 2 becomes 3. Replace tens and ones with 0.\n\n**Answer: 1,300**",
+            "hindi": "**Step 1:** Identify the tens digit of 1,264.\n- 1,264 → digits: thousands=1, hundreds=2, tens=**6**, ones=4\n\n**Step 2:** The tens digit is 6, which is 5 or more → round **up**.\n\n**Step 3:** Increase the hundreds digit by 1: 2 becomes 3. Replace tens and ones with 0.\n\n**Answer: 1,300**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Identify the tens digit of 1,264.\n- 1,264 → digits: thousands=1, hundreds=2, tens=**6**, ones=4\n**Step 2:** The tens digit is 6, which is 5 or more → round **up**.",
+            "hindi": "**Step 1:** Identify the tens digit of 1,264.\n- 1,264 → digits: thousands=1, hundreds=2, tens=**6**, ones=4\n**Step 2:** The tens digit is 6, which is 5 or more → round **up**."
+          },
           "mistakeType": "PLACE_VALUE",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Identify the tens digit of 1,264.\n- 1,264 → digits: thousands=1, hundreds=2, tens=**6**, ones=4",
+              "hindi": "**Step 1:** Identify the tens digit of 1,264.\n- 1,264 → digits: thousands=1, hundreds=2, tens=**6**, ones=4"
+            },
+            {
+              "english": "**Step 2:** The tens digit is 6, which is 5 or more → round **up**.",
+              "hindi": "**Step 2:** The tens digit is 6, which is 5 or more → round **up**."
+            },
+            {
+              "english": "**Step 3:** Increase the hundreds digit by 1: 2 becomes 3. Replace tens and ones with 0.",
+              "hindi": "**Step 3:** Increase the hundreds digit by 1: 2 becomes 3. Replace tens and ones with 0."
+            },
+            {
+              "english": "**Answer: 1,300**",
+              "hindi": "**Answer: 1,300**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -127,7 +194,7 @@
       "mistakeFocus": "PLACE_VALUE"
     },
     {
-      "id": "rs_ch11_rounding_off_a_number_to_the_nearest_thousand",
+      "id": "rsch11roundingoffanumbertothenearest_thousand",
       "sourceLessonId": "rs_ch11",
       "chapterNumber": 11,
       "chapterTitle": {
@@ -150,12 +217,17 @@
         "english": "Rounding off a Number to the Nearest Thousand",
         "hindi": "निकटतम हजार तक पूर्णांकन"
       },
-      "explanationParagraphs": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Rule for Rounding to the Nearest Thousand:**\n1. Look at the **hundreds digit** of the number.\n2. If the hundreds digit is **0, 1, 2, 3, or 4** → round **down** (replace hundreds, tens, and ones with 0).\n3. If the hundreds digit is **5, 6, 7, 8, or 9** → round **up** (increase thousands digit by 1, replace the rest with 0).\n\n**Examples:**\n- Round 3,200 → hundreds digit is 2 → round down → **3,000**\n- Round 3,700 → hundreds digit is 7 → round up → **4,000**\n- Round 45,876 → hundreds digit is 8 → round up → **46,000**",
+          "hindi": "## व्याख्या (हिंदी)\n\n**निकटतम हजार तक पूर्णांकन का नियम:**\n1. संख्या का **सैकड़े का अंक** देखें।\n2. अगर सैकड़े का अंक **0, 1, 2, 3 या 4** है → **नीचे पूर्णांकित करें** (सैकड़ा, दहाई और इकाई की जगह 0 लिखें)।\n3. अगर सैकड़े का अंक **5, 6, 7, 8 या 9** है → **ऊपर पूर्णांकित करें** (हजार का अंक 1 बढ़ाएं, बाकी सब 0 करें)।\n\n**उदाहरण:**\n- 3,200 → सैकड़ा अंक 2 → नीचे → **3,000**\n- 3,700 → सैकड़ा अंक 7 → ऊपर → **4,000**\n- 45,876 → सैकड़ा अंक 8 → ऊपर → **46,000**"
+        }
+      ],
       "examples": [],
       "visuals": [],
       "questions": [
         {
-          "id": "rounding_off_a_number_to_the_nearest_thousand_q1",
+          "id": "roundingoffanumbertothenearestthousandq1",
           "prompt": {
             "english": "Round 45,876 to the nearest thousand.",
             "hindi": "45,876 को निकटतम हजार तक पूर्णांकित कीजिए।"
@@ -168,11 +240,37 @@
             "46,000"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Identify the hundreds digit of 45,876.\n- 45,876 → ten-thousands=4, thousands=5, hundreds=**8**, tens=7, ones=6\n\n**Step 2:** The hundreds digit is 8, which is 5 or more → round **up**.\n\n**Step 3:** Increase the thousands digit by 1: 5 becomes 6. Replace hundreds, tens, and ones with 0.\n\n**Answer: 46,000**",
+            "hindi": "**Step 1:** Identify the hundreds digit of 45,876.\n- 45,876 → ten-thousands=4, thousands=5, hundreds=**8**, tens=7, ones=6\n\n**Step 2:** The hundreds digit is 8, which is 5 or more → round **up**.\n\n**Step 3:** Increase the thousands digit by 1: 5 becomes 6. Replace hundreds, tens, and ones with 0.\n\n**Answer: 46,000**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Identify the hundreds digit of 45,876.\n- 45,876 → ten-thousands=4, thousands=5, hundreds=**8**, tens=7, ones=6\n**Step 2:** The hundreds digit is 8, which is 5 or more → round **up**.",
+            "hindi": "**Step 1:** Identify the hundreds digit of 45,876.\n- 45,876 → ten-thousands=4, thousands=5, hundreds=**8**, tens=7, ones=6\n**Step 2:** The hundreds digit is 8, which is 5 or more → round **up**."
+          },
           "mistakeType": "PLACE_VALUE",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Identify the hundreds digit of 45,876.\n- 45,876 → ten-thousands=4, thousands=5, hundreds=**8**, tens=7, ones=6",
+              "hindi": "**Step 1:** Identify the hundreds digit of 45,876.\n- 45,876 → ten-thousands=4, thousands=5, hundreds=**8**, tens=7, ones=6"
+            },
+            {
+              "english": "**Step 2:** The hundreds digit is 8, which is 5 or more → round **up**.",
+              "hindi": "**Step 2:** The hundreds digit is 8, which is 5 or more → round **up**."
+            },
+            {
+              "english": "**Step 3:** Increase the thousands digit by 1: 5 becomes 6. Replace hundreds, tens, and ones with 0.",
+              "hindi": "**Step 3:** Increase the thousands digit by 1: 5 becomes 6. Replace hundreds, tens, and ones with 0."
+            },
+            {
+              "english": "**Answer: 46,000**",
+              "hindi": "**Answer: 46,000**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -188,7 +286,7 @@
       "mistakeFocus": "PLACE_VALUE"
     },
     {
-      "id": "rs_ch11_rounding_off_large_numbers",
+      "id": "rsch11roundingofflarge_numbers",
       "sourceLessonId": "rs_ch11",
       "chapterNumber": 11,
       "chapterTitle": {
@@ -211,12 +309,22 @@
         "english": "Rounding off Large Numbers",
         "hindi": "बड़ी संख्याओं का पूर्णांकन"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "Rounding large numbers (ten-thousands, lakhs, etc.) follows the same rule — look at the digit **just to the right** of the place you are rounding to.\n\n**Rounding to Nearest Ten-Thousand:**\n- Look at the **thousands digit**.\n- If it is 0–4 → round down; if it is 5–9 → round up.\n\n**Example:**\n- Round 3,46,782 to the nearest ten-thousand.\n  - Digit in ten-thousands place = 4 (from 3,**4**6,782)\n  - Look at thousands digit = 6 → 6 ≥ 5 → round up\n  - 3,46,782 → **3,50,000**",
+          "hindi": "## व्याख्या (हिंदी)\n\nबड़ी संख्याओं (दस-हजार, लाख आदि) का पूर्णांकन भी उसी नियम से होता है — जिस स्थान तक पूर्णांकित करना हो, उसके **ठीक दाईं तरफ के अंक** को देखें।\n\n**निकटतम दस-हजार तक पूर्णांकन:**\n- **हजार का अंक** देखें।\n- अगर 0–4 है → नीचे; अगर 5–9 है → ऊपर।\n\n**उदाहरण:**\n- 3,46,782 को निकटतम दस-हजार तक पूर्णांकित करें।\n  - दस-हजार के स्थान का अंक = 4 (3,**4**6,782 में)\n  - हजार का अंक = 6 → 6 ≥ 5 → ऊपर पूर्णांकित\n  - 3,46,782 → **3,50,000**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:**\n- Round 3,46,782 to the nearest ten-thousand.\n  - Digit in ten-thousands place = 4 (from 3,**4**6,782)\n  - Look at thousands digit = 6 → 6 ≥ 5 → round up\n  - 3,46,782 → **3,50,000**",
+          "hindi": "**उदाहरण:**\n- 3,46,782 को निकटतम दस-हजार तक पूर्णांकित करें।\n  - दस-हजार के स्थान का अंक = 4 (3,**4**6,782 में)\n  - हजार का अंक = 6 → 6 ≥ 5 → ऊपर पूर्णांकित\n  - 3,46,782 → **3,50,000**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "rounding_off_large_numbers_q1",
+          "id": "roundingofflargenumbersq1",
           "prompt": {
             "english": "Round 3,46,782 to the nearest ten thousand.",
             "hindi": "3,46,782 को निकटतम दस-हजार तक पूर्णांकित कीजिए।"
@@ -229,11 +337,37 @@
             "3,50,000"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Write out the place values of 3,46,782:\n- Lakhs = 3, Ten-thousands = **4**, Thousands = 6, Hundreds = 7, Tens = 8, Ones = 2\n\n**Step 2:** We are rounding to the nearest ten-thousand (4 in ten-thousands place). Look at the digit to its right: thousands digit = **6**.\n\n**Step 3:** Since 6 ≥ 5, round **up** — increase ten-thousands digit from 4 to 5. Replace all digits to the right with 0.\n\n**Answer: 3,50,000**",
+            "hindi": "**Step 1:** Write out the place values of 3,46,782:\n- Lakhs = 3, Ten-thousands = **4**, Thousands = 6, Hundreds = 7, Tens = 8, Ones = 2\n\n**Step 2:** We are rounding to the nearest ten-thousand (4 in ten-thousands place). Look at the digit to its right: thousands digit = **6**.\n\n**Step 3:** Since 6 ≥ 5, round **up** — increase ten-thousands digit from 4 to 5. Replace all digits to the right with 0.\n\n**Answer: 3,50,000**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Write out the place values of 3,46,782:\n- Lakhs = 3, Ten-thousands = **4**, Thousands = 6, Hundreds = 7, Tens = 8, Ones = 2\n**Step 2:** We are rounding to the nearest ten-thousand (4 in ten-thousands place). Look at the digit to its right: thousands digit = **6**.",
+            "hindi": "**Step 1:** Write out the place values of 3,46,782:\n- Lakhs = 3, Ten-thousands = **4**, Thousands = 6, Hundreds = 7, Tens = 8, Ones = 2\n**Step 2:** We are rounding to the nearest ten-thousand (4 in ten-thousands place). Look at the digit to its right: thousands digit = **6**."
+          },
           "mistakeType": "PLACE_VALUE",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Write out the place values of 3,46,782:\n- Lakhs = 3, Ten-thousands = **4**, Thousands = 6, Hundreds = 7, Tens = 8, Ones = 2",
+              "hindi": "**Step 1:** Write out the place values of 3,46,782:\n- Lakhs = 3, Ten-thousands = **4**, Thousands = 6, Hundreds = 7, Tens = 8, Ones = 2"
+            },
+            {
+              "english": "**Step 2:** We are rounding to the nearest ten-thousand (4 in ten-thousands place). Look at the digit to its right: thousands digit = **6**.",
+              "hindi": "**Step 2:** We are rounding to the nearest ten-thousand (4 in ten-thousands place). Look at the digit to its right: thousands digit = **6**."
+            },
+            {
+              "english": "**Step 3:** Since 6 ≥ 5, round **up** — increase ten-thousands digit from 4 to 5. Replace all digits to the right with 0.",
+              "hindi": "**Step 3:** Since 6 ≥ 5, round **up** — increase ten-thousands digit from 4 to 5. Replace all digits to the right with 0."
+            },
+            {
+              "english": "**Answer: 3,50,000**",
+              "hindi": "**Answer: 3,50,000**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -249,7 +383,7 @@
       "mistakeFocus": "PLACE_VALUE"
     },
     {
-      "id": "rs_ch11_rounding_off_the_decimals",
+      "id": "rsch11roundingoffthe_decimals",
       "sourceLessonId": "rs_ch11",
       "chapterNumber": 11,
       "chapterTitle": {
@@ -272,12 +406,17 @@
         "english": "Rounding off the Decimals",
         "hindi": "दशमलवों का पूर्णांकन"
       },
-      "explanationParagraphs": [],
+      "explanationParagraphs": [
+        {
+          "english": "Decimals can also be rounded — to the nearest whole number, nearest tenth, nearest hundredth, etc.\n\n**Key decimal places:**\n- **Tenths** place = 1 digit after decimal (e.g., 18.**9**56)\n- **Hundredths** place = 2 digits after decimal (e.g., 18.9**5**6)\n- **Thousandths** place = 3 digits after decimal\n\n**Rule:** Look at the digit **just to the right** of the place you are rounding to.\n- If it is 0–4 → keep the digit as is (round down).\n- If it is 5–9 → increase the digit by 1 (round up).\n\n**Examples:**\n- Round 3.47 to nearest tenth → look at hundredths (7) → 7 ≥ 5 → **3.5**\n- Round 18.956 to nearest hundredth → look at thousandths (6) → 6 ≥ 5 → **18.96**",
+          "hindi": "## व्याख्या (हिंदी)\n\nदशमलव संख्याओं को भी पूर्णांकित किया जा सकता है — निकटतम पूर्ण संख्या, निकटतम दशांश, निकटतम शतांश आदि तक।\n\n**मुख्य दशमलव स्थान:**\n- **दशांश (Tenths)** = दशमलव के बाद पहला अंक (जैसे 18.**9**56)\n- **शतांश (Hundredths)** = दशमलव के बाद दूसरा अंक (जैसे 18.9**5**6)\n- **हजारांश (Thousandths)** = दशमलव के बाद तीसरा अंक\n\n**नियम:** जिस स्थान तक पूर्णांकित करना हो, उसके **ठीक दाईं तरफ के अंक** को देखें।\n- 0–4 है → उसी अंक को रखें (नीचे पूर्णांकित करें)।\n- 5–9 है → उस अंक को 1 बढ़ाएं (ऊपर पूर्णांकित करें)।\n\n**उदाहरण:**\n- 3.47 को निकटतम दशांश तक → शतांश देखें (7) → 7 ≥ 5 → **3.5**\n- 18.956 को निकटतम शतांश तक → हजारांश देखें (6) → 6 ≥ 5 → **18.96**"
+        }
+      ],
       "examples": [],
       "visuals": [],
       "questions": [
         {
-          "id": "rounding_off_the_decimals_q1",
+          "id": "roundingoffthedecimalsq1",
           "prompt": {
             "english": "Round 18.956 to the nearest hundredth.",
             "hindi": "18.956 को निकटतम शतांश तक पूर्णांकित कीजिए।"
@@ -289,11 +428,37 @@
             "18.96"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Identify the hundredths digit of 18.956.\n- 18.956 → ones=18, tenths=9, hundredths=**5**, thousandths=6\n\n**Step 2:** We are rounding to hundredths (5). Look at the digit to the right: thousandths = **6**.\n\n**Step 3:** Since 6 ≥ 5, round **up** — increase hundredths digit from 5 to 6. Drop the thousandths digit.\n\n**Answer: 18.96**",
+            "hindi": "**Step 1:** Identify the hundredths digit of 18.956.\n- 18.956 → ones=18, tenths=9, hundredths=**5**, thousandths=6\n\n**Step 2:** We are rounding to hundredths (5). Look at the digit to the right: thousandths = **6**.\n\n**Step 3:** Since 6 ≥ 5, round **up** — increase hundredths digit from 5 to 6. Drop the thousandths digit.\n\n**Answer: 18.96**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Identify the hundredths digit of 18.956.\n- 18.956 → ones=18, tenths=9, hundredths=**5**, thousandths=6\n**Step 2:** We are rounding to hundredths (5). Look at the digit to the right: thousandths = **6**.",
+            "hindi": "**Step 1:** Identify the hundredths digit of 18.956.\n- 18.956 → ones=18, tenths=9, hundredths=**5**, thousandths=6\n**Step 2:** We are rounding to hundredths (5). Look at the digit to the right: thousandths = **6**."
+          },
           "mistakeType": "PLACE_VALUE",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Identify the hundredths digit of 18.956.\n- 18.956 → ones=18, tenths=9, hundredths=**5**, thousandths=6",
+              "hindi": "**Step 1:** Identify the hundredths digit of 18.956.\n- 18.956 → ones=18, tenths=9, hundredths=**5**, thousandths=6"
+            },
+            {
+              "english": "**Step 2:** We are rounding to hundredths (5). Look at the digit to the right: thousandths = **6**.",
+              "hindi": "**Step 2:** We are rounding to hundredths (5). Look at the digit to the right: thousandths = **6**."
+            },
+            {
+              "english": "**Step 3:** Since 6 ≥ 5, round **up** — increase hundredths digit from 5 to 6. Drop the thousandths digit.",
+              "hindi": "**Step 3:** Since 6 ≥ 5, round **up** — increase hundredths digit from 5 to 6. Drop the thousandths digit."
+            },
+            {
+              "english": "**Answer: 18.96**",
+              "hindi": "**Answer: 18.96**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -309,8 +474,8 @@
       "mistakeFocus": "PLACE_VALUE"
     },
     {
-      "id": "rs_ex_ch11_ex51_q01_a",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q01_a",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -337,7 +502,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q01_a_q1",
+          "id": "rsexch11ex51q01aq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten Part (a): 81",
             "hindi": "Round off each of the following numbers to the nearest ten Part (a): 81"
@@ -373,8 +538,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q01_b",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q01_b",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -401,7 +566,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q01_b_q1",
+          "id": "rsexch11ex51q01bq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten Part (b): 478",
             "hindi": "Round off each of the following numbers to the nearest ten Part (b): 478"
@@ -437,8 +602,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q01_c",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q01_c",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -465,7 +630,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q01_c_q1",
+          "id": "rsexch11ex51q01cq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten Part (c): 875",
             "hindi": "Round off each of the following numbers to the nearest ten Part (c): 875"
@@ -501,8 +666,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q01_d",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q01_d",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -529,7 +694,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q01_d_q1",
+          "id": "rsexch11ex51q01dq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten Part (d): 4232",
             "hindi": "Round off each of the following numbers to the nearest ten Part (d): 4232"
@@ -565,8 +730,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q01_e",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q01_e",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -593,7 +758,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q01_e_q1",
+          "id": "rsexch11ex51q01eq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten Part (e): 20306",
             "hindi": "Round off each of the following numbers to the nearest ten Part (e): 20306"
@@ -629,8 +794,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q01_f",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q01_f",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -657,7 +822,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q01_f_q1",
+          "id": "rsexch11ex51q01fq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten Part (f): 34898",
             "hindi": "Round off each of the following numbers to the nearest ten Part (f): 34898"
@@ -693,8 +858,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q01_g",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q01_g",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -721,7 +886,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q01_g_q1",
+          "id": "rsexch11ex51q01gq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten Part (g): 105413",
             "hindi": "Round off each of the following numbers to the nearest ten Part (g): 105413"
@@ -757,8 +922,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q01_h",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q01_h",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -785,7 +950,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q01_h_q1",
+          "id": "rsexch11ex51q01hq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten Part (h): 208979",
             "hindi": "Round off each of the following numbers to the nearest ten Part (h): 208979"
@@ -821,8 +986,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q02_a",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q02_a",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -849,7 +1014,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q02_a_q1",
+          "id": "rsexch11ex51q02aq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest hundred Part (a): 415",
             "hindi": "Round off each of the following numbers to the nearest hundred Part (a): 415"
@@ -885,8 +1050,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q02_b",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q02_b",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -913,7 +1078,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q02_b_q1",
+          "id": "rsexch11ex51q02bq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest hundred Part (b): 891",
             "hindi": "Round off each of the following numbers to the nearest hundred Part (b): 891"
@@ -949,8 +1114,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q02_c",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q02_c",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -977,7 +1142,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q02_c_q1",
+          "id": "rsexch11ex51q02cq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest hundred Part (c): 5650",
             "hindi": "Round off each of the following numbers to the nearest hundred Part (c): 5650"
@@ -1013,8 +1178,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q02_d",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q02_d",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -1041,7 +1206,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q02_d_q1",
+          "id": "rsexch11ex51q02dq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest hundred Part (d): 7132",
             "hindi": "Round off each of the following numbers to the nearest hundred Part (d): 7132"
@@ -1077,8 +1242,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q02_e",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q02_e",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -1105,7 +1270,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q02_e_q1",
+          "id": "rsexch11ex51q02eq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest hundred Part (e): 16309",
             "hindi": "Round off each of the following numbers to the nearest hundred Part (e): 16309"
@@ -1141,8 +1306,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q02_f",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q02_f",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -1169,7 +1334,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q02_f_q1",
+          "id": "rsexch11ex51q02fq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest hundred Part (f): 48768",
             "hindi": "Round off each of the following numbers to the nearest hundred Part (f): 48768"
@@ -1205,8 +1370,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q02_g",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q02_g",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -1233,7 +1398,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q02_g_q1",
+          "id": "rsexch11ex51q02gq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest hundred Part (g): 110111",
             "hindi": "Round off each of the following numbers to the nearest hundred Part (g): 110111"
@@ -1269,8 +1434,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q02_h",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q02_h",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -1297,7 +1462,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q02_h_q1",
+          "id": "rsexch11ex51q02hq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest hundred Part (h): 218676",
             "hindi": "Round off each of the following numbers to the nearest hundred Part (h): 218676"
@@ -1333,8 +1498,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q03_a",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q03_a",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -1361,7 +1526,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q03_a_q1",
+          "id": "rsexch11ex51q03aq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest thousand Part (a): 6367",
             "hindi": "Round off each of the following numbers to the nearest thousand Part (a): 6367"
@@ -1397,8 +1562,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q03_b",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q03_b",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -1425,7 +1590,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q03_b_q1",
+          "id": "rsexch11ex51q03bq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest thousand Part (b): 8710",
             "hindi": "Round off each of the following numbers to the nearest thousand Part (b): 8710"
@@ -1461,8 +1626,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q03_c",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q03_c",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -1489,7 +1654,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q03_c_q1",
+          "id": "rsexch11ex51q03cq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest thousand Part (c): 13492",
             "hindi": "Round off each of the following numbers to the nearest thousand Part (c): 13492"
@@ -1525,8 +1690,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q03_d",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q03_d",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -1553,7 +1718,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q03_d_q1",
+          "id": "rsexch11ex51q03dq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest thousand Part (d): 26505",
             "hindi": "Round off each of the following numbers to the nearest thousand Part (d): 26505"
@@ -1589,8 +1754,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q03_e",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q03_e",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -1617,7 +1782,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q03_e_q1",
+          "id": "rsexch11ex51q03eq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest thousand Part (e): 218925",
             "hindi": "Round off each of the following numbers to the nearest thousand Part (e): 218925"
@@ -1653,8 +1818,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q03_f",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q03_f",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -1681,7 +1846,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q03_f_q1",
+          "id": "rsexch11ex51q03fq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest thousand Part (f): 576396",
             "hindi": "Round off each of the following numbers to the nearest thousand Part (f): 576396"
@@ -1717,8 +1882,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q03_g",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q03_g",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -1745,7 +1910,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q03_g_q1",
+          "id": "rsexch11ex51q03gq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest thousand Part (g): 1035608",
             "hindi": "Round off each of the following numbers to the nearest thousand Part (g): 1035608"
@@ -1781,8 +1946,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q03_h",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q03_h",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -1809,7 +1974,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q03_h_q1",
+          "id": "rsexch11ex51q03hq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest thousand Part (h): 1867299",
             "hindi": "Round off each of the following numbers to the nearest thousand Part (h): 1867299"
@@ -1845,8 +2010,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q04_a",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q04_a",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -1873,7 +2038,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q04_a_q1",
+          "id": "rsexch11ex51q04aq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten-thousand Part (a): 13670",
             "hindi": "Round off each of the following numbers to the nearest ten-thousand Part (a): 13670"
@@ -1909,8 +2074,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q04_b",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q04_b",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -1937,7 +2102,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q04_b_q1",
+          "id": "rsexch11ex51q04bq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten-thousand Part (b): 16745",
             "hindi": "Round off each of the following numbers to the nearest ten-thousand Part (b): 16745"
@@ -1973,8 +2138,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q04_c",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q04_c",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -2001,7 +2166,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q04_c_q1",
+          "id": "rsexch11ex51q04cq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten-thousand Part (c): 15892",
             "hindi": "Round off each of the following numbers to the nearest ten-thousand Part (c): 15892"
@@ -2037,8 +2202,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q04_d",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q04_d",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -2065,7 +2230,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q04_d_q1",
+          "id": "rsexch11ex51q04dq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten-thousand Part (d): 21987",
             "hindi": "Round off each of the following numbers to the nearest ten-thousand Part (d): 21987"
@@ -2101,8 +2266,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q04_e",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q04_e",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -2129,7 +2294,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q04_e_q1",
+          "id": "rsexch11ex51q04eq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten-thousand Part (e): 347126",
             "hindi": "Round off each of the following numbers to the nearest ten-thousand Part (e): 347126"
@@ -2165,8 +2330,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q04_f",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q04_f",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -2193,7 +2358,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q04_f_q1",
+          "id": "rsexch11ex51q04fq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten-thousand Part (f): 148259",
             "hindi": "Round off each of the following numbers to the nearest ten-thousand Part (f): 148259"
@@ -2229,8 +2394,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q04_g",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q04_g",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -2257,7 +2422,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q04_g_q1",
+          "id": "rsexch11ex51q04gq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten-thousand Part (g): 462789",
             "hindi": "Round off each of the following numbers to the nearest ten-thousand Part (g): 462789"
@@ -2293,8 +2458,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q04_h",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q04_h",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -2321,7 +2486,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q04_h_q1",
+          "id": "rsexch11ex51q04hq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten-thousand Part (h): 1570358",
             "hindi": "Round off each of the following numbers to the nearest ten-thousand Part (h): 1570358"
@@ -2357,8 +2522,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q05_a",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q05_a",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -2385,7 +2550,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q05_a_q1",
+          "id": "rsexch11ex51q05aq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest lakh Part (a): 138964",
             "hindi": "Round off each of the following numbers to the nearest lakh Part (a): 138964"
@@ -2421,8 +2586,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q05_b",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q05_b",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -2449,7 +2614,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q05_b_q1",
+          "id": "rsexch11ex51q05bq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest lakh Part (b): 347589",
             "hindi": "Round off each of the following numbers to the nearest lakh Part (b): 347589"
@@ -2485,8 +2650,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q05_c",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q05_c",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -2513,7 +2678,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q05_c_q1",
+          "id": "rsexch11ex51q05cq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest lakh Part (c): 461308",
             "hindi": "Round off each of the following numbers to the nearest lakh Part (c): 461308"
@@ -2549,8 +2714,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q05_d",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q05_d",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -2577,7 +2742,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q05_d_q1",
+          "id": "rsexch11ex51q05dq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest lakh Part (d): 782615",
             "hindi": "Round off each of the following numbers to the nearest lakh Part (d): 782615"
@@ -2613,8 +2778,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q05_e",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q05_e",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -2641,7 +2806,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q05_e_q1",
+          "id": "rsexch11ex51q05eq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest lakh Part (e): 1054319",
             "hindi": "Round off each of the following numbers to the nearest lakh Part (e): 1054319"
@@ -2677,8 +2842,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q05_f",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q05_f",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -2705,7 +2870,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q05_f_q1",
+          "id": "rsexch11ex51q05fq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest lakh Part (f): 1407685",
             "hindi": "Round off each of the following numbers to the nearest lakh Part (f): 1407685"
@@ -2741,8 +2906,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q05_g",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q05_g",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -2769,7 +2934,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q05_g_q1",
+          "id": "rsexch11ex51q05gq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest lakh Part (g): 16970354",
             "hindi": "Round off each of the following numbers to the nearest lakh Part (g): 16970354"
@@ -2805,8 +2970,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q05_h",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q05_h",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -2833,7 +2998,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q05_h_q1",
+          "id": "rsexch11ex51q05hq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest lakh Part (h): 21352419",
             "hindi": "Round off each of the following numbers to the nearest lakh Part (h): 21352419"
@@ -2869,8 +3034,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q06_a",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q06_a",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -2897,7 +3062,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q06_a_q1",
+          "id": "rsexch11ex51q06aq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten-lakh Part (a): 1916423",
             "hindi": "Round off each of the following numbers to the nearest ten-lakh Part (a): 1916423"
@@ -2933,8 +3098,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q06_b",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q06_b",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -2961,7 +3126,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q06_b_q1",
+          "id": "rsexch11ex51q06bq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten-lakh Part (b): 2347917",
             "hindi": "Round off each of the following numbers to the nearest ten-lakh Part (b): 2347917"
@@ -2997,8 +3162,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q06_c",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q06_c",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -3025,7 +3190,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q06_c_q1",
+          "id": "rsexch11ex51q06cq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten-lakh Part (c): 7156902",
             "hindi": "Round off each of the following numbers to the nearest ten-lakh Part (c): 7156902"
@@ -3061,8 +3226,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q06_d",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q06_d",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -3089,7 +3254,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q06_d_q1",
+          "id": "rsexch11ex51q06dq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten-lakh Part (d): 6719543",
             "hindi": "Round off each of the following numbers to the nearest ten-lakh Part (d): 6719543"
@@ -3125,8 +3290,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q06_e",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q06_e",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -3153,7 +3318,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q06_e_q1",
+          "id": "rsexch11ex51q06eq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten-lakh Part (e): 2532104",
             "hindi": "Round off each of the following numbers to the nearest ten-lakh Part (e): 2532104"
@@ -3189,8 +3354,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q06_f",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q06_f",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -3217,7 +3382,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q06_f_q1",
+          "id": "rsexch11ex51q06fq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten-lakh Part (f): 16380547",
             "hindi": "Round off each of the following numbers to the nearest ten-lakh Part (f): 16380547"
@@ -3253,8 +3418,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q06_g",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q06_g",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -3281,7 +3446,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q06_g_q1",
+          "id": "rsexch11ex51q06gq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten-lakh Part (g): 36524179",
             "hindi": "Round off each of the following numbers to the nearest ten-lakh Part (g): 36524179"
@@ -3317,8 +3482,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q06_h",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q06_h",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -3345,7 +3510,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q06_h_q1",
+          "id": "rsexch11ex51q06hq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest ten-lakh Part (h): 54036658",
             "hindi": "Round off each of the following numbers to the nearest ten-lakh Part (h): 54036658"
@@ -3381,8 +3546,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q07_a",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q07_a",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -3409,7 +3574,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q07_a_q1",
+          "id": "rsexch11ex51q07aq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest crore Part (a): 62735913",
             "hindi": "Round off each of the following numbers to the nearest crore Part (a): 62735913"
@@ -3445,8 +3610,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q07_b",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q07_b",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -3473,7 +3638,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q07_b_q1",
+          "id": "rsexch11ex51q07bq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest crore Part (b): 36478609",
             "hindi": "Round off each of the following numbers to the nearest crore Part (b): 36478609"
@@ -3509,8 +3674,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q07_c",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q07_c",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -3537,7 +3702,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q07_c_q1",
+          "id": "rsexch11ex51q07cq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest crore Part (c): 95632417",
             "hindi": "Round off each of the following numbers to the nearest crore Part (c): 95632417"
@@ -3573,8 +3738,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q07_d",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q07_d",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -3601,7 +3766,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q07_d_q1",
+          "id": "rsexch11ex51q07dq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest crore Part (d): 70869785",
             "hindi": "Round off each of the following numbers to the nearest crore Part (d): 70869785"
@@ -3637,8 +3802,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q07_e",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q07_e",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -3665,7 +3830,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q07_e_q1",
+          "id": "rsexch11ex51q07eq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest crore Part (e): 83754876",
             "hindi": "Round off each of the following numbers to the nearest crore Part (e): 83754876"
@@ -3701,8 +3866,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q07_f",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q07_f",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -3729,7 +3894,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q07_f_q1",
+          "id": "rsexch11ex51q07fq1",
           "prompt": {
             "english": "Round off each of the following numbers to the nearest crore Part (f): 107342310",
             "hindi": "Round off each of the following numbers to the nearest crore Part (f): 107342310"
@@ -3765,8 +3930,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q08_a",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q08_a",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -3793,7 +3958,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q08_a_q1",
+          "id": "rsexch11ex51q08aq1",
           "prompt": {
             "english": "Fill in the blanks. On rounding off 136472508 to the nearest Part (a): ten, we get",
             "hindi": "Fill in the blanks. On rounding off 136472508 to the nearest Part (a): ten, we get"
@@ -3829,8 +3994,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q08_b",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q08_b",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -3857,7 +4022,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q08_b_q1",
+          "id": "rsexch11ex51q08bq1",
           "prompt": {
             "english": "Fill in the blanks. On rounding off 136472508 to the nearest Part (b): hundred, we get",
             "hindi": "Fill in the blanks. On rounding off 136472508 to the nearest Part (b): hundred, we get"
@@ -3893,8 +4058,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q08_c",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q08_c",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -3921,7 +4086,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q08_c_q1",
+          "id": "rsexch11ex51q08cq1",
           "prompt": {
             "english": "Fill in the blanks. On rounding off 136472508 to the nearest Part (c): thousand, we get",
             "hindi": "Fill in the blanks. On rounding off 136472508 to the nearest Part (c): thousand, we get"
@@ -3957,8 +4122,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q08_d",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q08_d",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -3985,7 +4150,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q08_d_q1",
+          "id": "rsexch11ex51q08dq1",
           "prompt": {
             "english": "Fill in the blanks. On rounding off 136472508 to the nearest Part (d): ten-thousand, we get",
             "hindi": "Fill in the blanks. On rounding off 136472508 to the nearest Part (d): ten-thousand, we get"
@@ -4021,8 +4186,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q08_e",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q08_e",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -4049,7 +4214,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q08_e_q1",
+          "id": "rsexch11ex51q08eq1",
           "prompt": {
             "english": "Fill in the blanks. On rounding off 136472508 to the nearest Part (e): lakh, we get",
             "hindi": "Fill in the blanks. On rounding off 136472508 to the nearest Part (e): lakh, we get"
@@ -4085,8 +4250,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q08_f",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q08_f",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -4113,7 +4278,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q08_f_q1",
+          "id": "rsexch11ex51q08fq1",
           "prompt": {
             "english": "Fill in the blanks. On rounding off 136472508 to the nearest Part (f): crore, we get",
             "hindi": "Fill in the blanks. On rounding off 136472508 to the nearest Part (f): crore, we get"
@@ -4149,8 +4314,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q09_a",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q09_a",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -4177,7 +4342,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q09_a_q1",
+          "id": "rsexch11ex51q09aq1",
           "prompt": {
             "english": "The population of an Indian state is 85642574. Write the population Part (a): to the nearest crore",
             "hindi": "The population of an Indian state is 85642574. Write the population Part (a): to the nearest crore"
@@ -4213,8 +4378,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q09_b",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q09_b",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -4241,7 +4406,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q09_b_q1",
+          "id": "rsexch11ex51q09bq1",
           "prompt": {
             "english": "The population of an Indian state is 85642574. Write the population Part (b): to the nearest lakh",
             "hindi": "The population of an Indian state is 85642574. Write the population Part (b): to the nearest lakh"
@@ -4277,8 +4442,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q09_c",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q09_c",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -4305,7 +4470,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q09_c_q1",
+          "id": "rsexch11ex51q09cq1",
           "prompt": {
             "english": "The population of an Indian state is 85642574. Write the population Part (c): to the nearest thousand",
             "hindi": "The population of an Indian state is 85642574. Write the population Part (c): to the nearest thousand"
@@ -4341,8 +4506,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q10_a",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q10_a",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -4369,7 +4534,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q10_a_q1",
+          "id": "rsexch11ex51q10aq1",
           "prompt": {
             "english": "Think of rounding to the nearest ten. What numbers could be rounded to 70?",
             "hindi": "Think of rounding to the nearest ten. What numbers could be rounded to 70?"
@@ -4405,8 +4570,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q10_b",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q10_b",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -4433,7 +4598,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q10_b_q1",
+          "id": "rsexch11ex51q10bq1",
           "prompt": {
             "english": "Think of rounding to the nearest ten. What numbers could be rounded to 140?",
             "hindi": "Think of rounding to the nearest ten. What numbers could be rounded to 140?"
@@ -4469,8 +4634,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q10_c",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q10_c",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -4497,7 +4662,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q10_c_q1",
+          "id": "rsexch11ex51q10cq1",
           "prompt": {
             "english": "Think of rounding to the nearest ten. What numbers could be rounded to 990?",
             "hindi": "Think of rounding to the nearest ten. What numbers could be rounded to 990?"
@@ -4533,8 +4698,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q10_d",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q10_d",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -4561,7 +4726,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q10_d_q1",
+          "id": "rsexch11ex51q10dq1",
           "prompt": {
             "english": "Think of rounding to the nearest ten. What numbers could be rounded to 2350?",
             "hindi": "Think of rounding to the nearest ten. What numbers could be rounded to 2350?"
@@ -4597,8 +4762,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q11_a",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q11_a",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -4625,7 +4790,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q11_a_q1",
+          "id": "rsexch11ex51q11aq1",
           "prompt": {
             "english": "Think of rounding to the nearest hundred. What numbers could be rounded to 900?",
             "hindi": "Think of rounding to the nearest hundred. What numbers could be rounded to 900?"
@@ -4661,8 +4826,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q11_b",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q11_b",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -4689,7 +4854,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q11_b_q1",
+          "id": "rsexch11ex51q11bq1",
           "prompt": {
             "english": "Think of rounding to the nearest hundred. What numbers could be rounded to 1600?",
             "hindi": "Think of rounding to the nearest hundred. What numbers could be rounded to 1600?"
@@ -4725,8 +4890,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q11_c",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q11_c",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -4753,7 +4918,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q11_c_q1",
+          "id": "rsexch11ex51q11cq1",
           "prompt": {
             "english": "Think of rounding to the nearest hundred. What numbers could be rounded to 5300?",
             "hindi": "Think of rounding to the nearest hundred. What numbers could be rounded to 5300?"
@@ -4789,8 +4954,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q11_d",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q11_d",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -4817,7 +4982,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q11_d_q1",
+          "id": "rsexch11ex51q11dq1",
           "prompt": {
             "english": "Think of rounding to the nearest hundred. What numbers could be rounded to 32500?",
             "hindi": "Think of rounding to the nearest hundred. What numbers could be rounded to 32500?"
@@ -4853,8 +5018,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q12_a",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q12_a",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -4881,7 +5046,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q12_a_q1",
+          "id": "rsexch11ex51q12aq1",
           "prompt": {
             "english": "Think of rounding to the nearest thousand. What numbers could be rounded to 9000?",
             "hindi": "Think of rounding to the nearest thousand. What numbers could be rounded to 9000?"
@@ -4917,8 +5082,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q12_b",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q12_b",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -4945,7 +5110,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q12_b_q1",
+          "id": "rsexch11ex51q12bq1",
           "prompt": {
             "english": "Think of rounding to the nearest thousand. What numbers could be rounded to 18000?",
             "hindi": "Think of rounding to the nearest thousand. What numbers could be rounded to 18000?"
@@ -4981,8 +5146,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex51_q12_c",
-      "sourceLessonId": "rs_exercise_ch11_ex51",
+      "id": "rsexch11ex51q12_c",
+      "sourceLessonId": "rsexercisech11_ex51",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -5009,7 +5174,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex51_q12_c_q1",
+          "id": "rsexch11ex51q12cq1",
           "prompt": {
             "english": "Think of rounding to the nearest thousand. What numbers could be rounded to 27000?",
             "hindi": "Think of rounding to the nearest thousand. What numbers could be rounded to 27000?"
@@ -5045,8 +5210,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q01_a",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q01_a",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -5073,7 +5238,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q01_a_q1",
+          "id": "rsexch11ex52q01aq1",
           "prompt": {
             "english": "Round off each of the following decimals to the nearest one Part (a): 6.3",
             "hindi": "Round off each of the following decimals to the nearest one Part (a): 6.3"
@@ -5109,8 +5274,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q01_b",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q01_b",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -5137,7 +5302,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q01_b_q1",
+          "id": "rsexch11ex52q01bq1",
           "prompt": {
             "english": "Round off each of the following decimals to the nearest one Part (b): 2.7",
             "hindi": "Round off each of the following decimals to the nearest one Part (b): 2.7"
@@ -5173,8 +5338,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q01_c",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q01_c",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -5201,7 +5366,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q01_c_q1",
+          "id": "rsexch11ex52q01cq1",
           "prompt": {
             "english": "Round off each of the following decimals to the nearest one Part (c): 4.5",
             "hindi": "Round off each of the following decimals to the nearest one Part (c): 4.5"
@@ -5237,8 +5402,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q01_d",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q01_d",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -5265,7 +5430,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q01_d_q1",
+          "id": "rsexch11ex52q01dq1",
           "prompt": {
             "english": "Round off each of the following decimals to the nearest one Part (d): 16.8",
             "hindi": "Round off each of the following decimals to the nearest one Part (d): 16.8"
@@ -5301,8 +5466,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q01_e",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q01_e",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -5329,7 +5494,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q01_e_q1",
+          "id": "rsexch11ex52q01eq1",
           "prompt": {
             "english": "Round off each of the following decimals to the nearest one Part (e): 13.64",
             "hindi": "Round off each of the following decimals to the nearest one Part (e): 13.64"
@@ -5365,8 +5530,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q01_f",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q01_f",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -5393,7 +5558,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q01_f_q1",
+          "id": "rsexch11ex52q01fq1",
           "prompt": {
             "english": "Round off each of the following decimals to the nearest one Part (f): 37.532",
             "hindi": "Round off each of the following decimals to the nearest one Part (f): 37.532"
@@ -5429,8 +5594,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q01_g",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q01_g",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -5457,7 +5622,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q01_g_q1",
+          "id": "rsexch11ex52q01gq1",
           "prompt": {
             "english": "Round off each of the following decimals to the nearest one Part (g): 10.05",
             "hindi": "Round off each of the following decimals to the nearest one Part (g): 10.05"
@@ -5493,8 +5658,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q01_h",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q01_h",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -5521,7 +5686,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q01_h_q1",
+          "id": "rsexch11ex52q01hq1",
           "prompt": {
             "english": "Round off each of the following decimals to the nearest one Part (h): 76.703",
             "hindi": "Round off each of the following decimals to the nearest one Part (h): 76.703"
@@ -5557,8 +5722,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q02_a",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q02_a",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -5585,7 +5750,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q02_a_q1",
+          "id": "rsexch11ex52q02aq1",
           "prompt": {
             "english": "Write each of the following decimals correct to one decimal place Part (a): 3.74",
             "hindi": "Write each of the following decimals correct to one decimal place Part (a): 3.74"
@@ -5621,8 +5786,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q02_b",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q02_b",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -5649,7 +5814,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q02_b_q1",
+          "id": "rsexch11ex52q02bq1",
           "prompt": {
             "english": "Write each of the following decimals correct to one decimal place Part (b): 8.36",
             "hindi": "Write each of the following decimals correct to one decimal place Part (b): 8.36"
@@ -5685,8 +5850,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q02_c",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q02_c",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -5713,7 +5878,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q02_c_q1",
+          "id": "rsexch11ex52q02cq1",
           "prompt": {
             "english": "Write each of the following decimals correct to one decimal place Part (c): 9.65",
             "hindi": "Write each of the following decimals correct to one decimal place Part (c): 9.65"
@@ -5749,8 +5914,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q02_d",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q02_d",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -5777,7 +5942,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q02_d_q1",
+          "id": "rsexch11ex52q02dq1",
           "prompt": {
             "english": "Write each of the following decimals correct to one decimal place Part (d): 10.347",
             "hindi": "Write each of the following decimals correct to one decimal place Part (d): 10.347"
@@ -5813,8 +5978,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q02_e",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q02_e",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -5841,7 +6006,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q02_e_q1",
+          "id": "rsexch11ex52q02eq1",
           "prompt": {
             "english": "Write each of the following decimals correct to one decimal place Part (e): 24.829",
             "hindi": "Write each of the following decimals correct to one decimal place Part (e): 24.829"
@@ -5877,8 +6042,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q02_f",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q02_f",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -5905,7 +6070,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q02_f_q1",
+          "id": "rsexch11ex52q02fq1",
           "prompt": {
             "english": "Write each of the following decimals correct to one decimal place Part (f): 32.271",
             "hindi": "Write each of the following decimals correct to one decimal place Part (f): 32.271"
@@ -5941,8 +6106,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q02_g",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q02_g",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -5969,7 +6134,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q02_g_q1",
+          "id": "rsexch11ex52q02gq1",
           "prompt": {
             "english": "Write each of the following decimals correct to one decimal place Part (g): 86.813",
             "hindi": "Write each of the following decimals correct to one decimal place Part (g): 86.813"
@@ -6005,8 +6170,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q02_h",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q02_h",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -6033,7 +6198,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q02_h_q1",
+          "id": "rsexch11ex52q02hq1",
           "prompt": {
             "english": "Write each of the following decimals correct to one decimal place Part (h): 102.382",
             "hindi": "Write each of the following decimals correct to one decimal place Part (h): 102.382"
@@ -6069,8 +6234,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q03_a",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q03_a",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -6097,7 +6262,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q03_a_q1",
+          "id": "rsexch11ex52q03aq1",
           "prompt": {
             "english": "Write each of the following decimals correct to two decimal places Part (a): 0.706",
             "hindi": "Write each of the following decimals correct to two decimal places Part (a): 0.706"
@@ -6133,8 +6298,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q03_b",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q03_b",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -6161,7 +6326,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q03_b_q1",
+          "id": "rsexch11ex52q03bq1",
           "prompt": {
             "english": "Write each of the following decimals correct to two decimal places Part (b): 5.238",
             "hindi": "Write each of the following decimals correct to two decimal places Part (b): 5.238"
@@ -6197,8 +6362,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q03_c",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q03_c",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -6225,7 +6390,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q03_c_q1",
+          "id": "rsexch11ex52q03cq1",
           "prompt": {
             "english": "Write each of the following decimals correct to two decimal places Part (c): 11.415",
             "hindi": "Write each of the following decimals correct to two decimal places Part (c): 11.415"
@@ -6261,8 +6426,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q03_d",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q03_d",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -6289,7 +6454,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q03_d_q1",
+          "id": "rsexch11ex52q03dq1",
           "prompt": {
             "english": "Write each of the following decimals correct to two decimal places Part (d): 17.893",
             "hindi": "Write each of the following decimals correct to two decimal places Part (d): 17.893"
@@ -6325,8 +6490,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q03_e",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q03_e",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -6353,7 +6518,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q03_e_q1",
+          "id": "rsexch11ex52q03eq1",
           "prompt": {
             "english": "Write each of the following decimals correct to two decimal places Part (e): 26.682",
             "hindi": "Write each of the following decimals correct to two decimal places Part (e): 26.682"
@@ -6389,8 +6554,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q03_f",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q03_f",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -6417,7 +6582,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q03_f_q1",
+          "id": "rsexch11ex52q03fq1",
           "prompt": {
             "english": "Write each of the following decimals correct to two decimal places Part (f): 47.8491",
             "hindi": "Write each of the following decimals correct to two decimal places Part (f): 47.8491"
@@ -6453,8 +6618,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q03_g",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q03_g",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -6481,7 +6646,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q03_g_q1",
+          "id": "rsexch11ex52q03gq1",
           "prompt": {
             "english": "Write each of the following decimals correct to two decimal places Part (g): 53.1475",
             "hindi": "Write each of the following decimals correct to two decimal places Part (g): 53.1475"
@@ -6517,8 +6682,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q03_h",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q03_h",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -6545,7 +6710,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q03_h_q1",
+          "id": "rsexch11ex52q03hq1",
           "prompt": {
             "english": "Write each of the following decimals correct to two decimal places Part (h): 103.7651",
             "hindi": "Write each of the following decimals correct to two decimal places Part (h): 103.7651"
@@ -6581,8 +6746,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q04_a",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q04_a",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -6609,7 +6774,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q04_a_q1",
+          "id": "rsexch11ex52q04aq1",
           "prompt": {
             "english": "Write each of the following decimals correct to three decimal places Part (a): 0.7894",
             "hindi": "Write each of the following decimals correct to three decimal places Part (a): 0.7894"
@@ -6645,8 +6810,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q04_b",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q04_b",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -6673,7 +6838,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q04_b_q1",
+          "id": "rsexch11ex52q04bq1",
           "prompt": {
             "english": "Write each of the following decimals correct to three decimal places Part (b): 2.1635",
             "hindi": "Write each of the following decimals correct to three decimal places Part (b): 2.1635"
@@ -6709,8 +6874,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q04_c",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q04_c",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -6737,7 +6902,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q04_c_q1",
+          "id": "rsexch11ex52q04cq1",
           "prompt": {
             "english": "Write each of the following decimals correct to three decimal places Part (c): 78.4728",
             "hindi": "Write each of the following decimals correct to three decimal places Part (c): 78.4728"
@@ -6773,8 +6938,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q04_d",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q04_d",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -6801,7 +6966,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q04_d_q1",
+          "id": "rsexch11ex52q04dq1",
           "prompt": {
             "english": "Write each of the following decimals correct to three decimal places Part (d): 19.01472",
             "hindi": "Write each of the following decimals correct to three decimal places Part (d): 19.01472"
@@ -6837,8 +7002,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q04_e",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q04_e",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -6865,7 +7030,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q04_e_q1",
+          "id": "rsexch11ex52q04eq1",
           "prompt": {
             "english": "Write each of the following decimals correct to three decimal places Part (e): 32.40361",
             "hindi": "Write each of the following decimals correct to three decimal places Part (e): 32.40361"
@@ -6901,8 +7066,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q04_f",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q04_f",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -6929,7 +7094,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q04_f_q1",
+          "id": "rsexch11ex52q04fq1",
           "prompt": {
             "english": "Write each of the following decimals correct to three decimal places Part (f): 123.00416",
             "hindi": "Write each of the following decimals correct to three decimal places Part (f): 123.00416"
@@ -6965,8 +7130,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q05_a",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q05_a",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -6993,7 +7158,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q05_a_q1",
+          "id": "rsexch11ex52q05aq1",
           "prompt": {
             "english": "Find the quotient correct to two decimal places in each of the following division sums Part (a): 2.3 ÷ 9",
             "hindi": "Find the quotient correct to two decimal places in each of the following division sums Part (a): 2.3 ÷ 9"
@@ -7029,8 +7194,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q05_b",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q05_b",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -7057,7 +7222,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q05_b_q1",
+          "id": "rsexch11ex52q05bq1",
           "prompt": {
             "english": "Find the quotient correct to two decimal places in each of the following division sums Part (b): 21.83 ÷ 16",
             "hindi": "Find the quotient correct to two decimal places in each of the following division sums Part (b): 21.83 ÷ 16"
@@ -7093,8 +7258,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q05_c",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q05_c",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -7121,7 +7286,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q05_c_q1",
+          "id": "rsexch11ex52q05cq1",
           "prompt": {
             "english": "Find the quotient correct to two decimal places in each of the following division sums Part (c): 3.7 ÷ 17",
             "hindi": "Find the quotient correct to two decimal places in each of the following division sums Part (c): 3.7 ÷ 17"
@@ -7157,8 +7322,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q05_d",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q05_d",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -7185,7 +7350,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q05_d_q1",
+          "id": "rsexch11ex52q05dq1",
           "prompt": {
             "english": "Find the quotient correct to two decimal places in each of the following division sums Part (d): 8.283 ÷ 22",
             "hindi": "Find the quotient correct to two decimal places in each of the following division sums Part (d): 8.283 ÷ 22"
@@ -7221,8 +7386,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q05_e",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q05_e",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -7249,7 +7414,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q05_e_q1",
+          "id": "rsexch11ex52q05eq1",
           "prompt": {
             "english": "Find the quotient correct to two decimal places in each of the following division sums Part (e): 16.46 ÷ 15",
             "hindi": "Find the quotient correct to two decimal places in each of the following division sums Part (e): 16.46 ÷ 15"
@@ -7285,8 +7450,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q05_f",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q05_f",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -7313,7 +7478,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q05_f_q1",
+          "id": "rsexch11ex52q05fq1",
           "prompt": {
             "english": "Find the quotient correct to two decimal places in each of the following division sums Part (f): 101.37 ÷ 20",
             "hindi": "Find the quotient correct to two decimal places in each of the following division sums Part (f): 101.37 ÷ 20"
@@ -7349,8 +7514,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q06_a",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q06_a",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -7377,7 +7542,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q06_a_q1",
+          "id": "rsexch11ex52q06aq1",
           "prompt": {
             "english": "Express each of the following fractions as a decimal correct to 3 decimal places Part (a): 5 13",
             "hindi": "Express each of the following fractions as a decimal correct to 3 decimal places Part (a): 5 13"
@@ -7413,8 +7578,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q06_b",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q06_b",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -7441,7 +7606,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q06_b_q1",
+          "id": "rsexch11ex52q06bq1",
           "prompt": {
             "english": "Express each of the following fractions as a decimal correct to 3 decimal places Part (b): 6 7",
             "hindi": "Express each of the following fractions as a decimal correct to 3 decimal places Part (b): 6 7"
@@ -7477,8 +7642,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q06_c",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q06_c",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -7505,7 +7670,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q06_c_q1",
+          "id": "rsexch11ex52q06cq1",
           "prompt": {
             "english": "Express each of the following fractions as a decimal correct to 3 decimal places Part (c): 5 11",
             "hindi": "Express each of the following fractions as a decimal correct to 3 decimal places Part (c): 5 11"
@@ -7541,8 +7706,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q06_d",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q06_d",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -7569,7 +7734,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q06_d_q1",
+          "id": "rsexch11ex52q06dq1",
           "prompt": {
             "english": "Express each of the following fractions as a decimal correct to 3 decimal places Part (d): 6 13",
             "hindi": "Express each of the following fractions as a decimal correct to 3 decimal places Part (d): 6 13"
@@ -7605,8 +7770,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q06_e",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q06_e",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -7633,7 +7798,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q06_e_q1",
+          "id": "rsexch11ex52q06eq1",
           "prompt": {
             "english": "Express each of the following fractions as a decimal correct to 3 decimal places Part (e): 13 15",
             "hindi": "Express each of the following fractions as a decimal correct to 3 decimal places Part (e): 13 15"
@@ -7669,8 +7834,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q06_f",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q06_f",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -7697,7 +7862,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q06_f_q1",
+          "id": "rsexch11ex52q06fq1",
           "prompt": {
             "english": "Express each of the following fractions as a decimal correct to 3 decimal places Part (f): 3 4 11",
             "hindi": "Express each of the following fractions as a decimal correct to 3 decimal places Part (f): 3 4 11"
@@ -7733,8 +7898,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q06_g",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q06_g",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -7761,7 +7926,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q06_g_q1",
+          "id": "rsexch11ex52q06gq1",
           "prompt": {
             "english": "Express each of the following fractions as a decimal correct to 3 decimal places Part (g): 2 12 17",
             "hindi": "Express each of the following fractions as a decimal correct to 3 decimal places Part (g): 2 12 17"
@@ -7797,8 +7962,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q06_h",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q06_h",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -7825,7 +7990,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q06_h_q1",
+          "id": "rsexch11ex52q06hq1",
           "prompt": {
             "english": "Express each of the following fractions as a decimal correct to 3 decimal places Part (h): 10 2 3",
             "hindi": "Express each of the following fractions as a decimal correct to 3 decimal places Part (h): 10 2 3"
@@ -7861,8 +8026,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q07_a",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q07_a",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -7889,7 +8054,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q07_a_q1",
+          "id": "rsexch11ex52q07aq1",
           "prompt": {
             "english": "Think of rounding to the nearest one. What numbers could be rounded to? Part (a): 11.0",
             "hindi": "Think of rounding to the nearest one. What numbers could be rounded to? Part (a): 11.0"
@@ -7926,8 +8091,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q07_b",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q07_b",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -7954,7 +8119,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q07_b_q1",
+          "id": "rsexch11ex52q07bq1",
           "prompt": {
             "english": "Think of rounding to the nearest one. What numbers could be rounded to? Part (b): 17.0",
             "hindi": "Think of rounding to the nearest one. What numbers could be rounded to? Part (b): 17.0"
@@ -7991,8 +8156,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q07_c",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q07_c",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -8019,7 +8184,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q07_c_q1",
+          "id": "rsexch11ex52q07cq1",
           "prompt": {
             "english": "Think of rounding to the nearest one. What numbers could be rounded to? Part (c): 20.0",
             "hindi": "Think of rounding to the nearest one. What numbers could be rounded to? Part (c): 20.0"
@@ -8056,8 +8221,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch11_ex52_q07_d",
-      "sourceLessonId": "rs_exercise_ch11_ex52",
+      "id": "rsexch11ex52q07_d",
+      "sourceLessonId": "rsexercisech11_ex52",
       "chapterNumber": 11,
       "chapterTitle": {
         "english": "Rounding Numbers",
@@ -8084,7 +8249,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch11_ex52_q07_d_q1",
+          "id": "rsexch11ex52q07dq1",
           "prompt": {
             "english": "Think of rounding to the nearest one. What numbers could be rounded to? Part (d): 46.00.57144.0 0 0 0 –0 4 0 – 3 5 5 0 – 4 9 1 0 – 7 3 0 – 2 8 2 7",
             "hindi": "Think of rounding to the nearest one. What numbers could be rounded to? Part (d): 46.00.57144.0 0 0 0 –0 4 0 – 3 5 5 0 – 4 9 1 0 – 7 3 0 – 2 8 2 7"

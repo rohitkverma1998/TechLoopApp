@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch06_factors_and_multiples_with_properties",
+      "id": "rsch06factorsandmultipleswithproperties",
       "sourceLessonId": "rs_ch06",
       "chapterNumber": 6,
       "chapterTitle": {
@@ -29,12 +29,34 @@
         "english": "Factors and Multiples with Properties",
         "hindi": "गुणनखंड और गुणज तथा उनके गुण"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "A **factor** of a number is any number that divides it exactly (with no remainder). For example, 6 divides 48 exactly (48 ÷ 6 = 8), so 6 is a factor of 48.",
+          "hindi": "किसी संख्या का **गुणनखंड** वह संख्या होती है जो उसे बिना शेषफल के पूरी तरह विभाजित कर दे। जैसे 6, संख्या 48 को पूरी तरह विभाजित करता है (48 ÷ 6 = 8), इसलिए 6, संख्या 48 का गुणनखंड है।"
+        },
+        {
+          "english": "A **multiple** of a number is what you get when you multiply it by 1, 2, 3, 4 … For example, multiples of 6 are: 6, 12, 18, 24, 30, 36 …",
+          "hindi": "किसी संख्या का **गुणज** वह संख्या होती है जो उसे 1, 2, 3, 4 … से गुणा करने पर मिलती है। जैसे 6 के गुणज: 6, 12, 18, 24, 30, 36 …"
+        },
+        {
+          "english": "Key properties:\n- 1 is a factor of every number.\n- Every number is a factor of itself.\n- Every multiple of a number is greater than or equal to the number itself.",
+          "hindi": "मुख्य गुण:\n- 1 हर संख्या का गुणनखंड होता है।\n- हर संख्या स्वयं अपना गुणनखंड होती है।\n- किसी संख्या का हर गुणज उस संख्या से बड़ा या उसके बराबर होता है।"
+        },
+        {
+          "english": "**Example:** Factors of 12 are 1, 2, 3, 4, 6, 12. First six multiples of 4 are 4, 8, 12, 16, 20, 24.",
+          "hindi": "**उदाहरण:** 12 के गुणनखंड हैं: 1, 2, 3, 4, 6, 12। 4 के पहले छह गुणज हैं: 4, 8, 12, 16, 20, 24।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "A **factor** of a number is any number that divides it exactly (with no remainder). For example, 6 divides 48 exactly (48 ÷ 6 = 8), so 6 is a factor of 48.\nA **multiple** of a number is what you get when you multiply it by 1, 2, 3, 4 … For example, multiples of 6 are: 6, 12, 18, 24, 30, 36 …\n**Example:** Factors of 12 are 1, 2, 3, 4, 6, 12. First six multiples of 4 are 4, 8, 12, 16, 20, 24.",
+          "hindi": "**उदाहरण:** 12 के गुणनखंड हैं: 1, 2, 3, 4, 6, 12। 4 के पहले छह गुणज हैं: 4, 8, 12, 16, 20, 24।"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "factors_and_multiples_with_properties_q1",
+          "id": "factorsandmultipleswithproperties_q1",
           "prompt": {
             "english": "Which of the following is a factor of 48?",
             "hindi": "निम्न में से 48 का गुणनखंड कौन-सा है?"
@@ -61,11 +83,29 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "We check which number divides 48 exactly:\n- 48 ÷ 6 = 8 (no remainder) → **6 is a factor of 48**\n- 48 ÷ 7 = 6 remainder 6 → Not a factor\n- 48 ÷ 11 = 4 remainder 4 → Not a factor\n- 48 ÷ 13 = 3 remainder 9 → Not a factor\n\n**Answer: 6**",
+            "hindi": "हम जाँचते हैं कि कौन-सी संख्या 48 को बिना शेषफल के विभाजित करती है:\n- 48 ÷ 6 = 8 (कोई शेष नहीं) → **6, 48 का गुणनखंड है**\n- 48 ÷ 7 = 6 शेष 6 → गुणनखंड नहीं\n- 48 ÷ 11 = 4 शेष 4 → गुणनखंड नहीं\n- 48 ÷ 13 = 3 शेष 9 → गुणनखंड नहीं\n\n**उत्तर: 6**"
+          },
+          "supportExample": {
+            "english": "We check which number divides 48 exactly:\n- 48 ÷ 6 = 8 (no remainder) → **6 is a factor of 48**\n- 48 ÷ 7 = 6 remainder 6 → Not a factor\n- 48 ÷ 11 = 4 remainder 4 → Not a factor\n- 48 ÷ 13 = 3 remainder 9 → Not a factor\n**Answer: 6**",
+            "hindi": "हम जाँचते हैं कि कौन-सी संख्या 48 को बिना शेषफल के विभाजित करती है:\n- 48 ÷ 6 = 8 (कोई शेष नहीं) → **6, 48 का गुणनखंड है**\n- 48 ÷ 7 = 6 शेष 6 → गुणनखंड नहीं\n- 48 ÷ 11 = 4 शेष 4 → गुणनखंड नहीं\n- 48 ÷ 13 = 3 शेष 9 → गुणनखंड नहीं\n**उत्तर: 6**"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We check which number divides 48 exactly:\n- 48 ÷ 6 = 8 (no remainder) → **6 is a factor of 48**\n- 48 ÷ 7 = 6 remainder 6 → Not a factor\n- 48 ÷ 11 = 4 remainder 4 → Not a factor\n- 48 ÷ 13 = 3 remainder 9 → Not a factor",
+              "hindi": "हम जाँचते हैं कि कौन-सी संख्या 48 को बिना शेषफल के विभाजित करती है:\n- 48 ÷ 6 = 8 (कोई शेष नहीं) → **6, 48 का गुणनखंड है**\n- 48 ÷ 7 = 6 शेष 6 → गुणनखंड नहीं\n- 48 ÷ 11 = 4 शेष 4 → गुणनखंड नहीं\n- 48 ÷ 13 = 3 शेष 9 → गुणनखंड नहीं"
+            },
+            {
+              "english": "**Answer: 6**",
+              "hindi": "**उत्तर: 6**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -81,7 +121,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch06_even_and_odd_numbers",
+      "id": "rsch06evenandodd_numbers",
       "sourceLessonId": "rs_ch06",
       "chapterNumber": 6,
       "chapterTitle": {
@@ -104,12 +144,30 @@
         "english": "Even and Odd Numbers",
         "hindi": "सम और विषम संख्याएँ"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Even numbers** are numbers exactly divisible by 2. They always end in 0, 2, 4, 6, or 8.\nExamples: 2, 4, 6, 84, 126, 308",
+          "hindi": "**सम संख्याएँ** वे संख्याएँ होती हैं जो 2 से पूरी तरह विभाजित होती हैं। इनका अंतिम अंक 0, 2, 4, 6 या 8 होता है।\nउदाहरण: 2, 4, 6, 84, 126, 308"
+        },
+        {
+          "english": "**Odd numbers** are numbers NOT exactly divisible by 2. They always end in 1, 3, 5, 7, or 9.\nExamples: 1, 3, 5, 7, 57, 99",
+          "hindi": "**विषम संख्याएँ** वे संख्याएँ होती हैं जो 2 से पूरी तरह विभाजित नहीं होतीं। इनका अंतिम अंक 1, 3, 5, 7 या 9 होता है।\nउदाहरण: 1, 3, 5, 7, 57, 99"
+        },
+        {
+          "english": "**Example:** 84 ends in 4 → even. 57 ends in 7 → odd.",
+          "hindi": "**उदाहरण:** 84 का अंतिम अंक 4 है → सम। 57 का अंतिम अंक 7 है → विषम।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** 84 ends in 4 → even. 57 ends in 7 → odd.",
+          "hindi": "**सम संख्याएँ** वे संख्याएँ होती हैं जो 2 से पूरी तरह विभाजित होती हैं। इनका अंतिम अंक 0, 2, 4, 6 या 8 होता है।\nउदाहरण: 2, 4, 6, 84, 126, 308\n**विषम संख्याएँ** वे संख्याएँ होती हैं जो 2 से पूरी तरह विभाजित नहीं होतीं। इनका अंतिम अंक 1, 3, 5, 7 या 9 होता है।\nउदाहरण: 1, 3, 5, 7, 57, 99\n**उदाहरण:** 84 का अंतिम अंक 4 है → सम। 57 का अंतिम अंक 7 है → विषम।"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "even_and_odd_numbers_q1",
+          "id": "evenandoddnumbersq1",
           "prompt": {
             "english": "Which of the following is an odd number?",
             "hindi": "निम्न में से कौन-सी संख्या विषम है?"
@@ -136,11 +194,29 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Check the last digit of each:\n- 57 → ends in **7** → **Odd** ✓\n- 84 → ends in 4 → Even\n- 126 → ends in 6 → Even\n- 308 → ends in 8 → Even\n\n**Answer: 57**",
+            "hindi": "प्रत्येक संख्या का अंतिम अंक जाँचें:\n- 57 → अंतिम अंक **7** → **विषम** ✓\n- 84 → अंतिम अंक 4 → सम\n- 126 → अंतिम अंक 6 → सम\n- 308 → अंतिम अंक 8 → सम\n\n**उत्तर: 57**"
+          },
+          "supportExample": {
+            "english": "Check the last digit of each:\n- 57 → ends in **7** → **Odd** ✓\n- 84 → ends in 4 → Even\n- 126 → ends in 6 → Even\n- 308 → ends in 8 → Even\n**Answer: 57**",
+            "hindi": "प्रत्येक संख्या का अंतिम अंक जाँचें:\n- 57 → अंतिम अंक **7** → **विषम** ✓\n- 84 → अंतिम अंक 4 → सम\n- 126 → अंतिम अंक 6 → सम\n- 308 → अंतिम अंक 8 → सम\n**उत्तर: 57**"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Check the last digit of each:\n- 57 → ends in **7** → **Odd** ✓\n- 84 → ends in 4 → Even\n- 126 → ends in 6 → Even\n- 308 → ends in 8 → Even",
+              "hindi": "प्रत्येक संख्या का अंतिम अंक जाँचें:\n- 57 → अंतिम अंक **7** → **विषम** ✓\n- 84 → अंतिम अंक 4 → सम\n- 126 → अंतिम अंक 6 → सम\n- 308 → अंतिम अंक 8 → सम"
+            },
+            {
+              "english": "**Answer: 57**",
+              "hindi": "**उत्तर: 57**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -156,7 +232,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch06_tests_of_divisibility",
+      "id": "rsch06testsofdivisibility",
       "sourceLessonId": "rs_ch06",
       "chapterNumber": 6,
       "chapterTitle": {
@@ -179,12 +255,30 @@
         "english": "Tests of Divisibility",
         "hindi": "विभाज्यता के नियम"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "Divisibility rules help us quickly check if a number divides another without actually dividing:",
+          "hindi": "विभाज्यता के नियम हमें बिना पूरी तरह भाग दिए यह जाँचने में मदद करते हैं:"
+        },
+        {
+          "english": "| Divisor | Rule |\n|---------|------|\n| 2 | Last digit is 0, 2, 4, 6, or 8 |\n| 3 | Sum of digits is divisible by 3 |\n| 4 | Last two digits divisible by 4 |\n| 5 | Last digit is 0 or 5 |\n| 9 | Sum of digits is divisible by 9 |\n| 10 | Last digit is 0 |",
+          "hindi": "| भाजक | नियम |\n|------|------|\n| 2 | अंतिम अंक 0, 2, 4, 6 या 8 हो |\n| 3 | अंकों का योग 3 से विभाज्य हो |\n| 4 | अंतिम दो अंक 4 से विभाज्य हों |\n| 5 | अंतिम अंक 0 या 5 हो |\n| 9 | अंकों का योग 9 से विभाज्य हो |\n| 10 | अंतिम अंक 0 हो |"
+        },
+        {
+          "english": "**Example:** Is 6,372 divisible by 9? Sum of digits = 6+3+7+2 = 18. 18 ÷ 9 = 2. Yes, it is divisible by 9!",
+          "hindi": "**उदाहरण:** क्या 6,372 संख्या 9 से विभाज्य है? अंकों का योग = 6+3+7+2 = 18। 18 ÷ 9 = 2। हाँ, यह 9 से विभाज्य है!"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Is 6,372 divisible by 9? Sum of digits = 6+3+7+2 = 18. 18 ÷ 9 = 2. Yes, it is divisible by 9!",
+          "hindi": "**उदाहरण:** क्या 6,372 संख्या 9 से विभाज्य है? अंकों का योग = 6+3+7+2 = 18। 18 ÷ 9 = 2। हाँ, यह 9 से विभाज्य है!"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "tests_of_divisibility_q1",
+          "id": "testsofdivisibility_q1",
           "prompt": {
             "english": "Which number is divisible by 9?",
             "hindi": "कौन-सी संख्या 9 से विभाज्य है?"
@@ -211,11 +305,29 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Check divisibility by 9 (sum of digits must be divisible by 9):\n- 6,372 → 6+3+7+2 = **18** → 18 ÷ 9 = 2 ✓ **Divisible by 9**\n- 5,431 → 5+4+3+1 = 13 → Not divisible by 9\n- 4,214 → 4+2+1+4 = 11 → Not divisible by 9\n- 7,123 → 7+1+2+3 = 13 → Not divisible by 9\n\n**Answer: 6,372**",
+            "hindi": "9 की विभाज्यता जाँचें (अंकों का योग 9 से विभाज्य होना चाहिए):\n- 6,372 → 6+3+7+2 = **18** → 18 ÷ 9 = 2 ✓ **9 से विभाज्य**\n- 5,431 → 5+4+3+1 = 13 → 9 से विभाज्य नहीं\n- 4,214 → 4+2+1+4 = 11 → 9 से विभाज्य नहीं\n- 7,123 → 7+1+2+3 = 13 → 9 से विभाज्य नहीं\n\n**उत्तर: 6,372**"
+          },
+          "supportExample": {
+            "english": "Check divisibility by 9 (sum of digits must be divisible by 9):\n- 6,372 → 6+3+7+2 = **18** → 18 ÷ 9 = 2 ✓ **Divisible by 9**\n- 5,431 → 5+4+3+1 = 13 → Not divisible by 9\n- 4,214 → 4+2+1+4 = 11 → Not divisible by 9\n- 7,123 → 7+1+2+3 = 13 → Not divisible by 9\n**Answer: 6,372**",
+            "hindi": "9 की विभाज्यता जाँचें (अंकों का योग 9 से विभाज्य होना चाहिए):\n- 6,372 → 6+3+7+2 = **18** → 18 ÷ 9 = 2 ✓ **9 से विभाज्य**\n- 5,431 → 5+4+3+1 = 13 → 9 से विभाज्य नहीं\n- 4,214 → 4+2+1+4 = 11 → 9 से विभाज्य नहीं\n- 7,123 → 7+1+2+3 = 13 → 9 से विभाज्य नहीं\n**उत्तर: 6,372**"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Check divisibility by 9 (sum of digits must be divisible by 9):\n- 6,372 → 6+3+7+2 = **18** → 18 ÷ 9 = 2 ✓ **Divisible by 9**\n- 5,431 → 5+4+3+1 = 13 → Not divisible by 9\n- 4,214 → 4+2+1+4 = 11 → Not divisible by 9\n- 7,123 → 7+1+2+3 = 13 → Not divisible by 9",
+              "hindi": "9 की विभाज्यता जाँचें (अंकों का योग 9 से विभाज्य होना चाहिए):\n- 6,372 → 6+3+7+2 = **18** → 18 ÷ 9 = 2 ✓ **9 से विभाज्य**\n- 5,431 → 5+4+3+1 = 13 → 9 से विभाज्य नहीं\n- 4,214 → 4+2+1+4 = 11 → 9 से विभाज्य नहीं\n- 7,123 → 7+1+2+3 = 13 → 9 से विभाज्य नहीं"
+            },
+            {
+              "english": "**Answer: 6,372**",
+              "hindi": "**उत्तर: 6,372**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -231,7 +343,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch06_prime_and_composite_numbers",
+      "id": "rsch06primeandcomposite_numbers",
       "sourceLessonId": "rs_ch06",
       "chapterNumber": 6,
       "chapterTitle": {
@@ -254,12 +366,34 @@
         "english": "Prime and Composite Numbers",
         "hindi": "अभाज्य और संयुक्त संख्याएँ"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "A **prime number** has exactly two factors: 1 and itself.\nExamples: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 …",
+          "hindi": "**अभाज्य संख्या** के केवल दो गुणनखंड होते हैं: 1 और स्वयं।\nउदाहरण: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 …"
+        },
+        {
+          "english": "A **composite number** has more than two factors.\nExamples: 4, 6, 8, 9, 10, 12, 21, 35, 39 …",
+          "hindi": "**संयुक्त संख्या** के दो से अधिक गुणनखंड होते हैं।\nउदाहरण: 4, 6, 8, 9, 10, 12, 21, 35, 39 …"
+        },
+        {
+          "english": "Note: 1 is neither prime nor composite.",
+          "hindi": "नोट: 1 न तो अभाज्य है और न ही संयुक्त।"
+        },
+        {
+          "english": "**Example:** Is 29 prime? Check: 29 ÷ 2, ÷ 3, ÷ 5 all leave remainders. No factor other than 1 and 29 → **Prime!**\nIs 21 prime? 21 = 3 × 7 → Has more than 2 factors → **Composite.**",
+          "hindi": "**उदाहरण:** क्या 29 अभाज्य है? 29 को 2, 3, 5 से भाग देने पर शेष बचता है। 1 और 29 के अलावा कोई गुणनखंड नहीं → **अभाज्य!**\nक्या 21 अभाज्य है? 21 = 3 × 7 → दो से अधिक गुणनखंड → **संयुक्त।**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Is 29 prime? Check: 29 ÷ 2, ÷ 3, ÷ 5 all leave remainders. No factor other than 1 and 29 → **Prime!**\nIs 21 prime? 21 = 3 × 7 → Has more than 2 factors → **Composite.**",
+          "hindi": "**अभाज्य संख्या** के केवल दो गुणनखंड होते हैं: 1 और स्वयं।\nउदाहरण: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 …\n**संयुक्त संख्या** के दो से अधिक गुणनखंड होते हैं।\nउदाहरण: 4, 6, 8, 9, 10, 12, 21, 35, 39 …\n**उदाहरण:** क्या 29 अभाज्य है? 29 को 2, 3, 5 से भाग देने पर शेष बचता है। 1 और 29 के अलावा कोई गुणनखंड नहीं → **अभाज्य!**\nक्या 21 अभाज्य है? 21 = 3 × 7 → दो से अधिक गुणनखंड → **संयुक्त।**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "prime_and_composite_numbers_q1",
+          "id": "primeandcompositenumbersq1",
           "prompt": {
             "english": "Which of the following is a prime number?",
             "hindi": "निम्न में से कौन-सी संख्या अभाज्य है?"
@@ -286,11 +420,29 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "- **29**: Try dividing by 2, 3, 5 (primes up to √29 ≈ 5.4) → none divide evenly → **Prime** ✓\n- 21 = 3 × 7 → Composite\n- 35 = 5 × 7 → Composite\n- 39 = 3 × 13 → Composite\n\n**Answer: 29**",
+            "hindi": "- **29**: 2, 3, 5 से भाग देने पर कोई भी पूरी तरह विभाजित नहीं करता → **अभाज्य** ✓\n- 21 = 3 × 7 → संयुक्त\n- 35 = 5 × 7 → संयुक्त\n- 39 = 3 × 13 → संयुक्त\n\n**उत्तर: 29**"
+          },
+          "supportExample": {
+            "english": "- **29**: Try dividing by 2, 3, 5 (primes up to √29 ≈ 5.4) → none divide evenly → **Prime** ✓\n- 21 = 3 × 7 → Composite\n- 35 = 5 × 7 → Composite\n- 39 = 3 × 13 → Composite\n**Answer: 29**",
+            "hindi": "- **29**: 2, 3, 5 से भाग देने पर कोई भी पूरी तरह विभाजित नहीं करता → **अभाज्य** ✓\n- 21 = 3 × 7 → संयुक्त\n- 35 = 5 × 7 → संयुक्त\n- 39 = 3 × 13 → संयुक्त\n**उत्तर: 29**"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "- **29**: Try dividing by 2, 3, 5 (primes up to √29 ≈ 5.4) → none divide evenly → **Prime** ✓\n- 21 = 3 × 7 → Composite\n- 35 = 5 × 7 → Composite\n- 39 = 3 × 13 → Composite",
+              "hindi": "- **29**: 2, 3, 5 से भाग देने पर कोई भी पूरी तरह विभाजित नहीं करता → **अभाज्य** ✓\n- 21 = 3 × 7 → संयुक्त\n- 35 = 5 × 7 → संयुक्त\n- 39 = 3 × 13 → संयुक्त"
+            },
+            {
+              "english": "**Answer: 29**",
+              "hindi": "**उत्तर: 29**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -306,7 +458,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch06_prime_factorisation",
+      "id": "rsch06prime_factorisation",
       "sourceLessonId": "rs_ch06",
       "chapterNumber": 6,
       "chapterTitle": {
@@ -329,12 +481,30 @@
         "english": "Prime Factorisation",
         "hindi": "अभाज्य गुणनखंडन"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Prime factorisation** means writing a number as a product of only prime numbers. We use a factor tree or repeated division.",
+          "hindi": "**अभाज्य गुणनखंडन** का अर्थ है किसी संख्या को केवल अभाज्य संख्याओं के गुणनफल के रूप में लिखना। इसके लिए हम फैक्टर ट्री या बार-बार भाग विधि का उपयोग करते हैं।"
+        },
+        {
+          "english": "**Example:** Prime factorisation of 84:\n- 84 ÷ 2 = 42\n- 42 ÷ 2 = 21\n- 21 ÷ 3 = 7\n- 7 ÷ 7 = 1",
+          "hindi": "**उदाहरण:** 84 का अभाज्य गुणनखंडन:\n- 84 ÷ 2 = 42\n- 42 ÷ 2 = 21\n- 21 ÷ 3 = 7\n- 7 ÷ 7 = 1"
+        },
+        {
+          "english": "So 84 = 2 × 2 × 3 × 7 (four prime factors in total).",
+          "hindi": "इसलिए 84 = 2 × 2 × 3 × 7 (कुल चार अभाज्य गुणनखंड)।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Prime factorisation of 84:\n- 84 ÷ 2 = 42\n- 42 ÷ 2 = 21\n- 21 ÷ 3 = 7\n- 7 ÷ 7 = 1",
+          "hindi": "**उदाहरण:** 84 का अभाज्य गुणनखंडन:\n- 84 ÷ 2 = 42\n- 42 ÷ 2 = 21\n- 21 ÷ 3 = 7\n- 7 ÷ 7 = 1"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "prime_factorisation_q1",
+          "id": "primefactorisationq1",
           "prompt": {
             "english": "How many prime factors are there in 84 = 2 × 2 × 3 × 7?",
             "hindi": "84 = 2 × 2 × 3 × 7 में कितने अभाज्य गुणनखंड हैं?"
@@ -346,11 +516,33 @@
             "4"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "84 = 2 × 2 × 3 × 7\n\nCount each factor in the product (including repeats):\n- 2, 2, 3, 7 → **4 prime factors**\n\n**Answer: 4**",
+            "hindi": "84 = 2 × 2 × 3 × 7\n\nगुणनफल में प्रत्येक गुणनखंड गिनें (दोहराए जाने वाले भी शामिल):\n- 2, 2, 3, 7 → **4 अभाज्य गुणनखंड**\n\n**उत्तर: 4**"
+          },
+          "supportExample": {
+            "english": "84 = 2 × 2 × 3 × 7\nCount each factor in the product (including repeats):\n- 2, 2, 3, 7 → **4 prime factors**",
+            "hindi": "84 = 2 × 2 × 3 × 7\nगुणनफल में प्रत्येक गुणनखंड गिनें (दोहराए जाने वाले भी शामिल):\n- 2, 2, 3, 7 → **4 अभाज्य गुणनखंड**"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "84 = 2 × 2 × 3 × 7",
+              "hindi": "84 = 2 × 2 × 3 × 7"
+            },
+            {
+              "english": "Count each factor in the product (including repeats):\n- 2, 2, 3, 7 → **4 prime factors**",
+              "hindi": "गुणनफल में प्रत्येक गुणनखंड गिनें (दोहराए जाने वाले भी शामिल):\n- 2, 2, 3, 7 → **4 अभाज्य गुणनखंड**"
+            },
+            {
+              "english": "**Answer: 4**",
+              "hindi": "**उत्तर: 4**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -366,7 +558,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch06_highest_common_factor",
+      "id": "rsch06highestcommonfactor",
       "sourceLessonId": "rs_ch06",
       "chapterNumber": 6,
       "chapterTitle": {
@@ -389,12 +581,30 @@
         "english": "Highest Common Factor",
         "hindi": "महत्तम समापवर्तक"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "The **HCF** (Highest Common Factor) of two or more numbers is the largest number that divides all of them exactly.",
+          "hindi": "दो या दो से अधिक संख्याओं का **महत्तम समापवर्तक (HCF)** वह सबसे बड़ी संख्या होती है जो उन सभी को पूरी तरह विभाजित करे।"
+        },
+        {
+          "english": "**How to find HCF:**\nMethod 1 – List all factors of each number and find the greatest common one.\nMethod 2 – Prime factorisation: write both numbers as prime products, then multiply all common prime factors.",
+          "hindi": "**HCF निकालने की विधि:**\nविधि 1 – दोनों संख्याओं के सभी गुणनखंड लिखें और सबसे बड़ा उभयनिष्ठ गुणनखंड खोजें।\nविधि 2 – अभाज्य गुणनखंडन: दोनों को अभाज्य गुणनफल के रूप में लिखें, फिर उभयनिष्ठ गुणनखंडों का गुणनफल करें।"
+        },
+        {
+          "english": "**Example:** HCF of 45 and 60:\n- 45 = 3 × 3 × 5\n- 60 = 2 × 2 × 3 × 5\n- Common prime factors: 3 and 5\n- HCF = 3 × 5 = **15**",
+          "hindi": "**उदाहरण:** 45 और 60 का HCF:\n- 45 = 3 × 3 × 5\n- 60 = 2 × 2 × 3 × 5\n- उभयनिष्ठ अभाज्य गुणनखंड: 3 और 5\n- HCF = 3 × 5 = **15**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** HCF of 45 and 60:\n- 45 = 3 × 3 × 5\n- 60 = 2 × 2 × 3 × 5\n- Common prime factors: 3 and 5\n- HCF = 3 × 5 = **15**",
+          "hindi": "**उदाहरण:** 45 और 60 का HCF:\n- 45 = 3 × 3 × 5\n- 60 = 2 × 2 × 3 × 5\n- उभयनिष्ठ अभाज्य गुणनखंड: 3 और 5\n- HCF = 3 × 5 = **15**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "highest_common_factor_q1",
+          "id": "highestcommonfactor_q1",
           "prompt": {
             "english": "Find the HCF of 45 and 60.",
             "hindi": "45 और 60 का HCF लिखिए।"
@@ -406,11 +616,37 @@
             "15"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Prime factorisation\n- 45 = 3 × 3 × 5\n- 60 = 2 × 2 × 3 × 5\n\nStep 2: Common prime factors → 3 and 5\n\nStep 3: HCF = 3 × 5 = **15**\n\n**Answer: 15**",
+            "hindi": "चरण 1: अभाज्य गुणनखंडन\n- 45 = 3 × 3 × 5\n- 60 = 2 × 2 × 3 × 5\n\nचरण 2: उभयनिष्ठ अभाज्य गुणनखंड → 3 और 5\n\nचरण 3: HCF = 3 × 5 = **15**\n\n**उत्तर: 15**"
+          },
+          "supportExample": {
+            "english": "Step 1: Prime factorisation\n- 45 = 3 × 3 × 5\n- 60 = 2 × 2 × 3 × 5\nStep 2: Common prime factors → 3 and 5",
+            "hindi": "चरण 1: अभाज्य गुणनखंडन\n- 45 = 3 × 3 × 5\n- 60 = 2 × 2 × 3 × 5\nचरण 2: उभयनिष्ठ अभाज्य गुणनखंड → 3 और 5"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Prime factorisation\n- 45 = 3 × 3 × 5\n- 60 = 2 × 2 × 3 × 5",
+              "hindi": "चरण 1: अभाज्य गुणनखंडन\n- 45 = 3 × 3 × 5\n- 60 = 2 × 2 × 3 × 5"
+            },
+            {
+              "english": "Step 2: Common prime factors → 3 and 5",
+              "hindi": "चरण 2: उभयनिष्ठ अभाज्य गुणनखंड → 3 और 5"
+            },
+            {
+              "english": "Step 3: HCF = 3 × 5 = **15**",
+              "hindi": "चरण 3: HCF = 3 × 5 = **15**"
+            },
+            {
+              "english": "**Answer: 15**",
+              "hindi": "**उत्तर: 15**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -426,7 +662,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch06_least_common_multiple_and_hcf_lcm_facts",
+      "id": "rsch06leastcommonmultipleandhcflcmfacts",
       "sourceLessonId": "rs_ch06",
       "chapterNumber": 6,
       "chapterTitle": {
@@ -449,12 +685,34 @@
         "english": "Least Common Multiple and HCF-LCM Facts",
         "hindi": "लघुत्तम समापवर्त्य और HCF-LCM के तथ्य"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "The **LCM** (Least Common Multiple) of two or more numbers is the smallest number that is a multiple of all of them.",
+          "hindi": "दो या दो से अधिक संख्याओं का **लघुत्तम समापवर्त्य (LCM)** वह सबसे छोटी संख्या होती है जो उन सभी का गुणज हो।"
+        },
+        {
+          "english": "**How to find LCM (Prime Factorisation Method):**\nWrite each number as a prime product. Take each prime factor the greatest number of times it appears in any one number, then multiply.",
+          "hindi": "**LCM निकालने की विधि (अभाज्य गुणनखंडन):**\nप्रत्येक संख्या को अभाज्य गुणनफल के रूप में लिखें। जो भी अभाज्य गुणनखंड किसी एक संख्या में सबसे अधिक बार आए, उसे उतनी बार लेकर गुणनफल करें।"
+        },
+        {
+          "english": "**Example:** LCM of 48 and 18:\n- 48 = 2 × 2 × 2 × 2 × 3\n- 18 = 2 × 3 × 3\n- Take: 2⁴ × 3² = 16 × 9 = **144**",
+          "hindi": "**उदाहरण:** 48 और 18 का LCM:\n- 48 = 2 × 2 × 2 × 2 × 3\n- 18 = 2 × 3 × 3\n- लें: 2⁴ × 3² = 16 × 9 = **144**"
+        },
+        {
+          "english": "**Key HCF-LCM relationship:**\nHCF × LCM = Product of the two numbers\nFor 48 and 18: HCF = 6, LCM = 144 → 6 × 144 = 864 = 48 × 18 ✓",
+          "hindi": "**HCF-LCM का महत्वपूर्ण संबंध:**\nHCF × LCM = दोनों संख्याओं का गुणनफल\n48 और 18 के लिए: HCF = 6, LCM = 144 → 6 × 144 = 864 = 48 × 18 ✓"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** LCM of 48 and 18:\n- 48 = 2 × 2 × 2 × 2 × 3\n- 18 = 2 × 3 × 3\n- Take: 2⁴ × 3² = 16 × 9 = **144**",
+          "hindi": "**उदाहरण:** 48 और 18 का LCM:\n- 48 = 2 × 2 × 2 × 2 × 3\n- 18 = 2 × 3 × 3\n- लें: 2⁴ × 3² = 16 × 9 = **144**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "least_common_multiple_and_hcf_lcm_facts_q1",
+          "id": "leastcommonmultipleandhcflcmfacts_q1",
           "prompt": {
             "english": "Find the LCM of 48 and 18.",
             "hindi": "48 और 18 का LCM लिखिए।"
@@ -466,11 +724,37 @@
             "144"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Prime factorisation\n- 48 = 2⁴ × 3\n- 18 = 2 × 3²\n\nStep 2: Take highest power of each prime:\n- Highest power of 2 = 2⁴ = 16\n- Highest power of 3 = 3² = 9\n\nStep 3: LCM = 16 × 9 = **144**\n\n**Answer: 144**",
+            "hindi": "चरण 1: अभाज्य गुणनखंडन\n- 48 = 2⁴ × 3\n- 18 = 2 × 3²\n\nचरण 2: प्रत्येक अभाज्य का सबसे बड़ा घात लें:\n- 2 का सबसे बड़ा घात = 2⁴ = 16\n- 3 का सबसे बड़ा घात = 3² = 9\n\nचरण 3: LCM = 16 × 9 = **144**\n\n**उत्तर: 144**"
+          },
+          "supportExample": {
+            "english": "Step 1: Prime factorisation\n- 48 = 2⁴ × 3\n- 18 = 2 × 3²\nStep 2: Take highest power of each prime:\n- Highest power of 2 = 2⁴ = 16\n- Highest power of 3 = 3² = 9",
+            "hindi": "चरण 1: अभाज्य गुणनखंडन\n- 48 = 2⁴ × 3\n- 18 = 2 × 3²\nचरण 2: प्रत्येक अभाज्य का सबसे बड़ा घात लें:\n- 2 का सबसे बड़ा घात = 2⁴ = 16\n- 3 का सबसे बड़ा घात = 3² = 9"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Prime factorisation\n- 48 = 2⁴ × 3\n- 18 = 2 × 3²",
+              "hindi": "चरण 1: अभाज्य गुणनखंडन\n- 48 = 2⁴ × 3\n- 18 = 2 × 3²"
+            },
+            {
+              "english": "Step 2: Take highest power of each prime:\n- Highest power of 2 = 2⁴ = 16\n- Highest power of 3 = 3² = 9",
+              "hindi": "चरण 2: प्रत्येक अभाज्य का सबसे बड़ा घात लें:\n- 2 का सबसे बड़ा घात = 2⁴ = 16\n- 3 का सबसे बड़ा घात = 3² = 9"
+            },
+            {
+              "english": "Step 3: LCM = 16 × 9 = **144**",
+              "hindi": "चरण 3: LCM = 16 × 9 = **144**"
+            },
+            {
+              "english": "**Answer: 144**",
+              "hindi": "**उत्तर: 144**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -486,8 +770,8 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ex_ch06_ex17_q01_a",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q01_a",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -514,7 +798,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q01_a_q1",
+          "id": "rsexch06ex17q01aq1",
           "prompt": {
             "english": "Write the first six multiples of Part (a): 6",
             "hindi": "Write the first six multiples of Part (a): 6"
@@ -550,8 +834,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q01_b",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q01_b",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -578,7 +862,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q01_b_q1",
+          "id": "rsexch06ex17q01bq1",
           "prompt": {
             "english": "Write the first six multiples of Part (b): 11",
             "hindi": "Write the first six multiples of Part (b): 11"
@@ -614,8 +898,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q01_c",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q01_c",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -642,7 +926,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q01_c_q1",
+          "id": "rsexch06ex17q01cq1",
           "prompt": {
             "english": "Write the first six multiples of Part (c): 19",
             "hindi": "Write the first six multiples of Part (c): 19"
@@ -678,8 +962,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q01_d",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q01_d",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -706,7 +990,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q01_d_q1",
+          "id": "rsexch06ex17q01dq1",
           "prompt": {
             "english": "Write the first six multiples of Part (d): 21",
             "hindi": "Write the first six multiples of Part (d): 21"
@@ -742,8 +1026,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q01_e",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q01_e",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -770,7 +1054,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q01_e_q1",
+          "id": "rsexch06ex17q01eq1",
           "prompt": {
             "english": "Write the first six multiples of Part (e): 25",
             "hindi": "Write the first six multiples of Part (e): 25"
@@ -806,8 +1090,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q02_a",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q02_a",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -834,7 +1118,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q02_a_q1",
+          "id": "rsexch06ex17q02aq1",
           "prompt": {
             "english": "Write all the factors of each of the following numbers Part (a): 18",
             "hindi": "Write all the factors of each of the following numbers Part (a): 18"
@@ -870,8 +1154,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q02_b",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q02_b",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -898,7 +1182,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q02_b_q1",
+          "id": "rsexch06ex17q02bq1",
           "prompt": {
             "english": "Write all the factors of each of the following numbers Part (b): 28",
             "hindi": "Write all the factors of each of the following numbers Part (b): 28"
@@ -934,8 +1218,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q02_c",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q02_c",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -962,7 +1246,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q02_c_q1",
+          "id": "rsexch06ex17q02cq1",
           "prompt": {
             "english": "Write all the factors of each of the following numbers Part (c): 32",
             "hindi": "Write all the factors of each of the following numbers Part (c): 32"
@@ -998,8 +1282,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q02_d",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q02_d",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -1026,7 +1310,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q02_d_q1",
+          "id": "rsexch06ex17q02dq1",
           "prompt": {
             "english": "Write all the factors of each of the following numbers Part (d): 45",
             "hindi": "Write all the factors of each of the following numbers Part (d): 45"
@@ -1062,8 +1346,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q02_e",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q02_e",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -1090,7 +1374,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q02_e_q1",
+          "id": "rsexch06ex17q02eq1",
           "prompt": {
             "english": "Write all the factors of each of the following numbers Part (e): 60",
             "hindi": "Write all the factors of each of the following numbers Part (e): 60"
@@ -1126,8 +1410,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q03_a",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q03_a",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -1154,7 +1438,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q03_a_q1",
+          "id": "rsexch06ex17q03aq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 2? Part (a): 976",
             "hindi": "Which of the following numbers are divisible by 2? Part (a): 976"
@@ -1192,8 +1476,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q03_b",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q03_b",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -1220,7 +1504,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q03_b_q1",
+          "id": "rsexch06ex17q03bq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 2? Part (b): 670",
             "hindi": "Which of the following numbers are divisible by 2? Part (b): 670"
@@ -1258,8 +1542,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q03_c",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q03_c",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -1286,7 +1570,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q03_c_q1",
+          "id": "rsexch06ex17q03cq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 2? Part (c): 843",
             "hindi": "Which of the following numbers are divisible by 2? Part (c): 843"
@@ -1324,8 +1608,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q03_d",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q03_d",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -1352,7 +1636,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q03_d_q1",
+          "id": "rsexch06ex17q03dq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 2? Part (d): 5694",
             "hindi": "Which of the following numbers are divisible by 2? Part (d): 5694"
@@ -1390,8 +1674,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q03_e",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q03_e",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -1418,7 +1702,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q03_e_q1",
+          "id": "rsexch06ex17q03eq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 2? Part (e): 7358",
             "hindi": "Which of the following numbers are divisible by 2? Part (e): 7358"
@@ -1456,8 +1740,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q03_f",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q03_f",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -1484,7 +1768,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q03_f_q1",
+          "id": "rsexch06ex17q03fq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 2? Part (f): 2890",
             "hindi": "Which of the following numbers are divisible by 2? Part (f): 2890"
@@ -1522,8 +1806,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q03_g",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q03_g",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -1550,7 +1834,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q03_g_q1",
+          "id": "rsexch06ex17q03gq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 2? Part (g): 1985",
             "hindi": "Which of the following numbers are divisible by 2? Part (g): 1985"
@@ -1588,8 +1872,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q03_h",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q03_h",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -1616,7 +1900,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q03_h_q1",
+          "id": "rsexch06ex17q03hq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 2? Part (h): 299",
             "hindi": "Which of the following numbers are divisible by 2? Part (h): 299"
@@ -1654,8 +1938,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q04_a",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q04_a",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -1682,7 +1966,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q04_a_q1",
+          "id": "rsexch06ex17q04aq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 3? Part (a): 837",
             "hindi": "Which of the following numbers are divisible by 3? Part (a): 837"
@@ -1720,8 +2004,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q04_b",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q04_b",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -1748,7 +2032,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q04_b_q1",
+          "id": "rsexch06ex17q04bq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 3? Part (b): 1493",
             "hindi": "Which of the following numbers are divisible by 3? Part (b): 1493"
@@ -1786,8 +2070,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q04_c",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q04_c",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -1814,7 +2098,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q04_c_q1",
+          "id": "rsexch06ex17q04cq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 3? Part (c): 26412",
             "hindi": "Which of the following numbers are divisible by 3? Part (c): 26412"
@@ -1852,8 +2136,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q04_d",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q04_d",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -1880,7 +2164,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q04_d_q1",
+          "id": "rsexch06ex17q04dq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 3? Part (d): 37401",
             "hindi": "Which of the following numbers are divisible by 3? Part (d): 37401"
@@ -1918,8 +2202,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q04_e",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q04_e",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -1946,7 +2230,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q04_e_q1",
+          "id": "rsexch06ex17q04eq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 3? Part (e): 16339",
             "hindi": "Which of the following numbers are divisible by 3? Part (e): 16339"
@@ -1984,8 +2268,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q04_f",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q04_f",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -2012,7 +2296,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q04_f_q1",
+          "id": "rsexch06ex17q04fq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 3? Part (f): 23571",
             "hindi": "Which of the following numbers are divisible by 3? Part (f): 23571"
@@ -2050,8 +2334,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q04_g",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q04_g",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -2078,7 +2362,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q04_g_q1",
+          "id": "rsexch06ex17q04gq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 3? Part (g): 42105",
             "hindi": "Which of the following numbers are divisible by 3? Part (g): 42105"
@@ -2116,8 +2400,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q04_h",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q04_h",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -2144,7 +2428,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q04_h_q1",
+          "id": "rsexch06ex17q04hq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 3? Part (h): 31547",
             "hindi": "Which of the following numbers are divisible by 3? Part (h): 31547"
@@ -2182,8 +2466,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q05_a",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q05_a",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -2210,7 +2494,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q05_a_q1",
+          "id": "rsexch06ex17q05aq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 4? Part (a): 894",
             "hindi": "Which of the following numbers are divisible by 4? Part (a): 894"
@@ -2248,8 +2532,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q05_b",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q05_b",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -2276,7 +2560,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q05_b_q1",
+          "id": "rsexch06ex17q05bq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 4? Part (b): 1056",
             "hindi": "Which of the following numbers are divisible by 4? Part (b): 1056"
@@ -2314,8 +2598,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q05_c",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q05_c",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -2342,7 +2626,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q05_c_q1",
+          "id": "rsexch06ex17q05cq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 4? Part (c): 2360",
             "hindi": "Which of the following numbers are divisible by 4? Part (c): 2360"
@@ -2380,8 +2664,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q05_d",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q05_d",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -2408,7 +2692,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q05_d_q1",
+          "id": "rsexch06ex17q05dq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 4? Part (d): 7130",
             "hindi": "Which of the following numbers are divisible by 4? Part (d): 7130"
@@ -2446,8 +2730,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q05_e",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q05_e",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -2474,7 +2758,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q05_e_q1",
+          "id": "rsexch06ex17q05eq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 4? Part (e): 16338",
             "hindi": "Which of the following numbers are divisible by 4? Part (e): 16338"
@@ -2512,8 +2796,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q05_f",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q05_f",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -2540,7 +2824,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q05_f_q1",
+          "id": "rsexch06ex17q05fq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 4? Part (f): 69704",
             "hindi": "Which of the following numbers are divisible by 4? Part (f): 69704"
@@ -2578,8 +2862,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q05_g",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q05_g",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -2606,7 +2890,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q05_g_q1",
+          "id": "rsexch06ex17q05gq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 4? Part (g): 24842",
             "hindi": "Which of the following numbers are divisible by 4? Part (g): 24842"
@@ -2644,8 +2928,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q05_h",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q05_h",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -2672,7 +2956,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q05_h_q1",
+          "id": "rsexch06ex17q05hq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 4? Part (h): 97312",
             "hindi": "Which of the following numbers are divisible by 4? Part (h): 97312"
@@ -2710,8 +2994,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q06_a",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q06_a",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -2738,7 +3022,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q06_a_q1",
+          "id": "rsexch06ex17q06aq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 5? Part (a): 1980",
             "hindi": "Which of the following numbers are divisible by 5? Part (a): 1980"
@@ -2776,8 +3060,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q06_b",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q06_b",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -2804,7 +3088,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q06_b_q1",
+          "id": "rsexch06ex17q06bq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 5? Part (b): 1785",
             "hindi": "Which of the following numbers are divisible by 5? Part (b): 1785"
@@ -2842,8 +3126,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q06_c",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q06_c",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -2870,7 +3154,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q06_c_q1",
+          "id": "rsexch06ex17q06cq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 5? Part (c): 3206",
             "hindi": "Which of the following numbers are divisible by 5? Part (c): 3206"
@@ -2908,8 +3192,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q06_d",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q06_d",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -2936,7 +3220,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q06_d_q1",
+          "id": "rsexch06ex17q06dq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 5? Part (d): 27905",
             "hindi": "Which of the following numbers are divisible by 5? Part (d): 27905"
@@ -2974,8 +3258,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q06_e",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q06_e",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -3002,7 +3286,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q06_e_q1",
+          "id": "rsexch06ex17q06eq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 5? Part (e): 2730",
             "hindi": "Which of the following numbers are divisible by 5? Part (e): 2730"
@@ -3040,8 +3324,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q06_f",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q06_f",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -3068,7 +3352,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q06_f_q1",
+          "id": "rsexch06ex17q06fq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 5? Part (f): 6309",
             "hindi": "Which of the following numbers are divisible by 5? Part (f): 6309"
@@ -3106,8 +3390,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q06_g",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q06_g",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -3134,7 +3418,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q06_g_q1",
+          "id": "rsexch06ex17q06gq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 5? Part (g): 9915",
             "hindi": "Which of the following numbers are divisible by 5? Part (g): 9915"
@@ -3172,8 +3456,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q06_h",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q06_h",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -3200,7 +3484,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q06_h_q1",
+          "id": "rsexch06ex17q06hq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 5? Part (h): 3617",
             "hindi": "Which of the following numbers are divisible by 5? Part (h): 3617"
@@ -3238,8 +3522,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q07_a",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q07_a",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -3266,7 +3550,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q07_a_q1",
+          "id": "rsexch06ex17q07aq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 6? Part (a): 3132",
             "hindi": "Which of the following numbers are divisible by 6? Part (a): 3132"
@@ -3304,8 +3588,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q07_b",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q07_b",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -3332,7 +3616,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q07_b_q1",
+          "id": "rsexch06ex17q07bq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 6? Part (b): 5704",
             "hindi": "Which of the following numbers are divisible by 6? Part (b): 5704"
@@ -3370,8 +3654,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q07_c",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q07_c",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -3398,7 +3682,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q07_c_q1",
+          "id": "rsexch06ex17q07cq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 6? Part (c): 8316",
             "hindi": "Which of the following numbers are divisible by 6? Part (c): 8316"
@@ -3436,8 +3720,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q07_d",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q07_d",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -3464,7 +3748,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q07_d_q1",
+          "id": "rsexch06ex17q07dq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 6? Part (d): 9430",
             "hindi": "Which of the following numbers are divisible by 6? Part (d): 9430"
@@ -3502,8 +3786,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q07_e",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q07_e",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -3530,7 +3814,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q07_e_q1",
+          "id": "rsexch06ex17q07eq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 6? Part (e): 7038",
             "hindi": "Which of the following numbers are divisible by 6? Part (e): 7038"
@@ -3568,8 +3852,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q07_f",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q07_f",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -3596,7 +3880,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q07_f_q1",
+          "id": "rsexch06ex17q07fq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 6? Part (f): 17703",
             "hindi": "Which of the following numbers are divisible by 6? Part (f): 17703"
@@ -3634,8 +3918,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q07_g",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q07_g",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -3662,7 +3946,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q07_g_q1",
+          "id": "rsexch06ex17q07gq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 6? Part (g): 7812",
             "hindi": "Which of the following numbers are divisible by 6? Part (g): 7812"
@@ -3700,8 +3984,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q07_h",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q07_h",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -3728,7 +4012,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q07_h_q1",
+          "id": "rsexch06ex17q07hq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 6? Part (h): 8721",
             "hindi": "Which of the following numbers are divisible by 6? Part (h): 8721"
@@ -3766,8 +4050,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q08_a",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q08_a",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -3794,7 +4078,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q08_a_q1",
+          "id": "rsexch06ex17q08aq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 7? Part (a): 252",
             "hindi": "Which of the following numbers are divisible by 7? Part (a): 252"
@@ -3832,8 +4116,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q08_b",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q08_b",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -3860,7 +4144,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q08_b_q1",
+          "id": "rsexch06ex17q08bq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 7? Part (b): 1204",
             "hindi": "Which of the following numbers are divisible by 7? Part (b): 1204"
@@ -3898,8 +4182,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q08_c",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q08_c",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -3926,7 +4210,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q08_c_q1",
+          "id": "rsexch06ex17q08cq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 7? Part (c): 5843",
             "hindi": "Which of the following numbers are divisible by 7? Part (c): 5843"
@@ -3964,8 +4248,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q08_d",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q08_d",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -3992,7 +4276,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q08_d_q1",
+          "id": "rsexch06ex17q08dq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 7? Part (d): 8036",
             "hindi": "Which of the following numbers are divisible by 7? Part (d): 8036"
@@ -4030,8 +4314,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q08_e",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q08_e",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -4058,7 +4342,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q08_e_q1",
+          "id": "rsexch06ex17q08eq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 7? Part (e): 9308",
             "hindi": "Which of the following numbers are divisible by 7? Part (e): 9308"
@@ -4096,8 +4380,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q08_f",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q08_f",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -4124,7 +4408,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q08_f_q1",
+          "id": "rsexch06ex17q08fq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 7? Part (f): 3045",
             "hindi": "Which of the following numbers are divisible by 7? Part (f): 3045"
@@ -4162,8 +4446,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q08_g",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q08_g",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -4190,7 +4474,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q08_g_q1",
+          "id": "rsexch06ex17q08gq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 7? Part (g): 7833",
             "hindi": "Which of the following numbers are divisible by 7? Part (g): 7833"
@@ -4228,8 +4512,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q08_h",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q08_h",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -4256,7 +4540,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q08_h_q1",
+          "id": "rsexch06ex17q08hq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 7? Part (h): 5233",
             "hindi": "Which of the following numbers are divisible by 7? Part (h): 5233"
@@ -4294,8 +4578,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q09_a",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q09_a",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -4322,7 +4606,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q09_a_q1",
+          "id": "rsexch06ex17q09aq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 8? Part (a): 1372",
             "hindi": "Which of the following numbers are divisible by 8? Part (a): 1372"
@@ -4360,8 +4644,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q09_b",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q09_b",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -4388,7 +4672,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q09_b_q1",
+          "id": "rsexch06ex17q09bq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 8? Part (b): 10568",
             "hindi": "Which of the following numbers are divisible by 8? Part (b): 10568"
@@ -4426,8 +4710,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q09_c",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q09_c",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -4454,7 +4738,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q09_c_q1",
+          "id": "rsexch06ex17q09cq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 8? Part (c): 62156",
             "hindi": "Which of the following numbers are divisible by 8? Part (c): 62156"
@@ -4492,8 +4776,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q09_d",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q09_d",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -4520,7 +4804,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q09_d_q1",
+          "id": "rsexch06ex17q09dq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 8? Part (d): 50432",
             "hindi": "Which of the following numbers are divisible by 8? Part (d): 50432"
@@ -4558,8 +4842,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q09_e",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q09_e",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -4586,7 +4870,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q09_e_q1",
+          "id": "rsexch06ex17q09eq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 8? Part (e): 73152",
             "hindi": "Which of the following numbers are divisible by 8? Part (e): 73152"
@@ -4624,8 +4908,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q09_f",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q09_f",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -4652,7 +4936,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q09_f_q1",
+          "id": "rsexch06ex17q09fq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 8? Part (f): 796504",
             "hindi": "Which of the following numbers are divisible by 8? Part (f): 796504"
@@ -4690,8 +4974,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q09_g",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q09_g",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -4718,7 +5002,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q09_g_q1",
+          "id": "rsexch06ex17q09gq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 8? Part (g): 59238",
             "hindi": "Which of the following numbers are divisible by 8? Part (g): 59238"
@@ -4756,8 +5040,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q09_h",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q09_h",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -4784,7 +5068,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q09_h_q1",
+          "id": "rsexch06ex17q09hq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 8? Part (h): 279136",
             "hindi": "Which of the following numbers are divisible by 8? Part (h): 279136"
@@ -4822,8 +5106,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q10_a",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q10_a",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -4850,7 +5134,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q10_a_q1",
+          "id": "rsexch06ex17q10aq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 9? Part (a): 8316",
             "hindi": "Which of the following numbers are divisible by 9? Part (a): 8316"
@@ -4888,8 +5172,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q10_b",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q10_b",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -4916,7 +5200,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q10_b_q1",
+          "id": "rsexch06ex17q10bq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 9? Part (b): 7509",
             "hindi": "Which of the following numbers are divisible by 9? Part (b): 7509"
@@ -4954,8 +5238,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q10_c",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q10_c",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -4982,7 +5266,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q10_c_q1",
+          "id": "rsexch06ex17q10cq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 9? Part (c): 4186",
             "hindi": "Which of the following numbers are divisible by 9? Part (c): 4186"
@@ -5020,8 +5304,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q10_d",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q10_d",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -5048,7 +5332,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q10_d_q1",
+          "id": "rsexch06ex17q10dq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 9? Part (d): 26901",
             "hindi": "Which of the following numbers are divisible by 9? Part (d): 26901"
@@ -5086,8 +5370,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q10_e",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q10_e",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -5114,7 +5398,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q10_e_q1",
+          "id": "rsexch06ex17q10eq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 9? Part (e): 50553",
             "hindi": "Which of the following numbers are divisible by 9? Part (e): 50553"
@@ -5152,8 +5436,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q10_f",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q10_f",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -5180,7 +5464,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q10_f_q1",
+          "id": "rsexch06ex17q10fq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 9? Part (f): 12501",
             "hindi": "Which of the following numbers are divisible by 9? Part (f): 12501"
@@ -5218,8 +5502,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q10_g",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q10_g",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -5246,7 +5530,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q10_g_q1",
+          "id": "rsexch06ex17q10gq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 9? Part (g): 3499",
             "hindi": "Which of the following numbers are divisible by 9? Part (g): 3499"
@@ -5284,8 +5568,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q10_h",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q10_h",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -5312,7 +5596,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q10_h_q1",
+          "id": "rsexch06ex17q10hq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 9? Part (h): 20367",
             "hindi": "Which of the following numbers are divisible by 9? Part (h): 20367"
@@ -5350,8 +5634,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q11_a",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q11_a",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -5378,7 +5662,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q11_a_q1",
+          "id": "rsexch06ex17q11aq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 10? Part (a): 1155",
             "hindi": "Which of the following numbers are divisible by 10? Part (a): 1155"
@@ -5416,8 +5700,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q11_b",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q11_b",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -5444,7 +5728,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q11_b_q1",
+          "id": "rsexch06ex17q11bq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 10? Part (b): 2960",
             "hindi": "Which of the following numbers are divisible by 10? Part (b): 2960"
@@ -5482,8 +5766,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q11_c",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q11_c",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -5510,7 +5794,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q11_c_q1",
+          "id": "rsexch06ex17q11cq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 10? Part (c): 8740",
             "hindi": "Which of the following numbers are divisible by 10? Part (c): 8740"
@@ -5548,8 +5832,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q11_d",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q11_d",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -5576,7 +5860,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q11_d_q1",
+          "id": "rsexch06ex17q11dq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 10? Part (d): 2068",
             "hindi": "Which of the following numbers are divisible by 10? Part (d): 2068"
@@ -5614,8 +5898,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q12_a",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q12_a",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -5642,7 +5926,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q12_a_q1",
+          "id": "rsexch06ex17q12aq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 11? Part (a): 2101",
             "hindi": "Which of the following numbers are divisible by 11? Part (a): 2101"
@@ -5680,8 +5964,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q12_b",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q12_b",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -5708,7 +5992,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q12_b_q1",
+          "id": "rsexch06ex17q12bq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 11? Part (b): 32571",
             "hindi": "Which of the following numbers are divisible by 11? Part (b): 32571"
@@ -5746,8 +6030,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q12_c",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q12_c",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -5774,7 +6058,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q12_c_q1",
+          "id": "rsexch06ex17q12cq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 11? Part (c): 35064",
             "hindi": "Which of the following numbers are divisible by 11? Part (c): 35064"
@@ -5812,8 +6096,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q12_d",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q12_d",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -5840,7 +6124,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q12_d_q1",
+          "id": "rsexch06ex17q12dq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 11? Part (d): 20833",
             "hindi": "Which of the following numbers are divisible by 11? Part (d): 20833"
@@ -5878,8 +6162,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q12_e",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q12_e",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -5906,7 +6190,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q12_e_q1",
+          "id": "rsexch06ex17q12eq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 11? Part (e): 17622",
             "hindi": "Which of the following numbers are divisible by 11? Part (e): 17622"
@@ -5944,8 +6228,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q12_f",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q12_f",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -5972,7 +6256,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q12_f_q1",
+          "id": "rsexch06ex17q12fq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 11? Part (f): 58564",
             "hindi": "Which of the following numbers are divisible by 11? Part (f): 58564"
@@ -6010,8 +6294,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q12_g",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q12_g",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -6038,7 +6322,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q12_g_q1",
+          "id": "rsexch06ex17q12gq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 11? Part (g): 101011",
             "hindi": "Which of the following numbers are divisible by 11? Part (g): 101011"
@@ -6076,8 +6360,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q12_h",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q12_h",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -6104,7 +6388,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q12_h_q1",
+          "id": "rsexch06ex17q12hq1",
           "prompt": {
             "english": "Which of the following numbers are divisible by 11? Part (h): 202202",
             "hindi": "Which of the following numbers are divisible by 11? Part (h): 202202"
@@ -6142,8 +6426,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q13_a",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q13_a",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -6170,7 +6454,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q13_a_q1",
+          "id": "rsexch06ex17q13aq1",
           "prompt": {
             "english": "Separate even and odd numbers from the following Part (a): 23",
             "hindi": "Separate even and odd numbers from the following Part (a): 23"
@@ -6206,8 +6490,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q13_b",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q13_b",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -6234,7 +6518,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q13_b_q1",
+          "id": "rsexch06ex17q13bq1",
           "prompt": {
             "english": "Separate even and odd numbers from the following Part (b): 36",
             "hindi": "Separate even and odd numbers from the following Part (b): 36"
@@ -6270,8 +6554,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q13_c",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q13_c",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -6298,7 +6582,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q13_c_q1",
+          "id": "rsexch06ex17q13cq1",
           "prompt": {
             "english": "Separate even and odd numbers from the following Part (c): 41",
             "hindi": "Separate even and odd numbers from the following Part (c): 41"
@@ -6334,8 +6618,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q13_d",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q13_d",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -6362,7 +6646,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q13_d_q1",
+          "id": "rsexch06ex17q13dq1",
           "prompt": {
             "english": "Separate even and odd numbers from the following Part (d): 87",
             "hindi": "Separate even and odd numbers from the following Part (d): 87"
@@ -6398,8 +6682,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q13_e",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q13_e",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -6426,7 +6710,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q13_e_q1",
+          "id": "rsexch06ex17q13eq1",
           "prompt": {
             "english": "Separate even and odd numbers from the following Part (e): 60",
             "hindi": "Separate even and odd numbers from the following Part (e): 60"
@@ -6462,8 +6746,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q13_f",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q13_f",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -6490,7 +6774,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q13_f_q1",
+          "id": "rsexch06ex17q13fq1",
           "prompt": {
             "english": "Separate even and odd numbers from the following Part (f): 74",
             "hindi": "Separate even and odd numbers from the following Part (f): 74"
@@ -6526,8 +6810,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q13_g",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q13_g",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -6554,7 +6838,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q13_g_q1",
+          "id": "rsexch06ex17q13gq1",
           "prompt": {
             "english": "Separate even and odd numbers from the following Part (g): 258",
             "hindi": "Separate even and odd numbers from the following Part (g): 258"
@@ -6590,8 +6874,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q13_h",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q13_h",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -6618,7 +6902,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q13_h_q1",
+          "id": "rsexch06ex17q13hq1",
           "prompt": {
             "english": "Separate even and odd numbers from the following Part (h): 605",
             "hindi": "Separate even and odd numbers from the following Part (h): 605"
@@ -6654,8 +6938,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q14_a",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q14_a",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -6682,7 +6966,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q14_a_q1",
+          "id": "rsexch06ex17q14aq1",
           "prompt": {
             "english": "Write all even numbers between Part (a): 73 and 87",
             "hindi": "Write all even numbers between Part (a): 73 and 87"
@@ -6718,8 +7002,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q14_b",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q14_b",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -6746,7 +7030,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q14_b_q1",
+          "id": "rsexch06ex17q14bq1",
           "prompt": {
             "english": "Write all even numbers between Part (b): 519 and 531",
             "hindi": "Write all even numbers between Part (b): 519 and 531"
@@ -6782,8 +7066,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q15_a",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q15_a",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -6810,7 +7094,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q15_a_q1",
+          "id": "rsexch06ex17q15aq1",
           "prompt": {
             "english": "Write all odd numbers between Part (a): 64 and 80",
             "hindi": "Write all odd numbers between Part (a): 64 and 80"
@@ -6846,8 +7130,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex17_q15_b",
-      "sourceLessonId": "rs_exercise_ch06_ex17",
+      "id": "rsexch06ex17q15_b",
+      "sourceLessonId": "rsexercisech06_ex17",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -6874,7 +7158,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex17_q15_b_q1",
+          "id": "rsexch06ex17q15bq1",
           "prompt": {
             "english": "Write all odd numbers between Part (b): 624 and 640",
             "hindi": "Write all odd numbers between Part (b): 624 and 640"
@@ -6910,8 +7194,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q01",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q01",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -6938,7 +7222,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q01_q1",
+          "id": "rsexch06ex18q01_q1",
           "prompt": {
             "english": "Which of the following numbers are prime numbers? 1, 11, 21, 57, 67, 19, 91, 63, 83, 89",
             "hindi": "Which of the following numbers are prime numbers? 1, 11, 21, 57, 67, 19, 91, 63, 83, 89"
@@ -6974,8 +7258,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q02",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q02",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -7002,7 +7286,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q02_q1",
+          "id": "rsexch06ex18q02_q1",
           "prompt": {
             "english": "Which of the following numbers are composite numbers? 1, 79, 97, 51, 61, 87, 81, 78, 93, 47",
             "hindi": "Which of the following numbers are composite numbers? 1, 79, 97, 51, 61, 87, 81, 78, 93, 47"
@@ -7038,8 +7322,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q03",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q03",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -7066,7 +7350,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q03_q1",
+          "id": "rsexch06ex18q03_q1",
           "prompt": {
             "english": "List all prime numbers between 1 and 50",
             "hindi": "List all prime numbers between 1 and 50"
@@ -7102,8 +7386,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q04",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q04",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -7130,7 +7414,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q04_q1",
+          "id": "rsexch06ex18q04_q1",
           "prompt": {
             "english": "List all prime numbers between 51 and 100",
             "hindi": "List all prime numbers between 51 and 100"
@@ -7166,8 +7450,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q05",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q05",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -7194,7 +7478,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q05_q1",
+          "id": "rsexch06ex18q05_q1",
           "prompt": {
             "english": "List all twin-primes between 1 and 50",
             "hindi": "List all twin-primes between 1 and 50"
@@ -7230,8 +7514,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q06",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q06",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -7258,7 +7542,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q06_q1",
+          "id": "rsexch06ex18q06_q1",
           "prompt": {
             "english": "List seven consecutive composite numbers less than 100",
             "hindi": "List seven consecutive composite numbers less than 100"
@@ -7294,8 +7578,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q07",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q07",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -7322,7 +7606,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q07_q1",
+          "id": "rsexch06ex18q07_q1",
           "prompt": {
             "english": "Give four examples of pairs of co-primes",
             "hindi": "Give four examples of pairs of co-primes"
@@ -7358,8 +7642,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q08_a",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q08_a",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -7386,7 +7670,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q08_a_q1",
+          "id": "rsexch06ex18q08aq1",
           "prompt": {
             "english": "Write the prime factorisation of each of the following numbers using division by prime numbers Part (a): 60",
             "hindi": "Write the prime factorisation of each of the following numbers using division by prime numbers Part (a): 60"
@@ -7422,8 +7706,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q08_b",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q08_b",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -7450,7 +7734,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q08_b_q1",
+          "id": "rsexch06ex18q08bq1",
           "prompt": {
             "english": "Write the prime factorisation of each of the following numbers using division by prime numbers Part (b): 84",
             "hindi": "Write the prime factorisation of each of the following numbers using division by prime numbers Part (b): 84"
@@ -7486,8 +7770,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q08_c",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q08_c",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -7514,7 +7798,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q08_c_q1",
+          "id": "rsexch06ex18q08cq1",
           "prompt": {
             "english": "Write the prime factorisation of each of the following numbers using division by prime numbers Part (c): 180",
             "hindi": "Write the prime factorisation of each of the following numbers using division by prime numbers Part (c): 180"
@@ -7550,8 +7834,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q08_d",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q08_d",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -7578,7 +7862,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q08_d_q1",
+          "id": "rsexch06ex18q08dq1",
           "prompt": {
             "english": "Write the prime factorisation of each of the following numbers using division by prime numbers Part (d): 210",
             "hindi": "Write the prime factorisation of each of the following numbers using division by prime numbers Part (d): 210"
@@ -7614,8 +7898,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q08_e",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q08_e",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -7642,7 +7926,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q08_e_q1",
+          "id": "rsexch06ex18q08eq1",
           "prompt": {
             "english": "Write the prime factorisation of each of the following numbers using division by prime numbers Part (e): 728",
             "hindi": "Write the prime factorisation of each of the following numbers using division by prime numbers Part (e): 728"
@@ -7678,8 +7962,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q09_a",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q09_a",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -7706,7 +7990,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q09_a_q1",
+          "id": "rsexch06ex18q09aq1",
           "prompt": {
             "english": "Write the prime factorisation of each of the following numbers using factor tree Part (a): 90",
             "hindi": "Write the prime factorisation of each of the following numbers using factor tree Part (a): 90"
@@ -7742,8 +8026,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q09_b",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q09_b",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -7770,7 +8054,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q09_b_q1",
+          "id": "rsexch06ex18q09bq1",
           "prompt": {
             "english": "Write the prime factorisation of each of the following numbers using factor tree Part (b): 216",
             "hindi": "Write the prime factorisation of each of the following numbers using factor tree Part (b): 216"
@@ -7806,8 +8090,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q09_c",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q09_c",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -7834,7 +8118,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q09_c_q1",
+          "id": "rsexch06ex18q09cq1",
           "prompt": {
             "english": "Write the prime factorisation of each of the following numbers using factor tree Part (c): 300",
             "hindi": "Write the prime factorisation of each of the following numbers using factor tree Part (c): 300"
@@ -7870,8 +8154,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q09_d",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q09_d",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -7898,7 +8182,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q09_d_q1",
+          "id": "rsexch06ex18q09dq1",
           "prompt": {
             "english": "Write the prime factorisation of each of the following numbers using factor tree Part (d): 315",
             "hindi": "Write the prime factorisation of each of the following numbers using factor tree Part (d): 315"
@@ -7934,8 +8218,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q09_e",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q09_e",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -7962,7 +8246,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q09_e_q1",
+          "id": "rsexch06ex18q09eq1",
           "prompt": {
             "english": "Write the prime factorisation of each of the following numbers using factor tree Part (e): 450",
             "hindi": "Write the prime factorisation of each of the following numbers using factor tree Part (e): 450"
@@ -7998,8 +8282,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q10",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q10",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -8026,7 +8310,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q10_q1",
+          "id": "rsexch06ex18q10_q1",
           "prompt": {
             "english": "Give examples of 4 pairs of prime numbers which have only one composite number between them",
             "hindi": "Give examples of 4 pairs of prime numbers which have only one composite number between them"
@@ -8062,8 +8346,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q11_a",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q11_a",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -8090,7 +8374,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q11_a_q1",
+          "id": "rsexch06ex18q11aq1",
           "prompt": {
             "english": "Fill in the blanks Part (a): is a factor of every number",
             "hindi": "Fill in the blanks Part (a): is a factor of every number"
@@ -8126,8 +8410,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q11_b",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q11_b",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -8154,7 +8438,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q11_b_q1",
+          "id": "rsexch06ex18q11bq1",
           "prompt": {
             "english": "Fill in the blanks Part (b): The least prime number is",
             "hindi": "Fill in the blanks Part (b): The least prime number is"
@@ -8190,8 +8474,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q11_c",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q11_c",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -8218,7 +8502,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q11_c_q1",
+          "id": "rsexch06ex18q11cq1",
           "prompt": {
             "english": "Fill in the blanks Part (c): The smallest composite number is",
             "hindi": "Fill in the blanks Part (c): The smallest composite number is"
@@ -8254,8 +8538,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q11_d",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q11_d",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -8282,7 +8566,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q11_d_q1",
+          "id": "rsexch06ex18q11dq1",
           "prompt": {
             "english": "Fill in the blanks Part (d): Each prime number has exactly..................... factors",
             "hindi": "Fill in the blanks Part (d): Each prime number has exactly..................... factors"
@@ -8318,8 +8602,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q11_e",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q11_e",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -8346,7 +8630,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q11_e_q1",
+          "id": "rsexch06ex18q11eq1",
           "prompt": {
             "english": "Fill in the blanks Part (e): is neither prime nor composite",
             "hindi": "Fill in the blanks Part (e): is neither prime nor composite"
@@ -8382,8 +8666,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q11_f",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q11_f",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -8410,7 +8694,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q11_f_q1",
+          "id": "rsexch06ex18q11fq1",
           "prompt": {
             "english": "Fill in the blanks Part (f): is the only even prime number",
             "hindi": "Fill in the blanks Part (f): is the only even prime number"
@@ -8446,8 +8730,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex18_q11_g",
-      "sourceLessonId": "rs_exercise_ch06_ex18",
+      "id": "rsexch06ex18q11_g",
+      "sourceLessonId": "rsexercisech06_ex18",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -8474,7 +8758,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex18_q11_g_q1",
+          "id": "rsexch06ex18q11gq1",
           "prompt": {
             "english": "Fill in the blanks Part (g): The largest 2-digit prime number is",
             "hindi": "Fill in the blanks Part (g): The largest 2-digit prime number is"
@@ -8510,8 +8794,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q01_a",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q01_a",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -8538,7 +8822,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q01_a_q1",
+          "id": "rsexch06ex19q01aq1",
           "prompt": {
             "english": "Find the HCF of Part (a): 16 and 24",
             "hindi": "Find the HCF of Part (a): 16 and 24"
@@ -8574,8 +8858,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q01_b",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q01_b",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -8602,7 +8886,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q01_b_q1",
+          "id": "rsexch06ex19q01bq1",
           "prompt": {
             "english": "Find the HCF of Part (b): 18 and 27",
             "hindi": "Find the HCF of Part (b): 18 and 27"
@@ -8638,8 +8922,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q01_c",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q01_c",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -8666,7 +8950,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q01_c_q1",
+          "id": "rsexch06ex19q01cq1",
           "prompt": {
             "english": "Find the HCF of Part (c): 32 and 40",
             "hindi": "Find the HCF of Part (c): 32 and 40"
@@ -8702,8 +8986,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q01_d",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q01_d",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -8730,7 +9014,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q01_d_q1",
+          "id": "rsexch06ex19q01dq1",
           "prompt": {
             "english": "Find the HCF of Part (d): 8, 20 and 32",
             "hindi": "Find the HCF of Part (d): 8, 20 and 32"
@@ -8766,8 +9050,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q01_e",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q01_e",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -8794,7 +9078,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q01_e_q1",
+          "id": "rsexch06ex19q01eq1",
           "prompt": {
             "english": "Find the HCF of Part (e): 14, 28 and 35",
             "hindi": "Find the HCF of Part (e): 14, 28 and 35"
@@ -8830,8 +9114,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q01_f",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q01_f",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -8858,7 +9142,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q01_f_q1",
+          "id": "rsexch06ex19q01fq1",
           "prompt": {
             "english": "Find the HCF of Part (f): 16, 20 and 36",
             "hindi": "Find the HCF of Part (f): 16, 20 and 36"
@@ -8894,8 +9178,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q02_a",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q02_a",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -8922,7 +9206,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q02_a_q1",
+          "id": "rsexch06ex19q02aq1",
           "prompt": {
             "english": "Find the HCF of the following pair of numbers by prime factorisation Part (a): 45 and 60",
             "hindi": "Find the HCF of the following pair of numbers by prime factorisation Part (a): 45 and 60"
@@ -8958,8 +9242,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q02_b",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q02_b",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -8986,7 +9270,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q02_b_q1",
+          "id": "rsexch06ex19q02bq1",
           "prompt": {
             "english": "Find the HCF of the following pair of numbers by prime factorisation Part (b): 36 and 54",
             "hindi": "Find the HCF of the following pair of numbers by prime factorisation Part (b): 36 and 54"
@@ -9022,8 +9306,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q02_c",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q02_c",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -9050,7 +9334,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q02_c_q1",
+          "id": "rsexch06ex19q02cq1",
           "prompt": {
             "english": "Find the HCF of the following pair of numbers by prime factorisation Part (c): 48 and 60",
             "hindi": "Find the HCF of the following pair of numbers by prime factorisation Part (c): 48 and 60"
@@ -9086,8 +9370,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q02_d",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q02_d",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -9114,7 +9398,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q02_d_q1",
+          "id": "rsexch06ex19q02dq1",
           "prompt": {
             "english": "Find the HCF of the following pair of numbers by prime factorisation Part (d): 75 and 90",
             "hindi": "Find the HCF of the following pair of numbers by prime factorisation Part (d): 75 and 90"
@@ -9150,8 +9434,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q02_e",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q02_e",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -9178,7 +9462,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q02_e_q1",
+          "id": "rsexch06ex19q02eq1",
           "prompt": {
             "english": "Find the HCF of the following pair of numbers by prime factorisation Part (e): 52 and 78",
             "hindi": "Find the HCF of the following pair of numbers by prime factorisation Part (e): 52 and 78"
@@ -9214,8 +9498,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q02_f",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q02_f",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -9242,7 +9526,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q02_f_q1",
+          "id": "rsexch06ex19q02fq1",
           "prompt": {
             "english": "Find the HCF of the following pair of numbers by prime factorisation Part (f): 72 and 108",
             "hindi": "Find the HCF of the following pair of numbers by prime factorisation Part (f): 72 and 108"
@@ -9278,8 +9562,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q02_g",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q02_g",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -9306,7 +9590,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q02_g_q1",
+          "id": "rsexch06ex19q02gq1",
           "prompt": {
             "english": "Find the HCF of the following pair of numbers by prime factorisation Part (g): 42 and 112",
             "hindi": "Find the HCF of the following pair of numbers by prime factorisation Part (g): 42 and 112"
@@ -9342,8 +9626,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q02_h",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q02_h",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -9370,7 +9654,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q02_h_q1",
+          "id": "rsexch06ex19q02hq1",
           "prompt": {
             "english": "Find the HCF of the following pair of numbers by prime factorisation Part (h): 54 and 114",
             "hindi": "Find the HCF of the following pair of numbers by prime factorisation Part (h): 54 and 114"
@@ -9406,8 +9690,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q02_i",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q02_i",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -9434,7 +9718,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q02_i_q1",
+          "id": "rsexch06ex19q02iq1",
           "prompt": {
             "english": "Find the HCF of the following pair of numbers by prime factorisation Part (i): 168 and 216",
             "hindi": "Find the HCF of the following pair of numbers by prime factorisation Part (i): 168 and 216"
@@ -9470,8 +9754,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q03_a",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q03_a",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -9498,7 +9782,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q03_a_q1",
+          "id": "rsexch06ex19q03aq1",
           "prompt": {
             "english": "Find the HCF of the following numbers, using prime factorisation Part (a): 24, 40 and 56",
             "hindi": "Find the HCF of the following numbers, using prime factorisation Part (a): 24, 40 and 56"
@@ -9534,8 +9818,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q03_b",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q03_b",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -9562,7 +9846,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q03_b_q1",
+          "id": "rsexch06ex19q03bq1",
           "prompt": {
             "english": "Find the HCF of the following numbers, using prime factorisation Part (b): 36, 48 and 72",
             "hindi": "Find the HCF of the following numbers, using prime factorisation Part (b): 36, 48 and 72"
@@ -9598,8 +9882,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q03_c",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q03_c",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -9626,7 +9910,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q03_c_q1",
+          "id": "rsexch06ex19q03cq1",
           "prompt": {
             "english": "Find the HCF of the following numbers, using prime factorisation Part (c): 42, 63 and 105",
             "hindi": "Find the HCF of the following numbers, using prime factorisation Part (c): 42, 63 and 105"
@@ -9662,8 +9946,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q03_d",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q03_d",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -9690,7 +9974,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q03_d_q1",
+          "id": "rsexch06ex19q03dq1",
           "prompt": {
             "english": "Find the HCF of the following numbers, using prime factorisation Part (d): 112, 140 and 168",
             "hindi": "Find the HCF of the following numbers, using prime factorisation Part (d): 112, 140 and 168"
@@ -9726,8 +10010,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q03_e",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q03_e",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -9754,7 +10038,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q03_e_q1",
+          "id": "rsexch06ex19q03eq1",
           "prompt": {
             "english": "Find the HCF of the following numbers, using prime factorisation Part (e): 144, 180 and 252",
             "hindi": "Find the HCF of the following numbers, using prime factorisation Part (e): 144, 180 and 252"
@@ -9790,8 +10074,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q03_f",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q03_f",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -9818,7 +10102,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q03_f_q1",
+          "id": "rsexch06ex19q03fq1",
           "prompt": {
             "english": "Find the HCF of the following numbers, using prime factorisation Part (f): 91, 49 and 112",
             "hindi": "Find the HCF of the following numbers, using prime factorisation Part (f): 91, 49 and 112"
@@ -9854,8 +10138,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q04_a",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q04_a",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -9882,7 +10166,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q04_a_q1",
+          "id": "rsexch06ex19q04aq1",
           "prompt": {
             "english": "Find the HCF of the following numbers by common division method Part (a): 24 and 80",
             "hindi": "Find the HCF of the following numbers by common division method Part (a): 24 and 80"
@@ -9918,8 +10202,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q04_b",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q04_b",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -9946,7 +10230,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q04_b_q1",
+          "id": "rsexch06ex19q04bq1",
           "prompt": {
             "english": "Find the HCF of the following numbers by common division method Part (b): 18 and 48",
             "hindi": "Find the HCF of the following numbers by common division method Part (b): 18 and 48"
@@ -9982,8 +10266,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q04_c",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q04_c",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -10010,7 +10294,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q04_c_q1",
+          "id": "rsexch06ex19q04cq1",
           "prompt": {
             "english": "Find the HCF of the following numbers by common division method Part (c): 165 and 220",
             "hindi": "Find the HCF of the following numbers by common division method Part (c): 165 and 220"
@@ -10046,8 +10330,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q04_d",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q04_d",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -10074,7 +10358,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q04_d_q1",
+          "id": "rsexch06ex19q04dq1",
           "prompt": {
             "english": "Find the HCF of the following numbers by common division method Part (d): 48, 80 and 96",
             "hindi": "Find the HCF of the following numbers by common division method Part (d): 48, 80 and 96"
@@ -10110,8 +10394,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q04_e",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q04_e",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -10138,7 +10422,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q04_e_q1",
+          "id": "rsexch06ex19q04eq1",
           "prompt": {
             "english": "Find the HCF of the following numbers by common division method Part (e): 42, 70 and 112",
             "hindi": "Find the HCF of the following numbers by common division method Part (e): 42, 70 and 112"
@@ -10174,8 +10458,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q04_f",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q04_f",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -10202,7 +10486,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q04_f_q1",
+          "id": "rsexch06ex19q04fq1",
           "prompt": {
             "english": "Find the HCF of the following numbers by common division method Part (f): 144, 180 and 192",
             "hindi": "Find the HCF of the following numbers by common division method Part (f): 144, 180 and 192"
@@ -10238,8 +10522,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q05_a",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q05_a",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -10266,7 +10550,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q05_a_q1",
+          "id": "rsexch06ex19q05aq1",
           "prompt": {
             "english": "Find the HCF of the following numbers, using division method Part (a): 96 and 120",
             "hindi": "Find the HCF of the following numbers, using division method Part (a): 96 and 120"
@@ -10302,8 +10586,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q05_b",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q05_b",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -10330,7 +10614,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q05_b_q1",
+          "id": "rsexch06ex19q05bq1",
           "prompt": {
             "english": "Find the HCF of the following numbers, using division method Part (b): 81 and 108",
             "hindi": "Find the HCF of the following numbers, using division method Part (b): 81 and 108"
@@ -10366,8 +10650,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q05_c",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q05_c",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -10394,7 +10678,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q05_c_q1",
+          "id": "rsexch06ex19q05cq1",
           "prompt": {
             "english": "Find the HCF of the following numbers, using division method Part (c): 144 and 312",
             "hindi": "Find the HCF of the following numbers, using division method Part (c): 144 and 312"
@@ -10430,8 +10714,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q05_d",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q05_d",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -10458,7 +10742,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q05_d_q1",
+          "id": "rsexch06ex19q05dq1",
           "prompt": {
             "english": "Find the HCF of the following numbers, using division method Part (d): 252 and 576",
             "hindi": "Find the HCF of the following numbers, using division method Part (d): 252 and 576"
@@ -10494,8 +10778,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q05_e",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q05_e",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -10522,7 +10806,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q05_e_q1",
+          "id": "rsexch06ex19q05eq1",
           "prompt": {
             "english": "Find the HCF of the following numbers, using division method Part (e): 575 and 920",
             "hindi": "Find the HCF of the following numbers, using division method Part (e): 575 and 920"
@@ -10558,8 +10842,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q05_f",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q05_f",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -10586,7 +10870,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q05_f_q1",
+          "id": "rsexch06ex19q05fq1",
           "prompt": {
             "english": "Find the HCF of the following numbers, using division method Part (f): 605 and 935",
             "hindi": "Find the HCF of the following numbers, using division method Part (f): 605 and 935"
@@ -10622,8 +10906,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q06_a",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q06_a",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -10650,7 +10934,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q06_a_q1",
+          "id": "rsexch06ex19q06aq1",
           "prompt": {
             "english": "Find the HCF of the following numbers, using division method Part (a): 60, 96 and 150",
             "hindi": "Find the HCF of the following numbers, using division method Part (a): 60, 96 and 150"
@@ -10686,8 +10970,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q06_b",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q06_b",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -10714,7 +10998,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q06_b_q1",
+          "id": "rsexch06ex19q06bq1",
           "prompt": {
             "english": "Find the HCF of the following numbers, using division method Part (b): 75, 100 and 140",
             "hindi": "Find the HCF of the following numbers, using division method Part (b): 75, 100 and 140"
@@ -10750,8 +11034,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q06_c",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q06_c",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -10778,7 +11062,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q06_c_q1",
+          "id": "rsexch06ex19q06cq1",
           "prompt": {
             "english": "Find the HCF of the following numbers, using division method Part (c): 270, 945 and 2175",
             "hindi": "Find the HCF of the following numbers, using division method Part (c): 270, 945 and 2175"
@@ -10814,8 +11098,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex19_q06_d",
-      "sourceLessonId": "rs_exercise_ch06_ex19",
+      "id": "rsexch06ex19q06_d",
+      "sourceLessonId": "rsexercisech06_ex19",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -10842,7 +11126,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex19_q06_d_q1",
+          "id": "rsexch06ex19q06dq1",
           "prompt": {
             "english": "Find the HCF of the following numbers, using division method Part (d): 902, 1394 and 3321",
             "hindi": "Find the HCF of the following numbers, using division method Part (d): 902, 1394 and 3321"
@@ -10878,8 +11162,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex20_q01_a",
-      "sourceLessonId": "rs_exercise_ch06_ex20",
+      "id": "rsexch06ex20q01_a",
+      "sourceLessonId": "rsexercisech06_ex20",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -10906,7 +11190,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex20_q01_a_q1",
+          "id": "rsexch06ex20q01aq1",
           "prompt": {
             "english": "Find the LCM of the given numbers using prime factorisation method Part (a): 18, 24",
             "hindi": "Find the LCM of the given numbers using prime factorisation method Part (a): 18, 24"
@@ -10942,8 +11226,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex20_q01_b",
-      "sourceLessonId": "rs_exercise_ch06_ex20",
+      "id": "rsexch06ex20q01_b",
+      "sourceLessonId": "rsexercisech06_ex20",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -10970,7 +11254,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex20_q01_b_q1",
+          "id": "rsexch06ex20q01bq1",
           "prompt": {
             "english": "Find the LCM of the given numbers using prime factorisation method Part (b): 36, 45",
             "hindi": "Find the LCM of the given numbers using prime factorisation method Part (b): 36, 45"
@@ -11006,8 +11290,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex20_q01_c",
-      "sourceLessonId": "rs_exercise_ch06_ex20",
+      "id": "rsexch06ex20q01_c",
+      "sourceLessonId": "rsexercisech06_ex20",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -11034,7 +11318,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex20_q01_c_q1",
+          "id": "rsexch06ex20q01cq1",
           "prompt": {
             "english": "Find the LCM of the given numbers using prime factorisation method Part (c): 63, 105",
             "hindi": "Find the LCM of the given numbers using prime factorisation method Part (c): 63, 105"
@@ -11070,8 +11354,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex20_q01_d",
-      "sourceLessonId": "rs_exercise_ch06_ex20",
+      "id": "rsexch06ex20q01_d",
+      "sourceLessonId": "rsexercisech06_ex20",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -11098,7 +11382,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex20_q01_d_q1",
+          "id": "rsexch06ex20q01dq1",
           "prompt": {
             "english": "Find the LCM of the given numbers using prime factorisation method Part (d): 28, 56, 84",
             "hindi": "Find the LCM of the given numbers using prime factorisation method Part (d): 28, 56, 84"
@@ -11134,8 +11418,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex20_q01_e",
-      "sourceLessonId": "rs_exercise_ch06_ex20",
+      "id": "rsexch06ex20q01_e",
+      "sourceLessonId": "rsexercisech06_ex20",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -11162,7 +11446,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex20_q01_e_q1",
+          "id": "rsexch06ex20q01eq1",
           "prompt": {
             "english": "Find the LCM of the given numbers using prime factorisation method Part (e): 36, 54, 81",
             "hindi": "Find the LCM of the given numbers using prime factorisation method Part (e): 36, 54, 81"
@@ -11198,8 +11482,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex20_q01_f",
-      "sourceLessonId": "rs_exercise_ch06_ex20",
+      "id": "rsexch06ex20q01_f",
+      "sourceLessonId": "rsexercisech06_ex20",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -11226,7 +11510,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex20_q01_f_q1",
+          "id": "rsexch06ex20q01fq1",
           "prompt": {
             "english": "Find the LCM of the given numbers using prime factorisation method Part (f): 27, 54, 90",
             "hindi": "Find the LCM of the given numbers using prime factorisation method Part (f): 27, 54, 90"
@@ -11262,8 +11546,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex20_q02_a",
-      "sourceLessonId": "rs_exercise_ch06_ex20",
+      "id": "rsexch06ex20q02_a",
+      "sourceLessonId": "rsexercisech06_ex20",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -11290,7 +11574,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex20_q02_a_q1",
+          "id": "rsexch06ex20q02aq1",
           "prompt": {
             "english": "Find the LCM of the given numbers using short division method Part (a): 25, 30",
             "hindi": "Find the LCM of the given numbers using short division method Part (a): 25, 30"
@@ -11326,8 +11610,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex20_q02_b",
-      "sourceLessonId": "rs_exercise_ch06_ex20",
+      "id": "rsexch06ex20q02_b",
+      "sourceLessonId": "rsexercisech06_ex20",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -11354,7 +11638,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex20_q02_b_q1",
+          "id": "rsexch06ex20q02bq1",
           "prompt": {
             "english": "Find the LCM of the given numbers using short division method Part (b): 32, 48",
             "hindi": "Find the LCM of the given numbers using short division method Part (b): 32, 48"
@@ -11390,8 +11674,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex20_q02_c",
-      "sourceLessonId": "rs_exercise_ch06_ex20",
+      "id": "rsexch06ex20q02_c",
+      "sourceLessonId": "rsexercisech06_ex20",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -11418,7 +11702,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex20_q02_c_q1",
+          "id": "rsexch06ex20q02cq1",
           "prompt": {
             "english": "Find the LCM of the given numbers using short division method Part (c): 42, 70",
             "hindi": "Find the LCM of the given numbers using short division method Part (c): 42, 70"
@@ -11454,8 +11738,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex20_q02_d",
-      "sourceLessonId": "rs_exercise_ch06_ex20",
+      "id": "rsexch06ex20q02_d",
+      "sourceLessonId": "rsexercisech06_ex20",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -11482,7 +11766,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex20_q02_d_q1",
+          "id": "rsexch06ex20q02dq1",
           "prompt": {
             "english": "Find the LCM of the given numbers using short division method Part (d): 28, 42, 56",
             "hindi": "Find the LCM of the given numbers using short division method Part (d): 28, 42, 56"
@@ -11518,8 +11802,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex20_q02_e",
-      "sourceLessonId": "rs_exercise_ch06_ex20",
+      "id": "rsexch06ex20q02_e",
+      "sourceLessonId": "rsexercisech06_ex20",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -11546,7 +11830,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex20_q02_e_q1",
+          "id": "rsexch06ex20q02eq1",
           "prompt": {
             "english": "Find the LCM of the given numbers using short division method Part (e): 75, 100, 150",
             "hindi": "Find the LCM of the given numbers using short division method Part (e): 75, 100, 150"
@@ -11582,8 +11866,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex20_q02_f",
-      "sourceLessonId": "rs_exercise_ch06_ex20",
+      "id": "rsexch06ex20q02_f",
+      "sourceLessonId": "rsexercisech06_ex20",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -11610,7 +11894,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex20_q02_f_q1",
+          "id": "rsexch06ex20q02fq1",
           "prompt": {
             "english": "Find the LCM of the given numbers using short division method Part (f): 96, 144, 192",
             "hindi": "Find the LCM of the given numbers using short division method Part (f): 96, 144, 192"
@@ -11646,8 +11930,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex20_q02_g",
-      "sourceLessonId": "rs_exercise_ch06_ex20",
+      "id": "rsexch06ex20q02_g",
+      "sourceLessonId": "rsexercisech06_ex20",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -11674,7 +11958,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex20_q02_g_q1",
+          "id": "rsexch06ex20q02gq1",
           "prompt": {
             "english": "Find the LCM of the given numbers using short division method Part (g): 90, 135, 180",
             "hindi": "Find the LCM of the given numbers using short division method Part (g): 90, 135, 180"
@@ -11710,8 +11994,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex20_q02_h",
-      "sourceLessonId": "rs_exercise_ch06_ex20",
+      "id": "rsexch06ex20q02_h",
+      "sourceLessonId": "rsexercisech06_ex20",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -11738,7 +12022,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex20_q02_h_q1",
+          "id": "rsexch06ex20q02hq1",
           "prompt": {
             "english": "Find the LCM of the given numbers using short division method Part (h): 102, 136, 170",
             "hindi": "Find the LCM of the given numbers using short division method Part (h): 102, 136, 170"
@@ -11774,8 +12058,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex20_q02_i",
-      "sourceLessonId": "rs_exercise_ch06_ex20",
+      "id": "rsexch06ex20q02_i",
+      "sourceLessonId": "rsexercisech06_ex20",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -11802,7 +12086,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex20_q02_i_q1",
+          "id": "rsexch06ex20q02iq1",
           "prompt": {
             "english": "Find the LCM of the given numbers using short division method Part (i): 64, 72, 96, 108 Some Facts about HCF and LCM",
             "hindi": "Find the LCM of the given numbers using short division method Part (i): 64, 72, 96, 108 Some Facts about HCF and LCM"
@@ -11838,8 +12122,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex21_q01_a",
-      "sourceLessonId": "rs_exercise_ch06_ex21",
+      "id": "rsexch06ex21q01_a",
+      "sourceLessonId": "rsexercisech06_ex21",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -11866,7 +12150,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex21_q01_a_q1",
+          "id": "rsexch06ex21q01aq1",
           "prompt": {
             "english": "Find the HCF and LCM of Part (a): 87 and 145",
             "hindi": "Find the HCF and LCM of Part (a): 87 and 145"
@@ -11902,8 +12186,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex21_q01_b",
-      "sourceLessonId": "rs_exercise_ch06_ex21",
+      "id": "rsexch06ex21q01_b",
+      "sourceLessonId": "rsexercisech06_ex21",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -11930,7 +12214,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex21_q01_b_q1",
+          "id": "rsexch06ex21q01bq1",
           "prompt": {
             "english": "Find the HCF and LCM of Part (b): 161 and 207",
             "hindi": "Find the HCF and LCM of Part (b): 161 and 207"
@@ -11966,8 +12250,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex21_q01_c",
-      "sourceLessonId": "rs_exercise_ch06_ex21",
+      "id": "rsexch06ex21q01_c",
+      "sourceLessonId": "rsexercisech06_ex21",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -11994,7 +12278,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex21_q01_c_q1",
+          "id": "rsexch06ex21q01cq1",
           "prompt": {
             "english": "Find the HCF and LCM of Part (c): 270 and 450",
             "hindi": "Find the HCF and LCM of Part (c): 270 and 450"
@@ -12030,8 +12314,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex21_q02",
-      "sourceLessonId": "rs_exercise_ch06_ex21",
+      "id": "rsexch06ex21q02",
+      "sourceLessonId": "rsexercisech06_ex21",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -12058,7 +12342,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex21_q02_q1",
+          "id": "rsexch06ex21q02_q1",
           "prompt": {
             "english": "measure the content of each drum an exact number of times: A number which has more than two factors is called a composite number",
             "hindi": "measure the content of each drum an exact number of times: A number which has more than two factors is called a composite number"
@@ -12094,8 +12378,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex21_q03",
-      "sourceLessonId": "rs_exercise_ch06_ex21",
+      "id": "rsexch06ex21q03",
+      "sourceLessonId": "rsexercisech06_ex21",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -12122,7 +12406,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex21_q03_q1",
+          "id": "rsexch06ex21q03_q1",
           "prompt": {
             "english": "measure the content of each drum an exact number of times: 1 is neither a prime nor a composite number",
             "hindi": "measure the content of each drum an exact number of times: 1 is neither a prime nor a composite number"
@@ -12158,8 +12442,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex21_q04",
-      "sourceLessonId": "rs_exercise_ch06_ex21",
+      "id": "rsexch06ex21q04",
+      "sourceLessonId": "rsexercisech06_ex21",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -12186,7 +12470,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex21_q04_q1",
+          "id": "rsexch06ex21q04_q1",
           "prompt": {
             "english": "find the other. 96 144 1 –96 48 96 2 –96 0 2 6, 7, 8, 12 2 3, 7, 4, 6 3 3, 7, 2, 3 1, 7, 2, 1: The product of two numbers is 2925 and their HCF is 15. Find the LCM of these numbers",
             "hindi": "find the other. 96 144 1 –96 48 96 2 –96 0 2 6, 7, 8, 12 2 3, 7, 4, 6 3 3, 7, 2, 3 1, 7, 2, 1: The product of two numbers is 2925 and their HCF is 15. Find the LCM of these numbers"
@@ -12222,8 +12506,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex21_q05",
-      "sourceLessonId": "rs_exercise_ch06_ex21",
+      "id": "rsexch06ex21q05",
+      "sourceLessonId": "rsexercisech06_ex21",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -12250,7 +12534,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex21_q05_q1",
+          "id": "rsexch06ex21q05_q1",
           "prompt": {
             "english": "find the other. 96 144 1 –96 48 96 2 –96 0 2 6, 7, 8, 12 2 3, 7, 4, 6 3 3, 7, 2, 3 1, 7, 2, 1: The product of two numbers is 3750 and their LCM is 150. Find the HCF of these numbers",
             "hindi": "find the other. 96 144 1 –96 48 96 2 –96 0 2 6, 7, 8, 12 2 3, 7, 4, 6 3 3, 7, 2, 3 1, 7, 2, 1: The product of two numbers is 3750 and their LCM is 150. Find the HCF of these numbers"
@@ -12286,8 +12570,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex21_q06",
-      "sourceLessonId": "rs_exercise_ch06_ex21",
+      "id": "rsexch06ex21q06",
+      "sourceLessonId": "rsexercisech06_ex21",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -12314,7 +12598,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex21_q06_q1",
+          "id": "rsexch06ex21q06_q1",
           "prompt": {
             "english": "Find the largest number which divides 209 and 260 leaving remainder 5 in each case",
             "hindi": "Find the largest number which divides 209 and 260 leaving remainder 5 in each case"
@@ -12350,8 +12634,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex21_q07",
-      "sourceLessonId": "rs_exercise_ch06_ex21",
+      "id": "rsexch06ex21q07",
+      "sourceLessonId": "rsexercisech06_ex21",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -12378,7 +12662,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex21_q07_q1",
+          "id": "rsexch06ex21q07_q1",
           "prompt": {
             "english": "Two ropes of lengths 16 m and 24 m are to be cut into small pieces of equal lengths. What will be the maximum length of each piece?",
             "hindi": "Two ropes of lengths 16 m and 24 m are to be cut into small pieces of equal lengths. What will be the maximum length of each piece?"
@@ -12415,8 +12699,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex21_q08",
-      "sourceLessonId": "rs_exercise_ch06_ex21",
+      "id": "rsexch06ex21q08",
+      "sourceLessonId": "rsexercisech06_ex21",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -12443,7 +12727,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex21_q08_q1",
+          "id": "rsexch06ex21q08_q1",
           "prompt": {
             "english": "Three drums contain respectively 36 litres, 45 litres and 72 litres of oil. Find the capacity of the largest container which can",
             "hindi": "Three drums contain respectively 36 litres, 45 litres and 72 litres of oil. Find the capacity of the largest container which can"
@@ -12480,8 +12764,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex21_q09",
-      "sourceLessonId": "rs_exercise_ch06_ex21",
+      "id": "rsexch06ex21q09",
+      "sourceLessonId": "rsexercisech06_ex21",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -12508,7 +12792,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex21_q09_q1",
+          "id": "rsexch06ex21q09_q1",
           "prompt": {
             "english": "Find the least number which is exactly divisible by each one of the numbers 12, 16 and 24",
             "hindi": "Find the least number which is exactly divisible by each one of the numbers 12, 16 and 24"
@@ -12544,8 +12828,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex21_q10",
-      "sourceLessonId": "rs_exercise_ch06_ex21",
+      "id": "rsexch06ex21q10",
+      "sourceLessonId": "rsexercisech06_ex21",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -12572,7 +12856,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex21_q10_q1",
+          "id": "rsexch06ex21q10_q1",
           "prompt": {
             "english": "Find the least number of stones so that heaps of 15, 20 and 30 stones can be made. 11.. Six bells commence tolling together and toll at intervals of 2, 4, 6, 8, 10 and 12 seconds respectively. After how much time will they toll together again?",
             "hindi": "Find the least number of stones so that heaps of 15, 20 and 30 stones can be made. 11.. Six bells commence tolling together and toll at intervals of 2, 4, 6, 8, 10 and 12 seconds respectively. After how much time will they toll together again?"
@@ -12608,8 +12892,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch06_ex21_q11",
-      "sourceLessonId": "rs_exercise_ch06_ex21",
+      "id": "rsexch06ex21q11",
+      "sourceLessonId": "rsexercisech06_ex21",
       "chapterNumber": 6,
       "chapterTitle": {
         "english": "Factors and Multiples",
@@ -12636,7 +12920,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch06_ex21_q11_q1",
+          "id": "rsexch06ex21q11_q1",
           "prompt": {
             "english": "Six bells commence tolling together and toll at intervals of 2, 4, 6, 8, 10 and 12 seconds respectively. After how much time will they toll together again?",
             "hindi": "Six bells commence tolling together and toll at intervals of 2, 4, 6, 8, 10 and 12 seconds respectively. After how much time will they toll together again?"

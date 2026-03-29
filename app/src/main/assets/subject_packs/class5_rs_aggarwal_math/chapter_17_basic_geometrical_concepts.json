@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch17_plane_and_point",
+      "id": "rsch17planeandpoint",
       "sourceLessonId": "rs_ch17",
       "chapterNumber": 17,
       "chapterTitle": {
@@ -29,12 +29,22 @@
         "english": "Plane and Point",
         "hindi": "तल और बिंदु"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Plane:** A plane is a flat, smooth surface that extends endlessly in all directions. Think of a very large, flat table top that goes on forever. A blackboard, the floor, or a piece of paper are all examples of parts of a plane.\n\n**Point:** A point is an exact location in a plane. It has **no length, no breadth, and no thickness**. We mark a point with a dot and name it with a capital letter (like point A, point B).\n\n**Example:** The corner of your notebook is like a point. The surface of your notebook is like part of a plane.",
+          "hindi": "**Plane:** A plane is a flat, smooth surface that extends endlessly in all directions. Think of a very large, flat table top that goes on forever. A blackboard, the floor, or a piece of paper are all examples of parts of a plane.\n\n**Point:** A point is an exact location in a plane. It has **no length, no breadth, and no thickness**. We mark a point with a dot and name it with a capital letter (like point A, point B).\n\n**Example:** The corner of your notebook is like a point. The surface of your notebook is like part of a plane."
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** The corner of your notebook is like a point. The surface of your notebook is like part of a plane.",
+          "hindi": "**Example:** The corner of your notebook is like a point. The surface of your notebook is like part of a plane."
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "plane_and_point_q1",
+          "id": "planeandpoint_q1",
           "prompt": {
             "english": "Which statement is correct about a point?",
             "hindi": "बिंदु के बारे में कौन-सा कथन सही है?"
@@ -61,11 +71,29 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Correct Answer: (a) It has no length, breadth or thickness.**\n\nA point is simply a location. It is so tiny that it has no measurable size in any direction. It cannot have end-points (that's a line segment), it cannot go endlessly (that's a line), and it never forms a triangle by itself.",
+            "hindi": "**Correct Answer: (a) It has no length, breadth or thickness.**\n\nA point is simply a location. It is so tiny that it has no measurable size in any direction. It cannot have end-points (that's a line segment), it cannot go endlessly (that's a line), and it never forms a triangle by itself."
+          },
+          "supportExample": {
+            "english": "**Correct Answer: (a) It has no length, breadth or thickness.**\nA point is simply a location. It is so tiny that it has no measurable size in any direction. It cannot have end-points (that's a line segment), it cannot go endlessly (that's a line), and it never forms a triangle by itself.",
+            "hindi": "**Correct Answer: (a) It has no length, breadth or thickness.**\nA point is simply a location. It is so tiny that it has no measurable size in any direction. It cannot have end-points (that's a line segment), it cannot go endlessly (that's a line), and it never forms a triangle by itself."
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Correct Answer: (a) It has no length, breadth or thickness.**",
+              "hindi": "**Correct Answer: (a) It has no length, breadth or thickness.**"
+            },
+            {
+              "english": "A point is simply a location. It is so tiny that it has no measurable size in any direction. It cannot have end-points (that's a line segment), it cannot go endlessly (that's a line), and it never forms a triangle by itself.",
+              "hindi": "A point is simply a location. It is so tiny that it has no measurable size in any direction. It cannot have end-points (that's a line segment), it cannot go endlessly (that's a line), and it never forms a triangle by itself."
+            }
+          ]
         }
       ],
       "tags": [
@@ -81,7 +109,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch17_line_segment",
+      "id": "rsch17line_segment",
       "sourceLessonId": "rs_ch17",
       "chapterNumber": 17,
       "chapterTitle": {
@@ -104,12 +132,22 @@
         "english": "Line Segment",
         "hindi": "रेखाखंड"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "A **line segment** is a straight path between two points. It has a definite start and a definite end — two **end-points**.\n\n**Example:** Draw two dots on paper (call them A and B) and connect them with a ruler. The path you drew is line segment AB (written as AB with a line over it).\n\nA line segment has a **fixed, measurable length**.\n\n**Real life example:** The edge of your ruler, the side of a triangle drawn on paper — these are line segments.",
+          "hindi": "A **line segment** is a straight path between two points. It has a definite start and a definite end — two **end-points**.\n\n**Example:** Draw two dots on paper (call them A and B) and connect them with a ruler. The path you drew is line segment AB (written as AB with a line over it).\n\nA line segment has a **fixed, measurable length**.\n\n**Real life example:** The edge of your ruler, the side of a triangle drawn on paper — these are line segments."
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Draw two dots on paper (call them A and B) and connect them with a ruler. The path you drew is line segment AB (written as AB with a line over it).\n**Real life example:** The edge of your ruler, the side of a triangle drawn on paper — these are line segments.",
+          "hindi": "**Example:** Draw two dots on paper (call them A and B) and connect them with a ruler. The path you drew is line segment AB (written as AB with a line over it).\n**Real life example:** The edge of your ruler, the side of a triangle drawn on paper — these are line segments."
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "line_segment_q1",
+          "id": "linesegmentq1",
           "prompt": {
             "english": "Which figure has two end-points?",
             "hindi": "किस आकृति के दो सिरे होते हैं?"
@@ -136,11 +174,29 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Correct Answer: (a) Line segment**\n\n- Line segment — has TWO end-points (start and end). Correct!\n- Ray — has only ONE end-point (it extends endlessly in one direction).\n- Line — has NO end-points (it extends endlessly in both directions).\n- Plane — is a flat surface, not a line-type figure.",
+            "hindi": "**Correct Answer: (a) Line segment**\n\n- Line segment — has TWO end-points (start and end). Correct!\n- Ray — has only ONE end-point (it extends endlessly in one direction).\n- Line — has NO end-points (it extends endlessly in both directions).\n- Plane — is a flat surface, not a line-type figure."
+          },
+          "supportExample": {
+            "english": "**Correct Answer: (a) Line segment**\n- Line segment — has TWO end-points (start and end). Correct!\n- Ray — has only ONE end-point (it extends endlessly in one direction).\n- Line — has NO end-points (it extends endlessly in both directions).\n- Plane — is a flat surface, not a line-type figure.",
+            "hindi": "**Correct Answer: (a) Line segment**\n- Line segment — has TWO end-points (start and end). Correct!\n- Ray — has only ONE end-point (it extends endlessly in one direction).\n- Line — has NO end-points (it extends endlessly in both directions).\n- Plane — is a flat surface, not a line-type figure."
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Correct Answer: (a) Line segment**",
+              "hindi": "**Correct Answer: (a) Line segment**"
+            },
+            {
+              "english": "- Line segment — has TWO end-points (start and end). Correct!\n- Ray — has only ONE end-point (it extends endlessly in one direction).\n- Line — has NO end-points (it extends endlessly in both directions).\n- Plane — is a flat surface, not a line-type figure.",
+              "hindi": "- Line segment — has TWO end-points (start and end). Correct!\n- Ray — has only ONE end-point (it extends endlessly in one direction).\n- Line — has NO end-points (it extends endlessly in both directions).\n- Plane — is a flat surface, not a line-type figure."
+            }
+          ]
         }
       ],
       "tags": [
@@ -156,7 +212,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch17_line",
+      "id": "rsch17line",
       "sourceLessonId": "rs_ch17",
       "chapterNumber": 17,
       "chapterTitle": {
@@ -179,8 +235,18 @@
         "english": "Line",
         "hindi": "रेखा"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "A **line** is a straight path that extends **endlessly in both directions**. It has no end-points and no fixed length. We draw arrows at both ends to show it goes on forever.\n\n**Example:** Think of a railway track that stretches as far as you can see on both sides — it represents a line.\n\nA line is named using any two points on it. If two points are A and B, the line is called line AB (written with arrows on both ends: ↔AB).\n\n**Key property:** A line has infinite length. You can never reach its end.",
+          "hindi": "A **line** is a straight path that extends **endlessly in both directions**. It has no end-points and no fixed length. We draw arrows at both ends to show it goes on forever.\n\n**Example:** Think of a railway track that stretches as far as you can see on both sides — it represents a line.\n\nA line is named using any two points on it. If two points are A and B, the line is called line AB (written with arrows on both ends: ↔AB).\n\n**Key property:** A line has infinite length. You can never reach its end."
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Think of a railway track that stretches as far as you can see on both sides — it represents a line.",
+          "hindi": "**Example:** Think of a railway track that stretches as far as you can see on both sides — it represents a line."
+        }
+      ],
       "visuals": [],
       "questions": [
         {
@@ -211,11 +277,29 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Correct Answer: (a) Line**\n\n- Line — extends endlessly in BOTH directions. Correct!\n- Ray — extends endlessly in only ONE direction (from a fixed point).\n- Line segment — has two fixed end-points, so it does NOT extend endlessly.\n- Point — is just a location, not a path at all.",
+            "hindi": "**Correct Answer: (a) Line**\n\n- Line — extends endlessly in BOTH directions. Correct!\n- Ray — extends endlessly in only ONE direction (from a fixed point).\n- Line segment — has two fixed end-points, so it does NOT extend endlessly.\n- Point — is just a location, not a path at all."
+          },
+          "supportExample": {
+            "english": "**Correct Answer: (a) Line**\n- Line — extends endlessly in BOTH directions. Correct!\n- Ray — extends endlessly in only ONE direction (from a fixed point).\n- Line segment — has two fixed end-points, so it does NOT extend endlessly.\n- Point — is just a location, not a path at all.",
+            "hindi": "**Correct Answer: (a) Line**\n- Line — extends endlessly in BOTH directions. Correct!\n- Ray — extends endlessly in only ONE direction (from a fixed point).\n- Line segment — has two fixed end-points, so it does NOT extend endlessly.\n- Point — is just a location, not a path at all."
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Correct Answer: (a) Line**",
+              "hindi": "**Correct Answer: (a) Line**"
+            },
+            {
+              "english": "- Line — extends endlessly in BOTH directions. Correct!\n- Ray — extends endlessly in only ONE direction (from a fixed point).\n- Line segment — has two fixed end-points, so it does NOT extend endlessly.\n- Point — is just a location, not a path at all.",
+              "hindi": "- Line — extends endlessly in BOTH directions. Correct!\n- Ray — extends endlessly in only ONE direction (from a fixed point).\n- Line segment — has two fixed end-points, so it does NOT extend endlessly.\n- Point — is just a location, not a path at all."
+            }
+          ]
         }
       ],
       "tags": [
@@ -231,7 +315,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch17_ray",
+      "id": "rsch17ray",
       "sourceLessonId": "rs_ch17",
       "chapterNumber": 17,
       "chapterTitle": {
@@ -254,8 +338,18 @@
         "english": "Ray",
         "hindi": "किरण"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "A **ray** is a straight path that starts from a fixed point and extends **endlessly in one direction only**. It has ONE end-point called the **starting point** or **initial point**.\n\n**Real-life example:** A ray of sunlight — it starts from the sun (fixed point) and goes endlessly outward. A torch beam also resembles a ray.\n\n**Example:** Ray AB starts at point A and passes through B, then continues endlessly beyond B. We write it as ray AB with an arrow only on the B side.",
+          "hindi": "A **ray** is a straight path that starts from a fixed point and extends **endlessly in one direction only**. It has ONE end-point called the **starting point** or **initial point**.\n\n**Real-life example:** A ray of sunlight — it starts from the sun (fixed point) and goes endlessly outward. A torch beam also resembles a ray.\n\n**Example:** Ray AB starts at point A and passes through B, then continues endlessly beyond B. We write it as ray AB with an arrow only on the B side."
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Real-life example:** A ray of sunlight — it starts from the sun (fixed point) and goes endlessly outward. A torch beam also resembles a ray.\n**Example:** Ray AB starts at point A and passes through B, then continues endlessly beyond B. We write it as ray AB with an arrow only on the B side.",
+          "hindi": "**Real-life example:** A ray of sunlight — it starts from the sun (fixed point) and goes endlessly outward. A torch beam also resembles a ray.\n**Example:** Ray AB starts at point A and passes through B, then continues endlessly beyond B. We write it as ray AB with an arrow only on the B side."
+        }
+      ],
       "visuals": [],
       "questions": [
         {
@@ -286,11 +380,29 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Correct Answer: (a) Ray**\n\n- Ray — has exactly ONE end-point (starting point). It goes on in one direction forever. Correct!\n- Line — has NO end-points (goes endlessly in both directions).\n- Line segment — has TWO end-points.\n- Plane — is a flat surface, not a line-type figure.",
+            "hindi": "**Correct Answer: (a) Ray**\n\n- Ray — has exactly ONE end-point (starting point). It goes on in one direction forever. Correct!\n- Line — has NO end-points (goes endlessly in both directions).\n- Line segment — has TWO end-points.\n- Plane — is a flat surface, not a line-type figure."
+          },
+          "supportExample": {
+            "english": "**Correct Answer: (a) Ray**\n- Ray — has exactly ONE end-point (starting point). It goes on in one direction forever. Correct!\n- Line — has NO end-points (goes endlessly in both directions).\n- Line segment — has TWO end-points.\n- Plane — is a flat surface, not a line-type figure.",
+            "hindi": "**Correct Answer: (a) Ray**\n- Ray — has exactly ONE end-point (starting point). It goes on in one direction forever. Correct!\n- Line — has NO end-points (goes endlessly in both directions).\n- Line segment — has TWO end-points.\n- Plane — is a flat surface, not a line-type figure."
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Correct Answer: (a) Ray**",
+              "hindi": "**Correct Answer: (a) Ray**"
+            },
+            {
+              "english": "- Ray — has exactly ONE end-point (starting point). It goes on in one direction forever. Correct!\n- Line — has NO end-points (goes endlessly in both directions).\n- Line segment — has TWO end-points.\n- Plane — is a flat surface, not a line-type figure.",
+              "hindi": "- Ray — has exactly ONE end-point (starting point). It goes on in one direction forever. Correct!\n- Line — has NO end-points (goes endlessly in both directions).\n- Line segment — has TWO end-points.\n- Plane — is a flat surface, not a line-type figure."
+            }
+          ]
         }
       ],
       "tags": [
@@ -306,8 +418,8 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ex_ch17_ex69_q01",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q01",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -334,7 +446,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q01_q1",
+          "id": "rsexch17ex69q01_q1",
           "prompt": {
             "english": "Which of the following has two end points? (a) a line (b) a ray (c) a line segment (d) a plane",
             "hindi": "Which of the following has two end points? (a) a line (b) a ray (c) a line segment (d) a plane"
@@ -370,8 +482,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q02",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q02",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -398,7 +510,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q02_q1",
+          "id": "rsexch17ex69q02_q1",
           "prompt": {
             "english": "Which of the following has one end point? (a) a line segment (b) a ray (c) a line (d) a plane",
             "hindi": "Which of the following has one end point? (a) a line segment (b) a ray (c) a line (d) a plane"
@@ -434,8 +546,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q03",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q03",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -462,7 +574,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q03_q1",
+          "id": "rsexch17ex69q03_q1",
           "prompt": {
             "english": "Which of the following has no end points? (a) a line (b) a ray (c) a line segment (d) a plane",
             "hindi": "Which of the following has no end points? (a) a line (b) a ray (c) a line segment (d) a plane"
@@ -498,8 +610,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q04",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q04",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -526,7 +638,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q04_q1",
+          "id": "rsexch17ex69q04_q1",
           "prompt": {
             "english": "Which of the following has a definite length? (a) a line (b) a line segment (c) a ray (d) a plane",
             "hindi": "Which of the following has a definite length? (a) a line (b) a line segment (c) a ray (d) a plane"
@@ -562,8 +674,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q05",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q05",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -590,7 +702,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q05_q1",
+          "id": "rsexch17ex69q05_q1",
           "prompt": {
             "english": "Which of the following can be drawn on a piece of paper? (a) a line (b) a line segment (c) a ray (d) a plane",
             "hindi": "Which of the following can be drawn on a piece of paper? (a) a line (b) a line segment (c) a ray (d) a plane"
@@ -626,8 +738,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q06_a",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q06_a",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -654,7 +766,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q06_a_q1",
+          "id": "rsexch17ex69q06aq1",
           "prompt": {
             "english": "Draw a line segment of length Part (a): 5 cm Then type done",
             "hindi": "Draw a line segment of length Part (a): 5 cm Then type done"
@@ -694,8 +806,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q06_b",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q06_b",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -722,7 +834,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q06_b_q1",
+          "id": "rsexch17ex69q06bq1",
           "prompt": {
             "english": "Draw a line segment of length Part (b): 6.3 cm Then type done",
             "hindi": "Draw a line segment of length Part (b): 6.3 cm Then type done"
@@ -762,8 +874,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q06_c",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q06_c",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -790,7 +902,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q06_c_q1",
+          "id": "rsexch17ex69q06cq1",
           "prompt": {
             "english": "Draw a line segment of length Part (c): 7.5 cm Then type done",
             "hindi": "Draw a line segment of length Part (c): 7.5 cm Then type done"
@@ -830,8 +942,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q07",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q07",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -858,7 +970,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q07_q1",
+          "id": "rsexch17ex69q07_q1",
           "prompt": {
             "english": "Match the entries in Column l and Column ll: Column l Column ll",
             "hindi": "Match the entries in Column l and Column ll: Column l Column ll"
@@ -894,8 +1006,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q08_a",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q08_a",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -922,7 +1034,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q08_a_q1",
+          "id": "rsexch17ex69q08aq1",
           "prompt": {
             "english": "Fill in the blanks Part (a): A ray has................end point",
             "hindi": "Fill in the blanks Part (a): A ray has................end point"
@@ -958,8 +1070,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q08_b",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q08_b",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -986,7 +1098,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q08_b_q1",
+          "id": "rsexch17ex69q08bq1",
           "prompt": {
             "english": "Fill in the blanks Part (b): A line has.............. end points",
             "hindi": "Fill in the blanks Part (b): A line has.............. end points"
@@ -1022,8 +1134,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q08_c",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q08_c",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -1050,7 +1162,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q08_c_q1",
+          "id": "rsexch17ex69q08cq1",
           "prompt": {
             "english": "Fill in the blanks Part (c): A line............ be drawn on a paper",
             "hindi": "Fill in the blanks Part (c): A line............ be drawn on a paper"
@@ -1086,8 +1198,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q08_d",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q08_d",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -1114,7 +1226,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q08_d_q1",
+          "id": "rsexch17ex69q08dq1",
           "prompt": {
             "english": "Fill in the blanks Part (d): A ray has no............. length",
             "hindi": "Fill in the blanks Part (d): A ray has no............. length"
@@ -1150,8 +1262,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q08_e",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q08_e",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -1178,7 +1290,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q08_e_q1",
+          "id": "rsexch17ex69q08eq1",
           "prompt": {
             "english": "Fill in the blanks Part (e): A line segment has a................ length",
             "hindi": "Fill in the blanks Part (e): A line segment has a................ length"
@@ -1214,8 +1326,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q09",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q09",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -1242,7 +1354,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q09_q1",
+          "id": "rsexch17ex69q09_q1",
           "prompt": {
             "english": "Identify and name the line segments and rays in the following figures",
             "hindi": "Identify and name the line segments and rays in the following figures"
@@ -1278,8 +1390,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q10_a",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q10_a",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -1306,7 +1418,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q10_a_q1",
+          "id": "rsexch17ex69q10aq1",
           "prompt": {
             "english": "Mark suitable points and draw a diagram of each of the following Part (a): A ray QP Then type done",
             "hindi": "Mark suitable points and draw a diagram of each of the following Part (a): A ray QP Then type done"
@@ -1346,8 +1458,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q10_b",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q10_b",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -1374,7 +1486,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q10_b_q1",
+          "id": "rsexch17ex69q10bq1",
           "prompt": {
             "english": "Mark suitable points and draw a diagram of each of the following Part (b): A line XY Then type done",
             "hindi": "Mark suitable points and draw a diagram of each of the following Part (b): A line XY Then type done"
@@ -1414,8 +1526,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q10_c",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q10_c",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -1442,7 +1554,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q10_c_q1",
+          "id": "rsexch17ex69q10cq1",
           "prompt": {
             "english": "Mark suitable points and draw a diagram of each of the following Part (c): A C B D I G D F H E O N P Q M Then type done",
             "hindi": "Mark suitable points and draw a diagram of each of the following Part (c): A C B D I G D F H E O N P Q M Then type done"
@@ -1482,8 +1594,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch17_ex69_q10_d",
-      "sourceLessonId": "rs_exercise_ch17_ex69",
+      "id": "rsexch17ex69q10_d",
+      "sourceLessonId": "rsexercisech17_ex69",
       "chapterNumber": 17,
       "chapterTitle": {
         "english": "Basic Geometrical Concepts",
@@ -1510,7 +1622,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch17_ex69_q10_d_q1",
+          "id": "rsexch17ex69q10dq1",
           "prompt": {
             "english": "Mark suitable points and draw a diagram of each of the following Part (d): A ray MN Then type done",
             "hindi": "Mark suitable points and draw a diagram of each of the following Part (d): A ray MN Then type done"

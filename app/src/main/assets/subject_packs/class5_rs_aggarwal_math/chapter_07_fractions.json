@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch07_what_is_a_fraction",
+      "id": "rsch07whatisa_fraction",
       "sourceLessonId": "rs_ch07",
       "chapterNumber": 7,
       "chapterTitle": {
@@ -29,12 +29,34 @@
         "english": "What is a Fraction",
         "hindi": "भिन्न क्या है"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "A **fraction** represents a part of a whole. It is written as **numerator/denominator**.",
+          "hindi": "**भिन्न** किसी पूर्ण वस्तु के एक हिस्से को दर्शाती है। इसे **अंश/हर** के रूप में लिखते हैं।"
+        },
+        {
+          "english": "- **Numerator** (top number) = number of equal parts taken\n- **Denominator** (bottom number) = total number of equal parts the whole is divided into",
+          "hindi": "- **अंश** (ऊपर की संख्या) = लिए गए बराबर भागों की संख्या\n- **हर** (नीचे की संख्या) = पूर्ण वस्तु को जितने बराबर भागों में बाँटा गया"
+        },
+        {
+          "english": "**Example:** In the fraction 3/8, the whole is divided into 8 equal parts and we take 3 of them. So the numerator is 3 and the denominator is 8.",
+          "hindi": "**उदाहरण:** भिन्न 3/8 में, पूरी वस्तु को 8 बराबर भागों में बाँटा गया है और हम उनमें से 3 भाग लेते हैं। इसलिए अंश 3 और हर 8 है।"
+        },
+        {
+          "english": "Think of a pizza cut into 8 equal slices — if you eat 3 slices, you ate 3/8 of the pizza.",
+          "hindi": "एक पिज़्ज़ा की कल्पना करें जिसे 8 बराबर टुकड़ों में काटा गया हो — अगर आप 3 टुकड़े खाते हैं तो आपने पिज़्ज़ा का 3/8 भाग खाया।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** In the fraction 3/8, the whole is divided into 8 equal parts and we take 3 of them. So the numerator is 3 and the denominator is 8.",
+          "hindi": "**उदाहरण:** भिन्न 3/8 में, पूरी वस्तु को 8 बराबर भागों में बाँटा गया है और हम उनमें से 3 भाग लेते हैं। इसलिए अंश 3 और हर 8 है।"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "what_is_a_fraction_q1",
+          "id": "whatisafractionq1",
           "prompt": {
             "english": "In the fraction 3/8, how many equal parts are taken?",
             "hindi": "भिन्न 3/8 में कितने बराबर भाग लिए गए हैं?"
@@ -46,11 +68,33 @@
             "3"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "In the fraction 3/8:\n- The **numerator** is 3 (top number)\n- The **denominator** is 8 (bottom number)\n\nThe numerator tells us how many equal parts are taken.\n\n**Answer: 3**",
+            "hindi": "भिन्न 3/8 में:\n- **अंश** 3 है (ऊपर की संख्या)\n- **हर** 8 है (नीचे की संख्या)\n\nअंश हमें बताता है कि कितने बराबर भाग लिए गए हैं।\n\n**उत्तर: 3**"
+          },
+          "supportExample": {
+            "english": "In the fraction 3/8:\n- The **numerator** is 3 (top number)\n- The **denominator** is 8 (bottom number)\nThe numerator tells us how many equal parts are taken.",
+            "hindi": "भिन्न 3/8 में:\n- **अंश** 3 है (ऊपर की संख्या)\n- **हर** 8 है (नीचे की संख्या)\nअंश हमें बताता है कि कितने बराबर भाग लिए गए हैं।"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In the fraction 3/8:\n- The **numerator** is 3 (top number)\n- The **denominator** is 8 (bottom number)",
+              "hindi": "भिन्न 3/8 में:\n- **अंश** 3 है (ऊपर की संख्या)\n- **हर** 8 है (नीचे की संख्या)"
+            },
+            {
+              "english": "The numerator tells us how many equal parts are taken.",
+              "hindi": "अंश हमें बताता है कि कितने बराबर भाग लिए गए हैं।"
+            },
+            {
+              "english": "**Answer: 3**",
+              "hindi": "**उत्तर: 3**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -66,7 +110,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch07_types_of_fractions",
+      "id": "rsch07typesoffractions",
       "sourceLessonId": "rs_ch07",
       "chapterNumber": 7,
       "chapterTitle": {
@@ -89,12 +133,30 @@
         "english": "Types of Fractions",
         "hindi": "भिन्नों के प्रकार"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "There are three main types of fractions:",
+          "hindi": "भिन्नों के तीन मुख्य प्रकार हैं:"
+        },
+        {
+          "english": "1. **Proper fraction:** Numerator < Denominator. Value is less than 1. Examples: 3/8, 2/9, 4/11, 6/7\n2. **Improper fraction:** Numerator ≥ Denominator. Value is 1 or more. Examples: 7/5, 9/4, 11/3\n3. **Mixed numeral (Mixed fraction):** A whole number + a proper fraction. Examples: 2 1/3, 5 3/4",
+          "hindi": "1. **उचित भिन्न:** अंश < हर। मान 1 से कम। उदाहरण: 3/8, 2/9, 4/11, 6/7\n2. **अनुचित भिन्न:** अंश ≥ हर। मान 1 या 1 से अधिक। उदाहरण: 7/5, 9/4, 11/3\n3. **मिश्र भिन्न:** एक पूर्ण संख्या + एक उचित भिन्न। उदाहरण: 2 1/3, 5 3/4"
+        },
+        {
+          "english": "**Also:**\n- **Like fractions:** Same denominator. Example: 3/5 and 4/5\n- **Unlike fractions:** Different denominators. Example: 1/4 and 1/7\n- **Unit fraction:** Numerator is 1. Examples: 1/4, 1/7, 1/10",
+          "hindi": "**साथ ही:**\n- **सजातीय भिन्न:** समान हर। उदाहरण: 3/5 और 4/5\n- **विजातीय भिन्न:** अलग-अलग हर। उदाहरण: 1/4 और 1/7\n- **एकांश भिन्न:** अंश 1 हो। उदाहरण: 1/4, 1/7, 1/10"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Also:**\n- **Like fractions:** Same denominator. Example: 3/5 and 4/5\n- **Unlike fractions:** Different denominators. Example: 1/4 and 1/7\n- **Unit fraction:** Numerator is 1. Examples: 1/4, 1/7, 1/10",
+          "hindi": "1. **उचित भिन्न:** अंश < हर। मान 1 से कम। उदाहरण: 3/8, 2/9, 4/11, 6/7\n2. **अनुचित भिन्न:** अंश ≥ हर। मान 1 या 1 से अधिक। उदाहरण: 7/5, 9/4, 11/3\n3. **मिश्र भिन्न:** एक पूर्ण संख्या + एक उचित भिन्न। उदाहरण: 2 1/3, 5 3/4\n**साथ ही:**\n- **सजातीय भिन्न:** समान हर। उदाहरण: 3/5 और 4/5\n- **विजातीय भिन्न:** अलग-अलग हर। उदाहरण: 1/4 और 1/7\n- **एकांश भिन्न:** अंश 1 हो। उदाहरण: 1/4, 1/7, 1/10"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "types_of_fractions_q1",
+          "id": "typesoffractions_q1",
           "prompt": {
             "english": "Which of the following is an improper fraction?",
             "hindi": "निम्न में से कौन-सा अपूर्ण भिन्न है?"
@@ -121,11 +183,29 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "An improper fraction has numerator ≥ denominator:\n- **7/5** → 7 > 5 → **Improper** ✓\n- 3/8 → 3 < 8 → Proper\n- 2/9 → 2 < 9 → Proper\n- 4/11 → 4 < 11 → Proper\n\n**Answer: 7/5**",
+            "hindi": "अनुचित भिन्न में अंश ≥ हर होता है:\n- **7/5** → 7 > 5 → **अनुचित भिन्न** ✓\n- 3/8 → 3 < 8 → उचित भिन्न\n- 2/9 → 2 < 9 → उचित भिन्न\n- 4/11 → 4 < 11 → उचित भिन्न\n\n**उत्तर: 7/5**"
+          },
+          "supportExample": {
+            "english": "An improper fraction has numerator ≥ denominator:\n- **7/5** → 7 > 5 → **Improper** ✓\n- 3/8 → 3 < 8 → Proper\n- 2/9 → 2 < 9 → Proper\n- 4/11 → 4 < 11 → Proper\n**Answer: 7/5**",
+            "hindi": "अनुचित भिन्न में अंश ≥ हर होता है:\n- **7/5** → 7 > 5 → **अनुचित भिन्न** ✓\n- 3/8 → 3 < 8 → उचित भिन्न\n- 2/9 → 2 < 9 → उचित भिन्न\n- 4/11 → 4 < 11 → उचित भिन्न\n**उत्तर: 7/5**"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "An improper fraction has numerator ≥ denominator:\n- **7/5** → 7 > 5 → **Improper** ✓\n- 3/8 → 3 < 8 → Proper\n- 2/9 → 2 < 9 → Proper\n- 4/11 → 4 < 11 → Proper",
+              "hindi": "अनुचित भिन्न में अंश ≥ हर होता है:\n- **7/5** → 7 > 5 → **अनुचित भिन्न** ✓\n- 3/8 → 3 < 8 → उचित भिन्न\n- 2/9 → 2 < 9 → उचित भिन्न\n- 4/11 → 4 < 11 → उचित भिन्न"
+            },
+            {
+              "english": "**Answer: 7/5**",
+              "hindi": "**उत्तर: 7/5**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -141,7 +221,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch07_fractions_in_lowest_terms",
+      "id": "rsch07fractionsinlowest_terms",
       "sourceLessonId": "rs_ch07",
       "chapterNumber": 7,
       "chapterTitle": {
@@ -164,12 +244,26 @@
         "english": "Fractions in Lowest Terms",
         "hindi": "सरलतम रूप में भिन्न"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "A fraction is in its **lowest terms** (simplest form) when the numerator and denominator have no common factor other than 1. To reduce a fraction, divide both top and bottom by their HCF.",
+          "hindi": "कोई भिन्न **सरलतम रूप** में होती है जब उसके अंश और हर में 1 के अलावा कोई उभयनिष्ठ गुणनखंड न हो। भिन्न को सरल करने के लिए अंश और हर दोनों को उनके HCF से भाग दें।"
+        },
+        {
+          "english": "**Example:** Reduce 12/18 to lowest terms.\n- HCF of 12 and 18 = 6\n- 12 ÷ 6 = 2\n- 18 ÷ 6 = 3\n- Answer: **2/3**",
+          "hindi": "**उदाहरण:** 12/18 को सरलतम रूप में लिखें।\n- 12 और 18 का HCF = 6\n- 12 ÷ 6 = 2\n- 18 ÷ 6 = 3\n- उत्तर: **2/3**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Reduce 12/18 to lowest terms.\n- HCF of 12 and 18 = 6\n- 12 ÷ 6 = 2\n- 18 ÷ 6 = 3\n- Answer: **2/3**",
+          "hindi": "**उदाहरण:** 12/18 को सरलतम रूप में लिखें।\n- 12 और 18 का HCF = 6\n- 12 ÷ 6 = 2\n- 18 ÷ 6 = 3\n- उत्तर: **2/3**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "fractions_in_lowest_terms_q1",
+          "id": "fractionsinlowesttermsq1",
           "prompt": {
             "english": "Write 12/18 in lowest terms.",
             "hindi": "12/18 को सरलतम रूप में लिखिए।"
@@ -182,11 +276,33 @@
             "2 / 3"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Find HCF of 12 and 18\n- 12 = 2 × 2 × 3\n- 18 = 2 × 3 × 3\n- HCF = 2 × 3 = 6\n\nStep 2: Divide both by 6\n- 12 ÷ 6 = 2\n- 18 ÷ 6 = 3\n\n**Answer: 2/3**",
+            "hindi": "चरण 1: 12 और 18 का HCF निकालें\n- 12 = 2 × 2 × 3\n- 18 = 2 × 3 × 3\n- HCF = 2 × 3 = 6\n\nचरण 2: दोनों को 6 से विभाजित करें\n- 12 ÷ 6 = 2\n- 18 ÷ 6 = 3\n\n**उत्तर: 2/3**"
+          },
+          "supportExample": {
+            "english": "Step 1: Find HCF of 12 and 18\n- 12 = 2 × 2 × 3\n- 18 = 2 × 3 × 3\n- HCF = 2 × 3 = 6\nStep 2: Divide both by 6\n- 12 ÷ 6 = 2\n- 18 ÷ 6 = 3",
+            "hindi": "चरण 1: 12 और 18 का HCF निकालें\n- 12 = 2 × 2 × 3\n- 18 = 2 × 3 × 3\n- HCF = 2 × 3 = 6\nचरण 2: दोनों को 6 से विभाजित करें\n- 12 ÷ 6 = 2\n- 18 ÷ 6 = 3"
+          },
           "mistakeType": "FRACTION_COMPARE",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Find HCF of 12 and 18\n- 12 = 2 × 2 × 3\n- 18 = 2 × 3 × 3\n- HCF = 2 × 3 = 6",
+              "hindi": "चरण 1: 12 और 18 का HCF निकालें\n- 12 = 2 × 2 × 3\n- 18 = 2 × 3 × 3\n- HCF = 2 × 3 = 6"
+            },
+            {
+              "english": "Step 2: Divide both by 6\n- 12 ÷ 6 = 2\n- 18 ÷ 6 = 3",
+              "hindi": "चरण 2: दोनों को 6 से विभाजित करें\n- 12 ÷ 6 = 2\n- 18 ÷ 6 = 3"
+            },
+            {
+              "english": "**Answer: 2/3**",
+              "hindi": "**उत्तर: 2/3**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -202,7 +318,7 @@
       "mistakeFocus": "FRACTION_COMPARE"
     },
     {
-      "id": "rs_ch07_comparison_of_fractions",
+      "id": "rsch07comparisonoffractions",
       "sourceLessonId": "rs_ch07",
       "chapterNumber": 7,
       "chapterTitle": {
@@ -225,12 +341,30 @@
         "english": "Comparison of Fractions",
         "hindi": "भिन्नों की तुलना"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**With same denominators:** The fraction with the larger numerator is greater.\nExample: 7/11 vs 7/15 — same numerators, so compare denominators: smaller denominator = larger fraction. 7/11 > 7/15.",
+          "hindi": "**समान हर होने पर:** जिस भिन्न का अंश बड़ा हो, वह बड़ी होती है।"
+        },
+        {
+          "english": "**With same numerators:** The fraction with the smaller denominator is greater.",
+          "hindi": "**समान अंश होने पर:** जिस भिन्न का हर छोटा हो, वह बड़ी होती है।\nउदाहरण: 7/11 और 7/15 — अंश समान हैं, इसलिए हर की तुलना करें: छोटा हर = बड़ी भिन्न। 7/11 > 7/15।"
+        },
+        {
+          "english": "**With different numerators and denominators:** Convert to like fractions (same denominator using LCM), then compare numerators.",
+          "hindi": "**अलग अंश और हर होने पर:** LCM से समान हर बनाएं, फिर अंशों की तुलना करें।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**With same denominators:** The fraction with the larger numerator is greater.\nExample: 7/11 vs 7/15 — same numerators, so compare denominators: smaller denominator = larger fraction. 7/11 > 7/15.",
+          "hindi": "**समान अंश होने पर:** जिस भिन्न का हर छोटा हो, वह बड़ी होती है।\nउदाहरण: 7/11 और 7/15 — अंश समान हैं, इसलिए हर की तुलना करें: छोटा हर = बड़ी भिन्न। 7/11 > 7/15।"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "comparison_of_fractions_q1",
+          "id": "comparisonoffractions_q1",
           "prompt": {
             "english": "Which fraction is greater?",
             "hindi": "कौन-सा भिन्न बड़ा है?"
@@ -257,11 +391,33 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Both fractions have the same numerator (7).\n\nWhen numerators are equal, the fraction with the **smaller denominator** is greater.\n- 11 < 15\n- Therefore, **7/11 > 7/15**\n\n**Answer: 7/11**",
+            "hindi": "दोनों भिन्नों का अंश समान है (7)।\n\nजब अंश बराबर हों, तो **छोटे हर** वाली भिन्न बड़ी होती है।\n- 11 < 15\n- इसलिए, **7/11 > 7/15**\n\n**उत्तर: 7/11**"
+          },
+          "supportExample": {
+            "english": "Both fractions have the same numerator (7).\nWhen numerators are equal, the fraction with the **smaller denominator** is greater.\n- 11 < 15\n- Therefore, **7/11 > 7/15**",
+            "hindi": "दोनों भिन्नों का अंश समान है (7)।\nजब अंश बराबर हों, तो **छोटे हर** वाली भिन्न बड़ी होती है।\n- 11 < 15\n- इसलिए, **7/11 > 7/15**"
+          },
           "mistakeType": "FRACTION_COMPARE",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Both fractions have the same numerator (7).",
+              "hindi": "दोनों भिन्नों का अंश समान है (7)।"
+            },
+            {
+              "english": "When numerators are equal, the fraction with the **smaller denominator** is greater.\n- 11 < 15\n- Therefore, **7/11 > 7/15**",
+              "hindi": "जब अंश बराबर हों, तो **छोटे हर** वाली भिन्न बड़ी होती है।\n- 11 < 15\n- इसलिए, **7/11 > 7/15**"
+            },
+            {
+              "english": "**Answer: 7/11**",
+              "hindi": "**उत्तर: 7/11**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -277,8 +433,8 @@
       "mistakeFocus": "FRACTION_COMPARE"
     },
     {
-      "id": "rs_ex_ch07_ex22_q01",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q01",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -305,7 +461,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q01_q1",
+          "id": "rsexch07ex22q01_q1",
           "prompt": {
             "english": "Write the fractions for the shaded parts and the unshaded parts. (a) (b) (c) Shaded =................ Shaded =................ Shaded =................ Unshaded =................ Unshaded =................ Unshaded =",
             "hindi": "Write the fractions for the shaded parts and the unshaded parts. (a) (b) (c) Shaded =................ Shaded =................ Shaded =................ Unshaded =................ Unshaded =................ Unshaded ="
@@ -342,8 +498,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q02",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q02",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -370,7 +526,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q02_q1",
+          "id": "rsexch07ex22q02_q1",
           "prompt": {
             "english": "Circle each one of the unit fractions given below: 6/1, 1/4, 3/6, 1/7, 9/1, 1/10, 5/5, 1/11",
             "hindi": "Circle each one of the unit fractions given below: 6/1, 1/4, 3/6, 1/7, 9/1, 1/10, 5/5, 1/11"
@@ -407,8 +563,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q03",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q03",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -435,7 +591,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q03_q1",
+          "id": "rsexch07ex22q03_q1",
           "prompt": {
             "english": "Circle each pair of like fractions given below. (a) 3/5, 4/5 (b) 2/5, 2/7 (c) 5/9, 7/9 (d) 6/7, 6/11",
             "hindi": "Circle each pair of like fractions given below. (a) 3/5, 4/5 (b) 2/5, 2/7 (c) 5/9, 7/9 (d) 6/7, 6/11"
@@ -471,8 +627,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q04",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q04",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -499,7 +655,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q04_q1",
+          "id": "rsexch07ex22q04_q1",
           "prompt": {
             "english": "Circle each pair of unlike fractions given below. (a) 1/4, 1/7 (b) 3/4, 3/5 (c) 4/9, 7/9 (d) 5/11, 7/11",
             "hindi": "Circle each pair of unlike fractions given below. (a) 1/4, 1/7 (b) 3/4, 3/5 (c) 4/9, 7/9 (d) 5/11, 7/11"
@@ -535,8 +691,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q05",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q05",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -563,7 +719,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q05_q1",
+          "id": "rsexch07ex22q05_q1",
           "prompt": {
             "english": "Circle each one of the proper fractions given below. (a) 5/3 (b) 6/7 (c) 3/3 (d) 8/11 (e) 6/1",
             "hindi": "Circle each one of the proper fractions given below. (a) 5/3 (b) 6/7 (c) 3/3 (d) 8/11 (e) 6/1"
@@ -599,8 +755,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q06_a",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q06_a",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -627,7 +783,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q06_a_q1",
+          "id": "rsexch07ex22q06aq1",
           "prompt": {
             "english": "Circle each one of the improper fractions given below Part (a): 7/8",
             "hindi": "Circle each one of the improper fractions given below Part (a): 7/8"
@@ -665,8 +821,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q06_b",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q06_b",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -693,7 +849,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q06_b_q1",
+          "id": "rsexch07ex22q06bq1",
           "prompt": {
             "english": "Circle each one of the improper fractions given below Part (b): 4/4",
             "hindi": "Circle each one of the improper fractions given below Part (b): 4/4"
@@ -731,8 +887,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q06_c",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q06_c",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -759,7 +915,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q06_c_q1",
+          "id": "rsexch07ex22q06cq1",
           "prompt": {
             "english": "Circle each one of the improper fractions given below Part (c): 11/6",
             "hindi": "Circle each one of the improper fractions given below Part (c): 11/6"
@@ -797,8 +953,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q06_d",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q06_d",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -825,7 +981,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q06_d_q1",
+          "id": "rsexch07ex22q06dq1",
           "prompt": {
             "english": "Circle each one of the improper fractions given below Part (d): 8/1",
             "hindi": "Circle each one of the improper fractions given below Part (d): 8/1"
@@ -863,8 +1019,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q06_e",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q06_e",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -891,7 +1047,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q06_e_q1",
+          "id": "rsexch07ex22q06eq1",
           "prompt": {
             "english": "Circle each one of the improper fractions given below Part (e): 1/1",
             "hindi": "Circle each one of the improper fractions given below Part (e): 1/1"
@@ -929,8 +1085,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q07_a",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q07_a",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -957,7 +1113,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q07_a_q1",
+          "id": "rsexch07ex22q07aq1",
           "prompt": {
             "english": "Convert each of the following into an improper fraction Part (a): 33/5",
             "hindi": "Convert each of the following into an improper fraction Part (a): 33/5"
@@ -994,8 +1150,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q07_b",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q07_b",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -1022,7 +1178,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q07_b_q1",
+          "id": "rsexch07ex22q07bq1",
           "prompt": {
             "english": "Convert each of the following into an improper fraction Part (b): 25/7",
             "hindi": "Convert each of the following into an improper fraction Part (b): 25/7"
@@ -1059,8 +1215,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q07_c",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q07_c",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -1087,7 +1243,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q07_c_q1",
+          "id": "rsexch07ex22q07cq1",
           "prompt": {
             "english": "Convert each of the following into an improper fraction Part (c): 62/3",
             "hindi": "Convert each of the following into an improper fraction Part (c): 62/3"
@@ -1124,8 +1280,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q07_d",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q07_d",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -1152,7 +1308,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q07_d_q1",
+          "id": "rsexch07ex22q07dq1",
           "prompt": {
             "english": "Convert each of the following into an improper fraction Part (d): 45/6",
             "hindi": "Convert each of the following into an improper fraction Part (d): 45/6"
@@ -1189,8 +1345,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q07_e",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q07_e",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -1217,7 +1373,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q07_e_q1",
+          "id": "rsexch07ex22q07eq1",
           "prompt": {
             "english": "Convert each of the following into an improper fraction Part (e): 71/7",
             "hindi": "Convert each of the following into an improper fraction Part (e): 71/7"
@@ -1254,8 +1410,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q08_a",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q08_a",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -1282,7 +1438,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q08_a_q1",
+          "id": "rsexch07ex22q08aq1",
           "prompt": {
             "english": "Convert each of the following into a mixed number Part (a): 11/4",
             "hindi": "Convert each of the following into a mixed number Part (a): 11/4"
@@ -1319,8 +1475,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q08_b",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q08_b",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -1347,7 +1503,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q08_b_q1",
+          "id": "rsexch07ex22q08bq1",
           "prompt": {
             "english": "Convert each of the following into a mixed number Part (b): 17/8",
             "hindi": "Convert each of the following into a mixed number Part (b): 17/8"
@@ -1384,8 +1540,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q08_c",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q08_c",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -1412,7 +1568,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q08_c_q1",
+          "id": "rsexch07ex22q08cq1",
           "prompt": {
             "english": "Convert each of the following into a mixed number Part (c): 23/6",
             "hindi": "Convert each of the following into a mixed number Part (c): 23/6"
@@ -1449,8 +1605,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q08_d",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q08_d",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -1477,7 +1633,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q08_d_q1",
+          "id": "rsexch07ex22q08dq1",
           "prompt": {
             "english": "Convert each of the following into a mixed number Part (d): 19/5",
             "hindi": "Convert each of the following into a mixed number Part (d): 19/5"
@@ -1514,8 +1670,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q08_e",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q08_e",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -1542,7 +1698,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q08_e_q1",
+          "id": "rsexch07ex22q08eq1",
           "prompt": {
             "english": "Convert each of the following into a mixed number Part (e): 15/7",
             "hindi": "Convert each of the following into a mixed number Part (e): 15/7"
@@ -1579,8 +1735,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q09_a",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q09_a",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -1607,7 +1763,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q09_a_q1",
+          "id": "rsexch07ex22q09aq1",
           "prompt": {
             "english": "Write four fractions equivalent to each of the following Part (a): 2/3",
             "hindi": "Write four fractions equivalent to each of the following Part (a): 2/3"
@@ -1644,8 +1800,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q09_b",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q09_b",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -1672,7 +1828,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q09_b_q1",
+          "id": "rsexch07ex22q09bq1",
           "prompt": {
             "english": "Write four fractions equivalent to each of the following Part (b): 5/6",
             "hindi": "Write four fractions equivalent to each of the following Part (b): 5/6"
@@ -1709,8 +1865,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q09_c",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q09_c",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -1737,7 +1893,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q09_c_q1",
+          "id": "rsexch07ex22q09cq1",
           "prompt": {
             "english": "Write four fractions equivalent to each of the following Part (c): 4/7",
             "hindi": "Write four fractions equivalent to each of the following Part (c): 4/7"
@@ -1774,8 +1930,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q09_d",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q09_d",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -1802,7 +1958,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q09_d_q1",
+          "id": "rsexch07ex22q09dq1",
           "prompt": {
             "english": "Write four fractions equivalent to each of the following Part (d): 3/5",
             "hindi": "Write four fractions equivalent to each of the following Part (d): 3/5"
@@ -1839,8 +1995,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q09_e",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q09_e",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -1867,7 +2023,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q09_e_q1",
+          "id": "rsexch07ex22q09eq1",
           "prompt": {
             "english": "Write four fractions equivalent to each of the following Part (e): 8/11",
             "hindi": "Write four fractions equivalent to each of the following Part (e): 8/11"
@@ -1904,8 +2060,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q10_a",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q10_a",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -1932,10 +2088,10 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q10_a_q1",
+          "id": "rsexch07ex22q10aq1",
           "prompt": {
-            "english": "Replace the blank in each of the following by the correct numeral Part (a): 3/5 = 12/____",
-            "hindi": "Replace the blank in each of the following by the correct numeral Part (a): 3/5 = 12/____"
+            "english": "Replace the blank in each of the following by the correct numeral Part (a): 3/5 = 12/__",
+            "hindi": "Replace the blank in each of the following by the correct numeral Part (a): 3/5 = 12/__"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -1968,8 +2124,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q10_b",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q10_b",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -1996,10 +2152,10 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q10_b_q1",
+          "id": "rsexch07ex22q10bq1",
           "prompt": {
-            "english": "Replace the blank in each of the following by the correct numeral Part (b): 6/13 = ____/52",
-            "hindi": "Replace the blank in each of the following by the correct numeral Part (b): 6/13 = ____/52"
+            "english": "Replace the blank in each of the following by the correct numeral Part (b): 6/13 = __/52",
+            "hindi": "Replace the blank in each of the following by the correct numeral Part (b): 6/13 = __/52"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -2032,8 +2188,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q10_c",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q10_c",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -2060,10 +2216,10 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q10_c_q1",
+          "id": "rsexch07ex22q10cq1",
           "prompt": {
-            "english": "Replace the blank in each of the following by the correct numeral Part (c): 7/17 = 35/____",
-            "hindi": "Replace the blank in each of the following by the correct numeral Part (c): 7/17 = 35/____"
+            "english": "Replace the blank in each of the following by the correct numeral Part (c): 7/17 = 35/__",
+            "hindi": "Replace the blank in each of the following by the correct numeral Part (c): 7/17 = 35/__"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -2096,8 +2252,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q10_d",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q10_d",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -2124,10 +2280,10 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q10_d_q1",
+          "id": "rsexch07ex22q10dq1",
           "prompt": {
-            "english": "Replace the blank in each of the following by the correct numeral Part (d): 11/27 = 33/____",
-            "hindi": "Replace the blank in each of the following by the correct numeral Part (d): 11/27 = 33/____"
+            "english": "Replace the blank in each of the following by the correct numeral Part (d): 11/27 = 33/__",
+            "hindi": "Replace the blank in each of the following by the correct numeral Part (d): 11/27 = 33/__"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -2160,8 +2316,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q11",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q11",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -2188,7 +2344,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q11_q1",
+          "id": "rsexch07ex22q11_q1",
           "prompt": {
             "english": "Find an equivalent fraction of 7/11 having denominator 33",
             "hindi": "Find an equivalent fraction of 7/11 having denominator 33"
@@ -2225,8 +2381,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q12",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q12",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -2253,7 +2409,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q12_q1",
+          "id": "rsexch07ex22q12_q1",
           "prompt": {
             "english": "Find an equivalent fraction of 5/6 having numerator 35",
             "hindi": "Find an equivalent fraction of 5/6 having numerator 35"
@@ -2290,8 +2446,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q13",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q13",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -2318,7 +2474,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q13_q1",
+          "id": "rsexch07ex22q13_q1",
           "prompt": {
             "english": "Find an equivalent fraction of 45/54 having numerator 5",
             "hindi": "Find an equivalent fraction of 45/54 having numerator 5"
@@ -2355,8 +2511,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q14",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q14",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -2383,7 +2539,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q14_q1",
+          "id": "rsexch07ex22q14_q1",
           "prompt": {
             "english": "Find an equivalent fraction of 35/40 having denominator 8",
             "hindi": "Find an equivalent fraction of 35/40 having denominator 8"
@@ -2420,8 +2576,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q15_a",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q15_a",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -2448,7 +2604,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q15_a_q1",
+          "id": "rsexch07ex22q15aq1",
           "prompt": {
             "english": "Check whether the given fractions are equivalent or not Part (a): 3/4 and 15/20",
             "hindi": "Check whether the given fractions are equivalent or not Part (a): 3/4 and 15/20"
@@ -2484,8 +2640,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q15_b",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q15_b",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -2512,7 +2668,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q15_b_q1",
+          "id": "rsexch07ex22q15bq1",
           "prompt": {
             "english": "Check whether the given fractions are equivalent or not Part (b): 4/5 and 12/20",
             "hindi": "Check whether the given fractions are equivalent or not Part (b): 4/5 and 12/20"
@@ -2548,8 +2704,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q15_c",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q15_c",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -2576,7 +2732,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q15_c_q1",
+          "id": "rsexch07ex22q15cq1",
           "prompt": {
             "english": "Check whether the given fractions are equivalent or not Part (c): 2/3 and 10/15",
             "hindi": "Check whether the given fractions are equivalent or not Part (c): 2/3 and 10/15"
@@ -2612,8 +2768,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q15_d",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q15_d",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -2640,7 +2796,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q15_d_q1",
+          "id": "rsexch07ex22q15dq1",
           "prompt": {
             "english": "Check whether the given fractions are equivalent or not Part (d): 5/8 and 15/24",
             "hindi": "Check whether the given fractions are equivalent or not Part (d): 5/8 and 15/24"
@@ -2676,8 +2832,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q15_e",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q15_e",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -2704,7 +2860,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q15_e_q1",
+          "id": "rsexch07ex22q15eq1",
           "prompt": {
             "english": "Check whether the given fractions are equivalent or not Part (e): 7/11 and 28/44",
             "hindi": "Check whether the given fractions are equivalent or not Part (e): 7/11 and 28/44"
@@ -2740,8 +2896,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex22_q15_f",
-      "sourceLessonId": "rs_exercise_ch07_ex22",
+      "id": "rsexch07ex22q15_f",
+      "sourceLessonId": "rsexercisech07_ex22",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -2768,7 +2924,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex22_q15_f_q1",
+          "id": "rsexch07ex22q15fq1",
           "prompt": {
             "english": "Check whether the given fractions are equivalent or not Part (f): 3/10 and 12/50",
             "hindi": "Check whether the given fractions are equivalent or not Part (f): 3/10 and 12/50"
@@ -2804,8 +2960,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q01",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q01",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -2832,7 +2988,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q01_q1",
+          "id": "rsexch07ex23q01_q1",
           "prompt": {
             "english": "Which of the following fractions are in simplest form?: 21/40",
             "hindi": "Which of the following fractions are in simplest form?: 21/40"
@@ -2868,8 +3024,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q02",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q02",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -2896,7 +3052,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q02_q1",
+          "id": "rsexch07ex23q02_q1",
           "prompt": {
             "english": "Which of the following fractions are in simplest form?: 24/35",
             "hindi": "Which of the following fractions are in simplest form?: 24/35"
@@ -2932,8 +3088,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q03",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q03",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -2960,7 +3116,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q03_q1",
+          "id": "rsexch07ex23q03_q1",
           "prompt": {
             "english": "Which of the following fractions are in simplest form?: 15/20",
             "hindi": "Which of the following fractions are in simplest form?: 15/20"
@@ -2996,8 +3152,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q04",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q04",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -3024,7 +3180,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q04_q1",
+          "id": "rsexch07ex23q04_q1",
           "prompt": {
             "english": "Which of the following fractions are in simplest form?: 36/81",
             "hindi": "Which of the following fractions are in simplest form?: 36/81"
@@ -3060,8 +3216,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q05",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q05",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -3088,7 +3244,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q05_q1",
+          "id": "rsexch07ex23q05_q1",
           "prompt": {
             "english": "Which of the following fractions are in simplest form?: 24/57",
             "hindi": "Which of the following fractions are in simplest form?: 24/57"
@@ -3124,8 +3280,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q06",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q06",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -3152,7 +3308,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q06_q1",
+          "id": "rsexch07ex23q06_q1",
           "prompt": {
             "english": "Which of the following fractions are in simplest form?: 28/39 Reduce each of the following fractions to simplest form",
             "hindi": "Which of the following fractions are in simplest form?: 28/39 Reduce each of the following fractions to simplest form"
@@ -3188,8 +3344,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q07",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q07",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -3216,7 +3372,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q07_q1",
+          "id": "rsexch07ex23q07_q1",
           "prompt": {
             "english": "Which of the following fractions are in simplest form?: 9/27",
             "hindi": "Which of the following fractions are in simplest form?: 9/27"
@@ -3253,8 +3409,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q08",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q08",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -3281,7 +3437,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q08_q1",
+          "id": "rsexch07ex23q08_q1",
           "prompt": {
             "english": "Which of the following fractions are in simplest form?: 16/24",
             "hindi": "Which of the following fractions are in simplest form?: 16/24"
@@ -3318,8 +3474,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q09",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q09",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -3346,7 +3502,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q09_q1",
+          "id": "rsexch07ex23q09_q1",
           "prompt": {
             "english": "Which of the following fractions are in simplest form?: 42/48",
             "hindi": "Which of the following fractions are in simplest form?: 42/48"
@@ -3383,8 +3539,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q10",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q10",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -3411,7 +3567,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q10_q1",
+          "id": "rsexch07ex23q10_q1",
           "prompt": {
             "english": "Which of the following fractions are in simplest form?: 45/54",
             "hindi": "Which of the following fractions are in simplest form?: 45/54"
@@ -3448,8 +3604,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q11",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q11",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -3476,7 +3632,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q11_q1",
+          "id": "rsexch07ex23q11_q1",
           "prompt": {
             "english": "Which of the following fractions are in simplest form?: 40/72",
             "hindi": "Which of the following fractions are in simplest form?: 40/72"
@@ -3513,8 +3669,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q12",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q12",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -3541,7 +3697,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q12_q1",
+          "id": "rsexch07ex23q12_q1",
           "prompt": {
             "english": "Which of the following fractions are in simplest form?: 38/95",
             "hindi": "Which of the following fractions are in simplest form?: 38/95"
@@ -3578,8 +3734,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q13",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q13",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -3606,7 +3762,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q13_q1",
+          "id": "rsexch07ex23q13_q1",
           "prompt": {
             "english": "Which of the following fractions are in simplest form?: 35/63",
             "hindi": "Which of the following fractions are in simplest form?: 35/63"
@@ -3643,8 +3799,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q14",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q14",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -3671,7 +3827,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q14_q1",
+          "id": "rsexch07ex23q14_q1",
           "prompt": {
             "english": "Which of the following fractions are in simplest form?: 56/70",
             "hindi": "Which of the following fractions are in simplest form?: 56/70"
@@ -3708,8 +3864,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q15",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q15",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -3736,7 +3892,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q15_q1",
+          "id": "rsexch07ex23q15_q1",
           "prompt": {
             "english": "Which of the following fractions are in simplest form?: 64/80",
             "hindi": "Which of the following fractions are in simplest form?: 64/80"
@@ -3773,8 +3929,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q16",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q16",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -3801,7 +3957,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q16_q1",
+          "id": "rsexch07ex23q16_q1",
           "prompt": {
             "english": "Which of the following fractions are in simplest form?: 44/66",
             "hindi": "Which of the following fractions are in simplest form?: 44/66"
@@ -3838,8 +3994,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q17",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q17",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -3866,7 +4022,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q17_q1",
+          "id": "rsexch07ex23q17_q1",
           "prompt": {
             "english": "Which of the following fractions are in simplest form?: 72/80",
             "hindi": "Which of the following fractions are in simplest form?: 72/80"
@@ -3903,8 +4059,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex23_q18",
-      "sourceLessonId": "rs_exercise_ch07_ex23",
+      "id": "rsexch07ex23q18",
+      "sourceLessonId": "rsexercisech07_ex23",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -3931,7 +4087,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex23_q18_q1",
+          "id": "rsexch07ex23q18_q1",
           "prompt": {
             "english": "Reduce each of the following fractions to simplest form: 51/68",
             "hindi": "Reduce each of the following fractions to simplest form: 51/68"
@@ -3968,8 +4124,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q01_a",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q01_a",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -3996,7 +4152,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q01_a_q1",
+          "id": "rsexch07ex24q01aq1",
           "prompt": {
             "english": "Which is the greater fraction in each of the following pairs? Part (a): 3/4, 1/4",
             "hindi": "Which is the greater fraction in each of the following pairs? Part (a): 3/4, 1/4"
@@ -4033,8 +4189,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q01_b",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q01_b",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -4061,7 +4217,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q01_b_q1",
+          "id": "rsexch07ex24q01bq1",
           "prompt": {
             "english": "Which is the greater fraction in each of the following pairs? Part (b): 4/7, 6/7",
             "hindi": "Which is the greater fraction in each of the following pairs? Part (b): 4/7, 6/7"
@@ -4098,8 +4254,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q01_c",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q01_c",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -4126,7 +4282,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q01_c_q1",
+          "id": "rsexch07ex24q01cq1",
           "prompt": {
             "english": "Which is the greater fraction in each of the following pairs? Part (c): 7/9, 5/9",
             "hindi": "Which is the greater fraction in each of the following pairs? Part (c): 7/9, 5/9"
@@ -4163,8 +4319,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q01_d",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q01_d",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -4191,7 +4347,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q01_d_q1",
+          "id": "rsexch07ex24q01dq1",
           "prompt": {
             "english": "Which is the greater fraction in each of the following pairs? Part (d): 8/13, 11/13",
             "hindi": "Which is the greater fraction in each of the following pairs? Part (d): 8/13, 11/13"
@@ -4228,8 +4384,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q01_e",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q01_e",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -4256,7 +4412,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q01_e_q1",
+          "id": "rsexch07ex24q01eq1",
           "prompt": {
             "english": "Which is the greater fraction in each of the following pairs? Part (e): 13/27, 23/27",
             "hindi": "Which is the greater fraction in each of the following pairs? Part (e): 13/27, 23/27"
@@ -4293,8 +4449,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q01_f",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q01_f",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -4321,7 +4477,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q01_f_q1",
+          "id": "rsexch07ex24q01fq1",
           "prompt": {
             "english": "Which is the greater fraction in each of the following pairs? Part (f): 17/21, 20/21",
             "hindi": "Which is the greater fraction in each of the following pairs? Part (f): 17/21, 20/21"
@@ -4358,8 +4514,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q02_a",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q02_a",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -4386,7 +4542,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q02_a_q1",
+          "id": "rsexch07ex24q02aq1",
           "prompt": {
             "english": "Which is the smaller fraction in each of the following pairs? Part (a): 1/3, 1/5",
             "hindi": "Which is the smaller fraction in each of the following pairs? Part (a): 1/3, 1/5"
@@ -4423,8 +4579,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q02_b",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q02_b",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -4451,7 +4607,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q02_b_q1",
+          "id": "rsexch07ex24q02bq1",
           "prompt": {
             "english": "Which is the smaller fraction in each of the following pairs? Part (b): 5/6, 5/7",
             "hindi": "Which is the smaller fraction in each of the following pairs? Part (b): 5/6, 5/7"
@@ -4488,8 +4644,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q02_c",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q02_c",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -4516,7 +4672,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q02_c_q1",
+          "id": "rsexch07ex24q02cq1",
           "prompt": {
             "english": "Which is the smaller fraction in each of the following pairs? Part (c): 4/9, 4/7",
             "hindi": "Which is the smaller fraction in each of the following pairs? Part (c): 4/9, 4/7"
@@ -4553,8 +4709,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q02_d",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q02_d",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -4581,7 +4737,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q02_d_q1",
+          "id": "rsexch07ex24q02dq1",
           "prompt": {
             "english": "Which is the smaller fraction in each of the following pairs? Part (d): 7/10, 7/13",
             "hindi": "Which is the smaller fraction in each of the following pairs? Part (d): 7/10, 7/13"
@@ -4618,8 +4774,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q02_e",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q02_e",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -4646,7 +4802,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q02_e_q1",
+          "id": "rsexch07ex24q02eq1",
           "prompt": {
             "english": "Which is the smaller fraction in each of the following pairs? Part (e): 8/9, 8/11",
             "hindi": "Which is the smaller fraction in each of the following pairs? Part (e): 8/9, 8/11"
@@ -4683,8 +4839,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q02_f",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q02_f",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -4711,7 +4867,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q02_f_q1",
+          "id": "rsexch07ex24q02fq1",
           "prompt": {
             "english": "Which is the smaller fraction in each of the following pairs? Part (f): 6/7, 6/5",
             "hindi": "Which is the smaller fraction in each of the following pairs? Part (f): 6/7, 6/5"
@@ -4748,8 +4904,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q03_a",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q03_a",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -4776,7 +4932,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q03_a_q1",
+          "id": "rsexch07ex24q03aq1",
           "prompt": {
             "english": "Arrange the following fractions in ascending order Part (a): 9/11, 3/11, 7/11, 6/11, 10/11",
             "hindi": "Arrange the following fractions in ascending order Part (a): 9/11, 3/11, 7/11, 6/11, 10/11"
@@ -4813,8 +4969,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q03_b",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q03_b",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -4841,7 +4997,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q03_b_q1",
+          "id": "rsexch07ex24q03bq1",
           "prompt": {
             "english": "Arrange the following fractions in ascending order Part (b): 8/15, 2/15, 11/15, 7/15, 13/15",
             "hindi": "Arrange the following fractions in ascending order Part (b): 8/15, 2/15, 11/15, 7/15, 13/15"
@@ -4878,8 +5034,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q03_c",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q03_c",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -4906,7 +5062,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q03_c_q1",
+          "id": "rsexch07ex24q03cq1",
           "prompt": {
             "english": "Arrange the following fractions in ascending order Part (c): 5/19, 13/19, 7/19, 3/19, 11/19",
             "hindi": "Arrange the following fractions in ascending order Part (c): 5/19, 13/19, 7/19, 3/19, 11/19"
@@ -4943,8 +5099,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q03_d",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q03_d",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -4971,7 +5127,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q03_d_q1",
+          "id": "rsexch07ex24q03dq1",
           "prompt": {
             "english": "Arrange the following fractions in ascending order Part (d): 12/25, 23/25, 9/25, 13/25, 11/25",
             "hindi": "Arrange the following fractions in ascending order Part (d): 12/25, 23/25, 9/25, 13/25, 11/25"
@@ -5008,8 +5164,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q04_a",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q04_a",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -5036,7 +5192,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q04_a_q1",
+          "id": "rsexch07ex24q04aq1",
           "prompt": {
             "english": "Arrange the following fractions in descending order Part (a): 3/7, 3/5, 3/11, 3/8, 3/14",
             "hindi": "Arrange the following fractions in descending order Part (a): 3/7, 3/5, 3/11, 3/8, 3/14"
@@ -5073,8 +5229,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q04_b",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q04_b",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -5101,7 +5257,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q04_b_q1",
+          "id": "rsexch07ex24q04bq1",
           "prompt": {
             "english": "Arrange the following fractions in descending order Part (b): 8/9, 8/15, 8/11, 8/17, 8/13",
             "hindi": "Arrange the following fractions in descending order Part (b): 8/9, 8/15, 8/11, 8/17, 8/13"
@@ -5138,8 +5294,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q04_c",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q04_c",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -5166,7 +5322,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q04_c_q1",
+          "id": "rsexch07ex24q04cq1",
           "prompt": {
             "english": "Arrange the following fractions in descending order Part (c): 5/8, 5/6, 5/11, 5/14, 5/12",
             "hindi": "Arrange the following fractions in descending order Part (c): 5/8, 5/6, 5/11, 5/14, 5/12"
@@ -5203,8 +5359,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex24_q04_d",
-      "sourceLessonId": "rs_exercise_ch07_ex24",
+      "id": "rsexch07ex24q04_d",
+      "sourceLessonId": "rsexercisech07_ex24",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -5231,7 +5387,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex24_q04_d_q1",
+          "id": "rsexch07ex24q04dq1",
           "prompt": {
             "english": "Arrange the following fractions in descending order Part (d): 10/21, 10/17, 10/19, 10/23, 10/11",
             "hindi": "Arrange the following fractions in descending order Part (d): 10/21, 10/17, 10/19, 10/23, 10/11"
@@ -5268,8 +5424,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q01_a",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q01_a",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -5296,7 +5452,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q01_a_q1",
+          "id": "rsexch07ex25q01aq1",
           "prompt": {
             "english": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (a): 25/7/8",
             "hindi": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (a): 25/7/8"
@@ -5332,8 +5488,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q01_b",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q01_b",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -5360,7 +5516,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q01_b_q1",
+          "id": "rsexch07ex25q01bq1",
           "prompt": {
             "english": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (b): 34/2/5",
             "hindi": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (b): 34/2/5"
@@ -5396,8 +5552,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q01_c",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q01_c",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -5424,7 +5580,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q01_c_q1",
+          "id": "rsexch07ex25q01cq1",
           "prompt": {
             "english": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (c): 174/13/3",
             "hindi": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (c): 174/13/3"
@@ -5460,8 +5616,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q01_d",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q01_d",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -5488,7 +5644,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q01_d_q1",
+          "id": "rsexch07ex25q01dq1",
           "prompt": {
             "english": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (d): 58/4/7",
             "hindi": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (d): 58/4/7"
@@ -5524,8 +5680,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q01_e",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q01_e",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -5552,7 +5708,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q01_e_q1",
+          "id": "rsexch07ex25q01eq1",
           "prompt": {
             "english": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (e): 46/6/9",
             "hindi": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (e): 46/6/9"
@@ -5588,8 +5744,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q01_f",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q01_f",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -5616,7 +5772,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q01_f_q1",
+          "id": "rsexch07ex25q01fq1",
           "prompt": {
             "english": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (f): 136/11/5",
             "hindi": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (f): 136/11/5"
@@ -5652,8 +5808,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q01_g",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q01_g",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -5680,7 +5836,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q01_g_q1",
+          "id": "rsexch07ex25q01gq1",
           "prompt": {
             "english": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (g): 710/5/9",
             "hindi": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (g): 710/5/9"
@@ -5716,8 +5872,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q01_h",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q01_h",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -5744,7 +5900,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q01_h_q1",
+          "id": "rsexch07ex25q01hq1",
           "prompt": {
             "english": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (h): 310/7/25",
             "hindi": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (h): 310/7/25"
@@ -5780,8 +5936,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q01_i",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q01_i",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -5808,7 +5964,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q01_i_q1",
+          "id": "rsexch07ex25q01iq1",
           "prompt": {
             "english": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (i): 38/2/9",
             "hindi": "Fill in each placeholder with the symbol >, < or = to make the statement true Part (i): 38/2/9"
@@ -5844,8 +6000,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q02_a",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q02_a",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -5872,7 +6028,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q02_a_q1",
+          "id": "rsexch07ex25q02aq1",
           "prompt": {
             "english": "Compare the following Part (a): 23/5, 23/4",
             "hindi": "Compare the following Part (a): 23/5, 23/4"
@@ -5908,8 +6064,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q02_b",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q02_b",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -5936,7 +6092,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q02_b_q1",
+          "id": "rsexch07ex25q02bq1",
           "prompt": {
             "english": "Compare the following Part (b): 31/3, 33/10",
             "hindi": "Compare the following Part (b): 31/3, 33/10"
@@ -5972,8 +6128,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q02_c",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q02_c",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -6000,7 +6156,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q02_c_q1",
+          "id": "rsexch07ex25q02cq1",
           "prompt": {
             "english": "Compare the following Part (c): 21/7, 17/9",
             "hindi": "Compare the following Part (c): 21/7, 17/9"
@@ -6036,8 +6192,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q02_d",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q02_d",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -6064,7 +6220,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q02_d_q1",
+          "id": "rsexch07ex25q02dq1",
           "prompt": {
             "english": "Compare the following Part (d): 42/7, 41/3",
             "hindi": "Compare the following Part (d): 42/7, 41/3"
@@ -6100,8 +6256,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q02_e",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q02_e",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -6128,7 +6284,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q02_e_q1",
+          "id": "rsexch07ex25q02eq1",
           "prompt": {
             "english": "Compare the following Part (e): 51/6, 51/4",
             "hindi": "Compare the following Part (e): 51/6, 51/4"
@@ -6164,8 +6320,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q02_f",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q02_f",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -6192,7 +6348,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q02_f_q1",
+          "id": "rsexch07ex25q02fq1",
           "prompt": {
             "english": "Compare the following Part (f): 2/1, 21/10",
             "hindi": "Compare the following Part (f): 2/1, 21/10"
@@ -6228,8 +6384,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q03_a",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q03_a",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -6256,7 +6412,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q03_a_q1",
+          "id": "rsexch07ex25q03aq1",
           "prompt": {
             "english": "Arrange the following fractions in an ascending order Part (a): 5/6, 7/9, 2/3, 11/12",
             "hindi": "Arrange the following fractions in an ascending order Part (a): 5/6, 7/9, 2/3, 11/12"
@@ -6293,8 +6449,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q03_b",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q03_b",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -6321,7 +6477,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q03_b_q1",
+          "id": "rsexch07ex25q03bq1",
           "prompt": {
             "english": "Arrange the following fractions in an ascending order Part (b): 4/5, 7/10, 8/15, 1/2",
             "hindi": "Arrange the following fractions in an ascending order Part (b): 4/5, 7/10, 8/15, 1/2"
@@ -6358,8 +6514,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q03_c",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q03_c",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -6386,7 +6542,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q03_c_q1",
+          "id": "rsexch07ex25q03cq1",
           "prompt": {
             "english": "Arrange the following fractions in an ascending order Part (c): 1/3, 3/10, 5/6, 2/5",
             "hindi": "Arrange the following fractions in an ascending order Part (c): 1/3, 3/10, 5/6, 2/5"
@@ -6423,8 +6579,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q03_d",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q03_d",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -6451,7 +6607,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q03_d_q1",
+          "id": "rsexch07ex25q03dq1",
           "prompt": {
             "english": "Arrange the following fractions in an ascending order Part (d): 7/8, 5/12, 15/16, 17/24",
             "hindi": "Arrange the following fractions in an ascending order Part (d): 7/8, 5/12, 15/16, 17/24"
@@ -6488,8 +6644,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q04_a",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q04_a",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -6516,7 +6672,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q04_a_q1",
+          "id": "rsexch07ex25q04aq1",
           "prompt": {
             "english": "Arrange the following fractions in a descending order Part (a): 1/2, 3/4, 5/8, 9/16",
             "hindi": "Arrange the following fractions in a descending order Part (a): 1/2, 3/4, 5/8, 9/16"
@@ -6553,8 +6709,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q04_b",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q04_b",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -6581,7 +6737,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q04_b_q1",
+          "id": "rsexch07ex25q04bq1",
           "prompt": {
             "english": "Arrange the following fractions in a descending order Part (b): 2/7, 11/35, 9/14, 13/28",
             "hindi": "Arrange the following fractions in a descending order Part (b): 2/7, 11/35, 9/14, 13/28"
@@ -6618,8 +6774,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q04_c",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q04_c",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -6646,7 +6802,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q04_c_q1",
+          "id": "rsexch07ex25q04cq1",
           "prompt": {
             "english": "Arrange the following fractions in a descending order Part (c): 3/4, 7/8, 7/12, 17/24",
             "hindi": "Arrange the following fractions in a descending order Part (c): 3/4, 7/8, 7/12, 17/24"
@@ -6683,8 +6839,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q04_d",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q04_d",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -6711,7 +6867,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q04_d_q1",
+          "id": "rsexch07ex25q04dq1",
           "prompt": {
             "english": "Arrange the following fractions in a descending order Part (d): 2/5, 3/10, 7/15, 1/2",
             "hindi": "Arrange the following fractions in a descending order Part (d): 2/5, 3/10, 7/15, 1/2"
@@ -6748,8 +6904,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q04_e",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q04_e",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -6776,7 +6932,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q04_e_q1",
+          "id": "rsexch07ex25q04eq1",
           "prompt": {
             "english": "Arrange the following fractions in a descending order Part (e): 5/9, 3/12, 1/3, 4/15",
             "hindi": "Arrange the following fractions in a descending order Part (e): 5/9, 3/12, 1/3, 4/15"
@@ -6813,8 +6969,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch07_ex25_q04_f",
-      "sourceLessonId": "rs_exercise_ch07_ex25",
+      "id": "rsexch07ex25q04_f",
+      "sourceLessonId": "rsexercisech07_ex25",
       "chapterNumber": 7,
       "chapterTitle": {
         "english": "Fractions",
@@ -6841,7 +6997,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch07_ex25_q04_f_q1",
+          "id": "rsexch07ex25q04fq1",
           "prompt": {
             "english": "Arrange the following fractions in a descending order Part (f): 3/8, 1/2, 5/6, 2/3",
             "hindi": "Arrange the following fractions in a descending order Part (f): 3/8, 1/2, 5/6, 2/3"

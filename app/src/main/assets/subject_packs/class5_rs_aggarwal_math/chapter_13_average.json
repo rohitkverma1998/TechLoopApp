@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch13_average_of_observations",
+      "id": "rsch13averageofobservations",
       "sourceLessonId": "rs_ch13",
       "chapterNumber": 13,
       "chapterTitle": {
@@ -29,12 +29,22 @@
         "english": "Average of Observations",
         "hindi": "प्रेक्षणों का औसत"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**What is an Average?**\nAverage is a single number that represents a group of numbers. It tells us the \"middle\" or \"typical\" value of a set of data.\n\n**Formula:**\n> **Average = Sum of all observations ÷ Number of observations**\n\n**When is it used?**\n- Average speed of a car on a journey\n- Average marks in an exam\n- Average rainfall over several days\n\n**Example:** A car travels 200 km in the first hour and 160 km in the second hour. Average speed = (200 + 160) ÷ 2 = 360 ÷ 2 = **180 km/h**",
+          "hindi": "## व्याख्या (हिंदी)\n\n**औसत क्या है?**\nऔसत एक ऐसी संख्या है जो संख्याओं के एक समूह को दर्शाती है। यह हमें डेटा के \"मध्य\" या \"सामान्य\" मान के बारे में बताती है।\n\n**सूत्र:**\n> **औसत = सभी प्रेक्षणों का योग ÷ प्रेक्षणों की संख्या**\n\n**इसका उपयोग कब होता है?**\n- यात्रा में कार की औसत गति\n- परीक्षा में औसत अंक\n- कई दिनों में औसत वर्षा\n\n**उदाहरण:** एक कार पहले घंटे में 200 किमी और दूसरे घंटे में 160 किमी चलती है। औसत गति = (200 + 160) ÷ 2 = 360 ÷ 2 = **180 किमी/घंटा**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** A car travels 200 km in the first hour and 160 km in the second hour. Average speed = (200 + 160) ÷ 2 = 360 ÷ 2 = **180 km/h**",
+          "hindi": "**उदाहरण:** एक कार पहले घंटे में 200 किमी और दूसरे घंटे में 160 किमी चलती है। औसत गति = (200 + 160) ÷ 2 = 360 ÷ 2 = **180 किमी/घंटा**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "average_of_observations_q1",
+          "id": "averageofobservations_q1",
           "prompt": {
             "english": "A car covers 324 km in 6 hours. What is its average speed per hour?",
             "hindi": "एक कार 6 घंटों में 324 किमी चलती है। उसकी प्रति घंटे औसत चाल कितनी है?"
@@ -48,11 +58,41 @@
             "54 km per hour"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Formula:** Average speed = Total distance ÷ Total time\n\n**Step 1:** Total distance = 324 km\n**Step 2:** Total time = 6 hours\n\n**Step 3:** Average speed = 324 ÷ 6 = **54 km/h**\n\nThis means the car covered 54 km every hour on average.\n\n**Answer: 54 km/h**",
+            "hindi": "**Formula:** Average speed = Total distance ÷ Total time\n\n**Step 1:** Total distance = 324 km\n**Step 2:** Total time = 6 hours\n\n**Step 3:** Average speed = 324 ÷ 6 = **54 km/h**\n\nThis means the car covered 54 km every hour on average.\n\n**Answer: 54 km/h**"
+          },
+          "supportExample": {
+            "english": "**Formula:** Average speed = Total distance ÷ Total time\n**Step 1:** Total distance = 324 km\n**Step 2:** Total time = 6 hours",
+            "hindi": "**Formula:** Average speed = Total distance ÷ Total time\n**Step 1:** Total distance = 324 km\n**Step 2:** Total time = 6 hours"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Formula:** Average speed = Total distance ÷ Total time",
+              "hindi": "**Formula:** Average speed = Total distance ÷ Total time"
+            },
+            {
+              "english": "**Step 1:** Total distance = 324 km\n**Step 2:** Total time = 6 hours",
+              "hindi": "**Step 1:** Total distance = 324 km\n**Step 2:** Total time = 6 hours"
+            },
+            {
+              "english": "**Step 3:** Average speed = 324 ÷ 6 = **54 km/h**",
+              "hindi": "**Step 3:** Average speed = 324 ÷ 6 = **54 km/h**"
+            },
+            {
+              "english": "This means the car covered 54 km every hour on average.",
+              "hindi": "This means the car covered 54 km every hour on average."
+            },
+            {
+              "english": "**Answer: 54 km/h**",
+              "hindi": "**Answer: 54 km/h**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -68,7 +108,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch13_average_of_numbers",
+      "id": "rsch13averageofnumbers",
       "sourceLessonId": "rs_ch13",
       "chapterNumber": 13,
       "chapterTitle": {
@@ -91,12 +131,22 @@
         "english": "Average of Numbers",
         "hindi": "संख्याओं का औसत"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "To find the average of a group of numbers:\n1. **Add** all the numbers together (find the sum).\n2. **Divide** the sum by how many numbers there are.\n\n**Example:** Average of 10, 20, 30\n- Sum = 10 + 20 + 30 = 60\n- Count = 3\n- Average = 60 ÷ 3 = **20**\n\nThink of it like distributing sweets equally — if 3 children share 60 sweets equally, each gets 20.",
+          "hindi": "## व्याख्या (हिंदी)\n\nसंख्याओं का औसत निकालने के लिए:\n1. सभी संख्याएं **जोड़ें** (योग निकालें)।\n2. योग को संख्याओं की **गिनती से भाग** दें।\n\n**उदाहरण:** 10, 20, 30 का औसत\n- योग = 10 + 20 + 30 = 60\n- संख्याओं की गिनती = 3\n- औसत = 60 ÷ 3 = **20**\n\nइसे ऐसे सोचें — अगर 3 बच्चे 60 मिठाइयाँ बराबर बाँटें, तो हर बच्चे को 20 मिलेंगी।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Average of 10, 20, 30\n- Sum = 10 + 20 + 30 = 60\n- Count = 3\n- Average = 60 ÷ 3 = **20**",
+          "hindi": "**उदाहरण:** 10, 20, 30 का औसत\n- योग = 10 + 20 + 30 = 60\n- संख्याओं की गिनती = 3\n- औसत = 60 ÷ 3 = **20**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "average_of_numbers_q1",
+          "id": "averageofnumbers_q1",
           "prompt": {
             "english": "Find the average of 9, 11, 13, 15 and 17.",
             "hindi": "9, 11, 13, 15 और 17 का औसत लिखिए।"
@@ -108,11 +158,37 @@
             "13"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Add all the numbers.\n- 9 + 11 + 13 + 15 + 17 = **65**\n\n**Step 2:** Count how many numbers there are.\n- Count = **5**\n\n**Step 3:** Divide the sum by the count.\n- Average = 65 ÷ 5 = **13**\n\n**Answer: 13**",
+            "hindi": "**Step 1:** Add all the numbers.\n- 9 + 11 + 13 + 15 + 17 = **65**\n\n**Step 2:** Count how many numbers there are.\n- Count = **5**\n\n**Step 3:** Divide the sum by the count.\n- Average = 65 ÷ 5 = **13**\n\n**Answer: 13**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Add all the numbers.\n- 9 + 11 + 13 + 15 + 17 = **65**\n**Step 2:** Count how many numbers there are.\n- Count = **5**",
+            "hindi": "**Step 1:** Add all the numbers.\n- 9 + 11 + 13 + 15 + 17 = **65**\n**Step 2:** Count how many numbers there are.\n- Count = **5**"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Add all the numbers.\n- 9 + 11 + 13 + 15 + 17 = **65**",
+              "hindi": "**Step 1:** Add all the numbers.\n- 9 + 11 + 13 + 15 + 17 = **65**"
+            },
+            {
+              "english": "**Step 2:** Count how many numbers there are.\n- Count = **5**",
+              "hindi": "**Step 2:** Count how many numbers there are.\n- Count = **5**"
+            },
+            {
+              "english": "**Step 3:** Divide the sum by the count.\n- Average = 65 ÷ 5 = **13**",
+              "hindi": "**Step 3:** Divide the sum by the count.\n- Average = 65 ÷ 5 = **13**"
+            },
+            {
+              "english": "**Answer: 13**",
+              "hindi": "**Answer: 13**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -128,8 +204,8 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ex_ch13_ex60_q01",
-      "sourceLessonId": "rs_exercise_ch13_ex60",
+      "id": "rsexch13ex60q01",
+      "sourceLessonId": "rsexercisech13_ex60",
       "chapterNumber": 13,
       "chapterTitle": {
         "english": "Average",
@@ -156,7 +232,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch13_ex60_q01_q1",
+          "id": "rsexch13ex60q01_q1",
           "prompt": {
             "english": "Find the average of 9, 11, 13, 15 and 17",
             "hindi": "Find the average of 9, 11, 13, 15 and 17"
@@ -192,8 +268,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch13_ex60_q02",
-      "sourceLessonId": "rs_exercise_ch13_ex60",
+      "id": "rsexch13ex60q02",
+      "sourceLessonId": "rsexercisech13_ex60",
       "chapterNumber": 13,
       "chapterTitle": {
         "english": "Average",
@@ -220,7 +296,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch13_ex60_q02_q1",
+          "id": "rsexch13ex60q02_q1",
           "prompt": {
             "english": "Find the average of 9.3, 6.7, 7.4 and 8.2",
             "hindi": "Find the average of 9.3, 6.7, 7.4 and 8.2"
@@ -256,8 +332,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch13_ex60_q03",
-      "sourceLessonId": "rs_exercise_ch13_ex60",
+      "id": "rsexch13ex60q03",
+      "sourceLessonId": "rsexercisech13_ex60",
       "chapterNumber": 13,
       "chapterTitle": {
         "english": "Average",
@@ -284,7 +360,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch13_ex60_q03_q1",
+          "id": "rsexch13ex60q03_q1",
           "prompt": {
             "english": "Find the average of 6 2 5, 5 3 10, 4 1 5 and 7 7",
             "hindi": "Find the average of 6 2 5, 5 3 10, 4 1 5 and 7 7"
@@ -320,8 +396,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch13_ex60_q04",
-      "sourceLessonId": "rs_exercise_ch13_ex60",
+      "id": "rsexch13ex60q04",
+      "sourceLessonId": "rsexercisech13_ex60",
       "chapterNumber": 13,
       "chapterTitle": {
         "english": "Average",
@@ -348,7 +424,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch13_ex60_q04_q1",
+          "id": "rsexch13ex60q04_q1",
           "prompt": {
             "english": "Find the average of first nine counting numbers",
             "hindi": "Find the average of first nine counting numbers"
@@ -384,8 +460,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch13_ex60_q05",
-      "sourceLessonId": "rs_exercise_ch13_ex60",
+      "id": "rsexch13ex60q05",
+      "sourceLessonId": "rsexercisech13_ex60",
       "chapterNumber": 13,
       "chapterTitle": {
         "english": "Average",
@@ -412,7 +488,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch13_ex60_q05_q1",
+          "id": "rsexch13ex60q05_q1",
           "prompt": {
             "english": "Find the average of all odd numbers between 50 and 60",
             "hindi": "Find the average of all odd numbers between 50 and 60"
@@ -448,8 +524,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch13_ex60_q06",
-      "sourceLessonId": "rs_exercise_ch13_ex60",
+      "id": "rsexch13ex60q06",
+      "sourceLessonId": "rsexercisech13_ex60",
       "chapterNumber": 13,
       "chapterTitle": {
         "english": "Average",
@@ -476,7 +552,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch13_ex60_q06_q1",
+          "id": "rsexch13ex60q06_q1",
           "prompt": {
             "english": "Find the average of all even numbers between 7 and 17",
             "hindi": "Find the average of all even numbers between 7 and 17"
@@ -512,8 +588,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch13_ex60_q07",
-      "sourceLessonId": "rs_exercise_ch13_ex60",
+      "id": "rsexch13ex60q07",
+      "sourceLessonId": "rsexercisech13_ex60",
       "chapterNumber": 13,
       "chapterTitle": {
         "english": "Average",
@@ -540,7 +616,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch13_ex60_q07_q1",
+          "id": "rsexch13ex60q07_q1",
           "prompt": {
             "english": "Find the average of all prime numbers between 20 and 40",
             "hindi": "Find the average of all prime numbers between 20 and 40"
@@ -576,8 +652,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch13_ex60_q08",
-      "sourceLessonId": "rs_exercise_ch13_ex60",
+      "id": "rsexch13ex60q08",
+      "sourceLessonId": "rsexercisech13_ex60",
       "chapterNumber": 13,
       "chapterTitle": {
         "english": "Average",
@@ -604,7 +680,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch13_ex60_q08_q1",
+          "id": "rsexch13ex60q08_q1",
           "prompt": {
             "english": "Find the average of first six multiples of 3",
             "hindi": "Find the average of first six multiples of 3"
@@ -640,8 +716,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch13_ex60_q09",
-      "sourceLessonId": "rs_exercise_ch13_ex60",
+      "id": "rsexch13ex60q09",
+      "sourceLessonId": "rsexercisech13_ex60",
       "chapterNumber": 13,
       "chapterTitle": {
         "english": "Average",
@@ -668,7 +744,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch13_ex60_q09_q1",
+          "id": "rsexch13ex60q09_q1",
           "prompt": {
             "english": "In a Cricket Test Series of 6 matches Hemant scored 102, 56, 230, 40, 180 and 124 runs. Find his average score per match",
             "hindi": "In a Cricket Test Series of 6 matches Hemant scored 102, 56, 230, 40, 180 and 124 runs. Find his average score per match"
@@ -704,8 +780,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch13_ex60_q10",
-      "sourceLessonId": "rs_exercise_ch13_ex60",
+      "id": "rsexch13ex60q10",
+      "sourceLessonId": "rsexercisech13_ex60",
       "chapterNumber": 13,
       "chapterTitle": {
         "english": "Average",
@@ -732,7 +808,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch13_ex60_q10_q1",
+          "id": "rsexch13ex60q10_q1",
           "prompt": {
             "english": "4. Find the average of first nine counting numbers",
             "hindi": "4. Find the average of first nine counting numbers"
@@ -769,8 +845,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch13_ex60_q11",
-      "sourceLessonId": "rs_exercise_ch13_ex60",
+      "id": "rsexch13ex60q11",
+      "sourceLessonId": "rsexercisech13_ex60",
       "chapterNumber": 13,
       "chapterTitle": {
         "english": "Average",
@@ -797,7 +873,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch13_ex60_q11_q1",
+          "id": "rsexch13ex60q11_q1",
           "prompt": {
             "english": "During five successive hours a car covered 65 km, 72 km, 68 km, 70 km and 55 km. Find the average speed of the car per hour",
             "hindi": "During five successive hours a car covered 65 km, 72 km, 68 km, 70 km and 55 km. Find the average speed of the car per hour"
@@ -834,8 +910,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch13_ex60_q12",
-      "sourceLessonId": "rs_exercise_ch13_ex60",
+      "id": "rsexch13ex60q12",
+      "sourceLessonId": "rsexercisech13_ex60",
       "chapterNumber": 13,
       "chapterTitle": {
         "english": "Average",
@@ -862,7 +938,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch13_ex60_q12_q1",
+          "id": "rsexch13ex60q12_q1",
           "prompt": {
             "english": "The ages of five girls in a group are: 16 years 4 months; 15 years 8 months; 14 years 9 months; 15 years 3 months and 14 years 8 months. Find the average age per girl in the group",
             "hindi": "The ages of five girls in a group are: 16 years 4 months; 15 years 8 months; 14 years 9 months; 15 years 3 months and 14 years 8 months. Find the average age per girl in the group"
@@ -898,8 +974,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch13_ex60_q13",
-      "sourceLessonId": "rs_exercise_ch13_ex60",
+      "id": "rsexch13ex60q13",
+      "sourceLessonId": "rsexercisech13_ex60",
       "chapterNumber": 13,
       "chapterTitle": {
         "english": "Average",
@@ -926,7 +1002,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch13_ex60_q13_q1",
+          "id": "rsexch13ex60q13_q1",
           "prompt": {
             "english": "The lengths of 4 pieces of wire are: 16 m 80 cm, 17 m 25 cm, 13 m 75 cm and 12 m 20 cm. Find the average length per piece",
             "hindi": "The lengths of 4 pieces of wire are: 16 m 80 cm, 17 m 25 cm, 13 m 75 cm and 12 m 20 cm. Find the average length per piece"
@@ -963,8 +1039,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch13_ex60_q14",
-      "sourceLessonId": "rs_exercise_ch13_ex60",
+      "id": "rsexch13ex60q14",
+      "sourceLessonId": "rsexercisech13_ex60",
       "chapterNumber": 13,
       "chapterTitle": {
         "english": "Average",
@@ -991,7 +1067,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch13_ex60_q14_q1",
+          "id": "rsexch13ex60q14_q1",
           "prompt": {
             "english": "A man earned Rs 8500 per month during the first 4 months and Rs 10000 per month during the next 2 months. Find his average earning per month during this period",
             "hindi": "A man earned Rs 8500 per month during the first 4 months and Rs 10000 per month during the next 2 months. Find his average earning per month during this period"

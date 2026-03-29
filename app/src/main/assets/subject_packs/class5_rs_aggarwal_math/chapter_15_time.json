@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch15_the_24_hour_clock",
+      "id": "rsch15the24hour_clock",
       "sourceLessonId": "rs_ch15",
       "chapterNumber": 15,
       "chapterTitle": {
@@ -29,12 +29,17 @@
         "english": "The 24-Hour Clock",
         "hindi": "24-घंटे की घड़ी"
       },
-      "explanationParagraphs": [],
+      "explanationParagraphs": [
+        {
+          "english": "There are two ways to tell time:\n\n**12-hour clock:** Uses 1–12 with **a.m.** (before noon) and **p.m.** (after noon).\n- 12-hour goes from 12:00 midnight → 12:00 noon → 12:00 midnight again.\n\n**24-hour clock (used in railways, airports, army):** Uses 0000 to 2359. No a.m./p.m. needed.\n\n**Converting 24-hour to 12-hour:**\n| 24-hour time | 12-hour time |\n|---|---|\n| 0000–0959 | 12:00 midnight to 9:59 a.m. |\n| 1000–1159 | 10:00 a.m. to 11:59 a.m. |\n| 1200 | 12:00 noon |\n| 1201–2359 | 12:01 p.m. to 11:59 p.m. |\n\n**Rule to convert 24-hr to 12-hr for afternoon (1300 onwards):**\n- Subtract 1200, then add p.m.\n- 14:35 → 14:35 - 12:00 = **2:35 p.m.**",
+          "hindi": "## व्याख्या (हिंदी)\n\nसमय बताने के दो तरीके हैं:\n\n**12-घंटे की घड़ी:** 1 से 12 तक, **a.m.** (दोपहर से पहले) और **p.m.** (दोपहर के बाद) के साथ।\n\n**24-घंटे की घड़ी (रेलवे, हवाई अड्डा, सेना में उपयोग):** 0000 से 2359 तक। a.m./p.m. की जरूरत नहीं।\n\n**24-घंटे से 12-घंटे में बदलना:**\n| 24-घंटे | 12-घंटे |\n|---|---|\n| 0000–1159 | a.m. समय |\n| 1200 | दोपहर 12 बजे |\n| 1201–2359 | p.m. समय |\n\n**दोपहर के बाद (1300 से आगे) के लिए नियम:**\n- 1200 घटाएं, फिर p.m. लगाएं।\n- 14:35 → 14:35 - 12:00 = **2:35 p.m.**"
+        }
+      ],
       "examples": [],
       "visuals": [],
       "questions": [
         {
-          "id": "the_24_hour_clock_q1",
+          "id": "the24hourclockq1",
           "prompt": {
             "english": "Write 14:35 in the 12-hour clock system.",
             "hindi": "14:35 को 12-घंटे की घड़ी में लिखिए।"
@@ -47,11 +52,37 @@
             "2:35 pm"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Since 14:35 is after 12:00, it is a p.m. time.\n\n**Step 2:** Subtract 12:00 from 14:35.\n- 14 - 12 = 2 hours\n- Minutes stay the same: 35 minutes\n\n**Step 3:** Write with p.m.\n\n**Answer: 2:35 p.m.**",
+            "hindi": "**Step 1:** Since 14:35 is after 12:00, it is a p.m. time.\n\n**Step 2:** Subtract 12:00 from 14:35.\n- 14 - 12 = 2 hours\n- Minutes stay the same: 35 minutes\n\n**Step 3:** Write with p.m.\n\n**Answer: 2:35 p.m.**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Since 14:35 is after 12:00, it is a p.m. time.\n**Step 2:** Subtract 12:00 from 14:35.\n- 14 - 12 = 2 hours\n- Minutes stay the same: 35 minutes",
+            "hindi": "**Step 1:** Since 14:35 is after 12:00, it is a p.m. time.\n**Step 2:** Subtract 12:00 from 14:35.\n- 14 - 12 = 2 hours\n- Minutes stay the same: 35 minutes"
+          },
           "mistakeType": "TIME_READING",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Since 14:35 is after 12:00, it is a p.m. time.",
+              "hindi": "**Step 1:** Since 14:35 is after 12:00, it is a p.m. time."
+            },
+            {
+              "english": "**Step 2:** Subtract 12:00 from 14:35.\n- 14 - 12 = 2 hours\n- Minutes stay the same: 35 minutes",
+              "hindi": "**Step 2:** Subtract 12:00 from 14:35.\n- 14 - 12 = 2 hours\n- Minutes stay the same: 35 minutes"
+            },
+            {
+              "english": "**Step 3:** Write with p.m.",
+              "hindi": "**Step 3:** Write with p.m."
+            },
+            {
+              "english": "**Answer: 2:35 p.m.**",
+              "hindi": "**Answer: 2:35 p.m.**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -67,7 +98,7 @@
       "mistakeFocus": "TIME_READING"
     },
     {
-      "id": "rs_ch15_clocks_with_three_hands",
+      "id": "rsch15clockswiththree_hands",
       "sourceLessonId": "rs_ch15",
       "chapterNumber": 15,
       "chapterTitle": {
@@ -90,12 +121,17 @@
         "english": "Clocks with Three Hands",
         "hindi": "तीन सुइयों वाली घड़ी"
       },
-      "explanationParagraphs": [],
+      "explanationParagraphs": [
+        {
+          "english": "Most analog clocks have **two hands** (hour and minute). Some clocks have **three hands**:\n\n1. **Hour hand (short, thick):** Moves slowly, completes one full round in 12 hours.\n2. **Minute hand (long, thick):** Completes one full round in 60 minutes (1 hour).\n3. **Second hand (thin, fast-moving):** Completes one full round in 60 seconds. This is the thinnest, fastest-moving hand.\n\n**Remember:**\n- The second hand moves visibly and quickly.\n- The minute hand moves slowly.\n- The hour hand barely seems to move.",
+          "hindi": "## व्याख्या (हिंदी)\n\nअधिकतर एनालॉग घड़ियों में **दो सुइयाँ** होती हैं (घंटे और मिनट)। कुछ घड़ियों में **तीन सुइयाँ** होती हैं:\n\n1. **घंटे की सुई (छोटी, मोटी):** धीरे-धीरे चलती है, 12 घंटे में एक चक्कर पूरा करती है।\n2. **मिनट की सुई (लंबी, मोटी):** 60 मिनट में एक चक्कर पूरा करती है।\n3. **सेकंड की सुई (पतली, तेज):** 60 सेकंड में एक चक्कर पूरा करती है। यह सबसे पतली और सबसे तेज चलने वाली सुई है।\n\n**याद रखें:**\n- सेकंड की सुई दिखाई देती है और तेज चलती है।\n- मिनट की सुई धीरे चलती है।\n- घंटे की सुई मुश्किल से हिलती दिखती है।"
+        }
+      ],
       "examples": [],
       "visuals": [],
       "questions": [
         {
-          "id": "clocks_with_three_hands_q1",
+          "id": "clockswiththreehandsq1",
           "prompt": {
             "english": "Which hand on a clock shows seconds?",
             "hindi": "घड़ी में सेकंड कौन-सी सुई दिखाती है?"
@@ -122,11 +158,33 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "A clock with three hands has:\n- Hour hand (short, thick)\n- Minute hand (long, thick)\n- Second hand (thinnest, moves fastest)\n\nThe **second hand** is the thinnest moving hand and completes one full round every 60 seconds. You can see it ticking around the clock face quickly.\n\n**Answer: The thinnest moving hand (second hand)**",
+            "hindi": "A clock with three hands has:\n- Hour hand (short, thick)\n- Minute hand (long, thick)\n- Second hand (thinnest, moves fastest)\n\nThe **second hand** is the thinnest moving hand and completes one full round every 60 seconds. You can see it ticking around the clock face quickly.\n\n**Answer: The thinnest moving hand (second hand)**"
+          },
+          "supportExample": {
+            "english": "A clock with three hands has:\n- Hour hand (short, thick)\n- Minute hand (long, thick)\n- Second hand (thinnest, moves fastest)\nThe **second hand** is the thinnest moving hand and completes one full round every 60 seconds. You can see it ticking around the clock face quickly.",
+            "hindi": "A clock with three hands has:\n- Hour hand (short, thick)\n- Minute hand (long, thick)\n- Second hand (thinnest, moves fastest)\nThe **second hand** is the thinnest moving hand and completes one full round every 60 seconds. You can see it ticking around the clock face quickly."
+          },
           "mistakeType": "TIME_READING",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A clock with three hands has:\n- Hour hand (short, thick)\n- Minute hand (long, thick)\n- Second hand (thinnest, moves fastest)",
+              "hindi": "A clock with three hands has:\n- Hour hand (short, thick)\n- Minute hand (long, thick)\n- Second hand (thinnest, moves fastest)"
+            },
+            {
+              "english": "The **second hand** is the thinnest moving hand and completes one full round every 60 seconds. You can see it ticking around the clock face quickly.",
+              "hindi": "The **second hand** is the thinnest moving hand and completes one full round every 60 seconds. You can see it ticking around the clock face quickly."
+            },
+            {
+              "english": "**Answer: The thinnest moving hand (second hand)**",
+              "hindi": "**Answer: The thinnest moving hand (second hand)**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -142,7 +200,7 @@
       "mistakeFocus": "TIME_READING"
     },
     {
-      "id": "rs_ch15_conversion_of_time_and_higher_units_into_lower_units",
+      "id": "rsch15conversionoftimeandhigherunitsintolowerunits",
       "sourceLessonId": "rs_ch15",
       "chapterNumber": 15,
       "chapterTitle": {
@@ -165,12 +223,22 @@
         "english": "Conversion of Time and Higher Units into Lower Units",
         "hindi": "समय का रूपांतरण और बड़ी इकाइयों को छोटी इकाइयों में बदलना"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Units of Time and their relationships:**\n- 1 minute = 60 seconds\n- 1 hour = 60 minutes\n- 1 day = 24 hours\n- 1 week = 7 days\n- 1 month = 30 or 31 days (28/29 for February)\n- 1 year = 12 months = 365 days (366 in a leap year)\n\n**Converting higher to lower = Multiply**\n- Hours to minutes: × 60\n- Minutes to seconds: × 60\n- Days to hours: × 24\n\n**Example:** 3 hours 20 minutes into minutes\n- 3 hours = 3 × 60 = 180 minutes\n- Total = 180 + 20 = **200 minutes**",
+          "hindi": "## व्याख्या (हिंदी)\n\n**समय की इकाइयाँ और उनके संबंध:**\n- 1 मिनट = 60 सेकंड\n- 1 घंटा = 60 मिनट\n- 1 दिन = 24 घंटे\n- 1 सप्ताह = 7 दिन\n- 1 महीना = 30 या 31 दिन (फरवरी = 28/29)\n- 1 वर्ष = 12 महीने = 365 दिन (लीप वर्ष = 366)\n\n**बड़ी → छोटी इकाई = गुणा**\n- घंटे से मिनट: × 60\n- मिनट से सेकंड: × 60\n- दिन से घंटे: × 24\n\n**उदाहरण:** 3 घंटे 20 मिनट को मिनटों में\n- 3 घंटे = 3 × 60 = 180 मिनट\n- कुल = 180 + 20 = **200 मिनट**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** 3 hours 20 minutes into minutes\n- 3 hours = 3 × 60 = 180 minutes\n- Total = 180 + 20 = **200 minutes**",
+          "hindi": "**उदाहरण:** 3 घंटे 20 मिनट को मिनटों में\n- 3 घंटे = 3 × 60 = 180 मिनट\n- कुल = 180 + 20 = **200 मिनट**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "conversion_of_time_and_higher_units_into_lower_units_q1",
+          "id": "conversionoftimeandhigherunitsintolowerunits_q1",
           "prompt": {
             "english": "Convert 2 hours 15 minutes into minutes.",
             "hindi": "2 घंटे 15 मिनट को मिनटों में बदलिए।"
@@ -184,11 +252,33 @@
             "135 minutes"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Convert hours to minutes.\n- 1 hour = 60 minutes\n- 2 hours = 2 × 60 = **120 minutes**\n\n**Step 2:** Add the remaining minutes.\n- 120 minutes + 15 minutes = **135 minutes**\n\n**Answer: 135 minutes**",
+            "hindi": "**Step 1:** Convert hours to minutes.\n- 1 hour = 60 minutes\n- 2 hours = 2 × 60 = **120 minutes**\n\n**Step 2:** Add the remaining minutes.\n- 120 minutes + 15 minutes = **135 minutes**\n\n**Answer: 135 minutes**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Convert hours to minutes.\n- 1 hour = 60 minutes\n- 2 hours = 2 × 60 = **120 minutes**\n**Step 2:** Add the remaining minutes.\n- 120 minutes + 15 minutes = **135 minutes**",
+            "hindi": "**Step 1:** Convert hours to minutes.\n- 1 hour = 60 minutes\n- 2 hours = 2 × 60 = **120 minutes**\n**Step 2:** Add the remaining minutes.\n- 120 minutes + 15 minutes = **135 minutes**"
+          },
           "mistakeType": "TIME_READING",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Convert hours to minutes.\n- 1 hour = 60 minutes\n- 2 hours = 2 × 60 = **120 minutes**",
+              "hindi": "**Step 1:** Convert hours to minutes.\n- 1 hour = 60 minutes\n- 2 hours = 2 × 60 = **120 minutes**"
+            },
+            {
+              "english": "**Step 2:** Add the remaining minutes.\n- 120 minutes + 15 minutes = **135 minutes**",
+              "hindi": "**Step 2:** Add the remaining minutes.\n- 120 minutes + 15 minutes = **135 minutes**"
+            },
+            {
+              "english": "**Answer: 135 minutes**",
+              "hindi": "**Answer: 135 minutes**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -204,7 +294,7 @@
       "mistakeFocus": "TIME_READING"
     },
     {
-      "id": "rs_ch15_converting_lower_units_into_higher_units_of_time",
+      "id": "rsch15convertinglowerunitsintohigherunitsof_time",
       "sourceLessonId": "rs_ch15",
       "chapterNumber": 15,
       "chapterTitle": {
@@ -227,12 +317,22 @@
         "english": "Converting Lower Units into Higher Units of Time",
         "hindi": "समय की छोटी इकाइयों को बड़ी इकाइयों में बदलना"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Converting lower to higher = Divide**\n- Seconds to minutes: ÷ 60 (quotient = minutes, remainder = seconds)\n- Minutes to hours: ÷ 60 (quotient = hours, remainder = minutes)\n- Hours to days: ÷ 24\n\n**Example:** Convert 200 minutes into hours and minutes.\n- 200 ÷ 60 = 3 hours, remainder 20 minutes\n- Answer: **3 hours 20 minutes**",
+          "hindi": "## व्याख्या (हिंदी)\n\n**छोटी → बड़ी इकाई = भाग**\n- सेकंड से मिनट: ÷ 60\n- मिनट से घंटे: ÷ 60\n- घंटे से दिन: ÷ 24\n\n**उदाहरण:** 200 मिनट को घंटे और मिनट में बदलें।\n- 200 ÷ 60 = 3 घंटे, शेष 20 मिनट\n- उत्तर: **3 घंटे 20 मिनट**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Convert 200 minutes into hours and minutes.\n- 200 ÷ 60 = 3 hours, remainder 20 minutes\n- Answer: **3 hours 20 minutes**",
+          "hindi": "**उदाहरण:** 200 मिनट को घंटे और मिनट में बदलें।\n- 200 ÷ 60 = 3 घंटे, शेष 20 मिनट\n- उत्तर: **3 घंटे 20 मिनट**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "converting_lower_units_into_higher_units_of_time_q1",
+          "id": "convertinglowerunitsintohigherunitsoftimeq1",
           "prompt": {
             "english": "Convert 150 minutes into hours and minutes.",
             "hindi": "150 मिनट को घंटे और मिनट में बदलिए।"
@@ -247,11 +347,33 @@
             "2 hr 30 min"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Divide 150 by 60 (since 1 hour = 60 minutes).\n- 150 ÷ 60 = **2** (quotient), remainder = **30**\n\n**Step 2:** Quotient = 2 hours, Remainder = 30 minutes\n\n**Answer: 2 hours 30 minutes**",
+            "hindi": "**Step 1:** Divide 150 by 60 (since 1 hour = 60 minutes).\n- 150 ÷ 60 = **2** (quotient), remainder = **30**\n\n**Step 2:** Quotient = 2 hours, Remainder = 30 minutes\n\n**Answer: 2 hours 30 minutes**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Divide 150 by 60 (since 1 hour = 60 minutes).\n- 150 ÷ 60 = **2** (quotient), remainder = **30**\n**Step 2:** Quotient = 2 hours, Remainder = 30 minutes",
+            "hindi": "**Step 1:** Divide 150 by 60 (since 1 hour = 60 minutes).\n- 150 ÷ 60 = **2** (quotient), remainder = **30**\n**Step 2:** Quotient = 2 hours, Remainder = 30 minutes"
+          },
           "mistakeType": "TIME_READING",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Divide 150 by 60 (since 1 hour = 60 minutes).\n- 150 ÷ 60 = **2** (quotient), remainder = **30**",
+              "hindi": "**Step 1:** Divide 150 by 60 (since 1 hour = 60 minutes).\n- 150 ÷ 60 = **2** (quotient), remainder = **30**"
+            },
+            {
+              "english": "**Step 2:** Quotient = 2 hours, Remainder = 30 minutes",
+              "hindi": "**Step 2:** Quotient = 2 hours, Remainder = 30 minutes"
+            },
+            {
+              "english": "**Answer: 2 hours 30 minutes**",
+              "hindi": "**Answer: 2 hours 30 minutes**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -267,7 +389,7 @@
       "mistakeFocus": "TIME_READING"
     },
     {
-      "id": "rs_ch15_addition_and_subtraction_of_time",
+      "id": "rsch15additionandsubtractionoftime",
       "sourceLessonId": "rs_ch15",
       "chapterNumber": 15,
       "chapterTitle": {
@@ -290,12 +412,22 @@
         "english": "Addition and Subtraction of Time",
         "hindi": "समय का जोड़ और घटाव"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Adding time:** Add seconds with seconds, minutes with minutes, hours with hours.\n- If seconds ≥ 60 → carry 1 minute (and subtract 60 from seconds)\n- If minutes ≥ 60 → carry 1 hour (and subtract 60 from minutes)\n\n**Example:** Add 2 h 40 min and 1 h 35 min\n- min: 40 + 35 = 75 min = 1 h 15 min (carry 1 h)\n- h: 2 + 1 + 1 = 4 h\n- Answer: **4 h 15 min**\n\n**Subtracting time:** Subtract smaller units first.\n- If not enough minutes, borrow 1 hour (= 60 minutes) from hours.",
+          "hindi": "## व्याख्या (हिंदी)\n\n**समय जोड़ना:** सेकंड को सेकंड से, मिनट को मिनट से, घंटे को घंटे से जोड़ें।\n- अगर मिनट ≥ 60 → 1 घंटा आगे ले जाएं (मिनट में से 60 घटाएं)\n- अगर सेकंड ≥ 60 → 1 मिनट आगे ले जाएं\n\n**उदाहरण:** 2 घं 40 मि और 1 घं 35 मि जोड़ें\n- मिनट: 40 + 35 = 75 मिनट = 1 घं 15 मिनट (1 घं आगे)\n- घंटे: 2 + 1 + 1 = 4 घं\n- उत्तर: **4 घं 15 मिनट**\n\n**समय घटाना:** पहले छोटी इकाइयाँ घटाएं।\n- अगर मिनट कम हों, तो घंटे से 1 उधार लें (= 60 मिनट)।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Add 2 h 40 min and 1 h 35 min\n- min: 40 + 35 = 75 min = 1 h 15 min (carry 1 h)\n- h: 2 + 1 + 1 = 4 h\n- Answer: **4 h 15 min**",
+          "hindi": "**उदाहरण:** 2 घं 40 मि और 1 घं 35 मि जोड़ें\n- मिनट: 40 + 35 = 75 मिनट = 1 घं 15 मिनट (1 घं आगे)\n- घंटे: 2 + 1 + 1 = 4 घं\n- उत्तर: **4 घं 15 मिनट**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "addition_and_subtraction_of_time_q1",
+          "id": "additionandsubtractionoftime_q1",
           "prompt": {
             "english": "What time will it be 2 hours 45 minutes after 8:30 p.m.?",
             "hindi": "8:30 p.m. के 2 घंटे 45 मिनट बाद क्या समय होगा?"
@@ -309,11 +441,37 @@
             "11:15"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Add the minutes.\n- 30 min + 45 min = 75 min\n- 75 min = 1 hour 15 min (carry 1 hour)\n- Write down **15 min**\n\n**Step 2:** Add the hours (with the carried 1 hour).\n- 8 + 2 + 1 = **11 hours**\n\n**Step 3:** It is still p.m. since 11 < 12.\n\n**Answer: 11:15 p.m.**",
+            "hindi": "**Step 1:** Add the minutes.\n- 30 min + 45 min = 75 min\n- 75 min = 1 hour 15 min (carry 1 hour)\n- Write down **15 min**\n\n**Step 2:** Add the hours (with the carried 1 hour).\n- 8 + 2 + 1 = **11 hours**\n\n**Step 3:** It is still p.m. since 11 < 12.\n\n**Answer: 11:15 p.m.**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Add the minutes.\n- 30 min + 45 min = 75 min\n- 75 min = 1 hour 15 min (carry 1 hour)\n- Write down **15 min**\n**Step 2:** Add the hours (with the carried 1 hour).\n- 8 + 2 + 1 = **11 hours**",
+            "hindi": "**Step 1:** Add the minutes.\n- 30 min + 45 min = 75 min\n- 75 min = 1 hour 15 min (carry 1 hour)\n- Write down **15 min**\n**Step 2:** Add the hours (with the carried 1 hour).\n- 8 + 2 + 1 = **11 hours**"
+          },
           "mistakeType": "TIME_READING",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Add the minutes.\n- 30 min + 45 min = 75 min\n- 75 min = 1 hour 15 min (carry 1 hour)\n- Write down **15 min**",
+              "hindi": "**Step 1:** Add the minutes.\n- 30 min + 45 min = 75 min\n- 75 min = 1 hour 15 min (carry 1 hour)\n- Write down **15 min**"
+            },
+            {
+              "english": "**Step 2:** Add the hours (with the carried 1 hour).\n- 8 + 2 + 1 = **11 hours**",
+              "hindi": "**Step 2:** Add the hours (with the carried 1 hour).\n- 8 + 2 + 1 = **11 hours**"
+            },
+            {
+              "english": "**Step 3:** It is still p.m. since 11 < 12.",
+              "hindi": "**Step 3:** It is still p.m. since 11 < 12."
+            },
+            {
+              "english": "**Answer: 11:15 p.m.**",
+              "hindi": "**Answer: 11:15 p.m.**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -329,7 +487,7 @@
       "mistakeFocus": "TIME_READING"
     },
     {
-      "id": "rs_ch15_duration_of_an_activity",
+      "id": "rsch15durationofan_activity",
       "sourceLessonId": "rs_ch15",
       "chapterNumber": 15,
       "chapterTitle": {
@@ -352,12 +510,22 @@
         "english": "Duration of an Activity",
         "hindi": "किसी गतिविधि की अवधि"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Duration** means how long something takes — the time from start to end.\n\n**Formula:** Duration = End time − Start time\n\n**Method:**\n1. Subtract the minutes: end minutes − start minutes. If end minutes < start minutes, borrow 1 hour (= 60 min) from hours.\n2. Subtract the hours.\n\n**Example:** Activity started at 4:15 p.m., ended at 6:50 p.m.\n- Minutes: 50 − 15 = 35 min\n- Hours: 6 − 4 = 2 h\n- Duration = **2 hours 35 minutes**",
+          "hindi": "## व्याख्या (हिंदी)\n\n**अवधि** का मतलब है कि कोई काम कितने समय तक चला — शुरू से अंत तक का समय।\n\n**सूत्र:** अवधि = अंत का समय − शुरू का समय\n\n**विधि:**\n1. मिनट घटाएं। अगर अंत के मिनट कम हों, तो घंटे से 1 उधार लें (= 60 मिनट)।\n2. घंटे घटाएं।\n\n**उदाहरण:** काम 4:15 p.m. पर शुरू हुआ, 6:50 p.m. पर खत्म हुआ।\n- मिनट: 50 − 15 = 35 मिनट\n- घंटे: 6 − 4 = 2 घंटे\n- अवधि = **2 घंटे 35 मिनट**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Activity started at 4:15 p.m., ended at 6:50 p.m.\n- Minutes: 50 − 15 = 35 min\n- Hours: 6 − 4 = 2 h\n- Duration = **2 hours 35 minutes**",
+          "hindi": "**उदाहरण:** काम 4:15 p.m. पर शुरू हुआ, 6:50 p.m. पर खत्म हुआ।\n- मिनट: 50 − 15 = 35 मिनट\n- घंटे: 6 − 4 = 2 घंटे\n- अवधि = **2 घंटे 35 मिनट**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "duration_of_an_activity_q1",
+          "id": "durationofanactivityq1",
           "prompt": {
             "english": "Ashish started writing at 9:25 a.m. and finished at 11:05 a.m. How long did he take?",
             "hindi": "आशीष ने 9:25 a.m. पर लिखना शुरू किया और 11:05 a.m. पर समाप्त किया। उसने कितनी देर ली?"
@@ -371,11 +539,33 @@
             "1 hr 40 min"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Subtract the minutes.\n- End: 11:05 → Start: 9:25\n- 05 min − 25 min → not possible! Borrow 1 hour from 11.\n- 11 hours becomes 10 hours, and 05 min becomes 05 + 60 = **65 min**\n- 65 − 25 = **40 min**\n\n**Step 2:** Subtract the hours.\n- 10 − 9 = **1 hour**\n\n**Answer: 1 hour 40 minutes**",
+            "hindi": "**Step 1:** Subtract the minutes.\n- End: 11:05 → Start: 9:25\n- 05 min − 25 min → not possible! Borrow 1 hour from 11.\n- 11 hours becomes 10 hours, and 05 min becomes 05 + 60 = **65 min**\n- 65 − 25 = **40 min**\n\n**Step 2:** Subtract the hours.\n- 10 − 9 = **1 hour**\n\n**Answer: 1 hour 40 minutes**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Subtract the minutes.\n- End: 11:05 → Start: 9:25\n- 05 min − 25 min → not possible! Borrow 1 hour from 11.\n- 11 hours becomes 10 hours, and 05 min becomes 05 + 60 = **65 min**\n- 65 − 25 = **40 min**\n**Step 2:** Subtract the hours.\n- 10 − 9 = **1 hour**",
+            "hindi": "**Step 1:** Subtract the minutes.\n- End: 11:05 → Start: 9:25\n- 05 min − 25 min → not possible! Borrow 1 hour from 11.\n- 11 hours becomes 10 hours, and 05 min becomes 05 + 60 = **65 min**\n- 65 − 25 = **40 min**\n**Step 2:** Subtract the hours.\n- 10 − 9 = **1 hour**"
+          },
           "mistakeType": "TIME_READING",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Subtract the minutes.\n- End: 11:05 → Start: 9:25\n- 05 min − 25 min → not possible! Borrow 1 hour from 11.\n- 11 hours becomes 10 hours, and 05 min becomes 05 + 60 = **65 min**\n- 65 − 25 = **40 min**",
+              "hindi": "**Step 1:** Subtract the minutes.\n- End: 11:05 → Start: 9:25\n- 05 min − 25 min → not possible! Borrow 1 hour from 11.\n- 11 hours becomes 10 hours, and 05 min becomes 05 + 60 = **65 min**\n- 65 − 25 = **40 min**"
+            },
+            {
+              "english": "**Step 2:** Subtract the hours.\n- 10 − 9 = **1 hour**",
+              "hindi": "**Step 2:** Subtract the hours.\n- 10 − 9 = **1 hour**"
+            },
+            {
+              "english": "**Answer: 1 hour 40 minutes**",
+              "hindi": "**Answer: 1 hour 40 minutes**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -391,8 +581,8 @@
       "mistakeFocus": "TIME_READING"
     },
     {
-      "id": "rs_ex_ch15_ex62_q01_a",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q01_a",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -419,7 +609,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q01_a_q1",
+          "id": "rsexch15ex62q01aq1",
           "prompt": {
             "english": "Write the time using a.m. or p.m. or noon or midnight Part (a): 0640 hours",
             "hindi": "Write the time using a.m. or p.m. or noon or midnight Part (a): 0640 hours"
@@ -456,8 +646,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q01_b",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q01_b",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -484,7 +674,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q01_b_q1",
+          "id": "rsexch15ex62q01bq1",
           "prompt": {
             "english": "Write the time using a.m. or p.m. or noon or midnight Part (b): 0130 hours",
             "hindi": "Write the time using a.m. or p.m. or noon or midnight Part (b): 0130 hours"
@@ -521,8 +711,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q01_c",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q01_c",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -549,7 +739,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q01_c_q1",
+          "id": "rsexch15ex62q01cq1",
           "prompt": {
             "english": "Write the time using a.m. or p.m. or noon or midnight Part (c): 0020 hours",
             "hindi": "Write the time using a.m. or p.m. or noon or midnight Part (c): 0020 hours"
@@ -586,8 +776,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q01_d",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q01_d",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -614,7 +804,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q01_d_q1",
+          "id": "rsexch15ex62q01dq1",
           "prompt": {
             "english": "Write the time using a.m. or p.m. or noon or midnight Part (d): 1206 hours",
             "hindi": "Write the time using a.m. or p.m. or noon or midnight Part (d): 1206 hours"
@@ -651,8 +841,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q01_e",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q01_e",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -679,7 +869,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q01_e_q1",
+          "id": "rsexch15ex62q01eq1",
           "prompt": {
             "english": "Write the time using a.m. or p.m. or noon or midnight Part (e): 1256 hours",
             "hindi": "Write the time using a.m. or p.m. or noon or midnight Part (e): 1256 hours"
@@ -716,8 +906,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q01_f",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q01_f",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -744,7 +934,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q01_f_q1",
+          "id": "rsexch15ex62q01fq1",
           "prompt": {
             "english": "Write the time using a.m. or p.m. or noon or midnight Part (f): 1438 hours",
             "hindi": "Write the time using a.m. or p.m. or noon or midnight Part (f): 1438 hours"
@@ -781,8 +971,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q01_g",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q01_g",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -809,7 +999,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q01_g_q1",
+          "id": "rsexch15ex62q01gq1",
           "prompt": {
             "english": "Write the time using a.m. or p.m. or noon or midnight Part (g): 1624 hours",
             "hindi": "Write the time using a.m. or p.m. or noon or midnight Part (g): 1624 hours"
@@ -846,8 +1036,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q01_h",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q01_h",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -874,7 +1064,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q01_h_q1",
+          "id": "rsexch15ex62q01hq1",
           "prompt": {
             "english": "Write the time using a.m. or p.m. or noon or midnight Part (h): 0000 hours",
             "hindi": "Write the time using a.m. or p.m. or noon or midnight Part (h): 0000 hours"
@@ -910,8 +1100,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q01_i",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q01_i",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -938,7 +1128,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q01_i_q1",
+          "id": "rsexch15ex62q01iq1",
           "prompt": {
             "english": "Write the time using a.m. or p.m. or noon or midnight Part (i): 2347 hours",
             "hindi": "Write the time using a.m. or p.m. or noon or midnight Part (i): 2347 hours"
@@ -975,8 +1165,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q01_j",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q01_j",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -1003,7 +1193,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q01_j_q1",
+          "id": "rsexch15ex62q01jq1",
           "prompt": {
             "english": "Write the time using a.m. or p.m. or noon or midnight Part (j): 2139 hours",
             "hindi": "Write the time using a.m. or p.m. or noon or midnight Part (j): 2139 hours"
@@ -1040,8 +1230,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q01_k",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q01_k",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -1068,7 +1258,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q01_k_q1",
+          "id": "rsexch15ex62q01kq1",
           "prompt": {
             "english": "Write the time using a.m. or p.m. or noon or midnight Part (k): 1354 hours",
             "hindi": "Write the time using a.m. or p.m. or noon or midnight Part (k): 1354 hours"
@@ -1105,8 +1295,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q01_l",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q01_l",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -1133,7 +1323,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q01_l_q1",
+          "id": "rsexch15ex62q01lq1",
           "prompt": {
             "english": "Write the time using a.m. or p.m. or noon or midnight Part (l): 2000 hours",
             "hindi": "Write the time using a.m. or p.m. or noon or midnight Part (l): 2000 hours"
@@ -1170,8 +1360,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q02_a",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q02_a",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -1198,7 +1388,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q02_a_q1",
+          "id": "rsexch15ex62q02aq1",
           "prompt": {
             "english": "Convert the following into 24-hour clock time Part (a): 4:05 a.m",
             "hindi": "Convert the following into 24-hour clock time Part (a): 4:05 a.m"
@@ -1234,8 +1424,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q02_b",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q02_b",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -1262,7 +1452,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q02_b_q1",
+          "id": "rsexch15ex62q02bq1",
           "prompt": {
             "english": "Convert the following into 24-hour clock time Part (b): 11:32 a.m",
             "hindi": "Convert the following into 24-hour clock time Part (b): 11:32 a.m"
@@ -1298,8 +1488,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q02_c",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q02_c",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -1326,7 +1516,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q02_c_q1",
+          "id": "rsexch15ex62q02cq1",
           "prompt": {
             "english": "Convert the following into 24-hour clock time Part (c): 0:08 a.m",
             "hindi": "Convert the following into 24-hour clock time Part (c): 0:08 a.m"
@@ -1362,8 +1552,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q02_d",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q02_d",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -1390,7 +1580,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q02_d_q1",
+          "id": "rsexch15ex62q02dq1",
           "prompt": {
             "english": "Convert the following into 24-hour clock time Part (d): 0:46 a.m",
             "hindi": "Convert the following into 24-hour clock time Part (d): 0:46 a.m"
@@ -1426,8 +1616,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q02_e",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q02_e",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -1454,7 +1644,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q02_e_q1",
+          "id": "rsexch15ex62q02eq1",
           "prompt": {
             "english": "Convert the following into 24-hour clock time Part (e): 12:15 p.m",
             "hindi": "Convert the following into 24-hour clock time Part (e): 12:15 p.m"
@@ -1490,8 +1680,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q02_f",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q02_f",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -1518,7 +1708,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q02_f_q1",
+          "id": "rsexch15ex62q02fq1",
           "prompt": {
             "english": "Convert the following into 24-hour clock time Part (f): 2:18 p.m",
             "hindi": "Convert the following into 24-hour clock time Part (f): 2:18 p.m"
@@ -1554,8 +1744,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q02_g",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q02_g",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -1582,7 +1772,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q02_g_q1",
+          "id": "rsexch15ex62q02gq1",
           "prompt": {
             "english": "Convert the following into 24-hour clock time Part (g): 10:00 p.m",
             "hindi": "Convert the following into 24-hour clock time Part (g): 10:00 p.m"
@@ -1618,8 +1808,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q02_h",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q02_h",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -1646,7 +1836,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q02_h_q1",
+          "id": "rsexch15ex62q02hq1",
           "prompt": {
             "english": "Convert the following into 24-hour clock time Part (h): 0:58 a.m",
             "hindi": "Convert the following into 24-hour clock time Part (h): 0:58 a.m"
@@ -1682,8 +1872,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q02_i",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q02_i",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -1710,7 +1900,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q02_i_q1",
+          "id": "rsexch15ex62q02iq1",
           "prompt": {
             "english": "Convert the following into 24-hour clock time Part (i): 12:58 p.m",
             "hindi": "Convert the following into 24-hour clock time Part (i): 12:58 p.m"
@@ -1746,8 +1936,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q02_j",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q02_j",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -1774,7 +1964,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q02_j_q1",
+          "id": "rsexch15ex62q02jq1",
           "prompt": {
             "english": "Convert the following into 24-hour clock time Part (j): 1:10 a.m",
             "hindi": "Convert the following into 24-hour clock time Part (j): 1:10 a.m"
@@ -1810,8 +2000,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q02_k",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q02_k",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -1838,7 +2028,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q02_k_q1",
+          "id": "rsexch15ex62q02kq1",
           "prompt": {
             "english": "Convert the following into 24-hour clock time Part (k): 2:30 a.m",
             "hindi": "Convert the following into 24-hour clock time Part (k): 2:30 a.m"
@@ -1874,8 +2064,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q02_l",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q02_l",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -1902,7 +2092,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q02_l_q1",
+          "id": "rsexch15ex62q02lq1",
           "prompt": {
             "english": "Convert the following into 24-hour clock time Part (l): 9:30 p.m",
             "hindi": "Convert the following into 24-hour clock time Part (l): 9:30 p.m"
@@ -1938,8 +2128,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q03_a",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q03_a",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -1966,7 +2156,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q03_a_q1",
+          "id": "rsexch15ex62q03aq1",
           "prompt": {
             "english": "Given below is an extract from an Airline Time-table. This table shows the departure times of three planes from Delhi and Lucknow and arrival time at Patna. Read it carefully and answer the following questions. Express them in a.m. or p.m Part (a): When does the plane B leave Delhi?",
             "hindi": "Given below is an extract from an Airline Time-table. This table shows the departure times of three planes from Delhi and Lucknow and arrival time at Patna. Read it carefully and answer the following questions. Express them in a.m. or p.m Part (a): When does the plane B leave Delhi?"
@@ -2003,8 +2193,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q03_b",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q03_b",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -2031,7 +2221,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q03_b_q1",
+          "id": "rsexch15ex62q03bq1",
           "prompt": {
             "english": "Given below is an extract from an Airline Time-table. This table shows the departure times of three planes from Delhi and Lucknow and arrival time at Patna. Read it carefully and answer the following questions. Express them in a.m. or p.m Part (b): When does the plane A leave Lucknow?",
             "hindi": "Given below is an extract from an Airline Time-table. This table shows the departure times of three planes from Delhi and Lucknow and arrival time at Patna. Read it carefully and answer the following questions. Express them in a.m. or p.m Part (b): When does the plane A leave Lucknow?"
@@ -2068,8 +2258,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q03_c",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q03_c",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -2096,7 +2286,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q03_c_q1",
+          "id": "rsexch15ex62q03cq1",
           "prompt": {
             "english": "Given below is an extract from an Airline Time-table. This table shows the departure times of three planes from Delhi and Lucknow and arrival time at Patna. Read it carefully and answer the following questions. Express them in a.m. or p.m Part (c): When does the plane C reach Patna?",
             "hindi": "Given below is an extract from an Airline Time-table. This table shows the departure times of three planes from Delhi and Lucknow and arrival time at Patna. Read it carefully and answer the following questions. Express them in a.m. or p.m Part (c): When does the plane C reach Patna?"
@@ -2133,8 +2323,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q04_a",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q04_a",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -2161,7 +2351,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q04_a_q1",
+          "id": "rsexch15ex62q04aq1",
           "prompt": {
             "english": "Given below is an extract from a Railway Time-table. Study the table carefully and answer the questions given below. State the time in terms of a.m. or p.m. Plane A Plane B Plane C Delhi 0005 1210 1835 Lucknow 0045 1305 1915 Patna 0125 1350 2000 Stations Kalka Mail Purva Express Rajdhani Express Delhi a d 0730 0800 New Delhi a d — 1430 1610 2140 2210 Kanpur a d 1450 1505 2305 2325 0020 0100 Asansol a d 0046 0130 0850 0905 0730 0800 Howrah a d 0700 — 1450 — 1205 — Part (a): When does the Purva-Express leave New-Delhi?",
             "hindi": "Given below is an extract from a Railway Time-table. Study the table carefully and answer the questions given below. State the time in terms of a.m. or p.m. Plane A Plane B Plane C Delhi 0005 1210 1835 Lucknow 0045 1305 1915 Patna 0125 1350 2000 Stations Kalka Mail Purva Express Rajdhani Express Delhi a d 0730 0800 New Delhi a d — 1430 1610 2140 2210 Kanpur a d 1450 1505 2305 2325 0020 0100 Asansol a d 0046 0130 0850 0905 0730 0800 Howrah a d 0700 — 1450 — 1205 — Part (a): When does the Purva-Express leave New-Delhi?"
@@ -2198,8 +2388,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q04_b",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q04_b",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -2226,7 +2416,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q04_b_q1",
+          "id": "rsexch15ex62q04bq1",
           "prompt": {
             "english": "Given below is an extract from a Railway Time-table. Study the table carefully and answer the questions given below. State the time in terms of a.m. or p.m. Plane A Plane B Plane C Delhi 0005 1210 1835 Lucknow 0045 1305 1915 Patna 0125 1350 2000 Stations Kalka Mail Purva Express Rajdhani Express Delhi a d 0730 0800 New Delhi a d — 1430 1610 2140 2210 Kanpur a d 1450 1505 2305 2325 0020 0100 Asansol a d 0046 0130 0850 0905 0730 0800 Howrah a d 0700 — 1450 — 1205 — Part (b): At what time does the Kalka-Mail reach Asansol?",
             "hindi": "Given below is an extract from a Railway Time-table. Study the table carefully and answer the questions given below. State the time in terms of a.m. or p.m. Plane A Plane B Plane C Delhi 0005 1210 1835 Lucknow 0045 1305 1915 Patna 0125 1350 2000 Stations Kalka Mail Purva Express Rajdhani Express Delhi a d 0730 0800 New Delhi a d — 1430 1610 2140 2210 Kanpur a d 1450 1505 2305 2325 0020 0100 Asansol a d 0046 0130 0850 0905 0730 0800 Howrah a d 0700 — 1450 — 1205 — Part (b): At what time does the Kalka-Mail reach Asansol?"
@@ -2263,8 +2453,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q04_c",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q04_c",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -2291,7 +2481,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q04_c_q1",
+          "id": "rsexch15ex62q04cq1",
           "prompt": {
             "english": "Given below is an extract from a Railway Time-table. Study the table carefully and answer the questions given below. State the time in terms of a.m. or p.m. Plane A Plane B Plane C Delhi 0005 1210 1835 Lucknow 0045 1305 1915 Patna 0125 1350 2000 Stations Kalka Mail Purva Express Rajdhani Express Delhi a d 0730 0800 New Delhi a d — 1430 1610 2140 2210 Kanpur a d 1450 1505 2305 2325 0020 0100 Asansol a d 0046 0130 0850 0905 0730 0800 Howrah a d 0700 — 1450 — 1205 — Part (c): At what time does the Rajdhani-Express reach Howrah?",
             "hindi": "Given below is an extract from a Railway Time-table. Study the table carefully and answer the questions given below. State the time in terms of a.m. or p.m. Plane A Plane B Plane C Delhi 0005 1210 1835 Lucknow 0045 1305 1915 Patna 0125 1350 2000 Stations Kalka Mail Purva Express Rajdhani Express Delhi a d 0730 0800 New Delhi a d — 1430 1610 2140 2210 Kanpur a d 1450 1505 2305 2325 0020 0100 Asansol a d 0046 0130 0850 0905 0730 0800 Howrah a d 0700 — 1450 — 1205 — Part (c): At what time does the Rajdhani-Express reach Howrah?"
@@ -2328,8 +2518,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex62_q04_d",
-      "sourceLessonId": "rs_exercise_ch15_ex62",
+      "id": "rsexch15ex62q04_d",
+      "sourceLessonId": "rsexercisech15_ex62",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -2356,7 +2546,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex62_q04_d_q1",
+          "id": "rsexch15ex62q04dq1",
           "prompt": {
             "english": "Given below is an extract from a Railway Time-table. Study the table carefully and answer the questions given below. State the time in terms of a.m. or p.m. Plane A Plane B Plane C Delhi 0005 1210 1835 Lucknow 0045 1305 1915 Patna 0125 1350 2000 Stations Kalka Mail Purva Express Rajdhani Express Delhi a d 0730 0800 New Delhi a d — 1430 1610 2140 2210 Kanpur a d 1450 1505 2305 2325 0020 0100 Asansol a d 0046 0130 0850 0905 0730 0800 Howrah a d 0700 — 1450 — 1205 — Part (d): At what time does the Purva-Express reach Kanpur? Clocks with Three Hands In some clocks, apart from the hour hand and the minute hand, there is a third hand, called the seconds hand. The seconds hand makes a full round in 1 minute and the time in which it moves between two successive small divisions is called 1 second. Thus, 60 seconds = 1 minute. Conversion of Time We know that: 1 hour = 60 minutes 1 minute = 60 seconds 1 day = 24 hours 1 week = 7 days 1 fortnight = 2 weeks = 14 days 1 year = 12 months 1 year = 365 days 1 leap year = 366 days. Here, a stands for arrival and d stands for departure. 12 6 11 5 10 4 9 3 8 2 7 1 Converting Higher Units into Lower Units",
             "hindi": "Given below is an extract from a Railway Time-table. Study the table carefully and answer the questions given below. State the time in terms of a.m. or p.m. Plane A Plane B Plane C Delhi 0005 1210 1835 Lucknow 0045 1305 1915 Patna 0125 1350 2000 Stations Kalka Mail Purva Express Rajdhani Express Delhi a d 0730 0800 New Delhi a d — 1430 1610 2140 2210 Kanpur a d 1450 1505 2305 2325 0020 0100 Asansol a d 0046 0130 0850 0905 0730 0800 Howrah a d 0700 — 1450 — 1205 — Part (d): At what time does the Purva-Express reach Kanpur? Clocks with Three Hands In some clocks, apart from the hour hand and the minute hand, there is a third hand, called the seconds hand. The seconds hand makes a full round in 1 minute and the time in which it moves between two successive small divisions is called 1 second. Thus, 60 seconds = 1 minute. Conversion of Time We know that: 1 hour = 60 minutes 1 minute = 60 seconds 1 day = 24 hours 1 week = 7 days 1 fortnight = 2 weeks = 14 days 1 year = 12 months 1 year = 365 days 1 leap year = 366 days. Here, a stands for arrival and d stands for departure. 12 6 11 5 10 4 9 3 8 2 7 1 Converting Higher Units into Lower Units"
@@ -2393,8 +2583,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q01_a",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q01_a",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -2421,7 +2611,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q01_a_q1",
+          "id": "rsexch15ex63q01aq1",
           "prompt": {
             "english": "Convert Part (a): 8 days into hours",
             "hindi": "Convert Part (a): 8 days into hours"
@@ -2457,8 +2647,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q01_b",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q01_b",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -2485,7 +2675,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q01_b_q1",
+          "id": "rsexch15ex63q01bq1",
           "prompt": {
             "english": "Convert Part (b): 17 days into hours",
             "hindi": "Convert Part (b): 17 days into hours"
@@ -2521,8 +2711,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q01_c",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q01_c",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -2549,7 +2739,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q01_c_q1",
+          "id": "rsexch15ex63q01cq1",
           "prompt": {
             "english": "Convert Part (c): 6 days 19 hours into hours",
             "hindi": "Convert Part (c): 6 days 19 hours into hours"
@@ -2585,8 +2775,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q01_d",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q01_d",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -2613,7 +2803,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q01_d_q1",
+          "id": "rsexch15ex63q01dq1",
           "prompt": {
             "english": "Convert Part (d): 14 days 6 hours into hours",
             "hindi": "Convert Part (d): 14 days 6 hours into hours"
@@ -2649,8 +2839,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q01_e",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q01_e",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -2677,7 +2867,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q01_e_q1",
+          "id": "rsexch15ex63q01eq1",
           "prompt": {
             "english": "Convert Part (e): 11 days 11 hours into hours",
             "hindi": "Convert Part (e): 11 days 11 hours into hours"
@@ -2713,8 +2903,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q02_a",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q02_a",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -2741,7 +2931,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q02_a_q1",
+          "id": "rsexch15ex63q02aq1",
           "prompt": {
             "english": "Convert Part (a): 10 hours into minutes",
             "hindi": "Convert Part (a): 10 hours into minutes"
@@ -2777,8 +2967,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q02_b",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q02_b",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -2805,7 +2995,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q02_b_q1",
+          "id": "rsexch15ex63q02bq1",
           "prompt": {
             "english": "Convert Part (b): 8 hours 56 minutes into minutes",
             "hindi": "Convert Part (b): 8 hours 56 minutes into minutes"
@@ -2841,8 +3031,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q02_c",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q02_c",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -2869,7 +3059,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q02_c_q1",
+          "id": "rsexch15ex63q02cq1",
           "prompt": {
             "english": "Convert Part (c): 16 hours 43 minutes into minutes",
             "hindi": "Convert Part (c): 16 hours 43 minutes into minutes"
@@ -2905,8 +3095,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q02_d",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q02_d",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -2933,7 +3123,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q02_d_q1",
+          "id": "rsexch15ex63q02dq1",
           "prompt": {
             "english": "Convert Part (d): 3 days 12 hours 25 minutes into minutes",
             "hindi": "Convert Part (d): 3 days 12 hours 25 minutes into minutes"
@@ -2969,8 +3159,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q02_e",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q02_e",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -2997,7 +3187,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q02_e_q1",
+          "id": "rsexch15ex63q02eq1",
           "prompt": {
             "english": "Convert Part (e): 2 days into minutes",
             "hindi": "Convert Part (e): 2 days into minutes"
@@ -3033,8 +3223,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q03_a",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q03_a",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -3061,7 +3251,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q03_a_q1",
+          "id": "rsexch15ex63q03aq1",
           "prompt": {
             "english": "Convert Part (a): 9 minutes into seconds",
             "hindi": "Convert Part (a): 9 minutes into seconds"
@@ -3097,8 +3287,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q03_b",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q03_b",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -3125,7 +3315,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q03_b_q1",
+          "id": "rsexch15ex63q03bq1",
           "prompt": {
             "english": "Convert Part (b): 6 minutes 54 seconds into seconds",
             "hindi": "Convert Part (b): 6 minutes 54 seconds into seconds"
@@ -3161,8 +3351,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q03_c",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q03_c",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -3189,7 +3379,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q03_c_q1",
+          "id": "rsexch15ex63q03cq1",
           "prompt": {
             "english": "Convert Part (c): 13 minutes 36 seconds into seconds",
             "hindi": "Convert Part (c): 13 minutes 36 seconds into seconds"
@@ -3225,8 +3415,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q03_d",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q03_d",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -3253,7 +3443,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q03_d_q1",
+          "id": "rsexch15ex63q03dq1",
           "prompt": {
             "english": "Convert Part (d): 3 hours 25 minutes 16 seconds into seconds",
             "hindi": "Convert Part (d): 3 hours 25 minutes 16 seconds into seconds"
@@ -3289,8 +3479,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q03_e",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q03_e",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -3317,7 +3507,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q03_e_q1",
+          "id": "rsexch15ex63q03eq1",
           "prompt": {
             "english": "Convert Part (e): 5 hours 5 minutes 5 seconds into seconds 2146 180 346 300 46 60 35 664 48 184 168 16 24 27 365 35 15 14 1 7 52",
             "hindi": "Convert Part (e): 5 hours 5 minutes 5 seconds into seconds 2146 180 346 300 46 60 35 664 48 184 168 16 24 27 365 35 15 14 1 7 52"
@@ -3353,8 +3543,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q04_a",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q04_a",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -3381,7 +3571,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q04_a_q1",
+          "id": "rsexch15ex63q04aq1",
           "prompt": {
             "english": "Convert Part (a): 4 years into months",
             "hindi": "Convert Part (a): 4 years into months"
@@ -3417,8 +3607,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q04_b",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q04_b",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -3445,7 +3635,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q04_b_q1",
+          "id": "rsexch15ex63q04bq1",
           "prompt": {
             "english": "Convert Part (b): 5 years 10 months into months",
             "hindi": "Convert Part (b): 5 years 10 months into months"
@@ -3481,8 +3671,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q04_c",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q04_c",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -3509,7 +3699,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q04_c_q1",
+          "id": "rsexch15ex63q04cq1",
           "prompt": {
             "english": "Convert Part (c): 14 years 8 months into months",
             "hindi": "Convert Part (c): 14 years 8 months into months"
@@ -3545,8 +3735,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q05_a",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q05_a",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -3573,7 +3763,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q05_a_q1",
+          "id": "rsexch15ex63q05aq1",
           "prompt": {
             "english": "Convert Part (a): 5 weeks 6 days into days",
             "hindi": "Convert Part (a): 5 weeks 6 days into days"
@@ -3609,8 +3799,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q05_b",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q05_b",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -3637,7 +3827,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q05_b_q1",
+          "id": "rsexch15ex63q05bq1",
           "prompt": {
             "english": "Convert Part (b): 8 weeks 4 days into days",
             "hindi": "Convert Part (b): 8 weeks 4 days into days"
@@ -3673,8 +3863,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q05_c",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q05_c",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -3701,7 +3891,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q05_c_q1",
+          "id": "rsexch15ex63q05cq1",
           "prompt": {
             "english": "Convert Part (c): 43 weeks 1 day into days",
             "hindi": "Convert Part (c): 43 weeks 1 day into days"
@@ -3737,8 +3927,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q05_d",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q05_d",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -3765,7 +3955,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q05_d_q1",
+          "id": "rsexch15ex63q05dq1",
           "prompt": {
             "english": "Convert Part (d): 2 years into days",
             "hindi": "Convert Part (d): 2 years into days"
@@ -3801,8 +3991,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q05_e",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q05_e",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -3829,7 +4019,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q05_e_q1",
+          "id": "rsexch15ex63q05eq1",
           "prompt": {
             "english": "Convert Part (e): 3 years 120 days into days",
             "hindi": "Convert Part (e): 3 years 120 days into days"
@@ -3865,8 +4055,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q06_a",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q06_a",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -3893,7 +4083,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q06_a_q1",
+          "id": "rsexch15ex63q06aq1",
           "prompt": {
             "english": "Convert Part (a): 137 minutes into hours and minutes",
             "hindi": "Convert Part (a): 137 minutes into hours and minutes"
@@ -3929,8 +4119,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q06_b",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q06_b",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -3957,7 +4147,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q06_b_q1",
+          "id": "rsexch15ex63q06bq1",
           "prompt": {
             "english": "Convert Part (b): 385 minutes into hours and minutes",
             "hindi": "Convert Part (b): 385 minutes into hours and minutes"
@@ -3993,8 +4183,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q06_c",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q06_c",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -4021,7 +4211,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q06_c_q1",
+          "id": "rsexch15ex63q06cq1",
           "prompt": {
             "english": "Convert Part (c): 1023 minutes into hours and minutes",
             "hindi": "Convert Part (c): 1023 minutes into hours and minutes"
@@ -4057,8 +4247,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q06_d",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q06_d",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -4085,7 +4275,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q06_d_q1",
+          "id": "rsexch15ex63q06dq1",
           "prompt": {
             "english": "Convert Part (d): 2006 minutes into hours and minutes",
             "hindi": "Convert Part (d): 2006 minutes into hours and minutes"
@@ -4121,8 +4311,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q07_a",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q07_a",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -4149,7 +4339,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q07_a_q1",
+          "id": "rsexch15ex63q07aq1",
           "prompt": {
             "english": "Convert Part (a): 1354 seconds into minutes and seconds",
             "hindi": "Convert Part (a): 1354 seconds into minutes and seconds"
@@ -4185,8 +4375,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q07_b",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q07_b",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -4213,7 +4403,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q07_b_q1",
+          "id": "rsexch15ex63q07bq1",
           "prompt": {
             "english": "Convert Part (b): 2105 seconds into minutes and seconds",
             "hindi": "Convert Part (b): 2105 seconds into minutes and seconds"
@@ -4249,8 +4439,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q07_c",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q07_c",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -4277,7 +4467,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q07_c_q1",
+          "id": "rsexch15ex63q07cq1",
           "prompt": {
             "english": "Convert Part (c): 3268 seconds into minutes and seconds",
             "hindi": "Convert Part (c): 3268 seconds into minutes and seconds"
@@ -4313,8 +4503,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q08_a",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q08_a",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -4341,7 +4531,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q08_a_q1",
+          "id": "rsexch15ex63q08aq1",
           "prompt": {
             "english": "Convert Part (a): 73 hours into days and hours",
             "hindi": "Convert Part (a): 73 hours into days and hours"
@@ -4377,8 +4567,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q08_b",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q08_b",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -4405,7 +4595,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q08_b_q1",
+          "id": "rsexch15ex63q08bq1",
           "prompt": {
             "english": "Convert Part (b): 200 hours into days and hours",
             "hindi": "Convert Part (b): 200 hours into days and hours"
@@ -4441,8 +4631,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q08_c",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q08_c",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -4469,7 +4659,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q08_c_q1",
+          "id": "rsexch15ex63q08cq1",
           "prompt": {
             "english": "Convert Part (c): 529 hours into days and hours",
             "hindi": "Convert Part (c): 529 hours into days and hours"
@@ -4505,8 +4695,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q08_d",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q08_d",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -4533,7 +4723,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q08_d_q1",
+          "id": "rsexch15ex63q08dq1",
           "prompt": {
             "english": "Convert Part (d): 1016 hours into days and hours",
             "hindi": "Convert Part (d): 1016 hours into days and hours"
@@ -4569,8 +4759,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q09_a",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q09_a",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -4597,7 +4787,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q09_a_q1",
+          "id": "rsexch15ex63q09aq1",
           "prompt": {
             "english": "Convert Part (a): 230 days into weeks and days",
             "hindi": "Convert Part (a): 230 days into weeks and days"
@@ -4633,8 +4823,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q09_b",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q09_b",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -4661,7 +4851,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q09_b_q1",
+          "id": "rsexch15ex63q09bq1",
           "prompt": {
             "english": "Convert Part (b): 341 days into weeks and days",
             "hindi": "Convert Part (b): 341 days into weeks and days"
@@ -4697,8 +4887,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex63_q09_c",
-      "sourceLessonId": "rs_exercise_ch15_ex63",
+      "id": "rsexch15ex63q09_c",
+      "sourceLessonId": "rsexercisech15_ex63",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -4725,7 +4915,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex63_q09_c_q1",
+          "id": "rsexch15ex63q09cq1",
           "prompt": {
             "english": "Convert Part (c): 400 days into weeks and days Addition and Subtraction of Time",
             "hindi": "Convert Part (c): 400 days into weeks and days Addition and Subtraction of Time"
@@ -4761,8 +4951,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q01_a",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q01_a",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -4789,7 +4979,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q01_a_q1",
+          "id": "rsexch15ex64q01aq1",
           "prompt": {
             "english": "Add the following Part (a): 2 days 18 hours and 3 days 12 hours",
             "hindi": "Add the following Part (a): 2 days 18 hours and 3 days 12 hours"
@@ -4825,8 +5015,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q01_b",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q01_b",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -4853,7 +5043,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q01_b_q1",
+          "id": "rsexch15ex64q01bq1",
           "prompt": {
             "english": "Add the following Part (b): 5 weeks 4 days and 4 weeks 5 days",
             "hindi": "Add the following Part (b): 5 weeks 4 days and 4 weeks 5 days"
@@ -4889,8 +5079,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q02_a",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q02_a",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -4917,7 +5107,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q02_a_q1",
+          "id": "rsexch15ex64q02aq1",
           "prompt": {
             "english": "Add the following Part (a): 5 hours 35 minutes and 4 hours 15 minutes",
             "hindi": "Add the following Part (a): 5 hours 35 minutes and 4 hours 15 minutes"
@@ -4953,8 +5143,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q02_b",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q02_b",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -4981,7 +5171,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q02_b_q1",
+          "id": "rsexch15ex64q02bq1",
           "prompt": {
             "english": "Add the following Part (b): 8 hours 46 minutes and 6 hours 54 minutes",
             "hindi": "Add the following Part (b): 8 hours 46 minutes and 6 hours 54 minutes"
@@ -5017,8 +5207,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q02_c",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q02_c",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -5045,7 +5235,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q02_c_q1",
+          "id": "rsexch15ex64q02cq1",
           "prompt": {
             "english": "Add the following Part (c): 17 hours 8 minutes and 7 hours 52 minutes",
             "hindi": "Add the following Part (c): 17 hours 8 minutes and 7 hours 52 minutes"
@@ -5081,8 +5271,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q02_d",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q02_d",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -5109,7 +5299,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q02_d_q1",
+          "id": "rsexch15ex64q02dq1",
           "prompt": {
             "english": "Add the following Part (d): 2 hours 30 minutes, 4 hours 50 minutes and 5 hours 40 minutes",
             "hindi": "Add the following Part (d): 2 hours 30 minutes, 4 hours 50 minutes and 5 hours 40 minutes"
@@ -5145,8 +5335,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q03_a",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q03_a",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -5173,7 +5363,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q03_a_q1",
+          "id": "rsexch15ex64q03aq1",
           "prompt": {
             "english": "Add the following Part (a): 8 minutes 28 seconds and 6 minutes 17 seconds",
             "hindi": "Add the following Part (a): 8 minutes 28 seconds and 6 minutes 17 seconds"
@@ -5209,8 +5399,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q03_b",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q03_b",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -5237,7 +5427,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q03_b_q1",
+          "id": "rsexch15ex64q03bq1",
           "prompt": {
             "english": "Add the following Part (b): 13 minutes 32 seconds and 8 minutes 53 seconds",
             "hindi": "Add the following Part (b): 13 minutes 32 seconds and 8 minutes 53 seconds"
@@ -5273,8 +5463,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q03_c",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q03_c",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -5301,7 +5491,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q03_c_q1",
+          "id": "rsexch15ex64q03cq1",
           "prompt": {
             "english": "Add the following Part (c): 17 minutes 46 seconds and 18 minutes 14 seconds",
             "hindi": "Add the following Part (c): 17 minutes 46 seconds and 18 minutes 14 seconds"
@@ -5337,8 +5527,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q03_d",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q03_d",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -5365,7 +5555,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q03_d_q1",
+          "id": "rsexch15ex64q03dq1",
           "prompt": {
             "english": "Add the following Part (d): 9 minutes 45 seconds, 6 minutes 24 seconds and 8 minutes 16 seconds",
             "hindi": "Add the following Part (d): 9 minutes 45 seconds, 6 minutes 24 seconds and 8 minutes 16 seconds"
@@ -5401,8 +5591,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q04_a",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q04_a",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -5429,7 +5619,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q04_a_q1",
+          "id": "rsexch15ex64q04aq1",
           "prompt": {
             "english": "Subtract Part (a): 3 days 12 hours from 5 days 20 hours",
             "hindi": "Subtract Part (a): 3 days 12 hours from 5 days 20 hours"
@@ -5465,8 +5655,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q04_b",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q04_b",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -5493,7 +5683,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q04_b_q1",
+          "id": "rsexch15ex64q04bq1",
           "prompt": {
             "english": "Subtract Part (b): 8 days 18 hours from 12 days 10 hours",
             "hindi": "Subtract Part (b): 8 days 18 hours from 12 days 10 hours"
@@ -5529,8 +5719,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q04_c",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q04_c",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -5557,7 +5747,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q04_c_q1",
+          "id": "rsexch15ex64q04cq1",
           "prompt": {
             "english": "Subtract Part (c): 7 days 6 hours from 10 days",
             "hindi": "Subtract Part (c): 7 days 6 hours from 10 days"
@@ -5593,8 +5783,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q04_d",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q04_d",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -5621,7 +5811,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q04_d_q1",
+          "id": "rsexch15ex64q04dq1",
           "prompt": {
             "english": "Subtract Part (d): 3 weeks 5 days from 5 weeks 2 days",
             "hindi": "Subtract Part (d): 3 weeks 5 days from 5 weeks 2 days"
@@ -5657,8 +5847,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q05_a",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q05_a",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -5685,7 +5875,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q05_a_q1",
+          "id": "rsexch15ex64q05aq1",
           "prompt": {
             "english": "Subtract Part (a): 6 hours 25 minutes from 8 hours 40 minutes",
             "hindi": "Subtract Part (a): 6 hours 25 minutes from 8 hours 40 minutes"
@@ -5721,8 +5911,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q05_b",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q05_b",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -5749,7 +5939,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q05_b_q1",
+          "id": "rsexch15ex64q05bq1",
           "prompt": {
             "english": "Subtract Part (b): 8 hours 46 minutes from 11 hours 30 minutes",
             "hindi": "Subtract Part (b): 8 hours 46 minutes from 11 hours 30 minutes"
@@ -5785,8 +5975,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q05_c",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q05_c",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -5813,7 +6003,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q05_c_q1",
+          "id": "rsexch15ex64q05cq1",
           "prompt": {
             "english": "Subtract Part (c): 16 hours 34 minutes from 23 hours 26 minutes",
             "hindi": "Subtract Part (c): 16 hours 34 minutes from 23 hours 26 minutes"
@@ -5849,8 +6039,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q05_d",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q05_d",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -5877,7 +6067,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q05_d_q1",
+          "id": "rsexch15ex64q05dq1",
           "prompt": {
             "english": "Subtract Part (d): 9 hours 40 minutes from 24 hours",
             "hindi": "Subtract Part (d): 9 hours 40 minutes from 24 hours"
@@ -5913,8 +6103,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q06_a",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q06_a",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -5941,7 +6131,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q06_a_q1",
+          "id": "rsexch15ex64q06aq1",
           "prompt": {
             "english": "Subtract Part (a): 8 minutes 32 seconds from 12 minutes 40 seconds",
             "hindi": "Subtract Part (a): 8 minutes 32 seconds from 12 minutes 40 seconds"
@@ -5977,8 +6167,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q06_b",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q06_b",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -6005,7 +6195,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q06_b_q1",
+          "id": "rsexch15ex64q06bq1",
           "prompt": {
             "english": "Subtract Part (b): 24 minutes 54 seconds from 36 minutes 23 seconds",
             "hindi": "Subtract Part (b): 24 minutes 54 seconds from 36 minutes 23 seconds"
@@ -6041,8 +6231,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q06_c",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q06_c",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -6069,7 +6259,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q06_c_q1",
+          "id": "rsexch15ex64q06cq1",
           "prompt": {
             "english": "Subtract Part (c): 41 minutes 37 seconds from 54 minutes 25 seconds",
             "hindi": "Subtract Part (c): 41 minutes 37 seconds from 54 minutes 25 seconds"
@@ -6105,8 +6295,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q06_d",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q06_d",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -6133,7 +6323,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q06_d_q1",
+          "id": "rsexch15ex64q06dq1",
           "prompt": {
             "english": "Subtract Part (d): 10 minutes 48 seconds from 13 minutes",
             "hindi": "Subtract Part (d): 10 minutes 48 seconds from 13 minutes"
@@ -6169,8 +6359,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q07",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q07",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -6197,7 +6387,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q07_q1",
+          "id": "rsexch15ex64q07_q1",
           "prompt": {
             "english": "Subtract 14 years 9 months from 20 years",
             "hindi": "Subtract 14 years 9 months from 20 years"
@@ -6233,8 +6423,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q08",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q08",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -6261,7 +6451,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q08_q1",
+          "id": "rsexch15ex64q08_q1",
           "prompt": {
             "english": "What time will it be 3 hours 50 minutes after 7:30 p.m.?",
             "hindi": "What time will it be 3 hours 50 minutes after 7:30 p.m.?"
@@ -6298,8 +6488,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q09",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q09",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -6326,7 +6516,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q09_q1",
+          "id": "rsexch15ex64q09_q1",
           "prompt": {
             "english": "What time will it be 6 hours 30 minutes after 9:40 p.m.?",
             "hindi": "What time will it be 6 hours 30 minutes after 9:40 p.m.?"
@@ -6363,8 +6553,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q10",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q10",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -6391,7 +6581,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q10_q1",
+          "id": "rsexch15ex64q10_q1",
           "prompt": {
             "english": "What time was it 3 hours before 1:30 p.m.?",
             "hindi": "What time was it 3 hours before 1:30 p.m.?"
@@ -6428,8 +6618,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q11",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q11",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -6456,7 +6646,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q11_q1",
+          "id": "rsexch15ex64q11_q1",
           "prompt": {
             "english": "What time was it 6 hours 25 minutes before 4:15 p.m.?",
             "hindi": "What time was it 6 hours 25 minutes before 4:15 p.m.?"
@@ -6493,8 +6683,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex64_q12",
-      "sourceLessonId": "rs_exercise_ch15_ex64",
+      "id": "rsexch15ex64q12",
+      "sourceLessonId": "rsexercisech15_ex64",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -6521,7 +6711,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex64_q12_q1",
+          "id": "rsexch15ex64q12_q1",
           "prompt": {
             "english": "Find the interval between 7:25 a.m. and 3:10 p.m",
             "hindi": "Find the interval between 7:25 a.m. and 3:10 p.m"
@@ -6557,8 +6747,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex65_q01",
-      "sourceLessonId": "rs_exercise_ch15_ex65",
+      "id": "rsexch15ex65q01",
+      "sourceLessonId": "rsexercisech15_ex65",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -6585,7 +6775,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex65_q01_q1",
+          "id": "rsexch15ex65q01_q1",
           "prompt": {
             "english": "40 p.m. Find the working hours of her school",
             "hindi": "40 p.m. Find the working hours of her school"
@@ -6621,8 +6811,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex65_q02",
-      "sourceLessonId": "rs_exercise_ch15_ex65",
+      "id": "rsexch15ex65q02",
+      "sourceLessonId": "rsexercisech15_ex65",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -6649,7 +6839,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex65_q02_q1",
+          "id": "rsexch15ex65q02_q1",
           "prompt": {
             "english": "A stationery shop opens at 9:30 a.m. and closes at 8:00 p.m. How long does the shop remain open?",
             "hindi": "A stationery shop opens at 9:30 a.m. and closes at 8:00 p.m. How long does the shop remain open?"
@@ -6685,8 +6875,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex65_q03",
-      "sourceLessonId": "rs_exercise_ch15_ex65",
+      "id": "rsexch15ex65q03",
+      "sourceLessonId": "rsexercisech15_ex65",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -6713,7 +6903,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex65_q03_q1",
+          "id": "rsexch15ex65q03_q1",
           "prompt": {
             "english": "A bus leaves the bus stop at 6:50 p.m. and reaches its destination at 6:30 a.m. the next day. Find the duration of the journey",
             "hindi": "A bus leaves the bus stop at 6:50 p.m. and reaches its destination at 6:30 a.m. the next day. Find the duration of the journey"
@@ -6749,8 +6939,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex65_q04",
-      "sourceLessonId": "rs_exercise_ch15_ex65",
+      "id": "rsexch15ex65q04",
+      "sourceLessonId": "rsexercisech15_ex65",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -6777,7 +6967,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex65_q04_q1",
+          "id": "rsexch15ex65q04_q1",
           "prompt": {
             "english": "A train left New Delhi at 5:40 p.m. on Sunday and reached Bengaluru on Wednesday at 12:30 p.m. Find the total duration of the journey",
             "hindi": "A train left New Delhi at 5:40 p.m. on Sunday and reached Bengaluru on Wednesday at 12:30 p.m. Find the total duration of the journey"
@@ -6813,8 +7003,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex65_q05",
-      "sourceLessonId": "rs_exercise_ch15_ex65",
+      "id": "rsexch15ex65q05",
+      "sourceLessonId": "rsexercisech15_ex65",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -6841,7 +7031,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex65_q05_q1",
+          "id": "rsexch15ex65q05_q1",
           "prompt": {
             "english": "Naresh joined a company on 8th August 2010 and left it on 3rd January 2015. How long did he work for the company?",
             "hindi": "Naresh joined a company on 8th August 2010 and left it on 3rd January 2015. How long did he work for the company?"
@@ -6877,8 +7067,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex65_q06",
-      "sourceLessonId": "rs_exercise_ch15_ex65",
+      "id": "rsexch15ex65q06",
+      "sourceLessonId": "rsexercisech15_ex65",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -6905,7 +7095,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex65_q06_q1",
+          "id": "rsexch15ex65q06_q1",
           "prompt": {
             "english": "Neera’s winter vacations were from 5th December, 2015 to 12th February, 2016. For how many days her school was closed?",
             "hindi": "Neera’s winter vacations were from 5th December, 2015 to 12th February, 2016. For how many days her school was closed?"
@@ -6941,8 +7131,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex65_q07",
-      "sourceLessonId": "rs_exercise_ch15_ex65",
+      "id": "rsexch15ex65q07",
+      "sourceLessonId": "rsexercisech15_ex65",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -6969,7 +7159,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex65_q07_q1",
+          "id": "rsexch15ex65q07_q1",
           "prompt": {
             "english": "I started teaching at the age of 22 years 7 months. I am now 50 years 2 months old. How long have I been teaching?",
             "hindi": "I started teaching at the age of 22 years 7 months. I am now 50 years 2 months old. How long have I been teaching?"
@@ -7005,8 +7195,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch15_ex65_q08",
-      "sourceLessonId": "rs_exercise_ch15_ex65",
+      "id": "rsexch15ex65q08",
+      "sourceLessonId": "rsexercisech15_ex65",
       "chapterNumber": 15,
       "chapterTitle": {
         "english": "Time",
@@ -7033,7 +7223,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch15_ex65_q08_q1",
+          "id": "rsexch15ex65q08_q1",
           "prompt": {
             "english": "Punam was born on 7th April 2004 and her brother Amit was born on 2nd March 2009. Who is younger and by how much?",
             "hindi": "Punam was born on 7th April 2004 and her brother Amit was born on 2nd March 2009. Who is younger and by how much?"

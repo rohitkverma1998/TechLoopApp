@@ -2,8 +2,8 @@
 
 ## Generate Explanation Prompt
 
-`Explain [topic] for beginners in both English and Hindi using images from web with example`
+`Explain [topic] for beginners in both English and Hindi with example`
 
 ## Generate Solution Prompt
 
-`Solve [Question] for beginners in both English and Hindi using images from web`
+`Solve [Question] for beginners in both English and Hindi`

@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch03_how_to_write_a_number",
+      "id": "rsch03howtowriteanumber",
       "sourceLessonId": "rs_ch03",
       "chapterNumber": 3,
       "chapterTitle": {
@@ -29,12 +29,22 @@
         "english": "How to Write a Number",
         "hindi": "संख्या कैसे लिखें"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "In the Indian place value system, large numbers are read and written with periods:\n- **Ones period:** Ones, Tens, Hundreds\n- **Thousands period:** Thousands, Ten-Thousands\n- **Lakhs period:** Lakhs, Ten-Lakhs\n- **Crores period:** Crores, Ten-Crores\n\n**Place Value Chart:**\n| TC | C | TL | L | TTh | Th | H | T | O |\n|Ten-Crore|Crore|Ten-Lakh|Lakh|Ten-Thousand|Thousand|Hundred|Ten|One|\n\n**Example:** Seven crore four lakh two thousand nine\n- 7 Crore = 7,00,00,000\n- 4 Lakh = 4,00,000 → but in the crore context: 4,00,000\n- 2 Thousand = 2,000\n- 9 = 9\n- Total = **7,04,02,009**",
+          "hindi": "भारतीय स्थान-मूल्य पद्धति में बड़ी संख्याएँ इस प्रकार लिखी जाती हैं:\n- इकाई, दहाई, सैकड़ा (एकक)\n- हजार, दस-हजार\n- लाख, दस-लाख\n- करोड़, दस-करोड़\n\n**उदाहरण:** सात करोड़ चार लाख दो हजार नौ = **7,04,02,009**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Seven crore four lakh two thousand nine\n- 7 Crore = 7,00,00,000\n- 4 Lakh = 4,00,000 → but in the crore context: 4,00,000\n- 2 Thousand = 2,000\n- 9 = 9\n- Total = **7,04,02,009**",
+          "hindi": "**उदाहरण:** सात करोड़ चार लाख दो हजार नौ = **7,04,02,009**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "how_to_write_a_number_q1",
+          "id": "howtowriteanumber_q1",
           "prompt": {
             "english": "Write in figures: Seven crore four lakh two thousand nine.",
             "hindi": "अंकों में लिखिए: सात करोड़ चार लाख दो हजार नौ।"
@@ -47,11 +57,33 @@
             "7,04,02,009"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Identify each period.\n- 7 crore → 7 in the crores place\n- 4 lakh → 4 in the lakhs place\n- 2 thousand → 2 in the thousands place\n- 9 → 9 in the ones place\n\nStep 2: Place zeroes in empty positions.\n- Crore: 7 → 7,00,00,000\n- Lakh: 4 → 4,00,000 becomes 7,04,00,000\n- Thousand: 2 → 7,04,02,000\n- Ones: 9 → **7,04,02,009**\n\n**Answer: 7,04,02,009**",
+            "hindi": "चरण 1: प्रत्येक अवधि पहचानें।\n- 7 करोड़, 4 लाख, 2 हजार, 9 इकाई\n\nचरण 2: खाली स्थानों पर शून्य लगाएँ।\n- **7,04,02,009**\n\n**उत्तर: 7,04,02,009**"
+          },
+          "supportExample": {
+            "english": "Step 1: Identify each period.\n- 7 crore → 7 in the crores place\n- 4 lakh → 4 in the lakhs place\n- 2 thousand → 2 in the thousands place\n- 9 → 9 in the ones place\nStep 2: Place zeroes in empty positions.\n- Crore: 7 → 7,00,00,000\n- Lakh: 4 → 4,00,000 becomes 7,04,00,000\n- Thousand: 2 → 7,04,02,000\n- Ones: 9 → **7,04,02,009**",
+            "hindi": "चरण 1: प्रत्येक अवधि पहचानें।\n- 7 करोड़, 4 लाख, 2 हजार, 9 इकाई\nचरण 2: खाली स्थानों पर शून्य लगाएँ।\n- **7,04,02,009**"
+          },
           "mistakeType": "PLACE_VALUE",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Identify each period.\n- 7 crore → 7 in the crores place\n- 4 lakh → 4 in the lakhs place\n- 2 thousand → 2 in the thousands place\n- 9 → 9 in the ones place",
+              "hindi": "चरण 1: प्रत्येक अवधि पहचानें।\n- 7 करोड़, 4 लाख, 2 हजार, 9 इकाई"
+            },
+            {
+              "english": "Step 2: Place zeroes in empty positions.\n- Crore: 7 → 7,00,00,000\n- Lakh: 4 → 4,00,000 becomes 7,04,00,000\n- Thousand: 2 → 7,04,02,000\n- Ones: 9 → **7,04,02,009**",
+              "hindi": "चरण 2: खाली स्थानों पर शून्य लगाएँ।\n- **7,04,02,009**"
+            },
+            {
+              "english": "**Answer: 7,04,02,009**",
+              "hindi": "**उत्तर: 7,04,02,009**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -67,7 +99,7 @@
       "mistakeFocus": "PLACE_VALUE"
     },
     {
-      "id": "rs_ch03_how_to_read_a_number",
+      "id": "rsch03howtoreadanumber",
       "sourceLessonId": "rs_ch03",
       "chapterNumber": 3,
       "chapterTitle": {
@@ -90,12 +122,26 @@
         "english": "How to Read a Number",
         "hindi": "संख्या कैसे पढ़ें"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "To read a large number in the Indian system:\n1. Place commas correctly: start from the right — first group of 3, then groups of 2.\n2. Read each group with its period name.",
+          "hindi": "भारतीय पद्धति में बड़ी संख्या पढ़ने के लिए:\n1. सही जगह अल्पविराम लगाएँ: दाईं ओर से पहले 3 अंक, फिर 2-2 अंक।\n2. प्रत्येक समूह को उसके अवधि-नाम के साथ पढ़ें।"
+        },
+        {
+          "english": "**Example:** 3,05,07,042\n- 3 crore (3)\n- 05 lakh (5 lakh)\n- 07 thousand (7 thousand)\n- 042 (forty-two)\n- Read as: **Three crore five lakh seven thousand forty-two**",
+          "hindi": "**उदाहरण:** 3,05,07,042 = तीन करोड़ पाँच लाख सात हजार बयालीस"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** 3,05,07,042\n- 3 crore (3)\n- 05 lakh (5 lakh)\n- 07 thousand (7 thousand)\n- 042 (forty-two)\n- Read as: **Three crore five lakh seven thousand forty-two**",
+          "hindi": "**उदाहरण:** 3,05,07,042 = तीन करोड़ पाँच लाख सात हजार बयालीस"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "how_to_read_a_number_q1",
+          "id": "howtoreadanumber_q1",
           "prompt": {
             "english": "How is 3,05,07,042 read in words?",
             "hindi": "3,05,07,042 को शब्दों में कैसे पढ़ते हैं?"
@@ -122,11 +168,29 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "- 3 → Crores place → Three crore\n- 05 → Lakhs → Five lakh\n- 07 → Thousands → Seven thousand\n- 042 → Forty-two\n\n**Answer: Three crore five lakh seven thousand forty-two**",
+            "hindi": "- 3 = तीन करोड़\n- 05 = पाँच लाख\n- 07 = सात हजार\n- 042 = बयालीस\n\n**उत्तर: तीन करोड़ पाँच लाख सात हजार बयालीस**"
+          },
+          "supportExample": {
+            "english": "- 3 → Crores place → Three crore\n- 05 → Lakhs → Five lakh\n- 07 → Thousands → Seven thousand\n- 042 → Forty-two\n**Answer: Three crore five lakh seven thousand forty-two**",
+            "hindi": "- 3 = तीन करोड़\n- 05 = पाँच लाख\n- 07 = सात हजार\n- 042 = बयालीस\n**उत्तर: तीन करोड़ पाँच लाख सात हजार बयालीस**"
+          },
           "mistakeType": "READING",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "- 3 → Crores place → Three crore\n- 05 → Lakhs → Five lakh\n- 07 → Thousands → Seven thousand\n- 042 → Forty-two",
+              "hindi": "- 3 = तीन करोड़\n- 05 = पाँच लाख\n- 07 = सात हजार\n- 042 = बयालीस"
+            },
+            {
+              "english": "**Answer: Three crore five lakh seven thousand forty-two**",
+              "hindi": "**उत्तर: तीन करोड़ पाँच लाख सात हजार बयालीस**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -142,7 +206,7 @@
       "mistakeFocus": "READING"
     },
     {
-      "id": "rs_ch03_order_relation",
+      "id": "rsch03order_relation",
       "sourceLessonId": "rs_ch03",
       "chapterNumber": 3,
       "chapterTitle": {
@@ -165,12 +229,26 @@
         "english": "Order Relation",
         "hindi": "क्रम संबंध"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "Comparing large numbers uses the same rules as smaller numbers:\n1. Count the digits — more digits means a larger number.\n2. If digit-count is same, compare from the leftmost digit.",
+          "hindi": "बड़ी संख्याओं की तुलना उसी तरह करते हैं:\n1. अंकों की गिनती करें।\n2. बाएं से अंक-दर-अंक तुलना।"
+        },
+        {
+          "english": "**Example:** Compare 5,67,890 and 5,76,890.\n- Both have 6 digits.\n- Compare: 5=5, 6 vs 7 → 6 < 7\n- So 5,67,890 **<** 5,76,890",
+          "hindi": "**उदाहरण:** 5,67,890 और 5,76,890\n- दोनों में 6 अंक।\n- 5=5, 6 < 7 → 5,67,890 **<** 5,76,890"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Compare 5,67,890 and 5,76,890.\n- Both have 6 digits.\n- Compare: 5=5, 6 vs 7 → 6 < 7\n- So 5,67,890 **<** 5,76,890",
+          "hindi": "**उदाहरण:** 5,67,890 और 5,76,890\n- दोनों में 6 अंक।\n- 5=5, 6 < 7 → 5,67,890 **<** 5,76,890"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "order_relation_q1",
+          "id": "orderrelationq1",
           "prompt": {
             "english": "Fill the sign: 5,67,890 __ 5,76,890.",
             "hindi": "चिह्न भरिए: 5,67,890 __ 5,76,890।"
@@ -182,11 +260,25 @@
             "<"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Both numbers have 6 digits. Compare from left:\n- Ten-lakhs: 5 = 5 (same)\n- Lakhs: 6 vs 7 → 6 < 7\n\nSo 5,67,890 is LESS than 5,76,890.\n\n**Answer: 5,67,890 < 5,76,890**",
+            "hindi": "दोनों में 6 अंक। बाएं से तुलना:\n- 5=5, फिर 6 बनाम 7 → 6 < 7\n\n**उत्तर: 5,67,890 < 5,76,890**"
+          },
+          "supportExample": {
+            "english": "Both numbers have 6 digits. Compare from left:\n- Ten-lakhs: 5 = 5 (same)\n- Lakhs: 6 vs 7 → 6 < 7\nSo 5,67,890 is LESS than 5,76,890.",
+            "hindi": "दोनों में 6 अंक। बाएं से तुलना:\n- 5=5, फिर 6 बनाम 7 → 6 < 7\n**उत्तर: 5,67,890 < 5,76,890**"
+          },
           "mistakeType": "PLACE_VALUE",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Both numbers have 6 digits. Compare from left:\n- Ten-lakhs: 5 = 5 (same)\n- Lakhs: 6 vs 7 → 6 < 7\nSo 5,67,890 is LESS than 5,76,890.\n**Answer: 5,67,890 < 5,76,890**",
+              "hindi": "दोनों में 6 अंक। बाएं से तुलना:\n- 5=5, फिर 6 बनाम 7 → 6 < 7\n**उत्तर: 5,67,890 < 5,76,890**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -202,7 +294,7 @@
       "mistakeFocus": "PLACE_VALUE"
     },
     {
-      "id": "rs_ch03_international_place_value_system",
+      "id": "rsch03internationalplacevalue_system",
       "sourceLessonId": "rs_ch03",
       "chapterNumber": 3,
       "chapterTitle": {
@@ -225,12 +317,22 @@
         "english": "International Place Value System",
         "hindi": "अंतरराष्ट्रीय स्थान-मूल्य पद्धति"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "The International system groups digits in sets of 3 from the right:\n- **Ones:** Ones, Tens, Hundreds\n- **Thousands:** Thousands, Ten-Thousands, Hundred-Thousands\n- **Millions:** Millions, Ten-Millions, Hundred-Millions\n\n**Comparison with Indian System:**\n| International | Indian |\n|---------------|--------|\n| 1 Million | 10 Lakh |\n| 10 Million | 1 Crore |\n| 100 Million | 10 Crore |\n\n**Example:** 4,508,206\n- 4 Million + 508 Thousand + 206\n- = **Four million five hundred eight thousand two hundred six**",
+          "hindi": "अंतरराष्ट्रीय पद्धति में दाईं ओर से 3-3 अंकों के समूह बनाते हैं।\n- इकाई, दहाई, सैकड़ा\n- हजार, दस-हजार, लाख (hundred thousand)\n- मिलियन, दस-मिलियन, सौ-मिलियन\n\n**उदाहरण:** 4,508,206 = फोर मिलियन फाइव हंड्रेड एट थाउज़ेंड टू हंड्रेड सिक्स"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** 4,508,206\n- 4 Million + 508 Thousand + 206\n- = **Four million five hundred eight thousand two hundred six**",
+          "hindi": "**उदाहरण:** 4,508,206 = फोर मिलियन फाइव हंड्रेड एट थाउज़ेंड टू हंड्रेड सिक्स"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "international_place_value_system_q1",
+          "id": "internationalplacevaluesystemq1",
           "prompt": {
             "english": "How is 4,508,206 read in the international system?",
             "hindi": "4,508,206 को अंतरराष्ट्रीय पद्धति में कैसे पढ़ते हैं?"
@@ -257,11 +359,29 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Group by 3 from right: 4 | 508 | 206\n- 4 → Four **million**\n- 508 → Five hundred eight **thousand**\n- 206 → Two hundred six\n\n**Answer: Four million five hundred eight thousand two hundred six**",
+            "hindi": "दाईं ओर से 3-3 का समूह: 4 | 508 | 206\n- 4 = फोर मिलियन\n- 508 = फाइव हंड्रेड एट थाउज़ेंड\n- 206 = टू हंड्रेड सिक्स\n\n**उत्तर: Four million five hundred eight thousand two hundred six**"
+          },
+          "supportExample": {
+            "english": "Group by 3 from right: 4 | 508 | 206\n- 4 → Four **million**\n- 508 → Five hundred eight **thousand**\n- 206 → Two hundred six\n**Answer: Four million five hundred eight thousand two hundred six**",
+            "hindi": "दाईं ओर से 3-3 का समूह: 4 | 508 | 206\n- 4 = फोर मिलियन\n- 508 = फाइव हंड्रेड एट थाउज़ेंड\n- 206 = टू हंड्रेड सिक्स\n**उत्तर: Four million five hundred eight thousand two hundred six**"
+          },
           "mistakeType": "READING",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Group by 3 from right: 4 | 508 | 206\n- 4 → Four **million**\n- 508 → Five hundred eight **thousand**\n- 206 → Two hundred six",
+              "hindi": "दाईं ओर से 3-3 का समूह: 4 | 508 | 206\n- 4 = फोर मिलियन\n- 508 = फाइव हंड्रेड एट थाउज़ेंड\n- 206 = टू हंड्रेड सिक्स"
+            },
+            {
+              "english": "**Answer: Four million five hundred eight thousand two hundred six**",
+              "hindi": "**उत्तर: Four million five hundred eight thousand two hundred six**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -277,8 +397,8 @@
       "mistakeFocus": "READING"
     },
     {
-      "id": "rs_ex_ch03_ex03_q01_a",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q01_a",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -305,7 +425,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q01_a_q1",
+          "id": "rsexch03ex03q01aq1",
           "prompt": {
             "english": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (a): 623974",
             "hindi": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (a): 623974"
@@ -341,8 +461,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q01_b",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q01_b",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -369,7 +489,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q01_b_q1",
+          "id": "rsexch03ex03q01bq1",
           "prompt": {
             "english": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (b): 3768954",
             "hindi": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (b): 3768954"
@@ -405,8 +525,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q01_c",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q01_c",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -433,7 +553,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q01_c_q1",
+          "id": "rsexch03ex03q01cq1",
           "prompt": {
             "english": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (c): 52673894",
             "hindi": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (c): 52673894"
@@ -469,8 +589,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q01_d",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q01_d",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -497,7 +617,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q01_d_q1",
+          "id": "rsexch03ex03q01dq1",
           "prompt": {
             "english": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (d): 430615029",
             "hindi": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (d): 430615029"
@@ -533,8 +653,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q01_e",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q01_e",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -561,7 +681,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q01_e_q1",
+          "id": "rsexch03ex03q01eq1",
           "prompt": {
             "english": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (e): 681008546",
             "hindi": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (e): 681008546"
@@ -597,8 +717,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q01_f",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q01_f",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -625,7 +745,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q01_f_q1",
+          "id": "rsexch03ex03q01fq1",
           "prompt": {
             "english": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (f): 705000038",
             "hindi": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (f): 705000038"
@@ -661,8 +781,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q01_g",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q01_g",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -689,7 +809,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q01_g_q1",
+          "id": "rsexch03ex03q01gq1",
           "prompt": {
             "english": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (g): 800808088",
             "hindi": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (g): 800808088"
@@ -725,8 +845,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q01_h",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q01_h",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -753,7 +873,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q01_h_q1",
+          "id": "rsexch03ex03q01hq1",
           "prompt": {
             "english": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (h): 900000100",
             "hindi": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (h): 900000100"
@@ -789,8 +909,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q01_i",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q01_i",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -817,7 +937,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q01_i_q1",
+          "id": "rsexch03ex03q01iq1",
           "prompt": {
             "english": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (i): 303100001",
             "hindi": "Rewrite the following numbers using commas to separate the periods according to the Indian place value chart Part (i): 303100001"
@@ -853,8 +973,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q02_a",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q02_a",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -881,7 +1001,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q02_a_q1",
+          "id": "rsexch03ex03q02aq1",
           "prompt": {
             "english": "Write the following numbers in words Part (a): 74,10,507",
             "hindi": "Write the following numbers in words Part (a): 74,10,507"
@@ -917,8 +1037,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q02_b",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q02_b",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -945,7 +1065,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q02_b_q1",
+          "id": "rsexch03ex03q02bq1",
           "prompt": {
             "english": "Write the following numbers in words Part (b): 39,00,302",
             "hindi": "Write the following numbers in words Part (b): 39,00,302"
@@ -981,8 +1101,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q02_c",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q02_c",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -1009,7 +1129,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q02_c_q1",
+          "id": "rsexch03ex03q02cq1",
           "prompt": {
             "english": "Write the following numbers in words Part (c): 2,41,05,063",
             "hindi": "Write the following numbers in words Part (c): 2,41,05,063"
@@ -1045,8 +1165,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q02_d",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q02_d",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -1073,7 +1193,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q02_d_q1",
+          "id": "rsexch03ex03q02dq1",
           "prompt": {
             "english": "Write the following numbers in words Part (d): 10,00,53,109",
             "hindi": "Write the following numbers in words Part (d): 10,00,53,109"
@@ -1109,8 +1229,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q02_e",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q02_e",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -1137,7 +1257,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q02_e_q1",
+          "id": "rsexch03ex03q02eq1",
           "prompt": {
             "english": "Write the following numbers in words Part (e): 22,07,08,518",
             "hindi": "Write the following numbers in words Part (e): 22,07,08,518"
@@ -1173,8 +1293,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q02_f",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q02_f",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -1201,7 +1321,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q02_f_q1",
+          "id": "rsexch03ex03q02fq1",
           "prompt": {
             "english": "Write the following numbers in words Part (f): 36,10,06,284",
             "hindi": "Write the following numbers in words Part (f): 36,10,06,284"
@@ -1237,8 +1357,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q02_g",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q02_g",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -1265,7 +1385,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q02_g_q1",
+          "id": "rsexch03ex03q02gq1",
           "prompt": {
             "english": "Write the following numbers in words Part (g): 50,19,00,006",
             "hindi": "Write the following numbers in words Part (g): 50,19,00,006"
@@ -1301,8 +1421,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q02_h",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q02_h",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -1329,7 +1449,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q02_h_q1",
+          "id": "rsexch03ex03q02hq1",
           "prompt": {
             "english": "Write the following numbers in words Part (h): 10,01,01,100",
             "hindi": "Write the following numbers in words Part (h): 10,01,01,100"
@@ -1365,8 +1485,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q02_i",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q02_i",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -1393,7 +1513,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q02_i_q1",
+          "id": "rsexch03ex03q02iq1",
           "prompt": {
             "english": "Write the following numbers in words Part (i): 4,04,04,004",
             "hindi": "Write the following numbers in words Part (i): 4,04,04,004"
@@ -1429,8 +1549,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q03_a",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q03_a",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -1457,7 +1577,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q03_a_q1",
+          "id": "rsexch03ex03q03aq1",
           "prompt": {
             "english": "Write the following numbers in figures Part (a): Ninety-two lakh five thousand fifty-five",
             "hindi": "Write the following numbers in figures Part (a): Ninety-two lakh five thousand fifty-five"
@@ -1493,8 +1613,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q03_b",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q03_b",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -1521,7 +1641,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q03_b_q1",
+          "id": "rsexch03ex03q03bq1",
           "prompt": {
             "english": "Write the following numbers in figures Part (b): Six crore sixty-five lakh twenty thousand seven hundred sixteen",
             "hindi": "Write the following numbers in figures Part (b): Six crore sixty-five lakh twenty thousand seven hundred sixteen"
@@ -1557,8 +1677,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q03_c",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q03_c",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -1585,7 +1705,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q03_c_q1",
+          "id": "rsexch03ex03q03cq1",
           "prompt": {
             "english": "Write the following numbers in figures Part (c): Nine crore nineteen lakh nine thousand nine hundred ninety",
             "hindi": "Write the following numbers in figures Part (c): Nine crore nineteen lakh nine thousand nine hundred ninety"
@@ -1621,8 +1741,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q03_d",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q03_d",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -1649,7 +1769,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q03_d_q1",
+          "id": "rsexch03ex03q03dq1",
           "prompt": {
             "english": "Write the following numbers in figures Part (d): Twelve crore ten lakh three hundred sixty-five",
             "hindi": "Write the following numbers in figures Part (d): Twelve crore ten lakh three hundred sixty-five"
@@ -1685,8 +1805,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q03_e",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q03_e",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -1713,7 +1833,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q03_e_q1",
+          "id": "rsexch03ex03q03eq1",
           "prompt": {
             "english": "Write the following numbers in figures Part (e): Five crore forty-two thousand one hundred nine",
             "hindi": "Write the following numbers in figures Part (e): Five crore forty-two thousand one hundred nine"
@@ -1749,8 +1869,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q03_f",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q03_f",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -1777,7 +1897,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q03_f_q1",
+          "id": "rsexch03ex03q03fq1",
           "prompt": {
             "english": "Write the following numbers in figures Part (f): Twenty-three crore five lakh seven thousand one hundred eight",
             "hindi": "Write the following numbers in figures Part (f): Twenty-three crore five lakh seven thousand one hundred eight"
@@ -1813,8 +1933,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q03_g",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q03_g",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -1841,7 +1961,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q03_g_q1",
+          "id": "rsexch03ex03q03gq1",
           "prompt": {
             "english": "Write the following numbers in figures Part (g): Thirty crore fifteen thousand eighteen",
             "hindi": "Write the following numbers in figures Part (g): Thirty crore fifteen thousand eighteen"
@@ -1877,8 +1997,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q03_h",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q03_h",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -1905,7 +2025,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q03_h_q1",
+          "id": "rsexch03ex03q03hq1",
           "prompt": {
             "english": "Write the following numbers in figures Part (h): Fifty-two crore one lakh thirty-one",
             "hindi": "Write the following numbers in figures Part (h): Fifty-two crore one lakh thirty-one"
@@ -1941,8 +2061,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q03_i",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q03_i",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -1969,7 +2089,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q03_i_q1",
+          "id": "rsexch03ex03q03iq1",
           "prompt": {
             "english": "Write the following numbers in figures Part (i): Thirteen crore five hundred seventy",
             "hindi": "Write the following numbers in figures Part (i): Thirteen crore five hundred seventy"
@@ -2005,8 +2125,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q03_j",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q03_j",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -2033,7 +2153,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q03_j_q1",
+          "id": "rsexch03ex03q03jq1",
           "prompt": {
             "english": "Write the following numbers in figures Part (j): Ten crore ten thousand eleven",
             "hindi": "Write the following numbers in figures Part (j): Ten crore ten thousand eleven"
@@ -2069,8 +2189,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q03_k",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q03_k",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -2097,7 +2217,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q03_k_q1",
+          "id": "rsexch03ex03q03kq1",
           "prompt": {
             "english": "Write the following numbers in figures Part (k): One crore one thousand one",
             "hindi": "Write the following numbers in figures Part (k): One crore one thousand one"
@@ -2133,8 +2253,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q04",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q04",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -2161,7 +2281,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q04_q1",
+          "id": "rsexch03ex03q04_q1",
           "prompt": {
             "english": "Using Indian place value system, write the place value of each of the digits in the numeral 64,19,70,528",
             "hindi": "Using Indian place value system, write the place value of each of the digits in the numeral 64,19,70,528"
@@ -2197,8 +2317,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q05",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q05",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -2225,7 +2345,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q05_q1",
+          "id": "rsexch03ex03q05_q1",
           "prompt": {
             "english": "write the place value of each of the digits in the numeral 64,19,70,528: Using Indian system of numeration,",
             "hindi": "write the place value of each of the digits in the numeral 64,19,70,528: Using Indian system of numeration,"
@@ -2261,8 +2381,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q06_a",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q06_a",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -2289,7 +2409,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q06_a_q1",
+          "id": "rsexch03ex03q06aq1",
           "prompt": {
             "english": "Write the following numbers in an expanded form Part (a): 5,29,347",
             "hindi": "Write the following numbers in an expanded form Part (a): 5,29,347"
@@ -2325,8 +2445,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q06_b",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q06_b",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -2353,7 +2473,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q06_b_q1",
+          "id": "rsexch03ex03q06bq1",
           "prompt": {
             "english": "Write the following numbers in an expanded form Part (b): 23,09,519",
             "hindi": "Write the following numbers in an expanded form Part (b): 23,09,519"
@@ -2389,8 +2509,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q06_c",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q06_c",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -2417,7 +2537,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q06_c_q1",
+          "id": "rsexch03ex03q06cq1",
           "prompt": {
             "english": "Write the following numbers in an expanded form Part (c): 9,72,34,026",
             "hindi": "Write the following numbers in an expanded form Part (c): 9,72,34,026"
@@ -2453,8 +2573,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q06_d",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q06_d",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -2481,7 +2601,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q06_d_q1",
+          "id": "rsexch03ex03q06dq1",
           "prompt": {
             "english": "Write the following numbers in an expanded form Part (d): 13,06,19,804",
             "hindi": "Write the following numbers in an expanded form Part (d): 13,06,19,804"
@@ -2517,8 +2637,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q06_e",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q06_e",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -2545,7 +2665,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q06_e_q1",
+          "id": "rsexch03ex03q06eq1",
           "prompt": {
             "english": "Write the following numbers in an expanded form Part (e): 37,24,09,578",
             "hindi": "Write the following numbers in an expanded form Part (e): 37,24,09,578"
@@ -2581,8 +2701,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q06_f",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q06_f",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -2609,7 +2729,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q06_f_q1",
+          "id": "rsexch03ex03q06fq1",
           "prompt": {
             "english": "Write the following numbers in an expanded form Part (f): 89,30,16,870",
             "hindi": "Write the following numbers in an expanded form Part (f): 89,30,16,870"
@@ -2645,8 +2765,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q07_a",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q07_a",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -2673,7 +2793,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q07_a_q1",
+          "id": "rsexch03ex03q07aq1",
           "prompt": {
             "english": "Write the following in standard form Part (a): 3000000 + 700000 + 60000 + 9000 + 70 + 6",
             "hindi": "Write the following in standard form Part (a): 3000000 + 700000 + 60000 + 9000 + 70 + 6"
@@ -2709,8 +2829,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q07_b",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q07_b",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -2737,7 +2857,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q07_b_q1",
+          "id": "rsexch03ex03q07bq1",
           "prompt": {
             "english": "Write the following in standard form Part (b): 60000000 + 8000000 + 30000 + 400 + 80 + 4",
             "hindi": "Write the following in standard form Part (b): 60000000 + 8000000 + 30000 + 400 + 80 + 4"
@@ -2773,8 +2893,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q07_c",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q07_c",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -2801,7 +2921,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q07_c_q1",
+          "id": "rsexch03ex03q07cq1",
           "prompt": {
             "english": "Write the following in standard form Part (c): 20000000 + 200000 + 2000 + 200 + 2",
             "hindi": "Write the following in standard form Part (c): 20000000 + 200000 + 2000 + 200 + 2"
@@ -2837,8 +2957,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q07_d",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q07_d",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -2865,7 +2985,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q07_d_q1",
+          "id": "rsexch03ex03q07dq1",
           "prompt": {
             "english": "Write the following in standard form Part (d): 700000000 + 30000000 + 200000 + 80000 + 4000 + 60 + 9",
             "hindi": "Write the following in standard form Part (d): 700000000 + 30000000 + 200000 + 80000 + 4000 + 60 + 9"
@@ -2901,8 +3021,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q07_e",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q07_e",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -2929,7 +3049,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q07_e_q1",
+          "id": "rsexch03ex03q07eq1",
           "prompt": {
             "english": "Write the following in standard form Part (e): 500000000 + 5000 + 50 + 5",
             "hindi": "Write the following in standard form Part (e): 500000000 + 5000 + 50 + 5"
@@ -2965,8 +3085,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q07_f",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q07_f",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -2993,7 +3113,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q07_f_q1",
+          "id": "rsexch03ex03q07fq1",
           "prompt": {
             "english": "Write the following in standard form Part (f): 900000000 + 900000 + 900 + 9",
             "hindi": "Write the following in standard form Part (f): 900000000 + 900000 + 900 + 9"
@@ -3029,8 +3149,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q07_g",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q07_g",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -3057,7 +3177,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q07_g_q1",
+          "id": "rsexch03ex03q07gq1",
           "prompt": {
             "english": "Write the following in standard form Part (g): 40000000 + 10 + 7",
             "hindi": "Write the following in standard form Part (g): 40000000 + 10 + 7"
@@ -3093,8 +3213,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q08",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q08",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -3121,7 +3241,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q08_q1",
+          "id": "rsexch03ex03q08_q1",
           "prompt": {
             "english": "find the place value of the underlined digits in each of the following. (a) 590713568 (b) 635709412 (c) 820307514 (d) 813605247 (e) 246053819 (f) 913546007: Counting in thousands,",
             "hindi": "find the place value of the underlined digits in each of the following. (a) 590713568 (b) 635709412 (c) 820307514 (d) 813605247 (e) 246053819 (f) 913546007: Counting in thousands,"
@@ -3157,8 +3277,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q09",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q09",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -3185,7 +3305,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q09_q1",
+          "id": "rsexch03ex03q09_q1",
           "prompt": {
             "english": "write the numbers from 2906754 to 2911754: Counting in lakhs,",
             "hindi": "write the numbers from 2906754 to 2911754: Counting in lakhs,"
@@ -3221,8 +3341,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q10",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q10",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -3249,7 +3369,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q10_q1",
+          "id": "rsexch03ex03q10_q1",
           "prompt": {
             "english": "write the numbers from 52736109 to 53236109: Counting in crores,",
             "hindi": "write the numbers from 52736109 to 53236109: Counting in crores,"
@@ -3285,8 +3405,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q11_a",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q11_a",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -3313,7 +3433,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q11_a_q1",
+          "id": "rsexch03ex03q11aq1",
           "prompt": {
             "english": "Look at the pattern and write the next three numbers Part (a): 3140624, 3140724, 3140824,...................,...................,",
             "hindi": "Look at the pattern and write the next three numbers Part (a): 3140624, 3140724, 3140824,...................,...................,"
@@ -3349,8 +3469,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q11_b",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q11_b",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -3377,7 +3497,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q11_b_q1",
+          "id": "rsexch03ex03q11bq1",
           "prompt": {
             "english": "Look at the pattern and write the next three numbers Part (b): 3256419, 3257419, 3258419,...................,...................,",
             "hindi": "Look at the pattern and write the next three numbers Part (b): 3256419, 3257419, 3258419,...................,...................,"
@@ -3413,8 +3533,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q11_c",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q11_c",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -3441,7 +3561,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q11_c_q1",
+          "id": "rsexch03ex03q11cq1",
           "prompt": {
             "english": "Look at the pattern and write the next three numbers Part (c): 70809010, 70909010, 71009010,...................,...................,",
             "hindi": "Look at the pattern and write the next three numbers Part (c): 70809010, 70909010, 71009010,...................,...................,"
@@ -3477,8 +3597,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q11_d",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q11_d",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -3505,7 +3625,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q11_d_q1",
+          "id": "rsexch03ex03q11dq1",
           "prompt": {
             "english": "Look at the pattern and write the next three numbers Part (d): 191817600, 201817600, 211817600,...................,...................,",
             "hindi": "Look at the pattern and write the next three numbers Part (d): 191817600, 201817600, 211817600,...................,...................,"
@@ -3541,8 +3661,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q11_e",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q11_e",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -3569,7 +3689,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q11_e_q1",
+          "id": "rsexch03ex03q11eq1",
           "prompt": {
             "english": "Look at the pattern and write the next three numbers Part (e): 302010400, 292010400, 282010400,...................,...................,",
             "hindi": "Look at the pattern and write the next three numbers Part (e): 302010400, 292010400, 282010400,...................,...................,"
@@ -3605,8 +3725,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q12",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q12",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -3633,7 +3753,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q12_q1",
+          "id": "rsexch03ex03q12_q1",
           "prompt": {
             "english": "Write the smallest 9-digit number and the largest 8-digit number",
             "hindi": "Write the smallest 9-digit number and the largest 8-digit number"
@@ -3669,8 +3789,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q13_a",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q13_a",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -3697,7 +3817,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q13_a_q1",
+          "id": "rsexch03ex03q13aq1",
           "prompt": {
             "english": "Answer the following Part (a): What comes just after 9536999?",
             "hindi": "Answer the following Part (a): What comes just after 9536999?"
@@ -3733,8 +3853,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q13_b",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q13_b",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -3761,7 +3881,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q13_b_q1",
+          "id": "rsexch03ex03q13bq1",
           "prompt": {
             "english": "Answer the following Part (b): What comes just before 9900000?",
             "hindi": "Answer the following Part (b): What comes just before 9900000?"
@@ -3797,8 +3917,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q13_c",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q13_c",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -3825,7 +3945,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q13_c_q1",
+          "id": "rsexch03ex03q13cq1",
           "prompt": {
             "english": "Answer the following Part (c): What comes just after 13700899?",
             "hindi": "Answer the following Part (c): What comes just after 13700899?"
@@ -3861,8 +3981,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex03_q13_d",
-      "sourceLessonId": "rs_exercise_ch03_ex03",
+      "id": "rsexch03ex03q13_d",
+      "sourceLessonId": "rsexercisech03_ex03",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -3889,7 +4009,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex03_q13_d_q1",
+          "id": "rsexch03ex03q13dq1",
           "prompt": {
             "english": "Answer the following Part (d): What comes just before 10000000?",
             "hindi": "Answer the following Part (d): What comes just before 10000000?"
@@ -3925,8 +4045,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q01_a",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q01_a",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -3953,7 +4073,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q01_a_q1",
+          "id": "rsexch03ex04q01aq1",
           "prompt": {
             "english": "Fill in each of the following boxes with appropriate symbol > or < Part (a): 1002456 987896",
             "hindi": "Fill in each of the following boxes with appropriate symbol > or < Part (a): 1002456 987896"
@@ -3989,8 +4109,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q01_b",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q01_b",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -4017,7 +4137,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q01_b_q1",
+          "id": "rsexch03ex04q01bq1",
           "prompt": {
             "english": "Fill in each of the following boxes with appropriate symbol > or < Part (b): 23507104 14536523",
             "hindi": "Fill in each of the following boxes with appropriate symbol > or < Part (b): 23507104 14536523"
@@ -4053,8 +4173,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q01_c",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q01_c",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -4081,7 +4201,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q01_c_q1",
+          "id": "rsexch03ex04q01cq1",
           "prompt": {
             "english": "Fill in each of the following boxes with appropriate symbol > or < Part (c): 54836903 103213102",
             "hindi": "Fill in each of the following boxes with appropriate symbol > or < Part (c): 54836903 103213102"
@@ -4117,8 +4237,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q01_d",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q01_d",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -4145,7 +4265,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q01_d_q1",
+          "id": "rsexch03ex04q01dq1",
           "prompt": {
             "english": "Fill in each of the following boxes with appropriate symbol > or < Part (d): 203645817 164786938",
             "hindi": "Fill in each of the following boxes with appropriate symbol > or < Part (d): 203645817 164786938"
@@ -4181,8 +4301,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q01_e",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q01_e",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -4209,7 +4329,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q01_e_q1",
+          "id": "rsexch03ex04q01eq1",
           "prompt": {
             "english": "Fill in each of the following boxes with appropriate symbol > or < Part (e): 35672416 35670590",
             "hindi": "Fill in each of the following boxes with appropriate symbol > or < Part (e): 35672416 35670590"
@@ -4245,8 +4365,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q01_f",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q01_f",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -4273,7 +4393,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q01_f_q1",
+          "id": "rsexch03ex04q01fq1",
           "prompt": {
             "english": "Fill in each of the following boxes with appropriate symbol > or < Part (f): 478907506 478913401",
             "hindi": "Fill in each of the following boxes with appropriate symbol > or < Part (f): 478907506 478913401"
@@ -4309,8 +4429,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q01_g",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q01_g",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -4337,7 +4457,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q01_g_q1",
+          "id": "rsexch03ex04q01gq1",
           "prompt": {
             "english": "Fill in each of the following boxes with appropriate symbol > or < Part (g): 613054901 613045989",
             "hindi": "Fill in each of the following boxes with appropriate symbol > or < Part (g): 613054901 613045989"
@@ -4373,8 +4493,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q01_h",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q01_h",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -4401,7 +4521,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q01_h_q1",
+          "id": "rsexch03ex04q01hq1",
           "prompt": {
             "english": "Fill in each of the following boxes with appropriate symbol > or < Part (h): 750890315 750890410",
             "hindi": "Fill in each of the following boxes with appropriate symbol > or < Part (h): 750890315 750890410"
@@ -4437,8 +4557,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q01_i",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q01_i",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -4465,7 +4585,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q01_i_q1",
+          "id": "rsexch03ex04q01iq1",
           "prompt": {
             "english": "Fill in each of the following boxes with appropriate symbol > or < Part (i): 89276584 101625302",
             "hindi": "Fill in each of the following boxes with appropriate symbol > or < Part (i): 89276584 101625302"
@@ -4501,8 +4621,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q01_j",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q01_j",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -4529,7 +4649,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q01_j_q1",
+          "id": "rsexch03ex04q01jq1",
           "prompt": {
             "english": "Fill in each of the following boxes with appropriate symbol > or < Part (j): 917263954 917260954",
             "hindi": "Fill in each of the following boxes with appropriate symbol > or < Part (j): 917263954 917260954"
@@ -4565,8 +4685,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q02_a",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q02_a",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -4593,7 +4713,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q02_a_q1",
+          "id": "rsexch03ex04q02aq1",
           "prompt": {
             "english": "Arrange the following numbers in descending order Part (a): 12965784, 3076897, 129654503, 2789988, 21345603",
             "hindi": "Arrange the following numbers in descending order Part (a): 12965784, 3076897, 129654503, 2789988, 21345603"
@@ -4629,8 +4749,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q02_b",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q02_b",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -4657,7 +4777,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q02_b_q1",
+          "id": "rsexch03ex04q02bq1",
           "prompt": {
             "english": "Arrange the following numbers in descending order Part (b): 245368009, 45639918, 93216723, 53791325, 245370119",
             "hindi": "Arrange the following numbers in descending order Part (b): 245368009, 45639918, 93216723, 53791325, 245370119"
@@ -4693,8 +4813,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q02_c",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q02_c",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -4721,7 +4841,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q02_c_q1",
+          "id": "rsexch03ex04q02cq1",
           "prompt": {
             "english": "Arrange the following numbers in descending order Part (c): 62790568, 627905480, 62791023, 627905623, 62790931",
             "hindi": "Arrange the following numbers in descending order Part (c): 62790568, 627905480, 62791023, 627905623, 62790931"
@@ -4757,8 +4877,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q02_d",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q02_d",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -4785,7 +4905,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q02_d_q1",
+          "id": "rsexch03ex04q02dq1",
           "prompt": {
             "english": "Arrange the following numbers in descending order Part (d): 63082318, 30728510, 27169237, 50643701, 7987689",
             "hindi": "Arrange the following numbers in descending order Part (d): 63082318, 30728510, 27169237, 50643701, 7987689"
@@ -4821,8 +4941,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q02_e",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q02_e",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -4849,7 +4969,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q02_e_q1",
+          "id": "rsexch03ex04q02eq1",
           "prompt": {
             "english": "Arrange the following numbers in descending order Part (e): 7546890, 23150014, 998765, 23149925, 7546785",
             "hindi": "Arrange the following numbers in descending order Part (e): 7546890, 23150014, 998765, 23149925, 7546785"
@@ -4885,8 +5005,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q03_a",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q03_a",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -4913,7 +5033,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q03_a_q1",
+          "id": "rsexch03ex04q03aq1",
           "prompt": {
             "english": "Arrange the following numbers in ascending order Part (a): 14865710, 20507106, 30008215, 2786789, 2876879",
             "hindi": "Arrange the following numbers in ascending order Part (a): 14865710, 20507106, 30008215, 2786789, 2876879"
@@ -4949,8 +5069,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q03_b",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q03_b",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -4977,7 +5097,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q03_b_q1",
+          "id": "rsexch03ex04q03bq1",
           "prompt": {
             "english": "Arrange the following numbers in ascending order Part (b): 9368516, 10540603, 91032401, 9367839, 10541201",
             "hindi": "Arrange the following numbers in ascending order Part (b): 9368516, 10540603, 91032401, 9367839, 10541201"
@@ -5013,8 +5133,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q03_c",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q03_c",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -5041,7 +5161,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q03_c_q1",
+          "id": "rsexch03ex04q03cq1",
           "prompt": {
             "english": "Arrange the following numbers in ascending order Part (c): 2537928, 101002301, 20547946, 100515602, 14035710",
             "hindi": "Arrange the following numbers in ascending order Part (c): 2537928, 101002301, 20547946, 100515602, 14035710"
@@ -5077,8 +5197,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q03_d",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q03_d",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -5105,7 +5225,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q03_d_q1",
+          "id": "rsexch03ex04q03dq1",
           "prompt": {
             "english": "Arrange the following numbers in ascending order Part (d): 38715206, 129405817, 73678314, 7876589, 69721656",
             "hindi": "Arrange the following numbers in ascending order Part (d): 38715206, 129405817, 73678314, 7876589, 69721656"
@@ -5141,8 +5261,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q03_e",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q03_e",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -5169,7 +5289,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q03_e_q1",
+          "id": "rsexch03ex04q03eq1",
           "prompt": {
             "english": "Arrange the following numbers in ascending order Part (e): 743162109, 304288713, 561945107, 89590788, 602357100",
             "hindi": "Arrange the following numbers in ascending order Part (e): 743162109, 304288713, 561945107, 89590788, 602357100"
@@ -5205,8 +5325,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q04_a",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q04_a",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -5233,7 +5353,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q04_a_q1",
+          "id": "rsexch03ex04q04aq1",
           "prompt": {
             "english": "Encircle the largest number in each of the following Part (a): 31650829, 307482134, 4536794, 41035106, 238590746",
             "hindi": "Encircle the largest number in each of the following Part (a): 31650829, 307482134, 4536794, 41035106, 238590746"
@@ -5269,8 +5389,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q04_b",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q04_b",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -5297,7 +5417,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q04_b_q1",
+          "id": "rsexch03ex04q04bq1",
           "prompt": {
             "english": "Encircle the largest number in each of the following Part (b): 102234102, 93645753, 27810591, 102240003, 93646800",
             "hindi": "Encircle the largest number in each of the following Part (b): 102234102, 93645753, 27810591, 102240003, 93646800"
@@ -5333,8 +5453,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q04_c",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q04_c",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -5361,7 +5481,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q04_c_q1",
+          "id": "rsexch03ex04q04cq1",
           "prompt": {
             "english": "Encircle the largest number in each of the following Part (c): 9037848, 12345716, 101010706, 91537964, 100718967",
             "hindi": "Encircle the largest number in each of the following Part (c): 9037848, 12345716, 101010706, 91537964, 100718967"
@@ -5397,8 +5517,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex04_q04_d",
-      "sourceLessonId": "rs_exercise_ch03_ex04",
+      "id": "rsexch03ex04q04_d",
+      "sourceLessonId": "rsexercisech03_ex04",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -5425,7 +5545,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex04_q04_d_q1",
+          "id": "rsexch03ex04q04dq1",
           "prompt": {
             "english": "Encircle the largest number in each of the following Part (d): 9000009, 90000001, 9935469, 87590909, 88888888",
             "hindi": "Encircle the largest number in each of the following Part (d): 9000009, 90000001, 9935469, 87590909, 88888888"
@@ -5461,8 +5581,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q01_a",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q01_a",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -5489,7 +5609,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q01_a_q1",
+          "id": "rsexch03ex05q01aq1",
           "prompt": {
             "english": "Rewrite the following numerals with proper commas, using the International system Part (a): 35684129",
             "hindi": "Rewrite the following numerals with proper commas, using the International system Part (a): 35684129"
@@ -5525,8 +5645,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q01_b",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q01_b",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -5553,7 +5673,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q01_b_q1",
+          "id": "rsexch03ex05q01bq1",
           "prompt": {
             "english": "Rewrite the following numerals with proper commas, using the International system Part (b): 50968302",
             "hindi": "Rewrite the following numerals with proper commas, using the International system Part (b): 50968302"
@@ -5589,8 +5709,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q01_c",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q01_c",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -5617,7 +5737,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q01_c_q1",
+          "id": "rsexch03ex05q01cq1",
           "prompt": {
             "english": "Rewrite the following numerals with proper commas, using the International system Part (c): 103854179",
             "hindi": "Rewrite the following numerals with proper commas, using the International system Part (c): 103854179"
@@ -5653,8 +5773,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q01_d",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q01_d",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -5681,7 +5801,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q01_d_q1",
+          "id": "rsexch03ex05q01dq1",
           "prompt": {
             "english": "Rewrite the following numerals with proper commas, using the International system Part (d): 42560247",
             "hindi": "Rewrite the following numerals with proper commas, using the International system Part (d): 42560247"
@@ -5717,8 +5837,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q01_e",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q01_e",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -5745,7 +5865,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q01_e_q1",
+          "id": "rsexch03ex05q01eq1",
           "prompt": {
             "english": "Rewrite the following numerals with proper commas, using the International system Part (e): 491560543",
             "hindi": "Rewrite the following numerals with proper commas, using the International system Part (e): 491560543"
@@ -5781,8 +5901,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q01_f",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q01_f",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -5809,7 +5929,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q01_f_q1",
+          "id": "rsexch03ex05q01fq1",
           "prompt": {
             "english": "Rewrite the following numerals with proper commas, using the International system Part (f): 793654182",
             "hindi": "Rewrite the following numerals with proper commas, using the International system Part (f): 793654182"
@@ -5845,8 +5965,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q01_g",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q01_g",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -5873,7 +5993,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q01_g_q1",
+          "id": "rsexch03ex05q01gq1",
           "prompt": {
             "english": "Rewrite the following numerals with proper commas, using the International system Part (g): 300700006",
             "hindi": "Rewrite the following numerals with proper commas, using the International system Part (g): 300700006"
@@ -5909,8 +6029,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q01_h",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q01_h",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -5937,7 +6057,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q01_h_q1",
+          "id": "rsexch03ex05q01hq1",
           "prompt": {
             "english": "Rewrite the following numerals with proper commas, using the International system Part (h): 100006001",
             "hindi": "Rewrite the following numerals with proper commas, using the International system Part (h): 100006001"
@@ -5973,8 +6093,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q01_i",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q01_i",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -6001,7 +6121,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q01_i_q1",
+          "id": "rsexch03ex05q01iq1",
           "prompt": {
             "english": "Rewrite the following numerals with proper commas, using the International system Part (i): 90007010",
             "hindi": "Rewrite the following numerals with proper commas, using the International system Part (i): 90007010"
@@ -6037,8 +6157,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q02_a",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q02_a",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -6065,7 +6185,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q02_a_q1",
+          "id": "rsexch03ex05q02aq1",
           "prompt": {
             "english": "Write the number names of the following Part (a): 25,863,475",
             "hindi": "Write the number names of the following Part (a): 25,863,475"
@@ -6101,8 +6221,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q02_b",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q02_b",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -6129,7 +6249,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q02_b_q1",
+          "id": "rsexch03ex05q02bq1",
           "prompt": {
             "english": "Write the number names of the following Part (b): 30,807,541",
             "hindi": "Write the number names of the following Part (b): 30,807,541"
@@ -6165,8 +6285,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q02_c",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q02_c",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -6193,7 +6313,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q02_c_q1",
+          "id": "rsexch03ex05q02cq1",
           "prompt": {
             "english": "Write the number names of the following Part (c): 81,923,054",
             "hindi": "Write the number names of the following Part (c): 81,923,054"
@@ -6229,8 +6349,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q02_d",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q02_d",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -6257,7 +6377,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q02_d_q1",
+          "id": "rsexch03ex05q02dq1",
           "prompt": {
             "english": "Write the number names of the following Part (d): 140,905,319",
             "hindi": "Write the number names of the following Part (d): 140,905,319"
@@ -6293,8 +6413,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q02_e",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q02_e",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -6321,7 +6441,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q02_e_q1",
+          "id": "rsexch03ex05q02eq1",
           "prompt": {
             "english": "Write the number names of the following Part (e): 231,600,148",
             "hindi": "Write the number names of the following Part (e): 231,600,148"
@@ -6357,8 +6477,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q02_f",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q02_f",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -6385,7 +6505,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q02_f_q1",
+          "id": "rsexch03ex05q02fq1",
           "prompt": {
             "english": "Write the number names of the following Part (f): 490,300,007",
             "hindi": "Write the number names of the following Part (f): 490,300,007"
@@ -6421,8 +6541,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q02_g",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q02_g",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -6449,7 +6569,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q02_g_q1",
+          "id": "rsexch03ex05q02gq1",
           "prompt": {
             "english": "Write the number names of the following Part (g): 101,010,001",
             "hindi": "Write the number names of the following Part (g): 101,010,001"
@@ -6485,8 +6605,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q02_h",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q02_h",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -6513,7 +6633,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q02_h_q1",
+          "id": "rsexch03ex05q02hq1",
           "prompt": {
             "english": "Write the number names of the following Part (h): 23,006,100",
             "hindi": "Write the number names of the following Part (h): 23,006,100"
@@ -6549,8 +6669,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q02_i",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q02_i",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -6577,7 +6697,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q02_i_q1",
+          "id": "rsexch03ex05q02iq1",
           "prompt": {
             "english": "Write the number names of the following Part (i): 560,001,010",
             "hindi": "Write the number names of the following Part (i): 560,001,010"
@@ -6613,8 +6733,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q03_a",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q03_a",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -6641,7 +6761,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q03_a_q1",
+          "id": "rsexch03ex05q03aq1",
           "prompt": {
             "english": "Write the following in figures Part (a): Sixty-four million one hundred nineteen thousand eighteen",
             "hindi": "Write the following in figures Part (a): Sixty-four million one hundred nineteen thousand eighteen"
@@ -6677,8 +6797,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q03_b",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q03_b",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -6705,7 +6825,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q03_b_q1",
+          "id": "rsexch03ex05q03bq1",
           "prompt": {
             "english": "Write the following in figures Part (b): Two hundred eighty-nine million sixty-nine thousand forty-eight",
             "hindi": "Write the following in figures Part (b): Two hundred eighty-nine million sixty-nine thousand forty-eight"
@@ -6741,8 +6861,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q03_c",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q03_c",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -6769,7 +6889,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q03_c_q1",
+          "id": "rsexch03ex05q03cq1",
           "prompt": {
             "english": "Write the following in figures Part (c): One hundred five million one hundred eight thousand seven",
             "hindi": "Write the following in figures Part (c): One hundred five million one hundred eight thousand seven"
@@ -6805,8 +6925,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q03_d",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q03_d",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -6833,7 +6953,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q03_d_q1",
+          "id": "rsexch03ex05q03dq1",
           "prompt": {
             "english": "Write the following in figures Part (d): Seven hundred sixteen million six hundred five",
             "hindi": "Write the following in figures Part (d): Seven hundred sixteen million six hundred five"
@@ -6869,8 +6989,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q03_e",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q03_e",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -6897,7 +7017,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q03_e_q1",
+          "id": "rsexch03ex05q03eq1",
           "prompt": {
             "english": "Write the following in figures Part (e): Three hundred one million two thousand thirty-one",
             "hindi": "Write the following in figures Part (e): Three hundred one million two thousand thirty-one"
@@ -6933,8 +7053,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q03_f",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q03_f",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -6961,7 +7081,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q03_f_q1",
+          "id": "rsexch03ex05q03fq1",
           "prompt": {
             "english": "Write the following in figures Part (f): Ten million three thousand thirty-six",
             "hindi": "Write the following in figures Part (f): Ten million three thousand thirty-six"
@@ -6997,8 +7117,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q03_g",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q03_g",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -7025,7 +7145,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q03_g_q1",
+          "id": "rsexch03ex05q03gq1",
           "prompt": {
             "english": "Write the following in figures Part (g): Nineteen million nineteen",
             "hindi": "Write the following in figures Part (g): Nineteen million nineteen"
@@ -7061,8 +7181,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q03_h",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q03_h",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -7089,7 +7209,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q03_h_q1",
+          "id": "rsexch03ex05q03hq1",
           "prompt": {
             "english": "Write the following in figures Part (h): Sixty million forty-four thousand sixty-four",
             "hindi": "Write the following in figures Part (h): Sixty million forty-four thousand sixty-four"
@@ -7125,8 +7245,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch03_ex05_q03_i",
-      "sourceLessonId": "rs_exercise_ch03_ex05",
+      "id": "rsexch03ex05q03_i",
+      "sourceLessonId": "rsexercisech03_ex05",
       "chapterNumber": 3,
       "chapterTitle": {
         "english": "Large Numbers (Up to Ten Crores)",
@@ -7153,7 +7273,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch03_ex05_q03_i_q1",
+          "id": "rsexch03ex05q03iq1",
           "prompt": {
             "english": "Write the following in figures Part (i): Two hundred million two thousand twenty",
             "hindi": "Write the following in figures Part (i): Two hundred million two thousand twenty"

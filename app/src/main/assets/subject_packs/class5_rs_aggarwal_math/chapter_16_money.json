@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch16_introduction_and_conversion_of_rupees_into_paise",
+      "id": "rsch16introductionandconversionofrupeesintopaise",
       "sourceLessonId": "rs_ch16",
       "chapterNumber": 16,
       "chapterTitle": {
@@ -29,12 +29,22 @@
         "english": "Introduction and Conversion of Rupees into Paise",
         "hindi": "परिचय और रुपये को पैसे में बदलना"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "Money is what we use to buy things. In India, we use **Rupees (Rs)** and **Paise (p)**.\n\n**Key fact:** 1 Rupee = 100 Paise\n\nTo convert Rupees into Paise, simply **multiply by 100**.\n\n**Example 1:** Convert Rs 5 into paise.\n5 × 100 = **500 paise**\n\n**Example 2:** Convert Rs 3.25 into paise.\n3.25 × 100 = **325 paise**\n\nThink of it like this: a rupee coin can be broken into 100 tiny paise coins. So the more rupees you have, the more paise you get when you multiply by 100.",
+          "hindi": "Money is what we use to buy things. In India, we use **Rupees (Rs)** and **Paise (p)**.\n\n**Key fact:** 1 Rupee = 100 Paise\n\nTo convert Rupees into Paise, simply **multiply by 100**.\n\n**Example 1:** Convert Rs 5 into paise.\n5 × 100 = **500 paise**\n\n**Example 2:** Convert Rs 3.25 into paise.\n3.25 × 100 = **325 paise**\n\nThink of it like this: a rupee coin can be broken into 100 tiny paise coins. So the more rupees you have, the more paise you get when you multiply by 100."
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example 1:** Convert Rs 5 into paise.\n5 × 100 = **500 paise**\n**Example 2:** Convert Rs 3.25 into paise.\n3.25 × 100 = **325 paise**",
+          "hindi": "**Example 1:** Convert Rs 5 into paise.\n5 × 100 = **500 paise**\n**Example 2:** Convert Rs 3.25 into paise.\n3.25 × 100 = **325 paise**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "introduction_and_conversion_of_rupees_into_paise_q1",
+          "id": "introductionandconversionofrupeesintopaise_q1",
           "prompt": {
             "english": "Convert 425 rupees into paise.",
             "hindi": "425 रुपये को पैसे में बदलिए।"
@@ -47,11 +57,33 @@
             "42,500"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Rule:** To convert rupees to paise, multiply by 100.\n\nStep 1: Write the number of rupees = 425\nStep 2: Multiply by 100\n425 × 100 = **42,500 paise**\n\n**Answer: 42,500 paise**",
+            "hindi": "**Rule:** To convert rupees to paise, multiply by 100.\n\nStep 1: Write the number of rupees = 425\nStep 2: Multiply by 100\n425 × 100 = **42,500 paise**\n\n**Answer: 42,500 paise**"
+          },
+          "supportExample": {
+            "english": "**Rule:** To convert rupees to paise, multiply by 100.\nStep 1: Write the number of rupees = 425\nStep 2: Multiply by 100\n425 × 100 = **42,500 paise**",
+            "hindi": "**Rule:** To convert rupees to paise, multiply by 100.\nStep 1: Write the number of rupees = 425\nStep 2: Multiply by 100\n425 × 100 = **42,500 paise**"
+          },
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Rule:** To convert rupees to paise, multiply by 100.",
+              "hindi": "**Rule:** To convert rupees to paise, multiply by 100."
+            },
+            {
+              "english": "Step 1: Write the number of rupees = 425\nStep 2: Multiply by 100\n425 × 100 = **42,500 paise**",
+              "hindi": "Step 1: Write the number of rupees = 425\nStep 2: Multiply by 100\n425 × 100 = **42,500 paise**"
+            },
+            {
+              "english": "**Answer: 42,500 paise**",
+              "hindi": "**Answer: 42,500 paise**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -67,7 +99,7 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ch16_conversion_of_paise_into_rupees",
+      "id": "rsch16conversionofpaiseintorupees",
       "sourceLessonId": "rs_ch16",
       "chapterNumber": 16,
       "chapterTitle": {
@@ -90,12 +122,22 @@
         "english": "Conversion of Paise into Rupees",
         "hindi": "पैसे को रुपये में बदलना"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "To convert Paise into Rupees, **divide by 100**.\n\nWhen you divide by 100, you move the decimal point two places to the left.\n\n**Example 1:** Convert 500 paise into rupees.\n500 ÷ 100 = **Rs 5.00**\n\n**Example 2:** Convert 375 paise into rupees.\n375 ÷ 100 = **Rs 3.75**\n\nThink of it this way: if you collect 100 paise, that makes 1 rupee. So dividing by 100 tells you how many rupees you have.",
+          "hindi": "To convert Paise into Rupees, **divide by 100**.\n\nWhen you divide by 100, you move the decimal point two places to the left.\n\n**Example 1:** Convert 500 paise into rupees.\n500 ÷ 100 = **Rs 5.00**\n\n**Example 2:** Convert 375 paise into rupees.\n375 ÷ 100 = **Rs 3.75**\n\nThink of it this way: if you collect 100 paise, that makes 1 rupee. So dividing by 100 tells you how many rupees you have."
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example 1:** Convert 500 paise into rupees.\n500 ÷ 100 = **Rs 5.00**\n**Example 2:** Convert 375 paise into rupees.\n375 ÷ 100 = **Rs 3.75**",
+          "hindi": "**Example 1:** Convert 500 paise into rupees.\n500 ÷ 100 = **Rs 5.00**\n**Example 2:** Convert 375 paise into rupees.\n375 ÷ 100 = **Rs 3.75**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "conversion_of_paise_into_rupees_q1",
+          "id": "conversionofpaiseintorupees_q1",
           "prompt": {
             "english": "Convert 8750 paise into rupees.",
             "hindi": "8750 पैसे को रुपये में बदलिए।"
@@ -109,11 +151,33 @@
             "87 rupees 50 paise"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Rule:** To convert paise to rupees, divide by 100.\n\nStep 1: Write the number of paise = 8750\nStep 2: Divide by 100\n8750 ÷ 100 = **87.50**\n\n**Answer: Rs 87.50 (87 rupees 50 paise)**",
+            "hindi": "**Rule:** To convert paise to rupees, divide by 100.\n\nStep 1: Write the number of paise = 8750\nStep 2: Divide by 100\n8750 ÷ 100 = **87.50**\n\n**Answer: Rs 87.50 (87 rupees 50 paise)**"
+          },
+          "supportExample": {
+            "english": "**Rule:** To convert paise to rupees, divide by 100.\nStep 1: Write the number of paise = 8750\nStep 2: Divide by 100\n8750 ÷ 100 = **87.50**",
+            "hindi": "**Rule:** To convert paise to rupees, divide by 100.\nStep 1: Write the number of paise = 8750\nStep 2: Divide by 100\n8750 ÷ 100 = **87.50**"
+          },
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Rule:** To convert paise to rupees, divide by 100.",
+              "hindi": "**Rule:** To convert paise to rupees, divide by 100."
+            },
+            {
+              "english": "Step 1: Write the number of paise = 8750\nStep 2: Divide by 100\n8750 ÷ 100 = **87.50**",
+              "hindi": "Step 1: Write the number of paise = 8750\nStep 2: Divide by 100\n8750 ÷ 100 = **87.50**"
+            },
+            {
+              "english": "**Answer: Rs 87.50 (87 rupees 50 paise)**",
+              "hindi": "**Answer: Rs 87.50 (87 rupees 50 paise)**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -129,7 +193,7 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ch16_addition_of_money",
+      "id": "rsch16additionofmoney",
       "sourceLessonId": "rs_ch16",
       "chapterNumber": 16,
       "chapterTitle": {
@@ -152,12 +216,22 @@
         "english": "Addition of Money",
         "hindi": "धन का जोड़"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "To add amounts of money, write the amounts one below the other, keeping the decimal points aligned. Then add as normal, placing the decimal point in the answer.\n\n**Example:** Add Rs 12.50 and Rs 6.25\n```\n  12.50\n+  6.25",
+          "hindi": "To add amounts of money, write the amounts one below the other, keeping the decimal points aligned. Then add as normal, placing the decimal point in the answer.\n\n**Example:** Add Rs 12.50 and Rs 6.25\n```\n  12.50\n+  6.25"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Add Rs 12.50 and Rs 6.25\n```\n  12.50\n+  6.25",
+          "hindi": "**Example:** Add Rs 12.50 and Rs 6.25\n```\n  12.50\n+  6.25"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "addition_of_money_q1",
+          "id": "additionofmoney_q1",
           "prompt": {
             "english": "Add 45.75 rupees and 18.50 rupees.",
             "hindi": "45.75 रुपये और 18.50 रुपये जोड़िए।"
@@ -169,11 +243,25 @@
             "64.25"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Write amounts with decimal points aligned:\n```\n  45.75\n+ 18.50",
+            "hindi": "Step 1: Write amounts with decimal points aligned:\n```\n  45.75\n+ 18.50"
+          },
+          "supportExample": {
+            "english": "Step 1: Write amounts with decimal points aligned:\n```\n  45.75\n+ 18.50",
+            "hindi": "Step 1: Write amounts with decimal points aligned:\n```\n  45.75\n+ 18.50"
+          },
           "mistakeType": "OPERATION_LINK",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Write amounts with decimal points aligned:\n```\n  45.75\n+ 18.50",
+              "hindi": "Step 1: Write amounts with decimal points aligned:\n```\n  45.75\n+ 18.50"
+            }
+          ]
         }
       ],
       "tags": [
@@ -189,7 +277,7 @@
       "mistakeFocus": "OPERATION_LINK"
     },
     {
-      "id": "rs_ch16_subtraction_of_money",
+      "id": "rsch16subtractionofmoney",
       "sourceLessonId": "rs_ch16",
       "chapterNumber": 16,
       "chapterTitle": {
@@ -212,12 +300,22 @@
         "english": "Subtraction of Money",
         "hindi": "धन का घटाव"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "To subtract amounts of money, write the larger amount on top, smaller below, keeping decimal points aligned. Then subtract normally.\n\n**Example:** Subtract Rs 4.30 from Rs 10.00\n```\n  10.00\n-  4.30",
+          "hindi": "To subtract amounts of money, write the larger amount on top, smaller below, keeping decimal points aligned. Then subtract normally.\n\n**Example:** Subtract Rs 4.30 from Rs 10.00\n```\n  10.00\n-  4.30"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Subtract Rs 4.30 from Rs 10.00\n```\n  10.00\n-  4.30",
+          "hindi": "**Example:** Subtract Rs 4.30 from Rs 10.00\n```\n  10.00\n-  4.30"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "subtraction_of_money_q1",
+          "id": "subtractionofmoney_q1",
           "prompt": {
             "english": "Subtract 37.45 rupees from 100 rupees.",
             "hindi": "100 रुपये में से 37.45 रुपये घटाइए।"
@@ -229,11 +327,25 @@
             "62.55"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Write with decimal points aligned:\n```\n  100.00\n-  37.45",
+            "hindi": "Step 1: Write with decimal points aligned:\n```\n  100.00\n-  37.45"
+          },
+          "supportExample": {
+            "english": "Step 1: Write with decimal points aligned:\n```\n  100.00\n-  37.45",
+            "hindi": "Step 1: Write with decimal points aligned:\n```\n  100.00\n-  37.45"
+          },
           "mistakeType": "OPERATION_LINK",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Write with decimal points aligned:\n```\n  100.00\n-  37.45",
+              "hindi": "Step 1: Write with decimal points aligned:\n```\n  100.00\n-  37.45"
+            }
+          ]
         }
       ],
       "tags": [
@@ -249,7 +361,7 @@
       "mistakeFocus": "OPERATION_LINK"
     },
     {
-      "id": "rs_ch16_multiplication_of_money",
+      "id": "rsch16multiplicationofmoney",
       "sourceLessonId": "rs_ch16",
       "chapterNumber": 16,
       "chapterTitle": {
@@ -272,12 +384,22 @@
         "english": "Multiplication of Money",
         "hindi": "धन का गुणा"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "To multiply an amount of money by a number, multiply normally and then place the decimal point correctly (2 digits from the right).\n\n**Example:** Find cost of 3 items at Rs 15.25 each.\n15.25 × 3 = ?\n```\n  15.25\n×     3",
+          "hindi": "To multiply an amount of money by a number, multiply normally and then place the decimal point correctly (2 digits from the right).\n\n**Example:** Find cost of 3 items at Rs 15.25 each.\n15.25 × 3 = ?\n```\n  15.25\n×     3"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Find cost of 3 items at Rs 15.25 each.\n15.25 × 3 = ?\n```\n  15.25\n×     3",
+          "hindi": "**Example:** Find cost of 3 items at Rs 15.25 each.\n15.25 × 3 = ?\n```\n  15.25\n×     3"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "multiplication_of_money_q1",
+          "id": "multiplicationofmoney_q1",
           "prompt": {
             "english": "Find the cost of 4 items if each item costs 57.25 rupees.",
             "hindi": "यदि एक वस्तु की कीमत 57.25 रुपये है, तो 4 वस्तुओं की कुल कीमत लिखिए।"
@@ -290,11 +412,29 @@
             "229.00"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Cost of 1 item = Rs 57.25\nStep 2: Cost of 4 items = 57.25 × 4\n\n```\n  57.25\n×     4",
+            "hindi": "Step 1: Cost of 1 item = Rs 57.25\nStep 2: Cost of 4 items = 57.25 × 4\n\n```\n  57.25\n×     4"
+          },
+          "supportExample": {
+            "english": "Step 1: Cost of 1 item = Rs 57.25\nStep 2: Cost of 4 items = 57.25 × 4\n```\n  57.25\n×     4",
+            "hindi": "Step 1: Cost of 1 item = Rs 57.25\nStep 2: Cost of 4 items = 57.25 × 4\n```\n  57.25\n×     4"
+          },
           "mistakeType": "OPERATION_LINK",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Cost of 1 item = Rs 57.25\nStep 2: Cost of 4 items = 57.25 × 4",
+              "hindi": "Step 1: Cost of 1 item = Rs 57.25\nStep 2: Cost of 4 items = 57.25 × 4"
+            },
+            {
+              "english": "```\n  57.25\n×     4",
+              "hindi": "```\n  57.25\n×     4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -310,7 +450,7 @@
       "mistakeFocus": "OPERATION_LINK"
     },
     {
-      "id": "rs_ch16_division_of_money",
+      "id": "rsch16divisionofmoney",
       "sourceLessonId": "rs_ch16",
       "chapterNumber": 16,
       "chapterTitle": {
@@ -333,12 +473,22 @@
         "english": "Division of Money",
         "hindi": "धन का भाग"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "To divide money equally, divide the total amount by the number of parts. Keep the decimal point in the same position.\n\n**Example:** Rs 36.00 shared equally among 3 friends.\n36.00 ÷ 3 = **Rs 12.00** each\n\n**Example 2:** Rs 10.50 ÷ 2 = **Rs 5.25**\n\nDivision of money is just like dividing decimals — divide normally and carry the decimal point into your answer.",
+          "hindi": "To divide money equally, divide the total amount by the number of parts. Keep the decimal point in the same position.\n\n**Example:** Rs 36.00 shared equally among 3 friends.\n36.00 ÷ 3 = **Rs 12.00** each\n\n**Example 2:** Rs 10.50 ÷ 2 = **Rs 5.25**\n\nDivision of money is just like dividing decimals — divide normally and carry the decimal point into your answer."
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Rs 36.00 shared equally among 3 friends.\n36.00 ÷ 3 = **Rs 12.00** each\n**Example 2:** Rs 10.50 ÷ 2 = **Rs 5.25**",
+          "hindi": "**Example:** Rs 36.00 shared equally among 3 friends.\n36.00 ÷ 3 = **Rs 12.00** each\n**Example 2:** Rs 10.50 ÷ 2 = **Rs 5.25**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "division_of_money_q1",
+          "id": "divisionofmoney_q1",
           "prompt": {
             "english": "Rahul pays 96.60 rupees for 3 identical notebooks. What is the cost of one notebook?",
             "hindi": "राहुल 3 एक जैसी कॉपियों के लिए 96.60 रुपये देता है। एक कॉपी की कीमत कितनी है?"
@@ -351,11 +501,37 @@
             "32.2"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Total cost for 3 notebooks = Rs 96.60\nStep 2: Cost of 1 notebook = 96.60 ÷ 3\n\n```\n96.60 ÷ 3:\n9 ÷ 3 = 3\n6 ÷ 3 = 2\n. (decimal)\n6 ÷ 3 = 2\n0 ÷ 3 = 0\n```\n\n= **32.20**\n\n**Answer: Cost of one notebook = Rs 32.20**",
+            "hindi": "Step 1: Total cost for 3 notebooks = Rs 96.60\nStep 2: Cost of 1 notebook = 96.60 ÷ 3\n\n```\n96.60 ÷ 3:\n9 ÷ 3 = 3\n6 ÷ 3 = 2\n. (decimal)\n6 ÷ 3 = 2\n0 ÷ 3 = 0\n```\n\n= **32.20**\n\n**Answer: Cost of one notebook = Rs 32.20**"
+          },
+          "supportExample": {
+            "english": "Step 1: Total cost for 3 notebooks = Rs 96.60\nStep 2: Cost of 1 notebook = 96.60 ÷ 3\n```\n96.60 ÷ 3:\n9 ÷ 3 = 3\n6 ÷ 3 = 2\n. (decimal)\n6 ÷ 3 = 2\n0 ÷ 3 = 0\n```",
+            "hindi": "Step 1: Total cost for 3 notebooks = Rs 96.60\nStep 2: Cost of 1 notebook = 96.60 ÷ 3\n```\n96.60 ÷ 3:\n9 ÷ 3 = 3\n6 ÷ 3 = 2\n. (decimal)\n6 ÷ 3 = 2\n0 ÷ 3 = 0\n```"
+          },
           "mistakeType": "OPERATION_LINK",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Total cost for 3 notebooks = Rs 96.60\nStep 2: Cost of 1 notebook = 96.60 ÷ 3",
+              "hindi": "Step 1: Total cost for 3 notebooks = Rs 96.60\nStep 2: Cost of 1 notebook = 96.60 ÷ 3"
+            },
+            {
+              "english": "```\n96.60 ÷ 3:\n9 ÷ 3 = 3\n6 ÷ 3 = 2\n. (decimal)\n6 ÷ 3 = 2\n0 ÷ 3 = 0\n```",
+              "hindi": "```\n96.60 ÷ 3:\n9 ÷ 3 = 3\n6 ÷ 3 = 2\n. (decimal)\n6 ÷ 3 = 2\n0 ÷ 3 = 0\n```"
+            },
+            {
+              "english": "= **32.20**",
+              "hindi": "= **32.20**"
+            },
+            {
+              "english": "**Answer: Cost of one notebook = Rs 32.20**",
+              "hindi": "**Answer: Cost of one notebook = Rs 32.20**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -371,8 +547,8 @@
       "mistakeFocus": "OPERATION_LINK"
     },
     {
-      "id": "rs_ex_ch16_ex66_q01_a",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q01_a",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -399,7 +575,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q01_a_q1",
+          "id": "rsexch16ex66q01aq1",
           "prompt": {
             "english": "Convert into paise Part (a): Rs 8.56",
             "hindi": "Convert into paise Part (a): Rs 8.56"
@@ -436,8 +612,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q01_b",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q01_b",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -464,7 +640,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q01_b_q1",
+          "id": "rsexch16ex66q01bq1",
           "prompt": {
             "english": "Convert into paise Part (b): Rs 92.67",
             "hindi": "Convert into paise Part (b): Rs 92.67"
@@ -501,8 +677,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q01_c",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q01_c",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -529,7 +705,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q01_c_q1",
+          "id": "rsexch16ex66q01cq1",
           "prompt": {
             "english": "Convert into paise Part (c): Rs 123.05",
             "hindi": "Convert into paise Part (c): Rs 123.05"
@@ -566,8 +742,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q01_d",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q01_d",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -594,7 +770,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q01_d_q1",
+          "id": "rsexch16ex66q01dq1",
           "prompt": {
             "english": "Convert into paise Part (d): Rs 70.70",
             "hindi": "Convert into paise Part (d): Rs 70.70"
@@ -631,8 +807,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q01_e",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q01_e",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -659,7 +835,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q01_e_q1",
+          "id": "rsexch16ex66q01eq1",
           "prompt": {
             "english": "Convert into paise Part (e): Rs 0.84",
             "hindi": "Convert into paise Part (e): Rs 0.84"
@@ -696,8 +872,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q01_f",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q01_f",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -724,7 +900,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q01_f_q1",
+          "id": "rsexch16ex66q01fq1",
           "prompt": {
             "english": "Convert into paise Part (f): Rs 0.03",
             "hindi": "Convert into paise Part (f): Rs 0.03"
@@ -761,8 +937,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q01_g",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q01_g",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -789,7 +965,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q01_g_q1",
+          "id": "rsexch16ex66q01gq1",
           "prompt": {
             "english": "Convert into paise Part (g): Rs 0.10",
             "hindi": "Convert into paise Part (g): Rs 0.10"
@@ -826,8 +1002,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q01_h",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q01_h",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -854,7 +1030,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q01_h_q1",
+          "id": "rsexch16ex66q01hq1",
           "prompt": {
             "english": "Convert into paise Part (h): Rs 0.09",
             "hindi": "Convert into paise Part (h): Rs 0.09"
@@ -891,8 +1067,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q02_a",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q02_a",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -919,7 +1095,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q02_a_q1",
+          "id": "rsexch16ex66q02aq1",
           "prompt": {
             "english": "Convert into paise Part (a): 36 rupees 85 paise",
             "hindi": "Convert into paise Part (a): 36 rupees 85 paise"
@@ -956,8 +1132,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q02_b",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q02_b",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -984,7 +1160,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q02_b_q1",
+          "id": "rsexch16ex66q02bq1",
           "prompt": {
             "english": "Convert into paise Part (b): 6 rupees 6 paise",
             "hindi": "Convert into paise Part (b): 6 rupees 6 paise"
@@ -1021,8 +1197,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q02_c",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q02_c",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -1049,7 +1225,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q02_c_q1",
+          "id": "rsexch16ex66q02cq1",
           "prompt": {
             "english": "Convert into paise Part (c): Rs 37 1/2",
             "hindi": "Convert into paise Part (c): Rs 37 1/2"
@@ -1086,8 +1262,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q02_d",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q02_d",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -1114,7 +1290,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q02_d_q1",
+          "id": "rsexch16ex66q02dq1",
           "prompt": {
             "english": "Convert into paise Part (d): Rs 19 1/4",
             "hindi": "Convert into paise Part (d): Rs 19 1/4"
@@ -1151,8 +1327,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q02_e",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q02_e",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -1179,7 +1355,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q02_e_q1",
+          "id": "rsexch16ex66q02eq1",
           "prompt": {
             "english": "Convert into paise Part (e): Rs 23 3/4",
             "hindi": "Convert into paise Part (e): Rs 23 3/4"
@@ -1216,8 +1392,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q03_a",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q03_a",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -1244,7 +1420,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q03_a_q1",
+          "id": "rsexch16ex66q03aq1",
           "prompt": {
             "english": "Convert into rupees Part (a): 8365 paise",
             "hindi": "Convert into rupees Part (a): 8365 paise"
@@ -1281,8 +1457,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q03_b",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q03_b",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -1309,7 +1485,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q03_b_q1",
+          "id": "rsexch16ex66q03bq1",
           "prompt": {
             "english": "Convert into rupees Part (b): 7000 paise",
             "hindi": "Convert into rupees Part (b): 7000 paise"
@@ -1346,8 +1522,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q03_c",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q03_c",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -1374,7 +1550,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q03_c_q1",
+          "id": "rsexch16ex66q03cq1",
           "prompt": {
             "english": "Convert into rupees Part (c): 874 paise",
             "hindi": "Convert into rupees Part (c): 874 paise"
@@ -1411,8 +1587,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q03_d",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q03_d",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -1439,7 +1615,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q03_d_q1",
+          "id": "rsexch16ex66q03dq1",
           "prompt": {
             "english": "Convert into rupees Part (d): 708 paise",
             "hindi": "Convert into rupees Part (d): 708 paise"
@@ -1476,8 +1652,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q03_e",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q03_e",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -1504,7 +1680,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q03_e_q1",
+          "id": "rsexch16ex66q03eq1",
           "prompt": {
             "english": "Convert into rupees Part (e): 104 paise",
             "hindi": "Convert into rupees Part (e): 104 paise"
@@ -1541,8 +1717,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q03_f",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q03_f",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -1569,7 +1745,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q03_f_q1",
+          "id": "rsexch16ex66q03fq1",
           "prompt": {
             "english": "Convert into rupees Part (f): 92 paise",
             "hindi": "Convert into rupees Part (f): 92 paise"
@@ -1606,8 +1782,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q03_g",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q03_g",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -1634,7 +1810,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q03_g_q1",
+          "id": "rsexch16ex66q03gq1",
           "prompt": {
             "english": "Convert into rupees Part (g): 16 paise",
             "hindi": "Convert into rupees Part (g): 16 paise"
@@ -1671,8 +1847,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q03_h",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q03_h",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -1699,7 +1875,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q03_h_q1",
+          "id": "rsexch16ex66q03hq1",
           "prompt": {
             "english": "Convert into rupees Part (h): 9 paise",
             "hindi": "Convert into rupees Part (h): 9 paise"
@@ -1736,8 +1912,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex66_q03_i",
-      "sourceLessonId": "rs_exercise_ch16_ex66",
+      "id": "rsexch16ex66q03_i",
+      "sourceLessonId": "rsexercisech16_ex66",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -1764,7 +1940,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex66_q03_i_q1",
+          "id": "rsexch16ex66q03iq1",
           "prompt": {
             "english": "Convert into rupees Part (i): 2 paise Addition of Money",
             "hindi": "Convert into rupees Part (i): 2 paise Addition of Money"
@@ -1801,8 +1977,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex67_q01",
-      "sourceLessonId": "rs_exercise_ch16_ex67",
+      "id": "rsexch16ex67q01",
+      "sourceLessonId": "rsexercisech16_ex67",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -1829,7 +2005,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex67_q01_q1",
+          "id": "rsexch16ex67q01_q1",
           "prompt": {
             "english": "Add: Rs 54.65 and Rs 27.85",
             "hindi": "Add: Rs 54.65 and Rs 27.85"
@@ -1866,8 +2042,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex67_q02",
-      "sourceLessonId": "rs_exercise_ch16_ex67",
+      "id": "rsexch16ex67q02",
+      "sourceLessonId": "rsexercisech16_ex67",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -1894,7 +2070,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex67_q02_q1",
+          "id": "rsexch16ex67q02_q1",
           "prompt": {
             "english": "Add: Rs 73.84 and Rs 39.76",
             "hindi": "Add: Rs 73.84 and Rs 39.76"
@@ -1931,8 +2107,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex67_q03",
-      "sourceLessonId": "rs_exercise_ch16_ex67",
+      "id": "rsexch16ex67q03",
+      "sourceLessonId": "rsexercisech16_ex67",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -1959,7 +2135,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex67_q03_q1",
+          "id": "rsexch16ex67q03_q1",
           "prompt": {
             "english": "Add: Rs 61.83, Rs 38.67 and Rs 8.95",
             "hindi": "Add: Rs 61.83, Rs 38.67 and Rs 8.95"
@@ -1996,8 +2172,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex67_q04",
-      "sourceLessonId": "rs_exercise_ch16_ex67",
+      "id": "rsexch16ex67q04",
+      "sourceLessonId": "rsexercisech16_ex67",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -2024,7 +2200,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex67_q04_q1",
+          "id": "rsexch16ex67q04_q1",
           "prompt": {
             "english": "Add: Rs 107.40, Rs 245.80 and Rs 68.90",
             "hindi": "Add: Rs 107.40, Rs 245.80 and Rs 68.90"
@@ -2061,8 +2237,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex67_q05",
-      "sourceLessonId": "rs_exercise_ch16_ex67",
+      "id": "rsexch16ex67q05",
+      "sourceLessonId": "rsexercisech16_ex67",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -2089,7 +2265,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex67_q05_q1",
+          "id": "rsexch16ex67q05_q1",
           "prompt": {
             "english": "Add: Rs. 372.56, Rs. 168.68 and Rs. 37.86",
             "hindi": "Add: Rs. 372.56, Rs. 168.68 and Rs. 37.86"
@@ -2126,8 +2302,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex67_q06",
-      "sourceLessonId": "rs_exercise_ch16_ex67",
+      "id": "rsexch16ex67q06",
+      "sourceLessonId": "rsexercisech16_ex67",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -2154,7 +2330,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex67_q06_q1",
+          "id": "rsexch16ex67q06_q1",
           "prompt": {
             "english": "Add: Rs 97.68 from Rs 114.36",
             "hindi": "Add: Rs 97.68 from Rs 114.36"
@@ -2191,8 +2367,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex67_q07",
-      "sourceLessonId": "rs_exercise_ch16_ex67",
+      "id": "rsexch16ex67q07",
+      "sourceLessonId": "rsexercisech16_ex67",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -2219,7 +2395,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex67_q07_q1",
+          "id": "rsexch16ex67q07_q1",
           "prompt": {
             "english": "Add: Rs 174.54 from Rs 200.60",
             "hindi": "Add: Rs 174.54 from Rs 200.60"
@@ -2256,8 +2432,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex67_q08",
-      "sourceLessonId": "rs_exercise_ch16_ex67",
+      "id": "rsexch16ex67q08",
+      "sourceLessonId": "rsexercisech16_ex67",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -2284,7 +2460,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex67_q08_q1",
+          "id": "rsexch16ex67q08_q1",
           "prompt": {
             "english": "Add: Rs 29.87 from Rs 37.05",
             "hindi": "Add: Rs 29.87 from Rs 37.05"
@@ -2321,8 +2497,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex67_q09",
-      "sourceLessonId": "rs_exercise_ch16_ex67",
+      "id": "rsexch16ex67q09",
+      "sourceLessonId": "rsexercisech16_ex67",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -2349,7 +2525,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex67_q09_q1",
+          "id": "rsexch16ex67q09_q1",
           "prompt": {
             "english": "Add: Rs 147.85 from Rs 203.00",
             "hindi": "Add: Rs 147.85 from Rs 203.00"
@@ -2386,8 +2562,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex67_q10",
-      "sourceLessonId": "rs_exercise_ch16_ex67",
+      "id": "rsexch16ex67q10",
+      "sourceLessonId": "rsexercisech16_ex67",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -2414,7 +2590,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex67_q10_q1",
+          "id": "rsexch16ex67q10_q1",
           "prompt": {
             "english": "Rohan bought a book for Rs 126.50, a notebook for Rs 35.80, a geometry box for Rs 28.65 and a pencil sharpener for Rs 6.05. What is the total amount paid by Rohan?",
             "hindi": "Rohan bought a book for Rs 126.50, a notebook for Rs 35.80, a geometry box for Rs 28.65 and a pencil sharpener for Rs 6.05. What is the total amount paid by Rohan?"
@@ -2451,8 +2627,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex67_q11",
-      "sourceLessonId": "rs_exercise_ch16_ex67",
+      "id": "rsexch16ex67q11",
+      "sourceLessonId": "rsexercisech16_ex67",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -2479,7 +2655,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex67_q11_q1",
+          "id": "rsexch16ex67q11_q1",
           "prompt": {
             "english": "Sajal bought oranges for Rs 132.80; apples for Rs 87.95 and guavas for Rs 73.40. What is the total amount paid by Sajal?",
             "hindi": "Sajal bought oranges for Rs 132.80; apples for Rs 87.95 and guavas for Rs 73.40. What is the total amount paid by Sajal?"
@@ -2516,8 +2692,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex67_q12",
-      "sourceLessonId": "rs_exercise_ch16_ex67",
+      "id": "rsexch16ex67q12",
+      "sourceLessonId": "rsexercisech16_ex67",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -2544,7 +2720,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex67_q12_q1",
+          "id": "rsexch16ex67q12_q1",
           "prompt": {
             "english": "A shopkeeper purchased a bat for Rs 163.25 and sold it for Rs 205.00. How much money did he earn?",
             "hindi": "A shopkeeper purchased a bat for Rs 163.25 and sold it for Rs 205.00. How much money did he earn?"
@@ -2581,8 +2757,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex67_q13",
-      "sourceLessonId": "rs_exercise_ch16_ex67",
+      "id": "rsexch16ex67q13",
+      "sourceLessonId": "rsexercisech16_ex67",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -2609,7 +2785,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex67_q13_q1",
+          "id": "rsexch16ex67q13_q1",
           "prompt": {
             "english": "Manisha bought stationery worth of Rs 685.65 and gave a 1000 rupee note to the shopkeeper. How much money did she get back? Multiplication of Money",
             "hindi": "Manisha bought stationery worth of Rs 685.65 and gave a 1000 rupee note to the shopkeeper. How much money did she get back? Multiplication of Money"
@@ -2646,8 +2822,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex68_q01",
-      "sourceLessonId": "rs_exercise_ch16_ex68",
+      "id": "rsexch16ex68q01",
+      "sourceLessonId": "rsexercisech16_ex68",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -2674,7 +2850,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex68_q01_q1",
+          "id": "rsexch16ex68q01_q1",
           "prompt": {
             "english": "Multiply: Rs 14.45 by 8",
             "hindi": "Multiply: Rs 14.45 by 8"
@@ -2711,8 +2887,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex68_q02",
-      "sourceLessonId": "rs_exercise_ch16_ex68",
+      "id": "rsexch16ex68q02",
+      "sourceLessonId": "rsexercisech16_ex68",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -2739,7 +2915,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex68_q02_q1",
+          "id": "rsexch16ex68q02_q1",
           "prompt": {
             "english": "Multiply: Rs 86.38 by 15",
             "hindi": "Multiply: Rs 86.38 by 15"
@@ -2776,8 +2952,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex68_q03",
-      "sourceLessonId": "rs_exercise_ch16_ex68",
+      "id": "rsexch16ex68q03",
+      "sourceLessonId": "rsexercisech16_ex68",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -2804,7 +2980,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex68_q03_q1",
+          "id": "rsexch16ex68q03_q1",
           "prompt": {
             "english": "Multiply: Rs 137.96 by 12",
             "hindi": "Multiply: Rs 137.96 by 12"
@@ -2841,8 +3017,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex68_q04",
-      "sourceLessonId": "rs_exercise_ch16_ex68",
+      "id": "rsexch16ex68q04",
+      "sourceLessonId": "rsexercisech16_ex68",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -2869,7 +3045,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex68_q04_q1",
+          "id": "rsexch16ex68q04_q1",
           "prompt": {
             "english": "Multiply: Rs 305.05 by 16",
             "hindi": "Multiply: Rs 305.05 by 16"
@@ -2906,8 +3082,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex68_q05",
-      "sourceLessonId": "rs_exercise_ch16_ex68",
+      "id": "rsexch16ex68q05",
+      "sourceLessonId": "rsexercisech16_ex68",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -2934,7 +3110,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex68_q05_q1",
+          "id": "rsexch16ex68q05_q1",
           "prompt": {
             "english": "Multiply: Rs 268.54 by 18",
             "hindi": "Multiply: Rs 268.54 by 18"
@@ -2971,8 +3147,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex68_q06",
-      "sourceLessonId": "rs_exercise_ch16_ex68",
+      "id": "rsexch16ex68q06",
+      "sourceLessonId": "rsexercisech16_ex68",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -2999,7 +3175,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex68_q06_q1",
+          "id": "rsexch16ex68q06_q1",
           "prompt": {
             "english": "Multiply: Rs 410.37 by 20 Divide",
             "hindi": "Multiply: Rs 410.37 by 20 Divide"
@@ -3036,8 +3212,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex68_q07",
-      "sourceLessonId": "rs_exercise_ch16_ex68",
+      "id": "rsexch16ex68q07",
+      "sourceLessonId": "rsexercisech16_ex68",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -3064,7 +3240,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex68_q07_q1",
+          "id": "rsexch16ex68q07_q1",
           "prompt": {
             "english": "Multiply: Rs 63.50 by 5",
             "hindi": "Multiply: Rs 63.50 by 5"
@@ -3101,8 +3277,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex68_q08",
-      "sourceLessonId": "rs_exercise_ch16_ex68",
+      "id": "rsexch16ex68q08",
+      "sourceLessonId": "rsexercisech16_ex68",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -3129,7 +3305,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex68_q08_q1",
+          "id": "rsexch16ex68q08_q1",
           "prompt": {
             "english": "Multiply: Rs 283.25 by 11",
             "hindi": "Multiply: Rs 283.25 by 11"
@@ -3166,8 +3342,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex68_q09",
-      "sourceLessonId": "rs_exercise_ch16_ex68",
+      "id": "rsexch16ex68q09",
+      "sourceLessonId": "rsexercisech16_ex68",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -3194,7 +3370,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex68_q09_q1",
+          "id": "rsexch16ex68q09_q1",
           "prompt": {
             "english": "Multiply: Rs 658.70 by 14",
             "hindi": "Multiply: Rs 658.70 by 14"
@@ -3231,8 +3407,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex68_q10",
-      "sourceLessonId": "rs_exercise_ch16_ex68",
+      "id": "rsexch16ex68q10",
+      "sourceLessonId": "rsexercisech16_ex68",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -3259,7 +3435,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex68_q10_q1",
+          "id": "rsexch16ex68q10_q1",
           "prompt": {
             "english": "Multiply: Rs 260.00 by 16",
             "hindi": "Multiply: Rs 260.00 by 16"
@@ -3296,8 +3472,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex68_q11",
-      "sourceLessonId": "rs_exercise_ch16_ex68",
+      "id": "rsexch16ex68q11",
+      "sourceLessonId": "rsexercisech16_ex68",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -3324,7 +3500,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex68_q11_q1",
+          "id": "rsexch16ex68q11_q1",
           "prompt": {
             "english": "Multiply: If the cost of each packet of biscuits is Rs 23.85,",
             "hindi": "Multiply: If the cost of each packet of biscuits is Rs 23.85,"
@@ -3361,8 +3537,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex68_q12",
-      "sourceLessonId": "rs_exercise_ch16_ex68",
+      "id": "rsexch16ex68q12",
+      "sourceLessonId": "rsexercisech16_ex68",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -3389,7 +3565,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex68_q12_q1",
+          "id": "rsexch16ex68q12_q1",
           "prompt": {
             "english": "find the cost of 16 such packets: The cost of 1 chair is Rs 247.60. Find the cost of 15 such chairs",
             "hindi": "find the cost of 16 such packets: The cost of 1 chair is Rs 247.60. Find the cost of 15 such chairs"
@@ -3426,8 +3602,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex68_q13",
-      "sourceLessonId": "rs_exercise_ch16_ex68",
+      "id": "rsexch16ex68q13",
+      "sourceLessonId": "rsexercisech16_ex68",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -3454,7 +3630,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex68_q13_q1",
+          "id": "rsexch16ex68q13_q1",
           "prompt": {
             "english": "find the cost of 16 such packets: The cost of 1 kg of sugar is Rs 35.80. Find the cost of 18 kg of sugar",
             "hindi": "find the cost of 16 such packets: The cost of 1 kg of sugar is Rs 35.80. Find the cost of 18 kg of sugar"
@@ -3491,8 +3667,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex68_q14",
-      "sourceLessonId": "rs_exercise_ch16_ex68",
+      "id": "rsexch16ex68q14",
+      "sourceLessonId": "rsexercisech16_ex68",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -3519,7 +3695,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex68_q14_q1",
+          "id": "rsexch16ex68q14_q1",
           "prompt": {
             "english": "find the cost of 16 such packets: The cost of 14 kg of tomatoes is Rs 231.00. Find the cost of 1 kg of tomatoes",
             "hindi": "find the cost of 16 such packets: The cost of 14 kg of tomatoes is Rs 231.00. Find the cost of 1 kg of tomatoes"
@@ -3556,8 +3732,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex68_q15",
-      "sourceLessonId": "rs_exercise_ch16_ex68",
+      "id": "rsexch16ex68q15",
+      "sourceLessonId": "rsexercisech16_ex68",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -3584,7 +3760,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex68_q15_q1",
+          "id": "rsexch16ex68q15_q1",
           "prompt": {
             "english": "find the cost of 16 such packets: The cost of 17 jam bottles is Rs 901.85. Find the cost of each jam bottle",
             "hindi": "find the cost of 16 such packets: The cost of 17 jam bottles is Rs 901.85. Find the cost of each jam bottle"
@@ -3621,8 +3797,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch16_ex68_q16",
-      "sourceLessonId": "rs_exercise_ch16_ex68",
+      "id": "rsexch16ex68q16",
+      "sourceLessonId": "rsexercisech16_ex68",
       "chapterNumber": 16,
       "chapterTitle": {
         "english": "Money",
@@ -3649,7 +3825,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch16_ex68_q16_q1",
+          "id": "rsexch16ex68q16_q1",
           "prompt": {
             "english": "The cost of 16 kg rice is Rs 616.00. Find the cost of rice per kg",
             "hindi": "The cost of 16 kg rice is Rs 616.00. Find the cost of rice per kg"

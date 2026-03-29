@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch25_introduction",
+      "id": "rsch25introduction",
       "sourceLessonId": "rs_ch25",
       "chapterNumber": 25,
       "chapterTitle": {
@@ -29,7 +29,12 @@
         "english": "Introduction",
         "hindi": "परिचय"
       },
-      "explanationParagraphs": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Data** is information collected about something — like scores, attendance, rainfall, etc.\n\n**Graphs** are visual tools that help us display and compare data clearly and quickly. Instead of reading long tables of numbers, a graph lets us see patterns at a glance.\n\n**Why use graphs?**\n- To compare different values easily\n- To see which is biggest/smallest\n- To understand trends (going up or down)\n\n**Two common types in this chapter:**\n1. **Pictograph** — uses pictures/symbols to represent data\n2. **Bar Graph** — uses bars (rectangles) of different heights to represent data",
+          "hindi": "### व्याख्या (हिंदी)\n\n**डेटा (आँकड़े)** किसी विषय के बारे में एकत्रित जानकारी है — जैसे अंक, उपस्थिति, वर्षा आदि।\n\n**आलेख (Graphs)** दृश्य साधन हैं जो हमें डेटा को स्पष्ट और जल्दी से दिखाने और तुलना करने में सहायता करते हैं। लंबी संख्याओं की तालिका पढ़ने के बजाय आलेख से हम एक नज़र में पैटर्न देख सकते हैं।\n\n**आलेखों का उपयोग क्यों?**\n- विभिन्न मानों की आसानी से तुलना के लिए\n- सबसे बड़ा/सबसे छोटा जानने के लिए\n- रुझान (बढ़ना या घटना) समझने के लिए\n\n**इस अध्याय में दो सामान्य प्रकार:**\n1. **चित्रालेख** — डेटा दर्शाने के लिए चित्रों/चिह्नों का उपयोग\n2. **दंड आलेख** — डेटा दर्शाने के लिए अलग-अलग ऊँचाई के दंड (आयत) का उपयोग"
+        }
+      ],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -61,11 +66,25 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "We use graphs **to show and compare data clearly**. Graphs make it easy to understand information at a glance without reading complex tables of numbers.",
+            "hindi": "We use graphs **to show and compare data clearly**. Graphs make it easy to understand information at a glance without reading complex tables of numbers."
+          },
+          "supportExample": {
+            "english": "We use graphs **to show and compare data clearly**. Graphs make it easy to understand information at a glance without reading complex tables of numbers.",
+            "hindi": "We use graphs **to show and compare data clearly**. Graphs make it easy to understand information at a glance without reading complex tables of numbers."
+          },
           "mistakeType": "DATA_SCALE",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We use graphs **to show and compare data clearly**. Graphs make it easy to understand information at a glance without reading complex tables of numbers.",
+              "hindi": "We use graphs **to show and compare data clearly**. Graphs make it easy to understand information at a glance without reading complex tables of numbers."
+            }
+          ]
         }
       ],
       "tags": [
@@ -81,7 +100,7 @@
       "mistakeFocus": "DATA_SCALE"
     },
     {
-      "id": "rs_ch25_pictograph",
+      "id": "rsch25pictograph",
       "sourceLessonId": "rs_ch25",
       "chapterNumber": 25,
       "chapterTitle": {
@@ -104,8 +123,18 @@
         "english": "Pictograph",
         "hindi": "चित्रालेख"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "A **pictograph** (also called pictogram) uses pictures or symbols to represent data. Each picture stands for a fixed number.\n\n**Key features:**\n- A **key** (scale) tells you how many units one symbol represents\n- If 1 symbol = 5 apples, then 4 symbols = 4 × 5 = 20 apples\n- You can use half a symbol to show half the value\n\n**How to read a pictograph:**\n1. Read the key first (what does 1 symbol = ?)\n2. Count the symbols for each category\n3. Multiply: number of symbols × value of each symbol\n\n**Example:** If 1 star = 10 books, and a shelf has 3 stars, it means 3 × 10 = 30 books.",
+          "hindi": "### व्याख्या (हिंदी)\n\n**चित्रालेख** (Pictograph) डेटा दर्शाने के लिए चित्रों या चिह्नों का उपयोग करता है। प्रत्येक चित्र एक निश्चित संख्या का प्रतिनिधित्व करता है।\n\n**मुख्य विशेषताएँ:**\n- एक **कुंजी (पैमाना)** बताती है कि एक चिह्न कितनी इकाइयों को दर्शाता है\n- यदि 1 चिह्न = 5 सेब, तो 4 चिह्न = 4 × 5 = 20 सेब\n- आधे मान के लिए आधा चिह्न उपयोग किया जा सकता है\n\n**चित्रालेख पढ़ने का तरीका:**\n1. पहले कुंजी पढ़ें (1 चिह्न = कितना?)\n2. प्रत्येक श्रेणी के लिए चिह्न गिनें\n3. गुणा करें: चिह्नों की संख्या × प्रत्येक चिह्न का मान\n\n**उदाहरण:** यदि 1 तारा = 10 किताबें, और एक शेल्फ पर 3 तारे हैं, तो वहाँ 3 × 10 = 30 किताबें हैं।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** If 1 star = 10 books, and a shelf has 3 stars, it means 3 × 10 = 30 books.",
+          "hindi": "**उदाहरण:** यदि 1 तारा = 10 किताबें, और एक शेल्फ पर 3 तारे हैं, तो वहाँ 3 × 10 = 30 किताबें हैं।"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
@@ -121,11 +150,25 @@
             "20"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Number of apples = 4 × 5 = **20 apples**",
+            "hindi": "Number of apples = 4 × 5 = **20 apples**"
+          },
+          "supportExample": {
+            "english": "Number of apples = 4 × 5 = **20 apples**",
+            "hindi": "Number of apples = 4 × 5 = **20 apples**"
+          },
           "mistakeType": "DATA_SCALE",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Number of apples = 4 × 5 = **20 apples**",
+              "hindi": "Number of apples = 4 × 5 = **20 apples**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -141,7 +184,7 @@
       "mistakeFocus": "DATA_SCALE"
     },
     {
-      "id": "rs_ch25_bar_graph",
+      "id": "rsch25bar_graph",
       "sourceLessonId": "rs_ch25",
       "chapterNumber": 25,
       "chapterTitle": {
@@ -164,12 +207,22 @@
         "english": "Bar Graph",
         "hindi": "दंड आलेख"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "A **bar graph** uses rectangular bars to represent data. The height (or length) of each bar shows the value for that category.\n\n**Key features:**\n- The horizontal axis (x-axis) shows categories (days, months, items, etc.)\n- The vertical axis (y-axis) shows numbers (scale)\n- The scale tells you: 1 unit on the y-axis = how many real units\n\n**How to read a bar graph:**\n1. Look at the scale on the y-axis\n2. Find the height of the bar for each category\n3. Multiply height × scale value to get the actual number\n\n**Example:** If 1 unit = 10 students, and a bar has height 6, then: 6 × 10 = **60 students**",
+          "hindi": "### व्याख्या (हिंदी)\n\n**दंड आलेख** डेटा दर्शाने के लिए आयताकार दंडों (bars) का उपयोग करता है। प्रत्येक दंड की ऊँचाई (या लंबाई) उस श्रेणी के मान को दर्शाती है।\n\n**मुख्य विशेषताएँ:**\n- क्षैतिज अक्ष (x-axis) श्रेणियाँ दिखाता है (दिन, महीने, वस्तुएँ आदि)\n- ऊर्ध्वाधर अक्ष (y-axis) संख्याएँ दिखाता है (पैमाना)\n- पैमाना बताता है: y-axis की 1 इकाई = कितनी वास्तविक इकाइयाँ\n\n**दंड आलेख पढ़ने का तरीका:**\n1. y-axis पर पैमाना देखें\n2. प्रत्येक श्रेणी के लिए दंड की ऊँचाई देखें\n3. ऊँचाई × पैमाना मान = वास्तविक संख्या\n\n**उदाहरण:** यदि 1 इकाई = 10 विद्यार्थी, और एक दंड की ऊँचाई 6 है, तो: 6 × 10 = **60 विद्यार्थी**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** If 1 unit = 10 students, and a bar has height 6, then: 6 × 10 = **60 students**",
+          "hindi": "**उदाहरण:** यदि 1 इकाई = 10 विद्यार्थी, और एक दंड की ऊँचाई 6 है, तो: 6 × 10 = **60 विद्यार्थी**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "bar_graph_q1",
+          "id": "bargraphq1",
           "prompt": {
             "english": "In a bar graph, 1 unit = 10 students. What does a bar of height 6 show?",
             "hindi": "एक दंड आलेख में 1 इकाई = 10 विद्यार्थी है। ऊँचाई 6 वाला दंड क्या दिखाता है?"
@@ -182,11 +235,25 @@
             "60 students"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Number of students = 6 × 10 = **60 students**",
+            "hindi": "Number of students = 6 × 10 = **60 students**"
+          },
+          "supportExample": {
+            "english": "Number of students = 6 × 10 = **60 students**",
+            "hindi": "Number of students = 6 × 10 = **60 students**"
+          },
           "mistakeType": "DATA_SCALE",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Number of students = 6 × 10 = **60 students**",
+              "hindi": "Number of students = 6 × 10 = **60 students**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -202,8 +269,8 @@
       "mistakeFocus": "DATA_SCALE"
     },
     {
-      "id": "rs_ex_ch25_ex80_q01",
-      "sourceLessonId": "rs_exercise_ch25_ex80",
+      "id": "rsexch25ex80q01",
+      "sourceLessonId": "rsexercisech25_ex80",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -230,7 +297,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex80_q01_q1",
+          "id": "rsexch25ex80q01_q1",
           "prompt": {
             "english": "Students present during the week are Monday 36, Tuesday 30, Wednesday 33, Thursday 39, Friday 30 and Saturday 27. Take one symbol to represent 3 students and draw a pictograph. Then type done",
             "hindi": "Students present during the week are Monday 36, Tuesday 30, Wednesday 33, Thursday 39, Friday 30 and Saturday 27. Take one symbol to represent 3 students and draw a pictograph. Then type done"
@@ -270,8 +337,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex80_q02",
-      "sourceLessonId": "rs_exercise_ch25_ex80",
+      "id": "rsexch25ex80q02",
+      "sourceLessonId": "rsexercisech25_ex80",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -298,7 +365,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex80_q02_q1",
+          "id": "rsexch25ex80q02_q1",
           "prompt": {
             "english": "A village has 6500 men, 4500 women and 1500 children. Take one men symbol = 500 men, one women symbol = 500 women and one children symbol = 500 children, and draw a pictograph to show the population. Then type done",
             "hindi": "A village has 6500 men, 4500 women and 1500 children. Take one men symbol = 500 men, one women symbol = 500 women and one children symbol = 500 children, and draw a pictograph to show the population. Then type done"
@@ -338,8 +405,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex80_q03",
-      "sourceLessonId": "rs_exercise_ch25_ex80",
+      "id": "rsexch25ex80q03",
+      "sourceLessonId": "rsexercisech25_ex80",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -366,7 +433,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex80_q03_q1",
+          "id": "rsexch25ex80q03_q1",
           "prompt": {
             "english": "Vehicles running in a day on the roads of Meerut city are: cycles 800, scooters 500, cars 300 and buses 200. Convey the information through a pictograph. Then type done",
             "hindi": "Vehicles running in a day on the roads of Meerut city are: cycles 800, scooters 500, cars 300 and buses 200. Convey the information through a pictograph. Then type done"
@@ -406,8 +473,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex80_q04_a",
-      "sourceLessonId": "rs_exercise_ch25_ex80",
+      "id": "rsexch25ex80q04_a",
+      "sourceLessonId": "rsexercisech25_ex80",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -434,7 +501,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex80_q04_a_q1",
+          "id": "rsexch25ex80q04aq1",
           "prompt": {
             "english": "A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture represents 100 students. Answer the following questions Part (a): How many students go to school on foot?",
             "hindi": "A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture represents 100 students. Answer the following questions Part (a): How many students go to school on foot?"
@@ -471,8 +538,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex80_q04_b",
-      "sourceLessonId": "rs_exercise_ch25_ex80",
+      "id": "rsexch25ex80q04_b",
+      "sourceLessonId": "rsexercisech25_ex80",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -499,7 +566,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex80_q04_b_q1",
+          "id": "rsexch25ex80q04bq1",
           "prompt": {
             "english": "A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture represents 100 students. Answer the following questions Part (b): How many students use school bus?",
             "hindi": "A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture represents 100 students. Answer the following questions Part (b): How many students use school bus?"
@@ -536,8 +603,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex80_q04_c",
-      "sourceLessonId": "rs_exercise_ch25_ex80",
+      "id": "rsexch25ex80q04_c",
+      "sourceLessonId": "rsexercisech25_ex80",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -564,7 +631,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex80_q04_c_q1",
+          "id": "rsexch25ex80q04cq1",
           "prompt": {
             "english": "A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture represents 100 students. Answer the following questions Part (c): How many students use bicycle to go to their school?",
             "hindi": "A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture represents 100 students. Answer the following questions Part (c): How many students use bicycle to go to their school?"
@@ -601,8 +668,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex80_q04_d",
-      "sourceLessonId": "rs_exercise_ch25_ex80",
+      "id": "rsexch25ex80q04_d",
+      "sourceLessonId": "rsexercisech25_ex80",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -629,7 +696,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex80_q04_d_q1",
+          "id": "rsexch25ex80q04dq1",
           "prompt": {
             "english": "A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture represents 100 students. Answer the following questions Part (d): How many students in all are there in the school?",
             "hindi": "A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture represents 100 students. Answer the following questions Part (d): How many students in all are there in the school?"
@@ -666,8 +733,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex80_q04_e",
-      "sourceLessonId": "rs_exercise_ch25_ex80",
+      "id": "rsexch25ex80q04_e",
+      "sourceLessonId": "rsexercisech25_ex80",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -694,7 +761,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex80_q04_e_q1",
+          "id": "rsexch25ex80q04eq1",
           "prompt": {
             "english": "A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture represents 100 students. Answer the following questions Part (e): What mode is adopted by maximum number of students?",
             "hindi": "A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture represents 100 students. Answer the following questions Part (e): What mode is adopted by maximum number of students?"
@@ -731,8 +798,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex80_q05",
-      "sourceLessonId": "rs_exercise_ch25_ex80",
+      "id": "rsexch25ex80q05",
+      "sourceLessonId": "rsexercisech25_ex80",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -759,7 +826,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex80_q05_q1",
+          "id": "rsexch25ex80q05_q1",
           "prompt": {
             "english": "In a colony of Delhi, persons knowing different languages are Hindi 500, Tamil 450, Bengali 250 and Malayalam 150. Draw a pictograph which conveys the information. Then type done",
             "hindi": "In a colony of Delhi, persons knowing different languages are Hindi 500, Tamil 450, Bengali 250 and Malayalam 150. Draw a pictograph which conveys the information. Then type done"
@@ -799,8 +866,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex81_q01",
-      "sourceLessonId": "rs_exercise_ch25_ex81",
+      "id": "rsexch25ex81q01",
+      "sourceLessonId": "rsexercisech25_ex81",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -827,7 +894,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex81_q01_q1",
+          "id": "rsexch25ex81q01_q1",
           "prompt": {
             "english": "The number of absentees during the first five days of a week is: day I = 30, day II = 45, day III = 20, day IV = 50 and day V = 15. Draw a bar graph to convey the information. Then type done",
             "hindi": "The number of absentees during the first five days of a week is: day I = 30, day II = 45, day III = 20, day IV = 50 and day V = 15. Draw a bar graph to convey the information. Then type done"
@@ -867,8 +934,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex81_q02",
-      "sourceLessonId": "rs_exercise_ch25_ex81",
+      "id": "rsexch25ex81q02",
+      "sourceLessonId": "rsexercisech25_ex81",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -895,7 +962,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex81_q02_q1",
+          "id": "rsexch25ex81q02_q1",
           "prompt": {
             "english": "Amit's marks in five consecutive tests are: I = 60, II = 80, III = 40, IV = 70, V = 90. Draw a bar graph showing the marks obtained by Amit in these tests. Then type done",
             "hindi": "Amit's marks in five consecutive tests are: I = 60, II = 80, III = 40, IV = 70, V = 90. Draw a bar graph showing the marks obtained by Amit in these tests. Then type done"
@@ -935,8 +1002,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex81_q03",
-      "sourceLessonId": "rs_exercise_ch25_ex81",
+      "id": "rsexch25ex81q03",
+      "sourceLessonId": "rsexercisech25_ex81",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -963,7 +1030,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex81_q03_q1",
+          "id": "rsexch25ex81q03_q1",
           "prompt": {
             "english": "There are 300 students in a school. Tamil = 125, Telugu = 75, Malayalam = 50, Hindi = 25 and Bengali = 25. Draw a bar graph to represent the data. Then type done",
             "hindi": "There are 300 students in a school. Tamil = 125, Telugu = 75, Malayalam = 50, Hindi = 25 and Bengali = 25. Draw a bar graph to represent the data. Then type done"
@@ -1003,8 +1070,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex81_q04",
-      "sourceLessonId": "rs_exercise_ch25_ex81",
+      "id": "rsexch25ex81q04",
+      "sourceLessonId": "rsexercisech25_ex81",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -1031,7 +1098,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex81_q04_q1",
+          "id": "rsexch25ex81q04_q1",
           "prompt": {
             "english": "The number of different books in a library is: English 450, Mathematics 600, General Knowledge 150, Science 250 and Tamil 200. Draw a bar graph to represent the data. Then type done",
             "hindi": "The number of different books in a library is: English 450, Mathematics 600, General Knowledge 150, Science 250 and Tamil 200. Draw a bar graph to represent the data. Then type done"
@@ -1071,8 +1138,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex81_q05_a",
-      "sourceLessonId": "rs_exercise_ch25_ex81",
+      "id": "rsexch25ex81q05_a",
+      "sourceLessonId": "rsexercisech25_ex81",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -1099,7 +1166,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex81_q05_a_q1",
+          "id": "rsexch25ex81q05aq1",
           "prompt": {
             "english": "Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4. Answer the following questions Part (a): In which month was the rainfall maximum?",
             "hindi": "Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4. Answer the following questions Part (a): In which month was the rainfall maximum?"
@@ -1135,8 +1202,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex81_q05_b",
-      "sourceLessonId": "rs_exercise_ch25_ex81",
+      "id": "rsexch25ex81q05_b",
+      "sourceLessonId": "rsexercisech25_ex81",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -1163,7 +1230,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex81_q05_b_q1",
+          "id": "rsexch25ex81q05bq1",
           "prompt": {
             "english": "Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4. Answer the following questions Part (b): How much was the rainfall in September?",
             "hindi": "Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4. Answer the following questions Part (b): How much was the rainfall in September?"
@@ -1200,8 +1267,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex81_q05_c",
-      "sourceLessonId": "rs_exercise_ch25_ex81",
+      "id": "rsexch25ex81q05_c",
+      "sourceLessonId": "rsexercisech25_ex81",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -1228,7 +1295,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex81_q05_c_q1",
+          "id": "rsexch25ex81q05cq1",
           "prompt": {
             "english": "Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4. Answer the following questions Part (c): Which month was the driest?",
             "hindi": "Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4. Answer the following questions Part (c): Which month was the driest?"
@@ -1264,8 +1331,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex81_q06_a",
-      "sourceLessonId": "rs_exercise_ch25_ex81",
+      "id": "rsexch25ex81q06_a",
+      "sourceLessonId": "rsexercisech25_ex81",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -1292,7 +1359,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex81_q06_a_q1",
+          "id": "rsexch25ex81q06aq1",
           "prompt": {
             "english": "A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 families, 5 members = 30 families and 6 members = 20 families. Answer the following questions Part (a): What information does the bar graph give?",
             "hindi": "A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 families, 5 members = 30 families and 6 members = 20 families. Answer the following questions Part (a): What information does the bar graph give?"
@@ -1328,8 +1395,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex81_q06_b",
-      "sourceLessonId": "rs_exercise_ch25_ex81",
+      "id": "rsexch25ex81q06_b",
+      "sourceLessonId": "rsexercisech25_ex81",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -1356,7 +1423,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex81_q06_b_q1",
+          "id": "rsexch25ex81q06bq1",
           "prompt": {
             "english": "A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 families, 5 members = 30 families and 6 members = 20 families. Answer the following questions Part (b): How many families have 3 members?",
             "hindi": "A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 families, 5 members = 30 families and 6 members = 20 families. Answer the following questions Part (b): How many families have 3 members?"
@@ -1392,8 +1459,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch25_ex81_q06_c",
-      "sourceLessonId": "rs_exercise_ch25_ex81",
+      "id": "rsexch25ex81q06_c",
+      "sourceLessonId": "rsexercisech25_ex81",
       "chapterNumber": 25,
       "chapterTitle": {
         "english": "Pictograph and Bar Graph",
@@ -1420,7 +1487,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch25_ex81_q06_c_q1",
+          "id": "rsexch25ex81q06cq1",
           "prompt": {
             "english": "A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 families, 5 members = 30 families and 6 members = 20 families. Answer the following questions Part (c): How many families have 6 members?",
             "hindi": "A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 families, 5 members = 30 families and 6 members = 20 families. Answer the following questions Part (c): How many families have 6 members?"

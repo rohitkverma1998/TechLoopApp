@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch12_measures_of_length",
+      "id": "rsch12measuresoflength",
       "sourceLessonId": "rs_ch12",
       "chapterNumber": 12,
       "chapterTitle": {
@@ -29,12 +29,29 @@
         "english": "Measures of Length",
         "hindi": "लंबाई के माप"
       },
-      "explanationParagraphs": [],
+      "explanationParagraphs": [
+        {
+          "english": "We use different units to measure length depending on how long something is:",
+          "hindi": "## व्याख्या (हिंदी)"
+        },
+        {
+          "english": "| Unit | Used for |\n|------|----------|\n| **Millimetre (mm)** | Very tiny lengths (thickness of a coin) |\n| **Centimetre (cm)** | Small lengths (length of a pencil) |\n| **Metre (m)** | Medium lengths (height of a door) |\n| **Kilometre (km)** | Long distances (distance between cities) |",
+          "hindi": "हम लंबाई मापने के लिए अलग-अलग इकाइयाँ उपयोग करते हैं, यह इस बात पर निर्भर करता है कि कोई चीज़ कितनी लंबी है:"
+        },
+        {
+          "english": "**Key conversions:**\n- 10 mm = 1 cm\n- 100 cm = 1 m\n- 1000 m = 1 km",
+          "hindi": "| इकाई | उपयोग |\n|------|-------|\n| **मिलीमीटर (mm)** | बहुत छोटी लंबाइयाँ (सिक्के की मोटाई) |\n| **सेंटीमीटर (cm)** | छोटी लंबाइयाँ (पेंसिल की लंबाई) |\n| **मीटर (m)** | मध्यम लंबाइयाँ (दरवाजे की ऊँचाई) |\n| **किलोमीटर (km)** | लंबी दूरियाँ (शहरों के बीच की दूरी) |"
+        },
+        {
+          "english": "**Memory tip:** Think of km for car journeys, m for rooms, cm for notebooks, mm for ants!",
+          "hindi": "**मुख्य रूपांतरण:**\n- 10 mm = 1 cm\n- 100 cm = 1 m\n- 1000 m = 1 km"
+        }
+      ],
       "examples": [],
       "visuals": [],
       "questions": [
         {
-          "id": "measures_of_length_q1",
+          "id": "measuresoflength_q1",
           "prompt": {
             "english": "Which unit is best for measuring the distance between two cities?",
             "hindi": "दो शहरों के बीच की दूरी मापने के लिए कौन-सी इकाई उपयुक्त है?"
@@ -61,11 +78,37 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Think:** The distance between two cities is very large — hundreds or thousands of units long.\n\n- Millimetre → too tiny (used for very small things)\n- Centimetre → still too small\n- Gram → not even a unit of length!\n- **Kilometre → perfect for large distances**\n\nCities like Delhi to Agra are about 200 km apart. We would never say \"200,000,000 mm\" — we say \"200 km\" because it is much simpler.\n\n**Answer: Kilometre (km)**",
+            "hindi": "**Think:** The distance between two cities is very large — hundreds or thousands of units long.\n\n- Millimetre → too tiny (used for very small things)\n- Centimetre → still too small\n- Gram → not even a unit of length!\n- **Kilometre → perfect for large distances**\n\nCities like Delhi to Agra are about 200 km apart. We would never say \"200,000,000 mm\" — we say \"200 km\" because it is much simpler.\n\n**Answer: Kilometre (km)**"
+          },
+          "supportExample": {
+            "english": "**Think:** The distance between two cities is very large — hundreds or thousands of units long.\n- Millimetre → too tiny (used for very small things)\n- Centimetre → still too small\n- Gram → not even a unit of length!\n- **Kilometre → perfect for large distances**",
+            "hindi": "**Think:** The distance between two cities is very large — hundreds or thousands of units long.\n- Millimetre → too tiny (used for very small things)\n- Centimetre → still too small\n- Gram → not even a unit of length!\n- **Kilometre → perfect for large distances**"
+          },
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Think:** The distance between two cities is very large — hundreds or thousands of units long.",
+              "hindi": "**Think:** The distance between two cities is very large — hundreds or thousands of units long."
+            },
+            {
+              "english": "- Millimetre → too tiny (used for very small things)\n- Centimetre → still too small\n- Gram → not even a unit of length!\n- **Kilometre → perfect for large distances**",
+              "hindi": "- Millimetre → too tiny (used for very small things)\n- Centimetre → still too small\n- Gram → not even a unit of length!\n- **Kilometre → perfect for large distances**"
+            },
+            {
+              "english": "Cities like Delhi to Agra are about 200 km apart. We would never say \"200,000,000 mm\" — we say \"200 km\" because it is much simpler.",
+              "hindi": "Cities like Delhi to Agra are about 200 km apart. We would never say \"200,000,000 mm\" — we say \"200 km\" because it is much simpler."
+            },
+            {
+              "english": "**Answer: Kilometre (km)**",
+              "hindi": "**Answer: Kilometre (km)**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -81,7 +124,7 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ch12_conversion_of_higher_units_into_lower_units_of_length",
+      "id": "rsch12conversionofhigherunitsintolowerunitsoflength",
       "sourceLessonId": "rs_ch12",
       "chapterNumber": 12,
       "chapterTitle": {
@@ -104,12 +147,22 @@
         "english": "Conversion of Higher Units into Lower Units of Length",
         "hindi": "लंबाई की बड़ी इकाइयों को छोटी इकाइयों में बदलना"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "When we convert **higher units to lower units**, we **multiply**.\n\n**Key facts:**\n- 1 km = 1000 m\n- 1 m = 100 cm\n- 1 cm = 10 mm\n\n**Rule:** Higher → Lower = MULTIPLY\n\n**Example:** Convert 3 km 400 m into metres.\n- 3 km = 3 × 1000 = 3000 m\n- Add remaining metres: 3000 + 400 = **3400 m**",
+          "hindi": "## व्याख्या (हिंदी)\n\nजब हम **बड़ी इकाई को छोटी इकाई में** बदलते हैं, तो हम **गुणा** करते हैं।\n\n**मुख्य तथ्य:**\n- 1 किमी = 1000 मी\n- 1 मी = 100 सेमी\n- 1 सेमी = 10 मिमी\n\n**नियम:** बड़ी → छोटी = गुणा करें\n\n**उदाहरण:** 3 किमी 400 मी को मीटर में बदलें।\n- 3 किमी = 3 × 1000 = 3000 मी\n- शेष मीटर जोड़ें: 3000 + 400 = **3400 मी**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Convert 3 km 400 m into metres.\n- 3 km = 3 × 1000 = 3000 m\n- Add remaining metres: 3000 + 400 = **3400 m**",
+          "hindi": "**उदाहरण:** 3 किमी 400 मी को मीटर में बदलें।\n- 3 किमी = 3 × 1000 = 3000 मी\n- शेष मीटर जोड़ें: 3000 + 400 = **3400 मी**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "conversion_of_higher_units_into_lower_units_of_length_q1",
+          "id": "conversionofhigherunitsintolowerunitsoflength_q1",
           "prompt": {
             "english": "Convert 5 km 250 m into metres.",
             "hindi": "5 किमी 250 मी को मीटर में बदलिए।"
@@ -124,11 +177,33 @@
             "5,250 m"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Convert km to metres.\n- 1 km = 1000 m\n- 5 km = 5 × 1000 = **5000 m**\n\n**Step 2:** Add the remaining metres.\n- 5000 m + 250 m = **5250 m**\n\n**Answer: 5250 m**",
+            "hindi": "**Step 1:** Convert km to metres.\n- 1 km = 1000 m\n- 5 km = 5 × 1000 = **5000 m**\n\n**Step 2:** Add the remaining metres.\n- 5000 m + 250 m = **5250 m**\n\n**Answer: 5250 m**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Convert km to metres.\n- 1 km = 1000 m\n- 5 km = 5 × 1000 = **5000 m**\n**Step 2:** Add the remaining metres.\n- 5000 m + 250 m = **5250 m**",
+            "hindi": "**Step 1:** Convert km to metres.\n- 1 km = 1000 m\n- 5 km = 5 × 1000 = **5000 m**\n**Step 2:** Add the remaining metres.\n- 5000 m + 250 m = **5250 m**"
+          },
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Convert km to metres.\n- 1 km = 1000 m\n- 5 km = 5 × 1000 = **5000 m**",
+              "hindi": "**Step 1:** Convert km to metres.\n- 1 km = 1000 m\n- 5 km = 5 × 1000 = **5000 m**"
+            },
+            {
+              "english": "**Step 2:** Add the remaining metres.\n- 5000 m + 250 m = **5250 m**",
+              "hindi": "**Step 2:** Add the remaining metres.\n- 5000 m + 250 m = **5250 m**"
+            },
+            {
+              "english": "**Answer: 5250 m**",
+              "hindi": "**Answer: 5250 m**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -144,7 +219,7 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ch12_conversion_of_lower_units_into_higher_units_of_length",
+      "id": "rsch12conversionoflowerunitsintohigherunitsoflength",
       "sourceLessonId": "rs_ch12",
       "chapterNumber": 12,
       "chapterTitle": {
@@ -167,12 +242,22 @@
         "english": "Conversion of Lower Units into Higher Units of Length",
         "hindi": "लंबाई की छोटी इकाइयों को बड़ी इकाइयों में बदलना"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "When we convert **lower units to higher units**, we **divide**.\n\n**Rule:** Lower → Higher = DIVIDE\n\n**Example:** Convert 2500 m into km and m.\n- Divide 2500 by 1000 → quotient = 2 km, remainder = 500 m\n- Answer: **2 km 500 m**\n\n**For mm to cm:** Divide by 10\n**For cm to m:** Divide by 100\n**For m to km:** Divide by 1000",
+          "hindi": "## व्याख्या (हिंदी)\n\nजब हम **छोटी इकाई को बड़ी इकाई में** बदलते हैं, तो हम **भाग** देते हैं।\n\n**नियम:** छोटी → बड़ी = भाग दें\n\n**उदाहरण:** 2500 मी को किमी और मी में बदलें।\n- 2500 ÷ 1000 = 2 (भागफल), शेष = 500\n- उत्तर: **2 किमी 500 मी**\n\n**mm से cm:** 10 से भाग दें\n**cm से m:** 100 से भाग दें\n**m से km:** 1000 से भाग दें"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Convert 2500 m into km and m.\n- Divide 2500 by 1000 → quotient = 2 km, remainder = 500 m\n- Answer: **2 km 500 m**",
+          "hindi": "**उदाहरण:** 2500 मी को किमी और मी में बदलें।\n- 2500 ÷ 1000 = 2 (भागफल), शेष = 500\n- उत्तर: **2 किमी 500 मी**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "conversion_of_lower_units_into_higher_units_of_length_q1",
+          "id": "conversionoflowerunitsintohigherunitsoflength_q1",
           "prompt": {
             "english": "Convert 5530 mm into metres and centimetres.",
             "hindi": "5530 मिमी को मीटर और सेंटीमीटर में बदलिए।"
@@ -187,11 +272,33 @@
             "5 metres 53 centimetres"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Convert mm to cm first.\n- 1 cm = 10 mm\n- 5530 ÷ 10 = **553 cm**\n\n**Step 2:** Convert cm to m.\n- 1 m = 100 cm\n- 553 ÷ 100 = 5 (quotient), remainder = 53\n- So 553 cm = **5 m 53 cm**\n\n**Answer: 5 m 53 cm**",
+            "hindi": "**Step 1:** Convert mm to cm first.\n- 1 cm = 10 mm\n- 5530 ÷ 10 = **553 cm**\n\n**Step 2:** Convert cm to m.\n- 1 m = 100 cm\n- 553 ÷ 100 = 5 (quotient), remainder = 53\n- So 553 cm = **5 m 53 cm**\n\n**Answer: 5 m 53 cm**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Convert mm to cm first.\n- 1 cm = 10 mm\n- 5530 ÷ 10 = **553 cm**\n**Step 2:** Convert cm to m.\n- 1 m = 100 cm\n- 553 ÷ 100 = 5 (quotient), remainder = 53\n- So 553 cm = **5 m 53 cm**",
+            "hindi": "**Step 1:** Convert mm to cm first.\n- 1 cm = 10 mm\n- 5530 ÷ 10 = **553 cm**\n**Step 2:** Convert cm to m.\n- 1 m = 100 cm\n- 553 ÷ 100 = 5 (quotient), remainder = 53\n- So 553 cm = **5 m 53 cm**"
+          },
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Convert mm to cm first.\n- 1 cm = 10 mm\n- 5530 ÷ 10 = **553 cm**",
+              "hindi": "**Step 1:** Convert mm to cm first.\n- 1 cm = 10 mm\n- 5530 ÷ 10 = **553 cm**"
+            },
+            {
+              "english": "**Step 2:** Convert cm to m.\n- 1 m = 100 cm\n- 553 ÷ 100 = 5 (quotient), remainder = 53\n- So 553 cm = **5 m 53 cm**",
+              "hindi": "**Step 2:** Convert cm to m.\n- 1 m = 100 cm\n- 553 ÷ 100 = 5 (quotient), remainder = 53\n- So 553 cm = **5 m 53 cm**"
+            },
+            {
+              "english": "**Answer: 5 m 53 cm**",
+              "hindi": "**Answer: 5 m 53 cm**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -207,7 +314,7 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ch12_addition_and_subtraction_of_length_measures",
+      "id": "rsch12additionandsubtractionoflength_measures",
       "sourceLessonId": "rs_ch12",
       "chapterNumber": 12,
       "chapterTitle": {
@@ -230,12 +337,22 @@
         "english": "Addition and Subtraction of Length Measures",
         "hindi": "लंबाई के मापों का जोड़ और घटाव"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "When adding or subtracting lengths with two units (like km and m), always **add/subtract the same units together** — metres with metres, km with km.\n\n**For Addition:**\n- First add the smaller units (metres/cm).\n- If the smaller units exceed the limit, carry over to the larger unit.\n  - 1000 m = 1 km (so if metres ≥ 1000, carry 1 km)\n  - 100 cm = 1 m (so if cm ≥ 100, carry 1 m)\n\n**Example:**\n- Add 3 km 500 m and 2 km 700 m\n  - m: 500 + 700 = 1200 m = 1 km 200 m (carry 1 km)\n  - km: 3 + 2 + 1 = 6 km\n  - Answer: **6 km 200 m**",
+          "hindi": "## व्याख्या (हिंदी)\n\nदो इकाइयों वाली लंबाइयाँ (जैसे किमी और मी) जोड़ते या घटाते समय हमेशा **एक ही इकाई को एक साथ जोड़ें/घटाएं** — मीटर को मीटर के साथ, किमी को किमी के साथ।\n\n**जोड़ के लिए:**\n- पहले छोटी इकाइयाँ जोड़ें (मीटर/सेमी)।\n- अगर छोटी इकाइयाँ सीमा से अधिक हो जाएं, तो बड़ी इकाई में आगे ले जाएं।\n  - 1000 मी = 1 किमी (अगर मी ≥ 1000, 1 किमी आगे ले जाएं)\n\n**उदाहरण:**\n- 3 किमी 500 मी और 2 किमी 700 मी जोड़ें\n  - मी: 500 + 700 = 1200 मी = 1 किमी 200 मी (1 किमी आगे)\n  - किमी: 3 + 2 + 1 = 6 किमी\n  - उत्तर: **6 किमी 200 मी**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:**\n- Add 3 km 500 m and 2 km 700 m\n  - m: 500 + 700 = 1200 m = 1 km 200 m (carry 1 km)\n  - km: 3 + 2 + 1 = 6 km\n  - Answer: **6 km 200 m**",
+          "hindi": "**उदाहरण:**\n- 3 किमी 500 मी और 2 किमी 700 मी जोड़ें\n  - मी: 500 + 700 = 1200 मी = 1 किमी 200 मी (1 किमी आगे)\n  - किमी: 3 + 2 + 1 = 6 किमी\n  - उत्तर: **6 किमी 200 मी**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "addition_and_subtraction_of_length_measures_q1",
+          "id": "additionandsubtractionoflengthmeasuresq1",
           "prompt": {
             "english": "Add: 26 km 774 m and 84 km 668 m.",
             "hindi": "जोड़िए: 26 किमी 774 मी और 84 किमी 668 मी।"
@@ -248,11 +365,33 @@
             "111km 442m"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Add the metres.\n- 774 m + 668 m = 1442 m\n- 1442 m = 1 km 442 m (since 1442 ÷ 1000 = 1 remainder 442)\n- Write down **442 m**, carry **1 km**\n\n**Step 2:** Add the kilometres (including carried 1 km).\n- 26 km + 84 km + 1 km = **111 km**\n\n**Answer: 111 km 442 m**",
+            "hindi": "**Step 1:** Add the metres.\n- 774 m + 668 m = 1442 m\n- 1442 m = 1 km 442 m (since 1442 ÷ 1000 = 1 remainder 442)\n- Write down **442 m**, carry **1 km**\n\n**Step 2:** Add the kilometres (including carried 1 km).\n- 26 km + 84 km + 1 km = **111 km**\n\n**Answer: 111 km 442 m**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Add the metres.\n- 774 m + 668 m = 1442 m\n- 1442 m = 1 km 442 m (since 1442 ÷ 1000 = 1 remainder 442)\n- Write down **442 m**, carry **1 km**\n**Step 2:** Add the kilometres (including carried 1 km).\n- 26 km + 84 km + 1 km = **111 km**",
+            "hindi": "**Step 1:** Add the metres.\n- 774 m + 668 m = 1442 m\n- 1442 m = 1 km 442 m (since 1442 ÷ 1000 = 1 remainder 442)\n- Write down **442 m**, carry **1 km**\n**Step 2:** Add the kilometres (including carried 1 km).\n- 26 km + 84 km + 1 km = **111 km**"
+          },
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Add the metres.\n- 774 m + 668 m = 1442 m\n- 1442 m = 1 km 442 m (since 1442 ÷ 1000 = 1 remainder 442)\n- Write down **442 m**, carry **1 km**",
+              "hindi": "**Step 1:** Add the metres.\n- 774 m + 668 m = 1442 m\n- 1442 m = 1 km 442 m (since 1442 ÷ 1000 = 1 remainder 442)\n- Write down **442 m**, carry **1 km**"
+            },
+            {
+              "english": "**Step 2:** Add the kilometres (including carried 1 km).\n- 26 km + 84 km + 1 km = **111 km**",
+              "hindi": "**Step 2:** Add the kilometres (including carried 1 km).\n- 26 km + 84 km + 1 km = **111 km**"
+            },
+            {
+              "english": "**Answer: 111 km 442 m**",
+              "hindi": "**Answer: 111 km 442 m**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -268,7 +407,7 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ch12_multiplication_and_division_of_length_measures",
+      "id": "rsch12multiplicationanddivisionoflength_measures",
       "sourceLessonId": "rs_ch12",
       "chapterNumber": 12,
       "chapterTitle": {
@@ -291,12 +430,26 @@
         "english": "Multiplication and Division of Length Measures",
         "hindi": "लंबाई के मापों का गुणा और भाग"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Multiplying lengths:** Multiply each unit separately, then convert if necessary.\n\n**Example:** 2 m 30 cm × 3\n- cm: 30 × 3 = 90 cm (no carry needed since 90 < 100)\n- m: 2 × 3 = 6 m\n- Answer: **6 m 90 cm**\n\n**Another example:** 3 m 25 cm × 4\n- cm: 25 × 4 = 100 cm = 1 m 0 cm (carry 1 m)\n- m: 3 × 4 = 12 m + 1 m (carried) = 13 m\n- Answer: **13 m 0 cm = 13 m**",
+          "hindi": "## व्याख्या (हिंदी)\n\n**लंबाइयाँ गुणा करना:** प्रत्येक इकाई को अलग-अलग गुणा करें, फिर जरूरत पड़ने पर बदलें।\n\n**उदाहरण:** 2 मी 30 सेमी × 3\n- सेमी: 30 × 3 = 90 सेमी (कोई आगे नहीं, 90 < 100)\n- मी: 2 × 3 = 6 मी\n- उत्तर: **6 मी 90 सेमी**\n\n**अन्य उदाहरण:** 3 मी 25 सेमी × 4\n- सेमी: 25 × 4 = 100 सेमी = 1 मी 0 सेमी (1 मी आगे)\n- मी: 3 × 4 = 12 मी + 1 मी (आगे लाया) = 13 मी\n- उत्तर: **13 मी**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** 2 m 30 cm × 3\n- cm: 30 × 3 = 90 cm (no carry needed since 90 < 100)\n- m: 2 × 3 = 6 m\n- Answer: **6 m 90 cm**",
+          "hindi": "**उदाहरण:** 2 मी 30 सेमी × 3\n- सेमी: 30 × 3 = 90 सेमी (कोई आगे नहीं, 90 < 100)\n- मी: 2 × 3 = 6 मी\n- उत्तर: **6 मी 90 सेमी**"
+        },
+        {
+          "english": "**Another example:** 3 m 25 cm × 4\n- cm: 25 × 4 = 100 cm = 1 m 0 cm (carry 1 m)\n- m: 3 × 4 = 12 m + 1 m (carried) = 13 m\n- Answer: **13 m 0 cm = 13 m**",
+          "hindi": "**अन्य उदाहरण:** 3 मी 25 सेमी × 4\n- सेमी: 25 × 4 = 100 सेमी = 1 मी 0 सेमी (1 मी आगे)\n- मी: 3 × 4 = 12 मी + 1 मी (आगे लाया) = 13 मी\n- उत्तर: **13 मी**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "multiplication_and_division_of_length_measures_q1",
+          "id": "multiplicationanddivisionoflengthmeasuresq1",
           "prompt": {
             "english": "Multiply: 3 m 25 cm × 4.",
             "hindi": "गुणा कीजिए: 3 मी 25 सेमी × 4।"
@@ -309,11 +462,37 @@
             "13m"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Multiply the centimetres.\n- 25 cm × 4 = **100 cm**\n- 100 cm = **1 m 0 cm** (since 100 cm = 1 m), carry 1 m\n\n**Step 2:** Multiply the metres, then add the carried metre.\n- 3 m × 4 = 12 m\n- 12 m + 1 m (carried) = **13 m**\n\n**Step 3:** Combine.\n- 13 m 0 cm = **13 m**\n\n**Answer: 13 m**",
+            "hindi": "**Step 1:** Multiply the centimetres.\n- 25 cm × 4 = **100 cm**\n- 100 cm = **1 m 0 cm** (since 100 cm = 1 m), carry 1 m\n\n**Step 2:** Multiply the metres, then add the carried metre.\n- 3 m × 4 = 12 m\n- 12 m + 1 m (carried) = **13 m**\n\n**Step 3:** Combine.\n- 13 m 0 cm = **13 m**\n\n**Answer: 13 m**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Multiply the centimetres.\n- 25 cm × 4 = **100 cm**\n- 100 cm = **1 m 0 cm** (since 100 cm = 1 m), carry 1 m\n**Step 2:** Multiply the metres, then add the carried metre.\n- 3 m × 4 = 12 m\n- 12 m + 1 m (carried) = **13 m**",
+            "hindi": "**Step 1:** Multiply the centimetres.\n- 25 cm × 4 = **100 cm**\n- 100 cm = **1 m 0 cm** (since 100 cm = 1 m), carry 1 m\n**Step 2:** Multiply the metres, then add the carried metre.\n- 3 m × 4 = 12 m\n- 12 m + 1 m (carried) = **13 m**"
+          },
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Multiply the centimetres.\n- 25 cm × 4 = **100 cm**\n- 100 cm = **1 m 0 cm** (since 100 cm = 1 m), carry 1 m",
+              "hindi": "**Step 1:** Multiply the centimetres.\n- 25 cm × 4 = **100 cm**\n- 100 cm = **1 m 0 cm** (since 100 cm = 1 m), carry 1 m"
+            },
+            {
+              "english": "**Step 2:** Multiply the metres, then add the carried metre.\n- 3 m × 4 = 12 m\n- 12 m + 1 m (carried) = **13 m**",
+              "hindi": "**Step 2:** Multiply the metres, then add the carried metre.\n- 3 m × 4 = 12 m\n- 12 m + 1 m (carried) = **13 m**"
+            },
+            {
+              "english": "**Step 3:** Combine.\n- 13 m 0 cm = **13 m**",
+              "hindi": "**Step 3:** Combine.\n- 13 m 0 cm = **13 m**"
+            },
+            {
+              "english": "**Answer: 13 m**",
+              "hindi": "**Answer: 13 m**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -329,7 +508,7 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ch12_measures_of_mass_and_mass_conversions",
+      "id": "rsch12measuresofmassandmass_conversions",
       "sourceLessonId": "rs_ch12",
       "chapterNumber": 12,
       "chapterTitle": {
@@ -352,12 +531,17 @@
         "english": "Measures of Mass and Mass Conversions",
         "hindi": "द्रव्यमान के माप और रूपांतरण"
       },
-      "explanationParagraphs": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Mass** tells us how heavy something is. Common units:\n\n| Unit | Relation |\n|------|----------|\n| **Gram (g)** | Very light objects (a paperclip) |\n| **Kilogram (kg)** | Medium objects (a bag of rice) |\n| **Quintal (q)** | Heavy loads |\n| **Tonne (t)** | Very heavy (trucks, elephants) |\n\n**Key conversions:**\n- 1000 g = 1 kg\n- 100 kg = 1 quintal\n- 1000 kg = 1 tonne\n\n**Higher to Lower = Multiply | Lower to Higher = Divide**",
+          "hindi": "## व्याख्या (हिंदी)\n\n**द्रव्यमान** हमें बताता है कि कोई चीज़ कितनी भारी है। सामान्य इकाइयाँ:\n\n| इकाई | संबंध |\n|------|------|\n| **ग्राम (g)** | बहुत हल्की वस्तुएं (एक पेपर क्लिप) |\n| **किलोग्राम (kg)** | मध्यम वस्तुएं (चावल की बोरी) |\n| **क्विंटल** | भारी सामान |\n| **टन** | बहुत भारी (ट्रक, हाथी) |\n\n**मुख्य रूपांतरण:**\n- 1000 ग्राम = 1 किग्रा\n- 100 किग्रा = 1 क्विंटल\n- 1000 किग्रा = 1 टन\n\n**बड़ी → छोटी = गुणा | छोटी → बड़ी = भाग**"
+        }
+      ],
       "examples": [],
       "visuals": [],
       "questions": [
         {
-          "id": "measures_of_mass_and_mass_conversions_q1",
+          "id": "measuresofmassandmassconversionsq1",
           "prompt": {
             "english": "What is 3 quintals 65 kg in kilograms?",
             "hindi": "3 क्विंटल 65 किग्रा, किलोग्राम में कितना होगा?"
@@ -384,11 +568,33 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Convert quintals to kilograms.\n- 1 quintal = 100 kg\n- 3 quintals = 3 × 100 = **300 kg**\n\n**Step 2:** Add the remaining kg.\n- 300 kg + 65 kg = **365 kg**\n\n**Answer: 365 kg**",
+            "hindi": "**Step 1:** Convert quintals to kilograms.\n- 1 quintal = 100 kg\n- 3 quintals = 3 × 100 = **300 kg**\n\n**Step 2:** Add the remaining kg.\n- 300 kg + 65 kg = **365 kg**\n\n**Answer: 365 kg**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Convert quintals to kilograms.\n- 1 quintal = 100 kg\n- 3 quintals = 3 × 100 = **300 kg**\n**Step 2:** Add the remaining kg.\n- 300 kg + 65 kg = **365 kg**",
+            "hindi": "**Step 1:** Convert quintals to kilograms.\n- 1 quintal = 100 kg\n- 3 quintals = 3 × 100 = **300 kg**\n**Step 2:** Add the remaining kg.\n- 300 kg + 65 kg = **365 kg**"
+          },
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Convert quintals to kilograms.\n- 1 quintal = 100 kg\n- 3 quintals = 3 × 100 = **300 kg**",
+              "hindi": "**Step 1:** Convert quintals to kilograms.\n- 1 quintal = 100 kg\n- 3 quintals = 3 × 100 = **300 kg**"
+            },
+            {
+              "english": "**Step 2:** Add the remaining kg.\n- 300 kg + 65 kg = **365 kg**",
+              "hindi": "**Step 2:** Add the remaining kg.\n- 300 kg + 65 kg = **365 kg**"
+            },
+            {
+              "english": "**Answer: 365 kg**",
+              "hindi": "**Answer: 365 kg**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -404,7 +610,7 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ch12_addition_and_subtraction_of_mass_measures",
+      "id": "rsch12additionandsubtractionofmass_measures",
       "sourceLessonId": "rs_ch12",
       "chapterNumber": 12,
       "chapterTitle": {
@@ -427,12 +633,22 @@
         "english": "Addition and Subtraction of Mass Measures",
         "hindi": "द्रव्यमान के मापों का जोड़ और घटाव"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "Adding/subtracting mass with two units (kg and g) follows the same idea as length:\n- Add/subtract g with g, kg with kg.\n- If grams ≥ 1000, carry 1 kg (since 1000 g = 1 kg).\n\n**Example:** Add 5 kg 600 g and 3 kg 700 g\n- g: 600 + 700 = 1300 g = 1 kg 300 g (carry 1 kg)\n- kg: 5 + 3 + 1 = 9 kg\n- Answer: **9 kg 300 g**",
+          "hindi": "## व्याख्या (हिंदी)\n\nदो इकाइयों वाले द्रव्यमान (किग्रा और ग्राम) को जोड़ना/घटाना लंबाई की तरह ही है:\n- ग्राम को ग्राम के साथ, किग्रा को किग्रा के साथ जोड़ें/घटाएं।\n- अगर ग्राम ≥ 1000, तो 1 किग्रा आगे ले जाएं।\n\n**उदाहरण:** 5 किग्रा 600 ग्राम और 3 किग्रा 700 ग्राम जोड़ें\n- ग्राम: 600 + 700 = 1300 ग्राम = 1 किग्रा 300 ग्राम (1 किग्रा आगे)\n- किग्रा: 5 + 3 + 1 = 9 किग्रा\n- उत्तर: **9 किग्रा 300 ग्राम**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Add 5 kg 600 g and 3 kg 700 g\n- g: 600 + 700 = 1300 g = 1 kg 300 g (carry 1 kg)\n- kg: 5 + 3 + 1 = 9 kg\n- Answer: **9 kg 300 g**",
+          "hindi": "**उदाहरण:** 5 किग्रा 600 ग्राम और 3 किग्रा 700 ग्राम जोड़ें\n- ग्राम: 600 + 700 = 1300 ग्राम = 1 किग्रा 300 ग्राम (1 किग्रा आगे)\n- किग्रा: 5 + 3 + 1 = 9 किग्रा\n- उत्तर: **9 किग्रा 300 ग्राम**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "addition_and_subtraction_of_mass_measures_q1",
+          "id": "additionandsubtractionofmassmeasuresq1",
           "prompt": {
             "english": "Add: 68 kg 756 g and 86 kg 968 g.",
             "hindi": "जोड़िए: 68 किग्रा 756 ग्राम और 86 किग्रा 968 ग्राम।"
@@ -445,11 +661,33 @@
             "155kg 724g"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Add the grams.\n- 756 g + 968 g = 1724 g\n- 1724 g = 1 kg 724 g (since 1724 ÷ 1000 = 1 remainder 724)\n- Write **724 g**, carry **1 kg**\n\n**Step 2:** Add the kilograms (with the carried 1 kg).\n- 68 kg + 86 kg + 1 kg = **155 kg**\n\n**Answer: 155 kg 724 g**",
+            "hindi": "**Step 1:** Add the grams.\n- 756 g + 968 g = 1724 g\n- 1724 g = 1 kg 724 g (since 1724 ÷ 1000 = 1 remainder 724)\n- Write **724 g**, carry **1 kg**\n\n**Step 2:** Add the kilograms (with the carried 1 kg).\n- 68 kg + 86 kg + 1 kg = **155 kg**\n\n**Answer: 155 kg 724 g**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Add the grams.\n- 756 g + 968 g = 1724 g\n- 1724 g = 1 kg 724 g (since 1724 ÷ 1000 = 1 remainder 724)\n- Write **724 g**, carry **1 kg**\n**Step 2:** Add the kilograms (with the carried 1 kg).\n- 68 kg + 86 kg + 1 kg = **155 kg**",
+            "hindi": "**Step 1:** Add the grams.\n- 756 g + 968 g = 1724 g\n- 1724 g = 1 kg 724 g (since 1724 ÷ 1000 = 1 remainder 724)\n- Write **724 g**, carry **1 kg**\n**Step 2:** Add the kilograms (with the carried 1 kg).\n- 68 kg + 86 kg + 1 kg = **155 kg**"
+          },
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Add the grams.\n- 756 g + 968 g = 1724 g\n- 1724 g = 1 kg 724 g (since 1724 ÷ 1000 = 1 remainder 724)\n- Write **724 g**, carry **1 kg**",
+              "hindi": "**Step 1:** Add the grams.\n- 756 g + 968 g = 1724 g\n- 1724 g = 1 kg 724 g (since 1724 ÷ 1000 = 1 remainder 724)\n- Write **724 g**, carry **1 kg**"
+            },
+            {
+              "english": "**Step 2:** Add the kilograms (with the carried 1 kg).\n- 68 kg + 86 kg + 1 kg = **155 kg**",
+              "hindi": "**Step 2:** Add the kilograms (with the carried 1 kg).\n- 68 kg + 86 kg + 1 kg = **155 kg**"
+            },
+            {
+              "english": "**Answer: 155 kg 724 g**",
+              "hindi": "**Answer: 155 kg 724 g**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -465,7 +703,7 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ch12_multiplication_and_division_of_mass_measures",
+      "id": "rsch12multiplicationanddivisionofmass_measures",
       "sourceLessonId": "rs_ch12",
       "chapterNumber": 12,
       "chapterTitle": {
@@ -488,12 +726,26 @@
         "english": "Multiplication and Division of Mass Measures",
         "hindi": "द्रव्यमान के मापों का गुणा और भाग"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Multiplying mass:** Multiply each unit separately.\n\n**Example:** 1 kg 500 g × 3\n- g: 500 × 3 = 1500 g = 1 kg 500 g (carry 1 kg)\n- kg: 1 × 3 = 3 kg + 1 kg = 4 kg\n- Answer: **4 kg 500 g**\n\n**Example 2:** 2 kg 250 g × 4\n- g: 250 × 4 = 1000 g = 1 kg 0 g (carry 1 kg)\n- kg: 2 × 4 = 8 kg + 1 kg = 9 kg\n- Answer: **9 kg**",
+          "hindi": "## व्याख्या (हिंदी)\n\n**द्रव्यमान का गुणा:** प्रत्येक इकाई को अलग-अलग गुणा करें।\n\n**उदाहरण:** 1 किग्रा 500 ग्राम × 3\n- ग्राम: 500 × 3 = 1500 ग्राम = 1 किग्रा 500 ग्राम (1 किग्रा आगे)\n- किग्रा: 1 × 3 = 3 किग्रा + 1 किग्रा = 4 किग्रा\n- उत्तर: **4 किग्रा 500 ग्राम**\n\n**उदाहरण 2:** 2 किग्रा 250 ग्राम × 4\n- ग्राम: 250 × 4 = 1000 ग्राम = 1 किग्रा 0 ग्राम (1 किग्रा आगे)\n- किग्रा: 2 × 4 = 8 किग्रा + 1 किग्रा = 9 किग्रा\n- उत्तर: **9 किग्रा**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** 1 kg 500 g × 3\n- g: 500 × 3 = 1500 g = 1 kg 500 g (carry 1 kg)\n- kg: 1 × 3 = 3 kg + 1 kg = 4 kg\n- Answer: **4 kg 500 g**",
+          "hindi": "**उदाहरण:** 1 किग्रा 500 ग्राम × 3\n- ग्राम: 500 × 3 = 1500 ग्राम = 1 किग्रा 500 ग्राम (1 किग्रा आगे)\n- किग्रा: 1 × 3 = 3 किग्रा + 1 किग्रा = 4 किग्रा\n- उत्तर: **4 किग्रा 500 ग्राम**"
+        },
+        {
+          "english": "**Example 2:** 2 kg 250 g × 4\n- g: 250 × 4 = 1000 g = 1 kg 0 g (carry 1 kg)\n- kg: 2 × 4 = 8 kg + 1 kg = 9 kg\n- Answer: **9 kg**",
+          "hindi": "**उदाहरण 2:** 2 किग्रा 250 ग्राम × 4\n- ग्राम: 250 × 4 = 1000 ग्राम = 1 किग्रा 0 ग्राम (1 किग्रा आगे)\n- किग्रा: 2 × 4 = 8 किग्रा + 1 किग्रा = 9 किग्रा\n- उत्तर: **9 किग्रा**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "multiplication_and_division_of_mass_measures_q1",
+          "id": "multiplicationanddivisionofmassmeasuresq1",
           "prompt": {
             "english": "Multiply: 2 kg 250 g × 4.",
             "hindi": "गुणा कीजिए: 2 किग्रा 250 ग्राम × 4।"
@@ -506,11 +758,33 @@
             "9kg"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Multiply the grams.\n- 250 g × 4 = **1000 g**\n- 1000 g = **1 kg 0 g** (carry 1 kg)\n\n**Step 2:** Multiply the kilograms, then add the carried kg.\n- 2 kg × 4 = 8 kg\n- 8 kg + 1 kg (carried) = **9 kg**\n\n**Answer: 9 kg**",
+            "hindi": "**Step 1:** Multiply the grams.\n- 250 g × 4 = **1000 g**\n- 1000 g = **1 kg 0 g** (carry 1 kg)\n\n**Step 2:** Multiply the kilograms, then add the carried kg.\n- 2 kg × 4 = 8 kg\n- 8 kg + 1 kg (carried) = **9 kg**\n\n**Answer: 9 kg**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Multiply the grams.\n- 250 g × 4 = **1000 g**\n- 1000 g = **1 kg 0 g** (carry 1 kg)\n**Step 2:** Multiply the kilograms, then add the carried kg.\n- 2 kg × 4 = 8 kg\n- 8 kg + 1 kg (carried) = **9 kg**",
+            "hindi": "**Step 1:** Multiply the grams.\n- 250 g × 4 = **1000 g**\n- 1000 g = **1 kg 0 g** (carry 1 kg)\n**Step 2:** Multiply the kilograms, then add the carried kg.\n- 2 kg × 4 = 8 kg\n- 8 kg + 1 kg (carried) = **9 kg**"
+          },
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Multiply the grams.\n- 250 g × 4 = **1000 g**\n- 1000 g = **1 kg 0 g** (carry 1 kg)",
+              "hindi": "**Step 1:** Multiply the grams.\n- 250 g × 4 = **1000 g**\n- 1000 g = **1 kg 0 g** (carry 1 kg)"
+            },
+            {
+              "english": "**Step 2:** Multiply the kilograms, then add the carried kg.\n- 2 kg × 4 = 8 kg\n- 8 kg + 1 kg (carried) = **9 kg**",
+              "hindi": "**Step 2:** Multiply the kilograms, then add the carried kg.\n- 2 kg × 4 = 8 kg\n- 8 kg + 1 kg (carried) = **9 kg**"
+            },
+            {
+              "english": "**Answer: 9 kg**",
+              "hindi": "**Answer: 9 kg**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -526,7 +800,7 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ch12_measures_of_capacity_and_capacity_conversions",
+      "id": "rsch12measuresofcapacityandcapacity_conversions",
       "sourceLessonId": "rs_ch12",
       "chapterNumber": 12,
       "chapterTitle": {
@@ -549,12 +823,22 @@
         "english": "Measures of Capacity and Capacity Conversions",
         "hindi": "धारिता के माप और रूपांतरण"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Capacity** tells us how much liquid a container can hold.\n\n**Units of capacity:**\n- **Millilitre (mL)** → small amounts (a teaspoon = about 5 mL)\n- **Litre (L)** → larger amounts (a water bottle = 1 L)\n\n**Key conversion:**\n- **1 L = 1000 mL**\n\n**Converting L to mL (Higher → Lower) = Multiply by 1000**\n**Converting mL to L (Lower → Higher) = Divide by 1000**\n\n**Example:** 4 L 250 mL = (4 × 1000) + 250 = 4000 + 250 = **4250 mL**",
+          "hindi": "## व्याख्या (हिंदी)\n\n**धारिता** हमें बताती है कि एक बर्तन में कितना तरल पदार्थ आ सकता है।\n\n**धारिता की इकाइयाँ:**\n- **मिलीलीटर (mL)** → कम मात्रा (एक चम्मच = लगभग 5 mL)\n- **लीटर (L)** → अधिक मात्रा (पानी की बोतल = 1 L)\n\n**मुख्य रूपांतरण:**\n- **1 ली = 1000 मि.ली**\n\n**ली से मि.ली (बड़ी → छोटी) = 1000 से गुणा करें**\n**मि.ली से ली (छोटी → बड़ी) = 1000 से भाग दें**\n\n**उदाहरण:** 4 ली 250 मि.ली = (4 × 1000) + 250 = 4000 + 250 = **4250 मि.ली**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** 4 L 250 mL = (4 × 1000) + 250 = 4000 + 250 = **4250 mL**",
+          "hindi": "**उदाहरण:** 4 ली 250 मि.ली = (4 × 1000) + 250 = 4000 + 250 = **4250 मि.ली**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "measures_of_capacity_and_capacity_conversions_q1",
+          "id": "measuresofcapacityandcapacityconversionsq1",
           "prompt": {
             "english": "What is 15 L 730 mL in millilitres?",
             "hindi": "15 ली 730 मि.ली को मिलीलीटर में लिखिए।"
@@ -581,11 +865,33 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Convert litres to millilitres.\n- 1 L = 1000 mL\n- 15 L = 15 × 1000 = **15,000 mL**\n\n**Step 2:** Add the remaining millilitres.\n- 15,000 mL + 730 mL = **15,730 mL**\n\n**Answer: 15,730 mL**",
+            "hindi": "**Step 1:** Convert litres to millilitres.\n- 1 L = 1000 mL\n- 15 L = 15 × 1000 = **15,000 mL**\n\n**Step 2:** Add the remaining millilitres.\n- 15,000 mL + 730 mL = **15,730 mL**\n\n**Answer: 15,730 mL**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Convert litres to millilitres.\n- 1 L = 1000 mL\n- 15 L = 15 × 1000 = **15,000 mL**\n**Step 2:** Add the remaining millilitres.\n- 15,000 mL + 730 mL = **15,730 mL**",
+            "hindi": "**Step 1:** Convert litres to millilitres.\n- 1 L = 1000 mL\n- 15 L = 15 × 1000 = **15,000 mL**\n**Step 2:** Add the remaining millilitres.\n- 15,000 mL + 730 mL = **15,730 mL**"
+          },
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Convert litres to millilitres.\n- 1 L = 1000 mL\n- 15 L = 15 × 1000 = **15,000 mL**",
+              "hindi": "**Step 1:** Convert litres to millilitres.\n- 1 L = 1000 mL\n- 15 L = 15 × 1000 = **15,000 mL**"
+            },
+            {
+              "english": "**Step 2:** Add the remaining millilitres.\n- 15,000 mL + 730 mL = **15,730 mL**",
+              "hindi": "**Step 2:** Add the remaining millilitres.\n- 15,000 mL + 730 mL = **15,730 mL**"
+            },
+            {
+              "english": "**Answer: 15,730 mL**",
+              "hindi": "**Answer: 15,730 mL**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -601,7 +907,7 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ch12_addition_subtraction_multiplication_and_division_of_capacity_measures",
+      "id": "rsch12additionsubtractionmultiplicationanddivisionofcapacity_measures",
       "sourceLessonId": "rs_ch12",
       "chapterNumber": 12,
       "chapterTitle": {
@@ -629,7 +935,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "addition_subtraction_multiplication_and_division_of_capacity_measures_q1",
+          "id": "additionsubtractionmultiplicationanddivisionofcapacitymeasuresq1",
           "prompt": {
             "english": "Add: 54 L 565 mL and 79 L 785 mL.",
             "hindi": "जोड़िए: 54 ली 565 मि.ली और 79 ली 785 मि.ली।"
@@ -662,8 +968,8 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ex_ch12_ex53_q01_a",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q01_a",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -690,7 +996,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q01_a_q1",
+          "id": "rsexch12ex53q01aq1",
           "prompt": {
             "english": "Convert Part (a): 8 km into m",
             "hindi": "Convert Part (a): 8 km into m"
@@ -727,8 +1033,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q01_b",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q01_b",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -755,7 +1061,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q01_b_q1",
+          "id": "rsexch12ex53q01bq1",
           "prompt": {
             "english": "Convert Part (b): 9.4 km into m",
             "hindi": "Convert Part (b): 9.4 km into m"
@@ -792,8 +1098,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q01_c",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q01_c",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -820,7 +1126,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q01_c_q1",
+          "id": "rsexch12ex53q01cq1",
           "prompt": {
             "english": "Convert Part (c): 3.75 km into m",
             "hindi": "Convert Part (c): 3.75 km into m"
@@ -857,8 +1163,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q01_d",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q01_d",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -885,7 +1191,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q01_d_q1",
+          "id": "rsexch12ex53q01dq1",
           "prompt": {
             "english": "Convert Part (d): 16 km 24 m into m",
             "hindi": "Convert Part (d): 16 km 24 m into m"
@@ -922,8 +1228,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q02_a",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q02_a",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -950,7 +1256,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q02_a_q1",
+          "id": "rsexch12ex53q02aq1",
           "prompt": {
             "english": "Convert Part (a): 7 km 5 hm 6 dam 4 m into m",
             "hindi": "Convert Part (a): 7 km 5 hm 6 dam 4 m into m"
@@ -987,8 +1293,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q02_b",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q02_b",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -1015,7 +1321,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q02_b_q1",
+          "id": "rsexch12ex53q02bq1",
           "prompt": {
             "english": "Convert Part (b): 3 km 8 hm 4 dam into m",
             "hindi": "Convert Part (b): 3 km 8 hm 4 dam into m"
@@ -1052,8 +1358,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q02_c",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q02_c",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -1080,7 +1386,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q02_c_q1",
+          "id": "rsexch12ex53q02cq1",
           "prompt": {
             "english": "Convert Part (c): 6 km 6 hm into m",
             "hindi": "Convert Part (c): 6 km 6 hm into m"
@@ -1117,8 +1423,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q02_d",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q02_d",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -1145,7 +1451,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q02_d_q1",
+          "id": "rsexch12ex53q02dq1",
           "prompt": {
             "english": "Convert Part (d): 4 hm 5 dam 6 m into m",
             "hindi": "Convert Part (d): 4 hm 5 dam 6 m into m"
@@ -1182,8 +1488,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q03_a",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q03_a",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -1210,7 +1516,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q03_a_q1",
+          "id": "rsexch12ex53q03aq1",
           "prompt": {
             "english": "Convert Part (a): 9 m into cm",
             "hindi": "Convert Part (a): 9 m into cm"
@@ -1247,8 +1553,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q03_b",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q03_b",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -1275,7 +1581,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q03_b_q1",
+          "id": "rsexch12ex53q03bq1",
           "prompt": {
             "english": "Convert Part (b): 7.6 m into cm",
             "hindi": "Convert Part (b): 7.6 m into cm"
@@ -1312,8 +1618,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q03_c",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q03_c",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -1340,7 +1646,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q03_c_q1",
+          "id": "rsexch12ex53q03cq1",
           "prompt": {
             "english": "Convert Part (c): 2.36 m into cm",
             "hindi": "Convert Part (c): 2.36 m into cm"
@@ -1377,8 +1683,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q03_d",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q03_d",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -1405,7 +1711,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q03_d_q1",
+          "id": "rsexch12ex53q03dq1",
           "prompt": {
             "english": "Convert Part (d): 8 dam into cm",
             "hindi": "Convert Part (d): 8 dam into cm"
@@ -1442,8 +1748,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q04_a",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q04_a",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -1470,7 +1776,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q04_a_q1",
+          "id": "rsexch12ex53q04aq1",
           "prompt": {
             "english": "Convert Part (a): 6 km into hm",
             "hindi": "Convert Part (a): 6 km into hm"
@@ -1507,8 +1813,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q04_b",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q04_b",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -1535,7 +1841,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q04_b_q1",
+          "id": "rsexch12ex53q04bq1",
           "prompt": {
             "english": "Convert Part (b): 5.3 km into dam",
             "hindi": "Convert Part (b): 5.3 km into dam"
@@ -1572,8 +1878,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q04_c",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q04_c",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -1600,7 +1906,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q04_c_q1",
+          "id": "rsexch12ex53q04cq1",
           "prompt": {
             "english": "Convert Part (c): 4.63 km into dam",
             "hindi": "Convert Part (c): 4.63 km into dam"
@@ -1637,8 +1943,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q04_d",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q04_d",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -1665,7 +1971,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q04_d_q1",
+          "id": "rsexch12ex53q04dq1",
           "prompt": {
             "english": "Convert Part (d): 2.5 dam into dm",
             "hindi": "Convert Part (d): 2.5 dam into dm"
@@ -1702,8 +2008,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q05_a",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q05_a",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -1730,7 +2036,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q05_a_q1",
+          "id": "rsexch12ex53q05aq1",
           "prompt": {
             "english": "Convert Part (a): 23.4 cm into mm",
             "hindi": "Convert Part (a): 23.4 cm into mm"
@@ -1767,8 +2073,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q05_b",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q05_b",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -1795,7 +2101,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q05_b_q1",
+          "id": "rsexch12ex53q05bq1",
           "prompt": {
             "english": "Convert Part (b): 4.1 m into mm",
             "hindi": "Convert Part (b): 4.1 m into mm"
@@ -1832,8 +2138,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q05_c",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q05_c",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -1860,7 +2166,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q05_c_q1",
+          "id": "rsexch12ex53q05cq1",
           "prompt": {
             "english": "Convert Part (c): 5.63 m into mm",
             "hindi": "Convert Part (c): 5.63 m into mm"
@@ -1897,8 +2203,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q05_d",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q05_d",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -1925,7 +2231,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q05_d_q1",
+          "id": "rsexch12ex53q05dq1",
           "prompt": {
             "english": "Convert Part (d): 3.428 m into mm",
             "hindi": "Convert Part (d): 3.428 m into mm"
@@ -1962,8 +2268,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q06_a",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q06_a",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -1990,7 +2296,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q06_a_q1",
+          "id": "rsexch12ex53q06aq1",
           "prompt": {
             "english": "Convert Part (a): 3 km 42 m into m",
             "hindi": "Convert Part (a): 3 km 42 m into m"
@@ -2027,8 +2333,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q06_b",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q06_b",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -2055,7 +2361,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q06_b_q1",
+          "id": "rsexch12ex53q06bq1",
           "prompt": {
             "english": "Convert Part (b): 8 m 6 cm into cm",
             "hindi": "Convert Part (b): 8 m 6 cm into cm"
@@ -2092,8 +2398,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q06_c",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q06_c",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -2120,7 +2426,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q06_c_q1",
+          "id": "rsexch12ex53q06cq1",
           "prompt": {
             "english": "Convert Part (c): 6 cm 6 mm into mm",
             "hindi": "Convert Part (c): 6 cm 6 mm into mm"
@@ -2157,8 +2463,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q06_d",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q06_d",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -2185,7 +2491,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q06_d_q1",
+          "id": "rsexch12ex53q06dq1",
           "prompt": {
             "english": "Convert Part (d): 4 m 4 cm into mm",
             "hindi": "Convert Part (d): 4 m 4 cm into mm"
@@ -2222,8 +2528,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q07_a",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q07_a",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -2250,7 +2556,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q07_a_q1",
+          "id": "rsexch12ex53q07aq1",
           "prompt": {
             "english": "Convert Part (a): 5.03 km into km and m",
             "hindi": "Convert Part (a): 5.03 km into km and m"
@@ -2287,8 +2593,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q07_b",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q07_b",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -2315,7 +2621,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q07_b_q1",
+          "id": "rsexch12ex53q07bq1",
           "prompt": {
             "english": "Convert Part (b): 6.4 hm into hm and dam",
             "hindi": "Convert Part (b): 6.4 hm into hm and dam"
@@ -2352,8 +2658,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q07_c",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q07_c",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -2380,7 +2686,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q07_c_q1",
+          "id": "rsexch12ex53q07cq1",
           "prompt": {
             "english": "Convert Part (c): 16.4 m into m and cm",
             "hindi": "Convert Part (c): 16.4 m into m and cm"
@@ -2417,8 +2723,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q07_d",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q07_d",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -2445,7 +2751,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q07_d_q1",
+          "id": "rsexch12ex53q07dq1",
           "prompt": {
             "english": "Convert Part (d): 8.05 dam into m and dm",
             "hindi": "Convert Part (d): 8.05 dam into m and dm"
@@ -2482,8 +2788,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q08_a",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q08_a",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -2510,7 +2816,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q08_a_q1",
+          "id": "rsexch12ex53q08aq1",
           "prompt": {
             "english": "Convert Part (a): 12 km 34 m into m",
             "hindi": "Convert Part (a): 12 km 34 m into m"
@@ -2547,8 +2853,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q08_b",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q08_b",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -2575,7 +2881,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q08_b_q1",
+          "id": "rsexch12ex53q08bq1",
           "prompt": {
             "english": "Convert Part (b): 50 km 9 m into m",
             "hindi": "Convert Part (b): 50 km 9 m into m"
@@ -2612,8 +2918,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q08_c",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q08_c",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -2640,7 +2946,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q08_c_q1",
+          "id": "rsexch12ex53q08cq1",
           "prompt": {
             "english": "Convert Part (c): 62 cm 5 mm into mm",
             "hindi": "Convert Part (c): 62 cm 5 mm into mm"
@@ -2677,8 +2983,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex53_q08_d",
-      "sourceLessonId": "rs_exercise_ch12_ex53",
+      "id": "rsexch12ex53q08_d",
+      "sourceLessonId": "rsexercisech12_ex53",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -2705,7 +3011,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex53_q08_d_q1",
+          "id": "rsexch12ex53q08dq1",
           "prompt": {
             "english": "Convert Part (d): 7 m 8 cm into cm",
             "hindi": "Convert Part (d): 7 m 8 cm into cm"
@@ -2742,8 +3048,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q01_a",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q01_a",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -2770,7 +3076,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q01_a_q1",
+          "id": "rsexch12ex54q01aq1",
           "prompt": {
             "english": "Convert Part (a): 8 mm into cm",
             "hindi": "Convert Part (a): 8 mm into cm"
@@ -2807,8 +3113,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q01_b",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q01_b",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -2835,7 +3141,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q01_b_q1",
+          "id": "rsexch12ex54q01bq1",
           "prompt": {
             "english": "Convert Part (b): 65 cm into m",
             "hindi": "Convert Part (b): 65 cm into m"
@@ -2872,8 +3178,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q01_c",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q01_c",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -2900,7 +3206,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q01_c_q1",
+          "id": "rsexch12ex54q01cq1",
           "prompt": {
             "english": "Convert Part (c): 160 cm into m",
             "hindi": "Convert Part (c): 160 cm into m"
@@ -2937,8 +3243,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q01_d",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q01_d",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -2965,7 +3271,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q01_d_q1",
+          "id": "rsexch12ex54q01dq1",
           "prompt": {
             "english": "Convert Part (d): 8 cm into m",
             "hindi": "Convert Part (d): 8 cm into m"
@@ -3002,8 +3308,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q02_a",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q02_a",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -3030,7 +3336,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q02_a_q1",
+          "id": "rsexch12ex54q02aq1",
           "prompt": {
             "english": "Convert Part (a): 864 m into km",
             "hindi": "Convert Part (a): 864 m into km"
@@ -3067,8 +3373,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q02_b",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q02_b",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -3095,7 +3401,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q02_b_q1",
+          "id": "rsexch12ex54q02bq1",
           "prompt": {
             "english": "Convert Part (b): 2375 m into km",
             "hindi": "Convert Part (b): 2375 m into km"
@@ -3132,8 +3438,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q02_c",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q02_c",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -3160,7 +3466,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q02_c_q1",
+          "id": "rsexch12ex54q02cq1",
           "prompt": {
             "english": "Convert Part (c): 58 m into km",
             "hindi": "Convert Part (c): 58 m into km"
@@ -3197,8 +3503,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q02_d",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q02_d",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -3225,7 +3531,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q02_d_q1",
+          "id": "rsexch12ex54q02dq1",
           "prompt": {
             "english": "Convert Part (d): 9 m into km",
             "hindi": "Convert Part (d): 9 m into km"
@@ -3262,8 +3568,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q03_a",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q03_a",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -3290,7 +3596,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q03_a_q1",
+          "id": "rsexch12ex54q03aq1",
           "prompt": {
             "english": "Convert Part (a): 5 cm 6 mm into cm",
             "hindi": "Convert Part (a): 5 cm 6 mm into cm"
@@ -3327,8 +3633,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q03_b",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q03_b",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -3355,7 +3661,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q03_b_q1",
+          "id": "rsexch12ex54q03bq1",
           "prompt": {
             "english": "Convert Part (b): 26 cm 8 mm into cm",
             "hindi": "Convert Part (b): 26 cm 8 mm into cm"
@@ -3392,8 +3698,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q04_a",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q04_a",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -3420,7 +3726,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q04_a_q1",
+          "id": "rsexch12ex54q04aq1",
           "prompt": {
             "english": "Convert Part (a): 6 m 65 cm into m",
             "hindi": "Convert Part (a): 6 m 65 cm into m"
@@ -3457,8 +3763,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q04_b",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q04_b",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -3485,7 +3791,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q04_b_q1",
+          "id": "rsexch12ex54q04bq1",
           "prompt": {
             "english": "Convert Part (b): 35 m 28 cm into m",
             "hindi": "Convert Part (b): 35 m 28 cm into m"
@@ -3522,8 +3828,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q04_c",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q04_c",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -3550,7 +3856,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q04_c_q1",
+          "id": "rsexch12ex54q04cq1",
           "prompt": {
             "english": "Convert Part (c): 8 m 5 cm into m",
             "hindi": "Convert Part (c): 8 m 5 cm into m"
@@ -3587,8 +3893,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q04_d",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q04_d",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -3615,7 +3921,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q04_d_q1",
+          "id": "rsexch12ex54q04dq1",
           "prompt": {
             "english": "Convert Part (d): 60 m 6 cm into m",
             "hindi": "Convert Part (d): 60 m 6 cm into m"
@@ -3652,8 +3958,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q05_a",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q05_a",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -3680,7 +3986,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q05_a_q1",
+          "id": "rsexch12ex54q05aq1",
           "prompt": {
             "english": "Convert Part (a): 8 km 275 m into km",
             "hindi": "Convert Part (a): 8 km 275 m into km"
@@ -3717,8 +4023,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q05_b",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q05_b",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -3745,7 +4051,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q05_b_q1",
+          "id": "rsexch12ex54q05bq1",
           "prompt": {
             "english": "Convert Part (b): 24 km 65 m into km",
             "hindi": "Convert Part (b): 24 km 65 m into km"
@@ -3782,8 +4088,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q05_c",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q05_c",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -3810,7 +4116,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q05_c_q1",
+          "id": "rsexch12ex54q05cq1",
           "prompt": {
             "english": "Convert Part (c): 36 km 10 m into km",
             "hindi": "Convert Part (c): 36 km 10 m into km"
@@ -3847,8 +4153,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q05_d",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q05_d",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -3875,7 +4181,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q05_d_q1",
+          "id": "rsexch12ex54q05dq1",
           "prompt": {
             "english": "Convert Part (d): 6 km 5 m 4 cm into km",
             "hindi": "Convert Part (d): 6 km 5 m 4 cm into km"
@@ -3912,8 +4218,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q06_a",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q06_a",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -3940,7 +4246,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q06_a_q1",
+          "id": "rsexch12ex54q06aq1",
           "prompt": {
             "english": "Convert Part (a): 150 cm into hm",
             "hindi": "Convert Part (a): 150 cm into hm"
@@ -3977,8 +4283,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q06_b",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q06_b",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -4005,7 +4311,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q06_b_q1",
+          "id": "rsexch12ex54q06bq1",
           "prompt": {
             "english": "Convert Part (b): 480 mm into m",
             "hindi": "Convert Part (b): 480 mm into m"
@@ -4042,8 +4348,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q07",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q07",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -4070,7 +4376,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q07_q1",
+          "id": "rsexch12ex54q07_q1",
           "prompt": {
             "english": "Convert 9 dam 8 cm into m",
             "hindi": "Convert 9 dam 8 cm into m"
@@ -4107,8 +4413,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q08",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q08",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -4135,7 +4441,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q08_q1",
+          "id": "rsexch12ex54q08_q1",
           "prompt": {
             "english": "Convert 8 hm 8 dm into m",
             "hindi": "Convert 8 hm 8 dm into m"
@@ -4172,8 +4478,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex54_q09",
-      "sourceLessonId": "rs_exercise_ch12_ex54",
+      "id": "rsexch12ex54q09",
+      "sourceLessonId": "rsexercisech12_ex54",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -4200,7 +4506,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex54_q09_q1",
+          "id": "rsexch12ex54q09_q1",
           "prompt": {
             "english": "Convert 4 km 9 cm 5 mm into m. Addition and Subtraction of Length Measures To add or subtract measures given in different units, we convert each of the given measures into the biggest given unit and then add or subtract the measures as we do in case of decimals",
             "hindi": "Convert 4 km 9 cm 5 mm into m. Addition and Subtraction of Length Measures To add or subtract measures given in different units, we convert each of the given measures into the biggest given unit and then add or subtract the measures as we do in case of decimals"
@@ -4237,8 +4543,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q01",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q01",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -4265,7 +4571,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q01_q1",
+          "id": "rsexch12ex55q01_q1",
           "prompt": {
             "english": "Add: 26 km 634 m, 15 km 76 m and 8 km 708 m",
             "hindi": "Add: 26 km 634 m, 15 km 76 m and 8 km 708 m"
@@ -4302,8 +4608,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q02",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q02",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -4330,7 +4636,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q02_q1",
+          "id": "rsexch12ex55q02_q1",
           "prompt": {
             "english": "Add: 9 km 75 m, 12 km 165 m and 768 m",
             "hindi": "Add: 9 km 75 m, 12 km 165 m and 768 m"
@@ -4367,8 +4673,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q03",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q03",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -4395,7 +4701,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q03_q1",
+          "id": "rsexch12ex55q03_q1",
           "prompt": {
             "english": "Add: 8 km 8 m, 7 km 7 m and 645 m",
             "hindi": "Add: 8 km 8 m, 7 km 7 m and 645 m"
@@ -4432,8 +4738,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q04",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q04",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -4460,7 +4766,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q04_q1",
+          "id": "rsexch12ex55q04_q1",
           "prompt": {
             "english": "Add: 46 m 85 cm, 37 m 68 cm and 9 m 9 cm",
             "hindi": "Add: 46 m 85 cm, 37 m 68 cm and 9 m 9 cm"
@@ -4497,8 +4803,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q05",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q05",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -4525,7 +4831,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q05_q1",
+          "id": "rsexch12ex55q05_q1",
           "prompt": {
             "english": "Add: 32 m 76 cm, 8 m 38 cm and 65 cm",
             "hindi": "Add: 32 m 76 cm, 8 m 38 cm and 65 cm"
@@ -4562,8 +4868,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q06",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q06",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -4590,7 +4896,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q06_q1",
+          "id": "rsexch12ex55q06_q1",
           "prompt": {
             "english": "Add: 9 m 9 cm, 6 m 6 cm and 85 cm Subtract",
             "hindi": "Add: 9 m 9 cm, 6 m 6 cm and 85 cm Subtract"
@@ -4627,8 +4933,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q07",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q07",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -4655,7 +4961,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q07_q1",
+          "id": "rsexch12ex55q07_q1",
           "prompt": {
             "english": "Add: 6 km 8 hm from 14 km",
             "hindi": "Add: 6 km 8 hm from 14 km"
@@ -4692,8 +4998,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q08",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q08",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -4720,7 +5026,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q08_q1",
+          "id": "rsexch12ex55q08_q1",
           "prompt": {
             "english": "Add: 18 km 675 m from 25 km 87 m",
             "hindi": "Add: 18 km 675 m from 25 km 87 m"
@@ -4757,8 +5063,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q09",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q09",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -4785,7 +5091,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q09_q1",
+          "id": "rsexch12ex55q09_q1",
           "prompt": {
             "english": "Add: 34 km 68 m from 42 km 32 m",
             "hindi": "Add: 34 km 68 m from 42 km 32 m"
@@ -4822,8 +5128,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q10",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q10",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -4850,7 +5156,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q10_q1",
+          "id": "rsexch12ex55q10_q1",
           "prompt": {
             "english": "Add: 10 km 9 m from 16 km 7 m",
             "hindi": "Add: 10 km 9 m from 16 km 7 m"
@@ -4887,8 +5193,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q11",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q11",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -4915,7 +5221,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q11_q1",
+          "id": "rsexch12ex55q11_q1",
           "prompt": {
             "english": "Add: 46 m 85 cm from 50 m",
             "hindi": "Add: 46 m 85 cm from 50 m"
@@ -4952,8 +5258,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q12",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q12",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -4980,7 +5286,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q12_q1",
+          "id": "rsexch12ex55q12_q1",
           "prompt": {
             "english": "Add: 14 m 28 cm from 23 m 10 cm",
             "hindi": "Add: 14 m 28 cm from 23 m 10 cm"
@@ -5017,8 +5323,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q13",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q13",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -5045,7 +5351,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q13_q1",
+          "id": "rsexch12ex55q13_q1",
           "prompt": {
             "english": "Vinay travelled 5 km 75 m by bicycle, 18 km 356 m by bus and 1 km 872 m on foot. What is the total distance travelled by Vinay?",
             "hindi": "Vinay travelled 5 km 75 m by bicycle, 18 km 356 m by bus and 1 km 872 m on foot. What is the total distance travelled by Vinay?"
@@ -5082,8 +5388,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q14",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q14",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -5110,7 +5416,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q14_q1",
+          "id": "rsexch12ex55q14_q1",
           "prompt": {
             "english": "Rakesh bought 5 metres of cloth. He used 2 m 35 cm for his shirt and the rest for his trousers. How much cloth did he",
             "hindi": "Rakesh bought 5 metres of cloth. He used 2 m 35 cm for his shirt and the rest for his trousers. How much cloth did he"
@@ -5147,8 +5453,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q15",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q15",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -5175,7 +5481,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q15_q1",
+          "id": "rsexch12ex55q15_q1",
           "prompt": {
             "english": "If 4 m 20 cm of cloth is needed for one frock, how much cloth will be needed for 5 such frocks?",
             "hindi": "If 4 m 20 cm of cloth is needed for one frock, how much cloth will be needed for 5 such frocks?"
@@ -5212,8 +5518,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q16",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q16",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -5240,7 +5546,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q16_q1",
+          "id": "rsexch12ex55q16_q1",
           "prompt": {
             "english": "A man walks at the rate of 2 km 675 m per hour, how much distance will he cover in 8 hours?",
             "hindi": "A man walks at the rate of 2 km 675 m per hour, how much distance will he cover in 8 hours?"
@@ -5277,8 +5583,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q17",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q17",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -5305,7 +5611,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q17_q1",
+          "id": "rsexch12ex55q17_q1",
           "prompt": {
             "english": "A 34 m long rope is divided into 10 ropes of equal size. What is the length of each small piece?",
             "hindi": "A 34 m long rope is divided into 10 ropes of equal size. What is the length of each small piece?"
@@ -5342,8 +5648,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex55_q18",
-      "sourceLessonId": "rs_exercise_ch12_ex55",
+      "id": "rsexch12ex55q18",
+      "sourceLessonId": "rsexercisech12_ex55",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -5370,7 +5676,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex55_q18_q1",
+          "id": "rsexch12ex55q18_q1",
           "prompt": {
             "english": "A man covers 255 km in 6 hours on scooter at a uniform speed. Find his speed in km per hour",
             "hindi": "A man covers 255 km in 6 hours on scooter at a uniform speed. Find his speed in km per hour"
@@ -5407,8 +5713,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q01_a",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q01_a",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -5435,7 +5741,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q01_a_q1",
+          "id": "rsexch12ex56q01aq1",
           "prompt": {
             "english": "Convert Part (a): 4 kg into g",
             "hindi": "Convert Part (a): 4 kg into g"
@@ -5472,8 +5778,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q01_b",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q01_b",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -5500,7 +5806,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q01_b_q1",
+          "id": "rsexch12ex56q01bq1",
           "prompt": {
             "english": "Convert Part (b): 8.5 kg into g",
             "hindi": "Convert Part (b): 8.5 kg into g"
@@ -5537,8 +5843,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q01_c",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q01_c",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -5565,7 +5871,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q01_c_q1",
+          "id": "rsexch12ex56q01cq1",
           "prompt": {
             "english": "Convert Part (c): 2.84 kg into g",
             "hindi": "Convert Part (c): 2.84 kg into g"
@@ -5602,8 +5908,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q01_d",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q01_d",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -5630,7 +5936,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q01_d_q1",
+          "id": "rsexch12ex56q01dq1",
           "prompt": {
             "english": "Convert Part (d): 3.560 kg into g",
             "hindi": "Convert Part (d): 3.560 kg into g"
@@ -5667,8 +5973,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q02_a",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q02_a",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -5695,7 +6001,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q02_a_q1",
+          "id": "rsexch12ex56q02aq1",
           "prompt": {
             "english": "Convert Part (a): 13 kg 235 g into g",
             "hindi": "Convert Part (a): 13 kg 235 g into g"
@@ -5732,8 +6038,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q02_b",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q02_b",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -5760,7 +6066,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q02_b_q1",
+          "id": "rsexch12ex56q02bq1",
           "prompt": {
             "english": "Convert Part (b): 9 kg 85 g into g",
             "hindi": "Convert Part (b): 9 kg 85 g into g"
@@ -5797,8 +6103,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q02_c",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q02_c",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -5825,7 +6131,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q02_c_q1",
+          "id": "rsexch12ex56q02cq1",
           "prompt": {
             "english": "Convert Part (c): 5 kg 3 hg into g",
             "hindi": "Convert Part (c): 5 kg 3 hg into g"
@@ -5862,8 +6168,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q02_d",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q02_d",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -5890,7 +6196,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q02_d_q1",
+          "id": "rsexch12ex56q02dq1",
           "prompt": {
             "english": "Convert Part (d): 8 hg 5 dag into g 1111123.345 g 235.080 g + 63.008 g 421.433 g",
             "hindi": "Convert Part (d): 8 hg 5 dag into g 1111123.345 g 235.080 g + 63.008 g 421.433 g"
@@ -5927,8 +6233,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q03_a",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q03_a",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -5955,7 +6261,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q03_a_q1",
+          "id": "rsexch12ex56q03aq1",
           "prompt": {
             "english": "Convert Part (a): 6 kg 3 hg 4 dag 5 g into g",
             "hindi": "Convert Part (a): 6 kg 3 hg 4 dag 5 g into g"
@@ -5992,8 +6298,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q03_b",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q03_b",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -6020,7 +6326,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q03_b_q1",
+          "id": "rsexch12ex56q03bq1",
           "prompt": {
             "english": "Convert Part (b): 7 kg 6 hg 9 dag into g",
             "hindi": "Convert Part (b): 7 kg 6 hg 9 dag into g"
@@ -6057,8 +6363,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q03_c",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q03_c",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -6085,7 +6391,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q03_c_q1",
+          "id": "rsexch12ex56q03cq1",
           "prompt": {
             "english": "Convert Part (c): 5 kg 6 hg into g",
             "hindi": "Convert Part (c): 5 kg 6 hg into g"
@@ -6122,8 +6428,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q03_d",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q03_d",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -6150,7 +6456,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q03_d_q1",
+          "id": "rsexch12ex56q03dq1",
           "prompt": {
             "english": "Convert Part (d): 8 hg 5 dag 6 g into g",
             "hindi": "Convert Part (d): 8 hg 5 dag 6 g into g"
@@ -6187,8 +6493,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q04_a",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q04_a",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -6215,7 +6521,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q04_a_q1",
+          "id": "rsexch12ex56q04aq1",
           "prompt": {
             "english": "Convert Part (a): 9 kg into hg",
             "hindi": "Convert Part (a): 9 kg into hg"
@@ -6251,8 +6557,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q04_b",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q04_b",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -6279,7 +6585,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q04_b_q1",
+          "id": "rsexch12ex56q04bq1",
           "prompt": {
             "english": "Convert Part (b): 6.5 kg into dag",
             "hindi": "Convert Part (b): 6.5 kg into dag"
@@ -6315,8 +6621,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q04_c",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q04_c",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -6343,7 +6649,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q04_c_q1",
+          "id": "rsexch12ex56q04cq1",
           "prompt": {
             "english": "Convert Part (c): 5.91 kg into dag",
             "hindi": "Convert Part (c): 5.91 kg into dag"
@@ -6379,8 +6685,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q04_d",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q04_d",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -6407,7 +6713,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q04_d_q1",
+          "id": "rsexch12ex56q04dq1",
           "prompt": {
             "english": "Convert Part (d): 4.2 dag into dg",
             "hindi": "Convert Part (d): 4.2 dag into dg"
@@ -6443,8 +6749,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q05_a",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q05_a",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -6471,7 +6777,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q05_a_q1",
+          "id": "rsexch12ex56q05aq1",
           "prompt": {
             "english": "Convert Part (a): 2 kg 36 g into g",
             "hindi": "Convert Part (a): 2 kg 36 g into g"
@@ -6508,8 +6814,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q05_b",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q05_b",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -6536,7 +6842,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q05_b_q1",
+          "id": "rsexch12ex56q05bq1",
           "prompt": {
             "english": "Convert Part (b): 6 kg 8 g into g",
             "hindi": "Convert Part (b): 6 kg 8 g into g"
@@ -6573,8 +6879,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q05_c",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q05_c",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -6601,7 +6907,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q05_c_q1",
+          "id": "rsexch12ex56q05cq1",
           "prompt": {
             "english": "Convert Part (c): 5 kg 5 mg into mg",
             "hindi": "Convert Part (c): 5 kg 5 mg into mg"
@@ -6638,8 +6944,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q05_d",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q05_d",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -6666,7 +6972,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q05_d_q1",
+          "id": "rsexch12ex56q05dq1",
           "prompt": {
             "english": "Convert Part (d): 5 g 5 cg into mg",
             "hindi": "Convert Part (d): 5 g 5 cg into mg"
@@ -6703,8 +7009,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q06_a",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q06_a",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -6731,7 +7037,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q06_a_q1",
+          "id": "rsexch12ex56q06aq1",
           "prompt": {
             "english": "Convert Part (a): 6.25 kg into kg and g",
             "hindi": "Convert Part (a): 6.25 kg into kg and g"
@@ -6768,8 +7074,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q06_b",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q06_b",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -6796,7 +7102,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q06_b_q1",
+          "id": "rsexch12ex56q06bq1",
           "prompt": {
             "english": "Convert Part (b): 7.5 hg into hg and dag",
             "hindi": "Convert Part (b): 7.5 hg into hg and dag"
@@ -6832,8 +7138,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q06_c",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q06_c",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -6860,7 +7166,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q06_c_q1",
+          "id": "rsexch12ex56q06cq1",
           "prompt": {
             "english": "Convert Part (c): 5.08 dag into g and dg",
             "hindi": "Convert Part (c): 5.08 dag into g and dg"
@@ -6897,8 +7203,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q06_d",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q06_d",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -6925,7 +7231,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q06_d_q1",
+          "id": "rsexch12ex56q06dq1",
           "prompt": {
             "english": "Convert Part (d): 18.3 g into g and cg",
             "hindi": "Convert Part (d): 18.3 g into g and cg"
@@ -6962,8 +7268,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q07_a",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q07_a",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -6990,7 +7296,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q07_a_q1",
+          "id": "rsexch12ex56q07aq1",
           "prompt": {
             "english": "Convert Part (a): 6340 g into kg",
             "hindi": "Convert Part (a): 6340 g into kg"
@@ -7027,8 +7333,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q07_b",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q07_b",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -7055,7 +7361,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q07_b_q1",
+          "id": "rsexch12ex56q07bq1",
           "prompt": {
             "english": "Convert Part (b): 5460 mg into g",
             "hindi": "Convert Part (b): 5460 mg into g"
@@ -7092,8 +7398,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q07_c",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q07_c",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -7120,7 +7426,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q07_c_q1",
+          "id": "rsexch12ex56q07cq1",
           "prompt": {
             "english": "Convert Part (c): 536 mg into g",
             "hindi": "Convert Part (c): 536 mg into g"
@@ -7157,8 +7463,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q07_d",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q07_d",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -7185,7 +7491,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q07_d_q1",
+          "id": "rsexch12ex56q07dq1",
           "prompt": {
             "english": "Convert Part (d): 23 mg into g",
             "hindi": "Convert Part (d): 23 mg into g"
@@ -7222,8 +7528,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q08_a",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q08_a",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -7250,7 +7556,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q08_a_q1",
+          "id": "rsexch12ex56q08aq1",
           "prompt": {
             "english": "Convert Part (a): 4 kg 75 g into kg",
             "hindi": "Convert Part (a): 4 kg 75 g into kg"
@@ -7287,8 +7593,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q08_b",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q08_b",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -7315,7 +7621,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q08_b_q1",
+          "id": "rsexch12ex56q08bq1",
           "prompt": {
             "english": "Convert Part (b): 7 kg 950 g into kg",
             "hindi": "Convert Part (b): 7 kg 950 g into kg"
@@ -7352,8 +7658,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q08_c",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q08_c",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -7380,7 +7686,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q08_c_q1",
+          "id": "rsexch12ex56q08cq1",
           "prompt": {
             "english": "Convert Part (c): 9 kg 5 g into kg",
             "hindi": "Convert Part (c): 9 kg 5 g into kg"
@@ -7417,8 +7723,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q08_d",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q08_d",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -7445,7 +7751,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q08_d_q1",
+          "id": "rsexch12ex56q08dq1",
           "prompt": {
             "english": "Convert Part (d): 16 g 65 mg into g",
             "hindi": "Convert Part (d): 16 g 65 mg into g"
@@ -7482,8 +7788,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q08_e",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q08_e",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -7510,7 +7816,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q08_e_q1",
+          "id": "rsexch12ex56q08eq1",
           "prompt": {
             "english": "Convert Part (e): 6 g 635 mg into g",
             "hindi": "Convert Part (e): 6 g 635 mg into g"
@@ -7547,8 +7853,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q08_f",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q08_f",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -7575,7 +7881,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q08_f_q1",
+          "id": "rsexch12ex56q08fq1",
           "prompt": {
             "english": "Convert Part (f): 53 g 8 mg into g Addition and Subtraction of Mass Measures",
             "hindi": "Convert Part (f): 53 g 8 mg into g Addition and Subtraction of Mass Measures"
@@ -7612,8 +7918,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q09",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q09",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -7640,7 +7946,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q09_q1",
+          "id": "rsexch12ex56q09_q1",
           "prompt": {
             "english": "Subtract: 8 kg 25 g from 10 kg 10 g",
             "hindi": "Subtract: 8 kg 25 g from 10 kg 10 g"
@@ -7680,8 +7986,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q10",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q10",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -7708,7 +8014,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q10_q1",
+          "id": "rsexch12ex56q10_q1",
           "prompt": {
             "english": "Nisha bought 8 kg 260 g apples, 6 kg 325 g chikoos and 9 kg 85 g guavas. What is the total weight of fruits bought by her?",
             "hindi": "Nisha bought 8 kg 260 g apples, 6 kg 325 g chikoos and 9 kg 85 g guavas. What is the total weight of fruits bought by her?"
@@ -7748,8 +8054,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q11",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q11",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -7776,7 +8082,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q11_q1",
+          "id": "rsexch12ex56q11_q1",
           "prompt": {
             "english": "Ashu weighs 36 kg 540 g while his sister Nisha weighs 40 kg 125 g. Who weighs more and by how much?",
             "hindi": "Ashu weighs 36 kg 540 g while his sister Nisha weighs 40 kg 125 g. Who weighs more and by how much?"
@@ -7817,8 +8123,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q12",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q12",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -7845,7 +8151,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q12_q1",
+          "id": "rsexch12ex56q12_q1",
           "prompt": {
             "english": "Shashi and Sakshi together weigh 73 kg 250 g. If Shashi weighs 38 kg 675 g, what is Shaksi's weight?",
             "hindi": "Shashi and Sakshi together weigh 73 kg 250 g. If Shashi weighs 38 kg 675 g, what is Shaksi's weight?"
@@ -7885,8 +8191,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q13",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q13",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -7913,7 +8219,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q13_q1",
+          "id": "rsexch12ex56q13_q1",
           "prompt": {
             "english": "If each bag of wheat weighs 25 kg 650 g, what is the total weight of 8 such bags?",
             "hindi": "If each bag of wheat weighs 25 kg 650 g, what is the total weight of 8 such bags?"
@@ -7953,8 +8259,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex56_q14",
-      "sourceLessonId": "rs_exercise_ch12_ex56",
+      "id": "rsexch12ex56q14",
+      "sourceLessonId": "rsexercisech12_ex56",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -7981,7 +8287,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex56_q14_q1",
+          "id": "rsexch12ex56q14_q1",
           "prompt": {
             "english": "The total weight of 6 bags of rice is 52 kg 500 g and all the bags weigh equally. Find the weight of each bag",
             "hindi": "The total weight of 6 bags of rice is 52 kg 500 g and all the bags weigh equally. Find the weight of each bag"
@@ -8021,8 +8327,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex57_q01_a",
-      "sourceLessonId": "rs_exercise_ch12_ex57",
+      "id": "rsexch12ex57q01_a",
+      "sourceLessonId": "rsexercisech12_ex57",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -8049,7 +8355,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex57_q01_a_q1",
+          "id": "rsexch12ex57q01aq1",
           "prompt": {
             "english": "Convert Part (a): 8 L into mL",
             "hindi": "Convert Part (a): 8 L into mL"
@@ -8087,8 +8393,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex57_q01_b",
-      "sourceLessonId": "rs_exercise_ch12_ex57",
+      "id": "rsexch12ex57q01_b",
+      "sourceLessonId": "rsexercisech12_ex57",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -8115,7 +8421,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex57_q01_b_q1",
+          "id": "rsexch12ex57q01bq1",
           "prompt": {
             "english": "Convert Part (b): 3 L 360 mL into mL",
             "hindi": "Convert Part (b): 3 L 360 mL into mL"
@@ -8153,8 +8459,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex57_q01_c",
-      "sourceLessonId": "rs_exercise_ch12_ex57",
+      "id": "rsexch12ex57q01_c",
+      "sourceLessonId": "rsexercisech12_ex57",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -8181,7 +8487,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex57_q01_c_q1",
+          "id": "rsexch12ex57q01cq1",
           "prompt": {
             "english": "Convert Part (c): 6 kL 250 L into L",
             "hindi": "Convert Part (c): 6 kL 250 L into L"
@@ -8219,8 +8525,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex57_q01_d",
-      "sourceLessonId": "rs_exercise_ch12_ex57",
+      "id": "rsexch12ex57q01_d",
+      "sourceLessonId": "rsexercisech12_ex57",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -8247,7 +8553,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex57_q01_d_q1",
+          "id": "rsexch12ex57q01dq1",
           "prompt": {
             "english": "Convert Part (d): 5 daL 6 L into L",
             "hindi": "Convert Part (d): 5 daL 6 L into L"
@@ -8285,8 +8591,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex57_q02_a",
-      "sourceLessonId": "rs_exercise_ch12_ex57",
+      "id": "rsexch12ex57q02_a",
+      "sourceLessonId": "rsexercisech12_ex57",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -8313,7 +8619,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex57_q02_a_q1",
+          "id": "rsexch12ex57q02aq1",
           "prompt": {
             "english": "Convert Part (a): 65 kL 345 L into L",
             "hindi": "Convert Part (a): 65 kL 345 L into L"
@@ -8351,8 +8657,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex57_q02_b",
-      "sourceLessonId": "rs_exercise_ch12_ex57",
+      "id": "rsexch12ex57q02_b",
+      "sourceLessonId": "rsexercisech12_ex57",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -8379,7 +8685,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex57_q02_b_q1",
+          "id": "rsexch12ex57q02bq1",
           "prompt": {
             "english": "Convert Part (b): 5 kL 35 L into L",
             "hindi": "Convert Part (b): 5 kL 35 L into L"
@@ -8417,8 +8723,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex57_q02_c",
-      "sourceLessonId": "rs_exercise_ch12_ex57",
+      "id": "rsexch12ex57q02_c",
+      "sourceLessonId": "rsexercisech12_ex57",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -8445,7 +8751,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex57_q02_c_q1",
+          "id": "rsexch12ex57q02cq1",
           "prompt": {
             "english": "Convert Part (c): 36 kL 5 L into L",
             "hindi": "Convert Part (c): 36 kL 5 L into L"
@@ -8483,8 +8789,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex57_q03_a",
-      "sourceLessonId": "rs_exercise_ch12_ex57",
+      "id": "rsexch12ex57q03_a",
+      "sourceLessonId": "rsexercisech12_ex57",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -8511,7 +8817,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex57_q03_a_q1",
+          "id": "rsexch12ex57q03aq1",
           "prompt": {
             "english": "Convert Part (a): 8 L 375 mL into mL",
             "hindi": "Convert Part (a): 8 L 375 mL into mL"
@@ -8549,8 +8855,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex57_q03_b",
-      "sourceLessonId": "rs_exercise_ch12_ex57",
+      "id": "rsexch12ex57q03_b",
+      "sourceLessonId": "rsexercisech12_ex57",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -8577,7 +8883,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex57_q03_b_q1",
+          "id": "rsexch12ex57q03bq1",
           "prompt": {
             "english": "Convert Part (b): 37 L 65 mL into mL",
             "hindi": "Convert Part (b): 37 L 65 mL into mL"
@@ -8615,8 +8921,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex57_q03_c",
-      "sourceLessonId": "rs_exercise_ch12_ex57",
+      "id": "rsexch12ex57q03_c",
+      "sourceLessonId": "rsexercisech12_ex57",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -8643,7 +8949,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex57_q03_c_q1",
+          "id": "rsexch12ex57q03cq1",
           "prompt": {
             "english": "Convert Part (c): 15 L 6 mL into mL",
             "hindi": "Convert Part (c): 15 L 6 mL into mL"
@@ -8681,8 +8987,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q01_a",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q01_a",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -8709,7 +9015,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q01_a_q1",
+          "id": "rsexch12ex58q01aq1",
           "prompt": {
             "english": "Convert Part (a): 8 L into mL",
             "hindi": "Convert Part (a): 8 L into mL"
@@ -8746,8 +9052,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q01_b",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q01_b",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -8774,7 +9080,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q01_b_q1",
+          "id": "rsexch12ex58q01bq1",
           "prompt": {
             "english": "Convert Part (b): 3 L 360 mL into mL",
             "hindi": "Convert Part (b): 3 L 360 mL into mL"
@@ -8811,8 +9117,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q01_c",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q01_c",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -8839,7 +9145,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q01_c_q1",
+          "id": "rsexch12ex58q01cq1",
           "prompt": {
             "english": "Convert Part (c): 6 kL 250 L into L",
             "hindi": "Convert Part (c): 6 kL 250 L into L"
@@ -8876,8 +9182,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q01_d",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q01_d",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -8904,7 +9210,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q01_d_q1",
+          "id": "rsexch12ex58q01dq1",
           "prompt": {
             "english": "Convert Part (d): 5 daL 6 L into L",
             "hindi": "Convert Part (d): 5 daL 6 L into L"
@@ -8941,8 +9247,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q02_a",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q02_a",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -8969,7 +9275,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q02_a_q1",
+          "id": "rsexch12ex58q02aq1",
           "prompt": {
             "english": "Convert Part (a): 65 kL 345 L into L",
             "hindi": "Convert Part (a): 65 kL 345 L into L"
@@ -9006,8 +9312,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q02_b",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q02_b",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -9034,7 +9340,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q02_b_q1",
+          "id": "rsexch12ex58q02bq1",
           "prompt": {
             "english": "Convert Part (b): 5 kL 35 L into L",
             "hindi": "Convert Part (b): 5 kL 35 L into L"
@@ -9071,8 +9377,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q02_c",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q02_c",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -9099,7 +9405,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q02_c_q1",
+          "id": "rsexch12ex58q02cq1",
           "prompt": {
             "english": "Convert Part (c): 36 kL 5 L into L",
             "hindi": "Convert Part (c): 36 kL 5 L into L"
@@ -9136,8 +9442,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q03_a",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q03_a",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -9164,7 +9470,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q03_a_q1",
+          "id": "rsexch12ex58q03aq1",
           "prompt": {
             "english": "Convert Part (a): 8 L 375 mL into mL",
             "hindi": "Convert Part (a): 8 L 375 mL into mL"
@@ -9201,8 +9507,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q03_b",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q03_b",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -9229,7 +9535,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q03_b_q1",
+          "id": "rsexch12ex58q03bq1",
           "prompt": {
             "english": "Convert Part (b): 37 L 65 mL into mL",
             "hindi": "Convert Part (b): 37 L 65 mL into mL"
@@ -9266,8 +9572,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q03_c",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q03_c",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -9294,7 +9600,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q03_c_q1",
+          "id": "rsexch12ex58q03cq1",
           "prompt": {
             "english": "Convert Part (c): 15 L 6 mL into mL",
             "hindi": "Convert Part (c): 15 L 6 mL into mL"
@@ -9331,8 +9637,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q04_a",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q04_a",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -9359,7 +9665,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q04_a_q1",
+          "id": "rsexch12ex58q04aq1",
           "prompt": {
             "english": "Convert Part (a): 2.8 kL into L",
             "hindi": "Convert Part (a): 2.8 kL into L"
@@ -9396,8 +9702,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q04_b",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q04_b",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -9424,7 +9730,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q04_b_q1",
+          "id": "rsexch12ex58q04bq1",
           "prompt": {
             "english": "Convert Part (b): 6.375 L into mL",
             "hindi": "Convert Part (b): 6.375 L into mL"
@@ -9461,8 +9767,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q04_c",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q04_c",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -9489,7 +9795,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q04_c_q1",
+          "id": "rsexch12ex58q04cq1",
           "prompt": {
             "english": "Convert Part (c): 8.05 L into mL",
             "hindi": "Convert Part (c): 8.05 L into mL"
@@ -9526,8 +9832,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q05_a",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q05_a",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -9554,7 +9860,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q05_a_q1",
+          "id": "rsexch12ex58q05aq1",
           "prompt": {
             "english": "Convert Part (a): 6 L 125 mL into L",
             "hindi": "Convert Part (a): 6 L 125 mL into L"
@@ -9591,8 +9897,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q05_b",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q05_b",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -9619,7 +9925,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q05_b_q1",
+          "id": "rsexch12ex58q05bq1",
           "prompt": {
             "english": "Convert Part (b): 18 L 46 mL into L",
             "hindi": "Convert Part (b): 18 L 46 mL into L"
@@ -9656,8 +9962,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q05_c",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q05_c",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -9684,7 +9990,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q05_c_q1",
+          "id": "rsexch12ex58q05cq1",
           "prompt": {
             "english": "Convert Part (c): 120 L 8 mL into L",
             "hindi": "Convert Part (c): 120 L 8 mL into L"
@@ -9721,8 +10027,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q06_a",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q06_a",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -9749,7 +10055,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q06_a_q1",
+          "id": "rsexch12ex58q06aq1",
           "prompt": {
             "english": "Convert Part (a): 8 kL 625 l into kL",
             "hindi": "Convert Part (a): 8 kL 625 l into kL"
@@ -9786,8 +10092,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q06_b",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q06_b",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -9814,7 +10120,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q06_b_q1",
+          "id": "rsexch12ex58q06bq1",
           "prompt": {
             "english": "Convert Part (b): 50 kL 60 L into kL",
             "hindi": "Convert Part (b): 50 kL 60 L into kL"
@@ -9851,8 +10157,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q06_c",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q06_c",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -9879,7 +10185,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q06_c_q1",
+          "id": "rsexch12ex58q06cq1",
           "prompt": {
             "english": "Convert Part (c): 30 kL 5 L into kL",
             "hindi": "Convert Part (c): 30 kL 5 L into kL"
@@ -9916,8 +10222,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q07_a",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q07_a",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -9944,7 +10250,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q07_a_q1",
+          "id": "rsexch12ex58q07aq1",
           "prompt": {
             "english": "Convert Part (a): 3560 mL into L",
             "hindi": "Convert Part (a): 3560 mL into L"
@@ -9981,8 +10287,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q07_b",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q07_b",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -10009,7 +10315,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q07_b_q1",
+          "id": "rsexch12ex58q07bq1",
           "prompt": {
             "english": "Convert Part (b): 68 mL into L",
             "hindi": "Convert Part (b): 68 mL into L"
@@ -10046,8 +10352,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex58_q07_c",
-      "sourceLessonId": "rs_exercise_ch12_ex58",
+      "id": "rsexch12ex58q07_c",
+      "sourceLessonId": "rsexercisech12_ex58",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -10074,7 +10380,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex58_q07_c_q1",
+          "id": "rsexch12ex58q07cq1",
           "prompt": {
             "english": "Convert Part (c): 9 mL into L Addition and Subtraction of Capacity Measures",
             "hindi": "Convert Part (c): 9 mL into L Addition and Subtraction of Capacity Measures"
@@ -10111,8 +10417,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q01",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q01",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -10139,7 +10445,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q01_q1",
+          "id": "rsexch12ex59q01_q1",
           "prompt": {
             "english": "Add: 15 L 680 mL, 23 L 75 mL and 16 L 8 mL",
             "hindi": "Add: 15 L 680 mL, 23 L 75 mL and 16 L 8 mL"
@@ -10176,8 +10482,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q02",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q02",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -10204,7 +10510,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q02_q1",
+          "id": "rsexch12ex59q02_q1",
           "prompt": {
             "english": "Add: 37L 56mL, 40L 67mL and 51L 43mL",
             "hindi": "Add: 37L 56mL, 40L 67mL and 51L 43mL"
@@ -10241,8 +10547,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q03",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q03",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -10269,7 +10575,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q03_q1",
+          "id": "rsexch12ex59q03_q1",
           "prompt": {
             "english": "Add: 19 L 9 mL, 76 L 7 mL and 88 L 5 mL",
             "hindi": "Add: 19 L 9 mL, 76 L 7 mL and 88 L 5 mL"
@@ -10306,8 +10612,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q04",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q04",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -10334,7 +10640,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q04_q1",
+          "id": "rsexch12ex59q04_q1",
           "prompt": {
             "english": "Add: 86kL 450L, 93kL 675L and 3kL 287L",
             "hindi": "Add: 86kL 450L, 93kL 675L and 3kL 287L"
@@ -10371,8 +10677,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q05",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q05",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -10399,7 +10705,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q05_q1",
+          "id": "rsexch12ex59q05_q1",
           "prompt": {
             "english": "Add: 29 kL 568 L, 48 kL 39 L and 74 kL 6 L",
             "hindi": "Add: 29 kL 568 L, 48 kL 39 L and 74 kL 6 L"
@@ -10436,8 +10742,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q06",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q06",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -10464,7 +10770,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q06_q1",
+          "id": "rsexch12ex59q06_q1",
           "prompt": {
             "english": "Add: 9kL 9L, 8kL 8L and 93L Subtract",
             "hindi": "Add: 9kL 9L, 8kL 8L and 93L Subtract"
@@ -10501,8 +10807,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q07",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q07",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -10529,7 +10835,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q07_q1",
+          "id": "rsexch12ex59q07_q1",
           "prompt": {
             "english": "Add: 68 L 590 mL from 105 L 325 mL",
             "hindi": "Add: 68 L 590 mL from 105 L 325 mL"
@@ -10566,8 +10872,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q08",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q08",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -10594,7 +10900,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q08_q1",
+          "id": "rsexch12ex59q08_q1",
           "prompt": {
             "english": "Add: 74 L 625 mL from 112 L",
             "hindi": "Add: 74 L 625 mL from 112 L"
@@ -10631,8 +10937,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q09",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q09",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -10659,7 +10965,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q09_q1",
+          "id": "rsexch12ex59q09_q1",
           "prompt": {
             "english": "Add: 49 L 875 mL from 83 L 60 mL",
             "hindi": "Add: 49 L 875 mL from 83 L 60 mL"
@@ -10696,8 +11002,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q10",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q10",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -10724,7 +11030,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q10_q1",
+          "id": "rsexch12ex59q10_q1",
           "prompt": {
             "english": "Add: 56 kL 376 L from 80 kL 80 L",
             "hindi": "Add: 56 kL 376 L from 80 kL 80 L"
@@ -10761,8 +11067,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q11",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q11",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -10789,7 +11095,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q11_q1",
+          "id": "rsexch12ex59q11_q1",
           "prompt": {
             "english": "Add: 27 kL 89 L from 90 kL 7 L",
             "hindi": "Add: 27 kL 89 L from 90 kL 7 L"
@@ -10826,8 +11132,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q12",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q12",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -10854,7 +11160,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q12_q1",
+          "id": "rsexch12ex59q12_q1",
           "prompt": {
             "english": "Add: 35 kL 267 L from 50 kL",
             "hindi": "Add: 35 kL 267 L from 50 kL"
@@ -10891,8 +11197,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q13",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q13",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -10919,7 +11225,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q13_q1",
+          "id": "rsexch12ex59q13_q1",
           "prompt": {
             "english": "Shobha bought 5L 650 mL milk on Monday, 4 L 500 mL on Tuesday and 6L 850 mL on Wednesday. How much milk did she buy in three days?",
             "hindi": "Shobha bought 5L 650 mL milk on Monday, 4 L 500 mL on Tuesday and 6L 850 mL on Wednesday. How much milk did she buy in three days?"
@@ -10956,8 +11262,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q14",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q14",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -10984,7 +11290,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q14_q1",
+          "id": "rsexch12ex59q14_q1",
           "prompt": {
             "english": "Renu bought 8L 725 mL of milk and added 1 L 275 mL of water to it. What is the total volume of the adulterated milk?",
             "hindi": "Renu bought 8L 725 mL of milk and added 1 L 275 mL of water to it. What is the total volume of the adulterated milk?"
@@ -11021,8 +11327,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q15",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q15",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -11049,7 +11355,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q15_q1",
+          "id": "rsexch12ex59q15_q1",
           "prompt": {
             "english": "A bath tub can hold 70 L of water in it. It has 23 L 750 mL of water in it. How much more water can be poured into it?",
             "hindi": "A bath tub can hold 70 L of water in it. It has 23 L 750 mL of water in it. How much more water can be poured into it?"
@@ -11086,8 +11392,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q16",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q16",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -11114,7 +11420,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q16_q1",
+          "id": "rsexch12ex59q16_q1",
           "prompt": {
             "english": "A car started out on a journey with 28 L of petrol. On reaching the destination, it was found that the car still had 12 L 365 mL of petrol. What quantity of petrol was used up in the journey?",
             "hindi": "A car started out on a journey with 28 L of petrol. On reaching the destination, it was found that the car still had 12 L 365 mL of petrol. What quantity of petrol was used up in the journey?"
@@ -11151,8 +11457,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q17",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q17",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -11179,7 +11485,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q17_q1",
+          "id": "rsexch12ex59q17_q1",
           "prompt": {
             "english": "The weight of Michael is 46 kg 365 g and weight of Rahul is 28 kg 975 g. What is their total weight? Also,",
             "hindi": "The weight of Michael is 46 kg 365 g and weight of Rahul is 28 kg 975 g. What is their total weight? Also,"
@@ -11216,8 +11522,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q18",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q18",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -11244,7 +11550,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q18_q1",
+          "id": "rsexch12ex59q18_q1",
           "prompt": {
             "english": "A bottle of syrup contains 875 mL syrup. Find in litres the quantity of syrup in 12 such bottles",
             "hindi": "A bottle of syrup contains 875 mL syrup. Find in litres the quantity of syrup in 12 such bottles"
@@ -11281,8 +11587,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q19",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q19",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -11309,7 +11615,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q19_q1",
+          "id": "rsexch12ex59q19_q1",
           "prompt": {
             "english": "A can contains 2 L 425 mL of soft drink. How much soft drink will be there in 8 such bottles?",
             "hindi": "A can contains 2 L 425 mL of soft drink. How much soft drink will be there in 8 such bottles?"
@@ -11346,8 +11652,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q20",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q20",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -11374,7 +11680,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q20_q1",
+          "id": "rsexch12ex59q20_q1",
           "prompt": {
             "english": "A leaking tap drips at the rate of 150 mL per hour. How many litres of water will be wasted in 10 hours?",
             "hindi": "A leaking tap drips at the rate of 150 mL per hour. How many litres of water will be wasted in 10 hours?"
@@ -11411,8 +11717,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch12_ex59_q21",
-      "sourceLessonId": "rs_exercise_ch12_ex59",
+      "id": "rsexch12ex59q21",
+      "sourceLessonId": "rsexercisech12_ex59",
       "chapterNumber": 12,
       "chapterTitle": {
         "english": "Measures of Length, Mass and Capacity",
@@ -11439,7 +11745,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch12_ex59_q21_q1",
+          "id": "rsexch12ex59q21_q1",
           "prompt": {
             "english": "10 litres of milk is to be packed in small bottles, each one of which can hold 250 mL. How many such bottles are required?",
             "hindi": "10 litres of milk is to be packed in small bottles, each one of which can hold 250 mL. How many such bottles are required?"

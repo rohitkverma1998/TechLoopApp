@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch14_meaning_of_percent_and_percentage_to_fraction_or_decimal",
+      "id": "rsch14meaningofpercentandpercentagetofractionordecimal",
       "sourceLessonId": "rs_ch14",
       "chapterNumber": 14,
       "chapterTitle": {
@@ -29,12 +29,26 @@
         "english": "Meaning of Percent and Percentage to Fraction or Decimal",
         "hindi": "प्रतिशत का अर्थ और प्रतिशत को भिन्न या दशमलव में बदलना"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**What does \"percent\" mean?**\n\"Per cent\" literally means \"per hundred\" or \"out of 100\".\nThe symbol **%** is used for percent.\n\nSo **25%** means **25 out of 100**, which is written as the fraction **25/100**.\n\n**Converting Percentage to Fraction:**\n- Write the percentage as a fraction with denominator 100.\n- Simplify (reduce) the fraction.\n- Example: 25% = 25/100 = **1/4**\n- Example: 50% = 50/100 = **1/2**\n\n**Converting Percentage to Decimal:**\n- Divide the percentage number by 100 (move decimal 2 places left).\n- Example: 25% = 25 ÷ 100 = **0.25**\n- Example: 40% = 40 ÷ 100 = **0.40 = 0.4**",
+          "hindi": "## व्याख्या (हिंदी)\n\n**\"प्रतिशत\" का मतलब क्या है?**\n\"प्रतिशत\" का शाब्दिक अर्थ है \"प्रति सौ\" या \"सौ में से\"।\n**%** चिन्ह प्रतिशत के लिए उपयोग होता है।\n\nतो **25%** का मतलब है **100 में से 25**, जिसे भिन्न में **25/100** लिखते हैं।\n\n**प्रतिशत को भिन्न में बदलना:**\n- प्रतिशत को 100 हर वाली भिन्न के रूप में लिखें।\n- भिन्न को सरल करें।\n- उदाहरण: 25% = 25/100 = **1/4**\n- उदाहरण: 50% = 50/100 = **1/2**\n\n**प्रतिशत को दशमलव में बदलना:**\n- प्रतिशत संख्या को 100 से भाग दें (दशमलव 2 स्थान बाईं ओर खिसकाएं)।\n- उदाहरण: 25% = 25 ÷ 100 = **0.25**\n- उदाहरण: 40% = 40 ÷ 100 = **0.40 = 0.4**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Converting Percentage to Fraction:**\n- Write the percentage as a fraction with denominator 100.\n- Simplify (reduce) the fraction.\n- Example: 25% = 25/100 = **1/4**\n- Example: 50% = 50/100 = **1/2**",
+          "hindi": "**प्रतिशत को भिन्न में बदलना:**\n- प्रतिशत को 100 हर वाली भिन्न के रूप में लिखें।\n- भिन्न को सरल करें।\n- उदाहरण: 25% = 25/100 = **1/4**\n- उदाहरण: 50% = 50/100 = **1/2**"
+        },
+        {
+          "english": "**Converting Percentage to Decimal:**\n- Divide the percentage number by 100 (move decimal 2 places left).\n- Example: 25% = 25 ÷ 100 = **0.25**\n- Example: 40% = 40 ÷ 100 = **0.40 = 0.4**",
+          "hindi": "**प्रतिशत को दशमलव में बदलना:**\n- प्रतिशत संख्या को 100 से भाग दें (दशमलव 2 स्थान बाईं ओर खिसकाएं)।\n- उदाहरण: 25% = 25 ÷ 100 = **0.25**\n- उदाहरण: 40% = 40 ÷ 100 = **0.40 = 0.4**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "meaning_of_percent_and_percentage_to_fraction_or_decimal_q1",
+          "id": "meaningofpercentandpercentagetofractionordecimal_q1",
           "prompt": {
             "english": "Write 25% as a fraction in simplest form.",
             "hindi": "25% को सरलतम भिन्न में लिखिए।"
@@ -47,11 +61,37 @@
             "1 / 4"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Write 25% as a fraction with denominator 100.\n- 25% = **25/100**\n\n**Step 2:** Simplify the fraction by finding the HCF of 25 and 100.\n- HCF of 25 and 100 = **25**\n- 25 ÷ 25 = 1\n- 100 ÷ 25 = 4\n\n**Step 3:** The simplified fraction is **1/4**.\n\n**Answer: 1/4**",
+            "hindi": "**Step 1:** Write 25% as a fraction with denominator 100.\n- 25% = **25/100**\n\n**Step 2:** Simplify the fraction by finding the HCF of 25 and 100.\n- HCF of 25 and 100 = **25**\n- 25 ÷ 25 = 1\n- 100 ÷ 25 = 4\n\n**Step 3:** The simplified fraction is **1/4**.\n\n**Answer: 1/4**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Write 25% as a fraction with denominator 100.\n- 25% = **25/100**\n**Step 2:** Simplify the fraction by finding the HCF of 25 and 100.\n- HCF of 25 and 100 = **25**\n- 25 ÷ 25 = 1\n- 100 ÷ 25 = 4",
+            "hindi": "**Step 1:** Write 25% as a fraction with denominator 100.\n- 25% = **25/100**\n**Step 2:** Simplify the fraction by finding the HCF of 25 and 100.\n- HCF of 25 and 100 = **25**\n- 25 ÷ 25 = 1\n- 100 ÷ 25 = 4"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Write 25% as a fraction with denominator 100.\n- 25% = **25/100**",
+              "hindi": "**Step 1:** Write 25% as a fraction with denominator 100.\n- 25% = **25/100**"
+            },
+            {
+              "english": "**Step 2:** Simplify the fraction by finding the HCF of 25 and 100.\n- HCF of 25 and 100 = **25**\n- 25 ÷ 25 = 1\n- 100 ÷ 25 = 4",
+              "hindi": "**Step 2:** Simplify the fraction by finding the HCF of 25 and 100.\n- HCF of 25 and 100 = **25**\n- 25 ÷ 25 = 1\n- 100 ÷ 25 = 4"
+            },
+            {
+              "english": "**Step 3:** The simplified fraction is **1/4**.",
+              "hindi": "**Step 3:** The simplified fraction is **1/4**."
+            },
+            {
+              "english": "**Answer: 1/4**",
+              "hindi": "**Answer: 1/4**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -67,7 +107,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch14_converting_a_fraction_or_decimal_into_a_percentage",
+      "id": "rsch14convertingafractionordecimalintoa_percentage",
       "sourceLessonId": "rs_ch14",
       "chapterNumber": 14,
       "chapterTitle": {
@@ -90,12 +130,26 @@
         "english": "Converting a Fraction or Decimal into a Percentage",
         "hindi": "भिन्न या दशमलव को प्रतिशत में बदलना"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Converting Fraction to Percentage:**\n- Multiply the fraction by 100 and add the % sign.\n- Example: 3/4 = (3/4) × 100 = 75 = **75%**\n\n**Converting Decimal to Percentage:**\n- Multiply the decimal by 100 and add the % sign.\n- (This means moving the decimal point 2 places to the right.)\n- Example: 0.75 × 100 = **75%**\n- Example: 0.5 × 100 = **50%**\n- Example: 0.08 × 100 = **8%**",
+          "hindi": "## व्याख्या (हिंदी)\n\n**भिन्न को प्रतिशत में बदलना:**\n- भिन्न को 100 से गुणा करें और % चिन्ह लगाएं।\n- उदाहरण: 3/4 = (3/4) × 100 = 75 = **75%**\n\n**दशमलव को प्रतिशत में बदलना:**\n- दशमलव को 100 से गुणा करें और % चिन्ह लगाएं।\n- (यानी दशमलव बिंदु को 2 स्थान दाईं ओर खिसकाएं।)\n- उदाहरण: 0.75 × 100 = **75%**\n- उदाहरण: 0.5 × 100 = **50%**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Converting Fraction to Percentage:**\n- Multiply the fraction by 100 and add the % sign.\n- Example: 3/4 = (3/4) × 100 = 75 = **75%**",
+          "hindi": "**भिन्न को प्रतिशत में बदलना:**\n- भिन्न को 100 से गुणा करें और % चिन्ह लगाएं।\n- उदाहरण: 3/4 = (3/4) × 100 = 75 = **75%**"
+        },
+        {
+          "english": "**Converting Decimal to Percentage:**\n- Multiply the decimal by 100 and add the % sign.\n- (This means moving the decimal point 2 places to the right.)\n- Example: 0.75 × 100 = **75%**\n- Example: 0.5 × 100 = **50%**\n- Example: 0.08 × 100 = **8%**",
+          "hindi": "**दशमलव को प्रतिशत में बदलना:**\n- दशमलव को 100 से गुणा करें और % चिन्ह लगाएं।\n- (यानी दशमलव बिंदु को 2 स्थान दाईं ओर खिसकाएं।)\n- उदाहरण: 0.75 × 100 = **75%**\n- उदाहरण: 0.5 × 100 = **50%**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "converting_a_fraction_or_decimal_into_a_percentage_q1",
+          "id": "convertingafractionordecimalintoapercentageq1",
           "prompt": {
             "english": "Write 0.75 as a percentage.",
             "hindi": "0.75 को प्रतिशत में लिखिए।"
@@ -108,11 +162,41 @@
             "75"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Method:** To convert a decimal to a percentage, multiply by 100.\n\n**Step 1:** 0.75 × 100 = **75**\n\n**Step 2:** Add the % sign → **75%**\n\n(Think of it this way: 0.75 means 75 hundredths, and percent means \"per hundred\", so 0.75 = 75%)\n\n**Answer: 75%**",
+            "hindi": "**Method:** To convert a decimal to a percentage, multiply by 100.\n\n**Step 1:** 0.75 × 100 = **75**\n\n**Step 2:** Add the % sign → **75%**\n\n(Think of it this way: 0.75 means 75 hundredths, and percent means \"per hundred\", so 0.75 = 75%)\n\n**Answer: 75%**"
+          },
+          "supportExample": {
+            "english": "**Method:** To convert a decimal to a percentage, multiply by 100.\n**Step 1:** 0.75 × 100 = **75**",
+            "hindi": "**Method:** To convert a decimal to a percentage, multiply by 100.\n**Step 1:** 0.75 × 100 = **75**"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Method:** To convert a decimal to a percentage, multiply by 100.",
+              "hindi": "**Method:** To convert a decimal to a percentage, multiply by 100."
+            },
+            {
+              "english": "**Step 1:** 0.75 × 100 = **75**",
+              "hindi": "**Step 1:** 0.75 × 100 = **75**"
+            },
+            {
+              "english": "**Step 2:** Add the % sign → **75%**",
+              "hindi": "**Step 2:** Add the % sign → **75%**"
+            },
+            {
+              "english": "(Think of it this way: 0.75 means 75 hundredths, and percent means \"per hundred\", so 0.75 = 75%)",
+              "hindi": "(Think of it this way: 0.75 means 75 hundredths, and percent means \"per hundred\", so 0.75 = 75%)"
+            },
+            {
+              "english": "**Answer: 75%**",
+              "hindi": "**Answer: 75%**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -128,7 +212,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch14_find_percent_of_a_number",
+      "id": "rsch14findpercentofanumber",
       "sourceLessonId": "rs_ch14",
       "chapterNumber": 14,
       "chapterTitle": {
@@ -151,12 +235,17 @@
         "english": "Find Percent of a Number",
         "hindi": "किसी संख्या का प्रतिशत निकालना"
       },
-      "explanationParagraphs": [],
+      "explanationParagraphs": [
+        {
+          "english": "To find a percentage of a number:\n\n**Formula:** x% of N = (x/100) × N\n\n**Steps:**\n1. Write the percentage as a fraction (over 100).\n2. Multiply by the given number.\n\n**Examples:**\n- 10% of 50 = (10/100) × 50 = 500/100 = **5**\n- 25% of 80 = (25/100) × 80 = 2000/100 = **20**\n- 84% of 200 = (84/100) × 200 = 16800/100 = **168**",
+          "hindi": "## व्याख्या (हिंदी)\n\nकिसी संख्या का प्रतिशत निकालने के लिए:\n\n**सूत्र:** x% of N = (x/100) × N\n\n**चरण:**\n1. प्रतिशत को भिन्न (100 से) लिखें।\n2. दी गई संख्या से गुणा करें।\n\n**उदाहरण:**\n- 50 का 10% = (10/100) × 50 = **5**\n- 80 का 25% = (25/100) × 80 = **20**\n- 200 का 84% = (84/100) × 200 = **168**"
+        }
+      ],
       "examples": [],
       "visuals": [],
       "questions": [
         {
-          "id": "find_percent_of_a_number_q1",
+          "id": "findpercentofanumber_q1",
           "prompt": {
             "english": "Find 84% of 200.",
             "hindi": "200 का 84% लिखिए।"
@@ -168,11 +257,33 @@
             "168"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Write 84% as a fraction: 84/100\n\n**Step 2:** Multiply by 200.\n- (84/100) × 200\n- = (84 × 200) / 100\n- = 16800 / 100\n- = **168**\n\n**Answer: 168**",
+            "hindi": "**Step 1:** Write 84% as a fraction: 84/100\n\n**Step 2:** Multiply by 200.\n- (84/100) × 200\n- = (84 × 200) / 100\n- = 16800 / 100\n- = **168**\n\n**Answer: 168**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Write 84% as a fraction: 84/100\n**Step 2:** Multiply by 200.\n- (84/100) × 200\n- = (84 × 200) / 100\n- = 16800 / 100\n- = **168**",
+            "hindi": "**Step 1:** Write 84% as a fraction: 84/100\n**Step 2:** Multiply by 200.\n- (84/100) × 200\n- = (84 × 200) / 100\n- = 16800 / 100\n- = **168**"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Write 84% as a fraction: 84/100",
+              "hindi": "**Step 1:** Write 84% as a fraction: 84/100"
+            },
+            {
+              "english": "**Step 2:** Multiply by 200.\n- (84/100) × 200\n- = (84 × 200) / 100\n- = 16800 / 100\n- = **168**",
+              "hindi": "**Step 2:** Multiply by 200.\n- (84/100) × 200\n- = (84 × 200) / 100\n- = 16800 / 100\n- = **168**"
+            },
+            {
+              "english": "**Answer: 168**",
+              "hindi": "**Answer: 168**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -188,7 +299,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch14_what_percent_of_one_quantity_is_another",
+      "id": "rsch14whatpercentofonequantityisanother",
       "sourceLessonId": "rs_ch14",
       "chapterNumber": 14,
       "chapterTitle": {
@@ -211,12 +322,26 @@
         "english": "What Percent of One Quantity is Another",
         "hindi": "एक मात्रा दूसरी की कितने प्रतिशत है"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "To find what percent one number is of another:\n\n**Formula:** (Part / Whole) × 100 = Percentage\n\n**Example:** What percent is 15 of 60?\n- (15/60) × 100 = 1500/60 = **25%**\n\nSo 15 is **25%** of 60.\n\n**Real-life example:** If you scored 40 out of 80 in a test:\n- (40/80) × 100 = 4000/80 = **50%** → You scored 50%.",
+          "hindi": "## व्याख्या (हिंदी)\n\nयह पता लगाने के लिए कि एक संख्या दूसरी की कितने प्रतिशत है:\n\n**सूत्र:** (भाग / पूर्ण) × 100 = प्रतिशत\n\n**उदाहरण:** 60 का कितने प्रतिशत है 15?\n- (15/60) × 100 = 1500/60 = **25%**\n\nतो 15, 60 का **25%** है।\n\n**वास्तविक जीवन उदाहरण:** अगर आपने 80 में से 40 अंक पाए:\n- (40/80) × 100 = **50%** → आपने 50% अंक पाए।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** What percent is 15 of 60?\n- (15/60) × 100 = 1500/60 = **25%**",
+          "hindi": "**उदाहरण:** 60 का कितने प्रतिशत है 15?\n- (15/60) × 100 = 1500/60 = **25%**"
+        },
+        {
+          "english": "**Real-life example:** If you scored 40 out of 80 in a test:\n- (40/80) × 100 = 4000/80 = **50%** → You scored 50%.",
+          "hindi": "**वास्तविक जीवन उदाहरण:** अगर आपने 80 में से 40 अंक पाए:\n- (40/80) × 100 = **50%** → आपने 50% अंक पाए।"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "what_percent_of_one_quantity_is_another_q1",
+          "id": "whatpercentofonequantityisanother_q1",
           "prompt": {
             "english": "18 is what percent of 72?",
             "hindi": "18, 72 का कितने प्रतिशत है?"
@@ -229,11 +354,37 @@
             "25"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Formula:** Percentage = (Part / Whole) × 100\n\n**Step 1:** Part = 18, Whole = 72\n\n**Step 2:** Percentage = (18/72) × 100\n- First simplify: 18/72 = 1/4\n- Then: (1/4) × 100 = **25%**\n\n**Answer: 25%**",
+            "hindi": "**Formula:** Percentage = (Part / Whole) × 100\n\n**Step 1:** Part = 18, Whole = 72\n\n**Step 2:** Percentage = (18/72) × 100\n- First simplify: 18/72 = 1/4\n- Then: (1/4) × 100 = **25%**\n\n**Answer: 25%**"
+          },
+          "supportExample": {
+            "english": "**Formula:** Percentage = (Part / Whole) × 100\n**Step 1:** Part = 18, Whole = 72",
+            "hindi": "**Formula:** Percentage = (Part / Whole) × 100\n**Step 1:** Part = 18, Whole = 72"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Formula:** Percentage = (Part / Whole) × 100",
+              "hindi": "**Formula:** Percentage = (Part / Whole) × 100"
+            },
+            {
+              "english": "**Step 1:** Part = 18, Whole = 72",
+              "hindi": "**Step 1:** Part = 18, Whole = 72"
+            },
+            {
+              "english": "**Step 2:** Percentage = (18/72) × 100\n- First simplify: 18/72 = 1/4\n- Then: (1/4) × 100 = **25%**",
+              "hindi": "**Step 2:** Percentage = (18/72) × 100\n- First simplify: 18/72 = 1/4\n- Then: (1/4) × 100 = **25%**"
+            },
+            {
+              "english": "**Answer: 25%**",
+              "hindi": "**Answer: 25%**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -249,7 +400,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch14_find_the_number_when_a_percent_is_known",
+      "id": "rsch14findthenumberwhenapercentis_known",
       "sourceLessonId": "rs_ch14",
       "chapterNumber": 14,
       "chapterTitle": {
@@ -272,12 +423,22 @@
         "english": "Find the Number when a Percent is Known",
         "hindi": "जब प्रतिशत ज्ञात हो तो पूरी संख्या निकालना"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "Sometimes we know a percentage of a number, and we need to find the original whole number.\n\n**Formula:** Whole Number = (Given Value × 100) / Percentage\n\n**Example:** 20% of a number is 50. Find the number.\n- Number = (50 × 100) / 20 = 5000 / 20 = **250**\n\n**Check:** 20% of 250 = (20/100) × 250 = 50 ✓",
+          "hindi": "## व्याख्या (हिंदी)\n\nकभी-कभी हमें किसी संख्या का प्रतिशत पता होता है, और हमें मूल पूरी संख्या निकालनी होती है।\n\n**सूत्र:** पूरी संख्या = (दिया गया मान × 100) / प्रतिशत\n\n**उदाहरण:** एक संख्या का 20% = 50 है। संख्या निकालें।\n- संख्या = (50 × 100) / 20 = 5000 / 20 = **250**\n\n**जाँच:** 250 का 20% = (20/100) × 250 = 50 ✓"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** 20% of a number is 50. Find the number.\n- Number = (50 × 100) / 20 = 5000 / 20 = **250**",
+          "hindi": "**उदाहरण:** एक संख्या का 20% = 50 है। संख्या निकालें।\n- संख्या = (50 × 100) / 20 = 5000 / 20 = **250**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "find_the_number_when_a_percent_is_known_q1",
+          "id": "findthenumberwhenapercentisknownq1",
           "prompt": {
             "english": "Find the number whose 12% is 54.",
             "hindi": "वह संख्या लिखिए जिसका 12% = 54 है।"
@@ -289,11 +450,41 @@
             "450"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Formula:** Number = (Given value × 100) / Percentage\n\n**Step 1:** Given value = 54, Percentage = 12\n\n**Step 2:** Number = (54 × 100) / 12\n- = 5400 / 12\n- = **450**\n\n**Check:** 12% of 450 = (12/100) × 450 = 5400/100 = 54 ✓\n\n**Answer: 450**",
+            "hindi": "**Formula:** Number = (Given value × 100) / Percentage\n\n**Step 1:** Given value = 54, Percentage = 12\n\n**Step 2:** Number = (54 × 100) / 12\n- = 5400 / 12\n- = **450**\n\n**Check:** 12% of 450 = (12/100) × 450 = 5400/100 = 54 ✓\n\n**Answer: 450**"
+          },
+          "supportExample": {
+            "english": "**Formula:** Number = (Given value × 100) / Percentage\n**Step 1:** Given value = 54, Percentage = 12",
+            "hindi": "**Formula:** Number = (Given value × 100) / Percentage\n**Step 1:** Given value = 54, Percentage = 12"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Formula:** Number = (Given value × 100) / Percentage",
+              "hindi": "**Formula:** Number = (Given value × 100) / Percentage"
+            },
+            {
+              "english": "**Step 1:** Given value = 54, Percentage = 12",
+              "hindi": "**Step 1:** Given value = 54, Percentage = 12"
+            },
+            {
+              "english": "**Step 2:** Number = (54 × 100) / 12\n- = 5400 / 12\n- = **450**",
+              "hindi": "**Step 2:** Number = (54 × 100) / 12\n- = 5400 / 12\n- = **450**"
+            },
+            {
+              "english": "**Check:** 12% of 450 = (12/100) × 450 = 5400/100 = 54 ✓",
+              "hindi": "**Check:** 12% of 450 = (12/100) × 450 = 5400/100 = 54 ✓"
+            },
+            {
+              "english": "**Answer: 450**",
+              "hindi": "**Answer: 450**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -309,7 +500,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch14_percentage_in_measures_and_word_problems",
+      "id": "rsch14percentageinmeasuresandword_problems",
       "sourceLessonId": "rs_ch14",
       "chapterNumber": 14,
       "chapterTitle": {
@@ -332,12 +523,22 @@
         "english": "Percentage in Measures and Word Problems",
         "hindi": "मापों और शब्द समस्याओं में प्रतिशत"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "When dealing with percentage in measurement problems, we must first **make the units the same** before applying the percentage formula.\n\n**Example:** What percent is 50 cm of 2 m?\n- First, convert 2 m to cm: 2 m = 200 cm\n- Percentage = (50/200) × 100 = **25%**\n\n**Real-life uses:**\n- A shopkeeper sold 25 out of 100 items → sold 25%\n- A student scored 450 out of 500 marks → scored 90%",
+          "hindi": "## व्याख्या (हिंदी)\n\nमापों वाली प्रतिशत समस्याओं में, सूत्र लगाने से पहले **इकाइयाँ एक जैसी** करनी होती हैं।\n\n**उदाहरण:** 2 मी का कितने प्रतिशत है 50 सेमी?\n- पहले 2 मी को सेमी में बदलें: 2 मी = 200 सेमी\n- प्रतिशत = (50/200) × 100 = **25%**\n\n**वास्तविक उपयोग:**\n- एक दुकानदार ने 100 में से 25 चीजें बेचीं → 25% बेचा\n- एक छात्र ने 500 में से 450 अंक पाए → 90% पाए"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** What percent is 50 cm of 2 m?\n- First, convert 2 m to cm: 2 m = 200 cm\n- Percentage = (50/200) × 100 = **25%**",
+          "hindi": "**उदाहरण:** 2 मी का कितने प्रतिशत है 50 सेमी?\n- पहले 2 मी को सेमी में बदलें: 2 मी = 200 सेमी\n- प्रतिशत = (50/200) × 100 = **25%**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "percentage_in_measures_and_word_problems_q1",
+          "id": "percentageinmeasuresandwordproblemsq1",
           "prompt": {
             "english": "What percent is 400 m of 1 km?",
             "hindi": "1 किमी का 400 मी कितने प्रतिशत है?"
@@ -350,11 +551,33 @@
             "40"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Step 1:** Make units the same. Convert 1 km to metres.\n- 1 km = **1000 m**\n\n**Step 2:** Apply the formula.\n- Percentage = (400/1000) × 100\n- = 40000/1000\n- = **40%**\n\n**Answer: 40%**",
+            "hindi": "**Step 1:** Make units the same. Convert 1 km to metres.\n- 1 km = **1000 m**\n\n**Step 2:** Apply the formula.\n- Percentage = (400/1000) × 100\n- = 40000/1000\n- = **40%**\n\n**Answer: 40%**"
+          },
+          "supportExample": {
+            "english": "**Step 1:** Make units the same. Convert 1 km to metres.\n- 1 km = **1000 m**\n**Step 2:** Apply the formula.\n- Percentage = (400/1000) × 100\n- = 40000/1000\n- = **40%**",
+            "hindi": "**Step 1:** Make units the same. Convert 1 km to metres.\n- 1 km = **1000 m**\n**Step 2:** Apply the formula.\n- Percentage = (400/1000) × 100\n- = 40000/1000\n- = **40%**"
+          },
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Step 1:** Make units the same. Convert 1 km to metres.\n- 1 km = **1000 m**",
+              "hindi": "**Step 1:** Make units the same. Convert 1 km to metres.\n- 1 km = **1000 m**"
+            },
+            {
+              "english": "**Step 2:** Apply the formula.\n- Percentage = (400/1000) × 100\n- = 40000/1000\n- = **40%**",
+              "hindi": "**Step 2:** Apply the formula.\n- Percentage = (400/1000) × 100\n- = 40000/1000\n- = **40%**"
+            },
+            {
+              "english": "**Answer: 40%**",
+              "hindi": "**Answer: 40%**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -370,8 +593,8 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ex_ch14_ex61_q01_a",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q01_a",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -398,7 +621,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q01_a_q1",
+          "id": "rsexch14ex61q01aq1",
           "prompt": {
             "english": "Express each of the following as a fraction in its lowest terms Part (a): 35 %",
             "hindi": "Express each of the following as a fraction in its lowest terms Part (a): 35 %"
@@ -434,8 +657,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q01_b",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q01_b",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -462,7 +685,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q01_b_q1",
+          "id": "rsexch14ex61q01bq1",
           "prompt": {
             "english": "Express each of the following as a fraction in its lowest terms Part (b): 48 %",
             "hindi": "Express each of the following as a fraction in its lowest terms Part (b): 48 %"
@@ -498,8 +721,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q01_c",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q01_c",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -526,7 +749,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q01_c_q1",
+          "id": "rsexch14ex61q01cq1",
           "prompt": {
             "english": "Express each of the following as a fraction in its lowest terms Part (c): 72 %",
             "hindi": "Express each of the following as a fraction in its lowest terms Part (c): 72 %"
@@ -562,8 +785,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q01_d",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q01_d",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -590,7 +813,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q01_d_q1",
+          "id": "rsexch14ex61q01dq1",
           "prompt": {
             "english": "Express each of the following as a fraction in its lowest terms Part (d): 84 %",
             "hindi": "Express each of the following as a fraction in its lowest terms Part (d): 84 %"
@@ -626,8 +849,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q01_e",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q01_e",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -654,7 +877,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q01_e_q1",
+          "id": "rsexch14ex61q01eq1",
           "prompt": {
             "english": "Express each of the following as a fraction in its lowest terms Part (e): 7 1 2 %",
             "hindi": "Express each of the following as a fraction in its lowest terms Part (e): 7 1 2 %"
@@ -690,8 +913,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q01_f",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q01_f",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -718,7 +941,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q01_f_q1",
+          "id": "rsexch14ex61q01fq1",
           "prompt": {
             "english": "Express each of the following as a fraction in its lowest terms Part (f): 8 1 3 %",
             "hindi": "Express each of the following as a fraction in its lowest terms Part (f): 8 1 3 %"
@@ -754,8 +977,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q01_g",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q01_g",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -782,7 +1005,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q01_g_q1",
+          "id": "rsexch14ex61q01gq1",
           "prompt": {
             "english": "Express each of the following as a fraction in its lowest terms Part (g): 16 2 3 %",
             "hindi": "Express each of the following as a fraction in its lowest terms Part (g): 16 2 3 %"
@@ -818,8 +1041,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q01_h",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q01_h",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -846,7 +1069,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q01_h_q1",
+          "id": "rsexch14ex61q01hq1",
           "prompt": {
             "english": "Express each of the following as a fraction in its lowest terms Part (h): 37.5 %",
             "hindi": "Express each of the following as a fraction in its lowest terms Part (h): 37.5 %"
@@ -882,8 +1105,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q01_i",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q01_i",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -910,7 +1133,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q01_i_q1",
+          "id": "rsexch14ex61q01iq1",
           "prompt": {
             "english": "Express each of the following as a fraction in its lowest terms Part (i): 135 %",
             "hindi": "Express each of the following as a fraction in its lowest terms Part (i): 135 %"
@@ -946,8 +1169,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q01_j",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q01_j",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -974,7 +1197,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q01_j_q1",
+          "id": "rsexch14ex61q01jq1",
           "prompt": {
             "english": "Express each of the following as a fraction in its lowest terms Part (j): 225 %",
             "hindi": "Express each of the following as a fraction in its lowest terms Part (j): 225 %"
@@ -1010,8 +1233,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q01_k",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q01_k",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -1038,7 +1261,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q01_k_q1",
+          "id": "rsexch14ex61q01kq1",
           "prompt": {
             "english": "Express each of the following as a fraction in its lowest terms Part (k): 2 %",
             "hindi": "Express each of the following as a fraction in its lowest terms Part (k): 2 %"
@@ -1074,8 +1297,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q01_l",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q01_l",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -1102,7 +1325,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q01_l_q1",
+          "id": "rsexch14ex61q01lq1",
           "prompt": {
             "english": "Express each of the following as a fraction in its lowest terms Part (l): 9.6 %",
             "hindi": "Express each of the following as a fraction in its lowest terms Part (l): 9.6 %"
@@ -1138,8 +1361,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q02_a",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q02_a",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -1166,7 +1389,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q02_a_q1",
+          "id": "rsexch14ex61q02aq1",
           "prompt": {
             "english": "Express each of the following as a decimal Part (a): 23 %",
             "hindi": "Express each of the following as a decimal Part (a): 23 %"
@@ -1202,8 +1425,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q02_b",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q02_b",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -1230,7 +1453,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q02_b_q1",
+          "id": "rsexch14ex61q02bq1",
           "prompt": {
             "english": "Express each of the following as a decimal Part (b): 72 %",
             "hindi": "Express each of the following as a decimal Part (b): 72 %"
@@ -1266,8 +1489,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q02_c",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q02_c",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -1294,7 +1517,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q02_c_q1",
+          "id": "rsexch14ex61q02cq1",
           "prompt": {
             "english": "Express each of the following as a decimal Part (c): 6 %",
             "hindi": "Express each of the following as a decimal Part (c): 6 %"
@@ -1330,8 +1553,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q02_d",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q02_d",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -1358,7 +1581,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q02_d_q1",
+          "id": "rsexch14ex61q02dq1",
           "prompt": {
             "english": "Express each of the following as a decimal Part (d): 10 %",
             "hindi": "Express each of the following as a decimal Part (d): 10 %"
@@ -1394,8 +1617,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q02_e",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q02_e",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -1422,7 +1645,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q02_e_q1",
+          "id": "rsexch14ex61q02eq1",
           "prompt": {
             "english": "Express each of the following as a decimal Part (e): 35.6 %",
             "hindi": "Express each of the following as a decimal Part (e): 35.6 %"
@@ -1458,8 +1681,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q02_f",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q02_f",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -1486,7 +1709,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q02_f_q1",
+          "id": "rsexch14ex61q02fq1",
           "prompt": {
             "english": "Express each of the following as a decimal Part (f): 104 %",
             "hindi": "Express each of the following as a decimal Part (f): 104 %"
@@ -1522,8 +1745,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q02_g",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q02_g",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -1550,7 +1773,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q02_g_q1",
+          "id": "rsexch14ex61q02gq1",
           "prompt": {
             "english": "Express each of the following as a decimal Part (g): 180 %",
             "hindi": "Express each of the following as a decimal Part (g): 180 %"
@@ -1586,8 +1809,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q02_h",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q02_h",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -1614,7 +1837,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q02_h_q1",
+          "id": "rsexch14ex61q02hq1",
           "prompt": {
             "english": "Express each of the following as a decimal Part (h): 235 %",
             "hindi": "Express each of the following as a decimal Part (h): 235 %"
@@ -1650,8 +1873,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q02_i",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q02_i",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -1678,7 +1901,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q02_i_q1",
+          "id": "rsexch14ex61q02iq1",
           "prompt": {
             "english": "Express each of the following as a decimal Part (i): 4.5 %",
             "hindi": "Express each of the following as a decimal Part (i): 4.5 %"
@@ -1714,8 +1937,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q02_j",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q02_j",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -1742,7 +1965,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q02_j_q1",
+          "id": "rsexch14ex61q02jq1",
           "prompt": {
             "english": "Express each of the following as a decimal Part (j): 6.25 %",
             "hindi": "Express each of the following as a decimal Part (j): 6.25 %"
@@ -1778,8 +2001,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q02_k",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q02_k",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -1806,7 +2029,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q02_k_q1",
+          "id": "rsexch14ex61q02kq1",
           "prompt": {
             "english": "Express each of the following as a decimal Part (k): 0.3 %",
             "hindi": "Express each of the following as a decimal Part (k): 0.3 %"
@@ -1842,8 +2065,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q02_l",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q02_l",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -1870,7 +2093,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q02_l_q1",
+          "id": "rsexch14ex61q02lq1",
           "prompt": {
             "english": "Express each of the following as a decimal Part (l): 0.25 %",
             "hindi": "Express each of the following as a decimal Part (l): 0.25 %"
@@ -1906,8 +2129,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q03_a",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q03_a",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -1934,7 +2157,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q03_a_q1",
+          "id": "rsexch14ex61q03aq1",
           "prompt": {
             "english": "Convert each of the following fractions into a percentage Part (a): 23 100",
             "hindi": "Convert each of the following fractions into a percentage Part (a): 23 100"
@@ -1970,8 +2193,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q03_b",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q03_b",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -1998,7 +2221,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q03_b_q1",
+          "id": "rsexch14ex61q03bq1",
           "prompt": {
             "english": "Convert each of the following fractions into a percentage Part (b): 9 100",
             "hindi": "Convert each of the following fractions into a percentage Part (b): 9 100"
@@ -2034,8 +2257,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q03_c",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q03_c",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -2062,7 +2285,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q03_c_q1",
+          "id": "rsexch14ex61q03cq1",
           "prompt": {
             "english": "Convert each of the following fractions into a percentage Part (c): 7 10",
             "hindi": "Convert each of the following fractions into a percentage Part (c): 7 10"
@@ -2098,8 +2321,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q03_d",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q03_d",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -2126,7 +2349,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q03_d_q1",
+          "id": "rsexch14ex61q03dq1",
           "prompt": {
             "english": "Convert each of the following fractions into a percentage Part (d): 1 4",
             "hindi": "Convert each of the following fractions into a percentage Part (d): 1 4"
@@ -2162,8 +2385,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q03_e",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q03_e",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -2190,7 +2413,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q03_e_q1",
+          "id": "rsexch14ex61q03eq1",
           "prompt": {
             "english": "Convert each of the following fractions into a percentage Part (e): 1 8",
             "hindi": "Convert each of the following fractions into a percentage Part (e): 1 8"
@@ -2226,8 +2449,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q03_f",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q03_f",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -2254,7 +2477,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q03_f_q1",
+          "id": "rsexch14ex61q03fq1",
           "prompt": {
             "english": "Convert each of the following fractions into a percentage Part (f): 2 5",
             "hindi": "Convert each of the following fractions into a percentage Part (f): 2 5"
@@ -2290,8 +2513,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q03_g",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q03_g",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -2318,7 +2541,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q03_g_q1",
+          "id": "rsexch14ex61q03gq1",
           "prompt": {
             "english": "Convert each of the following fractions into a percentage Part (g): 3 20",
             "hindi": "Convert each of the following fractions into a percentage Part (g): 3 20"
@@ -2354,8 +2577,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q03_h",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q03_h",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -2382,7 +2605,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q03_h_q1",
+          "id": "rsexch14ex61q03hq1",
           "prompt": {
             "english": "Convert each of the following fractions into a percentage Part (h): 9 20",
             "hindi": "Convert each of the following fractions into a percentage Part (h): 9 20"
@@ -2418,8 +2641,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q03_i",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q03_i",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -2446,7 +2669,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q03_i_q1",
+          "id": "rsexch14ex61q03iq1",
           "prompt": {
             "english": "Convert each of the following fractions into a percentage Part (i): 18 25",
             "hindi": "Convert each of the following fractions into a percentage Part (i): 18 25"
@@ -2482,8 +2705,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q03_j",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q03_j",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -2510,7 +2733,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q03_j_q1",
+          "id": "rsexch14ex61q03jq1",
           "prompt": {
             "english": "Convert each of the following fractions into a percentage Part (j): 27 50",
             "hindi": "Convert each of the following fractions into a percentage Part (j): 27 50"
@@ -2546,8 +2769,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q03_k",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q03_k",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -2574,7 +2797,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q03_k_q1",
+          "id": "rsexch14ex61q03kq1",
           "prompt": {
             "english": "Convert each of the following fractions into a percentage Part (k): 9 16",
             "hindi": "Convert each of the following fractions into a percentage Part (k): 9 16"
@@ -2610,8 +2833,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q03_l",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q03_l",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -2638,7 +2861,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q03_l_q1",
+          "id": "rsexch14ex61q03lq1",
           "prompt": {
             "english": "Convert each of the following fractions into a percentage Part (l): 37 40",
             "hindi": "Convert each of the following fractions into a percentage Part (l): 37 40"
@@ -2674,8 +2897,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q03_m",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q03_m",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -2702,7 +2925,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q03_m_q1",
+          "id": "rsexch14ex61q03mq1",
           "prompt": {
             "english": "Convert each of the following fractions into a percentage Part (m): 2 3",
             "hindi": "Convert each of the following fractions into a percentage Part (m): 2 3"
@@ -2738,8 +2961,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q03_n",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q03_n",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -2766,7 +2989,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q03_n_q1",
+          "id": "rsexch14ex61q03nq1",
           "prompt": {
             "english": "Convert each of the following fractions into a percentage Part (n): 2 1 5",
             "hindi": "Convert each of the following fractions into a percentage Part (n): 2 1 5"
@@ -2802,8 +3025,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q03_o",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q03_o",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -2830,7 +3053,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q03_o_q1",
+          "id": "rsexch14ex61q03oq1",
           "prompt": {
             "english": "Convert each of the following fractions into a percentage Part (o): 3 1 4",
             "hindi": "Convert each of the following fractions into a percentage Part (o): 3 1 4"
@@ -2866,8 +3089,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q03_p",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q03_p",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -2894,7 +3117,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q03_p_q1",
+          "id": "rsexch14ex61q03pq1",
           "prompt": {
             "english": "Convert each of the following fractions into a percentage Part (p): 2 7 10",
             "hindi": "Convert each of the following fractions into a percentage Part (p): 2 7 10"
@@ -2930,8 +3153,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q04_a",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q04_a",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -2958,7 +3181,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q04_a_q1",
+          "id": "rsexch14ex61q04aq1",
           "prompt": {
             "english": "Convert each of the following decimals into a percentage Part (a): 0.8",
             "hindi": "Convert each of the following decimals into a percentage Part (a): 0.8"
@@ -2994,8 +3217,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q04_b",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q04_b",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -3022,7 +3245,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q04_b_q1",
+          "id": "rsexch14ex61q04bq1",
           "prompt": {
             "english": "Convert each of the following decimals into a percentage Part (b): 0.25",
             "hindi": "Convert each of the following decimals into a percentage Part (b): 0.25"
@@ -3058,8 +3281,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q04_c",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q04_c",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -3086,7 +3309,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q04_c_q1",
+          "id": "rsexch14ex61q04cq1",
           "prompt": {
             "english": "Convert each of the following decimals into a percentage Part (c): 0.76",
             "hindi": "Convert each of the following decimals into a percentage Part (c): 0.76"
@@ -3122,8 +3345,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q04_d",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q04_d",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -3150,7 +3373,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q04_d_q1",
+          "id": "rsexch14ex61q04dq1",
           "prompt": {
             "english": "Convert each of the following decimals into a percentage Part (d): 0.06",
             "hindi": "Convert each of the following decimals into a percentage Part (d): 0.06"
@@ -3186,8 +3409,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q04_e",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q04_e",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -3214,7 +3437,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q04_e_q1",
+          "id": "rsexch14ex61q04eq1",
           "prompt": {
             "english": "Convert each of the following decimals into a percentage Part (e): 0.325",
             "hindi": "Convert each of the following decimals into a percentage Part (e): 0.325"
@@ -3250,8 +3473,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q04_f",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q04_f",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -3278,7 +3501,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q04_f_q1",
+          "id": "rsexch14ex61q04fq1",
           "prompt": {
             "english": "Convert each of the following decimals into a percentage Part (f): 0.004",
             "hindi": "Convert each of the following decimals into a percentage Part (f): 0.004"
@@ -3314,8 +3537,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q04_g",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q04_g",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -3342,7 +3565,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q04_g_q1",
+          "id": "rsexch14ex61q04gq1",
           "prompt": {
             "english": "Convert each of the following decimals into a percentage Part (g): 1.05",
             "hindi": "Convert each of the following decimals into a percentage Part (g): 1.05"
@@ -3378,8 +3601,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q04_h",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q04_h",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -3406,7 +3629,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q04_h_q1",
+          "id": "rsexch14ex61q04hq1",
           "prompt": {
             "english": "Convert each of the following decimals into a percentage Part (h): 4.2",
             "hindi": "Convert each of the following decimals into a percentage Part (h): 4.2"
@@ -3442,8 +3665,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q05_a",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q05_a",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -3470,7 +3693,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q05_a_q1",
+          "id": "rsexch14ex61q05aq1",
           "prompt": {
             "english": "Find the value of Part (a): 24 % of 175",
             "hindi": "Find the value of Part (a): 24 % of 175"
@@ -3506,8 +3729,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q05_b",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q05_b",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -3534,7 +3757,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q05_b_q1",
+          "id": "rsexch14ex61q05bq1",
           "prompt": {
             "english": "Find the value of Part (b): 8 % of 225",
             "hindi": "Find the value of Part (b): 8 % of 225"
@@ -3570,8 +3793,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q05_c",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q05_c",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -3598,7 +3821,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q05_c_q1",
+          "id": "rsexch14ex61q05cq1",
           "prompt": {
             "english": "Find the value of Part (c): 70 % of 80",
             "hindi": "Find the value of Part (c): 70 % of 80"
@@ -3634,8 +3857,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q05_d",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q05_d",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -3662,7 +3885,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q05_d_q1",
+          "id": "rsexch14ex61q05dq1",
           "prompt": {
             "english": "Find the value of Part (d): 120 % of 45",
             "hindi": "Find the value of Part (d): 120 % of 45"
@@ -3698,8 +3921,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q05_e",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q05_e",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -3726,7 +3949,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q05_e_q1",
+          "id": "rsexch14ex61q05eq1",
           "prompt": {
             "english": "Find the value of Part (e): 16 % of 550",
             "hindi": "Find the value of Part (e): 16 % of 550"
@@ -3762,8 +3985,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q05_f",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q05_f",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -3790,7 +4013,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q05_f_q1",
+          "id": "rsexch14ex61q05fq1",
           "prompt": {
             "english": "Find the value of Part (f): 6.4 % of 750",
             "hindi": "Find the value of Part (f): 6.4 % of 750"
@@ -3826,8 +4049,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q05_g",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q05_g",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -3854,7 +4077,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q05_g_q1",
+          "id": "rsexch14ex61q05gq1",
           "prompt": {
             "english": "Find the value of Part (g): 9 % of 70",
             "hindi": "Find the value of Part (g): 9 % of 70"
@@ -3890,8 +4113,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q05_h",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q05_h",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -3918,7 +4141,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q05_h_q1",
+          "id": "rsexch14ex61q05hq1",
           "prompt": {
             "english": "Find the value of Part (h): 5 % of 12.6",
             "hindi": "Find the value of Part (h): 5 % of 12.6"
@@ -3954,8 +4177,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q05_i",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q05_i",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -3982,7 +4205,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q05_i_q1",
+          "id": "rsexch14ex61q05iq1",
           "prompt": {
             "english": "Find the value of Part (i): 15 % of 15",
             "hindi": "Find the value of Part (i): 15 % of 15"
@@ -4018,8 +4241,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q06_a",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q06_a",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -4046,7 +4269,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q06_a_q1",
+          "id": "rsexch14ex61q06aq1",
           "prompt": {
             "english": "Find the value of Part (a): 20 % of Rs 70",
             "hindi": "Find the value of Part (a): 20 % of Rs 70"
@@ -4083,8 +4306,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q06_b",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q06_b",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -4111,7 +4334,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q06_b_q1",
+          "id": "rsexch14ex61q06bq1",
           "prompt": {
             "english": "Find the value of Part (b): 70 % of 40 kg",
             "hindi": "Find the value of Part (b): 70 % of 40 kg"
@@ -4148,8 +4371,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q06_c",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q06_c",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -4176,7 +4399,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q06_c_q1",
+          "id": "rsexch14ex61q06cq1",
           "prompt": {
             "english": "Find the value of Part (c): 14 % of 750 g",
             "hindi": "Find the value of Part (c): 14 % of 750 g"
@@ -4213,8 +4436,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q06_d",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q06_d",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -4241,7 +4464,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q06_d_q1",
+          "id": "rsexch14ex61q06dq1",
           "prompt": {
             "english": "Find the value of Part (d): 6 % of Rs 125",
             "hindi": "Find the value of Part (d): 6 % of Rs 125"
@@ -4278,8 +4501,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q06_e",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q06_e",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -4306,7 +4529,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q06_e_q1",
+          "id": "rsexch14ex61q06eq1",
           "prompt": {
             "english": "Find the value of Part (e): 60 % of 1 year",
             "hindi": "Find the value of Part (e): 60 % of 1 year"
@@ -4343,8 +4566,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q06_f",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q06_f",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -4371,7 +4594,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q06_f_q1",
+          "id": "rsexch14ex61q06fq1",
           "prompt": {
             "english": "Find the value of Part (f): 5 % of a metre",
             "hindi": "Find the value of Part (f): 5 % of a metre"
@@ -4408,8 +4631,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q06_g",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q06_g",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -4436,7 +4659,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q06_g_q1",
+          "id": "rsexch14ex61q06gq1",
           "prompt": {
             "english": "Find the value of Part (g): 8 % of a litre",
             "hindi": "Find the value of Part (g): 8 % of a litre"
@@ -4473,8 +4696,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q06_h",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q06_h",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -4501,7 +4724,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q06_h_q1",
+          "id": "rsexch14ex61q06hq1",
           "prompt": {
             "english": "Find the value of Part (h): 8 % of 2 kg",
             "hindi": "Find the value of Part (h): 8 % of 2 kg"
@@ -4538,8 +4761,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q06_i",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q06_i",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -4566,7 +4789,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q06_i_q1",
+          "id": "rsexch14ex61q06iq1",
           "prompt": {
             "english": "Find the value of Part (i): 10 % of a litre",
             "hindi": "Find the value of Part (i): 10 % of a litre"
@@ -4603,8 +4826,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q07_a",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q07_a",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -4631,7 +4854,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q07_a_q1",
+          "id": "rsexch14ex61q07aq1",
           "prompt": {
             "english": "Part (a): What per cent of 72 is 18?",
             "hindi": "Part (a): What per cent of 72 is 18?"
@@ -4667,8 +4890,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q07_b",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q07_b",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -4695,7 +4918,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q07_b_q1",
+          "id": "rsexch14ex61q07bq1",
           "prompt": {
             "english": "Part (b): What per cent of 70 is 14?",
             "hindi": "Part (b): What per cent of 70 is 14?"
@@ -4731,8 +4954,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q07_c",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q07_c",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -4759,7 +4982,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q07_c_q1",
+          "id": "rsexch14ex61q07cq1",
           "prompt": {
             "english": "Part (c): What per cent of 30 is 24?",
             "hindi": "Part (c): What per cent of 30 is 24?"
@@ -4795,8 +5018,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q07_d",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q07_d",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -4823,7 +5046,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q07_d_q1",
+          "id": "rsexch14ex61q07dq1",
           "prompt": {
             "english": "Part (d): What per cent of 65 is 104?",
             "hindi": "Part (d): What per cent of 65 is 104?"
@@ -4859,8 +5082,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q07_e",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q07_e",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -4887,7 +5110,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q07_e_q1",
+          "id": "rsexch14ex61q07eq1",
           "prompt": {
             "english": "Part (e): What per cent of 42 is 29.4?",
             "hindi": "Part (e): What per cent of 42 is 29.4?"
@@ -4923,8 +5146,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q07_f",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q07_f",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -4951,7 +5174,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q07_f_q1",
+          "id": "rsexch14ex61q07fq1",
           "prompt": {
             "english": "Part (f): What per cent of 63 is 31.5?",
             "hindi": "Part (f): What per cent of 63 is 31.5?"
@@ -4987,8 +5210,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q08_a",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q08_a",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -5015,7 +5238,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q08_a_q1",
+          "id": "rsexch14ex61q08aq1",
           "prompt": {
             "english": "Part (a): What per cent is 45 P of Rs 1?",
             "hindi": "Part (a): What per cent is 45 P of Rs 1?"
@@ -5051,8 +5274,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q08_b",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q08_b",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -5079,7 +5302,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q08_b_q1",
+          "id": "rsexch14ex61q08bq1",
           "prompt": {
             "english": "Part (b): What per cent is 34 P of Rs 1.70?",
             "hindi": "Part (b): What per cent is 34 P of Rs 1.70?"
@@ -5115,8 +5338,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q08_c",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q08_c",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -5143,7 +5366,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q08_c_q1",
+          "id": "rsexch14ex61q08cq1",
           "prompt": {
             "english": "Part (c): What per cent is 400 m of 1 km?",
             "hindi": "Part (c): What per cent is 400 m of 1 km?"
@@ -5179,8 +5402,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q08_d",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q08_d",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -5207,7 +5430,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q08_d_q1",
+          "id": "rsexch14ex61q08dq1",
           "prompt": {
             "english": "Part (d): What per cent is 15 cm of 1 m?",
             "hindi": "Part (d): What per cent is 15 cm of 1 m?"
@@ -5243,8 +5466,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q08_e",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q08_e",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -5271,7 +5494,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q08_e_q1",
+          "id": "rsexch14ex61q08eq1",
           "prompt": {
             "english": "Part (e): What per cent is 3 mm of 1 cm?",
             "hindi": "Part (e): What per cent is 3 mm of 1 cm?"
@@ -5307,8 +5530,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q08_f",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q08_f",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -5335,7 +5558,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q08_f_q1",
+          "id": "rsexch14ex61q08fq1",
           "prompt": {
             "english": "Part (f): What per cent is 225 g of 2.5 kg?",
             "hindi": "Part (f): What per cent is 225 g of 2.5 kg?"
@@ -5371,8 +5594,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q09",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q09",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -5399,7 +5622,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q09_q1",
+          "id": "rsexch14ex61q09_q1",
           "prompt": {
             "english": "Find the number whose 8 % is 14",
             "hindi": "Find the number whose 8 % is 14"
@@ -5435,8 +5658,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q10",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q10",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -5463,7 +5686,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q10_q1",
+          "id": "rsexch14ex61q10_q1",
           "prompt": {
             "english": "Find the number whose 6 % is 8.1",
             "hindi": "Find the number whose 6 % is 8.1"
@@ -5499,8 +5722,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q11",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q11",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -5527,7 +5750,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q11_q1",
+          "id": "rsexch14ex61q11_q1",
           "prompt": {
             "english": "Find the number whose 12.5% is 3.5",
             "hindi": "Find the number whose 12.5% is 3.5"
@@ -5563,8 +5786,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q12",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q12",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -5591,7 +5814,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q12_q1",
+          "id": "rsexch14ex61q12_q1",
           "prompt": {
             "english": "Find the amount whose 12 % is Rs 15",
             "hindi": "Find the amount whose 12 % is Rs 15"
@@ -5628,8 +5851,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q13",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q13",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -5656,7 +5879,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q13_q1",
+          "id": "rsexch14ex61q13_q1",
           "prompt": {
             "english": "Find the length whose 18 % is 27 cm",
             "hindi": "Find the length whose 18 % is 27 cm"
@@ -5693,8 +5916,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q14",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q14",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -5721,7 +5944,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q14_q1",
+          "id": "rsexch14ex61q14_q1",
           "prompt": {
             "english": "Find the weight whose 20 % is 250 g",
             "hindi": "Find the weight whose 20 % is 250 g"
@@ -5758,8 +5981,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q15",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q15",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -5786,7 +6009,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q15_q1",
+          "id": "rsexch14ex61q15_q1",
           "prompt": {
             "english": "In a class of 40 pupils, 35 % are girls. How many girls are there in the class? How many of the pupils are boys?",
             "hindi": "In a class of 40 pupils, 35 % are girls. How many girls are there in the class? How many of the pupils are boys?"
@@ -5822,8 +6045,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q16",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q16",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -5850,7 +6073,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q16_q1",
+          "id": "rsexch14ex61q16_q1",
           "prompt": {
             "english": "A man earns Rs 10800 per month. He spends 75 % of his income and the rest he saves. How much does he save every month?",
             "hindi": "A man earns Rs 10800 per month. He spends 75 % of his income and the rest he saves. How much does he save every month?"
@@ -5887,8 +6110,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q17",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q17",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -5915,7 +6138,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q17_q1",
+          "id": "rsexch14ex61q17_q1",
           "prompt": {
             "english": "In an examination, Nisha obtained 312 marks out of 650. What percentage of marks did she get?",
             "hindi": "In an examination, Nisha obtained 312 marks out of 650. What percentage of marks did she get?"
@@ -5951,8 +6174,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch14_ex61_q18",
-      "sourceLessonId": "rs_exercise_ch14_ex61",
+      "id": "rsexch14ex61q18",
+      "sourceLessonId": "rsexercisech14_ex61",
       "chapterNumber": 14,
       "chapterTitle": {
         "english": "Percentage",
@@ -5979,7 +6202,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch14_ex61_q18_q1",
+          "id": "rsexch14ex61q18_q1",
           "prompt": {
             "english": "A metal contains 36 % zinc and the rest is copper. Find the quantity of zinc and copper in 325 g of this metal",
             "hindi": "A metal contains 36 % zinc and the rest is copper. Find the quantity of zinc and copper in 325 g of this metal"

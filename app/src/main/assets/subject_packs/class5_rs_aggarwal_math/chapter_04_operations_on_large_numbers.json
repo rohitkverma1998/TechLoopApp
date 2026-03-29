@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch04_addition",
+      "id": "rsch04addition",
       "sourceLessonId": "rs_ch04",
       "chapterNumber": 4,
       "chapterTitle": {
@@ -29,8 +29,22 @@
         "english": "Addition",
         "hindi": "जोड़"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "When adding large numbers (up to crores), the method is exactly the same as for smaller numbers:\n1. Align all numbers by their place values (right-align them).\n2. Add each column from right to left.\n3. Carry over any tens digit to the next column.",
+          "hindi": "बड़ी संख्याओं को जोड़ते समय:\n1. संख्याओं को स्थान-मूल्य के अनुसार एक-दूसरे के नीचे लिखें।\n2. दाएँ से बाएँ जोड़ें।\n3. आवश्यकतानुसार carry करें।"
+        },
+        {
+          "english": "**Example:** 4,56,789 + 2,34,567\n- Ones: 9+7 = 16 → write 6, carry 1\n- Tens: 1+8+6 = 15 → write 5, carry 1\n- Hundreds: 1+7+5 = 13 → write 3, carry 1\n- Thousands: 1+6+4 = 11 → write 1, carry 1\n- Ten-thousands: 1+5+3 = 9\n- Lakhs: 4+2 = 6\n- Answer: **6,91,356**",
+          "hindi": "**उदाहरण:** 4,56,789 + 2,34,567 = **6,91,356**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** 4,56,789 + 2,34,567\n- Ones: 9+7 = 16 → write 6, carry 1\n- Tens: 1+8+6 = 15 → write 5, carry 1\n- Hundreds: 1+7+5 = 13 → write 3, carry 1\n- Thousands: 1+6+4 = 11 → write 1, carry 1\n- Ten-thousands: 1+5+3 = 9\n- Lakhs: 4+2 = 6\n- Answer: **6,91,356**",
+          "hindi": "**उदाहरण:** 4,56,789 + 2,34,567 = **6,91,356**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
@@ -47,11 +61,25 @@
             "6,91,356"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "```\n  4,56,789\n+ 2,34,567",
+            "hindi": "इकाई: 9+7=16 → 6 लिखें, 1 carry\nदहाई: 1+8+6=15 → 5 लिखें, 1 carry\nसैकड़ा: 1+7+5=13 → 3 लिखें, 1 carry\nहजार: 1+6+4=11 → 1 लिखें, 1 carry\nदस-हजार: 1+5+3=9\nलाख: 4+2=6\n\n**उत्तर: 6,91,356**"
+          },
+          "supportExample": {
+            "english": "```\n  4,56,789\n+ 2,34,567",
+            "hindi": "इकाई: 9+7=16 → 6 लिखें, 1 carry\nदहाई: 1+8+6=15 → 5 लिखें, 1 carry\nसैकड़ा: 1+7+5=13 → 3 लिखें, 1 carry\nहजार: 1+6+4=11 → 1 लिखें, 1 carry\nदस-हजार: 1+5+3=9\nलाख: 4+2=6\n**उत्तर: 6,91,356**"
+          },
           "mistakeType": "OPERATION_LINK",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "```\n  4,56,789\n+ 2,34,567",
+              "hindi": "इकाई: 9+7=16 → 6 लिखें, 1 carry\nदहाई: 1+8+6=15 → 5 लिखें, 1 carry\nसैकड़ा: 1+7+5=13 → 3 लिखें, 1 carry\nहजार: 1+6+4=11 → 1 लिखें, 1 carry\nदस-हजार: 1+5+3=9\nलाख: 4+2=6\n**उत्तर: 6,91,356**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -67,7 +95,7 @@
       "mistakeFocus": "OPERATION_LINK"
     },
     {
-      "id": "rs_ch04_word_problems_on_addition",
+      "id": "rsch04wordproblemson_addition",
       "sourceLessonId": "rs_ch04",
       "chapterNumber": 4,
       "chapterTitle": {
@@ -90,12 +118,26 @@
         "english": "Word Problems on Addition",
         "hindi": "जोड़ पर शब्द समस्याएँ"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "In word problems on addition:\n1. Read carefully to identify what is being combined.\n2. Write the numbers and add them.\n3. Include the correct unit in your answer.",
+          "hindi": "जोड़ की शब्द समस्याओं में:\n1. ध्यान से पढ़ें और पहचानें कि क्या जोड़ना है।\n2. संख्याएँ लिखें और जोड़ें।"
+        },
+        {
+          "english": "**Example:** Hindi books = 1,25,678; English books = 98,765\n- Total books = 1,25,678 + 98,765 = **2,24,443**",
+          "hindi": "**उदाहरण:** हिंदी पुस्तकें = 1,25,678; अंग्रेज़ी पुस्तकें = 98,765\n- कुल = 1,25,678 + 98,765 = **2,24,443**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Hindi books = 1,25,678; English books = 98,765\n- Total books = 1,25,678 + 98,765 = **2,24,443**",
+          "hindi": "**उदाहरण:** हिंदी पुस्तकें = 1,25,678; अंग्रेज़ी पुस्तकें = 98,765\n- कुल = 1,25,678 + 98,765 = **2,24,443**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "word_problems_on_addition_q1",
+          "id": "wordproblemsonadditionq1",
           "prompt": {
             "english": "A library has 1,25,678 Hindi books and 98,765 English books. How many books are there in all?",
             "hindi": "एक पुस्तकालय में 1,25,678 हिंदी पुस्तकें और 98,765 अंग्रेज़ी पुस्तकें हैं। कुल कितनी पुस्तकें हैं?"
@@ -108,11 +150,25 @@
             "2,24,443"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Identify the operation — \"in all\" means addition.\n\nStep 2: Add.\n```\n  1,25,678\n+   98,765",
+            "hindi": "चरण 1: \"कुल\" से पता चलता है — जोड़ना है।\n\n1,25,678 + 98,765 = **2,24,443**\n\n**उत्तर: 2,24,443 पुस्तकें**"
+          },
+          "supportExample": {
+            "english": "Step 1: Identify the operation — \"in all\" means addition.\nStep 2: Add.\n```\n  1,25,678\n+   98,765",
+            "hindi": "चरण 1: \"कुल\" से पता चलता है — जोड़ना है।\n1,25,678 + 98,765 = **2,24,443**"
+          },
           "mistakeType": "OPERATION_LINK",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Identify the operation — \"in all\" means addition.\nStep 2: Add.\n```\n  1,25,678\n+   98,765",
+              "hindi": "चरण 1: \"कुल\" से पता चलता है — जोड़ना है।\n1,25,678 + 98,765 = **2,24,443**\n**उत्तर: 2,24,443 पुस्तकें**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -128,7 +184,7 @@
       "mistakeFocus": "OPERATION_LINK"
     },
     {
-      "id": "rs_ch04_subtraction",
+      "id": "rsch04subtraction",
       "sourceLessonId": "rs_ch04",
       "chapterNumber": 4,
       "chapterTitle": {
@@ -151,8 +207,22 @@
         "english": "Subtraction",
         "hindi": "घटाव"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "When subtracting large numbers, borrow from the next column when needed.",
+          "hindi": "बड़ी संख्याएँ घटाते समय, जहाँ जरूरत हो वहाँ अगले स्तंभ से उधार लें।"
+        },
+        {
+          "english": "**Example:** 8,01,605 - 5,34,578\n- Start from Ones: 5 - 8? Cannot! Borrow → 15-8=7\n- Continue borrowing as needed...\n- Answer: **2,67,027**",
+          "hindi": "**उदाहरण:** 8,01,605 - 5,34,578 = **2,67,027**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** 8,01,605 - 5,34,578\n- Start from Ones: 5 - 8? Cannot! Borrow → 15-8=7\n- Continue borrowing as needed...\n- Answer: **2,67,027**",
+          "hindi": "**उदाहरण:** 8,01,605 - 5,34,578 = **2,67,027**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
@@ -169,11 +239,25 @@
             "2,67,027"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "```\n  8,01,605\n- 5,34,578",
+            "hindi": "8,01,605 - 5,34,578 = **2,67,027**\n\nजहाँ जरूरत हो, अगले स्तंभ से उधार लेकर घटाएँ।\n\n**उत्तर: 2,67,027**"
+          },
+          "supportExample": {
+            "english": "```\n  8,01,605\n- 5,34,578",
+            "hindi": "8,01,605 - 5,34,578 = **2,67,027**\nजहाँ जरूरत हो, अगले स्तंभ से उधार लेकर घटाएँ।"
+          },
           "mistakeType": "OPERATION_LINK",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "```\n  8,01,605\n- 5,34,578",
+              "hindi": "8,01,605 - 5,34,578 = **2,67,027**\nजहाँ जरूरत हो, अगले स्तंभ से उधार लेकर घटाएँ।\n**उत्तर: 2,67,027**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -189,7 +273,7 @@
       "mistakeFocus": "OPERATION_LINK"
     },
     {
-      "id": "rs_ch04_word_problems_on_subtraction",
+      "id": "rsch04wordproblemson_subtraction",
       "sourceLessonId": "rs_ch04",
       "chapterNumber": 4,
       "chapterTitle": {
@@ -212,12 +296,26 @@
         "english": "Word Problems on Subtraction",
         "hindi": "घटाव पर शब्द समस्याएँ"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "When the difference and larger number are known, find the smaller number:\n- Smaller = Larger - Difference",
+          "hindi": "जब अंतर और बड़ी संख्या पता हो, छोटी संख्या ज्ञात करें:\n- छोटी = बड़ी - अंतर"
+        },
+        {
+          "english": "**Example:** Difference = 78,489; Larger number = 3,50,102\n- Smaller = 3,50,102 - 78,489 = **2,71,613**",
+          "hindi": "**उदाहरण:** 3,50,102 - 78,489 = **2,71,613**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Difference = 78,489; Larger number = 3,50,102\n- Smaller = 3,50,102 - 78,489 = **2,71,613**",
+          "hindi": "**उदाहरण:** 3,50,102 - 78,489 = **2,71,613**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "word_problems_on_subtraction_q1",
+          "id": "wordproblemsonsubtractionq1",
           "prompt": {
             "english": "The difference between two numbers is 78,489. If the larger number is 3,50,102, find the smaller number.",
             "hindi": "दो संख्याओं का अंतर 78,489 है। यदि बड़ी संख्या 3,50,102 है, तो छोटी संख्या लिखिए।"
@@ -230,11 +328,25 @@
             "2,71,613"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Set up the equation.\n- Smaller number = Larger number - Difference\n- = 3,50,102 - 78,489\n\nStep 2: Subtract.\n- 3,50,102 - 78,489 = **2,71,613**\n\n**Answer: 2,71,613**",
+            "hindi": "छोटी संख्या = बड़ी संख्या - अंतर\n= 3,50,102 - 78,489 = **2,71,613**\n\n**उत्तर: 2,71,613**"
+          },
+          "supportExample": {
+            "english": "Step 1: Set up the equation.\n- Smaller number = Larger number - Difference\n- = 3,50,102 - 78,489\nStep 2: Subtract.\n- 3,50,102 - 78,489 = **2,71,613**",
+            "hindi": "छोटी संख्या = बड़ी संख्या - अंतर\n= 3,50,102 - 78,489 = **2,71,613**\n**उत्तर: 2,71,613**"
+          },
           "mistakeType": "OPERATION_LINK",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Set up the equation.\n- Smaller number = Larger number - Difference\n- = 3,50,102 - 78,489\nStep 2: Subtract.\n- 3,50,102 - 78,489 = **2,71,613**\n**Answer: 2,71,613**",
+              "hindi": "छोटी संख्या = बड़ी संख्या - अंतर\n= 3,50,102 - 78,489 = **2,71,613**\n**उत्तर: 2,71,613**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -250,7 +362,7 @@
       "mistakeFocus": "OPERATION_LINK"
     },
     {
-      "id": "rs_ch04_multiplication_and_properties_of_multiplication",
+      "id": "rsch04multiplicationandpropertiesofmultiplication",
       "sourceLessonId": "rs_ch04",
       "chapterNumber": 4,
       "chapterTitle": {
@@ -273,12 +385,37 @@
         "english": "Multiplication and Properties of Multiplication",
         "hindi": "गुणा और गुणा के गुण"
       },
-      "explanationParagraphs": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Properties of Multiplication:**",
+          "hindi": "**गुणा के गुण:**"
+        },
+        {
+          "english": "1. **Commutative Property:** a × b = b × a (order doesn't matter)\n   - 23 × 4 = 4 × 23 = 92",
+          "hindi": "1. **क्रमविनिमेय गुण:** a × b = b × a\n   - 23 × 4 = 4 × 23"
+        },
+        {
+          "english": "2. **Associative Property:** (a × b) × c = a × (b × c)\n   - (2 × 3) × 4 = 2 × (3 × 4) = 24",
+          "hindi": "2. **साहचर्य गुण:** (a × b) × c = a × (b × c)"
+        },
+        {
+          "english": "3. **Distributive Property:** a × (b + c) = a×b + a×c\n   - 5 × (3+2) = 5×3 + 5×2 = 15+10 = 25",
+          "hindi": "3. **वितरण गुण:** a × (b + c) = a×b + a×c"
+        },
+        {
+          "english": "4. **Identity Property:** Any number × 1 = that number\n   - 5 × 1 = 5",
+          "hindi": "4. **तत्समक गुण:** कोई भी संख्या × 1 = वही संख्या"
+        },
+        {
+          "english": "5. **Zero Property:** Any number × 0 = 0",
+          "hindi": "5. **शून्य गुण:** कोई भी संख्या × 0 = 0"
+        }
+      ],
       "examples": [],
       "visuals": [],
       "questions": [
         {
-          "id": "multiplication_and_properties_of_multiplication_q1",
+          "id": "multiplicationandpropertiesofmultiplication_q1",
           "prompt": {
             "english": "Which statement shows the commutative property of multiplication?",
             "hindi": "कौन-सा कथन गुणा के क्रमविनिमेय गुण को दिखाता है?"
@@ -305,11 +442,33 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "The commutative property says: **a × b = b × a** — you can swap the numbers being multiplied and the answer stays the same.\n\n- Option A: 23 × 4 = 4 × 23 ✓ This shows swapping of factors.\n- Option B: 23 × 4 = 23 + 4 ✗ Wrong (mixing operations)\n- Option C: 23 × 4 = 23 - 4 ✗ Wrong\n- Option D: 23 × 4 = 23 ÷ 4 ✗ Wrong\n\n**Answer: 23 × 4 = 4 × 23**",
+            "hindi": "क्रमविनिमेय गुण: a × b = b × a — गुणा करने वाली संख्याओं का क्रम बदलने से उत्तर नहीं बदलता।\n\n- **23 × 4 = 4 × 23** ✓\n\n**उत्तर: 23 × 4 = 4 × 23**"
+          },
+          "supportExample": {
+            "english": "The commutative property says: **a × b = b × a** — you can swap the numbers being multiplied and the answer stays the same.\n- Option A: 23 × 4 = 4 × 23 ✓ This shows swapping of factors.\n- Option B: 23 × 4 = 23 + 4 ✗ Wrong (mixing operations)\n- Option C: 23 × 4 = 23 - 4 ✗ Wrong\n- Option D: 23 × 4 = 23 ÷ 4 ✗ Wrong",
+            "hindi": "क्रमविनिमेय गुण: a × b = b × a — गुणा करने वाली संख्याओं का क्रम बदलने से उत्तर नहीं बदलता।\n- **23 × 4 = 4 × 23** ✓"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The commutative property says: **a × b = b × a** — you can swap the numbers being multiplied and the answer stays the same.",
+              "hindi": "क्रमविनिमेय गुण: a × b = b × a — गुणा करने वाली संख्याओं का क्रम बदलने से उत्तर नहीं बदलता।"
+            },
+            {
+              "english": "- Option A: 23 × 4 = 4 × 23 ✓ This shows swapping of factors.\n- Option B: 23 × 4 = 23 + 4 ✗ Wrong (mixing operations)\n- Option C: 23 × 4 = 23 - 4 ✗ Wrong\n- Option D: 23 × 4 = 23 ÷ 4 ✗ Wrong",
+              "hindi": "- **23 × 4 = 4 × 23** ✓"
+            },
+            {
+              "english": "**Answer: 23 × 4 = 4 × 23**",
+              "hindi": "**उत्तर: 23 × 4 = 4 × 23**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -325,7 +484,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch04_multiplication_by_10_100_1000_and_multiples_of_powers_of_10",
+      "id": "rsch04multiplicationby101001000andmultiplesofpowersof10",
       "sourceLessonId": "rs_ch04",
       "chapterNumber": 4,
       "chapterTitle": {
@@ -348,12 +507,26 @@
         "english": "Multiplication by 10, 100, 1000 and Multiples of Powers of 10",
         "hindi": "10, 100, 1000 और उनके गुणकों से गुणा"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Shortcut rules:**\n- Multiply by 10 → add one zero at the end\n- Multiply by 100 → add two zeros\n- Multiply by 1000 → add three zeros",
+          "hindi": "**शॉर्टकट नियम:**\n- 10 से गुणा → अंत में एक शून्य जोड़ें\n- 100 से गुणा → दो शून्य जोड़ें\n- 1000 से गुणा → तीन शून्य जोड़ें"
+        },
+        {
+          "english": "**For multiples like 6000:**\n- Split: 6000 = 6 × 1000\n- First multiply by 6, then add three zeros.\n- Example: 725 × 6000 = (725 × 6) × 1000 = 4,350 × 1000 = **43,50,000**",
+          "hindi": "**उदाहरण:** 725 × 6000 = (725 × 6) × 1000 = 4350 × 1000 = **43,50,000**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**For multiples like 6000:**\n- Split: 6000 = 6 × 1000\n- First multiply by 6, then add three zeros.\n- Example: 725 × 6000 = (725 × 6) × 1000 = 4,350 × 1000 = **43,50,000**",
+          "hindi": "**उदाहरण:** 725 × 6000 = (725 × 6) × 1000 = 4350 × 1000 = **43,50,000**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "multiplication_by_10_100_1000_and_multiples_of_powers_of_10_q1",
+          "id": "multiplicationby101001000andmultiplesofpowersof10_q1",
           "prompt": {
             "english": "Find: 725 × 6000.",
             "hindi": "हल कीजिए: 725 × 6000।"
@@ -366,11 +539,37 @@
             "43,50,000"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Split 6000 as 6 × 1000.\n\nStep 2: Multiply 725 × 6 = 4,350\n\nStep 3: Multiply by 1000 (add three zeros).\n- 4,350 × 1000 = **43,50,000**\n\n**Answer: 43,50,000**",
+            "hindi": "चरण 1: 6000 = 6 × 1000\n\nचरण 2: 725 × 6 = 4,350\n\nचरण 3: 4,350 × 1000 = **43,50,000** (तीन शून्य जोड़ें)\n\n**उत्तर: 43,50,000**"
+          },
+          "supportExample": {
+            "english": "Step 1: Split 6000 as 6 × 1000.\nStep 2: Multiply 725 × 6 = 4,350",
+            "hindi": "चरण 1: 6000 = 6 × 1000\nचरण 2: 725 × 6 = 4,350"
+          },
           "mistakeType": "OPERATION_LINK",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Split 6000 as 6 × 1000.",
+              "hindi": "चरण 1: 6000 = 6 × 1000"
+            },
+            {
+              "english": "Step 2: Multiply 725 × 6 = 4,350",
+              "hindi": "चरण 2: 725 × 6 = 4,350"
+            },
+            {
+              "english": "Step 3: Multiply by 1000 (add three zeros).\n- 4,350 × 1000 = **43,50,000**",
+              "hindi": "चरण 3: 4,350 × 1000 = **43,50,000** (तीन शून्य जोड़ें)"
+            },
+            {
+              "english": "**Answer: 43,50,000**",
+              "hindi": "**उत्तर: 43,50,000**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -386,7 +585,7 @@
       "mistakeFocus": "OPERATION_LINK"
     },
     {
-      "id": "rs_ch04_multiplication_of_larger_numbers",
+      "id": "rsch04multiplicationoflarger_numbers",
       "sourceLessonId": "rs_ch04",
       "chapterNumber": 4,
       "chapterTitle": {
@@ -409,12 +608,26 @@
         "english": "Multiplication of Larger Numbers",
         "hindi": "बड़ी संख्याओं का गुणा"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "To multiply a large number by a 2-digit or 3-digit number, use the standard column multiplication method (also called long multiplication):\n1. Multiply the large number by each digit of the multiplier separately.\n2. Shift each partial product one place to the left.\n3. Add all partial products.",
+          "hindi": "बड़ी संख्याओं को गुणा करने के लिए लंबी गुणा विधि:\n1. गुणक के प्रत्येक अंक से गुणा करें।\n2. प्रत्येक आंशिक गुणनफल को एक स्थान बाईं ओर खिसकाएँ।\n3. सभी आंशिक गुणनफलों को जोड़ें।"
+        },
+        {
+          "english": "**Example:** 23,719 × 87\n- 23,719 × 7 = 1,66,033\n- 23,719 × 80 = 18,97,520\n- Total = 1,66,033 + 18,97,520 = **20,63,553**",
+          "hindi": "**उदाहरण:** 23,719 × 87 = **20,63,553**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** 23,719 × 87\n- 23,719 × 7 = 1,66,033\n- 23,719 × 80 = 18,97,520\n- Total = 1,66,033 + 18,97,520 = **20,63,553**",
+          "hindi": "**उदाहरण:** 23,719 × 87 = **20,63,553**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "multiplication_of_larger_numbers_q1",
+          "id": "multiplicationoflargernumbersq1",
           "prompt": {
             "english": "Multiply: 23,719 × 87.",
             "hindi": "गुणा कीजिए: 23,719 × 87।"
@@ -427,11 +640,37 @@
             "20,63,553"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Multiply 23,719 × 7 = 1,66,033\n\nStep 2: Multiply 23,719 × 80 = 18,97,520 (multiply by 8 and add one zero)\n- 23,719 × 8 = 1,89,752 → × 10 = 18,97,520\n\nStep 3: Add both partial products.\n- 1,66,033 + 18,97,520 = **20,63,553**\n\n**Answer: 20,63,553**",
+            "hindi": "चरण 1: 23,719 × 7 = 1,66,033\n\nचरण 2: 23,719 × 80 = 18,97,520\n\nचरण 3: 1,66,033 + 18,97,520 = **20,63,553**\n\n**उत्तर: 20,63,553**"
+          },
+          "supportExample": {
+            "english": "Step 1: Multiply 23,719 × 7 = 1,66,033\nStep 2: Multiply 23,719 × 80 = 18,97,520 (multiply by 8 and add one zero)\n- 23,719 × 8 = 1,89,752 → × 10 = 18,97,520",
+            "hindi": "चरण 1: 23,719 × 7 = 1,66,033\nचरण 2: 23,719 × 80 = 18,97,520"
+          },
           "mistakeType": "OPERATION_LINK",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Multiply 23,719 × 7 = 1,66,033",
+              "hindi": "चरण 1: 23,719 × 7 = 1,66,033"
+            },
+            {
+              "english": "Step 2: Multiply 23,719 × 80 = 18,97,520 (multiply by 8 and add one zero)\n- 23,719 × 8 = 1,89,752 → × 10 = 18,97,520",
+              "hindi": "चरण 2: 23,719 × 80 = 18,97,520"
+            },
+            {
+              "english": "Step 3: Add both partial products.\n- 1,66,033 + 18,97,520 = **20,63,553**",
+              "hindi": "चरण 3: 1,66,033 + 18,97,520 = **20,63,553**"
+            },
+            {
+              "english": "**Answer: 20,63,553**",
+              "hindi": "**उत्तर: 20,63,553**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -447,7 +686,7 @@
       "mistakeFocus": "OPERATION_LINK"
     },
     {
-      "id": "rs_ch04_word_problems_on_multiplication",
+      "id": "rsch04wordproblemson_multiplication",
       "sourceLessonId": "rs_ch04",
       "chapterNumber": 4,
       "chapterTitle": {
@@ -470,12 +709,21 @@
         "english": "Word Problems on Multiplication",
         "hindi": "गुणा पर शब्द समस्याएँ"
       },
-      "explanationParagraphs": [],
+      "explanationParagraphs": [
+        {
+          "english": "For word problems involving multiplication: identify the unit price and the quantity, then multiply.",
+          "hindi": "गुणा की शब्द समस्याओं के लिए: एक वस्तु की कीमत और संख्या पहचानें, फिर गुणा करें।"
+        },
+        {
+          "english": "**Formula:** Total cost = Cost per item × Number of items",
+          "hindi": "**सूत्र:** कुल लागत = एक वस्तु की कीमत × वस्तुओं की संख्या"
+        }
+      ],
       "examples": [],
       "visuals": [],
       "questions": [
         {
-          "id": "word_problems_on_multiplication_q1",
+          "id": "wordproblemsonmultiplicationq1",
           "prompt": {
             "english": "A mobile phone costs 2786 rupees. What is the cost of 257 such mobile phones?",
             "hindi": "एक मोबाइल फोन 2786 रुपये का है। ऐसे 257 मोबाइल फोन की कुल कीमत कितनी होगी?"
@@ -488,11 +736,25 @@
             "7,16,002"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Cost of 1 phone = ₹2,786; Number of phones = 257\n\nStep 2: Total cost = 2,786 × 257\n\nStep 3: Multiply.\n- 2,786 × 7 = 19,502\n- 2,786 × 50 = 1,39,300\n- 2,786 × 200 = 5,57,200\n- Total = 19,502 + 1,39,300 + 5,57,200 = **7,16,002**\n\n**Answer: ₹7,16,002**",
+            "hindi": "एक मोबाइल = ₹2,786; संख्या = 257\n\n2,786 × 257 = **₹7,16,002**\n\n**उत्तर: ₹7,16,002**"
+          },
+          "supportExample": {
+            "english": "Step 1: Cost of 1 phone = ₹2,786; Number of phones = 257\nStep 2: Total cost = 2,786 × 257",
+            "hindi": "एक मोबाइल = ₹2,786; संख्या = 257\n2,786 × 257 = **₹7,16,002**"
+          },
           "mistakeType": "OPERATION_LINK",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Cost of 1 phone = ₹2,786; Number of phones = 257\nStep 2: Total cost = 2,786 × 257\nStep 3: Multiply.\n- 2,786 × 7 = 19,502\n- 2,786 × 50 = 1,39,300\n- 2,786 × 200 = 5,57,200\n- Total = 19,502 + 1,39,300 + 5,57,200 = **7,16,002**\n**Answer: ₹7,16,002**",
+              "hindi": "एक मोबाइल = ₹2,786; संख्या = 257\n2,786 × 257 = **₹7,16,002**\n**उत्तर: ₹7,16,002**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -508,7 +770,7 @@
       "mistakeFocus": "OPERATION_LINK"
     },
     {
-      "id": "rs_ch04_division",
+      "id": "rsch04division",
       "sourceLessonId": "rs_ch04",
       "chapterNumber": 4,
       "chapterTitle": {
@@ -531,8 +793,22 @@
         "english": "Division",
         "hindi": "भाग"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Division shortcuts with powers of 10:**\n- Dividing by 10 → remove one zero OR shift decimal one place left.\n- Dividing by 100 → remove two zeros.\n- Dividing by 1000 → the quotient is the number without the last three digits.",
+          "hindi": "**10 की घातों से भाग के शॉर्टकट:**\n- 1000 से भाग → अंतिम तीन अंक हटाएँ\n- भागफल = शेष अंक"
+        },
+        {
+          "english": "**Example:** 2,35,174 ÷ 1000\n- Remove last 3 digits (174) → Quotient = **235**, Remainder = 174",
+          "hindi": "**उदाहरण:** 2,35,174 ÷ 1000 = **235**, शेष 174"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** 2,35,174 ÷ 1000\n- Remove last 3 digits (174) → Quotient = **235**, Remainder = 174",
+          "hindi": "**उदाहरण:** 2,35,174 ÷ 1000 = **235**, शेष 174"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
@@ -548,11 +824,33 @@
             "235"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "When dividing by 1000, the quotient is formed by all digits EXCEPT the last 3.\n\n- 2,35,174 ÷ 1000\n- Last 3 digits: 174 (this is the remainder)\n- Remaining digits: 235 (this is the quotient)\n\n**Answer: Quotient = 235**",
+            "hindi": "1000 से भाग देने पर: अंतिम 3 अंक हटाएँ।\n\n- 2,35,174 के अंतिम 3 अंक: 174 (शेष)\n- शेष अंक: 235 (भागफल)\n\n**उत्तर: भागफल = 235**"
+          },
+          "supportExample": {
+            "english": "When dividing by 1000, the quotient is formed by all digits EXCEPT the last 3.\n- 2,35,174 ÷ 1000\n- Last 3 digits: 174 (this is the remainder)\n- Remaining digits: 235 (this is the quotient)",
+            "hindi": "1000 से भाग देने पर: अंतिम 3 अंक हटाएँ।\n- 2,35,174 के अंतिम 3 अंक: 174 (शेष)\n- शेष अंक: 235 (भागफल)"
+          },
           "mistakeType": "OPERATION_LINK",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "When dividing by 1000, the quotient is formed by all digits EXCEPT the last 3.",
+              "hindi": "1000 से भाग देने पर: अंतिम 3 अंक हटाएँ।"
+            },
+            {
+              "english": "- 2,35,174 ÷ 1000\n- Last 3 digits: 174 (this is the remainder)\n- Remaining digits: 235 (this is the quotient)",
+              "hindi": "- 2,35,174 के अंतिम 3 अंक: 174 (शेष)\n- शेष अंक: 235 (भागफल)"
+            },
+            {
+              "english": "**Answer: Quotient = 235**",
+              "hindi": "**उत्तर: भागफल = 235**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -568,7 +866,7 @@
       "mistakeFocus": "OPERATION_LINK"
     },
     {
-      "id": "rs_ch04_word_problems_on_division",
+      "id": "rsch04wordproblemson_division",
       "sourceLessonId": "rs_ch04",
       "chapterNumber": 4,
       "chapterTitle": {
@@ -591,12 +889,17 @@
         "english": "Word Problems on Division",
         "hindi": "भाग पर शब्द समस्याएँ"
       },
-      "explanationParagraphs": [],
+      "explanationParagraphs": [
+        {
+          "english": "For division word problems: identify the total and the size of each equal share (or group), then divide.\n\n**Formula:** Number of groups = Total ÷ Size of each group",
+          "hindi": "भाग की शब्द समस्याओं में: कुल और प्रत्येक समूह का आकार पहचानें, फिर भाग करें।"
+        }
+      ],
       "examples": [],
       "visuals": [],
       "questions": [
         {
-          "id": "word_problems_on_division_q1",
+          "id": "wordproblemsondivisionq1",
           "prompt": {
             "english": "A fluorescent tube costs 57 rupees. How many such tubes can be bought for 19,893 rupees?",
             "hindi": "एक फ्लोरोसेंट ट्यूब 57 रुपये की है। 19,893 रुपये में ऐसी कितनी ट्यूबें खरीदी जा सकती हैं?"
@@ -608,11 +911,25 @@
             "349"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Total money = ₹19,893; Cost per tube = ₹57\n\nStep 2: Number of tubes = 19,893 ÷ 57\n\nStep 3: Divide.\n- 57 × 300 = 17,100\n- 19,893 - 17,100 = 2,793\n- 57 × 49 = 2,793\n- 300 + 49 = **349**\n\n**Answer: 349 tubes**",
+            "hindi": "कुल पैसे = ₹19,893; एक ट्यूब = ₹57\n\n19,893 ÷ 57 = **349**\n\n**उत्तर: 349 ट्यूबें**"
+          },
+          "supportExample": {
+            "english": "Step 1: Total money = ₹19,893; Cost per tube = ₹57\nStep 2: Number of tubes = 19,893 ÷ 57",
+            "hindi": "कुल पैसे = ₹19,893; एक ट्यूब = ₹57\n19,893 ÷ 57 = **349**"
+          },
           "mistakeType": "OPERATION_LINK",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Total money = ₹19,893; Cost per tube = ₹57\nStep 2: Number of tubes = 19,893 ÷ 57\nStep 3: Divide.\n- 57 × 300 = 17,100\n- 19,893 - 17,100 = 2,793\n- 57 × 49 = 2,793\n- 300 + 49 = **349**\n**Answer: 349 tubes**",
+              "hindi": "कुल पैसे = ₹19,893; एक ट्यूब = ₹57\n19,893 ÷ 57 = **349**\n**उत्तर: 349 ट्यूबें**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -628,8 +945,8 @@
       "mistakeFocus": "OPERATION_LINK"
     },
     {
-      "id": "rs_ex_ch04_ex06_q01",
-      "sourceLessonId": "rs_exercise_ch04_ex06",
+      "id": "rsexch04ex06q01",
+      "sourceLessonId": "rsexercisech04_ex06",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -656,7 +973,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex06_q01_q1",
+          "id": "rsexch04ex06q01_q1",
           "prompt": {
             "english": "Add: 3 6 7 5 2 1 8 + 2 5 1 7 6 7 3",
             "hindi": "Add: 3 6 7 5 2 1 8 + 2 5 1 7 6 7 3"
@@ -692,8 +1009,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex06_q02",
-      "sourceLessonId": "rs_exercise_ch04_ex06",
+      "id": "rsexch04ex06q02",
+      "sourceLessonId": "rsexercisech04_ex06",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -720,7 +1037,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex06_q02_q1",
+          "id": "rsexch04ex06q02_q1",
           "prompt": {
             "english": "Add: 7 4 5 3 6 1 9 + 1 8 7 6 9 8 4",
             "hindi": "Add: 7 4 5 3 6 1 9 + 1 8 7 6 9 8 4"
@@ -756,8 +1073,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex06_q03",
-      "sourceLessonId": "rs_exercise_ch04_ex06",
+      "id": "rsexch04ex06q03",
+      "sourceLessonId": "rsexercisech04_ex06",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -784,7 +1101,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex06_q03_q1",
+          "id": "rsexch04ex06q03_q1",
           "prompt": {
             "english": "Add: 7 5 4 3 6 9 4 8 + 2 7 8 4 2 3 6",
             "hindi": "Add: 7 5 4 3 6 9 4 8 + 2 7 8 4 2 3 6"
@@ -820,8 +1137,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex06_q04",
-      "sourceLessonId": "rs_exercise_ch04_ex06",
+      "id": "rsexch04ex06q04",
+      "sourceLessonId": "rsexercisech04_ex06",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -848,7 +1165,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex06_q04_q1",
+          "id": "rsexch04ex06q04_q1",
           "prompt": {
             "english": "Add: 3 8 2 5 6 7 1 4 + 3 9 6 7 4 8 9",
             "hindi": "Add: 3 8 2 5 6 7 1 4 + 3 9 6 7 4 8 9"
@@ -884,8 +1201,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex06_q05",
-      "sourceLessonId": "rs_exercise_ch04_ex06",
+      "id": "rsexch04ex06q05",
+      "sourceLessonId": "rsexercisech04_ex06",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -912,7 +1229,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex06_q05_q1",
+          "id": "rsexch04ex06q05_q1",
           "prompt": {
             "english": "Add: 43268974 + 6794347 + 316554",
             "hindi": "Add: 43268974 + 6794347 + 316554"
@@ -948,8 +1265,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex06_q06",
-      "sourceLessonId": "rs_exercise_ch04_ex06",
+      "id": "rsexch04ex06q06",
+      "sourceLessonId": "rsexercisech04_ex06",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -976,7 +1293,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex06_q06_q1",
+          "id": "rsexch04ex06q06_q1",
           "prompt": {
             "english": "Add: 16875309 + 23426793 + 4231518",
             "hindi": "Add: 16875309 + 23426793 + 4231518"
@@ -1012,8 +1329,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex06_q07",
-      "sourceLessonId": "rs_exercise_ch04_ex06",
+      "id": "rsexch04ex06q07",
+      "sourceLessonId": "rsexercisech04_ex06",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -1040,7 +1357,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex06_q07_q1",
+          "id": "rsexch04ex06q07_q1",
           "prompt": {
             "english": "Add: 134526729 + 243647394 + 69318453",
             "hindi": "Add: 134526729 + 243647394 + 69318453"
@@ -1076,8 +1393,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex06_q08",
-      "sourceLessonId": "rs_exercise_ch04_ex06",
+      "id": "rsexch04ex06q08",
+      "sourceLessonId": "rsexercisech04_ex06",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -1104,7 +1421,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex06_q08_q1",
+          "id": "rsexch04ex06q08_q1",
           "prompt": {
             "english": "Add: 245719563 + 463267478 + 71932345",
             "hindi": "Add: 245719563 + 463267478 + 71932345"
@@ -1140,8 +1457,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex06_q09",
-      "sourceLessonId": "rs_exercise_ch04_ex06",
+      "id": "rsexch04ex06q09",
+      "sourceLessonId": "rsexercisech04_ex06",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -1168,7 +1485,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex06_q09_q1",
+          "id": "rsexch04ex06q09_q1",
           "prompt": {
             "english": "Add: 5764239 + 43075786 + 139608945 + 96578",
             "hindi": "Add: 5764239 + 43075786 + 139608945 + 96578"
@@ -1204,8 +1521,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex06_q10",
-      "sourceLessonId": "rs_exercise_ch04_ex06",
+      "id": "rsexch04ex06q10",
+      "sourceLessonId": "rsexercisech04_ex06",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -1232,7 +1549,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex06_q10_q1",
+          "id": "rsexch04ex06q10_q1",
           "prompt": {
             "english": "Add: 546271285 + 173827493 + 10374678 + 2992789",
             "hindi": "Add: 546271285 + 173827493 + 10374678 + 2992789"
@@ -1268,8 +1585,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex06_q11",
-      "sourceLessonId": "rs_exercise_ch04_ex06",
+      "id": "rsexch04ex06q11",
+      "sourceLessonId": "rsexercisech04_ex06",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -1296,7 +1613,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex06_q11_q1",
+          "id": "rsexch04ex06q11_q1",
           "prompt": {
             "english": "Find the sum of the following: 13256978 + 6975684 + 23679",
             "hindi": "Find the sum of the following: 13256978 + 6975684 + 23679"
@@ -1332,8 +1649,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex06_q12",
-      "sourceLessonId": "rs_exercise_ch04_ex06",
+      "id": "rsexch04ex06q12",
+      "sourceLessonId": "rsexercisech04_ex06",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -1360,7 +1677,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex06_q12_q1",
+          "id": "rsexch04ex06q12_q1",
           "prompt": {
             "english": "Find the sum of the following: 343851728 + 166452675 + 3672563 + 935",
             "hindi": "Find the sum of the following: 343851728 + 166452675 + 3672563 + 935"
@@ -1396,8 +1713,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex06_q13",
-      "sourceLessonId": "rs_exercise_ch04_ex06",
+      "id": "rsexch04ex06q13",
+      "sourceLessonId": "rsexercisech04_ex06",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -1424,7 +1741,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex06_q13_q1",
+          "id": "rsexch04ex06q13_q1",
           "prompt": {
             "english": "Find the sum: 474361279 + 236554385 + 53168837 + 20716314",
             "hindi": "Find the sum: 474361279 + 236554385 + 53168837 + 20716314"
@@ -1460,8 +1777,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex07_q01",
-      "sourceLessonId": "rs_exercise_ch04_ex07",
+      "id": "rsexch04ex07q01",
+      "sourceLessonId": "rsexercisech04_ex07",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -1488,7 +1805,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex07_q01_q1",
+          "id": "rsexch04ex07q01_q1",
           "prompt": {
             "english": "The number of persons who visited the holy shrine of Mata Vaishno Devi during last two consecutive years was 6378907 and 7865089 respectively. How many persons visited the shrine during these two years?",
             "hindi": "The number of persons who visited the holy shrine of Mata Vaishno Devi during last two consecutive years was 6378907 and 7865089 respectively. How many persons visited the shrine during these two years?"
@@ -1524,8 +1841,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex07_q02",
-      "sourceLessonId": "rs_exercise_ch04_ex07",
+      "id": "rsexch04ex07q02",
+      "sourceLessonId": "rsexercisech04_ex07",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -1552,7 +1869,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex07_q02_q1",
+          "id": "rsexch04ex07q02_q1",
           "prompt": {
             "english": "Last year, three sugar factories in a town produced 23807575 bags, 19728686 bags and 8962347 bags respectively. How many bags in all were produced by all the three factories during last year?",
             "hindi": "Last year, three sugar factories in a town produced 23807575 bags, 19728686 bags and 8962347 bags respectively. How many bags in all were produced by all the three factories during last year?"
@@ -1588,8 +1905,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex07_q03",
-      "sourceLessonId": "rs_exercise_ch04_ex07",
+      "id": "rsexch04ex07q03",
+      "sourceLessonId": "rsexercisech04_ex07",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -1616,7 +1933,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex07_q03_q1",
+          "id": "rsexch04ex07q03_q1",
           "prompt": {
             "english": "In a city, there are 5726439 men, 4439675 women and 2016348 children. What is the total population of the city?",
             "hindi": "In a city, there are 5726439 men, 4439675 women and 2016348 children. What is the total population of the city?"
@@ -1652,8 +1969,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex07_q04",
-      "sourceLessonId": "rs_exercise_ch04_ex07",
+      "id": "rsexch04ex07q04",
+      "sourceLessonId": "rsexercisech04_ex07",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -1680,7 +1997,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex07_q04_q1",
+          "id": "rsexch04ex07q04_q1",
           "prompt": {
             "english": "In a particular year, the male population of a city was 2359324 more than the female population. The number of females was 6813675. What was the male population? What was the total population of the city during that year?",
             "hindi": "In a particular year, the male population of a city was 2359324 more than the female population. The number of females was 6813675. What was the male population? What was the total population of the city during that year?"
@@ -1716,8 +2033,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex07_q05",
-      "sourceLessonId": "rs_exercise_ch04_ex07",
+      "id": "rsexch04ex07q05",
+      "sourceLessonId": "rsexercisech04_ex07",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -1744,7 +2061,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex07_q05_q1",
+          "id": "rsexch04ex07q05_q1",
           "prompt": {
             "english": "The sales-receipt of a company during the year 2011 was Rs 13047546. Next year, it increased by Rs 7973674. What was the sales-receipt of the company in the year 2012? What was the total sales-receipt of the company during these two years?",
             "hindi": "The sales-receipt of a company during the year 2011 was Rs 13047546. Next year, it increased by Rs 7973674. What was the sales-receipt of the company in the year 2012? What was the total sales-receipt of the company during these two years?"
@@ -1781,8 +2098,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex07_q06",
-      "sourceLessonId": "rs_exercise_ch04_ex07",
+      "id": "rsexch04ex07q06",
+      "sourceLessonId": "rsexercisech04_ex07",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -1809,7 +2126,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex07_q06_q1",
+          "id": "rsexch04ex07q06_q1",
           "prompt": {
             "english": "In a particular year an industry produced 6736265 bicycles. Next year, the number of bicycles produced was 1374589 more than those produced in the preceding year. How many bicycles were produced during these two years?",
             "hindi": "In a particular year an industry produced 6736265 bicycles. Next year, the number of bicycles produced was 1374589 more than those produced in the preceding year. How many bicycles were produced during these two years?"
@@ -1845,8 +2162,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex07_q07",
-      "sourceLessonId": "rs_exercise_ch04_ex07",
+      "id": "rsexch04ex07q07",
+      "sourceLessonId": "rsexercisech04_ex07",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -1873,7 +2190,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex07_q07_q1",
+          "id": "rsexch04ex07q07_q1",
           "prompt": {
             "english": "There were three candidates in an election. They received 678509 votes, 462397 votes and 97685 votes respectively. The number of invalid votes was 16489 and 45716 persons did not vote. How many votes were registered?",
             "hindi": "There were three candidates in an election. They received 678509 votes, 462397 votes and 97685 votes respectively. The number of invalid votes was 16489 and 45716 persons did not vote. How many votes were registered?"
@@ -1909,8 +2226,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex07_q08",
-      "sourceLessonId": "rs_exercise_ch04_ex07",
+      "id": "rsexch04ex07q08",
+      "sourceLessonId": "rsexercisech04_ex07",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -1937,7 +2254,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex07_q08_q1",
+          "id": "rsexch04ex07q08_q1",
           "prompt": {
             "english": "find the greater number: A survey conducted on an Indian",
             "hindi": "find the greater number: A survey conducted on an Indian"
@@ -1973,8 +2290,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex07_q09",
-      "sourceLessonId": "rs_exercise_ch04_ex07",
+      "id": "rsexch04ex07q09",
+      "sourceLessonId": "rsexercisech04_ex07",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -2001,7 +2318,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex07_q09_q1",
+          "id": "rsexch04ex07q09_q1",
           "prompt": {
             "english": "A number exceeds 35637844 by 7674156. What is that number?",
             "hindi": "A number exceeds 35637844 by 7674156. What is that number?"
@@ -2037,8 +2354,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex08_q01",
-      "sourceLessonId": "rs_exercise_ch04_ex08",
+      "id": "rsexch04ex08q01",
+      "sourceLessonId": "rsexercisech04_ex08",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -2065,7 +2382,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex08_q01_q1",
+          "id": "rsexch04ex08q01_q1",
           "prompt": {
             "english": "Subtract: 5 6 4 7 8 1 2 – 2 7 8 5 7 4 5",
             "hindi": "Subtract: 5 6 4 7 8 1 2 – 2 7 8 5 7 4 5"
@@ -2101,8 +2418,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex08_q02",
-      "sourceLessonId": "rs_exercise_ch04_ex08",
+      "id": "rsexch04ex08q02",
+      "sourceLessonId": "rsexercisech04_ex08",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -2129,7 +2446,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex08_q02_q1",
+          "id": "rsexch04ex08q02_q1",
           "prompt": {
             "english": "Subtract: 7 8 5 6 4 2 9 – 3 6 9 8 3 6 7",
             "hindi": "Subtract: 7 8 5 6 4 2 9 – 3 6 9 8 3 6 7"
@@ -2165,8 +2482,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex08_q03",
-      "sourceLessonId": "rs_exercise_ch04_ex08",
+      "id": "rsexch04ex08q03",
+      "sourceLessonId": "rsexercisech04_ex08",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -2193,7 +2510,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex08_q03_q1",
+          "id": "rsexch04ex08q03_q1",
           "prompt": {
             "english": "Subtract: 9 3 4 2 5 1 7 – 7 4 5 6 7 8 9",
             "hindi": "Subtract: 9 3 4 2 5 1 7 – 7 4 5 6 7 8 9"
@@ -2229,8 +2546,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex08_q04",
-      "sourceLessonId": "rs_exercise_ch04_ex08",
+      "id": "rsexch04ex08q04",
+      "sourceLessonId": "rsexercisech04_ex08",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -2257,7 +2574,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex08_q04_q1",
+          "id": "rsexch04ex08q04_q1",
           "prompt": {
             "english": "Subtract: 6 3 5 4 7 2 4 – 9 6 8 8 3 6",
             "hindi": "Subtract: 6 3 5 4 7 2 4 – 9 6 8 8 3 6"
@@ -2293,8 +2610,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex08_q05",
-      "sourceLessonId": "rs_exercise_ch04_ex08",
+      "id": "rsexch04ex08q05",
+      "sourceLessonId": "rsexercisech04_ex08",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -2321,7 +2638,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex08_q05_q1",
+          "id": "rsexch04ex08q05_q1",
           "prompt": {
             "english": "Subtract: 3 4 2 7 5 0 6 3 – 9 7 8 9 1 7 4",
             "hindi": "Subtract: 3 4 2 7 5 0 6 3 – 9 7 8 9 1 7 4"
@@ -2357,8 +2674,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex08_q06",
-      "sourceLessonId": "rs_exercise_ch04_ex08",
+      "id": "rsexch04ex08q06",
+      "sourceLessonId": "rsexercisech04_ex08",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -2385,7 +2702,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex08_q06_q1",
+          "id": "rsexch04ex08q06_q1",
           "prompt": {
             "english": "Subtract: 5 0 3 0 4 6 0 1 – 8 7 3 6 7 2 4",
             "hindi": "Subtract: 5 0 3 0 4 6 0 1 – 8 7 3 6 7 2 4"
@@ -2421,8 +2738,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex08_q07",
-      "sourceLessonId": "rs_exercise_ch04_ex08",
+      "id": "rsexch04ex08q07",
+      "sourceLessonId": "rsexercisech04_ex08",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -2449,7 +2766,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex08_q07_q1",
+          "id": "rsexch04ex08q07_q1",
           "prompt": {
             "english": "Subtract: 231629547 - 192739789",
             "hindi": "Subtract: 231629547 - 192739789"
@@ -2485,8 +2802,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex08_q08",
-      "sourceLessonId": "rs_exercise_ch04_ex08",
+      "id": "rsexch04ex08q08",
+      "sourceLessonId": "rsexercisech04_ex08",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -2513,7 +2830,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex08_q08_q1",
+          "id": "rsexch04ex08q08_q1",
           "prompt": {
             "english": "Subtract: 7 1 3 0 5 0 0 4 – 2 4 6 1 7 0 5 8",
             "hindi": "Subtract: 7 1 3 0 5 0 0 4 – 2 4 6 1 7 0 5 8"
@@ -2549,8 +2866,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex08_q09",
-      "sourceLessonId": "rs_exercise_ch04_ex08",
+      "id": "rsexch04ex08q09",
+      "sourceLessonId": "rsexercisech04_ex08",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -2577,7 +2894,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex08_q09_q1",
+          "id": "rsexch04ex08q09_q1",
           "prompt": {
             "english": "Subtract: 9 0 4 0 0 0 1 3 – 6 0 5 0 2 4 1 7",
             "hindi": "Subtract: 9 0 4 0 0 0 1 3 – 6 0 5 0 2 4 1 7"
@@ -2613,8 +2930,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex08_q10",
-      "sourceLessonId": "rs_exercise_ch04_ex08",
+      "id": "rsexch04ex08q10",
+      "sourceLessonId": "rsexercisech04_ex08",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -2641,7 +2958,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex08_q10_q1",
+          "id": "rsexch04ex08q10_q1",
           "prompt": {
             "english": "Subtract: 302415206 - 203516438",
             "hindi": "Subtract: 302415206 - 203516438"
@@ -2677,8 +2994,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex08_q11",
-      "sourceLessonId": "rs_exercise_ch04_ex08",
+      "id": "rsexch04ex08q11",
+      "sourceLessonId": "rsexercisech04_ex08",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -2705,7 +3022,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex08_q11_q1",
+          "id": "rsexch04ex08q11_q1",
           "prompt": {
             "english": "Find the difference: 5826704 – 3927815",
             "hindi": "Find the difference: 5826704 – 3927815"
@@ -2741,8 +3058,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex08_q12",
-      "sourceLessonId": "rs_exercise_ch04_ex08",
+      "id": "rsexch04ex08q12",
+      "sourceLessonId": "rsexercisech04_ex08",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -2769,7 +3086,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex08_q12_q1",
+          "id": "rsexch04ex08q12_q1",
           "prompt": {
             "english": "Find the difference: 8134205 – 5146307",
             "hindi": "Find the difference: 8134205 – 5146307"
@@ -2805,8 +3122,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex08_q13",
-      "sourceLessonId": "rs_exercise_ch04_ex08",
+      "id": "rsexch04ex08q13",
+      "sourceLessonId": "rsexercisech04_ex08",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -2833,7 +3150,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex08_q13_q1",
+          "id": "rsexch04ex08q13_q1",
           "prompt": {
             "english": "Find the difference: 6010036 – 5419947",
             "hindi": "Find the difference: 6010036 – 5419947"
@@ -2869,8 +3186,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex08_q14",
-      "sourceLessonId": "rs_exercise_ch04_ex08",
+      "id": "rsexch04ex08q14",
+      "sourceLessonId": "rsexercisech04_ex08",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -2897,7 +3214,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex08_q14_q1",
+          "id": "rsexch04ex08q14_q1",
           "prompt": {
             "english": "Find the difference: 12034504 - 8075698",
             "hindi": "Find the difference: 12034504 - 8075698"
@@ -2933,8 +3250,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex09_q01",
-      "sourceLessonId": "rs_exercise_ch04_ex09",
+      "id": "rsexch04ex09q01",
+      "sourceLessonId": "rsexercisech04_ex09",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -2961,7 +3278,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex09_q01_q1",
+          "id": "rsexch04ex09q01_q1",
           "prompt": {
             "english": "By how much is 6437859 less than 7016418?",
             "hindi": "By how much is 6437859 less than 7016418?"
@@ -2997,8 +3314,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex09_q02",
-      "sourceLessonId": "rs_exercise_ch04_ex09",
+      "id": "rsexch04ex09q02",
+      "sourceLessonId": "rsexercisech04_ex09",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -3025,7 +3342,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex09_q02_q1",
+          "id": "rsexch04ex09q02_q1",
           "prompt": {
             "english": "By how much does 7102340 exceed 6824572?",
             "hindi": "By how much does 7102340 exceed 6824572?"
@@ -3061,8 +3378,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex09_q03",
-      "sourceLessonId": "rs_exercise_ch04_ex09",
+      "id": "rsexch04ex09q03",
+      "sourceLessonId": "rsexercisech04_ex09",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -3089,7 +3406,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex09_q03_q1",
+          "id": "rsexch04ex09q03_q1",
           "prompt": {
             "english": "What must be added to 5678469 to make 6164324?",
             "hindi": "What must be added to 5678469 to make 6164324?"
@@ -3125,8 +3442,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex09_q04",
-      "sourceLessonId": "rs_exercise_ch04_ex09",
+      "id": "rsexch04ex09q04",
+      "sourceLessonId": "rsexercisech04_ex09",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -3153,7 +3470,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex09_q04_q1",
+          "id": "rsexch04ex09q04_q1",
           "prompt": {
             "english": "What must be subtracted from 9005413 to get 7906547?",
             "hindi": "What must be subtracted from 9005413 to get 7906547?"
@@ -3189,8 +3506,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex09_q05",
-      "sourceLessonId": "rs_exercise_ch04_ex09",
+      "id": "rsexch04ex09q05",
+      "sourceLessonId": "rsexercisech04_ex09",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -3217,7 +3534,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex09_q05_q1",
+          "id": "rsexch04ex09q05_q1",
           "prompt": {
             "english": "The sum of two numbers is 13604050. If one of the numbers is 7824361, find the other number",
             "hindi": "The sum of two numbers is 13604050. If one of the numbers is 7824361, find the other number"
@@ -3253,8 +3570,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex09_q06",
-      "sourceLessonId": "rs_exercise_ch04_ex09",
+      "id": "rsexch04ex09q06",
+      "sourceLessonId": "rsexercisech04_ex09",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -3281,7 +3598,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex09_q06_q1",
+          "id": "rsexch04ex09q06_q1",
           "prompt": {
             "english": "In an examination conducted by a board of secondary education, 1008314 candidates appeared. Out of these 789425 candidates passed. How many failed?",
             "hindi": "In an examination conducted by a board of secondary education, 1008314 candidates appeared. Out of these 789425 candidates passed. How many failed?"
@@ -3317,8 +3634,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex09_q07",
-      "sourceLessonId": "rs_exercise_ch04_ex09",
+      "id": "rsexch04ex09q07",
+      "sourceLessonId": "rsexercisech04_ex09",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -3345,7 +3662,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex09_q07_q1",
+          "id": "rsexch04ex09q07_q1",
           "prompt": {
             "english": "A factory produced 5365129 switches in a particular year and 6010016 switches in the following year. Find the increase in the production of switches",
             "hindi": "A factory produced 5365129 switches in a particular year and 6010016 switches in the following year. Find the increase in the production of switches"
@@ -3381,8 +3698,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex09_q08",
-      "sourceLessonId": "rs_exercise_ch04_ex09",
+      "id": "rsexch04ex09q08",
+      "sourceLessonId": "rsexercisech04_ex09",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -3409,7 +3726,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex09_q08_q1",
+          "id": "rsexch04ex09q08_q1",
           "prompt": {
             "english": "An election was contested by two candidates. The winning candidate received 6872403 votes and won by a margin of 983516 votes. How many votes did the other candidate receive?",
             "hindi": "An election was contested by two candidates. The winning candidate received 6872403 votes and won by a margin of 983516 votes. How many votes did the other candidate receive?"
@@ -3445,8 +3762,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex09_q09",
-      "sourceLessonId": "rs_exercise_ch04_ex09",
+      "id": "rsexch04ex09q09",
+      "sourceLessonId": "rsexercisech04_ex09",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -3473,7 +3790,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex09_q09_q1",
+          "id": "rsexch04ex09q09_q1",
           "prompt": {
             "english": "In an Indian state, a survey shows that there are in all 7651234 students in all the secondary schools. Out of these, there are 2963459 girl-students. How many boys are there in these schools?",
             "hindi": "In an Indian state, a survey shows that there are in all 7651234 students in all the secondary schools. Out of these, there are 2963459 girl-students. How many boys are there in these schools?"
@@ -3509,8 +3826,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex09_q10",
-      "sourceLessonId": "rs_exercise_ch04_ex09",
+      "id": "rsexch04ex09q10",
+      "sourceLessonId": "rsexercisech04_ex09",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -3537,7 +3854,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex09_q10_q1",
+          "id": "rsexch04ex09q10_q1",
           "prompt": {
             "english": "The total population of a city is 15207635. There are 6751574 men and 6036425 women and the remaining are children. How many children are there in the city?",
             "hindi": "The total population of a city is 15207635. There are 6751574 men and 6036425 women and the remaining are children. How many children are there in the city?"
@@ -3573,8 +3890,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex09_q11",
-      "sourceLessonId": "rs_exercise_ch04_ex09",
+      "id": "rsexch04ex09q11",
+      "sourceLessonId": "rsexercisech04_ex09",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -3601,7 +3918,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex09_q11_q1",
+          "id": "rsexch04ex09q11_q1",
           "prompt": {
             "english": "In an examination, 506212 candidates could get through. Out of these, 197538 passed in first division, 238604 passed in second division. How many passed in third division?",
             "hindi": "In an examination, 506212 candidates could get through. Out of these, 197538 passed in first division, 238604 passed in second division. How many passed in third division?"
@@ -3637,8 +3954,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q01_a",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q01_a",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -3665,7 +3982,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q01_a_q1",
+          "id": "rsexch04ex10q01aq1",
           "prompt": {
             "english": "Fill in the blanks Part (a): 1485 × = 2346 × 1485",
             "hindi": "Fill in the blanks Part (a): 1485 × = 2346 × 1485"
@@ -3701,8 +4018,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q01_b",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q01_b",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -3729,7 +4046,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q01_b_q1",
+          "id": "rsexch04ex10q01bq1",
           "prompt": {
             "english": "Fill in the blanks Part (b): 2947 × 4508 = 4508 ×",
             "hindi": "Fill in the blanks Part (b): 2947 × 4508 = 4508 ×"
@@ -3765,8 +4082,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q01_c",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q01_c",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -3793,7 +4110,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q01_c_q1",
+          "id": "rsexch04ex10q01cq1",
           "prompt": {
             "english": "Fill in the blanks Part (c): 2772 × = 2772",
             "hindi": "Fill in the blanks Part (c): 2772 × = 2772"
@@ -3829,8 +4146,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q01_d",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q01_d",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -3857,7 +4174,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q01_d_q1",
+          "id": "rsexch04ex10q01dq1",
           "prompt": {
             "english": "Fill in the blanks Part (d): 4358 × = 0",
             "hindi": "Fill in the blanks Part (d): 4358 × = 0"
@@ -3893,8 +4210,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q01_e",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q01_e",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -3921,7 +4238,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q01_e_q1",
+          "id": "rsexch04ex10q01eq1",
           "prompt": {
             "english": "Fill in the blanks Part (e): 35 × (100 + 37) = (35 × 100) + (35 × )",
             "hindi": "Fill in the blanks Part (e): 35 × (100 + 37) = (35 × 100) + (35 × )"
@@ -3957,8 +4274,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q01_f",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q01_f",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -3985,7 +4302,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q01_f_q1",
+          "id": "rsexch04ex10q01fq1",
           "prompt": {
             "english": "Fill in the blanks Part (f): 146 × (1000 + 48) = (146 × ) + (146 × )",
             "hindi": "Fill in the blanks Part (f): 146 × (1000 + 48) = (146 × ) + (146 × )"
@@ -4021,8 +4338,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q01_g",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q01_g",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -4049,7 +4366,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q01_g_q1",
+          "id": "rsexch04ex10q01gq1",
           "prompt": {
             "english": "Fill in the blanks Part (g): 375 × (147 × 903) = (375 × 147) ×",
             "hindi": "Fill in the blanks Part (g): 375 × (147 × 903) = (375 × 147) ×"
@@ -4085,8 +4402,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q01_h",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q01_h",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -4113,7 +4430,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q01_h_q1",
+          "id": "rsexch04ex10q01hq1",
           "prompt": {
             "english": "Fill in the blanks Part (h): ( ) × (1030 × 975) = (2460 × 1030) × 975",
             "hindi": "Fill in the blanks Part (h): ( ) × (1030 × 975) = (2460 × 1030) × 975"
@@ -4149,8 +4466,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q02_a",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q02_a",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -4177,7 +4494,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q02_a_q1",
+          "id": "rsexch04ex10q02aq1",
           "prompt": {
             "english": "Fill in the blanks Part (a): 2718 × 10 =",
             "hindi": "Fill in the blanks Part (a): 2718 × 10 ="
@@ -4213,8 +4530,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q02_b",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q02_b",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -4241,7 +4558,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q02_b_q1",
+          "id": "rsexch04ex10q02bq1",
           "prompt": {
             "english": "Fill in the blanks Part (b): 16875 × 10 =",
             "hindi": "Fill in the blanks Part (b): 16875 × 10 ="
@@ -4277,8 +4594,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q02_c",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q02_c",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -4305,7 +4622,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q02_c_q1",
+          "id": "rsexch04ex10q02cq1",
           "prompt": {
             "english": "Fill in the blanks Part (c): 3875 × 100 =",
             "hindi": "Fill in the blanks Part (c): 3875 × 100 ="
@@ -4341,8 +4658,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q02_d",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q02_d",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -4369,7 +4686,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q02_d_q1",
+          "id": "rsexch04ex10q02dq1",
           "prompt": {
             "english": "Fill in the blanks Part (d): 29272 × 100 =",
             "hindi": "Fill in the blanks Part (d): 29272 × 100 ="
@@ -4405,8 +4722,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q02_e",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q02_e",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -4433,7 +4750,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q02_e_q1",
+          "id": "rsexch04ex10q02eq1",
           "prompt": {
             "english": "Fill in the blanks Part (e): 6087 × 1000 =",
             "hindi": "Fill in the blanks Part (e): 6087 × 1000 ="
@@ -4469,8 +4786,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q02_f",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q02_f",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -4497,7 +4814,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q02_f_q1",
+          "id": "rsexch04ex10q02fq1",
           "prompt": {
             "english": "Fill in the blanks Part (f): 47385 × 1000 =",
             "hindi": "Fill in the blanks Part (f): 47385 × 1000 ="
@@ -4533,8 +4850,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q03",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q03",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -4561,7 +4878,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q03_q1",
+          "id": "rsexch04ex10q03_q1",
           "prompt": {
             "english": "Find the following products: 6540 × 50",
             "hindi": "Find the following products: 6540 × 50"
@@ -4597,8 +4914,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q04",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q04",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -4625,7 +4942,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q04_q1",
+          "id": "rsexch04ex10q04_q1",
           "prompt": {
             "english": "Find the following products: 9784 × 60",
             "hindi": "Find the following products: 9784 × 60"
@@ -4661,8 +4978,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q05",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q05",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -4689,7 +5006,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q05_q1",
+          "id": "rsexch04ex10q05_q1",
           "prompt": {
             "english": "Find the following products: 15235 × 70",
             "hindi": "Find the following products: 15235 × 70"
@@ -4725,8 +5042,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q06",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q06",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -4753,7 +5070,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q06_q1",
+          "id": "rsexch04ex10q06_q1",
           "prompt": {
             "english": "Find the following products: 7892 × 300",
             "hindi": "Find the following products: 7892 × 300"
@@ -4789,8 +5106,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q07",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q07",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -4817,7 +5134,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q07_q1",
+          "id": "rsexch04ex10q07_q1",
           "prompt": {
             "english": "Find the following products: 8986 × 700",
             "hindi": "Find the following products: 8986 × 700"
@@ -4853,8 +5170,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q08",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q08",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -4881,7 +5198,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q08_q1",
+          "id": "rsexch04ex10q08_q1",
           "prompt": {
             "english": "Find the following products: 26305 × 800",
             "hindi": "Find the following products: 26305 × 800"
@@ -4917,8 +5234,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q09",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q09",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -4945,7 +5262,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q09_q1",
+          "id": "rsexch04ex10q09_q1",
           "prompt": {
             "english": "Find the following products: 2981 × 4000",
             "hindi": "Find the following products: 2981 × 4000"
@@ -4981,8 +5298,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q10",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q10",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -5009,7 +5326,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q10_q1",
+          "id": "rsexch04ex10q10_q1",
           "prompt": {
             "english": "Find the following products: 7897 × 6000",
             "hindi": "Find the following products: 7897 × 6000"
@@ -5045,8 +5362,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q11",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q11",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -5073,7 +5390,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q11_q1",
+          "id": "rsexch04ex10q11_q1",
           "prompt": {
             "english": "Find the following products: 99999 × 2000 By using suitable grouping,",
             "hindi": "Find the following products: 99999 × 2000 By using suitable grouping,"
@@ -5109,8 +5426,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q12",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q12",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -5137,7 +5454,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q12_q1",
+          "id": "rsexch04ex10q12_q1",
           "prompt": {
             "english": "find the following products: 2 × 467 × 5",
             "hindi": "find the following products: 2 × 467 × 5"
@@ -5173,8 +5490,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q13",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q13",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -5201,7 +5518,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q13_q1",
+          "id": "rsexch04ex10q13_q1",
           "prompt": {
             "english": "find the following products: 5 × 1986 × 20",
             "hindi": "find the following products: 5 × 1986 × 20"
@@ -5237,8 +5554,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q14",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q14",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -5265,7 +5582,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q14_q1",
+          "id": "rsexch04ex10q14_q1",
           "prompt": {
             "english": "find the following products: 4 × 829 × 25",
             "hindi": "find the following products: 4 × 829 × 25"
@@ -5301,8 +5618,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q15",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q15",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -5329,7 +5646,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q15_q1",
+          "id": "rsexch04ex10q15_q1",
           "prompt": {
             "english": "find the following products: 4 × 248 × 125",
             "hindi": "find the following products: 4 × 248 × 125"
@@ -5365,8 +5682,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q16",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q16",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -5393,7 +5710,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q16_q1",
+          "id": "rsexch04ex10q16_q1",
           "prompt": {
             "english": "find the following products: 8 × 3472 × 125",
             "hindi": "find the following products: 8 × 3472 × 125"
@@ -5429,8 +5746,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex10_q17",
-      "sourceLessonId": "rs_exercise_ch04_ex10",
+      "id": "rsexch04ex10q17",
+      "sourceLessonId": "rsexercisech04_ex10",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -5457,7 +5774,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex10_q17_q1",
+          "id": "rsexch04ex10q17_q1",
           "prompt": {
             "english": "By using suitable grouping, find the product: 2 x 5726 x 500",
             "hindi": "By using suitable grouping, find the product: 2 x 5726 x 500"
@@ -5493,8 +5810,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q01",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q01",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -5521,7 +5838,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q01_q1",
+          "id": "rsexch04ex11q01_q1",
           "prompt": {
             "english": "Fill in the blanks. (a) 1485 × = 2346 × 1485 (b) 2947 × 4508 = 4508 × (c) 2772 × = 2772 (d) 4358 × = 0 (e) 35 × (100 + 37) = (35 × 100) + (35 × ) (f) 146 × (1000 + 48) = (146 × ) + (146 × ) (g) 375 × (147 × 903) = (375 × 147) × (h) ( ) × (1030 × 975) = (2460 × 1030) × 975",
             "hindi": "Fill in the blanks. (a) 1485 × = 2346 × 1485 (b) 2947 × 4508 = 4508 × (c) 2772 × = 2772 (d) 4358 × = 0 (e) 35 × (100 + 37) = (35 × 100) + (35 × ) (f) 146 × (1000 + 48) = (146 × ) + (146 × ) (g) 375 × (147 × 903) = (375 × 147) × (h) ( ) × (1030 × 975) = (2460 × 1030) × 975"
@@ -5557,8 +5874,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q02",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q02",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -5585,7 +5902,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q02_q1",
+          "id": "rsexch04ex11q02_q1",
           "prompt": {
             "english": "Fill in the blanks. (a) 2718 × 10 = (b) 16875 × 10 = (c) 3875 × 100 = (d) 29272 × 100 = (e) 6087 × 1000 = (f) 47385 × 1000 =",
             "hindi": "Fill in the blanks. (a) 2718 × 10 = (b) 16875 × 10 = (c) 3875 × 100 = (d) 29272 × 100 = (e) 6087 × 1000 = (f) 47385 × 1000 ="
@@ -5621,8 +5938,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q03",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q03",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -5649,7 +5966,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q03_q1",
+          "id": "rsexch04ex11q03_q1",
           "prompt": {
             "english": "Find the following products: 6540 × 50",
             "hindi": "Find the following products: 6540 × 50"
@@ -5685,8 +6002,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q04",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q04",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -5713,7 +6030,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q04_q1",
+          "id": "rsexch04ex11q04_q1",
           "prompt": {
             "english": "Find the following products: 9784 × 60",
             "hindi": "Find the following products: 9784 × 60"
@@ -5749,8 +6066,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q05",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q05",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -5777,7 +6094,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q05_q1",
+          "id": "rsexch04ex11q05_q1",
           "prompt": {
             "english": "Find the following products: 15235 × 70",
             "hindi": "Find the following products: 15235 × 70"
@@ -5813,8 +6130,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q06",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q06",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -5841,7 +6158,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q06_q1",
+          "id": "rsexch04ex11q06_q1",
           "prompt": {
             "english": "Find the following products: 7892 × 300",
             "hindi": "Find the following products: 7892 × 300"
@@ -5877,8 +6194,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q07",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q07",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -5905,7 +6222,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q07_q1",
+          "id": "rsexch04ex11q07_q1",
           "prompt": {
             "english": "Find the following products: 8986 × 700",
             "hindi": "Find the following products: 8986 × 700"
@@ -5941,8 +6258,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q08",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q08",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -5969,7 +6286,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q08_q1",
+          "id": "rsexch04ex11q08_q1",
           "prompt": {
             "english": "Find the following products: 26305 × 800",
             "hindi": "Find the following products: 26305 × 800"
@@ -6005,8 +6322,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q09",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q09",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -6033,7 +6350,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q09_q1",
+          "id": "rsexch04ex11q09_q1",
           "prompt": {
             "english": "Find the following products: 2981 × 4000",
             "hindi": "Find the following products: 2981 × 4000"
@@ -6069,8 +6386,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q10",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q10",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -6097,7 +6414,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q10_q1",
+          "id": "rsexch04ex11q10_q1",
           "prompt": {
             "english": "Find the following products: 7897 × 6000",
             "hindi": "Find the following products: 7897 × 6000"
@@ -6133,8 +6450,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q11",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q11",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -6161,7 +6478,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q11_q1",
+          "id": "rsexch04ex11q11_q1",
           "prompt": {
             "english": "Find the following products: 99999 × 2000 By using suitable grouping,",
             "hindi": "Find the following products: 99999 × 2000 By using suitable grouping,"
@@ -6197,8 +6514,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q12",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q12",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -6225,7 +6542,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q12_q1",
+          "id": "rsexch04ex11q12_q1",
           "prompt": {
             "english": "find the following products: 2 × 467 × 5",
             "hindi": "find the following products: 2 × 467 × 5"
@@ -6261,8 +6578,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q13",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q13",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -6289,7 +6606,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q13_q1",
+          "id": "rsexch04ex11q13_q1",
           "prompt": {
             "english": "Multiply: 10654 by 875",
             "hindi": "Multiply: 10654 by 875"
@@ -6325,8 +6642,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q14",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q14",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -6353,7 +6670,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q14_q1",
+          "id": "rsexch04ex11q14_q1",
           "prompt": {
             "english": "Multiply: 14567 by 1065",
             "hindi": "Multiply: 14567 by 1065"
@@ -6389,8 +6706,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q15",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q15",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -6417,7 +6734,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q15_q1",
+          "id": "rsexch04ex11q15_q1",
           "prompt": {
             "english": "Multiply: 8985 by 1789",
             "hindi": "Multiply: 8985 by 1789"
@@ -6453,8 +6770,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q16",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q16",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -6481,7 +6798,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q16_q1",
+          "id": "rsexch04ex11q16_q1",
           "prompt": {
             "english": "Multiply: 10023 by 1034",
             "hindi": "Multiply: 10023 by 1034"
@@ -6517,8 +6834,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q17",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q17",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -6545,7 +6862,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q17_q1",
+          "id": "rsexch04ex11q17_q1",
           "prompt": {
             "english": "Multiply: 20185 by 1648",
             "hindi": "Multiply: 20185 by 1648"
@@ -6581,8 +6898,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex11_q18",
-      "sourceLessonId": "rs_exercise_ch04_ex11",
+      "id": "rsexch04ex11q18",
+      "sourceLessonId": "rsexercisech04_ex11",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -6609,7 +6926,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex11_q18_q1",
+          "id": "rsexch04ex11q18_q1",
           "prompt": {
             "english": "Multiply: 15487 by 1526",
             "hindi": "Multiply: 15487 by 1526"
@@ -6645,8 +6962,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex12_q01",
-      "sourceLessonId": "rs_exercise_ch04_ex12",
+      "id": "rsexch04ex12q01",
+      "sourceLessonId": "rsexercisech04_ex12",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -6673,7 +6990,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex12_q01_q1",
+          "id": "rsexch04ex12q01_q1",
           "prompt": {
             "english": "The cost of a scooter is Rs 36453. Find the cost of 270 scooters",
             "hindi": "The cost of a scooter is Rs 36453. Find the cost of 270 scooters"
@@ -6710,8 +7027,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex12_q02",
-      "sourceLessonId": "rs_exercise_ch04_ex12",
+      "id": "rsexch04ex12q02",
+      "sourceLessonId": "rsexercisech04_ex12",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -6738,7 +7055,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex12_q02_q1",
+          "id": "rsexch04ex12q02_q1",
           "prompt": {
             "english": "The cost of a bicycle is Rs 2895. Find the cost of 1486 bicycles",
             "hindi": "The cost of a bicycle is Rs 2895. Find the cost of 1486 bicycles"
@@ -6775,8 +7092,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex12_q03",
-      "sourceLessonId": "rs_exercise_ch04_ex12",
+      "id": "rsexch04ex12q03",
+      "sourceLessonId": "rsexercisech04_ex12",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -6803,7 +7120,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex12_q03_q1",
+          "id": "rsexch04ex12q03_q1",
           "prompt": {
             "english": "A truck can carry 6785 kg of goods. How much can 759 trucks carry?",
             "hindi": "A truck can carry 6785 kg of goods. How much can 759 trucks carry?"
@@ -6840,8 +7157,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex12_q04",
-      "sourceLessonId": "rs_exercise_ch04_ex12",
+      "id": "rsexch04ex12q04",
+      "sourceLessonId": "rsexercisech04_ex12",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -6868,7 +7185,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex12_q04_q1",
+          "id": "rsexch04ex12q04_q1",
           "prompt": {
             "english": "1475 such cartons?: There are 1483 bags of wheat in a godown. If each bag weighs 108 kg,",
             "hindi": "1475 such cartons?: There are 1483 bags of wheat in a godown. If each bag weighs 108 kg,"
@@ -6905,8 +7222,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex12_q05",
-      "sourceLessonId": "rs_exercise_ch04_ex12",
+      "id": "rsexch04ex12q05",
+      "sourceLessonId": "rsexercisech04_ex12",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -6933,7 +7250,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex12_q05_q1",
+          "id": "rsexch04ex12q05_q1",
           "prompt": {
             "english": "A cloth mill produces 3746 metres of cloth in a day. How much cloth will it produce in 286 days?",
             "hindi": "A cloth mill produces 3746 metres of cloth in a day. How much cloth will it produce in 286 days?"
@@ -6970,8 +7287,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex12_q06",
-      "sourceLessonId": "rs_exercise_ch04_ex12",
+      "id": "rsexch04ex12q06",
+      "sourceLessonId": "rsexercisech04_ex12",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -6998,7 +7315,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex12_q06_q1",
+          "id": "rsexch04ex12q06_q1",
           "prompt": {
             "english": "A box contains 2748 pencils. How many pencils are there in 1674 such boxes?",
             "hindi": "A box contains 2748 pencils. How many pencils are there in 1674 such boxes?"
@@ -7034,8 +7351,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex12_q07",
-      "sourceLessonId": "rs_exercise_ch04_ex12",
+      "id": "rsexch04ex12q07",
+      "sourceLessonId": "rsexercisech04_ex12",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -7062,7 +7379,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex12_q07_q1",
+          "id": "rsexch04ex12q07_q1",
           "prompt": {
             "english": "A bundle of rope measures 548 metres. How much rope will be there in 2367 such bundles?",
             "hindi": "A bundle of rope measures 548 metres. How much rope will be there in 2367 such bundles?"
@@ -7099,8 +7416,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex12_q08",
-      "sourceLessonId": "rs_exercise_ch04_ex12",
+      "id": "rsexch04ex12q08",
+      "sourceLessonId": "rsexercisech04_ex12",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -7127,7 +7444,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex12_q08_q1",
+          "id": "rsexch04ex12q08_q1",
           "prompt": {
             "english": "There are 1869 students on the rolls of a school. If each student pays Rs 27650 as fees annually, how much money is collected in a year?",
             "hindi": "There are 1869 students on the rolls of a school. If each student pays Rs 27650 as fees annually, how much money is collected in a year?"
@@ -7164,8 +7481,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex12_q09",
-      "sourceLessonId": "rs_exercise_ch04_ex12",
+      "id": "rsexch04ex12q09",
+      "sourceLessonId": "rsexercisech04_ex12",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -7192,7 +7509,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex12_q09_q1",
+          "id": "rsexch04ex12q09_q1",
           "prompt": {
             "english": "A newspaper contains 124 columns. Each column contains 136 lines. Each line has 36 letters. How many letters are there in the newspaper? Find the continued product",
             "hindi": "A newspaper contains 124 columns. Each column contains 136 lines. Each line has 36 letters. How many letters are there in the newspaper? Find the continued product"
@@ -7228,8 +7545,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex12_q10",
-      "sourceLessonId": "rs_exercise_ch04_ex12",
+      "id": "rsexch04ex12q10",
+      "sourceLessonId": "rsexercisech04_ex12",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -7256,7 +7573,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex12_q10_q1",
+          "id": "rsexch04ex12q10_q1",
           "prompt": {
             "english": "find the total weight of these bags: 628 × 537 × 96",
             "hindi": "find the total weight of these bags: 628 × 537 × 96"
@@ -7292,8 +7609,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex12_q11",
-      "sourceLessonId": "rs_exercise_ch04_ex12",
+      "id": "rsexch04ex12q11",
+      "sourceLessonId": "rsexercisech04_ex12",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -7320,7 +7637,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex12_q11_q1",
+          "id": "rsexch04ex12q11_q1",
           "prompt": {
             "english": "Find the following products: 12",
             "hindi": "Find the following products: 12"
@@ -7356,8 +7673,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q01",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q01",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -7384,7 +7701,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q01_q1",
+          "id": "rsexch04ex13q01_q1",
           "prompt": {
             "english": "Divide and find the quotient and remainder: 83254 ÷ 58",
             "hindi": "Divide and find the quotient and remainder: 83254 ÷ 58"
@@ -7420,8 +7737,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q02",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q02",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -7448,7 +7765,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q02_q1",
+          "id": "rsexch04ex13q02_q1",
           "prompt": {
             "english": "Divide and find the quotient and remainder: 547802 ÷ 97",
             "hindi": "Divide and find the quotient and remainder: 547802 ÷ 97"
@@ -7484,8 +7801,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q03",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q03",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -7512,7 +7829,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q03_q1",
+          "id": "rsexch04ex13q03_q1",
           "prompt": {
             "english": "Divide and find the quotient and remainder: 673900 ÷ 86",
             "hindi": "Divide and find the quotient and remainder: 673900 ÷ 86"
@@ -7548,8 +7865,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q04",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q04",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -7576,7 +7893,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q04_q1",
+          "id": "rsexch04ex13q04_q1",
           "prompt": {
             "english": "Divide and find the quotient and remainder: 333624 ÷ 137",
             "hindi": "Divide and find the quotient and remainder: 333624 ÷ 137"
@@ -7612,8 +7929,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q05",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q05",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -7640,7 +7957,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q05_q1",
+          "id": "rsexch04ex13q05_q1",
           "prompt": {
             "english": "Divide and find the quotient and remainder: 598613 ÷ 243",
             "hindi": "Divide and find the quotient and remainder: 598613 ÷ 243"
@@ -7676,8 +7993,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q06",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q06",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -7704,7 +8021,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q06_q1",
+          "id": "rsexch04ex13q06_q1",
           "prompt": {
             "english": "Divide and find the quotient and remainder: 1808016 ÷ 359",
             "hindi": "Divide and find the quotient and remainder: 1808016 ÷ 359"
@@ -7740,8 +8057,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q07",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q07",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -7768,7 +8085,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q07_q1",
+          "id": "rsexch04ex13q07_q1",
           "prompt": {
             "english": "Divide and find the quotient and remainder: 2265737 ÷ 479",
             "hindi": "Divide and find the quotient and remainder: 2265737 ÷ 479"
@@ -7804,8 +8121,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q08",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q08",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -7832,7 +8149,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q08_q1",
+          "id": "rsexch04ex13q08_q1",
           "prompt": {
             "english": "Divide and find the quotient and remainder: 5419307 ÷ 396",
             "hindi": "Divide and find the quotient and remainder: 5419307 ÷ 396"
@@ -7868,8 +8185,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q09",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q09",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -7896,7 +8213,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q09_q1",
+          "id": "rsexch04ex13q09_q1",
           "prompt": {
             "english": "Divide and find the quotient and remainder: 8670863 ÷ 561",
             "hindi": "Divide and find the quotient and remainder: 8670863 ÷ 561"
@@ -7932,8 +8249,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q10",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q10",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -7960,7 +8277,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q10_q1",
+          "id": "rsexch04ex13q10_q1",
           "prompt": {
             "english": "Divide and find the quotient and remainder: 9362596 ÷ 594",
             "hindi": "Divide and find the quotient and remainder: 9362596 ÷ 594"
@@ -7996,8 +8313,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q11",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q11",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -8024,7 +8341,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q11_q1",
+          "id": "rsexch04ex13q11_q1",
           "prompt": {
             "english": "Divide and find the quotient and remainder: 6932570 ÷ 642",
             "hindi": "Divide and find the quotient and remainder: 6932570 ÷ 642"
@@ -8060,8 +8377,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q12",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q12",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -8088,7 +8405,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q12_q1",
+          "id": "rsexch04ex13q12_q1",
           "prompt": {
             "english": "Divide and find the quotient and remainder: 9736215 ÷ 937",
             "hindi": "Divide and find the quotient and remainder: 9736215 ÷ 937"
@@ -8124,8 +8441,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q13",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q13",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -8152,7 +8469,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q13_q1",
+          "id": "rsexch04ex13q13_q1",
           "prompt": {
             "english": "Divide and find the quotient and remainder: 8203015 ÷ 798",
             "hindi": "Divide and find the quotient and remainder: 8203015 ÷ 798"
@@ -8188,8 +8505,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q14",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q14",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -8216,7 +8533,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q14_q1",
+          "id": "rsexch04ex13q14_q1",
           "prompt": {
             "english": "Divide and find the quotient and remainder: 11911100 ÷ 697",
             "hindi": "Divide and find the quotient and remainder: 11911100 ÷ 697"
@@ -8252,8 +8569,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q15",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q15",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -8280,7 +8597,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q15_q1",
+          "id": "rsexch04ex13q15_q1",
           "prompt": {
             "english": "Divide and find the quotient and remainder: 12340560 ÷ 971",
             "hindi": "Divide and find the quotient and remainder: 12340560 ÷ 971"
@@ -8316,8 +8633,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q16",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q16",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -8344,7 +8661,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q16_q1",
+          "id": "rsexch04ex13q16_q1",
           "prompt": {
             "english": "Find the dividend when: Divisor = 187, Quotient = 3078, Remainder = 96",
             "hindi": "Find the dividend when: Divisor = 187, Quotient = 3078, Remainder = 96"
@@ -8380,8 +8697,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q17",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q17",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -8408,7 +8725,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q17_q1",
+          "id": "rsexch04ex13q17_q1",
           "prompt": {
             "english": "Find the dividend when: Divisor = 429, Quotient = 5237, Remainder = 248",
             "hindi": "Find the dividend when: Divisor = 429, Quotient = 5237, Remainder = 248"
@@ -8444,8 +8761,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q18",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q18",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -8472,7 +8789,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q18_q1",
+          "id": "rsexch04ex13q18_q1",
           "prompt": {
             "english": "Find the quotient and the remainder when the largest 7-digit number is divided by the largest 3-digit number",
             "hindi": "Find the quotient and the remainder when the largest 7-digit number is divided by the largest 3-digit number"
@@ -8508,8 +8825,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex13_q19",
-      "sourceLessonId": "rs_exercise_ch04_ex13",
+      "id": "rsexch04ex13q19",
+      "sourceLessonId": "rsexercisech04_ex13",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -8536,7 +8853,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex13_q19_q1",
+          "id": "rsexch04ex13q19_q1",
           "prompt": {
             "english": "Find the quotient and the remainder when the smallest 8-digit number is divided by the largest 2-digit number. Word Problems on Division",
             "hindi": "Find the quotient and the remainder when the smallest 8-digit number is divided by the largest 2-digit number. Word Problems on Division"
@@ -8572,8 +8889,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex14_q01",
-      "sourceLessonId": "rs_exercise_ch04_ex14",
+      "id": "rsexch04ex14q01",
+      "sourceLessonId": "rsexercisech04_ex14",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -8600,7 +8917,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex14_q01_q1",
+          "id": "rsexch04ex14q01_q1",
           "prompt": {
             "english": "A carton can hold 275 screws. How many cartons are required to pack 4426125 screws?",
             "hindi": "A carton can hold 275 screws. How many cartons are required to pack 4426125 screws?"
@@ -8636,8 +8953,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex14_q02",
-      "sourceLessonId": "rs_exercise_ch04_ex14",
+      "id": "rsexch04ex14q02",
+      "sourceLessonId": "rsexercisech04_ex14",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -8664,7 +8981,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex14_q02_q1",
+          "id": "rsexch04ex14q02_q1",
           "prompt": {
             "english": "7359105 pencils are packed equally in 845 boxes. How many pencils are packed in one box?",
             "hindi": "7359105 pencils are packed equally in 845 boxes. How many pencils are packed in one box?"
@@ -8700,8 +9017,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex14_q03",
-      "sourceLessonId": "rs_exercise_ch04_ex14",
+      "id": "rsexch04ex14q03",
+      "sourceLessonId": "rsexercisech04_ex14",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -8728,7 +9045,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex14_q03_q1",
+          "id": "rsexch04ex14q03_q1",
           "prompt": {
             "english": "The cost of 347 radios is Rs 1664212. What is the cost of one radio?",
             "hindi": "The cost of 347 radios is Rs 1664212. What is the cost of one radio?"
@@ -8765,8 +9082,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex14_q04",
-      "sourceLessonId": "rs_exercise_ch04_ex14",
+      "id": "rsexch04ex14q04",
+      "sourceLessonId": "rsexercisech04_ex14",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -8793,7 +9110,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex14_q04_q1",
+          "id": "rsexch04ex14q04_q1",
           "prompt": {
             "english": "The cost of 736 quintals of wheat is Rs 1214400. Find the cost of one quintal of wheat",
             "hindi": "The cost of 736 quintals of wheat is Rs 1214400. Find the cost of one quintal of wheat"
@@ -8830,8 +9147,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex14_q05",
-      "sourceLessonId": "rs_exercise_ch04_ex14",
+      "id": "rsexch04ex14q05",
+      "sourceLessonId": "rsexercisech04_ex14",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -8858,7 +9175,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex14_q05_q1",
+          "id": "rsexch04ex14q05_q1",
           "prompt": {
             "english": "249 trucks can carry 1711875 kg weight. How much weight can be carried by one truck?",
             "hindi": "249 trucks can carry 1711875 kg weight. How much weight can be carried by one truck?"
@@ -8895,8 +9212,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex14_q06",
-      "sourceLessonId": "rs_exercise_ch04_ex14",
+      "id": "rsexch04ex14q06",
+      "sourceLessonId": "rsexercisech04_ex14",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -8923,7 +9240,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex14_q06_q1",
+          "id": "rsexch04ex14q06_q1",
           "prompt": {
             "english": "187 water tanks of the same capacity can hold 1323025 litres of water. What is the capacity of each tank?",
             "hindi": "187 water tanks of the same capacity can hold 1323025 litres of water. What is the capacity of each tank?"
@@ -8960,8 +9277,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex14_q07",
-      "sourceLessonId": "rs_exercise_ch04_ex14",
+      "id": "rsexch04ex14q07",
+      "sourceLessonId": "rsexercisech04_ex14",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -8988,7 +9305,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex14_q07_q1",
+          "id": "rsexch04ex14q07_q1",
           "prompt": {
             "english": "A calculator costs Rs 845. A shopkeeper collected Rs 742755 by selling the calculators in one month. How many calculators did he sell in one month?",
             "hindi": "A calculator costs Rs 845. A shopkeeper collected Rs 742755 by selling the calculators in one month. How many calculators did he sell in one month?"
@@ -9024,8 +9341,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex14_q08",
-      "sourceLessonId": "rs_exercise_ch04_ex14",
+      "id": "rsexch04ex14q08",
+      "sourceLessonId": "rsexercisech04_ex14",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -9052,7 +9369,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex14_q08_q1",
+          "id": "rsexch04ex14q08_q1",
           "prompt": {
             "english": "669375 books are to be arranged equally in shelves. If 375 books are arranged in each shelf, how many shelves will be needed?",
             "hindi": "669375 books are to be arranged equally in shelves. If 375 books are arranged in each shelf, how many shelves will be needed?"
@@ -9088,8 +9405,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex14_q09",
-      "sourceLessonId": "rs_exercise_ch04_ex14",
+      "id": "rsexch04ex14q09",
+      "sourceLessonId": "rsexercisech04_ex14",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -9116,7 +9433,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex14_q09_q1",
+          "id": "rsexch04ex14q09_q1",
           "prompt": {
             "english": "950589 persons visited Appu Ghar in 327 days. How many persons on an average visited Appu Ghar in one day?",
             "hindi": "950589 persons visited Appu Ghar in 327 days. How many persons on an average visited Appu Ghar in one day?"
@@ -9152,8 +9469,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex14_q10",
-      "sourceLessonId": "rs_exercise_ch04_ex14",
+      "id": "rsexch04ex14q10",
+      "sourceLessonId": "rsexercisech04_ex14",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -9180,7 +9497,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex14_q10_q1",
+          "id": "rsexch04ex14q10_q1",
           "prompt": {
             "english": "1633500 metres of wire is to be packed in bundles. If each bundle contains 182 metres of wire, how many bundles will be made and how much wire will remain unpacked?",
             "hindi": "1633500 metres of wire is to be packed in bundles. If each bundle contains 182 metres of wire, how many bundles will be made and how much wire will remain unpacked?"
@@ -9217,8 +9534,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch04_ex14_q11",
-      "sourceLessonId": "rs_exercise_ch04_ex14",
+      "id": "rsexch04ex14q11",
+      "sourceLessonId": "rsexercisech04_ex14",
       "chapterNumber": 4,
       "chapterTitle": {
         "english": "Operations on Large Numbers",
@@ -9245,7 +9562,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch04_ex14_q11_q1",
+          "id": "rsexch04ex14q11_q1",
           "prompt": {
             "english": "The product of two numbers is 1785483. If one of the numbers is 987, what is the other number?",
             "hindi": "The product of two numbers is 1785483. If one of the numbers is 987, what is the other number?"

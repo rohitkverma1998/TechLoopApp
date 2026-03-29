@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch05_numerical_expressions",
+      "id": "rsch05numerical_expressions",
       "sourceLessonId": "rs_ch05",
       "chapterNumber": 5,
       "chapterTitle": {
@@ -29,12 +29,34 @@
         "english": "Numerical Expressions",
         "hindi": "संख्यात्मक व्यंजक"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "A **numerical expression** is a combination of numbers and operations (+, -, ×, ÷). To simplify means to evaluate and find the single value.",
+          "hindi": "**संख्यात्मक व्यंजक** संख्याओं और क्रियाओं (+, -, ×, ÷) का संयोजन है।"
+        },
+        {
+          "english": "**BODMAS / Order of Operations:**\nWe must follow this order:\n1. **B** — Brackets (solve what's inside brackets first)\n2. **O** — Of (powers or \"of\")\n3. **D** — Division\n4. **M** — Multiplication\n5. **A** — Addition\n6. **S** — Subtraction",
+          "hindi": "**BODMAS नियम (संक्रिया का क्रम):**\n1. **B** — कोष्ठक (Brackets)\n2. **O** — का (Of)\n3. **D** — भाग (Division)\n4. **M** — गुणा (Multiplication)\n5. **A** — जोड़ (Addition)\n6. **S** — घटाव (Subtraction)"
+        },
+        {
+          "english": "**Key Rule:** Multiplication and Division BEFORE Addition and Subtraction.",
+          "hindi": "**मुख्य नियम:** जोड़-घटाव से पहले गुणा-भाग करें।"
+        },
+        {
+          "english": "**Example:** 15 + 6 × 4\n- First: 6 × 4 = 24 (Multiplication first!)\n- Then: 15 + 24 = **39**\n- (Do NOT do 15+6=21 first — that gives the wrong answer 84!)",
+          "hindi": "**उदाहरण:** 15 + 6 × 4\n- पहले: 6 × 4 = 24\n- फिर: 15 + 24 = **39**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** 15 + 6 × 4\n- First: 6 × 4 = 24 (Multiplication first!)\n- Then: 15 + 24 = **39**\n- (Do NOT do 15+6=21 first — that gives the wrong answer 84!)",
+          "hindi": "**उदाहरण:** 15 + 6 × 4\n- पहले: 6 × 4 = 24\n- फिर: 15 + 24 = **39**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "numerical_expressions_q1",
+          "id": "numericalexpressionsq1",
           "prompt": {
             "english": "Simplify: 15 + 6 × 4.",
             "hindi": "सरल कीजिए: 15 + 6 × 4।"
@@ -46,11 +68,33 @@
             "39"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Apply BODMAS — Multiplication before Addition.\n- 6 × 4 = 24\n\nStep 2: Now add.\n- 15 + 24 = **39**\n\n**Answer: 39**",
+            "hindi": "चरण 1: BODMAS — पहले गुणा।\n- 6 × 4 = 24\n\nचरण 2: फिर जोड़।\n- 15 + 24 = **39**\n\n**उत्तर: 39**"
+          },
+          "supportExample": {
+            "english": "Step 1: Apply BODMAS — Multiplication before Addition.\n- 6 × 4 = 24\nStep 2: Now add.\n- 15 + 24 = **39**",
+            "hindi": "चरण 1: BODMAS — पहले गुणा।\n- 6 × 4 = 24\nचरण 2: फिर जोड़।\n- 15 + 24 = **39**"
+          },
           "mistakeType": "OPERATION_LINK",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Apply BODMAS — Multiplication before Addition.\n- 6 × 4 = 24",
+              "hindi": "चरण 1: BODMAS — पहले गुणा।\n- 6 × 4 = 24"
+            },
+            {
+              "english": "Step 2: Now add.\n- 15 + 24 = **39**",
+              "hindi": "चरण 2: फिर जोड़।\n- 15 + 24 = **39**"
+            },
+            {
+              "english": "**Answer: 39**",
+              "hindi": "**उत्तर: 39**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -66,7 +110,7 @@
       "mistakeFocus": "OPERATION_LINK"
     },
     {
-      "id": "rs_ch05_use_of_brackets",
+      "id": "rsch05useofbrackets",
       "sourceLessonId": "rs_ch05",
       "chapterNumber": 5,
       "chapterTitle": {
@@ -89,12 +133,22 @@
         "english": "Use of Brackets",
         "hindi": "कोष्ठकों का उपयोग"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "Brackets ( ) tell us to solve what's inside FIRST, before doing other operations outside.\n\n**Example:** (18 + 6) ÷ 3\n- Step 1: Solve bracket: 18 + 6 = 24\n- Step 2: Divide: 24 ÷ 3 = **8**\n\nWithout brackets: 18 + 6 ÷ 3 = 18 + 2 = 20 (different answer!)\n\nSo brackets **change** the order of operations!",
+          "hindi": "कोष्ठक ( ) हमें पहले अंदर की क्रिया हल करने का निर्देश देते हैं।\n\n**उदाहरण:** (18 + 6) ÷ 3\n- चरण 1: कोष्ठक: 18 + 6 = 24\n- चरण 2: भाग: 24 ÷ 3 = **8**\n\nकोष्ठक के बिना: 18 + 6 ÷ 3 = 18 + 2 = 20 (अलग उत्तर!)"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** (18 + 6) ÷ 3\n- Step 1: Solve bracket: 18 + 6 = 24\n- Step 2: Divide: 24 ÷ 3 = **8**",
+          "hindi": "**उदाहरण:** (18 + 6) ÷ 3\n- चरण 1: कोष्ठक: 18 + 6 = 24\n- चरण 2: भाग: 24 ÷ 3 = **8**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "use_of_brackets_q1",
+          "id": "useofbrackets_q1",
           "prompt": {
             "english": "Simplify: (18 + 6) ÷ 3.",
             "hindi": "सरल कीजिए: (18 + 6) ÷ 3।"
@@ -106,11 +160,33 @@
             "8"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Solve the bracket first.\n- 18 + 6 = 24\n\nStep 2: Now divide.\n- 24 ÷ 3 = **8**\n\n**Answer: 8**",
+            "hindi": "चरण 1: पहले कोष्ठक हल करें।\n- 18 + 6 = 24\n\nचरण 2: भाग करें।\n- 24 ÷ 3 = **8**\n\n**उत्तर: 8**"
+          },
+          "supportExample": {
+            "english": "Step 1: Solve the bracket first.\n- 18 + 6 = 24\nStep 2: Now divide.\n- 24 ÷ 3 = **8**",
+            "hindi": "चरण 1: पहले कोष्ठक हल करें।\n- 18 + 6 = 24\nचरण 2: भाग करें।\n- 24 ÷ 3 = **8**"
+          },
           "mistakeType": "OPERATION_LINK",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Solve the bracket first.\n- 18 + 6 = 24",
+              "hindi": "चरण 1: पहले कोष्ठक हल करें।\n- 18 + 6 = 24"
+            },
+            {
+              "english": "Step 2: Now divide.\n- 24 ÷ 3 = **8**",
+              "hindi": "चरण 2: भाग करें।\n- 24 ÷ 3 = **8**"
+            },
+            {
+              "english": "**Answer: 8**",
+              "hindi": "**उत्तर: 8**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -126,8 +202,8 @@
       "mistakeFocus": "OPERATION_LINK"
     },
     {
-      "id": "rs_ex_ch05_ex15_q01",
-      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "id": "rsexch05ex15q01",
+      "sourceLessonId": "rsexercisech05_ex15",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -154,7 +230,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex15_q01_q1",
+          "id": "rsexch05ex15q01_q1",
           "prompt": {
             "english": "Simplify: 12 + 9 ÷ 3",
             "hindi": "Simplify: 12 + 9 ÷ 3"
@@ -190,8 +266,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex15_q02",
-      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "id": "rsexch05ex15q02",
+      "sourceLessonId": "rsexercisech05_ex15",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -218,7 +294,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex15_q02_q1",
+          "id": "rsexch05ex15q02_q1",
           "prompt": {
             "english": "Simplify: 16 × 8 ÷ 4",
             "hindi": "Simplify: 16 × 8 ÷ 4"
@@ -254,8 +330,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex15_q03",
-      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "id": "rsexch05ex15q03",
+      "sourceLessonId": "rsexercisech05_ex15",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -282,7 +358,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex15_q03_q1",
+          "id": "rsexch05ex15q03_q1",
           "prompt": {
             "english": "Simplify: 23 – 8 × 2",
             "hindi": "Simplify: 23 – 8 × 2"
@@ -318,8 +394,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex15_q04",
-      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "id": "rsexch05ex15q04",
+      "sourceLessonId": "rsexercisech05_ex15",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -346,7 +422,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex15_q04_q1",
+          "id": "rsexch05ex15q04_q1",
           "prompt": {
             "english": "Simplify: 32 ÷ 8 + 4 × 6 – 2",
             "hindi": "Simplify: 32 ÷ 8 + 4 × 6 – 2"
@@ -382,8 +458,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex15_q05",
-      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "id": "rsexch05ex15q05",
+      "sourceLessonId": "rsexercisech05_ex15",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -410,7 +486,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex15_q05_q1",
+          "id": "rsexch05ex15q05_q1",
           "prompt": {
             "english": "Simplify: 100 – 72 ÷ 8 + 4 × 3",
             "hindi": "Simplify: 100 – 72 ÷ 8 + 4 × 3"
@@ -446,8 +522,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex15_q06",
-      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "id": "rsexch05ex15q06",
+      "sourceLessonId": "rsexercisech05_ex15",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -474,7 +550,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex15_q06_q1",
+          "id": "rsexch05ex15q06_q1",
           "prompt": {
             "english": "Simplify: 30 + 75 ÷ 15 × 4 – 18",
             "hindi": "Simplify: 30 + 75 ÷ 15 × 4 – 18"
@@ -510,8 +586,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex15_q07",
-      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "id": "rsexch05ex15q07",
+      "sourceLessonId": "rsexercisech05_ex15",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -538,7 +614,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex15_q07_q1",
+          "id": "rsexch05ex15q07_q1",
           "prompt": {
             "english": "Simplify: 8 × 6 + 24 ÷ 6 – 18",
             "hindi": "Simplify: 8 × 6 + 24 ÷ 6 – 18"
@@ -574,8 +650,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex15_q08",
-      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "id": "rsexch05ex15q08",
+      "sourceLessonId": "rsexercisech05_ex15",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -602,7 +678,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex15_q08_q1",
+          "id": "rsexch05ex15q08_q1",
           "prompt": {
             "english": "Simplify: 56 – 36 ÷ 4 × 2 + 7",
             "hindi": "Simplify: 56 – 36 ÷ 4 × 2 + 7"
@@ -638,8 +714,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex15_q09",
-      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "id": "rsexch05ex15q09",
+      "sourceLessonId": "rsexercisech05_ex15",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -666,7 +742,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex15_q09_q1",
+          "id": "rsexch05ex15q09_q1",
           "prompt": {
             "english": "Simplify: 56 ÷ 14 × 3 – 10 ÷ 5 + 1",
             "hindi": "Simplify: 56 ÷ 14 × 3 – 10 ÷ 5 + 1"
@@ -702,8 +778,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex15_q10",
-      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "id": "rsexch05ex15q10",
+      "sourceLessonId": "rsexercisech05_ex15",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -730,7 +806,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex15_q10_q1",
+          "id": "rsexch05ex15q10_q1",
           "prompt": {
             "english": "Simplify: 198 – 42 × 15 ÷ 5 + 6",
             "hindi": "Simplify: 198 – 42 × 15 ÷ 5 + 6"
@@ -766,8 +842,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex15_q11",
-      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "id": "rsexch05ex15q11",
+      "sourceLessonId": "rsexercisech05_ex15",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -794,7 +870,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex15_q11_q1",
+          "id": "rsexch05ex15q11_q1",
           "prompt": {
             "english": "Simplify: 105 × 14 ÷ 7 + 6 – 1",
             "hindi": "Simplify: 105 × 14 ÷ 7 + 6 – 1"
@@ -830,8 +906,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex15_q12",
-      "sourceLessonId": "rs_exercise_ch05_ex15",
+      "id": "rsexch05ex15q12",
+      "sourceLessonId": "rsexercisech05_ex15",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -858,7 +934,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex15_q12_q1",
+          "id": "rsexch05ex15q12_q1",
           "prompt": {
             "english": "Simplify: 17 + 34 ÷ 17 × 5 – 20",
             "hindi": "Simplify: 17 + 34 ÷ 17 × 5 – 20"
@@ -894,8 +970,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex16_q01",
-      "sourceLessonId": "rs_exercise_ch05_ex16",
+      "id": "rsexch05ex16q01",
+      "sourceLessonId": "rsexercisech05_ex16",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -922,7 +998,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex16_q01_q1",
+          "id": "rsexch05ex16q01_q1",
           "prompt": {
             "english": "Simplify: 12 + 9 ÷ 3",
             "hindi": "Simplify: 12 + 9 ÷ 3"
@@ -958,8 +1034,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex16_q02",
-      "sourceLessonId": "rs_exercise_ch05_ex16",
+      "id": "rsexch05ex16q02",
+      "sourceLessonId": "rsexercisech05_ex16",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -986,7 +1062,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex16_q02_q1",
+          "id": "rsexch05ex16q02_q1",
           "prompt": {
             "english": "Simplify: 16 × 8 ÷ 4",
             "hindi": "Simplify: 16 × 8 ÷ 4"
@@ -1022,8 +1098,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex16_q03",
-      "sourceLessonId": "rs_exercise_ch05_ex16",
+      "id": "rsexch05ex16q03",
+      "sourceLessonId": "rsexercisech05_ex16",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -1050,7 +1126,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex16_q03_q1",
+          "id": "rsexch05ex16q03_q1",
           "prompt": {
             "english": "Simplify: 23 – 8 × 2",
             "hindi": "Simplify: 23 – 8 × 2"
@@ -1086,8 +1162,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex16_q04",
-      "sourceLessonId": "rs_exercise_ch05_ex16",
+      "id": "rsexch05ex16q04",
+      "sourceLessonId": "rsexercisech05_ex16",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -1114,7 +1190,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex16_q04_q1",
+          "id": "rsexch05ex16q04_q1",
           "prompt": {
             "english": "Simplify: 32 ÷ 8 + 4 × 6 – 2",
             "hindi": "Simplify: 32 ÷ 8 + 4 × 6 – 2"
@@ -1150,8 +1226,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex16_q05",
-      "sourceLessonId": "rs_exercise_ch05_ex16",
+      "id": "rsexch05ex16q05",
+      "sourceLessonId": "rsexercisech05_ex16",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -1178,7 +1254,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex16_q05_q1",
+          "id": "rsexch05ex16q05_q1",
           "prompt": {
             "english": "Simplify: 100 – 72 ÷ 8 + 4 × 3",
             "hindi": "Simplify: 100 – 72 ÷ 8 + 4 × 3"
@@ -1214,8 +1290,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex16_q06",
-      "sourceLessonId": "rs_exercise_ch05_ex16",
+      "id": "rsexch05ex16q06",
+      "sourceLessonId": "rsexercisech05_ex16",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -1242,7 +1318,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex16_q06_q1",
+          "id": "rsexch05ex16q06_q1",
           "prompt": {
             "english": "Simplify: 30 + 75 ÷ 15 × 4 – 18",
             "hindi": "Simplify: 30 + 75 ÷ 15 × 4 – 18"
@@ -1278,8 +1354,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex16_q07",
-      "sourceLessonId": "rs_exercise_ch05_ex16",
+      "id": "rsexch05ex16q07",
+      "sourceLessonId": "rsexercisech05_ex16",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -1306,7 +1382,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex16_q07_q1",
+          "id": "rsexch05ex16q07_q1",
           "prompt": {
             "english": "Simplify: 8 × 6 + 24 ÷ 6 – 18",
             "hindi": "Simplify: 8 × 6 + 24 ÷ 6 – 18"
@@ -1342,8 +1418,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch05_ex16_q08",
-      "sourceLessonId": "rs_exercise_ch05_ex16",
+      "id": "rsexch05ex16q08",
+      "sourceLessonId": "rsexercisech05_ex16",
       "chapterNumber": 5,
       "chapterTitle": {
         "english": "Simplification",
@@ -1370,7 +1446,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch05_ex16_q08_q1",
+          "id": "rsexch05ex16q08_q1",
           "prompt": {
             "english": "Simplify: 56 – 36 ÷ 4 × 2 + 7",
             "hindi": "Simplify: 56 – 36 ÷ 4 × 2 + 7"

@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch09_multiplication_of_a_fraction",
+      "id": "rsch09multiplicationofa_fraction",
       "sourceLessonId": "rs_ch09",
       "chapterNumber": 9,
       "chapterTitle": {
@@ -29,12 +29,34 @@
         "english": "Multiplication of a Fraction",
         "hindi": "भिन्न का गुणा"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "To multiply two fractions: multiply the numerators together and the denominators together, then simplify.",
+          "hindi": "दो भिन्नों को गुणा करने के लिए: अंशों को आपस में और हरों को आपस में गुणा करें, फिर सरल बनाएं।"
+        },
+        {
+          "english": "**Formula:** a/b × c/d = (a×c)/(b×d)",
+          "hindi": "**सूत्र:** a/b × c/d = (a×c)/(b×d)"
+        },
+        {
+          "english": "**Tip:** You can cross-cancel (simplify) before multiplying to keep numbers small.",
+          "hindi": "**सुझाव:** गुणा से पहले क्रॉस-कैंसल (सरलीकरण) करें ताकि संख्याएं छोटी रहें।"
+        },
+        {
+          "english": "**Example:** 2/3 × 9/10\n- Cross-cancel: 2 and 10 share factor 2 → 1/3 × 9/5\n- Cross-cancel: 9 and 3 share factor 3 → 1/1 × 3/5\n- = **3/5**",
+          "hindi": "**उदाहरण:** 2/3 × 9/10\n- क्रॉस-कैंसल: 2 और 10 में 2 उभयनिष्ठ → 1/3 × 9/5\n- क्रॉस-कैंसल: 9 और 3 में 3 उभयनिष्ठ → 1/1 × 3/5\n- = **3/5**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** 2/3 × 9/10\n- Cross-cancel: 2 and 10 share factor 2 → 1/3 × 9/5\n- Cross-cancel: 9 and 3 share factor 3 → 1/1 × 3/5\n- = **3/5**",
+          "hindi": "**उदाहरण:** 2/3 × 9/10\n- क्रॉस-कैंसल: 2 और 10 में 2 उभयनिष्ठ → 1/3 × 9/5\n- क्रॉस-कैंसल: 9 और 3 में 3 उभयनिष्ठ → 1/1 × 3/5\n- = **3/5**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "multiplication_of_a_fraction_q1",
+          "id": "multiplicationofafractionq1",
           "prompt": {
             "english": "Multiply: 2/3 × 9/10.",
             "hindi": "गुणा कीजिए: 2/3 × 9/10।"
@@ -47,11 +69,29 @@
             "3 / 5"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Method (cross-cancellation):\n- 2/3 × 9/10\n- Cancel 2 and 10 by 2: → 1/3 × 9/5\n- Cancel 9 and 3 by 3: → 1/1 × 3/5\n- = 3/5\n\n**Answer: 3/5**",
+            "hindi": "विधि (क्रॉस-कैंसलेशन):\n- 2/3 × 9/10\n- 2 और 10 को 2 से घटाएं: → 1/3 × 9/5\n- 9 और 3 को 3 से घटाएं: → 1/1 × 3/5\n- = 3/5\n\n**उत्तर: 3/5**"
+          },
+          "supportExample": {
+            "english": "Method (cross-cancellation):\n- 2/3 × 9/10\n- Cancel 2 and 10 by 2: → 1/3 × 9/5\n- Cancel 9 and 3 by 3: → 1/1 × 3/5\n- = 3/5\n**Answer: 3/5**",
+            "hindi": "विधि (क्रॉस-कैंसलेशन):\n- 2/3 × 9/10\n- 2 और 10 को 2 से घटाएं: → 1/3 × 9/5\n- 9 और 3 को 3 से घटाएं: → 1/1 × 3/5\n- = 3/5\n**उत्तर: 3/5**"
+          },
           "mistakeType": "FRACTION_COMPARE",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Method (cross-cancellation):\n- 2/3 × 9/10\n- Cancel 2 and 10 by 2: → 1/3 × 9/5\n- Cancel 9 and 3 by 3: → 1/1 × 3/5\n- = 3/5",
+              "hindi": "विधि (क्रॉस-कैंसलेशन):\n- 2/3 × 9/10\n- 2 और 10 को 2 से घटाएं: → 1/3 × 9/5\n- 9 और 3 को 3 से घटाएं: → 1/1 × 3/5\n- = 3/5"
+            },
+            {
+              "english": "**Answer: 3/5**",
+              "hindi": "**उत्तर: 3/5**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -67,7 +107,7 @@
       "mistakeFocus": "FRACTION_COMPARE"
     },
     {
-      "id": "rs_ch09_word_problems_on_multiplication_of_fractions",
+      "id": "rsch09wordproblemsonmultiplicationof_fractions",
       "sourceLessonId": "rs_ch09",
       "chapterNumber": 9,
       "chapterTitle": {
@@ -90,12 +130,30 @@
         "english": "Word Problems on Multiplication of Fractions",
         "hindi": "भिन्नों के गुणा पर शब्द समस्याएँ"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "\"Of\" in maths means multiply. When a problem says \"find 3/4 of 28,\" it means 3/4 × 28.",
+          "hindi": "गणित में \"का\" का अर्थ गुणा करना है। जब कोई प्रश्न कहे \"28 का 3/4 निकालो,\" तो इसका मतलब है 3/4 × 28।"
+        },
+        {
+          "english": "**Steps:**\n1. Identify the fraction and the whole number (or fraction).\n2. Multiply numerator by the whole number.\n3. Divide by the denominator.\n4. Simplify if needed.",
+          "hindi": "**चरण:**\n1. भिन्न और पूर्ण संख्या (या भिन्न) की पहचान करें।\n2. अंश को पूर्ण संख्या से गुणा करें।\n3. हर से भाग दें।\n4. जरूरत पड़े तो सरल बनाएं।"
+        },
+        {
+          "english": "**Example:** Find 3/4 of 28 = 3/4 × 28 = 84/4 = **21**",
+          "hindi": "**उदाहरण:** 28 का 3/4 = 3/4 × 28 = 84/4 = **21**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Find 3/4 of 28 = 3/4 × 28 = 84/4 = **21**",
+          "hindi": "**उदाहरण:** 28 का 3/4 = 3/4 × 28 = 84/4 = **21**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "word_problems_on_multiplication_of_fractions_q1",
+          "id": "wordproblemsonmultiplicationoffractionsq1",
           "prompt": {
             "english": "Find 3/4 of 28.",
             "hindi": "28 का 3/4 लिखिए।"
@@ -107,11 +165,29 @@
             "21"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "3/4 of 28 = 3/4 × 28 = (3 × 28)/4 = 84/4 = **21**\n\n**Answer: 21**",
+            "hindi": "28 का 3/4 = 3/4 × 28 = (3 × 28)/4 = 84/4 = **21**\n\n**उत्तर: 21**"
+          },
+          "supportExample": {
+            "english": "3/4 of 28 = 3/4 × 28 = (3 × 28)/4 = 84/4 = **21**\n**Answer: 21**",
+            "hindi": "28 का 3/4 = 3/4 × 28 = (3 × 28)/4 = 84/4 = **21**\n**उत्तर: 21**"
+          },
           "mistakeType": "FRACTION_COMPARE",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "3/4 of 28 = 3/4 × 28 = (3 × 28)/4 = 84/4 = **21**",
+              "hindi": "28 का 3/4 = 3/4 × 28 = (3 × 28)/4 = 84/4 = **21**"
+            },
+            {
+              "english": "**Answer: 21**",
+              "hindi": "**उत्तर: 21**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -127,7 +203,7 @@
       "mistakeFocus": "FRACTION_COMPARE"
     },
     {
-      "id": "rs_ch09_fraction_of_a_fraction",
+      "id": "rsch09fractionofa_fraction",
       "sourceLessonId": "rs_ch09",
       "chapterNumber": 9,
       "chapterTitle": {
@@ -150,12 +226,26 @@
         "english": "Fraction of a Fraction",
         "hindi": "भिन्न का भिन्न"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "To find a fraction of another fraction, simply multiply the two fractions together.",
+          "hindi": "किसी भिन्न का भिन्न निकालने के लिए, दोनों भिन्नों को आपस में गुणा करें।"
+        },
+        {
+          "english": "**Example:** Find 3/4 of 2/5\n= 3/4 × 2/5 = (3×2)/(4×5) = 6/20 = **3/10**",
+          "hindi": "**उदाहरण:** 2/5 का 3/4 = 3/4 × 2/5 = (3×2)/(4×5) = 6/20 = **3/10**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Find 3/4 of 2/5\n= 3/4 × 2/5 = (3×2)/(4×5) = 6/20 = **3/10**",
+          "hindi": "**उदाहरण:** 2/5 का 3/4 = 3/4 × 2/5 = (3×2)/(4×5) = 6/20 = **3/10**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "fraction_of_a_fraction_q1",
+          "id": "fractionofafractionq1",
           "prompt": {
             "english": "Find 3/4 of 2/5.",
             "hindi": "2/5 का 3/4 लिखिए।"
@@ -168,11 +258,37 @@
             "3 / 10"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "3/4 of 2/5 = 3/4 × 2/5\n\nMultiply numerators: 3 × 2 = 6\nMultiply denominators: 4 × 5 = 20\n\n= 6/20 = 3/10\n\n**Answer: 3/10**",
+            "hindi": "2/5 का 3/4 = 3/4 × 2/5\n\nअंशों का गुणा: 3 × 2 = 6\nहरों का गुणा: 4 × 5 = 20\n\n= 6/20 = 3/10\n\n**उत्तर: 3/10**"
+          },
+          "supportExample": {
+            "english": "3/4 of 2/5 = 3/4 × 2/5\nMultiply numerators: 3 × 2 = 6\nMultiply denominators: 4 × 5 = 20",
+            "hindi": "2/5 का 3/4 = 3/4 × 2/5\nअंशों का गुणा: 3 × 2 = 6\nहरों का गुणा: 4 × 5 = 20"
+          },
           "mistakeType": "FRACTION_COMPARE",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "3/4 of 2/5 = 3/4 × 2/5",
+              "hindi": "2/5 का 3/4 = 3/4 × 2/5"
+            },
+            {
+              "english": "Multiply numerators: 3 × 2 = 6\nMultiply denominators: 4 × 5 = 20",
+              "hindi": "अंशों का गुणा: 3 × 2 = 6\nहरों का गुणा: 4 × 5 = 20"
+            },
+            {
+              "english": "= 6/20 = 3/10",
+              "hindi": "= 6/20 = 3/10"
+            },
+            {
+              "english": "**Answer: 3/10**",
+              "hindi": "**उत्तर: 3/10**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -188,7 +304,7 @@
       "mistakeFocus": "FRACTION_COMPARE"
     },
     {
-      "id": "rs_ch09_division_of_fractions_and_word_problems",
+      "id": "rsch09divisionoffractionsandword_problems",
       "sourceLessonId": "rs_ch09",
       "chapterNumber": 9,
       "chapterTitle": {
@@ -211,12 +327,34 @@
         "english": "Division of Fractions and Word Problems",
         "hindi": "भिन्नों का भाग और शब्द समस्याएँ"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "To divide by a fraction, **multiply by its reciprocal** (flip it upside down).",
+          "hindi": "किसी भिन्न से भाग देने के लिए, उसका **व्युत्क्रम (उल्टा) लेकर गुणा करें।**"
+        },
+        {
+          "english": "**Rule:** a/b ÷ c/d = a/b × d/c",
+          "hindi": "**नियम:** a/b ÷ c/d = a/b × d/c"
+        },
+        {
+          "english": "**Example:** 5/6 ÷ 1/3\n= 5/6 × 3/1 = 15/6 = 5/2 = **2 1/2**",
+          "hindi": "**उदाहरण:** 5/6 ÷ 1/3\n= 5/6 × 3/1 = 15/6 = 5/2 = **2 1/2**"
+        },
+        {
+          "english": "**For word problems:** \"How many groups of [fraction] are in [number]?\" → divide.",
+          "hindi": "**शब्द समस्याओं के लिए:** \"कितने [भिन्न] समूह [संख्या] में हैं?\" → भाग दें।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** 5/6 ÷ 1/3\n= 5/6 × 3/1 = 15/6 = 5/2 = **2 1/2**",
+          "hindi": "**उदाहरण:** 5/6 ÷ 1/3\n= 5/6 × 3/1 = 15/6 = 5/2 = **2 1/2**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "division_of_fractions_and_word_problems_q1",
+          "id": "divisionoffractionsandwordproblemsq1",
           "prompt": {
             "english": "Divide: 5/6 ÷ 1/3.",
             "hindi": "भाग कीजिए: 5/6 ÷ 1/3।"
@@ -230,11 +368,41 @@
             "2 1 / 2"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Flip the divisor (reciprocal of 1/3 is 3/1)\n\nStep 2: Multiply: 5/6 × 3/1 = 15/6\n\nStep 3: Simplify: 15/6 = 5/2\n\nStep 4: Convert: 5 ÷ 2 = 2 remainder 1 = **2 1/2**\n\n**Answer: 2 1/2**",
+            "hindi": "चरण 1: भाजक को उलटें (1/3 का व्युत्क्रम = 3/1)\n\nचरण 2: गुणा करें: 5/6 × 3/1 = 15/6\n\nचरण 3: सरल करें: 15/6 = 5/2\n\nचरण 4: बदलें: 5 ÷ 2 = 2 शेष 1 = **2 1/2**\n\n**उत्तर: 2 1/2**"
+          },
+          "supportExample": {
+            "english": "Step 1: Flip the divisor (reciprocal of 1/3 is 3/1)\nStep 2: Multiply: 5/6 × 3/1 = 15/6",
+            "hindi": "चरण 1: भाजक को उलटें (1/3 का व्युत्क्रम = 3/1)\nचरण 2: गुणा करें: 5/6 × 3/1 = 15/6"
+          },
           "mistakeType": "FRACTION_COMPARE",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Flip the divisor (reciprocal of 1/3 is 3/1)",
+              "hindi": "चरण 1: भाजक को उलटें (1/3 का व्युत्क्रम = 3/1)"
+            },
+            {
+              "english": "Step 2: Multiply: 5/6 × 3/1 = 15/6",
+              "hindi": "चरण 2: गुणा करें: 5/6 × 3/1 = 15/6"
+            },
+            {
+              "english": "Step 3: Simplify: 15/6 = 5/2",
+              "hindi": "चरण 3: सरल करें: 15/6 = 5/2"
+            },
+            {
+              "english": "Step 4: Convert: 5 ÷ 2 = 2 remainder 1 = **2 1/2**",
+              "hindi": "चरण 4: बदलें: 5 ÷ 2 = 2 शेष 1 = **2 1/2**"
+            },
+            {
+              "english": "**Answer: 2 1/2**",
+              "hindi": "**उत्तर: 2 1/2**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -250,8 +418,8 @@
       "mistakeFocus": "FRACTION_COMPARE"
     },
     {
-      "id": "rs_ex_ch09_ex33_q01",
-      "sourceLessonId": "rs_exercise_ch09_ex33",
+      "id": "rsexch09ex33q01",
+      "sourceLessonId": "rsexercisech09_ex33",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -278,7 +446,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex33_q01_q1",
+          "id": "rsexch09ex33q01_q1",
           "prompt": {
             "english": "Multiply: 1/2 × 5",
             "hindi": "Multiply: 1/2 × 5"
@@ -315,8 +483,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex33_q02",
-      "sourceLessonId": "rs_exercise_ch09_ex33",
+      "id": "rsexch09ex33q02",
+      "sourceLessonId": "rsexercisech09_ex33",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -343,7 +511,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex33_q02_q1",
+          "id": "rsexch09ex33q02_q1",
           "prompt": {
             "english": "Multiply: 1/3 × 8",
             "hindi": "Multiply: 1/3 × 8"
@@ -380,8 +548,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex33_q03",
-      "sourceLessonId": "rs_exercise_ch09_ex33",
+      "id": "rsexch09ex33q03",
+      "sourceLessonId": "rsexercisech09_ex33",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -408,7 +576,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex33_q03_q1",
+          "id": "rsexch09ex33q03_q1",
           "prompt": {
             "english": "Multiply: 2/3 × 7",
             "hindi": "Multiply: 2/3 × 7"
@@ -445,8 +613,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex33_q04",
-      "sourceLessonId": "rs_exercise_ch09_ex33",
+      "id": "rsexch09ex33q04",
+      "sourceLessonId": "rsexercisech09_ex33",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -473,7 +641,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex33_q04_q1",
+          "id": "rsexch09ex33q04_q1",
           "prompt": {
             "english": "Multiply: 3/5 × 6",
             "hindi": "Multiply: 3/5 × 6"
@@ -510,8 +678,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex33_q05",
-      "sourceLessonId": "rs_exercise_ch09_ex33",
+      "id": "rsexch09ex33q05",
+      "sourceLessonId": "rsexercisech09_ex33",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -538,7 +706,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex33_q05_q1",
+          "id": "rsexch09ex33q05_q1",
           "prompt": {
             "english": "Multiply: 5/6 × 8",
             "hindi": "Multiply: 5/6 × 8"
@@ -575,8 +743,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex33_q06",
-      "sourceLessonId": "rs_exercise_ch09_ex33",
+      "id": "rsexch09ex33q06",
+      "sourceLessonId": "rsexercisech09_ex33",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -603,7 +771,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex33_q06_q1",
+          "id": "rsexch09ex33q06_q1",
           "prompt": {
             "english": "Multiply: 7/8 × 12",
             "hindi": "Multiply: 7/8 × 12"
@@ -640,8 +808,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex33_q07",
-      "sourceLessonId": "rs_exercise_ch09_ex33",
+      "id": "rsexch09ex33q07",
+      "sourceLessonId": "rsexercisech09_ex33",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -668,7 +836,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex33_q07_q1",
+          "id": "rsexch09ex33q07_q1",
           "prompt": {
             "english": "Multiply: 1 3/21 × 9",
             "hindi": "Multiply: 1 3/21 × 9"
@@ -706,8 +874,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex33_q08",
-      "sourceLessonId": "rs_exercise_ch09_ex33",
+      "id": "rsexch09ex33q08",
+      "sourceLessonId": "rsexercisech09_ex33",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -734,7 +902,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex33_q08_q1",
+          "id": "rsexch09ex33q08_q1",
           "prompt": {
             "english": "Multiply: 1 7/18 × 14",
             "hindi": "Multiply: 1 7/18 × 14"
@@ -772,8 +940,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex33_q09",
-      "sourceLessonId": "rs_exercise_ch09_ex33",
+      "id": "rsexch09ex33q09",
+      "sourceLessonId": "rsexercisech09_ex33",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -800,7 +968,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex33_q09_q1",
+          "id": "rsexch09ex33q09_q1",
           "prompt": {
             "english": "Multiply: 2 1/25 × 10",
             "hindi": "Multiply: 2 1/25 × 10"
@@ -838,8 +1006,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex33_q10",
-      "sourceLessonId": "rs_exercise_ch09_ex33",
+      "id": "rsexch09ex33q10",
+      "sourceLessonId": "rsexercisech09_ex33",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -866,7 +1034,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex33_q10_q1",
+          "id": "rsexch09ex33q10_q1",
           "prompt": {
             "english": "Multiply: 2 1/2 × 6",
             "hindi": "Multiply: 2 1/2 × 6"
@@ -902,8 +1070,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex33_q11",
-      "sourceLessonId": "rs_exercise_ch09_ex33",
+      "id": "rsexch09ex33q11",
+      "sourceLessonId": "rsexercisech09_ex33",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -930,7 +1098,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex33_q11_q1",
+          "id": "rsexch09ex33q11_q1",
           "prompt": {
             "english": "Multiply: 3 2/3 × 8",
             "hindi": "Multiply: 3 2/3 × 8"
@@ -967,8 +1135,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex33_q12",
-      "sourceLessonId": "rs_exercise_ch09_ex33",
+      "id": "rsexch09ex33q12",
+      "sourceLessonId": "rsexercisech09_ex33",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -995,7 +1163,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex33_q12_q1",
+          "id": "rsexch09ex33q12_q1",
           "prompt": {
             "english": "Multiply: 4 1/6 × 21",
             "hindi": "Multiply: 4 1/6 × 21"
@@ -1032,8 +1200,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex33_q13",
-      "sourceLessonId": "rs_exercise_ch09_ex33",
+      "id": "rsexch09ex33q13",
+      "sourceLessonId": "rsexercisech09_ex33",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -1060,7 +1228,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex33_q13_q1",
+          "id": "rsexch09ex33q13_q1",
           "prompt": {
             "english": "Multiply: 5 3/8 × 20",
             "hindi": "Multiply: 5 3/8 × 20"
@@ -1097,8 +1265,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex33_q14",
-      "sourceLessonId": "rs_exercise_ch09_ex33",
+      "id": "rsexch09ex33q14",
+      "sourceLessonId": "rsexercisech09_ex33",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -1125,7 +1293,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex33_q14_q1",
+          "id": "rsexch09ex33q14_q1",
           "prompt": {
             "english": "Multiply: 3 7/15 × 25",
             "hindi": "Multiply: 3 7/15 × 25"
@@ -1162,8 +1330,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex33_q15",
-      "sourceLessonId": "rs_exercise_ch09_ex33",
+      "id": "rsexch09ex33q15",
+      "sourceLessonId": "rsexercisech09_ex33",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -1190,7 +1358,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex33_q15_q1",
+          "id": "rsexch09ex33q15_q1",
           "prompt": {
             "english": "Multiply: 10 7/13 × 26",
             "hindi": "Multiply: 10 7/13 × 26"
@@ -1226,8 +1394,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex33_q16",
-      "sourceLessonId": "rs_exercise_ch09_ex33",
+      "id": "rsexch09ex33q16",
+      "sourceLessonId": "rsexercisech09_ex33",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -1254,7 +1422,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex33_q16_q1",
+          "id": "rsexch09ex33q16_q1",
           "prompt": {
             "english": "Multiply: 2 10/21 x 28",
             "hindi": "Multiply: 2 10/21 x 28"
@@ -1291,8 +1459,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q01",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q01",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -1319,7 +1487,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q01_q1",
+          "id": "rsexch09ex34q01_q1",
           "prompt": {
             "english": "Multiply: 3/4 × 5/7",
             "hindi": "Multiply: 3/4 × 5/7"
@@ -1357,8 +1525,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q02",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q02",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -1385,7 +1553,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q02_q1",
+          "id": "rsexch09ex34q02_q1",
           "prompt": {
             "english": "Multiply: 5/6 × 9/10",
             "hindi": "Multiply: 5/6 × 9/10"
@@ -1422,8 +1590,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q03",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q03",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -1450,7 +1618,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q03_q1",
+          "id": "rsexch09ex34q03_q1",
           "prompt": {
             "english": "Multiply: 1 4/27 × 1 2/35",
             "hindi": "Multiply: 1 4/27 × 1 2/35"
@@ -1488,8 +1656,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q04",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q04",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -1516,7 +1684,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q04_q1",
+          "id": "rsexch09ex34q04_q1",
           "prompt": {
             "english": "Multiply: 2 3/5 × 7/13",
             "hindi": "Multiply: 2 3/5 × 7/13"
@@ -1553,8 +1721,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q05",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q05",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -1581,7 +1749,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q05_q1",
+          "id": "rsexch09ex34q05_q1",
           "prompt": {
             "english": "Multiply: 6 5/12 × 6/11",
             "hindi": "Multiply: 6 5/12 × 6/11"
@@ -1618,8 +1786,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q06",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q06",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -1646,7 +1814,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q06_q1",
+          "id": "rsexch09ex34q06_q1",
           "prompt": {
             "english": "Multiply: 8/21 × 6 3/4",
             "hindi": "Multiply: 8/21 × 6 3/4"
@@ -1683,8 +1851,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q07",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q07",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -1711,7 +1879,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q07_q1",
+          "id": "rsexch09ex34q07_q1",
           "prompt": {
             "english": "Multiply: 9/46 × 7 2/3",
             "hindi": "Multiply: 9/46 × 7 2/3"
@@ -1748,8 +1916,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q08",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q08",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -1776,7 +1944,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q08_q1",
+          "id": "rsexch09ex34q08_q1",
           "prompt": {
             "english": "Multiply: 28 × 2 10/21",
             "hindi": "Multiply: 28 × 2 10/21"
@@ -1813,8 +1981,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q09",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q09",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -1841,7 +2009,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q09_q1",
+          "id": "rsexch09ex34q09_q1",
           "prompt": {
             "english": "Multiply: 4 4/15 × 3 1/8",
             "hindi": "Multiply: 4 4/15 × 3 1/8"
@@ -1878,8 +2046,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q10",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q10",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -1906,7 +2074,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q10_q1",
+          "id": "rsexch09ex34q10_q1",
           "prompt": {
             "english": "Multiply: 6 3/16 × 7 7/11",
             "hindi": "Multiply: 6 3/16 × 7 7/11"
@@ -1943,8 +2111,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q11",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q11",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -1971,7 +2139,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q11_q1",
+          "id": "rsexch09ex34q11_q1",
           "prompt": {
             "english": "Multiply: 3 6/25 × 6 1/9",
             "hindi": "Multiply: 3 6/25 × 6 1/9"
@@ -2008,8 +2176,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q12",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q12",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -2036,7 +2204,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q12_q1",
+          "id": "rsexch09ex34q12_q1",
           "prompt": {
             "english": "Multiply: 1 2/5/6 × 1 5/22",
             "hindi": "Multiply: 1 2/5/6 × 1 5/22"
@@ -2073,8 +2241,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q13",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q13",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -2101,7 +2269,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q13_q1",
+          "id": "rsexch09ex34q13_q1",
           "prompt": {
             "english": "Multiply: 4 9/14 × 1 8/13",
             "hindi": "Multiply: 4 9/14 × 1 8/13"
@@ -2138,8 +2306,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q14",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q14",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -2166,7 +2334,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q14_q1",
+          "id": "rsexch09ex34q14_q1",
           "prompt": {
             "english": "Multiply: 15 3/10 × 4 1/6",
             "hindi": "Multiply: 15 3/10 × 4 1/6"
@@ -2203,8 +2371,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q15",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q15",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -2231,7 +2399,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q15_q1",
+          "id": "rsexch09ex34q15_q1",
           "prompt": {
             "english": "Multiply: 5 10/21 × 1 17/46",
             "hindi": "Multiply: 5 10/21 × 1 17/46"
@@ -2268,8 +2436,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q16",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q16",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -2296,7 +2464,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q16_q1",
+          "id": "rsexch09ex34q16_q1",
           "prompt": {
             "english": "Multiply: 17 2/5 × 2 2/29",
             "hindi": "Multiply: 17 2/5 × 2 2/29"
@@ -2332,8 +2500,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q17",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q17",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -2360,7 +2528,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q17_q1",
+          "id": "rsexch09ex34q17_q1",
           "prompt": {
             "english": "Multiply: 2 3/7/16 × 2 14/25",
             "hindi": "Multiply: 2 3/7/16 × 2 14/25"
@@ -2396,8 +2564,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q18",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q18",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -2424,7 +2592,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q18_q1",
+          "id": "rsexch09ex34q18_q1",
           "prompt": {
             "english": "Multiply: 0.0325 by 0.09",
             "hindi": "Multiply: 0.0325 by 0.09"
@@ -2460,8 +2628,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q19",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q19",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -2488,7 +2656,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q19_q1",
+          "id": "rsexch09ex34q19_q1",
           "prompt": {
             "english": "Multiply: 3/5 × 1/6 × 2/3",
             "hindi": "Multiply: 3/5 × 1/6 × 2/3"
@@ -2525,8 +2693,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex34_q20",
-      "sourceLessonId": "rs_exercise_ch09_ex34",
+      "id": "rsexch09ex34q20",
+      "sourceLessonId": "rsexercisech09_ex34",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -2553,7 +2721,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex34_q20_q1",
+          "id": "rsexch09ex34q20_q1",
           "prompt": {
             "english": "Multiply: 2 1/4 x 1 1/5 x 3 1/3",
             "hindi": "Multiply: 2 1/4 x 1 1/5 x 3 1/3"
@@ -2589,8 +2757,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex35_q01",
-      "sourceLessonId": "rs_exercise_ch09_ex35",
+      "id": "rsexch09ex35q01",
+      "sourceLessonId": "rsexercisech09_ex35",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -2617,7 +2785,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex35_q01_q1",
+          "id": "rsexch09ex35q01_q1",
           "prompt": {
             "english": "3 hours?: The cost of one pencil is Rs 3/13",
             "hindi": "3 hours?: The cost of one pencil is Rs 3/13"
@@ -2656,8 +2824,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex35_q02",
-      "sourceLessonId": "rs_exercise_ch09_ex35",
+      "id": "rsexch09ex35q02",
+      "sourceLessonId": "rsexercisech09_ex35",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -2684,7 +2852,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex35_q02_q1",
+          "id": "rsexch09ex35q02_q1",
           "prompt": {
             "english": "A bag contains 97 4/5 kg of sugar. How much sugar do 10 such bags contain?",
             "hindi": "A bag contains 97 4/5 kg of sugar. How much sugar do 10 such bags contain?"
@@ -2721,8 +2889,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex35_q03",
-      "sourceLessonId": "rs_exercise_ch09_ex35",
+      "id": "rsexch09ex35q03",
+      "sourceLessonId": "rsexercisech09_ex35",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -2749,7 +2917,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex35_q03_q1",
+          "id": "rsexch09ex35q03_q1",
           "prompt": {
             "english": "3 hours?: A kilogram of apples cost Rs 16/1",
             "hindi": "3 hours?: A kilogram of apples cost Rs 16/1"
@@ -2786,8 +2954,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex35_q04",
-      "sourceLessonId": "rs_exercise_ch09_ex35",
+      "id": "rsexch09ex35q04",
+      "sourceLessonId": "rsexercisech09_ex35",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -2814,7 +2982,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex35_q04_q1",
+          "id": "rsexch09ex35q04_q1",
           "prompt": {
             "english": "What is the cost of 3 1/5 kg of apples?",
             "hindi": "What is the cost of 3 1/5 kg of apples?"
@@ -2851,8 +3019,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex35_q05",
-      "sourceLessonId": "rs_exercise_ch09_ex35",
+      "id": "rsexch09ex35q05",
+      "sourceLessonId": "rsexercisech09_ex35",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -2879,7 +3047,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex35_q05_q1",
+          "id": "rsexch09ex35q05_q1",
           "prompt": {
             "english": "An iron rod has been divided into 8 pieces of equal lengths. If the length of each piece is 6 3/4 m, what was the original length of the iron rod?",
             "hindi": "An iron rod has been divided into 8 pieces of equal lengths. If the length of each piece is 6 3/4 m, what was the original length of the iron rod?"
@@ -2916,8 +3084,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex35_q06",
-      "sourceLessonId": "rs_exercise_ch09_ex35",
+      "id": "rsexch09ex35q06",
+      "sourceLessonId": "rsexercisech09_ex35",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -2944,7 +3112,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex35_q06_q1",
+          "id": "rsexch09ex35q06_q1",
           "prompt": {
             "english": "3 hours?: One litre of petrol costs Rs 64/4",
             "hindi": "3 hours?: One litre of petrol costs Rs 64/4"
@@ -2981,8 +3149,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex35_q07",
-      "sourceLessonId": "rs_exercise_ch09_ex35",
+      "id": "rsexch09ex35q07",
+      "sourceLessonId": "rsexercisech09_ex35",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -3009,7 +3177,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex35_q07_q1",
+          "id": "rsexch09ex35q07_q1",
           "prompt": {
             "english": "Multiply: 9/46 × 7 2/3",
             "hindi": "Multiply: 9/46 × 7 2/3"
@@ -3049,8 +3217,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex35_q08",
-      "sourceLessonId": "rs_exercise_ch09_ex35",
+      "id": "rsexch09ex35q08",
+      "sourceLessonId": "rsexercisech09_ex35",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -3077,7 +3245,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex35_q08_q1",
+          "id": "rsexch09ex35q08_q1",
           "prompt": {
             "english": "One tin holds 16 3/5 litres of oil. How many litres can 25 such tins hold?",
             "hindi": "One tin holds 16 3/5 litres of oil. How many litres can 25 such tins hold?"
@@ -3114,8 +3282,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex35_q09",
-      "sourceLessonId": "rs_exercise_ch09_ex35",
+      "id": "rsexch09ex35q09",
+      "sourceLessonId": "rsexercisech09_ex35",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -3142,7 +3310,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex35_q09_q1",
+          "id": "rsexch09ex35q09_q1",
           "prompt": {
             "english": "A water tank can hold 56 1/4 litres of water. How much water is contained in the tank when it is 2/5 full?",
             "hindi": "A water tank can hold 56 1/4 litres of water. How much water is contained in the tank when it is 2/5 full?"
@@ -3181,8 +3349,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex35_q10",
-      "sourceLessonId": "rs_exercise_ch09_ex35",
+      "id": "rsexch09ex35q10",
+      "sourceLessonId": "rsexercisech09_ex35",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -3209,7 +3377,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex35_q10_q1",
+          "id": "rsexch09ex35q10_q1",
           "prompt": {
             "english": "An aeroplane covers 1020 km in an hour. How much distance will it cover in 4 1/6 hours?",
             "hindi": "An aeroplane covers 1020 km in an hour. How much distance will it cover in 4 1/6 hours?"
@@ -3246,8 +3414,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex35_q11",
-      "sourceLessonId": "rs_exercise_ch09_ex35",
+      "id": "rsexch09ex35q11",
+      "sourceLessonId": "rsexercisech09_ex35",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -3274,7 +3442,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex35_q11_q1",
+          "id": "rsexch09ex35q11_q1",
           "prompt": {
             "english": "Find the perimeter of a square plot of land whose each side is 6 1/2 metres",
             "hindi": "Find the perimeter of a square plot of land whose each side is 6 1/2 metres"
@@ -3311,8 +3479,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex35_q12",
-      "sourceLessonId": "rs_exercise_ch09_ex35",
+      "id": "rsexch09ex35q12",
+      "sourceLessonId": "rsexercisech09_ex35",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -3339,7 +3507,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex35_q12_q1",
+          "id": "rsexch09ex35q12_q1",
           "prompt": {
             "english": "Find the perimeter of a rectangular park whose length and breadth are 45 1/2 m and 34 3/4 m respectively. Fraction of a Fraction Let us consider 1/2 of 1",
             "hindi": "Find the perimeter of a rectangular park whose length and breadth are 45 1/2 m and 34 3/4 m respectively. Fraction of a Fraction Let us consider 1/2 of 1"
@@ -3378,8 +3546,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex35_q20",
-      "sourceLessonId": "rs_exercise_ch09_ex35",
+      "id": "rsexch09ex35q20",
+      "sourceLessonId": "rsexercisech09_ex35",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -3406,7 +3574,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex35_q20_q1",
+          "id": "rsexch09ex35q20_q1",
           "prompt": {
             "english": "The cost of one pencil is 3 13/20 rupees. What is the cost of 12 such pencils?",
             "hindi": "The cost of one pencil is 3 13/20 rupees. What is the cost of 12 such pencils?"
@@ -3445,8 +3613,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q01",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q01",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -3473,7 +3641,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q01_q1",
+          "id": "rsexch09ex36q01_q1",
           "prompt": {
             "english": "Find: 1/2 of 1/3",
             "hindi": "Find: 1/2 of 1/3"
@@ -3510,8 +3678,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q02",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q02",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -3538,7 +3706,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q02_q1",
+          "id": "rsexch09ex36q02_q1",
           "prompt": {
             "english": "Find: 1/7 of 1/9",
             "hindi": "Find: 1/7 of 1/9"
@@ -3575,8 +3743,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q03",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q03",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -3603,7 +3771,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q03_q1",
+          "id": "rsexch09ex36q03_q1",
           "prompt": {
             "english": "Find: 2/3 of 6/7",
             "hindi": "Find: 2/3 of 6/7"
@@ -3640,8 +3808,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q04",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q04",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -3668,7 +3836,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q04_q1",
+          "id": "rsexch09ex36q04_q1",
           "prompt": {
             "english": "Find: 3/7 of 1 4/15",
             "hindi": "Find: 3/7 of 1 4/15"
@@ -3705,8 +3873,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q05",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q05",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -3733,7 +3901,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q05_q1",
+          "id": "rsexch09ex36q05_q1",
           "prompt": {
             "english": "Find: 5/8 of 1 6/25",
             "hindi": "Find: 5/8 of 1 6/25"
@@ -3770,8 +3938,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q06",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q06",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -3798,7 +3966,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q06_q1",
+          "id": "rsexch09ex36q06_q1",
           "prompt": {
             "english": "Find: 2/5 of 1 9/16",
             "hindi": "Find: 2/5 of 1 9/16"
@@ -3835,8 +4003,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q07",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q07",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -3863,7 +4031,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q07_q1",
+          "id": "rsexch09ex36q07_q1",
           "prompt": {
             "english": "Find: 4/11 of 4 2/5",
             "hindi": "Find: 4/11 of 4 2/5"
@@ -3900,8 +4068,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q08",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q08",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -3928,7 +4096,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q08_q1",
+          "id": "rsexch09ex36q08_q1",
           "prompt": {
             "english": "Find: 3/4 of 56",
             "hindi": "Find: 3/4 of 56"
@@ -3964,8 +4132,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q09",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q09",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -3992,7 +4160,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q09_q1",
+          "id": "rsexch09ex36q09_q1",
           "prompt": {
             "english": "Find: 4/9 of 36",
             "hindi": "Find: 4/9 of 36"
@@ -4028,8 +4196,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q10",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q10",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -4056,7 +4224,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q10_q1",
+          "id": "rsexch09ex36q10_q1",
           "prompt": {
             "english": "Find: 8/11 of 44",
             "hindi": "Find: 8/11 of 44"
@@ -4092,8 +4260,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q11",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q11",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -4120,7 +4288,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q11_q1",
+          "id": "rsexch09ex36q11_q1",
           "prompt": {
             "english": "Find: 9/13 of 78",
             "hindi": "Find: 9/13 of 78"
@@ -4156,8 +4324,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q12",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q12",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -4184,7 +4352,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q12_q1",
+          "id": "rsexch09ex36q12_q1",
           "prompt": {
             "english": "Find: 6/7 of 42",
             "hindi": "Find: 6/7 of 42"
@@ -4220,8 +4388,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q13",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q13",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -4248,7 +4416,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q13_q1",
+          "id": "rsexch09ex36q13_q1",
           "prompt": {
             "english": "A bag can hold 96 kg sugar. How much sugar is there in the bag when it is 5/8 full?",
             "hindi": "A bag can hold 96 kg sugar. How much sugar is there in the bag when it is 5/8 full?"
@@ -4285,8 +4453,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q14",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q14",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -4313,7 +4481,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q14_q1",
+          "id": "rsexch09ex36q14_q1",
           "prompt": {
             "english": "A test was given to a class of 42 students. If 6/7 of these students passed, then how many failed?",
             "hindi": "A test was given to a class of 42 students. If 6/7 of these students passed, then how many failed?"
@@ -4349,8 +4517,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q15",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q15",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -4377,7 +4545,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q15_q1",
+          "id": "rsexch09ex36q15_q1",
           "prompt": {
             "english": "There are 140 members of a committee. In a meeting, three-fourths of the members were present. How many members were absent?",
             "hindi": "There are 140 members of a committee. In a meeting, three-fourths of the members were present. How many members were absent?"
@@ -4413,8 +4581,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q16",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q16",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -4441,7 +4609,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q16_q1",
+          "id": "rsexch09ex36q16_q1",
           "prompt": {
             "english": "Mona's school is 6 km away from her house. She covers 2/3 of the distance in a rickshaw. Due to some fault in the rickshaw, she had to cover the remaining distance on foot. How far did she walk?",
             "hindi": "Mona's school is 6 km away from her house. She covers 2/3 of the distance in a rickshaw. Due to some fault in the rickshaw, she had to cover the remaining distance on foot. How far did she walk?"
@@ -4478,8 +4646,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q17",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q17",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -4506,7 +4674,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q17_q1",
+          "id": "rsexch09ex36q17_q1",
           "prompt": {
             "english": "The capacity of a parking lot is that of 84 cars. At a particular time, 3/4 of the parking lot is occupied. How many more cars can be parked at that time?",
             "hindi": "The capacity of a parking lot is that of 84 cars. At a particular time, 3/4 of the parking lot is occupied. How many more cars can be parked at that time?"
@@ -4542,8 +4710,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex36_q18",
-      "sourceLessonId": "rs_exercise_ch09_ex36",
+      "id": "rsexch09ex36q18",
+      "sourceLessonId": "rsexercisech09_ex36",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -4570,7 +4738,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex36_q18_q1",
+          "id": "rsexch09ex36q18_q1",
           "prompt": {
             "english": "3/8 of the population of a village consists of women. If 2/3 of the women of that village are illiterate, what fraction of the population in that village consists of illiterate women?",
             "hindi": "3/8 of the population of a village consists of women. If 2/3 of the women of that village are illiterate, what fraction of the population in that village consists of illiterate women?"
@@ -4607,8 +4775,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q01_a",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q01_a",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -4635,7 +4803,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q01_a_q1",
+          "id": "rsexch09ex37q01aq1",
           "prompt": {
             "english": "Find the multiplicative inverse of each of the following Part (a): 3/5",
             "hindi": "Find the multiplicative inverse of each of the following Part (a): 3/5"
@@ -4672,8 +4840,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q01_b",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q01_b",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -4700,7 +4868,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q01_b_q1",
+          "id": "rsexch09ex37q01bq1",
           "prompt": {
             "english": "Find the multiplicative inverse of each of the following Part (b): 9/16",
             "hindi": "Find the multiplicative inverse of each of the following Part (b): 9/16"
@@ -4737,8 +4905,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q01_c",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q01_c",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -4765,7 +4933,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q01_c_q1",
+          "id": "rsexch09ex37q01cq1",
           "prompt": {
             "english": "Find the multiplicative inverse of each of the following Part (c): 1/8",
             "hindi": "Find the multiplicative inverse of each of the following Part (c): 1/8"
@@ -4801,8 +4969,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q01_d",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q01_d",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -4829,7 +4997,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q01_d_q1",
+          "id": "rsexch09ex37q01dq1",
           "prompt": {
             "english": "Find the multiplicative inverse of each of the following Part (d): 10/19",
             "hindi": "Find the multiplicative inverse of each of the following Part (d): 10/19"
@@ -4866,8 +5034,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q01_e",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q01_e",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -4894,7 +5062,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q01_e_q1",
+          "id": "rsexch09ex37q01eq1",
           "prompt": {
             "english": "Find the multiplicative inverse of each of the following Part (e): 15",
             "hindi": "Find the multiplicative inverse of each of the following Part (e): 15"
@@ -4931,8 +5099,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q01_f",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q01_f",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -4959,7 +5127,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q01_f_q1",
+          "id": "rsexch09ex37q01fq1",
           "prompt": {
             "english": "Find the multiplicative inverse of each of the following Part (f): 1 2/7",
             "hindi": "Find the multiplicative inverse of each of the following Part (f): 1 2/7"
@@ -4996,8 +5164,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q01_g",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q01_g",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -5024,7 +5192,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q01_g_q1",
+          "id": "rsexch09ex37q01gq1",
           "prompt": {
             "english": "Find the multiplicative inverse of each of the following Part (g): 2 4/13",
             "hindi": "Find the multiplicative inverse of each of the following Part (g): 2 4/13"
@@ -5061,8 +5229,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q01_h",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q01_h",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -5089,7 +5257,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q01_h_q1",
+          "id": "rsexch09ex37q01hq1",
           "prompt": {
             "english": "Find the multiplicative inverse of each of the following Part (h): 2 6/7",
             "hindi": "Find the multiplicative inverse of each of the following Part (h): 2 6/7"
@@ -5126,8 +5294,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q01_i",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q01_i",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -5154,7 +5322,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q01_i_q1",
+          "id": "rsexch09ex37q01iq1",
           "prompt": {
             "english": "Find the multiplicative inverse of each of the following Part (i): 3 9/14",
             "hindi": "Find the multiplicative inverse of each of the following Part (i): 3 9/14"
@@ -5191,8 +5359,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q01_j",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q01_j",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -5219,7 +5387,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q01_j_q1",
+          "id": "rsexch09ex37q01jq1",
           "prompt": {
             "english": "Find the multiplicative inverse of each of the following Part (j): 6 5/8",
             "hindi": "Find the multiplicative inverse of each of the following Part (j): 6 5/8"
@@ -5256,8 +5424,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q01_k",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q01_k",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -5284,7 +5452,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q01_k_q1",
+          "id": "rsexch09ex37q01kq1",
           "prompt": {
             "english": "Find the multiplicative inverse of each of the following Part (k): 1",
             "hindi": "Find the multiplicative inverse of each of the following Part (k): 1"
@@ -5320,8 +5488,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q01_l",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q01_l",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -5348,7 +5516,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q01_l_q1",
+          "id": "rsexch09ex37q01lq1",
           "prompt": {
             "english": "Find the multiplicative inverse of each of the following Part (l): 0 Divide and",
             "hindi": "Find the multiplicative inverse of each of the following Part (l): 0 Divide and"
@@ -5384,8 +5552,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q02",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q02",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -5412,7 +5580,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q02_q1",
+          "id": "rsexch09ex37q02_q1",
           "prompt": {
             "english": "find the quotient: 6/7 ÷ 3",
             "hindi": "find the quotient: 6/7 ÷ 3"
@@ -5449,8 +5617,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q03",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q03",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -5477,7 +5645,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q03_q1",
+          "id": "rsexch09ex37q03_q1",
           "prompt": {
             "english": "find the quotient: 7/12 ÷ 21",
             "hindi": "find the quotient: 7/12 ÷ 21"
@@ -5514,8 +5682,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q04",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q04",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -5542,7 +5710,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q04_q1",
+          "id": "rsexch09ex37q04_q1",
           "prompt": {
             "english": "find the quotient: 4 2/3 ÷ 7",
             "hindi": "find the quotient: 4 2/3 ÷ 7"
@@ -5579,8 +5747,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q05",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q05",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -5607,7 +5775,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q05_q1",
+          "id": "rsexch09ex37q05_q1",
           "prompt": {
             "english": "find the quotient: 17 3/5 ÷ 33",
             "hindi": "find the quotient: 17 3/5 ÷ 33"
@@ -5644,8 +5812,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q06",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q06",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -5672,7 +5840,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q06_q1",
+          "id": "rsexch09ex37q06_q1",
           "prompt": {
             "english": "find the quotient: 7/9 ÷ 2/3",
             "hindi": "find the quotient: 7/9 ÷ 2/3"
@@ -5709,8 +5877,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q07",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q07",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -5737,7 +5905,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q07_q1",
+          "id": "rsexch09ex37q07_q1",
           "prompt": {
             "english": "find the quotient: 7/24 ÷ 5/12",
             "hindi": "find the quotient: 7/24 ÷ 5/12"
@@ -5774,8 +5942,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q08",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q08",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -5802,7 +5970,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q08_q1",
+          "id": "rsexch09ex37q08_q1",
           "prompt": {
             "english": "find the quotient: 9/26 ÷ 4 2/13",
             "hindi": "find the quotient: 9/26 ÷ 4 2/13"
@@ -5839,8 +6007,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q09",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q09",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -5867,7 +6035,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q09_q1",
+          "id": "rsexch09ex37q09_q1",
           "prompt": {
             "english": "find the quotient: 8 1/6 ÷ 4 2/3",
             "hindi": "find the quotient: 8 1/6 ÷ 4 2/3"
@@ -5904,8 +6072,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q10",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q10",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -5932,7 +6100,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q10_q1",
+          "id": "rsexch09ex37q10_q1",
           "prompt": {
             "english": "find the quotient: 10 5/7 ÷ 1 11/14",
             "hindi": "find the quotient: 10 5/7 ÷ 1 11/14"
@@ -5968,8 +6136,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q11",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q11",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -5996,7 +6164,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q11_q1",
+          "id": "rsexch09ex37q11_q1",
           "prompt": {
             "english": "find the quotient: 100 ÷ 33 1/3",
             "hindi": "find the quotient: 100 ÷ 33 1/3"
@@ -6032,8 +6200,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q12",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q12",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -6060,7 +6228,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q12_q1",
+          "id": "rsexch09ex37q12_q1",
           "prompt": {
             "english": "find the quotient: 88 ÷ 3 1/7",
             "hindi": "find the quotient: 88 ÷ 3 1/7"
@@ -6096,8 +6264,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q13",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q13",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -6124,7 +6292,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q13_q1",
+          "id": "rsexch09ex37q13_q1",
           "prompt": {
             "english": "find the quotient: 84 ÷ 7 7/8",
             "hindi": "find the quotient: 84 ÷ 7 7/8"
@@ -6161,8 +6329,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q14",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q14",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -6189,7 +6357,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q14_q1",
+          "id": "rsexch09ex37q14_q1",
           "prompt": {
             "english": "find the quotient: 1 5/8/9 ÷ 3 2/3",
             "hindi": "find the quotient: 1 5/8/9 ÷ 3 2/3"
@@ -6226,8 +6394,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q15",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q15",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -6254,7 +6422,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q15_q1",
+          "id": "rsexch09ex37q15_q1",
           "prompt": {
             "english": "find the quotient: 16 2/3 ÷ 2 2/9",
             "hindi": "find the quotient: 16 2/3 ÷ 2 2/9"
@@ -6291,8 +6459,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q16",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q16",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -6319,7 +6487,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q16_q1",
+          "id": "rsexch09ex37q16_q1",
           "prompt": {
             "english": "find the quotient: 5 7/10 ÷ 3 1/6. Express 25 minutes as a fraction of an hour",
             "hindi": "find the quotient: 5 7/10 ÷ 3 1/6. Express 25 minutes as a fraction of an hour"
@@ -6356,8 +6524,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q17",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q17",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -6384,7 +6552,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q17_q1",
+          "id": "rsexch09ex37q17_q1",
           "prompt": {
             "english": "Express 25 minutes as a fraction of an hour",
             "hindi": "Express 25 minutes as a fraction of an hour"
@@ -6421,8 +6589,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q18",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q18",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -6449,7 +6617,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q18_q1",
+          "id": "rsexch09ex37q18_q1",
           "prompt": {
             "english": "Express 35 paise as a fraction of a rupee",
             "hindi": "Express 35 paise as a fraction of a rupee"
@@ -6486,8 +6654,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q19",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q19",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -6514,7 +6682,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q19_q1",
+          "id": "rsexch09ex37q19_q1",
           "prompt": {
             "english": "Express 325 mL as a fraction of a litre",
             "hindi": "Express 325 mL as a fraction of a litre"
@@ -6551,8 +6719,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q20",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q20",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -6579,7 +6747,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q20_q1",
+          "id": "rsexch09ex37q20_q1",
           "prompt": {
             "english": "Express 65 cm as a fraction of a metre",
             "hindi": "Express 65 cm as a fraction of a metre"
@@ -6616,8 +6784,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex37_q21",
-      "sourceLessonId": "rs_exercise_ch09_ex37",
+      "id": "rsexch09ex37q21",
+      "sourceLessonId": "rsexercisech09_ex37",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -6644,7 +6812,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex37_q21_q1",
+          "id": "rsexch09ex37q21_q1",
           "prompt": {
             "english": "Express 125 m as a fraction of a km. Word Problems on Division of Fractions",
             "hindi": "Express 125 m as a fraction of a km. Word Problems on Division of Fractions"
@@ -6681,8 +6849,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex38_q01",
-      "sourceLessonId": "rs_exercise_ch09_ex38",
+      "id": "rsexch09ex38q01",
+      "sourceLessonId": "rsexercisech09_ex38",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -6709,7 +6877,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex38_q01_q1",
+          "id": "rsexch09ex38q01_q1",
           "prompt": {
             "english": "find the other",
             "hindi": "find the other"
@@ -6748,8 +6916,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex38_q02",
-      "sourceLessonId": "rs_exercise_ch09_ex38",
+      "id": "rsexch09ex38q02",
+      "sourceLessonId": "rsexercisech09_ex38",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -6776,7 +6944,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex38_q02_q1",
+          "id": "rsexch09ex38q02_q1",
           "prompt": {
             "english": "find the cost of 1 kg of sugar: If the cost of 2 3/4 litres of petrol is Rs 145 1/5,",
             "hindi": "find the cost of 1 kg of sugar: If the cost of 2 3/4 litres of petrol is Rs 145 1/5,"
@@ -6815,8 +6983,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex38_q03",
-      "sourceLessonId": "rs_exercise_ch09_ex38",
+      "id": "rsexch09ex38q03",
+      "sourceLessonId": "rsexercisech09_ex38",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -6843,7 +7011,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex38_q03_q1",
+          "id": "rsexch09ex38q03_q1",
           "prompt": {
             "english": "A bag of salt weighs 2 1/4 kg. If 40 1/2 kg of salt is to be put in such bags, how many bags will be required?. 14 tins hold 178 1/2 litres of oil. How much oil is there in 1 tin?",
             "hindi": "A bag of salt weighs 2 1/4 kg. If 40 1/2 kg of salt is to be put in such bags, how many bags will be required?. 14 tins hold 178 1/2 litres of oil. How much oil is there in 1 tin?"
@@ -6879,8 +7047,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex38_q04",
-      "sourceLessonId": "rs_exercise_ch09_ex38",
+      "id": "rsexch09ex38q04",
+      "sourceLessonId": "rsexercisech09_ex38",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -6907,7 +7075,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex38_q04_q1",
+          "id": "rsexch09ex38q04_q1",
           "prompt": {
             "english": "find the other",
             "hindi": "find the other"
@@ -6946,8 +7114,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex38_q05",
-      "sourceLessonId": "rs_exercise_ch09_ex38",
+      "id": "rsexch09ex38q05",
+      "sourceLessonId": "rsexercisech09_ex38",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -6974,7 +7142,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex38_q05_q1",
+          "id": "rsexch09ex38q05_q1",
           "prompt": {
             "english": "If a car travels 283 1/2 km in 4 2/3 hours, how far does it go in 1 hour?",
             "hindi": "If a car travels 283 1/2 km in 4 2/3 hours, how far does it go in 1 hour?"
@@ -7013,8 +7181,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex38_q06",
-      "sourceLessonId": "rs_exercise_ch09_ex38",
+      "id": "rsexch09ex38q06",
+      "sourceLessonId": "rsexercisech09_ex38",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -7041,7 +7209,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex38_q06_q1",
+          "id": "rsexch09ex38q06_q1",
           "prompt": {
             "english": "If 367 1/2 kg of rice is contained in 35 bags of equal weights, how much does each bag weigh?",
             "hindi": "If 367 1/2 kg of rice is contained in 35 bags of equal weights, how much does each bag weigh?"
@@ -7080,8 +7248,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex38_q07",
-      "sourceLessonId": "rs_exercise_ch09_ex38",
+      "id": "rsexch09ex38q07",
+      "sourceLessonId": "rsexercisech09_ex38",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -7108,7 +7276,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex38_q07_q1",
+          "id": "rsexch09ex38q07_q1",
           "prompt": {
             "english": "Suchi cuts 54 m of cloth into pieces, each of length 3 3/8 metres. How many pieces does she get?",
             "hindi": "Suchi cuts 54 m of cloth into pieces, each of length 3 3/8 metres. How many pieces does she get?"
@@ -7144,8 +7312,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex38_q08",
-      "sourceLessonId": "rs_exercise_ch09_ex38",
+      "id": "rsexch09ex38q08",
+      "sourceLessonId": "rsexercisech09_ex38",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -7172,7 +7340,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex38_q08_q1",
+          "id": "rsexch09ex38q08_q1",
           "prompt": {
             "english": "Mona cuts 36 1/8 m of cloth into 17 pieces of equal lengths. What is the length of each piece?",
             "hindi": "Mona cuts 36 1/8 m of cloth into 17 pieces of equal lengths. What is the length of each piece?"
@@ -7211,8 +7379,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex38_q09",
-      "sourceLessonId": "rs_exercise_ch09_ex38",
+      "id": "rsexch09ex38q09",
+      "sourceLessonId": "rsexercisech09_ex38",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -7239,7 +7407,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex38_q09_q1",
+          "id": "rsexch09ex38q09_q1",
           "prompt": {
             "english": "The area of a rectangle is 37 4/5 sq. cm. If its length is 6 3/4 cm, find its breadth",
             "hindi": "The area of a rectangle is 37 4/5 sq. cm. If its length is 6 3/4 cm, find its breadth"
@@ -7278,8 +7446,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch09_ex38_q10",
-      "sourceLessonId": "rs_exercise_ch09_ex38",
+      "id": "rsexch09ex38q10",
+      "sourceLessonId": "rsexercisech09_ex38",
       "chapterNumber": 9,
       "chapterTitle": {
         "english": "Multiplication and Division of Fractions",
@@ -7306,7 +7474,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch09_ex38_q10_q1",
+          "id": "rsexch09ex38q10_q1",
           "prompt": {
             "english": "find its breadth: The product of two fractions is 5. If one of them is 1 3/4/7,",
             "hindi": "find its breadth: The product of two fractions is 5. If one of them is 1 3/4/7,"

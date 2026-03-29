@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch19_intersecting_lines",
+      "id": "rsch19intersecting_lines",
       "sourceLessonId": "rs_ch19",
       "chapterNumber": 19,
       "chapterTitle": {
@@ -29,12 +29,22 @@
         "english": "Intersecting Lines",
         "hindi": "प्रतिच्छेदी रेखाएँ"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "When two lines **cross each other at one point**, they are called **intersecting lines**. The point where they meet is called the **point of intersection**.\n\n**Real-life example:** The letter \"X\" shows two intersecting lines. When two roads cross each other, that is also an intersection.\n\n**Example:** Lines AB and CD meet at point O — they are intersecting lines, and O is their point of intersection.\n\n**Note:** Intersecting lines can form different types of angles at the intersection point.",
+          "hindi": "When two lines **cross each other at one point**, they are called **intersecting lines**. The point where they meet is called the **point of intersection**.\n\n**Real-life example:** The letter \"X\" shows two intersecting lines. When two roads cross each other, that is also an intersection.\n\n**Example:** Lines AB and CD meet at point O — they are intersecting lines, and O is their point of intersection.\n\n**Note:** Intersecting lines can form different types of angles at the intersection point."
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Real-life example:** The letter \"X\" shows two intersecting lines. When two roads cross each other, that is also an intersection.\n**Example:** Lines AB and CD meet at point O — they are intersecting lines, and O is their point of intersection.",
+          "hindi": "**Real-life example:** The letter \"X\" shows two intersecting lines. When two roads cross each other, that is also an intersection.\n**Example:** Lines AB and CD meet at point O — they are intersecting lines, and O is their point of intersection."
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "intersecting_lines_q1",
+          "id": "intersectinglinesq1",
           "prompt": {
             "english": "What do we call two lines that meet at one point?",
             "hindi": "जो दो रेखाएँ एक बिंदु पर मिलती हैं, उन्हें क्या कहते हैं?"
@@ -61,11 +71,29 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Correct Answer: (a) Intersecting lines**\n\nTwo lines that cross at a single common point are called intersecting lines. Parallel lines never meet, perpendicular bisectors are special intersecting lines, and curves are not straight lines.",
+            "hindi": "**Correct Answer: (a) Intersecting lines**\n\nTwo lines that cross at a single common point are called intersecting lines. Parallel lines never meet, perpendicular bisectors are special intersecting lines, and curves are not straight lines."
+          },
+          "supportExample": {
+            "english": "**Correct Answer: (a) Intersecting lines**\nTwo lines that cross at a single common point are called intersecting lines. Parallel lines never meet, perpendicular bisectors are special intersecting lines, and curves are not straight lines.",
+            "hindi": "**Correct Answer: (a) Intersecting lines**\nTwo lines that cross at a single common point are called intersecting lines. Parallel lines never meet, perpendicular bisectors are special intersecting lines, and curves are not straight lines."
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Correct Answer: (a) Intersecting lines**",
+              "hindi": "**Correct Answer: (a) Intersecting lines**"
+            },
+            {
+              "english": "Two lines that cross at a single common point are called intersecting lines. Parallel lines never meet, perpendicular bisectors are special intersecting lines, and curves are not straight lines.",
+              "hindi": "Two lines that cross at a single common point are called intersecting lines. Parallel lines never meet, perpendicular bisectors are special intersecting lines, and curves are not straight lines."
+            }
+          ]
         }
       ],
       "tags": [
@@ -81,7 +109,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch19_parallel_lines",
+      "id": "rsch19parallel_lines",
       "sourceLessonId": "rs_ch19",
       "chapterNumber": 19,
       "chapterTitle": {
@@ -104,12 +132,17 @@
         "english": "Parallel Lines",
         "hindi": "समांतर रेखाएँ"
       },
-      "explanationParagraphs": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Parallel lines** are two lines that **never meet** and always remain at the **same distance** from each other, no matter how far they are extended.\n\n**Symbol:** We write AB ∥ CD to show that line AB is parallel to line CD.\n\n**Real-life examples:**\n- The two rails of a railway track are parallel.\n- The opposite sides of a book or a door are parallel.\n- The lines on a ruled notebook are parallel.\n\n**Key property:** The distance between parallel lines is always the same (constant).",
+          "hindi": "**Parallel lines** are two lines that **never meet** and always remain at the **same distance** from each other, no matter how far they are extended.\n\n**Symbol:** We write AB ∥ CD to show that line AB is parallel to line CD.\n\n**Real-life examples:**\n- The two rails of a railway track are parallel.\n- The opposite sides of a book or a door are parallel.\n- The lines on a ruled notebook are parallel.\n\n**Key property:** The distance between parallel lines is always the same (constant)."
+        }
+      ],
       "examples": [],
       "visuals": [],
       "questions": [
         {
-          "id": "parallel_lines_q1",
+          "id": "parallellinesq1",
           "prompt": {
             "english": "What do we call two lines that never meet and remain equally apart?",
             "hindi": "जो दो रेखाएँ कभी नहीं मिलतीं और बराबर दूरी पर रहती हैं, उन्हें क्या कहते हैं?"
@@ -136,11 +169,29 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Correct Answer: (a) Parallel lines**\n\nLines that never intersect and maintain equal distance between them at all points are called parallel lines. This is the defining property of parallel lines.",
+            "hindi": "**Correct Answer: (a) Parallel lines**\n\nLines that never intersect and maintain equal distance between them at all points are called parallel lines. This is the defining property of parallel lines."
+          },
+          "supportExample": {
+            "english": "**Correct Answer: (a) Parallel lines**\nLines that never intersect and maintain equal distance between them at all points are called parallel lines. This is the defining property of parallel lines.",
+            "hindi": "**Correct Answer: (a) Parallel lines**\nLines that never intersect and maintain equal distance between them at all points are called parallel lines. This is the defining property of parallel lines."
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Correct Answer: (a) Parallel lines**",
+              "hindi": "**Correct Answer: (a) Parallel lines**"
+            },
+            {
+              "english": "Lines that never intersect and maintain equal distance between them at all points are called parallel lines. This is the defining property of parallel lines.",
+              "hindi": "Lines that never intersect and maintain equal distance between them at all points are called parallel lines. This is the defining property of parallel lines."
+            }
+          ]
         }
       ],
       "tags": [
@@ -156,7 +207,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch19_perpendicular_lines",
+      "id": "rsch19perpendicular_lines",
       "sourceLessonId": "rs_ch19",
       "chapterNumber": 19,
       "chapterTitle": {
@@ -179,12 +230,17 @@
         "english": "Perpendicular Lines",
         "hindi": "लंबवत रेखाएँ"
       },
-      "explanationParagraphs": [],
+      "explanationParagraphs": [
+        {
+          "english": "When two lines meet (intersect) and form a **right angle (90°)**, they are called **perpendicular lines**.\n\n**Symbol:** AB ⊥ CD means line AB is perpendicular to line CD.\n\n**Real-life examples:**\n- The corner of a room where the wall meets the floor is a right angle.\n- The letter \"T\" — the vertical and horizontal lines are perpendicular.\n- A plus sign (+) — all four angles are right angles.\n\n**Key property:** Perpendicular lines always form exactly four right angles (90° each) at their point of intersection.",
+          "hindi": "When two lines meet (intersect) and form a **right angle (90°)**, they are called **perpendicular lines**.\n\n**Symbol:** AB ⊥ CD means line AB is perpendicular to line CD.\n\n**Real-life examples:**\n- The corner of a room where the wall meets the floor is a right angle.\n- The letter \"T\" — the vertical and horizontal lines are perpendicular.\n- A plus sign (+) — all four angles are right angles.\n\n**Key property:** Perpendicular lines always form exactly four right angles (90° each) at their point of intersection."
+        }
+      ],
       "examples": [],
       "visuals": [],
       "questions": [
         {
-          "id": "perpendicular_lines_q1",
+          "id": "perpendicularlinesq1",
           "prompt": {
             "english": "Perpendicular lines form which angle?",
             "hindi": "लंबवत रेखाएँ कौन-सा कोण बनाती हैं?"
@@ -211,11 +267,29 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Correct Answer: (a) Right angle**\n\nBy definition, perpendicular lines are lines that intersect at exactly 90° — a right angle. This is what makes them \"perpendicular\" — if the angle were anything other than 90°, they would simply be called intersecting lines.",
+            "hindi": "**Correct Answer: (a) Right angle**\n\nBy definition, perpendicular lines are lines that intersect at exactly 90° — a right angle. This is what makes them \"perpendicular\" — if the angle were anything other than 90°, they would simply be called intersecting lines."
+          },
+          "supportExample": {
+            "english": "**Correct Answer: (a) Right angle**\nBy definition, perpendicular lines are lines that intersect at exactly 90° — a right angle. This is what makes them \"perpendicular\" — if the angle were anything other than 90°, they would simply be called intersecting lines.",
+            "hindi": "**Correct Answer: (a) Right angle**\nBy definition, perpendicular lines are lines that intersect at exactly 90° — a right angle. This is what makes them \"perpendicular\" — if the angle were anything other than 90°, they would simply be called intersecting lines."
+          },
           "mistakeType": "ANGLE_TURN",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Correct Answer: (a) Right angle**",
+              "hindi": "**Correct Answer: (a) Right angle**"
+            },
+            {
+              "english": "By definition, perpendicular lines are lines that intersect at exactly 90° — a right angle. This is what makes them \"perpendicular\" — if the angle were anything other than 90°, they would simply be called intersecting lines.",
+              "hindi": "By definition, perpendicular lines are lines that intersect at exactly 90° — a right angle. This is what makes them \"perpendicular\" — if the angle were anything other than 90°, they would simply be called intersecting lines."
+            }
+          ]
         }
       ],
       "tags": [
@@ -231,7 +305,7 @@
       "mistakeFocus": "ANGLE_TURN"
     },
     {
-      "id": "rs_ch19_set_squares",
+      "id": "rsch19set_squares",
       "sourceLessonId": "rs_ch19",
       "chapterNumber": 19,
       "chapterTitle": {
@@ -254,12 +328,22 @@
         "english": "Set Squares",
         "hindi": "सेट-स्क्वायर"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Set squares** are triangular drawing tools used in geometry. There are two types:\n- **45°-45°-90° set square** (isosceles right triangle shape)\n- **30°-60°-90° set square** (scalene right triangle shape)\n\n**Uses of set squares:**\n1. Drawing **right angles** (90° angles)\n2. Drawing **perpendicular lines**\n3. Drawing **parallel lines** (by sliding one set square along another)\n\n**Example:** Place a set square on your notebook. The corner with the right angle marker (small square symbol) helps you draw perpendicular lines accurately.",
+          "hindi": "**Set squares** are triangular drawing tools used in geometry. There are two types:\n- **45°-45°-90° set square** (isosceles right triangle shape)\n- **30°-60°-90° set square** (scalene right triangle shape)\n\n**Uses of set squares:**\n1. Drawing **right angles** (90° angles)\n2. Drawing **perpendicular lines**\n3. Drawing **parallel lines** (by sliding one set square along another)\n\n**Example:** Place a set square on your notebook. The corner with the right angle marker (small square symbol) helps you draw perpendicular lines accurately."
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Place a set square on your notebook. The corner with the right angle marker (small square symbol) helps you draw perpendicular lines accurately.",
+          "hindi": "**Example:** Place a set square on your notebook. The corner with the right angle marker (small square symbol) helps you draw perpendicular lines accurately."
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "set_squares_q1",
+          "id": "setsquaresq1",
           "prompt": {
             "english": "Set squares are mainly used to draw:",
             "hindi": "सेट-स्क्वायर का उपयोग मुख्यतः किसे बनाने में होता है?"
@@ -286,11 +370,29 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Correct Answer: (a) Right angles and perpendicular lines**\n\nSet squares are geometric drawing instruments specifically designed to draw right angles (90°) and perpendicular lines. They can also be used together to draw parallel lines. They are not used for circles, fractions, or bar graphs.",
+            "hindi": "**Correct Answer: (a) Right angles and perpendicular lines**\n\nSet squares are geometric drawing instruments specifically designed to draw right angles (90°) and perpendicular lines. They can also be used together to draw parallel lines. They are not used for circles, fractions, or bar graphs."
+          },
+          "supportExample": {
+            "english": "**Correct Answer: (a) Right angles and perpendicular lines**\nSet squares are geometric drawing instruments specifically designed to draw right angles (90°) and perpendicular lines. They can also be used together to draw parallel lines. They are not used for circles, fractions, or bar graphs.",
+            "hindi": "**Correct Answer: (a) Right angles and perpendicular lines**\nSet squares are geometric drawing instruments specifically designed to draw right angles (90°) and perpendicular lines. They can also be used together to draw parallel lines. They are not used for circles, fractions, or bar graphs."
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Correct Answer: (a) Right angles and perpendicular lines**",
+              "hindi": "**Correct Answer: (a) Right angles and perpendicular lines**"
+            },
+            {
+              "english": "Set squares are geometric drawing instruments specifically designed to draw right angles (90°) and perpendicular lines. They can also be used together to draw parallel lines. They are not used for circles, fractions, or bar graphs.",
+              "hindi": "Set squares are geometric drawing instruments specifically designed to draw right angles (90°) and perpendicular lines. They can also be used together to draw parallel lines. They are not used for circles, fractions, or bar graphs."
+            }
+          ]
         }
       ],
       "tags": [
@@ -306,8 +408,8 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ex_ch19_ex73_q01_a",
-      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "id": "rsexch19ex73q01_a",
+      "sourceLessonId": "rsexercisech19_ex73",
       "chapterNumber": 19,
       "chapterTitle": {
         "english": "Parallel and Perpendicular Lines",
@@ -334,7 +436,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch19_ex73_q01_a_q1",
+          "id": "rsexch19ex73q01aq1",
           "prompt": {
             "english": "The adjoining figure shows a cuboid Part (a): How many sets of parallel line segments can you find? Name them",
             "hindi": "The adjoining figure shows a cuboid Part (a): How many sets of parallel line segments can you find? Name them"
@@ -370,8 +472,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch19_ex73_q01_b",
-      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "id": "rsexch19ex73q01_b",
+      "sourceLessonId": "rsexercisech19_ex73",
       "chapterNumber": 19,
       "chapterTitle": {
         "english": "Parallel and Perpendicular Lines",
@@ -398,7 +500,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch19_ex73_q01_b_q1",
+          "id": "rsexch19ex73q01bq1",
           "prompt": {
             "english": "The adjoining figure shows a cuboid Part (b): How many sets of perpendicular line segments can you find?",
             "hindi": "The adjoining figure shows a cuboid Part (b): How many sets of perpendicular line segments can you find?"
@@ -434,8 +536,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch19_ex73_q02_a",
-      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "id": "rsexch19ex73q02_a",
+      "sourceLessonId": "rsexercisech19_ex73",
       "chapterNumber": 19,
       "chapterTitle": {
         "english": "Parallel and Perpendicular Lines",
@@ -462,7 +564,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch19_ex73_q02_a_q1",
+          "id": "rsexch19ex73q02aq1",
           "prompt": {
             "english": "Fill in the blanks Part (a): Two parallel lines do not..........................., when produced",
             "hindi": "Fill in the blanks Part (a): Two parallel lines do not..........................., when produced"
@@ -498,8 +600,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch19_ex73_q02_b",
-      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "id": "rsexch19ex73q02_b",
+      "sourceLessonId": "rsexercisech19_ex73",
       "chapterNumber": 19,
       "chapterTitle": {
         "english": "Parallel and Perpendicular Lines",
@@ -526,7 +628,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch19_ex73_q02_b_q1",
+          "id": "rsexch19ex73q02bq1",
           "prompt": {
             "english": "Fill in the blanks Part (b): When two lines intersect and make a........................... they are said to be perpendicular to each other",
             "hindi": "Fill in the blanks Part (b): When two lines intersect and make a........................... they are said to be perpendicular to each other"
@@ -562,8 +664,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch19_ex73_q02_c",
-      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "id": "rsexch19ex73q02_c",
+      "sourceLessonId": "rsexercisech19_ex73",
       "chapterNumber": 19,
       "chapterTitle": {
         "english": "Parallel and Perpendicular Lines",
@@ -590,7 +692,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch19_ex73_q02_c_q1",
+          "id": "rsexch19ex73q02cq1",
           "prompt": {
             "english": "Fill in the blanks Part (c): The distance between two parallel lines always",
             "hindi": "Fill in the blanks Part (c): The distance between two parallel lines always"
@@ -626,8 +728,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch19_ex73_q03",
-      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "id": "rsexch19ex73q03",
+      "sourceLessonId": "rsexercisech19_ex73",
       "chapterNumber": 19,
       "chapterTitle": {
         "english": "Parallel and Perpendicular Lines",
@@ -654,7 +756,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch19_ex73_q03_q1",
+          "id": "rsexch19ex73q03_q1",
           "prompt": {
             "english": "Draw a line EF and take a point P above EF. Draw a line GH passing through P such that GH EF Then type done",
             "hindi": "Draw a line EF and take a point P above EF. Draw a line GH passing through P such that GH EF Then type done"
@@ -694,8 +796,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch19_ex73_q04",
-      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "id": "rsexch19ex73q04",
+      "sourceLessonId": "rsexercisech19_ex73",
       "chapterNumber": 19,
       "chapterTitle": {
         "english": "Parallel and Perpendicular Lines",
@@ -722,7 +824,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch19_ex73_q04_q1",
+          "id": "rsexch19ex73q04_q1",
           "prompt": {
             "english": "Draw a line RS and take a point T below RS. Draw a line PQ passing through T such that PQ RS Then type done",
             "hindi": "Draw a line RS and take a point T below RS. Draw a line PQ passing through T such that PQ RS Then type done"
@@ -762,8 +864,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch19_ex73_q05",
-      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "id": "rsexch19ex73q05",
+      "sourceLessonId": "rsexercisech19_ex73",
       "chapterNumber": 19,
       "chapterTitle": {
         "english": "Parallel and Perpendicular Lines",
@@ -790,7 +892,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch19_ex73_q05_q1",
+          "id": "rsexch19ex73q05_q1",
           "prompt": {
             "english": "Draw a line AB. Mark a point P on it. Draw a line at P perpendicular to AB, using set squares Then type done",
             "hindi": "Draw a line AB. Mark a point P on it. Draw a line at P perpendicular to AB, using set squares Then type done"
@@ -830,8 +932,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch19_ex73_q06",
-      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "id": "rsexch19ex73q06",
+      "sourceLessonId": "rsexercisech19_ex73",
       "chapterNumber": 19,
       "chapterTitle": {
         "english": "Parallel and Perpendicular Lines",
@@ -858,7 +960,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch19_ex73_q06_q1",
+          "id": "rsexch19ex73q06_q1",
           "prompt": {
             "english": "Draw a line PQ. Mark a point R on it. Draw a line at R perpendicular to PQ, using a protractor. X P Y X Q P Y B C D E F G H A Then type done",
             "hindi": "Draw a line PQ. Mark a point R on it. Draw a line at R perpendicular to PQ, using a protractor. X P Y X Q P Y B C D E F G H A Then type done"
@@ -898,8 +1000,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch19_ex73_q07",
-      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "id": "rsexch19ex73q07",
+      "sourceLessonId": "rsexercisech19_ex73",
       "chapterNumber": 19,
       "chapterTitle": {
         "english": "Parallel and Perpendicular Lines",
@@ -926,7 +1028,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch19_ex73_q07_q1",
+          "id": "rsexch19ex73q07_q1",
           "prompt": {
             "english": "Draw a line segment CD = 5 cm. Mark a point E on CD such that CE = 2 cm. At E Then type done",
             "hindi": "Draw a line segment CD = 5 cm. Mark a point E on CD such that CE = 2 cm. At E Then type done"
@@ -966,8 +1068,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch19_ex73_q08",
-      "sourceLessonId": "rs_exercise_ch19_ex73",
+      "id": "rsexch19ex73q08",
+      "sourceLessonId": "rsexercisech19_ex73",
       "chapterNumber": 19,
       "chapterTitle": {
         "english": "Parallel and Perpendicular Lines",
@@ -994,7 +1096,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch19_ex73_q08_q1",
+          "id": "rsexch19ex73q08_q1",
           "prompt": {
             "english": "Draw a line segment LM = 5.4 cm. Mark a point N on LM such that LN = 2.3 cm. At N Then type done",
             "hindi": "Draw a line segment LM = 5.4 cm. Mark a point N on LM such that LN = 2.3 cm. At N Then type done"

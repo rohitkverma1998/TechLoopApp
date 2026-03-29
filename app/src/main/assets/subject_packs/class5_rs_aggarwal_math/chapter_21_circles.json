@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch21_introduction_and_drawing_a_circle_with_the_help_of_a_compass",
+      "id": "rsch21introductionanddrawingacirclewiththehelpofacompass",
       "sourceLessonId": "rs_ch21",
       "chapterNumber": 21,
       "chapterTitle": {
@@ -29,12 +29,22 @@
         "english": "Introduction and Drawing a Circle with the Help of a Compass",
         "hindi": "परिचय और कम्पास की सहायता से वृत्त बनाना"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "A **circle** is a perfectly round shape. Every point on a circle is at the same distance from a fixed point called the **centre**.\n\nTo draw a circle, we use an instrument called a **compass**. Here is how:\n1. Place the pointed end of the compass on the paper — this is the centre of the circle.\n2. Open the compass to the desired radius (distance from centre to edge).\n3. Rotate the compass fully around the pointed end to draw the circle.\n\n**Example:**\n- Open the compass to 3 cm. Place the pointed end on paper, rotate it fully. You get a circle with radius 3 cm.\n- A clock face, a coin, a wheel — all are examples of circles in real life.",
+          "hindi": "### व्याख्या (हिंदी)\n\n**वृत्त** एक गोलाकार आकृति है। वृत्त पर प्रत्येक बिंदु एक निश्चित बिंदु से, जिसे **केंद्र** कहते हैं, समान दूरी पर होता है।\n\nवृत्त बनाने के लिए हम **कम्पास** नामक यंत्र का उपयोग करते हैं। इस प्रकार बनाएँ:\n1. कम्पास की नुकीली नोक को कागज़ पर रखें — यह वृत्त का केंद्र होगा।\n2. कम्पास को मनचाही त्रिज्या (केंद्र से किनारे की दूरी) तक खोलें।\n3. कम्पास को नुकीली नोक के चारों ओर पूरा घुमाएँ — वृत्त बन जाएगा।\n\n**उदाहरण:**\n- कम्पास को 3 सेमी खोलें, नोक कागज़ पर रखें और पूरा घुमाएँ। 3 सेमी त्रिज्या का वृत्त बनेगा।\n- घड़ी का चेहरा, सिक्का, पहिया — ये सब वृत्त के वास्तविक जीवन के उदाहरण हैं।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:**\n- Open the compass to 3 cm. Place the pointed end on paper, rotate it fully. You get a circle with radius 3 cm.\n- A clock face, a coin, a wheel — all are examples of circles in real life.",
+          "hindi": "**उदाहरण:**\n- कम्पास को 3 सेमी खोलें, नोक कागज़ पर रखें और पूरा घुमाएँ। 3 सेमी त्रिज्या का वृत्त बनेगा।\n- घड़ी का चेहरा, सिक्का, पहिया — ये सब वृत्त के वास्तविक जीवन के उदाहरण हैं।"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "introduction_and_drawing_a_circle_with_the_help_of_a_compass_q1",
+          "id": "introductionanddrawingacirclewiththehelpofacompass_q1",
           "prompt": {
             "english": "Which instrument is used to draw a circle?",
             "hindi": "वृत्त बनाने के लिए किस यंत्र का उपयोग किया जाता है?"
@@ -61,11 +71,25 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "A **compass** is used to draw a circle. The pointed end is fixed at the centre and the pencil end traces the circle as it rotates.",
+            "hindi": "A **compass** is used to draw a circle. The pointed end is fixed at the centre and the pencil end traces the circle as it rotates."
+          },
+          "supportExample": {
+            "english": "A **compass** is used to draw a circle. The pointed end is fixed at the centre and the pencil end traces the circle as it rotates.",
+            "hindi": "A **compass** is used to draw a circle. The pointed end is fixed at the centre and the pencil end traces the circle as it rotates."
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A **compass** is used to draw a circle. The pointed end is fixed at the centre and the pencil end traces the circle as it rotates.",
+              "hindi": "A **compass** is used to draw a circle. The pointed end is fixed at the centre and the pencil end traces the circle as it rotates."
+            }
+          ]
         }
       ],
       "tags": [
@@ -81,7 +105,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch21_terms_related_to_circles",
+      "id": "rsch21termsrelatedto_circles",
       "sourceLessonId": "rs_ch21",
       "chapterNumber": 21,
       "chapterTitle": {
@@ -104,12 +128,26 @@
         "english": "Terms Related to Circles",
         "hindi": "वृत्त से संबंधित शब्द"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "Important terms related to a circle:\n\n- **Centre (O):** The fixed middle point of the circle. Every point on the circle is at the same distance from the centre.\n- **Radius (r):** The distance from the centre to any point on the circle. Example: OA, OB.\n- **Diameter (d):** A chord that passes through the centre. It is the longest chord. **Diameter = 2 × Radius**, so **Radius = Diameter ÷ 2**.\n- **Chord:** A line segment whose both ends lie on the circle (does not have to pass through the centre).\n- **Arc:** A part of the boundary (circumference) of the circle.\n- **Circumference:** The total length of the boundary of a circle. **Circumference = 2 × π × r** (where π ≈ 22/7 or 3.14).\n\n**Example:** If radius = 5 cm, then diameter = 10 cm. If diameter = 16 cm, then radius = 8 cm.",
+          "hindi": "### व्याख्या (हिंदी)\n\nवृत्त से जुड़े महत्वपूर्ण शब्द:\n\n- **केंद्र (O):** वृत्त का मध्य बिंदु। वृत्त पर प्रत्येक बिंदु केंद्र से समान दूरी पर होता है।\n- **त्रिज्या (r):** केंद्र से वृत्त के किसी भी बिंदु तक की दूरी। उदाहरण: OA, OB।\n- **व्यास (d):** वह जीवा जो केंद्र से होकर गुज़रती है। यह सबसे लंबी जीवा होती है। **व्यास = 2 × त्रिज्या**, इसलिए **त्रिज्या = व्यास ÷ 2**।\n- **जीवा:** वह रेखाखंड जिसके दोनों सिरे वृत्त पर हों (केंद्र से होकर नहीं जाना जरूरी नहीं)।\n- **चाप:** वृत्त की परिधि का एक भाग।\n- **परिधि:** वृत्त की सीमा की कुल लंबाई। **परिधि = 2 × π × r** (जहाँ π ≈ 22/7 या 3.14)।\n\n**उदाहरण:** यदि त्रिज्या = 5 सेमी, तो व्यास = 10 सेमी। यदि व्यास = 16 सेमी, तो त्रिज्या = 8 सेमी।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "- **Centre (O):** The fixed middle point of the circle. Every point on the circle is at the same distance from the centre.\n- **Radius (r):** The distance from the centre to any point on the circle. Example: OA, OB.\n- **Diameter (d):** A chord that passes through the centre. It is the longest chord. **Diameter = 2 × Radius**, so **Radius = Diameter ÷ 2**.\n- **Chord:** A line segment whose both ends lie on the circle (does not have to pass through the centre).\n- **Arc:** A part of the boundary (circumference) of the circle.\n- **Circumference:** The total length of the boundary of a circle. **Circumference = 2 × π × r** (where π ≈ 22/7 or 3.14).",
+          "hindi": "- **केंद्र (O):** वृत्त का मध्य बिंदु। वृत्त पर प्रत्येक बिंदु केंद्र से समान दूरी पर होता है।\n- **त्रिज्या (r):** केंद्र से वृत्त के किसी भी बिंदु तक की दूरी। उदाहरण: OA, OB।\n- **व्यास (d):** वह जीवा जो केंद्र से होकर गुज़रती है। यह सबसे लंबी जीवा होती है। **व्यास = 2 × त्रिज्या**, इसलिए **त्रिज्या = व्यास ÷ 2**।\n- **जीवा:** वह रेखाखंड जिसके दोनों सिरे वृत्त पर हों (केंद्र से होकर नहीं जाना जरूरी नहीं)।\n- **चाप:** वृत्त की परिधि का एक भाग।\n- **परिधि:** वृत्त की सीमा की कुल लंबाई। **परिधि = 2 × π × r** (जहाँ π ≈ 22/7 या 3.14)।"
+        },
+        {
+          "english": "**Example:** If radius = 5 cm, then diameter = 10 cm. If diameter = 16 cm, then radius = 8 cm.",
+          "hindi": "**उदाहरण:** यदि त्रिज्या = 5 सेमी, तो व्यास = 10 सेमी। यदि व्यास = 16 सेमी, तो त्रिज्या = 8 सेमी।"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "terms_related_to_circles_q1",
+          "id": "termsrelatedtocirclesq1",
           "prompt": {
             "english": "A circle has diameter 16 cm. Write its radius.",
             "hindi": "एक वृत्त का व्यास 16 सेमी है। उसकी त्रिज्या लिखिए।"
@@ -122,11 +160,37 @@
             "8 cm"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Given:** Diameter = 16 cm\n\n**Formula:** Radius = Diameter ÷ 2\n\n**Step 1:** Radius = 16 ÷ 2\n\n**Answer: Radius = 8 cm**",
+            "hindi": "**Given:** Diameter = 16 cm\n\n**Formula:** Radius = Diameter ÷ 2\n\n**Step 1:** Radius = 16 ÷ 2\n\n**Answer: Radius = 8 cm**"
+          },
+          "supportExample": {
+            "english": "**Given:** Diameter = 16 cm\n**Formula:** Radius = Diameter ÷ 2",
+            "hindi": "**Given:** Diameter = 16 cm\n**Formula:** Radius = Diameter ÷ 2"
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Given:** Diameter = 16 cm",
+              "hindi": "**Given:** Diameter = 16 cm"
+            },
+            {
+              "english": "**Formula:** Radius = Diameter ÷ 2",
+              "hindi": "**Formula:** Radius = Diameter ÷ 2"
+            },
+            {
+              "english": "**Step 1:** Radius = 16 ÷ 2",
+              "hindi": "**Step 1:** Radius = 16 ÷ 2"
+            },
+            {
+              "english": "**Answer: Radius = 8 cm**",
+              "hindi": "**Answer: Radius = 8 cm**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -142,7 +206,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch21_drawing_a_chord_of_given_length_in_a_circle",
+      "id": "rsch21drawingachordofgivenlengthinacircle",
       "sourceLessonId": "rs_ch21",
       "chapterNumber": 21,
       "chapterTitle": {
@@ -165,12 +229,22 @@
         "english": "Drawing a Chord of Given Length in a Circle",
         "hindi": "दिए गए वृत्त में दी गई लंबाई की जीवा बनाना"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "A **chord** is a line segment that connects two points on a circle. To draw a chord of a given length:\n1. Draw the circle with a compass.\n2. Mark one point on the circle (call it A).\n3. Open the compass to the length of the chord (e.g., 4 cm).\n4. Place the compass on point A and mark the second point B on the circle.\n5. Join A and B — this is the chord AB.\n\nThe **diameter** is the longest possible chord because it passes through the centre.\n\n**Example:** In a circle of radius 5 cm, the longest chord (diameter) = 10 cm. Any other chord will be shorter than 10 cm.",
+          "hindi": "### व्याख्या (हिंदी)\n\n**जीवा** वह रेखाखंड है जो वृत्त के दो बिंदुओं को जोड़ती है। दी गई लंबाई की जीवा बनाने का तरीका:\n1. कम्पास से वृत्त बनाएँ।\n2. वृत्त पर एक बिंदु A अंकित करें।\n3. कम्पास को जीवा की लंबाई (जैसे 4 सेमी) तक खोलें।\n4. कम्पास को बिंदु A पर रखकर वृत्त पर दूसरा बिंदु B अंकित करें।\n5. A और B को जोड़ें — यही जीवा AB है।\n\n**व्यास** सबसे लंबी जीवा होती है क्योंकि यह केंद्र से होकर गुज़रती है।\n\n**उदाहरण:** 5 सेमी त्रिज्या के वृत्त में सबसे लंबी जीवा (व्यास) = 10 सेमी। कोई भी अन्य जीवा 10 सेमी से छोटी होगी।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** In a circle of radius 5 cm, the longest chord (diameter) = 10 cm. Any other chord will be shorter than 10 cm.",
+          "hindi": "**उदाहरण:** 5 सेमी त्रिज्या के वृत्त में सबसे लंबी जीवा (व्यास) = 10 सेमी। कोई भी अन्य जीवा 10 सेमी से छोटी होगी।"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "drawing_a_chord_of_given_length_in_a_circle_q1",
+          "id": "drawingachordofgivenlengthinacircle_q1",
           "prompt": {
             "english": "What is the longest chord of a circle?",
             "hindi": "वृत्त की सबसे लंबी जीवा क्या होती है?"
@@ -197,11 +271,25 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "The **diameter** is the longest chord of a circle. It passes through the centre and its length = 2 × radius.",
+            "hindi": "The **diameter** is the longest chord of a circle. It passes through the centre and its length = 2 × radius."
+          },
+          "supportExample": {
+            "english": "The **diameter** is the longest chord of a circle. It passes through the centre and its length = 2 × radius.",
+            "hindi": "The **diameter** is the longest chord of a circle. It passes through the centre and its length = 2 × radius."
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The **diameter** is the longest chord of a circle. It passes through the centre and its length = 2 × radius.",
+              "hindi": "The **diameter** is the longest chord of a circle. It passes through the centre and its length = 2 × radius."
+            }
+          ]
         }
       ],
       "tags": [
@@ -217,8 +305,8 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ex_ch21_ex76_q01",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q01",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -245,7 +333,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q01_q1",
+          "id": "rsexch21ex76q01_q1",
           "prompt": {
             "english": "In the given figure, O is the centre of a circle. Name the radii and the diameters in the circle",
             "hindi": "In the given figure, O is the centre of a circle. Name the radii and the diameters in the circle"
@@ -281,8 +369,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q02",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q02",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -309,7 +397,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q02_q1",
+          "id": "rsexch21ex76q02_q1",
           "prompt": {
             "english": "In the figure given here, O is the centre of the circle. Name the chords of the circle",
             "hindi": "In the figure given here, O is the centre of the circle. Name the chords of the circle"
@@ -345,8 +433,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q03_a",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q03_a",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -373,7 +461,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q03_a_q1",
+          "id": "rsexch21ex76q03aq1",
           "prompt": {
             "english": "Fill in the blanks Part (a): If A and B are two points on a circle, then the line segment AB is called a............ of the circle",
             "hindi": "Fill in the blanks Part (a): If A and B are two points on a circle, then the line segment AB is called a............ of the circle"
@@ -409,8 +497,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q03_b",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q03_b",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -437,7 +525,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q03_b_q1",
+          "id": "rsexch21ex76q03bq1",
           "prompt": {
             "english": "Fill in the blanks Part (b): A line segment passing through the centre of a circle with its end points on the circle is a............ of the circle",
             "hindi": "Fill in the blanks Part (b): A line segment passing through the centre of a circle with its end points on the circle is a............ of the circle"
@@ -473,8 +561,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q03_c",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q03_c",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -501,7 +589,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q03_c_q1",
+          "id": "rsexch21ex76q03cq1",
           "prompt": {
             "english": "Fill in the blanks Part (c): A diameter is the............ chord of the circle",
             "hindi": "Fill in the blanks Part (c): A diameter is the............ chord of the circle"
@@ -537,8 +625,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q05_a",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q05_a",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -565,7 +653,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q05_a_q1",
+          "id": "rsexch21ex76q05aq1",
           "prompt": {
             "english": "Find the diameter of a circle whose radius is Part (a): 4 cm",
             "hindi": "Find the diameter of a circle whose radius is Part (a): 4 cm"
@@ -602,8 +690,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q05_b",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q05_b",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -630,7 +718,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q05_b_q1",
+          "id": "rsexch21ex76q05bq1",
           "prompt": {
             "english": "Find the diameter of a circle whose radius is Part (b): 3.8 cm",
             "hindi": "Find the diameter of a circle whose radius is Part (b): 3.8 cm"
@@ -667,8 +755,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q05_c",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q05_c",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -695,7 +783,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q05_c_q1",
+          "id": "rsexch21ex76q05cq1",
           "prompt": {
             "english": "Find the diameter of a circle whose radius is Part (c): 5.4 cm",
             "hindi": "Find the diameter of a circle whose radius is Part (c): 5.4 cm"
@@ -732,8 +820,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q05_d",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q05_d",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -760,7 +848,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q05_d_q1",
+          "id": "rsexch21ex76q05dq1",
           "prompt": {
             "english": "Find the diameter of a circle whose radius is Part (d): 6.1 cm",
             "hindi": "Find the diameter of a circle whose radius is Part (d): 6.1 cm"
@@ -797,8 +885,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q06_a",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q06_a",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -825,7 +913,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q06_a_q1",
+          "id": "rsexch21ex76q06aq1",
           "prompt": {
             "english": "Find the radius of a circle whose diameter is Part (a): 9 cm",
             "hindi": "Find the radius of a circle whose diameter is Part (a): 9 cm"
@@ -862,8 +950,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q06_b",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q06_b",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -890,7 +978,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q06_b_q1",
+          "id": "rsexch21ex76q06bq1",
           "prompt": {
             "english": "Find the radius of a circle whose diameter is Part (b): 7.8 cm",
             "hindi": "Find the radius of a circle whose diameter is Part (b): 7.8 cm"
@@ -927,8 +1015,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q06_c",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q06_c",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -955,7 +1043,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q06_c_q1",
+          "id": "rsexch21ex76q06cq1",
           "prompt": {
             "english": "Find the radius of a circle whose diameter is Part (c): 9.2 cm",
             "hindi": "Find the radius of a circle whose diameter is Part (c): 9.2 cm"
@@ -992,8 +1080,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q06_d",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q06_d",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -1020,7 +1108,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q06_d_q1",
+          "id": "rsexch21ex76q06dq1",
           "prompt": {
             "english": "Find the radius of a circle whose diameter is Part (d): 7 cm",
             "hindi": "Find the radius of a circle whose diameter is Part (d): 7 cm"
@@ -1057,8 +1145,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q07_a",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q07_a",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -1085,7 +1173,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q07_a_q1",
+          "id": "rsexch21ex76q07aq1",
           "prompt": {
             "english": "Find the circumference of a circle whose radius is Part (a): 7 cm",
             "hindi": "Find the circumference of a circle whose radius is Part (a): 7 cm"
@@ -1122,8 +1210,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q07_b",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q07_b",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -1150,7 +1238,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q07_b_q1",
+          "id": "rsexch21ex76q07bq1",
           "prompt": {
             "english": "Find the circumference of a circle whose radius is Part (b): 6.3 cm",
             "hindi": "Find the circumference of a circle whose radius is Part (b): 6.3 cm"
@@ -1187,8 +1275,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q07_c",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q07_c",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -1215,7 +1303,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q07_c_q1",
+          "id": "rsexch21ex76q07cq1",
           "prompt": {
             "english": "Find the circumference of a circle whose radius is Part (c): 5.6 cm",
             "hindi": "Find the circumference of a circle whose radius is Part (c): 5.6 cm"
@@ -1252,8 +1340,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q07_d",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q07_d",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -1280,7 +1368,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q07_d_q1",
+          "id": "rsexch21ex76q07dq1",
           "prompt": {
             "english": "Find the circumference of a circle whose radius is Part (d): 4.2 cm [Take p = 22 7 in each case.]",
             "hindi": "Find the circumference of a circle whose radius is Part (d): 4.2 cm [Take p = 22 7 in each case.]"
@@ -1317,8 +1405,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q08_a",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q08_a",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -1345,7 +1433,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q08_a_q1",
+          "id": "rsexch21ex76q08aq1",
           "prompt": {
             "english": "Find the circumference of a circle whose radius is Part (a): 6 cm",
             "hindi": "Find the circumference of a circle whose radius is Part (a): 6 cm"
@@ -1382,8 +1470,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q08_b",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q08_b",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -1410,7 +1498,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q08_b_q1",
+          "id": "rsexch21ex76q08bq1",
           "prompt": {
             "english": "Find the circumference of a circle whose radius is Part (b): 8 cm",
             "hindi": "Find the circumference of a circle whose radius is Part (b): 8 cm"
@@ -1447,8 +1535,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q08_c",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q08_c",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -1475,7 +1563,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q08_c_q1",
+          "id": "rsexch21ex76q08cq1",
           "prompt": {
             "english": "Find the circumference of a circle whose radius is Part (c): 4.5 cm",
             "hindi": "Find the circumference of a circle whose radius is Part (c): 4.5 cm"
@@ -1512,8 +1600,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q08_d",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q08_d",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -1540,7 +1628,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q08_d_q1",
+          "id": "rsexch21ex76q08dq1",
           "prompt": {
             "english": "Find the circumference of a circle whose radius is Part (d): 6.5 cm [Take p = 3.14 in each case.]",
             "hindi": "Find the circumference of a circle whose radius is Part (d): 6.5 cm [Take p = 3.14 in each case.]"
@@ -1577,8 +1665,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q09_a",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q09_a",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -1605,7 +1693,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q09_a_q1",
+          "id": "rsexch21ex76q09aq1",
           "prompt": {
             "english": "Find the radius of a circle whose circumference is Part (a): 22 cm",
             "hindi": "Find the radius of a circle whose circumference is Part (a): 22 cm"
@@ -1642,8 +1730,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q09_b",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q09_b",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -1670,7 +1758,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q09_b_q1",
+          "id": "rsexch21ex76q09bq1",
           "prompt": {
             "english": "Find the radius of a circle whose circumference is Part (b): 17.6 cm",
             "hindi": "Find the radius of a circle whose circumference is Part (b): 17.6 cm"
@@ -1707,8 +1795,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q09_c",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q09_c",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -1735,7 +1823,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q09_c_q1",
+          "id": "rsexch21ex76q09cq1",
           "prompt": {
             "english": "Find the radius of a circle whose circumference is Part (c): 30.8 cm",
             "hindi": "Find the radius of a circle whose circumference is Part (c): 30.8 cm"
@@ -1772,8 +1860,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q09_d",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q09_d",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -1800,7 +1888,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q09_d_q1",
+          "id": "rsexch21ex76q09dq1",
           "prompt": {
             "english": "Find the radius of a circle whose circumference is Part (d): 79.2 cm [Take p = 22 7 in each case.]",
             "hindi": "Find the radius of a circle whose circumference is Part (d): 79.2 cm [Take p = 22 7 in each case.]"
@@ -1837,8 +1925,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q10_a",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q10_a",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -1865,7 +1953,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q10_a_q1",
+          "id": "rsexch21ex76q10aq1",
           "prompt": {
             "english": "Find the diameter of a circle whose circumference is Part (a): 66 cm",
             "hindi": "Find the diameter of a circle whose circumference is Part (a): 66 cm"
@@ -1902,8 +1990,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q10_b",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q10_b",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -1930,7 +2018,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q10_b_q1",
+          "id": "rsexch21ex76q10bq1",
           "prompt": {
             "english": "Find the diameter of a circle whose circumference is Part (b): 35.2 cm",
             "hindi": "Find the diameter of a circle whose circumference is Part (b): 35.2 cm"
@@ -1967,8 +2055,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q10_c",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q10_c",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -1995,7 +2083,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q10_c_q1",
+          "id": "rsexch21ex76q10cq1",
           "prompt": {
             "english": "Find the diameter of a circle whose circumference is Part (c): 30.8 cm",
             "hindi": "Find the diameter of a circle whose circumference is Part (c): 30.8 cm"
@@ -2032,8 +2120,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q10_d",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q10_d",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -2060,7 +2148,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q10_d_q1",
+          "id": "rsexch21ex76q10dq1",
           "prompt": {
             "english": "Find the diameter of a circle whose circumference is Part (d): 35 cm [Take p = 22 7 in each case.]",
             "hindi": "Find the diameter of a circle whose circumference is Part (d): 35 cm [Take p = 22 7 in each case.]"
@@ -2097,8 +2185,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q11",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q11",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -2125,7 +2213,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q11_q1",
+          "id": "rsexch21ex76q11_q1",
           "prompt": {
             "english": "Draw a circle of radius 3.8 cm. In this circle, construct a chord of length 4.2 cm Then type done",
             "hindi": "Draw a circle of radius 3.8 cm. In this circle, construct a chord of length 4.2 cm Then type done"
@@ -2165,8 +2253,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q12",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q12",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -2193,7 +2281,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q12_q1",
+          "id": "rsexch21ex76q12_q1",
           "prompt": {
             "english": "Draw two concentric circles of radii 4.5 cm and 5.2 cm. Shade the ring formed Then type done",
             "hindi": "Draw two concentric circles of radii 4.5 cm and 5.2 cm. Shade the ring formed Then type done"
@@ -2233,8 +2321,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q13_a",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q13_a",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -2261,7 +2349,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q13_a_q1",
+          "id": "rsexch21ex76q13aq1",
           "prompt": {
             "english": "A circle is drawn with centre O and radius 5.5 cm. Write the position of each of the points A, B, C, D and E with respect to the given circle, where Part (a): OA = 6.3 cm",
             "hindi": "A circle is drawn with centre O and radius 5.5 cm. Write the position of each of the points A, B, C, D and E with respect to the given circle, where Part (a): OA = 6.3 cm"
@@ -2297,8 +2385,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q13_b",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q13_b",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -2325,7 +2413,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q13_b_q1",
+          "id": "rsexch21ex76q13bq1",
           "prompt": {
             "english": "A circle is drawn with centre O and radius 5.5 cm. Write the position of each of the points A, B, C, D and E with respect to the given circle, where Part (b): OB = 4.8 cm",
             "hindi": "A circle is drawn with centre O and radius 5.5 cm. Write the position of each of the points A, B, C, D and E with respect to the given circle, where Part (b): OB = 4.8 cm"
@@ -2361,8 +2449,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q13_c",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q13_c",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -2389,7 +2477,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q13_c_q1",
+          "id": "rsexch21ex76q13cq1",
           "prompt": {
             "english": "A circle is drawn with centre O and radius 5.5 cm. Write the position of each of the points A, B, C, D and E with respect to the given circle, where Part (c): OC = 7 cm",
             "hindi": "A circle is drawn with centre O and radius 5.5 cm. Write the position of each of the points A, B, C, D and E with respect to the given circle, where Part (c): OC = 7 cm"
@@ -2425,8 +2513,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q13_d",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q13_d",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -2453,7 +2541,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q13_d_q1",
+          "id": "rsexch21ex76q13dq1",
           "prompt": {
             "english": "A circle is drawn with centre O and radius 5.5 cm. Write the position of each of the points A, B, C, D and E with respect to the given circle, where Part (d): OD = 5.5 cm",
             "hindi": "A circle is drawn with centre O and radius 5.5 cm. Write the position of each of the points A, B, C, D and E with respect to the given circle, where Part (d): OD = 5.5 cm"
@@ -2489,8 +2577,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch21_ex76_q13_e",
-      "sourceLessonId": "rs_exercise_ch21_ex76",
+      "id": "rsexch21ex76q13_e",
+      "sourceLessonId": "rsexercisech21_ex76",
       "chapterNumber": 21,
       "chapterTitle": {
         "english": "Circles",
@@ -2517,7 +2605,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch21_ex76_q13_e_q1",
+          "id": "rsexch21ex76q13eq1",
           "prompt": {
             "english": "A circle is drawn with centre O and radius 5.5 cm. Write the position of each of the points A, B, C, D and E with respect to the given circle, where Part (e): OE = 5 cm P",
             "hindi": "A circle is drawn with centre O and radius 5.5 cm. Write the position of each of the points A, B, C, D and E with respect to the given circle, where Part (e): OE = 5 cm P"

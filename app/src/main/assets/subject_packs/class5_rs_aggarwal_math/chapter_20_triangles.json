@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch20_collinear_and_non_collinear_points",
+      "id": "rsch20collinearandnoncollinearpoints",
       "sourceLessonId": "rs_ch20",
       "chapterNumber": 20,
       "chapterTitle": {
@@ -29,12 +29,22 @@
         "english": "Collinear and Non-collinear Points",
         "hindi": "समरेखीय और असमरेखीय बिंदु"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Collinear Points:** Three or more points that lie on the **same straight line** are called **collinear points**.\n\n**Example:** If points A, B, and C all lie on one straight line, they are collinear.\n\n**Non-collinear Points:** Three or more points that do **not** lie on the same straight line are called **non-collinear points**.\n\n**Example:** If points A, B, and C form a triangle (no single straight line passes through all three), they are non-collinear.\n\n**Key fact:** To form a triangle, we need exactly **3 non-collinear points**. If the points were collinear (on one line), they cannot form a triangle.",
+          "hindi": "**Collinear Points:** Three or more points that lie on the **same straight line** are called **collinear points**.\n\n**Example:** If points A, B, and C all lie on one straight line, they are collinear.\n\n**Non-collinear Points:** Three or more points that do **not** lie on the same straight line are called **non-collinear points**.\n\n**Example:** If points A, B, and C form a triangle (no single straight line passes through all three), they are non-collinear.\n\n**Key fact:** To form a triangle, we need exactly **3 non-collinear points**. If the points were collinear (on one line), they cannot form a triangle."
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** If points A, B, and C all lie on one straight line, they are collinear.\n**Example:** If points A, B, and C form a triangle (no single straight line passes through all three), they are non-collinear.",
+          "hindi": "**Example:** If points A, B, and C all lie on one straight line, they are collinear.\n**Example:** If points A, B, and C form a triangle (no single straight line passes through all three), they are non-collinear."
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "collinear_and_non_collinear_points_q1",
+          "id": "collinearandnoncollinearpoints_q1",
           "prompt": {
             "english": "Three points lying on one straight line are called:",
             "hindi": "एक ही सीधी रेखा पर स्थित तीन बिंदुओं को क्या कहते हैं?"
@@ -61,11 +71,29 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Correct Answer: (a) Collinear points**\n\n\"Collinear\" comes from \"co\" (together) + \"linear\" (line). Points that lie together on one straight line are collinear. Non-collinear points do not lie on one line. Parallel points and circular points are not standard geometrical terms.",
+            "hindi": "**Correct Answer: (a) Collinear points**\n\n\"Collinear\" comes from \"co\" (together) + \"linear\" (line). Points that lie together on one straight line are collinear. Non-collinear points do not lie on one line. Parallel points and circular points are not standard geometrical terms."
+          },
+          "supportExample": {
+            "english": "**Correct Answer: (a) Collinear points**\n\"Collinear\" comes from \"co\" (together) + \"linear\" (line). Points that lie together on one straight line are collinear. Non-collinear points do not lie on one line. Parallel points and circular points are not standard geometrical terms.",
+            "hindi": "**Correct Answer: (a) Collinear points**\n\"Collinear\" comes from \"co\" (together) + \"linear\" (line). Points that lie together on one straight line are collinear. Non-collinear points do not lie on one line. Parallel points and circular points are not standard geometrical terms."
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Correct Answer: (a) Collinear points**",
+              "hindi": "**Correct Answer: (a) Collinear points**"
+            },
+            {
+              "english": "\"Collinear\" comes from \"co\" (together) + \"linear\" (line). Points that lie together on one straight line are collinear. Non-collinear points do not lie on one line. Parallel points and circular points are not standard geometrical terms.",
+              "hindi": "\"Collinear\" comes from \"co\" (together) + \"linear\" (line). Points that lie together on one straight line are collinear. Non-collinear points do not lie on one line. Parallel points and circular points are not standard geometrical terms."
+            }
+          ]
         }
       ],
       "tags": [
@@ -81,7 +109,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch20_triangle",
+      "id": "rsch20triangle",
       "sourceLessonId": "rs_ch20",
       "chapterNumber": 20,
       "chapterTitle": {
@@ -104,8 +132,18 @@
         "english": "Triangle",
         "hindi": "त्रिभुज"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "A **triangle** is a closed flat shape formed by joining **3 non-collinear points** with **3 line segments**. It has:\n- **3 sides** (the line segments)\n- **3 angles** (at each corner)\n- **3 vertices** (the corner points)\n\n**Example:** In triangle ABC:\n- Vertices: A, B, C\n- Sides: AB, BC, CA\n- Angles: ∠A (or ∠BAC), ∠B (or ∠ABC), ∠C (or ∠BCA)\n\n**Important property:** The sum of all three angles of a triangle is always **180°**.",
+          "hindi": "A **triangle** is a closed flat shape formed by joining **3 non-collinear points** with **3 line segments**. It has:\n- **3 sides** (the line segments)\n- **3 angles** (at each corner)\n- **3 vertices** (the corner points)\n\n**Example:** In triangle ABC:\n- Vertices: A, B, C\n- Sides: AB, BC, CA\n- Angles: ∠A (or ∠BAC), ∠B (or ∠ABC), ∠C (or ∠BCA)\n\n**Important property:** The sum of all three angles of a triangle is always **180°**."
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** In triangle ABC:\n- Vertices: A, B, C\n- Sides: AB, BC, CA\n- Angles: ∠A (or ∠BAC), ∠B (or ∠ABC), ∠C (or ∠BCA)",
+          "hindi": "**Example:** In triangle ABC:\n- Vertices: A, B, C\n- Sides: AB, BC, CA\n- Angles: ∠A (or ∠BAC), ∠B (or ∠ABC), ∠C (or ∠BCA)"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
@@ -136,11 +174,29 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Correct Answer: (a) 3**\n\nA triangle, by definition, has exactly **3 sides**. The word \"tri\" means three (like tricycle = three wheels). Along with 3 sides, a triangle also has 3 angles and 3 vertices.",
+            "hindi": "**Correct Answer: (a) 3**\n\nA triangle, by definition, has exactly **3 sides**. The word \"tri\" means three (like tricycle = three wheels). Along with 3 sides, a triangle also has 3 angles and 3 vertices."
+          },
+          "supportExample": {
+            "english": "**Correct Answer: (a) 3**\nA triangle, by definition, has exactly **3 sides**. The word \"tri\" means three (like tricycle = three wheels). Along with 3 sides, a triangle also has 3 angles and 3 vertices.",
+            "hindi": "**Correct Answer: (a) 3**\nA triangle, by definition, has exactly **3 sides**. The word \"tri\" means three (like tricycle = three wheels). Along with 3 sides, a triangle also has 3 angles and 3 vertices."
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Correct Answer: (a) 3**",
+              "hindi": "**Correct Answer: (a) 3**"
+            },
+            {
+              "english": "A triangle, by definition, has exactly **3 sides**. The word \"tri\" means three (like tricycle = three wheels). Along with 3 sides, a triangle also has 3 angles and 3 vertices.",
+              "hindi": "A triangle, by definition, has exactly **3 sides**. The word \"tri\" means three (like tricycle = three wheels). Along with 3 sides, a triangle also has 3 angles and 3 vertices."
+            }
+          ]
         }
       ],
       "tags": [
@@ -156,7 +212,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch20_classification_of_triangles_according_to_sides",
+      "id": "rsch20classificationoftrianglesaccordingto_sides",
       "sourceLessonId": "rs_ch20",
       "chapterNumber": 20,
       "chapterTitle": {
@@ -179,12 +235,22 @@
         "english": "Classification of Triangles according to Sides",
         "hindi": "भुजाओं के आधार पर त्रिभुजों का वर्गीकरण"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "Triangles can be classified based on the lengths of their sides:\n\n| Type | Property | Example |\n|------|----------|---------|\n| **Equilateral triangle** | All 3 sides are equal | Sides: 5 cm, 5 cm, 5 cm |\n| **Isosceles triangle** | Any 2 sides are equal | Sides: 4 cm, 4 cm, 6 cm |\n| **Scalene triangle** | All 3 sides are different | Sides: 3 cm, 4 cm, 5 cm |\n\n**Memory tips:**\n- **Equilateral** = \"equal\" + \"lateral\" (sides) → all sides equal\n- **Isosceles** → think \"I so see legs\" — two equal legs (sides)\n- **Scalene** → all sides are \"scaled\" differently",
+          "hindi": "Triangles can be classified based on the lengths of their sides:\n\n| Type | Property | Example |\n|------|----------|---------|\n| **Equilateral triangle** | All 3 sides are equal | Sides: 5 cm, 5 cm, 5 cm |\n| **Isosceles triangle** | Any 2 sides are equal | Sides: 4 cm, 4 cm, 6 cm |\n| **Scalene triangle** | All 3 sides are different | Sides: 3 cm, 4 cm, 5 cm |\n\n**Memory tips:**\n- **Equilateral** = \"equal\" + \"lateral\" (sides) → all sides equal\n- **Isosceles** → think \"I so see legs\" — two equal legs (sides)\n- **Scalene** → all sides are \"scaled\" differently"
+        }
+      ],
+      "examples": [
+        {
+          "english": "| Type | Property | Example |\n|------|----------|---------|\n| **Equilateral triangle** | All 3 sides are equal | Sides: 5 cm, 5 cm, 5 cm |\n| **Isosceles triangle** | Any 2 sides are equal | Sides: 4 cm, 4 cm, 6 cm |\n| **Scalene triangle** | All 3 sides are different | Sides: 3 cm, 4 cm, 5 cm |",
+          "hindi": "| Type | Property | Example |\n|------|----------|---------|\n| **Equilateral triangle** | All 3 sides are equal | Sides: 5 cm, 5 cm, 5 cm |\n| **Isosceles triangle** | Any 2 sides are equal | Sides: 4 cm, 4 cm, 6 cm |\n| **Scalene triangle** | All 3 sides are different | Sides: 3 cm, 4 cm, 5 cm |"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "classification_of_triangles_according_to_sides_q1",
+          "id": "classificationoftrianglesaccordingtosidesq1",
           "prompt": {
             "english": "A triangle with sides 5 cm, 5 cm and 5 cm is:",
             "hindi": "5 सेमी, 5 सेमी और 5 सेमी भुजाओं वाला त्रिभुज कैसा है?"
@@ -211,11 +277,33 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Correct Answer: (a) Equilateral**\n\nAll three sides are equal (5 cm = 5 cm = 5 cm), so this is an **equilateral triangle**.\n\n- Isosceles: only TWO sides equal — not the case here.\n- Scalene: all sides different — not the case here.\n- Right-angled: has a 90° angle — refers to angle classification, not side classification.",
+            "hindi": "**Correct Answer: (a) Equilateral**\n\nAll three sides are equal (5 cm = 5 cm = 5 cm), so this is an **equilateral triangle**.\n\n- Isosceles: only TWO sides equal — not the case here.\n- Scalene: all sides different — not the case here.\n- Right-angled: has a 90° angle — refers to angle classification, not side classification."
+          },
+          "supportExample": {
+            "english": "**Correct Answer: (a) Equilateral**\nAll three sides are equal (5 cm = 5 cm = 5 cm), so this is an **equilateral triangle**.",
+            "hindi": "**Correct Answer: (a) Equilateral**\nAll three sides are equal (5 cm = 5 cm = 5 cm), so this is an **equilateral triangle**."
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Correct Answer: (a) Equilateral**",
+              "hindi": "**Correct Answer: (a) Equilateral**"
+            },
+            {
+              "english": "All three sides are equal (5 cm = 5 cm = 5 cm), so this is an **equilateral triangle**.",
+              "hindi": "All three sides are equal (5 cm = 5 cm = 5 cm), so this is an **equilateral triangle**."
+            },
+            {
+              "english": "- Isosceles: only TWO sides equal — not the case here.\n- Scalene: all sides different — not the case here.\n- Right-angled: has a 90° angle — refers to angle classification, not side classification.",
+              "hindi": "- Isosceles: only TWO sides equal — not the case here.\n- Scalene: all sides different — not the case here.\n- Right-angled: has a 90° angle — refers to angle classification, not side classification."
+            }
+          ]
         }
       ],
       "tags": [
@@ -231,7 +319,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch20_classification_of_triangles_according_to_angles",
+      "id": "rsch20classificationoftrianglesaccordingto_angles",
       "sourceLessonId": "rs_ch20",
       "chapterNumber": 20,
       "chapterTitle": {
@@ -254,12 +342,22 @@
         "english": "Classification of Triangles according to Angles",
         "hindi": "कोणों के आधार पर त्रिभुजों का वर्गीकरण"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "Triangles can also be classified based on their angles:\n\n| Type | Property | Example |\n|------|----------|---------|\n| **Acute-angled triangle** | All 3 angles are less than 90° | Angles: 60°, 60°, 60° |\n| **Right-angled triangle** | One angle is exactly 90° | Angles: 90°, 45°, 45° |\n| **Obtuse-angled triangle** | One angle is more than 90° | Angles: 110°, 40°, 30° |\n\n**Important:** Every triangle must have angles that add up to 180°.\n\n**Memory tip:** Think of \"right\" angle — if any corner of the triangle looks like a perfect corner of a book, it's a right-angled triangle.",
+          "hindi": "Triangles can also be classified based on their angles:\n\n| Type | Property | Example |\n|------|----------|---------|\n| **Acute-angled triangle** | All 3 angles are less than 90° | Angles: 60°, 60°, 60° |\n| **Right-angled triangle** | One angle is exactly 90° | Angles: 90°, 45°, 45° |\n| **Obtuse-angled triangle** | One angle is more than 90° | Angles: 110°, 40°, 30° |\n\n**Important:** Every triangle must have angles that add up to 180°.\n\n**Memory tip:** Think of \"right\" angle — if any corner of the triangle looks like a perfect corner of a book, it's a right-angled triangle."
+        }
+      ],
+      "examples": [
+        {
+          "english": "| Type | Property | Example |\n|------|----------|---------|\n| **Acute-angled triangle** | All 3 angles are less than 90° | Angles: 60°, 60°, 60° |\n| **Right-angled triangle** | One angle is exactly 90° | Angles: 90°, 45°, 45° |\n| **Obtuse-angled triangle** | One angle is more than 90° | Angles: 110°, 40°, 30° |",
+          "hindi": "| Type | Property | Example |\n|------|----------|---------|\n| **Acute-angled triangle** | All 3 angles are less than 90° | Angles: 60°, 60°, 60° |\n| **Right-angled triangle** | One angle is exactly 90° | Angles: 90°, 45°, 45° |\n| **Obtuse-angled triangle** | One angle is more than 90° | Angles: 110°, 40°, 30° |"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "classification_of_triangles_according_to_angles_q1",
+          "id": "classificationoftrianglesaccordingtoanglesq1",
           "prompt": {
             "english": "A triangle with angles 90°, 45° and 45° is:",
             "hindi": "90°, 45° और 45° कोणों वाला त्रिभुज कैसा है?"
@@ -286,11 +384,37 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "**Correct Answer: (a) Right-angled**\n\nThe triangle has one angle equal to **90°**, which makes it a **right-angled triangle**.\n\n- Acute-angled: ALL angles must be less than 90° — but one angle IS 90°, so this is not acute.\n- Obtuse-angled: one angle must be MORE than 90° — but 90° is not more than 90°.\n- Equilateral: all sides equal — this is a side classification, not angle-based here.\n\n**Verification:** 90° + 45° + 45° = 180° ✓",
+            "hindi": "**Correct Answer: (a) Right-angled**\n\nThe triangle has one angle equal to **90°**, which makes it a **right-angled triangle**.\n\n- Acute-angled: ALL angles must be less than 90° — but one angle IS 90°, so this is not acute.\n- Obtuse-angled: one angle must be MORE than 90° — but 90° is not more than 90°.\n- Equilateral: all sides equal — this is a side classification, not angle-based here.\n\n**Verification:** 90° + 45° + 45° = 180° ✓"
+          },
+          "supportExample": {
+            "english": "**Correct Answer: (a) Right-angled**\nThe triangle has one angle equal to **90°**, which makes it a **right-angled triangle**.",
+            "hindi": "**Correct Answer: (a) Right-angled**\nThe triangle has one angle equal to **90°**, which makes it a **right-angled triangle**."
+          },
           "mistakeType": "ANGLE_TURN",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "**Correct Answer: (a) Right-angled**",
+              "hindi": "**Correct Answer: (a) Right-angled**"
+            },
+            {
+              "english": "The triangle has one angle equal to **90°**, which makes it a **right-angled triangle**.",
+              "hindi": "The triangle has one angle equal to **90°**, which makes it a **right-angled triangle**."
+            },
+            {
+              "english": "- Acute-angled: ALL angles must be less than 90° — but one angle IS 90°, so this is not acute.\n- Obtuse-angled: one angle must be MORE than 90° — but 90° is not more than 90°.\n- Equilateral: all sides equal — this is a side classification, not angle-based here.",
+              "hindi": "- Acute-angled: ALL angles must be less than 90° — but one angle IS 90°, so this is not acute.\n- Obtuse-angled: one angle must be MORE than 90° — but 90° is not more than 90°.\n- Equilateral: all sides equal — this is a side classification, not angle-based here."
+            },
+            {
+              "english": "**Verification:** 90° + 45° + 45° = 180° ✓",
+              "hindi": "**Verification:** 90° + 45° + 45° = 180° ✓"
+            }
+          ]
         }
       ],
       "tags": [
@@ -306,8 +430,8 @@
       "mistakeFocus": "ANGLE_TURN"
     },
     {
-      "id": "rs_ex_ch20_ex74_q01_a",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q01_a",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -334,7 +458,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q01_a_q1",
+          "id": "rsexch20ex74q01aq1",
           "prompt": {
             "english": "In triangle LMN, name the following Part (a): the vertices of the triangle",
             "hindi": "In triangle LMN, name the following Part (a): the vertices of the triangle"
@@ -371,8 +495,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q01_b",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q01_b",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -399,7 +523,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q01_b_q1",
+          "id": "rsexch20ex74q01bq1",
           "prompt": {
             "english": "In triangle LMN, name the following Part (b): the sides of the triangle",
             "hindi": "In triangle LMN, name the following Part (b): the sides of the triangle"
@@ -435,8 +559,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q01_c",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q01_c",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -463,7 +587,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q01_c_q1",
+          "id": "rsexch20ex74q01cq1",
           "prompt": {
             "english": "In triangle LMN, name the following Part (c): the angles of the triangle",
             "hindi": "In triangle LMN, name the following Part (c): the angles of the triangle"
@@ -500,8 +624,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q02_a",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q02_a",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -528,7 +652,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q02_a_q1",
+          "id": "rsexch20ex74q02aq1",
           "prompt": {
             "english": "Classify the following triangles with respect to their sides Part (a): Triangle LMN with sides 3.2 cm, 3.2 cm and 4 cm",
             "hindi": "Classify the following triangles with respect to their sides Part (a): Triangle LMN with sides 3.2 cm, 3.2 cm and 4 cm"
@@ -564,8 +688,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q02_b",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q02_b",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -592,7 +716,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q02_b_q1",
+          "id": "rsexch20ex74q02bq1",
           "prompt": {
             "english": "Classify the following triangles with respect to their sides Part (b): Triangle PQR with sides 3.4 cm, 3.4 cm and 3.4 cm",
             "hindi": "Classify the following triangles with respect to their sides Part (b): Triangle PQR with sides 3.4 cm, 3.4 cm and 3.4 cm"
@@ -628,8 +752,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q02_c",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q02_c",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -656,7 +780,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q02_c_q1",
+          "id": "rsexch20ex74q02cq1",
           "prompt": {
             "english": "Classify the following triangles with respect to their sides Part (c): Triangle XYZ with sides 4 cm, 2.8 cm and 4 cm",
             "hindi": "Classify the following triangles with respect to their sides Part (c): Triangle XYZ with sides 4 cm, 2.8 cm and 4 cm"
@@ -692,8 +816,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q02_d",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q02_d",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -720,7 +844,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q02_d_q1",
+          "id": "rsexch20ex74q02dq1",
           "prompt": {
             "english": "Classify the following triangles with respect to their sides Part (d): Triangle DEF with sides 5 cm, 3 cm and 4 cm",
             "hindi": "Classify the following triangles with respect to their sides Part (d): Triangle DEF with sides 5 cm, 3 cm and 4 cm"
@@ -756,8 +880,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q02_e",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q02_e",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -784,7 +908,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q02_e_q1",
+          "id": "rsexch20ex74q02eq1",
           "prompt": {
             "english": "Classify the following triangles with respect to their sides Part (e): Triangle ABC with sides 3.6 cm, 3.6 cm and 4.2 cm",
             "hindi": "Classify the following triangles with respect to their sides Part (e): Triangle ABC with sides 3.6 cm, 3.6 cm and 4.2 cm"
@@ -820,8 +944,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q02_f",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q02_f",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -848,7 +972,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q02_f_q1",
+          "id": "rsexch20ex74q02fq1",
           "prompt": {
             "english": "Classify the following triangles with respect to their sides Part (f): Triangle GHK with sides 4.8 cm, 3.2 cm and 3.5 cm",
             "hindi": "Classify the following triangles with respect to their sides Part (f): Triangle GHK with sides 4.8 cm, 3.2 cm and 3.5 cm"
@@ -884,8 +1008,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q04_a",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q04_a",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -912,7 +1036,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q04_a_q1",
+          "id": "rsexch20ex74q04aq1",
           "prompt": {
             "english": "Is it possible to form a triangle by three line segments of the following lengths? Part (a): 8 cm, 5 cm, 15 cm",
             "hindi": "Is it possible to form a triangle by three line segments of the following lengths? Part (a): 8 cm, 5 cm, 15 cm"
@@ -948,8 +1072,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q04_b",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q04_b",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -976,7 +1100,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q04_b_q1",
+          "id": "rsexch20ex74q04bq1",
           "prompt": {
             "english": "Is it possible to form a triangle by three line segments of the following lengths? Part (b): 6 cm, 7 cm, 13 cm",
             "hindi": "Is it possible to form a triangle by three line segments of the following lengths? Part (b): 6 cm, 7 cm, 13 cm"
@@ -1012,8 +1136,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q04_c",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q04_c",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -1040,7 +1164,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q04_c_q1",
+          "id": "rsexch20ex74q04cq1",
           "prompt": {
             "english": "Is it possible to form a triangle by three line segments of the following lengths? Part (c): 7 cm, 6 cm, 11 cm",
             "hindi": "Is it possible to form a triangle by three line segments of the following lengths? Part (c): 7 cm, 6 cm, 11 cm"
@@ -1076,8 +1200,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q04_d",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q04_d",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -1104,7 +1228,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q04_d_q1",
+          "id": "rsexch20ex74q04dq1",
           "prompt": {
             "english": "Is it possible to form a triangle by three line segments of the following lengths? Part (d): 6.5 cm, 16.5 cm, 5.6 cm",
             "hindi": "Is it possible to form a triangle by three line segments of the following lengths? Part (d): 6.5 cm, 16.5 cm, 5.6 cm"
@@ -1140,8 +1264,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q04_e",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q04_e",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -1168,7 +1292,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q04_e_q1",
+          "id": "rsexch20ex74q04eq1",
           "prompt": {
             "english": "Is it possible to form a triangle by three line segments of the following lengths? Part (e): 6 cm, 6 cm, 6 cm",
             "hindi": "Is it possible to form a triangle by three line segments of the following lengths? Part (e): 6 cm, 6 cm, 6 cm"
@@ -1204,8 +1328,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q04_f",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q04_f",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -1232,7 +1356,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q04_f_q1",
+          "id": "rsexch20ex74q04fq1",
           "prompt": {
             "english": "Is it possible to form a triangle by three line segments of the following lengths? Part (f): 7 cm, 8 cm, 10 cm",
             "hindi": "Is it possible to form a triangle by three line segments of the following lengths? Part (f): 7 cm, 8 cm, 10 cm"
@@ -1268,8 +1392,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q05_a",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q05_a",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -1296,7 +1420,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q05_a_q1",
+          "id": "rsexch20ex74q05aq1",
           "prompt": {
             "english": "Fill in the blanks Part (a): A scalene triangle has all sides of......................... lengths",
             "hindi": "Fill in the blanks Part (a): A scalene triangle has all sides of......................... lengths"
@@ -1332,8 +1456,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q05_b",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q05_b",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -1360,7 +1484,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q05_b_q1",
+          "id": "rsexch20ex74q05bq1",
           "prompt": {
             "english": "Fill in the blanks Part (b): sides of an isosceles triangle are........................ in length",
             "hindi": "Fill in the blanks Part (b): sides of an isosceles triangle are........................ in length"
@@ -1396,8 +1520,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q05_c",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q05_c",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -1424,7 +1548,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q05_c_q1",
+          "id": "rsexch20ex74q05cq1",
           "prompt": {
             "english": "Fill in the blanks Part (c): A triangle with all sides of the same length is called an.................... triangle",
             "hindi": "Fill in the blanks Part (c): A triangle with all sides of the same length is called an.................... triangle"
@@ -1460,8 +1584,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q05_d",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q05_d",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -1488,7 +1612,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q05_d_q1",
+          "id": "rsexch20ex74q05dq1",
           "prompt": {
             "english": "Fill in the blanks Part (d): The sum of the lengths of any two sides of a triangle is always................. than the length of the third side",
             "hindi": "Fill in the blanks Part (d): The sum of the lengths of any two sides of a triangle is always................. than the length of the third side"
@@ -1524,8 +1648,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q05_e",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q05_e",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -1552,7 +1676,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q05_e_q1",
+          "id": "rsexch20ex74q05eq1",
           "prompt": {
             "english": "Fill in the blanks Part (e): Each angle of an equilateral triangle measures",
             "hindi": "Fill in the blanks Part (e): Each angle of an equilateral triangle measures"
@@ -1588,8 +1712,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q05_f",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q05_f",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -1616,7 +1740,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q05_f_q1",
+          "id": "rsexch20ex74q05fq1",
           "prompt": {
             "english": "Fill in the blanks Part (f): All the three angles of a scalene triangle are of.......................... measures",
             "hindi": "Fill in the blanks Part (f): All the three angles of a scalene triangle are of.......................... measures"
@@ -1652,8 +1776,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q05_g",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q05_g",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -1680,7 +1804,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q05_g_q1",
+          "id": "rsexch20ex74q05gq1",
           "prompt": {
             "english": "Fill in the blanks Part (g): The measures of the angles opposite to equal sides of an isosceles triangle are",
             "hindi": "Fill in the blanks Part (g): The measures of the angles opposite to equal sides of an isosceles triangle are"
@@ -1716,8 +1840,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q06_a",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q06_a",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -1744,7 +1868,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q06_a_q1",
+          "id": "rsexch20ex74q06aq1",
           "prompt": {
             "english": "State whether the given statement is true or false Part (a): A triangle having only two sides equal, is called an equilateral triangle",
             "hindi": "State whether the given statement is true or false Part (a): A triangle having only two sides equal, is called an equilateral triangle"
@@ -1780,8 +1904,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q06_b",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q06_b",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -1808,7 +1932,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q06_b_q1",
+          "id": "rsexch20ex74q06bq1",
           "prompt": {
             "english": "State whether the given statement is true or false Part (b): An equilateral triangle is also an isosceles triangle",
             "hindi": "State whether the given statement is true or false Part (b): An equilateral triangle is also an isosceles triangle"
@@ -1844,8 +1968,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q06_c",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q06_c",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -1872,7 +1996,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q06_c_q1",
+          "id": "rsexch20ex74q06cq1",
           "prompt": {
             "english": "State whether the given statement is true or false Part (c): The sum of any two sides of a triangle is always greater than the third side",
             "hindi": "State whether the given statement is true or false Part (c): The sum of any two sides of a triangle is always greater than the third side"
@@ -1908,8 +2032,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q06_d",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q06_d",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -1936,7 +2060,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q06_d_q1",
+          "id": "rsexch20ex74q06dq1",
           "prompt": {
             "english": "State whether the given statement is true or false Part (d): Each angle of an isosceles triangle is 60 degrees",
             "hindi": "State whether the given statement is true or false Part (d): Each angle of an isosceles triangle is 60 degrees"
@@ -1972,8 +2096,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex74_q06_e",
-      "sourceLessonId": "rs_exercise_ch20_ex74",
+      "id": "rsexch20ex74q06_e",
+      "sourceLessonId": "rsexercisech20_ex74",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -2000,7 +2124,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex74_q06_e_q1",
+          "id": "rsexch20ex74q06eq1",
           "prompt": {
             "english": "State whether the given statement is true or false Part (e): Two angles of an isosceles triangle are always equal",
             "hindi": "State whether the given statement is true or false Part (e): Two angles of an isosceles triangle are always equal"
@@ -2036,8 +2160,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q01",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q01",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -2064,7 +2188,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q01_q1",
+          "id": "rsexch20ex75q01_q1",
           "prompt": {
             "english": "Classify the following triangles with respect to their angles. (a) (b) (c) (d) (e) (f)",
             "hindi": "Classify the following triangles with respect to their angles. (a) (b) (c) (d) (e) (f)"
@@ -2100,8 +2224,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q02",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q02",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -2128,7 +2252,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q02_q1",
+          "id": "rsexch20ex75q02_q1",
           "prompt": {
             "english": "Find the third angle in each of the following triangles. (a) (b) (c) (d) (e) (f)",
             "hindi": "Find the third angle in each of the following triangles. (a) (b) (c) (d) (e) (f)"
@@ -2164,8 +2288,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q03",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q03",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -2192,7 +2316,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q03_q1",
+          "id": "rsexch20ex75q03_q1",
           "prompt": {
             "english": "In triangle ABC, if angle B = 46 degrees and angle C = 54 degrees, find angle A",
             "hindi": "In triangle ABC, if angle B = 46 degrees and angle C = 54 degrees, find angle A"
@@ -2228,8 +2352,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q04",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q04",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -2256,7 +2380,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q04_q1",
+          "id": "rsexch20ex75q04_q1",
           "prompt": {
             "english": "find ∠A: In D PQR, if ∠P = 35° and ∠Q = 62°,",
             "hindi": "find ∠A: In D PQR, if ∠P = 35° and ∠Q = 62°,"
@@ -2292,8 +2416,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q05",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q05",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -2320,7 +2444,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q05_q1",
+          "id": "rsexch20ex75q05_q1",
           "prompt": {
             "english": "find ∠R: In D XYZ, if ∠X = 105° and ∠Z = 35°,",
             "hindi": "find ∠R: In D XYZ, if ∠X = 105° and ∠Z = 35°,"
@@ -2356,8 +2480,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q06",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q06",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -2384,7 +2508,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q06_q1",
+          "id": "rsexch20ex75q06_q1",
           "prompt": {
             "english": "find ∠Y: In a right-angled triangle, one angle measures 35°. Find each of the remaining two angles",
             "hindi": "find ∠Y: In a right-angled triangle, one angle measures 35°. Find each of the remaining two angles"
@@ -2420,8 +2544,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q07",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q07",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -2448,7 +2572,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q07_q1",
+          "id": "rsexch20ex75q07_q1",
           "prompt": {
             "english": "find ∠Y: If all the angles of a triangle are equal,",
             "hindi": "find ∠Y: If all the angles of a triangle are equal,"
@@ -2484,8 +2608,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q08",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q08",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -2512,7 +2636,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q08_q1",
+          "id": "rsexch20ex75q08_q1",
           "prompt": {
             "english": "find the measure of each one of them: One of the two equal angles of an isosceles triangle is 64°. Find the",
             "hindi": "find the measure of each one of them: One of the two equal angles of an isosceles triangle is 64°. Find the"
@@ -2548,8 +2672,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q09",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q09",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -2576,7 +2700,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q09_q1",
+          "id": "rsexch20ex75q09_q1",
           "prompt": {
             "english": "Find the measure of each of the two equal angles of an isosceles right triangle",
             "hindi": "Find the measure of each of the two equal angles of an isosceles right triangle"
@@ -2612,8 +2736,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q10",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q10",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -2640,7 +2764,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q10_q1",
+          "id": "rsexch20ex75q10_q1",
           "prompt": {
             "english": "Find each of the two equal angles of an isosceles triangle whose third angle is 80°",
             "hindi": "Find each of the two equal angles of an isosceles triangle whose third angle is 80°"
@@ -2676,8 +2800,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q11_a",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q11_a",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -2704,7 +2828,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q11_a_q1",
+          "id": "rsexch20ex75q11aq1",
           "prompt": {
             "english": "Fill in the blanks with equilateral, isosceles or scalene Part (a): In D ABC, if ∠A = 55° and ∠C = 45°, then D ABC is",
             "hindi": "Fill in the blanks with equilateral, isosceles or scalene Part (a): In D ABC, if ∠A = 55° and ∠C = 45°, then D ABC is"
@@ -2740,8 +2864,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q11_b",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q11_b",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -2768,7 +2892,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q11_b_q1",
+          "id": "rsexch20ex75q11bq1",
           "prompt": {
             "english": "Fill in the blanks with equilateral, isosceles or scalene Part (b): In D PQR, if ∠P = 90° and ∠Q = 45°, then D PQR is",
             "hindi": "Fill in the blanks with equilateral, isosceles or scalene Part (b): In D PQR, if ∠P = 90° and ∠Q = 45°, then D PQR is"
@@ -2804,8 +2928,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q11_c",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q11_c",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -2832,7 +2956,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q11_c_q1",
+          "id": "rsexch20ex75q11cq1",
           "prompt": {
             "english": "Fill in the blanks with equilateral, isosceles or scalene Part (c): In D XYZ, if ∠X = ∠Y = 60°, then D XYZ is",
             "hindi": "Fill in the blanks with equilateral, isosceles or scalene Part (c): In D XYZ, if ∠X = ∠Y = 60°, then D XYZ is"
@@ -2868,8 +2992,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q12_a",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q12_a",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -2896,7 +3020,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q12_a_q1",
+          "id": "rsexch20ex75q12aq1",
           "prompt": {
             "english": "Fill in the blanks with acute-angled, right-angled or obtuse-angled Part (a): In D ABC, if ∠B = 56° and ∠C = 40°, then D ABC is",
             "hindi": "Fill in the blanks with acute-angled, right-angled or obtuse-angled Part (a): In D ABC, if ∠B = 56° and ∠C = 40°, then D ABC is"
@@ -2932,8 +3056,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q12_b",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q12_b",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -2960,7 +3084,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q12_b_q1",
+          "id": "rsexch20ex75q12bq1",
           "prompt": {
             "english": "Fill in the blanks with acute-angled, right-angled or obtuse-angled Part (b): In D PQR, if ∠P = ∠Q = 40°, then D PQR is",
             "hindi": "Fill in the blanks with acute-angled, right-angled or obtuse-angled Part (b): In D PQR, if ∠P = ∠Q = 40°, then D PQR is"
@@ -2996,8 +3120,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q12_c",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q12_c",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -3024,7 +3148,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q12_c_q1",
+          "id": "rsexch20ex75q12cq1",
           "prompt": {
             "english": "Fill in the blanks with acute-angled, right-angled or obtuse-angled Part (c): In D XYZ, if ∠X = ∠Y = 45°, then D XYZ is",
             "hindi": "Fill in the blanks with acute-angled, right-angled or obtuse-angled Part (c): In D XYZ, if ∠X = ∠Y = 45°, then D XYZ is"
@@ -3060,8 +3184,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q12_d",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q12_d",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -3088,7 +3212,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q12_d_q1",
+          "id": "rsexch20ex75q12dq1",
           "prompt": {
             "english": "Fill in the blanks with acute-angled, right-angled or obtuse-angled Part (d): In D LMN, if ∠L = 46° and ∠M = 34°, then D LMN is",
             "hindi": "Fill in the blanks with acute-angled, right-angled or obtuse-angled Part (d): In D LMN, if ∠L = 46° and ∠M = 34°, then D LMN is"
@@ -3124,8 +3248,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q13_a",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q13_a",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -3152,7 +3276,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q13_a_q1",
+          "id": "rsexch20ex75q13aq1",
           "prompt": {
             "english": "Answer the following Part (a): How many acute angles can a triangle have?",
             "hindi": "Answer the following Part (a): How many acute angles can a triangle have?"
@@ -3188,8 +3312,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q13_b",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q13_b",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -3216,7 +3340,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q13_b_q1",
+          "id": "rsexch20ex75q13bq1",
           "prompt": {
             "english": "Answer the following Part (b): How many right angles can a triangle have?",
             "hindi": "Answer the following Part (b): How many right angles can a triangle have?"
@@ -3252,8 +3376,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q13_c",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q13_c",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -3280,7 +3404,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q13_c_q1",
+          "id": "rsexch20ex75q13cq1",
           "prompt": {
             "english": "Answer the following Part (c): How many obtuse angles can a triangle have?",
             "hindi": "Answer the following Part (c): How many obtuse angles can a triangle have?"
@@ -3316,8 +3440,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q14_a",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q14_a",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -3344,7 +3468,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q14_a_q1",
+          "id": "rsexch20ex75q14aq1",
           "prompt": {
             "english": "Which of the following cannot be the measures of all the three angles of a triangle? Part (a): ∠A = 110°, ∠B = 25° and ∠C = 35°",
             "hindi": "Which of the following cannot be the measures of all the three angles of a triangle? Part (a): ∠A = 110°, ∠B = 25° and ∠C = 35°"
@@ -3380,8 +3504,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q14_b",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q14_b",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -3408,7 +3532,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q14_b_q1",
+          "id": "rsexch20ex75q14bq1",
           "prompt": {
             "english": "Which of the following cannot be the measures of all the three angles of a triangle? Part (b): ∠D = 63°, ∠E = 37° and ∠F = 80°",
             "hindi": "Which of the following cannot be the measures of all the three angles of a triangle? Part (b): ∠D = 63°, ∠E = 37° and ∠F = 80°"
@@ -3444,8 +3568,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q14_c",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q14_c",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -3472,7 +3596,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q14_c_q1",
+          "id": "rsexch20ex75q14cq1",
           "prompt": {
             "english": "Which of the following cannot be the measures of all the three angles of a triangle? Part (c): ∠X = 72°, ∠Y = 32° and ∠Z = 76°",
             "hindi": "Which of the following cannot be the measures of all the three angles of a triangle? Part (c): ∠X = 72°, ∠Y = 32° and ∠Z = 76°"
@@ -3508,8 +3632,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch20_ex75_q14_d",
-      "sourceLessonId": "rs_exercise_ch20_ex75",
+      "id": "rsexch20ex75q14_d",
+      "sourceLessonId": "rsexercisech20_ex75",
       "chapterNumber": 20,
       "chapterTitle": {
         "english": "Triangles",
@@ -3536,7 +3660,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch20_ex75_q14_d_q1",
+          "id": "rsexch20ex75q14dq1",
           "prompt": {
             "english": "Which of the following cannot be the measures of all the three angles of a triangle? Part (d): ∠P = 70°, ∠Q = 70° and ∠R = 50°",
             "hindi": "Which of the following cannot be the measures of all the three angles of a triangle? Part (d): ∠P = 70°, ∠Q = 70° and ∠R = 50°"

@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch24_solids",
+      "id": "rsch24solids",
       "sourceLessonId": "rs_ch24",
       "chapterNumber": 24,
       "chapterTitle": {
@@ -29,7 +29,12 @@
         "english": "Solids",
         "hindi": "ठोस आकृतियाँ"
       },
-      "explanationParagraphs": [],
+      "explanationParagraphs": [
+        {
+          "english": "Objects around us that occupy space are called **solids** (3-dimensional shapes). Unlike flat 2D shapes, solids have **length, width (breadth), and height**.\n\nExamples of solids:\n- **Cube** — all 6 faces are equal squares (like a dice)\n- **Cuboid** — 6 rectangular faces (like a brick or a box)\n- **Cylinder** — like a can of juice\n- **Sphere** — like a ball\n\nFlat shapes (2D) like triangles, rectangles have no thickness. Solids (3D) have thickness and occupy space.",
+          "hindi": "### व्याख्या (हिंदी)\n\nहमारे आसपास जो वस्तुएँ जगह घेरती हैं उन्हें **ठोस आकृतियाँ** (त्रिआयामी आकृतियाँ) कहते हैं। सपाट 2D आकृतियों के विपरीत, ठोस में **लंबाई, चौड़ाई और ऊँचाई** तीनों होती हैं।\n\nठोस आकृतियों के उदाहरण:\n- **घन** — सभी 6 फलक बराबर वर्ग (जैसे पासा)\n- **घनाभ** — 6 आयताकार फलक (जैसे ईंट या डिब्बा)\n- **बेलन** — जूस के डिब्बे जैसा\n- **गोला** — गेंद जैसा\n\nसपाट आकृतियाँ (2D) जैसे त्रिभुज, आयत में मोटाई नहीं होती। ठोस आकृतियाँ (3D) में मोटाई होती है और वे जगह घेरती हैं।"
+        }
+      ],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -61,11 +66,25 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "A **cube** is a solid — it has length, width, and height, and it occupies space.\nA line, ray, or angle are all 1D or 2D concepts — they do not occupy space by themselves.",
+            "hindi": "A **cube** is a solid — it has length, width, and height, and it occupies space.\nA line, ray, or angle are all 1D or 2D concepts — they do not occupy space by themselves."
+          },
+          "supportExample": {
+            "english": "A **cube** is a solid — it has length, width, and height, and it occupies space.\nA line, ray, or angle are all 1D or 2D concepts — they do not occupy space by themselves.",
+            "hindi": "A **cube** is a solid — it has length, width, and height, and it occupies space.\nA line, ray, or angle are all 1D or 2D concepts — they do not occupy space by themselves."
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A **cube** is a solid — it has length, width, and height, and it occupies space.\nA line, ray, or angle are all 1D or 2D concepts — they do not occupy space by themselves.",
+              "hindi": "A **cube** is a solid — it has length, width, and height, and it occupies space.\nA line, ray, or angle are all 1D or 2D concepts — they do not occupy space by themselves."
+            }
+          ]
         }
       ],
       "tags": [
@@ -81,7 +100,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch24_volume_of_a_solid_and_units_of_volume",
+      "id": "rsch24volumeofasolidandunitsof_volume",
       "sourceLessonId": "rs_ch24",
       "chapterNumber": 24,
       "chapterTitle": {
@@ -104,12 +123,22 @@
         "english": "Volume of a Solid and Units of Volume",
         "hindi": "ठोस का आयतन और आयतन की इकाइयाँ"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Volume** is the amount of space occupied by a solid object.\n\nJust as area is measured in square units (cm², m²), volume is measured in **cubic units (cm³, m³)** — also written as **cu cm, cu m**.\n\n**Example:**\n- A small cube with each edge = 1 cm has volume = 1 cm³ (1 cubic centimetre)\n- If a box contains 24 such small cubes, its volume = 24 cm³\n\n**Common units:**\n- 1 cubic metre (m³) = 1,000,000 cubic centimetres (cm³)\n- 1 litre = 1000 cm³",
+          "hindi": "### व्याख्या (हिंदी)\n\n**आयतन** किसी ठोस वस्तु द्वारा घेरी गई जगह की मात्रा है।\n\nजिस प्रकार क्षेत्रफल वर्ग इकाइयों में मापा जाता है (cm², m²), उसी प्रकार आयतन **घन इकाइयों (cm³, m³)** में मापा जाता है — इन्हें **घन सेमी, घन मी** भी कहते हैं।\n\n**उदाहरण:**\n- 1 सेमी भुजा वाले छोटे घन का आयतन = 1 cm³ (1 घन सेंटीमीटर)\n- यदि किसी डिब्बे में ऐसे 24 छोटे घन आ सकते हैं, तो डिब्बे का आयतन = 24 cm³\n\n**सामान्य इकाइयाँ:**\n- 1 घन मीटर (m³) = 10,00,000 घन सेंटीमीटर (cm³)\n- 1 लीटर = 1000 cm³"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:**\n- A small cube with each edge = 1 cm has volume = 1 cm³ (1 cubic centimetre)\n- If a box contains 24 such small cubes, its volume = 24 cm³",
+          "hindi": "**उदाहरण:**\n- 1 सेमी भुजा वाले छोटे घन का आयतन = 1 cm³ (1 घन सेंटीमीटर)\n- यदि किसी डिब्बे में ऐसे 24 छोटे घन आ सकते हैं, तो डिब्बे का आयतन = 24 cm³"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "volume_of_a_solid_and_units_of_volume_q1",
+          "id": "volumeofasolidandunitsofvolumeq1",
           "prompt": {
             "english": "Volume is measured in:",
             "hindi": "आयतन किसमें मापा जाता है?"
@@ -136,11 +165,25 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Volume is measured in **cubic units** — such as cubic centimetres (cm³) or cubic metres (m³).",
+            "hindi": "Volume is measured in **cubic units** — such as cubic centimetres (cm³) or cubic metres (m³)."
+          },
+          "supportExample": {
+            "english": "Volume is measured in **cubic units** — such as cubic centimetres (cm³) or cubic metres (m³).",
+            "hindi": "Volume is measured in **cubic units** — such as cubic centimetres (cm³) or cubic metres (m³)."
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Volume is measured in **cubic units** — such as cubic centimetres (cm³) or cubic metres (m³).",
+              "hindi": "Volume is measured in **cubic units** — such as cubic centimetres (cm³) or cubic metres (m³)."
+            }
+          ]
         }
       ],
       "tags": [
@@ -156,7 +199,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch24_volume_of_a_cuboid_and_volume_of_a_cube",
+      "id": "rsch24volumeofacuboidandvolumeofacube",
       "sourceLessonId": "rs_ch24",
       "chapterNumber": 24,
       "chapterTitle": {
@@ -179,12 +222,26 @@
         "english": "Volume of a Cuboid and Volume of a Cube",
         "hindi": "घनाभ और घन का आयतन"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Volume of a Cuboid:**\nFormula: **Volume = Length × Breadth × Height**\n\nExample: Cuboid with length 6 cm, breadth 4 cm, height 3 cm:\nVolume = 6 × 4 × 3 = **72 cubic cm**\n\n**Volume of a Cube:**\nAll edges of a cube are equal (say edge = a).\nFormula: **Volume = a × a × a = a³**\n\nExample: Cube with edge 5 cm:\nVolume = 5 × 5 × 5 = **125 cubic cm**",
+          "hindi": "### व्याख्या (हिंदी)\n\n**घनाभ का आयतन:**\nसूत्र: **आयतन = लंबाई × चौड़ाई × ऊँचाई**\n\nउदाहरण: 6 सेमी लंबाई, 4 सेमी चौड़ाई, 3 सेमी ऊँचाई वाला घनाभ:\nआयतन = 6 × 4 × 3 = **72 घन सेमी**\n\n**घन का आयतन:**\nघन की सभी भुजाएँ बराबर होती हैं (मान लो भुजा = a)।\nसूत्र: **आयतन = a × a × a = a³**\n\nउदाहरण: 5 सेमी भुजा का घन:\nआयतन = 5 × 5 × 5 = **125 घन सेमी**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Example: Cuboid with length 6 cm, breadth 4 cm, height 3 cm:\nVolume = 6 × 4 × 3 = **72 cubic cm**",
+          "hindi": "उदाहरण: 6 सेमी लंबाई, 4 सेमी चौड़ाई, 3 सेमी ऊँचाई वाला घनाभ:\nआयतन = 6 × 4 × 3 = **72 घन सेमी**"
+        },
+        {
+          "english": "Example: Cube with edge 5 cm:\nVolume = 5 × 5 × 5 = **125 cubic cm**",
+          "hindi": "उदाहरण: 5 सेमी भुजा का घन:\nआयतन = 5 × 5 × 5 = **125 घन सेमी**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "volume_of_a_cuboid_and_volume_of_a_cube_q1",
+          "id": "volumeofacuboidandvolumeofacube_q1",
           "prompt": {
             "english": "Find the volume of a cuboid of length 6 cm, breadth 4 cm and height 3 cm.",
             "hindi": "6 सेमी लंबाई, 4 सेमी चौड़ाई और 3 सेमी ऊँचाई वाले घनाभ का आयतन लिखिए।"
@@ -198,11 +255,29 @@
             "72 cm3"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Volume = Length × Breadth × Height\n\n= 6 × 4 × 3 = **72 cubic cm**",
+            "hindi": "Volume = Length × Breadth × Height\n\n= 6 × 4 × 3 = **72 cubic cm**"
+          },
+          "supportExample": {
+            "english": "Volume = Length × Breadth × Height\n= 6 × 4 × 3 = **72 cubic cm**",
+            "hindi": "Volume = Length × Breadth × Height\n= 6 × 4 × 3 = **72 cubic cm**"
+          },
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Volume = Length × Breadth × Height",
+              "hindi": "Volume = Length × Breadth × Height"
+            },
+            {
+              "english": "= 6 × 4 × 3 = **72 cubic cm**",
+              "hindi": "= 6 × 4 × 3 = **72 cubic cm**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -218,8 +293,8 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ex_ch24_ex79_q01_a",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q01_a",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -246,7 +321,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q01_a_q1",
+          "id": "rsexch24ex79q01aq1",
           "prompt": {
             "english": "Find the volume of the cuboid whose dimensions are Part (a): length = 16 cm, breadth = 12 cm, height = 8 cm",
             "hindi": "Find the volume of the cuboid whose dimensions are Part (a): length = 16 cm, breadth = 12 cm, height = 8 cm"
@@ -284,8 +359,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch24_ex79_q01_b",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q01_b",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -312,7 +387,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q01_b_q1",
+          "id": "rsexch24ex79q01bq1",
           "prompt": {
             "english": "Find the volume of the cuboid whose dimensions are Part (b): length = 14 m, breadth = 8 m, height = 2.5 m",
             "hindi": "Find the volume of the cuboid whose dimensions are Part (b): length = 14 m, breadth = 8 m, height = 2.5 m"
@@ -350,8 +425,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch24_ex79_q02_a",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q02_a",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -378,7 +453,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q02_a_q1",
+          "id": "rsexch24ex79q02aq1",
           "prompt": {
             "english": "Find the volume of the cube whose edge is Part (a): 14 cm",
             "hindi": "Find the volume of the cube whose edge is Part (a): 14 cm"
@@ -416,8 +491,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch24_ex79_q02_b",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q02_b",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -444,7 +519,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q02_b_q1",
+          "id": "rsexch24ex79q02bq1",
           "prompt": {
             "english": "Find the volume of the cube whose edge is Part (b): 31 2 m",
             "hindi": "Find the volume of the cube whose edge is Part (b): 31 2 m"
@@ -481,8 +556,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch24_ex79_q02_c",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q02_c",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -509,7 +584,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q02_c_q1",
+          "id": "rsexch24ex79q02cq1",
           "prompt": {
             "english": "Find the volume of the cube whose edge is Part (c): 1.2 m",
             "hindi": "Find the volume of the cube whose edge is Part (c): 1.2 m"
@@ -547,8 +622,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch24_ex79_q02_d",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q02_d",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -575,7 +650,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q02_d_q1",
+          "id": "rsexch24ex79q02dq1",
           "prompt": {
             "english": "Find the volume of the cube whose edge is Part (d): 6.5 cm",
             "hindi": "Find the volume of the cube whose edge is Part (d): 6.5 cm"
@@ -613,8 +688,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch24_ex79_q03",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q03",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -641,7 +716,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q03_q1",
+          "id": "rsexch24ex79q03_q1",
           "prompt": {
             "english": "Find the volume of the earth dug out from a pit 6.5 m long, 2.4 m wide and 1.5 m deep",
             "hindi": "Find the volume of the earth dug out from a pit 6.5 m long, 2.4 m wide and 1.5 m deep"
@@ -678,8 +753,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch24_ex79_q04",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q04",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -706,7 +781,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q04_q1",
+          "id": "rsexch24ex79q04_q1",
           "prompt": {
             "english": "Find the volume of the earth dug out from a cubical pit each of whose edges measures 4.1 metres",
             "hindi": "Find the volume of the earth dug out from a cubical pit each of whose edges measures 4.1 metres"
@@ -743,8 +818,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch24_ex79_q05_a",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q05_a",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -771,7 +846,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q05_a_q1",
+          "id": "rsexch24ex79q05aq1",
           "prompt": {
             "english": "A room is 12 m long, 7.8 m broad and 5 m high Part (a): How much air does it contain?",
             "hindi": "A room is 12 m long, 7.8 m broad and 5 m high Part (a): How much air does it contain?"
@@ -808,8 +883,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch24_ex79_q05_b",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q05_b",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -836,7 +911,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q05_b_q1",
+          "id": "rsexch24ex79q05bq1",
           "prompt": {
             "english": "A room is 12 m long, 7.8 m broad and 5 m high Part (b): How many boys can sit in the room, if each boy occupies 2.6 cubic metres of air space?",
             "hindi": "A room is 12 m long, 7.8 m broad and 5 m high Part (b): How many boys can sit in the room, if each boy occupies 2.6 cubic metres of air space?"
@@ -872,8 +947,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch24_ex79_q06",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q06",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -900,7 +975,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q06_q1",
+          "id": "rsexch24ex79q06_q1",
           "prompt": {
             "english": "How many boxes, each of size 10 cm × 8 cm × 5 cm can be packed in a carton of size 1 m × 72 cm × 50 cm?",
             "hindi": "How many boxes, each of size 10 cm × 8 cm × 5 cm can be packed in a carton of size 1 m × 72 cm × 50 cm?"
@@ -936,8 +1011,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch24_ex79_q07",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q07",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -964,7 +1039,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q07_q1",
+          "id": "rsexch24ex79q07_q1",
           "prompt": {
             "english": "How many bricks each 25 cm long, 16 cm wide and 7.5 cm thick will be required to build a terrace 5 m long, 3 m broad and 80 cm high?",
             "hindi": "How many bricks each 25 cm long, 16 cm wide and 7.5 cm thick will be required to build a terrace 5 m long, 3 m broad and 80 cm high?"
@@ -1000,8 +1075,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch24_ex79_q08",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q08",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -1028,7 +1103,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q08_q1",
+          "id": "rsexch24ex79q08_q1",
           "prompt": {
             "english": "A wooden block measures 24 cm by 18 cm by 15 cm. How many cubical blocks of edge 6 cm can be cut from it?",
             "hindi": "A wooden block measures 24 cm by 18 cm by 15 cm. How many cubical blocks of edge 6 cm can be cut from it?"
@@ -1064,8 +1139,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch24_ex79_q09_a",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q09_a",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -1092,7 +1167,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q09_a_q1",
+          "id": "rsexch24ex79q09aq1",
           "prompt": {
             "english": "Fill in the blanks Part (a): The measure of the amount of space occupied by a solid is called its",
             "hindi": "Fill in the blanks Part (a): The measure of the amount of space occupied by a solid is called its"
@@ -1128,8 +1203,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch24_ex79_q09_b",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q09_b",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -1156,7 +1231,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q09_b_q1",
+          "id": "rsexch24ex79q09bq1",
           "prompt": {
             "english": "Fill in the blanks Part (b): Volume of a cuboid =.................... ×.................... ×",
             "hindi": "Fill in the blanks Part (b): Volume of a cuboid =.................... ×.................... ×"
@@ -1192,8 +1267,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch24_ex79_q09_c",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q09_c",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -1220,7 +1295,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q09_c_q1",
+          "id": "rsexch24ex79q09cq1",
           "prompt": {
             "english": "Fill in the blanks Part (c): Volume of a cube =.................... ×.................... ×",
             "hindi": "Fill in the blanks Part (c): Volume of a cube =.................... ×.................... ×"
@@ -1256,8 +1331,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch24_ex79_q10",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q10",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -1284,7 +1359,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q10_q1",
+          "id": "rsexch24ex79q10_q1",
           "prompt": {
             "english": "Amit has sixty 1 cm cubes. Which of these cuboids can he not build? (a) 5 cm long, 4 cm wide, 3 cm high (b) 2 cm long, 3 cm wide, 10 cm high (c) 4 cm long, 4 cm wide, 4 cm high (d) 6 cm long, 5 cm wide, 2 cm high",
             "hindi": "Amit has sixty 1 cm cubes. Which of these cuboids can he not build? (a) 5 cm long, 4 cm wide, 3 cm high (b) 2 cm long, 3 cm wide, 10 cm high (c) 4 cm long, 4 cm wide, 4 cm high (d) 6 cm long, 5 cm wide, 2 cm high"
@@ -1325,8 +1400,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch24_ex79_q11",
-      "sourceLessonId": "rs_exercise_ch24_ex79",
+      "id": "rsexch24ex79q11",
+      "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
       "chapterTitle": {
         "english": "Volume",
@@ -1353,7 +1428,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch24_ex79_q11_q1",
+          "id": "rsexch24ex79q11_q1",
           "prompt": {
             "english": "Volume of a cuboid is 1/8 cu m. What is its volume in cu cm?",
             "hindi": "Volume of a cuboid is 1/8 cu m. What is its volume in cu cm?"

@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch22_rectilinear_figures_and_perimeter_of_a_rectilinear_figure",
+      "id": "rsch22rectilinearfiguresandperimeterofarectilinear_figure",
       "sourceLessonId": "rs_ch22",
       "chapterNumber": 22,
       "chapterTitle": {
@@ -29,12 +29,26 @@
         "english": "Rectilinear Figures and Perimeter of a Rectilinear Figure",
         "hindi": "समरेखीय आकृतियाँ और उनका परिमाप"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "A **rectilinear figure** is a flat shape made up of straight lines only (like triangles, rectangles, squares, pentagons, etc.).\n\n**Perimeter** is the total distance around the boundary of a figure. To find the perimeter, add up the lengths of all its sides.\n\n**Formula:** Perimeter = Sum of all sides\n\n**Example 1:** A shape with sides 3 cm, 4 cm, 5 cm, and 6 cm has perimeter = 3 + 4 + 5 + 6 = **18 cm**.\n\n**Example 2:** Imagine you walk all the way around a park. The total distance you walk is the perimeter of the park.",
+          "hindi": "### व्याख्या (हिंदी)\n\n**समरेखीय आकृति** वह सपाट आकृति है जो केवल सीधी रेखाओं से बनी होती है (जैसे त्रिभुज, आयत, वर्ग, पंचभुज आदि)।\n\n**परिमाप** किसी आकृति की सीमा के चारों ओर की कुल दूरी है। परिमाप निकालने के लिए सभी भुजाओं की लंबाई जोड़ दें।\n\n**सूत्र:** परिमाप = सभी भुजाओं का योग\n\n**उदाहरण 1:** किसी आकृति की भुजाएँ 3 सेमी, 4 सेमी, 5 सेमी और 6 सेमी हों तो परिमाप = 3 + 4 + 5 + 6 = **18 सेमी**।\n\n**उदाहरण 2:** कल्पना करें कि आप एक पार्क के चारों ओर चलते हैं। आपके द्वारा चली गई कुल दूरी उस पार्क का परिमाप है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example 1:** A shape with sides 3 cm, 4 cm, 5 cm, and 6 cm has perimeter = 3 + 4 + 5 + 6 = **18 cm**.",
+          "hindi": "**उदाहरण 1:** किसी आकृति की भुजाएँ 3 सेमी, 4 सेमी, 5 सेमी और 6 सेमी हों तो परिमाप = 3 + 4 + 5 + 6 = **18 सेमी**।"
+        },
+        {
+          "english": "**Example 2:** Imagine you walk all the way around a park. The total distance you walk is the perimeter of the park.",
+          "hindi": "**उदाहरण 2:** कल्पना करें कि आप एक पार्क के चारों ओर चलते हैं। आपके द्वारा चली गई कुल दूरी उस पार्क का परिमाप है।"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "rectilinear_figures_and_perimeter_of_a_rectilinear_figure_q1",
+          "id": "rectilinearfiguresandperimeterofarectilinearfigureq1",
           "prompt": {
             "english": "Perimeter means:",
             "hindi": "परिमाप का अर्थ है:"
@@ -61,11 +75,25 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Perimeter means the **total distance around a figure** — that is, the sum of the lengths of all its sides.",
+            "hindi": "Perimeter means the **total distance around a figure** — that is, the sum of the lengths of all its sides."
+          },
+          "supportExample": {
+            "english": "Perimeter means the **total distance around a figure** — that is, the sum of the lengths of all its sides.",
+            "hindi": "Perimeter means the **total distance around a figure** — that is, the sum of the lengths of all its sides."
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Perimeter means the **total distance around a figure** — that is, the sum of the lengths of all its sides.",
+              "hindi": "Perimeter means the **total distance around a figure** — that is, the sum of the lengths of all its sides."
+            }
+          ]
         }
       ],
       "tags": [
@@ -81,7 +109,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch22_perimeter_of_a_triangle",
+      "id": "rsch22perimeterofa_triangle",
       "sourceLessonId": "rs_ch22",
       "chapterNumber": 22,
       "chapterTitle": {
@@ -104,12 +132,22 @@
         "english": "Perimeter of a Triangle",
         "hindi": "त्रिभुज का परिमाप"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "A **triangle** has 3 sides. The perimeter of a triangle = sum of all three sides.\n\n**Formula:** P = a + b + c (where a, b, c are the three sides)\n\n**Example:** Triangle with sides 5 cm, 7 cm, 9 cm:\nPerimeter = 5 + 7 + 9 = **21 cm**\n\n**Special triangles:**\n- **Equilateral triangle:** All 3 sides equal → P = 3 × side\n- **Isosceles triangle:** 2 sides equal → P = 2 × equal side + third side",
+          "hindi": "### व्याख्या (हिंदी)\n\n**त्रिभुज** की 3 भुजाएँ होती हैं। त्रिभुज का परिमाप = तीनों भुजाओं का योग।\n\n**सूत्र:** P = a + b + c (जहाँ a, b, c तीनों भुजाएँ हैं)\n\n**उदाहरण:** त्रिभुज की भुजाएँ 5 सेमी, 7 सेमी, 9 सेमी हों:\nपरिमाप = 5 + 7 + 9 = **21 सेमी**\n\n**विशेष त्रिभुज:**\n- **समबाहु त्रिभुज:** तीनों भुजाएँ बराबर → P = 3 × भुजा\n- **समद्विबाहु त्रिभुज:** 2 भुजाएँ बराबर → P = 2 × बराबर भुजा + तीसरी भुजा"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Triangle with sides 5 cm, 7 cm, 9 cm:\nPerimeter = 5 + 7 + 9 = **21 cm**",
+          "hindi": "**उदाहरण:** त्रिभुज की भुजाएँ 5 सेमी, 7 सेमी, 9 सेमी हों:\nपरिमाप = 5 + 7 + 9 = **21 सेमी**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "perimeter_of_a_triangle_q1",
+          "id": "perimeterofatriangleq1",
           "prompt": {
             "english": "Find the perimeter of a triangle with sides 5 cm, 7 cm and 9 cm.",
             "hindi": "5 सेमी, 7 सेमी और 9 सेमी भुजाओं वाले त्रिभुज का परिमाप लिखिए।"
@@ -122,11 +160,25 @@
             "21 cm"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Perimeter = 5 + 7 + 9 = **21 cm**",
+            "hindi": "Perimeter = 5 + 7 + 9 = **21 cm**"
+          },
+          "supportExample": {
+            "english": "Perimeter = 5 + 7 + 9 = **21 cm**",
+            "hindi": "Perimeter = 5 + 7 + 9 = **21 cm**"
+          },
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Perimeter = 5 + 7 + 9 = **21 cm**",
+              "hindi": "Perimeter = 5 + 7 + 9 = **21 cm**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -142,7 +194,7 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ch22_perimeter_of_a_rectangle",
+      "id": "rsch22perimeterofa_rectangle",
       "sourceLessonId": "rs_ch22",
       "chapterNumber": 22,
       "chapterTitle": {
@@ -165,12 +217,22 @@
         "english": "Perimeter of a Rectangle",
         "hindi": "आयत का परिमाप"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "A **rectangle** has 4 sides — opposite sides are equal. If length = l and breadth = b:\n\n**Formula:** Perimeter = 2 × (length + breadth) = 2(l + b)\n\n**Example:** Rectangle with length 8.5 cm and breadth 3.5 cm:\nPerimeter = 2 × (8.5 + 3.5) = 2 × 12 = **24 cm**\n\nThink of a rectangular room — if you walk all four walls, the total distance is 2 × (length + width).",
+          "hindi": "### व्याख्या (हिंदी)\n\n**आयत** की 4 भुजाएँ होती हैं — सामने वाली भुजाएँ बराबर होती हैं। यदि लंबाई = l और चौड़ाई = b हो:\n\n**सूत्र:** परिमाप = 2 × (लंबाई + चौड़ाई) = 2(l + b)\n\n**उदाहरण:** 8.5 सेमी लंबाई और 3.5 सेमी चौड़ाई वाले आयत का:\nपरिमाप = 2 × (8.5 + 3.5) = 2 × 12 = **24 सेमी**\n\nएक आयताकार कमरे की कल्पना करें — चारों दीवारों के साथ चलने पर जो कुल दूरी तय होगी, वही परिमाप है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Rectangle with length 8.5 cm and breadth 3.5 cm:\nPerimeter = 2 × (8.5 + 3.5) = 2 × 12 = **24 cm**",
+          "hindi": "**उदाहरण:** 8.5 सेमी लंबाई और 3.5 सेमी चौड़ाई वाले आयत का:\nपरिमाप = 2 × (8.5 + 3.5) = 2 × 12 = **24 सेमी**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "perimeter_of_a_rectangle_q1",
+          "id": "perimeterofarectangleq1",
           "prompt": {
             "english": "Find the perimeter of a rectangle of length 8.5 cm and breadth 3.5 cm.",
             "hindi": "8.5 सेमी लंबाई और 3.5 सेमी चौड़ाई वाले आयत का परिमाप लिखिए।"
@@ -183,11 +245,29 @@
             "24 cm"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Perimeter = 2 × (length + breadth)\n\n= 2 × (8.5 + 3.5) = 2 × 12 = **24 cm**",
+            "hindi": "Perimeter = 2 × (length + breadth)\n\n= 2 × (8.5 + 3.5) = 2 × 12 = **24 cm**"
+          },
+          "supportExample": {
+            "english": "Perimeter = 2 × (length + breadth)\n= 2 × (8.5 + 3.5) = 2 × 12 = **24 cm**",
+            "hindi": "Perimeter = 2 × (length + breadth)\n= 2 × (8.5 + 3.5) = 2 × 12 = **24 cm**"
+          },
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Perimeter = 2 × (length + breadth)",
+              "hindi": "Perimeter = 2 × (length + breadth)"
+            },
+            {
+              "english": "= 2 × (8.5 + 3.5) = 2 × 12 = **24 cm**",
+              "hindi": "= 2 × (8.5 + 3.5) = 2 × 12 = **24 cm**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -203,7 +283,7 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ch22_perimeter_of_a_square",
+      "id": "rsch22perimeterofa_square",
       "sourceLessonId": "rs_ch22",
       "chapterNumber": 22,
       "chapterTitle": {
@@ -226,12 +306,22 @@
         "english": "Perimeter of a Square",
         "hindi": "वर्ग का परिमाप"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "A **square** has 4 equal sides. If each side = s:\n\n**Formula:** Perimeter = 4 × side = 4s\n\n**Example:** Square with side 9 cm:\nPerimeter = 4 × 9 = **36 cm**\n\nA square is a special rectangle where all sides are equal. Think of a square tile — the perimeter is the total length of all four edges.",
+          "hindi": "### व्याख्या (हिंदी)\n\n**वर्ग** की 4 बराबर भुजाएँ होती हैं। यदि प्रत्येक भुजा = s हो:\n\n**सूत्र:** परिमाप = 4 × भुजा = 4s\n\n**उदाहरण:** 9 सेमी भुजा वाले वर्ग का:\nपरिमाप = 4 × 9 = **36 सेमी**\n\nवर्ग एक विशेष आयत है जिसकी सभी भुजाएँ बराबर होती हैं। एक वर्गाकार टाइल की कल्पना करें — परिमाप चारों किनारों की कुल लंबाई है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** Square with side 9 cm:\nPerimeter = 4 × 9 = **36 cm**",
+          "hindi": "**उदाहरण:** 9 सेमी भुजा वाले वर्ग का:\nपरिमाप = 4 × 9 = **36 सेमी**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "perimeter_of_a_square_q1",
+          "id": "perimeterofasquareq1",
           "prompt": {
             "english": "Find the perimeter of a square of side 9 cm.",
             "hindi": "9 सेमी भुजा वाले वर्ग का परिमाप लिखिए।"
@@ -244,11 +334,25 @@
             "36 cm"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Perimeter = 4 × 9 = **36 cm**",
+            "hindi": "Perimeter = 4 × 9 = **36 cm**"
+          },
+          "supportExample": {
+            "english": "Perimeter = 4 × 9 = **36 cm**",
+            "hindi": "Perimeter = 4 × 9 = **36 cm**"
+          },
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Perimeter = 4 × 9 = **36 cm**",
+              "hindi": "Perimeter = 4 × 9 = **36 cm**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -264,8 +368,8 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ex_ch22_ex77_q01",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q01",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -292,7 +396,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q01_q1",
+          "id": "rsexch22ex77q01_q1",
           "prompt": {
             "english": "Find the perimeter of each of the figures given below. (a) (b) (c) 6 cm 5 cm 4 cm 8 cm 5 cm 9 cm 5 cm 6 cm 7 cm 9 cm 6 cm 8 cm",
             "hindi": "Find the perimeter of each of the figures given below. (a) (b) (c) 6 cm 5 cm 4 cm 8 cm 5 cm 9 cm 5 cm 6 cm 7 cm 9 cm 6 cm 8 cm"
@@ -329,8 +433,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q02_a",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q02_a",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -357,7 +461,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q02_a_q1",
+          "id": "rsexch22ex77q02aq1",
           "prompt": {
             "english": "Find the perimeter of each of the triangles whose sides are given below Part (a): 8 cm, 6 cm, 5 cm",
             "hindi": "Find the perimeter of each of the triangles whose sides are given below Part (a): 8 cm, 6 cm, 5 cm"
@@ -394,8 +498,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q02_b",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q02_b",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -422,7 +526,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q02_b_q1",
+          "id": "rsexch22ex77q02bq1",
           "prompt": {
             "english": "Find the perimeter of each of the triangles whose sides are given below Part (b): 7.6 cm, 6.4 cm, 5.2 cm",
             "hindi": "Find the perimeter of each of the triangles whose sides are given below Part (b): 7.6 cm, 6.4 cm, 5.2 cm"
@@ -459,8 +563,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q02_c",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q02_c",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -487,7 +591,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q02_c_q1",
+          "id": "rsexch22ex77q02cq1",
           "prompt": {
             "english": "Find the perimeter of each of the triangles whose sides are given below Part (c): 4.8 cm, 5.3 cm, 8.2 cm",
             "hindi": "Find the perimeter of each of the triangles whose sides are given below Part (c): 4.8 cm, 5.3 cm, 8.2 cm"
@@ -524,8 +628,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q02_d",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q02_d",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -552,7 +656,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q02_d_q1",
+          "id": "rsexch22ex77q02dq1",
           "prompt": {
             "english": "Find the perimeter of each of the triangles whose sides are given below Part (d): 6 cm, 7.3 cm, 8.5 cm",
             "hindi": "Find the perimeter of each of the triangles whose sides are given below Part (d): 6 cm, 7.3 cm, 8.5 cm"
@@ -589,8 +693,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q03",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q03",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -617,7 +721,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q03_q1",
+          "id": "rsexch22ex77q03_q1",
           "prompt": {
             "english": "Find the perimeter of an isosceles triangle, each of whose equal sides measures 5.8 cm and the length of whose third side is 7.5 cm",
             "hindi": "Find the perimeter of an isosceles triangle, each of whose equal sides measures 5.8 cm and the length of whose third side is 7.5 cm"
@@ -654,8 +758,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q04",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q04",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -682,7 +786,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q04_q1",
+          "id": "rsexch22ex77q04_q1",
           "prompt": {
             "english": "Find the perimeter of an equilateral triangle each of whose sides is 8.4 cm",
             "hindi": "Find the perimeter of an equilateral triangle each of whose sides is 8.4 cm"
@@ -719,8 +823,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q05",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q05",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -747,7 +851,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q05_q1",
+          "id": "rsexch22ex77q05_q1",
           "prompt": {
             "english": "The perimeter of a triangle is 16 cm and two of its sides measure 3.8 cm and 5.6 cm respectively. Find the third side",
             "hindi": "The perimeter of a triangle is 16 cm and two of its sides measure 3.8 cm and 5.6 cm respectively. Find the third side"
@@ -784,8 +888,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q06",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q06",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -812,7 +916,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q06_q1",
+          "id": "rsexch22ex77q06_q1",
           "prompt": {
             "english": "measure 3.8 cm and 5.6 cm respectively. Find the third side: The perimeter of an equilateral triangle is 17.7 cm. Find the length of each side of the triangle",
             "hindi": "measure 3.8 cm and 5.6 cm respectively. Find the third side: The perimeter of an equilateral triangle is 17.7 cm. Find the length of each side of the triangle"
@@ -849,8 +953,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q07_a",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q07_a",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -877,7 +981,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q07_a_q1",
+          "id": "rsexch22ex77q07aq1",
           "prompt": {
             "english": "Find the perimeter of each of the rectangles with the following dimensions Part (a): Length = 36 cm, Breadth = 29 cm",
             "hindi": "Find the perimeter of each of the rectangles with the following dimensions Part (a): Length = 36 cm, Breadth = 29 cm"
@@ -916,8 +1020,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q07_b",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q07_b",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -944,7 +1048,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q07_b_q1",
+          "id": "rsexch22ex77q07bq1",
           "prompt": {
             "english": "Find the perimeter of each of the rectangles with the following dimensions Part (b): Length = 7 m, Breadth = 5 m",
             "hindi": "Find the perimeter of each of the rectangles with the following dimensions Part (b): Length = 7 m, Breadth = 5 m"
@@ -981,8 +1085,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q07_c",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q07_c",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -1009,7 +1113,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q07_c_q1",
+          "id": "rsexch22ex77q07cq1",
           "prompt": {
             "english": "Find the perimeter of each of the rectangles with the following dimensions Part (c): Length = 2 m 60 cm, Breadth = 1 m 90 cm",
             "hindi": "Find the perimeter of each of the rectangles with the following dimensions Part (c): Length = 2 m 60 cm, Breadth = 1 m 90 cm"
@@ -1046,8 +1150,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q07_d",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q07_d",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -1074,7 +1178,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q07_d_q1",
+          "id": "rsexch22ex77q07dq1",
           "prompt": {
             "english": "Find the perimeter of each of the rectangles with the following dimensions Part (d): Length = 12.6 m, Breadth = 9.4 m",
             "hindi": "Find the perimeter of each of the rectangles with the following dimensions Part (d): Length = 12.6 m, Breadth = 9.4 m"
@@ -1111,8 +1215,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q08",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q08",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -1139,7 +1243,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q08_q1",
+          "id": "rsexch22ex77q08_q1",
           "prompt": {
             "english": "The perimeter of a rectangle is 110 cm and its length is 35 cm. What is the breadth of the rectangle?",
             "hindi": "The perimeter of a rectangle is 110 cm and its length is 35 cm. What is the breadth of the rectangle?"
@@ -1176,8 +1280,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q09",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q09",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -1204,7 +1308,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q09_q1",
+          "id": "rsexch22ex77q09_q1",
           "prompt": {
             "english": "The perimeter of a rectangular garden is 420 m and its length is 120 m. What is its breadth?",
             "hindi": "The perimeter of a rectangular garden is 420 m and its length is 120 m. What is its breadth?"
@@ -1241,8 +1345,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q10_a",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q10_a",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -1269,7 +1373,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q10_a_q1",
+          "id": "rsexch22ex77q10aq1",
           "prompt": {
             "english": "Find the perimeter of the square, each of whose sides measures Part (a): 45 cm",
             "hindi": "Find the perimeter of the square, each of whose sides measures Part (a): 45 cm"
@@ -1306,8 +1410,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q10_b",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q10_b",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -1334,7 +1438,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q10_b_q1",
+          "id": "rsexch22ex77q10bq1",
           "prompt": {
             "english": "Find the perimeter of the square, each of whose sides measures Part (b): 16 m",
             "hindi": "Find the perimeter of the square, each of whose sides measures Part (b): 16 m"
@@ -1371,8 +1475,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q10_c",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q10_c",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -1399,7 +1503,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q10_c_q1",
+          "id": "rsexch22ex77q10cq1",
           "prompt": {
             "english": "Find the perimeter of the square, each of whose sides measures Part (c): 2 m 10 cm",
             "hindi": "Find the perimeter of the square, each of whose sides measures Part (c): 2 m 10 cm"
@@ -1438,8 +1542,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q10_d",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q10_d",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -1466,7 +1570,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q10_d_q1",
+          "id": "rsexch22ex77q10dq1",
           "prompt": {
             "english": "Find the perimeter of the square, each of whose sides measures Part (d): 3 m 25 cm",
             "hindi": "Find the perimeter of the square, each of whose sides measures Part (d): 3 m 25 cm"
@@ -1503,8 +1607,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q11",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q11",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -1531,7 +1635,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q11_q1",
+          "id": "rsexch22ex77q11_q1",
           "prompt": {
             "english": "The sides of a triangular field are 35 m, 60 m and 110 m. Find the length of wire required to fence the field",
             "hindi": "The sides of a triangular field are 35 m, 60 m and 110 m. Find the length of wire required to fence the field"
@@ -1568,8 +1672,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q12",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q12",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -1596,7 +1700,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q12_q1",
+          "id": "rsexch22ex77q12_q1",
           "prompt": {
             "english": "A rectangular picture frame is 54 cm long and 36 cm wide. What will be the length of the wooden frame required to make it?",
             "hindi": "A rectangular picture frame is 54 cm long and 36 cm wide. What will be the length of the wooden frame required to make it?"
@@ -1633,8 +1737,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q13",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q13",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -1661,7 +1765,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q13_q1",
+          "id": "rsexch22ex77q13_q1",
           "prompt": {
             "english": "A wall is built around a rectangular plot of land of length 63 m and breadth 47 m. Find the cost of constructing the wall at Rs 130 per metre",
             "hindi": "A wall is built around a rectangular plot of land of length 63 m and breadth 47 m. Find the cost of constructing the wall at Rs 130 per metre"
@@ -1698,8 +1802,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q14",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q14",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -1726,7 +1830,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q14_q1",
+          "id": "rsexch22ex77q14_q1",
           "prompt": {
             "english": "Tanvy runs 3 times around a square field each of whose sides measures 95 m. How much distance does she run?",
             "hindi": "Tanvy runs 3 times around a square field each of whose sides measures 95 m. How much distance does she run?"
@@ -1763,8 +1867,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch22_ex77_q15",
-      "sourceLessonId": "rs_exercise_ch22_ex77",
+      "id": "rsexch22ex77q15",
+      "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
       "chapterTitle": {
         "english": "Perimeters of Rectilinear Figures",
@@ -1791,7 +1895,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch22_ex77_q15_q1",
+          "id": "rsexch22ex77q15_q1",
           "prompt": {
             "english": "The total length of the fence around a square field is 308 m. Find the length of each side of the field",
             "hindi": "The total length of the fence around a square field is 308 m. Find the length of each side of the field"

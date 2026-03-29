@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch02_rules_for_forming_roman_numerals",
+      "id": "rsch02rulesforformingromannumerals",
       "sourceLessonId": "rs_ch02",
       "chapterNumber": 2,
       "chapterTitle": {
@@ -29,12 +29,30 @@
         "english": "Rules for Forming Roman Numerals",
         "hindi": "रोमन अंक बनाने के नियम"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "There are 7 basic Roman numeral symbols:\nI=1, V=5, X=10, L=50, C=100, D=500, M=1000",
+          "hindi": "रोमन अंक के 7 मूल चिह्न हैं:\nI=1, V=5, X=10, L=50, C=100, D=500, M=1000"
+        },
+        {
+          "english": "**Important Rules:**\n1. **Repetition Rule:** I, X, C, M can be repeated up to 3 times. V, L, D cannot be repeated.\n   - XXX = 30, CCC = 300\n2. **Subtraction Rule:** I can be placed before V or X. X can be placed before L or C. C can be placed before D or M.\n   - IV = 4, IX = 9, XL = 40, XC = 90, CD = 400, CM = 900\n3. **You CANNOT skip a value.** For example, IL is NOT valid for 49. It must be XLIX (40+9).",
+          "hindi": "**महत्वपूर्ण नियम:**\n1. **दोहराने का नियम:** I, X, C, M को अधिकतम 3 बार दोहरा सकते हैं। V, L, D नहीं।\n2. **घटाव का नियम:** I को V या X से पहले, X को L या C से पहले, C को D या M से पहले रख सकते हैं।\n   - IV=4, IX=9, XL=40, XC=90, CD=400, CM=900\n3. **मान छोड़ नहीं सकते।** 49 के लिए IL नहीं; सही है XLIX।"
+        },
+        {
+          "english": "**Example:** 49 = 40 + 9 = XL + IX = **XLIX** (NOT IL)",
+          "hindi": "**उदाहरण:** 49 = XL + IX = **XLIX**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Important Rules:**\n1. **Repetition Rule:** I, X, C, M can be repeated up to 3 times. V, L, D cannot be repeated.\n   - XXX = 30, CCC = 300\n2. **Subtraction Rule:** I can be placed before V or X. X can be placed before L or C. C can be placed before D or M.\n   - IV = 4, IX = 9, XL = 40, XC = 90, CD = 400, CM = 900\n3. **You CANNOT skip a value.** For example, IL is NOT valid for 49. It must be XLIX (40+9).\n**Example:** 49 = 40 + 9 = XL + IX = **XLIX** (NOT IL)",
+          "hindi": "**उदाहरण:** 49 = XL + IX = **XLIX**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "rules_for_forming_roman_numerals_q1",
+          "id": "rulesforformingromannumerals_q1",
           "prompt": {
             "english": "Which Roman numeral represents 49?",
             "hindi": "49 को कौन-सा रोमन अंक दर्शाता है?"
@@ -61,11 +79,41 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Break 49 into recognizable parts.\n- 49 = 40 + 9\n\nStep 2: Convert each part.\n- 40 = XL (X placed before L means 50 - 10 = 40)\n- 9 = IX (I placed before X means 10 - 1 = 9)\n\nStep 3: Combine.\n- 49 = XL + IX = **XLIX**\n\nWhy not IL? — Because I (1) cannot be placed directly before L (50). You cannot skip from 1 to 50. Only adjacent values are allowed.\n\n**Answer: XLIX (Option A)**",
+            "hindi": "चरण 1: 49 को भागों में तोड़ें।\n- 49 = 40 + 9\n\nचरण 2: प्रत्येक भाग का रोमन अंक लिखें।\n- 40 = XL (X को L से पहले रखने पर 50-10=40)\n- 9 = IX (I को X से पहले रखने पर 10-1=9)\n\nचरण 3: जोड़ें।\n- 49 = **XLIX**\n\nIL क्यों नहीं? — I को सीधे L से पहले नहीं रख सकते।\n\n**उत्तर: XLIX**"
+          },
+          "supportExample": {
+            "english": "Step 1: Break 49 into recognizable parts.\n- 49 = 40 + 9\nStep 2: Convert each part.\n- 40 = XL (X placed before L means 50 - 10 = 40)\n- 9 = IX (I placed before X means 10 - 1 = 9)",
+            "hindi": "चरण 1: 49 को भागों में तोड़ें।\n- 49 = 40 + 9\nचरण 2: प्रत्येक भाग का रोमन अंक लिखें।\n- 40 = XL (X को L से पहले रखने पर 50-10=40)\n- 9 = IX (I को X से पहले रखने पर 10-1=9)"
+          },
           "mistakeType": "READING",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Break 49 into recognizable parts.\n- 49 = 40 + 9",
+              "hindi": "चरण 1: 49 को भागों में तोड़ें।\n- 49 = 40 + 9"
+            },
+            {
+              "english": "Step 2: Convert each part.\n- 40 = XL (X placed before L means 50 - 10 = 40)\n- 9 = IX (I placed before X means 10 - 1 = 9)",
+              "hindi": "चरण 2: प्रत्येक भाग का रोमन अंक लिखें।\n- 40 = XL (X को L से पहले रखने पर 50-10=40)\n- 9 = IX (I को X से पहले रखने पर 10-1=9)"
+            },
+            {
+              "english": "Step 3: Combine.\n- 49 = XL + IX = **XLIX**",
+              "hindi": "चरण 3: जोड़ें।\n- 49 = **XLIX**"
+            },
+            {
+              "english": "Why not IL? — Because I (1) cannot be placed directly before L (50). You cannot skip from 1 to 50. Only adjacent values are allowed.",
+              "hindi": "IL क्यों नहीं? — I को सीधे L से पहले नहीं रख सकते।"
+            },
+            {
+              "english": "**Answer: XLIX (Option A)**",
+              "hindi": "**उत्तर: XLIX**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -81,7 +129,7 @@
       "mistakeFocus": "READING"
     },
     {
-      "id": "rs_ch02_writing_roman_numerals_up_to_500",
+      "id": "rsch02writingromannumeralsupto_500",
       "sourceLessonId": "rs_ch02",
       "chapterNumber": 2,
       "chapterTitle": {
@@ -104,12 +152,30 @@
         "english": "Writing Roman Numerals up to 500",
         "hindi": "500 तक रोमन अंक लिखना"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "For numbers up to 500, we use symbols I, V, X, L, C, D.",
+          "hindi": "500 तक की संख्याओं के लिए I, V, X, L, C, D का उपयोग करते हैं।"
+        },
+        {
+          "english": "**Useful patterns:**\n- Hundreds: C=100, CC=200, CCC=300, CD=400, D=500\n- Tens: X=10, XX=20, XXX=30, XL=40, L=50, LX=60, LXX=70, LXXX=80, XC=90\n- Ones: I=1, II=2, III=3, IV=4, V=5, VI=6, VII=7, VIII=8, IX=9",
+          "hindi": "**उपयोगी पैटर्न:**\n- सैकड़ा: C=100, CC=200, CCC=300, CD=400, D=500\n- दहाई: X=10...XL=40, L=50...XC=90\n- इकाई: I=1...IV=4, V=5...IX=9"
+        },
+        {
+          "english": "**Example:** 248 = 200 + 40 + 8 = CC + XL + VIII = **CCXLVIII**",
+          "hindi": "**उदाहरण:** 248 = 200+40+8 = CC+XL+VIII = **CCXLVIII**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** 248 = 200 + 40 + 8 = CC + XL + VIII = **CCXLVIII**",
+          "hindi": "**उदाहरण:** 248 = 200+40+8 = CC+XL+VIII = **CCXLVIII**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "writing_roman_numerals_up_to_500_q1",
+          "id": "writingromannumeralsupto500q1",
           "prompt": {
             "english": "Write the Roman numeral for 248.",
             "hindi": "248 का रोमन अंक लिखिए।"
@@ -121,11 +187,25 @@
             "CCXLVIII"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Step 1: Break 248 into parts.\n- 248 = 200 + 40 + 8\n\nStep 2: Convert each part.\n- 200 = CC\n- 40 = XL\n- 8 = VIII\n\nStep 3: Combine.\n- 248 = **CCXLVIII**\n\n**Answer: CCXLVIII**",
+            "hindi": "चरण 1: 248 को तोड़ें।\n- 248 = 200 + 40 + 8\n\nचरण 2: रोमन में बदलें।\n- 200 = CC\n- 40 = XL\n- 8 = VIII\n\n**उत्तर: CCXLVIII**"
+          },
+          "supportExample": {
+            "english": "Step 1: Break 248 into parts.\n- 248 = 200 + 40 + 8\nStep 2: Convert each part.\n- 200 = CC\n- 40 = XL\n- 8 = VIII",
+            "hindi": "चरण 1: 248 को तोड़ें।\n- 248 = 200 + 40 + 8\nचरण 2: रोमन में बदलें।\n- 200 = CC\n- 40 = XL\n- 8 = VIII"
+          },
           "mistakeType": "READING",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Break 248 into parts.\n- 248 = 200 + 40 + 8\nStep 2: Convert each part.\n- 200 = CC\n- 40 = XL\n- 8 = VIII\nStep 3: Combine.\n- 248 = **CCXLVIII**\n**Answer: CCXLVIII**",
+              "hindi": "चरण 1: 248 को तोड़ें।\n- 248 = 200 + 40 + 8\nचरण 2: रोमन में बदलें।\n- 200 = CC\n- 40 = XL\n- 8 = VIII\n**उत्तर: CCXLVIII**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -141,8 +221,8 @@
       "mistakeFocus": "READING"
     },
     {
-      "id": "rs_ex_ch02_ex02_q01_a",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q01_a",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -169,7 +249,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q01_a_q1",
+          "id": "rsexch02ex02q01aq1",
           "prompt": {
             "english": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (a): 78",
             "hindi": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (a): 78"
@@ -205,8 +285,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q01_b",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q01_b",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -233,7 +313,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q01_b_q1",
+          "id": "rsexch02ex02q01bq1",
           "prompt": {
             "english": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (b): 189",
             "hindi": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (b): 189"
@@ -269,8 +349,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q01_c",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q01_c",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -297,7 +377,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q01_c_q1",
+          "id": "rsexch02ex02q01cq1",
           "prompt": {
             "english": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (c): 247",
             "hindi": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (c): 247"
@@ -333,8 +413,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q01_d",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q01_d",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -361,7 +441,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q01_d_q1",
+          "id": "rsexch02ex02q01dq1",
           "prompt": {
             "english": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (d): 196",
             "hindi": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (d): 196"
@@ -397,8 +477,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q01_e",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q01_e",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -425,7 +505,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q01_e_q1",
+          "id": "rsexch02ex02q01eq1",
           "prompt": {
             "english": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (e): 365",
             "hindi": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (e): 365"
@@ -461,8 +541,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q01_f",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q01_f",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -489,7 +569,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q01_f_q1",
+          "id": "rsexch02ex02q01fq1",
           "prompt": {
             "english": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (f): 399",
             "hindi": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (f): 399"
@@ -525,8 +605,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q01_g",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q01_g",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -553,7 +633,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q01_g_q1",
+          "id": "rsexch02ex02q01gq1",
           "prompt": {
             "english": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (g): 449",
             "hindi": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (g): 449"
@@ -589,8 +669,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q01_h",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q01_h",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -617,7 +697,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q01_h_q1",
+          "id": "rsexch02ex02q01hq1",
           "prompt": {
             "english": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (h): 495",
             "hindi": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (h): 495"
@@ -653,8 +733,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q01_i",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q01_i",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -681,7 +761,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q01_i_q1",
+          "id": "rsexch02ex02q01iq1",
           "prompt": {
             "english": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (i): 344",
             "hindi": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (i): 344"
@@ -717,8 +797,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q01_j",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q01_j",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -745,7 +825,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q01_j_q1",
+          "id": "rsexch02ex02q01jq1",
           "prompt": {
             "english": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (j): 466",
             "hindi": "Write the Roman numeral for each of the following Hindu-Arabic numerals Part (j): 466"
@@ -781,8 +861,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q02_a",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q02_a",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -809,7 +889,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q02_a_q1",
+          "id": "rsexch02ex02q02aq1",
           "prompt": {
             "english": "Write the Hindu-Arabic numerals corresponding to each of the following Part (a): LXIX",
             "hindi": "Write the Hindu-Arabic numerals corresponding to each of the following Part (a): LXIX"
@@ -845,8 +925,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q02_b",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q02_b",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -873,7 +953,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q02_b_q1",
+          "id": "rsexch02ex02q02bq1",
           "prompt": {
             "english": "Write the Hindu-Arabic numerals corresponding to each of the following Part (b): XCI",
             "hindi": "Write the Hindu-Arabic numerals corresponding to each of the following Part (b): XCI"
@@ -909,8 +989,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q02_c",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q02_c",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -937,7 +1017,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q02_c_q1",
+          "id": "rsexch02ex02q02cq1",
           "prompt": {
             "english": "Write the Hindu-Arabic numerals corresponding to each of the following Part (c): CXLVI",
             "hindi": "Write the Hindu-Arabic numerals corresponding to each of the following Part (c): CXLVI"
@@ -973,8 +1053,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q02_d",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q02_d",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -1001,7 +1081,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q02_d_q1",
+          "id": "rsexch02ex02q02dq1",
           "prompt": {
             "english": "Write the Hindu-Arabic numerals corresponding to each of the following Part (d): CXCII",
             "hindi": "Write the Hindu-Arabic numerals corresponding to each of the following Part (d): CXCII"
@@ -1037,8 +1117,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q02_e",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q02_e",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -1065,7 +1145,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q02_e_q1",
+          "id": "rsexch02ex02q02eq1",
           "prompt": {
             "english": "Write the Hindu-Arabic numerals corresponding to each of the following Part (e): CCCLXXXV",
             "hindi": "Write the Hindu-Arabic numerals corresponding to each of the following Part (e): CCCLXXXV"
@@ -1101,8 +1181,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q02_f",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q02_f",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -1129,7 +1209,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q02_f_q1",
+          "id": "rsexch02ex02q02fq1",
           "prompt": {
             "english": "Write the Hindu-Arabic numerals corresponding to each of the following Part (f): CCLIX",
             "hindi": "Write the Hindu-Arabic numerals corresponding to each of the following Part (f): CCLIX"
@@ -1165,8 +1245,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q02_g",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q02_g",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -1193,7 +1273,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q02_g_q1",
+          "id": "rsexch02ex02q02gq1",
           "prompt": {
             "english": "Write the Hindu-Arabic numerals corresponding to each of the following Part (g): CCXCVI",
             "hindi": "Write the Hindu-Arabic numerals corresponding to each of the following Part (g): CCXCVI"
@@ -1229,8 +1309,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q02_h",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q02_h",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -1257,7 +1337,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q02_h_q1",
+          "id": "rsexch02ex02q02hq1",
           "prompt": {
             "english": "Write the Hindu-Arabic numerals corresponding to each of the following Part (h): CXCVI",
             "hindi": "Write the Hindu-Arabic numerals corresponding to each of the following Part (h): CXCVI"
@@ -1293,8 +1373,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q02_i",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q02_i",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -1321,7 +1401,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q02_i_q1",
+          "id": "rsexch02ex02q02iq1",
           "prompt": {
             "english": "Write the Hindu-Arabic numerals corresponding to each of the following Part (i): CCLXVI",
             "hindi": "Write the Hindu-Arabic numerals corresponding to each of the following Part (i): CCLXVI"
@@ -1357,8 +1437,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q02_j",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q02_j",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -1385,7 +1465,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q02_j_q1",
+          "id": "rsexch02ex02q02jq1",
           "prompt": {
             "english": "Write the Hindu-Arabic numerals corresponding to each of the following Part (j): CCCXIII",
             "hindi": "Write the Hindu-Arabic numerals corresponding to each of the following Part (j): CCCXIII"
@@ -1421,8 +1501,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q03_a",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q03_a",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -1449,7 +1529,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q03_a_q1",
+          "id": "rsexch02ex02q03aq1",
           "prompt": {
             "english": "Which of the following are meaningless? Part (a): IC",
             "hindi": "Which of the following are meaningless? Part (a): IC"
@@ -1486,8 +1566,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q03_b",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q03_b",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -1514,7 +1594,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q03_b_q1",
+          "id": "rsexch02ex02q03bq1",
           "prompt": {
             "english": "Which of the following are meaningless? Part (b): CI",
             "hindi": "Which of the following are meaningless? Part (b): CI"
@@ -1552,8 +1632,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q03_c",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q03_c",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -1580,7 +1660,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q03_c_q1",
+          "id": "rsexch02ex02q03cq1",
           "prompt": {
             "english": "Which of the following are meaningless? Part (c): IL",
             "hindi": "Which of the following are meaningless? Part (c): IL"
@@ -1617,8 +1697,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q03_d",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q03_d",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -1645,7 +1725,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q03_d_q1",
+          "id": "rsexch02ex02q03dq1",
           "prompt": {
             "english": "Which of the following are meaningless? Part (d): LI",
             "hindi": "Which of the following are meaningless? Part (d): LI"
@@ -1683,8 +1763,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q03_e",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q03_e",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -1711,7 +1791,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q03_e_q1",
+          "id": "rsexch02ex02q03eq1",
           "prompt": {
             "english": "Which of the following are meaningless? Part (e): VC",
             "hindi": "Which of the following are meaningless? Part (e): VC"
@@ -1748,8 +1828,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q03_f",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q03_f",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -1776,7 +1856,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q03_f_q1",
+          "id": "rsexch02ex02q03fq1",
           "prompt": {
             "english": "Which of the following are meaningless? Part (f): CV",
             "hindi": "Which of the following are meaningless? Part (f): CV"
@@ -1814,8 +1894,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q03_g",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q03_g",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -1842,7 +1922,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q03_g_q1",
+          "id": "rsexch02ex02q03gq1",
           "prompt": {
             "english": "Which of the following are meaningless? Part (g): CXXXXVI",
             "hindi": "Which of the following are meaningless? Part (g): CXXXXVI"
@@ -1879,8 +1959,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q03_h",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q03_h",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -1907,7 +1987,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q03_h_q1",
+          "id": "rsexch02ex02q03hq1",
           "prompt": {
             "english": "Which of the following are meaningless? Part (h): CCCCXVI",
             "hindi": "Which of the following are meaningless? Part (h): CCCCXVI"
@@ -1944,8 +2024,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q03_i",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q03_i",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -1972,7 +2052,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q03_i_q1",
+          "id": "rsexch02ex02q03iq1",
           "prompt": {
             "english": "Which of the following are meaningless? Part (i): LLIV",
             "hindi": "Which of the following are meaningless? Part (i): LLIV"
@@ -2009,8 +2089,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q03_j",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q03_j",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -2037,7 +2117,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q03_j_q1",
+          "id": "rsexch02ex02q03jq1",
           "prompt": {
             "english": "Which of the following are meaningless? Part (j): CCV",
             "hindi": "Which of the following are meaningless? Part (j): CCV"
@@ -2075,8 +2155,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q04_a",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q04_a",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -2103,7 +2183,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q04_a_q1",
+          "id": "rsexch02ex02q04aq1",
           "prompt": {
             "english": "Compare and put the correct symbol >, < or = in the placeholders Part (a): XCIII CXIII",
             "hindi": "Compare and put the correct symbol >, < or = in the placeholders Part (a): XCIII CXIII"
@@ -2139,8 +2219,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q04_b",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q04_b",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -2167,7 +2247,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q04_b_q1",
+          "id": "rsexch02ex02q04bq1",
           "prompt": {
             "english": "Compare and put the correct symbol >, < or = in the placeholders Part (b): CD CCCXC",
             "hindi": "Compare and put the correct symbol >, < or = in the placeholders Part (b): CD CCCXC"
@@ -2203,8 +2283,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q04_c",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q04_c",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -2231,7 +2311,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q04_c_q1",
+          "id": "rsexch02ex02q04cq1",
           "prompt": {
             "english": "Compare and put the correct symbol >, < or = in the placeholders Part (c): CCLIX CCXLI",
             "hindi": "Compare and put the correct symbol >, < or = in the placeholders Part (c): CCLIX CCXLI"
@@ -2267,8 +2347,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q04_d",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q04_d",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -2295,7 +2375,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q04_d_q1",
+          "id": "rsexch02ex02q04dq1",
           "prompt": {
             "english": "Compare and put the correct symbol >, < or = in the placeholders Part (d): CDXL CDLX",
             "hindi": "Compare and put the correct symbol >, < or = in the placeholders Part (d): CDXL CDLX"
@@ -2331,8 +2411,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q04_e",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q04_e",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -2359,7 +2439,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q04_e_q1",
+          "id": "rsexch02ex02q04eq1",
           "prompt": {
             "english": "Compare and put the correct symbol >, < or = in the placeholders Part (e): CXLIX CLXXXIX",
             "hindi": "Compare and put the correct symbol >, < or = in the placeholders Part (e): CXLIX CLXXXIX"
@@ -2395,8 +2475,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch02_ex02_q04_f",
-      "sourceLessonId": "rs_exercise_ch02_ex02",
+      "id": "rsexch02ex02q04_f",
+      "sourceLessonId": "rsexercisech02_ex02",
       "chapterNumber": 2,
       "chapterTitle": {
         "english": "Roman Numerals",
@@ -2423,7 +2503,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch02_ex02_q04_f_q1",
+          "id": "rsexch02ex02q04fq1",
           "prompt": {
             "english": "Compare and put the correct symbol >, < or = in the placeholders Part (f): CCXXVI CCXXIX",
             "hindi": "Compare and put the correct symbol >, < or = in the placeholders Part (f): CCXXVI CCXXIX"

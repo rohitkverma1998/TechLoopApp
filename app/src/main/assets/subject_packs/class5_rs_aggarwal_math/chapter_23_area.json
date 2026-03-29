@@ -6,7 +6,7 @@
   },
   "topics": [
     {
-      "id": "rs_ch23_introduction_and_area",
+      "id": "rsch23introductionandarea",
       "sourceLessonId": "rs_ch23",
       "chapterNumber": 23,
       "chapterTitle": {
@@ -29,12 +29,22 @@
         "english": "Introduction and Area",
         "hindi": "परिचय और क्षेत्रफल"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Area** is the amount of surface (flat space) enclosed within a shape. While perimeter measures the boundary, area measures the interior.\n\nArea is measured in **square units** — like square cm (cm²), square m (m²), etc.\n\n**Example:** A tiled floor — each tile covers a small area. The total area of the floor = number of tiles × area of each tile.\n\nThink of it this way: if you colour the inside of a shape, the amount of colour you use represents the area.",
+          "hindi": "### व्याख्या (हिंदी)\n\n**क्षेत्रफल** किसी आकृति के अंदर घिरी हुई सतह (सपाट जगह) की मात्रा है। परिमाप सीमा को मापता है जबकि क्षेत्रफल अंदरूनी हिस्से को।\n\nक्षेत्रफल **वर्ग इकाइयों** में मापा जाता है — जैसे वर्ग सेमी (cm²), वर्ग मी (m²) आदि।\n\n**उदाहरण:** एक टाइलों वाला फर्श — प्रत्येक टाइल थोड़ी सी जगह घेरती है। फर्श का कुल क्षेत्रफल = टाइलों की संख्या × प्रत्येक टाइल का क्षेत्रफल।\n\nइसे इस तरह सोचें: यदि आप किसी आकृति के अंदर रंग भरें, जितना रंग लगे वही क्षेत्रफल दर्शाता है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "**Example:** A tiled floor — each tile covers a small area. The total area of the floor = number of tiles × area of each tile.",
+          "hindi": "**उदाहरण:** एक टाइलों वाला फर्श — प्रत्येक टाइल थोड़ी सी जगह घेरती है। फर्श का कुल क्षेत्रफल = टाइलों की संख्या × प्रत्येक टाइल का क्षेत्रफल।"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "introduction_and_area_q1",
+          "id": "introductionandarea_q1",
           "prompt": {
             "english": "Area means:",
             "hindi": "क्षेत्रफल का अर्थ है:"
@@ -61,11 +71,25 @@
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Area means the **surface covered by a figure** — the amount of flat space enclosed within the boundary of the shape.",
+            "hindi": "Area means the **surface covered by a figure** — the amount of flat space enclosed within the boundary of the shape."
+          },
+          "supportExample": {
+            "english": "Area means the **surface covered by a figure** — the amount of flat space enclosed within the boundary of the shape.",
+            "hindi": "Area means the **surface covered by a figure** — the amount of flat space enclosed within the boundary of the shape."
+          },
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Area means the **surface covered by a figure** — the amount of flat space enclosed within the boundary of the shape.",
+              "hindi": "Area means the **surface covered by a figure** — the amount of flat space enclosed within the boundary of the shape."
+            }
+          ]
         }
       ],
       "tags": [
@@ -81,7 +105,7 @@
       "mistakeFocus": "CONCEPT_CONFUSION"
     },
     {
-      "id": "rs_ch23_area_of_a_rectangle_and_a_square",
+      "id": "rsch23areaofarectangleandasquare",
       "sourceLessonId": "rs_ch23",
       "chapterNumber": 23,
       "chapterTitle": {
@@ -104,12 +128,26 @@
         "english": "Area of a Rectangle and a Square",
         "hindi": "आयत और वर्ग का क्षेत्रफल"
       },
-      "explanationParagraphs": [],
-      "examples": [],
+      "explanationParagraphs": [
+        {
+          "english": "**Area of a Rectangle:**\nFormula: **Area = Length × Breadth**\n\nExample: Rectangle of length 12 cm and breadth 8 cm:\nArea = 12 × 8 = **96 sq cm**\n\n**Area of a Square:**\nFormula: **Area = Side × Side = side²**\n\nExample: Square of side 7 cm:\nArea = 7 × 7 = **49 sq cm**\n\n**Finding missing dimension:**\n- If Area and Breadth are known: **Length = Area ÷ Breadth**\n- If Area and Length are known: **Breadth = Area ÷ Length**",
+          "hindi": "### व्याख्या (हिंदी)\n\n**आयत का क्षेत्रफल:**\nसूत्र: **क्षेत्रफल = लंबाई × चौड़ाई**\n\nउदाहरण: 12 सेमी लंबाई और 8 सेमी चौड़ाई का आयत:\nक्षेत्रफल = 12 × 8 = **96 वर्ग सेमी**\n\n**वर्ग का क्षेत्रफल:**\nसूत्र: **क्षेत्रफल = भुजा × भुजा = भुजा²**\n\nउदाहरण: 7 सेमी भुजा का वर्ग:\nक्षेत्रफल = 7 × 7 = **49 वर्ग सेमी**\n\n**अज्ञात माप निकालना:**\n- यदि क्षेत्रफल और चौड़ाई पता हो: **लंबाई = क्षेत्रफल ÷ चौड़ाई**\n- यदि क्षेत्रफल और लंबाई पता हो: **चौड़ाई = क्षेत्रफल ÷ लंबाई**"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Example: Rectangle of length 12 cm and breadth 8 cm:\nArea = 12 × 8 = **96 sq cm**",
+          "hindi": "उदाहरण: 12 सेमी लंबाई और 8 सेमी चौड़ाई का आयत:\nक्षेत्रफल = 12 × 8 = **96 वर्ग सेमी**"
+        },
+        {
+          "english": "Example: Square of side 7 cm:\nArea = 7 × 7 = **49 sq cm**",
+          "hindi": "उदाहरण: 7 सेमी भुजा का वर्ग:\nक्षेत्रफल = 7 × 7 = **49 वर्ग सेमी**"
+        }
+      ],
       "visuals": [],
       "questions": [
         {
-          "id": "area_of_a_rectangle_and_a_square_q1",
+          "id": "areaofarectangleandasquare_q1",
           "prompt": {
             "english": "Find the area of a rectangle of length 12 cm and breadth 8 cm.",
             "hindi": "12 सेमी लंबाई और 8 सेमी चौड़ाई वाले आयत का क्षेत्रफल लिखिए।"
@@ -123,11 +161,25 @@
             "96 cm2"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Area = Length × Breadth = 12 × 8 = **96 sq cm**",
+            "hindi": "Area = Length × Breadth = 12 × 8 = **96 sq cm**"
+          },
+          "supportExample": {
+            "english": "Area = Length × Breadth = 12 × 8 = **96 sq cm**",
+            "hindi": "Area = Length × Breadth = 12 × 8 = **96 sq cm**"
+          },
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Area = Length × Breadth = 12 × 8 = **96 sq cm**",
+              "hindi": "Area = Length × Breadth = 12 × 8 = **96 sq cm**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -143,8 +195,8 @@
       "mistakeFocus": "UNIT_CONVERSION"
     },
     {
-      "id": "rs_ex_ch23_ex78_q01",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q01",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -171,7 +223,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q01_q1",
+          "id": "rsexch23ex78q01_q1",
           "prompt": {
             "english": "Find the area of the rectangles having dimensions: Length = 18 cm, Breadth = 12 cm",
             "hindi": "Find the area of the rectangles having dimensions: Length = 18 cm, Breadth = 12 cm"
@@ -209,8 +261,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q02",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q02",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -237,7 +289,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q02_q1",
+          "id": "rsexch23ex78q02_q1",
           "prompt": {
             "english": "Find the area of the rectangles having dimensions: Length = 14 m, Breadth = 9 m",
             "hindi": "Find the area of the rectangles having dimensions: Length = 14 m, Breadth = 9 m"
@@ -275,8 +327,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q03",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q03",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -303,7 +355,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q03_q1",
+          "id": "rsexch23ex78q03_q1",
           "prompt": {
             "english": "Find the area of the rectangles having dimensions: Length = 56 cm, Breadth = 8.5 cm",
             "hindi": "Find the area of the rectangles having dimensions: Length = 56 cm, Breadth = 8.5 cm"
@@ -341,8 +393,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q04",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q04",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -369,7 +421,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q04_q1",
+          "id": "rsexch23ex78q04_q1",
           "prompt": {
             "english": "Find the area of the rectangles having dimensions: Length = 27.5 cm, Breadth = 16 cm",
             "hindi": "Find the area of the rectangles having dimensions: Length = 27.5 cm, Breadth = 16 cm"
@@ -407,8 +459,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q05",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q05",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -435,7 +487,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q05_q1",
+          "id": "rsexch23ex78q05_q1",
           "prompt": {
             "english": "Find the area of the rectangles having dimensions: Length =1.8 m, Breadth = 80 cm",
             "hindi": "Find the area of the rectangles having dimensions: Length =1.8 m, Breadth = 80 cm"
@@ -473,8 +525,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q06",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q06",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -501,7 +553,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q06_q1",
+          "id": "rsexch23ex78q06_q1",
           "prompt": {
             "english": "Find the area of the rectangles having dimensions: Length = 2 m 50 cm, Breadth = 60 cm",
             "hindi": "Find the area of the rectangles having dimensions: Length = 2 m 50 cm, Breadth = 60 cm"
@@ -541,8 +593,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q07",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q07",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -569,7 +621,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q07_q1",
+          "id": "rsexch23ex78q07_q1",
           "prompt": {
             "english": "Find the area of the square each of whose sides is: 17 cm",
             "hindi": "Find the area of the square each of whose sides is: 17 cm"
@@ -607,8 +659,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q08",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q08",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -635,7 +687,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q08_q1",
+          "id": "rsexch23ex78q08_q1",
           "prompt": {
             "english": "Find the area of the square each of whose sides is: 23 m",
             "hindi": "Find the area of the square each of whose sides is: 23 m"
@@ -673,8 +725,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q09",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q09",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -701,7 +753,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q09_q1",
+          "id": "rsexch23ex78q09_q1",
           "prompt": {
             "english": "Find the area of the square each of whose sides is: 13.5 cm",
             "hindi": "Find the area of the square each of whose sides is: 13.5 cm"
@@ -739,8 +791,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q10",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q10",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -767,7 +819,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q10_q1",
+          "id": "rsexch23ex78q10_q1",
           "prompt": {
             "english": "Find the area of the square each of whose sides is: 3 m 40 cm",
             "hindi": "Find the area of the square each of whose sides is: 3 m 40 cm"
@@ -805,8 +857,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q11_a",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q11_a",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -833,7 +885,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q11_a_q1",
+          "id": "rsexch23ex78q11aq1",
           "prompt": {
             "english": "Find the length of the rectangle whose Part (a): area = 104 sq cm and breadth = 8 cm",
             "hindi": "Find the length of the rectangle whose Part (a): area = 104 sq cm and breadth = 8 cm"
@@ -870,8 +922,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q11_b",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q11_b",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -898,7 +950,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q11_b_q1",
+          "id": "rsexch23ex78q11bq1",
           "prompt": {
             "english": "Find the length of the rectangle whose Part (b): area = 378 sq m and breadth = 14 m",
             "hindi": "Find the length of the rectangle whose Part (b): area = 378 sq m and breadth = 14 m"
@@ -935,8 +987,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q11_c",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q11_c",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -963,7 +1015,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q11_c_q1",
+          "id": "rsexch23ex78q11cq1",
           "prompt": {
             "english": "Find the length of the rectangle whose Part (c): area = 900 sq cm and breadth = 25 cm",
             "hindi": "Find the length of the rectangle whose Part (c): area = 900 sq cm and breadth = 25 cm"
@@ -1000,8 +1052,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q11_d",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q11_d",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -1028,7 +1080,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q11_d_q1",
+          "id": "rsexch23ex78q11dq1",
           "prompt": {
             "english": "Find the length of the rectangle whose Part (d): area = 102 sq m and breadth = 8.5 m",
             "hindi": "Find the length of the rectangle whose Part (d): area = 102 sq m and breadth = 8.5 m"
@@ -1065,8 +1117,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q12_a",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q12_a",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -1093,7 +1145,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q12_a_q1",
+          "id": "rsexch23ex78q12aq1",
           "prompt": {
             "english": "Find the breadth of the rectangle whose Part (a): area = 208 sq cm and length = 16 cm",
             "hindi": "Find the breadth of the rectangle whose Part (a): area = 208 sq cm and length = 16 cm"
@@ -1130,8 +1182,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q12_b",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q12_b",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -1158,7 +1210,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q12_b_q1",
+          "id": "rsexch23ex78q12bq1",
           "prompt": {
             "english": "Find the breadth of the rectangle whose Part (b): area = 391 sq cm and length = 23 cm",
             "hindi": "Find the breadth of the rectangle whose Part (b): area = 391 sq cm and length = 23 cm"
@@ -1195,8 +1247,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q12_c",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q12_c",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -1223,7 +1275,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q12_c_q1",
+          "id": "rsexch23ex78q12cq1",
           "prompt": {
             "english": "Find the breadth of the rectangle whose Part (c): area = 117 sq m and length = 13 m",
             "hindi": "Find the breadth of the rectangle whose Part (c): area = 117 sq m and length = 13 m"
@@ -1260,8 +1312,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q12_d",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q12_d",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -1288,7 +1340,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q12_d_q1",
+          "id": "rsexch23ex78q12dq1",
           "prompt": {
             "english": "Find the breadth of the rectangle whose Part (d): area = 52 sq m and length = 8 m",
             "hindi": "Find the breadth of the rectangle whose Part (d): area = 52 sq m and length = 8 m"
@@ -1325,8 +1377,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q13",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q13",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -1353,7 +1405,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q13_q1",
+          "id": "rsexch23ex78q13_q1",
           "prompt": {
             "english": "How many pieces of stone slabs, each 24 cm long and 15 cm broad will be required to lay a path 18 m long and 12 m wide?",
             "hindi": "How many pieces of stone slabs, each 24 cm long and 15 cm broad will be required to lay a path 18 m long and 12 m wide?"
@@ -1389,8 +1441,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q14",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q14",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -1417,7 +1469,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q14_q1",
+          "id": "rsexch23ex78q14_q1",
           "prompt": {
             "english": "How many blocks, each 25 cm long and 12 cm wide, will be required to lay a path 12.5 m long and 4.8 m wide?",
             "hindi": "How many blocks, each 25 cm long and 12 cm wide, will be required to lay a path 12.5 m long and 4.8 m wide?"
@@ -1453,8 +1505,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q15",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q15",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -1481,7 +1533,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q15_q1",
+          "id": "rsexch23ex78q15_q1",
           "prompt": {
             "english": "Which carpet is bigger: one measuring 16 m in length and 12.5 m in breadth or another measuring 15 m in length and 13.8 m in breadth?",
             "hindi": "Which carpet is bigger: one measuring 16 m in length and 12.5 m in breadth or another measuring 15 m in length and 13.8 m in breadth?"
@@ -1518,8 +1570,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q16",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q16",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -1546,7 +1598,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q16_q1",
+          "id": "rsexch23ex78q16_q1",
           "prompt": {
             "english": "The floor of a hall is completely covered by 26 carpets, each measuring 4 m by 2.5 m. What is the area of the floor of the hall?",
             "hindi": "The floor of a hall is completely covered by 26 carpets, each measuring 4 m by 2.5 m. What is the area of the floor of the hall?"
@@ -1583,8 +1635,8 @@
       "mistakeFocus": "GENERAL"
     },
     {
-      "id": "rs_ex_ch23_ex78_q17",
-      "sourceLessonId": "rs_exercise_ch23_ex78",
+      "id": "rsexch23ex78q17",
+      "sourceLessonId": "rsexercisech23_ex78",
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
@@ -1611,7 +1663,7 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rs_ex_ch23_ex78_q17_q1",
+          "id": "rsexch23ex78q17_q1",
           "prompt": {
             "english": "Find the area of each of the following figures. (a) (b) (c) (d) 5 cm 1 cm 6 cm 3 cm 1 cm 2 cm 6 cm 1 cm 6 cm 3 cm 3 cm 1 cm 1 cm 3 cm 5 cm 2 cm 5 cm 4 cm 4 cm 1 cm 1 cm 1 cm 1 cm 3 cm 3 cm 3 cm 3 cm 6 cm",
             "hindi": "Find the area of each of the following figures. (a) (b) (c) (d) 5 cm 1 cm 6 cm 3 cm 1 cm 2 cm 6 cm 1 cm 6 cm 3 cm 3 cm 1 cm 1 cm 3 cm 5 cm 2 cm 5 cm 4 cm 4 cm 1 cm 1 cm 1 cm 1 cm 3 cm 3 cm 3 cm 3 cm 6 cm"
