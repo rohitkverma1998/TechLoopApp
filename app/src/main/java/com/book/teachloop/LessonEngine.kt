@@ -106,14 +106,27 @@ class LessonEngine(
 
         val baseIndex = session.questionIndex % topic.questions.size
         val baseQuestion = topic.questions[baseIndex]
+        val strippedTopicContent =
+            topic.explanationParagraphs.isEmpty() &&
+                topic.examples.isEmpty() &&
+                topic.visuals.isEmpty() &&
+                baseQuestion.hint == null &&
+                baseQuestion.wrongReason == null &&
+                baseQuestion.supportExample == null &&
+                baseQuestion.reteachTitle == null &&
+                baseQuestion.reteachParagraphs.isEmpty()
         val supportExample = baseQuestion.supportExample
             ?: topic.examples.firstOrNull()
             ?: topic.explanationParagraphs.firstOrNull()
             ?: text("")
-        val wrongReason = baseQuestion.wrongReason ?: text(
+        val wrongReason = if (strippedTopicContent) {
+            text("")
+        } else {
+            baseQuestion.wrongReason ?: text(
             english = "This answer does not match the key idea of ${topic.subtopicTitle.english.lowercase()}.",
             hindi = "${topic.subtopicTitle.hindi.lowercase()} के मुख्य विचार से यह उत्तर मेल नहीं खाता।",
-        )
+            )
+        }
 
         val correctText = when (baseQuestion.type) {
             QuestionType.MULTIPLE_CHOICE -> {
@@ -159,10 +172,16 @@ class LessonEngine(
                     QuestionType.MULTIPLE_CHOICE -> baseQuestion.options[baseQuestion.correctOptionIndex ?: 0]
                     QuestionType.TEXT_INPUT -> text(correctText, correctText)
                 },
-                hint = baseQuestion.hint ?: text(
+                hint = if (baseQuestion.hint != null) {
+                    baseQuestion.hint
+                } else if (strippedTopicContent) {
+                    null
+                } else {
+                    text(
                     english = "Think step by step before answering.",
                     hindi = "उत्तर देने से पहले एक-एक कदम सोचिए।",
-                ),
+                    )
+                },
                 wrongReason = wrongReason,
                 supportExample = supportExample,
                 mistakeType = baseQuestion.mistakeType,
@@ -309,7 +328,9 @@ class LessonEngine(
                     english = "Not correct yet. Let us revisit the idea and try once more.",
                     hindi = "अभी सही नहीं हुआ। चलिए विचार को फिर से देखते हैं और एक बार और कोशिश करते हैं।",
                 ),
-                wrongReason = question.wrongReason,
+                wrongReason = question.wrongReason.takeUnless {
+                    it.english.isBlank() && it.hindi.isBlank()
+                },
                 supportExample = question.supportExample.takeUnless {
                     it.english.isBlank() && it.hindi.isBlank()
                 },

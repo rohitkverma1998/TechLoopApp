@@ -29,36 +29,7 @@
         "english": "Introduction",
         "hindi": "परिचय"
       },
-      "explanationParagraphs": [
-        {
-          "english": "In this lesson, Introduction means the first step of learning graphs. A graph is a simple picture that shows numbers in an easy way. When numbers are shown in a graph, we do not need to read a long list again and again. We can quickly see which amount is more, which is less, and which are equal. This is why we use graphs.",
-          "hindi": "इस पाठ में Introduction का मतलब है ग्राफ सीखने की पहली समझ। ग्राफ एक सरल चित्र होता है जो संख्याओं को आसान तरीके से दिखाता है। जब संख्याएँ ग्राफ में दिखाई जाती हैं, तब हमें लंबी सूची बार-बार नहीं पढ़नी पड़ती। हम जल्दी से देख सकते हैं कि कौन-सी मात्रा ज्यादा है, कौन-सी कम है, और कौन-सी बराबर है। इसी कारण हम ग्राफ का उपयोग करते हैं।"
-        },
-        {
-          "english": "This topic does not have one fixed formula like area or perimeter, because a graph is mainly a way to show information clearly. The key rule is that every part of the graph must match the data correctly. In a picture graph, if 1 picture stands for 2 objects, then total objects = number of pictures × 2. In any graph, read the title, read the key if there is one, and check the numbers carefully before answering.",
-          "hindi": "इस विषय का कोई एक पक्का formula नहीं होता, जैसे क्षेत्रफल या परिमाप का होता है, क्योंकि ग्राफ मुख्य रूप से जानकारी को साफ तरीके से दिखाने का तरीका है। सबसे जरूरी नियम यह है कि ग्राफ का हर भाग दिए गए data से सही मेल खाना चाहिए। चित्र वाले ग्राफ में अगर 1 चित्र 2 वस्तुओं को दिखाता है, तो कुल वस्तुएँ = चित्रों की संख्या × 2। किसी भी ग्राफ को पढ़ते समय पहले शीर्षक पढ़ो, फिर key पढ़ो अगर दी गई हो, और फिर संख्याएँ ध्यान से देखो।"
-        },
-        {
-          "english": "Graphs are used in real life all the time. A teacher can show how many students were present on different days. A shopkeeper can compare how many pencils, erasers, and notebooks were sold. A family can record how many glasses of water were drunk in a week. A graph makes the story of the numbers easy to understand at one glance.",
-          "hindi": "ग्राफ का उपयोग रोजमर्रा की जिंदगी में बहुत होता है। एक शिक्षक अलग-अलग दिनों में उपस्थित छात्रों की संख्या दिखा सकता है। एक दुकानदार यह तुलना कर सकता है कि पेंसिल, रबड़ और कॉपी कितनी बिकीं। एक परिवार एक हफ्ते में पिए गए पानी के गिलासों की गिनती दिखा सकता है। ग्राफ संख्याओं की पूरी कहानी एक नजर में समझा देता है।"
-        },
-        {
-          "english": "Suppose a picture graph shows that 1 book picture means 2 books. Aman has 3 book pictures. How many books did Aman read? First, read the key: 1 picture = 2 books. Next, count the pictures: there are 3. Then multiply 3 × 2 = 6, or add 2 + 2 + 2 = 6. So Aman read 6 books. A common mistake is to answer 3 just because there are 3 pictures, but each picture means 2 books.",
-          "hindi": "मान लो एक picture graph में 1 किताब का चित्र 2 किताबों को दिखाता है। अमन के पास किताब के 3 चित्र हैं। अमन ने कितनी किताबें पढ़ीं? पहले key पढ़ो: 1 चित्र = 2 किताबें। फिर चित्र गिनो: कुल 3 चित्र हैं। अब 3 × 2 = 6 करो, या 2 + 2 + 2 = 6 जोड़ो। इसलिए अमन ने 6 किताबें पढ़ीं। यहाँ एक सामान्य गलती यह है कि बच्चा केवल 3 लिख दे, क्योंकि उसे 3 चित्र दिख रहे हैं, लेकिन हर चित्र 2 किताबें दिखा रहा है।"
-        },
-        {
-          "english": "Now look at a bar graph of favourite fruits. Mango is 8, Apple is 5, and Banana is 3. Which fruit is liked the most, and how many more students like Mango than Banana? First, find the biggest number. The biggest number is 8, so Mango is liked the most. Next, compare Mango and Banana: 8 - 3 = 5. So 5 more students like Mango than Banana. A common mistake is to compare the wrong two fruits, so always read the names before subtracting.",
-          "hindi": "अब एक bar graph को देखो जिसमें पसंदीदा फलों की संख्या दी गई है। आम 8 है, सेब 5 है, और केला 3 है। सबसे ज्यादा पसंद किया गया फल कौन-सा है, और आम को केले से कितने ज्यादा बच्चे पसंद करते हैं? पहले सबसे बड़ी संख्या देखो। सबसे बड़ी संख्या 8 है, इसलिए आम सबसे ज्यादा पसंद किया गया है। अब आम और केले की तुलना करो: 8 - 3 = 5। इसलिए 5 ज्यादा बच्चे आम को पसंद करते हैं। यहाँ सामान्य गलती यह होती है कि बच्चा गलत दो फलों की तुलना कर लेता है, इसलिए नाम ध्यान से पढ़ो।"
-        },
-        {
-          "english": "A graph shows the number of plants watered by Meera in four days. Monday is 4, Tuesday is 6, Wednesday is 5, and Thursday is 7. How many plants did she water in all, and on which day did she water the most? First, read all four numbers carefully: 4, 6, 5, and 7. Next, add them step by step: 4 + 6 = 10, 10 + 5 = 15, and 15 + 7 = 22. Then find the greatest number. The greatest number is 7, and it is on Thursday. So Meera watered 22 plants in all, and she watered the most on Thursday. A common mistake is to forget one day while adding.",
-          "hindi": "एक ग्राफ में मीरा द्वारा चार दिनों में सींचे गए पौधों की संख्या दिखाई गई है। सोमवार 4 है, मंगलवार 6 है, बुधवार 5 है, और गुरुवार 7 है। उसने कुल कितने पौधों में पानी दिया, और किस दिन सबसे ज्यादा पौधों में पानी दिया? पहले चारों संख्याएँ ध्यान से पढ़ो: 4, 6, 5, और 7। फिर जोड़ो: 4 + 6 = 10, 10 + 5 = 15, और 15 + 7 = 22। अब सबसे बड़ी संख्या देखो। सबसे बड़ी संख्या 7 है, और यह गुरुवार की है। इसलिए मीरा ने कुल 22 पौधों में पानी दिया, और सबसे ज्यादा पानी गुरुवार को दिया। यहाँ सामान्य गलती यह है कि जोड़ते समय कोई एक दिन छूट जाता है।"
-        },
-        {
-          "english": "When children begin graphs, the most common mistakes are forgetting the key, guessing instead of reading the exact number, and mixing up the labels. The safe way is to look at the title, check what each picture or bar means, and solve slowly one step at a time. So the main idea of Introduction is simple: graphs help us see numbers clearly, compare them easily, and answer questions faster.",
-          "hindi": "जब बच्चे ग्राफ पढ़ना शुरू करते हैं, तब सबसे सामान्य गलतियाँ होती हैं key भूल जाना, सही संख्या पढ़ने के बजाय अंदाजा लगाना, और नामों को गड़बड़ कर देना। सही तरीका यह है कि पहले शीर्षक देखो, फिर समझो कि हर चित्र या बार क्या दिखा रहा है, और फिर एक-एक कदम से हल करो। इसलिए Introduction की मुख्य बात बहुत सरल है: ग्राफ हमें संख्याएँ साफ दिखाते हैं, उनकी तुलना आसान बनाते हैं, और प्रश्नों के उत्तर जल्दी दिलाते हैं।"
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -89,53 +60,12 @@
           ],
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
-          "hint": {
-            "english": "Think of what graphs help us understand.",
-            "hindi": "सोचिए आलेख हमें क्या समझने में मदद करते हैं।"
-          },
-          "wrongReason": {
-            "english": "The main idea in introduction was not used correctly.",
-            "hindi": "परिचय के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
-          },
-          "supportExample": {
-            "english": "Graphs make data easy to read and compare.",
-            "hindi": "आलेख आँकड़ों को पढ़ना और तुलना करना आसान बनाते हैं।"
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "DATA_SCALE",
-          "reteachTitle": {
-            "english": "Understanding Introduction",
-            "hindi": "परिचय को समझें"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "This question is solved by using the same idea from the topic. Graphs help us present and compare data quickly.",
-              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। आलेख हमें आँकड़ों को जल्दी दिखाने और तुलना करने में मदद करते हैं।"
-            },
-            {
-              "english": "The question asks us to work with this situation: Why do we use graphs?",
-              "hindi": "प्रश्न हमें यह स्थिति देता है: हम आलेखों का उपयोग क्यों करते हैं?"
-            },
-            {
-              "english": "To move from the question to the answer, use this idea directly: Think of what graphs help us understand.",
-              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: सोचिए आलेख हमें क्या समझने में मदद करते हैं।"
-            },
-            {
-              "english": "A similar example makes the method clear. A graph helps us compare numbers at a glance.",
-              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। आलेख हमें एक नज़र में संख्याओं की तुलना करने देता है।"
-            },
-            {
-              "english": "Using the same method here, we get: Graphs make data easy to read and compare.",
-              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: आलेख आँकड़ों को पढ़ना और तुलना करना आसान बनाते हैं।"
-            },
-            {
-              "english": "After solving, choose the option that matches the idea and the final value.",
-              "hindi": "हल करने के बाद वही विकल्प चुनिए जो सही विचार और अंतिम मान से मेल खाता हो।"
-            },
-            {
-              "english": "So the correct answer is To show and compare data clearly.",
-              "hindi": "इसलिए सही उत्तर आँकड़ों को साफ़ दिखाने और तुलना करने के लिए है।"
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -174,36 +104,7 @@
         "english": "Pictograph",
         "hindi": "चित्रालेख"
       },
-      "explanationParagraphs": [
-        {
-          "english": "A pictograph is a way of showing information by using small pictures or symbols. Instead of writing only numbers, we use repeated pictures, like apples, stars, or circles, to show how many things there are. A pictograph helps us understand information quickly and compare groups easily. In class 5, the most important idea is that one picture does not always mean one object. We must always check what one picture stands for.",
-          "hindi": "चित्रलेख जानकारी दिखाने का एक आसान तरीका है, जिसमें छोटे चित्र या चिन्ह इस्तेमाल किए जाते हैं. केवल संख्याएँ लिखने के बजाय हम सेब, तारे या गोल चिन्ह जैसे चित्रों की मदद से बताते हैं कि कितनी चीजें हैं. चित्रलेख देखकर जानकारी जल्दी समझ में आती है और अलग-अलग समूहों की तुलना करना आसान हो जाता है. कक्षा 5 में सबसे जरूरी बात यह है कि एक चित्र हमेशा एक ही वस्तु नहीं दिखाता. हमें हमेशा देखना चाहिए कि एक चित्र किस संख्या के बराबर है."
-        },
-        {
-          "english": "The key of a pictograph tells us the value of one symbol. The main rule is Total number of objects = Number of symbols × Value of 1 symbol. For example, if 1 symbol = 5 apples, then 3 symbols mean 3 × 5 = 15 apples. If the chart shows half a symbol, it means half of the value of one full symbol. So if 1 symbol = 10 flowers, then half a symbol = 5 flowers. First read the key, then count the symbols, then multiply, and finally add or subtract if the question asks for a total or a difference.",
-          "hindi": "चित्रलेख की कुंजी बताती है कि एक चिन्ह का मान क्या है. मुख्य नियम यह है कि कुल वस्तुएँ = चिन्हों की संख्या × 1 चिन्ह का मान. उदाहरण के लिए, अगर 1 चिन्ह = 5 सेब, तो 3 चिन्ह = 3 × 5 = 15 सेब होंगे. अगर आधा चिन्ह बना हो, तो वह पूरे चिन्ह की आधी संख्या दिखाता है. इसलिए अगर 1 चिन्ह = 10 फूल, तो आधा चिन्ह = 5 फूल होगा. पहले कुंजी पढ़ो, फिर चिन्ह गिनो, फिर गुणा करो, और आखिर में जरूरत हो तो जोड़ या घटाव करो."
-        },
-        {
-          "english": "We use pictographs in real life to show simple information clearly. A teacher can show how many books each child read in a month. A shopkeeper can show how many mangoes, bananas, and oranges were sold in a day. A class can show how many students like football, cricket, or badminton. Weather charts can also use pictographs to show rainy days and sunny days. Pictographs are useful when we want to read information fast without looking at long number lists.",
-          "hindi": "हम चित्रलेख का उपयोग रोजमर्रा की जिंदगी में सरल जानकारी दिखाने के लिए कर सकते हैं. शिक्षक यह दिखा सकते हैं कि एक महीने में किस बच्चे ने कितनी किताबें पढ़ीं. दुकानदार यह दिखा सकता है कि एक दिन में कितने आम, केले और संतरे बिके. एक कक्षा यह दिखा सकती है कि कितने बच्चों को फुटबॉल, क्रिकेट या बैडमिंटन पसंद है. मौसम की तालिका में भी चित्रलेख से बारिश वाले और धूप वाले दिनों की संख्या दिखाई जा सकती है. जब लंबी संख्या-सूची पढ़े बिना जानकारी जल्दी समझनी हो, तब चित्रलेख बहुत काम आता है."
-        },
-        {
-          "english": "Now look at an easy question. In a pictograph, 1 symbol = 5 apples. We want to know how many apples 4 symbols show. First we read the key and see that each symbol means 5 apples. Next we count the symbols. There are 4 symbols. Then we multiply 4 × 5 = 20. So 4 symbols show 20 apples.",
-          "hindi": "अब एक आसान सवाल देखते हैं. एक चित्रलेख में 1 चिन्ह 5 सेब दिखाता है. हमें पता करना है कि 4 चिन्ह कितने सेब दिखाते हैं. सबसे पहले हम कुंजी पढ़ते हैं और देखते हैं कि हर चिन्ह 5 सेब के बराबर है. फिर हम चिन्ह गिनते हैं. यहाँ 4 चिन्ह हैं. अब हम 4 × 5 = 20 करते हैं. इसलिए 4 चिन्ह 20 सेब दिखाते हैं."
-        },
-        {
-          "english": "Now look at a medium question. In a pictograph, 1 symbol = 2 bananas. Rahul has 5 symbols and Meena has 3 symbols. First we find Rahul's bananas. 5 × 2 = 10, so Rahul has 10 bananas. Then we find Meena's bananas. 3 × 2 = 6, so Meena has 6 bananas. Now we compare them. 10 - 6 = 4. So Rahul has 4 more bananas than Meena.",
-          "hindi": "अब एक मध्यम सवाल देखते हैं. एक चित्रलेख में 1 चिन्ह 2 केले दिखाता है. राहुल के पास 5 चिन्ह हैं और मीना के पास 3 चिन्ह हैं. पहले हम राहुल के केले निकालते हैं. 5 × 2 = 10, इसलिए राहुल के पास 10 केले हैं. फिर हम मीना के केले निकालते हैं. 3 × 2 = 6, इसलिए मीना के पास 6 केले हैं. अब हम तुलना करते हैं. 10 - 6 = 4. इसलिए राहुल के पास मीना से 4 केले ज्यादा हैं."
-        },
-        {
-          "english": "Now look at a harder question. In a pictograph, 1 symbol = 10 flowers and half a symbol = 5 flowers. Garden A has 3 full symbols and 1 half symbol. Garden B has 2 full symbols and 1 half symbol. First we find Garden A. 3 full symbols mean 3 × 10 = 30 flowers, and 1 half symbol means 5 flowers. So Garden A has 30 + 5 = 35 flowers. Next we find Garden B. 2 full symbols mean 2 × 10 = 20 flowers, and 1 half symbol means 5 flowers. So Garden B has 20 + 5 = 25 flowers. Now we compare them. 35 - 25 = 10. So Garden A has 10 more flowers than Garden B.",
-          "hindi": "अब एक कठिन सवाल देखते हैं. एक चित्रलेख में 1 चिन्ह 10 फूल दिखाता है और आधा चिन्ह 5 फूल दिखाता है. बगीचा A में 3 पूरे चिन्ह और 1 आधा चिन्ह है. बगीचा B में 2 पूरे चिन्ह और 1 आधा चिन्ह है. पहले हम बगीचा A के फूल निकालते हैं. 3 पूरे चिन्ह का मतलब 3 × 10 = 30 फूल है, और 1 आधा चिन्ह का मतलब 5 फूल है. इसलिए बगीचा A में 30 + 5 = 35 फूल हैं. फिर हम बगीचा B के फूल निकालते हैं. 2 पूरे चिन्ह का मतलब 2 × 10 = 20 फूल है, और 1 आधा चिन्ह का मतलब 5 फूल है. इसलिए बगीचा B में 20 + 5 = 25 फूल हैं. अब हम तुलना करते हैं. 35 - 25 = 10. इसलिए बगीचा A में बगीचा B से 10 फूल ज्यादा हैं."
-        },
-        {
-          "english": "A common mistake is forgetting to read the key and treating 1 symbol as 1 object. Another mistake is counting the pictures correctly but forgetting to multiply by the value of each symbol. Some children also count a half symbol as a full symbol, which gives a wrong answer. When comparing two groups, some students add when they should subtract, or subtract when they should add. To avoid mistakes, always read the key carefully, count symbols slowly, change the symbols into real numbers, and then do the final operation.",
-          "hindi": "चित्रलेख में एक सामान्य गलती यह है कि कुंजी पढ़े बिना 1 चिन्ह को 1 वस्तु मान लेना. दूसरी गलती यह है कि बच्चे चिन्ह तो सही गिन लेते हैं, लेकिन हर चिन्ह के मान से गुणा करना भूल जाते हैं. कुछ बच्चे आधे चिन्ह को भी पूरा चिन्ह मान लेते हैं, इसलिए उत्तर गलत हो जाता है. दो समूहों की तुलना करते समय कभी-कभी जोड़ करना होता है, लेकिन बच्चे घटाव कर देते हैं, या घटाव करना होता है, लेकिन जोड़ कर देते हैं. गलती से बचने के लिए कुंजी ध्यान से पढ़ो, चिन्ह धीरे-धीरे गिनो, चिन्हों को असली संख्या में बदलो, and उसके बाद ही अंतिम जोड़ या घटाव करो."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -219,53 +120,12 @@
           "acceptedAnswers": [
             "20"
           ],
-          "hint": {
-            "english": "Multiply the number of symbols by the value of one symbol.",
-            "hindi": "चिह्नों की संख्या को एक चिह्न के मान से गुणा कीजिए।"
-          },
-          "wrongReason": {
-            "english": "The main idea in pictograph was not used correctly.",
-            "hindi": "चित्रालेख के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
-          },
-          "supportExample": {
-            "english": "4 × 5 = 20 apples.",
-            "hindi": "4 × 5 = 20 सेब।"
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "DATA_SCALE",
-          "reteachTitle": {
-            "english": "Understanding Pictograph",
-            "hindi": "चित्रालेख को समझें"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "This question is solved by using the same idea from the topic. In a pictograph, each picture or symbol stands for a fixed number of items.",
-              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। चित्रालेख में हर चित्र या चिह्न कुछ निश्चित वस्तुओं की संख्या दिखाता है।"
-            },
-            {
-              "english": "The question asks us to work with this situation: In a pictograph, 1 symbol = 5 apples. How many apples do 4 symbols show?",
-              "hindi": "प्रश्न हमें यह स्थिति देता है: एक चित्रालेख में 1 चिह्न = 5 सेब है। 4 चिह्न कितने सेब दिखाएँगे?"
-            },
-            {
-              "english": "To move from the question to the answer, use this idea directly: Multiply the number of symbols by the value of one symbol.",
-              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: चिह्नों की संख्या को एक चिह्न के मान से गुणा कीजिए।"
-            },
-            {
-              "english": "A similar example makes the method clear. If one symbol stands for 5 apples, then 4 symbols stand for 20 apples.",
-              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। यदि एक चिह्न 5 सेब दर्शाता है, तो 4 चिह्न 20 सेब दर्शाएँगे।"
-            },
-            {
-              "english": "Using the same method here, we get: 4 × 5 = 20 apples.",
-              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: 4 × 5 = 20 सेब।"
-            },
-            {
-              "english": "After solving, write the answer in the same form the question asks for, and include the unit whenever one is needed.",
-              "hindi": "हल पूरा होने पर उत्तर उसी रूप में लिखिए जिस रूप में प्रश्न ने माँगा है, और जहाँ ज़रूरत हो वहाँ सही इकाई भी लिखिए।"
-            },
-            {
-              "english": "So the correct answer is 20.",
-              "hindi": "इसलिए सही उत्तर 20 है।"
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -304,40 +164,7 @@
         "english": "Bar Graph",
         "hindi": "दंड आलेख"
       },
-      "explanationParagraphs": [
-        {
-          "english": "A bar graph is a simple picture that helps us compare numbers. It uses rectangular bars of the same width. The taller or longer bar shows a bigger number, and the shorter bar shows a smaller number. We use bar graphs to compare things like the number of students in different classes, the number of books read in a week, or the number of fruits sold in a shop. A bar graph is useful because we can understand the data quickly just by looking at the bars.",
-          "hindi": "बार ग्राफ एक आसान चित्र है जो हमें संख्याओं की तुलना करने में मदद करता है। इसमें एक जैसी चौड़ाई वाली आयताकार पट्टियाँ होती हैं। जो पट्टी ज्यादा ऊँची या लंबी होती है, वह बड़ी संख्या दिखाती है, और जो छोटी होती है, वह छोटी संख्या दिखाती है। हम बार ग्राफ का उपयोग अलग-अलग कक्षाओं के विद्यार्थियों की संख्या, एक सप्ताह में पढ़ी गई किताबों की संख्या, या दुकान में बिके फलों की संख्या की तुलना करने के लिए करते हैं। बार ग्राफ इसलिए उपयोगी है क्योंकि हम पट्टियों को देखकर जल्दी समझ सकते हैं।"
-        },
-        {
-          "english": "Bar Graph does not have one special formula like some other maths topics. The main rule is this: value shown by a bar = scale of 1 unit × height of the bar in units. Another helpful rule is: height of the bar in units = actual value ÷ scale of 1 unit. For example, if 1 unit stands for 10 students, then a bar of height 6 shows 10 × 6 = 60 students. When reading a bar graph, first check the scale, then look at the height of the bar, and then multiply. When drawing a bar graph, first decide the scale, then write the names of the things being compared, then draw bars of equal width with equal gaps.",
-          "hindi": "बार ग्राफ का कोई एक खास सूत्र नहीं होता जैसे कुछ और गणित के पाठों में होता है। इसका मुख्य नियम यह है: पट्टी से दिखाई गई मात्रा = 1 इकाई का मान × पट्टी की ऊँचाई की इकाइयाँ। एक और उपयोगी नियम है: पट्टी की ऊँचाई की इकाइयाँ = वास्तविक मात्रा ÷ 1 इकाई का मान। उदाहरण के लिए, अगर 1 इकाई = 10 विद्यार्थी है, तो 6 इकाई ऊँची पट्टी 10 × 6 = 60 विद्यार्थी दिखाती है। बार ग्राफ पढ़ते समय पहले पैमाना देखो, फिर पट्टी की ऊँचाई देखो, और फिर गुणा करो। बार ग्राफ बनाते समय पहले पैमाना तय करो, फिर जिन चीजों की तुलना करनी है उनके नाम लिखो, और फिर बराबर चौड़ाई और बराबर दूरी वाली पट्टियाँ बनाओ।"
-        },
-        {
-          "english": "We see bar graphs in real life in many easy situations. A teacher can use a bar graph to show how many students like Maths, Science, English, and Art. A shopkeeper can use it to compare how many apples, bananas, mangoes, and oranges were sold. A family can use a bar graph to compare water used on different days. In all these examples, the rule stays the same: first understand what 1 unit means, and then read each bar carefully.",
-          "hindi": "हम रोज़मर्रा की ज़िंदगी में बार ग्राफ कई आसान स्थितियों में देखते हैं। एक अध्यापक बार ग्राफ की मदद से दिखा सकता है कि कितने बच्चों को गणित, विज्ञान, अंग्रेज़ी और कला पसंद है। एक दुकानदार इसका उपयोग यह तुलना करने के लिए कर सकता है कि कितने सेब, केले, आम और संतरे बिके। एक परिवार अलग-अलग दिनों में उपयोग हुए पानी की तुलना भी बार ग्राफ से कर सकता है। इन सभी उदाहरणों में नियम एक ही रहता है: पहले समझो कि 1 इकाई किसके बराबर है, फिर हर पट्टी को ध्यान से पढ़ो।"
-        },
-        {
-          "english": "Let us solve an easy question. In a bar graph, 1 unit = 10 students. What does a bar of height 6 show? Step 1: read the scale. One unit means 10 students. Step 2: read the height. The bar height is 6 units. Step 3: multiply 10 by 6. We get 60. Step 4: write the answer with the correct word. So, the bar shows 60 students.",
-          "hindi": "अब एक आसान प्रश्न हल करते हैं। एक बार ग्राफ में 1 इकाई = 10 विद्यार्थी है। 6 इकाई ऊँची पट्टी क्या दिखाती है? चरण 1: पैमाना पढ़ो। एक इकाई का मतलब 10 विद्यार्थी है। चरण 2: ऊँचाई पढ़ो। पट्टी की ऊँचाई 6 इकाई है। चरण 3: 10 को 6 से गुणा करो। हमें 60 मिलता है। चरण 4: सही शब्द के साथ उत्तर लिखो। इसलिए, वह पट्टी 60 विद्यार्थी दिखाती है।"
-        },
-        {
-          "english": "Now a medium question. In a bar graph of books read by four children, 1 unit = 5 books. Riya’s bar is 4 units high and Aman’s bar is 7 units high. How many books did each child read, and how many more books did Aman read than Riya? Step 1: find Riya’s books. 4 × 5 = 20 books. Step 2: find Aman’s books. 7 × 5 = 35 books. Step 3: find how many more books Aman read. 35 - 20 = 15 books. So, Riya read 20 books, Aman read 35 books, and Aman read 15 more books than Riya.",
-          "hindi": "अब एक मध्यम प्रश्न देखते हैं। एक बार ग्राफ में चार बच्चों द्वारा पढ़ी गई किताबों की संख्या दिखाई गई है। 1 इकाई = 5 किताबें है। रिया की पट्टी 4 इकाई ऊँची है और अमन की पट्टी 7 इकाई ऊँची है। हर बच्चे ने कितनी किताबें पढ़ीं, और अमन ने रिया से कितनी अधिक किताबें पढ़ीं? चरण 1: रिया की किताबें निकालो। 4 × 5 = 20 किताबें। चरण 2: अमन की किताबें निकालो। 7 × 5 = 35 किताबें। चरण 3: पता करो कि अमन ने कितनी अधिक किताबें पढ़ीं। 35 - 20 = 15 किताबें। इसलिए, रिया ने 20 किताबें पढ़ीं, अमन ने 35 किताबें पढ़ीं, और अमन ने रिया से 15 किताबें अधिक पढ़ीं।"
-        },
-        {
-          "english": "Now a harder question. A bar graph shows the number of pens sold on three days. The scale is 1 unit = 4 pens. Monday has height 5 units, Tuesday has height 7 units, and Wednesday has height 6 units. Find the number of pens sold on each day and the total pens sold in all three days. Step 1: Monday = 5 × 4 = 20 pens. Step 2: Tuesday = 7 × 4 = 28 pens. Step 3: Wednesday = 6 × 4 = 24 pens. Step 4: add all three numbers. 20 + 28 + 24 = 72 pens. So, 20 pens were sold on Monday, 28 on Tuesday, 24 on Wednesday, and 72 pens in total.",
-          "hindi": "अब एक थोड़ा कठिन प्रश्न देखते हैं। एक बार ग्राफ में तीन दिनों में बेचे गए पेन की संख्या दिखाई गई है। पैमाना है 1 इकाई = 4 पेन। सोमवार की ऊँचाई 5 इकाई है, मंगलवार की 7 इकाई है, और बुधवार की 6 इकाई है। हर दिन कितने पेन बिके और तीनों दिनों में कुल कितने पेन बिके, यह ज्ञात करो। चरण 1: सोमवार = 5 × 4 = 20 पेन। चरण 2: मंगलवार = 7 × 4 = 28 पेन। चरण 3: बुधवार = 6 × 4 = 24 पेन। चरण 4: तीनों संख्याएँ जोड़ो। 20 + 28 + 24 = 72 पेन। इसलिए, सोमवार को 20 पेन बिके, मंगलवार को 28, बुधवार को 24, और कुल 72 पेन बिके।"
-        },
-        {
-          "english": "Some common mistakes happen when children forget to check the scale. A bar of height 6 does not always mean 6 things. If 1 unit = 10 students, then height 6 means 60 students, not 6 students. Another mistake is adding or comparing bar heights without first changing them into real values. Some children also draw bars with different widths or uneven gaps, which makes the graph look confusing. Always keep the bars equal in width, keep equal spaces, and read the numbers carefully.",
-          "hindi": "कुछ सामान्य गलतियाँ तब होती हैं जब बच्चे पैमाना देखना भूल जाते हैं। 6 इकाई ऊँची पट्टी हमेशा 6 चीजें नहीं दिखाती। अगर 1 इकाई = 10 विद्यार्थी है, तो 6 इकाई का मतलब 60 विद्यार्थी होगा, 6 विद्यार्थी नहीं। एक और गलती यह है कि बच्चे पहले वास्तविक मान निकाले बिना पट्टियों की ऊँचाइयों को जोड़ने या तुलना करने लगते हैं। कुछ बच्चे अलग-अलग चौड़ाई की पट्टियाँ या असमान दूरी भी बना देते हैं, जिससे ग्राफ उलझा हुआ लगता है। हमेशा पट्टियों की चौड़ाई बराबर रखो, दूरी बराबर रखो, और संख्याएँ ध्यान से पढ़ो।"
-        },
-        {
-          "english": "The big idea in bar graphs is simple: bar graphs help us compare data, and the scale tells us the real value of each unit. If you remember to check the scale first, multiply carefully, and write the correct unit such as students, books, or pens, you will be able to read and solve bar graph questions correctly. With practice, bar graphs become easy and fun to understand.",
-          "hindi": "बार ग्राफ का सबसे बड़ा विचार बहुत आसान है: बार ग्राफ हमें आँकड़ों की तुलना करने में मदद करता है, और पैमाना हर इकाई का असली मान बताता है। अगर तुम पहले पैमाना देखना याद रखो, ध्यान से गुणा करो, और सही इकाई जैसे विद्यार्थी, किताबें या पेन लिखो, तो तुम बार ग्राफ के प्रश्न सही तरीके से पढ़ और हल कर पाओगे। अभ्यास के साथ बार ग्राफ समझना आसान और मज़ेदार हो जाता है।"
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -354,53 +181,12 @@
             "60",
             "60 students"
           ],
-          "hint": {
-            "english": "Use the scale first, then multiply.",
-            "hindi": "पहले पैमाना देखिए, फिर गुणा कीजिए।"
-          },
-          "wrongReason": {
-            "english": "The main idea in bar graph was not used correctly.",
-            "hindi": "दंड आलेख के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
-          },
-          "supportExample": {
-            "english": "6 × 10 = 60 students.",
-            "hindi": "6 × 10 = 60 विद्यार्थी।"
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "DATA_SCALE",
-          "reteachTitle": {
-            "english": "Understanding Bar Graph",
-            "hindi": "दंड आलेख को समझें"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "This question is solved by using the same idea from the topic. In a bar graph, the height or length of each bar shows the value according to the scale.",
-              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। दंड आलेख में हर दंड की ऊँचाई या लंबाई, दिए गए पैमाने के अनुसार मान दिखाती है।"
-            },
-            {
-              "english": "The question asks us to work with this situation: In a bar graph, 1 unit = 10 students. What does a bar of height 6 show?",
-              "hindi": "प्रश्न हमें यह स्थिति देता है: एक दंड आलेख में 1 इकाई = 10 विद्यार्थी है। ऊँचाई 6 वाला दंड क्या दिखाता है?"
-            },
-            {
-              "english": "To move from the question to the answer, use this idea directly: Use the scale first, then multiply.",
-              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: पहले पैमाना देखिए, फिर गुणा कीजिए।"
-            },
-            {
-              "english": "A similar example makes the method clear. If 1 unit = 10 students, then a bar of height 6 represents 60 students.",
-              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। यदि 1 इकाई = 10 विद्यार्थी है, तो ऊँचाई 6 वाला दंड 60 विद्यार्थियों को दिखाता है।"
-            },
-            {
-              "english": "Using the same method here, we get: 6 × 10 = 60 students.",
-              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: 6 × 10 = 60 विद्यार्थी।"
-            },
-            {
-              "english": "After solving, write the answer in the same form the question asks for, and include the unit whenever one is needed.",
-              "hindi": "हल पूरा होने पर उत्तर उसी रूप में लिखिए जिस रूप में प्रश्न ने माँगा है, और जहाँ ज़रूरत हो वहाँ सही इकाई भी लिखिए।"
-            },
-            {
-              "english": "So the correct answer is 60 students.",
-              "hindi": "इसलिए सही उत्तर 60 students है।"
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -439,40 +225,7 @@
         "english": "Question 25.80.1",
         "hindi": "Question 25.80.1"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about Students present during the week are Monday 36, Tuesday 30, Wednesday 33, Thursday 39, Friday 30 and Saturday 27. Take one symbol to represent 3 st.",
-          "hindi": "This question is about Students present during the week are Monday 36, Tuesday 30, Wednesday 33, Thursday 39, Friday 30 and Saturday 27. Take one symbol to represent 3 st."
-        },
-        {
-          "english": "From the question, we should notice Students present during the week are Monday 36, Tuesday 30, Wednesday 33, Thursday 39, Friday 30 and Saturday 27. Take one symbol to represent 3 students and.",
-          "hindi": "From the question, we should notice Students present during the week are Monday 36, Tuesday 30, Wednesday 33, Thursday 39, Friday 30 and Saturday 27. Take one symbol to represent 3 students and."
-        },
-        {
-          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
-          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
-        },
-        {
-          "english": "At the end, check once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-          "hindi": "At the end, check once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-        },
-        {
-          "english": "Your notebook work should stay neat and complete. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-          "hindi": "Your notebook work should stay neat and complete. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -492,57 +245,12 @@
             "ready",
             "finished"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
-            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
-          },
-          "supportExample": {
-            "english": "Use the given data, choose a neat pictograph key, draw the symbols carefully, label every category, and then type done.",
-            "hindi": "Use the given data, choose a neat pictograph key, draw the symbols carefully, label every category, and then type done."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "How to complete this notebook task",
-            "hindi": "How to complete this notebook task"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about Students present during the week are Monday 36, Tuesday 30, Wednesday 33, Thursday 39, Friday 30 and Saturday 27. Take one symbol to represent 3 st.",
-              "hindi": "Here the question is asking about Students present during the week are Monday 36, Tuesday 30, Wednesday 33, Thursday 39, Friday 30 and Saturday 27. Take one symbol to represent 3 st."
-            },
-            {
-              "english": "The information given to us is Students present during the week are Monday 36, Tuesday 30, Wednesday 33, Thursday 39, Friday 30 and Saturday 27. Take one symbol to represent 3 students and.",
-              "hindi": "The information given to us is Students present during the week are Monday 36, Tuesday 30, Wednesday 33, Thursday 39, Friday 30 and Saturday 27. Take one symbol to represent 3 students and."
-            },
-            {
-              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-            },
-            {
-              "english": "Use the given data, choose a neat pictograph key, draw the symbols carefully, label every category, and then type done.",
-              "hindi": "Use the given data, choose a neat pictograph key, draw the symbols carefully, label every category, and then type done."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
-              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
-            },
-            {
-              "english": "Now check the result once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-              "hindi": "Now check the result once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-            },
-            {
-              "english": "After completing the notebook work neatly, type done.",
-              "hindi": "After completing the notebook work neatly, type done."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -585,40 +293,7 @@
         "english": "Question 25.80.2",
         "hindi": "Question 25.80.2"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about A village has 6500 men, 4500 women and 1500 children. Take one men symbol = 500 men, one women symbol = 500 women and one children symbol = 500 chi.",
-          "hindi": "This question is about A village has 6500 men, 4500 women and 1500 children. Take one men symbol = 500 men, one women symbol = 500 women and one children symbol = 500 chi."
-        },
-        {
-          "english": "From the question, we should notice A village has 6500 men, 4500 women and 1500 children. Take one men symbol = 500 men, one women symbol = 500 women and one children symbol = 500 children, and.",
-          "hindi": "From the question, we should notice A village has 6500 men, 4500 women and 1500 children. Take one men symbol = 500 men, one women symbol = 500 women and one children symbol = 500 children, and."
-        },
-        {
-          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
-          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
-        },
-        {
-          "english": "At the end, check once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-          "hindi": "At the end, check once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-        },
-        {
-          "english": "Your notebook work should stay neat and complete. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-          "hindi": "Your notebook work should stay neat and complete. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -638,57 +313,12 @@
             "ready",
             "finished"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
-            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
-          },
-          "supportExample": {
-            "english": "Use the given data, choose a neat pictograph key, draw the symbols carefully, label every category, and then type done.",
-            "hindi": "Use the given data, choose a neat pictograph key, draw the symbols carefully, label every category, and then type done."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "How to complete this notebook task",
-            "hindi": "How to complete this notebook task"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about A village has 6500 men, 4500 women and 1500 children. Take one men symbol = 500 men, one women symbol = 500 women and one children symbol = 500 chi.",
-              "hindi": "Here the question is asking about A village has 6500 men, 4500 women and 1500 children. Take one men symbol = 500 men, one women symbol = 500 women and one children symbol = 500 chi."
-            },
-            {
-              "english": "The information given to us is A village has 6500 men, 4500 women and 1500 children. Take one men symbol = 500 men, one women symbol = 500 women and one children symbol = 500 children, and.",
-              "hindi": "The information given to us is A village has 6500 men, 4500 women and 1500 children. Take one men symbol = 500 men, one women symbol = 500 women and one children symbol = 500 children, and."
-            },
-            {
-              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-            },
-            {
-              "english": "Use the given data, choose a neat pictograph key, draw the symbols carefully, label every category, and then type done.",
-              "hindi": "Use the given data, choose a neat pictograph key, draw the symbols carefully, label every category, and then type done."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
-              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
-            },
-            {
-              "english": "Now check the result once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-              "hindi": "Now check the result once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-            },
-            {
-              "english": "After completing the notebook work neatly, type done.",
-              "hindi": "After completing the notebook work neatly, type done."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -731,40 +361,7 @@
         "english": "Question 25.80.3",
         "hindi": "Question 25.80.3"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about Vehicles running in a day on the roads of Meerut city are: cycles 800, scooters 500, cars 300 and buses 200. Convey the information through a picto.",
-          "hindi": "This question is about Vehicles running in a day on the roads of Meerut city are: cycles 800, scooters 500, cars 300 and buses 200. Convey the information through a picto."
-        },
-        {
-          "english": "From the question, we should notice Vehicles running in a day on the roads of Meerut city are: cycles 800, scooters 500, cars 300 and buses 200. Convey the information through a pictograph. The.",
-          "hindi": "From the question, we should notice Vehicles running in a day on the roads of Meerut city are: cycles 800, scooters 500, cars 300 and buses 200. Convey the information through a pictograph. The."
-        },
-        {
-          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
-          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
-        },
-        {
-          "english": "At the end, check once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-          "hindi": "At the end, check once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-        },
-        {
-          "english": "Your notebook work should stay neat and complete. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-          "hindi": "Your notebook work should stay neat and complete. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -784,57 +381,12 @@
             "ready",
             "finished"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
-            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
-          },
-          "supportExample": {
-            "english": "Use the given data, choose a neat pictograph key, draw the symbols carefully, label every category, and then type done.",
-            "hindi": "Use the given data, choose a neat pictograph key, draw the symbols carefully, label every category, and then type done."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "How to complete this notebook task",
-            "hindi": "How to complete this notebook task"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about Vehicles running in a day on the roads of Meerut city are: cycles 800, scooters 500, cars 300 and buses 200. Convey the information through a picto.",
-              "hindi": "Here the question is asking about Vehicles running in a day on the roads of Meerut city are: cycles 800, scooters 500, cars 300 and buses 200. Convey the information through a picto."
-            },
-            {
-              "english": "The information given to us is Vehicles running in a day on the roads of Meerut city are: cycles 800, scooters 500, cars 300 and buses 200. Convey the information through a pictograph. The.",
-              "hindi": "The information given to us is Vehicles running in a day on the roads of Meerut city are: cycles 800, scooters 500, cars 300 and buses 200. Convey the information through a pictograph. The."
-            },
-            {
-              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-            },
-            {
-              "english": "Use the given data, choose a neat pictograph key, draw the symbols carefully, label every category, and then type done.",
-              "hindi": "Use the given data, choose a neat pictograph key, draw the symbols carefully, label every category, and then type done."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
-              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
-            },
-            {
-              "english": "Now check the result once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-              "hindi": "Now check the result once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-            },
-            {
-              "english": "After completing the notebook work neatly, type done.",
-              "hindi": "After completing the notebook work neatly, type done."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -877,40 +429,7 @@
         "english": "Question 25.80.4(a)",
         "hindi": "Question 25.80.4(a)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about How many students go to school on foot?",
-          "hindi": "This question is about How many students go to school on foot?"
-        },
-        {
-          "english": "From the question, we should notice A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr.",
-          "hindi": "From the question, we should notice A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the title, labels, and scale first, and then match each value with the correct category.",
-          "hindi": "To move toward the answer, use this method. Read the title, labels, and scale first, and then match each value with the correct category."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -927,61 +446,12 @@
             "400",
             "400 students"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about How many students go to school on foot?",
-              "hindi": "Here the question is asking about How many students go to school on foot?"
-            },
-            {
-              "english": "The information given to us is A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr.",
-              "hindi": "The information given to us is A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr."
-            },
-            {
-              "english": "So we follow this method. Read the title, labels, and scale first, and then match each value with the correct category.",
-              "hindi": "So we follow this method. Read the title, labels, and scale first, and then match each value with the correct category."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-              "hindi": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 400.",
-              "hindi": "When you apply the rule carefully, you reach 400."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 400.",
-              "hindi": "So the final answer is 400."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1024,40 +494,7 @@
         "english": "Question 25.80.4(b)",
         "hindi": "Question 25.80.4(b)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about How many students use school bus?",
-          "hindi": "This question is about How many students use school bus?"
-        },
-        {
-          "english": "From the question, we should notice A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr.",
-          "hindi": "From the question, we should notice A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the title, labels, and scale first, and then match each value with the correct category.",
-          "hindi": "To move toward the answer, use this method. Read the title, labels, and scale first, and then match each value with the correct category."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1074,61 +511,12 @@
             "100",
             "100 students"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about How many students use school bus?",
-              "hindi": "Here the question is asking about How many students use school bus?"
-            },
-            {
-              "english": "The information given to us is A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr.",
-              "hindi": "The information given to us is A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr."
-            },
-            {
-              "english": "So we follow this method. Read the title, labels, and scale first, and then match each value with the correct category.",
-              "hindi": "So we follow this method. Read the title, labels, and scale first, and then match each value with the correct category."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-              "hindi": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 100.",
-              "hindi": "When you apply the rule carefully, you reach 100."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 100.",
-              "hindi": "So the final answer is 100."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1171,40 +559,7 @@
         "english": "Question 25.80.4(c)",
         "hindi": "Question 25.80.4(c)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about How many students use bicycle to go to their school?",
-          "hindi": "This question is about How many students use bicycle to go to their school?"
-        },
-        {
-          "english": "From the question, we should notice A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr.",
-          "hindi": "From the question, we should notice A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the title, labels, and scale first, and then match each value with the correct category.",
-          "hindi": "To move toward the answer, use this method. Read the title, labels, and scale first, and then match each value with the correct category."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1221,61 +576,12 @@
             "500",
             "500 students"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about How many students use bicycle to go to their school?",
-              "hindi": "Here the question is asking about How many students use bicycle to go to their school?"
-            },
-            {
-              "english": "The information given to us is A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr.",
-              "hindi": "The information given to us is A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr."
-            },
-            {
-              "english": "So we follow this method. Read the title, labels, and scale first, and then match each value with the correct category.",
-              "hindi": "So we follow this method. Read the title, labels, and scale first, and then match each value with the correct category."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-              "hindi": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 500.",
-              "hindi": "When you apply the rule carefully, you reach 500."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 500.",
-              "hindi": "So the final answer is 500."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1318,40 +624,7 @@
         "english": "Question 25.80.4(d)",
         "hindi": "Question 25.80.4(d)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about How many students in all are there in the school?",
-          "hindi": "This question is about How many students in all are there in the school?"
-        },
-        {
-          "english": "From the question, we should notice A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr.",
-          "hindi": "From the question, we should notice A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the title, labels, and scale first, and then match each value with the correct category.",
-          "hindi": "To move toward the answer, use this method. Read the title, labels, and scale first, and then match each value with the correct category."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1368,61 +641,12 @@
             "1100",
             "1100 students"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about How many students in all are there in the school?",
-              "hindi": "Here the question is asking about How many students in all are there in the school?"
-            },
-            {
-              "english": "The information given to us is A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr.",
-              "hindi": "The information given to us is A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr."
-            },
-            {
-              "english": "So we follow this method. Read the title, labels, and scale first, and then match each value with the correct category.",
-              "hindi": "So we follow this method. Read the title, labels, and scale first, and then match each value with the correct category."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-              "hindi": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 1100.",
-              "hindi": "When you apply the rule carefully, you reach 1100."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 1100.",
-              "hindi": "So the final answer is 1100."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1465,40 +689,7 @@
         "english": "Question 25.80.4(e)",
         "hindi": "Question 25.80.4(e)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about What mode is adopted by maximum number of students?",
-          "hindi": "This question is about What mode is adopted by maximum number of students?"
-        },
-        {
-          "english": "From the question, we should notice A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr.",
-          "hindi": "From the question, we should notice A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr."
-        },
-        {
-          "english": "To move toward the answer, use this method. Compare all the given values and choose the one with the greatest value.",
-          "hindi": "To move toward the answer, use this method. Compare all the given values and choose the one with the greatest value."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Compare once more with every other value so no larger or smaller value is missed.",
-          "hindi": "At the end, check once more. Compare once more with every other value so no larger or smaller value is missed."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1515,61 +706,12 @@
             "on bicycle",
             "bicycle"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about What mode is adopted by maximum number of students?",
-              "hindi": "Here the question is asking about What mode is adopted by maximum number of students?"
-            },
-            {
-              "english": "The information given to us is A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr.",
-              "hindi": "The information given to us is A pictograph shows students travelling to school: on foot = 4 pictures, on bicycle = 5 pictures, by car = 1 picture and by bus = 1 picture. Each picture repr."
-            },
-            {
-              "english": "So we follow this method. Compare all the given values and choose the one with the greatest value.",
-              "hindi": "So we follow this method. Compare all the given values and choose the one with the greatest value."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-              "hindi": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-            },
-            {
-              "english": "After comparing the required values, the answer is on bicycle.",
-              "hindi": "After comparing the required values, the answer is on bicycle."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Compare once more with every other value so no larger or smaller value is missed.",
-              "hindi": "Now check the result once more. Compare once more with every other value so no larger or smaller value is missed."
-            },
-            {
-              "english": "So the final answer is on bicycle.",
-              "hindi": "So the final answer is on bicycle."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1612,40 +754,7 @@
         "english": "Question 25.80.5",
         "hindi": "Question 25.80.5"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about In a colony of Delhi, persons knowing different languages are Hindi 500, Tamil 450, Bengali 250 and Malayalam 150. Draw a pictograph which conveys.",
-          "hindi": "This question is about In a colony of Delhi, persons knowing different languages are Hindi 500, Tamil 450, Bengali 250 and Malayalam 150. Draw a pictograph which conveys."
-        },
-        {
-          "english": "From the question, we should notice In a colony of Delhi, persons knowing different languages are Hindi 500, Tamil 450, Bengali 250 and Malayalam 150. Draw a pictograph which conveys the inform.",
-          "hindi": "From the question, we should notice In a colony of Delhi, persons knowing different languages are Hindi 500, Tamil 450, Bengali 250 and Malayalam 150. Draw a pictograph which conveys the inform."
-        },
-        {
-          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
-          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
-        },
-        {
-          "english": "At the end, check once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-          "hindi": "At the end, check once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-        },
-        {
-          "english": "Your notebook work should stay neat and complete. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-          "hindi": "Your notebook work should stay neat and complete. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1665,57 +774,12 @@
             "ready",
             "finished"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
-            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
-          },
-          "supportExample": {
-            "english": "Use the given data, choose a neat pictograph key, draw the symbols carefully, label every category, and then type done.",
-            "hindi": "Use the given data, choose a neat pictograph key, draw the symbols carefully, label every category, and then type done."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "How to complete this notebook task",
-            "hindi": "How to complete this notebook task"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about In a colony of Delhi, persons knowing different languages are Hindi 500, Tamil 450, Bengali 250 and Malayalam 150. Draw a pictograph which conveys.",
-              "hindi": "Here the question is asking about In a colony of Delhi, persons knowing different languages are Hindi 500, Tamil 450, Bengali 250 and Malayalam 150. Draw a pictograph which conveys."
-            },
-            {
-              "english": "The information given to us is In a colony of Delhi, persons knowing different languages are Hindi 500, Tamil 450, Bengali 250 and Malayalam 150. Draw a pictograph which conveys the inform.",
-              "hindi": "The information given to us is In a colony of Delhi, persons knowing different languages are Hindi 500, Tamil 450, Bengali 250 and Malayalam 150. Draw a pictograph which conveys the inform."
-            },
-            {
-              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-            },
-            {
-              "english": "Use the given data, choose a neat pictograph key, draw the symbols carefully, label every category, and then type done.",
-              "hindi": "Use the given data, choose a neat pictograph key, draw the symbols carefully, label every category, and then type done."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
-              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
-            },
-            {
-              "english": "Now check the result once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-              "hindi": "Now check the result once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-            },
-            {
-              "english": "After completing the notebook work neatly, type done.",
-              "hindi": "After completing the notebook work neatly, type done."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1758,40 +822,7 @@
         "english": "Question 25.81.1",
         "hindi": "Question 25.81.1"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about The number of absentees during the first five days of a week is: day I = 30, day II = 45, day III = 20, day IV = 50 and day V = 15. Draw a bar grap.",
-          "hindi": "This question is about The number of absentees during the first five days of a week is: day I = 30, day II = 45, day III = 20, day IV = 50 and day V = 15. Draw a bar grap."
-        },
-        {
-          "english": "From the question, we should notice The number of absentees during the first five days of a week is: day I = 30, day II = 45, day III = 20, day IV = 50 and day V = 15. Draw a bar graph to conve.",
-          "hindi": "From the question, we should notice The number of absentees during the first five days of a week is: day I = 30, day II = 45, day III = 20, day IV = 50 and day V = 15. Draw a bar graph to conve."
-        },
-        {
-          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
-          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
-        },
-        {
-          "english": "At the end, check once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-          "hindi": "At the end, check once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-        },
-        {
-          "english": "Your notebook work should stay neat and complete. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-          "hindi": "Your notebook work should stay neat and complete. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1811,57 +842,12 @@
             "ready",
             "finished"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
-            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
-          },
-          "supportExample": {
-            "english": "Use the given data, choose a suitable scale, label both axes, draw equal-width bars neatly, and then type done.",
-            "hindi": "Use the given data, choose a suitable scale, label both axes, draw equal-width bars neatly, and then type done."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "How to complete this notebook task",
-            "hindi": "How to complete this notebook task"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about The number of absentees during the first five days of a week is: day I = 30, day II = 45, day III = 20, day IV = 50 and day V = 15. Draw a bar grap.",
-              "hindi": "Here the question is asking about The number of absentees during the first five days of a week is: day I = 30, day II = 45, day III = 20, day IV = 50 and day V = 15. Draw a bar grap."
-            },
-            {
-              "english": "The information given to us is The number of absentees during the first five days of a week is: day I = 30, day II = 45, day III = 20, day IV = 50 and day V = 15. Draw a bar graph to conve.",
-              "hindi": "The information given to us is The number of absentees during the first five days of a week is: day I = 30, day II = 45, day III = 20, day IV = 50 and day V = 15. Draw a bar graph to conve."
-            },
-            {
-              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-            },
-            {
-              "english": "Use the given data, choose a suitable scale, label both axes, draw equal-width bars neatly, and then type done.",
-              "hindi": "Use the given data, choose a suitable scale, label both axes, draw equal-width bars neatly, and then type done."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
-              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
-            },
-            {
-              "english": "Now check the result once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-              "hindi": "Now check the result once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-            },
-            {
-              "english": "After completing the notebook work neatly, type done.",
-              "hindi": "After completing the notebook work neatly, type done."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1904,40 +890,7 @@
         "english": "Question 25.81.2",
         "hindi": "Question 25.81.2"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about Amit's marks in five consecutive tests are: I = 60, II = 80, III = 40, IV = 70, V = 90. Draw a bar graph showing the marks obtained by Amit in thes.",
-          "hindi": "This question is about Amit's marks in five consecutive tests are: I = 60, II = 80, III = 40, IV = 70, V = 90. Draw a bar graph showing the marks obtained by Amit in thes."
-        },
-        {
-          "english": "From the question, we should notice Amit's marks in five consecutive tests are: I = 60, II = 80, III = 40, IV = 70, V = 90. Draw a bar graph showing the marks obtained by Amit in these tests. T.",
-          "hindi": "From the question, we should notice Amit's marks in five consecutive tests are: I = 60, II = 80, III = 40, IV = 70, V = 90. Draw a bar graph showing the marks obtained by Amit in these tests. T."
-        },
-        {
-          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
-          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
-        },
-        {
-          "english": "At the end, check once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-          "hindi": "At the end, check once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-        },
-        {
-          "english": "Your notebook work should stay neat and complete. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-          "hindi": "Your notebook work should stay neat and complete. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1957,57 +910,12 @@
             "ready",
             "finished"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
-            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
-          },
-          "supportExample": {
-            "english": "Use the given data, choose a suitable scale, label both axes, draw equal-width bars neatly, and then type done.",
-            "hindi": "Use the given data, choose a suitable scale, label both axes, draw equal-width bars neatly, and then type done."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "How to complete this notebook task",
-            "hindi": "How to complete this notebook task"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about Amit's marks in five consecutive tests are: I = 60, II = 80, III = 40, IV = 70, V = 90. Draw a bar graph showing the marks obtained by Amit in thes.",
-              "hindi": "Here the question is asking about Amit's marks in five consecutive tests are: I = 60, II = 80, III = 40, IV = 70, V = 90. Draw a bar graph showing the marks obtained by Amit in thes."
-            },
-            {
-              "english": "The information given to us is Amit's marks in five consecutive tests are: I = 60, II = 80, III = 40, IV = 70, V = 90. Draw a bar graph showing the marks obtained by Amit in these tests. T.",
-              "hindi": "The information given to us is Amit's marks in five consecutive tests are: I = 60, II = 80, III = 40, IV = 70, V = 90. Draw a bar graph showing the marks obtained by Amit in these tests. T."
-            },
-            {
-              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-            },
-            {
-              "english": "Use the given data, choose a suitable scale, label both axes, draw equal-width bars neatly, and then type done.",
-              "hindi": "Use the given data, choose a suitable scale, label both axes, draw equal-width bars neatly, and then type done."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
-              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
-            },
-            {
-              "english": "Now check the result once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-              "hindi": "Now check the result once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-            },
-            {
-              "english": "After completing the notebook work neatly, type done.",
-              "hindi": "After completing the notebook work neatly, type done."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2050,40 +958,7 @@
         "english": "Question 25.81.3",
         "hindi": "Question 25.81.3"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about There are 300 students in a school. Tamil = 125, Telugu = 75, Malayalam = 50, Hindi = 25 and Bengali = 25. Draw a bar graph to represent the data.",
-          "hindi": "This question is about There are 300 students in a school. Tamil = 125, Telugu = 75, Malayalam = 50, Hindi = 25 and Bengali = 25. Draw a bar graph to represent the data."
-        },
-        {
-          "english": "From the question, we should notice There are 300 students in a school. Tamil = 125, Telugu = 75, Malayalam = 50, Hindi = 25 and Bengali = 25. Draw a bar graph to represent the data. Then type.",
-          "hindi": "From the question, we should notice There are 300 students in a school. Tamil = 125, Telugu = 75, Malayalam = 50, Hindi = 25 and Bengali = 25. Draw a bar graph to represent the data. Then type."
-        },
-        {
-          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
-          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
-        },
-        {
-          "english": "At the end, check once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-          "hindi": "At the end, check once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-        },
-        {
-          "english": "Your notebook work should stay neat and complete. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-          "hindi": "Your notebook work should stay neat and complete. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2103,57 +978,12 @@
             "ready",
             "finished"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
-            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
-          },
-          "supportExample": {
-            "english": "Use the given data, choose a suitable scale, label both axes, draw equal-width bars neatly, and then type done.",
-            "hindi": "Use the given data, choose a suitable scale, label both axes, draw equal-width bars neatly, and then type done."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "How to complete this notebook task",
-            "hindi": "How to complete this notebook task"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about There are 300 students in a school. Tamil = 125, Telugu = 75, Malayalam = 50, Hindi = 25 and Bengali = 25. Draw a bar graph to represent the data.",
-              "hindi": "Here the question is asking about There are 300 students in a school. Tamil = 125, Telugu = 75, Malayalam = 50, Hindi = 25 and Bengali = 25. Draw a bar graph to represent the data."
-            },
-            {
-              "english": "The information given to us is There are 300 students in a school. Tamil = 125, Telugu = 75, Malayalam = 50, Hindi = 25 and Bengali = 25. Draw a bar graph to represent the data. Then type.",
-              "hindi": "The information given to us is There are 300 students in a school. Tamil = 125, Telugu = 75, Malayalam = 50, Hindi = 25 and Bengali = 25. Draw a bar graph to represent the data. Then type."
-            },
-            {
-              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-            },
-            {
-              "english": "Use the given data, choose a suitable scale, label both axes, draw equal-width bars neatly, and then type done.",
-              "hindi": "Use the given data, choose a suitable scale, label both axes, draw equal-width bars neatly, and then type done."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
-              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
-            },
-            {
-              "english": "Now check the result once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-              "hindi": "Now check the result once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-            },
-            {
-              "english": "After completing the notebook work neatly, type done.",
-              "hindi": "After completing the notebook work neatly, type done."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2196,40 +1026,7 @@
         "english": "Question 25.81.4",
         "hindi": "Question 25.81.4"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about The number of different books in a library is: English 450, Mathematics 600, General Knowledge 150, Science 250 and Tamil 200. Draw a bar graph to.",
-          "hindi": "This question is about The number of different books in a library is: English 450, Mathematics 600, General Knowledge 150, Science 250 and Tamil 200. Draw a bar graph to."
-        },
-        {
-          "english": "From the question, we should notice The number of different books in a library is: English 450, Mathematics 600, General Knowledge 150, Science 250 and Tamil 200. Draw a bar graph to represent.",
-          "hindi": "From the question, we should notice The number of different books in a library is: English 450, Mathematics 600, General Knowledge 150, Science 250 and Tamil 200. Draw a bar graph to represent."
-        },
-        {
-          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
-          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
-        },
-        {
-          "english": "At the end, check once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-          "hindi": "At the end, check once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-        },
-        {
-          "english": "Your notebook work should stay neat and complete. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-          "hindi": "Your notebook work should stay neat and complete. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2249,57 +1046,12 @@
             "ready",
             "finished"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
-            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
-          },
-          "supportExample": {
-            "english": "Use the given data, choose a suitable scale, label both axes, draw equal-width bars neatly, and then type done.",
-            "hindi": "Use the given data, choose a suitable scale, label both axes, draw equal-width bars neatly, and then type done."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "How to complete this notebook task",
-            "hindi": "How to complete this notebook task"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about The number of different books in a library is: English 450, Mathematics 600, General Knowledge 150, Science 250 and Tamil 200. Draw a bar graph to.",
-              "hindi": "Here the question is asking about The number of different books in a library is: English 450, Mathematics 600, General Knowledge 150, Science 250 and Tamil 200. Draw a bar graph to."
-            },
-            {
-              "english": "The information given to us is The number of different books in a library is: English 450, Mathematics 600, General Knowledge 150, Science 250 and Tamil 200. Draw a bar graph to represent.",
-              "hindi": "The information given to us is The number of different books in a library is: English 450, Mathematics 600, General Knowledge 150, Science 250 and Tamil 200. Draw a bar graph to represent."
-            },
-            {
-              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-            },
-            {
-              "english": "Use the given data, choose a suitable scale, label both axes, draw equal-width bars neatly, and then type done.",
-              "hindi": "Use the given data, choose a suitable scale, label both axes, draw equal-width bars neatly, and then type done."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
-              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
-            },
-            {
-              "english": "Now check the result once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform.",
-              "hindi": "Now check the result once more. Choose a neat scale, label the categories clearly, and keep all bars or symbols uniform."
-            },
-            {
-              "english": "After completing the notebook work neatly, type done.",
-              "hindi": "After completing the notebook work neatly, type done."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2342,40 +1094,7 @@
         "english": "Question 25.81.5(a)",
         "hindi": "Question 25.81.5(a)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about In which month was the rainfall maximum?",
-          "hindi": "This question is about In which month was the rainfall maximum?"
-        },
-        {
-          "english": "From the question, we should notice Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4.",
-          "hindi": "From the question, we should notice Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4."
-        },
-        {
-          "english": "To move toward the answer, use this method. Compare all the given values and choose the one with the greatest value.",
-          "hindi": "To move toward the answer, use this method. Compare all the given values and choose the one with the greatest value."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Compare once more with every other value so no larger or smaller value is missed.",
-          "hindi": "At the end, check once more. Compare once more with every other value so no larger or smaller value is missed."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2391,61 +1110,12 @@
           "acceptedAnswers": [
             "July"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about In which month was the rainfall maximum?",
-              "hindi": "Here the question is asking about In which month was the rainfall maximum?"
-            },
-            {
-              "english": "The information given to us is Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4.",
-              "hindi": "The information given to us is Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4."
-            },
-            {
-              "english": "So we follow this method. Compare all the given values and choose the one with the greatest value.",
-              "hindi": "So we follow this method. Compare all the given values and choose the one with the greatest value."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-              "hindi": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-            },
-            {
-              "english": "After comparing the required values, the answer is July.",
-              "hindi": "After comparing the required values, the answer is July."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Compare once more with every other value so no larger or smaller value is missed.",
-              "hindi": "Now check the result once more. Compare once more with every other value so no larger or smaller value is missed."
-            },
-            {
-              "english": "So the final answer is July.",
-              "hindi": "So the final answer is July."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2488,40 +1158,7 @@
         "english": "Question 25.81.5(b)",
         "hindi": "Question 25.81.5(b)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about How much was the rainfall in September?",
-          "hindi": "This question is about How much was the rainfall in September?"
-        },
-        {
-          "english": "From the question, we should notice Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4.",
-          "hindi": "From the question, we should notice Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the title, labels, and scale first, then count symbols or compare bar heights carefully.",
-          "hindi": "To move toward the answer, use this method. Read the title, labels, and scale first, then count symbols or compare bar heights carefully."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2538,61 +1175,12 @@
             "3 cm",
             "3"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about How much was the rainfall in September?",
-              "hindi": "Here the question is asking about How much was the rainfall in September?"
-            },
-            {
-              "english": "The information given to us is Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4.",
-              "hindi": "The information given to us is Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4."
-            },
-            {
-              "english": "So we follow this method. Read the title, labels, and scale first, then count symbols or compare bar heights carefully.",
-              "hindi": "So we follow this method. Read the title, labels, and scale first, then count symbols or compare bar heights carefully."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-              "hindi": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 3 cm.",
-              "hindi": "When you apply the rule carefully, you reach 3 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 3 cm.",
-              "hindi": "So the final answer is 3 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2635,40 +1223,7 @@
         "english": "Question 25.81.5(c)",
         "hindi": "Question 25.81.5(c)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about Which month was the driest?",
-          "hindi": "This question is about Which month was the driest?"
-        },
-        {
-          "english": "From the question, we should notice Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4.",
-          "hindi": "From the question, we should notice Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4."
-        },
-        {
-          "english": "To move toward the answer, use this method. Compare all the given values and choose the one with the smallest value.",
-          "hindi": "To move toward the answer, use this method. Compare all the given values and choose the one with the smallest value."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Compare once more with every other value so no larger or smaller value is missed.",
-          "hindi": "At the end, check once more. Compare once more with every other value so no larger or smaller value is missed."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2684,61 +1239,12 @@
           "acceptedAnswers": [
             "October"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about Which month was the driest?",
-              "hindi": "Here the question is asking about Which month was the driest?"
-            },
-            {
-              "english": "The information given to us is Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4.",
-              "hindi": "The information given to us is Rainfall in cm for six months is: June 5, July 12, August 6, September 3, October 2 and November 4."
-            },
-            {
-              "english": "So we follow this method. Compare all the given values and choose the one with the smallest value.",
-              "hindi": "So we follow this method. Compare all the given values and choose the one with the smallest value."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-              "hindi": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-            },
-            {
-              "english": "After comparing the required values, the answer is October.",
-              "hindi": "After comparing the required values, the answer is October."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Compare once more with every other value so no larger or smaller value is missed.",
-              "hindi": "Now check the result once more. Compare once more with every other value so no larger or smaller value is missed."
-            },
-            {
-              "english": "So the final answer is October.",
-              "hindi": "So the final answer is October."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2781,40 +1287,7 @@
         "english": "Question 25.81.6(a)",
         "hindi": "Question 25.81.6(a)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about What information does the bar graph give?",
-          "hindi": "This question is about What information does the bar graph give?"
-        },
-        {
-          "english": "From the question, we should notice A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 famili.",
-          "hindi": "From the question, we should notice A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 famili."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the title, labels, and scale first, and then match each value with the correct category.",
-          "hindi": "To move toward the answer, use this method. Read the title, labels, and scale first, and then match each value with the correct category."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2830,61 +1303,12 @@
           "acceptedAnswers": [
             "Number of families having a particular number of members"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about What information does the bar graph give?",
-              "hindi": "Here the question is asking about What information does the bar graph give?"
-            },
-            {
-              "english": "The information given to us is A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 famili.",
-              "hindi": "The information given to us is A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 famili."
-            },
-            {
-              "english": "So we follow this method. Read the title, labels, and scale first, and then match each value with the correct category.",
-              "hindi": "So we follow this method. Read the title, labels, and scale first, and then match each value with the correct category."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-              "hindi": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach Number of families having a particular number of members.",
-              "hindi": "When you apply the rule carefully, you reach Number of families having a particular number of members."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is Number of families having a particular number of members.",
-              "hindi": "So the final answer is Number of families having a particular number of members."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2927,40 +1351,7 @@
         "english": "Question 25.81.6(b)",
         "hindi": "Question 25.81.6(b)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about How many families have 3 members?",
-          "hindi": "This question is about How many families have 3 members?"
-        },
-        {
-          "english": "From the question, we should notice A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 famili.",
-          "hindi": "From the question, we should notice A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 famili."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the title, labels, and scale first, and then match each value with the correct category.",
-          "hindi": "To move toward the answer, use this method. Read the title, labels, and scale first, and then match each value with the correct category."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2976,61 +1367,12 @@
           "acceptedAnswers": [
             "40"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about How many families have 3 members?",
-              "hindi": "Here the question is asking about How many families have 3 members?"
-            },
-            {
-              "english": "The information given to us is A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 famili.",
-              "hindi": "The information given to us is A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 famili."
-            },
-            {
-              "english": "So we follow this method. Read the title, labels, and scale first, and then match each value with the correct category.",
-              "hindi": "So we follow this method. Read the title, labels, and scale first, and then match each value with the correct category."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-              "hindi": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 40.",
-              "hindi": "When you apply the rule carefully, you reach 40."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 40.",
-              "hindi": "So the final answer is 40."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -3073,40 +1415,7 @@
         "english": "Question 25.81.6(c)",
         "hindi": "Question 25.81.6(c)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-          "hindi": "Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-        },
-        {
-          "english": "This question is about How many families have 6 members?",
-          "hindi": "This question is about How many families have 6 members?"
-        },
-        {
-          "english": "From the question, we should notice A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 famili.",
-          "hindi": "From the question, we should notice A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 famili."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the title, labels, and scale first, and then match each value with the correct category.",
-          "hindi": "To move toward the answer, use this method. Read the title, labels, and scale first, and then match each value with the correct category."
-        },
-        {
-          "english": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-          "hindi": "A similar model helps here. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -3122,61 +1431,12 @@
           "acceptedAnswers": [
             "20"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category.",
-              "hindi": "We begin with the main idea used in this exercise. Pictographs and bar graphs are read correctly only after checking the key or scale and matching it with each category."
-            },
-            {
-              "english": "Here the question is asking about How many families have 6 members?",
-              "hindi": "Here the question is asking about How many families have 6 members?"
-            },
-            {
-              "english": "The information given to us is A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 famili.",
-              "hindi": "The information given to us is A bar graph gives the number of families by number of members: 1 member = 5 families, 2 members = 10 families, 3 members = 40 families, 4 members = 45 famili."
-            },
-            {
-              "english": "So we follow this method. Read the title, labels, and scale first, and then match each value with the correct category.",
-              "hindi": "So we follow this method. Read the title, labels, and scale first, and then match each value with the correct category."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students.",
-              "hindi": "A worked pattern for the same kind of question is this. If one symbol stands for 5 students, then 4 symbols stand for 20 students."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 20.",
-              "hindi": "When you apply the rule carefully, you reach 20."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 20.",
-              "hindi": "So the final answer is 20."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [

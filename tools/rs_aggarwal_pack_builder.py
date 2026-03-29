@@ -10,6 +10,7 @@ from subject_pack_io import save_book
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_PATH = ROOT / "app" / "src" / "main" / "assets" / "subject_packs" / "class5_rs_aggarwal_math.json"
+STRIP_GENERATED_CONTENT = True
 
 
 BOOK_ID = "class5_rs_aggarwal_maths"
@@ -975,7 +976,7 @@ def mcq_question(spec: McqTopicSpec) -> dict:
 def render_topic(spec: TopicSpec) -> dict:
     chapter_en, chapter_hi = chapter_title(spec.chapter_number)
     topic_key = (spec.chapter_number, spec.title_en)
-    clear_generated_content = topic_key == (23, "Area of a Rectangle and a Square")
+    clear_generated_content = STRIP_GENERATED_CONTENT
     question = text_question(spec) if isinstance(spec, TextTopicSpec) else mcq_question(spec)
     if clear_generated_content:
         question = {

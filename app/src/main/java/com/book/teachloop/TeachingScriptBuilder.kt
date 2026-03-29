@@ -58,6 +58,10 @@ object TeachingScriptBuilder {
         result: QuizResult?,
         language: AppLanguage,
     ): List<String> {
+        if (question.reteachParagraphs.isEmpty()) {
+            return emptyList()
+        }
+
         val script = mutableListOf<String>()
 
         appendLines(script, text("Question").display(language) + ": " + question.prompt.display(language))

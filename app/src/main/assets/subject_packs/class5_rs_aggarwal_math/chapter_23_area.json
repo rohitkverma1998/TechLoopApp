@@ -29,36 +29,7 @@
         "english": "Introduction and Area",
         "hindi": "परिचय और क्षेत्रफल"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area is the amount of surface covered inside a flat shape. If someone asks 'Area means?', the simple answer is that area means the space inside a shape. We use area when we talk about the top of a table, the floor of a room, a page in a notebook, or a garden bed. If one shape covers more surface than another, it has more area.",
-          "hindi": "क्षेत्रफल किसी समतल आकृति के अंदर घिरी हुई जगह को कहते हैं। अगर कोई पूछे 'Area means?', तो आसान उत्तर है कि area का मतलब आकृति के अंदर की जगह है। हम क्षेत्रफल का उपयोग मेज की ऊपरी सतह, कमरे के फर्श, कॉपी के पन्ने और बगीचे की क्यारी जैसी चीजों को समझने में करते हैं। जो आकृति ज़्यादा सतह घेरती है, उसका क्षेत्रफल ज़्यादा होता है।"
-        },
-        {
-          "english": "We measure area in square units because we imagine a surface being covered with small equal squares. So we write square centimetres as cm², square metres as m², and square units when no unit is given. For a rectangle, the formula is Area = length × breadth. For a square, the formula is Area = side × side, because all sides of a square are equal.",
-          "hindi": "क्षेत्रफल को वर्ग इकाइयों में मापा जाता है, क्योंकि हम सोचते हैं कि किसी सतह को बराबर-बराबर छोटे वर्गों से ढका जा रहा है। इसलिए we write square centimetres as cm², square metres as m², और unit न होने पर square units लिखते हैं। आयत के लिए सूत्र है Area = length × breadth, यानी क्षेत्रफल = लंबाई × चौड़ाई। वर्ग के लिए सूत्र है Area = side × side, यानी क्षेत्रफल = भुजा × भुजा, क्योंकि वर्ग की सभी भुजाएँ बराबर होती हैं।"
-        },
-        {
-          "english": "Imagine a small rectangle made of 3 rows of squares, and each row has 4 squares. First count the rows. There are 3 rows. Then count the squares in one row. There are 4 squares. Now multiply 3 × 4 = 12. So the area is 12 square units. This shows that area is the total number of equal squares that fit inside a shape.",
-          "hindi": "मान लो एक छोटा आयत 3 कतारों के वर्गों से बना है और हर कतार में 4 वर्ग हैं। पहले कतारों को गिनो। कुल 3 कतारें हैं। फिर एक कतार में वर्गों की संख्या गिनो। वहाँ 4 वर्ग हैं। अब 3 × 4 = 12 करो। इसलिए क्षेत्रफल 12 square units होगा। इससे समझ आता है कि क्षेत्रफल किसी आकृति के अंदर आने वाले बराबर वर्गों की कुल संख्या है।"
-        },
-        {
-          "english": "Now take a book cover that is 8 cm long and 5 cm wide. First write the rectangle formula: Area = length × breadth. Next put the numbers in the formula: Area = 8 × 5. Then multiply 8 × 5 = 40. Now write the correct unit, so the area is 40 cm². This means the front of the book cover covers 40 square centimetres of surface.",
-          "hindi": "अब एक किताब के कवर को लो जिसकी लंबाई 8 cm और चौड़ाई 5 cm है। पहले आयत का सूत्र लिखो: Area = length × breadth। फिर दिए गए मान रखो: Area = 8 × 5। अब 8 × 5 = 40 करो। फिर सही इकाई लिखो, इसलिए क्षेत्रफल 40 cm² होगा। इसका मतलब है कि किताब का सामने वाला भाग 40 square centimetres सतह घेरता है।"
-        },
-        {
-          "english": "Now think about an L-shaped play mat that can be split into two rectangles. One rectangle is 6 m long and 3 m wide, and the other rectangle is 2 m long and 2 m wide. First find the area of the bigger rectangle: 6 × 3 = 18 m². Then find the area of the smaller rectangle: 2 × 2 = 4 m². Now add the two areas: 18 + 4 = 22 m². So the total area of the L-shaped mat is 22 m², because the whole shape is made from two smaller parts.",
-          "hindi": "अब एक L आकार की चटाई के बारे में सोचो, जिसे दो आयतों में बाँटा जा सकता है। एक आयत 6 m लंबा और 3 m चौड़ा है, और दूसरा आयत 2 m लंबा और 2 m चौड़ा है। पहले बड़े आयत का क्षेत्रफल निकालो: 6 × 3 = 18 m²। फिर छोटे आयत का क्षेत्रफल निकालो: 2 × 2 = 4 m²। अब दोनों क्षेत्रफलों को जोड़ो: 18 + 4 = 22 m²। इसलिए पूरी L आकार की चटाई का क्षेत्रफल 22 m² है, क्योंकि पूरी आकृति दो छोटे भागों से मिलकर बनी है।"
-        },
-        {
-          "english": "A common mistake is to add length and breadth instead of multiplying them. For example, 8 + 5 = 13 is not the area of a rectangle with length 8 cm and breadth 5 cm. Another mistake is forgetting the square unit and writing only cm or m. Area must be written as cm², m², or square units. Some children also count only the boundary of a shape, but area is the inside part, not the border.",
-          "hindi": "एक बहुत आम गलती यह है कि बच्चे लंबाई और चौड़ाई को जोड़ देते हैं, जबकि क्षेत्रफल के लिए गुणा करना होता है। जैसे 8 + 5 = 13, लेकिन 8 cm और 5 cm वाले आयत का क्षेत्रफल 13 नहीं होगा। दूसरी गलती यह है कि बच्चे केवल cm या m लिख देते हैं, जबकि क्षेत्रफल के साथ cm², m² या square units लिखना चाहिए। कुछ बच्चे आकृति की सिर्फ किनारी देखते हैं, लेकिन क्षेत्रफल हमेशा अंदर की जगह का होता है, बाहर की रेखा का नहीं।"
-        },
-        {
-          "english": "The main idea is simple: area tells us how much space is inside a flat shape. We can find it by counting equal squares or by using a formula. Rectangles use length × breadth, and squares use side × side. When you look at a floor, a wall, a notebook, or a garden, you are looking at places where area is useful in real life.",
-          "hindi": "मुख्य बात बहुत सरल है। क्षेत्रफल बताता है कि किसी समतल आकृति के अंदर कितनी जगह है। इसे हम बराबर वर्ग गिनकर या सूत्र लगाकर निकाल सकते हैं। आयत के लिए लंबाई × चौड़ाई और वर्ग के लिए भुजा × भुजा का नियम याद रखो। फर्श, दीवार, कॉपी, किताब और बगीचा जैसी कई रोज़मर्रा की चीजों में क्षेत्रफल काम आता है।"
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -89,53 +60,12 @@
           ],
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
-          "hint": {
-            "english": "Think of the inside surface, not the boundary.",
-            "hindi": "सीमा नहीं, भीतर की सतह के बारे में सोचिए।"
-          },
-          "wrongReason": {
-            "english": "The main idea in introduction and area was not used correctly.",
-            "hindi": "परिचय और क्षेत्रफल के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
-          },
-          "supportExample": {
-            "english": "Area measures the inside region.",
-            "hindi": "क्षेत्रफल भीतरी भाग को मापता है।"
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": {
-            "english": "Understanding Introduction and Area",
-            "hindi": "परिचय और क्षेत्रफल को समझें"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "This question is solved by using the same idea from the topic. Area tells how much surface a figure covers.",
-              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। क्षेत्रफल बताता है कि कोई आकृति कितनी सतह घेरती है।"
-            },
-            {
-              "english": "The question asks us to work with this situation: Area means:",
-              "hindi": "प्रश्न हमें यह स्थिति देता है: क्षेत्रफल का अर्थ है:"
-            },
-            {
-              "english": "To move from the question to the answer, use this idea directly: Think of the inside surface, not the boundary.",
-              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: सीमा नहीं, भीतर की सतह के बारे में सोचिए।"
-            },
-            {
-              "english": "A similar example makes the method clear. A square of side 1 cm covers 1 square centimetre.",
-              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। 1 सेमी भुजा वाला वर्ग 1 वर्ग सेमी क्षेत्रफल घेरता है।"
-            },
-            {
-              "english": "Using the same method here, we get: Area measures the inside region.",
-              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: क्षेत्रफल भीतरी भाग को मापता है।"
-            },
-            {
-              "english": "After solving, choose the option that matches the idea and the final value.",
-              "hindi": "हल करने के बाद वही विकल्प चुनिए जो सही विचार और अंतिम मान से मेल खाता हो।"
-            },
-            {
-              "english": "So the correct answer is Surface covered by a figure.",
-              "hindi": "इसलिए सही उत्तर आकृति द्वारा घिरी हुई सतह है।"
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -236,40 +166,7 @@
         "english": "Question 23.78.1",
         "hindi": "Question 23.78.1"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about Find the area of the rectangles having dimensions: Length = 18 cm, Breadth = 12 cm.",
-          "hindi": "This question is about Find the area of the rectangles having dimensions: Length = 18 cm, Breadth = 12 cm."
-        },
-        {
-          "english": "From the question, we should notice Length = 18 cm, Breadth = 12 cm.",
-          "hindi": "From the question, we should notice Length = 18 cm, Breadth = 12 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -287,69 +184,12 @@
             "216",
             "216 sq. cm"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about Find the area of the rectangles having dimensions: Length = 18 cm, Breadth = 12 cm.",
-              "hindi": "Here the question is asking about Find the area of the rectangles having dimensions: Length = 18 cm, Breadth = 12 cm."
-            },
-            {
-              "english": "The information given to us is Length = 18 cm, Breadth = 12 cm.",
-              "hindi": "The information given to us is Length = 18 cm, Breadth = 12 cm."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Length = 18 cm, Breadth = 12 cm.",
-              "hindi": "Given: Length = 18 cm, Breadth = 12 cm."
-            },
-            {
-              "english": "Formula: Area of a rectangle = Length × Breadth.",
-              "hindi": "Formula: Area of a rectangle = Length × Breadth."
-            },
-            {
-              "english": "Area = 18 cm × 12 cm.",
-              "hindi": "Area = 18 cm × 12 cm."
-            },
-            {
-              "english": "Area = 216 sq cm.",
-              "hindi": "Area = 216 sq cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 216 sq cm.",
-              "hindi": "So the final answer is 216 sq cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -392,40 +232,7 @@
         "english": "Question 23.78.2",
         "hindi": "Question 23.78.2"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about Find the area of the rectangles having dimensions: Length = 14 m, Breadth = 9 m.",
-          "hindi": "This question is about Find the area of the rectangles having dimensions: Length = 14 m, Breadth = 9 m."
-        },
-        {
-          "english": "From the question, we should notice Length = 14 m, Breadth = 9 m.",
-          "hindi": "From the question, we should notice Length = 14 m, Breadth = 9 m."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -443,69 +250,12 @@
             "126",
             "126 sq.m"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about Find the area of the rectangles having dimensions: Length = 14 m, Breadth = 9 m.",
-              "hindi": "Here the question is asking about Find the area of the rectangles having dimensions: Length = 14 m, Breadth = 9 m."
-            },
-            {
-              "english": "The information given to us is Length = 14 m, Breadth = 9 m.",
-              "hindi": "The information given to us is Length = 14 m, Breadth = 9 m."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Length = 14 m, Breadth = 9 m.",
-              "hindi": "Given: Length = 14 m, Breadth = 9 m."
-            },
-            {
-              "english": "Formula: Area of a rectangle = Length × Breadth.",
-              "hindi": "Formula: Area of a rectangle = Length × Breadth."
-            },
-            {
-              "english": "Area = 14 m × 9 m.",
-              "hindi": "Area = 14 m × 9 m."
-            },
-            {
-              "english": "Area = 126 sq m.",
-              "hindi": "Area = 126 sq m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 126 sq m.",
-              "hindi": "So the final answer is 126 sq m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -548,40 +298,7 @@
         "english": "Question 23.78.3",
         "hindi": "Question 23.78.3"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about Find the area of the rectangles having dimensions: Length = 56 cm, Breadth = 8.5 cm.",
-          "hindi": "This question is about Find the area of the rectangles having dimensions: Length = 56 cm, Breadth = 8.5 cm."
-        },
-        {
-          "english": "From the question, we should notice Length = 56 cm, Breadth = 8.5 cm.",
-          "hindi": "From the question, we should notice Length = 56 cm, Breadth = 8.5 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -599,69 +316,12 @@
             "476",
             "476 sq. cm"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about Find the area of the rectangles having dimensions: Length = 56 cm, Breadth = 8.5 cm.",
-              "hindi": "Here the question is asking about Find the area of the rectangles having dimensions: Length = 56 cm, Breadth = 8.5 cm."
-            },
-            {
-              "english": "The information given to us is Length = 56 cm, Breadth = 8.5 cm.",
-              "hindi": "The information given to us is Length = 56 cm, Breadth = 8.5 cm."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Length = 56 cm, Breadth = 8.5 cm.",
-              "hindi": "Given: Length = 56 cm, Breadth = 8.5 cm."
-            },
-            {
-              "english": "Formula: Area of a rectangle = Length × Breadth.",
-              "hindi": "Formula: Area of a rectangle = Length × Breadth."
-            },
-            {
-              "english": "Area = 56 cm × 8.5 cm.",
-              "hindi": "Area = 56 cm × 8.5 cm."
-            },
-            {
-              "english": "Area = 476 sq cm.",
-              "hindi": "Area = 476 sq cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 476 sq cm.",
-              "hindi": "So the final answer is 476 sq cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -704,40 +364,7 @@
         "english": "Question 23.78.4",
         "hindi": "Question 23.78.4"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about Find the area of the rectangles having dimensions: Length = 27.5 cm, Breadth = 16 cm.",
-          "hindi": "This question is about Find the area of the rectangles having dimensions: Length = 27.5 cm, Breadth = 16 cm."
-        },
-        {
-          "english": "From the question, we should notice Length = 27.5 cm, Breadth = 16 cm.",
-          "hindi": "From the question, we should notice Length = 27.5 cm, Breadth = 16 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -755,69 +382,12 @@
             "440",
             "440 sq. cm"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about Find the area of the rectangles having dimensions: Length = 27.5 cm, Breadth = 16 cm.",
-              "hindi": "Here the question is asking about Find the area of the rectangles having dimensions: Length = 27.5 cm, Breadth = 16 cm."
-            },
-            {
-              "english": "The information given to us is Length = 27.5 cm, Breadth = 16 cm.",
-              "hindi": "The information given to us is Length = 27.5 cm, Breadth = 16 cm."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Length = 27.5 cm, Breadth = 16 cm.",
-              "hindi": "Given: Length = 27.5 cm, Breadth = 16 cm."
-            },
-            {
-              "english": "Formula: Area of a rectangle = Length × Breadth.",
-              "hindi": "Formula: Area of a rectangle = Length × Breadth."
-            },
-            {
-              "english": "Area = 27.5 cm × 16 cm.",
-              "hindi": "Area = 27.5 cm × 16 cm."
-            },
-            {
-              "english": "Area = 440 sq cm.",
-              "hindi": "Area = 440 sq cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 440 sq cm.",
-              "hindi": "So the final answer is 440 sq cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -860,40 +430,7 @@
         "english": "Question 23.78.5",
         "hindi": "Question 23.78.5"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about Find the area of the rectangles having dimensions: Length =1.8 m, Breadth = 80 cm.",
-          "hindi": "This question is about Find the area of the rectangles having dimensions: Length =1.8 m, Breadth = 80 cm."
-        },
-        {
-          "english": "From the question, we should notice Length =1.8 m, Breadth = 80 cm.",
-          "hindi": "From the question, we should notice Length =1.8 m, Breadth = 80 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -911,69 +448,12 @@
             "1.44",
             "1.44 sq. m"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about Find the area of the rectangles having dimensions: Length =1.8 m, Breadth = 80 cm.",
-              "hindi": "Here the question is asking about Find the area of the rectangles having dimensions: Length =1.8 m, Breadth = 80 cm."
-            },
-            {
-              "english": "The information given to us is Length =1.8 m, Breadth = 80 cm.",
-              "hindi": "The information given to us is Length =1.8 m, Breadth = 80 cm."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Length = 1.8 m, Breadth = 80 cm.",
-              "hindi": "Given: Length = 1.8 m, Breadth = 80 cm."
-            },
-            {
-              "english": "Formula: Area of a rectangle = Length × Breadth.",
-              "hindi": "Formula: Area of a rectangle = Length × Breadth."
-            },
-            {
-              "english": "Area = 1.8 m × 0.8 m.",
-              "hindi": "Area = 1.8 m × 0.8 m."
-            },
-            {
-              "english": "Area = 1.44 sq m.",
-              "hindi": "Area = 1.44 sq m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 1.44 sq m.",
-              "hindi": "So the final answer is 1.44 sq m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1016,40 +496,7 @@
         "english": "Question 23.78.6",
         "hindi": "Question 23.78.6"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about Find the area of the rectangles having dimensions: Length = 2 m 50 cm, Breadth = 60 cm.",
-          "hindi": "This question is about Find the area of the rectangles having dimensions: Length = 2 m 50 cm, Breadth = 60 cm."
-        },
-        {
-          "english": "From the question, we should notice Length = 2 m 50 cm, Breadth = 60 cm.",
-          "hindi": "From the question, we should notice Length = 2 m 50 cm, Breadth = 60 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1069,69 +516,12 @@
             "15000 sq. cm",
             "15000"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about Find the area of the rectangles having dimensions: Length = 2 m 50 cm, Breadth = 60 cm.",
-              "hindi": "Here the question is asking about Find the area of the rectangles having dimensions: Length = 2 m 50 cm, Breadth = 60 cm."
-            },
-            {
-              "english": "The information given to us is Length = 2 m 50 cm, Breadth = 60 cm.",
-              "hindi": "The information given to us is Length = 2 m 50 cm, Breadth = 60 cm."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Length = 2 m 50 cm, Breadth = 60 cm.",
-              "hindi": "Given: Length = 2 m 50 cm, Breadth = 60 cm."
-            },
-            {
-              "english": "Formula: Area of a rectangle = Length × Breadth.",
-              "hindi": "Formula: Area of a rectangle = Length × Breadth."
-            },
-            {
-              "english": "Area = 2.5 m × 0.6 m.",
-              "hindi": "Area = 2.5 m × 0.6 m."
-            },
-            {
-              "english": "Area = 1.5 sq m.",
-              "hindi": "Area = 1.5 sq m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 1.5 sq m.",
-              "hindi": "So the final answer is 1.5 sq m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1174,40 +564,7 @@
         "english": "Question 23.78.7",
         "hindi": "Question 23.78.7"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about Find the area of the square each of whose sides is: 17 cm.",
-          "hindi": "This question is about Find the area of the square each of whose sides is: 17 cm."
-        },
-        {
-          "english": "From the question, we should notice 17 cm.",
-          "hindi": "From the question, we should notice 17 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1225,69 +582,12 @@
             "289",
             "289 sq. cm"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about Find the area of the square each of whose sides is: 17 cm.",
-              "hindi": "Here the question is asking about Find the area of the square each of whose sides is: 17 cm."
-            },
-            {
-              "english": "The information given to us is 17 cm.",
-              "hindi": "The information given to us is 17 cm."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Side = 17 cm.",
-              "hindi": "Given: Side = 17 cm."
-            },
-            {
-              "english": "Formula: Area of a square = Side × Side.",
-              "hindi": "Formula: Area of a square = Side × Side."
-            },
-            {
-              "english": "Area = 17 cm × 17 cm.",
-              "hindi": "Area = 17 cm × 17 cm."
-            },
-            {
-              "english": "Area = 289 sq cm.",
-              "hindi": "Area = 289 sq cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 289 sq cm.",
-              "hindi": "So the final answer is 289 sq cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1330,40 +630,7 @@
         "english": "Question 23.78.8",
         "hindi": "Question 23.78.8"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about Find the area of the square each of whose sides is: 23 m.",
-          "hindi": "This question is about Find the area of the square each of whose sides is: 23 m."
-        },
-        {
-          "english": "From the question, we should notice 23 m.",
-          "hindi": "From the question, we should notice 23 m."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1381,69 +648,12 @@
             "529",
             "529 sq. m"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about Find the area of the square each of whose sides is: 23 m.",
-              "hindi": "Here the question is asking about Find the area of the square each of whose sides is: 23 m."
-            },
-            {
-              "english": "The information given to us is 23 m.",
-              "hindi": "The information given to us is 23 m."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Side = 23 m.",
-              "hindi": "Given: Side = 23 m."
-            },
-            {
-              "english": "Formula: Area of a square = Side × Side.",
-              "hindi": "Formula: Area of a square = Side × Side."
-            },
-            {
-              "english": "Area = 23 m × 23 m.",
-              "hindi": "Area = 23 m × 23 m."
-            },
-            {
-              "english": "Area = 529 sq m.",
-              "hindi": "Area = 529 sq m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 529 sq m.",
-              "hindi": "So the final answer is 529 sq m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1486,40 +696,7 @@
         "english": "Question 23.78.9",
         "hindi": "Question 23.78.9"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about Find the area of the square each of whose sides is: 13.5 cm.",
-          "hindi": "This question is about Find the area of the square each of whose sides is: 13.5 cm."
-        },
-        {
-          "english": "From the question, we should notice 13.5 cm.",
-          "hindi": "From the question, we should notice 13.5 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1537,69 +714,12 @@
             "182.25",
             "182.25 sq. cm"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about Find the area of the square each of whose sides is: 13.5 cm.",
-              "hindi": "Here the question is asking about Find the area of the square each of whose sides is: 13.5 cm."
-            },
-            {
-              "english": "The information given to us is 13.5 cm.",
-              "hindi": "The information given to us is 13.5 cm."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Side = 13.5 cm.",
-              "hindi": "Given: Side = 13.5 cm."
-            },
-            {
-              "english": "Formula: Area of a square = Side × Side.",
-              "hindi": "Formula: Area of a square = Side × Side."
-            },
-            {
-              "english": "Area = 13.5 cm × 13.5 cm.",
-              "hindi": "Area = 13.5 cm × 13.5 cm."
-            },
-            {
-              "english": "Area = 182.25 sq cm.",
-              "hindi": "Area = 182.25 sq cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 182.25 sq cm.",
-              "hindi": "So the final answer is 182.25 sq cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1642,40 +762,7 @@
         "english": "Question 23.78.10",
         "hindi": "Question 23.78.10"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about Find the area of the square each of whose sides is: 3 m 40 cm.",
-          "hindi": "This question is about Find the area of the square each of whose sides is: 3 m 40 cm."
-        },
-        {
-          "english": "From the question, we should notice 3 m 40 cm.",
-          "hindi": "From the question, we should notice 3 m 40 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1693,69 +780,12 @@
             "11.56",
             "11.56 sq. m"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about Find the area of the square each of whose sides is: 3 m 40 cm.",
-              "hindi": "Here the question is asking about Find the area of the square each of whose sides is: 3 m 40 cm."
-            },
-            {
-              "english": "The information given to us is 3 m 40 cm.",
-              "hindi": "The information given to us is 3 m 40 cm."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Side = 3 m 40 cm.",
-              "hindi": "Given: Side = 3 m 40 cm."
-            },
-            {
-              "english": "Formula: Area of a square = Side × Side.",
-              "hindi": "Formula: Area of a square = Side × Side."
-            },
-            {
-              "english": "Area = 3.4 m × 3.4 m.",
-              "hindi": "Area = 3.4 m × 3.4 m."
-            },
-            {
-              "english": "Area = 11.56 sq m.",
-              "hindi": "Area = 11.56 sq m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 11.56 sq m.",
-              "hindi": "So the final answer is 11.56 sq m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1798,40 +828,7 @@
         "english": "Question 23.78.11(a)",
         "hindi": "Question 23.78.11(a)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about area = 104 sq cm and breadth = 8 cm.",
-          "hindi": "This question is about area = 104 sq cm and breadth = 8 cm."
-        },
-        {
-          "english": "From the question, we should notice area = 104 sq cm and breadth = 8 cm.",
-          "hindi": "From the question, we should notice area = 104 sq cm and breadth = 8 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1848,73 +845,12 @@
             "13 cm",
             "13"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about area = 104 sq cm and breadth = 8 cm.",
-              "hindi": "Here the question is asking about area = 104 sq cm and breadth = 8 cm."
-            },
-            {
-              "english": "The information given to us is area = 104 sq cm and breadth = 8 cm.",
-              "hindi": "The information given to us is area = 104 sq cm and breadth = 8 cm."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Area = 104 sq cm, Breadth = 8 cm.",
-              "hindi": "Given: Area = 104 sq cm, Breadth = 8 cm."
-            },
-            {
-              "english": "Formula: Area = Length × Breadth.",
-              "hindi": "Formula: Area = Length × Breadth."
-            },
-            {
-              "english": "So: Length = Area ÷ Breadth.",
-              "hindi": "So: Length = Area ÷ Breadth."
-            },
-            {
-              "english": "Length = 104 ÷ 8.",
-              "hindi": "Length = 104 ÷ 8."
-            },
-            {
-              "english": "Length = 13 cm.",
-              "hindi": "Length = 13 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 13 cm.",
-              "hindi": "So the final answer is 13 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1957,40 +893,7 @@
         "english": "Question 23.78.11(b)",
         "hindi": "Question 23.78.11(b)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about area = 378 sq m and breadth = 14 m.",
-          "hindi": "This question is about area = 378 sq m and breadth = 14 m."
-        },
-        {
-          "english": "From the question, we should notice area = 378 sq m and breadth = 14 m.",
-          "hindi": "From the question, we should notice area = 378 sq m and breadth = 14 m."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2007,73 +910,12 @@
             "27 m",
             "27"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about area = 378 sq m and breadth = 14 m.",
-              "hindi": "Here the question is asking about area = 378 sq m and breadth = 14 m."
-            },
-            {
-              "english": "The information given to us is area = 378 sq m and breadth = 14 m.",
-              "hindi": "The information given to us is area = 378 sq m and breadth = 14 m."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Area = 378 sq m, Breadth = 14 m.",
-              "hindi": "Given: Area = 378 sq m, Breadth = 14 m."
-            },
-            {
-              "english": "Formula: Area = Length × Breadth.",
-              "hindi": "Formula: Area = Length × Breadth."
-            },
-            {
-              "english": "So: Length = Area ÷ Breadth.",
-              "hindi": "So: Length = Area ÷ Breadth."
-            },
-            {
-              "english": "Length = 378 ÷ 14.",
-              "hindi": "Length = 378 ÷ 14."
-            },
-            {
-              "english": "Length = 27 m.",
-              "hindi": "Length = 27 m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 27 m.",
-              "hindi": "So the final answer is 27 m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2116,40 +958,7 @@
         "english": "Question 23.78.11(c)",
         "hindi": "Question 23.78.11(c)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about area = 900 sq cm and breadth = 25 cm.",
-          "hindi": "This question is about area = 900 sq cm and breadth = 25 cm."
-        },
-        {
-          "english": "From the question, we should notice area = 900 sq cm and breadth = 25 cm.",
-          "hindi": "From the question, we should notice area = 900 sq cm and breadth = 25 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2166,73 +975,12 @@
             "36 cm",
             "36"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about area = 900 sq cm and breadth = 25 cm.",
-              "hindi": "Here the question is asking about area = 900 sq cm and breadth = 25 cm."
-            },
-            {
-              "english": "The information given to us is area = 900 sq cm and breadth = 25 cm.",
-              "hindi": "The information given to us is area = 900 sq cm and breadth = 25 cm."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Area = 900 sq cm, Breadth = 25 cm.",
-              "hindi": "Given: Area = 900 sq cm, Breadth = 25 cm."
-            },
-            {
-              "english": "Formula: Area = Length × Breadth.",
-              "hindi": "Formula: Area = Length × Breadth."
-            },
-            {
-              "english": "So: Length = Area ÷ Breadth.",
-              "hindi": "So: Length = Area ÷ Breadth."
-            },
-            {
-              "english": "Length = 900 ÷ 25.",
-              "hindi": "Length = 900 ÷ 25."
-            },
-            {
-              "english": "Length = 36 cm.",
-              "hindi": "Length = 36 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 36 cm.",
-              "hindi": "So the final answer is 36 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2275,40 +1023,7 @@
         "english": "Question 23.78.11(d)",
         "hindi": "Question 23.78.11(d)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about area = 102 sq m and breadth = 8.5 m.",
-          "hindi": "This question is about area = 102 sq m and breadth = 8.5 m."
-        },
-        {
-          "english": "From the question, we should notice area = 102 sq m and breadth = 8.5 m.",
-          "hindi": "From the question, we should notice area = 102 sq m and breadth = 8.5 m."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2325,73 +1040,12 @@
             "12 m",
             "12"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about area = 102 sq m and breadth = 8.5 m.",
-              "hindi": "Here the question is asking about area = 102 sq m and breadth = 8.5 m."
-            },
-            {
-              "english": "The information given to us is area = 102 sq m and breadth = 8.5 m.",
-              "hindi": "The information given to us is area = 102 sq m and breadth = 8.5 m."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Area = 102 sq m, Breadth = 8.5 m.",
-              "hindi": "Given: Area = 102 sq m, Breadth = 8.5 m."
-            },
-            {
-              "english": "Formula: Area = Length × Breadth.",
-              "hindi": "Formula: Area = Length × Breadth."
-            },
-            {
-              "english": "So: Length = Area ÷ Breadth.",
-              "hindi": "So: Length = Area ÷ Breadth."
-            },
-            {
-              "english": "Length = 102 ÷ 8.5.",
-              "hindi": "Length = 102 ÷ 8.5."
-            },
-            {
-              "english": "Length = 12 m.",
-              "hindi": "Length = 12 m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 12 m.",
-              "hindi": "So the final answer is 12 m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2434,40 +1088,7 @@
         "english": "Question 23.78.12(a)",
         "hindi": "Question 23.78.12(a)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about area = 208 sq cm and length = 16 cm.",
-          "hindi": "This question is about area = 208 sq cm and length = 16 cm."
-        },
-        {
-          "english": "From the question, we should notice area = 208 sq cm and length = 16 cm.",
-          "hindi": "From the question, we should notice area = 208 sq cm and length = 16 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2484,73 +1105,12 @@
             "13 cm",
             "13"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about area = 208 sq cm and length = 16 cm.",
-              "hindi": "Here the question is asking about area = 208 sq cm and length = 16 cm."
-            },
-            {
-              "english": "The information given to us is area = 208 sq cm and length = 16 cm.",
-              "hindi": "The information given to us is area = 208 sq cm and length = 16 cm."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Area = 208 sq cm, Length = 16 cm.",
-              "hindi": "Given: Area = 208 sq cm, Length = 16 cm."
-            },
-            {
-              "english": "Formula: Area = Length × Breadth.",
-              "hindi": "Formula: Area = Length × Breadth."
-            },
-            {
-              "english": "So: Breadth = Area ÷ Length.",
-              "hindi": "So: Breadth = Area ÷ Length."
-            },
-            {
-              "english": "Breadth = 208 ÷ 16.",
-              "hindi": "Breadth = 208 ÷ 16."
-            },
-            {
-              "english": "Breadth = 13 cm.",
-              "hindi": "Breadth = 13 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 13 cm.",
-              "hindi": "So the final answer is 13 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2593,40 +1153,7 @@
         "english": "Question 23.78.12(b)",
         "hindi": "Question 23.78.12(b)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about area = 391 sq cm and length = 23 cm.",
-          "hindi": "This question is about area = 391 sq cm and length = 23 cm."
-        },
-        {
-          "english": "From the question, we should notice area = 391 sq cm and length = 23 cm.",
-          "hindi": "From the question, we should notice area = 391 sq cm and length = 23 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2643,73 +1170,12 @@
             "17 cm",
             "17"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about area = 391 sq cm and length = 23 cm.",
-              "hindi": "Here the question is asking about area = 391 sq cm and length = 23 cm."
-            },
-            {
-              "english": "The information given to us is area = 391 sq cm and length = 23 cm.",
-              "hindi": "The information given to us is area = 391 sq cm and length = 23 cm."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Area = 391 sq cm, Length = 23 cm.",
-              "hindi": "Given: Area = 391 sq cm, Length = 23 cm."
-            },
-            {
-              "english": "Formula: Area = Length × Breadth.",
-              "hindi": "Formula: Area = Length × Breadth."
-            },
-            {
-              "english": "So: Breadth = Area ÷ Length.",
-              "hindi": "So: Breadth = Area ÷ Length."
-            },
-            {
-              "english": "Breadth = 391 ÷ 23.",
-              "hindi": "Breadth = 391 ÷ 23."
-            },
-            {
-              "english": "Breadth = 17 cm.",
-              "hindi": "Breadth = 17 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 17 cm.",
-              "hindi": "So the final answer is 17 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2752,40 +1218,7 @@
         "english": "Question 23.78.12(c)",
         "hindi": "Question 23.78.12(c)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about area = 117 sq m and length = 13 m.",
-          "hindi": "This question is about area = 117 sq m and length = 13 m."
-        },
-        {
-          "english": "From the question, we should notice area = 117 sq m and length = 13 m.",
-          "hindi": "From the question, we should notice area = 117 sq m and length = 13 m."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2802,73 +1235,12 @@
             "9 m",
             "9"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about area = 117 sq m and length = 13 m.",
-              "hindi": "Here the question is asking about area = 117 sq m and length = 13 m."
-            },
-            {
-              "english": "The information given to us is area = 117 sq m and length = 13 m.",
-              "hindi": "The information given to us is area = 117 sq m and length = 13 m."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Area = 117 sq m, Length = 13 m.",
-              "hindi": "Given: Area = 117 sq m, Length = 13 m."
-            },
-            {
-              "english": "Formula: Area = Length × Breadth.",
-              "hindi": "Formula: Area = Length × Breadth."
-            },
-            {
-              "english": "So: Breadth = Area ÷ Length.",
-              "hindi": "So: Breadth = Area ÷ Length."
-            },
-            {
-              "english": "Breadth = 117 ÷ 13.",
-              "hindi": "Breadth = 117 ÷ 13."
-            },
-            {
-              "english": "Breadth = 9 m.",
-              "hindi": "Breadth = 9 m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 9 m.",
-              "hindi": "So the final answer is 9 m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2911,40 +1283,7 @@
         "english": "Question 23.78.12(d)",
         "hindi": "Question 23.78.12(d)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about area = 52 sq m and length = 8 m.",
-          "hindi": "This question is about area = 52 sq m and length = 8 m."
-        },
-        {
-          "english": "From the question, we should notice area = 52 sq m and length = 8 m.",
-          "hindi": "From the question, we should notice area = 52 sq m and length = 8 m."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2961,73 +1300,12 @@
             "6.5 m",
             "6.5"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about area = 52 sq m and length = 8 m.",
-              "hindi": "Here the question is asking about area = 52 sq m and length = 8 m."
-            },
-            {
-              "english": "The information given to us is area = 52 sq m and length = 8 m.",
-              "hindi": "The information given to us is area = 52 sq m and length = 8 m."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "Given: Area = 52 sq m, Length = 8 m.",
-              "hindi": "Given: Area = 52 sq m, Length = 8 m."
-            },
-            {
-              "english": "Formula: Area = Length × Breadth.",
-              "hindi": "Formula: Area = Length × Breadth."
-            },
-            {
-              "english": "So: Breadth = Area ÷ Length.",
-              "hindi": "So: Breadth = Area ÷ Length."
-            },
-            {
-              "english": "Breadth = 52 ÷ 8.",
-              "hindi": "Breadth = 52 ÷ 8."
-            },
-            {
-              "english": "Breadth = 6.5 m.",
-              "hindi": "Breadth = 6.5 m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 6.5 m.",
-              "hindi": "So the final answer is 6.5 m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -3070,40 +1348,7 @@
         "english": "Question 23.78.13",
         "hindi": "Question 23.78.13"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about How many pieces of stone slabs, each 24 cm long and 15 cm broad will be required to lay a path 18 m long and 12 m wide?",
-          "hindi": "This question is about How many pieces of stone slabs, each 24 cm long and 15 cm broad will be required to lay a path 18 m long and 12 m wide?"
-        },
-        {
-          "english": "From the question, we should notice How many pieces of stone slabs, each 24 cm long and 15 cm broad will be required to lay a path 18 m long and 12 m wide?",
-          "hindi": "From the question, we should notice How many pieces of stone slabs, each 24 cm long and 15 cm broad will be required to lay a path 18 m long and 12 m wide?"
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -3119,61 +1364,12 @@
           "acceptedAnswers": [
             "6000"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about How many pieces of stone slabs, each 24 cm long and 15 cm broad will be required to lay a path 18 m long and 12 m wide?",
-              "hindi": "Here the question is asking about How many pieces of stone slabs, each 24 cm long and 15 cm broad will be required to lay a path 18 m long and 12 m wide?"
-            },
-            {
-              "english": "The information given to us is How many pieces of stone slabs, each 24 cm long and 15 cm broad will be required to lay a path 18 m long and 12 m wide?",
-              "hindi": "The information given to us is How many pieces of stone slabs, each 24 cm long and 15 cm broad will be required to lay a path 18 m long and 12 m wide?"
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. For a rectangle, area = length x breadth.",
-              "hindi": "A worked pattern for the same kind of question is this. For a rectangle, area = length x breadth."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 6000.",
-              "hindi": "When you apply the rule carefully, you reach 6000."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 6000.",
-              "hindi": "So the final answer is 6000."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -3216,40 +1412,7 @@
         "english": "Question 23.78.14",
         "hindi": "Question 23.78.14"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about How many blocks, each 25 cm long and 12 cm wide, will be required to lay a path 12.5 m long and 4.8 m wide?",
-          "hindi": "This question is about How many blocks, each 25 cm long and 12 cm wide, will be required to lay a path 12.5 m long and 4.8 m wide?"
-        },
-        {
-          "english": "From the question, we should notice How many blocks, each 25 cm long and 12 cm wide, will be required to lay a path 12.5 m long and 4.8 m wide?",
-          "hindi": "From the question, we should notice How many blocks, each 25 cm long and 12 cm wide, will be required to lay a path 12.5 m long and 4.8 m wide?"
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -3265,61 +1428,12 @@
           "acceptedAnswers": [
             "2000"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about How many blocks, each 25 cm long and 12 cm wide, will be required to lay a path 12.5 m long and 4.8 m wide?",
-              "hindi": "Here the question is asking about How many blocks, each 25 cm long and 12 cm wide, will be required to lay a path 12.5 m long and 4.8 m wide?"
-            },
-            {
-              "english": "The information given to us is How many blocks, each 25 cm long and 12 cm wide, will be required to lay a path 12.5 m long and 4.8 m wide?",
-              "hindi": "The information given to us is How many blocks, each 25 cm long and 12 cm wide, will be required to lay a path 12.5 m long and 4.8 m wide?"
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. For a rectangle, area = length x breadth.",
-              "hindi": "A worked pattern for the same kind of question is this. For a rectangle, area = length x breadth."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 2000.",
-              "hindi": "When you apply the rule carefully, you reach 2000."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 2000.",
-              "hindi": "So the final answer is 2000."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -3362,40 +1476,7 @@
         "english": "Question 23.78.15",
         "hindi": "Question 23.78.15"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about Which carpet is bigger: one measuring 16 m in length and 12.5 m in breadth or another measuring 15 m in length and 13.8 m in breadth?",
-          "hindi": "This question is about Which carpet is bigger: one measuring 16 m in length and 12.5 m in breadth or another measuring 15 m in length and 13.8 m in breadth?"
-        },
-        {
-          "english": "From the question, we should notice one measuring 16 m in length and 12.5 m in breadth or another measuring 15 m in length and 13.8 m in breadth?",
-          "hindi": "From the question, we should notice one measuring 16 m in length and 12.5 m in breadth or another measuring 15 m in length and 13.8 m in breadth?"
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -3412,61 +1493,12 @@
             "15 m by 13.8 m",
             "15 by 13.8"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about Which carpet is bigger: one measuring 16 m in length and 12.5 m in breadth or another measuring 15 m in length and 13.8 m in breadth?",
-              "hindi": "Here the question is asking about Which carpet is bigger: one measuring 16 m in length and 12.5 m in breadth or another measuring 15 m in length and 13.8 m in breadth?"
-            },
-            {
-              "english": "The information given to us is one measuring 16 m in length and 12.5 m in breadth or another measuring 15 m in length and 13.8 m in breadth?",
-              "hindi": "The information given to us is one measuring 16 m in length and 12.5 m in breadth or another measuring 15 m in length and 13.8 m in breadth?"
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. For a rectangle, area = length x breadth.",
-              "hindi": "A worked pattern for the same kind of question is this. For a rectangle, area = length x breadth."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 15 m by 13.8 m.",
-              "hindi": "When you apply the rule carefully, you reach 15 m by 13.8 m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 15 m by 13.8 m.",
-              "hindi": "So the final answer is 15 m by 13.8 m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -3509,40 +1541,7 @@
         "english": "Question 23.78.16",
         "hindi": "Question 23.78.16"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about The floor of a hall is completely covered by 26 carpets, each measuring 4 m by 2.5 m. What is the area of the floor of the hall?",
-          "hindi": "This question is about The floor of a hall is completely covered by 26 carpets, each measuring 4 m by 2.5 m. What is the area of the floor of the hall?"
-        },
-        {
-          "english": "From the question, we should notice The floor of a hall is completely covered by 26 carpets, each measuring 4 m by 2.5 m. What is the area of the floor of the hall?",
-          "hindi": "From the question, we should notice The floor of a hall is completely covered by 26 carpets, each measuring 4 m by 2.5 m. What is the area of the floor of the hall?"
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -3559,61 +1558,12 @@
             "260 sq. m",
             "260"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about The floor of a hall is completely covered by 26 carpets, each measuring 4 m by 2.5 m. What is the area of the floor of the hall?",
-              "hindi": "Here the question is asking about The floor of a hall is completely covered by 26 carpets, each measuring 4 m by 2.5 m. What is the area of the floor of the hall?"
-            },
-            {
-              "english": "The information given to us is The floor of a hall is completely covered by 26 carpets, each measuring 4 m by 2.5 m. What is the area of the floor of the hall?",
-              "hindi": "The information given to us is The floor of a hall is completely covered by 26 carpets, each measuring 4 m by 2.5 m. What is the area of the floor of the hall?"
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. For a rectangle, area = length x breadth.",
-              "hindi": "A worked pattern for the same kind of question is this. For a rectangle, area = length x breadth."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 260 sq. m.",
-              "hindi": "When you apply the rule carefully, you reach 260 sq. m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 260 sq. m.",
-              "hindi": "So the final answer is 260 sq. m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -3656,40 +1606,7 @@
         "english": "Question 23.78.17",
         "hindi": "Question 23.78.17"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-          "hindi": "Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-        },
-        {
-          "english": "This question is about Find the area of each of the following figures. (a) (b) (c) (d) 5 cm 1 cm 6 cm 3 cm 1 cm 2 cm 6 cm 1 cm 6 cm 3 cm 3 cm 1 cm 1 cm 3 cm 5 cm 2 cm 5 c.",
-          "hindi": "This question is about Find the area of each of the following figures. (a) (b) (c) (d) 5 cm 1 cm 6 cm 3 cm 1 cm 2 cm 6 cm 1 cm 6 cm 3 cm 3 cm 1 cm 1 cm 3 cm 5 cm 2 cm 5 c."
-        },
-        {
-          "english": "From the question, we should notice Find the area of each of the following figures. (a) (b) (c) (d) 5 cm 1 cm 6 cm 3 cm 1 cm 2 cm 6 cm 1 cm 6 cm 3 cm 3 cm 1 cm 1 cm 3 cm 5 cm 2 cm 5 cm 4 cm 4 c.",
-          "hindi": "From the question, we should notice Find the area of each of the following figures. (a) (b) (c) (d) 5 cm 1 cm 6 cm 3 cm 1 cm 2 cm 6 cm 1 cm 6 cm 3 cm 3 cm 1 cm 1 cm 3 cm 5 cm 2 cm 5 cm 4 cm 4 c."
-        },
-        {
-          "english": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-          "hindi": "To move toward the answer, use this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, area = length x breadth.",
-          "hindi": "A similar model helps here. For a rectangle, area = length x breadth."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -3706,61 +1623,12 @@
             "(a) 13 sq. cm (b) 24 sq. cm (c) 68 sq. cm (d) 19 sq. cm",
             "(a) 13 (b) 24 (c) 68 (d) 19"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula.",
-              "hindi": "We begin with the main idea used in this exercise. Area measures the surface covered by a shape, so it is found in square units by counting or using the right formula."
-            },
-            {
-              "english": "Here the question is asking about Find the area of each of the following figures. (a) (b) (c) (d) 5 cm 1 cm 6 cm 3 cm 1 cm 2 cm 6 cm 1 cm 6 cm 3 cm 3 cm 1 cm 1 cm 3 cm 5 cm 2 cm 5 c.",
-              "hindi": "Here the question is asking about Find the area of each of the following figures. (a) (b) (c) (d) 5 cm 1 cm 6 cm 3 cm 1 cm 2 cm 6 cm 1 cm 6 cm 3 cm 3 cm 1 cm 1 cm 3 cm 5 cm 2 cm 5 c."
-            },
-            {
-              "english": "The information given to us is Find the area of each of the following figures. (a) (b) (c) (d) 5 cm 1 cm 6 cm 3 cm 1 cm 2 cm 6 cm 1 cm 6 cm 3 cm 3 cm 1 cm 1 cm 3 cm 5 cm 2 cm 5 cm 4 cm 4 c.",
-              "hindi": "The information given to us is Find the area of each of the following figures. (a) (b) (c) (d) 5 cm 1 cm 6 cm 3 cm 1 cm 2 cm 6 cm 1 cm 6 cm 3 cm 3 cm 1 cm 1 cm 3 cm 5 cm 2 cm 5 cm 4 cm 4 c."
-            },
-            {
-              "english": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully.",
-              "hindi": "So we follow this method. Identify the figure first, note the required dimensions, and apply the matching area formula carefully."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. For a rectangle, area = length x breadth.",
-              "hindi": "A worked pattern for the same kind of question is this. For a rectangle, area = length x breadth."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach (a) 13 sq. cm (b) 24 sq. cm (c) 68 sq. cm (d) 19 sq. cm.",
-              "hindi": "When you apply the rule carefully, you reach (a) 13 sq. cm (b) 24 sq. cm (c) 68 sq. cm (d) 19 sq. cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is (a) 13 sq. cm (b) 24 sq. cm (c) 68 sq. cm (d) 19 sq. cm.",
-              "hindi": "So the final answer is (a) 13 sq. cm (b) 24 sq. cm (c) 68 sq. cm (d) 19 sq. cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [

@@ -29,40 +29,7 @@
         "english": "Rectilinear Figures and Perimeter of a Rectilinear Figure",
         "hindi": "समरेखीय आकृतियाँ और उनका परिमाप"
       },
-      "explanationParagraphs": [
-        {
-          "english": "A rectilinear figure is a closed shape made only of straight sides. A rectangle, a square, and shapes like an L-shape or a T-shape are rectilinear figures because they have straight edges. A circle is not a rectilinear figure because it has a curved edge.",
-          "hindi": "रेक्टिलीनियर आकृति वह बंद आकृति होती है जो केवल सीधी भुजाओं से बनी होती है। आयत, वर्ग, एल आकार और टी आकार जैसी आकृतियाँ रेक्टिलीनियर होती हैं क्योंकि उनकी किनारियाँ सीधी होती हैं। वृत्त रेक्टिलीनियर आकृति नहीं है क्योंकि उसकी किनारी मुड़ी हुई होती है।"
-        },
-        {
-          "english": "Perimeter means the total length around the outside of a closed shape. If you move your finger once around the boundary of a shape, the distance you cover is its perimeter. We measure perimeter in units such as cm, m, or km.",
-          "hindi": "परिमाप का मतलब किसी बंद आकृति के बाहर की पूरी घेराई की कुल लंबाई होता है। अगर आप अपनी उंगली को आकृति की बाहरी सीमा पर एक बार घुमाएँ, तो जितनी दूरी तय होगी वही उसका परिमाप है। परिमाप को हम सेमी, मीटर या किलोमीटर जैसी इकाइयों में मापते हैं।"
-        },
-        {
-          "english": "The main rule for a rectilinear figure is simple: Perimeter = sum of all the outside sides. We add only the outer boundary, not any inside line. For a rectangle, a short formula is P = 2 x (length + breadth). Before adding, make sure all lengths are in the same unit.",
-          "hindi": "रेक्टिलीनियर आकृति के लिए मुख्य नियम बहुत सरल है: परिमाप = बाहर की सभी भुजाओं की कुल लंबाई। हमें केवल बाहरी सीमा जोड़नी है, अंदर की किसी रेखा को नहीं। आयत के लिए छोटा सूत्र है P = 2 x (लंबाई + चौड़ाई)। जोड़ने से पहले यह देख लें कि सारी लंबाइयाँ एक ही इकाई में हों।"
-        },
-        {
-          "english": "We use perimeter in real life when we want to know how much border or edge is needed. For example, we can find the length of ribbon needed around a photo frame, fencing needed around a garden, lace around a table cloth, or the border of a classroom notice board.",
-          "hindi": "हम वास्तविक जीवन में परिमाप का उपयोग तब करते हैं जब हमें किसी चीज़ की किनारी या घेरा जानना होता है। जैसे फोटो फ्रेम के चारों ओर रिबन की लंबाई, बगीचे के चारों ओर लगने वाली बाड़, मेजपोश की लेस, या कक्षा के नोटिस बोर्ड की बॉर्डर निकालने में परिमाप काम आता है।"
-        },
-        {
-          "english": "First, take a rectangle with length 8 cm and breadth 5 cm. Write the outside sides as 8 cm, 5 cm, 8 cm, and 5 cm. Then add them: 8 + 5 + 8 + 5 = 26. So the perimeter is 26 cm. We can also use the rectangle formula: P = 2 x (8 + 5) = 2 x 13 = 26 cm.",
-          "hindi": "पहले एक आयत लें जिसकी लंबाई 8 सेमी और चौड़ाई 5 सेमी है। उसकी बाहरी भुजाएँ 8 सेमी, 5 सेमी, 8 सेमी और 5 सेमी लिखें। फिर इन्हें जोड़ें: 8 + 5 + 8 + 5 = 26। इसलिए परिमाप 26 सेमी है। हम आयत का सूत्र भी लगा सकते हैं: P = 2 x (8 + 5) = 2 x 13 = 26 सेमी।"
-        },
-        {
-          "english": "For a second example, imagine a 6 cm by 4 cm rectangle with a 3 cm by 2 cm rectangle attached to its lower right side, making an L-shape. First list only the outside sides. The top is 6 cm. The short vertical side on the right above the smaller rectangle is 4 - 2 = 2 cm. The top of the smaller rectangle is 3 cm. The right side of the smaller rectangle is 2 cm. The full bottom is 6 + 3 = 9 cm. The left side is 4 cm. Now add them: 6 + 2 + 3 + 2 + 9 + 4 = 26. So the perimeter is 26 cm. The line where the two rectangles touch inside is not counted.",
-          "hindi": "दूसरे उदाहरण में 6 सेमी x 4 सेमी का एक आयत सोचिए, जिसकी दाईं नीचे वाली तरफ 3 सेमी x 2 सेमी का एक छोटा आयत जुड़ा हुआ है, इसलिए आकृति एल जैसी बनती है। पहले केवल बाहरी भुजाएँ लिखें। ऊपर की भुजा 6 सेमी है। छोटे आयत के ऊपर दाईं तरफ बची छोटी खड़ी भुजा 4 - 2 = 2 सेमी है। छोटे आयत की ऊपर वाली भुजा 3 सेमी है। छोटे आयत की दाईं भुजा 2 सेमी है। पूरी नीचे वाली भुजा 6 + 3 = 9 सेमी है। बाईं भुजा 4 सेमी है। अब जोड़ें: 6 + 2 + 3 + 2 + 9 + 4 = 26। इसलिए परिमाप 26 सेमी है। जहाँ दोनों आयत अंदर से जुड़े हैं, उस अंदर वाली रेखा को नहीं जोड़ते।"
-        },
-        {
-          "english": "For a third, harder example, take a T-shaped rectilinear figure made from a top rectangle 10 cm by 4 cm and a middle rectangle 4 cm by 5 cm attached exactly in the center below it. First find the two short bottom parts of the top rectangle. Their total length is 10 - 4 = 6 cm, so each part is 6 ÷ 2 = 3 cm. Now write the outside sides in order: 10 cm, 4 cm, 3 cm, 5 cm, 4 cm, 5 cm, 3 cm, and 4 cm. Then add them: 10 + 4 + 3 + 5 + 4 + 5 + 3 + 4 = 38. So the perimeter is 38 cm.",
-          "hindi": "तीसरे और थोड़े कठिन उदाहरण में एक टी आकार की रेक्टिलीनियर आकृति लें। यह ऊपर 10 सेमी x 4 सेमी के आयत और उसके ठीक बीच नीचे जुड़े 4 सेमी x 5 सेमी के आयत से बनी है। पहले ऊपर वाले आयत के नीचे बचने वाले दोनों छोटे हिस्से निकालें। उनकी कुल लंबाई 10 - 4 = 6 सेमी है, इसलिए हर हिस्सा 6 ÷ 2 = 3 सेमी होगा। अब बाहर की भुजाएँ क्रम से लिखें: 10 सेमी, 4 सेमी, 3 सेमी, 5 सेमी, 4 सेमी, 5 सेमी, 3 सेमी और 4 सेमी। फिर इन्हें जोड़ें: 10 + 4 + 3 + 5 + 4 + 5 + 3 + 4 = 38। इसलिए परिमाप 38 सेमी है।"
-        },
-        {
-          "english": "Common mistakes are forgetting a small side, adding an inside shared line, confusing perimeter with area, and writing the answer without a unit. Another mistake is adding cm and m together without changing them to the same unit first. A good check is to trace the outer edge once and see whether every outside side is counted exactly one time. So remember: rectilinear figures have straight sides, and perimeter is the total distance around the outside.",
-          "hindi": "सामान्य गलतियाँ यह हैं कि बच्चे कोई छोटी भुजा छोड़ देते हैं, अंदर की जुड़ी हुई रेखा भी जोड़ देते हैं, परिमाप को क्षेत्रफल समझ लेते हैं, या उत्तर के साथ इकाई नहीं लिखते। एक और गलती यह है कि सेमी और मीटर को बिना बदले साथ में जोड़ दिया जाता है। जाँच करने का आसान तरीका यह है कि उंगली से बाहरी किनारे पर एक बार घूमकर देखें कि हर बाहरी भुजा केवल एक बार गिनी गई है। इसलिए याद रखिए, रेक्टिलीनियर आकृतियों की भुजाएँ सीधी होती हैं और परिमाप बाहर की पूरी घेराई की कुल लंबाई होता है।"
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -93,53 +60,12 @@
           ],
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
-          "hint": {
-            "english": "Think of walking all around the figure.",
-            "hindi": "सोचिए कि आप आकृति के चारों ओर चल रहे हैं।"
-          },
-          "wrongReason": {
-            "english": "The main idea in rectilinear figures and perimeter of a rectilinear figure was not used correctly.",
-            "hindi": "समरेखीय आकृतियाँ और उनका परिमाप के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
-          },
-          "supportExample": {
-            "english": "Perimeter is the boundary length.",
-            "hindi": "परिमाप सीमा की कुल लंबाई है।"
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": {
-            "english": "Understanding Rectilinear Figures and Perimeter of a Rectilinear Figure",
-            "hindi": "समरेखीय आकृतियाँ और उनका परिमाप को समझें"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "This question is solved by using the same idea from the topic. A rectilinear figure is made using only line segments, and perimeter is the total boundary length.",
-              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। समरेखीय आकृति केवल रेखाखंडों से बनती है और उसका परिमाप कुल बाहरी लंबाई होता है।"
-            },
-            {
-              "english": "The question asks us to work with this situation: Perimeter means:",
-              "hindi": "प्रश्न हमें यह स्थिति देता है: परिमाप का अर्थ है:"
-            },
-            {
-              "english": "To move from the question to the answer, use this idea directly: Think of walking all around the figure.",
-              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: सोचिए कि आप आकृति के चारों ओर चल रहे हैं।"
-            },
-            {
-              "english": "A similar example makes the method clear. A rectangle is a rectilinear figure.",
-              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। आयत एक समरेखीय आकृति है।"
-            },
-            {
-              "english": "Using the same method here, we get: Perimeter is the boundary length.",
-              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: परिमाप सीमा की कुल लंबाई है।"
-            },
-            {
-              "english": "After solving, choose the option that matches the idea and the final value.",
-              "hindi": "हल करने के बाद वही विकल्प चुनिए जो सही विचार और अंतिम मान से मेल खाता हो।"
-            },
-            {
-              "english": "So the correct answer is Total distance around a figure.",
-              "hindi": "इसलिए सही उत्तर आकृति की चारों ओर की कुल लंबाई है।"
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -178,40 +104,7 @@
         "english": "Perimeter of a Triangle",
         "hindi": "त्रिभुज का परिमाप"
       },
-      "explanationParagraphs": [
-        {
-          "english": "A triangle has three sides. The perimeter of a triangle means the total distance all around its boundary. If you walk once around the edge of a triangular garden, the distance you walk is the perimeter.",
-          "hindi": "त्रिभुज की तीन भुजाएँ होती हैं। त्रिभुज का परिमाप मतलब उसकी पूरी बाहरी सीमा के चारों ओर की कुल लंबाई। अगर आप किसी त्रिकोण आकार के बगीचे के किनारे एक चक्कर लगाएँ, तो जितनी दूरी आप चलेंगे वही उसका परिमाप है।"
-        },
-        {
-          "english": "To find the perimeter, we add the lengths of all three sides. We write the formula as P = a + b + c. Here P means perimeter, and a, b, and c mean the three side lengths. If the sides are in the same unit, such as cm or m, just add them and keep the same unit in the answer.",
-          "hindi": "परिमाप निकालने के लिए हम तीनों भुजाओं की लंबाइयों को जोड़ते हैं। इसे हम P = a + b + c लिखते हैं। यहाँ P का मतलब परिमाप है और a, b, c त्रिभुज की तीन भुजाएँ हैं। अगर तीनों भुजाएँ एक ही इकाई में हों, जैसे cm या m, तो उन्हें जोड़कर उत्तर भी उसी इकाई में लिखते हैं।"
-        },
-        {
-          "english": "This idea is useful in real life. If you want to put a fence around a triangular field, you need its perimeter. If you want to paste ribbon around a triangular card, you need its perimeter. If a tailor wants to stitch lace around a triangle-shaped cloth, the total lace needed is the perimeter.",
-          "hindi": "यह बात रोज़मर्रा की ज़िंदगी में काम आती है। अगर किसी त्रिकोण आकार के खेत के चारों ओर बाड़ लगानी हो, तो उसका परिमाप चाहिए। अगर किसी त्रिकोण कार्ड के किनारे रिबन चिपकानी हो, तो भी परिमाप चाहिए। अगर किसी दर्जी को त्रिकोण आकार के कपड़े के चारों ओर लेस लगानी हो, तो कुल लेस की लंबाई वही परिमाप होगी।"
-        },
-        {
-          "english": "Suppose a triangle has sides 3 cm, 4 cm, and 5 cm. First add 3 + 4 = 7. Then add the third side: 7 + 5 = 12. So the perimeter of the triangle is 12 cm.",
-          "hindi": "मान लीजिए किसी त्रिभुज की भुजाएँ 3 cm, 4 cm और 5 cm हैं। पहले 3 + 4 = 7 जोड़ें। फिर तीसरी भुजा जोड़ें: 7 + 5 = 12। इसलिए इस त्रिभुज का परिमाप 12 cm है।"
-        },
-        {
-          "english": "Now take a triangle with sides 5 cm, 7 cm, and 9 cm. First add 5 + 7 = 12. Then add 12 + 9 = 21. So the perimeter is 21 cm.",
-          "hindi": "अब एक त्रिभुज की भुजाएँ 5 cm, 7 cm और 9 cm हैं। पहले 5 + 7 = 12 जोड़ें। फिर 12 + 9 = 21 जोड़ें। इसलिए इस त्रिभुज का परिमाप 21 cm है।"
-        },
-        {
-          "english": "Imagine a triangular park with two equal sides of 13 m each and one more side of 9 m. First add the equal sides: 13 + 13 = 26. Then add the last side: 26 + 9 = 35. So the perimeter of the park is 35 m, which means 35 m of fencing is needed to go around it once.",
-          "hindi": "एक त्रिकोण आकार के पार्क को सोचिए जिसकी दो बराबर भुजाएँ 13 m की हैं और तीसरी भुजा 9 m की है। पहले बराबर भुजाएँ जोड़ें: 13 + 13 = 26। फिर आखिरी भुजा जोड़ें: 26 + 9 = 35। इसलिए पार्क का परिमाप 35 m है, यानी उसके चारों ओर एक बार बाड़ लगाने के लिए 35 m की जरूरत होगी।"
-        },
-        {
-          "english": "Some common mistakes are easy to avoid. Do not add only two sides, because a triangle always has three sides, so all three must be added. Do not forget the unit in the answer. Also, do not mix different units like cm and m without changing them to the same unit first. Another mistake is confusing perimeter with area. Perimeter is the distance around the shape, not the space inside it.",
-          "hindi": "कुछ सामान्य गलतियों से बचना बहुत आसान है। केवल दो भुजाएँ मत जोड़िए, क्योंकि त्रिभुज में हमेशा तीन भुजाएँ होती हैं और तीनों को जोड़ना जरूरी है। उत्तर में इकाई लिखना मत भूलिए। cm और m जैसी अलग-अलग इकाइयों को बिना एक जैसी इकाई में बदले सीधे मत जोड़िए। एक और गलती परिमाप को क्षेत्रफल समझ लेना है। परिमाप आकार के चारों ओर की दूरी है, अंदर की जगह नहीं।"
-        },
-        {
-          "english": "So, the main rule is simple: perimeter of a triangle means add all three sides. When you read a question, look carefully at each side, add step by step, and write the final answer with the correct unit. With practice, perimeter questions become quick and easy.",
-          "hindi": "इसलिए मुख्य नियम बहुत आसान है: त्रिभुज का परिमाप निकालने के लिए उसकी तीनों भुजाएँ जोड़ो। जब भी सवाल पढ़ो, हर भुजा को ध्यान से देखो, एक-एक करके जोड़ो, और अंत में सही इकाई के साथ उत्तर लिखो। अभ्यास करने पर परिमाप के सवाल जल्दी और आसानी से होने लगते हैं।"
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -228,53 +121,12 @@
             "21",
             "21 cm"
           ],
-          "hint": {
-            "english": "Add all three sides.",
-            "hindi": "तीनों भुजाएँ जोड़िए।"
-          },
-          "wrongReason": {
-            "english": "The main idea in perimeter of a triangle was not used correctly.",
-            "hindi": "त्रिभुज का परिमाप के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
-          },
-          "supportExample": {
-            "english": "5 + 7 + 9 = 21 cm.",
-            "hindi": "5 + 7 + 9 = 21 सेमी।"
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": {
-            "english": "Understanding Perimeter of a Triangle",
-            "hindi": "त्रिभुज का परिमाप को समझें"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "This question is solved by using the same idea from the topic. The perimeter of a triangle is the sum of its three sides.",
-              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। त्रिभुज का परिमाप उसकी तीनों भुजाओं का योग होता है।"
-            },
-            {
-              "english": "The question asks us to work with this situation: Find the perimeter of a triangle with sides 5 cm, 7 cm and 9 cm.",
-              "hindi": "प्रश्न हमें यह स्थिति देता है: 5 सेमी, 7 सेमी और 9 सेमी भुजाओं वाले त्रिभुज का परिमाप लिखिए।"
-            },
-            {
-              "english": "To move from the question to the answer, use this idea directly: Add all three sides.",
-              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: तीनों भुजाएँ जोड़िए।"
-            },
-            {
-              "english": "A similar example makes the method clear. For sides 5 cm, 7 cm and 9 cm, perimeter = 21 cm.",
-              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। 5 सेमी, 7 सेमी और 9 सेमी भुजाओं के लिए परिमाप = 21 सेमी।"
-            },
-            {
-              "english": "Using the same method here, we get: 5 + 7 + 9 = 21 cm.",
-              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: 5 + 7 + 9 = 21 सेमी।"
-            },
-            {
-              "english": "After solving, write the answer in the same form the question asks for, and include the unit whenever one is needed.",
-              "hindi": "हल पूरा होने पर उत्तर उसी रूप में लिखिए जिस रूप में प्रश्न ने माँगा है, और जहाँ ज़रूरत हो वहाँ सही इकाई भी लिखिए।"
-            },
-            {
-              "english": "So the correct answer is 21 cm.",
-              "hindi": "इसलिए सही उत्तर 21 cm है।"
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -313,40 +165,7 @@
         "english": "Perimeter of a Rectangle",
         "hindi": "आयत का परिमाप"
       },
-      "explanationParagraphs": [
-        {
-          "english": "A rectangle is a shape with four sides. Its opposite sides are equal, so it has two equal lengths and two equal breadths. The perimeter of a rectangle means the total distance all around its outer boundary. If you walk once around a rectangular park, the distance you walk is the perimeter.",
-          "hindi": "आयत एक ऐसी आकृति है जिसकी चार भुजाएँ होती हैं। इसकी सामने वाली भुजाएँ बराबर होती हैं, इसलिए इसमें दो बराबर लंबाइयाँ और दो बराबर चौड़ाइयाँ होती हैं। आयत का परिमाप का मतलब है उसकी बाहरी सीमा के चारों ओर की कुल दूरी। अगर आप एक आयताकार पार्क के चारों ओर एक बार चलें, तो आपने जितनी दूरी तय की, वही उसका परिमाप है।"
-        },
-        {
-          "english": "To find the perimeter of a rectangle, we add all four sides. Since the two lengths are equal and the two breadths are equal, the formula is Perimeter = length + breadth + length + breadth. We can also write it in a shorter way as Perimeter = 2 × (length + breadth). This formula helps us find the answer faster.",
-          "hindi": "आयत का परिमाप निकालने के लिए हम उसकी चारों भुजाओं को जोड़ते हैं। क्योंकि दो लंबाइयाँ बराबर होती हैं और दो चौड़ाइयाँ बराबर होती हैं, इसलिए सूत्र है परिमाप = लंबाई + चौड़ाई + लंबाई + चौड़ाई। इसे छोटे रूप में ऐसे भी लिख सकते हैं: परिमाप = 2 × (लंबाई + चौड़ाई)। यह सूत्र उत्तर जल्दी निकालने में मदद करता है।"
-        },
-        {
-          "english": "We use perimeter in real life when we want to measure the outside edge of something. For example, if you want to put a ribbon around a rectangular gift box, you need the perimeter. If a farmer wants to put a fence around a rectangular field, the fence length depends on the perimeter. If you want to place a border around a rectangular photo frame or notebook, you again need the perimeter.",
-          "hindi": "हम परिमाप का उपयोग जीवन में तब करते हैं जब हमें किसी चीज़ की बाहरी किनारे की माप चाहिए होती है। जैसे अगर आपको एक आयताकार उपहार डिब्बे के चारों ओर रिबन बाँधनी हो, तो आपको परिमाप चाहिए। अगर किसान को आयताकार खेत के चारों ओर बाड़ लगानी हो, तो बाड़ की कुल लंबाई परिमाप पर निर्भर करेगी। अगर आपको किसी आयताकार फोटो फ्रेम या कॉपी के चारों ओर बॉर्डर लगाना हो, तब भी परिमाप ही काम आता है।"
-        },
-        {
-          "english": "Let us solve an easy question. Suppose the length of a rectangle is 5 cm and the breadth is 3 cm. First add the length and breadth: 5 + 3 = 8. Next multiply by 2: 2 × 8 = 16. So, the perimeter is 16 cm. We can check by adding all sides: 5 + 3 + 5 + 3 = 16 cm. Both methods give the same answer.",
-          "hindi": "अब एक आसान सवाल हल करते हैं। मान लो किसी आयत की लंबाई 5 सेमी है और चौड़ाई 3 सेमी है। पहले लंबाई और चौड़ाई को जोड़ो: 5 + 3 = 8। फिर 2 से गुणा करो: 2 × 8 = 16। इसलिए परिमाप 16 सेमी है। हम जाँच भी कर सकते हैं: 5 + 3 + 5 + 3 = 16 सेमी। दोनों तरीकों से एक ही उत्तर मिलता है।"
-        },
-        {
-          "english": "Now let us try a medium question. Suppose the length is 12 m and the breadth is 7 m. First add the length and breadth: 12 + 7 = 19. Then multiply by 2: 2 × 19 = 38. So, the perimeter of the rectangle is 38 m. This means if you go around the field once, you cover 38 m.",
-          "hindi": "अब एक थोड़ा मध्यम सवाल देखते हैं। मान लो लंबाई 12 मी है और चौड़ाई 7 मी है। पहले लंबाई और चौड़ाई जोड़ो: 12 + 7 = 19। फिर 2 से गुणा करो: 2 × 19 = 38। इसलिए आयत का परिमाप 38 मी है। इसका मतलब है कि अगर आप खेत के चारों ओर एक बार घूमें, तो आप 38 मी दूरी तय करेंगे।"
-        },
-        {
-          "english": "Now let us solve a harder question with decimals. A rectangle has length 8.5 cm and breadth 3.5 cm. First add the length and breadth: 8.5 + 3.5 = 12.0. Then multiply by 2: 2 × 12.0 = 24.0. So, the perimeter is 24 cm. You can also check like this: 8.5 + 3.5 + 8.5 + 3.5 = 24 cm.",
-          "hindi": "अब दशमलव वाला थोड़ा कठिन सवाल हल करते हैं। एक आयत की लंबाई 8.5 सेमी है और चौड़ाई 3.5 सेमी है। पहले लंबाई और चौड़ाई जोड़ो: 8.5 + 3.5 = 12.0। फिर 2 से गुणा करो: 2 × 12.0 = 24.0। इसलिए परिमाप 24 सेमी है। आप ऐसे जाँच भी कर सकते हैं: 8.5 + 3.5 + 8.5 + 3.5 = 24 सेमी।"
-        },
-        {
-          "english": "Some common mistakes are easy to avoid. One mistake is finding area instead of perimeter. Area is found by multiplying length and breadth, but perimeter is found by adding the sides around the shape. Another mistake is adding only one length and one breadth and forgetting the other two sides. Some children also forget to write the unit, such as cm or m. If the units are different, they must be made the same before finding the perimeter.",
-          "hindi": "कुछ सामान्य गलतियों से आसानी से बचा जा सकता है। एक गलती यह है कि बच्चे परिमाप की जगह क्षेत्रफल निकाल देते हैं। क्षेत्रफल लंबाई और चौड़ाई को गुणा करके निकाला जाता है, लेकिन परिमाप चारों ओर की भुजाएँ जोड़कर निकाला जाता है। दूसरी गलती यह है कि केवल एक लंबाई और एक चौड़ाई जोड़कर बाकी दो भुजाएँ भूल जाना। कुछ बच्चे इकाई लिखना भी भूल जाते हैं, जैसे सेमी या मी। अगर इकाइयाँ अलग-अलग हों, तो परिमाप निकालने से पहले उन्हें एक जैसी करना चाहिए।"
-        },
-        {
-          "english": "Remember this simple idea: perimeter means around the shape. In a rectangle, there are two lengths and two breadths, so all four sides must be counted. The formula Perimeter = 2 × (length + breadth) makes the work quicker. If you add carefully step by step and keep the units correct, you can solve perimeter questions with confidence.",
-          "hindi": "यह आसान बात याद रखो: परिमाप का मतलब है आकृति के चारों ओर की दूरी। आयत में दो लंबाइयाँ और दो चौड़ाइयाँ होती हैं, इसलिए चारों भुजाओं को गिनना जरूरी है। परिमाप = 2 × (लंबाई + चौड़ाई) वाला सूत्र काम को तेज़ बनाता है। अगर आप ध्यान से एक-एक कदम करके जोड़ें और सही इकाई लिखें, तो आप परिमाप के सवाल आत्मविश्वास से हल कर सकते हैं।"
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -363,53 +182,12 @@
             "24",
             "24 cm"
           ],
-          "hint": {
-            "english": "Add length and breadth first, then multiply by 2.",
-            "hindi": "पहले लंबाई और चौड़ाई जोड़िए, फिर 2 से गुणा कीजिए।"
-          },
-          "wrongReason": {
-            "english": "The main idea in perimeter of a rectangle was not used correctly.",
-            "hindi": "आयत का परिमाप के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
-          },
-          "supportExample": {
-            "english": "2 × (8.5 + 3.5) = 24 cm.",
-            "hindi": "2 × (8.5 + 3.5) = 24 सेमी।"
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": {
-            "english": "Understanding Perimeter of a Rectangle",
-            "hindi": "आयत का परिमाप को समझें"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "This question is solved by using the same idea from the topic. The perimeter of a rectangle is 2 × (length + breadth).",
-              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। आयत का परिमाप 2 × (लंबाई + चौड़ाई) होता है।"
-            },
-            {
-              "english": "The question asks us to work with this situation: Find the perimeter of a rectangle of length 8.5 cm and breadth 3.5 cm.",
-              "hindi": "प्रश्न हमें यह स्थिति देता है: 8.5 सेमी लंबाई और 3.5 सेमी चौड़ाई वाले आयत का परिमाप लिखिए।"
-            },
-            {
-              "english": "To move from the question to the answer, use this idea directly: Add length and breadth first, then multiply by 2.",
-              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: पहले लंबाई और चौड़ाई जोड़िए, फिर 2 से गुणा कीजिए।"
-            },
-            {
-              "english": "A similar example makes the method clear. For length 8.5 cm and breadth 3.5 cm, perimeter = 24 cm.",
-              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। लंबाई 8.5 सेमी और चौड़ाई 3.5 सेमी होने पर परिमाप = 24 सेमी।"
-            },
-            {
-              "english": "Using the same method here, we get: 2 × (8.5 + 3.5) = 24 cm.",
-              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: 2 × (8.5 + 3.5) = 24 सेमी।"
-            },
-            {
-              "english": "After solving, write the answer in the same form the question asks for, and include the unit whenever one is needed.",
-              "hindi": "हल पूरा होने पर उत्तर उसी रूप में लिखिए जिस रूप में प्रश्न ने माँगा है, और जहाँ ज़रूरत हो वहाँ सही इकाई भी लिखिए।"
-            },
-            {
-              "english": "So the correct answer is 24 cm.",
-              "hindi": "इसलिए सही उत्तर 24 cm है।"
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -448,40 +226,7 @@
         "english": "Perimeter of a Square",
         "hindi": "वर्ग का परिमाप"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total length around the outside of a shape. If your finger goes all around the edge of a square and you add those lengths, you get the perimeter. It tells us how much boundary or border a shape has.",
-          "hindi": "परिमाप का मतलब किसी आकृति के बाहर वाले किनारे की पूरी लंबाई होता है। अगर आप अपनी उंगली से वर्ग की बाहरी रेखा के चारों ओर चलें और सारी लंबाइयों को जोड़ दें, तो जो कुल लंबाई मिले वही उसका परिमाप है। यह हमें बताता है कि किसी आकृति की सीमा कितनी लंबी है।"
-        },
-        {
-          "english": "A square has 4 equal sides. This means every side has the same length. If one side of a square is 6 cm, then the other three sides are also 6 cm. This equal-side idea makes squares easy to understand.",
-          "hindi": "वर्ग की 4 भुजाएँ होती हैं और चारों भुजाएँ बराबर होती हैं। इसका मतलब है कि अगर एक भुजा 6 cm है, तो बाकी तीन भुजाएँ भी 6 cm ही होंगी। यही बात वर्ग को समझना आसान बनाती है।"
-        },
-        {
-          "english": "Because all 4 sides of a square are equal, we can find its perimeter by adding the same side 4 times. So the formula is Perimeter = 4 × side. You can also think of it as side + side + side + side. If the side is 7 cm, then the perimeter is 7 + 7 + 7 + 7 = 28 cm.",
-          "hindi": "क्योंकि वर्ग की 4 भुजाएँ बराबर होती हैं, इसलिए उसका परिमाप निकालने के लिए एक भुजा को 4 से गुणा करते हैं। सूत्र है परिमाप = 4 × भुजा। आप इसे भुजा + भुजा + भुजा + भुजा भी समझ सकते हैं। अगर एक भुजा 7 cm है, तो परिमाप 7 + 7 + 7 + 7 = 28 cm होगा।"
-        },
-        {
-          "english": "We see this in real life often. The border of a square table top, the fence around a square garden, the ribbon around a square gift box, and the frame around a square photo all use perimeter. Perimeter helps us know how much wire, ribbon, wood, or paint border is needed.",
-          "hindi": "असल जीवन में भी परिमाप बहुत काम आता है। चौकोर मेज के किनारे की कुल लंबाई, वर्गाकार बगीचे के चारों ओर लगने वाली बाड़, चौकोर उपहार डिब्बे पर लगने वाली रिबन, और वर्गाकार फोटो फ्रेम का बॉर्डर, इन सबमें परिमाप का उपयोग होता है। परिमाप से पता चलता है कि कितनी तार, रिबन, लकड़ी या बॉर्डर की जरूरत है।"
-        },
-        {
-          "english": "Now take an easy example. Suppose a square has side 5 cm. Use the formula Perimeter = 4 × side. Put 5 cm in place of the side, so Perimeter = 4 × 5 cm = 20 cm. So the perimeter of the square is 20 cm.",
-          "hindi": "अब एक आसान सवाल लेते हैं। मान लो एक वर्ग की एक भुजा 5 cm है। सूत्र लगाइए: परिमाप = 4 × भुजा। अब 5 cm रखिए, तो परिमाप = 4 × 5 cm = 20 cm। इसलिए उस वर्ग का परिमाप 20 cm है।"
-        },
-        {
-          "english": "Now use the practice idea. A square has side 9 cm. Again use Perimeter = 4 × side. Perimeter = 4 × 9 cm. Multiply 4 by 9 to get 36. So the perimeter is 36 cm. You can check it by adding 9 + 9 + 9 + 9 = 36.",
-          "hindi": "अब 9 cm वाली भुजा का सवाल देखते हैं। फिर से वही सूत्र लगाइए: परिमाप = 4 × भुजा। परिमाप = 4 × 9 cm। 4 को 9 से गुणा करने पर 36 मिलता है। इसलिए परिमाप 36 cm है। चाहें तो जांच भी कर सकते हैं: 9 + 9 + 9 + 9 = 36।"
-        },
-        {
-          "english": "Here is a harder one. A square has perimeter 48 cm, and we want to find one side. We know Perimeter = 4 × side. So 48 = 4 × side. To find one side, divide 48 by 4. Side = 48 ÷ 4 = 12 cm. We can check: 12 + 12 + 12 + 12 = 48, so the answer is correct.",
-          "hindi": "अब थोड़ा कठिन सवाल देखते हैं। किसी वर्ग का परिमाप 48 cm है और हमें एक भुजा की लंबाई निकालनी है। हमें पता है कि परिमाप = 4 × भुजा। इसलिए 48 = 4 × भुजा। अब एक भुजा निकालने के लिए 48 को 4 से भाग दीजिए। भुजा = 48 ÷ 4 = 12 cm। जांच करें: 12 + 12 + 12 + 12 = 48, इसलिए उत्तर सही है।"
-        },
-        {
-          "english": "Some common mistakes are easy to avoid. Do not add only two sides or three sides, because a square has 4 sides. Do not confuse perimeter with area, because perimeter is only the distance around the edge. Always keep the unit in the answer, like cm or m. The big idea to remember is simple: for any square, multiply one side by 4.",
-          "hindi": "कुछ सामान्य गलतियों से बचना जरूरी है। केवल दो या तीन भुजाएँ मत जोड़िए, क्योंकि वर्ग की 4 भुजाएँ होती हैं। परिमाप को क्षेत्रफल से मत मिलाइए, क्योंकि परिमाप सिर्फ बाहर की पूरी सीमा की लंबाई है। उत्तर में unit लिखना मत भूलिए, जैसे cm या m। याद रखने की सबसे आसान बात यह है कि वर्ग का परिमाप हमेशा एक भुजा की लंबाई को 4 से गुणा करके मिलता है।"
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -498,53 +243,12 @@
             "36",
             "36 cm"
           ],
-          "hint": {
-            "english": "A square has four equal sides.",
-            "hindi": "वर्ग की चारों भुजाएँ बराबर होती हैं।"
-          },
-          "wrongReason": {
-            "english": "The main idea in perimeter of a square was not used correctly.",
-            "hindi": "वर्ग का परिमाप के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
-          },
-          "supportExample": {
-            "english": "4 × 9 = 36 cm.",
-            "hindi": "4 × 9 = 36 सेमी।"
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": {
-            "english": "Understanding Perimeter of a Square",
-            "hindi": "वर्ग का परिमाप को समझें"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "This question is solved by using the same idea from the topic. The perimeter of a square is 4 × side.",
-              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। वर्ग का परिमाप = 4 × भुजा होता है।"
-            },
-            {
-              "english": "The question asks us to work with this situation: Find the perimeter of a square of side 9 cm.",
-              "hindi": "प्रश्न हमें यह स्थिति देता है: 9 सेमी भुजा वाले वर्ग का परिमाप लिखिए।"
-            },
-            {
-              "english": "To move from the question to the answer, use this idea directly: A square has four equal sides.",
-              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: वर्ग की चारों भुजाएँ बराबर होती हैं।"
-            },
-            {
-              "english": "A similar example makes the method clear. For side 9 cm, perimeter = 36 cm.",
-              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। यदि भुजा 9 सेमी है, तो परिमाप = 36 सेमी होगा।"
-            },
-            {
-              "english": "Using the same method here, we get: 4 × 9 = 36 cm.",
-              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: 4 × 9 = 36 सेमी।"
-            },
-            {
-              "english": "After solving, write the answer in the same form the question asks for, and include the unit whenever one is needed.",
-              "hindi": "हल पूरा होने पर उत्तर उसी रूप में लिखिए जिस रूप में प्रश्न ने माँगा है, और जहाँ ज़रूरत हो वहाँ सही इकाई भी लिखिए।"
-            },
-            {
-              "english": "So the correct answer is 36 cm.",
-              "hindi": "इसलिए सही उत्तर 36 cm है।"
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -583,40 +287,7 @@
         "english": "Question 22.77.1",
         "hindi": "Question 22.77.1"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about Find the perimeter of each of the figures given below. (a) (b) (c) 6 cm 5 cm 4 cm 8 cm 5 cm 9 cm 5 cm 6 cm 7 cm 9 cm 6 cm 8 cm.",
-          "hindi": "This question is about Find the perimeter of each of the figures given below. (a) (b) (c) 6 cm 5 cm 4 cm 8 cm 5 cm 9 cm 5 cm 6 cm 7 cm 9 cm 6 cm 8 cm."
-        },
-        {
-          "english": "From the question, we should notice Find the perimeter of each of the figures given below. (a) (b) (c) 6 cm 5 cm 4 cm 8 cm 5 cm 9 cm 5 cm 6 cm 7 cm 9 cm 6 cm 8 cm.",
-          "hindi": "From the question, we should notice Find the perimeter of each of the figures given below. (a) (b) (c) 6 cm 5 cm 4 cm 8 cm 5 cm 9 cm 5 cm 6 cm 7 cm 9 cm 6 cm 8 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -633,61 +304,12 @@
             "(a) 23 cm (b) 27 cm (c) 28 cm",
             "(a) 23 (b) 27 (c) 28"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about Find the perimeter of each of the figures given below. (a) (b) (c) 6 cm 5 cm 4 cm 8 cm 5 cm 9 cm 5 cm 6 cm 7 cm 9 cm 6 cm 8 cm.",
-              "hindi": "Here the question is asking about Find the perimeter of each of the figures given below. (a) (b) (c) 6 cm 5 cm 4 cm 8 cm 5 cm 9 cm 5 cm 6 cm 7 cm 9 cm 6 cm 8 cm."
-            },
-            {
-              "english": "The information given to us is Find the perimeter of each of the figures given below. (a) (b) (c) 6 cm 5 cm 4 cm 8 cm 5 cm 9 cm 5 cm 6 cm 7 cm 9 cm 6 cm 8 cm.",
-              "hindi": "The information given to us is Find the perimeter of each of the figures given below. (a) (b) (c) 6 cm 5 cm 4 cm 8 cm 5 cm 9 cm 5 cm 6 cm 7 cm 9 cm 6 cm 8 cm."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. For a rectangle, perimeter = 2 x (length + breadth).",
-              "hindi": "A worked pattern for the same kind of question is this. For a rectangle, perimeter = 2 x (length + breadth)."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach (a) 23 cm (b) 27 cm (c) 28 cm.",
-              "hindi": "When you apply the rule carefully, you reach (a) 23 cm (b) 27 cm (c) 28 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is (a) 23 cm (b) 27 cm (c) 28 cm.",
-              "hindi": "So the final answer is (a) 23 cm (b) 27 cm (c) 28 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -730,40 +352,7 @@
         "english": "Question 22.77.2(a)",
         "hindi": "Question 22.77.2(a)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about 8 cm, 6 cm, 5 cm.",
-          "hindi": "This question is about 8 cm, 6 cm, 5 cm."
-        },
-        {
-          "english": "From the question, we should notice 8 cm, 6 cm, 5 cm.",
-          "hindi": "From the question, we should notice 8 cm, 6 cm, 5 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -780,69 +369,12 @@
             "19 cm",
             "19"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about 8 cm, 6 cm, 5 cm.",
-              "hindi": "Here the question is asking about 8 cm, 6 cm, 5 cm."
-            },
-            {
-              "english": "The information given to us is 8 cm, 6 cm, 5 cm.",
-              "hindi": "The information given to us is 8 cm, 6 cm, 5 cm."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Sides = 8 cm, 6 cm, 5 cm.",
-              "hindi": "Given: Sides = 8 cm, 6 cm, 5 cm."
-            },
-            {
-              "english": "Formula: Perimeter of a triangle = Sum of all three sides.",
-              "hindi": "Formula: Perimeter of a triangle = Sum of all three sides."
-            },
-            {
-              "english": "Perimeter = 8 + 6 + 5.",
-              "hindi": "Perimeter = 8 + 6 + 5."
-            },
-            {
-              "english": "Perimeter = 19 cm.",
-              "hindi": "Perimeter = 19 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 19 cm.",
-              "hindi": "So the final answer is 19 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -885,40 +417,7 @@
         "english": "Question 22.77.2(b)",
         "hindi": "Question 22.77.2(b)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about 7.6 cm, 6.4 cm, 5.2 cm.",
-          "hindi": "This question is about 7.6 cm, 6.4 cm, 5.2 cm."
-        },
-        {
-          "english": "From the question, we should notice 7.6 cm, 6.4 cm, 5.2 cm.",
-          "hindi": "From the question, we should notice 7.6 cm, 6.4 cm, 5.2 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -935,69 +434,12 @@
             "19.2 cm",
             "19.2"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about 7.6 cm, 6.4 cm, 5.2 cm.",
-              "hindi": "Here the question is asking about 7.6 cm, 6.4 cm, 5.2 cm."
-            },
-            {
-              "english": "The information given to us is 7.6 cm, 6.4 cm, 5.2 cm.",
-              "hindi": "The information given to us is 7.6 cm, 6.4 cm, 5.2 cm."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Sides = 7.6 cm, 6.4 cm, 5.2 cm.",
-              "hindi": "Given: Sides = 7.6 cm, 6.4 cm, 5.2 cm."
-            },
-            {
-              "english": "Formula: Perimeter of a triangle = Sum of all three sides.",
-              "hindi": "Formula: Perimeter of a triangle = Sum of all three sides."
-            },
-            {
-              "english": "Perimeter = 7.6 + 6.4 + 5.2.",
-              "hindi": "Perimeter = 7.6 + 6.4 + 5.2."
-            },
-            {
-              "english": "Perimeter = 19.2 cm.",
-              "hindi": "Perimeter = 19.2 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 19.2 cm.",
-              "hindi": "So the final answer is 19.2 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1040,40 +482,7 @@
         "english": "Question 22.77.2(c)",
         "hindi": "Question 22.77.2(c)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about 4.8 cm, 5.3 cm, 8.2 cm.",
-          "hindi": "This question is about 4.8 cm, 5.3 cm, 8.2 cm."
-        },
-        {
-          "english": "From the question, we should notice 4.8 cm, 5.3 cm, 8.2 cm.",
-          "hindi": "From the question, we should notice 4.8 cm, 5.3 cm, 8.2 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1090,69 +499,12 @@
             "18.3 cm",
             "18.3"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about 4.8 cm, 5.3 cm, 8.2 cm.",
-              "hindi": "Here the question is asking about 4.8 cm, 5.3 cm, 8.2 cm."
-            },
-            {
-              "english": "The information given to us is 4.8 cm, 5.3 cm, 8.2 cm.",
-              "hindi": "The information given to us is 4.8 cm, 5.3 cm, 8.2 cm."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Sides = 4.8 cm, 5.3 cm, 8.2 cm.",
-              "hindi": "Given: Sides = 4.8 cm, 5.3 cm, 8.2 cm."
-            },
-            {
-              "english": "Formula: Perimeter of a triangle = Sum of all three sides.",
-              "hindi": "Formula: Perimeter of a triangle = Sum of all three sides."
-            },
-            {
-              "english": "Perimeter = 4.8 + 5.3 + 8.2.",
-              "hindi": "Perimeter = 4.8 + 5.3 + 8.2."
-            },
-            {
-              "english": "Perimeter = 18.3 cm.",
-              "hindi": "Perimeter = 18.3 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 18.3 cm.",
-              "hindi": "So the final answer is 18.3 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1195,40 +547,7 @@
         "english": "Question 22.77.2(d)",
         "hindi": "Question 22.77.2(d)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about 6 cm, 7.3 cm, 8.5 cm.",
-          "hindi": "This question is about 6 cm, 7.3 cm, 8.5 cm."
-        },
-        {
-          "english": "From the question, we should notice 6 cm, 7.3 cm, 8.5 cm.",
-          "hindi": "From the question, we should notice 6 cm, 7.3 cm, 8.5 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1245,69 +564,12 @@
             "21.8 cm",
             "21.8"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about 6 cm, 7.3 cm, 8.5 cm.",
-              "hindi": "Here the question is asking about 6 cm, 7.3 cm, 8.5 cm."
-            },
-            {
-              "english": "The information given to us is 6 cm, 7.3 cm, 8.5 cm.",
-              "hindi": "The information given to us is 6 cm, 7.3 cm, 8.5 cm."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Sides = 6 cm, 7.3 cm, 8.5 cm.",
-              "hindi": "Given: Sides = 6 cm, 7.3 cm, 8.5 cm."
-            },
-            {
-              "english": "Formula: Perimeter of a triangle = Sum of all three sides.",
-              "hindi": "Formula: Perimeter of a triangle = Sum of all three sides."
-            },
-            {
-              "english": "Perimeter = 6 + 7.3 + 8.5.",
-              "hindi": "Perimeter = 6 + 7.3 + 8.5."
-            },
-            {
-              "english": "Perimeter = 21.8 cm.",
-              "hindi": "Perimeter = 21.8 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 21.8 cm.",
-              "hindi": "So the final answer is 21.8 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1350,40 +612,7 @@
         "english": "Question 22.77.3",
         "hindi": "Question 22.77.3"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about Find the perimeter of an isosceles triangle, each of whose equal sides measures 5.8 cm and the length of whose third side is 7.5 cm.",
-          "hindi": "This question is about Find the perimeter of an isosceles triangle, each of whose equal sides measures 5.8 cm and the length of whose third side is 7.5 cm."
-        },
-        {
-          "english": "From the question, we should notice Find the perimeter of an isosceles triangle, each of whose equal sides measures 5.8 cm and the length of whose third side is 7.5 cm.",
-          "hindi": "From the question, we should notice Find the perimeter of an isosceles triangle, each of whose equal sides measures 5.8 cm and the length of whose third side is 7.5 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1400,73 +629,12 @@
             "19.1 cm",
             "19.1"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about Find the perimeter of an isosceles triangle, each of whose equal sides measures 5.8 cm and the length of whose third side is 7.5 cm.",
-              "hindi": "Here the question is asking about Find the perimeter of an isosceles triangle, each of whose equal sides measures 5.8 cm and the length of whose third side is 7.5 cm."
-            },
-            {
-              "english": "The information given to us is Find the perimeter of an isosceles triangle, each of whose equal sides measures 5.8 cm and the length of whose third side is 7.5 cm.",
-              "hindi": "The information given to us is Find the perimeter of an isosceles triangle, each of whose equal sides measures 5.8 cm and the length of whose third side is 7.5 cm."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Equal sides = 5.8 cm each, Base = 7.5 cm.",
-              "hindi": "Given: Equal sides = 5.8 cm each, Base = 7.5 cm."
-            },
-            {
-              "english": "Formula: Perimeter of isosceles triangle = 2 × equal side + base.",
-              "hindi": "Formula: Perimeter of isosceles triangle = 2 × equal side + base."
-            },
-            {
-              "english": "Perimeter = 2 × 5.8 + 7.5.",
-              "hindi": "Perimeter = 2 × 5.8 + 7.5."
-            },
-            {
-              "english": "Perimeter = 11.6 + 7.5.",
-              "hindi": "Perimeter = 11.6 + 7.5."
-            },
-            {
-              "english": "Perimeter = 19.1 cm.",
-              "hindi": "Perimeter = 19.1 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 19.1 cm.",
-              "hindi": "So the final answer is 19.1 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1509,40 +677,7 @@
         "english": "Question 22.77.4",
         "hindi": "Question 22.77.4"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about Find the perimeter of an equilateral triangle each of whose sides is 8.4 cm.",
-          "hindi": "This question is about Find the perimeter of an equilateral triangle each of whose sides is 8.4 cm."
-        },
-        {
-          "english": "From the question, we should notice Find the perimeter of an equilateral triangle each of whose sides is 8.4 cm.",
-          "hindi": "From the question, we should notice Find the perimeter of an equilateral triangle each of whose sides is 8.4 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1559,69 +694,12 @@
             "25.2 cm",
             "25.2"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about Find the perimeter of an equilateral triangle each of whose sides is 8.4 cm.",
-              "hindi": "Here the question is asking about Find the perimeter of an equilateral triangle each of whose sides is 8.4 cm."
-            },
-            {
-              "english": "The information given to us is Find the perimeter of an equilateral triangle each of whose sides is 8.4 cm.",
-              "hindi": "The information given to us is Find the perimeter of an equilateral triangle each of whose sides is 8.4 cm."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Side of equilateral triangle = 8.4 cm.",
-              "hindi": "Given: Side of equilateral triangle = 8.4 cm."
-            },
-            {
-              "english": "Formula: Perimeter of equilateral triangle = 3 × side.",
-              "hindi": "Formula: Perimeter of equilateral triangle = 3 × side."
-            },
-            {
-              "english": "Perimeter = 3 × 8.4.",
-              "hindi": "Perimeter = 3 × 8.4."
-            },
-            {
-              "english": "Perimeter = 25.2 cm.",
-              "hindi": "Perimeter = 25.2 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 25.2 cm.",
-              "hindi": "So the final answer is 25.2 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1664,40 +742,7 @@
         "english": "Question 22.77.5",
         "hindi": "Question 22.77.5"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about The perimeter of a triangle is 16 cm and two of its sides measure 3.8 cm and 5.6 cm respectively. Find the third side.",
-          "hindi": "This question is about The perimeter of a triangle is 16 cm and two of its sides measure 3.8 cm and 5.6 cm respectively. Find the third side."
-        },
-        {
-          "english": "From the question, we should notice The perimeter of a triangle is 16 cm and two of its sides measure 3.8 cm and 5.6 cm respectively. Find the third side.",
-          "hindi": "From the question, we should notice The perimeter of a triangle is 16 cm and two of its sides measure 3.8 cm and 5.6 cm respectively. Find the third side."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1714,73 +759,12 @@
             "6.6 cm",
             "6.6"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about The perimeter of a triangle is 16 cm and two of its sides measure 3.8 cm and 5.6 cm respectively. Find the third side.",
-              "hindi": "Here the question is asking about The perimeter of a triangle is 16 cm and two of its sides measure 3.8 cm and 5.6 cm respectively. Find the third side."
-            },
-            {
-              "english": "The information given to us is The perimeter of a triangle is 16 cm and two of its sides measure 3.8 cm and 5.6 cm respectively. Find the third side.",
-              "hindi": "The information given to us is The perimeter of a triangle is 16 cm and two of its sides measure 3.8 cm and 5.6 cm respectively. Find the third side."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Perimeter = 16 cm, two sides = 3.8 cm and 5.6 cm.",
-              "hindi": "Given: Perimeter = 16 cm, two sides = 3.8 cm and 5.6 cm."
-            },
-            {
-              "english": "Formula: Perimeter = side1 + side2 + side3.",
-              "hindi": "Formula: Perimeter = side1 + side2 + side3."
-            },
-            {
-              "english": "So: Third side = Perimeter - side1 - side2.",
-              "hindi": "So: Third side = Perimeter - side1 - side2."
-            },
-            {
-              "english": "Third side = 16 - 3.8 - 5.6.",
-              "hindi": "Third side = 16 - 3.8 - 5.6."
-            },
-            {
-              "english": "Third side = 6.6 cm.",
-              "hindi": "Third side = 6.6 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 6.6 cm.",
-              "hindi": "So the final answer is 6.6 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1823,40 +807,7 @@
         "english": "Question 22.77.6",
         "hindi": "Question 22.77.6"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about measure 3.8 cm and 5.6 cm respectively. Find the third side: The perimeter of an equilateral triangle is 17.7 cm. Find the length of each side of t.",
-          "hindi": "This question is about measure 3.8 cm and 5.6 cm respectively. Find the third side: The perimeter of an equilateral triangle is 17.7 cm. Find the length of each side of t."
-        },
-        {
-          "english": "From the question, we should notice The perimeter of an equilateral triangle is 17.7 cm. Find the length of each side of the triangle.",
-          "hindi": "From the question, we should notice The perimeter of an equilateral triangle is 17.7 cm. Find the length of each side of the triangle."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1873,69 +824,12 @@
             "5.9 cm",
             "5.9"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about measure 3.8 cm and 5.6 cm respectively. Find the third side: The perimeter of an equilateral triangle is 17.7 cm. Find the length of each side of t.",
-              "hindi": "Here the question is asking about measure 3.8 cm and 5.6 cm respectively. Find the third side: The perimeter of an equilateral triangle is 17.7 cm. Find the length of each side of t."
-            },
-            {
-              "english": "The information given to us is The perimeter of an equilateral triangle is 17.7 cm. Find the length of each side of the triangle.",
-              "hindi": "The information given to us is The perimeter of an equilateral triangle is 17.7 cm. Find the length of each side of the triangle."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Perimeter of equilateral triangle = 17.7 cm.",
-              "hindi": "Given: Perimeter of equilateral triangle = 17.7 cm."
-            },
-            {
-              "english": "Formula: Perimeter = 3 × side, so Side = Perimeter ÷ 3.",
-              "hindi": "Formula: Perimeter = 3 × side, so Side = Perimeter ÷ 3."
-            },
-            {
-              "english": "Side = 17.7 ÷ 3.",
-              "hindi": "Side = 17.7 ÷ 3."
-            },
-            {
-              "english": "Side = 5.9 cm.",
-              "hindi": "Side = 5.9 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 5.9 cm.",
-              "hindi": "So the final answer is 5.9 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1978,40 +872,7 @@
         "english": "Question 22.77.7(a)",
         "hindi": "Question 22.77.7(a)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about Length = 36 cm, Breadth = 29 cm.",
-          "hindi": "This question is about Length = 36 cm, Breadth = 29 cm."
-        },
-        {
-          "english": "From the question, we should notice Length = 36 cm, Breadth = 29 cm.",
-          "hindi": "From the question, we should notice Length = 36 cm, Breadth = 29 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2030,73 +891,12 @@
             "1 m 30 cm",
             "1 30"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about Length = 36 cm, Breadth = 29 cm.",
-              "hindi": "Here the question is asking about Length = 36 cm, Breadth = 29 cm."
-            },
-            {
-              "english": "The information given to us is Length = 36 cm, Breadth = 29 cm.",
-              "hindi": "The information given to us is Length = 36 cm, Breadth = 29 cm."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Length = 36 cm, Breadth = 29 cm.",
-              "hindi": "Given: Length = 36 cm, Breadth = 29 cm."
-            },
-            {
-              "english": "Formula: Perimeter of a rectangle = 2 × (Length + Breadth).",
-              "hindi": "Formula: Perimeter of a rectangle = 2 × (Length + Breadth)."
-            },
-            {
-              "english": "Perimeter = 2 × (36 + 29).",
-              "hindi": "Perimeter = 2 × (36 + 29)."
-            },
-            {
-              "english": "Perimeter = 2 × 65.",
-              "hindi": "Perimeter = 2 × 65."
-            },
-            {
-              "english": "Perimeter = 130 cm.",
-              "hindi": "Perimeter = 130 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 130 cm.",
-              "hindi": "So the final answer is 130 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2139,40 +939,7 @@
         "english": "Question 22.77.7(b)",
         "hindi": "Question 22.77.7(b)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about Length = 7 m, Breadth = 5 m.",
-          "hindi": "This question is about Length = 7 m, Breadth = 5 m."
-        },
-        {
-          "english": "From the question, we should notice Length = 7 m, Breadth = 5 m.",
-          "hindi": "From the question, we should notice Length = 7 m, Breadth = 5 m."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2189,73 +956,12 @@
             "24 m",
             "24"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about Length = 7 m, Breadth = 5 m.",
-              "hindi": "Here the question is asking about Length = 7 m, Breadth = 5 m."
-            },
-            {
-              "english": "The information given to us is Length = 7 m, Breadth = 5 m.",
-              "hindi": "The information given to us is Length = 7 m, Breadth = 5 m."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Length = 7 m, Breadth = 5 m.",
-              "hindi": "Given: Length = 7 m, Breadth = 5 m."
-            },
-            {
-              "english": "Formula: Perimeter of a rectangle = 2 × (Length + Breadth).",
-              "hindi": "Formula: Perimeter of a rectangle = 2 × (Length + Breadth)."
-            },
-            {
-              "english": "Perimeter = 2 × (7 + 5).",
-              "hindi": "Perimeter = 2 × (7 + 5)."
-            },
-            {
-              "english": "Perimeter = 2 × 12.",
-              "hindi": "Perimeter = 2 × 12."
-            },
-            {
-              "english": "Perimeter = 24 m.",
-              "hindi": "Perimeter = 24 m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 24 m.",
-              "hindi": "So the final answer is 24 m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2298,40 +1004,7 @@
         "english": "Question 22.77.7(c)",
         "hindi": "Question 22.77.7(c)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about Length = 2 m 60 cm, Breadth = 1 m 90 cm.",
-          "hindi": "This question is about Length = 2 m 60 cm, Breadth = 1 m 90 cm."
-        },
-        {
-          "english": "From the question, we should notice Length = 2 m 60 cm, Breadth = 1 m 90 cm.",
-          "hindi": "From the question, we should notice Length = 2 m 60 cm, Breadth = 1 m 90 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2348,73 +1021,12 @@
             "9 m",
             "9"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about Length = 2 m 60 cm, Breadth = 1 m 90 cm.",
-              "hindi": "Here the question is asking about Length = 2 m 60 cm, Breadth = 1 m 90 cm."
-            },
-            {
-              "english": "The information given to us is Length = 2 m 60 cm, Breadth = 1 m 90 cm.",
-              "hindi": "The information given to us is Length = 2 m 60 cm, Breadth = 1 m 90 cm."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Length = 2 m 60 cm, Breadth = 1 m 90 cm.",
-              "hindi": "Given: Length = 2 m 60 cm, Breadth = 1 m 90 cm."
-            },
-            {
-              "english": "Formula: Perimeter of a rectangle = 2 × (Length + Breadth).",
-              "hindi": "Formula: Perimeter of a rectangle = 2 × (Length + Breadth)."
-            },
-            {
-              "english": "Perimeter = 2 × (2.6 + 1.9).",
-              "hindi": "Perimeter = 2 × (2.6 + 1.9)."
-            },
-            {
-              "english": "Perimeter = 2 × 4.5.",
-              "hindi": "Perimeter = 2 × 4.5."
-            },
-            {
-              "english": "Perimeter = 9 m.",
-              "hindi": "Perimeter = 9 m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 9 m.",
-              "hindi": "So the final answer is 9 m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2457,40 +1069,7 @@
         "english": "Question 22.77.7(d)",
         "hindi": "Question 22.77.7(d)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about Length = 12.6 m, Breadth = 9.4 m.",
-          "hindi": "This question is about Length = 12.6 m, Breadth = 9.4 m."
-        },
-        {
-          "english": "From the question, we should notice Length = 12.6 m, Breadth = 9.4 m.",
-          "hindi": "From the question, we should notice Length = 12.6 m, Breadth = 9.4 m."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2507,73 +1086,12 @@
             "44 m",
             "44"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about Length = 12.6 m, Breadth = 9.4 m.",
-              "hindi": "Here the question is asking about Length = 12.6 m, Breadth = 9.4 m."
-            },
-            {
-              "english": "The information given to us is Length = 12.6 m, Breadth = 9.4 m.",
-              "hindi": "The information given to us is Length = 12.6 m, Breadth = 9.4 m."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Length = 12.6 m, Breadth = 9.4 m.",
-              "hindi": "Given: Length = 12.6 m, Breadth = 9.4 m."
-            },
-            {
-              "english": "Formula: Perimeter of a rectangle = 2 × (Length + Breadth).",
-              "hindi": "Formula: Perimeter of a rectangle = 2 × (Length + Breadth)."
-            },
-            {
-              "english": "Perimeter = 2 × (12.6 + 9.4).",
-              "hindi": "Perimeter = 2 × (12.6 + 9.4)."
-            },
-            {
-              "english": "Perimeter = 2 × 22.",
-              "hindi": "Perimeter = 2 × 22."
-            },
-            {
-              "english": "Perimeter = 44 m.",
-              "hindi": "Perimeter = 44 m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 44 m.",
-              "hindi": "So the final answer is 44 m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2616,40 +1134,7 @@
         "english": "Question 22.77.8",
         "hindi": "Question 22.77.8"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about The perimeter of a rectangle is 110 cm and its length is 35 cm. What is the breadth of the rectangle?",
-          "hindi": "This question is about The perimeter of a rectangle is 110 cm and its length is 35 cm. What is the breadth of the rectangle?"
-        },
-        {
-          "english": "From the question, we should notice The perimeter of a rectangle is 110 cm and its length is 35 cm. What is the breadth of the rectangle?",
-          "hindi": "From the question, we should notice The perimeter of a rectangle is 110 cm and its length is 35 cm. What is the breadth of the rectangle?"
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2666,73 +1151,12 @@
             "20 cm",
             "20"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about The perimeter of a rectangle is 110 cm and its length is 35 cm. What is the breadth of the rectangle?",
-              "hindi": "Here the question is asking about The perimeter of a rectangle is 110 cm and its length is 35 cm. What is the breadth of the rectangle?"
-            },
-            {
-              "english": "The information given to us is The perimeter of a rectangle is 110 cm and its length is 35 cm. What is the breadth of the rectangle?",
-              "hindi": "The information given to us is The perimeter of a rectangle is 110 cm and its length is 35 cm. What is the breadth of the rectangle?"
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Perimeter = 110 cm, Length = 35 cm.",
-              "hindi": "Given: Perimeter = 110 cm, Length = 35 cm."
-            },
-            {
-              "english": "Formula: Perimeter = 2 × (Length + Breadth).",
-              "hindi": "Formula: Perimeter = 2 × (Length + Breadth)."
-            },
-            {
-              "english": "So: Length + Breadth = Perimeter ÷ 2 = 110 ÷ 2 = 55 cm.",
-              "hindi": "So: Length + Breadth = Perimeter ÷ 2 = 110 ÷ 2 = 55 cm."
-            },
-            {
-              "english": "Breadth = 55 - 35.",
-              "hindi": "Breadth = 55 - 35."
-            },
-            {
-              "english": "Breadth = 20 cm.",
-              "hindi": "Breadth = 20 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 20 cm.",
-              "hindi": "So the final answer is 20 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2775,40 +1199,7 @@
         "english": "Question 22.77.9",
         "hindi": "Question 22.77.9"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about The perimeter of a rectangular garden is 420 m and its length is 120 m. What is its breadth?",
-          "hindi": "This question is about The perimeter of a rectangular garden is 420 m and its length is 120 m. What is its breadth?"
-        },
-        {
-          "english": "From the question, we should notice The perimeter of a rectangular garden is 420 m and its length is 120 m. What is its breadth?",
-          "hindi": "From the question, we should notice The perimeter of a rectangular garden is 420 m and its length is 120 m. What is its breadth?"
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2825,73 +1216,12 @@
             "90 m",
             "90"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about The perimeter of a rectangular garden is 420 m and its length is 120 m. What is its breadth?",
-              "hindi": "Here the question is asking about The perimeter of a rectangular garden is 420 m and its length is 120 m. What is its breadth?"
-            },
-            {
-              "english": "The information given to us is The perimeter of a rectangular garden is 420 m and its length is 120 m. What is its breadth?",
-              "hindi": "The information given to us is The perimeter of a rectangular garden is 420 m and its length is 120 m. What is its breadth?"
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Perimeter = 420 m, Length = 120 m.",
-              "hindi": "Given: Perimeter = 420 m, Length = 120 m."
-            },
-            {
-              "english": "Formula: Perimeter = 2 × (Length + Breadth).",
-              "hindi": "Formula: Perimeter = 2 × (Length + Breadth)."
-            },
-            {
-              "english": "So: Length + Breadth = Perimeter ÷ 2 = 420 ÷ 2 = 210 m.",
-              "hindi": "So: Length + Breadth = Perimeter ÷ 2 = 420 ÷ 2 = 210 m."
-            },
-            {
-              "english": "Breadth = 210 - 120.",
-              "hindi": "Breadth = 210 - 120."
-            },
-            {
-              "english": "Breadth = 90 m.",
-              "hindi": "Breadth = 90 m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 90 m.",
-              "hindi": "So the final answer is 90 m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2934,40 +1264,7 @@
         "english": "Question 22.77.10(a)",
         "hindi": "Question 22.77.10(a)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about 45 cm.",
-          "hindi": "This question is about 45 cm."
-        },
-        {
-          "english": "From the question, we should notice 45 cm.",
-          "hindi": "From the question, we should notice 45 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2984,69 +1281,12 @@
             "180 cm",
             "180"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about 45 cm.",
-              "hindi": "Here the question is asking about 45 cm."
-            },
-            {
-              "english": "The information given to us is 45 cm.",
-              "hindi": "The information given to us is 45 cm."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Side of square = 45 cm.",
-              "hindi": "Given: Side of square = 45 cm."
-            },
-            {
-              "english": "Formula: Perimeter of a square = 4 × side.",
-              "hindi": "Formula: Perimeter of a square = 4 × side."
-            },
-            {
-              "english": "Perimeter = 4 × 45.",
-              "hindi": "Perimeter = 4 × 45."
-            },
-            {
-              "english": "Perimeter = 180 cm.",
-              "hindi": "Perimeter = 180 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 180 cm.",
-              "hindi": "So the final answer is 180 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -3089,40 +1329,7 @@
         "english": "Question 22.77.10(b)",
         "hindi": "Question 22.77.10(b)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about 16 m.",
-          "hindi": "This question is about 16 m."
-        },
-        {
-          "english": "From the question, we should notice 16 m.",
-          "hindi": "From the question, we should notice 16 m."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -3139,69 +1346,12 @@
             "64 m",
             "64"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about 16 m.",
-              "hindi": "Here the question is asking about 16 m."
-            },
-            {
-              "english": "The information given to us is 16 m.",
-              "hindi": "The information given to us is 16 m."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Side of square = 16 m.",
-              "hindi": "Given: Side of square = 16 m."
-            },
-            {
-              "english": "Formula: Perimeter of a square = 4 × side.",
-              "hindi": "Formula: Perimeter of a square = 4 × side."
-            },
-            {
-              "english": "Perimeter = 4 × 16.",
-              "hindi": "Perimeter = 4 × 16."
-            },
-            {
-              "english": "Perimeter = 64 m.",
-              "hindi": "Perimeter = 64 m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 64 m.",
-              "hindi": "So the final answer is 64 m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -3244,40 +1394,7 @@
         "english": "Question 22.77.10(c)",
         "hindi": "Question 22.77.10(c)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about 2 m 10 cm.",
-          "hindi": "This question is about 2 m 10 cm."
-        },
-        {
-          "english": "From the question, we should notice 2 m 10 cm.",
-          "hindi": "From the question, we should notice 2 m 10 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -3296,69 +1413,12 @@
             "8 m 40 cm",
             "8 40"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about 2 m 10 cm.",
-              "hindi": "Here the question is asking about 2 m 10 cm."
-            },
-            {
-              "english": "The information given to us is 2 m 10 cm.",
-              "hindi": "The information given to us is 2 m 10 cm."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Side of square = 2 m 10 cm.",
-              "hindi": "Given: Side of square = 2 m 10 cm."
-            },
-            {
-              "english": "Formula: Perimeter of a square = 4 × side.",
-              "hindi": "Formula: Perimeter of a square = 4 × side."
-            },
-            {
-              "english": "Perimeter = 4 × 2.1.",
-              "hindi": "Perimeter = 4 × 2.1."
-            },
-            {
-              "english": "Perimeter = 8.4 m.",
-              "hindi": "Perimeter = 8.4 m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 8.4 m.",
-              "hindi": "So the final answer is 8.4 m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -3401,40 +1461,7 @@
         "english": "Question 22.77.10(d)",
         "hindi": "Question 22.77.10(d)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about 3 m 25 cm.",
-          "hindi": "This question is about 3 m 25 cm."
-        },
-        {
-          "english": "From the question, we should notice 3 m 25 cm.",
-          "hindi": "From the question, we should notice 3 m 25 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -3451,69 +1478,12 @@
             "13 m",
             "13"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Solve step by step and check each line. Units do not need to be typed.",
-            "hindi": "Solve step by step and check each line. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "See the step-by-step solution below.",
-            "hindi": "See the step-by-step solution below."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about 3 m 25 cm.",
-              "hindi": "Here the question is asking about 3 m 25 cm."
-            },
-            {
-              "english": "The information given to us is 3 m 25 cm.",
-              "hindi": "The information given to us is 3 m 25 cm."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "Given: Side of square = 3 m 25 cm.",
-              "hindi": "Given: Side of square = 3 m 25 cm."
-            },
-            {
-              "english": "Formula: Perimeter of a square = 4 × side.",
-              "hindi": "Formula: Perimeter of a square = 4 × side."
-            },
-            {
-              "english": "Perimeter = 4 × 3.25.",
-              "hindi": "Perimeter = 4 × 3.25."
-            },
-            {
-              "english": "Perimeter = 13 m.",
-              "hindi": "Perimeter = 13 m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 13 m.",
-              "hindi": "So the final answer is 13 m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -3556,40 +1526,7 @@
         "english": "Question 22.77.11",
         "hindi": "Question 22.77.11"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about The sides of a triangular field are 35 m, 60 m and 110 m. Find the length of wire required to fence the field.",
-          "hindi": "This question is about The sides of a triangular field are 35 m, 60 m and 110 m. Find the length of wire required to fence the field."
-        },
-        {
-          "english": "From the question, we should notice The sides of a triangular field are 35 m, 60 m and 110 m. Find the length of wire required to fence the field.",
-          "hindi": "From the question, we should notice The sides of a triangular field are 35 m, 60 m and 110 m. Find the length of wire required to fence the field."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -3606,61 +1543,12 @@
             "205 m",
             "205"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about The sides of a triangular field are 35 m, 60 m and 110 m. Find the length of wire required to fence the field.",
-              "hindi": "Here the question is asking about The sides of a triangular field are 35 m, 60 m and 110 m. Find the length of wire required to fence the field."
-            },
-            {
-              "english": "The information given to us is The sides of a triangular field are 35 m, 60 m and 110 m. Find the length of wire required to fence the field.",
-              "hindi": "The information given to us is The sides of a triangular field are 35 m, 60 m and 110 m. Find the length of wire required to fence the field."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. For a rectangle, perimeter = 2 x (length + breadth).",
-              "hindi": "A worked pattern for the same kind of question is this. For a rectangle, perimeter = 2 x (length + breadth)."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 205 m.",
-              "hindi": "When you apply the rule carefully, you reach 205 m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 205 m.",
-              "hindi": "So the final answer is 205 m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -3703,40 +1591,7 @@
         "english": "Question 22.77.12",
         "hindi": "Question 22.77.12"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about A rectangular picture frame is 54 cm long and 36 cm wide. What will be the length of the wooden frame required to make it?",
-          "hindi": "This question is about A rectangular picture frame is 54 cm long and 36 cm wide. What will be the length of the wooden frame required to make it?"
-        },
-        {
-          "english": "From the question, we should notice A rectangular picture frame is 54 cm long and 36 cm wide. What will be the length of the wooden frame required to make it?",
-          "hindi": "From the question, we should notice A rectangular picture frame is 54 cm long and 36 cm wide. What will be the length of the wooden frame required to make it?"
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -3753,61 +1608,12 @@
             "1 m 80 cm",
             "1 80"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about A rectangular picture frame is 54 cm long and 36 cm wide. What will be the length of the wooden frame required to make it?",
-              "hindi": "Here the question is asking about A rectangular picture frame is 54 cm long and 36 cm wide. What will be the length of the wooden frame required to make it?"
-            },
-            {
-              "english": "The information given to us is A rectangular picture frame is 54 cm long and 36 cm wide. What will be the length of the wooden frame required to make it?",
-              "hindi": "The information given to us is A rectangular picture frame is 54 cm long and 36 cm wide. What will be the length of the wooden frame required to make it?"
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. For a rectangle, perimeter = 2 x (length + breadth).",
-              "hindi": "A worked pattern for the same kind of question is this. For a rectangle, perimeter = 2 x (length + breadth)."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 1 m 80 cm.",
-              "hindi": "When you apply the rule carefully, you reach 1 m 80 cm."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 1 m 80 cm.",
-              "hindi": "So the final answer is 1 m 80 cm."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -3850,40 +1656,7 @@
         "english": "Question 22.77.13",
         "hindi": "Question 22.77.13"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about A wall is built around a rectangular plot of land of length 63 m and breadth 47 m. Find the cost of constructing the wall at Rs 130 per metre.",
-          "hindi": "This question is about A wall is built around a rectangular plot of land of length 63 m and breadth 47 m. Find the cost of constructing the wall at Rs 130 per metre."
-        },
-        {
-          "english": "From the question, we should notice A wall is built around a rectangular plot of land of length 63 m and breadth 47 m. Find the cost of constructing the wall at Rs 130 per metre.",
-          "hindi": "From the question, we should notice A wall is built around a rectangular plot of land of length 63 m and breadth 47 m. Find the cost of constructing the wall at Rs 130 per metre."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -3900,61 +1673,12 @@
             "Rs 28600",
             "28600"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about A wall is built around a rectangular plot of land of length 63 m and breadth 47 m. Find the cost of constructing the wall at Rs 130 per metre.",
-              "hindi": "Here the question is asking about A wall is built around a rectangular plot of land of length 63 m and breadth 47 m. Find the cost of constructing the wall at Rs 130 per metre."
-            },
-            {
-              "english": "The information given to us is A wall is built around a rectangular plot of land of length 63 m and breadth 47 m. Find the cost of constructing the wall at Rs 130 per metre.",
-              "hindi": "The information given to us is A wall is built around a rectangular plot of land of length 63 m and breadth 47 m. Find the cost of constructing the wall at Rs 130 per metre."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. For a rectangle, perimeter = 2 x (length + breadth).",
-              "hindi": "A worked pattern for the same kind of question is this. For a rectangle, perimeter = 2 x (length + breadth)."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach Rs 28600.",
-              "hindi": "When you apply the rule carefully, you reach Rs 28600."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is Rs 28600.",
-              "hindi": "So the final answer is Rs 28600."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -3997,40 +1721,7 @@
         "english": "Question 22.77.14",
         "hindi": "Question 22.77.14"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about Tanvy runs 3 times around a square field each of whose sides measures 95 m. How much distance does she run?",
-          "hindi": "This question is about Tanvy runs 3 times around a square field each of whose sides measures 95 m. How much distance does she run?"
-        },
-        {
-          "english": "From the question, we should notice Tanvy runs 3 times around a square field each of whose sides measures 95 m. How much distance does she run?",
-          "hindi": "From the question, we should notice Tanvy runs 3 times around a square field each of whose sides measures 95 m. How much distance does she run?"
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -4047,61 +1738,12 @@
             "1140 m",
             "1140"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about Tanvy runs 3 times around a square field each of whose sides measures 95 m. How much distance does she run?",
-              "hindi": "Here the question is asking about Tanvy runs 3 times around a square field each of whose sides measures 95 m. How much distance does she run?"
-            },
-            {
-              "english": "The information given to us is Tanvy runs 3 times around a square field each of whose sides measures 95 m. How much distance does she run?",
-              "hindi": "The information given to us is Tanvy runs 3 times around a square field each of whose sides measures 95 m. How much distance does she run?"
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. For a rectangle, perimeter = 2 x (length + breadth).",
-              "hindi": "A worked pattern for the same kind of question is this. For a rectangle, perimeter = 2 x (length + breadth)."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 1140 m.",
-              "hindi": "When you apply the rule carefully, you reach 1140 m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 1140 m.",
-              "hindi": "So the final answer is 1140 m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -4144,40 +1786,7 @@
         "english": "Question 22.77.15",
         "hindi": "Question 22.77.15"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-          "hindi": "Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-        },
-        {
-          "english": "This question is about The total length of the fence around a square field is 308 m. Find the length of each side of the field.",
-          "hindi": "This question is about The total length of the fence around a square field is 308 m. Find the length of each side of the field."
-        },
-        {
-          "english": "From the question, we should notice The total length of the fence around a square field is 308 m. Find the length of each side of the field.",
-          "hindi": "From the question, we should notice The total length of the fence around a square field is 308 m. Find the length of each side of the field."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-          "hindi": "To move toward the answer, use this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-        },
-        {
-          "english": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth).",
-          "hindi": "A similar model helps here. For a rectangle, perimeter = 2 x (length + breadth)."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -4194,61 +1803,12 @@
             "77 m",
             "77"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once.",
-              "hindi": "We begin with the main idea used in this exercise. Perimeter means the total distance around a figure, so every outer side must be included exactly once."
-            },
-            {
-              "english": "Here the question is asking about The total length of the fence around a square field is 308 m. Find the length of each side of the field.",
-              "hindi": "Here the question is asking about The total length of the fence around a square field is 308 m. Find the length of each side of the field."
-            },
-            {
-              "english": "The information given to us is The total length of the fence around a square field is 308 m. Find the length of each side of the field.",
-              "hindi": "The information given to us is The total length of the fence around a square field is 308 m. Find the length of each side of the field."
-            },
-            {
-              "english": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula.",
-              "hindi": "So we follow this method. Write the lengths of all outer sides, convert units if needed, and then add them or use the correct formula."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. For a rectangle, perimeter = 2 x (length + breadth).",
-              "hindi": "A worked pattern for the same kind of question is this. For a rectangle, perimeter = 2 x (length + breadth)."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 77 m.",
-              "hindi": "When you apply the rule carefully, you reach 77 m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 77 m.",
-              "hindi": "So the final answer is 77 m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [

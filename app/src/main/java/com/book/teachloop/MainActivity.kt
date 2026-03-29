@@ -479,8 +479,8 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         }
 
         val detailParts = listOfNotNull(
-            result.wrongReason?.display(appState.language),
-            result.supportExample?.display(appState.language)?.let {
+            result.wrongReason?.display(appState.language)?.takeIf { it.isNotBlank() },
+            result.supportExample?.display(appState.language)?.takeIf { it.isNotBlank() }?.let {
                 "${ui("Example", "à¤‰à¤¦à¤¾à¤¹à¤°à¤£")}: $it"
             },
         )
@@ -490,7 +490,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun openQuestionSolution() {
-        if (latestIncorrectQuestion == null || latestQuizResult == null) return
+        if (latestIncorrectQuestion == null || latestQuizResult == null || !hasSolutionPreview(latestIncorrectQuestion)) return
 
         solutionPreviewActive = true
         lastSpokenToken = null
@@ -1313,12 +1313,16 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         }
         binding.feedbackBodyText.text = listOfNotNull(
             if (fromWrongAnswerPrompt) result.message.display(appState.language) else null,
-            result.wrongReason?.display(appState.language),
-            result.supportExample?.display(appState.language)?.let { "${ui("Example", "à¤‰à¤¦à¤¾à¤¹à¤°à¤£")}: $it" },
+            result.wrongReason?.display(appState.language)?.takeIf { it.isNotBlank() },
+            result.supportExample?.display(appState.language)?.takeIf { it.isNotBlank() }?.let { "${ui("Example", "à¤‰à¤¦à¤¾à¤¹à¤°à¤£")}: $it" },
             result.reteachParagraphs.takeIf { !fromWrongAnswerPrompt && it.isNotEmpty() }?.joinToString("\n") { it.display(appState.language) },
         ).joinToString("\n\n")
-        binding.feedbackActionButton.isVisible = latestIncorrectQuestion != null
+        binding.feedbackActionButton.isVisible = hasSolutionPreview(latestIncorrectQuestion)
         binding.feedbackActionButton.text = ui("See solution", "समाधान देखें")
+    }
+
+    private fun hasSolutionPreview(question: RenderedQuestion?): Boolean {
+        return question?.reteachParagraphs?.isNotEmpty() == true
     }
 
     private fun renderMetricBars(report: ReportSummary) {

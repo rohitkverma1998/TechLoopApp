@@ -29,44 +29,7 @@
         "english": "Plane and Point",
         "hindi": "तल और बिंदु"
       },
-      "explanationParagraphs": [
-        {
-          "english": "In geometry, a point and a plane are two very basic ideas. A point tells us an exact place, and a plane means a flat surface. If you understand these two ideas well, many other geometry topics become easier.",
-          "hindi": "ज्यामिति में बिंदु और समतल दो बहुत बुनियादी विचार हैं। बिंदु हमें एक ठीक स्थान बताता है, और समतल का मतलब एक सपाट सतह होता है। अगर आप इन दोनों बातों को अच्छी तरह समझ लेते हैं, तो ज्यामिति के आगे के कई पाठ आसान लगते हैं।"
-        },
-        {
-          "english": "A point shows one exact position. We draw it as a tiny dot and name it with a capital letter like A, B, or C. The dot we draw is only a sign, because in maths a point has no length, no width, and no thickness. It only tells where something is.",
-          "hindi": "बिंदु एक बिल्कुल निश्चित स्थान दिखाता है। हम इसे एक छोटे से डॉट की तरह बनाते हैं और इसका नाम A, B या C जैसे बड़े अक्षरों से लिखते हैं। जो डॉट हम बनाते हैं, वह केवल एक निशान होता है, क्योंकि गणित में बिंदु की न लंबाई होती है, न चौड़ाई, न मोटाई। वह केवल जगह बताता है।"
-        },
-        {
-          "english": "A plane is a flat surface with no bends or curves. In maths, we imagine a plane goes on and on in all directions, even though we draw only a part of it. A notebook page, a classroom board, a wall, and a table top are good real-life examples to help us imagine a plane.",
-          "hindi": "समतल एक सपाट सतह होती है जिसमें कोई मोड़ या वक्र नहीं होता। गणित में हम मानते हैं कि समतल हर दिशा में बहुत दूर तक फैला होता है, भले ही हम उसका केवल एक छोटा भाग बनाएं। कॉपी का पन्ना, कक्षा का बोर्ड, दीवार और मेज की ऊपरी सतह समतल को समझने के अच्छे जीवन के उदाहरण हैं।"
-        },
-        {
-          "english": "A point can lie on a plane. For example, if you make a dot on a sheet of paper, the dot shows a point and the paper acts like a plane. Many points can be on the same plane, just like many dots can be made on one page.",
-          "hindi": "एक बिंदु समतल पर हो सकता है। जैसे यदि आप कागज पर एक डॉट बनाते हैं, तो वह डॉट एक बिंदु दिखाता है और कागज समतल जैसा काम करता है। एक ही समतल पर बहुत सारे बिंदु हो सकते हैं, जैसे एक ही पन्ने पर बहुत सारे डॉट बनाए जा सकते हैं।"
-        },
-        {
-          "english": "There is no special formula for point and plane because this topic is mostly about understanding the idea clearly. The key rule is simple: a point means an exact place, and a plane means a flat surface. A common mistake is to think a point is a small circle or has size, but a point only shows location. Another common mistake is to call a curved thing, like a ball, a plane, but a plane must be flat.",
-          "hindi": "बिंदु और समतल के लिए कोई खास सूत्र नहीं होता, क्योंकि यह पाठ ज़्यादातर सही समझ पर आधारित है। याद रखने का मुख्य नियम बहुत सरल है: बिंदु एक ठीक स्थान बताता है और समतल एक सपाट सतह होता है। एक सामान्य गलती यह है कि बच्चे बिंदु को छोटा गोला मान लेते हैं या सोचते हैं कि उसका आकार होता है, लेकिन बिंदु केवल स्थान बताता है। दूसरी सामान्य गलती यह है कि गेंद जैसी मुड़ी हुई चीज़ को समतल मान लिया जाए, जबकि समतल हमेशा सपाट होता है।"
-        },
-        {
-          "english": "Now look at an easy worked solution. Question: Which statement is correct about a point? Step 1: Remember the rule that a point shows an exact location. Step 2: Check wrong ideas such as a point is a line, a point is a flat surface, or a point has length and width. Step 3: Keep the true idea only. So the correct statement is that a point shows an exact position.",
-          "hindi": "अब एक आसान हल किया हुआ प्रश्न देखिए। प्रश्न: बिंदु के बारे में कौन-सा कथन सही है? चरण 1: वह नियम याद कीजिए कि बिंदु एक ठीक स्थान दिखाता है। चरण 2: गलत बातों को हटाइए, जैसे बिंदु एक रेखा है, बिंदु एक सपाट सतह है, या बिंदु की लंबाई और चौड़ाई होती है। चरण 3: अब केवल सही बात बचती है। इसलिए सही कथन है कि बिंदु एक निश्चित स्थान दिखाता है।"
-        },
-        {
-          "english": "Here is a medium worked solution. Question: Meena makes three tiny dots on one page of her notebook. Are these dots points, and is the page a plane? Step 1: A tiny dot is used to show a point, so the three dots represent three points. Step 2: A notebook page is flat, so it is a good model of a plane. Step 3: Since all three dots are on the same page, all three points are on the same plane. The final answer is yes, the dots are points and the page is a plane.",
-          "hindi": "अब एक थोड़ा मध्यम स्तर का हल किया हुआ प्रश्न देखिए। प्रश्न: मीना अपनी कॉपी के एक पन्ने पर तीन छोटे डॉट बनाती है। क्या ये डॉट बिंदु हैं, और क्या वह पन्ना एक समतल है? चरण 1: छोटा डॉट बिंदु दिखाने के लिए बनाया जाता है, इसलिए ये तीनों डॉट तीन बिंदु दर्शाते हैं। चरण 2: कॉपी का पन्ना सपाट होता है, इसलिए वह समतल का अच्छा उदाहरण है। चरण 3: क्योंकि तीनों डॉट उसी एक पन्ने पर हैं, इसलिए तीनों बिंदु एक ही समतल पर हैं। अंतिम उत्तर है हाँ, डॉट बिंदु हैं और पन्ना समतल है।"
-        },
-        {
-          "english": "Here is a harder worked solution. Question: A wall, the tip of a pin, and a football are shown. Which one can represent a plane, which one can represent a point, and which one cannot represent a plane? Step 1: A plane must be flat, so the wall can represent a plane. Step 2: A point is an exact place with no size, so the tip of a pin can represent a point. Step 3: A football is curved, not flat, so it cannot represent a plane. The final answer is wall for plane, pin tip for point, and football cannot be a plane.",
-          "hindi": "अब एक थोड़ा कठिन हल किया हुआ प्रश्न देखिए। प्रश्न: एक दीवार, एक पिन की नोक और एक फुटबॉल दिखाई गई हैं। इनमें से कौन समतल को दिखा सकता है, कौन बिंदु को दिखा सकता है, और कौन समतल नहीं हो सकता? चरण 1: समतल सपाट होना चाहिए, इसलिए दीवार समतल को दिखा सकती है। चरण 2: बिंदु एक ठीक स्थान होता है, इसलिए पिन की नोक बिंदु को दिखा सकती है। चरण 3: फुटबॉल मुड़ी हुई होती है, सपाट नहीं, इसलिए वह समतल नहीं हो सकती। अंतिम उत्तर है कि दीवार समतल है, पिन की नोक बिंदु है, और फुटबॉल समतल नहीं है।"
-        },
-        {
-          "english": "To avoid mistakes, always ask two questions in your mind: Is it showing an exact place, or is it showing a flat surface? If it shows one exact place, think of a point. If it shows a flat surface, think of a plane. Remember this simple idea: points tell where, and planes give a flat place where points and shapes can be drawn.",
-          "hindi": "गलतियों से बचने के लिए अपने मन में हमेशा दो सवाल पूछिए: क्या यह एक ठीक स्थान दिखा रहा है, या यह एक सपाट सतह दिखा रहा है? यदि वह एक ठीक स्थान दिखाए, तो उसे बिंदु समझिए। यदि वह एक सपाट सतह दिखाए, तो उसे समतल समझिए। यह सरल बात याद रखिए: बिंदु बताता है कहाँ, और समतल वह सपाट जगह देता है जहाँ बिंदु और आकृतियाँ बनाई जा सकती हैं।"
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -97,53 +60,12 @@
           ],
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
-          "hint": {
-            "english": "Remember the smallest geometric idea.",
-            "hindi": "ज्यामिति की सबसे छोटी अवधारणा याद कीजिए।"
-          },
-          "wrongReason": {
-            "english": "The main idea in plane and point was not used correctly.",
-            "hindi": "तल और बिंदु के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
-          },
-          "supportExample": {
-            "english": "A point only marks a position.",
-            "hindi": "बिंदु केवल एक स्थिति दर्शाता है।"
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": {
-            "english": "Understanding Plane and Point",
-            "hindi": "तल और बिंदु को समझें"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "This question is solved by using the same idea from the topic. A point has no length, breadth or thickness. A plane is a flat surface extending in all directions.",
-              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। बिंदु की न लंबाई होती है, न चौड़ाई और न मोटाई। तल एक समतल सतह है जो चारों ओर फैली होती है।"
-            },
-            {
-              "english": "The question asks us to work with this situation: Which statement is correct about a point?",
-              "hindi": "प्रश्न हमें यह स्थिति देता है: बिंदु के बारे में कौन-सा कथन सही है?"
-            },
-            {
-              "english": "To move from the question to the answer, use this idea directly: Remember the smallest geometric idea.",
-              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: ज्यामिति की सबसे छोटी अवधारणा याद कीजिए।"
-            },
-            {
-              "english": "A similar example makes the method clear. A dot marked A represents a point.",
-              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। A नाम से बना छोटा बिंदु, एक point दर्शाता है।"
-            },
-            {
-              "english": "Using the same method here, we get: A point only marks a position.",
-              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: बिंदु केवल एक स्थिति दर्शाता है।"
-            },
-            {
-              "english": "After solving, choose the option that matches the idea and the final value.",
-              "hindi": "हल करने के बाद वही विकल्प चुनिए जो सही विचार और अंतिम मान से मेल खाता हो।"
-            },
-            {
-              "english": "So the correct answer is It has no length, breadth or thickness.",
-              "hindi": "इसलिए सही उत्तर उसकी न लंबाई, न चौड़ाई, न मोटाई होती है है।"
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -182,36 +104,7 @@
         "english": "Line Segment",
         "hindi": "रेखाखंड"
       },
-      "explanationParagraphs": [
-        {
-          "english": "A line segment is a straight part of a line with two fixed end-points. If you mark point A and point B and join them with a straight stroke, you get line segment AB. It has a clear beginning and a clear ending, so its length can be measured. This is why a line segment is different from a line, which goes on forever both ways, and a ray, which has only one end-point.",
-          "hindi": "रेखा खंड एक सीधी रेखा का वह भाग होता है जिसके दो निश्चित अंत बिंदु होते हैं। अगर आप बिंदु A और बिंदु B बनाकर उन्हें सीधी रेखा से जोड़ते हैं, तो रेखा खंड AB बनता है। इसका साफ शुरू और साफ अंत होता है, इसलिए इसकी लंबाई नापी जा सकती है। इसी कारण रेखा खंड, रेखा और किरण से अलग होता है। रेखा दोनों ओर बिना रुके चलती रहती है, जबकि किरण का केवल एक अंत बिंदु होता है।"
-        },
-        {
-          "english": "For this topic, there is no special formula like area or perimeter formulas. The main rule is that a line segment always has two end-points and one fixed length. We find its length by measuring from one end-point to the other. If a segment starts at 2 cm on a ruler and ends at 8 cm, then its length is 8 cm minus 2 cm, which is 6 cm.",
-          "hindi": "इस विषय में क्षेत्रफल या परिमाप की तरह कोई खास सूत्र नहीं होता। सबसे जरूरी नियम यह है कि रेखा खंड के हमेशा दो अंत बिंदु होते हैं और उसकी एक निश्चित लंबाई होती है। इसकी लंबाई एक अंत बिंदु से दूसरे अंत बिंदु तक नापी जाती है। अगर कोई रेखा खंड स्केल पर 2 सेमी से शुरू होकर 8 सेमी तक जाता है, तो उसकी लंबाई 8 सेमी में से 2 सेमी घटाकर निकाली जाती है, यानी 6 सेमी।"
-        },
-        {
-          "english": "We see line segments in real life all the time. A tightly stretched string between two nails looks like a line segment because it has two ends. The straight edge of a book or a ruler is also like a line segment. A road map may show one short straight road between two places as a line segment.",
-          "hindi": "हम रोजमर्रा की जिंदगी में रेखा खंड जैसी चीजें देखते हैं। दो कीलों के बीच कसकर बंधी हुई डोरी रेखा खंड जैसी लगती है, क्योंकि उसके दो सिरे होते हैं। किताब या स्केल का सीधा किनारा भी रेखा खंड जैसा होता है। नक्शे में दो जगहों को जोड़ने वाली छोटी सीधी सड़क को भी रेखा खंड की तरह समझा जा सकता है।"
-        },
-        {
-          "english": "Now think about the question: which figure has two end-points? First, remember the facts. A line has no end-points. A ray has one end-point. A line segment has two end-points. So the figure with two end-points is a line segment. The answer is line segment.",
-          "hindi": "अब इस सवाल को समझो: किस आकृति के दो अंत बिंदु होते हैं? पहले बात याद करो। रेखा के कोई अंत बिंदु नहीं होते। किरण का एक अंत बिंदु होता है। रेखा खंड के दो अंत बिंदु होते हैं। इसलिए जिस आकृति के दो अंत बिंदु होते हैं, वह रेखा खंड है। सही उत्तर रेखा खंड है।"
-        },
-        {
-          "english": "Suppose point P is at 1 cm on a ruler and point Q is at 6 cm on the same ruler. We want the length of line segment PQ. Start with the bigger mark, which is 6 cm. Then subtract the smaller mark, which is 1 cm. 6 minus 1 equals 5. So the length of line segment PQ is 5 cm.",
-          "hindi": "मान लो स्केल पर बिंदु P, 1 सेमी पर है और बिंदु Q, 6 सेमी पर है। हमें रेखा खंड PQ की लंबाई निकालनी है। पहले बड़ा अंक लो, जो 6 सेमी है। फिर छोटा अंक घटाओ, जो 1 सेमी है। 6 में से 1 घटाने पर 5 मिलता है। इसलिए रेखा खंड PQ की लंबाई 5 सेमी है।"
-        },
-        {
-          "english": "Now take a slightly harder example. A path is made of three straight line segments of 3 m, 4 m, and 5 m. To find the total straight distance, add the lengths one by one. First add 3 m and 4 m to get 7 m. Then add 5 m. 7 m plus 5 m equals 12 m. So the total length of the three line segments is 12 m.",
-          "hindi": "अब थोड़ा कठिन उदाहरण लो। एक रास्ता तीन सीधे रेखा खंडों से बना है जिनकी लंबाइयाँ 3 मीटर, 4 मीटर और 5 मीटर हैं। पूरी सीधी दूरी निकालने के लिए इन लंबाइयों को एक-एक करके जोड़ो। पहले 3 मीटर और 4 मीटर जोड़ो, तो 7 मीटर मिलता है। फिर इसमें 5 मीटर जोड़ो। 7 मीटर और 5 मीटर मिलकर 12 मीटर होते हैं। इसलिए तीनों रेखा खंडों की कुल लंबाई 12 मीटर है।"
-        },
-        {
-          "english": "Children often make a few common mistakes here. Some think a curved line is also a line segment, but a line segment must be straight. Some forget that it must have exactly two end-points. Some measure wrongly because they do not start reading the ruler carefully. Always check that the figure is straight, count the two end-points, and measure from one end to the other. If you remember these ideas, line segments become easy to understand.",
-          "hindi": "इस पाठ में बच्चे कुछ सामान्य गलतियाँ करते हैं। कुछ बच्चे मुड़ी हुई रेखा को भी रेखा खंड समझ लेते हैं, जबकि रेखा खंड हमेशा सीधा होता है। कुछ बच्चे यह भूल जाते हैं कि इसके ठीक दो अंत बिंदु होने चाहिए। कुछ बच्चे स्केल सही तरह से पढ़े बिना लंबाई गलत नाप लेते हैं। इसलिए हमेशा देखो कि आकृति सीधी है, उसके दो अंत बिंदु हैं, और लंबाई एक सिरे से दूसरे सिरे तक सही नापी गई है। ये बातें याद रहेंगी तो रेखा खंड बहुत आसान लगेगा।"
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -242,53 +135,12 @@
           ],
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
-          "hint": {
-            "english": "Think of the figure with a start and an end.",
-            "hindi": "उस आकृति के बारे में सोचिए जिसका आरंभ और अंत दोनों हो।"
-          },
-          "wrongReason": {
-            "english": "The main idea in line segment was not used correctly.",
-            "hindi": "रेखाखंड के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
-          },
-          "supportExample": {
-            "english": "A line segment begins at one point and ends at another.",
-            "hindi": "रेखाखंड एक बिंदु से शुरू होकर दूसरे पर समाप्त होता है।"
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": {
-            "english": "Understanding Line Segment",
-            "hindi": "रेखाखंड को समझें"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "This question is solved by using the same idea from the topic. A line segment has two end-points and a fixed length.",
-              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। रेखाखंड के दो सिरे होते हैं और उसकी एक निश्चित लंबाई होती है।"
-            },
-            {
-              "english": "The question asks us to work with this situation: Which figure has two end-points?",
-              "hindi": "प्रश्न हमें यह स्थिति देता है: किस आकृति के दो सिरे होते हैं?"
-            },
-            {
-              "english": "To move from the question to the answer, use this idea directly: Think of the figure with a start and an end.",
-              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: उस आकृति के बारे में सोचिए जिसका आरंभ और अंत दोनों हो।"
-            },
-            {
-              "english": "A similar example makes the method clear. Segment AB has end-points A and B.",
-              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। रेखाखंड AB के दो सिरे A और B होते हैं।"
-            },
-            {
-              "english": "Using the same method here, we get: A line segment begins at one point and ends at another.",
-              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: रेखाखंड एक बिंदु से शुरू होकर दूसरे पर समाप्त होता है।"
-            },
-            {
-              "english": "After solving, choose the option that matches the idea and the final value.",
-              "hindi": "हल करने के बाद वही विकल्प चुनिए जो सही विचार और अंतिम मान से मेल खाता हो।"
-            },
-            {
-              "english": "So the correct answer is Line segment.",
-              "hindi": "इसलिए सही उत्तर रेखाखंड है।"
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -327,40 +179,7 @@
         "english": "Line",
         "hindi": "रेखा"
       },
-      "explanationParagraphs": [
-        {
-          "english": "In maths, a line is a straight path that has no beginning point and no ending point. It goes on forever in both directions. Because it never stops, we cannot measure the full length of a line. In class 5 maths, when we say line, we mean a straight line, not a curved shape.",
-          "hindi": "गणित में रेखा एक सीधा रास्ता होती है जिसका न शुरू का बिंदु होता है और न अंत का बिंदु। यह दोनों दिशाओं में हमेशा आगे बढ़ती रहती है। इसलिए हम रेखा की पूरी लंबाई नहीं नाप सकते। कक्षा 5 के गणित में रेखा का मतलब सीधी रेखा होता है, कोई टेढ़ी या मुड़ी हुई आकृति नहीं।"
-        },
-        {
-          "english": "A line does not have a calculation formula like addition or area. The main rule to remember is this: a line is straight and endless on both sides. We usually draw a small part of it on paper and show arrow marks at both ends to tell that it keeps going. This makes it different from a line segment, which has two endpoints, and a ray, which has one endpoint and goes on forever in one direction.",
-          "hindi": "रेखा के लिए जोड़, क्षेत्रफल या परिमाप जैसा कोई गिनती वाला सूत्र नहीं होता। याद रखने का मुख्य नियम यह है कि रेखा सीधी होती है और दोनों ओर कभी खत्म नहीं होती। कागज पर हम उसका केवल छोटा सा भाग बनाते हैं और दोनों सिरों पर तीर के निशान दिखाते हैं, ताकि समझ आए कि वह आगे भी चलती रहेगी। यही बात उसे रेखाखंड से अलग बनाती है, जिसके दो सिरे होते हैं, और किरण से भी अलग बनाती है, जिसका एक सिरा होता है और जो केवल एक दिशा में आगे जाती है।"
-        },
-        {
-          "english": "Real objects are not perfect lines, but they can help us imagine one. A tightly stretched wire, the straight edge of a ruler, and the far horizon can all give the idea of a line. Remember that these are only examples, because real things have thickness and usually end somewhere, but a maths line is thinner than a thread and never ends.",
-          "hindi": "असल दुनिया की चीजें पूरी तरह गणित वाली रेखा नहीं होतीं, फिर भी वे हमें उसका विचार समझाने में मदद करती हैं। तनी हुई तार, स्केल की सीधी किनारी, और दूर का क्षितिज रेखा का आभास दे सकते हैं। लेकिन याद रखो, ये केवल उदाहरण हैं, क्योंकि असली चीजों की मोटाई होती है और वे कहीं न कहीं खत्म भी हो जाती हैं, जबकि गणित की रेखा बहुत पतली मानी जाती है और कभी खत्म नहीं होती।"
-        },
-        {
-          "english": "Suppose the question is: which figure extends endlessly in both directions? First, we look for the figure that is straight. Next, we check both ends carefully. If there is an arrow on the left end and an arrow on the right end, it means the figure continues forever on both sides. That matches the meaning of a line, so the correct answer is line.",
-          "hindi": "मान लो प्रश्न है: कौन सी आकृति दोनों दिशाओं में बिना रुके बढ़ती है? पहले हम देखते हैं कि आकृति सीधी है या नहीं। फिर हम उसके दोनों सिरों को ध्यान से देखते हैं। यदि बाएँ सिरे पर भी तीर है और दाएँ सिरे पर भी तीर है, तो इसका अर्थ है कि वह आकृति दोनों ओर हमेशा चलती रहेगी। यही रेखा की पहचान है, इसलिए सही उत्तर रेखा है।"
-        },
-        {
-          "english": "Now take a slightly harder question. A child draws a straight figure with one dot at one end and one arrow at the other end and says it is a line. We check it slowly. The dot shows one fixed endpoint. The arrow shows it goes on forever only on one side. A true line must go on forever on both sides, so this figure is not a line. It is a ray. So the child’s answer is wrong because one endpoint changes the figure.",
-          "hindi": "अब थोड़ा कठिन प्रश्न देखो। एक बच्चा एक सीधी आकृति बनाता है जिसके एक सिरे पर बिंदु है और दूसरे सिरे पर तीर है, और वह कहता है कि यह रेखा है। हम इसे धीरे-धीरे जाँचते हैं। बिंदु बताता है कि वहाँ एक तय सिरा है। तीर बताता है कि आकृति केवल एक ओर बहुत दूर तक जाती है। सच्ची रेखा दोनों ओर चलती रहती है, इसलिए यह रेखा नहीं है। यह किरण है। इसलिए बच्चे का उत्तर गलत है, क्योंकि एक सिरा होने से आकृति बदल जाती है।"
-        },
-        {
-          "english": "Here is a harder one. Meena draws three straight figures. The first has two dots at the ends. The second has one dot and one arrow. The third has arrows at both ends. We compare them one by one. The first cannot be a line because it stops at both ends, so it is a line segment. The second cannot be a line because it stops at one end, so it is a ray. The third fits the rule because it has no endpoints and continues forever in both directions. Therefore, the third figure is the line.",
-          "hindi": "अब एक और कठिन उदाहरण लो। मीना तीन सीधी आकृतियाँ बनाती है। पहली के दोनों सिरों पर बिंदु हैं। दूसरी में एक सिरे पर बिंदु है और दूसरे पर तीर है। तीसरी के दोनों सिरों पर तीर हैं। अब हम एक-एक करके तुलना करते हैं। पहली आकृति रेखा नहीं हो सकती, क्योंकि वह दोनों सिरों पर रुक जाती है, इसलिए वह रेखाखंड है। दूसरी आकृति रेखा नहीं हो सकती, क्योंकि वह एक सिरे पर रुकती है, इसलिए वह किरण है। तीसरी आकृति नियम पर खरी उतरती है, क्योंकि वह दोनों दिशाओं में चलती रहती है। इसलिए तीसरी आकृति रेखा है।"
-        },
-        {
-          "english": "Common mistakes happen when students look only at the middle of the figure and ignore the ends. Some children think every straight drawing is a line, but the ends are what decide the name. Another mistake is calling a line segment a line just because it is straight. Some also think a line can be measured fully with a ruler, but only a drawn part can be measured, not the complete line because it never ends.",
-          "hindi": "रेखा पहचानते समय सबसे आम गलती यह होती है कि बच्चे केवल बीच का भाग देखते हैं और सिरों पर ध्यान नहीं देते। कुछ बच्चे सोचते हैं कि हर सीधी आकृति रेखा होती है, लेकिन सही नाम सिरों से तय होता है। एक और गलती यह है कि सीधी रेखाखंड को भी रेखा कह दिया जाता है। कुछ बच्चे यह भी सोचते हैं कि रेखा को स्केल से पूरा नापा जा सकता है, जबकि हम केवल उसका बना हुआ छोटा हिस्सा नाप सकते हैं, पूरी रेखा नहीं, क्योंकि वह कभी खत्म नहीं होती।"
-        },
-        {
-          "english": "So the safest way to identify a line is to ask two simple questions in your mind. Is it straight? Does it continue forever in both directions? If the answer to both is yes, then it is a line. If it stops at one end, it is a ray. If it stops at both ends, it is a line segment.",
-          "hindi": "इसलिए रेखा पहचानने का सबसे सुरक्षित तरीका यह है कि मन में दो सवाल पूछो। क्या आकृति सीधी है? क्या वह दोनों दिशाओं में हमेशा आगे बढ़ती है? अगर दोनों का उत्तर हाँ है, तो वह रेखा है। अगर वह एक सिरे पर रुकती है, तो वह किरण है। अगर वह दोनों सिरों पर रुकती है, तो वह रेखाखंड है।"
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -391,53 +210,12 @@
           ],
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
-          "hint": {
-            "english": "Choose the figure with no end-points.",
-            "hindi": "उस आकृति को चुनिए जिसके कोई सिरे नहीं हैं।"
-          },
-          "wrongReason": {
-            "english": "The main idea in line was not used correctly.",
-            "hindi": "रेखा के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
-          },
-          "supportExample": {
-            "english": "A line has arrows at both ends in a diagram.",
-            "hindi": "चित्र में रेखा के दोनों सिरों पर तीर बने होते हैं।"
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": {
-            "english": "Understanding Line",
-            "hindi": "रेखा को समझें"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "This question is solved by using the same idea from the topic. A line extends endlessly in both directions.",
-              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। रेखा दोनों दिशाओं में अनंत तक जाती है।"
-            },
-            {
-              "english": "The question asks us to work with this situation: Which figure extends endlessly in both directions?",
-              "hindi": "प्रश्न हमें यह स्थिति देता है: कौन-सी आकृति दोनों दिशाओं में अनंत तक जाती है?"
-            },
-            {
-              "english": "To move from the question to the answer, use this idea directly: Choose the figure with no end-points.",
-              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: उस आकृति को चुनिए जिसके कोई सिरे नहीं हैं।"
-            },
-            {
-              "english": "A similar example makes the method clear. A line has no end-points.",
-              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। रेखा के कोई सिरे नहीं होते।"
-            },
-            {
-              "english": "Using the same method here, we get: A line has arrows at both ends in a diagram.",
-              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: चित्र में रेखा के दोनों सिरों पर तीर बने होते हैं।"
-            },
-            {
-              "english": "After solving, choose the option that matches the idea and the final value.",
-              "hindi": "हल करने के बाद वही विकल्प चुनिए जो सही विचार और अंतिम मान से मेल खाता हो।"
-            },
-            {
-              "english": "So the correct answer is Line.",
-              "hindi": "इसलिए सही उत्तर रेखा है।"
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -476,40 +254,7 @@
         "english": "Ray",
         "hindi": "किरण"
       },
-      "explanationParagraphs": [
-        {
-          "english": "A ray is a part of a line that starts at one fixed point and then goes on forever in one direction. That fixed point is called its endpoint. You can imagine standing at one place and walking straight ahead forever. The place where you start stays fixed, but the path keeps going.",
-          "hindi": "किरण रेखा का वह हिस्सा है जो एक तय बिंदु से शुरू होता है और फिर एक ही दिशा में अनंत तक चलता जाता है। उस तय बिंदु को उसका अंत बिंदु, यानी एकमात्र स्थिर सिरा, कहते हैं। इसे ऐसे समझो जैसे तुम एक जगह खड़े होकर सीधा आगे बढ़ते जाओ और कभी रुको ही नहीं। जहाँ से चलना शुरू हुआ, वही स्थिर बिंदु किरण का अंत बिंदु है।"
-        },
-        {
-          "english": "A ray does not have a formula like area, perimeter, or length, because it is a shape in geometry, not a calculation. The key rule is simple. A ray has exactly one endpoint and extends endlessly in one direction. If it starts at A and passes through B, we call it ray AB. The first letter matters because it shows where the ray begins.",
-          "hindi": "किरण के लिए क्षेत्रफल, परिमाप या लंबाई जैसा कोई सूत्र नहीं होता, क्योंकि यह गणना नहीं बल्कि ज्यामिति की एक आकृति है। याद रखने की मुख्य बात बहुत सरल है। किरण का ठीक एक अंत बिंदु होता है और वह एक दिशा में अनंत तक बढ़ती है। अगर वह A से शुरू होकर B से गुजरती है, तो उसे ray AB या किरण AB कहते हैं। पहले अक्षर का बहुत महत्व है, क्योंकि वही बताता है कि किरण कहाँ से शुरू हो रही है।"
-        },
-        {
-          "english": "It becomes easier when you compare a ray with a line segment and a line. A line segment has two endpoints, so it begins and ends. A line has no endpoints, so it goes forever in both directions. A ray is between these two ideas. It has one endpoint, and only one side keeps going forever. That is why the figure with one endpoint is a ray.",
-          "hindi": "किरण को रेखाखंड और रेखा से तुलना करके समझना आसान हो जाता है। रेखाखंड के दो अंत बिंदु होते हैं, इसलिए उसका शुरू और अंत दोनों तय होते हैं। रेखा के कोई अंत बिंदु नहीं होते, इसलिए वह दोनों दिशाओं में अनंत तक जाती है। किरण इन दोनों के बीच की idea है। उसका एक अंत बिंदु होता है और केवल एक तरफ वह अनंत तक बढ़ती है। इसी कारण जिस आकृति का एक ही end-point होता है, वह किरण होती है।"
-        },
-        {
-          "english": "Real life gives useful pictures of rays, even though they are not perfect mathematical rays. A flashlight beam can be imagined as a ray because it starts at the torch and travels forward. A sunbeam is another familiar example. A one-way arrow drawn from a point on a map also looks like a ray, because it starts at one point and points outward in one direction.",
-          "hindi": "असल जीवन में भी किरण जैसी चीजें दिखाई देती हैं, भले वे बिल्कुल शुद्ध गणितीय किरणें न हों। टॉर्च की रोशनी को किरण की तरह सोचा जा सकता है, क्योंकि वह टॉर्च से निकलकर आगे जाती है। सूरज की किरण भी एक जाना-पहचाना उदाहरण है। नक्शे पर किसी बिंदु से बाहर की ओर बना एक दिशा वाला तीर भी किरण जैसा लगता है, क्योंकि वह एक बिंदु से शुरू होता है और एक दिशा में बढ़ता है।"
-        },
-        {
-          "english": "For an easy example, imagine you are asked which figure has one endpoint among a line, a line segment, and a ray. First check the line. It goes forever in both directions, so it has no endpoints. Next check the line segment. It has a start and an end, so it has two endpoints. Then check the ray. It has one fixed starting point and keeps going in one direction, so it has exactly one endpoint. So the correct answer is ray.",
-          "hindi": "एक आसान उदाहरण में मान लो तुमसे पूछा जाए कि रेखा, रेखाखंड और किरण में से किस आकृति का एक end-point होता है। पहले रेखा को देखो। वह दोनों दिशाओं में अनंत तक जाती है, इसलिए उसका कोई end-point नहीं होता। फिर रेखाखंड को देखो। उसका एक शुरू और एक अंत होता है, इसलिए उसके दो end-points होते हैं। अब किरण को देखो। उसका एक स्थिर शुरुआती बिंदु होता है और वह एक दिशा में आगे बढ़ती रहती है, इसलिए उसका ठीक एक end-point होता है। इसलिए सही उत्तर किरण है।"
-        },
-        {
-          "english": "For a medium example, imagine a figure that starts at point A, passes through point B, and has an arrow showing it continues beyond B. First look for the fixed starting point. Since the figure begins at A, the endpoint is A. Next notice that it does not stop at B, so it is not a line segment. Because it starts at A and goes through B, its name is ray AB. A very common mistake is writing ray BA, but that would mean the ray starts at B, which is a different figure.",
-          "hindi": "एक मध्यम स्तर के उदाहरण में मान लो कोई आकृति बिंदु A से शुरू होती है, बिंदु B से गुजरती है, और B के बाद भी तीर के साथ आगे बढ़ती रहती है। सबसे पहले उसका स्थिर शुरुआती बिंदु पहचानो। क्योंकि आकृति A से शुरू हो रही है, इसलिए उसका endpoint A है। फिर ध्यान दो कि वह B पर रुक नहीं रही, इसलिए वह रेखाखंड नहीं है। चूँकि वह A से शुरू होकर B से गुजरती है, इसलिए उसका नाम ray AB होगा। यहाँ बहुत सामान्य गलती यह होती है कि छात्र ray BA लिख देते हैं, जबकि उसका मतलब होगा कि आकृति B से शुरू हो रही है।"
-        },
-        {
-          "english": "For a harder example, suppose points A, B, and C lie on the same straight path in the order A, B, C. Now decide whether ray AB and ray AC are the same ray. Both rays start at A, so the endpoint matches. From A to B and from A to C, the direction is also the same because B and C are on the same side of A along the same straight path. Since the starting point and direction are both the same, ray AB and ray AC name the same ray.",
-          "hindi": "अब थोड़ा कठिन उदाहरण लो। मान लो बिंदु A, B और C एक ही सीधी राह पर A, B, C के क्रम में हैं। अब तय करो कि ray AB और ray AC एक ही किरण हैं या नहीं। दोनों A से शुरू होती हैं, इसलिए उनका endpoint एक ही है। A से B की दिशा और A से C की दिशा भी एक ही है, क्योंकि B और C दोनों A के एक ही तरफ उसी सीधी राह पर हैं। जब शुरुआती बिंदु भी वही हो और दिशा भी वही हो, तब दोनों नाम उसी एक किरण को बताते हैं। इसलिए ray AB और ray AC एक ही किरण हैं।"
-        },
-        {
-          "english": "The most common mistakes happen when students mix up lines, line segments, and rays. A ray does not have two endpoints, and it does not go forever in both directions. Another mistake is forgetting that the first letter in the name shows the endpoint, so ray AB and ray BA are usually different. Some students also draw a ray without an arrow, which makes it look like a line segment. A safe way to check your work is to ask where the figure starts and which way it keeps going.",
-          "hindi": "सबसे सामान्य गलतियाँ तब होती हैं जब विद्यार्थी रेखा, रेखाखंड और किरण को आपस में मिला देते हैं। किरण के दो end-points नहीं होते, और वह दोनों दिशाओं में अनंत तक भी नहीं जाती। एक और गलती यह है कि नाम लिखते समय पहले अक्षर का महत्व भूल जाना, इसलिए ray AB और ray BA को एक जैसा मान लेना, जबकि वे सामान्यतः अलग होते हैं। कुछ विद्यार्थी किरण बनाते समय तीर नहीं लगाते, जिससे वह रेखाखंड जैसी दिखने लगती है। अपने उत्तर को जाँचने का सुरक्षित तरीका यह है कि खुद से पूछो कि आकृति कहाँ से शुरू होती है और किस दिशा में आगे बढ़ती रहती है।"
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -540,53 +285,12 @@
           ],
           "correctOptionIndex": 0,
           "acceptedAnswers": [],
-          "hint": {
-            "english": "Look for the figure with only one fixed start point.",
-            "hindi": "उस आकृति को पहचानिए जिसका केवल एक निश्चित आरंभ बिंदु हो।"
-          },
-          "wrongReason": {
-            "english": "The main idea in ray was not used correctly.",
-            "hindi": "किरण के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
-          },
-          "supportExample": {
-            "english": "A ray begins at one point and continues forever in one direction.",
-            "hindi": "किरण एक बिंदु से शुरू होकर एक दिशा में अनंत तक जाती है।"
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": {
-            "english": "Understanding Ray",
-            "hindi": "किरण को समझें"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "This question is solved by using the same idea from the topic. A ray has one end-point and extends endlessly in one direction.",
-              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। किरण का एक सिरा होता है और वह एक दिशा में अनंत तक जाती है।"
-            },
-            {
-              "english": "The question asks us to work with this situation: Which figure has one end-point?",
-              "hindi": "प्रश्न हमें यह स्थिति देता है: किस आकृति का एक सिरा होता है?"
-            },
-            {
-              "english": "To move from the question to the answer, use this idea directly: Look for the figure with only one fixed start point.",
-              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: उस आकृति को पहचानिए जिसका केवल एक निश्चित आरंभ बिंदु हो।"
-            },
-            {
-              "english": "A similar example makes the method clear. A sun ray starts at the sun and goes outward.",
-              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। सूर्य किरण सूर्य से शुरू होकर बाहर की ओर जाती है।"
-            },
-            {
-              "english": "Using the same method here, we get: A ray begins at one point and continues forever in one direction.",
-              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: किरण एक बिंदु से शुरू होकर एक दिशा में अनंत तक जाती है।"
-            },
-            {
-              "english": "After solving, choose the option that matches the idea and the final value.",
-              "hindi": "हल करने के बाद वही विकल्प चुनिए जो सही विचार और अंतिम मान से मेल खाता हो।"
-            },
-            {
-              "english": "So the correct answer is Ray.",
-              "hindi": "इसलिए सही उत्तर किरण है।"
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -625,40 +329,7 @@
         "english": "Question 17.69.1",
         "hindi": "Question 17.69.1"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about Which of the following has two end points? (a) a line (b) a ray (c) a line segment (d) a plane.",
-          "hindi": "This question is about Which of the following has two end points? (a) a line (b) a ray (c) a line segment (d) a plane."
-        },
-        {
-          "english": "From the question, we should notice Which of the following has two end points? (a) a line (b) a ray (c) a line segment (d) a plane.",
-          "hindi": "From the question, we should notice Which of the following has two end points? (a) a line (b) a ray (c) a line segment (d) a plane."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-          "hindi": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -674,61 +345,12 @@
           "acceptedAnswers": [
             "(c)"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about Which of the following has two end points? (a) a line (b) a ray (c) a line segment (d) a plane.",
-              "hindi": "Here the question is asking about Which of the following has two end points? (a) a line (b) a ray (c) a line segment (d) a plane."
-            },
-            {
-              "english": "The information given to us is Which of the following has two end points? (a) a line (b) a ray (c) a line segment (d) a plane.",
-              "hindi": "The information given to us is Which of the following has two end points? (a) a line (b) a ray (c) a line segment (d) a plane."
-            },
-            {
-              "english": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-              "hindi": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-              "hindi": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach (c).",
-              "hindi": "When you apply the rule carefully, you reach (c)."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is (c).",
-              "hindi": "So the final answer is (c)."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -771,40 +393,7 @@
         "english": "Question 17.69.2",
         "hindi": "Question 17.69.2"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about Which of the following has one end point? (a) a line segment (b) a ray (c) a line (d) a plane.",
-          "hindi": "This question is about Which of the following has one end point? (a) a line segment (b) a ray (c) a line (d) a plane."
-        },
-        {
-          "english": "From the question, we should notice Which of the following has one end point? (a) a line segment (b) a ray (c) a line (d) a plane.",
-          "hindi": "From the question, we should notice Which of the following has one end point? (a) a line segment (b) a ray (c) a line (d) a plane."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-          "hindi": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -820,61 +409,12 @@
           "acceptedAnswers": [
             "(b)"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about Which of the following has one end point? (a) a line segment (b) a ray (c) a line (d) a plane.",
-              "hindi": "Here the question is asking about Which of the following has one end point? (a) a line segment (b) a ray (c) a line (d) a plane."
-            },
-            {
-              "english": "The information given to us is Which of the following has one end point? (a) a line segment (b) a ray (c) a line (d) a plane.",
-              "hindi": "The information given to us is Which of the following has one end point? (a) a line segment (b) a ray (c) a line (d) a plane."
-            },
-            {
-              "english": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-              "hindi": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-              "hindi": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach (b).",
-              "hindi": "When you apply the rule carefully, you reach (b)."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is (b).",
-              "hindi": "So the final answer is (b)."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -917,40 +457,7 @@
         "english": "Question 17.69.3",
         "hindi": "Question 17.69.3"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about Which of the following has no end points? (a) a line (b) a ray (c) a line segment (d) a plane.",
-          "hindi": "This question is about Which of the following has no end points? (a) a line (b) a ray (c) a line segment (d) a plane."
-        },
-        {
-          "english": "From the question, we should notice Which of the following has no end points? (a) a line (b) a ray (c) a line segment (d) a plane.",
-          "hindi": "From the question, we should notice Which of the following has no end points? (a) a line (b) a ray (c) a line segment (d) a plane."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-          "hindi": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -966,61 +473,12 @@
           "acceptedAnswers": [
             "(a)"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about Which of the following has no end points? (a) a line (b) a ray (c) a line segment (d) a plane.",
-              "hindi": "Here the question is asking about Which of the following has no end points? (a) a line (b) a ray (c) a line segment (d) a plane."
-            },
-            {
-              "english": "The information given to us is Which of the following has no end points? (a) a line (b) a ray (c) a line segment (d) a plane.",
-              "hindi": "The information given to us is Which of the following has no end points? (a) a line (b) a ray (c) a line segment (d) a plane."
-            },
-            {
-              "english": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-              "hindi": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-              "hindi": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach (a).",
-              "hindi": "When you apply the rule carefully, you reach (a)."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is (a).",
-              "hindi": "So the final answer is (a)."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1063,40 +521,7 @@
         "english": "Question 17.69.4",
         "hindi": "Question 17.69.4"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about Which of the following has a definite length? (a) a line (b) a line segment (c) a ray (d) a plane.",
-          "hindi": "This question is about Which of the following has a definite length? (a) a line (b) a line segment (c) a ray (d) a plane."
-        },
-        {
-          "english": "From the question, we should notice Which of the following has a definite length? (a) a line (b) a line segment (c) a ray (d) a plane.",
-          "hindi": "From the question, we should notice Which of the following has a definite length? (a) a line (b) a line segment (c) a ray (d) a plane."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-          "hindi": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1112,61 +537,12 @@
           "acceptedAnswers": [
             "(b)"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about Which of the following has a definite length? (a) a line (b) a line segment (c) a ray (d) a plane.",
-              "hindi": "Here the question is asking about Which of the following has a definite length? (a) a line (b) a line segment (c) a ray (d) a plane."
-            },
-            {
-              "english": "The information given to us is Which of the following has a definite length? (a) a line (b) a line segment (c) a ray (d) a plane.",
-              "hindi": "The information given to us is Which of the following has a definite length? (a) a line (b) a line segment (c) a ray (d) a plane."
-            },
-            {
-              "english": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-              "hindi": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-              "hindi": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach (b).",
-              "hindi": "When you apply the rule carefully, you reach (b)."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is (b).",
-              "hindi": "So the final answer is (b)."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1209,40 +585,7 @@
         "english": "Question 17.69.5",
         "hindi": "Question 17.69.5"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about Which of the following can be drawn on a piece of paper? (a) a line (b) a line segment (c) a ray (d) a plane.",
-          "hindi": "This question is about Which of the following can be drawn on a piece of paper? (a) a line (b) a line segment (c) a ray (d) a plane."
-        },
-        {
-          "english": "From the question, we should notice Which of the following can be drawn on a piece of paper? (a) a line (b) a line segment (c) a ray (d) a plane.",
-          "hindi": "From the question, we should notice Which of the following can be drawn on a piece of paper? (a) a line (b) a line segment (c) a ray (d) a plane."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-          "hindi": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1258,61 +601,12 @@
           "acceptedAnswers": [
             "(b)"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about Which of the following can be drawn on a piece of paper? (a) a line (b) a line segment (c) a ray (d) a plane.",
-              "hindi": "Here the question is asking about Which of the following can be drawn on a piece of paper? (a) a line (b) a line segment (c) a ray (d) a plane."
-            },
-            {
-              "english": "The information given to us is Which of the following can be drawn on a piece of paper? (a) a line (b) a line segment (c) a ray (d) a plane.",
-              "hindi": "The information given to us is Which of the following can be drawn on a piece of paper? (a) a line (b) a line segment (c) a ray (d) a plane."
-            },
-            {
-              "english": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-              "hindi": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-              "hindi": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach (b).",
-              "hindi": "When you apply the rule carefully, you reach (b)."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is (b).",
-              "hindi": "So the final answer is (b)."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1355,40 +649,7 @@
         "english": "Question 17.69.6(a)",
         "hindi": "Question 17.69.6(a)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about 5 cm.",
-          "hindi": "This question is about 5 cm."
-        },
-        {
-          "english": "From the question, we should notice 5 cm.",
-          "hindi": "From the question, we should notice 5 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
-          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
-        },
-        {
-          "english": "At the end, check once more. Label each point and figure clearly so the geometry diagram stays readable.",
-          "hindi": "At the end, check once more. Label each point and figure clearly so the geometry diagram stays readable."
-        },
-        {
-          "english": "Your notebook work should stay neat and complete. Label each point and figure clearly so the geometry diagram stays readable.",
-          "hindi": "Your notebook work should stay neat and complete. Label each point and figure clearly so the geometry diagram stays readable."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1408,57 +669,12 @@
             "ready",
             "finished"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
-            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
-          },
-          "supportExample": {
-            "english": "Complete this textbook task neatly in your notebook and then type done.",
-            "hindi": "Complete this textbook task neatly in your notebook and then type done."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "How to complete this notebook task",
-            "hindi": "How to complete this notebook task"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about 5 cm.",
-              "hindi": "Here the question is asking about 5 cm."
-            },
-            {
-              "english": "The information given to us is 5 cm.",
-              "hindi": "The information given to us is 5 cm."
-            },
-            {
-              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-            },
-            {
-              "english": "Complete this textbook task neatly in your notebook and then type done.",
-              "hindi": "Complete this textbook task neatly in your notebook and then type done."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
-              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
-            },
-            {
-              "english": "Now check the result once more. Label each point and figure clearly so the geometry diagram stays readable.",
-              "hindi": "Now check the result once more. Label each point and figure clearly so the geometry diagram stays readable."
-            },
-            {
-              "english": "After completing the notebook work neatly, type done.",
-              "hindi": "After completing the notebook work neatly, type done."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1501,40 +717,7 @@
         "english": "Question 17.69.6(b)",
         "hindi": "Question 17.69.6(b)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about 6.3 cm.",
-          "hindi": "This question is about 6.3 cm."
-        },
-        {
-          "english": "From the question, we should notice 6.3 cm.",
-          "hindi": "From the question, we should notice 6.3 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
-          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
-        },
-        {
-          "english": "At the end, check once more. Label each point and figure clearly so the geometry diagram stays readable.",
-          "hindi": "At the end, check once more. Label each point and figure clearly so the geometry diagram stays readable."
-        },
-        {
-          "english": "Your notebook work should stay neat and complete. Label each point and figure clearly so the geometry diagram stays readable.",
-          "hindi": "Your notebook work should stay neat and complete. Label each point and figure clearly so the geometry diagram stays readable."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1554,57 +737,12 @@
             "ready",
             "finished"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
-            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
-          },
-          "supportExample": {
-            "english": "Complete this textbook task neatly in your notebook and then type done.",
-            "hindi": "Complete this textbook task neatly in your notebook and then type done."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "How to complete this notebook task",
-            "hindi": "How to complete this notebook task"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about 6.3 cm.",
-              "hindi": "Here the question is asking about 6.3 cm."
-            },
-            {
-              "english": "The information given to us is 6.3 cm.",
-              "hindi": "The information given to us is 6.3 cm."
-            },
-            {
-              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-            },
-            {
-              "english": "Complete this textbook task neatly in your notebook and then type done.",
-              "hindi": "Complete this textbook task neatly in your notebook and then type done."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
-              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
-            },
-            {
-              "english": "Now check the result once more. Label each point and figure clearly so the geometry diagram stays readable.",
-              "hindi": "Now check the result once more. Label each point and figure clearly so the geometry diagram stays readable."
-            },
-            {
-              "english": "After completing the notebook work neatly, type done.",
-              "hindi": "After completing the notebook work neatly, type done."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1647,40 +785,7 @@
         "english": "Question 17.69.6(c)",
         "hindi": "Question 17.69.6(c)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about 7.5 cm.",
-          "hindi": "This question is about 7.5 cm."
-        },
-        {
-          "english": "From the question, we should notice 7.5 cm.",
-          "hindi": "From the question, we should notice 7.5 cm."
-        },
-        {
-          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
-          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
-        },
-        {
-          "english": "At the end, check once more. Label each point and figure clearly so the geometry diagram stays readable.",
-          "hindi": "At the end, check once more. Label each point and figure clearly so the geometry diagram stays readable."
-        },
-        {
-          "english": "Your notebook work should stay neat and complete. Label each point and figure clearly so the geometry diagram stays readable.",
-          "hindi": "Your notebook work should stay neat and complete. Label each point and figure clearly so the geometry diagram stays readable."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1700,57 +805,12 @@
             "ready",
             "finished"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
-            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
-          },
-          "supportExample": {
-            "english": "Complete this textbook task neatly in your notebook and then type done.",
-            "hindi": "Complete this textbook task neatly in your notebook and then type done."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "How to complete this notebook task",
-            "hindi": "How to complete this notebook task"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about 7.5 cm.",
-              "hindi": "Here the question is asking about 7.5 cm."
-            },
-            {
-              "english": "The information given to us is 7.5 cm.",
-              "hindi": "The information given to us is 7.5 cm."
-            },
-            {
-              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-            },
-            {
-              "english": "Complete this textbook task neatly in your notebook and then type done.",
-              "hindi": "Complete this textbook task neatly in your notebook and then type done."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
-              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
-            },
-            {
-              "english": "Now check the result once more. Label each point and figure clearly so the geometry diagram stays readable.",
-              "hindi": "Now check the result once more. Label each point and figure clearly so the geometry diagram stays readable."
-            },
-            {
-              "english": "After completing the notebook work neatly, type done.",
-              "hindi": "After completing the notebook work neatly, type done."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1793,40 +853,7 @@
         "english": "Question 17.69.7",
         "hindi": "Question 17.69.7"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about Match the entries in Column l and Column ll: Column l Column ll.",
-          "hindi": "This question is about Match the entries in Column l and Column ll: Column l Column ll."
-        },
-        {
-          "english": "From the question, we should notice Column l Column ll.",
-          "hindi": "From the question, we should notice Column l Column ll."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-          "hindi": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1842,61 +869,12 @@
           "acceptedAnswers": [
             "1 - (C), 2 - (B), 3 - (F), 4 - (A), 5 - (D), 6 - (E)"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about Match the entries in Column l and Column ll: Column l Column ll.",
-              "hindi": "Here the question is asking about Match the entries in Column l and Column ll: Column l Column ll."
-            },
-            {
-              "english": "The information given to us is Column l Column ll.",
-              "hindi": "The information given to us is Column l Column ll."
-            },
-            {
-              "english": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-              "hindi": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-              "hindi": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 1 - (C), 2 - (B), 3 - (F), 4 - (A), 5 - (D), 6 - (E).",
-              "hindi": "When you apply the rule carefully, you reach 1 - (C), 2 - (B), 3 - (F), 4 - (A), 5 - (D), 6 - (E)."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 1 - (C), 2 - (B), 3 - (F), 4 - (A), 5 - (D), 6 - (E).",
-              "hindi": "So the final answer is 1 - (C), 2 - (B), 3 - (F), 4 - (A), 5 - (D), 6 - (E)."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1939,40 +917,7 @@
         "english": "Question 17.69.8(a)",
         "hindi": "Question 17.69.8(a)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about A ray has................end point.",
-          "hindi": "This question is about A ray has................end point."
-        },
-        {
-          "english": "From the question, we should notice A ray has................end point.",
-          "hindi": "From the question, we should notice A ray has................end point."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-          "hindi": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1988,61 +933,12 @@
           "acceptedAnswers": [
             "one"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about A ray has................end point.",
-              "hindi": "Here the question is asking about A ray has................end point."
-            },
-            {
-              "english": "The information given to us is A ray has................end point.",
-              "hindi": "The information given to us is A ray has................end point."
-            },
-            {
-              "english": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-              "hindi": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-              "hindi": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach one.",
-              "hindi": "When you apply the rule carefully, you reach one."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is one.",
-              "hindi": "So the final answer is one."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2085,40 +981,7 @@
         "english": "Question 17.69.8(b)",
         "hindi": "Question 17.69.8(b)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about A line has.............. end points.",
-          "hindi": "This question is about A line has.............. end points."
-        },
-        {
-          "english": "From the question, we should notice A line has.............. end points.",
-          "hindi": "From the question, we should notice A line has.............. end points."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-          "hindi": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2134,61 +997,12 @@
           "acceptedAnswers": [
             "no"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about A line has.............. end points.",
-              "hindi": "Here the question is asking about A line has.............. end points."
-            },
-            {
-              "english": "The information given to us is A line has.............. end points.",
-              "hindi": "The information given to us is A line has.............. end points."
-            },
-            {
-              "english": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-              "hindi": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-              "hindi": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach no.",
-              "hindi": "When you apply the rule carefully, you reach no."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is no.",
-              "hindi": "So the final answer is no."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2231,40 +1045,7 @@
         "english": "Question 17.69.8(c)",
         "hindi": "Question 17.69.8(c)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about A line............ be drawn on a paper.",
-          "hindi": "This question is about A line............ be drawn on a paper."
-        },
-        {
-          "english": "From the question, we should notice A line............ be drawn on a paper.",
-          "hindi": "From the question, we should notice A line............ be drawn on a paper."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-          "hindi": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2280,61 +1061,12 @@
           "acceptedAnswers": [
             "cannot"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about A line............ be drawn on a paper.",
-              "hindi": "Here the question is asking about A line............ be drawn on a paper."
-            },
-            {
-              "english": "The information given to us is A line............ be drawn on a paper.",
-              "hindi": "The information given to us is A line............ be drawn on a paper."
-            },
-            {
-              "english": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-              "hindi": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-              "hindi": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach cannot.",
-              "hindi": "When you apply the rule carefully, you reach cannot."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is cannot.",
-              "hindi": "So the final answer is cannot."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2377,40 +1109,7 @@
         "english": "Question 17.69.8(d)",
         "hindi": "Question 17.69.8(d)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about A ray has no............. length.",
-          "hindi": "This question is about A ray has no............. length."
-        },
-        {
-          "english": "From the question, we should notice A ray has no............. length.",
-          "hindi": "From the question, we should notice A ray has no............. length."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-          "hindi": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2426,61 +1125,12 @@
           "acceptedAnswers": [
             "definite"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about A ray has no............. length.",
-              "hindi": "Here the question is asking about A ray has no............. length."
-            },
-            {
-              "english": "The information given to us is A ray has no............. length.",
-              "hindi": "The information given to us is A ray has no............. length."
-            },
-            {
-              "english": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-              "hindi": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-              "hindi": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach definite.",
-              "hindi": "When you apply the rule carefully, you reach definite."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is definite.",
-              "hindi": "So the final answer is definite."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2523,40 +1173,7 @@
         "english": "Question 17.69.8(e)",
         "hindi": "Question 17.69.8(e)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about A line segment has a................ length.",
-          "hindi": "This question is about A line segment has a................ length."
-        },
-        {
-          "english": "From the question, we should notice A line segment has a................ length.",
-          "hindi": "From the question, we should notice A line segment has a................ length."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-          "hindi": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2572,61 +1189,12 @@
           "acceptedAnswers": [
             "definite"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about A line segment has a................ length.",
-              "hindi": "Here the question is asking about A line segment has a................ length."
-            },
-            {
-              "english": "The information given to us is A line segment has a................ length.",
-              "hindi": "The information given to us is A line segment has a................ length."
-            },
-            {
-              "english": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-              "hindi": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-              "hindi": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach definite.",
-              "hindi": "When you apply the rule carefully, you reach definite."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is definite.",
-              "hindi": "So the final answer is definite."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2669,40 +1237,7 @@
         "english": "Question 17.69.9",
         "hindi": "Question 17.69.9"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about Identify and name the line segments and rays in the following figures.",
-          "hindi": "This question is about Identify and name the line segments and rays in the following figures."
-        },
-        {
-          "english": "From the question, we should notice Identify and name the line segments and rays in the following figures.",
-          "hindi": "From the question, we should notice Identify and name the line segments and rays in the following figures."
-        },
-        {
-          "english": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-          "hindi": "To move toward the answer, use this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2718,61 +1253,12 @@
           "acceptedAnswers": [
             "(a) Line segments: BC; Rays: BA, BD (b) Line segments: DE, EF, DF; Rays: DG, EH, FI (c) Line segments: ON, OP; Rays: NM, PQ"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about Identify and name the line segments and rays in the following figures.",
-              "hindi": "Here the question is asking about Identify and name the line segments and rays in the following figures."
-            },
-            {
-              "english": "The information given to us is Identify and name the line segments and rays in the following figures.",
-              "hindi": "The information given to us is Identify and name the line segments and rays in the following figures."
-            },
-            {
-              "english": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure.",
-              "hindi": "So we follow this method. Read the name or property being asked, then match it with the correct geometrical idea or figure."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-              "hindi": "A worked pattern for the same kind of question is this. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach (a) Line segments: BC; Rays: BA, BD (b) Line segments: DE, EF, DF; Rays: DG, EH, FI (c) Line segments: ON, OP; Rays: NM, PQ.",
-              "hindi": "When you apply the rule carefully, you reach (a) Line segments: BC; Rays: BA, BD (b) Line segments: DE, EF, DF; Rays: DG, EH, FI (c) Line segments: ON, OP; Rays: NM, PQ."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is (a) Line segments: BC; Rays: BA, BD (b) Line segments: DE, EF, DF; Rays: DG, EH, FI (c) Line segments: ON, OP; Rays: NM, PQ.",
-              "hindi": "So the final answer is (a) Line segments: BC; Rays: BA, BD (b) Line segments: DE, EF, DF; Rays: DG, EH, FI (c) Line segments: ON, OP; Rays: NM, PQ."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2815,40 +1301,7 @@
         "english": "Question 17.69.10(a)",
         "hindi": "Question 17.69.10(a)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about A ray QP.",
-          "hindi": "This question is about A ray QP."
-        },
-        {
-          "english": "From the question, we should notice A ray QP.",
-          "hindi": "From the question, we should notice A ray QP."
-        },
-        {
-          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
-          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
-        },
-        {
-          "english": "At the end, check once more. Label each point and figure clearly so the geometry diagram stays readable.",
-          "hindi": "At the end, check once more. Label each point and figure clearly so the geometry diagram stays readable."
-        },
-        {
-          "english": "Your notebook work should stay neat and complete. Label each point and figure clearly so the geometry diagram stays readable.",
-          "hindi": "Your notebook work should stay neat and complete. Label each point and figure clearly so the geometry diagram stays readable."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2868,57 +1321,12 @@
             "ready",
             "finished"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
-            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
-          },
-          "supportExample": {
-            "english": "Complete this textbook task neatly in your notebook and then type done.",
-            "hindi": "Complete this textbook task neatly in your notebook and then type done."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "How to complete this notebook task",
-            "hindi": "How to complete this notebook task"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about A ray QP.",
-              "hindi": "Here the question is asking about A ray QP."
-            },
-            {
-              "english": "The information given to us is A ray QP.",
-              "hindi": "The information given to us is A ray QP."
-            },
-            {
-              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-            },
-            {
-              "english": "Complete this textbook task neatly in your notebook and then type done.",
-              "hindi": "Complete this textbook task neatly in your notebook and then type done."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
-              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
-            },
-            {
-              "english": "Now check the result once more. Label each point and figure clearly so the geometry diagram stays readable.",
-              "hindi": "Now check the result once more. Label each point and figure clearly so the geometry diagram stays readable."
-            },
-            {
-              "english": "After completing the notebook work neatly, type done.",
-              "hindi": "After completing the notebook work neatly, type done."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2961,40 +1369,7 @@
         "english": "Question 17.69.10(b)",
         "hindi": "Question 17.69.10(b)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about A line XY.",
-          "hindi": "This question is about A line XY."
-        },
-        {
-          "english": "From the question, we should notice A line XY.",
-          "hindi": "From the question, we should notice A line XY."
-        },
-        {
-          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
-          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
-        },
-        {
-          "english": "At the end, check once more. Label each point and figure clearly so the geometry diagram stays readable.",
-          "hindi": "At the end, check once more. Label each point and figure clearly so the geometry diagram stays readable."
-        },
-        {
-          "english": "Your notebook work should stay neat and complete. Label each point and figure clearly so the geometry diagram stays readable.",
-          "hindi": "Your notebook work should stay neat and complete. Label each point and figure clearly so the geometry diagram stays readable."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -3014,57 +1389,12 @@
             "ready",
             "finished"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
-            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
-          },
-          "supportExample": {
-            "english": "Complete this textbook task neatly in your notebook and then type done.",
-            "hindi": "Complete this textbook task neatly in your notebook and then type done."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "How to complete this notebook task",
-            "hindi": "How to complete this notebook task"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about A line XY.",
-              "hindi": "Here the question is asking about A line XY."
-            },
-            {
-              "english": "The information given to us is A line XY.",
-              "hindi": "The information given to us is A line XY."
-            },
-            {
-              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-            },
-            {
-              "english": "Complete this textbook task neatly in your notebook and then type done.",
-              "hindi": "Complete this textbook task neatly in your notebook and then type done."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
-              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
-            },
-            {
-              "english": "Now check the result once more. Label each point and figure clearly so the geometry diagram stays readable.",
-              "hindi": "Now check the result once more. Label each point and figure clearly so the geometry diagram stays readable."
-            },
-            {
-              "english": "After completing the notebook work neatly, type done.",
-              "hindi": "After completing the notebook work neatly, type done."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -3107,40 +1437,7 @@
         "english": "Question 17.69.10(c)",
         "hindi": "Question 17.69.10(c)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about A C B D I G D F H E O N P Q M.",
-          "hindi": "This question is about A C B D I G D F H E O N P Q M."
-        },
-        {
-          "english": "From the question, we should notice A C B D I G D F H E O N P Q M.",
-          "hindi": "From the question, we should notice A C B D I G D F H E O N P Q M."
-        },
-        {
-          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
-          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
-        },
-        {
-          "english": "At the end, check once more. Label each point and figure clearly so the geometry diagram stays readable.",
-          "hindi": "At the end, check once more. Label each point and figure clearly so the geometry diagram stays readable."
-        },
-        {
-          "english": "Your notebook work should stay neat and complete. Label each point and figure clearly so the geometry diagram stays readable.",
-          "hindi": "Your notebook work should stay neat and complete. Label each point and figure clearly so the geometry diagram stays readable."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -3160,57 +1457,12 @@
             "ready",
             "finished"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
-            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
-          },
-          "supportExample": {
-            "english": "Complete this textbook task neatly in your notebook and then type done.",
-            "hindi": "Complete this textbook task neatly in your notebook and then type done."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "How to complete this notebook task",
-            "hindi": "How to complete this notebook task"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about A C B D I G D F H E O N P Q M.",
-              "hindi": "Here the question is asking about A C B D I G D F H E O N P Q M."
-            },
-            {
-              "english": "The information given to us is A C B D I G D F H E O N P Q M.",
-              "hindi": "The information given to us is A C B D I G D F H E O N P Q M."
-            },
-            {
-              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-            },
-            {
-              "english": "Complete this textbook task neatly in your notebook and then type done.",
-              "hindi": "Complete this textbook task neatly in your notebook and then type done."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
-              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
-            },
-            {
-              "english": "Now check the result once more. Label each point and figure clearly so the geometry diagram stays readable.",
-              "hindi": "Now check the result once more. Label each point and figure clearly so the geometry diagram stays readable."
-            },
-            {
-              "english": "After completing the notebook work neatly, type done.",
-              "hindi": "After completing the notebook work neatly, type done."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -3253,40 +1505,7 @@
         "english": "Question 17.69.10(d)",
         "hindi": "Question 17.69.10(d)"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-          "hindi": "Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-        },
-        {
-          "english": "This question is about A ray MN.",
-          "hindi": "This question is about A ray MN."
-        },
-        {
-          "english": "From the question, we should notice A ray MN.",
-          "hindi": "From the question, we should notice A ray MN."
-        },
-        {
-          "english": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-          "hindi": "To move toward the answer, use this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-        },
-        {
-          "english": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction.",
-          "hindi": "A similar model helps here. A line segment has two endpoints, while a ray has one endpoint and extends in one direction."
-        },
-        {
-          "english": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done.",
-          "hindi": "While writing the answer, remember this. Finish the construction or drawing neatly, label it properly, and only then type done."
-        },
-        {
-          "english": "At the end, check once more. Label each point and figure clearly so the geometry diagram stays readable.",
-          "hindi": "At the end, check once more. Label each point and figure clearly so the geometry diagram stays readable."
-        },
-        {
-          "english": "Your notebook work should stay neat and complete. Label each point and figure clearly so the geometry diagram stays readable.",
-          "hindi": "Your notebook work should stay neat and complete. Label each point and figure clearly so the geometry diagram stays readable."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -3306,57 +1525,12 @@
             "ready",
             "finished"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
-            "hindi": "This is a notebook drawing or construction task. Finish it carefully and then type done."
-          },
-          "supportExample": {
-            "english": "Complete this textbook task neatly in your notebook and then type done.",
-            "hindi": "Complete this textbook task neatly in your notebook and then type done."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "How to complete this notebook task",
-            "hindi": "How to complete this notebook task"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes.",
-              "hindi": "We begin with the main idea used in this exercise. Basic geometry begins with recognizing points, lines, rays, line segments, curves, and simple properties of shapes."
-            },
-            {
-              "english": "Here the question is asking about A ray MN.",
-              "hindi": "Here the question is asking about A ray MN."
-            },
-            {
-              "english": "The information given to us is A ray MN.",
-              "hindi": "The information given to us is A ray MN."
-            },
-            {
-              "english": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly.",
-              "hindi": "So we follow this method. Look at the figure or construction in the textbook first, then draw, label, and check it neatly."
-            },
-            {
-              "english": "Complete this textbook task neatly in your notebook and then type done.",
-              "hindi": "Complete this textbook task neatly in your notebook and then type done."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done.",
-              "hindi": "Before writing the last line, keep this in mind. Finish the construction or drawing neatly, label it properly, and only then type done."
-            },
-            {
-              "english": "Now check the result once more. Label each point and figure clearly so the geometry diagram stays readable.",
-              "hindi": "Now check the result once more. Label each point and figure clearly so the geometry diagram stays readable."
-            },
-            {
-              "english": "After completing the notebook work neatly, type done.",
-              "hindi": "After completing the notebook work neatly, type done."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [

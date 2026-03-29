@@ -29,40 +29,7 @@
         "english": "Average of Observations",
         "hindi": "प्रेक्षणों का औसत"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Average of observations means the equal share of all the given values. An observation is simply one value in a set of data, such as a mark, an age, a height, or the number of hours studied. The average tells us one central value that represents the whole group in a simple way. If some values are big and some are small, the average gives a balanced idea of the data.",
-          "hindi": "प्रेक्षणों का औसत का मतलब है दिए गए सभी मानों का बराबर बंटा हुआ मान। प्रेक्षण यानी किसी आँकड़े का एक मान, जैसे अंक, आयु, लंबाई या पढ़ाई के घंटे। औसत हमें एक ऐसा केंद्रीय मान देता है जो पूरे समूह को सरल तरीके से दर्शाता है। अगर कुछ मान बड़े हों और कुछ छोटे, तब औसत डेटा का संतुलित अंदाज़ देता है।"
-        },
-        {
-          "english": "The formula for average of observations is: Average = Sum of all observations divided by Number of observations. In words, first add every observation, then count how many observations there are, and finally divide the total by that count. This formula is used when all observations are given directly and each one is counted once.",
-          "hindi": "प्रेक्षणों के औसत का सूत्र है: औसत = सभी प्रेक्षणों का योग ÷ प्रेक्षणों की संख्या। आसान शब्दों में, पहले सभी मान जोड़िए, फिर देखिए कुल कितने मान हैं, और अंत में योग को उस संख्या से भाग दीजिए। यह सूत्र तब उपयोग होता है जब सभी प्रेक्षण सीधे दिए गए हों और हर एक को एक बार गिना जाए।"
-        },
-        {
-          "english": "You see averages in real life all the time. A student may find the average of test marks to understand overall performance. A shopkeeper may find the average number of customers in a day. A family may find the average monthly electricity bill over several months. In transport, average speed also uses the same idea of total divided by number of equal units or total time, so average helps us describe a situation with one simple value.",
-          "hindi": "औसत का उपयोग हम रोज़मर्रा की ज़िंदगी में बहुत जगह करते हैं। कोई छात्र अपने परीक्षा अंकों का औसत निकालकर अपनी कुल प्रगति समझ सकता है। कोई दुकानदार एक दिन में आने वाले ग्राहकों की औसत संख्या निकाल सकता है। कोई परिवार कई महीनों के बिजली बिल का औसत निकाल सकता है। यात्रा में औसत गति भी इसी विचार पर आधारित होती है, जहाँ कुल को बराबर इकाइयों या कुल समय से भाग दिया जाता है।"
-        },
-        {
-          "english": "Now take an easy worked solution. Suppose the observations are 4, 6, and 8. Step 1: add the observations. 4 + 6 + 8 = 18. Step 2: count the observations. There are 3 observations. Step 3: divide the total by the number of observations. Average = 18 divided by 3 = 6. So, the average of 4, 6, and 8 is 6.",
-          "hindi": "अब एक आसान हल किया हुआ उदाहरण देखते हैं। मान लीजिए प्रेक्षण 4, 6 और 8 हैं। चरण 1: सभी प्रेक्षण जोड़िए। 4 + 6 + 8 = 18। चरण 2: प्रेक्षणों की संख्या गिनिए। कुल 3 प्रेक्षण हैं। चरण 3: कुल योग को प्रेक्षणों की संख्या से भाग दीजिए। औसत = 18 ÷ 3 = 6। इसलिए 4, 6 और 8 का औसत 6 है।"
-        },
-        {
-          "english": "Now take a medium worked solution. A student gets 12, 15, 18, 10, and 20 marks in five class tests. Step 1: add all the marks. 12 + 15 + 18 + 10 + 20 = 75. Step 2: count how many marks are given. There are 5 observations. Step 3: divide the sum by the number of observations. Average = 75 divided by 5 = 15. So, the student’s average mark is 15.",
-          "hindi": "अब एक मध्यम स्तर का हल किया हुआ उदाहरण देखते हैं। एक छात्र को पाँच कक्षा परीक्षाओं में 12, 15, 18, 10 और 20 अंक मिले। चरण 1: सभी अंक जोड़िए। 12 + 15 + 18 + 10 + 20 = 75। चरण 2: कुल कितने अंक दिए गए हैं, यह गिनिए। यहाँ 5 प्रेक्षण हैं। चरण 3: योग को प्रेक्षणों की संख्या से भाग दीजिए। औसत = 75 ÷ 5 = 15। इसलिए छात्र का औसत अंक 15 है।"
-        },
-        {
-          "english": "Now take a harder worked solution using the idea of average speed. A car covers 324 km in 6 hours. To find the average speed per hour, divide the total distance by the total time. Step 1: total distance = 324 km. Step 2: total time = 6 hours. Step 3: average speed = 324 divided by 6 = 54. So, the average speed is 54 km per hour. This follows the same basic idea of average: total divided by number of equal units or total time.",
-          "hindi": "अब एक थोड़ा कठिन उदाहरण देखते हैं जिसमें औसत गति का विचार है। एक कार 6 घंटे में 324 किमी चलती है। प्रति घंटे औसत गति निकालने के लिए कुल दूरी को कुल समय से भाग देते हैं। चरण 1: कुल दूरी = 324 किमी। चरण 2: कुल समय = 6 घंटे। चरण 3: औसत गति = 324 ÷ 6 = 54। इसलिए औसत गति 54 किमी प्रति घंटा है। यह भी औसत के उसी मूल विचार का उपयोग करता है: कुल को बराबर इकाइयों या कुल समय से भाग देना।"
-        },
-        {
-          "english": "Common mistakes are very important to avoid. One common mistake is forgetting to add all the observations. Another is dividing by the wrong number, such as dividing by the sum again instead of the number of observations. Some students also count the observations incorrectly. In word problems, a common mistake is mixing units, like adding kilometers and meters without converting them first. In average speed questions, students sometimes divide time by distance, but the correct order is distance divided by time when speed is required.",
-          "hindi": "सामान्य गलतियों से बचना बहुत ज़रूरी है। एक आम गलती यह है कि सभी प्रेक्षणों को जोड़ा नहीं जाता। दूसरी गलती यह है कि सही संख्या से भाग नहीं दिया जाता, जैसे प्रेक्षणों की संख्या के बजाय किसी और संख्या से भाग देना। कई विद्यार्थी प्रेक्षणों की कुल संख्या गलत गिन लेते हैं। शब्द-प्रश्नों में एक बड़ी गलती इकाइयों को मिलाना है, जैसे किलोमीटर और मीटर को बिना बदलें साथ में लेना। औसत गति के प्रश्नों में कुछ विद्यार्थी समय को दूरी से भाग दे देते हैं, जबकि गति के लिए सही क्रम दूरी ÷ समय होता है।"
-        },
-        {
-          "english": "A quick way to remember the idea is this: average is not found by guessing a middle-looking number, and it is not always one of the given observations. You must follow the steps carefully: add, count, and divide. If you do that and keep the units correct, you can solve most beginner questions on average of observations clearly and accurately.",
-          "hindi": "इसे याद रखने का आसान तरीका है: औसत कोई अनुमान से चुना गया बीच का अंक नहीं होता, और यह ज़रूरी नहीं कि दिए गए मानों में से ही एक हो। आपको हर बार सही क्रम अपनाना है: जोड़ो, गिनो, और भाग दो। अगर आप ये चरण ध्यान से करेंगे और इकाइयाँ सही रखेंगे, तो प्रेक्षणों के औसत के अधिकांश शुरुआती प्रश्न साफ़ और सही तरीके से हल कर पाएँगे।"
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -80,53 +47,12 @@
             "54 km/h",
             "54 km per hour"
           ],
-          "hint": {
-            "english": "Average = total ÷ number of observations.",
-            "hindi": "औसत = कुल ÷ प्रेक्षणों की संख्या।"
-          },
-          "wrongReason": {
-            "english": "The main idea in average of observations was not used correctly.",
-            "hindi": "प्रेक्षणों का औसत के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
-          },
-          "supportExample": {
-            "english": "324 ÷ 6 = 54.",
-            "hindi": "324 ÷ 6 = 54।"
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": {
-            "english": "Understanding Average of Observations",
-            "hindi": "प्रेक्षणों का औसत को समझें"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "This question is solved by using the same idea from the topic. Average is found by dividing the total of all observations by the number of observations.",
-              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। औसत निकालने के लिए सभी प्रेक्षणों के योग को उनकी संख्या से भाग देते हैं।"
-            },
-            {
-              "english": "The question asks us to work with this situation: A car covers 324 km in 6 hours. What is its average speed per hour?",
-              "hindi": "प्रश्न हमें यह स्थिति देता है: एक कार 6 घंटों में 324 किमी चलती है। उसकी प्रति घंटे औसत चाल कितनी है?"
-            },
-            {
-              "english": "To move from the question to the answer, use this idea directly: Average = total ÷ number of observations.",
-              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: औसत = कुल ÷ प्रेक्षणों की संख्या।"
-            },
-            {
-              "english": "A similar example makes the method clear. Average speed = total distance ÷ time = 324 ÷ 6 = 54 km/h.",
-              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। औसत चाल = कुल दूरी ÷ समय = 324 ÷ 6 = 54 किमी/घंटा।"
-            },
-            {
-              "english": "Using the same method here, we get: 324 ÷ 6 = 54.",
-              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: 324 ÷ 6 = 54।"
-            },
-            {
-              "english": "After solving, write the answer in the same form the question asks for, and include the unit whenever one is needed.",
-              "hindi": "हल पूरा होने पर उत्तर उसी रूप में लिखिए जिस रूप में प्रश्न ने माँगा है, और जहाँ ज़रूरत हो वहाँ सही इकाई भी लिखिए।"
-            },
-            {
-              "english": "So the correct answer is 54 km/h.",
-              "hindi": "इसलिए सही उत्तर 54 km/h है।"
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -165,36 +91,7 @@
         "english": "Average of Numbers",
         "hindi": "संख्याओं का औसत"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Average of numbers tells us the central or typical value of a group of numbers. It helps us understand a set of values with one simpler number. For example, if your marks in several tests are different, the average gives one value that represents your overall performance. You can think of average as sharing the total equally among all the numbers.",
-          "hindi": "संख्याओं का औसत हमें किसी समूह की बीच की या सामान्य मान जैसी कीमत बताता है। यह कई संख्याओं को एक आसान संख्या में समझने में मदद करता है। उदाहरण के लिए, अगर किसी छात्र के अलग-अलग परीक्षाओं में अलग अंक आए हैं, तो औसत उसके पूरे प्रदर्शन का एक प्रतिनिधि मान देता है। आप औसत को ऐसे भी समझ सकते हैं जैसे कुल मात्रा को सबमें बराबर बाँट दिया गया हो।"
-        },
-        {
-          "english": "The formula for average is Average = Sum of all numbers / Number of numbers. First, add all the numbers to get the total sum. Then count how many numbers there are. Finally, divide the sum by that count. If the numbers are 4, 6, and 8, then the sum is 18, the number of values is 3, and the average is 18 / 3 = 6.",
-          "hindi": "औसत का सूत्र है Average = Sum of all numbers / Number of numbers. पहले सभी संख्याओं को जोड़कर कुल योग निकालते हैं। फिर देखते हैं कि कुल कितनी संख्याएँ हैं। उसके बाद योग को उस संख्या से भाग देते हैं। यदि संख्याएँ 4, 6 और 8 हैं, तो उनका योग 18 है, कुल 3 संख्याएँ हैं, और औसत 18 / 3 = 6 होगा।"
-        },
-        {
-          "english": "We use averages in real life very often. A student can find the average of test marks. A shopkeeper can find the average daily sale for a week. A family can find the average monthly electricity bill over a few months. A cricket fan can look at a player's average runs. In each case, the average helps compare data and understand the usual value.",
-          "hindi": "हम रोजमर्रा की जिंदगी में औसत का बहुत उपयोग करते हैं। एक छात्र अपने टेस्ट के अंकों का औसत निकाल सकता है। एक दुकानदार एक हफ्ते की रोज की बिक्री का औसत निकाल सकता है। एक परिवार कुछ महीनों के बिजली बिल का औसत देख सकता है। क्रिकेट देखने वाला व्यक्ति किसी खिलाड़ी के औसत रन समझ सकता है। हर जगह औसत हमें सामान्य मान समझने और तुलना करने में मदद करता है।"
-        },
-        {
-          "english": "Let us solve an easy example. Find the average of 6, 8, and 10. Step 1: Add the numbers. 6 + 8 + 10 = 24. Step 2: Count how many numbers there are. There are 3 numbers. Step 3: Divide the sum by the number of values. 24 / 3 = 8. So, the average of 6, 8, and 10 is 8.",
-          "hindi": "अब एक आसान उदाहरण हल करते हैं। 6, 8 और 10 का औसत निकालिए। चरण 1: संख्याओं को जोड़िए। 6 + 8 + 10 = 24। चरण 2: गिनिए कि कुल कितनी संख्याएँ हैं। यहाँ 3 संख्याएँ हैं। चरण 3: योग को कुल संख्याओं की संख्या से भाग दीजिए। 24 / 3 = 8। इसलिए 6, 8 और 10 का औसत 8 है।"
-        },
-        {
-          "english": "Now solve a medium example. Find the average of 9, 11, 13, 15, and 17. Step 1: Add the numbers. 9 + 11 = 20, 20 + 13 = 33, 33 + 15 = 48, and 48 + 17 = 65. Step 2: Count the numbers. There are 5 numbers. Step 3: Divide. 65 / 5 = 13. So, the average of 9, 11, 13, 15, and 17 is 13.",
-          "hindi": "अब एक थोड़ा मध्यम उदाहरण हल करते हैं। 9, 11, 13, 15 और 17 का औसत निकालिए। चरण 1: संख्याओं को जोड़िए। 9 + 11 = 20, 20 + 13 = 33, 33 + 15 = 48, और 48 + 17 = 65। चरण 2: कुल संख्याएँ गिनिए। यहाँ 5 संख्याएँ हैं। चरण 3: भाग दीजिए। 65 / 5 = 13। इसलिए 9, 11, 13, 15 और 17 का औसत 13 है।"
-        },
-        {
-          "english": "Now try a harder example with a missing number. The average of 5 numbers is 14. Four of the numbers are 10, 12, 15, and 18. Find the fifth number. Step 1: Use the average formula backward to find the total sum of all 5 numbers. Total sum = Average × Number of numbers = 14 × 5 = 70. Step 2: Add the four known numbers. 10 + 12 + 15 + 18 = 55. Step 3: Subtract this from the total sum. 70 - 55 = 15. So, the fifth number is 15.",
-          "hindi": "अब एक कठिन उदाहरण देखते हैं जिसमें एक संख्या गायब है। 5 संख्याओं का औसत 14 है। उनमें से 4 संख्याएँ 10, 12, 15 और 18 हैं। पाँचवीं संख्या ज्ञात कीजिए। चरण 1: औसत के सूत्र को उल्टा उपयोग करके 5 संख्याओं का कुल योग निकालिए। कुल योग = Average × Number of numbers = 14 × 5 = 70। चरण 2: दी हुई 4 संख्याओं का योग निकालिए। 10 + 12 + 15 + 18 = 55। चरण 3: कुल योग में से इसे घटाइए। 70 - 55 = 15। इसलिए पाँचवीं संख्या 15 है।"
-        },
-        {
-          "english": "A common mistake is adding the numbers correctly but dividing by the wrong count. Always divide by how many numbers are present, not by the biggest number or by a guess. Another common mistake is forgetting one number while adding. Some students also confuse average with sum; the sum is the total, but the average is the total divided by the count. A good final check is to see whether the average lies between the smallest and largest numbers. If you follow the steps carefully, average becomes simple and reliable.",
-          "hindi": "एक सामान्य गलती यह होती है कि छात्र जोड़ तो सही करते हैं, लेकिन भाग गलत संख्या से दे देते हैं। हमेशा कुल संख्याओं की गिनती से ही भाग दीजिए, किसी अनुमान से नहीं। दूसरी गलती यह होती है कि जोड़ते समय कोई एक संख्या छूट जाती है। कुछ छात्र योग और औसत में भी भ्रम कर देते हैं; योग कुल जोड़ होता है, जबकि औसत वह योग होता है जिसे कुल संख्याओं की संख्या से भाग दिया जाता है। एक अच्छा अंतिम जाँच तरीका यह है कि औसत सामान्यतः सबसे छोटी और सबसे बड़ी संख्या के बीच होना चाहिए। अगर आप हर चरण ध्यान से करेंगे, तो औसत निकालना आसान और भरोसेमंद लगेगा।"
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -210,53 +107,12 @@
           "acceptedAnswers": [
             "13"
           ],
-          "hint": {
-            "english": "Add all five numbers first.",
-            "hindi": "पहले पाँचों संख्याओं को जोड़िए।"
-          },
-          "wrongReason": {
-            "english": "The main idea in average of numbers was not used correctly.",
-            "hindi": "संख्याओं का औसत के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
-          },
-          "supportExample": {
-            "english": "65 ÷ 5 = 13.",
-            "hindi": "65 ÷ 5 = 13।"
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "CONCEPT_CONFUSION",
-          "reteachTitle": {
-            "english": "Understanding Average of Numbers",
-            "hindi": "संख्याओं का औसत को समझें"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "This question is solved by using the same idea from the topic. To find the average of numbers, add them and divide by how many numbers are given.",
-              "hindi": "यह प्रश्न इसी विषय के मुख्य विचार से हल होता है। संख्याओं का औसत निकालने के लिए उन्हें जोड़कर कुल संख्याओं की संख्या से भाग देते हैं।"
-            },
-            {
-              "english": "The question asks us to work with this situation: Find the average of 9, 11, 13, 15 and 17.",
-              "hindi": "प्रश्न हमें यह स्थिति देता है: 9, 11, 13, 15 और 17 का औसत लिखिए।"
-            },
-            {
-              "english": "To move from the question to the answer, use this idea directly: Add all five numbers first.",
-              "hindi": "प्रश्न से उत्तर तक पहुँचने के लिए यही बात सीधे लगाइए: पहले पाँचों संख्याओं को जोड़िए।"
-            },
-            {
-              "english": "A similar example makes the method clear. 9 + 11 + 13 + 15 + 17 = 65, and 65 ÷ 5 = 13.",
-              "hindi": "एक मिलता-जुलता उदाहरण इस विधि को साफ करता है। 9 + 11 + 13 + 15 + 17 = 65, और 65 ÷ 5 = 13।"
-            },
-            {
-              "english": "Using the same method here, we get: 65 ÷ 5 = 13.",
-              "hindi": "यही विधि यहाँ लगाने पर हमें मिलता है: 65 ÷ 5 = 13।"
-            },
-            {
-              "english": "After solving, write the answer in the same form the question asks for, and include the unit whenever one is needed.",
-              "hindi": "हल पूरा होने पर उत्तर उसी रूप में लिखिए जिस रूप में प्रश्न ने माँगा है, और जहाँ ज़रूरत हो वहाँ सही इकाई भी लिखिए।"
-            },
-            {
-              "english": "So the correct answer is 13.",
-              "hindi": "इसलिए सही उत्तर 13 है।"
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -295,40 +151,7 @@
         "english": "Question 13.60.1",
         "hindi": "Question 13.60.1"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Average means equal sharing, so you first find the total and then divide by the number of items.",
-          "hindi": "Average means equal sharing, so you first find the total and then divide by the number of items."
-        },
-        {
-          "english": "This question is about Find the average of 9, 11, 13, 15 and 17.",
-          "hindi": "This question is about Find the average of 9, 11, 13, 15 and 17."
-        },
-        {
-          "english": "From the question, we should notice Find the average of 9, 11, 13, 15 and 17.",
-          "hindi": "From the question, we should notice Find the average of 9, 11, 13, 15 and 17."
-        },
-        {
-          "english": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing.",
-          "hindi": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing."
-        },
-        {
-          "english": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-          "hindi": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -344,61 +167,12 @@
           "acceptedAnswers": [
             "13"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items.",
-              "hindi": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items."
-            },
-            {
-              "english": "Here the question is asking about Find the average of 9, 11, 13, 15 and 17.",
-              "hindi": "Here the question is asking about Find the average of 9, 11, 13, 15 and 17."
-            },
-            {
-              "english": "The information given to us is Find the average of 9, 11, 13, 15 and 17.",
-              "hindi": "The information given to us is Find the average of 9, 11, 13, 15 and 17."
-            },
-            {
-              "english": "So we follow this method. Add all the given values and count how many values there are before dividing.",
-              "hindi": "So we follow this method. Add all the given values and count how many values there are before dividing."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-              "hindi": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 13.",
-              "hindi": "When you apply the rule carefully, you reach 13."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 13.",
-              "hindi": "So the final answer is 13."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -441,40 +215,7 @@
         "english": "Question 13.60.2",
         "hindi": "Question 13.60.2"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Average means equal sharing, so you first find the total and then divide by the number of items.",
-          "hindi": "Average means equal sharing, so you first find the total and then divide by the number of items."
-        },
-        {
-          "english": "This question is about Find the average of 9.3, 6.7, 7.4 and 8.2.",
-          "hindi": "This question is about Find the average of 9.3, 6.7, 7.4 and 8.2."
-        },
-        {
-          "english": "From the question, we should notice Find the average of 9.3, 6.7, 7.4 and 8.2.",
-          "hindi": "From the question, we should notice Find the average of 9.3, 6.7, 7.4 and 8.2."
-        },
-        {
-          "english": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing.",
-          "hindi": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing."
-        },
-        {
-          "english": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-          "hindi": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -490,61 +231,12 @@
           "acceptedAnswers": [
             "7.9"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items.",
-              "hindi": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items."
-            },
-            {
-              "english": "Here the question is asking about Find the average of 9.3, 6.7, 7.4 and 8.2.",
-              "hindi": "Here the question is asking about Find the average of 9.3, 6.7, 7.4 and 8.2."
-            },
-            {
-              "english": "The information given to us is Find the average of 9.3, 6.7, 7.4 and 8.2.",
-              "hindi": "The information given to us is Find the average of 9.3, 6.7, 7.4 and 8.2."
-            },
-            {
-              "english": "So we follow this method. Add all the given values and count how many values there are before dividing.",
-              "hindi": "So we follow this method. Add all the given values and count how many values there are before dividing."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-              "hindi": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 7.9.",
-              "hindi": "When you apply the rule carefully, you reach 7.9."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 7.9.",
-              "hindi": "So the final answer is 7.9."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -587,40 +279,7 @@
         "english": "Question 13.60.3",
         "hindi": "Question 13.60.3"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Average means equal sharing, so you first find the total and then divide by the number of items.",
-          "hindi": "Average means equal sharing, so you first find the total and then divide by the number of items."
-        },
-        {
-          "english": "This question is about Find the average of 6 2 5, 5 3 10, 4 1 5 and 7 7.",
-          "hindi": "This question is about Find the average of 6 2 5, 5 3 10, 4 1 5 and 7 7."
-        },
-        {
-          "english": "From the question, we should notice Find the average of 6 2 5, 5 3 10, 4 1 5 and 7 7.",
-          "hindi": "From the question, we should notice Find the average of 6 2 5, 5 3 10, 4 1 5 and 7 7."
-        },
-        {
-          "english": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing.",
-          "hindi": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing."
-        },
-        {
-          "english": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-          "hindi": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -636,61 +295,12 @@
           "acceptedAnswers": [
             "5 9 10"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items.",
-              "hindi": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items."
-            },
-            {
-              "english": "Here the question is asking about Find the average of 6 2 5, 5 3 10, 4 1 5 and 7 7.",
-              "hindi": "Here the question is asking about Find the average of 6 2 5, 5 3 10, 4 1 5 and 7 7."
-            },
-            {
-              "english": "The information given to us is Find the average of 6 2 5, 5 3 10, 4 1 5 and 7 7.",
-              "hindi": "The information given to us is Find the average of 6 2 5, 5 3 10, 4 1 5 and 7 7."
-            },
-            {
-              "english": "So we follow this method. Add all the given values and count how many values there are before dividing.",
-              "hindi": "So we follow this method. Add all the given values and count how many values there are before dividing."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-              "hindi": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 5 9 10.",
-              "hindi": "When you apply the rule carefully, you reach 5 9 10."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 5 9 10.",
-              "hindi": "So the final answer is 5 9 10."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -733,40 +343,7 @@
         "english": "Question 13.60.4",
         "hindi": "Question 13.60.4"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Average means equal sharing, so you first find the total and then divide by the number of items.",
-          "hindi": "Average means equal sharing, so you first find the total and then divide by the number of items."
-        },
-        {
-          "english": "This question is about Find the average of first nine counting numbers.",
-          "hindi": "This question is about Find the average of first nine counting numbers."
-        },
-        {
-          "english": "From the question, we should notice Find the average of first nine counting numbers.",
-          "hindi": "From the question, we should notice Find the average of first nine counting numbers."
-        },
-        {
-          "english": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing.",
-          "hindi": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing."
-        },
-        {
-          "english": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-          "hindi": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -782,61 +359,12 @@
           "acceptedAnswers": [
             "5"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items.",
-              "hindi": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items."
-            },
-            {
-              "english": "Here the question is asking about Find the average of first nine counting numbers.",
-              "hindi": "Here the question is asking about Find the average of first nine counting numbers."
-            },
-            {
-              "english": "The information given to us is Find the average of first nine counting numbers.",
-              "hindi": "The information given to us is Find the average of first nine counting numbers."
-            },
-            {
-              "english": "So we follow this method. Add all the given values and count how many values there are before dividing.",
-              "hindi": "So we follow this method. Add all the given values and count how many values there are before dividing."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-              "hindi": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 5.",
-              "hindi": "When you apply the rule carefully, you reach 5."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 5.",
-              "hindi": "So the final answer is 5."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -879,40 +407,7 @@
         "english": "Question 13.60.5",
         "hindi": "Question 13.60.5"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Average means equal sharing, so you first find the total and then divide by the number of items.",
-          "hindi": "Average means equal sharing, so you first find the total and then divide by the number of items."
-        },
-        {
-          "english": "This question is about Find the average of all odd numbers between 50 and 60.",
-          "hindi": "This question is about Find the average of all odd numbers between 50 and 60."
-        },
-        {
-          "english": "From the question, we should notice Find the average of all odd numbers between 50 and 60.",
-          "hindi": "From the question, we should notice Find the average of all odd numbers between 50 and 60."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the numbers that are not divisible by 2 and keep them in increasing order.",
-          "hindi": "To move toward the answer, use this method. Write the numbers that are not divisible by 2 and keep them in increasing order."
-        },
-        {
-          "english": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-          "hindi": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -928,61 +423,12 @@
           "acceptedAnswers": [
             "55"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items.",
-              "hindi": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items."
-            },
-            {
-              "english": "Here the question is asking about Find the average of all odd numbers between 50 and 60.",
-              "hindi": "Here the question is asking about Find the average of all odd numbers between 50 and 60."
-            },
-            {
-              "english": "The information given to us is Find the average of all odd numbers between 50 and 60.",
-              "hindi": "The information given to us is Find the average of all odd numbers between 50 and 60."
-            },
-            {
-              "english": "So we follow this method. Write the numbers that are not divisible by 2 and keep them in increasing order.",
-              "hindi": "So we follow this method. Write the numbers that are not divisible by 2 and keep them in increasing order."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-              "hindi": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-            },
-            {
-              "english": "Keep the numbers in order and write them as 55.",
-              "hindi": "Keep the numbers in order and write them as 55."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 55.",
-              "hindi": "So the final answer is 55."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1025,40 +471,7 @@
         "english": "Question 13.60.6",
         "hindi": "Question 13.60.6"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Average means equal sharing, so you first find the total and then divide by the number of items.",
-          "hindi": "Average means equal sharing, so you first find the total and then divide by the number of items."
-        },
-        {
-          "english": "This question is about Find the average of all even numbers between 7 and 17.",
-          "hindi": "This question is about Find the average of all even numbers between 7 and 17."
-        },
-        {
-          "english": "From the question, we should notice Find the average of all even numbers between 7 and 17.",
-          "hindi": "From the question, we should notice Find the average of all even numbers between 7 and 17."
-        },
-        {
-          "english": "To move toward the answer, use this method. Write the numbers divisible by 2 and keep them in increasing order.",
-          "hindi": "To move toward the answer, use this method. Write the numbers divisible by 2 and keep them in increasing order."
-        },
-        {
-          "english": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-          "hindi": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1074,61 +487,12 @@
           "acceptedAnswers": [
             "12"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items.",
-              "hindi": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items."
-            },
-            {
-              "english": "Here the question is asking about Find the average of all even numbers between 7 and 17.",
-              "hindi": "Here the question is asking about Find the average of all even numbers between 7 and 17."
-            },
-            {
-              "english": "The information given to us is Find the average of all even numbers between 7 and 17.",
-              "hindi": "The information given to us is Find the average of all even numbers between 7 and 17."
-            },
-            {
-              "english": "So we follow this method. Write the numbers divisible by 2 and keep them in increasing order.",
-              "hindi": "So we follow this method. Write the numbers divisible by 2 and keep them in increasing order."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-              "hindi": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-            },
-            {
-              "english": "Keep the numbers in order and write them as 12.",
-              "hindi": "Keep the numbers in order and write them as 12."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 12.",
-              "hindi": "So the final answer is 12."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1171,40 +535,7 @@
         "english": "Question 13.60.7",
         "hindi": "Question 13.60.7"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Average means equal sharing, so you first find the total and then divide by the number of items.",
-          "hindi": "Average means equal sharing, so you first find the total and then divide by the number of items."
-        },
-        {
-          "english": "This question is about Find the average of all prime numbers between 20 and 40.",
-          "hindi": "This question is about Find the average of all prime numbers between 20 and 40."
-        },
-        {
-          "english": "From the question, we should notice Find the average of all prime numbers between 20 and 40.",
-          "hindi": "From the question, we should notice Find the average of all prime numbers between 20 and 40."
-        },
-        {
-          "english": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing.",
-          "hindi": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing."
-        },
-        {
-          "english": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-          "hindi": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1220,61 +551,12 @@
           "acceptedAnswers": [
             "30"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items.",
-              "hindi": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items."
-            },
-            {
-              "english": "Here the question is asking about Find the average of all prime numbers between 20 and 40.",
-              "hindi": "Here the question is asking about Find the average of all prime numbers between 20 and 40."
-            },
-            {
-              "english": "The information given to us is Find the average of all prime numbers between 20 and 40.",
-              "hindi": "The information given to us is Find the average of all prime numbers between 20 and 40."
-            },
-            {
-              "english": "So we follow this method. Add all the given values and count how many values there are before dividing.",
-              "hindi": "So we follow this method. Add all the given values and count how many values there are before dividing."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-              "hindi": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 30.",
-              "hindi": "When you apply the rule carefully, you reach 30."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 30.",
-              "hindi": "So the final answer is 30."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1317,40 +599,7 @@
         "english": "Question 13.60.8",
         "hindi": "Question 13.60.8"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Average means equal sharing, so you first find the total and then divide by the number of items.",
-          "hindi": "Average means equal sharing, so you first find the total and then divide by the number of items."
-        },
-        {
-          "english": "This question is about Find the average of first six multiples of 3.",
-          "hindi": "This question is about Find the average of first six multiples of 3."
-        },
-        {
-          "english": "From the question, we should notice Find the average of first six multiples of 3.",
-          "hindi": "From the question, we should notice Find the average of first six multiples of 3."
-        },
-        {
-          "english": "To move toward the answer, use this method. Keep adding the same number again and again to make the required multiples.",
-          "hindi": "To move toward the answer, use this method. Keep adding the same number again and again to make the required multiples."
-        },
-        {
-          "english": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-          "hindi": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1366,61 +615,12 @@
           "acceptedAnswers": [
             "10.5"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items.",
-              "hindi": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items."
-            },
-            {
-              "english": "Here the question is asking about Find the average of first six multiples of 3.",
-              "hindi": "Here the question is asking about Find the average of first six multiples of 3."
-            },
-            {
-              "english": "The information given to us is Find the average of first six multiples of 3.",
-              "hindi": "The information given to us is Find the average of first six multiples of 3."
-            },
-            {
-              "english": "So we follow this method. Keep adding the same number again and again to make the required multiples.",
-              "hindi": "So we follow this method. Keep adding the same number again and again to make the required multiples."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-              "hindi": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-            },
-            {
-              "english": "Keep the numbers in order and write them as 10.5.",
-              "hindi": "Keep the numbers in order and write them as 10.5."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 10.5.",
-              "hindi": "So the final answer is 10.5."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1463,40 +663,7 @@
         "english": "Question 13.60.9",
         "hindi": "Question 13.60.9"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Average means equal sharing, so you first find the total and then divide by the number of items.",
-          "hindi": "Average means equal sharing, so you first find the total and then divide by the number of items."
-        },
-        {
-          "english": "This question is about In a Cricket Test Series of 6 matches Hemant scored 102, 56, 230, 40, 180 and 124 runs. Find his average score per match.",
-          "hindi": "This question is about In a Cricket Test Series of 6 matches Hemant scored 102, 56, 230, 40, 180 and 124 runs. Find his average score per match."
-        },
-        {
-          "english": "From the question, we should notice In a Cricket Test Series of 6 matches Hemant scored 102, 56, 230, 40, 180 and 124 runs. Find his average score per match.",
-          "hindi": "From the question, we should notice In a Cricket Test Series of 6 matches Hemant scored 102, 56, 230, 40, 180 and 124 runs. Find his average score per match."
-        },
-        {
-          "english": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing.",
-          "hindi": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing."
-        },
-        {
-          "english": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-          "hindi": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1512,61 +679,12 @@
           "acceptedAnswers": [
             "122 runs"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items.",
-              "hindi": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items."
-            },
-            {
-              "english": "Here the question is asking about In a Cricket Test Series of 6 matches Hemant scored 102, 56, 230, 40, 180 and 124 runs. Find his average score per match.",
-              "hindi": "Here the question is asking about In a Cricket Test Series of 6 matches Hemant scored 102, 56, 230, 40, 180 and 124 runs. Find his average score per match."
-            },
-            {
-              "english": "The information given to us is In a Cricket Test Series of 6 matches Hemant scored 102, 56, 230, 40, 180 and 124 runs. Find his average score per match.",
-              "hindi": "The information given to us is In a Cricket Test Series of 6 matches Hemant scored 102, 56, 230, 40, 180 and 124 runs. Find his average score per match."
-            },
-            {
-              "english": "So we follow this method. Add all the given values and count how many values there are before dividing.",
-              "hindi": "So we follow this method. Add all the given values and count how many values there are before dividing."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-              "hindi": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 122 runs.",
-              "hindi": "When you apply the rule carefully, you reach 122 runs."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 122 runs.",
-              "hindi": "So the final answer is 122 runs."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1609,40 +727,7 @@
         "english": "Question 13.60.10",
         "hindi": "Question 13.60.10"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Average means equal sharing, so you first find the total and then divide by the number of items.",
-          "hindi": "Average means equal sharing, so you first find the total and then divide by the number of items."
-        },
-        {
-          "english": "This question is about 4. Find the average of first nine counting numbers.",
-          "hindi": "This question is about 4. Find the average of first nine counting numbers."
-        },
-        {
-          "english": "From the question, we should notice 4. Find the average of first nine counting numbers.",
-          "hindi": "From the question, we should notice 4. Find the average of first nine counting numbers."
-        },
-        {
-          "english": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing.",
-          "hindi": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing."
-        },
-        {
-          "english": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-          "hindi": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1659,61 +744,12 @@
             "Rs 735",
             "735"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items.",
-              "hindi": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items."
-            },
-            {
-              "english": "Here the question is asking about 4. Find the average of first nine counting numbers.",
-              "hindi": "Here the question is asking about 4. Find the average of first nine counting numbers."
-            },
-            {
-              "english": "The information given to us is 4. Find the average of first nine counting numbers.",
-              "hindi": "The information given to us is 4. Find the average of first nine counting numbers."
-            },
-            {
-              "english": "So we follow this method. Add all the given values and count how many values there are before dividing.",
-              "hindi": "So we follow this method. Add all the given values and count how many values there are before dividing."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-              "hindi": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach Rs 735.",
-              "hindi": "When you apply the rule carefully, you reach Rs 735."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is Rs 735.",
-              "hindi": "So the final answer is Rs 735."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1756,40 +792,7 @@
         "english": "Question 13.60.11",
         "hindi": "Question 13.60.11"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Average means equal sharing, so you first find the total and then divide by the number of items.",
-          "hindi": "Average means equal sharing, so you first find the total and then divide by the number of items."
-        },
-        {
-          "english": "This question is about During five successive hours a car covered 65 km, 72 km, 68 km, 70 km and 55 km. Find the average speed of the car per hour.",
-          "hindi": "This question is about During five successive hours a car covered 65 km, 72 km, 68 km, 70 km and 55 km. Find the average speed of the car per hour."
-        },
-        {
-          "english": "From the question, we should notice During five successive hours a car covered 65 km, 72 km, 68 km, 70 km and 55 km. Find the average speed of the car per hour.",
-          "hindi": "From the question, we should notice During five successive hours a car covered 65 km, 72 km, 68 km, 70 km and 55 km. Find the average speed of the car per hour."
-        },
-        {
-          "english": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing.",
-          "hindi": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing."
-        },
-        {
-          "english": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-          "hindi": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1806,61 +809,12 @@
             "66 km per hour",
             "66 per hour"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items.",
-              "hindi": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items."
-            },
-            {
-              "english": "Here the question is asking about During five successive hours a car covered 65 km, 72 km, 68 km, 70 km and 55 km. Find the average speed of the car per hour.",
-              "hindi": "Here the question is asking about During five successive hours a car covered 65 km, 72 km, 68 km, 70 km and 55 km. Find the average speed of the car per hour."
-            },
-            {
-              "english": "The information given to us is During five successive hours a car covered 65 km, 72 km, 68 km, 70 km and 55 km. Find the average speed of the car per hour.",
-              "hindi": "The information given to us is During five successive hours a car covered 65 km, 72 km, 68 km, 70 km and 55 km. Find the average speed of the car per hour."
-            },
-            {
-              "english": "So we follow this method. Add all the given values and count how many values there are before dividing.",
-              "hindi": "So we follow this method. Add all the given values and count how many values there are before dividing."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-              "hindi": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 66 km per hour.",
-              "hindi": "When you apply the rule carefully, you reach 66 km per hour."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 66 km per hour.",
-              "hindi": "So the final answer is 66 km per hour."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -1903,40 +857,7 @@
         "english": "Question 13.60.12",
         "hindi": "Question 13.60.12"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Average means equal sharing, so you first find the total and then divide by the number of items.",
-          "hindi": "Average means equal sharing, so you first find the total and then divide by the number of items."
-        },
-        {
-          "english": "This question is about The ages of five girls in a group are: 16 years 4 months; 15 years 8 months; 14 years 9 months; 15 years 3 months and 14 years 8 months. Find the a.",
-          "hindi": "This question is about The ages of five girls in a group are: 16 years 4 months; 15 years 8 months; 14 years 9 months; 15 years 3 months and 14 years 8 months. Find the a."
-        },
-        {
-          "english": "From the question, we should notice The ages of five girls in a group are: 16 years 4 months; 15 years 8 months; 14 years 9 months; 15 years 3 months and 14 years 8 months. Find the average age.",
-          "hindi": "From the question, we should notice The ages of five girls in a group are: 16 years 4 months; 15 years 8 months; 14 years 9 months; 15 years 3 months and 14 years 8 months. Find the average age."
-        },
-        {
-          "english": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing.",
-          "hindi": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing."
-        },
-        {
-          "english": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-          "hindi": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -1952,61 +873,12 @@
           "acceptedAnswers": [
             "15 years 4 months"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items.",
-              "hindi": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items."
-            },
-            {
-              "english": "Here the question is asking about The ages of five girls in a group are: 16 years 4 months; 15 years 8 months; 14 years 9 months; 15 years 3 months and 14 years 8 months. Find the a.",
-              "hindi": "Here the question is asking about The ages of five girls in a group are: 16 years 4 months; 15 years 8 months; 14 years 9 months; 15 years 3 months and 14 years 8 months. Find the a."
-            },
-            {
-              "english": "The information given to us is The ages of five girls in a group are: 16 years 4 months; 15 years 8 months; 14 years 9 months; 15 years 3 months and 14 years 8 months. Find the average age.",
-              "hindi": "The information given to us is The ages of five girls in a group are: 16 years 4 months; 15 years 8 months; 14 years 9 months; 15 years 3 months and 14 years 8 months. Find the average age."
-            },
-            {
-              "english": "So we follow this method. Add all the given values and count how many values there are before dividing.",
-              "hindi": "So we follow this method. Add all the given values and count how many values there are before dividing."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-              "hindi": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 15 years 4 months.",
-              "hindi": "When you apply the rule carefully, you reach 15 years 4 months."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is 15 years 4 months.",
-              "hindi": "So the final answer is 15 years 4 months."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2049,40 +921,7 @@
         "english": "Question 13.60.13",
         "hindi": "Question 13.60.13"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Average means equal sharing, so you first find the total and then divide by the number of items.",
-          "hindi": "Average means equal sharing, so you first find the total and then divide by the number of items."
-        },
-        {
-          "english": "This question is about The lengths of 4 pieces of wire are: 16 m 80 cm, 17 m 25 cm, 13 m 75 cm and 12 m 20 cm. Find the average length per piece.",
-          "hindi": "This question is about The lengths of 4 pieces of wire are: 16 m 80 cm, 17 m 25 cm, 13 m 75 cm and 12 m 20 cm. Find the average length per piece."
-        },
-        {
-          "english": "From the question, we should notice The lengths of 4 pieces of wire are: 16 m 80 cm, 17 m 25 cm, 13 m 75 cm and 12 m 20 cm. Find the average length per piece.",
-          "hindi": "From the question, we should notice The lengths of 4 pieces of wire are: 16 m 80 cm, 17 m 25 cm, 13 m 75 cm and 12 m 20 cm. Find the average length per piece."
-        },
-        {
-          "english": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing.",
-          "hindi": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing."
-        },
-        {
-          "english": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-          "hindi": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-        },
-        {
-          "english": "While writing the answer, remember this. Check that the final number is written with the correct unit.",
-          "hindi": "While writing the answer, remember this. Check that the final number is written with the correct unit."
-        },
-        {
-          "english": "At the end, check once more. Make sure both the number and the unit are correct.",
-          "hindi": "At the end, check once more. Make sure both the number and the unit are correct."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2099,61 +938,12 @@
             "15 m",
             "15"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items.",
-              "hindi": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items."
-            },
-            {
-              "english": "Here the question is asking about The lengths of 4 pieces of wire are: 16 m 80 cm, 17 m 25 cm, 13 m 75 cm and 12 m 20 cm. Find the average length per piece.",
-              "hindi": "Here the question is asking about The lengths of 4 pieces of wire are: 16 m 80 cm, 17 m 25 cm, 13 m 75 cm and 12 m 20 cm. Find the average length per piece."
-            },
-            {
-              "english": "The information given to us is The lengths of 4 pieces of wire are: 16 m 80 cm, 17 m 25 cm, 13 m 75 cm and 12 m 20 cm. Find the average length per piece.",
-              "hindi": "The information given to us is The lengths of 4 pieces of wire are: 16 m 80 cm, 17 m 25 cm, 13 m 75 cm and 12 m 20 cm. Find the average length per piece."
-            },
-            {
-              "english": "So we follow this method. Add all the given values and count how many values there are before dividing.",
-              "hindi": "So we follow this method. Add all the given values and count how many values there are before dividing."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-              "hindi": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach 15 m.",
-              "hindi": "When you apply the rule carefully, you reach 15 m."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit.",
-              "hindi": "Before writing the last line, keep this in mind. Check that the final number is written with the correct unit."
-            },
-            {
-              "english": "Now check the result once more. Make sure both the number and the unit are correct.",
-              "hindi": "Now check the result once more. Make sure both the number and the unit are correct."
-            },
-            {
-              "english": "So the final answer is 15 m.",
-              "hindi": "So the final answer is 15 m."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
@@ -2196,40 +986,7 @@
         "english": "Question 13.60.14",
         "hindi": "Question 13.60.14"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Average means equal sharing, so you first find the total and then divide by the number of items.",
-          "hindi": "Average means equal sharing, so you first find the total and then divide by the number of items."
-        },
-        {
-          "english": "This question is about A man earned Rs 8500 per month during the first 4 months and Rs 10000 per month during the next 2 months. Find his average earning per month during.",
-          "hindi": "This question is about A man earned Rs 8500 per month during the first 4 months and Rs 10000 per month during the next 2 months. Find his average earning per month during."
-        },
-        {
-          "english": "From the question, we should notice A man earned Rs 8500 per month during the first 4 months and Rs 10000 per month during the next 2 months. Find his average earning per month during this period.",
-          "hindi": "From the question, we should notice A man earned Rs 8500 per month during the first 4 months and Rs 10000 per month during the next 2 months. Find his average earning per month during this period."
-        },
-        {
-          "english": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing.",
-          "hindi": "To move toward the answer, use this method. Add all the given values and count how many values there are before dividing."
-        },
-        {
-          "english": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-          "hindi": "A similar model helps here. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-        },
-        {
-          "english": "While writing the answer, remember this. Write the final answer in the same form that the question asks for.",
-          "hindi": "While writing the answer, remember this. Write the final answer in the same form that the question asks for."
-        },
-        {
-          "english": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked.",
-          "hindi": "At the end, check once more. Read the question again and make sure your final answer matches exactly what it asked."
-        },
-        {
-          "english": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked.",
-          "hindi": "Work slowly, keep one clear step on each line, and compare your final line with what the question asked."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -2246,61 +1003,12 @@
             "Rs 9000",
             "9000"
           ],
-          "hint": {
-            "english": "Check the textbook rule, the numbers, and the final form carefully.",
-            "hindi": "Check the textbook rule, the numbers, and the final form carefully."
-          },
-          "wrongReason": {
-            "english": "Check each step of your working carefully. Units do not need to be typed.",
-            "hindi": "Check each step of your working carefully. Units do not need to be typed."
-          },
-          "supportExample": {
-            "english": "Work through the steps carefully and compare your answer at the end.",
-            "hindi": "Work through the steps carefully and compare your answer at the end."
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": {
-            "english": "See solution",
-            "hindi": "See solution"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items.",
-              "hindi": "We begin with the main idea used in this exercise. Average means equal sharing, so you first find the total and then divide by the number of items."
-            },
-            {
-              "english": "Here the question is asking about A man earned Rs 8500 per month during the first 4 months and Rs 10000 per month during the next 2 months. Find his average earning per month during.",
-              "hindi": "Here the question is asking about A man earned Rs 8500 per month during the first 4 months and Rs 10000 per month during the next 2 months. Find his average earning per month during."
-            },
-            {
-              "english": "The information given to us is A man earned Rs 8500 per month during the first 4 months and Rs 10000 per month during the next 2 months. Find his average earning per month during this period.",
-              "hindi": "The information given to us is A man earned Rs 8500 per month during the first 4 months and Rs 10000 per month during the next 2 months. Find his average earning per month during this period."
-            },
-            {
-              "english": "So we follow this method. Add all the given values and count how many values there are before dividing.",
-              "hindi": "So we follow this method. Add all the given values and count how many values there are before dividing."
-            },
-            {
-              "english": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8.",
-              "hindi": "A worked pattern for the same kind of question is this. The average of 6, 8, and 10 is (6 + 8 + 10) / 3 = 8."
-            },
-            {
-              "english": "When you apply the rule carefully, you reach Rs 9000.",
-              "hindi": "When you apply the rule carefully, you reach Rs 9000."
-            },
-            {
-              "english": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for.",
-              "hindi": "Before writing the last line, keep this in mind. Write the final answer in the same form that the question asks for."
-            },
-            {
-              "english": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked.",
-              "hindi": "Now check the result once more. Read the question again and make sure your final answer matches exactly what it asked."
-            },
-            {
-              "english": "So the final answer is Rs 9000.",
-              "hindi": "So the final answer is Rs 9000."
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
