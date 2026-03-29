@@ -16,6 +16,7 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.EditText
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.RadioButton
 import android.widget.TextView
@@ -24,6 +25,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import com.book.teachloop.databinding.ActivityMainBinding
 import com.google.android.material.card.MaterialCardView
+import com.google.android.material.imageview.ShapeableImageView
 import java.util.Locale
 
 class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
@@ -858,7 +860,13 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                     }
                 }
             }
-            renderVisuals(topic.visuals)
+            renderVisuals(
+                if (useImmersiveTeachLayout(topic)) {
+                    topic.visuals.filter { it.inlineAfterParagraphIndex == null }
+                } else {
+                    topic.visuals
+                },
+            )
         }
         binding.openVoiceSettingsButton.text = ui("Open voice settings", "à¤µà¥‰à¤‡à¤¸ à¤¸à¥‡à¤Ÿà¤¿à¤‚à¤— à¤–à¥‹à¤²à¥‡à¤‚")
         binding.voiceLabelText.text = compactUi("Teacher pace", "शिक्षक की गति")
@@ -940,6 +948,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         prepareExplanationBoard(topic)
         binding.explanationSentenceContainer.removeAllViews()
         val revealAllForReading = !ttsReady && !speakSequenceActive && revealedSentenceCount == 0
+        val inlineVisualsBySentenceIndex = explanationInlineVisualsBySentenceIndex(topic)
         var activeSentenceView: View? = null
         val spacerHeight = teachingBoardSpacerHeight()
         var addedSentenceContent = false
@@ -991,6 +1000,10 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 }
             }
             binding.explanationSentenceContainer.addView(sentenceView)
+
+            inlineVisualsBySentenceIndex[index]?.forEach { visual ->
+                binding.explanationSentenceContainer.addView(createVisualCard(visual, topMargin = dp(12)))
+            }
         }
 
         if (!addedSentenceContent) {
@@ -1395,99 +1408,158 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private fun renderVisuals(visuals: List<VisualBlock>) {
         binding.visualsContainer.removeAllViews()
+        binding.visualsContainer.isVisible = visuals.isNotEmpty()
         visuals.forEachIndexed { index, visual ->
-            val card = MaterialCardView(this).apply {
-                radius = dp(20).toFloat()
-                setCardBackgroundColor(getColor(R.color.card_surface))
-                strokeColor = getColor(R.color.card_stroke)
-                strokeWidth = dp(1)
-                layoutParams = LinearLayout.LayoutParams(
-                    LinearLayout.LayoutParams.MATCH_PARENT,
-                    LinearLayout.LayoutParams.WRAP_CONTENT,
-                ).apply {
-                    if (index > 0) topMargin = dp(12)
-                }
-            }
+            binding.visualsContainer.addView(
+                createVisualCard(
+                    visual = visual,
+                    topMargin = if (index > 0) dp(12) else 0,
+                ),
+            )
+        }
+    }
 
-            val column = LinearLayout(this).apply {
-                orientation = LinearLayout.VERTICAL
-                setPadding(dp(16), dp(16), dp(16), dp(16))
-            }
+    private fun explanationInlineVisualsBySentenceIndex(topic: StudyTopic): Map<Int, List<VisualBlock>> {
+        if (solutionPreviewActive || !useImmersiveTeachLayout(topic)) return emptyMap()
 
-            val titleView = TextView(this).apply {
-                text = visual.title.display(appState.language)
-                textSize = 16f
-                setTextColor(getColor(R.color.text_primary))
-                setTypeface(typeface, android.graphics.Typeface.BOLD)
-            }
-            column.addView(titleView)
+        val paragraphEndSentenceIndexes = mutableMapOf<Int, Int>()
+        var currentSentenceEndIndex = -1
+        topic.explanationParagraphs.forEachIndexed { paragraphIndex, paragraph ->
+            val paragraphUnits = TeachingScriptBuilder.splitIntoScriptUnits(paragraph.display(appState.language))
+            if (paragraphUnits.isEmpty()) return@forEachIndexed
+            currentSentenceEndIndex += paragraphUnits.size
+            paragraphEndSentenceIndexes[paragraphIndex] = currentSentenceEndIndex
+        }
 
-            val descriptionView = TextView(this).apply {
-                text = visual.description.display(appState.language)
-                textSize = 14f
-                setTextColor(getColor(R.color.text_primary))
-                setLineSpacing(0f, 1.15f)
-                setPadding(0, dp(8), 0, 0)
-            }
-            column.addView(descriptionView)
+        val visualsBySentenceIndex = mutableMapOf<Int, MutableList<VisualBlock>>()
+        topic.visuals.forEach { visual ->
+            val paragraphIndex = visual.inlineAfterParagraphIndex ?: return@forEach
+            val sentenceIndex = paragraphEndSentenceIndexes[paragraphIndex] ?: return@forEach
+            visualsBySentenceIndex.getOrPut(sentenceIndex) { mutableListOf() }.add(visual)
+        }
+        return visualsBySentenceIndex
+    }
 
-            if (visual.chips.isNotEmpty()) {
-                val chipColumn = LinearLayout(this).apply {
-                    orientation = LinearLayout.VERTICAL
-                    setPadding(0, dp(10), 0, 0)
-                }
-                visual.chips.forEach { chip ->
-                    val chipView = TextView(this).apply {
-                        text = chip.display(appState.language)
-                        gravity = Gravity.CENTER_VERTICAL
-                        setTextColor(getColor(R.color.text_primary))
-                        setBackgroundResource(R.drawable.chip_surface)
-                        setPadding(dp(12), dp(8), dp(12), dp(8))
-                        layoutParams = LinearLayout.LayoutParams(
-                            LinearLayout.LayoutParams.WRAP_CONTENT,
-                            LinearLayout.LayoutParams.WRAP_CONTENT,
-                        ).apply { bottomMargin = dp(8) }
-                    }
-                    chipColumn.addView(chipView)
-                }
-                column.addView(chipColumn)
+    private fun createVisualCard(
+        visual: VisualBlock,
+        topMargin: Int,
+    ): View {
+        val card = MaterialCardView(this).apply {
+            radius = dp(20).toFloat()
+            setCardBackgroundColor(getColor(R.color.card_surface))
+            strokeColor = getColor(R.color.card_stroke)
+            strokeWidth = dp(1)
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT,
+            ).apply {
+                this.topMargin = topMargin
             }
+        }
 
-            if (visual.rows.isNotEmpty()) {
-                val rowColumn = LinearLayout(this).apply {
-                    orientation = LinearLayout.VERTICAL
-                    setPadding(0, dp(10), 0, 0)
-                }
-                visual.rows.forEach { row ->
-                    val rowLayout = LinearLayout(this).apply {
-                        orientation = LinearLayout.HORIZONTAL
+        val column = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            setPadding(dp(16), dp(16), dp(16), dp(16))
+        }
+
+        val titleView = TextView(this).apply {
+            text = visual.title.display(appState.language)
+            textSize = 16f
+            setTextColor(getColor(R.color.text_primary))
+            setTypeface(typeface, android.graphics.Typeface.BOLD)
+        }
+        column.addView(titleView)
+
+        val descriptionView = TextView(this).apply {
+            text = visual.description.display(appState.language)
+            textSize = 14f
+            setTextColor(getColor(R.color.text_primary))
+            setLineSpacing(0f, 1.15f)
+            setPadding(0, dp(8), 0, 0)
+        }
+        column.addView(descriptionView)
+
+        visual.imageResName
+            ?.takeIf { it.isNotBlank() }
+            ?.let { imageResName ->
+                val imageResId = resources.getIdentifier(imageResName, "drawable", packageName)
+                if (imageResId != 0) {
+                    val imageView = ShapeableImageView(this).apply {
+                        adjustViewBounds = true
+                        scaleType = ImageView.ScaleType.FIT_CENTER
+                        setImageResource(imageResId)
+                        contentDescription = visual.title.display(appState.language)
+                        shapeAppearanceModel = shapeAppearanceModel
+                            .toBuilder()
+                            .setAllCornerSizes(dp(16).toFloat())
+                            .build()
                         layoutParams = LinearLayout.LayoutParams(
                             LinearLayout.LayoutParams.MATCH_PARENT,
                             LinearLayout.LayoutParams.WRAP_CONTENT,
-                        ).apply { bottomMargin = dp(8) }
+                        ).apply { this.topMargin = dp(12) }
                     }
-                    row.forEach { cell ->
-                        val cellView = TextView(this).apply {
-                            text = cell.display(appState.language)
-                            setTextColor(getColor(R.color.text_primary))
-                            setBackgroundResource(R.drawable.chip_surface)
-                            setPadding(dp(10), dp(8), dp(10), dp(8))
-                            layoutParams = LinearLayout.LayoutParams(
-                                0,
-                                LinearLayout.LayoutParams.WRAP_CONTENT,
-                                1f,
-                            ).apply { marginEnd = dp(8) }
-                        }
-                        rowLayout.addView(cellView)
-                    }
-                    rowColumn.addView(rowLayout)
+                    column.addView(imageView)
+                } else {
+                    Log.w("MainActivity", "Missing visual drawable: $imageResName")
                 }
-                column.addView(rowColumn)
             }
 
-            card.addView(column)
-            binding.visualsContainer.addView(card)
+        if (visual.chips.isNotEmpty()) {
+            val chipColumn = LinearLayout(this).apply {
+                orientation = LinearLayout.VERTICAL
+                setPadding(0, dp(10), 0, 0)
+            }
+            visual.chips.forEach { chip ->
+                val chipView = TextView(this).apply {
+                    text = chip.display(appState.language)
+                    gravity = Gravity.CENTER_VERTICAL
+                    setTextColor(getColor(R.color.text_primary))
+                    setBackgroundResource(R.drawable.chip_surface)
+                    setPadding(dp(12), dp(8), dp(12), dp(8))
+                    layoutParams = LinearLayout.LayoutParams(
+                        LinearLayout.LayoutParams.WRAP_CONTENT,
+                        LinearLayout.LayoutParams.WRAP_CONTENT,
+                    ).apply { bottomMargin = dp(8) }
+                }
+                chipColumn.addView(chipView)
+            }
+            column.addView(chipColumn)
         }
+
+        if (visual.rows.isNotEmpty()) {
+            val rowColumn = LinearLayout(this).apply {
+                orientation = LinearLayout.VERTICAL
+                setPadding(0, dp(10), 0, 0)
+            }
+            visual.rows.forEach { row ->
+                val rowLayout = LinearLayout(this).apply {
+                    orientation = LinearLayout.HORIZONTAL
+                    layoutParams = LinearLayout.LayoutParams(
+                        LinearLayout.LayoutParams.MATCH_PARENT,
+                        LinearLayout.LayoutParams.WRAP_CONTENT,
+                    ).apply { bottomMargin = dp(8) }
+                }
+                row.forEach { cell ->
+                    val cellView = TextView(this).apply {
+                        text = cell.display(appState.language)
+                        setTextColor(getColor(R.color.text_primary))
+                        setBackgroundResource(R.drawable.chip_surface)
+                        setPadding(dp(10), dp(8), dp(10), dp(8))
+                        layoutParams = LinearLayout.LayoutParams(
+                            0,
+                            LinearLayout.LayoutParams.WRAP_CONTENT,
+                            1f,
+                        ).apply { marginEnd = dp(8) }
+                    }
+                    rowLayout.addView(cellView)
+                }
+                rowColumn.addView(rowLayout)
+            }
+            column.addView(rowColumn)
+        }
+
+        card.addView(column)
+        return card
     }
 
     private fun maybeSpeakExplanation() {

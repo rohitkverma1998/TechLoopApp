@@ -123,6 +123,8 @@ data class VisualBlock(
     val kind: VisualKind = VisualKind.INFO_CARD,
     val chips: List<LocalizedText> = emptyList(),
     val rows: List<List<LocalizedText>> = emptyList(),
+    val imageResName: String? = null,
+    val inlineAfterParagraphIndex: Int? = null,
 )
 
 data class StudyTopic(

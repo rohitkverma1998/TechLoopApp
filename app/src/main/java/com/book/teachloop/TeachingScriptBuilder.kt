@@ -7,6 +7,7 @@ object TeachingScriptBuilder {
     ): List<String> {
         val script = mutableListOf<String>()
         val immersiveTeachScript = topic.usesImmersiveTeachExperience()
+        val inlineVisualScript = immersiveTeachScript && topic.visuals.any { it.inlineAfterParagraphIndex != null }
 
         if (!immersiveTeachScript) {
             appendLines(script, topic.explanationTitle.display(language))
@@ -15,29 +16,33 @@ object TeachingScriptBuilder {
             appendLines(script, paragraph.display(language))
         }
 
-        topic.visuals.forEach { visual ->
-            appendLines(script, visual.title.display(language))
-            appendLines(script, visual.description.display(language))
-            visual.chips.forEach { chip ->
-                appendLines(script, chip.display(language))
-            }
-            visual.rows.forEach { row ->
-                val rowText = row.joinToString(", ") { cell ->
-                    cell.display(language).replace("\n", ", ")
+        if (!inlineVisualScript) {
+            topic.visuals.forEach { visual ->
+                appendLines(script, visual.title.display(language))
+                appendLines(script, visual.description.display(language))
+                visual.chips.forEach { chip ->
+                    appendLines(script, chip.display(language))
                 }
-                appendLines(script, rowText)
+                visual.rows.forEach { row ->
+                    val rowText = row.joinToString(", ") { cell ->
+                        cell.display(language).replace("\n", ", ")
+                    }
+                    appendLines(script, rowText)
+                }
             }
         }
 
         if (topic.examples.isNotEmpty()) {
             if (immersiveTeachScript) {
-                topic.examples.forEach { example ->
-                    appendLines(script, example.display(language))
+                if (!inlineVisualScript) {
+                    topic.examples.forEach { example ->
+                        appendLines(script, example.display(language))
+                    }
                 }
             } else {
-                appendLines(script, text("Examples", "उदाहरण").display(language))
+                appendLines(script, text("Examples").display(language))
                 topic.examples.forEachIndexed { index, example ->
-                    val prefix = text("Example ${index + 1}", "उदाहरण ${index + 1}").display(language)
+                    val prefix = text("Example ${index + 1}").display(language)
                     appendLines(script, "$prefix: ${example.display(language)}")
                 }
             }
@@ -55,8 +60,8 @@ object TeachingScriptBuilder {
     ): List<String> {
         val script = mutableListOf<String>()
 
-        appendLines(script, text("Question", "प्रश्न").display(language) + ": " + question.prompt.display(language))
-        appendLines(script, text("Solution", "समाधान").display(language) + ":")
+        appendLines(script, text("Question").display(language) + ": " + question.prompt.display(language))
+        appendLines(script, text("Solution").display(language) + ":")
         question.reteachParagraphs.forEach { appendLines(script, it.display(language)) }
 
         return dedupe(script)
@@ -78,16 +83,16 @@ object TeachingScriptBuilder {
         target: MutableList<String>,
         text: String,
     ) {
-        splitIntoUnits(text).forEach { line ->
+        splitIntoScriptUnits(text).forEach { line ->
             if (line.isNotBlank()) {
                 target += line
             }
         }
     }
 
-    private fun splitIntoUnits(text: String): List<String> {
+    fun splitIntoScriptUnits(text: String): List<String> {
         return text
-            .split(Regex("(?<=[.!?।])\\s+|\\n+"))
+            .split(Regex("(?<=[.!?\u0964])\\s+|\\n+"))
             .map(::normalizeWhitespace)
             .filter { it.isNotBlank() }
     }

@@ -576,20 +576,24 @@ CHAPTER_ONE_DETAILED_TEACHING: dict[str, tuple[tuple[str, ...], tuple[str, ...]]
 SPECIAL_TOPIC_DETAILED_TEACHING: dict[tuple[int, str], tuple[tuple[str, ...], tuple[str, ...]]] = {
     (23, "Area of a Rectangle and a Square"): (
         (
-            "The area of a shape tells us how much flat surface it covers. Since area measures surface, it is written in square units such as cm², m² or square metres.",
-            "A rectangle has a length and a breadth. To find how much space it covers, we multiply the length by the breadth. So the area of a rectangle is length x breadth.",
-            "For example, if a rectangle is 6 cm long and 4 cm wide, its area is 6 x 4 = 24 cm². This means the rectangle covers 24 square centimetres of surface.",
-            "A square is a special rectangle in which all four sides are equal. Because both measurements are the same, we multiply the side by itself. So the area of a square is side x side or s².",
-            "For example, if the side of a square is 5 m, its area is 5 x 5 = 25 m². The small 2 in m² shows that area comes from multiplying one length by another length.",
-            "So remember the difference clearly: a rectangle needs two measurements, length and breadth, while a square needs only one measurement, the side. In fact, a square is just a rectangle whose length and breadth are equal.",
+            "Area tells us how much surface is covered inside a flat shape. Imagine covering a notebook or a floor with equal square tiles. The number of tiles that fit inside gives the area.",
+            "Each small 1 x 1 square is called 1 square unit. So area is measured in square units such as square cm, square m, or square units.",
+            "For a rectangle, we count rows and columns or multiply length by width. The formula is A = l x w.",
+            "Example: if a rectangle is 6 units long and 3 units wide, its area is 6 x 3 = 18 square units. That means 18 equal small squares fit inside it.",
+            "A square is a special rectangle in which all sides are equal. So we multiply the side by itself. The formula is A = s x s or s^2.",
+            "Example: if the side of a square is 5 units, its area is 5 x 5 = 25 square units.",
+            "We use area in real life to measure book covers, table tops, windows, charts, and floor spaces.",
+            "Remember two common mistakes: do not add the sides to find area, and do not forget to write square units in the final answer.",
         ),
         (
-            "किसी आकृति का क्षेत्रफल बताता है कि वह समतल सतह पर कितनी जगह घेरती है। क्षेत्रफल हमेशा वर्ग इकाइयों में लिखा जाता है, जैसे सेमी², मी² या वर्ग मीटर।",
-            "आयत में लंबाई और चौड़ाई होती है। वह कितनी जगह घेरता है, यह जानने के लिए लंबाई को चौड़ाई से गुणा करते हैं। इसलिए आयत का क्षेत्रफल = लंबाई x चौड़ाई।",
-            "उदाहरण के लिए, यदि किसी आयत की लंबाई 6 सेमी और चौड़ाई 4 सेमी है, तो उसका क्षेत्रफल 6 x 4 = 24 सेमी² होगा। इसका मतलब है कि आयत के भीतर 24 वर्ग सेमी सतह आती है।",
-            "वर्ग, आयत का एक विशेष रूप है जिसमें चारों भुजाएँ बराबर होती हैं। इसलिए उसमें दोनों माप एक जैसे होते हैं और हम भुजा को उसी भुजा से गुणा करते हैं। इसलिए वर्ग का क्षेत्रफल = भुजा x भुजा या s² होता है।",
-            "उदाहरण के लिए, यदि किसी वर्ग की भुजा 5 मी है, तो उसका क्षेत्रफल 5 x 5 = 25 मी² होगा। मी² में लिखा छोटा 2 यह दिखाता है कि क्षेत्रफल दो लंबाइयों के गुणन से मिला है।",
-            "इसलिए अंतर साफ रखिए: आयत का क्षेत्रफल निकालने के लिए लंबाई और चौड़ाई दोनों चाहिए, जबकि वर्ग का क्षेत्रफल निकालने के लिए केवल भुजा जानना काफी है। वास्तव में वर्ग ऐसा आयत है जिसमें लंबाई और चौड़ाई बराबर होती हैं।",
+            "Area tells us how much surface is covered inside a flat shape. Imagine covering a notebook or a floor with equal square tiles. The number of tiles that fit inside gives the area.",
+            "Each small 1 x 1 square is called 1 square unit. So area is measured in square units such as square cm, square m, or square units.",
+            "For a rectangle, we count rows and columns or multiply length by width. The formula is A = l x w.",
+            "Example: if a rectangle is 6 units long and 3 units wide, its area is 6 x 3 = 18 square units. That means 18 equal small squares fit inside it.",
+            "A square is a special rectangle in which all sides are equal. So we multiply the side by itself. The formula is A = s x s or s^2.",
+            "Example: if the side of a square is 5 units, its area is 5 x 5 = 25 square units.",
+            "We use area in real life to measure book covers, table tops, windows, charts, and floor spaces.",
+            "Remember two common mistakes: do not add the sides to find area, and do not forget to write square units in the final answer.",
         ),
     ),
 }
@@ -597,18 +601,18 @@ SPECIAL_TOPIC_DETAILED_TEACHING: dict[tuple[int, str], tuple[tuple[str, ...], tu
 SPECIAL_TOPIC_DETAILED_SOLUTIONS: dict[tuple[int, str], tuple[tuple[str, ...], tuple[str, ...]]] = {
     (23, "Area of a Rectangle and a Square"): (
         (
-            "In this question, we have to find the area of a rectangle, so we use the formula area = length x breadth.",
-            "The rectangle is 12 cm long and 8 cm broad. That means we multiply 12 by 8.",
-            "12 x 8 = 96, so the area of the rectangle is 96 square centimetres.",
-            "We write the unit as cm² because area is always written in square units.",
-            "The same idea helps us understand squares too. If a square has side 5 m, then its area is 5 x 5 = 25 m² because both side measurements are equal.",
+            "This figure is a rectangle, so we use the rectangle area formula: A = l x w.",
+            "The length is 12 cm and the breadth is 8 cm.",
+            "Now multiply the two measurements: 12 x 8 = 96.",
+            "So the area of the rectangle is 96 square cm.",
+            "Area is always written in square units because it counts how many equal squares fit inside the shape.",
         ),
         (
-            "इस प्रश्न में हमें आयत का क्षेत्रफल निकालना है, इसलिए हम क्षेत्रफल = लंबाई x चौड़ाई वाला सूत्र लगाते हैं।",
-            "आयत की लंबाई 12 सेमी और चौड़ाई 8 सेमी है। इसलिए हमें 12 को 8 से गुणा करना है।",
-            "12 x 8 = 96, इसलिए आयत का क्षेत्रफल 96 वर्ग सेमी होगा।",
-            "इकाई cm² या वर्ग सेमी लिखते हैं, क्योंकि क्षेत्रफल हमेशा वर्ग इकाइयों में लिखा जाता है।",
-            "यही बात वर्ग पर भी लागू होती है। यदि किसी वर्ग की भुजा 5 मी हो, तो उसका क्षेत्रफल 5 x 5 = 25 मी² होगा, क्योंकि उसकी दोनों दिशाओं की लंबाई बराबर होती है।",
+            "This figure is a rectangle, so we use the rectangle area formula: A = l x w.",
+            "The length is 12 cm and the breadth is 8 cm.",
+            "Now multiply the two measurements: 12 x 8 = 96.",
+            "So the area of the rectangle is 96 square cm.",
+            "Area is always written in square units because it counts how many equal squares fit inside the shape.",
         ),
     ),
 }
@@ -661,6 +665,85 @@ def loc(english: str, hindi: str | None = None) -> dict[str, str]:
         "english": english,
         "hindi": english if hindi is None else hindi,
     }
+
+
+SPECIAL_TOPIC_EXAMPLES: dict[tuple[int, str], tuple[tuple[str, str], ...]] = {
+    (23, "Area of a Rectangle and a Square"): (
+        (
+            "Rectangle example: length 8 cm, width 5 cm, so area = 8 x 5 = 40 square cm.",
+            "आयत का उदाहरण: लंबाई 8 सेमी, चौड़ाई 5 सेमी, इसलिए क्षेत्रफल = 8 x 5 = 40 वर्ग सेमी।",
+        ),
+        (
+            "Square example: side 6 cm, so area = 6 x 6 = 36 square cm.",
+            "वर्ग का उदाहरण: भुजा 6 सेमी, इसलिए क्षेत्रफल = 6 x 6 = 36 वर्ग सेमी।",
+        ),
+        (
+            "Remember: area is the inside space, while perimeter is the boundary length.",
+            "याद रखो: क्षेत्रफल अंदर की जगह है, जबकि परिमाप सीमा की कुल लंबाई है।",
+        ),
+    ),
+}
+
+
+SPECIAL_TOPIC_VISUALS: dict[tuple[int, str], tuple[dict[str, object], ...]] = {
+    (23, "Area of a Rectangle and a Square"): (
+        {
+            "title": loc("Area idea", "क्षेत्रफल का विचार"),
+            "description": loc(
+                "Count equal small squares inside the shape to understand area.",
+                "क्षेत्रफल समझने के लिए आकृति के अंदर बराबर छोटे वर्ग गिनो।",
+            ),
+            "kind": "INFO_CARD",
+            "chips": [
+                loc("1 small square = 1 square unit", "1 छोटा वर्ग = 1 वर्ग इकाई"),
+                loc("Area = total squares inside", "क्षेत्रफल = अंदर के कुल वर्ग"),
+                loc("Write square units in the answer", "उत्तर में वर्ग इकाई लिखो"),
+            ],
+            "rows": [
+                [loc("Rectangle", "आयत"), loc("A = l x w", "A = l x w")],
+                [loc("Square", "वर्ग"), loc("A = s x s", "A = s x s")],
+            ],
+        },
+        {
+            "title": loc("Rectangle diagram", "आयत का चित्र"),
+            "description": loc(
+                "This rectangle has 6 columns and 3 rows, so it covers 18 small squares.",
+                "इस आयत में 6 स्तंभ और 3 पंक्तियाँ हैं, इसलिए यह 18 छोटे वर्ग ढकता है।",
+            ),
+            "kind": "GRID",
+            "chips": [
+                loc("Formula: A = l x w", "सूत्र: A = l x w"),
+                loc("6 x 3 = 18 square units", "6 x 3 = 18 वर्ग इकाई"),
+                loc("Think in rows and columns", "पंक्तियों और स्तंभों में सोचो"),
+            ],
+            "rows": [
+                [loc("length", "लंबाई"), loc("6 units", "6 इकाई")],
+                [loc("width", "चौड़ाई"), loc("3 units", "3 इकाई")],
+                [loc("area", "क्षेत्रफल"), loc("18 square units", "18 वर्ग इकाई")],
+            ],
+            "imageResName": "area_rectangle_grid",
+        },
+        {
+            "title": loc("Square diagram", "वर्ग का चित्र"),
+            "description": loc(
+                "This square has 5 rows and 5 columns, so it covers 25 small squares.",
+                "इस वर्ग में 5 पंक्तियाँ और 5 स्तंभ हैं, इसलिए यह 25 छोटे वर्ग ढकता है।",
+            ),
+            "kind": "GRID",
+            "chips": [
+                loc("Formula: A = s x s", "सूत्र: A = s x s"),
+                loc("5 x 5 = 25 square units", "5 x 5 = 25 वर्ग इकाई"),
+                loc("All sides are equal", "सभी भुजाएँ बराबर हैं"),
+            ],
+            "rows": [
+                [loc("side", "भुजा"), loc("5 units", "5 इकाई")],
+                [loc("side", "भुजा"), loc("5 units", "5 इकाई")],
+                [loc("area", "क्षेत्रफल"), loc("25 square units", "25 वर्ग इकाई")],
+            ],
+            "imageResName": "area_square_grid",
+        },
+    ),
+}
 
 
 def slugify(value: str) -> str:
@@ -891,9 +974,20 @@ def mcq_question(spec: McqTopicSpec) -> dict:
 
 def render_topic(spec: TopicSpec) -> dict:
     chapter_en, chapter_hi = chapter_title(spec.chapter_number)
+    topic_key = (spec.chapter_number, spec.title_en)
+    clear_generated_content = topic_key == (23, "Area of a Rectangle and a Square")
     question = text_question(spec) if isinstance(spec, TextTopicSpec) else mcq_question(spec)
+    if clear_generated_content:
+        question = {
+            **question,
+            "hint": None,
+            "wrongReason": None,
+            "supportExample": None,
+            "reteachTitle": None,
+            "reteachParagraphs": [],
+        }
     slug = slugify(f"ch{spec.chapter_number:02d}_{spec.title_en}")
-    explanation_paragraphs = teaching_paragraphs(spec)
+    explanation_paragraphs = [] if clear_generated_content else teaching_paragraphs(spec)
     return {
         "id": f"rs_{slug}",
         "sourceLessonId": f"rs_ch{spec.chapter_number:02d}",
@@ -904,8 +998,8 @@ def render_topic(spec: TopicSpec) -> dict:
         "knowPrompt": know_prompt(spec.title_en, spec.title_hi),
         "explanationTitle": loc(spec.title_en, spec.title_hi),
         "explanationParagraphs": explanation_paragraphs,
-        "examples": [],
-        "visuals": [],
+        "examples": [] if clear_generated_content else [loc(en, hi) for en, hi in SPECIAL_TOPIC_EXAMPLES.get(topic_key, ())],
+        "visuals": [] if clear_generated_content else list(SPECIAL_TOPIC_VISUALS.get(topic_key, ())),
         "questions": [question],
         "tags": [
             loc(chapter_en, chapter_hi),

@@ -108,7 +108,8 @@ class LessonEngine(
         val baseQuestion = topic.questions[baseIndex]
         val supportExample = baseQuestion.supportExample
             ?: topic.examples.firstOrNull()
-            ?: topic.explanationParagraphs.first()
+            ?: topic.explanationParagraphs.firstOrNull()
+            ?: text("")
         val wrongReason = baseQuestion.wrongReason ?: text(
             english = "This answer does not match the key idea of ${topic.subtopicTitle.english.lowercase()}.",
             hindi = "${topic.subtopicTitle.hindi.lowercase()} के मुख्य विचार से यह उत्तर मेल नहीं खाता।",
@@ -309,7 +310,9 @@ class LessonEngine(
                     hindi = "अभी सही नहीं हुआ। चलिए विचार को फिर से देखते हैं और एक बार और कोशिश करते हैं।",
                 ),
                 wrongReason = question.wrongReason,
-                supportExample = question.supportExample,
+                supportExample = question.supportExample.takeUnless {
+                    it.english.isBlank() && it.hindi.isBlank()
+                },
                 mistakeType = question.mistakeType,
                 reteachTitle = question.reteachTitle,
                 reteachParagraphs = question.reteachParagraphs,

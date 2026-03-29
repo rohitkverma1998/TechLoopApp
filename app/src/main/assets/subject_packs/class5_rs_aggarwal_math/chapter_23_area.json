@@ -156,58 +156,25 @@
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
-        "hindi": "क्षेत्रफल"
+        "hindi": "Area"
       },
       "lessonTitle": {
         "english": "Area",
-        "hindi": "क्षेत्रफल"
+        "hindi": "Area"
       },
       "subtopicTitle": {
         "english": "Area of a Rectangle and a Square",
-        "hindi": "आयत और वर्ग का क्षेत्रफल"
+        "hindi": "Area of a Rectangle and a Square"
       },
       "knowPrompt": {
         "english": "Do you know this topic: Area of a Rectangle and a Square?",
-        "hindi": "क्या आप यह विषय जानते हैं: आयत और वर्ग का क्षेत्रफल?"
+        "hindi": "Do you know this topic: Area of a Rectangle and a Square?"
       },
       "explanationTitle": {
         "english": "Area of a Rectangle and a Square",
-        "hindi": "आयत और वर्ग का क्षेत्रफल"
+        "hindi": "Area of a Rectangle and a Square"
       },
-      "explanationParagraphs": [
-        {
-          "english": "Area means the amount of surface covered inside a flat shape. If you imagine coloring the inside of a rectangle or a square without going outside the edges, the part you color is the area. Area is measured in square units such as square centimeters (cm²), square meters (m²), or square inches.",
-          "hindi": "क्षेत्रफल, यानी area, का मतलब किसी समतल आकृति के अंदर घिरी हुई जगह की मात्रा होता है. अगर आप किसी आयत या वर्ग के अंदर का भाग रंगें, तो जितनी जगह रंगी जाएगी वही उसका क्षेत्रफल है. क्षेत्रफल को वर्ग इकाइयों में मापा जाता है, जैसे वर्ग सेंटीमीटर (cm²), वर्ग मीटर (m²) या वर्ग इंच."
-        },
-        {
-          "english": "A rectangle has a length and a breadth, so its area is found by multiplying length by breadth. The formula is Area = length × breadth. A square is a special rectangle in which all sides are equal, so its area is found by multiplying side by side. The formula is Area = side × side = side². We multiply because area counts how many equal square units fit inside the shape.",
-          "hindi": "आयत में लंबाई और चौड़ाई होती है, इसलिए उसका क्षेत्रफल लंबाई को चौड़ाई से गुणा करके निकाला जाता है. सूत्र है, क्षेत्रफल = लंबाई × चौड़ाई. वर्ग में चारों भुजाएँ बराबर होती हैं, इसलिए उसका क्षेत्रफल भुजा को भुजा से गुणा करके निकाला जाता है. सूत्र है, क्षेत्रफल = भुजा × भुजा = भुजा². हम गुणा इसलिए करते हैं क्योंकि क्षेत्रफल यह बताता है कि आकृति के अंदर कितने बराबर वर्ग फिट होते हैं."
-        },
-        {
-          "english": "You see these ideas in real life all the time. If you want to know how much space a book cover takes, you find the area of a rectangle. If you want to buy tiles for a square floor space, you find the area of a square. Farmers, carpenters, painters, and builders use area to measure land, floors, walls, tables, and many other flat surfaces.",
-          "hindi": "यह बात रोजमर्रा की जिंदगी में बहुत काम आती है. किसी किताब के कवर की जगह जाननी हो, तो आयत का क्षेत्रफल निकालते हैं. किसी चौकोर फर्श पर टाइलें लगानी हों, तो वर्ग का क्षेत्रफल निकालते हैं. किसान, बढ़ई, पेंटर और बिल्डर जमीन, फर्श, दीवार, मेज और दूसरी समतल सतहों को नापने के लिए क्षेत्रफल का उपयोग करते हैं."
-        },
-        {
-          "english": "Now look at an easy example. Find the area of a square with side 4 cm. Step 1: write the formula, Area = side × side. Step 2: put the value of the side, Area = 4 × 4. Step 3: multiply, 4 × 4 = 16. So, the area of the square is 16 cm².",
-          "hindi": "अब एक आसान उदाहरण देखते हैं. 4 cm भुजा वाले एक वर्ग का क्षेत्रफल ज्ञात कीजिए. चरण 1: सूत्र लिखिए, क्षेत्रफल = भुजा × भुजा. चरण 2: भुजा का मान रखिए, क्षेत्रफल = 4 × 4. चरण 3: गुणा कीजिए, 4 × 4 = 16. इसलिए वर्ग का क्षेत्रफल 16 cm² है."
-        },
-        {
-          "english": "Next, find the area of a rectangle of length 12 cm and breadth 8 cm. Step 1: write the formula, Area = length × breadth. Step 2: put the values, Area = 12 × 8. Step 3: multiply, 12 × 8 = 96. So, the area of the rectangle is 96 cm².",
-          "hindi": "अब 12 cm लंबाई और 8 cm चौड़ाई वाले एक आयत का क्षेत्रफल निकालते हैं. चरण 1: सूत्र लिखिए, क्षेत्रफल = लंबाई × चौड़ाई. चरण 2: मान रखिए, क्षेत्रफल = 12 × 8. चरण 3: गुणा कीजिए, 12 × 8 = 96. इसलिए आयत का क्षेत्रफल 96 cm² है."
-        },
-        {
-          "english": "Now take a harder example with different units. A rectangle is 2 m long and 50 cm wide. We cannot multiply 2 and 50 directly because the units are not the same. First convert 50 cm into meters. Since 100 cm = 1 m, 50 cm = 0.5 m. Now use the formula, Area = length × breadth = 2 m × 0.5 m = 1 m². So, the area of the rectangle is 1 square meter.",
-          "hindi": "अब थोड़ा कठिन उदाहरण देखते हैं, जिसमें इकाइयाँ अलग हैं. एक आयत की लंबाई 2 m है और चौड़ाई 50 cm है. हम 2 और 50 को सीधे गुणा नहीं कर सकते, क्योंकि उनकी इकाइयाँ एक जैसी नहीं हैं. पहले 50 cm को मीटर में बदलते हैं. क्योंकि 100 cm = 1 m, इसलिए 50 cm = 0.5 m. अब सूत्र लगाइए, क्षेत्रफल = लंबाई × चौड़ाई = 2 m × 0.5 m = 1 m². इसलिए आयत का क्षेत्रफल 1 वर्ग मीटर है."
-        },
-        {
-          "english": "A few common mistakes happen often. Some students use addition instead of multiplication, but area of a rectangle or square is found by multiplying the sides. Some forget to write square units and write cm or m instead of cm² or m². Some students mix up area and perimeter; perimeter is the distance around the shape, but area is the space inside it. In questions with mixed units, always convert first.",
-          "hindi": "कुछ सामान्य गलतियाँ बार-बार होती हैं. कई विद्यार्थी गुणा करने की जगह जोड़ देते हैं, जबकि आयत और वर्ग का क्षेत्रफल भुजाओं को गुणा करके निकाला जाता है. कुछ लोग अंत में वर्ग इकाई लिखना भूल जाते हैं और cm² या m² की जगह सिर्फ cm या m लिख देते हैं. कुछ विद्यार्थी क्षेत्रफल और परिमाप को मिला देते हैं; परिमाप आकृति के चारों ओर की कुल लंबाई है, जबकि क्षेत्रफल अंदर की जगह है. अगर प्रश्न में इकाइयाँ अलग हों, तो पहले उन्हें एक जैसा कीजिए."
-        },
-        {
-          "english": "A quick way to check your answer is to ask whether it makes sense. If the sides get bigger, the area should also get bigger. If the unit is centimeters, the final unit should usually be cm², and if the unit is meters, it should usually be m². Remember this simple rule: rectangle means length × breadth, and square means side × side.",
-          "hindi": "अपने उत्तर को जाँचने का एक आसान तरीका है कि देखें क्या वह समझ में आ रहा है. अगर भुजाएँ बड़ी होंगी, तो क्षेत्रफल भी बड़ा होना चाहिए. अगर इकाई सेंटीमीटर है, तो अंतिम इकाई आमतौर पर cm² होनी चाहिए, और अगर इकाई मीटर है, तो m² होनी चाहिए. यह सरल नियम याद रखिए: आयत के लिए लंबाई × चौड़ाई, और वर्ग के लिए भुजा × भुजा."
-        }
-      ],
+      "explanationParagraphs": [],
       "examples": [],
       "visuals": [],
       "questions": [
@@ -215,7 +182,7 @@
           "id": "area_of_a_rectangle_and_a_square_q1",
           "prompt": {
             "english": "Find the area of a rectangle of length 12 cm and breadth 8 cm.",
-            "hindi": "12 सेमी लंबाई और 8 सेमी चौड़ाई वाले आयत का क्षेत्रफल लिखिए।"
+            "hindi": "Find the area of a rectangle of length 12 cm and breadth 8 cm."
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -225,55 +192,22 @@
             "96 sq cm",
             "96 cm2"
           ],
-          "hint": {
-            "english": "Multiply length by breadth.",
-            "hindi": "लंबाई को चौड़ाई से गुणा कीजिए।"
-          },
-          "wrongReason": {
-            "english": "The main idea in area of a rectangle and a square was not used correctly.",
-            "hindi": "आयत और वर्ग का क्षेत्रफल के मुख्य विचार का सही तरह से उपयोग नहीं हुआ।"
-          },
-          "supportExample": {
-            "english": "12 × 8 = 96 square centimetres.",
-            "hindi": "12 × 8 = 96 वर्ग सेमी।"
-          },
+          "hint": null,
+          "wrongReason": null,
+          "supportExample": null,
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": {
-            "english": "Understanding Area of a Rectangle and a Square",
-            "hindi": "आयत और वर्ग का क्षेत्रफल को समझें"
-          },
-          "reteachParagraphs": [
-            {
-              "english": "In this question, we have to find the area of a rectangle, so we use the formula area = length x breadth.",
-              "hindi": "इस प्रश्न में हमें आयत का क्षेत्रफल निकालना है, इसलिए हम क्षेत्रफल = लंबाई x चौड़ाई वाला सूत्र लगाते हैं।"
-            },
-            {
-              "english": "The rectangle is 12 cm long and 8 cm broad. That means we multiply 12 by 8.",
-              "hindi": "आयत की लंबाई 12 सेमी और चौड़ाई 8 सेमी है। इसलिए हमें 12 को 8 से गुणा करना है।"
-            },
-            {
-              "english": "12 x 8 = 96, so the area of the rectangle is 96 square centimetres.",
-              "hindi": "12 x 8 = 96, इसलिए आयत का क्षेत्रफल 96 वर्ग सेमी होगा।"
-            },
-            {
-              "english": "We write the unit as cm² because area is always written in square units.",
-              "hindi": "इकाई cm² या वर्ग सेमी लिखते हैं, क्योंकि क्षेत्रफल हमेशा वर्ग इकाइयों में लिखा जाता है।"
-            },
-            {
-              "english": "The same idea helps us understand squares too. If a square has side 5 m, then its area is 5 x 5 = 25 m² because both side measurements are equal.",
-              "hindi": "यही बात वर्ग पर भी लागू होती है। यदि किसी वर्ग की भुजा 5 मी हो, तो उसका क्षेत्रफल 5 x 5 = 25 मी² होगा, क्योंकि उसकी दोनों दिशाओं की लंबाई बराबर होती है।"
-            }
-          ]
+          "reteachTitle": null,
+          "reteachParagraphs": []
         }
       ],
       "tags": [
         {
           "english": "Area",
-          "hindi": "क्षेत्रफल"
+          "hindi": "Area"
         },
         {
           "english": "Area of a Rectangle and a Square",
-          "hindi": "आयत और वर्ग का क्षेत्रफल"
+          "hindi": "Area of a Rectangle and a Square"
         }
       ],
       "mistakeFocus": "UNIT_CONVERSION"
