@@ -86,23 +86,23 @@
       "chapterNumber": 23,
       "chapterTitle": {
         "english": "Area",
-        "hindi": "Area"
+        "hindi": "क्षेत्रफल"
       },
       "lessonTitle": {
         "english": "Area",
-        "hindi": "Area"
+        "hindi": "क्षेत्रफल"
       },
       "subtopicTitle": {
         "english": "Area of a Rectangle and a Square",
-        "hindi": "Area of a Rectangle and a Square"
+        "hindi": "आयत और वर्ग का क्षेत्रफल"
       },
       "knowPrompt": {
         "english": "Do you know this topic: Area of a Rectangle and a Square?",
-        "hindi": "Do you know this topic: Area of a Rectangle and a Square?"
+        "hindi": "क्या आप यह विषय जानते हैं: आयत और वर्ग का क्षेत्रफल?"
       },
       "explanationTitle": {
         "english": "Area of a Rectangle and a Square",
-        "hindi": "Area of a Rectangle and a Square"
+        "hindi": "आयत और वर्ग का क्षेत्रफल"
       },
       "explanationParagraphs": [],
       "examples": [],
@@ -112,7 +112,7 @@
           "id": "area_of_a_rectangle_and_a_square_q1",
           "prompt": {
             "english": "Find the area of a rectangle of length 12 cm and breadth 8 cm.",
-            "hindi": "Find the area of a rectangle of length 12 cm and breadth 8 cm."
+            "hindi": "12 सेमी लंबाई और 8 सेमी चौड़ाई वाले आयत का क्षेत्रफल लिखिए।"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -133,11 +133,11 @@
       "tags": [
         {
           "english": "Area",
-          "hindi": "Area"
+          "hindi": "क्षेत्रफल"
         },
         {
           "english": "Area of a Rectangle and a Square",
-          "hindi": "Area of a Rectangle and a Square"
+          "hindi": "आयत और वर्ग का क्षेत्रफल"
         }
       ],
       "mistakeFocus": "UNIT_CONVERSION"

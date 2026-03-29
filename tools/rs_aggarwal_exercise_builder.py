@@ -6,8 +6,6 @@ from functools import reduce as _reduce
 from math import gcd as _gcd
 from pathlib import Path
 
-from codex_math_content import generate_math_content
-
 try:
     import fitz
 except ModuleNotFoundError:  # pragma: no cover - optional for asset refresh from existing JSON
@@ -1618,110 +1616,6 @@ def for_this_exercise_line(prompt_text: str) -> str:
     return f"For this exercise, {prompt}"
 
 
-def final_form_hint(prompt_text: str, solution_text: str, *, notebook_task: bool) -> str:
-    prompt = sanitize_ocr_text(prompt_text).lower()
-    answer = sanitize_ocr_text(solution_text)
-
-    if notebook_task:
-        return "Finish the construction or drawing neatly, label it properly, and only then type done."
-    if "roman numeral" in prompt or "roman numerals" in prompt:
-        return "Write the final answer only in Roman numerals."
-    if "in words" in prompt:
-        return "Write the final answer in words exactly as the question asks."
-    if "ascending order" in prompt:
-        return "Arrange the answers from the smallest to the greatest before writing them."
-    if "descending order" in prompt:
-        return "Arrange the answers from the greatest to the smallest before writing them."
-    if "simplest form" in prompt or "lowest term" in prompt or "lowest terms" in prompt:
-        return "Reduce the fraction fully before writing the final answer."
-    if "mixed number" in prompt or "mixed numeral" in prompt:
-        return "Convert the result into a mixed number before writing the final answer."
-    if answer in {"<", ">", "="}:
-        return "Write only the correct comparison sign in the blank."
-    if re.search(r"\b(perimeter|area|volume|length|breadth|height|mass|capacity|money|rupees|paise|metre|meter|centimetre|centimeter|litre|liter|gram|kilogram)\b", prompt):
-        return "Check that the final number is written with the correct unit."
-    return "Write the final answer in the same form that the question asks for."
-
-
-def detailed_teaching_paragraphs(
-    chapter_number: int,
-    chapter_title_en: str,
-    chapter_title_hi: str,
-    prompt_text: str,
-    solution_text: str,
-    *,
-    notebook_task: bool,
-    computed_steps: list[str] | None = None,
-) -> list[dict[str, str]]:
-    return exercise_codex_content(
-        chapter_number=chapter_number,
-        chapter_title_en=chapter_title_en,
-        chapter_title_hi=chapter_title_hi,
-        prompt_text=prompt_text,
-        solution_text=solution_text,
-        notebook_task=notebook_task,
-        computed_steps=computed_steps,
-    )["teaching_paragraphs"]
-
-
-def detailed_solution_paragraphs(
-    chapter_number: int,
-    chapter_title_en: str,
-    chapter_title_hi: str,
-    prompt_text: str,
-    solution_text: str,
-    *,
-    notebook_task: bool,
-    computed_steps: list[str] | None = None,
-) -> list[dict[str, str]]:
-    return exercise_codex_content(
-        chapter_number=chapter_number,
-        chapter_title_en=chapter_title_en,
-        chapter_title_hi=chapter_title_hi,
-        prompt_text=prompt_text,
-        solution_text=solution_text,
-        notebook_task=notebook_task,
-        computed_steps=computed_steps,
-    )["solution_paragraphs"]
-
-
-def exercise_codex_content(
-    *,
-    chapter_number: int,
-    chapter_title_en: str,
-    chapter_title_hi: str,
-    prompt_text: str,
-    solution_text: str,
-    notebook_task: bool,
-    computed_steps: list[str] | None = None,
-) -> dict[str, list[dict[str, str]]]:
-    guide = chapter_exercise_guide(chapter_number)
-    prompt = sanitize_ocr_text(prompt_text)
-    solution = sanitize_ocr_text(solution_text)
-    return generate_math_content(
-        content_kind="exercise_question",
-        chapter_title_en=chapter_title_en,
-        chapter_title_hi=chapter_title_hi,
-        topic_title_en="Exercise Question",
-        topic_title_hi="अभ्यास प्रश्न",
-        question_prompt_en=prompt,
-        question_prompt_hi="",
-        authoritative_answer_en=solution,
-        authoritative_answer_hi=solution,
-        question_type="TEXT_INPUT",
-        concept_en=guide["key_idea"],
-        concept_hi=guide["key_idea"],
-        hint_en=exercise_method_line(prompt, guide, notebook_task=notebook_task),
-        hint_hi=exercise_method_line(prompt, guide, notebook_task=notebook_task),
-        example_en=guide["example"],
-        example_hi=guide["example"],
-        support_en=final_form_hint(prompt, solution, notebook_task=notebook_task),
-        support_hi=final_form_hint(prompt, solution, notebook_task=notebook_task),
-        notebook_task=notebook_task,
-        computed_steps=unique_text_lines(computed_steps or []),
-    )
-
-
 def unitless_answer_variants(answer_text: str) -> list[str]:
     variant = answer_text
     unit_patterns = (
@@ -2374,32 +2268,8 @@ def make_notebook_answer(
     chapter_title_en: str,
     chapter_title_hi: str,
 ) -> dict[str, object]:
-    solution_text = notebook_solution(prompt_text)
     return {
         "acceptedAnswers": NOTEBOOK_ACCEPTED_ANSWERS,
-        "solutionText": "done",
-        "wrongReason": "This is a notebook drawing or construction task. Finish it carefully and then type done.",
-        "supportExample": solution_text,
-        "reteachTitle": "How to complete this notebook task",
-        "reteachParagraphs": detailed_solution_paragraphs(
-            chapter_number,
-            chapter_title_en,
-            chapter_title_hi,
-            prompt_text,
-            "done",
-            notebook_task=True,
-            computed_steps=[solution_text],
-        ),
-        "teachingParagraphs": detailed_teaching_paragraphs(
-            chapter_number,
-            chapter_title_en,
-            chapter_title_hi,
-            prompt_text,
-            "done",
-            notebook_task=True,
-            computed_steps=[solution_text],
-        ),
-        "exampleText": solution_text,
         "quizPromptSuffix": "Then type done.",
     }
 
@@ -2787,33 +2657,8 @@ def make_text_answer(
                 _add_accepted(a)
 
         solution_text = fmt_primary
-        reteach_paragraphs = steps  # actual worked solution steps
-
         return {
             "acceptedAnswers": accepted_answers,
-            "solutionText": solution_text,
-            "wrongReason": "Solve step by step and check each line. Units do not need to be typed.",
-            "supportExample": f"See the step-by-step solution below.",
-            "reteachTitle": "See solution",
-            "reteachParagraphs": detailed_solution_paragraphs(
-                chapter_number,
-                chapter_title_en,
-                chapter_title_hi,
-                prompt_text,
-                solution_text,
-                notebook_task=False,
-                computed_steps=reteach_paragraphs,
-            ),
-            "teachingParagraphs": detailed_teaching_paragraphs(
-                chapter_number,
-                chapter_title_en,
-                chapter_title_hi,
-                prompt_text,
-                solution_text,
-                notebook_task=False,
-                computed_steps=reteach_paragraphs,
-            ),
-            "exampleText": f"Answer: {solution_text}",
             "quizPromptSuffix": "",
         }
 
@@ -2830,27 +2675,6 @@ def make_text_answer(
     ) or compact_text(accepted_answers[0] if accepted_answers else "")
     return {
         "acceptedAnswers": accepted_answers,
-        "solutionText": solution_text,
-        "wrongReason": "Check each step of your working carefully. Units do not need to be typed.",
-        "supportExample": "Work through the steps carefully and compare your answer at the end.",
-        "reteachTitle": "See solution",
-        "reteachParagraphs": detailed_solution_paragraphs(
-            chapter_number,
-            chapter_title_en,
-            chapter_title_hi,
-            prompt_text,
-            solution_text,
-            notebook_task=False,
-        ),
-        "teachingParagraphs": detailed_teaching_paragraphs(
-            chapter_number,
-            chapter_title_en,
-            chapter_title_hi,
-            prompt_text,
-            solution_text,
-            notebook_task=False,
-        ),
-        "exampleText": f"Answer: {solution_text}",
         "quizPromptSuffix": "",
     }
 
@@ -2917,7 +2741,7 @@ def build_topic(
         "subtopicTitle": loc(subtopic_title),
         "knowPrompt": loc(f"Can you solve {subtopic_title}?"),
         "explanationTitle": loc(explanation_title),
-        "explanationParagraphs": list(answer_payload.get("teachingParagraphs", [])),
+        "explanationParagraphs": [],
         "examples": [],
         "visuals": [],
         "questions": [
@@ -2928,12 +2752,12 @@ def build_topic(
                 "options": [],
                 "correctOptionIndex": None,
                 "acceptedAnswers": answer_payload["acceptedAnswers"],
-                "hint": loc("Check the textbook rule, the numbers, and the final form carefully."),
-                "wrongReason": loc(str(answer_payload["wrongReason"])),
-                "supportExample": loc(str(answer_payload["supportExample"])),
+                "hint": None,
+                "wrongReason": None,
+                "supportExample": None,
                 "mistakeType": "GENERAL",
-                "reteachTitle": loc(str(answer_payload["reteachTitle"])),
-                "reteachParagraphs": list(answer_payload["reteachParagraphs"]),
+                "reteachTitle": None,
+                "reteachParagraphs": [],
             }
         ],
         "tags": [
