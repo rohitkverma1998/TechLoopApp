@@ -12559,15 +12559,30 @@
         {
           "id": "rsexch01ex01q54_q1",
           "prompt": {
-            "english": "Which of the following figures are polygons? (a) (b) (c) (d) (e) (f)",
-            "hindi": "Which of the following figures are polygons? (a) (b) (c) (d) (e) (f)"
+            "english": "Which of the following shapes are polygons?\n(a) Triangle  (b) Circle  (c) Rectangle  (d) Ellipse  (e) Square  (f) Hexagon",
+            "hindi": "निम्नलिखित में से कौन-सी आकृतियाँ बहुभुज (Polygon) हैं?\n(a) त्रिभुज  (b) वृत्त  (c) आयत  (d) दीर्घवृत्त  (e) वर्ग  (f) षट्भुज"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
-          "acceptedAnswers": [
-            "(a), (c), (d) and (f)"
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "(a), (c), (e) and (f)",
+              "hindi": "(a), (c), (e) तथा (f)"
+            },
+            {
+              "english": "(a), (c), (d) and (f)",
+              "hindi": "(a), (c), (d) तथा (f)"
+            },
+            {
+              "english": "(b), (d) and (e)",
+              "hindi": "(b), (d) तथा (e)"
+            },
+            {
+              "english": "All of them",
+              "hindi": "सभी"
+            }
           ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
           "hint": null,
           "wrongReason": null,
           "supportExample": null,
@@ -14169,8 +14184,8 @@
         {
           "id": "rsexch01ex01q66_q1",
           "prompt": {
-            "english": "Kailash joined service in a company on 30th April, 2010 and worked for 42 days. On what date did he leave the job? 4 cm 8 cm 3 cm 5 cm 6 cm 4 cm 4 cm 5 cm 3 cm 3 cm 1 cm 1 cm",
-            "hindi": "Kailash joined service in a company on 30th April, 2010 and worked for 42 days. On what date did he leave the job? 4 cm 8 cm 3 cm 5 cm 6 cm 4 cm 4 cm 5 cm 3 cm 3 cm 1 cm 1 cm"
+            "english": "Kailash joined service in a company on 30th April, 2010 and worked for 42 days. On what date did he leave the job?",
+            "hindi": "कैलाश ने 30 अप्रैल 2010 को एक कंपनी में काम शुरू किया और 42 दिन काम किया। उसने किस तारीख को काम छोड़ा?"
           },
           "type": "TEXT_INPUT",
           "options": [],

@@ -1361,20 +1361,30 @@
         {
           "id": "rsexch24ex79q10_q1",
           "prompt": {
-            "english": "Amit has sixty 1 cm cubes. Which of these cuboids can he not build? (a) 5 cm long, 4 cm wide, 3 cm high (b) 2 cm long, 3 cm wide, 10 cm high (c) 4 cm long, 4 cm wide, 4 cm high (d) 6 cm long, 5 cm wide, 2 cm high",
-            "hindi": "Amit has sixty 1 cm cubes. Which of these cuboids can he not build? (a) 5 cm long, 4 cm wide, 3 cm high (b) 2 cm long, 3 cm wide, 10 cm high (c) 4 cm long, 4 cm wide, 4 cm high (d) 6 cm long, 5 cm wide, 2 cm high"
+            "english": "Amit has sixty 1 cm cubes. Which of these cuboids can he NOT build?\n(a) 5 cm long, 4 cm wide, 3 cm high  (Volume = 60 cm³)\n(b) 2 cm long, 3 cm wide, 10 cm high  (Volume = 60 cm³)\n(c) 4 cm long, 4 cm wide, 4 cm high  (Volume = 64 cm³)\n(d) 6 cm long, 5 cm wide, 2 cm high  (Volume = 60 cm³)",
+            "hindi": "अमित के पास साठ 1 cm³ घन हैं। वह इनमें से कौन-सा घनाभ नहीं बना सकता?\n(a) 5 cm लंबा, 4 cm चौड़ा, 3 cm ऊँचा  (आयतन = 60 cm³)\n(b) 2 cm लंबा, 3 cm चौड़ा, 10 cm ऊँचा  (आयतन = 60 cm³)\n(c) 4 cm लंबा, 4 cm चौड़ा, 4 cm ऊँचा  (आयतन = 64 cm³)\n(d) 6 cm लंबा, 5 cm चौड़ा, 2 cm ऊँचा  (आयतन = 60 cm³)"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
-          "acceptedAnswers": [
-            "c",
-            "option c",
-            "4 cm long, 4 cm wide, 4 cm high",
-            "4 long, 4 wide, 4 high",
-            "4 cm long 4 cm wide 4 cm high",
-            "4 long 4 wide 4 high"
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Option (a)",
+              "hindi": "विकल्प (a)"
+            },
+            {
+              "english": "Option (b)",
+              "hindi": "विकल्प (b)"
+            },
+            {
+              "english": "Option (c) — 64 cubes needed",
+              "hindi": "विकल्प (c) — 64 घन चाहिए"
+            },
+            {
+              "english": "Option (d)",
+              "hindi": "विकल्प (d)"
+            }
           ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [],
           "hint": null,
           "wrongReason": null,
           "supportExample": null,

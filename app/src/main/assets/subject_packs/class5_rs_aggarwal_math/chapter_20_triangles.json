@@ -2190,8 +2190,8 @@
         {
           "id": "rsexch20ex75q01_q1",
           "prompt": {
-            "english": "Classify the following triangles with respect to their angles. (a) (b) (c) (d) (e) (f)",
-            "hindi": "Classify the following triangles with respect to their angles. (a) (b) (c) (d) (e) (f)"
+            "english": "Classify each triangle by its angles:\n(a) A triangle with angles 30°, 110°, 40°\n(b) A triangle with angles 90°, 45°, 45°\n(c) A triangle with angles 25°, 130°, 25°\n(d) A triangle with angles 60°, 70°, 50°\n(e) A triangle with angles 90°, 60°, 30°\n(f) A triangle with angles 70°, 60°, 50°",
+            "hindi": "प्रत्येक त्रिभुज को उसके कोणों के आधार पर वर्गीकृत करें:\n(a) कोण 30°, 110°, 40° वाला त्रिभुज\n(b) कोण 90°, 45°, 45° वाला त्रिभुज\n(c) कोण 25°, 130°, 25° वाला त्रिभुज\n(d) कोण 60°, 70°, 50° वाला त्रिभुज\n(e) कोण 90°, 60°, 30° वाला त्रिभुज\n(f) कोण 70°, 60°, 50° वाला त्रिभुज"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -2254,14 +2254,15 @@
         {
           "id": "rsexch20ex75q02_q1",
           "prompt": {
-            "english": "Find the third angle in each of the following triangles. (a) (b) (c) (d) (e) (f)",
-            "hindi": "Find the third angle in each of the following triangles. (a) (b) (c) (d) (e) (f)"
+            "english": "Find the third angle of each triangle:\n(a) Two angles are 70° and 60°\n(b) Two angles are 25° and 40°\n(c) Two angles are 55° and 42°\n(d) Two angles are 90° and 57°\n(e) Two angles are 60° and 40°\n(f) Two angles are 100° and 45°",
+            "hindi": "प्रत्येक त्रिभुज का तीसरा कोण ज्ञात करें:\n(a) दो कोण 70° और 60° हैं\n(b) दो कोण 25° और 40° हैं\n(c) दो कोण 55° और 42° हैं\n(d) दो कोण 90° और 57° हैं\n(e) दो कोण 60° और 40° हैं\n(f) दो कोण 100° और 45° हैं"
           },
           "type": "TEXT_INPUT",
           "options": [],
           "correctOptionIndex": null,
           "acceptedAnswers": [
-            "(a) 50° (b) 115° (c) 83° (d) 33° (e) 80° (f) 35°"
+            "(a) 50° (b) 115° (c) 83° (d) 33° (e) 80° (f) 35°",
+            "(a)50 (b)115 (c)83 (d)33 (e)80 (f)35"
           ],
           "hint": null,
           "wrongReason": null,

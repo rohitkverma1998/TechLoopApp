@@ -5840,14 +5840,14 @@
         {
           "id": "rsexch04ex11q01_q1",
           "prompt": {
-            "english": "Fill in the blanks. (a) 1485 × = 2346 × 1485 (b) 2947 × 4508 = 4508 × (c) 2772 × = 2772 (d) 4358 × = 0 (e) 35 × (100 + 37) = (35 × 100) + (35 × ) (f) 146 × (1000 + 48) = (146 × ) + (146 × ) (g) 375 × (147 × 903) = (375 × 147) × (h) ( ) × (1030 × 975) = (2460 × 1030) × 975",
-            "hindi": "Fill in the blanks. (a) 1485 × = 2346 × 1485 (b) 2947 × 4508 = 4508 × (c) 2772 × = 2772 (d) 4358 × = 0 (e) 35 × (100 + 37) = (35 × 100) + (35 × ) (f) 146 × (1000 + 48) = (146 × ) + (146 × ) (g) 375 × (147 × 903) = (375 × 147) × (h) ( ) × (1030 × 975) = (2460 × 1030) × 975"
+            "english": "Using the commutative property of multiplication, fill in the blank:\n1485 × ___ = 2346 × 1485",
+            "hindi": "गुणन के क्रम-विनिमय गुण का उपयोग करके रिक्त स्थान भरें:\n1485 × ___ = 2346 × 1485"
           },
           "type": "TEXT_INPUT",
           "options": [],
           "correctOptionIndex": null,
           "acceptedAnswers": [
-            "610006"
+            "2346"
           ],
           "hint": null,
           "wrongReason": null,
@@ -5904,14 +5904,15 @@
         {
           "id": "rsexch04ex11q02_q1",
           "prompt": {
-            "english": "Fill in the blanks. (a) 2718 × 10 = (b) 16875 × 10 = (c) 3875 × 100 = (d) 29272 × 100 = (e) 6087 × 1000 = (f) 47385 × 1000 =",
-            "hindi": "Fill in the blanks. (a) 2718 × 10 = (b) 16875 × 10 = (c) 3875 × 100 = (d) 29272 × 100 = (e) 6087 × 1000 = (f) 47385 × 1000 ="
+            "english": "Divide and fill in the blank:\n2718 ÷ 10 = ___",
+            "hindi": "भाग दें और रिक्त स्थान भरें:\n2718 ÷ 10 = ___"
           },
           "type": "TEXT_INPUT",
           "options": [],
           "correctOptionIndex": null,
           "acceptedAnswers": [
-            "1826276"
+            "271.8",
+            "271.80"
           ],
           "hint": null,
           "wrongReason": null,

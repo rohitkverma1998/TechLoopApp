@@ -4508,8 +4508,8 @@
         {
           "id": "rsexch12ex54q09_q1",
           "prompt": {
-            "english": "Convert 4 km 9 cm 5 mm into m. Addition and Subtraction of Length Measures To add or subtract measures given in different units, we convert each of the given measures into the biggest given unit and then add or subtract the measures as we do in case of decimals",
-            "hindi": "Convert 4 km 9 cm 5 mm into m. Addition and Subtraction of Length Measures To add or subtract measures given in different units, we convert each of the given measures into the biggest given unit and then add or subtract the measures as we do in case of decimals"
+            "english": "Convert 4 km 9 cm 5 mm into metres (m).",
+            "hindi": "4 km 9 cm 5 mm को मीटर (m) में बदलें।"
           },
           "type": "TEXT_INPUT",
           "options": [],

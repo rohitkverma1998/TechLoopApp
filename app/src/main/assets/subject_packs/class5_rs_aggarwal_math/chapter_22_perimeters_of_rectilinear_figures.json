@@ -398,8 +398,8 @@
         {
           "id": "rsexch22ex77q01_q1",
           "prompt": {
-            "english": "Find the perimeter of each of the figures given below. (a) (b) (c) 6 cm 5 cm 4 cm 8 cm 5 cm 9 cm 5 cm 6 cm 7 cm 9 cm 6 cm 8 cm",
-            "hindi": "Find the perimeter of each of the figures given below. (a) (b) (c) 6 cm 5 cm 4 cm 8 cm 5 cm 9 cm 5 cm 6 cm 7 cm 9 cm 6 cm 8 cm"
+            "english": "Find the perimeter of each rectilinear figure:\n(a) A figure with sides: 6 cm, 5 cm, 4 cm, 8 cm\n(b) A figure with sides: 5 cm, 9 cm, 5 cm, 8 cm\n(c) A figure with sides: 6 cm, 7 cm, 9 cm, 6 cm",
+            "hindi": "प्रत्येक समरेखीय आकृति का परिमाप ज्ञात करें:\n(a) एक आकृति जिसकी भुजाएँ हैं: 6 cm, 5 cm, 4 cm, 8 cm\n(b) एक आकृति जिसकी भुजाएँ हैं: 5 cm, 9 cm, 5 cm, 8 cm\n(c) एक आकृति जिसकी भुजाएँ हैं: 6 cm, 7 cm, 9 cm, 6 cm"
           },
           "type": "TEXT_INPUT",
           "options": [],

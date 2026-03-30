@@ -3243,15 +3243,30 @@
         {
           "id": "rsexch03ex03q08_q1",
           "prompt": {
-            "english": "find the place value of the underlined digits in each of the following. (a) 590713568 (b) 635709412 (c) 820307514 (d) 813605247 (e) 246053819 (f) 913546007: Counting in thousands,",
-            "hindi": "find the place value of the underlined digits in each of the following. (a) 590713568 (b) 635709412 (c) 820307514 (d) 813605247 (e) 246053819 (f) 913546007: Counting in thousands,"
+            "english": "Find the place value of the digit 5 in the number 59,07,13,568.",
+            "hindi": "संख्या 59,07,13,568 में अंक 5 का स्थान मूल्य बताइए।"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
-          "acceptedAnswers": [
-            "2906754, 2907754, 2908754, 2909754, 2910754, 2911754"
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "50,00,00,000 (50 crore)",
+              "hindi": "50,00,00,000 (50 करोड़)"
+            },
+            {
+              "english": "5,00,00,000 (5 crore)",
+              "hindi": "5,00,00,000 (5 करोड़)"
+            },
+            {
+              "english": "50,00,000 (50 lakh)",
+              "hindi": "50,00,000 (50 लाख)"
+            },
+            {
+              "english": "5,00,000 (5 lakh)",
+              "hindi": "5,00,000 (5 लाख)"
+            }
           ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
           "hint": null,
           "wrongReason": null,
           "supportExample": null,

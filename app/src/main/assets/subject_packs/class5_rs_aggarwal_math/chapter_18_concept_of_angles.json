@@ -622,15 +622,30 @@
         {
           "id": "rsexch18ex70q01_q1",
           "prompt": {
-            "english": "Which of the following figures represents an angle? (a) (b) (c) (d)",
-            "hindi": "Which of the following figures represents an angle? (a) (b) (c) (d)"
+            "english": "Which of the following correctly represents an angle?\n(a) Two rays meeting at a common endpoint\n(b) A straight line with no endpoint\n(c) Two line segments meeting at a point\n(d) A circle",
+            "hindi": "निम्नलिखित में से कौन-सा कोण (angle) को सही रूप में दर्शाता है?\n(a) एक उभयनिष्ठ बिंदु पर मिलती दो किरणें\n(b) बिना सिरे वाली एक सीधी रेखा\n(c) एक बिंदु पर मिलते दो रेखाखंड\n(d) एक वृत्त"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
-          "acceptedAnswers": [
-            "(a), (c)"
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "(a) and (c)",
+              "hindi": "(a) और (c)"
+            },
+            {
+              "english": "(b) only",
+              "hindi": "केवल (b)"
+            },
+            {
+              "english": "(d) only",
+              "hindi": "केवल (d)"
+            },
+            {
+              "english": "None of them",
+              "hindi": "इनमें से कोई नहीं"
+            }
           ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
           "hint": null,
           "wrongReason": null,
           "supportExample": null,
@@ -751,14 +766,15 @@
         {
           "id": "rsexch18ex70q03_q1",
           "prompt": {
-            "english": "How many angles are formed in each of the following figures? Name them. (a) (b) (c) (d)",
-            "hindi": "How many angles are formed in each of the following figures? Name them. (a) (b) (c) (d)"
+            "english": "In triangle ABC, three angles are formed at vertex A: ∠OAB, ∠BAC, and ∠OAC. How many angles are formed in total?",
+            "hindi": "त्रिभुज ABC में शीर्ष A पर तीन कोण बनते हैं: ∠OAB, ∠BAC और ∠OAC। कुल कितने कोण बनते हैं?"
           },
           "type": "TEXT_INPUT",
           "options": [],
           "correctOptionIndex": null,
           "acceptedAnswers": [
-            "(a) 3; ∠OAB, ∠BAC, ∠OAC (b) 6; ∠DEF, ∠FEG, ∠GEH, ∠DEG, ∠FEH, ∠DEH"
+            "3",
+            "3 angles"
           ],
           "hint": null,
           "wrongReason": null,
@@ -815,14 +831,15 @@
         {
           "id": "rsexch18ex70q04_q1",
           "prompt": {
-            "english": "Name all the angles in each of the following figures. (a) (b) (c)",
-            "hindi": "Name all the angles in each of the following figures. (a) (b) (c)"
+            "english": "Name all the angles in triangle ABC.",
+            "hindi": "त्रिभुज ABC में सभी कोणों के नाम बताइए।"
           },
           "type": "TEXT_INPUT",
           "options": [],
           "correctOptionIndex": null,
           "acceptedAnswers": [
-            "(a) ∠BAC, ∠ABC, ∠BCA, ∠DCA, ∠DAC, ∠ADC, ∠DAB, ∠DCB (b) ∠XYZ, ∠YZX, ∠YXZ (c) ∠PQR, ∠QRS, ∠RST, ∠STV, ∠TVP, ∠VPQ"
+            "∠BAC, ∠ABC, ∠BCA",
+            "angle BAC, angle ABC, angle BCA"
           ],
           "hint": null,
           "wrongReason": null,
