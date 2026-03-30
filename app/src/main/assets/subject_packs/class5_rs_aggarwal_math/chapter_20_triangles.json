@@ -2188,23 +2188,268 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rsexch20ex75q01_q1",
+          "id": "rsexch20ex75q01_qa",
           "prompt": {
-            "english": "Classify each triangle by its angles:\n(a) A triangle with angles 30°, 110°, 40°\n(b) A triangle with angles 90°, 45°, 45°\n(c) A triangle with angles 25°, 130°, 25°\n(d) A triangle with angles 60°, 70°, 50°\n(e) A triangle with angles 90°, 60°, 30°\n(f) A triangle with angles 70°, 60°, 50°",
-            "hindi": "प्रत्येक त्रिभुज को उसके कोणों के आधार पर वर्गीकृत करें:\n(a) कोण 30°, 110°, 40° वाला त्रिभुज\n(b) कोण 90°, 45°, 45° वाला त्रिभुज\n(c) कोण 25°, 130°, 25° वाला त्रिभुज\n(d) कोण 60°, 70°, 50° वाला त्रिभुज\n(e) कोण 90°, 60°, 30° वाला त्रिभुज\n(f) कोण 70°, 60°, 50° वाला त्रिभुज"
+            "english": "Classify the triangle with angles 30°, 110°, 40° by its angles.",
+            "hindi": "30°, 110°, 40° कोणों वाले त्रिभुज को उसके कोणों के आधार पर वर्गीकृत करें।"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
-          "acceptedAnswers": [
-            "(a) Obtuse-angled (b) Right-angled (c) Obtuse-angled (d) Acute-angled (e) Right-angled (f) Acute-angled"
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Acute-angled",
+              "hindi": "न्यून कोण त्रिभुज"
+            },
+            {
+              "english": "Right-angled",
+              "hindi": "समकोण त्रिभुज"
+            },
+            {
+              "english": "Obtuse-angled",
+              "hindi": "अधिक कोण त्रिभुज"
+            }
           ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
-          "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "wrongReason": {
+            "english": "One angle is 110° which is greater than 90°, so it is an obtuse-angled triangle.",
+            "hindi": "110° कोण 90° से बड़ा है, इसलिए यह अधिक कोण त्रिभुज है।"
+          },
+          "supportExample": {
+            "english": "If any angle > 90° → Obtuse-angled triangle.",
+            "hindi": "यदि कोई कोण > 90° → अधिक कोण त्रिभुज।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "30° + 110° + 40° = 180°. Angle 110° > 90° → Obtuse-angled triangle.",
+              "hindi": "30° + 110° + 40° = 180°। कोण 110° > 90° → अधिक कोण त्रिभुज।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch20ex75q01_qb",
+          "prompt": {
+            "english": "Classify the triangle with angles 90°, 45°, 45° by its angles.",
+            "hindi": "90°, 45°, 45° कोणों वाले त्रिभुज को वर्गीकृत करें।"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Acute-angled",
+              "hindi": "न्यून कोण त्रिभुज"
+            },
+            {
+              "english": "Right-angled",
+              "hindi": "समकोण त्रिभुज"
+            },
+            {
+              "english": "Obtuse-angled",
+              "hindi": "अधिक कोण त्रिभुज"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": null,
+          "wrongReason": {
+            "english": "One angle is exactly 90°, so it is a right-angled triangle.",
+            "hindi": "एक कोण ठीक 90° है, इसलिए यह समकोण त्रिभुज है।"
+          },
+          "supportExample": {
+            "english": "If one angle = 90° → Right-angled triangle.",
+            "hindi": "यदि एक कोण = 90° → समकोण त्रिभुज।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "90°, 45°, 45° → one angle is 90° → Right-angled triangle.",
+              "hindi": "90°, 45°, 45° → एक कोण 90° → समकोण त्रिभुज।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch20ex75q01_qc",
+          "prompt": {
+            "english": "Classify the triangle with angles 25°, 130°, 25° by its angles.",
+            "hindi": "25°, 130°, 25° कोणों वाले त्रिभुज को वर्गीकृत करें।"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Acute-angled",
+              "hindi": "न्यून कोण त्रिभुज"
+            },
+            {
+              "english": "Right-angled",
+              "hindi": "समकोण त्रिभुज"
+            },
+            {
+              "english": "Obtuse-angled",
+              "hindi": "अधिक कोण त्रिभुज"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [],
+          "hint": null,
+          "wrongReason": {
+            "english": "One angle is 130° which is greater than 90°, so it is an obtuse-angled triangle.",
+            "hindi": "130° कोण 90° से बड़ा है → अधिक कोण त्रिभुज।"
+          },
+          "supportExample": {
+            "english": "If any angle > 90° → Obtuse-angled triangle.",
+            "hindi": "यदि कोई कोण > 90° → अधिक कोण त्रिभुज।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "25° + 130° + 25° = 180°. Angle 130° > 90° → Obtuse-angled.",
+              "hindi": "25° + 130° + 25° = 180°। कोण 130° > 90° → अधिक कोण त्रिभुज।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch20ex75q01_qd",
+          "prompt": {
+            "english": "Classify the triangle with angles 60°, 70°, 50° by its angles.",
+            "hindi": "60°, 70°, 50° कोणों वाले त्रिभुज को वर्गीकृत करें।"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Acute-angled",
+              "hindi": "न्यून कोण त्रिभुज"
+            },
+            {
+              "english": "Right-angled",
+              "hindi": "समकोण त्रिभुज"
+            },
+            {
+              "english": "Obtuse-angled",
+              "hindi": "अधिक कोण त्रिभुज"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
+          "hint": null,
+          "wrongReason": {
+            "english": "All three angles (60°, 70°, 50°) are less than 90°, so it is an acute-angled triangle.",
+            "hindi": "तीनों कोण (60°, 70°, 50°) 90° से कम हैं → न्यून कोण त्रिभुज।"
+          },
+          "supportExample": {
+            "english": "If all angles < 90° → Acute-angled triangle.",
+            "hindi": "सभी कोण < 90° → न्यून कोण त्रिभुज।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "60° + 70° + 50° = 180°. All < 90° → Acute-angled.",
+              "hindi": "60° + 70° + 50° = 180°। सभी < 90° → न्यून कोण त्रिभुज।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch20ex75q01_qe",
+          "prompt": {
+            "english": "Classify the triangle with angles 90°, 60°, 30° by its angles.",
+            "hindi": "90°, 60°, 30° कोणों वाले त्रिभुज को वर्गीकृत करें।"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Acute-angled",
+              "hindi": "न्यून कोण त्रिभुज"
+            },
+            {
+              "english": "Right-angled",
+              "hindi": "समकोण त्रिभुज"
+            },
+            {
+              "english": "Obtuse-angled",
+              "hindi": "अधिक कोण त्रिभुज"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": null,
+          "wrongReason": {
+            "english": "One angle is exactly 90°, so it is a right-angled triangle.",
+            "hindi": "एक कोण ठीक 90° है → समकोण त्रिभुज।"
+          },
+          "supportExample": {
+            "english": "If one angle = 90° → Right-angled triangle.",
+            "hindi": "यदि एक कोण = 90° → समकोण त्रिभुज।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "90° + 60° + 30° = 180°. One angle 90° → Right-angled.",
+              "hindi": "90° + 60° + 30° = 180°। एक कोण 90° → समकोण त्रिभुज।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch20ex75q01_qf",
+          "prompt": {
+            "english": "Classify the triangle with angles 70°, 60°, 50° by its angles.",
+            "hindi": "70°, 60°, 50° कोणों वाले त्रिभुज को वर्गीकृत करें।"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Acute-angled",
+              "hindi": "न्यून कोण त्रिभुज"
+            },
+            {
+              "english": "Right-angled",
+              "hindi": "समकोण त्रिभुज"
+            },
+            {
+              "english": "Obtuse-angled",
+              "hindi": "अधिक कोण त्रिभुज"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
+          "hint": null,
+          "wrongReason": {
+            "english": "All three angles (70°, 60°, 50°) are less than 90°, so it is an acute-angled triangle.",
+            "hindi": "तीनों कोण (70°, 60°, 50°) 90° से कम हैं → न्यून कोण त्रिभुज।"
+          },
+          "supportExample": {
+            "english": "If all angles < 90° → Acute-angled triangle.",
+            "hindi": "सभी कोण < 90° → न्यून कोण त्रिभुज।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "70° + 60° + 50° = 180°. All < 90° → Acute-angled.",
+              "hindi": "70° + 60° + 50° = 180°। सभी < 90° → न्यून कोण त्रिभुज।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2252,24 +2497,208 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rsexch20ex75q02_q1",
+          "id": "rsexch20ex75q02_qa",
           "prompt": {
-            "english": "Find the third angle of each triangle:\n(a) Two angles are 70° and 60°\n(b) Two angles are 25° and 40°\n(c) Two angles are 55° and 42°\n(d) Two angles are 90° and 57°\n(e) Two angles are 60° and 40°\n(f) Two angles are 100° and 45°",
-            "hindi": "प्रत्येक त्रिभुज का तीसरा कोण ज्ञात करें:\n(a) दो कोण 70° और 60° हैं\n(b) दो कोण 25° और 40° हैं\n(c) दो कोण 55° और 42° हैं\n(d) दो कोण 90° और 57° हैं\n(e) दो कोण 60° और 40° हैं\n(f) दो कोण 100° और 45° हैं"
+            "english": "A triangle has two angles: 70° and 60°. Find the third angle.",
+            "hindi": "एक त्रिभुज के दो कोण 70° और 60° हैं। तीसरा कोण ज्ञात करें।"
           },
           "type": "TEXT_INPUT",
           "options": [],
           "correctOptionIndex": null,
           "acceptedAnswers": [
-            "(a) 50° (b) 115° (c) 83° (d) 33° (e) 80° (f) 35°",
-            "(a)50 (b)115 (c)83 (d)33 (e)80 (f)35"
+            "50",
+            "50°"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
-          "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "wrongReason": {
+            "english": "Third angle = 180° − (70° + 60°) = 180° − 130° = 50°.",
+            "hindi": "तीसरा कोण = 180° − (70° + 60°) = 180° − 130° = 50°।"
+          },
+          "supportExample": {
+            "english": "Sum of angles in a triangle = 180°. Third = 180° − (70° + 60°).",
+            "hindi": "त्रिभुज के कोणों का योग = 180°। तीसरा = 180° − (70° + 60°)।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "70° + 60° = 130°. Third angle = 180° − 130° = 50°.",
+              "hindi": "70° + 60° = 130°। तीसरा कोण = 180° − 130° = 50°।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch20ex75q02_qb",
+          "prompt": {
+            "english": "A triangle has two angles: 25° and 40°. Find the third angle.",
+            "hindi": "एक त्रिभुज के दो कोण 25° और 40° हैं। तीसरा कोण ज्ञात करें।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "115",
+            "115°"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "Third angle = 180° − (25° + 40°) = 180° − 65° = 115°.",
+            "hindi": "तीसरा कोण = 180° − (25° + 40°) = 180° − 65° = 115°।"
+          },
+          "supportExample": {
+            "english": "Sum of angles = 180°. Third = 180° − (25° + 40°).",
+            "hindi": "कोणों का योग = 180°। तीसरा = 180° − (25° + 40°)।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "25° + 40° = 65°. Third angle = 180° − 65° = 115°.",
+              "hindi": "25° + 40° = 65°। तीसरा कोण = 180° − 65° = 115°।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch20ex75q02_qc",
+          "prompt": {
+            "english": "A triangle has two angles: 55° and 42°. Find the third angle.",
+            "hindi": "एक त्रिभुज के दो कोण 55° और 42° हैं। तीसरा कोण ज्ञात करें।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "83",
+            "83°"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "Third angle = 180° − (55° + 42°) = 180° − 97° = 83°.",
+            "hindi": "तीसरा कोण = 180° − (55° + 42°) = 180° − 97° = 83°।"
+          },
+          "supportExample": {
+            "english": "Sum of angles = 180°. Third = 180° − (55° + 42°).",
+            "hindi": "कोणों का योग = 180°। तीसरा = 180° − (55° + 42°)।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "55° + 42° = 97°. Third angle = 180° − 97° = 83°.",
+              "hindi": "55° + 42° = 97°। तीसरा कोण = 180° − 97° = 83°।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch20ex75q02_qd",
+          "prompt": {
+            "english": "A triangle has two angles: 90° and 57°. Find the third angle.",
+            "hindi": "एक त्रिभुज के दो कोण 90° और 57° हैं। तीसरा कोण ज्ञात करें।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "33",
+            "33°"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "Third angle = 180° − (90° + 57°) = 180° − 147° = 33°.",
+            "hindi": "तीसरा कोण = 180° − (90° + 57°) = 180° − 147° = 33°।"
+          },
+          "supportExample": {
+            "english": "Sum of angles = 180°. Third = 180° − (90° + 57°).",
+            "hindi": "कोणों का योग = 180°। तीसरा = 180° − (90° + 57°)।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "90° + 57° = 147°. Third angle = 180° − 147° = 33°.",
+              "hindi": "90° + 57° = 147°। तीसरा कोण = 180° − 147° = 33°।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch20ex75q02_qe",
+          "prompt": {
+            "english": "A triangle has two angles: 60° and 40°. Find the third angle.",
+            "hindi": "एक त्रिभुज के दो कोण 60° और 40° हैं। तीसरा कोण ज्ञात करें।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "80",
+            "80°"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "Third angle = 180° − (60° + 40°) = 180° − 100° = 80°.",
+            "hindi": "तीसरा कोण = 180° − (60° + 40°) = 180° − 100° = 80°।"
+          },
+          "supportExample": {
+            "english": "Sum of angles = 180°. Third = 180° − (60° + 40°).",
+            "hindi": "कोणों का योग = 180°। तीसरा = 180° − (60° + 40°)।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "60° + 40° = 100°. Third angle = 180° − 100° = 80°.",
+              "hindi": "60° + 40° = 100°। तीसरा कोण = 180° − 100° = 80°।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch20ex75q02_qf",
+          "prompt": {
+            "english": "A triangle has two angles: 100° and 45°. Find the third angle.",
+            "hindi": "एक त्रिभुज के दो कोण 100° और 45° हैं। तीसरा कोण ज्ञात करें।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "35",
+            "35°"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "Third angle = 180° − (100° + 45°) = 180° − 145° = 35°.",
+            "hindi": "तीसरा कोण = 180° − (100° + 45°) = 180° − 145° = 35°।"
+          },
+          "supportExample": {
+            "english": "Sum of angles = 180°. Third = 180° − (100° + 45°).",
+            "hindi": "कोणों का योग = 180°। तीसरा = 180° − (100° + 45°)।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "100° + 45° = 145°. Third angle = 180° − 145° = 35°.",
+              "hindi": "100° + 45° = 145°। तीसरा कोण = 180° − 145° = 35°।"
+            }
+          ]
         }
       ],
       "tags": [

@@ -591,23 +591,164 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rsexch07ex22q03_q1",
+          "id": "rsexch07ex22q03_qa",
           "prompt": {
-            "english": "Circle each pair of like fractions given below. (a) 3/5, 4/5 (b) 2/5, 2/7 (c) 5/9, 7/9 (d) 6/7, 6/11",
-            "hindi": "Circle each pair of like fractions given below. (a) 3/5, 4/5 (b) 2/5, 2/7 (c) 5/9, 7/9 (d) 6/7, 6/11"
+            "english": "Are 3/5 and 4/5 like fractions or unlike fractions?",
+            "hindi": "3/5 और 4/5 — सजातीय भिन्न हैं या असजातीय?"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
-          "acceptedAnswers": [
-            "(a) and (c)"
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Like fractions",
+              "hindi": "सजातीय भिन्न"
+            },
+            {
+              "english": "Unlike fractions",
+              "hindi": "असजातीय भिन्न"
+            }
           ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
-          "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "wrongReason": {
+            "english": "3/5 and 4/5 have the same denominator (5), so they are like fractions.",
+            "hindi": "3/5 और 4/5 का हर एक ही (5) है, इसलिए ये सजातीय भिन्न हैं।"
+          },
+          "supportExample": {
+            "english": "Like fractions share the same denominator.",
+            "hindi": "सजातीय भिन्नों का हर एक जैसा होता है।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "3/5 and 4/5 → both have denominator 5 → Like fractions.",
+              "hindi": "3/5 और 4/5 दोनों का हर 5 है → सजातीय भिन्न।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch07ex22q03_qb",
+          "prompt": {
+            "english": "Are 2/5 and 2/7 like fractions or unlike fractions?",
+            "hindi": "2/5 और 2/7 — सजातीय भिन्न हैं या असजातीय?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Like fractions",
+              "hindi": "सजातीय भिन्न"
+            },
+            {
+              "english": "Unlike fractions",
+              "hindi": "असजातीय भिन्न"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": null,
+          "wrongReason": {
+            "english": "2/5 and 2/7 have different denominators (5 and 7), so they are unlike fractions.",
+            "hindi": "2/5 और 2/7 का हर अलग-अलग (5 और 7) है, इसलिए ये असजातीय भिन्न हैं।"
+          },
+          "supportExample": {
+            "english": "Unlike fractions have different denominators.",
+            "hindi": "असजातीय भिन्नों के हर अलग-अलग होते हैं।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "2/5 and 2/7 → denominators 5 and 7 (different) → Unlike fractions.",
+              "hindi": "2/5 और 2/7 के हर 5 और 7 (अलग) → असजातीय भिन्न।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch07ex22q03_qc",
+          "prompt": {
+            "english": "Are 5/9 and 7/9 like fractions or unlike fractions?",
+            "hindi": "5/9 और 7/9 — सजातीय भिन्न हैं या असजातीय?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Like fractions",
+              "hindi": "सजातीय भिन्न"
+            },
+            {
+              "english": "Unlike fractions",
+              "hindi": "असजातीय भिन्न"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
+          "hint": null,
+          "wrongReason": {
+            "english": "5/9 and 7/9 have the same denominator (9), so they are like fractions.",
+            "hindi": "5/9 और 7/9 का हर एक ही (9) है, इसलिए ये सजातीय भिन्न हैं।"
+          },
+          "supportExample": {
+            "english": "Like fractions share the same denominator.",
+            "hindi": "सजातीय भिन्नों का हर एक जैसा होता है।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "5/9 and 7/9 → both denominator 9 → Like fractions.",
+              "hindi": "5/9 और 7/9 दोनों का हर 9 → सजातीय भिन्न।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch07ex22q03_qd",
+          "prompt": {
+            "english": "Are 6/7 and 6/11 like fractions or unlike fractions?",
+            "hindi": "6/7 और 6/11 — सजातीय भिन्न हैं या असजातीय?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Like fractions",
+              "hindi": "सजातीय भिन्न"
+            },
+            {
+              "english": "Unlike fractions",
+              "hindi": "असजातीय भिन्न"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": null,
+          "wrongReason": {
+            "english": "6/7 and 6/11 have different denominators (7 and 11), so they are unlike fractions.",
+            "hindi": "6/7 और 6/11 का हर अलग-अलग (7 और 11) है, इसलिए ये असजातीय भिन्न हैं।"
+          },
+          "supportExample": {
+            "english": "Unlike fractions have different denominators.",
+            "hindi": "असजातीय भिन्नों के हर अलग-अलग होते हैं।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "6/7 and 6/11 → denominators 7 and 11 (different) → Unlike fractions.",
+              "hindi": "6/7 और 6/11 के हर 7 और 11 (अलग) → असजातीय भिन्न।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -655,23 +796,164 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rsexch07ex22q04_q1",
+          "id": "rsexch07ex22q04_qa",
           "prompt": {
-            "english": "Circle each pair of unlike fractions given below. (a) 1/4, 1/7 (b) 3/4, 3/5 (c) 4/9, 7/9 (d) 5/11, 7/11",
-            "hindi": "Circle each pair of unlike fractions given below. (a) 1/4, 1/7 (b) 3/4, 3/5 (c) 4/9, 7/9 (d) 5/11, 7/11"
+            "english": "Are 1/4 and 1/7 like fractions or unlike fractions?",
+            "hindi": "1/4 और 1/7 — सजातीय भिन्न हैं या असजातीय?"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
-          "acceptedAnswers": [
-            "(a) and (b)"
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Like fractions",
+              "hindi": "सजातीय भिन्न"
+            },
+            {
+              "english": "Unlike fractions",
+              "hindi": "असजातीय भिन्न"
+            }
           ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
-          "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "wrongReason": {
+            "english": "1/4 and 1/7 have different denominators (4 and 7), so they are unlike fractions.",
+            "hindi": "1/4 और 1/7 का हर अलग-अलग (4 और 7) है → असजातीय भिन्न।"
+          },
+          "supportExample": {
+            "english": "Different denominators → Unlike fractions.",
+            "hindi": "अलग हर → असजातीय भिन्न।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1/4 and 1/7 → denominators 4 and 7 → Unlike fractions.",
+              "hindi": "1/4 और 1/7 के हर 4 और 7 → असजातीय भिन्न।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch07ex22q04_qb",
+          "prompt": {
+            "english": "Are 3/4 and 3/5 like fractions or unlike fractions?",
+            "hindi": "3/4 और 3/5 — सजातीय भिन्न हैं या असजातीय?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Like fractions",
+              "hindi": "सजातीय भिन्न"
+            },
+            {
+              "english": "Unlike fractions",
+              "hindi": "असजातीय भिन्न"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": null,
+          "wrongReason": {
+            "english": "3/4 and 3/5 have different denominators (4 and 5), so they are unlike fractions.",
+            "hindi": "3/4 और 3/5 का हर अलग-अलग (4 और 5) है → असजातीय भिन्न।"
+          },
+          "supportExample": {
+            "english": "Different denominators → Unlike fractions.",
+            "hindi": "अलग हर → असजातीय भिन्न।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "3/4 and 3/5 → denominators 4 and 5 → Unlike fractions.",
+              "hindi": "3/4 और 3/5 के हर 4 और 5 → असजातीय भिन्न।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch07ex22q04_qc",
+          "prompt": {
+            "english": "Are 4/9 and 7/9 like fractions or unlike fractions?",
+            "hindi": "4/9 और 7/9 — सजातीय भिन्न हैं या असजातीय?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Like fractions",
+              "hindi": "सजातीय भिन्न"
+            },
+            {
+              "english": "Unlike fractions",
+              "hindi": "असजातीय भिन्न"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
+          "hint": null,
+          "wrongReason": {
+            "english": "4/9 and 7/9 have the same denominator (9), so they are like fractions — not unlike.",
+            "hindi": "4/9 और 7/9 का हर एक ही (9) है → ये सजातीय भिन्न हैं, असजातीय नहीं।"
+          },
+          "supportExample": {
+            "english": "Same denominator → Like fractions.",
+            "hindi": "एक ही हर → सजातीय भिन्न।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "4/9 and 7/9 → both denominator 9 → Like fractions.",
+              "hindi": "4/9 और 7/9 दोनों का हर 9 → सजातीय भिन्न।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch07ex22q04_qd",
+          "prompt": {
+            "english": "Are 5/11 and 7/11 like fractions or unlike fractions?",
+            "hindi": "5/11 और 7/11 — सजातीय भिन्न हैं या असजातीय?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Like fractions",
+              "hindi": "सजातीय भिन्न"
+            },
+            {
+              "english": "Unlike fractions",
+              "hindi": "असजातीय भिन्न"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
+          "hint": null,
+          "wrongReason": {
+            "english": "5/11 and 7/11 have the same denominator (11), so they are like fractions — not unlike.",
+            "hindi": "5/11 और 7/11 का हर एक ही (11) है → ये सजातीय भिन्न हैं, असजातीय नहीं।"
+          },
+          "supportExample": {
+            "english": "Same denominator → Like fractions.",
+            "hindi": "एक ही हर → सजातीय भिन्न।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "5/11 and 7/11 → both denominator 11 → Like fractions.",
+              "hindi": "5/11 और 7/11 दोनों का हर 11 → सजातीय भिन्न।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -719,23 +1001,204 @@
       "visuals": [],
       "questions": [
         {
-          "id": "rsexch07ex22q05_q1",
+          "id": "rsexch07ex22q05_qa",
           "prompt": {
-            "english": "Circle each one of the proper fractions given below. (a) 5/3 (b) 6/7 (c) 3/3 (d) 8/11 (e) 6/1",
-            "hindi": "Circle each one of the proper fractions given below. (a) 5/3 (b) 6/7 (c) 3/3 (d) 8/11 (e) 6/1"
+            "english": "Is 5/3 a proper fraction or an improper fraction?",
+            "hindi": "5/3 — उचित भिन्न है या विषम भिन्न?"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
-          "acceptedAnswers": [
-            "(b) and (d)"
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Proper fraction",
+              "hindi": "उचित भिन्न"
+            },
+            {
+              "english": "Improper fraction",
+              "hindi": "विषम भिन्न"
+            }
           ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
-          "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "wrongReason": {
+            "english": "5/3 is an improper fraction because the numerator (5) is greater than the denominator (3).",
+            "hindi": "5/3 विषम भिन्न है क्योंकि अंश (5) हर (3) से बड़ा है।"
+          },
+          "supportExample": {
+            "english": "Improper fraction: numerator ≥ denominator.",
+            "hindi": "विषम भिन्न: अंश ≥ हर।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "5/3 → numerator 5 > denominator 3 → Improper fraction.",
+              "hindi": "5/3 → अंश 5 > हर 3 → विषम भिन्न।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch07ex22q05_qb",
+          "prompt": {
+            "english": "Is 6/7 a proper fraction or an improper fraction?",
+            "hindi": "6/7 — उचित भिन्न है या विषम भिन्न?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Proper fraction",
+              "hindi": "उचित भिन्न"
+            },
+            {
+              "english": "Improper fraction",
+              "hindi": "विषम भिन्न"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
+          "hint": null,
+          "wrongReason": {
+            "english": "6/7 is a proper fraction because the numerator (6) is less than the denominator (7).",
+            "hindi": "6/7 उचित भिन्न है क्योंकि अंश (6) हर (7) से छोटा है।"
+          },
+          "supportExample": {
+            "english": "Proper fraction: numerator < denominator.",
+            "hindi": "उचित भिन्न: अंश < हर।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "6/7 → numerator 6 < denominator 7 → Proper fraction.",
+              "hindi": "6/7 → अंश 6 < हर 7 → उचित भिन्न।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch07ex22q05_qc",
+          "prompt": {
+            "english": "Is 3/3 a proper fraction or an improper fraction?",
+            "hindi": "3/3 — उचित भिन्न है या विषम भिन्न?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Proper fraction",
+              "hindi": "उचित भिन्न"
+            },
+            {
+              "english": "Improper fraction",
+              "hindi": "विषम भिन्न"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": null,
+          "wrongReason": {
+            "english": "3/3 is an improper fraction because the numerator equals the denominator (3 = 3). Proper fractions must have numerator strictly less than denominator.",
+            "hindi": "3/3 विषम भिन्न है क्योंकि अंश और हर बराबर हैं (3 = 3)। उचित भिन्न में अंश हर से कम होना चाहिए।"
+          },
+          "supportExample": {
+            "english": "Improper: numerator ≥ denominator.",
+            "hindi": "विषम: अंश ≥ हर।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "3/3 → numerator 3 = denominator 3 → Improper fraction.",
+              "hindi": "3/3 → अंश 3 = हर 3 → विषम भिन्न।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch07ex22q05_qd",
+          "prompt": {
+            "english": "Is 8/11 a proper fraction or an improper fraction?",
+            "hindi": "8/11 — उचित भिन्न है या विषम भिन्न?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Proper fraction",
+              "hindi": "उचित भिन्न"
+            },
+            {
+              "english": "Improper fraction",
+              "hindi": "विषम भिन्न"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [],
+          "hint": null,
+          "wrongReason": {
+            "english": "8/11 is a proper fraction because the numerator (8) is less than the denominator (11).",
+            "hindi": "8/11 उचित भिन्न है क्योंकि अंश (8) हर (11) से छोटा है।"
+          },
+          "supportExample": {
+            "english": "Proper fraction: numerator < denominator.",
+            "hindi": "उचित भिन्न: अंश < हर।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "8/11 → numerator 8 < denominator 11 → Proper fraction.",
+              "hindi": "8/11 → अंश 8 < हर 11 → उचित भिन्न।"
+            }
+          ]
+        },
+        {
+          "id": "rsexch07ex22q05_qe",
+          "prompt": {
+            "english": "Is 6/1 a proper fraction or an improper fraction?",
+            "hindi": "6/1 — उचित भिन्न है या विषम भिन्न?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Proper fraction",
+              "hindi": "उचित भिन्न"
+            },
+            {
+              "english": "Improper fraction",
+              "hindi": "विषम भिन्न"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [],
+          "hint": null,
+          "wrongReason": {
+            "english": "6/1 is an improper fraction because the numerator (6) is much greater than the denominator (1).",
+            "hindi": "6/1 विषम भिन्न है क्योंकि अंश (6) हर (1) से बहुत बड़ा है।"
+          },
+          "supportExample": {
+            "english": "Improper: numerator ≥ denominator.",
+            "hindi": "विषम: अंश ≥ हर।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "6/1 → numerator 6 > denominator 1 → Improper fraction.",
+              "hindi": "6/1 → अंश 6 > हर 1 → विषम भिन्न।"
+            }
+          ]
         }
       ],
       "tags": [
