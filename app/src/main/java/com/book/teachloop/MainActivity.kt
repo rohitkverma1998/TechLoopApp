@@ -463,6 +463,49 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         latestStatusMessage = buildStatusMessage(result, starsEarned)
         binding.answerInputEditText.text?.clear()
         render()
+        if (starsEarned > 0) animateStarEarned(starsEarned)
+    }
+
+    private fun animateStarEarned(count: Int) {
+        val root = binding.root
+        repeat(count.coerceAtMost(3)) { i ->
+            val star = android.widget.TextView(this).apply {
+                text = "★"
+                textSize = 42f
+                setTextColor(0xFF43A047.toInt())
+                setTypeface(null, android.graphics.Typeface.BOLD)
+            }
+            root.addView(star, android.widget.FrameLayout.LayoutParams(
+                android.widget.FrameLayout.LayoutParams.WRAP_CONTENT,
+                android.widget.FrameLayout.LayoutParams.WRAP_CONTENT,
+            ))
+            star.post {
+                val cx = root.width / 2f - star.width / 2f + (i - 1) * dp(32).toFloat()
+                val cy = root.height * 0.58f
+                star.x = cx
+                star.y = cy
+                star.alpha = 0f
+                star.scaleX = 0.3f
+                star.scaleY = 0.3f
+                // Pop in
+                star.animate()
+                    .alpha(1f).scaleX(1.5f).scaleY(1.5f)
+                    .setDuration(200)
+                    .setStartDelay(i * 140L)
+                    .setInterpolator(android.view.animation.OvershootInterpolator())
+                    .withEndAction {
+                        // Fly up and shrink into the stars chip
+                        star.animate()
+                            .translationY(-(root.height * 0.60f))
+                            .alpha(0f)
+                            .scaleX(0.2f).scaleY(0.2f)
+                            .setDuration(650)
+                            .setInterpolator(android.view.animation.AccelerateInterpolator(1.5f))
+                            .withEndAction { root.removeView(star) }
+                            .start()
+                    }.start()
+            }
+        }
     }
 
     private fun buildStatusMessage(
