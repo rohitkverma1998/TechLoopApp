@@ -1326,11 +1326,17 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun renderFeedbackCard() {
-        binding.feedbackCard.isVisible = false
-        val showSolution = latestQuizResult != null && !solutionPreviewActive &&
+        val result = latestQuizResult
+        val visible = result != null && !result.correct && !solutionPreviewActive &&
             (engine.session.state == LearningState.ASK_IF_KNOWN ||
              engine.session.state == LearningState.EXPLAIN_TOPIC)
-        binding.feedbackActionButton.isVisible = showSolution && hasSolutionPreview(latestIncorrectQuestion)
+        binding.feedbackCard.isVisible = visible
+        if (visible && result != null) {
+            binding.feedbackTitleText.text = ui("Incorrect Answer", "गलत उत्तर")
+            binding.feedbackTitleText.setTextColor(getColor(R.color.feedback_error))
+            binding.feedbackBodyText.text = ""
+        }
+        binding.feedbackActionButton.isVisible = visible && hasSolutionPreview(latestIncorrectQuestion)
         binding.feedbackActionButton.text = ui("See solution", "समाधान देखें")
     }
 
@@ -1421,6 +1427,8 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 engine.currentTopic()?.let(::useImmersiveTeachLayout) == true
         binding.statusText.isVisible = !hideStatusForImmersiveTeach && !latestStatusMessage.isNullOrBlank()
         binding.statusText.text = latestStatusMessage.orEmpty()
+        binding.statusText.setTextColor(0xFF2E7D32.toInt())  // bold green for correct answer
+        binding.statusText.setTypeface(binding.statusText.typeface, android.graphics.Typeface.BOLD)
     }
 
     private fun renderVisuals(visuals: List<VisualBlock>) {
