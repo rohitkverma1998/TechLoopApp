@@ -477,16 +477,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 baseMessage
             }
         }
-
-        val detailParts = listOfNotNull(
-            result.wrongReason?.display(appState.language)?.takeIf { it.isNotBlank() },
-            result.supportExample?.display(appState.language)?.takeIf { it.isNotBlank() }?.let {
-                "${ui("Example", "à¤‰à¤¦à¤¾à¤¹à¤°à¤£")}: $it"
-            },
-        )
-        return listOf(baseMessage, detailParts.joinToString("\n"))
-            .filter { it.isNotBlank() }
-            .joinToString("\n\n")
+        return ""
     }
 
     private fun openQuestionSolution() {
@@ -1335,34 +1326,11 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun renderFeedbackCard() {
-        val result = latestQuizResult
-        val visible =
-            result != null &&
-                !solutionPreviewActive &&
-                (engine.session.state == LearningState.ASK_IF_KNOWN || engine.session.state == LearningState.EXPLAIN_TOPIC)
-        binding.feedbackCard.isVisible = visible
-        if (!visible || result == null) return
-
-        val fromWrongAnswerPrompt = engine.session.state == LearningState.ASK_IF_KNOWN
-        binding.feedbackTitleText.setTextColor(
-            getColor(if (fromWrongAnswerPrompt) R.color.feedback_error else R.color.text_primary),
-        )
-        binding.feedbackBodyText.setTextColor(
-            getColor(if (fromWrongAnswerPrompt) R.color.feedback_error else R.color.text_primary),
-        )
-        binding.feedbackTitleText.text = if (fromWrongAnswerPrompt) {
-            ui("Incorrect answer", "गलत उत्तर")
-        } else {
-            result.reteachTitle?.display(appState.language)
-                ?: ui("Let us fix the confusion", "à¤šà¤²à¥‹ à¤­à¥à¤°à¤® à¤¦à¥‚à¤° à¤•à¤°à¥‡à¤‚")
-        }
-        binding.feedbackBodyText.text = listOfNotNull(
-            if (fromWrongAnswerPrompt) result.message.display(appState.language) else null,
-            result.wrongReason?.display(appState.language)?.takeIf { it.isNotBlank() },
-            result.supportExample?.display(appState.language)?.takeIf { it.isNotBlank() }?.let { "${ui("Example", "à¤‰à¤¦à¤¾à¤¹à¤°à¤£")}: $it" },
-            result.reteachParagraphs.takeIf { !fromWrongAnswerPrompt && it.isNotEmpty() }?.joinToString("\n") { it.display(appState.language) },
-        ).joinToString("\n\n")
-        binding.feedbackActionButton.isVisible = hasSolutionPreview(latestIncorrectQuestion)
+        binding.feedbackCard.isVisible = false
+        val showSolution = latestQuizResult != null && !solutionPreviewActive &&
+            (engine.session.state == LearningState.ASK_IF_KNOWN ||
+             engine.session.state == LearningState.EXPLAIN_TOPIC)
+        binding.feedbackActionButton.isVisible = showSolution && hasSolutionPreview(latestIncorrectQuestion)
         binding.feedbackActionButton.text = ui("See solution", "समाधान देखें")
     }
 
