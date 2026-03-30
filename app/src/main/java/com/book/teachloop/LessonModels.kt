@@ -218,6 +218,7 @@ data class StudentProfile(
     val streakDays: Int = 0,
     val lastActiveDay: String = "",
     val revisionRewardCount: Int = 0,
+    val starPenaltyQuarters: Int = 0,   // 1 unit = 0.25 star deducted on wrong first attempt
 )
 
 data class SessionSnapshot(

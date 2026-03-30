@@ -464,6 +464,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         binding.answerInputEditText.text?.clear()
         render()
         if (starsEarned > 0) animateStarEarned(starsEarned)
+        if (updatedProfile.starPenaltyQuarters > previousProfile.starPenaltyQuarters) animateStarLost()
     }
 
     private fun animateStarEarned(count: Int) {
@@ -508,6 +509,43 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         }
     }
 
+
+    private fun animateStarLost() {
+        val root = binding.root
+        val star = android.widget.TextView(this).apply {
+            text = "★"
+            textSize = 42f
+            setTextColor(0xFFE53935.toInt())
+            setTypeface(null, android.graphics.Typeface.BOLD)
+        }
+        root.addView(star, android.widget.FrameLayout.LayoutParams(
+            android.widget.FrameLayout.LayoutParams.WRAP_CONTENT,
+            android.widget.FrameLayout.LayoutParams.WRAP_CONTENT,
+        ))
+        star.post {
+            star.x = root.width / 2f - star.width / 2f
+            star.y = root.height * 0.28f
+            star.alpha = 0f
+            star.scaleX = 0.3f
+            star.scaleY = 0.3f
+            // Pop in
+            star.animate()
+                .alpha(1f).scaleX(1.5f).scaleY(1.5f)
+                .setDuration(200)
+                .setInterpolator(android.view.animation.OvershootInterpolator())
+                .withEndAction {
+                    // Fall down and fade
+                    star.animate()
+                        .translationY(root.height * 0.45f)
+                        .alpha(0f)
+                        .scaleX(0.2f).scaleY(0.2f)
+                        .setDuration(650)
+                        .setInterpolator(android.view.animation.AccelerateInterpolator(1.5f))
+                        .withEndAction { root.removeView(star) }
+                        .start()
+                }.start()
+        }
+    }
     private fun buildStatusMessage(
         result: QuizResult,
         starsEarned: Int,
@@ -561,10 +599,10 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         binding.bookTitleText.text = book.bookTitle.display(appState.language)
         binding.bookLabelText.text = ui("Book pack", "à¤¬à¥à¤• à¤ªà¥ˆà¤•")
         binding.languageLabelText.text = ui("Language", "à¤­à¤¾à¤·à¤¾")
-        binding.starsChipText.text = ui(
-            "Stars ${selectedProfile().totalStars}",
-            "à¤¸à¤¿à¤¤à¤¾à¤°à¥‡ ${selectedProfile().totalStars}",
-        )
+        val p = selectedProfile()
+        val effectiveStars = (p.totalStars * 4 - p.starPenaltyQuarters) / 4.0
+        val starsDisplay = if (effectiveStars == effectiveStars.toLong().toDouble()) effectiveStars.toLong().toString() else String.format("%.2f", effectiveStars).trimEnd('0').trimEnd('.')
+        binding.starsChipText.text = ui("Stars $starsDisplay", "सितारे $starsDisplay")
         binding.modeChipText.text = when (engine.session.mode) {
             StudyMode.MAIN_PATH -> ui("Main path", "à¤®à¥à¤–à¥à¤¯ à¤ªà¤¥")
             StudyMode.EXERCISE_PATH -> ui("Exercise path", "à¤…à¤­à¥à¤¯à¤¾à¤¸ à¤ªà¤¥")

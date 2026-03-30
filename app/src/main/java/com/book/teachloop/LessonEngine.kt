@@ -664,6 +664,7 @@ object StudyPlanner {
         updatedMap[topic.id] = updatedProgress
         val baseStars = updatedMap.values.sumOf { it.starsEarned }
         val revisionBonus = if (correct && mode == StudyMode.REVISION) 1 else 0
+        val isWrongFirstAttempt = !correct && existing.totalAttempts == 0
         val streakDays = updatedStreak(profile, now)
         val revisionRewards = profile.revisionRewardCount + revisionBonus
         val chapterTrophies = updateChapterTrophies(book, updatedMap, profile.chapterTrophies)
@@ -682,6 +683,7 @@ object StudyPlanner {
 
         return profile.copy(
             totalStars = baseStars + revisionBonus,
+            starPenaltyQuarters = profile.starPenaltyQuarters + if (isWrongFirstAttempt) 1 else 0,
             topicProgress = updatedMap,
             badges = badges,
             chapterTrophies = chapterTrophies,
