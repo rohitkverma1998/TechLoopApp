@@ -105,6 +105,7 @@ data class QuizQuestion(
     val mistakeType: MistakeType = MistakeType.GENERAL,
     val reteachTitle: LocalizedText? = null,
     val reteachParagraphs: List<LocalizedText> = emptyList(),
+    val questionImageAsset: String? = null,
 )
 
 data class LessonTopic(
@@ -180,6 +181,7 @@ data class RenderedQuestion(
     val mistakeType: MistakeType,
     val reteachTitle: LocalizedText? = null,
     val reteachParagraphs: List<LocalizedText> = emptyList(),
+    val questionImageAsset: String? = null,
 )
 
 data class BadgeAward(

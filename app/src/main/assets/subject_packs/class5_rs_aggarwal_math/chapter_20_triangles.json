@@ -475,7 +475,8 @@
           "supportExample": null,
           "mistakeType": "GENERAL",
           "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachParagraphs": [],
+          "questionImageAsset": "ex74_q01.png"
         }
       ],
       "tags": [
@@ -539,7 +540,8 @@
           "supportExample": null,
           "mistakeType": "GENERAL",
           "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachParagraphs": [],
+          "questionImageAsset": "ex74_q01.png"
         }
       ],
       "tags": [
@@ -604,7 +606,8 @@
           "supportExample": null,
           "mistakeType": "GENERAL",
           "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachParagraphs": [],
+          "questionImageAsset": "ex74_q01.png"
         }
       ],
       "tags": [
@@ -654,21 +657,49 @@
         {
           "id": "rsexch20ex74q02aq1",
           "prompt": {
-            "english": "Classify the following triangles with respect to their sides Part (a): Triangle LMN with sides 3.2 cm, 3.2 cm and 4 cm",
-            "hindi": "Classify the following triangles with respect to their sides Part (a): Triangle LMN with sides 3.2 cm, 3.2 cm and 4 cm"
+            "english": "Triangle with sides 3.2 cm, 3.2 cm, 4 cm. Classify by sides. (See figure)",
+            "hindi": "भुजाएँ 3.2, 3.2, 4 सेमी → वर्गीकृत करें।"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Equilateral",
+              "hindi": "समबाहु"
+            },
+            {
+              "english": "Isosceles",
+              "hindi": "समद्विबाहु"
+            },
+            {
+              "english": "Scalene",
+              "hindi": "विषमबाहु"
+            }
+          ],
+          "correctOptionIndex": 1,
           "acceptedAnswers": [
             "Isosceles"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
-          "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "wrongReason": {
+            "english": "Two equal sides (3.2=3.2) → Isosceles.",
+            "hindi": "दो बराबर भुजाएँ → समद्विबाहु।"
+          },
+          "supportExample": {
+            "english": "Two equal sides (3.2=3.2) → Isosceles.",
+            "hindi": "दो बराबर भुजाएँ → समद्विबाहु।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Two equal sides (3.2=3.2) → Isosceles.",
+              "hindi": "दो बराबर भुजाएँ → समद्विबाहु।"
+            }
+          ],
+          "questionImageAsset": "ex74_q02_abc.png"
         }
       ],
       "tags": [
@@ -718,21 +749,49 @@
         {
           "id": "rsexch20ex74q02bq1",
           "prompt": {
-            "english": "Classify the following triangles with respect to their sides Part (b): Triangle PQR with sides 3.4 cm, 3.4 cm and 3.4 cm",
-            "hindi": "Classify the following triangles with respect to their sides Part (b): Triangle PQR with sides 3.4 cm, 3.4 cm and 3.4 cm"
+            "english": "Triangle with sides 3.4 cm, 3.4 cm, 3.4 cm. Classify by sides. (See figure)",
+            "hindi": "भुजाएँ 3.4, 3.4, 3.4 सेमी → वर्गीकृत करें।"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Equilateral",
+              "hindi": "समबाहु"
+            },
+            {
+              "english": "Isosceles",
+              "hindi": "समद्विबाहु"
+            },
+            {
+              "english": "Scalene",
+              "hindi": "विषमबाहु"
+            }
+          ],
+          "correctOptionIndex": 0,
           "acceptedAnswers": [
             "Equilateral"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
-          "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "wrongReason": {
+            "english": "All three sides equal → Equilateral.",
+            "hindi": "तीनों भुजाएँ बराबर → समबाहु।"
+          },
+          "supportExample": {
+            "english": "All three sides equal → Equilateral.",
+            "hindi": "तीनों भुजाएँ बराबर → समबाहु।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "All three sides equal → Equilateral.",
+              "hindi": "तीनों भुजाएँ बराबर → समबाहु।"
+            }
+          ],
+          "questionImageAsset": "ex74_q02_abc.png"
         }
       ],
       "tags": [
@@ -782,21 +841,49 @@
         {
           "id": "rsexch20ex74q02cq1",
           "prompt": {
-            "english": "Classify the following triangles with respect to their sides Part (c): Triangle XYZ with sides 4 cm, 2.8 cm and 4 cm",
-            "hindi": "Classify the following triangles with respect to their sides Part (c): Triangle XYZ with sides 4 cm, 2.8 cm and 4 cm"
+            "english": "Triangle with sides 4 cm, 2.8 cm, 4 cm. Classify by sides. (See figure)",
+            "hindi": "भुजाएँ 4, 2.8, 4 सेमी → वर्गीकृत करें।"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Equilateral",
+              "hindi": "समबाहु"
+            },
+            {
+              "english": "Isosceles",
+              "hindi": "समद्विबाहु"
+            },
+            {
+              "english": "Scalene",
+              "hindi": "विषमबाहु"
+            }
+          ],
+          "correctOptionIndex": 1,
           "acceptedAnswers": [
             "Isosceles"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
-          "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "wrongReason": {
+            "english": "Two equal sides (4=4) → Isosceles.",
+            "hindi": "दो बराबर भुजाएँ → समद्विबाहु।"
+          },
+          "supportExample": {
+            "english": "Two equal sides (4=4) → Isosceles.",
+            "hindi": "दो बराबर भुजाएँ → समद्विबाहु।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Two equal sides (4=4) → Isosceles.",
+              "hindi": "दो बराबर भुजाएँ → समद्विबाहु।"
+            }
+          ],
+          "questionImageAsset": "ex74_q02_abc.png"
         }
       ],
       "tags": [
@@ -846,21 +933,49 @@
         {
           "id": "rsexch20ex74q02dq1",
           "prompt": {
-            "english": "Classify the following triangles with respect to their sides Part (d): Triangle DEF with sides 5 cm, 3 cm and 4 cm",
-            "hindi": "Classify the following triangles with respect to their sides Part (d): Triangle DEF with sides 5 cm, 3 cm and 4 cm"
+            "english": "Triangle with sides 5 cm, 3 cm, 4 cm. Classify by sides. (See figure)",
+            "hindi": "भुजाएँ 5, 3, 4 सेमी → वर्गीकृत करें।"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Equilateral",
+              "hindi": "समबाहु"
+            },
+            {
+              "english": "Isosceles",
+              "hindi": "समद्विबाहु"
+            },
+            {
+              "english": "Scalene",
+              "hindi": "विषमबाहु"
+            }
+          ],
+          "correctOptionIndex": 2,
           "acceptedAnswers": [
             "Scalene"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
-          "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "wrongReason": {
+            "english": "All sides different → Scalene.",
+            "hindi": "सभी भुजाएँ अलग → विषमबाहु।"
+          },
+          "supportExample": {
+            "english": "All sides different → Scalene.",
+            "hindi": "सभी भुजाएँ अलग → विषमबाहु।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "All sides different → Scalene.",
+              "hindi": "सभी भुजाएँ अलग → विषमबाहु।"
+            }
+          ],
+          "questionImageAsset": "ex74_q02_def.png"
         }
       ],
       "tags": [
@@ -910,21 +1025,49 @@
         {
           "id": "rsexch20ex74q02eq1",
           "prompt": {
-            "english": "Classify the following triangles with respect to their sides Part (e): Triangle ABC with sides 3.6 cm, 3.6 cm and 4.2 cm",
-            "hindi": "Classify the following triangles with respect to their sides Part (e): Triangle ABC with sides 3.6 cm, 3.6 cm and 4.2 cm"
+            "english": "Triangle with sides 3.6 cm, 3.6 cm, 4.2 cm. Classify by sides. (See figure)",
+            "hindi": "भुजाएँ 3.6, 3.6, 4.2 सेमी → वर्गीकृत करें।"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Equilateral",
+              "hindi": "समबाहु"
+            },
+            {
+              "english": "Isosceles",
+              "hindi": "समद्विबाहु"
+            },
+            {
+              "english": "Scalene",
+              "hindi": "विषमबाहु"
+            }
+          ],
+          "correctOptionIndex": 1,
           "acceptedAnswers": [
             "Isosceles"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
-          "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "wrongReason": {
+            "english": "Two equal sides → Isosceles.",
+            "hindi": "दो बराबर भुजाएँ → समद्विबाहु।"
+          },
+          "supportExample": {
+            "english": "Two equal sides → Isosceles.",
+            "hindi": "दो बराबर भुजाएँ → समद्विबाहु।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Two equal sides → Isosceles.",
+              "hindi": "दो बराबर भुजाएँ → समद्विबाहु।"
+            }
+          ],
+          "questionImageAsset": "ex74_q02_def.png"
         }
       ],
       "tags": [
@@ -974,21 +1117,49 @@
         {
           "id": "rsexch20ex74q02fq1",
           "prompt": {
-            "english": "Classify the following triangles with respect to their sides Part (f): Triangle GHK with sides 4.8 cm, 3.2 cm and 3.5 cm",
-            "hindi": "Classify the following triangles with respect to their sides Part (f): Triangle GHK with sides 4.8 cm, 3.2 cm and 3.5 cm"
+            "english": "Triangle with sides 4.8 cm, 3.2 cm, 3.5 cm. Classify by sides. (See figure)",
+            "hindi": "भुजाएँ 4.8, 3.2, 3.5 सेमी → वर्गीकृत करें।"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Equilateral",
+              "hindi": "समबाहु"
+            },
+            {
+              "english": "Isosceles",
+              "hindi": "समद्विबाहु"
+            },
+            {
+              "english": "Scalene",
+              "hindi": "विषमबाहु"
+            }
+          ],
+          "correctOptionIndex": 2,
           "acceptedAnswers": [
             "Scalene"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
-          "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "wrongReason": {
+            "english": "All sides different → Scalene.",
+            "hindi": "सभी भुजाएँ अलग → विषमबाहु।"
+          },
+          "supportExample": {
+            "english": "All sides different → Scalene.",
+            "hindi": "सभी भुजाएँ अलग → विषमबाहु।"
+          },
+          "mistakeType": "CONCEPT_CONFUSION",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "All sides different → Scalene.",
+              "hindi": "सभी भुजाएँ अलग → विषमबाहु।"
+            }
+          ],
+          "questionImageAsset": "ex74_q02_def.png"
         }
       ],
       "tags": [
@@ -2190,8 +2361,8 @@
         {
           "id": "rsexch20ex75q01_qa",
           "prompt": {
-            "english": "Classify the triangle with angles 30°, 110°, 40° by its angles.",
-            "hindi": "30°, 110°, 40° कोणों वाले त्रिभुज को उसके कोणों के आधार पर वर्गीकृत करें।"
+            "english": "Classify the triangle (A,B,C) with angles 25°, 30°, 125° by its angles. (See figure)",
+            "hindi": "त्रिभुज (A,B,C) जिसके कोण 25°, 30°, 125° हैं, उसे वर्गीकृत करें।"
           },
           "type": "MULTIPLE_CHOICE",
           "options": [
@@ -2212,12 +2383,12 @@
           "acceptedAnswers": [],
           "hint": null,
           "wrongReason": {
-            "english": "One angle is 110° which is greater than 90°, so it is an obtuse-angled triangle.",
-            "hindi": "110° कोण 90° से बड़ा है, इसलिए यह अधिक कोण त्रिभुज है।"
+            "english": "Triangle with 25°, 30°, 125°: angle 125° > 90° → Obtuse-angled.",
+            "hindi": "25°, 30°, 125° वाला त्रिभुज: 125° > 90° → अधिक कोण त्रिभुज।"
           },
           "supportExample": {
-            "english": "If any angle > 90° → Obtuse-angled triangle.",
-            "hindi": "यदि कोई कोण > 90° → अधिक कोण त्रिभुज।"
+            "english": "Triangle with 25°, 30°, 125°: angle 125° > 90° → Obtuse-angled.",
+            "hindi": "25°, 30°, 125° वाला त्रिभुज: 125° > 90° → अधिक कोण त्रिभुज।"
           },
           "mistakeType": "CONCEPT_CONFUSION",
           "reteachTitle": {
@@ -2226,16 +2397,17 @@
           },
           "reteachParagraphs": [
             {
-              "english": "30° + 110° + 40° = 180°. Angle 110° > 90° → Obtuse-angled triangle.",
-              "hindi": "30° + 110° + 40° = 180°। कोण 110° > 90° → अधिक कोण त्रिभुज।"
+              "english": "Triangle with 25°, 30°, 125°: angle 125° > 90° → Obtuse-angled.",
+              "hindi": "25°, 30°, 125° वाला त्रिभुज: 125° > 90° → अधिक कोण त्रिभुज।"
             }
-          ]
+          ],
+          "questionImageAsset": "ex75_q01.png"
         },
         {
           "id": "rsexch20ex75q01_qb",
           "prompt": {
-            "english": "Classify the triangle with angles 90°, 45°, 45° by its angles.",
-            "hindi": "90°, 45°, 45° कोणों वाले त्रिभुज को वर्गीकृत करें।"
+            "english": "Classify the triangle (N,L,M) with angles 45°, 45°, 90° by its angles. (See figure)",
+            "hindi": "त्रिभुज (N,L,M) जिसके कोण 45°, 45°, 90° हैं, उसे वर्गीकृत करें।"
           },
           "type": "MULTIPLE_CHOICE",
           "options": [
@@ -2256,12 +2428,12 @@
           "acceptedAnswers": [],
           "hint": null,
           "wrongReason": {
-            "english": "One angle is exactly 90°, so it is a right-angled triangle.",
-            "hindi": "एक कोण ठीक 90° है, इसलिए यह समकोण त्रिभुज है।"
+            "english": "Triangle with 45°, 45°, 90°: one angle = 90° → Right-angled.",
+            "hindi": "45°, 45°, 90° वाला त्रिभुज: एक कोण = 90° → समकोण त्रिभुज।"
           },
           "supportExample": {
-            "english": "If one angle = 90° → Right-angled triangle.",
-            "hindi": "यदि एक कोण = 90° → समकोण त्रिभुज।"
+            "english": "Triangle with 45°, 45°, 90°: one angle = 90° → Right-angled.",
+            "hindi": "45°, 45°, 90° वाला त्रिभुज: एक कोण = 90° → समकोण त्रिभुज।"
           },
           "mistakeType": "CONCEPT_CONFUSION",
           "reteachTitle": {
@@ -2270,16 +2442,17 @@
           },
           "reteachParagraphs": [
             {
-              "english": "90°, 45°, 45° → one angle is 90° → Right-angled triangle.",
-              "hindi": "90°, 45°, 45° → एक कोण 90° → समकोण त्रिभुज।"
+              "english": "Triangle with 45°, 45°, 90°: one angle = 90° → Right-angled.",
+              "hindi": "45°, 45°, 90° वाला त्रिभुज: एक कोण = 90° → समकोण त्रिभुज।"
             }
-          ]
+          ],
+          "questionImageAsset": "ex75_q01.png"
         },
         {
           "id": "rsexch20ex75q01_qc",
           "prompt": {
-            "english": "Classify the triangle with angles 25°, 130°, 25° by its angles.",
-            "hindi": "25°, 130°, 25° कोणों वाले त्रिभुज को वर्गीकृत करें।"
+            "english": "Classify the triangle (P,Q,R) with angles 25°, 60°, 95° by its angles. (See figure)",
+            "hindi": "त्रिभुज (P,Q,R) जिसके कोण 25°, 60°, 95° हैं, उसे वर्गीकृत करें।"
           },
           "type": "MULTIPLE_CHOICE",
           "options": [
@@ -2300,12 +2473,12 @@
           "acceptedAnswers": [],
           "hint": null,
           "wrongReason": {
-            "english": "One angle is 130° which is greater than 90°, so it is an obtuse-angled triangle.",
-            "hindi": "130° कोण 90° से बड़ा है → अधिक कोण त्रिभुज।"
+            "english": "Triangle with 25°, 60°, 95°: angle 95° > 90° → Obtuse-angled.",
+            "hindi": "25°, 60°, 95° वाला त्रिभुज: 95° > 90° → अधिक कोण त्रिभुज।"
           },
           "supportExample": {
-            "english": "If any angle > 90° → Obtuse-angled triangle.",
-            "hindi": "यदि कोई कोण > 90° → अधिक कोण त्रिभुज।"
+            "english": "Triangle with 25°, 60°, 95°: angle 95° > 90° → Obtuse-angled.",
+            "hindi": "25°, 60°, 95° वाला त्रिभुज: 95° > 90° → अधिक कोण त्रिभुज।"
           },
           "mistakeType": "CONCEPT_CONFUSION",
           "reteachTitle": {
@@ -2314,16 +2487,17 @@
           },
           "reteachParagraphs": [
             {
-              "english": "25° + 130° + 25° = 180°. Angle 130° > 90° → Obtuse-angled.",
-              "hindi": "25° + 130° + 25° = 180°। कोण 130° > 90° → अधिक कोण त्रिभुज।"
+              "english": "Triangle with 25°, 60°, 95°: angle 95° > 90° → Obtuse-angled.",
+              "hindi": "25°, 60°, 95° वाला त्रिभुज: 95° > 90° → अधिक कोण त्रिभुज।"
             }
-          ]
+          ],
+          "questionImageAsset": "ex75_q01.png"
         },
         {
           "id": "rsexch20ex75q01_qd",
           "prompt": {
-            "english": "Classify the triangle with angles 60°, 70°, 50° by its angles.",
-            "hindi": "60°, 70°, 50° कोणों वाले त्रिभुज को वर्गीकृत करें।"
+            "english": "Classify the triangle (R,S,T) with angles 55°, 70°, 55° by its angles. (See figure)",
+            "hindi": "त्रिभुज (R,S,T) जिसके कोण 55°, 70°, 55° हैं, उसे वर्गीकृत करें।"
           },
           "type": "MULTIPLE_CHOICE",
           "options": [
@@ -2344,12 +2518,12 @@
           "acceptedAnswers": [],
           "hint": null,
           "wrongReason": {
-            "english": "All three angles (60°, 70°, 50°) are less than 90°, so it is an acute-angled triangle.",
-            "hindi": "तीनों कोण (60°, 70°, 50°) 90° से कम हैं → न्यून कोण त्रिभुज।"
+            "english": "Triangle with 55°, 70°, 55°: all angles < 90° → Acute-angled.",
+            "hindi": "55°, 70°, 55° वाला त्रिभुज: सभी कोण < 90° → न्यून कोण त्रिभुज।"
           },
           "supportExample": {
-            "english": "If all angles < 90° → Acute-angled triangle.",
-            "hindi": "सभी कोण < 90° → न्यून कोण त्रिभुज।"
+            "english": "Triangle with 55°, 70°, 55°: all angles < 90° → Acute-angled.",
+            "hindi": "55°, 70°, 55° वाला त्रिभुज: सभी कोण < 90° → न्यून कोण त्रिभुज।"
           },
           "mistakeType": "CONCEPT_CONFUSION",
           "reteachTitle": {
@@ -2358,16 +2532,17 @@
           },
           "reteachParagraphs": [
             {
-              "english": "60° + 70° + 50° = 180°. All < 90° → Acute-angled.",
-              "hindi": "60° + 70° + 50° = 180°। सभी < 90° → न्यून कोण त्रिभुज।"
+              "english": "Triangle with 55°, 70°, 55°: all angles < 90° → Acute-angled.",
+              "hindi": "55°, 70°, 55° वाला त्रिभुज: सभी कोण < 90° → न्यून कोण त्रिभुज।"
             }
-          ]
+          ],
+          "questionImageAsset": "ex75_q01.png"
         },
         {
           "id": "rsexch20ex75q01_qe",
           "prompt": {
-            "english": "Classify the triangle with angles 90°, 60°, 30° by its angles.",
-            "hindi": "90°, 60°, 30° कोणों वाले त्रिभुज को वर्गीकृत करें।"
+            "english": "Classify the triangle (X,Y,Z) with angles 40°, 90°, 50° by its angles. (See figure)",
+            "hindi": "त्रिभुज (X,Y,Z) जिसके कोण 40°, 90°, 50° हैं, उसे वर्गीकृत करें।"
           },
           "type": "MULTIPLE_CHOICE",
           "options": [
@@ -2388,12 +2563,12 @@
           "acceptedAnswers": [],
           "hint": null,
           "wrongReason": {
-            "english": "One angle is exactly 90°, so it is a right-angled triangle.",
-            "hindi": "एक कोण ठीक 90° है → समकोण त्रिभुज।"
+            "english": "Triangle with 40°, 90°, 50°: one angle = 90° → Right-angled.",
+            "hindi": "40°, 90°, 50° वाला त्रिभुज: एक कोण = 90° → समकोण त्रिभुज।"
           },
           "supportExample": {
-            "english": "If one angle = 90° → Right-angled triangle.",
-            "hindi": "यदि एक कोण = 90° → समकोण त्रिभुज।"
+            "english": "Triangle with 40°, 90°, 50°: one angle = 90° → Right-angled.",
+            "hindi": "40°, 90°, 50° वाला त्रिभुज: एक कोण = 90° → समकोण त्रिभुज।"
           },
           "mistakeType": "CONCEPT_CONFUSION",
           "reteachTitle": {
@@ -2402,16 +2577,17 @@
           },
           "reteachParagraphs": [
             {
-              "english": "90° + 60° + 30° = 180°. One angle 90° → Right-angled.",
-              "hindi": "90° + 60° + 30° = 180°। एक कोण 90° → समकोण त्रिभुज।"
+              "english": "Triangle with 40°, 90°, 50°: one angle = 90° → Right-angled.",
+              "hindi": "40°, 90°, 50° वाला त्रिभुज: एक कोण = 90° → समकोण त्रिभुज।"
             }
-          ]
+          ],
+          "questionImageAsset": "ex75_q01.png"
         },
         {
           "id": "rsexch20ex75q01_qf",
           "prompt": {
-            "english": "Classify the triangle with angles 70°, 60°, 50° by its angles.",
-            "hindi": "70°, 60°, 50° कोणों वाले त्रिभुज को वर्गीकृत करें।"
+            "english": "Classify the triangle (D,E,F) with angles 40°, 52°, 88° by its angles. (See figure)",
+            "hindi": "त्रिभुज (D,E,F) जिसके कोण 40°, 52°, 88° हैं, उसे वर्गीकृत करें।"
           },
           "type": "MULTIPLE_CHOICE",
           "options": [
@@ -2432,12 +2608,12 @@
           "acceptedAnswers": [],
           "hint": null,
           "wrongReason": {
-            "english": "All three angles (70°, 60°, 50°) are less than 90°, so it is an acute-angled triangle.",
-            "hindi": "तीनों कोण (70°, 60°, 50°) 90° से कम हैं → न्यून कोण त्रिभुज।"
+            "english": "Triangle with 40°, 52°, 88°: all angles < 90° → Acute-angled.",
+            "hindi": "40°, 52°, 88° वाला त्रिभुज: सभी कोण < 90° → न्यून कोण त्रिभुज।"
           },
           "supportExample": {
-            "english": "If all angles < 90° → Acute-angled triangle.",
-            "hindi": "सभी कोण < 90° → न्यून कोण त्रिभुज।"
+            "english": "Triangle with 40°, 52°, 88°: all angles < 90° → Acute-angled.",
+            "hindi": "40°, 52°, 88° वाला त्रिभुज: सभी कोण < 90° → न्यून कोण त्रिभुज।"
           },
           "mistakeType": "CONCEPT_CONFUSION",
           "reteachTitle": {
@@ -2446,10 +2622,11 @@
           },
           "reteachParagraphs": [
             {
-              "english": "70° + 60° + 50° = 180°. All < 90° → Acute-angled.",
-              "hindi": "70° + 60° + 50° = 180°। सभी < 90° → न्यून कोण त्रिभुज।"
+              "english": "Triangle with 40°, 52°, 88°: all angles < 90° → Acute-angled.",
+              "hindi": "40°, 52°, 88° वाला त्रिभुज: सभी कोण < 90° → न्यून कोण त्रिभुज।"
             }
-          ]
+          ],
+          "questionImageAsset": "ex75_q01.png"
         }
       ],
       "tags": [
@@ -2499,8 +2676,8 @@
         {
           "id": "rsexch20ex75q02_qa",
           "prompt": {
-            "english": "A triangle has two angles: 70° and 60°. Find the third angle.",
-            "hindi": "एक त्रिभुज के दो कोण 70° और 60° हैं। तीसरा कोण ज्ञात करें।"
+            "english": "A triangle has two angles: 40° and 90°. Find the third angle. (See figure)",
+            "hindi": "एक त्रिभुज के दो कोण 40° and 90° हैं। तीसरा कोण ज्ञात करें।"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -2511,30 +2688,31 @@
           ],
           "hint": null,
           "wrongReason": {
-            "english": "Third angle = 180° − (70° + 60°) = 180° − 130° = 50°.",
-            "hindi": "तीसरा कोण = 180° − (70° + 60°) = 180° − 130° = 50°।"
+            "english": "40° + 90° = 130°; third = 180° − 130° = 50°.",
+            "hindi": "40° + 90° = 130°; तीसरा = 180° − 130° = 50°।"
           },
           "supportExample": {
-            "english": "Sum of angles in a triangle = 180°. Third = 180° − (70° + 60°).",
-            "hindi": "त्रिभुज के कोणों का योग = 180°। तीसरा = 180° − (70° + 60°)।"
+            "english": "40° + 90° = 130°; third = 180° − 130° = 50°.",
+            "hindi": "40° + 90° = 130°; तीसरा = 180° − 130° = 50°।"
           },
-          "mistakeType": "CONCEPT_CONFUSION",
+          "mistakeType": "GENERAL",
           "reteachTitle": {
             "english": "Solution",
             "hindi": "हल"
           },
           "reteachParagraphs": [
             {
-              "english": "70° + 60° = 130°. Third angle = 180° − 130° = 50°.",
-              "hindi": "70° + 60° = 130°। तीसरा कोण = 180° − 130° = 50°।"
+              "english": "40° + 90° = 130°; third = 180° − 130° = 50°.",
+              "hindi": "40° + 90° = 130°; तीसरा = 180° − 130° = 50°।"
             }
-          ]
+          ],
+          "questionImageAsset": "ex75_q02.png"
         },
         {
           "id": "rsexch20ex75q02_qb",
           "prompt": {
-            "english": "A triangle has two angles: 25° and 40°. Find the third angle.",
-            "hindi": "एक त्रिभुज के दो कोण 25° और 40° हैं। तीसरा कोण ज्ञात करें।"
+            "english": "A triangle has two angles: 35° and 30°. Find the third angle. (See figure)",
+            "hindi": "एक त्रिभुज के दो कोण 35° and 30° हैं। तीसरा कोण ज्ञात करें।"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -2545,30 +2723,31 @@
           ],
           "hint": null,
           "wrongReason": {
-            "english": "Third angle = 180° − (25° + 40°) = 180° − 65° = 115°.",
-            "hindi": "तीसरा कोण = 180° − (25° + 40°) = 180° − 65° = 115°।"
+            "english": "35° + 30° = 65°; third = 180° − 65° = 115°.",
+            "hindi": "35° + 30° = 65°; तीसरा = 180° − 65° = 115°।"
           },
           "supportExample": {
-            "english": "Sum of angles = 180°. Third = 180° − (25° + 40°).",
-            "hindi": "कोणों का योग = 180°। तीसरा = 180° − (25° + 40°)।"
+            "english": "35° + 30° = 65°; third = 180° − 65° = 115°.",
+            "hindi": "35° + 30° = 65°; तीसरा = 180° − 65° = 115°।"
           },
-          "mistakeType": "CONCEPT_CONFUSION",
+          "mistakeType": "GENERAL",
           "reteachTitle": {
             "english": "Solution",
             "hindi": "हल"
           },
           "reteachParagraphs": [
             {
-              "english": "25° + 40° = 65°. Third angle = 180° − 65° = 115°.",
-              "hindi": "25° + 40° = 65°। तीसरा कोण = 180° − 65° = 115°।"
+              "english": "35° + 30° = 65°; third = 180° − 65° = 115°.",
+              "hindi": "35° + 30° = 65°; तीसरा = 180° − 65° = 115°।"
             }
-          ]
+          ],
+          "questionImageAsset": "ex75_q02.png"
         },
         {
           "id": "rsexch20ex75q02_qc",
           "prompt": {
-            "english": "A triangle has two angles: 55° and 42°. Find the third angle.",
-            "hindi": "एक त्रिभुज के दो कोण 55° और 42° हैं। तीसरा कोण ज्ञात करें।"
+            "english": "A triangle has two angles: 35° and 62°. Find the third angle. (See figure)",
+            "hindi": "एक त्रिभुज के दो कोण 35° and 62° हैं। तीसरा कोण ज्ञात करें।"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -2579,30 +2758,31 @@
           ],
           "hint": null,
           "wrongReason": {
-            "english": "Third angle = 180° − (55° + 42°) = 180° − 97° = 83°.",
-            "hindi": "तीसरा कोण = 180° − (55° + 42°) = 180° − 97° = 83°।"
+            "english": "35° + 62° = 97°; third = 180° − 97° = 83°.",
+            "hindi": "35° + 62° = 97°; तीसरा = 180° − 97° = 83°।"
           },
           "supportExample": {
-            "english": "Sum of angles = 180°. Third = 180° − (55° + 42°).",
-            "hindi": "कोणों का योग = 180°। तीसरा = 180° − (55° + 42°)।"
+            "english": "35° + 62° = 97°; third = 180° − 97° = 83°.",
+            "hindi": "35° + 62° = 97°; तीसरा = 180° − 97° = 83°।"
           },
-          "mistakeType": "CONCEPT_CONFUSION",
+          "mistakeType": "GENERAL",
           "reteachTitle": {
             "english": "Solution",
             "hindi": "हल"
           },
           "reteachParagraphs": [
             {
-              "english": "55° + 42° = 97°. Third angle = 180° − 97° = 83°.",
-              "hindi": "55° + 42° = 97°। तीसरा कोण = 180° − 97° = 83°।"
+              "english": "35° + 62° = 97°; third = 180° − 97° = 83°.",
+              "hindi": "35° + 62° = 97°; तीसरा = 180° − 97° = 83°।"
             }
-          ]
+          ],
+          "questionImageAsset": "ex75_q02.png"
         },
         {
           "id": "rsexch20ex75q02_qd",
           "prompt": {
-            "english": "A triangle has two angles: 90° and 57°. Find the third angle.",
-            "hindi": "एक त्रिभुज के दो कोण 90° और 57° हैं। तीसरा कोण ज्ञात करें।"
+            "english": "A triangle has two angles: 22° and 125°. Find the third angle. (See figure)",
+            "hindi": "एक त्रिभुज के दो कोण 22° and 125° हैं। तीसरा कोण ज्ञात करें।"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -2613,30 +2793,31 @@
           ],
           "hint": null,
           "wrongReason": {
-            "english": "Third angle = 180° − (90° + 57°) = 180° − 147° = 33°.",
-            "hindi": "तीसरा कोण = 180° − (90° + 57°) = 180° − 147° = 33°।"
+            "english": "22° + 125° = 147°; third = 180° − 147° = 33°.",
+            "hindi": "22° + 125° = 147°; तीसरा = 180° − 147° = 33°।"
           },
           "supportExample": {
-            "english": "Sum of angles = 180°. Third = 180° − (90° + 57°).",
-            "hindi": "कोणों का योग = 180°। तीसरा = 180° − (90° + 57°)।"
+            "english": "22° + 125° = 147°; third = 180° − 147° = 33°.",
+            "hindi": "22° + 125° = 147°; तीसरा = 180° − 147° = 33°।"
           },
-          "mistakeType": "CONCEPT_CONFUSION",
+          "mistakeType": "GENERAL",
           "reteachTitle": {
             "english": "Solution",
             "hindi": "हल"
           },
           "reteachParagraphs": [
             {
-              "english": "90° + 57° = 147°. Third angle = 180° − 147° = 33°.",
-              "hindi": "90° + 57° = 147°। तीसरा कोण = 180° − 147° = 33°।"
+              "english": "22° + 125° = 147°; third = 180° − 147° = 33°.",
+              "hindi": "22° + 125° = 147°; तीसरा = 180° − 147° = 33°।"
             }
-          ]
+          ],
+          "questionImageAsset": "ex75_q02.png"
         },
         {
           "id": "rsexch20ex75q02_qe",
           "prompt": {
-            "english": "A triangle has two angles: 60° and 40°. Find the third angle.",
-            "hindi": "एक त्रिभुज के दो कोण 60° और 40° हैं। तीसरा कोण ज्ञात करें।"
+            "english": "A triangle has two angles: 47° and 53°. Find the third angle. (See figure)",
+            "hindi": "एक त्रिभुज के दो कोण 47° and 53° हैं। तीसरा कोण ज्ञात करें।"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -2647,30 +2828,31 @@
           ],
           "hint": null,
           "wrongReason": {
-            "english": "Third angle = 180° − (60° + 40°) = 180° − 100° = 80°.",
-            "hindi": "तीसरा कोण = 180° − (60° + 40°) = 180° − 100° = 80°।"
+            "english": "47° + 53° = 100°; third = 180° − 100° = 80°.",
+            "hindi": "47° + 53° = 100°; तीसरा = 180° − 100° = 80°।"
           },
           "supportExample": {
-            "english": "Sum of angles = 180°. Third = 180° − (60° + 40°).",
-            "hindi": "कोणों का योग = 180°। तीसरा = 180° − (60° + 40°)।"
+            "english": "47° + 53° = 100°; third = 180° − 100° = 80°.",
+            "hindi": "47° + 53° = 100°; तीसरा = 180° − 100° = 80°।"
           },
-          "mistakeType": "CONCEPT_CONFUSION",
+          "mistakeType": "GENERAL",
           "reteachTitle": {
             "english": "Solution",
             "hindi": "हल"
           },
           "reteachParagraphs": [
             {
-              "english": "60° + 40° = 100°. Third angle = 180° − 100° = 80°.",
-              "hindi": "60° + 40° = 100°। तीसरा कोण = 180° − 100° = 80°।"
+              "english": "47° + 53° = 100°; third = 180° − 100° = 80°.",
+              "hindi": "47° + 53° = 100°; तीसरा = 180° − 100° = 80°।"
             }
-          ]
+          ],
+          "questionImageAsset": "ex75_q02.png"
         },
         {
           "id": "rsexch20ex75q02_qf",
           "prompt": {
-            "english": "A triangle has two angles: 100° and 45°. Find the third angle.",
-            "hindi": "एक त्रिभुज के दो कोण 100° और 45° हैं। तीसरा कोण ज्ञात करें।"
+            "english": "A triangle has two angles: 90° and 55°. Find the third angle. (See figure)",
+            "hindi": "एक त्रिभुज के दो कोण 90° and 55° हैं। तीसरा कोण ज्ञात करें।"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -2681,24 +2863,25 @@
           ],
           "hint": null,
           "wrongReason": {
-            "english": "Third angle = 180° − (100° + 45°) = 180° − 145° = 35°.",
-            "hindi": "तीसरा कोण = 180° − (100° + 45°) = 180° − 145° = 35°।"
+            "english": "90° + 55° = 145°; third = 180° − 145° = 35°.",
+            "hindi": "90° + 55° = 145°; तीसरा = 180° − 145° = 35°।"
           },
           "supportExample": {
-            "english": "Sum of angles = 180°. Third = 180° − (100° + 45°).",
-            "hindi": "कोणों का योग = 180°। तीसरा = 180° − (100° + 45°)।"
+            "english": "90° + 55° = 145°; third = 180° − 145° = 35°.",
+            "hindi": "90° + 55° = 145°; तीसरा = 180° − 145° = 35°।"
           },
-          "mistakeType": "CONCEPT_CONFUSION",
+          "mistakeType": "GENERAL",
           "reteachTitle": {
             "english": "Solution",
             "hindi": "हल"
           },
           "reteachParagraphs": [
             {
-              "english": "100° + 45° = 145°. Third angle = 180° − 145° = 35°.",
-              "hindi": "100° + 45° = 145°। तीसरा कोण = 180° − 145° = 35°।"
+              "english": "90° + 55° = 145°; third = 180° − 145° = 35°.",
+              "hindi": "90° + 55° = 145°; तीसरा = 180° − 145° = 35°।"
             }
-          ]
+          ],
+          "questionImageAsset": "ex75_q02.png"
         }
       ],
       "tags": [

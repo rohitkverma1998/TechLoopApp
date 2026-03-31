@@ -349,7 +349,8 @@
           "supportExample": null,
           "mistakeType": "GENERAL",
           "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachParagraphs": [],
+          "questionImageAsset": "ex76_q01_q02.png"
         }
       ],
       "tags": [
@@ -413,7 +414,8 @@
           "supportExample": null,
           "mistakeType": "GENERAL",
           "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachParagraphs": [],
+          "questionImageAsset": "ex76_q01_q02.png"
         }
       ],
       "tags": [

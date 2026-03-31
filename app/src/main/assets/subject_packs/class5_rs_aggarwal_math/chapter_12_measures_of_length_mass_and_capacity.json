@@ -10837,8 +10837,8 @@
         {
           "id": "rsexch12ex59q07_q1",
           "prompt": {
-            "english": "Add: 68 L 590 mL from 105 L 325 mL",
-            "hindi": "Add: 68 L 590 mL from 105 L 325 mL"
+            "english": "Subtract: 68 L 590 mL from 105 L 325 mL",
+            "hindi": "घटाइए: 105 L 325 mL में से 68 L 590 mL"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -10902,8 +10902,8 @@
         {
           "id": "rsexch12ex59q08_q1",
           "prompt": {
-            "english": "Add: 74 L 625 mL from 112 L",
-            "hindi": "Add: 74 L 625 mL from 112 L"
+            "english": "Subtract: 74 L 625 mL from 112 L",
+            "hindi": "घटाइए: 112 L में से 74 L 625 mL"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -10967,8 +10967,8 @@
         {
           "id": "rsexch12ex59q09_q1",
           "prompt": {
-            "english": "Add: 49 L 875 mL from 83 L 60 mL",
-            "hindi": "Add: 49 L 875 mL from 83 L 60 mL"
+            "english": "Subtract: 49 L 875 mL from 83 L 60 mL",
+            "hindi": "घटाइए: 83 L 60 mL में से 49 L 875 mL"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -11032,8 +11032,8 @@
         {
           "id": "rsexch12ex59q10_q1",
           "prompt": {
-            "english": "Add: 56 kL 376 L from 80 kL 80 L",
-            "hindi": "Add: 56 kL 376 L from 80 kL 80 L"
+            "english": "Subtract: 56 kL 376 L from 80 kL 80 L",
+            "hindi": "घटाइए: 80 kL 80 L में से 56 kL 376 L"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -11097,8 +11097,8 @@
         {
           "id": "rsexch12ex59q11_q1",
           "prompt": {
-            "english": "Add: 27 kL 89 L from 90 kL 7 L",
-            "hindi": "Add: 27 kL 89 L from 90 kL 7 L"
+            "english": "Subtract: 27 kL 89 L from 90 kL 7 L",
+            "hindi": "घटाइए: 90 kL 7 L में से 27 kL 89 L"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -11162,8 +11162,8 @@
         {
           "id": "rsexch12ex59q12_q1",
           "prompt": {
-            "english": "Add: 35 kL 267 L from 50 kL",
-            "hindi": "Add: 35 kL 267 L from 50 kL"
+            "english": "Subtract: 35 kL 267 L from 50 kL",
+            "hindi": "घटाइए: 50 kL में से 35 kL 267 L"
           },
           "type": "TEXT_INPUT",
           "options": [],

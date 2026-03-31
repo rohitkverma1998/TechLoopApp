@@ -91,7 +91,26 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
         setupListeners()
         initializeTextToSpeech()
+        handleTopicIdIntent(intent)
         render()
+    }
+
+    override fun onNewIntent(intent: Intent) {
+        super.onNewIntent(intent)
+        setIntent(intent)
+        handleTopicIdIntent(intent)
+        render()
+    }
+
+    private fun handleTopicIdIntent(intent: Intent?) {
+        val topicId = intent?.getStringExtra("topic_id") ?: return
+        if (book.topics.none { it.id == topicId }) return
+        latestQuizResult = null
+        latestIncorrectQuestion = null
+        solutionPreviewActive = false
+        reportExpanded = false
+        lastSpokenToken = null
+        engine.startSession(StudyMode.EXERCISE_PATH, listOf(topicId))
     }
 
     override fun onInit(status: Int) {
@@ -967,7 +986,20 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         updateContentBottomInset(playbackVisible = false)
         updateDecisionContainerInset(playbackVisible = false)
         binding.questionTitleText.text = topic.subtopicTitle.display(appState.language)
-        binding.questionPromptText.text = question.prompt.display(appState.language)
+        binding.questionPromptText.text = renderStyledText(question.prompt.display(appState.language))
+        val assetImg = question.questionImageAsset
+        if (assetImg != null) {
+            try {
+                val bmp = assets.open("subject_packs/class5_rs_aggarwal_math/images/$assetImg")
+                    .use { android.graphics.BitmapFactory.decodeStream(it) }
+                binding.questionImageView.setImageBitmap(bmp)
+                binding.questionImageView.visibility = android.view.View.VISIBLE
+            } catch (e: Exception) {
+                binding.questionImageView.visibility = android.view.View.GONE
+            }
+        } else {
+            binding.questionImageView.visibility = android.view.View.GONE
+        }
         binding.answerInputLayout.hint = ui("Type your answer", "à¤…à¤ªà¤¨à¤¾ à¤‰à¤¤à¥à¤¤à¤° à¤²à¤¿à¤–à¤¿à¤")
         binding.submitAnswerButton.text = ui("Submit answer", "à¤‰à¤¤à¥à¤¤à¤° à¤œà¤®à¤¾ à¤•à¤°à¥‡à¤‚")
 

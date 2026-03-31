@@ -428,7 +428,8 @@
               "english": "6 + 5 + 4 + 8 = 23 cm.",
               "hindi": "6 + 5 + 4 + 8 = 23 सेमी।"
             }
-          ]
+          ],
+          "questionImageAsset": "ex77_q01.png"
         },
         {
           "id": "rsexch22ex77q01_qb",
@@ -463,7 +464,8 @@
               "english": "5 + 9 + 5 + 8 = 27 cm.",
               "hindi": "5 + 9 + 5 + 8 = 27 सेमी।"
             }
-          ]
+          ],
+          "questionImageAsset": "ex77_q01.png"
         },
         {
           "id": "rsexch22ex77q01_qc",
@@ -498,7 +500,8 @@
               "english": "6 + 7 + 9 + 6 = 28 cm.",
               "hindi": "6 + 7 + 9 + 6 = 28 सेमी।"
             }
-          ]
+          ],
+          "questionImageAsset": "ex77_q01.png"
         }
       ],
       "tags": [
@@ -580,6 +583,270 @@
           "hindi": "Question 22.77.2(a)"
         }
       ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rsexch22ex77q02_qa",
+      "sourceLessonId": "rsexch22ex77q02_qa",
+      "chapterNumber": 22,
+      "chapterTitle": {
+        "english": "Perimeters of Rectilinear Figures",
+        "hindi": "समरेखीय आकृतियों का परिमाप"
+      },
+      "lessonTitle": {
+        "english": "Exercise 77",
+        "hindi": "Exercise 77"
+      },
+      "subtopicTitle": {
+        "english": "Question Ex77 QA",
+        "hindi": "प्रश्न Ex77 QA"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question Ex77 QA?",
+        "hindi": "क्या आप प्रश्न Ex77 QA हल कर सकते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Question Ex77 QA",
+        "hindi": "प्रश्न Ex77 QA"
+      },
+      "explanationParagraphs": [],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rsexch22ex77q02_qa",
+          "prompt": {
+            "english": "Find the perimeter of a triangle with sides: 8 cm, 6 cm, 5 cm.",
+            "hindi": "एक त्रिभुज की भुजाएँ 8 सेमी, 6 सेमी, 5 सेमी हैं। परिमाप ज्ञात करें।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "19",
+            "19 cm"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "8 + 6 + 5 = 19 cm.",
+            "hindi": "8 + 6 + 5 = 19 सेमी।"
+          },
+          "supportExample": {
+            "english": "8 + 6 + 5 = 19 cm.",
+            "hindi": "8 + 6 + 5 = 19 सेमी।"
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "8 + 6 + 5 = 19 cm.",
+              "hindi": "8 + 6 + 5 = 19 सेमी।"
+            }
+          ]
+        }
+      ],
+      "tags": [],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rsexch22ex77q02_qb",
+      "sourceLessonId": "rsexch22ex77q02_qb",
+      "chapterNumber": 22,
+      "chapterTitle": {
+        "english": "Perimeters of Rectilinear Figures",
+        "hindi": "समरेखीय आकृतियों का परिमाप"
+      },
+      "lessonTitle": {
+        "english": "Exercise 77",
+        "hindi": "Exercise 77"
+      },
+      "subtopicTitle": {
+        "english": "Question Ex77 QB",
+        "hindi": "प्रश्न Ex77 QB"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question Ex77 QB?",
+        "hindi": "क्या आप प्रश्न Ex77 QB हल कर सकते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Question Ex77 QB",
+        "hindi": "प्रश्न Ex77 QB"
+      },
+      "explanationParagraphs": [],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rsexch22ex77q02_qb",
+          "prompt": {
+            "english": "Find the perimeter of a triangle with sides: 7.6 cm, 6.4 cm, 5.2 cm.",
+            "hindi": "एक त्रिभुज की भुजाएँ 7.6 सेमी, 6.4 सेमी, 5.2 सेमी हैं। परिमाप ज्ञात करें।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "19.2",
+            "19.2 cm"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "7.6 + 6.4 + 5.2 = 19.2 cm.",
+            "hindi": "7.6 + 6.4 + 5.2 = 19.2 सेमी।"
+          },
+          "supportExample": {
+            "english": "7.6 + 6.4 + 5.2 = 19.2 cm.",
+            "hindi": "7.6 + 6.4 + 5.2 = 19.2 सेमी।"
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "7.6 + 6.4 + 5.2 = 19.2 cm.",
+              "hindi": "7.6 + 6.4 + 5.2 = 19.2 सेमी।"
+            }
+          ]
+        }
+      ],
+      "tags": [],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rsexch22ex77q02_qc",
+      "sourceLessonId": "rsexch22ex77q02_qc",
+      "chapterNumber": 22,
+      "chapterTitle": {
+        "english": "Perimeters of Rectilinear Figures",
+        "hindi": "समरेखीय आकृतियों का परिमाप"
+      },
+      "lessonTitle": {
+        "english": "Exercise 77",
+        "hindi": "Exercise 77"
+      },
+      "subtopicTitle": {
+        "english": "Question Ex77 QC",
+        "hindi": "प्रश्न Ex77 QC"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question Ex77 QC?",
+        "hindi": "क्या आप प्रश्न Ex77 QC हल कर सकते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Question Ex77 QC",
+        "hindi": "प्रश्न Ex77 QC"
+      },
+      "explanationParagraphs": [],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rsexch22ex77q02_qc",
+          "prompt": {
+            "english": "Find the perimeter of a triangle with sides: 4.8 cm, 5.3 cm, 8.2 cm.",
+            "hindi": "एक त्रिभुज की भुजाएँ 4.8 सेमी, 5.3 सेमी, 8.2 सेमी हैं। परिमाप ज्ञात करें।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "18.3",
+            "18.3 cm"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "4.8 + 5.3 + 8.2 = 18.3 cm.",
+            "hindi": "4.8 + 5.3 + 8.2 = 18.3 सेमी।"
+          },
+          "supportExample": {
+            "english": "4.8 + 5.3 + 8.2 = 18.3 cm.",
+            "hindi": "4.8 + 5.3 + 8.2 = 18.3 सेमी।"
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "4.8 + 5.3 + 8.2 = 18.3 cm.",
+              "hindi": "4.8 + 5.3 + 8.2 = 18.3 सेमी।"
+            }
+          ]
+        }
+      ],
+      "tags": [],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rsexch22ex77q02_qd",
+      "sourceLessonId": "rsexch22ex77q02_qd",
+      "chapterNumber": 22,
+      "chapterTitle": {
+        "english": "Perimeters of Rectilinear Figures",
+        "hindi": "समरेखीय आकृतियों का परिमाप"
+      },
+      "lessonTitle": {
+        "english": "Exercise 77",
+        "hindi": "Exercise 77"
+      },
+      "subtopicTitle": {
+        "english": "Question Ex77 QD",
+        "hindi": "प्रश्न Ex77 QD"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question Ex77 QD?",
+        "hindi": "क्या आप प्रश्न Ex77 QD हल कर सकते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Question Ex77 QD",
+        "hindi": "प्रश्न Ex77 QD"
+      },
+      "explanationParagraphs": [],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rsexch22ex77q02_qd",
+          "prompt": {
+            "english": "Find the perimeter of a triangle with sides: 6 cm, 7.3 cm, 8.5 cm.",
+            "hindi": "एक त्रिभुज की भुजाएँ 6 सेमी, 7.3 सेमी, 8.5 सेमी हैं। परिमाप ज्ञात करें।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "21.8",
+            "21.8 cm"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "6 + 7.3 + 8.5 = 21.8 cm.",
+            "hindi": "6 + 7.3 + 8.5 = 21.8 सेमी।"
+          },
+          "supportExample": {
+            "english": "6 + 7.3 + 8.5 = 21.8 cm.",
+            "hindi": "6 + 7.3 + 8.5 = 21.8 सेमी।"
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "6 + 7.3 + 8.5 = 21.8 cm.",
+              "hindi": "6 + 7.3 + 8.5 = 21.8 सेमी।"
+            }
+          ]
+        }
+      ],
+      "tags": [],
       "mistakeFocus": "GENERAL"
     },
     {
@@ -1105,6 +1372,271 @@
       "mistakeFocus": "GENERAL"
     },
     {
+      "id": "rsexch22ex77q07_qa",
+      "sourceLessonId": "rsexch22ex77q07_qa",
+      "chapterNumber": 22,
+      "chapterTitle": {
+        "english": "Perimeters of Rectilinear Figures",
+        "hindi": "समरेखीय आकृतियों का परिमाप"
+      },
+      "lessonTitle": {
+        "english": "Exercise 77",
+        "hindi": "Exercise 77"
+      },
+      "subtopicTitle": {
+        "english": "Question Ex77 QA",
+        "hindi": "प्रश्न Ex77 QA"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question Ex77 QA?",
+        "hindi": "क्या आप प्रश्न Ex77 QA हल कर सकते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Question Ex77 QA",
+        "hindi": "प्रश्न Ex77 QA"
+      },
+      "explanationParagraphs": [],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rsexch22ex77q07_qa",
+          "prompt": {
+            "english": "Find the perimeter of the rectangle with Length = 36 cm, Breadth = 29 cm.",
+            "hindi": "लंबाई = 36 सेमी, चौड़ाई = 29 सेमी वाले आयत का परिमाप ज्ञात करें।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "130",
+            "130 cm"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "P = 2(36+29) = 2×65 = 130 cm.",
+            "hindi": "P = 2(36+29) = 130 सेमी।"
+          },
+          "supportExample": {
+            "english": "P = 2(36+29) = 2×65 = 130 cm.",
+            "hindi": "P = 2(36+29) = 130 सेमी।"
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "P = 2(36+29) = 2×65 = 130 cm.",
+              "hindi": "P = 2(36+29) = 130 सेमी।"
+            }
+          ]
+        }
+      ],
+      "tags": [],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rsexch22ex77q07_qb",
+      "sourceLessonId": "rsexch22ex77q07_qb",
+      "chapterNumber": 22,
+      "chapterTitle": {
+        "english": "Perimeters of Rectilinear Figures",
+        "hindi": "समरेखीय आकृतियों का परिमाप"
+      },
+      "lessonTitle": {
+        "english": "Exercise 77",
+        "hindi": "Exercise 77"
+      },
+      "subtopicTitle": {
+        "english": "Question Ex77 QB",
+        "hindi": "प्रश्न Ex77 QB"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question Ex77 QB?",
+        "hindi": "क्या आप प्रश्न Ex77 QB हल कर सकते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Question Ex77 QB",
+        "hindi": "प्रश्न Ex77 QB"
+      },
+      "explanationParagraphs": [],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rsexch22ex77q07_qb",
+          "prompt": {
+            "english": "Find the perimeter of the rectangle with Length = 7 m, Breadth = 5 m.",
+            "hindi": "लंबाई = 7 मी, चौड़ाई = 5 मी वाले आयत का परिमाप ज्ञात करें।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "24",
+            "24 m"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "P = 2(7+5) = 2×12 = 24 m.",
+            "hindi": "P = 2(7+5) = 24 मी।"
+          },
+          "supportExample": {
+            "english": "P = 2(7+5) = 2×12 = 24 m.",
+            "hindi": "P = 2(7+5) = 24 मी।"
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "P = 2(7+5) = 2×12 = 24 m.",
+              "hindi": "P = 2(7+5) = 24 मी।"
+            }
+          ]
+        }
+      ],
+      "tags": [],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rsexch22ex77q07_qc",
+      "sourceLessonId": "rsexch22ex77q07_qc",
+      "chapterNumber": 22,
+      "chapterTitle": {
+        "english": "Perimeters of Rectilinear Figures",
+        "hindi": "समरेखीय आकृतियों का परिमाप"
+      },
+      "lessonTitle": {
+        "english": "Exercise 77",
+        "hindi": "Exercise 77"
+      },
+      "subtopicTitle": {
+        "english": "Question Ex77 QC",
+        "hindi": "प्रश्न Ex77 QC"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question Ex77 QC?",
+        "hindi": "क्या आप प्रश्न Ex77 QC हल कर सकते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Question Ex77 QC",
+        "hindi": "प्रश्न Ex77 QC"
+      },
+      "explanationParagraphs": [],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rsexch22ex77q07_qc",
+          "prompt": {
+            "english": "Find the perimeter of the rectangle with Length = 2 m 60 cm, Breadth = 1 m 90 cm.",
+            "hindi": "लंबाई = 2 मी 60 सेमी, चौड़ाई = 1 मी 90 सेमी वाले आयत का परिमाप ज्ञात करें।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "9",
+            "9 m",
+            "900 cm"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "P = 2(260+190) = 2×450 = 900 cm = 9 m.",
+            "hindi": "P = 2(260+190) = 900 सेमी = 9 मी।"
+          },
+          "supportExample": {
+            "english": "P = 2(260+190) = 2×450 = 900 cm = 9 m.",
+            "hindi": "P = 2(260+190) = 900 सेमी = 9 मी।"
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "P = 2(260+190) = 2×450 = 900 cm = 9 m.",
+              "hindi": "P = 2(260+190) = 900 सेमी = 9 मी।"
+            }
+          ]
+        }
+      ],
+      "tags": [],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rsexch22ex77q07_qd",
+      "sourceLessonId": "rsexch22ex77q07_qd",
+      "chapterNumber": 22,
+      "chapterTitle": {
+        "english": "Perimeters of Rectilinear Figures",
+        "hindi": "समरेखीय आकृतियों का परिमाप"
+      },
+      "lessonTitle": {
+        "english": "Exercise 77",
+        "hindi": "Exercise 77"
+      },
+      "subtopicTitle": {
+        "english": "Question Ex77 QD",
+        "hindi": "प्रश्न Ex77 QD"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question Ex77 QD?",
+        "hindi": "क्या आप प्रश्न Ex77 QD हल कर सकते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Question Ex77 QD",
+        "hindi": "प्रश्न Ex77 QD"
+      },
+      "explanationParagraphs": [],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rsexch22ex77q07_qd",
+          "prompt": {
+            "english": "Find the perimeter of the rectangle with Length = 12.6 m, Breadth = 9.4 m.",
+            "hindi": "लंबाई = 12.6 मी, चौड़ाई = 9.4 मी वाले आयत का परिमाप ज्ञात करें।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "44",
+            "44 m"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "P = 2(12.6+9.4) = 2×22 = 44 m.",
+            "hindi": "P = 2(12.6+9.4) = 44 मी।"
+          },
+          "supportExample": {
+            "english": "P = 2(12.6+9.4) = 2×22 = 44 m.",
+            "hindi": "P = 2(12.6+9.4) = 44 मी।"
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "P = 2(12.6+9.4) = 2×22 = 44 m.",
+              "hindi": "P = 2(12.6+9.4) = 44 मी।"
+            }
+          ]
+        }
+      ],
+      "tags": [],
+      "mistakeFocus": "GENERAL"
+    },
+    {
       "id": "rsexch22ex77q07_b",
       "sourceLessonId": "rsexercisech22_ex77",
       "chapterNumber": 22,
@@ -1492,6 +2024,272 @@
           "hindi": "Question 22.77.10(a)"
         }
       ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rsexch22ex77q10_qa",
+      "sourceLessonId": "rsexch22ex77q10_qa",
+      "chapterNumber": 22,
+      "chapterTitle": {
+        "english": "Perimeters of Rectilinear Figures",
+        "hindi": "समरेखीय आकृतियों का परिमाप"
+      },
+      "lessonTitle": {
+        "english": "Exercise 77",
+        "hindi": "Exercise 77"
+      },
+      "subtopicTitle": {
+        "english": "Question Ex77 QA",
+        "hindi": "प्रश्न Ex77 QA"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question Ex77 QA?",
+        "hindi": "क्या आप प्रश्न Ex77 QA हल कर सकते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Question Ex77 QA",
+        "hindi": "प्रश्न Ex77 QA"
+      },
+      "explanationParagraphs": [],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rsexch22ex77q10_qa",
+          "prompt": {
+            "english": "Find the perimeter of the square whose side is 45 cm.",
+            "hindi": "उस वर्ग का परिमाप ज्ञात करें जिसकी भुजा 45 सेमी है।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "180",
+            "180 cm"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "P = 4×45 = 180 cm.",
+            "hindi": "P = 4×45 = 180 सेमी।"
+          },
+          "supportExample": {
+            "english": "P = 4×45 = 180 cm.",
+            "hindi": "P = 4×45 = 180 सेमी।"
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "P = 4×45 = 180 cm.",
+              "hindi": "P = 4×45 = 180 सेमी।"
+            }
+          ]
+        }
+      ],
+      "tags": [],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rsexch22ex77q10_qb",
+      "sourceLessonId": "rsexch22ex77q10_qb",
+      "chapterNumber": 22,
+      "chapterTitle": {
+        "english": "Perimeters of Rectilinear Figures",
+        "hindi": "समरेखीय आकृतियों का परिमाप"
+      },
+      "lessonTitle": {
+        "english": "Exercise 77",
+        "hindi": "Exercise 77"
+      },
+      "subtopicTitle": {
+        "english": "Question Ex77 QB",
+        "hindi": "प्रश्न Ex77 QB"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question Ex77 QB?",
+        "hindi": "क्या आप प्रश्न Ex77 QB हल कर सकते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Question Ex77 QB",
+        "hindi": "प्रश्न Ex77 QB"
+      },
+      "explanationParagraphs": [],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rsexch22ex77q10_qb",
+          "prompt": {
+            "english": "Find the perimeter of the square whose side is 16 m.",
+            "hindi": "उस वर्ग का परिमाप ज्ञात करें जिसकी भुजा 16 मी है।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "64",
+            "64 m"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "P = 4×16 = 64 m.",
+            "hindi": "P = 4×16 = 64 मी।"
+          },
+          "supportExample": {
+            "english": "P = 4×16 = 64 m.",
+            "hindi": "P = 4×16 = 64 मी।"
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "P = 4×16 = 64 m.",
+              "hindi": "P = 4×16 = 64 मी।"
+            }
+          ]
+        }
+      ],
+      "tags": [],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rsexch22ex77q10_qc",
+      "sourceLessonId": "rsexch22ex77q10_qc",
+      "chapterNumber": 22,
+      "chapterTitle": {
+        "english": "Perimeters of Rectilinear Figures",
+        "hindi": "समरेखीय आकृतियों का परिमाप"
+      },
+      "lessonTitle": {
+        "english": "Exercise 77",
+        "hindi": "Exercise 77"
+      },
+      "subtopicTitle": {
+        "english": "Question Ex77 QC",
+        "hindi": "प्रश्न Ex77 QC"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question Ex77 QC?",
+        "hindi": "क्या आप प्रश्न Ex77 QC हल कर सकते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Question Ex77 QC",
+        "hindi": "प्रश्न Ex77 QC"
+      },
+      "explanationParagraphs": [],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rsexch22ex77q10_qc",
+          "prompt": {
+            "english": "Find the perimeter of the square whose side is 2 m 10 cm.",
+            "hindi": "उस वर्ग का परिमाप ज्ञात करें जिसकी भुजा 2 मी 10 सेमी है।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "8.4",
+            "8.4 m",
+            "840 cm"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "P = 4×210 cm = 840 cm = 8.4 m.",
+            "hindi": "P = 4×210 = 840 सेमी = 8.4 मी।"
+          },
+          "supportExample": {
+            "english": "P = 4×210 cm = 840 cm = 8.4 m.",
+            "hindi": "P = 4×210 = 840 सेमी = 8.4 मी।"
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "P = 4×210 cm = 840 cm = 8.4 m.",
+              "hindi": "P = 4×210 = 840 सेमी = 8.4 मी।"
+            }
+          ]
+        }
+      ],
+      "tags": [],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rsexch22ex77q10_qd",
+      "sourceLessonId": "rsexch22ex77q10_qd",
+      "chapterNumber": 22,
+      "chapterTitle": {
+        "english": "Perimeters of Rectilinear Figures",
+        "hindi": "समरेखीय आकृतियों का परिमाप"
+      },
+      "lessonTitle": {
+        "english": "Exercise 77",
+        "hindi": "Exercise 77"
+      },
+      "subtopicTitle": {
+        "english": "Question Ex77 QD",
+        "hindi": "प्रश्न Ex77 QD"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question Ex77 QD?",
+        "hindi": "क्या आप प्रश्न Ex77 QD हल कर सकते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Question Ex77 QD",
+        "hindi": "प्रश्न Ex77 QD"
+      },
+      "explanationParagraphs": [],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rsexch22ex77q10_qd",
+          "prompt": {
+            "english": "Find the perimeter of the square whose side is 3 m 25 cm.",
+            "hindi": "उस वर्ग का परिमाप ज्ञात करें जिसकी भुजा 3 मी 25 सेमी है।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "13",
+            "13 m",
+            "1300 cm"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "P = 4×325 cm = 1300 cm = 13 m.",
+            "hindi": "P = 4×325 = 1300 सेमी = 13 मी।"
+          },
+          "supportExample": {
+            "english": "P = 4×325 cm = 1300 cm = 13 m.",
+            "hindi": "P = 4×325 = 1300 सेमी = 13 मी।"
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "P = 4×325 cm = 1300 cm = 13 m.",
+              "hindi": "P = 4×325 = 1300 सेमी = 13 मी।"
+            }
+          ]
+        }
+      ],
+      "tags": [],
       "mistakeFocus": "GENERAL"
     },
     {

@@ -425,6 +425,246 @@
       "mistakeFocus": "GENERAL"
     },
     {
+      "id": "rsexch24ex79q01_c",
+      "sourceLessonId": "rsexercisech24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.1(c)",
+        "hindi": "Question 24.79.1(c)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.1(c)?",
+        "hindi": "Can you solve Question 24.79.1(c)?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.1(c)",
+        "hindi": "Question 24.79.1(c)"
+      },
+      "explanationParagraphs": [],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rsexch24ex79q01cq1",
+          "prompt": {
+            "english": "Find the volume of the cuboid whose dimensions are Part (c): length = 12.5 cm, breadth = 7.8 cm, height = 6 cm",
+            "hindi": "घनाभ का आयतन ज्ञात कीजिए जिसकी विमाएँ हैं भाग (c): लंबाई = 12.5 सेमी, चौड़ाई = 7.8 सेमी, ऊँचाई = 6 सेमी"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "585 cu cm",
+            "585",
+            "585 cu. cm"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "Volume of cuboid = length × breadth × height = 12.5 × 7.8 × 6 = 585 cu cm",
+            "hindi": "घनाभ का आयतन = लंबाई × चौड़ाई × ऊँचाई = 12.5 × 7.8 × 6 = 585 घन सेमी"
+          },
+          "supportExample": {
+            "english": "Volume of cuboid = length × breadth × height = 12.5 × 7.8 × 6 = 585 cu cm",
+            "hindi": "घनाभ का आयतन = लंबाई × चौड़ाई × ऊँचाई = 12.5 × 7.8 × 6 = 585 घन सेमी"
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Volume of cuboid = length × breadth × height = 12.5 × 7.8 × 6 = 585 cu cm",
+              "hindi": "घनाभ का आयतन = लंबाई × चौड़ाई × ऊँचाई = 12.5 × 7.8 × 6 = 585 घन सेमी"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.1(c)",
+          "hindi": "Question 24.79.1(c)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rsexch24ex79q01_d",
+      "sourceLessonId": "rsexercisech24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.1(d)",
+        "hindi": "Question 24.79.1(d)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.1(d)?",
+        "hindi": "Can you solve Question 24.79.1(d)?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.1(d)",
+        "hindi": "Question 24.79.1(d)"
+      },
+      "explanationParagraphs": [],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rsexch24ex79q01dq1",
+          "prompt": {
+            "english": "Find the volume of the cuboid whose dimensions are Part (d): length = 4.8 m, breadth = 3.5 m, height = 0.75 m",
+            "hindi": "घनाभ का आयतन ज्ञात कीजिए जिसकी विमाएँ हैं भाग (d): लंबाई = 4.8 मी, चौड़ाई = 3.5 मी, ऊँचाई = 0.75 मी"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "12.6 cu m",
+            "12.6",
+            "12.6 cu. m"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "Volume of cuboid = length × breadth × height = 4.8 × 3.5 × 0.75 = 12.6 cu m",
+            "hindi": "घनाभ का आयतन = लंबाई × चौड़ाई × ऊँचाई = 4.8 × 3.5 × 0.75 = 12.6 घन मी"
+          },
+          "supportExample": {
+            "english": "Volume of cuboid = length × breadth × height = 4.8 × 3.5 × 0.75 = 12.6 cu m",
+            "hindi": "घनाभ का आयतन = लंबाई × चौड़ाई × ऊँचाई = 4.8 × 3.5 × 0.75 = 12.6 घन मी"
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Volume of cuboid = length × breadth × height = 4.8 × 3.5 × 0.75 = 12.6 cu m",
+              "hindi": "घनाभ का आयतन = लंबाई × चौड़ाई × ऊँचाई = 4.8 × 3.5 × 0.75 = 12.6 घन मी"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.1(d)",
+          "hindi": "Question 24.79.1(d)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
+      "id": "rsexch24ex79q01_e",
+      "sourceLessonId": "rsexercisech24_ex79",
+      "chapterNumber": 24,
+      "chapterTitle": {
+        "english": "Volume",
+        "hindi": "आयतन"
+      },
+      "lessonTitle": {
+        "english": "Exercise 79",
+        "hindi": "Exercise 79"
+      },
+      "subtopicTitle": {
+        "english": "Question 24.79.1(e)",
+        "hindi": "Question 24.79.1(e)"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 24.79.1(e)?",
+        "hindi": "Can you solve Question 24.79.1(e)?"
+      },
+      "explanationTitle": {
+        "english": "Question 24.79.1(e)",
+        "hindi": "Question 24.79.1(e)"
+      },
+      "explanationParagraphs": [],
+      "examples": [],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "rsexch24ex79q01eq1",
+          "prompt": {
+            "english": "Find the volume of the cuboid whose dimensions are Part (e): length = 16⅔ m, breadth = 8⅓ m, height = 3⅗ m",
+            "hindi": "घनाभ का आयतन ज्ञात कीजिए जिसकी विमाएँ हैं भाग (e): लंबाई = 16⅔ मी, चौड़ाई = 8⅓ मी, ऊँचाई = 3⅗ मी"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "500 cu m",
+            "500",
+            "500 cu. m"
+          ],
+          "hint": null,
+          "wrongReason": {
+            "english": "Volume of cuboid = length × breadth × height\n= 16⅔ × 8⅓ × 3⅗\n= (50/3) × (25/3) × (18/5)\n= (50 × 25 × 18) / (3 × 3 × 5)\n= 22500 / 45 = 500 cu m",
+            "hindi": "घनाभ का आयतन = लंबाई × चौड़ाई × ऊँचाई = (50/3) × (25/3) × (18/5) = 22500/45 = 500 घन मी"
+          },
+          "supportExample": {
+            "english": "Volume of cuboid = length × breadth × height\n= 16⅔ × 8⅓ × 3⅗\n= (50/3) × (25/3) × (18/5)\n= (50 × 25 × 18) / (3 × 3 × 5)\n= 22500 / 45 = 500 cu m",
+            "hindi": "घनाभ का आयतन = लंबाई × चौड़ाई × ऊँचाई = (50/3) × (25/3) × (18/5) = 22500/45 = 500 घन मी"
+          },
+          "mistakeType": "GENERAL",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Volume of cuboid = length × breadth × height\n= 16⅔ × 8⅓ × 3⅗\n= (50/3) × (25/3) × (18/5)\n= (50 × 25 × 18) / (3 × 3 × 5)\n= 22500 / 45 = 500 cu m",
+              "hindi": "घनाभ का आयतन = लंबाई × चौड़ाई × ऊँचाई = (50/3) × (25/3) × (18/5) = 22500/45 = 500 घन मी"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "english": "Exercise Path",
+          "hindi": "Exercise Path"
+        },
+        {
+          "english": "Exercise 79",
+          "hindi": "Exercise 79"
+        },
+        {
+          "english": "Question 24.79.1(e)",
+          "hindi": "Question 24.79.1(e)"
+        }
+      ],
+      "mistakeFocus": "GENERAL"
+    },
+    {
       "id": "rsexch24ex79q02_a",
       "sourceLessonId": "rsexercisech24_ex79",
       "chapterNumber": 24,
@@ -521,8 +761,8 @@
         {
           "id": "rsexch24ex79q02bq1",
           "prompt": {
-            "english": "Find the volume of the cube whose edge is Part (b): 31 2 m",
-            "hindi": "Find the volume of the cube whose edge is Part (b): 31 2 m"
+            "english": "Find the volume of the cube whose edge is Part (b): 3½ m",
+            "hindi": "घन का आयतन ज्ञात कीजिए जिसकी भुजा है भाग (b): 3½ मी"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -532,11 +772,25 @@
             "42.875"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Volume of cube = side × side × side = 3.5 × 3.5 × 3.5 = 42.875 cu m",
+            "hindi": "घन का आयतन = भुजा × भुजा × भुजा = 3.5 × 3.5 × 3.5 = 42.875 घन मी"
+          },
+          "supportExample": {
+            "english": "Volume of cube = side × side × side = 3.5 × 3.5 × 3.5 = 42.875 cu m",
+            "hindi": "घन का आयतन = भुजा × भुजा × भुजा = 3.5 × 3.5 × 3.5 = 42.875 घन मी"
+          },
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Volume of cube = side × side × side = 3.5 × 3.5 × 3.5 = 42.875 cu m",
+              "hindi": "घन का आयतन = भुजा × भुजा × भुजा = 3.5 × 3.5 × 3.5 = 42.875 घन मी"
+            }
+          ]
         }
       ],
       "tags": [

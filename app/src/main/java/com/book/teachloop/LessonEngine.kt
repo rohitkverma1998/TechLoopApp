@@ -156,6 +156,7 @@ class LessonEngine(
                 mistakeType = baseQuestion.mistakeType,
                 reteachTitle = baseQuestion.reteachTitle,
                 reteachParagraphs = baseQuestion.reteachParagraphs,
+                questionImageAsset = baseQuestion.questionImageAsset,
             )
 
             Difficulty.MEDIUM -> RenderedQuestion(
@@ -187,6 +188,7 @@ class LessonEngine(
                 mistakeType = baseQuestion.mistakeType,
                 reteachTitle = baseQuestion.reteachTitle,
                 reteachParagraphs = baseQuestion.reteachParagraphs,
+                questionImageAsset = baseQuestion.questionImageAsset,
             )
 
             Difficulty.HARD -> RenderedQuestion(
@@ -215,6 +217,7 @@ class LessonEngine(
                 mistakeType = baseQuestion.mistakeType,
                 reteachTitle = baseQuestion.reteachTitle,
                 reteachParagraphs = baseQuestion.reteachParagraphs,
+                questionImageAsset = baseQuestion.questionImageAsset,
             )
         }
     }

@@ -6777,8 +6777,8 @@
         {
           "id": "rsexch15ex65q01_q1",
           "prompt": {
-            "english": "40 p.m. Find the working hours of her school",
-            "hindi": "40 p.m. Find the working hours of her school"
+            "english": "Reetu's school starts at 8:15 a.m. and closes at 3:40 p.m. Find the working hours of her school.",
+            "hindi": "रीतू के स्कूल की शुरुआत सुबह 8:15 बजे होती है और दोपहर 3:40 बजे समाप्त होती है। उसके स्कूल के कार्य घंटे ज्ञात कीजिए।"
           },
           "type": "TEXT_INPUT",
           "options": [],
@@ -6787,11 +6787,25 @@
             "7 hours 25 minutes"
           ],
           "hint": null,
-          "wrongReason": null,
-          "supportExample": null,
+          "wrongReason": {
+            "english": "Working hours = 3:40 p.m. – 8:15 a.m.\nFrom 8:15 a.m. to 12:00 noon = 3 hrs 45 min\nFrom 12:00 noon to 3:40 p.m. = 3 hrs 40 min\nTotal = 3 hrs 45 min + 3 hrs 40 min = 7 hours 25 minutes",
+            "hindi": "कार्य घंटे = 3:40 अपराह्न – 8:15 पूर्वाह्न = 7 घंटे 25 मिनट"
+          },
+          "supportExample": {
+            "english": "Working hours = 3:40 p.m. – 8:15 a.m.\nFrom 8:15 a.m. to 12:00 noon = 3 hrs 45 min\nFrom 12:00 noon to 3:40 p.m. = 3 hrs 40 min\nTotal = 3 hrs 45 min + 3 hrs 40 min = 7 hours 25 minutes",
+            "hindi": "कार्य घंटे = 3:40 अपराह्न – 8:15 पूर्वाह्न = 7 घंटे 25 मिनट"
+          },
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Working hours = 3:40 p.m. – 8:15 a.m.\nFrom 8:15 a.m. to 12:00 noon = 3 hrs 45 min\nFrom 12:00 noon to 3:40 p.m. = 3 hrs 40 min\nTotal = 3 hrs 45 min + 3 hrs 40 min = 7 hours 25 minutes",
+              "hindi": "कार्य घंटे = 3:40 अपराह्न – 8:15 पूर्वाह्न = 7 घंटे 25 मिनट"
+            }
+          ]
         }
       ],
       "tags": [
