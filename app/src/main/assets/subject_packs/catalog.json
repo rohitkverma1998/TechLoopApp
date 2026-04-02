@@ -1,26 +1,10 @@
 [
   {
-    "id": "class5_rs_aggarwal_maths",
+    "id": "verbal_reasoning_dice_and_cube",
     "title": {
-      "english": "RS Aggarwal Mathematics Class 5",
-      "hindi": "आर. एस. अग्रवाल गणित कक्षा 5"
+      "english": "Dice and Cube",
+      "hindi": "डाइस और क्यूब"
     },
     "assetPath": "subject_packs/class5_rs_aggarwal_math.json"
-  },
-  {
-    "id": "class5_science_story_lab",
-    "title": {
-      "english": "Science Story Lab",
-      "hindi": "साइंस स्टोरी लैब"
-    },
-    "assetPath": "subject_packs/class5_science_story_lab.json"
-  },
-  {
-    "id": "class5_english_reading_trails",
-    "title": {
-      "english": "English Reading Trails",
-      "hindi": "इंग्लिश रीडिंग ट्रेल्स"
-    },
-    "assetPath": "subject_packs/class5_english_reading_trails.json"
   }
 ]

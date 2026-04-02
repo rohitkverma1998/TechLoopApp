@@ -19,10 +19,16 @@ class LessonEngine(
         session = if (snapshot.bookId != book.id || validQueue.isEmpty()) {
             SessionSnapshot(bookId = book.id)
         } else {
+            val restoredState = if (snapshot.state == LearningState.ASK_IF_KNOWN) {
+                LearningState.TAKE_QUIZ
+            } else {
+                snapshot.state
+            }
             snapshot.copy(
                 bookId = book.id,
                 queueTopicIds = validQueue,
                 queueIndex = snapshot.queueIndex.coerceIn(0, validQueue.lastIndex),
+                state = restoredState,
             )
         }
     }
@@ -46,7 +52,7 @@ class LessonEngine(
             mode = mode,
             queueTopicIds = topicIds,
             queueIndex = 0,
-            state = LearningState.ASK_IF_KNOWN,
+            state = LearningState.TAKE_QUIZ,
             currentTopicStartedAt = now,
         )
     }
@@ -197,21 +203,26 @@ class LessonEngine(
                 prompt = when (baseQuestion.type) {
                     QuestionType.MULTIPLE_CHOICE -> {
                         text(
-                            english = "${baseQuestion.prompt.english} Type the correct answer instead of choosing an option.",
-                            hindi = "${baseQuestion.prompt.hindi} विकल्प चुनने के बजाय सही उत्तर लिखिए।",
+                            english = "${baseQuestion.prompt.english} Choose the correct option.",
+                            hindi = "${baseQuestion.prompt.hindi} सही विकल्प चुनिए।",
                         )
                     }
 
                     QuestionType.TEXT_INPUT -> {
                         text(
-                            english = "${baseQuestion.prompt.english} Write the final answer without using the hint.",
-                            hindi = "${baseQuestion.prompt.hindi} संकेत देखे बिना अंतिम उत्तर लिखिए।",
+                            english = "${baseQuestion.prompt.english} Write the final answer.",
+                            hindi = "${baseQuestion.prompt.hindi} अंतिम उत्तर लिखिए।",
                         )
                     }
                 },
-                type = QuestionType.TEXT_INPUT,
+                type = baseQuestion.type,
+                options = baseQuestion.options,
+                correctOptionIndex = baseQuestion.correctOptionIndex,
                 acceptedAnswers = (listOf(correctText) + baseQuestion.acceptedAnswers).distinct(),
-                solutionAnswer = text(correctText, correctText),
+                solutionAnswer = when (baseQuestion.type) {
+                    QuestionType.MULTIPLE_CHOICE -> baseQuestion.options[baseQuestion.correctOptionIndex ?: 0]
+                    QuestionType.TEXT_INPUT -> text(correctText, correctText)
+                },
                 hint = null,
                 wrongReason = wrongReason,
                 supportExample = supportExample,
@@ -295,7 +306,7 @@ class LessonEngine(
                     queueIndex = nextQueueIndex,
                     questionIndex = 0,
                     explanationRepeats = 0,
-                    state = LearningState.ASK_IF_KNOWN,
+                    state = LearningState.TAKE_QUIZ,
                     currentTopicStartedAt = now,
                     lastMistakeType = null,
                 )
@@ -321,7 +332,7 @@ class LessonEngine(
             session = session.copy(
                 questionIndex = session.questionIndex.coerceIn(0, max(topic.questions.lastIndex, 0)),
                 explanationRepeats = 0,
-                state = LearningState.ASK_IF_KNOWN,
+                state = LearningState.TAKE_QUIZ,
                 currentTopicStartedAt = now,
                 lastMistakeType = question.mistakeType,
             )

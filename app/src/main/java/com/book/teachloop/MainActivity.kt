@@ -1,7 +1,12 @@
 ﻿package com.book.teachloop
 
+import android.app.Dialog
 import android.content.ActivityNotFoundException
 import android.content.Intent
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -13,6 +18,7 @@ import android.text.InputType
 import android.util.Log
 import android.view.Gravity
 import android.view.View
+import android.view.ViewGroup
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.EditText
@@ -24,6 +30,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import com.book.teachloop.databinding.ActivityMainBinding
+import com.book.teachloop.databinding.DialogQuestionImageBinding
 import com.google.android.material.card.MaterialCardView
 import com.google.android.material.imageview.ShapeableImageView
 import java.util.Locale
@@ -589,8 +596,10 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         lastSpokenToken = null
         latestStatusMessage = null
 
-        if (engine.session.state == LearningState.ASK_IF_KNOWN) {
-            engine.answerKnowTopic(knowsTopic = false)
+        when (engine.session.state) {
+            LearningState.ASK_IF_KNOWN -> engine.answerKnowTopic(knowsTopic = false)
+            LearningState.TAKE_QUIZ -> engine.answerUnderstood(understood = false)
+            else -> Unit
         }
         render()
     }
@@ -896,7 +905,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         binding.topicSourceText.text = topicSourceText(topic.lessonTitle, topic.chapterTitle)
 
         when (engine.session.state) {
-            LearningState.ASK_IF_KNOWN -> renderKnowPrompt(topic)
+            LearningState.ASK_IF_KNOWN -> renderQuiz(topic)
             LearningState.EXPLAIN_TOPIC -> renderExplanation(topic)
             LearningState.TAKE_QUIZ -> renderQuiz(topic)
             else -> Unit
@@ -998,15 +1007,17 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         val assetImg = question.questionImageAsset
         if (assetImg != null) {
             try {
-                val bmp = assets.open("subject_packs/class5_rs_aggarwal_math/images/$assetImg")
-                    .use { android.graphics.BitmapFactory.decodeStream(it) }
+                val bmp = loadQuestionBitmap(assetImg)
                 binding.questionImageView.setImageBitmap(bmp)
-                binding.questionImageView.visibility = android.view.View.VISIBLE
+                binding.questionImageView.visibility = View.VISIBLE
+                binding.questionImageView.setOnClickListener {
+                    showQuestionImageViewer(assetImg)
+                }
             } catch (e: Exception) {
-                binding.questionImageView.visibility = android.view.View.GONE
+                hideQuestionImage()
             }
         } else {
-            binding.questionImageView.visibility = android.view.View.GONE
+            hideQuestionImage()
         }
         binding.answerInputLayout.hint = ui("Type your answer", "à¤…à¤ªà¤¨à¤¾ à¤‰à¤¤à¥à¤¤à¤° à¤²à¤¿à¤–à¤¿à¤")
         binding.submitAnswerButton.text = ui("Submit answer", "à¤‰à¤¤à¥à¤¤à¤° à¤œà¤®à¤¾ à¤•à¤°à¥‡à¤‚")
@@ -1040,6 +1051,59 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             binding.answerInputLayout.isVisible = true
             binding.answerInputEditText.setText("")
         }
+        renderFeedbackCard()
+    }
+
+    private fun loadQuestionBitmap(assetImg: String): Bitmap {
+        return assets.open("subject_packs/class5_rs_aggarwal_math/images/$assetImg")
+            .use { stream ->
+                BitmapFactory.decodeStream(stream)
+                    ?: error("Could not decode bitmap for $assetImg")
+            }
+    }
+
+    private fun hideQuestionImage() {
+        binding.questionImageView.setImageDrawable(null)
+        binding.questionImageView.visibility = View.GONE
+        binding.questionImageView.setOnClickListener(null)
+    }
+
+    private fun showQuestionImageViewer(assetImg: String) {
+        val bitmap = runCatching { loadQuestionBitmap(assetImg) }.getOrElse {
+            latestStatusMessage = ui(
+                "Could not open the question screenshot.",
+                "प्रश्न की तस्वीर नहीं खुल सकी।",
+            )
+            renderStatus()
+            return
+        }
+
+        val dialog = Dialog(this, android.R.style.Theme_Black_NoTitleBar_Fullscreen)
+        val dialogBinding = DialogQuestionImageBinding.inflate(layoutInflater)
+        dialog.setContentView(dialogBinding.root)
+        dialog.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+        dialog.window?.setLayout(
+            ViewGroup.LayoutParams.MATCH_PARENT,
+            ViewGroup.LayoutParams.MATCH_PARENT,
+        )
+
+        dialogBinding.zoomTitleText.text = ui(
+            "Question Screenshot",
+            "प्रश्न की तस्वीर",
+        )
+        dialogBinding.zoomHelpText.text = ui(
+            "Pinch to zoom, drag to move, and double tap to reset.",
+            "ज़ूम करने के लिए दो उंगलियों से फैलाएँ, घसीटकर देखें, और रीसेट करने के लिए डबल टैप करें।",
+        )
+        dialogBinding.zoomQuestionImageView.setImageBitmap(bitmap)
+        dialogBinding.closeZoomButton.contentDescription = ui(
+            "Close image viewer",
+            "छवि दर्शक बंद करें",
+        )
+        dialogBinding.closeZoomButton.setOnClickListener {
+            dialog.dismiss()
+        }
+        dialog.show()
     }
 
     private fun renderQuestionSolution(topic: StudyTopic) {
@@ -1449,7 +1513,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     private fun renderFeedbackCard() {
         val result = latestQuizResult
         val visible = result != null && !result.correct && !solutionPreviewActive &&
-            (engine.session.state == LearningState.ASK_IF_KNOWN ||
+            (engine.session.state == LearningState.TAKE_QUIZ ||
              engine.session.state == LearningState.EXPLAIN_TOPIC)
         binding.feedbackCard.isVisible = visible
         if (visible && result != null) {

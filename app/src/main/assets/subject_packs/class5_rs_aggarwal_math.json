@@ -1,42 +1,18 @@
 {
-  "id": "class5_rs_aggarwal_maths",
+  "id": "verbal_reasoning_dice_and_cube",
   "subjectTitle": {
-    "english": "Mathematics",
-    "hindi": "गणित"
+    "english": "Verbal Reasoning",
+    "hindi": "वर्बल रीजनिंग"
   },
   "bookTitle": {
-    "english": "RS Aggarwal Mathematics Class 5",
-    "hindi": "आर. एस. अग्रवाल गणित कक्षा 5"
+    "english": "Dice and Cube",
+    "hindi": "डाइस और क्यूब"
   },
   "teacherNote": {
-    "english": "Use the main path first, then revision and weak-topic practice. This offline pack keeps the textbook flow chapter by chapter with many smaller topics.",
-    "hindi": "पहले मुख्य पथ चलाइए, फिर पुनरावृत्ति और कमज़ोर-विषय अभ्यास कराइए। यह ऑफलाइन पैक पुस्तक के अध्यायवार प्रवाह को छोटे-छोटे विषयों में रखता है।"
+    "english": "Use one question at a time. Ask the learner to compare adjacent and opposite faces before checking the bilingual solution.",
+    "hindi": "एक समय में एक प्रश्न कराइए। हल देखने से पहले विद्यार्थी से आसन्न और विपरीत फलकों की तुलना करवाइए।"
   },
   "chapterAssetPaths": [
-    "class5_rs_aggarwal_math/chapter_01_revision.json",
-    "class5_rs_aggarwal_math/chapter_02_roman_numerals.json",
-    "class5_rs_aggarwal_math/chapter_03_large_numbers_up_to_ten_crores.json",
-    "class5_rs_aggarwal_math/chapter_04_operations_on_large_numbers.json",
-    "class5_rs_aggarwal_math/chapter_05_simplification.json",
-    "class5_rs_aggarwal_math/chapter_06_factors_and_multiples.json",
-    "class5_rs_aggarwal_math/chapter_07_fractions.json",
-    "class5_rs_aggarwal_math/chapter_08_addition_and_subtraction_of_fractions.json",
-    "class5_rs_aggarwal_math/chapter_09_multiplication_and_division_of_fractions.json",
-    "class5_rs_aggarwal_math/chapter_10_decimals.json",
-    "class5_rs_aggarwal_math/chapter_11_rounding_numbers.json",
-    "class5_rs_aggarwal_math/chapter_12_measures_of_length_mass_and_capacity.json",
-    "class5_rs_aggarwal_math/chapter_13_average.json",
-    "class5_rs_aggarwal_math/chapter_14_percentage.json",
-    "class5_rs_aggarwal_math/chapter_15_time.json",
-    "class5_rs_aggarwal_math/chapter_16_money.json",
-    "class5_rs_aggarwal_math/chapter_17_basic_geometrical_concepts.json",
-    "class5_rs_aggarwal_math/chapter_18_concept_of_angles.json",
-    "class5_rs_aggarwal_math/chapter_19_parallel_and_perpendicular_lines.json",
-    "class5_rs_aggarwal_math/chapter_20_triangles.json",
-    "class5_rs_aggarwal_math/chapter_21_circles.json",
-    "class5_rs_aggarwal_math/chapter_22_perimeters_of_rectilinear_figures.json",
-    "class5_rs_aggarwal_math/chapter_23_area.json",
-    "class5_rs_aggarwal_math/chapter_24_volume.json",
-    "class5_rs_aggarwal_math/chapter_25_pictograph_and_bar_graph.json"
+    "class5_rs_aggarwal_math/chapter_01_dice_and_cube.json"
   ]
 }

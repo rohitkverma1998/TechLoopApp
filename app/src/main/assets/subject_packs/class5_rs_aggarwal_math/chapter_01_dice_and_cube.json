@@ -1,0 +1,244 @@
+{
+  "chapterNumber": 1,
+  "chapterTitle": {
+    "english": "Dice and Cube",
+    "hindi": "डाइस और क्यूब"
+  },
+  "topics": [
+    {
+      "id": "dice1_q01_opposite_face_of_a_dice",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice and Cube",
+        "hindi": "डाइस और क्यूब"
+      },
+      "lessonTitle": {
+        "english": "Dice and Cube",
+        "hindi": "डाइस और क्यूब"
+      },
+      "subtopicTitle": {
+        "english": "Question 01: Opposite Face of a Dice",
+        "hindi": "प्रश्न 01: पासे का विपरीत फलक"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 01 from Dice and Cube?",
+        "hindi": "क्या आप डाइस और क्यूब का प्रश्न 01 हल कर सकते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Opposite Face of a Dice",
+        "hindi": "पासे का विपरीत फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Opposite face of 3?",
+          "hindi": "प्रश्न: 3 का विपरीत फलक?"
+        },
+        {
+          "english": "In the first shown position, face 2 is touching 4 and 5. In the second shown position, the same face 2 is touching 3 and 1. So the four faces around 2 are 4, 5, 3, and 1. Now match the two views by keeping face 2 fixed and mentally rotating the second cube. Then 1 comes below 4, which leaves 3 on the side opposite 5. Therefore, the opposite face of 3 is 5.",
+          "hindi": "पहली दिखाई गई स्थिति में 2, 4 और 5 के साथ लगा हुआ है। दूसरी स्थिति में वही 2, 3 और 1 के साथ लगा हुआ है। यानी 2 के चारों ओर 4, 5, 3 और 1 हैं। अब 2 को स्थिर मानकर दूसरे घन को मन में घुमाइए। तब 1, 4 के नीचे आ जाता है और 3, 5 के ठीक विपरीत तरफ आता है। इसलिए 3 का विपरीत फलक 5 है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "A cube face has 4 adjacent faces and 1 opposite face.",
+          "hindi": "घन के एक फलक के 4 पड़ोसी फलक और 1 विपरीत फलक होता है।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q01",
+          "prompt": {
+            "english": "Opposite face of 3?",
+            "hindi": "3 का विपरीत फलक?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "4",
+              "hindi": "4"
+            },
+            {
+              "english": "5",
+              "hindi": "5"
+            },
+            {
+              "english": "2",
+              "hindi": "2"
+            },
+            {
+              "english": "1",
+              "hindi": "1"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [
+            "5",
+            "face 5",
+            "option b",
+            "b",
+            "पाँच",
+            "५"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In the first shown position, face 2 is touching 4 and 5. In the second shown position, the same face 2 is touching 3 and 1. So the four faces around 2 are 4, 5, 3, and 1. Now match the two views by keeping face 2 fixed and mentally rotating the second cube. Then 1 comes below 4, which leaves 3 on the side opposite 5. Therefore, the opposite face of 3 is 5.",
+            "hindi": "पहली दिखाई गई स्थिति में 2, 4 और 5 के साथ लगा हुआ है। दूसरी स्थिति में वही 2, 3 और 1 के साथ लगा हुआ है। यानी 2 के चारों ओर 4, 5, 3 और 1 हैं। अब 2 को स्थिर मानकर दूसरे घन को मन में घुमाइए। तब 1, 4 के नीचे आ जाता है और 3, 5 के ठीक विपरीत तरफ आता है। इसलिए 3 का विपरीत फलक 5 है।"
+          },
+          "supportExample": {
+            "english": "A cube face has 4 adjacent faces and 1 opposite face.",
+            "hindi": "घन के एक फलक के 4 पड़ोसी फलक और 1 विपरीत फलक होता है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In the first shown position, face 2 is touching 4 and 5. In the second shown position, the same face 2 is touching 3 and 1. So the four faces around 2 are 4, 5, 3, and 1. Now match the two views by keeping face 2 fixed and mentally rotating the second cube. Then 1 comes below 4, which leaves 3 on the side opposite 5. Therefore, the opposite face of 3 is 5.",
+              "hindi": "पहली दिखाई गई स्थिति में 2, 4 और 5 के साथ लगा हुआ है। दूसरी स्थिति में वही 2, 3 और 1 के साथ लगा हुआ है। यानी 2 के चारों ओर 4, 5, 3 और 1 हैं। अब 2 को स्थिर मानकर दूसरे घन को मन में घुमाइए। तब 1, 4 के नीचे आ जाता है और 3, 5 के ठीक विपरीत तरफ आता है। इसलिए 3 का विपरीत फलक 5 है।"
+            }
+          ],
+          "questionImageAsset": "dice1_q01.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice and Cube",
+          "hindi": "डाइस और क्यूब"
+        },
+        {
+          "english": "Question 01",
+          "hindi": "प्रश्न 01"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q02_dice_opposite_face",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice and Cube",
+        "hindi": "डाइस और क्यूब"
+      },
+      "lessonTitle": {
+        "english": "Dice and Cube",
+        "hindi": "डाइस और क्यूब"
+      },
+      "subtopicTitle": {
+        "english": "Question 02: Dice: Opposite Face",
+        "hindi": "प्रश्न 02: पासा: विपरीत फलक"
+      },
+      "knowPrompt": {
+        "english": "Can you solve Question 02 from Dice and Cube?",
+        "hindi": "क्या आप डाइस और क्यूब का प्रश्न 02 हल कर सकते हैं?"
+      },
+      "explanationTitle": {
+        "english": "Dice: Opposite Face",
+        "hindi": "पासा: विपरीत फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Opposite face of 1?",
+          "hindi": "प्रश्न: 1 का विपरीत फलक?"
+        },
+        {
+          "english": "In the first cube, 3 is on top, with 1 on one side and 6 on the other. In the second cube, 3 is still on top, but the side faces are 4 and 2. Since the top face 3 is unchanged, the second picture is a rotated view of the same cube. Matching the rotation shows that 1 changes to 4 and 6 changes to 2, so 1 and 4 are opposite faces. Therefore, the opposite face of 1 is 4.",
+          "hindi": "पहले घन में ऊपर 3 है, एक तरफ 1 है और दूसरी तरफ 6 है। दूसरे घन में भी ऊपर 3 ही है, लेकिन बगल के फलक 4 और 2 दिख रहे हैं। क्योंकि ऊपर वाला फलक 3 दोनों में समान है, इसलिए दूसरा चित्र उसी घन का घुमाया हुआ रूप है। घुमाव मिलाने पर 1 की जगह 4 आता है और 6 की जगह 2, इसलिए 1 और 4 एक-दूसरे के विपरीत फलक हैं। अतः 1 का विपरीत फलक 4 है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "If one face stays fixed, a rotated view helps identify which side faces are opposite.",
+          "hindi": "यदि एक फलक वही रहे, तो घुमाए गए दृश्य से विपरीत फलक पहचाने जा सकते हैं।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q02",
+          "prompt": {
+            "english": "Opposite face of 1?",
+            "hindi": "1 का विपरीत फलक?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "4",
+              "hindi": "4"
+            },
+            {
+              "english": "6",
+              "hindi": "6"
+            },
+            {
+              "english": "2",
+              "hindi": "2"
+            },
+            {
+              "english": "5",
+              "hindi": "5"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [
+            "4",
+            "option a",
+            "a",
+            "चार",
+            "४"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In the first cube, 3 is on top, with 1 on one side and 6 on the other. In the second cube, 3 is still on top, but the side faces are 4 and 2. Since the top face 3 is unchanged, the second picture is a rotated view of the same cube. Matching the rotation shows that 1 changes to 4 and 6 changes to 2, so 1 and 4 are opposite faces. Therefore, the opposite face of 1 is 4.",
+            "hindi": "पहले घन में ऊपर 3 है, एक तरफ 1 है और दूसरी तरफ 6 है। दूसरे घन में भी ऊपर 3 ही है, लेकिन बगल के फलक 4 और 2 दिख रहे हैं। क्योंकि ऊपर वाला फलक 3 दोनों में समान है, इसलिए दूसरा चित्र उसी घन का घुमाया हुआ रूप है। घुमाव मिलाने पर 1 की जगह 4 आता है और 6 की जगह 2, इसलिए 1 और 4 एक-दूसरे के विपरीत फलक हैं। अतः 1 का विपरीत फलक 4 है।"
+          },
+          "supportExample": {
+            "english": "If one face stays fixed, a rotated view helps identify which side faces are opposite.",
+            "hindi": "यदि एक फलक वही रहे, तो घुमाए गए दृश्य से विपरीत फलक पहचाने जा सकते हैं।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In the first cube, 3 is on top, with 1 on one side and 6 on the other. In the second cube, 3 is still on top, but the side faces are 4 and 2. Since the top face 3 is unchanged, the second picture is a rotated view of the same cube. Matching the rotation shows that 1 changes to 4 and 6 changes to 2, so 1 and 4 are opposite faces. Therefore, the opposite face of 1 is 4.",
+              "hindi": "पहले घन में ऊपर 3 है, एक तरफ 1 है और दूसरी तरफ 6 है। दूसरे घन में भी ऊपर 3 ही है, लेकिन बगल के फलक 4 और 2 दिख रहे हैं। क्योंकि ऊपर वाला फलक 3 दोनों में समान है, इसलिए दूसरा चित्र उसी घन का घुमाया हुआ रूप है। घुमाव मिलाने पर 1 की जगह 4 आता है और 6 की जगह 2, इसलिए 1 और 4 एक-दूसरे के विपरीत फलक हैं। अतः 1 का विपरीत फलक 4 है।"
+            }
+          ],
+          "questionImageAsset": "dice1_q02.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice and Cube",
+          "hindi": "डाइस और क्यूब"
+        },
+        {
+          "english": "Question 02",
+          "hindi": "प्रश्न 02"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    }
+  ]
+}
