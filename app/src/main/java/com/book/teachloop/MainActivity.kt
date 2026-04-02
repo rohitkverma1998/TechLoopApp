@@ -616,7 +616,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun renderHeader(report: ReportSummary) {
-        binding.appTitleText.text = ui("TeachLoop", "à¤Ÿà¥€à¤šà¤²à¥‚à¤ª")
+        binding.appTitleText.text = ui("Verbal_Reasoning_Rashmi", "Verbal_Reasoning_Rashmi")
         binding.bookTitleText.text = book.bookTitle.display(appState.language)
         binding.bookLabelText.text = ui("Book pack", "à¤¬à¥à¤• à¤ªà¥ˆà¤•")
         binding.languageLabelText.text = ui("Language", "à¤­à¤¾à¤·à¤¾")
@@ -2032,7 +2032,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         startActivity(
             Intent(Intent.ACTION_SEND).apply {
                 type = "text/plain"
-                putExtra(Intent.EXTRA_SUBJECT, "TeachLoop progress summary")
+                putExtra(Intent.EXTRA_SUBJECT, "Verbal_Reasoning_Rashmi progress summary")
                 putExtra(Intent.EXTRA_TEXT, summary)
             }
         )

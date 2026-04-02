@@ -8,11 +8,11 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.book.teachloop"
+        applicationId = "com.book.verbalreasoningrashmi"
         minSdk = 26
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 20260402
+        versionName = "2026.04.02-rashmi"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 

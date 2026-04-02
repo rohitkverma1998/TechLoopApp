@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TechLoopApp"
+rootProject.name = "Verbal_Reasoning_Rashmi"
 include(":app")
