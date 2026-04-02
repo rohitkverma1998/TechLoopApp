@@ -4,6 +4,7 @@ import java.time.Instant
 import java.time.LocalDate
 import java.time.ZoneId
 import kotlin.math.max
+import kotlin.math.roundToInt
 
 class LessonEngine(
     private val book: StudyBook,
@@ -607,6 +608,7 @@ object StudyPlanner {
         mistakeType: MistakeType?,
         timeSpentMillis: Long,
         now: Long,
+        starSettings: StarSettings = StarSettings(),
     ): StudentProfile {
         val existing = profile.topicProgress[topic.id] ?: TopicProgress(topicId = topic.id)
         val updatedMistakeCounts = if (!correct && mistakeType != null) {
@@ -628,7 +630,7 @@ object StudyPlanner {
             }
             val firstAttemptWasCorrect = existing.totalAttempts == 0 && existing.wrongAnswers == 0
             val topicStars = if (firstAttemptWasCorrect) {
-                max(existing.starsEarned, difficulty.starValue)
+                max(existing.starsEarned, starSettings.correctStars.coerceAtLeast(0f).roundToInt().coerceAtLeast(1))
             } else {
                 existing.starsEarned
             }
@@ -666,7 +668,7 @@ object StudyPlanner {
         val updatedMap = profile.topicProgress.toMutableMap()
         updatedMap[topic.id] = updatedProgress
         val baseStars = updatedMap.values.sumOf { it.starsEarned }
-        val revisionBonus = if (correct && mode == StudyMode.REVISION) 1 else 0
+        val revisionBonus = if (correct && mode == StudyMode.REVISION) starSettings.revisionBonus.coerceAtLeast(0f).roundToInt() else 0
         val isWrongFirstAttempt = !correct && existing.totalAttempts == 0
         val streakDays = updatedStreak(profile, now)
         val revisionRewards = profile.revisionRewardCount + revisionBonus
@@ -686,7 +688,7 @@ object StudyPlanner {
 
         return profile.copy(
             totalStars = baseStars + revisionBonus,
-            starPenaltyQuarters = profile.starPenaltyQuarters + if (isWrongFirstAttempt) 1 else 0,
+            starPenaltyQuarters = profile.starPenaltyQuarters + if (isWrongFirstAttempt) (starSettings.wrongPenalty.coerceAtLeast(0f) * 4).roundToInt() else 0,
             topicProgress = updatedMap,
             badges = badges,
             chapterTrophies = chapterTrophies,

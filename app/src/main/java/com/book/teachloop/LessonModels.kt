@@ -235,6 +235,12 @@ data class SessionSnapshot(
     val lastMistakeType: MistakeType? = null,
 )
 
+data class StarSettings(
+    val correctStars: Float = 1f,    // stars awarded for first-try correct answer (can be decimal)
+    val wrongPenalty: Float = 0.25f, // stars deducted for first wrong attempt (can be decimal, e.g. 0.25, 0.5)
+    val revisionBonus: Float = 1f,   // bonus stars awarded for correct answer in revision mode
+)
+
 data class AppSnapshot(
     val selectedBookId: String = LessonRepository.BOOK_ID,
     val selectedProfileId: String = DEFAULT_PROFILE_ID,
@@ -244,6 +250,7 @@ data class AppSnapshot(
     val profiles: List<StudentProfile> = listOf(defaultProfile()),
     val teacherPin: String = "",
     val teacherModeUnlocked: Boolean = false,
+    val starSettings: StarSettings = StarSettings(),
     val session: SessionSnapshot = SessionSnapshot(),
 ) {
     companion object {

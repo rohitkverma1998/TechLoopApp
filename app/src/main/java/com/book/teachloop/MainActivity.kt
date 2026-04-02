@@ -319,6 +319,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         binding.feedbackActionButton.setOnClickListener { openQuestionSolution() }
         binding.teacherModeButton.setOnClickListener { handleTeacherModeTap() }
         binding.teacherAssignmentsButton.setOnClickListener { showAssignmentsDialog() }
+        binding.starSettingsButton.setOnClickListener { showStarSettingsDialog() }
         binding.teacherWeakTopicsButton.setOnClickListener { showWeakTopicsDialog() }
         binding.teacherExportButton.setOnClickListener { exportTeacherSummary() }
         binding.teacherLockButton.setOnClickListener {
@@ -472,6 +473,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             mistakeType = result.mistakeType,
             timeSpentMillis = (now - engine.currentTopicStartedAt()).coerceAtLeast(0L),
             now = now,
+            starSettings = appState.starSettings,
         )
         replaceSelectedProfile(updatedProfile)
 
@@ -795,7 +797,13 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 "à¤•à¤®à¤œà¥‹à¤° à¤µà¤¿à¤·à¤¯: ${report.weakTopics} | à¤¦à¥‡à¤¯ à¤ªà¥à¤¨à¤°à¤¾à¤µà¥ƒà¤¤à¥à¤¤à¤¿: ${report.dueRevisionTopics}",
             ),
         ).joinToString("\n\n")
-        binding.teacherAssignmentsButton.text = ui("Assign chapters", "à¤…à¤§à¥à¤¯à¤¾à¤¯ à¤¸à¥Œà¤‚à¤ªà¥‡à¤‚")
+        binding.teacherAssignmentsButton.text = ui("Assign chapters", "अध्याय सौंपें")
+        val ss = appState.starSettings
+        fun Float.fmt() = if (this == toLong().toFloat()) toLong().toString() else toString()
+        binding.starSettingsButton.text = ui(
+            "Star settings  ✓${ss.correctStars.fmt()}  ✗−${ss.wrongPenalty.fmt()}  ↺+${ss.revisionBonus.fmt()}",
+            "सितारा सेटिंग्स  ✓${ss.correctStars.fmt()}  ✗−${ss.wrongPenalty.fmt()}  ↺+${ss.revisionBonus.fmt()}",
+        )
         binding.teacherWeakTopicsButton.text = ui("View weak topics", "à¤•à¤®à¤œà¥‹à¤° à¤µà¤¿à¤·à¤¯ à¤¦à¥‡à¤–à¥‡à¤‚")
         binding.teacherExportButton.text = ui("Export summary", "à¤¸à¤¾à¤°à¤¾à¤‚à¤¶ à¤­à¥‡à¤œà¥‡à¤‚")
         binding.resetProgressButton.text = ui("Reset child progress", "à¤¬à¤šà¥à¤šà¥‡ à¤•à¥€ à¤ªà¥à¤°à¤—à¤¤à¤¿ à¤°à¥€à¤¸à¥‡à¤Ÿ à¤•à¤°à¥‡à¤‚")
@@ -1936,6 +1944,62 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             .show()
     }
 
+    private fun showStarSettingsDialog() {
+        val current = appState.starSettings
+
+        val container = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            setPadding(72, 32, 72, 8)
+        }
+
+        fun addField(label: String, currentValue: Float): EditText {
+            container.addView(TextView(this).apply {
+                text = label
+                textSize = 14f
+                setPadding(0, 16, 0, 4)
+            })
+            return EditText(this).apply {
+                val display = if (currentValue == currentValue.toLong().toFloat()) currentValue.toLong().toString() else currentValue.toString()
+                setText(display)
+                inputType = InputType.TYPE_CLASS_NUMBER or InputType.TYPE_NUMBER_FLAG_DECIMAL
+            }.also { container.addView(it) }
+        }
+
+        val correctInput = addField(
+            ui("Stars for correct answer (e.g. 1, 2, 3)", "सही उत्तर पर सितारे (जैसे 1, 2, 3)"),
+            current.correctStars,
+        )
+        val penaltyInput = addField(
+            ui("Stars deducted for wrong answer (e.g. 0, 0.25, 0.5, 1)", "गलत उत्तर पर कटौती (जैसे 0, 0.25, 0.5, 1)"),
+            current.wrongPenalty,
+        )
+        val revisionInput = addField(
+            ui("Bonus stars for revision answer (e.g. 0, 1, 2)", "पुनरावृत्ति बोनस सितारे (जैसे 0, 1, 2)"),
+            current.revisionBonus,
+        )
+
+        AlertDialog.Builder(this)
+            .setTitle(ui("Star settings", "सितारा सेटिंग्स"))
+            .setView(container)
+            .setPositiveButton(ui("Save", "सहेजें")) { _, _ ->
+                val newCorrect = correctInput.text.toString().toFloatOrNull()?.coerceAtLeast(0f) ?: current.correctStars
+                val newPenalty = penaltyInput.text.toString().toFloatOrNull()?.coerceAtLeast(0f) ?: current.wrongPenalty
+                val newRevision = revisionInput.text.toString().toFloatOrNull()?.coerceAtLeast(0f) ?: current.revisionBonus
+                appState = appState.copy(
+                    starSettings = StarSettings(
+                        correctStars = newCorrect,
+                        wrongPenalty = newPenalty,
+                        revisionBonus = newRevision,
+                    )
+                )
+                progressStore.save(appState)
+                latestStatusMessage = ui("Star settings saved.", "सितारा सेटिंग्स सहेजी गईं।")
+                render()
+            }
+            .setNegativeButton(ui("Cancel", "रद्द करें"), null)
+            .show()
+    }
+
     private fun showWeakTopicsDialog() {
         val weakTopics = StudyPlanner.buildReport(book, selectedProfile(), System.currentTimeMillis()).weakTopicTitles
         val body = if (weakTopics.isEmpty()) {
@@ -2298,6 +2362,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             profiles = profiles,
             teacherPin = (snapshot.teacherPin as? String).orEmpty(),
             teacherModeUnlocked = snapshot.teacherModeUnlocked,
+            starSettings = (snapshot.starSettings as? StarSettings) ?: StarSettings(),
             session = normalizedSession,
         )
     }
