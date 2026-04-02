@@ -107,6 +107,7 @@ class LessonEngine(
 
         val baseIndex = session.questionIndex % topic.questions.size
         val baseQuestion = topic.questions[baseIndex]
+        val presentation = QuestionOptionSupport.present(baseQuestion)
         val strippedTopicContent =
             topic.explanationParagraphs.isEmpty() &&
                 topic.examples.isEmpty() &&
@@ -129,28 +130,27 @@ class LessonEngine(
             )
         }
 
-        val correctText = when (baseQuestion.type) {
+        val solutionAnswer = presentation?.solutionAnswer ?: when (baseQuestion.type) {
             QuestionType.MULTIPLE_CHOICE -> {
-                baseQuestion.options[baseQuestion.correctOptionIndex ?: 0].english
+                baseQuestion.options.getOrNull(baseQuestion.correctOptionIndex ?: 0) ?: text("")
             }
 
             QuestionType.TEXT_INPUT -> {
-                baseQuestion.acceptedAnswers.firstOrNull().orEmpty()
+                val fallbackAnswer = baseQuestion.acceptedAnswers.firstOrNull().orEmpty()
+                text(fallbackAnswer, fallbackAnswer)
             }
         }
+        val correctText = solutionAnswer.english.ifBlank { solutionAnswer.hindi }
 
         return when (difficulty) {
             Difficulty.EASY -> RenderedQuestion(
                 id = "${baseQuestion.id}_easy",
                 prompt = baseQuestion.prompt,
-                type = baseQuestion.type,
-                options = baseQuestion.options,
-                correctOptionIndex = baseQuestion.correctOptionIndex,
+                type = presentation?.type ?: baseQuestion.type,
+                options = presentation?.options ?: baseQuestion.options,
+                correctOptionIndex = presentation?.correctOptionIndex ?: baseQuestion.correctOptionIndex,
                 acceptedAnswers = baseQuestion.acceptedAnswers,
-                solutionAnswer = when (baseQuestion.type) {
-                    QuestionType.MULTIPLE_CHOICE -> baseQuestion.options[baseQuestion.correctOptionIndex ?: 0]
-                    QuestionType.TEXT_INPUT -> text(correctText, correctText)
-                },
+                solutionAnswer = solutionAnswer,
                 hint = baseQuestion.hint,
                 wrongReason = wrongReason,
                 supportExample = supportExample,
@@ -166,14 +166,11 @@ class LessonEngine(
                     english = "${baseQuestion.prompt.english} Solve it carefully and say the pattern to yourself.",
                     hindi = "${baseQuestion.prompt.hindi} इसे ध्यान से हल कीजिए और पैटर्न मन में बोलिए।",
                 ),
-                type = baseQuestion.type,
-                options = baseQuestion.options,
-                correctOptionIndex = baseQuestion.correctOptionIndex,
+                type = presentation?.type ?: baseQuestion.type,
+                options = presentation?.options ?: baseQuestion.options,
+                correctOptionIndex = presentation?.correctOptionIndex ?: baseQuestion.correctOptionIndex,
                 acceptedAnswers = baseQuestion.acceptedAnswers,
-                solutionAnswer = when (baseQuestion.type) {
-                    QuestionType.MULTIPLE_CHOICE -> baseQuestion.options[baseQuestion.correctOptionIndex ?: 0]
-                    QuestionType.TEXT_INPUT -> text(correctText, correctText)
-                },
+                solutionAnswer = solutionAnswer,
                 hint = if (baseQuestion.hint != null) {
                     baseQuestion.hint
                 } else if (strippedTopicContent) {
@@ -211,7 +208,7 @@ class LessonEngine(
                 },
                 type = QuestionType.TEXT_INPUT,
                 acceptedAnswers = (listOf(correctText) + baseQuestion.acceptedAnswers).distinct(),
-                solutionAnswer = text(correctText, correctText),
+                solutionAnswer = solutionAnswer,
                 hint = null,
                 wrongReason = wrongReason,
                 supportExample = supportExample,
