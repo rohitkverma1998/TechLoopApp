@@ -650,8 +650,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "An angle is made when two arms meet at one common point.",
+              "hindi": "कोण तब बनता है जब दो भुजाएँ एक ही बिंदु पर मिलती हैं।"
+            },
+            {
+              "english": "Step 1: Look at (a). Two rays meeting at a common endpoint make an angle. So (a) is correct.\nStep 2: Look at (c). Two line segments meeting at a point also show the shape of an angle in a simple classroom drawing. So (c) is also correct.\nStep 3: Look at (b). A straight line with no endpoint does not make an angle.\nStep 4: Look at (d). A circle is not an angle.",
+              "hindi": "चरण 1: (a) को देखें। एक उभयनिष्ठ बिंदु पर मिलती दो किरणें कोण बनाती हैं। इसलिए (a) सही है।\nचरण 2: (c) को देखें। एक बिंदु पर मिलते दो रेखाखंड भी सरल कक्षा-चित्र में कोण का आकार दिखाते हैं। इसलिए (c) भी सही है।\nचरण 3: (b) को देखें। बिना सिरे वाली सीधी रेखा कोण नहीं बनाती।\nचरण 4: (d) को देखें। एक वृत्त कोण नहीं होता।"
+            },
+            {
+              "english": "So the correct choice is (a) and (c).",
+              "hindi": "इसलिए सही विकल्प (a) और (c) है।"
+            },
+            {
+              "english": "Final answer: A. (a) and (c)",
+              "hindi": "Final answer: A. (a) और (c)"
+            }
+          ],
           "questionImageAsset": "ex70_q01.png"
         }
       ],
@@ -716,8 +736,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To name an angle, we write three letters and keep the vertex letter in the middle. Then we name the vertex and the two arms step by step.",
+              "hindi": "किसी कोण का नाम लिखते समय हम तीन अक्षर लिखते हैं और बीच में शीर्ष का अक्षर आता है। फिर हम उसका शीर्ष और उसकी दो भुजाएँ लिखते हैं।"
+            },
+            {
+              "english": "(a) The angle is ∠PRQ.\nVertex: R\nArms: RP and RQ",
+              "hindi": "(a) कोण है ∠PRQ।\nशीर्ष: R\nभुजाएँ: RP और RQ"
+            },
+            {
+              "english": "(b) The angle is ∠DCE.\nVertex: C\nArms: CD and CE",
+              "hindi": "(b) कोण है ∠DCE।\nशीर्ष: C\nभुजाएँ: CD और CE"
+            },
+            {
+              "english": "(c) The angle is ∠PQR.\nVertex: Q\nArms: QP and QR",
+              "hindi": "(c) कोण है ∠PQR।\nशीर्ष: Q\nभुजाएँ: QP और QR"
+            },
+            {
+              "english": "(d) The angle is ∠LMN.\nVertex: M\nArms: ML and MN",
+              "hindi": "(d) कोण है ∠LMN।\nशीर्ष: M\nभुजाएँ: ML और MN"
+            },
+            {
+              "english": "Final answer: (a) ∠PRQ; Vertex: R; Arms: RP, RQ (b) ∠DCE; Vertex: C; Arms: CD, CE (c) ∠PQR; Vertex: Q; Arms: QP, QR (d) ∠LMN; Vertex: M; Arms: ML, MN",
+              "hindi": "अंतिम उत्तर: (a) ∠PRQ; Vertex: R; Arms: RP, RQ (b) ∠DCE; Vertex: C; Arms: CD, CE (c) ∠PQR; Vertex: Q; Arms: QP, QR (d) ∠LMN; Vertex: M; Arms: ML, MN"
+            }
+          ],
           "questionImageAsset": "ex70_q01.png"
         }
       ],
@@ -782,8 +830,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "At vertex A, the question already names the angles formed:\n1. ∠OAB\n2. ∠BAC\n3. ∠OAC",
+              "hindi": "शीर्ष A पर प्रश्न में पहले से बने हुए कोण दिए गए हैं:\n1. ∠OAB\n2. ∠BAC\n3. ∠OAC"
+            },
+            {
+              "english": "Now count them:\nThere are 3 angles in total.",
+              "hindi": "अब इन्हें गिनते हैं:\nकुल 3 कोण हैं।"
+            },
+            {
+              "english": "Final answer: 3 angles.",
+              "hindi": "Final answer: 3 angles."
+            }
+          ],
           "questionImageAsset": "ex70_q01.png"
         }
       ],
@@ -848,8 +912,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In triangle ABC, there are 3 angles because a triangle always has 3 corners.",
+              "hindi": "त्रिभुज ABC में 3 कोण होते हैं, क्योंकि हर त्रिभुज के 3 कोने होते हैं।"
+            },
+            {
+              "english": "Step 1: Look at corner A. The angle at A is named ∠BAC.\nStep 2: Look at corner B. The angle at B is named ∠ABC.\nStep 3: Look at corner C. The angle at C is named ∠BCA.",
+              "hindi": "चरण 1: A वाले कोने का कोण ∠BAC कहलाता है।\nचरण 2: B वाले कोने का कोण ∠ABC कहलाता है।\nचरण 3: C वाले कोने का कोण ∠BCA कहलाता है।"
+            },
+            {
+              "english": "So, all the angles in triangle ABC are ∠BAC, ∠ABC, and ∠BCA.",
+              "hindi": "इसलिए, त्रिभुज ABC के सभी कोण ∠BAC, ∠ABC, और ∠BCA हैं।"
+            },
+            {
+              "english": "Final answer: ∠BAC, ∠ABC, and ∠BCA.",
+              "hindi": "अंतिम उत्तर: ∠BAC, ∠ABC, और ∠BCA।"
+            }
+          ],
           "questionImageAsset": "ex70_q01.png"
         }
       ],
@@ -914,8 +998,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the points on the angle, look for the points that lie exactly on the two arms of the angle or at the corner point (vertex).",
+              "hindi": "कोण पर स्थित बिंदु ढूंढने के लिए हम उन बिंदुओं को देखते हैं जो कोण की दोनों भुजाओं पर या उसके कोने वाले बिंदु (शीर्ष) पर हों।"
+            },
+            {
+              "english": "Step 1: Identify the angle and its sides.\nStep 2: Check which points are placed on the boundary of the angle.\nStep 3: In the figure, the points on the angle are M, P, O, D, and Q.",
+              "hindi": "चरण 1: कोण और उसकी भुजाओं को पहचानो।\nचरण 2: देखो कौन-कौन से बिंदु कोण की सीमा पर बने हैं।\nचरण 3: चित्र में M, P, O, D और Q कोण पर स्थित हैं।"
+            },
+            {
+              "english": "Final answer: M, P, O, D, Q.",
+              "hindi": "अंतिम उत्तर: M, P, O, D, Q।"
+            }
+          ],
           "questionImageAsset": "ex70_q01.png"
         }
       ],
@@ -979,8 +1079,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the points in the interior of an angle, look for the points that lie inside the opening of the angle. These points are between the two arms, not on the arms and not outside the angle.",
+              "hindi": "कोण के आंतरिक भाग के बिंदु ढूंढने के लिए हम उन बिंदुओं को देखते हैं जो कोण के खुलाव के अंदर हों। ये बिंदु दोनों भुजाओं के बीच होते हैं, भुजाओं पर नहीं और बाहर भी नहीं होते।"
+            },
+            {
+              "english": "Step 1: Identify the two arms of the angle.\nStep 2: Look at the space between the two arms.\nStep 3: The points lying inside this space are X, Y, A, and N.",
+              "hindi": "चरण 1: कोण की दोनों भुजाओं को पहचानो।\nचरण 2: दोनों भुजाओं के बीच वाले भाग को देखो।\nचरण 3: इस अंदर वाले भाग में X, Y, A और N बिंदु हैं।"
+            },
+            {
+              "english": "Final answer: X, Y, A, N.",
+              "hindi": "अंतिम उत्तर: X, Y, A, N।"
+            }
+          ],
           "questionImageAsset": "ex70_q01.png"
         }
       ],
@@ -1044,8 +1160,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step by step:\n1. The exterior of an angle means the part outside the two arms of the angle.\n2. We look at the figure and find the points that are outside the angle.\n3. The points outside the angle are Z and T.",
+              "hindi": "चरणबद्ध हल:\n1. कोण का exterior मतलब कोण की दोनों भुजाओं के बाहर वाला भाग होता है।\n2. अब चित्र में हम उन बिंदुओं को देखते हैं जो कोण के बाहर हैं।\n3. कोण के बाहर स्थित बिंदु Z और T हैं।"
+            },
+            {
+              "english": "Final answer: Z, T",
+              "hindi": "Final answer: Z, T"
+            }
+          ],
           "questionImageAsset": "ex70_q01.png"
         }
       ],
@@ -1113,8 +1241,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Look at angle PQR. The middle letter Q tells us that Q is the vertex.\nStep 2: Put the center of the protractor on point Q.\nStep 3: Keep the straight edge of the protractor along ray QR.\nStep 4: Read the number where ray QP meets the protractor scale.\nStep 5: The angle measures about 55 degrees.\nSo, angle PQR = 55°.\nThen type done.\nFinal answer: done",
+              "hindi": "चरण 1: कोण PQR को देखो। बीच का अक्षर Q बताता है कि Q इसका शीर्ष है।\nचरण 2: प्रोट्रैक्टर का केंद्र बिंदु Q पर रखो।\nचरण 3: प्रोट्रैक्टर की सीधी किनारी को भुजा QR के साथ मिलाओ।\nचरण 4: अब देखो कि दूसरी भुजा QP प्रोट्रैक्टर की स्केल को किस संख्या पर काटती है।\nचरण 5: यह कोण लगभग 55 डिग्री है।\nइसलिए, कोण PQR = 55°।\nफिर done टाइप करो।\nअंतिम उत्तर: done"
+            }
+          ],
           "questionImageAsset": "ex71_q01.png"
         }
       ],
@@ -1182,8 +1318,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Part (b) is angle LMN.\nStep 1: Look at point M. This is the corner of the angle.\nStep 2: Ray ML goes straight up.\nStep 3: Ray MN goes straight to the right.\nStep 4: These two rays make a square corner, so it is a right angle.\nStep 5: A right angle measures 90 degrees.\nSo, angle LMN = 90°.\nFinal answer: done",
+              "hindi": "भाग (b) में कोण LMN है।\nचरण 1: बिंदु M को देखो। यही कोण का कोना है।\nचरण 2: किरण ML सीधी ऊपर जा रही है।\nचरण 3: किरण MN सीधी दाईं ओर जा रही है।\nचरण 4: ये दोनों मिलकर चौकोर कोना बनाती हैं, इसलिए यह समकोण है।\nचरण 5: समकोण 90° का होता है।\nइसलिए, कोण LMN = 90°।\nअंतिम उत्तर: done"
+            }
+          ],
           "questionImageAsset": "ex71_q01.png"
         }
       ],
@@ -1251,8 +1395,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: In ∠XYZ, the middle letter Y is the vertex.\nStep 2: Put the center of the protractor on Y.\nStep 3: Match the 0° line with one arm of the angle.\nStep 4: Read the number where the other arm reaches.\nWe get 50°.\nSo, ∠XYZ = 50°.\nFinal answer: done",
+              "hindi": "चरण 1: ∠XYZ में बीच वाला अक्षर Y शीर्ष है।\nचरण 2: प्रोट्रैक्टर का केंद्र Y पर रखो।\nचरण 3: उसकी 0° रेखा को कोण की एक भुजा के साथ मिलाओ।\nचरण 4: दूसरी भुजा जहाँ स्केल पर मिलती है, वह संख्या पढ़ो।\nहमें 50° मिलता है।\nइसलिए, ∠XYZ = 50°.\nअंतिम उत्तर: done"
+            }
+          ],
           "questionImageAsset": "ex71_q01.png"
         }
       ],
@@ -1320,8 +1472,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Look at ∠DEF. The middle letter E tells us that E is the vertex.\nPlace the center of the protractor on E.\nKeep the 0° line along EF.\nNow read the number where ED meets the scale.\nIt comes to about 105°.\nSo, ∠DEF = 105°.\nFinal answer: done",
+              "hindi": "∠DEF को देखो। बीच का अक्षर E बताता है कि E शीर्ष है।\nप्रोट्रैक्टर का बीच वाला बिंदु E पर रखो।\nउसकी 0° वाली रेखा EF के साथ मिलाओ।\nअब देखो कि ED स्केल को कहाँ काटती है।\nयह लगभग 105° आता है।\nइसलिए, ∠DEF = 105°।\nअंतिम उत्तर: done"
+            }
+          ],
           "questionImageAsset": "ex71_q01.png"
         }
       ],
@@ -1389,8 +1549,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1. Put the center of the protractor on B, because B is the vertex of ∠ABC.\n2. Align the 0° line with BC.\n3. Read the number where BA meets the scale. It is about 128°.\n4. Since 128° is more than 90°, it is an obtuse angle.\nSo, ∠ABC = 128°.\nFinal answer: done",
+              "hindi": "1. प्रोट्रैक्टर का केंद्र B पर रखो, क्योंकि ∠ABC का शीर्ष B है।\n2. 0° वाली रेखा को BC के साथ मिलाओ।\n3. देखो कि BA स्केल पर कहाँ मिलती है। यह लगभग 128° है।\n4. चूँकि 128° 90° से बड़ा है, इसलिए यह अधिक कोण है।\nइसलिए, ∠ABC = 128°।\nअंतिम उत्तर: done"
+            }
+          ],
           "questionImageAsset": "ex71_q01.png"
         }
       ],
@@ -1458,8 +1626,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In angle RTS, the middle letter T shows that T is the vertex. Put the center of the protractor on T. Now keep the base line of the protractor along one arm, such as TS. Read the number where the other arm TR meets the scale. The angle measures about 70°.",
+              "hindi": "कोण RTS में बीच का अक्षर T है, इसलिए T इसका शीर्ष (vertex) है। प्रोट्रैक्टर का बीच वाला बिंदु T पर रखो। अब प्रोट्रैक्टर की सीधी आधार रेखा को एक भुजा, जैसे TS, के साथ मिलाओ। फिर देखो कि दूसरी भुजा TR स्केल पर कहाँ मिलती है। यह कोण लगभग 70° है।"
+            },
+            {
+              "english": "So, write in your notebook: ∠RTS = 70°.",
+              "hindi": "इसलिए अपनी कॉपी में लिखो: ∠RTS = 70°."
+            },
+            {
+              "english": "Final answer: done",
+              "hindi": "अंतिम उत्तर: done"
+            }
+          ],
           "questionImageAsset": "ex71_q01.png"
         }
       ],
@@ -1523,8 +1707,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 18.71.2(c)",
+              "hindi": "प्रश्न 18.71.2(c)"
+            },
+            {
+              "english": "Given angle = 102°",
+              "hindi": "दिया गया कोण = 102°"
+            },
+            {
+              "english": "Step 1: Compare 102° with 90°.\n102° is greater than 90°.",
+              "hindi": "चरण 1: 102° की तुलना 90° से करें।\n102°, 90° से बड़ा है।"
+            },
+            {
+              "english": "Step 2: Compare 102° with 180°.\n102° is less than 180°.",
+              "hindi": "चरण 2: 102° की तुलना 180° से करें।\n102°, 180° से छोटा है।"
+            },
+            {
+              "english": "Step 3: Use the angle rule.\nAn angle that is more than 90° but less than 180° is called an obtuse angle.",
+              "hindi": "चरण 3: नियम लगाएँ।\nजो कोण 90° से बड़ा और 180° से छोटा होता है, उसे अधिककोण कहते हैं।"
+            },
+            {
+              "english": "So, 102° is an obtuse angle.",
+              "hindi": "इसलिए, 102° एक अधिककोण है।"
+            },
+            {
+              "english": "Final answer: 102° is an obtuse angle.",
+              "hindi": "अंतिम उत्तर: 102° एक अधिककोण है।"
+            }
+          ],
           "questionImageAsset": "ex71_q02.png"
         }
       ],
@@ -1588,8 +1804,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 18.71.2(f)",
+              "hindi": "प्रश्न 18.71.2(f)"
+            },
+            {
+              "english": "Step 1: The given angle in part (f) measures 92°.",
+              "hindi": "चरण 1: भाग (f) में दिया गया कोण 92° है।"
+            },
+            {
+              "english": "Step 2: Remember:\n- Acute angle: less than 90°\n- Right angle: exactly 90°\n- Obtuse angle: more than 90° but less than 180°",
+              "hindi": "चरण 2: याद रखें:\n- न्यूनकोण: 90° से छोटा\n- समकोण: ठीक 90°\n- अधिककोण: 90° से बड़ा, लेकिन 180° से छोटा"
+            },
+            {
+              "english": "Step 3: Compare 92° with 90°.\nSince 92° is greater than 90°, it is not an acute angle and not a right angle.",
+              "hindi": "चरण 3: अब 92° की तुलना 90° से करें।\nक्योंकि 92° , 90° से बड़ा है, इसलिए यह न तो न्यूनकोण है और न ही समकोण।"
+            },
+            {
+              "english": "Step 4: So, 92° is an obtuse angle.",
+              "hindi": "चरण 4: इसलिए 92° एक अधिककोण है।"
+            },
+            {
+              "english": "Final answer: The angle is 92°, and it is an obtuse angle.",
+              "hindi": "अंतिम उत्तर: कोण 92° है, और यह अधिककोण है।"
+            }
+          ],
           "questionImageAsset": "ex71_q02.png"
         }
       ],
@@ -1653,8 +1897,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 18.71.2(a)",
+              "hindi": "प्रश्न 18.71.2(a)"
+            },
+            {
+              "english": "We are given the angle measure as 46°.",
+              "hindi": "हमें कोण का माप 46° दिया गया है।"
+            },
+            {
+              "english": "Step 1: Look at the angle measure.\nThe angle is 46°.",
+              "hindi": "चरण 1: कोण का माप देखिए।\nयह कोण 46° है।"
+            },
+            {
+              "english": "Step 2: Recall the types of angles.\n- Acute angle: less than 90°\n- Right angle: exactly 90°\n- Obtuse angle: more than 90° but less than 180°",
+              "hindi": "चरण 2: कोणों के प्रकार याद कीजिए।\n- न्यूनकोण: 90° से छोटा\n- समकोण: ठीक 90°\n- अधिककोण: 90° से बड़ा लेकिन 180° से छोटा"
+            },
+            {
+              "english": "Step 3: Compare 46° with 90°.\nSince 46° is less than 90°, it is an acute angle.",
+              "hindi": "चरण 3: 46° की तुलना 90° से कीजिए।\nक्योंकि 46° , 90° से छोटा है, इसलिए यह न्यूनकोण है।"
+            },
+            {
+              "english": "Final answer: 46° is an acute angle.",
+              "hindi": "अंतिम उत्तर: 46° एक न्यूनकोण है।"
+            }
+          ],
           "questionImageAsset": "ex71_q02.png"
         }
       ],
@@ -1718,8 +1990,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Part (b)",
+              "hindi": "भाग (b)"
+            },
+            {
+              "english": "Step 1: The angle measures 90°.\nStep 2: Remember:\n- Acute angle: less than 90°\n- Right angle: exactly 90°\n- Obtuse angle: more than 90°\nStep 3: Since this angle is exactly 90°, it is a right angle.",
+              "hindi": "चरण 1: इस कोण का माप 90° है।\nचरण 2: याद रखें:\n- न्यून कोण: 90° से छोटा\n- समकोण: ठीक 90°\n- अधिक कोण: 90° से बड़ा\nचरण 3: यह कोण ठीक 90° का है, इसलिए यह समकोण है।"
+            },
+            {
+              "english": "Final answer: Part (b) = 90°, so it is a right angle.",
+              "hindi": "अंतिम उत्तर: भाग (b) = 90°, इसलिए यह समकोण है।"
+            }
+          ],
           "questionImageAsset": "ex71_q02.png"
         }
       ],
@@ -1783,8 +2071,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 18.71.2(d)",
+              "hindi": "प्रश्न 18.71.2(d)"
+            },
+            {
+              "english": "Step 1: The angle in part (d) measures 88°.\nStep 2: An acute angle is less than 90°.\nStep 3: Since 88° is less than 90°, this angle is an acute angle.",
+              "hindi": "चरण 1: भाग (d) में कोण 88° है।\nचरण 2: जो कोण 90° से छोटा होता है, उसे न्यूनकोण (acute angle) कहते हैं।\nचरण 3: क्योंकि 88° , 90° से छोटा है, इसलिए यह न्यूनकोण है।"
+            },
+            {
+              "english": "Final answer: 88°, acute angle.",
+              "hindi": "Final answer: 88°, न्यूनकोण (Acute angle)।"
+            }
+          ],
           "questionImageAsset": "ex71_q02.png"
         }
       ],
@@ -1848,8 +2152,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": [],
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "For part (e), the angle measures 128°.",
+              "hindi": "भाग (e) में कोण का माप 128° है।"
+            },
+            {
+              "english": "Step 1: Look at the angle measure.\nThe given angle is 128°.",
+              "hindi": "चरण 1: दिए गए कोण को देखिए।\nयहाँ कोण 128° है।"
+            },
+            {
+              "english": "Step 2: Compare it with 90° and 180°.\n- Acute angle: less than 90°\n- Right angle: exactly 90°\n- Obtuse angle: more than 90° but less than 180°",
+              "hindi": "चरण 2: इसे 90° और 180° से तुलना कीजिए।\n- न्यून कोण: 90° से छोटा\n- समकोण: ठीक 90°\n- अधिक कोण: 90° से बड़ा लेकिन 180° से छोटा"
+            },
+            {
+              "english": "Step 3: Decide the type.\nSince 128° is more than 90° and less than 180°, it is an obtuse angle.",
+              "hindi": "चरण 3: कोण का प्रकार बताइए।\nक्योंकि 128° , 90° से बड़ा है और 180° से छोटा है, इसलिए यह अधिक कोण है।"
+            },
+            {
+              "english": "Final answer: 128° is an obtuse angle.",
+              "hindi": "अंतिम उत्तर: 128° एक अधिक कोण है।"
+            }
+          ],
           "questionImageAsset": "ex71_q02.png"
         }
       ],
@@ -1914,8 +2242,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 18.71.3",
+              "hindi": "प्रश्न 18.71.3"
+            },
+            {
+              "english": "Let us solve it step by step.",
+              "hindi": "इसे चरण दर चरण हल करते हैं।"
+            },
+            {
+              "english": "1. A complete turn around a point means one full circle.\n2. One full circle is equal to 360°.\n3. When we measure angles with a protractor:\n- an acute angle is less than 90°\n- a right angle is exactly 90°\n- an obtuse angle is more than 90° but less than 180°\n4. Using the measured angles, we fill the blanks as:\n(a) Acute\n(b) Right\n(c) Obtuse\n(d) Acute\n(e) Obtuse\n(f) Obtuse\n(g) Obtuse\n(h) Acute",
+              "hindi": "1. किसी बिंदु के चारों ओर एक पूरा चक्कर का मतलब एक पूरा वृत्त होता है।\n2. एक पूरा वृत्त 360° के बराबर होता है।\n3. प्रोट्रैक्टर से कोण नापते समय:\n- न्यून कोण 90° से छोटा होता है\n- समकोण ठीक 90° होता है\n- अधिक कोण 90° से बड़ा लेकिन 180° से छोटा होता है\n4. नापे गए कोणों के अनुसार रिक्त स्थान इस प्रकार भरेंगे:\n(a) Acute\n(b) Right\n(c) Obtuse\n(d) Acute\n(e) Obtuse\n(f) Obtuse\n(g) Obtuse\n(h) Acute"
+            },
+            {
+              "english": "Final answer: A complete turn around a point is equal to 360°. The blanks are (a) Acute, (b) Right, (c) Obtuse, (d) Acute, (e) Obtuse, (f) Obtuse, (g) Obtuse, (h) Acute.",
+              "hindi": "अंतिम उत्तर: किसी बिंदु के चारों ओर एक पूरा चक्कर 360° के बराबर होता है। रिक्त स्थान हैं: (a) Acute, (b) Right, (c) Obtuse, (d) Acute, (e) Obtuse, (f) Obtuse, (g) Obtuse, (h) Acute."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1978,8 +2326,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether two angles are complementary, we add them.",
+              "hindi": "यह जानने के लिए कि दो कोण complementary हैं या नहीं, हम उन्हें जोड़ते हैं।"
+            },
+            {
+              "english": "Given angles: 50° and 130°",
+              "hindi": "दिए गए कोण: 50° और 130°"
+            },
+            {
+              "english": "Step 1: Add the angles.\n50° + 130° = 180°",
+              "hindi": "चरण 1: दोनों कोणों को जोड़ें।\n50° + 130° = 180°"
+            },
+            {
+              "english": "Step 2: Recall the rule.\nComplementary angles always add up to 90°.",
+              "hindi": "चरण 2: नियम याद करें।\nComplementary कोणों का योग हमेशा 90° होता है।"
+            },
+            {
+              "english": "Step 3: Compare.\n180° is not equal to 90°.",
+              "hindi": "चरण 3: तुलना करें।\n180° , 90° के बराबर नहीं है।"
+            },
+            {
+              "english": "So, these two angles are not complementary.",
+              "hindi": "इसलिए, ये दोनों कोण complementary नहीं हैं।"
+            },
+            {
+              "english": "Final answer: No, 50° and 130° are not complementary angles.",
+              "hindi": "Final answer: No, 50° and 130° are not complementary angles."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2042,8 +2422,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Complementary angles are two angles whose sum is 90°.",
+              "hindi": "पूरक कोण वे दो कोण होते हैं जिनका योग 90° होता है।"
+            },
+            {
+              "english": "Step 1: Look at the given angles: 42° and 48°.\nStep 2: Add them: 42° + 48° = 90°.\nStep 3: Since the total is 90°, these two angles are complementary.",
+              "hindi": "चरण 1: दिए गए कोण हैं 42° और 48°।\nचरण 2: इन्हें जोड़ते हैं: 42° + 48° = 90°।\nचरण 3: क्योंकि योग 90° है, इसलिए ये दोनों कोण पूरक कोण हैं।"
+            },
+            {
+              "english": "Final answer: Yes, 42° and 48° are complementary angles.",
+              "hindi": "अंतिम उत्तर: हाँ, 42° और 48° पूरक कोण हैं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2106,8 +2502,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Complementary angles are two angles whose sum is 90°.",
+              "hindi": "पूरक कोण वे दो कोण होते हैं जिनका योग 90° होता है।"
+            },
+            {
+              "english": "Step 1: Add the two angles.\n36° + 64° = 100°",
+              "hindi": "चरण 1: दोनों कोणों को जोड़ते हैं।\n36° + 64° = 100°"
+            },
+            {
+              "english": "Step 2: Compare the sum with 90°.\n100° is not equal to 90°.",
+              "hindi": "चरण 2: योग की तुलना 90° से करते हैं।\n100° , 90° के बराबर नहीं है।"
+            },
+            {
+              "english": "So, these two angles are not complementary.",
+              "hindi": "इसलिए, ये दोनों कोण पूरक कोण नहीं हैं।"
+            },
+            {
+              "english": "Final answer: No, 36° and 64° are not complementary angles.",
+              "hindi": "Final answer: No, 36° and 64° are not complementary angles."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2170,8 +2590,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether two angles are complementary, we add them.",
+              "hindi": "यह जानने के लिए कि दो कोण complementary हैं या नहीं, हम उन्हें जोड़ते हैं।"
+            },
+            {
+              "english": "Complementary angles always have a sum of 90°.",
+              "hindi": "Complementary angles का योग हमेशा 90° होता है।"
+            },
+            {
+              "english": "Given angles: 20° and 70°",
+              "hindi": "दिए गए कोण: 20° और 70°"
+            },
+            {
+              "english": "Step 1: Add the two angles.\n20° + 70° = 90°",
+              "hindi": "चरण 1: दोनों कोणों को जोड़ें।\n20° + 70° = 90°"
+            },
+            {
+              "english": "Step 2: Compare with 90°.\nThe sum is 90°, so these angles are complementary.",
+              "hindi": "चरण 2: 90° से मिलाइए।\nयोग 90° है, इसलिए ये कोण complementary हैं।"
+            },
+            {
+              "english": "Final answer: Yes, 20° and 70° are complementary angles.",
+              "hindi": "अंतिम उत्तर: हाँ, 20° और 70° complementary angles हैं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2234,8 +2682,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check if two angles are complementary, add them.",
+              "hindi": "यह देखने के लिए कि दो कोण complementary हैं या नहीं, हम उन्हें जोड़ते हैं।"
+            },
+            {
+              "english": "Complementary angles always have a sum of 90°.",
+              "hindi": "Complementary angles का योग हमेशा 90° होता है।"
+            },
+            {
+              "english": "Here, the angles are 65° and 35°.",
+              "hindi": "यहाँ कोण हैं 65° और 35°।"
+            },
+            {
+              "english": "65° + 35° = 100°",
+              "hindi": "65° + 35° = 100°"
+            },
+            {
+              "english": "Since 100° is not equal to 90°, these two angles are not complementary.",
+              "hindi": "क्योंकि 100° , 90° के बराबर नहीं है, इसलिए ये दोनों कोण complementary नहीं हैं।"
+            },
+            {
+              "english": "Final answer: No, 65° and 35° are not complementary angles.",
+              "hindi": "Final answer: No, 65° and 35° are not complementary angles."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2298,8 +2774,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether two angles are complementary, we add them.",
+              "hindi": "यह जाँचने के लिए कि दो कोण complementary हैं या नहीं, हम उन्हें जोड़ते हैं।"
+            },
+            {
+              "english": "Complementary angles always have a sum of 90°.",
+              "hindi": "Complementary कोणों का योग हमेशा 90° होता है।"
+            },
+            {
+              "english": "Now add the given angles:\n115° + 65° = 180°",
+              "hindi": "अब दिए गए कोणों को जोड़ते हैं:\n115° + 65° = 180°"
+            },
+            {
+              "english": "Since 180° is not equal to 90°, these angles are not complementary.",
+              "hindi": "क्योंकि 180° , 90° के बराबर नहीं है, इसलिए ये कोण complementary नहीं हैं।"
+            },
+            {
+              "english": "Final answer: No, 115° and 65° are not complementary angles.",
+              "hindi": "Final answer: नहीं, 115° और 65° complementary कोण नहीं हैं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2362,8 +2862,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether two angles are complementary, we add them.",
+              "hindi": "यह जानने के लिए कि दो कोण complementary हैं या नहीं, हम उन्हें जोड़ते हैं।"
+            },
+            {
+              "english": "Step 1: Write the two angles.\n10° and 80°",
+              "hindi": "चरण 1: दिए गए कोण लिखिए।\n10° और 80°"
+            },
+            {
+              "english": "Step 2: Add them.\n10° + 80° = 90°",
+              "hindi": "चरण 2: इन्हें जोड़िए।\n10° + 80° = 90°"
+            },
+            {
+              "english": "Step 3: Use the rule.\nIf the sum of two angles is 90°, then they are complementary angles.",
+              "hindi": "चरण 3: नियम याद रखिए।\nयदि दो कोणों का योग 90° हो, तो वे complementary angles कहलाते हैं।"
+            },
+            {
+              "english": "Here, the sum is 90°, so these two angles are complementary.",
+              "hindi": "यहाँ योग 90° है, इसलिए ये दोनों कोण complementary हैं।"
+            },
+            {
+              "english": "Final answer: Yes, 10° and 80° are complementary angles.",
+              "hindi": "अंतिम उत्तर: हाँ, 10° और 80° complementary angles हैं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2426,8 +2954,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether two angles are complementary, we add them.",
+              "hindi": "यह जाँचने के लिए कि दो कोण पूरक हैं या नहीं, हम उन्हें जोड़ते हैं।"
+            },
+            {
+              "english": "Complementary angles are two angles whose sum is 90°.",
+              "hindi": "पूरक कोण वे दो कोण होते हैं जिनका योग 90° होता है।"
+            },
+            {
+              "english": "Here, the angles are:\n0° and 90°",
+              "hindi": "यहाँ कोण हैं:\n0° और 90°"
+            },
+            {
+              "english": "Step 1: Add the angles.\n0° + 90° = 90°",
+              "hindi": "चरण 1: कोणों को जोड़ें।\n0° + 90° = 90°"
+            },
+            {
+              "english": "Step 2: Compare the sum with 90°.\nThe sum is exactly 90°.",
+              "hindi": "चरण 2: योग की तुलना 90° से करें।\nयोग ठीक 90° है।"
+            },
+            {
+              "english": "So, these two angles are complementary.",
+              "hindi": "इसलिए, ये दोनों कोण पूरक हैं।"
+            },
+            {
+              "english": "Final answer: Yes, 0° and 90° are complementary angles.",
+              "hindi": "अंतिम उत्तर: हाँ, 0° और 90° पूरक कोण हैं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2490,8 +3050,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Supplementary angles are two angles whose sum is 180°.",
+              "hindi": "पूरक कोण वे दो कोण होते हैं जिनका योग 180° होता है।"
+            },
+            {
+              "english": "Step 1: Write the given angles.\n54° and 36°",
+              "hindi": "चरण 1: दिए गए कोण लिखिए।\n54° और 36°"
+            },
+            {
+              "english": "Step 2: Add them.\n54° + 36° = 90°",
+              "hindi": "चरण 2: इन्हें जोड़िए।\n54° + 36° = 90°"
+            },
+            {
+              "english": "Step 3: Compare with 180°.\n90° is not equal to 180°.",
+              "hindi": "चरण 3: 180° से तुलना कीजिए।\n90° , 180° के बराबर नहीं है।"
+            },
+            {
+              "english": "So, these two angles are not supplementary.",
+              "hindi": "इसलिए, ये दोनों कोण पूरक कोण नहीं हैं।"
+            },
+            {
+              "english": "Final answer: No, 54° and 36° are not supplementary angles.",
+              "hindi": "Final answer: No, 54° and 36° are not supplementary angles."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2554,8 +3142,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check if two angles are supplementary, we add them.",
+              "hindi": "यह जाँचने के लिए कि दो कोण supplementary हैं या नहीं, हम उन्हें जोड़ते हैं।"
+            },
+            {
+              "english": "Supplementary angles always have a sum of 180°.",
+              "hindi": "Supplementary कोणों का योग हमेशा 180° होता है।"
+            },
+            {
+              "english": "Given angles:\n72° and 108°",
+              "hindi": "दिए गए कोण:\n72° और 108°"
+            },
+            {
+              "english": "Step 1: Add the angles.\n72° + 108° = 180°",
+              "hindi": "चरण 1: कोणों को जोड़ें।\n72° + 108° = 180°"
+            },
+            {
+              "english": "Step 2: Compare with 180°.\nThe sum is 180°, so these angles are supplementary.",
+              "hindi": "चरण 2: 180° से मिलान करें।\nयोग 180° है, इसलिए ये कोण supplementary हैं।"
+            },
+            {
+              "english": "Final answer: Yes, 72° and 108° are supplementary angles.",
+              "hindi": "Final answer: Yes, 72° और 108° supplementary angles हैं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2618,8 +3234,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 18.71.5(c)",
+              "hindi": "Question 18.71.5(c)"
+            },
+            {
+              "english": "To check whether two angles are supplementary, we add them.",
+              "hindi": "यह जानने के लिए कि दो कोण supplementary हैं या नहीं, हम उन्हें जोड़ते हैं।"
+            },
+            {
+              "english": "Step 1: Write the angles.\n130° and 70°",
+              "hindi": "चरण 1: दिए गए कोण लिखें।\n130° और 70°"
+            },
+            {
+              "english": "Step 2: Add them.\n130° + 70° = 200°",
+              "hindi": "चरण 2: इन्हें जोड़ें।\n130° + 70° = 200°"
+            },
+            {
+              "english": "Step 3: Compare with 180°.\nSupplementary angles always add up to 180°.\nHere, 200° is not equal to 180°.",
+              "hindi": "चरण 3: 180° से तुलना करें।\nSupplementary कोणों का योग हमेशा 180° होता है।\nयहाँ 200°, 180° के बराबर नहीं है।"
+            },
+            {
+              "english": "So, these two angles are not supplementary.",
+              "hindi": "इसलिए, ये दोनों कोण supplementary नहीं हैं।"
+            },
+            {
+              "english": "Final answer: No.",
+              "hindi": "अंतिम उत्तर: नहीं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2682,8 +3330,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check if two angles are supplementary, we add them.",
+              "hindi": "यह जाँचने के लिए कि दो कोण सम्पूरक हैं या नहीं, हम उन्हें जोड़ते हैं।"
+            },
+            {
+              "english": "Step 1: Write the two angles.\n15° and 75°",
+              "hindi": "चरण 1: दोनों कोण लिखिए।\n15° और 75°"
+            },
+            {
+              "english": "Step 2: Add them.\n15° + 75° = 90°",
+              "hindi": "चरण 2: इन्हें जोड़िए।\n15° + 75° = 90°"
+            },
+            {
+              "english": "Step 3: Recall the rule.\nSupplementary angles always add up to 180°.",
+              "hindi": "चरण 3: नियम याद कीजिए।\nसम्पूरक कोणों का योग हमेशा 180° होता है।"
+            },
+            {
+              "english": "Step 4: Compare.\n90° is not equal to 180°.",
+              "hindi": "चरण 4: तुलना कीजिए।\n90° , 180° के बराबर नहीं है।"
+            },
+            {
+              "english": "So, 15° and 75° are not supplementary angles.",
+              "hindi": "इसलिए, 15° और 75° सम्पूरक कोण नहीं हैं।"
+            },
+            {
+              "english": "Final answer: No, 15° and 75° are not supplementary.",
+              "hindi": "अंतिम उत्तर: नहीं, 15° और 75° सम्पूरक कोण नहीं हैं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2746,8 +3426,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check if two angles are supplementary, add them.",
+              "hindi": "यह जाँचने के लिए कि दो कोण supplementary हैं या नहीं, हम उन्हें जोड़ते हैं।"
+            },
+            {
+              "english": "Step 1: Write the angles: 80° and 100°.\nStep 2: Add them: 80° + 100° = 180°.\nStep 3: Supplementary angles always add up to 180°.",
+              "hindi": "चरण 1: दिए गए कोण हैं 80° और 100°।\nचरण 2: इन्हें जोड़ें: 80° + 100° = 180°।\nचरण 3: Supplementary कोणों का योग हमेशा 180° होता है।"
+            },
+            {
+              "english": "Since the sum is 180°, these two angles are supplementary.",
+              "hindi": "क्योंकि इनका योग 180° है, इसलिए ये दोनों कोण supplementary हैं।"
+            },
+            {
+              "english": "Final answer: Yes, 80° and 100° are supplementary.",
+              "hindi": "Final answer: Yes, 80° and 100° are supplementary."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2810,8 +3510,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether two angles are supplementary, we add them.",
+              "hindi": "यह जाँचने के लिए कि दो कोण supplementary हैं या नहीं, हम उन्हें जोड़ते हैं।"
+            },
+            {
+              "english": "Supplementary angles always have a sum of 180°.",
+              "hindi": "Supplementary कोणों का योग हमेशा 180° होता है।"
+            },
+            {
+              "english": "Here, the angles are:\n20° and 70°",
+              "hindi": "यहाँ दिए गए कोण हैं:\n20° और 70°"
+            },
+            {
+              "english": "Now add them:\n20° + 70° = 90°",
+              "hindi": "अब इन्हें जोड़ते हैं:\n20° + 70° = 90°"
+            },
+            {
+              "english": "Since 90° is not equal to 180°, these angles are not supplementary.",
+              "hindi": "क्योंकि 90° , 180° के बराबर नहीं है, इसलिए ये कोण supplementary नहीं हैं।"
+            },
+            {
+              "english": "Final answer: No, 20° and 70° are not supplementary angles.",
+              "hindi": "Final answer: No, 20° and 70° are not supplementary angles."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2874,8 +3602,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 18.71.5(g)",
+              "hindi": "Question 18.71.5(g)"
+            },
+            {
+              "english": "We need to check whether the angles 40° and 140° are supplementary.",
+              "hindi": "हमें जाँचना है कि 40° और 140° पूरक कोण हैं या नहीं।"
+            },
+            {
+              "english": "Step 1: Recall the rule.\nTwo angles are supplementary if their sum is 180°.",
+              "hindi": "Step 1: नियम याद करें।\nदो कोण supplementary (पूरक) होते हैं, यदि उनका योग 180° हो।"
+            },
+            {
+              "english": "Step 2: Add the given angles.\n40° + 140° = 180°",
+              "hindi": "Step 2: दिए गए कोणों को जोड़ें।\n40° + 140° = 180°"
+            },
+            {
+              "english": "Step 3: Compare with 180°.\nThe sum is exactly 180°.",
+              "hindi": "Step 3: 180° से मिलाएँ।\nइनका योग ठीक 180° है।"
+            },
+            {
+              "english": "So, these two angles are supplementary.",
+              "hindi": "इसलिए, ये दोनों कोण supplementary (पूरक) हैं।"
+            },
+            {
+              "english": "Final answer: Yes, 40° and 140° are supplementary.",
+              "hindi": "Final answer: Yes, 40° and 140° are supplementary."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2938,8 +3698,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 18.71.5(h)",
+              "hindi": "Question 18.71.5(h)"
+            },
+            {
+              "english": "We need to check whether the angles 0° and 180° are supplementary.",
+              "hindi": "हमें देखना है कि 0° और 180° पूरक कोण हैं या नहीं।"
+            },
+            {
+              "english": "Step 1: Remember the rule.\nSupplementary angles are two angles whose sum is 180°.",
+              "hindi": "चरण 1: नियम याद करें।\nपूरक कोण वे दो कोण होते हैं जिनका योग 180° होता है।"
+            },
+            {
+              "english": "Step 2: Add the given angles.\n0° + 180° = 180°",
+              "hindi": "चरण 2: दिए गए कोणों को जोड़ें।\n0° + 180° = 180°"
+            },
+            {
+              "english": "Step 3: Compare with the rule.\nThe sum is 180°, so the two angles are supplementary.",
+              "hindi": "चरण 3: नियम से मिलाएँ।\nयोग 180° है, इसलिए ये दोनों कोण पूरक कोण हैं।"
+            },
+            {
+              "english": "Final answer: Yes, 0° and 180° are supplementary angles.",
+              "hindi": "Final answer: हाँ, 0° और 180° पूरक कोण हैं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3002,8 +3790,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the complement of an angle, we subtract it from 90°.",
+              "hindi": "किसी कोण का complementary angle निकालने के लिए हम उसे 90° में से घटाते हैं।"
+            },
+            {
+              "english": "Given angle = 43°",
+              "hindi": "दिया गया कोण = 43°"
+            },
+            {
+              "english": "Step 1: Write the formula\nComplement = 90° - angle",
+              "hindi": "चरण 1: सूत्र लिखें\nComplement = 90° - कोण"
+            },
+            {
+              "english": "Step 2: Substitute the angle\nComplement = 90° - 43°",
+              "hindi": "चरण 2: मान रखिए\nComplement = 90° - 43°"
+            },
+            {
+              "english": "Step 3: Subtract\nComplement = 47°",
+              "hindi": "चरण 3: घटाइए\nComplement = 47°"
+            },
+            {
+              "english": "Final answer: 47°",
+              "hindi": "अंतिम उत्तर: 47°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3066,8 +3882,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the complement of 56°, remember this rule:\nComplementary angles always add up to 90°.",
+              "hindi": "56° का पूरक कोण निकालने के लिए यह नियम याद रखें:\nपूरक कोणों का योग हमेशा 90° होता है।"
+            },
+            {
+              "english": "So, subtract 56° from 90°:\n90° - 56° = 34°",
+              "hindi": "इसलिए, 90° में से 56° घटाते हैं:\n90° - 56° = 34°"
+            },
+            {
+              "english": "Therefore, the complement of 56° is 34°.\nFinal answer: 34°",
+              "hindi": "अतः 56° का पूरक कोण 34° है।\nFinal answer: 34°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3130,8 +3962,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Complementary angles add up to 90°.",
+              "hindi": "पूरक कोणों का योग 90° होता है।"
+            },
+            {
+              "english": "Given angle = 72°",
+              "hindi": "दिया गया कोण = 72°"
+            },
+            {
+              "english": "Step 1: Write the formula.\nComplement = 90° - given angle",
+              "hindi": "चरण 1: सूत्र लिखें।\nपूरक कोण = 90° - दिया गया कोण"
+            },
+            {
+              "english": "Step 2: Put 72° in the formula.\nComplement = 90° - 72°",
+              "hindi": "चरण 2: सूत्र में 72° रखें।\nपूरक कोण = 90° - 72°"
+            },
+            {
+              "english": "Step 3: Subtract.\nComplement = 18°",
+              "hindi": "चरण 3: घटाएँ।\nपूरक कोण = 18°"
+            },
+            {
+              "english": "Final answer: 18°",
+              "hindi": "अंतिम उत्तर: 18°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3194,8 +4054,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the complement of an angle, we subtract it from 90°.",
+              "hindi": "Kisi kon ka complement nikalne ke liye usse 90° me se ghataate hain."
+            },
+            {
+              "english": "Given angle = 19°",
+              "hindi": "Diya gaya kon = 19°"
+            },
+            {
+              "english": "Step 1: Write the complement formula\nComplement = 90° - angle",
+              "hindi": "Step 1: Complement ka niyam likhen\nComplement = 90° - kon"
+            },
+            {
+              "english": "Step 2: Substitute the given angle\nComplement = 90° - 19°",
+              "hindi": "Step 2: Diya gaya kon rakhen\nComplement = 90° - 19°"
+            },
+            {
+              "english": "Step 3: Subtract\nComplement = 71°",
+              "hindi": "Step 3: Ghatana karein\nComplement = 71°"
+            },
+            {
+              "english": "Final answer: 71°",
+              "hindi": "Final answer: 71°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3258,8 +4146,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Complementary angles add up to 90°.",
+              "hindi": "पूरक कोणों का योग 90° होता है।"
+            },
+            {
+              "english": "Given angle = 27°",
+              "hindi": "दिया गया कोण = 27°"
+            },
+            {
+              "english": "Step 1: Write the formula:\nComplement = 90° - given angle",
+              "hindi": "चरण 1: सूत्र लिखें:\nपूरक कोण = 90° - दिया गया कोण"
+            },
+            {
+              "english": "Step 2: Substitute 27°:\nComplement = 90° - 27°",
+              "hindi": "चरण 2: 27° रखिए:\nपूरक कोण = 90° - 27°"
+            },
+            {
+              "english": "Step 3: Subtract:\nComplement = 63°",
+              "hindi": "चरण 3: घटाइए:\nपूरक कोण = 63°"
+            },
+            {
+              "english": "Final answer: 63°",
+              "hindi": "अंतिम उत्तर: 63°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3322,8 +4238,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Complementary angles add up to 90°.",
+              "hindi": "पूरक कोणों का योग 90° होता है।"
+            },
+            {
+              "english": "Given angle = 80°",
+              "hindi": "दिया गया कोण = 80°"
+            },
+            {
+              "english": "Step 1: Write the formula.\nComplement = 90° - given angle",
+              "hindi": "चरण 1: सूत्र लिखें।\nपूरक कोण = 90° - दिया गया कोण"
+            },
+            {
+              "english": "Step 2: Substitute 80°.\nComplement = 90° - 80°",
+              "hindi": "चरण 2: 80° रखिए।\nपूरक कोण = 90° - 80°"
+            },
+            {
+              "english": "Step 3: Subtract.\nComplement = 10°",
+              "hindi": "चरण 3: घटाइए।\nपूरक कोण = 10°"
+            },
+            {
+              "english": "Final answer: 10°",
+              "hindi": "अंतिम उत्तर: 10°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3386,8 +4330,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the complement of an angle, we subtract the angle from 90°.",
+              "hindi": "Kisi kon ka complementary angle nikalne ke liye hum use 90° me se ghataate hain."
+            },
+            {
+              "english": "Given angle = 45°\nComplement = 90° - 45°\nComplement = 45°",
+              "hindi": "Diya gaya kon = 45°\nComplement = 90° - 45°\nComplement = 45°"
+            },
+            {
+              "english": "Final answer: 45°",
+              "hindi": "Antim uttar: 45°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3450,8 +4410,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the complement of 85°, we remember:\nComplementary angles add up to 90°.",
+              "hindi": "85° का पूरक कोण निकालने के लिए हम याद रखते हैं:\nपूरक कोणों का योग 90° होता है।"
+            },
+            {
+              "english": "Step 1: Write the subtraction.\n90° - 85°",
+              "hindi": "चरण 1: घटाव लिखें।\n90° - 85°"
+            },
+            {
+              "english": "Step 2: Subtract.\n90° - 85° = 5°",
+              "hindi": "चरण 2: घटाएँ।\n90° - 85° = 5°"
+            },
+            {
+              "english": "So, the complement of 85° is 5°.",
+              "hindi": "इसलिए, 85° का पूरक कोण 5° है।"
+            },
+            {
+              "english": "Final answer: 5°",
+              "hindi": "Final answer: 5°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3514,8 +4498,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the supplement of 30°, use this rule:\nSupplementary angles add up to 180°.",
+              "hindi": "30° का supplement निकालने के लिए यह नियम याद रखें:\nSupplementary angles का योग 180° होता है।"
+            },
+            {
+              "english": "So, subtract 30° from 180°:\n180° - 30° = 150°",
+              "hindi": "अब 180° में से 30° घटाइए:\n180° - 30° = 150°"
+            },
+            {
+              "english": "Therefore, the supplement of 30° is 150°.\nFinal answer: 150°",
+              "hindi": "इसलिए, 30° का supplement 150° है।\nअंतिम उत्तर: 150°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3578,8 +4578,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Supplementary angles add up to 180°.",
+              "hindi": "संपूरक कोणों का योग 180° होता है।"
+            },
+            {
+              "english": "Given angle = 47°\nSupplement = 180° - 47°\n= 133°",
+              "hindi": "दिया गया कोण = 47°\nसंपूरक कोण = 180° - 47°\n= 133°"
+            },
+            {
+              "english": "Final answer: 133°",
+              "hindi": "अंतिम उत्तर: 133°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3642,8 +4658,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Supplementary angles add up to 180°.",
+              "hindi": "पूरक कोणों का योग 180° होता है।"
+            },
+            {
+              "english": "Given angle = 70°",
+              "hindi": "दिया गया कोण = 70°"
+            },
+            {
+              "english": "Step 1: Write the formula.\nSupplement = 180° - given angle",
+              "hindi": "चरण 1: सूत्र लिखिए।\nपूरक कोण = 180° - दिया गया कोण"
+            },
+            {
+              "english": "Step 2: Substitute the angle.\nSupplement = 180° - 70°",
+              "hindi": "चरण 2: मान रखिए।\nपूरक कोण = 180° - 70°"
+            },
+            {
+              "english": "Step 3: Subtract.\nSupplement = 110°",
+              "hindi": "चरण 3: घटाइए।\nपूरक कोण = 110°"
+            },
+            {
+              "english": "Final answer: 110°",
+              "hindi": "अंतिम उत्तर: 110°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3706,8 +4750,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the supplement of an angle, we subtract it from 180°.",
+              "hindi": "किसी कोण का supplement निकालने के लिए हम उसे 180° में से घटाते हैं।"
+            },
+            {
+              "english": "Given angle = 15°\nSupplement = 180° - 15°\nSupplement = 165°",
+              "hindi": "दिया गया कोण = 15°\nSupplement = 180° - 15°\nSupplement = 165°"
+            },
+            {
+              "english": "Final answer: 165°",
+              "hindi": "अंतिम उत्तर: 165°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3770,8 +4830,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Supplementary angles add up to 180°.",
+              "hindi": "सम्पूरक कोणों का योग 180° होता है।"
+            },
+            {
+              "english": "Given angle = 90°\nSo, its supplement = 180° - 90° = 90°",
+              "hindi": "दिया गया कोण = 90°\nअतः इसका सम्पूरक = 180° - 90° = 90°"
+            },
+            {
+              "english": "Final answer: 90°",
+              "hindi": "अंतिम उत्तर: 90°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3834,8 +4910,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the supplement of an angle, we use this rule:\nSupplementary angles add up to 180°.",
+              "hindi": "Kisi kon ka supplement nikalne ke liye hum yeh niyam use karte hain:\nSupplementary angles ka yog 180° hota hai."
+            },
+            {
+              "english": "Given angle = 103°\nSo, its supplement = 180° - 103°\n= 77°",
+              "hindi": "Diya gaya kon = 103°\nIska supplement = 180° - 103°\n= 77°"
+            },
+            {
+              "english": "Final answer: 77°",
+              "hindi": "Final answer: 77°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3898,8 +4990,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the supplement of an angle, we subtract the angle from 180°.",
+              "hindi": "किसी कोण का supplement निकालने के लिए हम उसे 180° में से घटाते हैं।"
+            },
+            {
+              "english": "Given angle = 84°\nSupplement = 180° - 84°\nSupplement = 96°",
+              "hindi": "दिया गया कोण = 84°\nSupplement = 180° - 84°\nSupplement = 96°"
+            },
+            {
+              "english": "So, the supplement of 84° is 96°.\nFinal answer: 96°",
+              "hindi": "इसलिए, 84° का supplement 96° है।\nअंतिम उत्तर: 96°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3962,8 +5070,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the supplement of 137°, use this rule:",
+              "hindi": "137° का supplement निकालने के लिए यह नियम याद रखें:"
+            },
+            {
+              "english": "Supplementary angles add up to 180°.",
+              "hindi": "Supplementary angles का योग 180° होता है।"
+            },
+            {
+              "english": "So,\n180° - 137° = 43°",
+              "hindi": "इसलिए,\n180° - 137° = 43°"
+            },
+            {
+              "english": "Therefore, the supplement of 137° is 43°.",
+              "hindi": "अतः 137° का supplement 43° है।"
+            },
+            {
+              "english": "Final answer: 43°",
+              "hindi": "अंतिम उत्तर: 43°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4026,8 +5158,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: An angle is made when two rays meet.\nStep 2: These two rays have one common end point.\nStep 3: The common end point of an angle is called its vertex.\nSo, the blank should be filled with \"vertex\".\nFinal answer: vertex",
+              "hindi": "चरण 1: जब दो किरणें मिलकर एक कोण बनाती हैं, तो उनका एक सिरा समान होता है।\nचरण 2: कोण के इस समान अंतिम बिंदु को vertex कहा जाता है।\nचरण 3: इसलिए रिक्त स्थान में \"vertex\" आएगा।\nअंतिम उत्तर: vertex"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4090,8 +5230,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We read the sentence: \"Angles are measured in ____.\"",
+              "hindi": "हम वाक्य पढ़ते हैं: \"Angles are measured in ____.\""
+            },
+            {
+              "english": "Step 1: An angle tells us how much something turns.\nStep 2: The standard unit used to measure angles is degrees.\nStep 3: So the blank should be filled with \"degrees.\"",
+              "hindi": "चरण 1: कोण बताता है कि कोई रेखा या चीज कितनी मुड़ी है।\nचरण 2: कोण मापने की सामान्य इकाई degrees होती है।\nचरण 3: इसलिए खाली जगह में \"degrees\" आएगा।"
+            },
+            {
+              "english": "Final answer: degrees",
+              "hindi": "अंतिम उत्तर: degrees"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4154,8 +5310,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We read the sentence: \"Angles are measured with the help of a ____.\"",
+              "hindi": "हम वाक्य पढ़ते हैं: \"Angles are measured with the help of a ____.\""
+            },
+            {
+              "english": "Step 1: We think about the tool used to measure angles.\nStep 2: The instrument used to measure angles is called a protractor.\nStep 3: So the blank should be filled with \"protractor.\"",
+              "hindi": "चरण 1: हमें सोचना है कि कोण मापने के लिए कौन-सा उपकरण इस्तेमाल होता है।\nचरण 2: कोण मापने वाले उपकरण को protractor (कोणमापी) कहते हैं।\nचरण 3: इसलिए रिक्त स्थान में \"protractor\" आएगा।"
+            },
+            {
+              "english": "Complete sentence: Angles are measured with the help of a protractor.\nFinal answer: protractor",
+              "hindi": "पूरा वाक्य: Angles are measured with the help of a protractor.\nअंतिम उत्तर: protractor"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4218,8 +5390,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A right angle is the angle you see in the corner of a square or rectangle.",
+              "hindi": "समकोण वह कोण होता है जो हमें वर्ग या आयत के कोने पर दिखाई देता है।"
+            },
+            {
+              "english": "Step 1: Remember the special angle names.\nAn angle smaller than 90° is an acute angle.\nAn angle exactly 90° is a right angle.\nAn angle bigger than 90° is an obtuse angle.",
+              "hindi": "चरण 1: खास कोणों के नाम याद करें।\n90° से छोटा कोण न्यूनकोण होता है।\nठीक 90° का कोण समकोण होता है।\n90° से बड़ा कोण अधिककोण होता है।"
+            },
+            {
+              "english": "Step 2: So, the measure of a right angle is 90 degrees.",
+              "hindi": "चरण 2: इसलिए, समकोण का माप 90 डिग्री होता है।"
+            },
+            {
+              "english": "Final answer: 90°",
+              "hindi": "Final answer: 90°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4282,8 +5474,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to fill in the blank:\nThe measure of a ............ angle is 180 degrees.",
+              "hindi": "हमें खाली जगह भरनी है:\nThe measure of a ............ angle is 180 degrees."
+            },
+            {
+              "english": "Step 1: Recall the names of angles by their measures.\nStep 2: An angle that measures exactly 180 degrees is called a straight angle.\nStep 3: So the missing word is straight.",
+              "hindi": "चरण 1: कोणों के नाम उनके माप के अनुसार होते हैं।\nचरण 2: जो कोण ठीक 180 degrees का होता है, उसे straight angle कहते हैं।\nचरण 3: इसलिए खाली जगह में straight आएगा।"
+            },
+            {
+              "english": "Final answer: straight",
+              "hindi": "Final answer: straight"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4350,8 +5558,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 18.72.1(a)",
+              "hindi": "प्रश्न 18.72.1(a)"
+            },
+            {
+              "english": "We have to construct an angle of 80° using a scale and a protractor.",
+              "hindi": "हमें स्केल और प्रोट्रैक्टर की मदद से 80° का कोण बनाना है।"
+            },
+            {
+              "english": "Step 1: Draw a straight ray AB with the help of a scale.\nStep 2: Put the center point of the protractor on point A.\nStep 3: Keep the baseline of the protractor along ray AB.\nStep 4: Find the mark of 80° on the protractor.\nStep 5: Make a small point at 80° and name it C.\nStep 6: Remove the protractor.\nStep 7: Use the scale to join A to C and draw ray AC.\nStep 8: Now angle BAC = 80°.",
+              "hindi": "चरण 1: स्केल की सहायता से एक सीधी किरण AB बनाइए।\nचरण 2: प्रोट्रैक्टर का केंद्र बिंदु A पर रखिए।\nचरण 3: प्रोट्रैक्टर की आधार रेखा को किरण AB के साथ मिलाइए।\nचरण 4: प्रोट्रैक्टर पर 80° का निशान ढूंढिए।\nचरण 5: 80° पर एक छोटा बिंदु लगाइए और उसे C नाम दीजिए।\nचरण 6: अब प्रोट्रैक्टर हटा दीजिए।\nचरण 7: स्केल से A और C को मिलाकर किरण AC खींचिए।\nचरण 8: अब कोण BAC = 80° है।"
+            },
+            {
+              "english": "So, the angle of 80° is constructed.",
+              "hindi": "इस प्रकार 80° का कोण बन गया।"
+            },
+            {
+              "english": "Final answer: done",
+              "hindi": "अंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4418,8 +5650,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To construct a 65° angle using a scale and protractor:\n1. Draw a ray AB with a scale.\n2. Place the center of the protractor at point A.\n3. Keep the protractor's base line along ray AB.\n4. Find 65° on the protractor and mark a point C there.\n5. Remove the protractor.\n6. Use the scale to draw a new ray AC through the marked point.\nNow angle BAC = 65°.\nFinal answer: done",
+              "hindi": "स्केल और प्रोट्रैक्टर की मदद से 65° का कोण बनाने के लिए:\n1. स्केल से एक किरण AB बनाइए।\n2. प्रोट्रैक्टर का बीच वाला बिंदु A पर रखिए।\n3. प्रोट्रैक्टर की आधार रेखा को किरण AB के साथ मिलाइए।\n4. प्रोट्रैक्टर पर 65° पर एक बिंदु C लगाइए।\n5. अब प्रोट्रैक्टर हटा दीजिए।\n6. स्केल की मदद से A से C तक दूसरी किरण AC खींचिए।\nअब ∠BAC = 65° है।\nअंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4486,8 +5726,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To construct a 45° angle using a scale and a protractor:\n1. Draw a straight ray OA using the scale.\n2. Put the center of the protractor on point O.\n3. Keep the protractor's baseline along ray OA.\n4. Find the 45° mark on the protractor.\n5. Make a small point at 45°.\n6. Remove the protractor.\n7. Use the scale to join point O to the 45° mark and draw ray OB.\n8. Now angle AOB = 45°.",
+              "hindi": "स्केल और प्रोट्रैक्टर की मदद से 45° का कोण बनाने के लिए:\n1. स्केल से एक सीधी किरण OA बनाइए।\n2. प्रोट्रैक्टर का केंद्र बिंदु O पर रखिए।\n3. प्रोट्रैक्टर की आधार रेखा को किरण OA के साथ मिलाइए।\n4. प्रोट्रैक्टर पर 45° का निशान ढूंढिए।\n5. 45° पर एक छोटा बिंदु लगाइए।\n6. अब प्रोट्रैक्टर हटा दीजिए।\n7. स्केल की मदद से O को 45° वाले बिंदु से मिलाकर किरण OB खींचिए।\n8. अब ∠AOB = 45° है।"
+            },
+            {
+              "english": "Since the question says to type the answer after drawing, type: done",
+              "hindi": "क्योंकि प्रश्न में चित्र बनाने के बाद टाइप करना है, इसलिए लिखिए: done"
+            },
+            {
+              "english": "Final answer: done",
+              "hindi": "अंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4554,8 +5810,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 18.72.1(d)\nConstruct a 90° angle using a scale and protractor.",
+              "hindi": "प्रश्न 18.72.1(d)\nस्केल और प्रोट्रैक्टर की मदद से 90° का कोण बनाना है।"
+            },
+            {
+              "english": "Steps:\n1. Draw a straight ray AB with a scale.\n2. Put the center of the protractor at point A.\n3. Keep the baseline of the protractor along ray AB.\n4. Find the 90° mark on the protractor and make a small point there. Call it C.\n5. Remove the protractor.\n6. Use the scale to join A to C and draw ray AC.\n7. Now angle BAC = 90°.",
+              "hindi": "चरण:\n1. स्केल से एक सीधी किरण AB बनाइए।\n2. प्रोट्रैक्टर का केंद्र बिंदु A पर रखिए।\n3. प्रोट्रैक्टर की आधार रेखा को किरण AB के साथ मिलाइए।\n4. प्रोट्रैक्टर पर 90° के निशान पर एक छोटा बिंदु लगाइए। उसे C नाम दीजिए।\n5. अब प्रोट्रैक्टर हटा दीजिए।\n6. स्केल की मदद से A और C को मिलाकर किरण AC खींचिए।\n7. इस प्रकार ∠BAC = 90° होगा।"
+            },
+            {
+              "english": "So, the required angle is constructed. Final answer: done",
+              "hindi": "अतः आवश्यक कोण बन गया। Final answer: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4622,8 +5894,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To construct 130° using a scale and protractor, follow these steps:\n1. Draw a straight ray AB with the scale.\n2. Put the center of the protractor at point A.\n3. Keep the base line of the protractor along ray AB.\n4. Find the 130° mark on the protractor.\n5. Make a small point at 130°.\n6. Remove the protractor.\n7. Use the scale to draw another ray AC from A through the marked point.",
+              "hindi": "130° का कोण बनाने के लिए स्केल और प्रोट्रैक्टर का उपयोग इस तरह करो:\n1. स्केल की मदद से एक सीधी किरण AB बनाओ।\n2. प्रोट्रैक्टर का केंद्र बिंदु A पर रखो।\n3. प्रोट्रैक्टर की आधार रेखा को किरण AB के साथ मिलाओ।\n4. प्रोट्रैक्टर पर 130° का निशान ढूंढो।\n5. 130° पर एक छोटा बिंदु लगाओ।\n6. अब प्रोट्रैक्टर हटा दो।\n7. स्केल की मदद से A से उस बिंदु तक दूसरी किरण AC खींचो।"
+            },
+            {
+              "english": "Now angle BAC = 130°.\nThe angle is constructed correctly.\nFinal answer: done",
+              "hindi": "अब ∠BAC = 130° है।\nकोण सही बन गया।\nअंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4690,8 +5974,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Steps:\n1. Draw a ray AB using a scale.\n2. Put the center of the protractor at point A.\n3. Keep the base line of the protractor along ray AB.\n4. Find 145° on the protractor and make a small mark there.\n5. Remove the protractor.\n6. Using the scale, draw another ray AC from A through the 145° mark.\n7. Now the angle ∠BAC is 145°.\nSo, the required angle has been constructed.\nFinal answer: done",
+              "hindi": "चरण:\n1. स्केल की मदद से एक किरण AB बनाइए।\n2. प्रोट्रैक्टर का केंद्र बिंदु A पर रखिए।\n3. प्रोट्रैक्टर की आधार रेखा को किरण AB के साथ मिलाइए।\n4. प्रोट्रैक्टर पर 145° ढूंढकर वहाँ एक छोटा निशान लगाइए।\n5. अब प्रोट्रैक्टर हटा दीजिए।\n6. स्केल की मदद से A से उस निशान तक दूसरी किरण AC खींचिए।\n7. अब ∠BAC = 145° होगा।\nइस प्रकार 145° का कोण बन गया।\nअंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4758,8 +6050,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To construct 125° using a protractor and a scale, follow these easy steps:",
+              "hindi": "125° का कोण प्रोटेक्टर और स्केल से बनाने के लिए ये आसान चरण अपनाओ:"
+            },
+            {
+              "english": "1. Draw a straight ray AB using the scale.\n2. Put the center of the protractor on point A.\n3. Keep the base line of the protractor along ray AB.\n4. Find 125° on the protractor and make a small mark at that point.\n5. Remove the protractor.\n6. Using the scale, draw another ray AC starting from A and passing through the 125° mark.\n7. Now angle BAC = 125°.",
+              "hindi": "1. स्केल की मदद से एक सीधी किरण AB बनाओ।\n2. प्रोटेक्टर का केंद्र बिंदु A पर रखो।\n3. प्रोटेक्टर की आधार रेखा को किरण AB के साथ मिलाओ।\n4. प्रोटेक्टर पर 125° ढूंढो और वहां एक छोटा निशान लगाओ।\n5. अब प्रोटेक्टर हटा दो।\n6. स्केल की मदद से A से उस 125° वाले निशान तक दूसरी किरण AC खींचो।\n7. अब कोण BAC = 125° है।"
+            },
+            {
+              "english": "The angle has been constructed correctly.\nFinal answer: done",
+              "hindi": "इस तरह 125° का कोण सही बन गया।\nअंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4826,8 +6134,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 18.72.1(h)\nConstruct 180°",
+              "hindi": "प्रश्न 18.72.1(h)\n180° का कोण बनाइए"
+            },
+            {
+              "english": "Steps:\n1. Draw a straight line using a scale. Mark a point O on the line.\n2. Place the center of the protractor at O.\n3. You will see that 180° is exactly the opposite side on a straight line.\n4. Mark the 180° point if needed.\n5. Draw the second arm through that point with the scale.",
+              "hindi": "चरण:\n1. स्केल की सहायता से एक सीधी रेखा खींचिए। उस पर O बिंदु बनाइए।\n2. प्रोट्रैक्टर का केंद्र O पर रखिए।\n3. 180° सीधी रेखा के बिल्कुल सामने वाले भाग पर होता है।\n4. जरूरत हो तो 180° पर निशान लगाइए।\n5. स्केल से उस निशान की दिशा में दूसरी भुजा खींचिए।"
+            },
+            {
+              "english": "So, the angle formed is 180°.\nA 180° angle is called a straight angle.",
+              "hindi": "इस प्रकार बना कोण 180° है।\n180° के कोण को सीधा कोण कहते हैं।"
+            },
+            {
+              "english": "Final answer: done",
+              "hindi": "अंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4894,8 +6222,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us understand it step by step.",
+              "hindi": "इसे आसान तरीके से समझते हैं।"
+            },
+            {
+              "english": "1. If an angle is greater than 0° and less than 90°, it is called an acute angle.\n2. If an angle is exactly 90°, it is called a right angle.\n3. In part (b), the statement says: An angle whose measure is 90° is called a right angle.\n4. Since the instruction says to type done, the response to enter is:",
+              "hindi": "1. यदि किसी कोण का माप 0° से बड़ा और 90° से छोटा हो, तो उसे न्यून कोण (acute angle) कहते हैं।\n2. यदि किसी कोण का माप ठीक 90° हो, तो उसे समकोण (right angle) कहते हैं।\n3. भाग (b) में दिया है: 90° माप वाला कोण समकोण कहलाता है।\n4. क्योंकि प्रश्न में done टाइप करने को कहा गया है, इसलिए लिखना है:"
+            },
+            {
+              "english": "Final answer: done",
+              "hindi": "अंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4962,8 +6306,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: An angle greater than 0° and less than 90° is called an acute angle.\nStep 2: In part (c), the angle is greater than 90° and less than 180°.\nStep 3: Such an angle is called an obtuse angle.\nStep 4: The instruction says to type done.\nFinal answer: done",
+              "hindi": "चरण 1: 0° से बड़ा और 90° से छोटा कोण acute angle कहलाता है।\nचरण 2: भाग (c) में कोण 90° से बड़ा और 180° से छोटा है।\nचरण 3: ऐसा कोण obtuse angle कहलाता है।\nचरण 4: प्रश्न में done टाइप करने को कहा गया है।\nअंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5030,8 +6382,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A straight angle measures 180°.",
+              "hindi": "सीधा कोण 180° का होता है।"
+            },
+            {
+              "english": "Step by step:\n1. First copy the given ray OP in your notebook.\n2. Keep O as the vertex.\n3. To make angle POQ = 180°, draw ray OQ in the exact opposite direction of ray OP.\n4. Now P, O, and Q will lie on one straight line.\n5. So angle POQ is a straight angle.",
+              "hindi": "आसान चरणों में:\n1. पहले दी गई किरण OP को अपनी कॉपी में बनाइए।\n2. O को शीर्ष (vertex) मानिए।\n3. अब ∠POQ = 180° बनाने के लिए OQ किरण को OP की बिल्कुल विपरीत दिशा में खींचिए।\n4. अब P, O और Q एक ही सीधी रेखा पर होंगे।\n5. इसलिए ∠POQ एक सीधा कोण है।"
+            },
+            {
+              "english": "Since the figure is constructed, type the required word.\nFinal answer: done",
+              "hindi": "जब आकृति बन जाए, तो दिया गया शब्द लिखिए।\nअंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5098,8 +6466,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To construct ∠CAB = 150°, follow these easy steps:\n1. First, copy the given ray AB in your notebook.\n2. Remember that in ∠CAB, the middle letter A is the vertex, so the angle is made at point A.\n3. Place the center of your protractor on point A.\n4. Keep the baseline of the protractor along ray AB.\n5. Find the 150° mark on the protractor and make a small point there.\n6. Name that point C.\n7. Draw a ray from A through C.\n8. Now the new ray AC and the given ray AB form ∠CAB = 150°.",
+              "hindi": "∠CAB = 150° बनाने के लिए ये आसान चरण follow करो:\n1. सबसे पहले, दी हुई ray AB को अपनी notebook में कॉपी करो.\n2. याद रखो कि ∠CAB में बीच वाला अक्षर A vertex होता है, यानी कोण बिंदु A पर बनेगा.\n3. अपने protractor का center बिंदु A पर रखो.\n4. Protractor की baseline को ray AB के साथ मिलाओ.\n5. अब protractor पर 150° का निशान ढूंढो और वहाँ एक छोटा बिंदु लगाओ.\n6. उस बिंदु का नाम C रखो.\n7. अब A से C की ओर एक ray खींचो.\n8. अब नई ray AC और दी हुई ray AB मिलकर ∠CAB = 150° बनाते हैं."
+            },
+            {
+              "english": "Your construction is complete. Then type done.\nFinal answer: done",
+              "hindi": "तुम्हारा construction पूरा हो गया। अब done टाइप करो.\nअंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [

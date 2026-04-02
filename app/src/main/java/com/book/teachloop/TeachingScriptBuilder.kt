@@ -58,15 +58,21 @@ object TeachingScriptBuilder {
         result: QuizResult?,
         language: AppLanguage,
     ): List<String> {
-        if (question.reteachParagraphs.isEmpty()) {
-            return emptyList()
-        }
-
         val script = mutableListOf<String>()
 
         appendLines(script, text("Question").display(language) + ": " + question.prompt.display(language))
         appendLines(script, text("Solution").display(language) + ":")
-        question.reteachParagraphs.forEach { appendLines(script, it.display(language)) }
+        if (question.reteachParagraphs.isEmpty()) {
+            appendLines(
+                script,
+                text(
+                    english = "No prompt-generated solution is stored for this question yet. Run the Codex shell generator to create it.",
+                    hindi = "इस प्रश्न के लिए अभी prompt से बना हुआ समाधान संग्रहित नहीं है। इसे बनाने के लिए Codex shell generator चलाइए।",
+                ).display(language),
+            )
+        } else {
+            question.reteachParagraphs.forEach { appendLines(script, it.display(language)) }
+        }
 
         return dedupe(script)
     }

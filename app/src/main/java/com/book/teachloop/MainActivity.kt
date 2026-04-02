@@ -583,7 +583,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun openQuestionSolution() {
-        if (latestIncorrectQuestion == null || latestQuizResult == null || !hasSolutionPreview(latestIncorrectQuestion)) return
+        if (latestIncorrectQuestion == null || latestQuizResult == null) return
 
         solutionPreviewActive = true
         lastSpokenToken = null
@@ -1457,12 +1457,9 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             binding.feedbackTitleText.setTextColor(getColor(R.color.feedback_error))
             binding.feedbackBodyText.text = ""
         }
-        binding.feedbackActionButton.isVisible = visible && hasSolutionPreview(latestIncorrectQuestion)
+        binding.feedbackActionButton.isVisible = visible && latestIncorrectQuestion != null
+        binding.feedbackBodyText.isVisible = false
         binding.feedbackActionButton.text = ui("See solution", "समाधान देखें")
-    }
-
-    private fun hasSolutionPreview(question: RenderedQuestion?): Boolean {
-        return question?.reteachParagraphs?.isNotEmpty() == true
     }
 
     private fun renderMetricBars(report: ReportSummary) {

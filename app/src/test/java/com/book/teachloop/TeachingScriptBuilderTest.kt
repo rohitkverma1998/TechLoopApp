@@ -100,6 +100,39 @@ class TeachingScriptBuilderTest {
     }
 
     @Test
+    fun buildQuestionSolution_withoutStoredSolution_showsGeneratorNote() {
+        val topic = StudyTopic(
+            id = "topic_1",
+            sourceLessonId = "lesson_1",
+            chapterNumber = 1,
+            chapterTitle = text("Chapter 1"),
+            lessonTitle = text("Large Numbers"),
+            subtopicTitle = text("Read commas"),
+            knowPrompt = text("Do you know this?"),
+            explanationTitle = text("Commas break numbers"),
+            explanationParagraphs = listOf(text("Read the thousands part first.")),
+            examples = emptyList(),
+            visuals = emptyList(),
+            questions = emptyList(),
+        )
+        val question = RenderedQuestion(
+            id = "q1",
+            prompt = text("13,520 is read as"),
+            type = QuestionType.TEXT_INPUT,
+            acceptedAnswers = listOf("thirteen thousand five hundred twenty"),
+            solutionAnswer = text("thirteen thousand five hundred twenty"),
+            wrongReason = text("You skipped the hundreds part."),
+            supportExample = text("10,024 is ten thousand twenty-four."),
+            mistakeType = MistakeType.READING,
+            reteachParagraphs = emptyList(),
+        )
+
+        val script = TeachingScriptBuilder.buildQuestionSolution(topic, question, null, AppLanguage.ENGLISH)
+
+        assertTrue(script.any { it.contains("No prompt-generated solution is stored for this question yet.") })
+    }
+
+    @Test
     fun build_forRsMainTeach_omitsGenericTitleAndExampleLabels() {
         val topic = StudyTopic(
             id = "topic_1",
