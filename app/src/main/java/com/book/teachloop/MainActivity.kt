@@ -1225,7 +1225,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         binding.decisionContainer.isVisible = false
         updateContentBottomInset(playbackVisible = false)
         updateDecisionContainerInset(playbackVisible = false)
-        binding.questionTitleText.text = topic.subtopicTitle.display(appState.language)
+        binding.questionTitleText.text = topic.subtopicTitle.display(appState.language).substringBefore(":").trim()
         binding.questionPromptText.text = renderStyledText(question.prompt.display(appState.language))
         val assetImg = question.questionImageAsset
         if (assetImg != null) {
