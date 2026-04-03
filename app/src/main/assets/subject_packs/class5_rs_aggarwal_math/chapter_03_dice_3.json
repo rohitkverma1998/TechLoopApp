@@ -1,0 +1,1464 @@
+{
+  "chapterNumber": 3,
+  "chapterTitle": {
+    "english": "Dice 3",
+    "hindi": "डाइस 3"
+  },
+  "topics": [
+    {
+      "id": "dice3_q01_painted_cube",
+      "sourceLessonId": "verbal_reasoning_dice3",
+      "chapterNumber": 3,
+      "chapterTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "lessonTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "subtopicTitle": {
+        "english": "Question 01: Painted Cube",
+        "hindi": "प्रश्न 01: रंगा हुआ घन"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 01 from Dice 3.",
+        "hindi": "डाइस 3 का प्रश्न 01 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Painted Cube",
+        "hindi": "रंगा हुआ घन"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: A 5 cm cube is painted blue and then cut into 1 cm small cubes. Find the number of small cubes having exactly 1 face painted.",
+          "hindi": "प्रश्न: 5 सेमी के एक घन को नीले रंग से रंगकर 1 सेमी के छोटे घनों में काटा जाता है। उन छोटे घनों की संख्या ज्ञात कीजिए जिनकी केवल 1 सतह रंगी हुई है।"
+        },
+        {
+          "english": "Each edge of the big cube gives 5/1 = 5 small cubes, so n = 5. Small cubes with exactly one face painted are the inner cubes on each face. On one face, their number is (n - 2)^2 = (5 - 2)^2 = 3^2 = 9. Since a cube has 6 faces, total = 6 x 9 = 54. Therefore, 54 small cubes have exactly one face painted.",
+          "hindi": "बड़े घन की हर भुजा पर 5/1 = 5 छोटे घन बनेंगे, इसलिए n = 5। जिन छोटे घनों की केवल 1 सतह रंगी होती है, वे हर फलक के बीच वाले भाग में होते हैं। एक फलक पर ऐसे घनों की संख्या (n - 2)^2 = (5 - 2)^2 = 3^2 = 9 होगी। घन के कुल 6 फलक होते हैं, इसलिए कुल संख्या = 6 x 9 = 54। अतः केवल 1 सतह रंगे हुए छोटे घनों की संख्या 54 है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Cubes with exactly one painted face lie at the center part of each face, not on edges or corners.",
+          "hindi": "केवल एक सतह रंगे हुए छोटे घन हर फलक के बीच वाले भाग में होते हैं, किनारों और कोनों पर नहीं।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice3_q01",
+          "prompt": {
+            "english": "A 5 cm cube is painted blue and then cut into 1 cm small cubes. Find the number of small cubes having exactly 1 face painted.",
+            "hindi": "5 सेमी के एक घन को नीले रंग से रंगकर 1 सेमी के छोटे घनों में काटा जाता है। उन छोटे घनों की संख्या ज्ञात कीजिए जिनकी केवल 1 सतह रंगी हुई है।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "54",
+            "54 cubes",
+            "54 small cubes",
+            "54 घन",
+            "54 छोटे घन"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "Each edge of the big cube gives 5/1 = 5 small cubes, so n = 5. Small cubes with exactly one face painted are the inner cubes on each face. On one face, their number is (n - 2)^2 = (5 - 2)^2 = 3^2 = 9. Since a cube has 6 faces, total = 6 x 9 = 54. Therefore, 54 small cubes have exactly one face painted.",
+            "hindi": "बड़े घन की हर भुजा पर 5/1 = 5 छोटे घन बनेंगे, इसलिए n = 5। जिन छोटे घनों की केवल 1 सतह रंगी होती है, वे हर फलक के बीच वाले भाग में होते हैं। एक फलक पर ऐसे घनों की संख्या (n - 2)^2 = (5 - 2)^2 = 3^2 = 9 होगी। घन के कुल 6 फलक होते हैं, इसलिए कुल संख्या = 6 x 9 = 54। अतः केवल 1 सतह रंगे हुए छोटे घनों की संख्या 54 है।"
+          },
+          "supportExample": {
+            "english": "Cubes with exactly one painted face lie at the center part of each face, not on edges or corners.",
+            "hindi": "केवल एक सतह रंगे हुए छोटे घन हर फलक के बीच वाले भाग में होते हैं, किनारों और कोनों पर नहीं।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Each edge of the big cube gives 5/1 = 5 small cubes, so n = 5. Small cubes with exactly one face painted are the inner cubes on each face. On one face, their number is (n - 2)^2 = (5 - 2)^2 = 3^2 = 9. Since a cube has 6 faces, total = 6 x 9 = 54. Therefore, 54 small cubes have exactly one face painted.",
+              "hindi": "बड़े घन की हर भुजा पर 5/1 = 5 छोटे घन बनेंगे, इसलिए n = 5। जिन छोटे घनों की केवल 1 सतह रंगी होती है, वे हर फलक के बीच वाले भाग में होते हैं। एक फलक पर ऐसे घनों की संख्या (n - 2)^2 = (5 - 2)^2 = 3^2 = 9 होगी। घन के कुल 6 फलक होते हैं, इसलिए कुल संख्या = 6 x 9 = 54। अतः केवल 1 सतह रंगे हुए छोटे घनों की संख्या 54 है।"
+            }
+          ],
+          "questionImageAsset": "dice3_q01.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 3",
+          "hindi": "डाइस 3"
+        },
+        {
+          "english": "Question 01",
+          "hindi": "प्रश्न 01"
+        },
+        {
+          "english": "Source page 13",
+          "hindi": "स्रोत पेज 13"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice3_q02_painted_cube",
+      "sourceLessonId": "verbal_reasoning_dice3",
+      "chapterNumber": 3,
+      "chapterTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "lessonTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "subtopicTitle": {
+        "english": "Question 02: Painted Cube",
+        "hindi": "प्रश्न 02: रंगा हुआ घन"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 02 from Dice 3.",
+        "hindi": "डाइस 3 का प्रश्न 02 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Painted Cube",
+        "hindi": "रंगा हुआ घन"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: A 6 cm cube is painted blue on all outer surfaces and then cut into 1 cm small cubes. How many small cubes have exactly 2 surfaces painted?",
+          "hindi": "प्रश्न: 6 सेमी के घन को बाहर से नीले रंग से रंगा जाता है, फिर उसे 1 सेमी के छोटे घनों में काटा जाता है। ऐसे कितने छोटे घन होंगे जिनकी ठीक 2 सतहें रंगी हों?"
+        },
+        {
+          "english": "Each edge of the big cube gives cubes with 2 painted faces, but the 2 corner cubes on that edge have 3 painted faces, so we exclude them. Number of small cubes along one edge: n = 6/1 = 6. Cubes with exactly 2 painted faces = 12(n - 2) = 12(6 - 2) = 12 × 4 = 48.",
+          "hindi": "बड़े घन के हर किनारे पर 2 सतह रंगे हुए छोटे घन मिलते हैं, लेकिन हर किनारे के 2 कोने वाले घनों की 3 सतहें रंगी होती हैं, इसलिए उन्हें नहीं गिनते। एक किनारे पर छोटे घनों की संख्या: n = 6/1 = 6। ठीक 2 सतह रंगे छोटे घन = 12(n - 2) = 12(6 - 2) = 12 × 4 = 48।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Cubes with exactly 2 painted faces lie on the edges, excluding the corner cubes.",
+          "hindi": "ठीक 2 रंगी सतह वाले घन किनारों पर होते हैं, लेकिन कोनों वाले घन इसमें नहीं गिने जाते।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice3_q02",
+          "prompt": {
+            "english": "A 6 cm cube is painted blue on all outer surfaces and then cut into 1 cm small cubes. How many small cubes have exactly 2 surfaces painted?",
+            "hindi": "6 सेमी के घन को बाहर से नीले रंग से रंगा जाता है, फिर उसे 1 सेमी के छोटे घनों में काटा जाता है। ऐसे कितने छोटे घन होंगे जिनकी ठीक 2 सतहें रंगी हों?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "48",
+            "48 cubes",
+            "48 small cubes",
+            "48 छोटे घन"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "Each edge of the big cube gives cubes with 2 painted faces, but the 2 corner cubes on that edge have 3 painted faces, so we exclude them. Number of small cubes along one edge: n = 6/1 = 6. Cubes with exactly 2 painted faces = 12(n - 2) = 12(6 - 2) = 12 × 4 = 48.",
+            "hindi": "बड़े घन के हर किनारे पर 2 सतह रंगे हुए छोटे घन मिलते हैं, लेकिन हर किनारे के 2 कोने वाले घनों की 3 सतहें रंगी होती हैं, इसलिए उन्हें नहीं गिनते। एक किनारे पर छोटे घनों की संख्या: n = 6/1 = 6। ठीक 2 सतह रंगे छोटे घन = 12(n - 2) = 12(6 - 2) = 12 × 4 = 48।"
+          },
+          "supportExample": {
+            "english": "Cubes with exactly 2 painted faces lie on the edges, excluding the corner cubes.",
+            "hindi": "ठीक 2 रंगी सतह वाले घन किनारों पर होते हैं, लेकिन कोनों वाले घन इसमें नहीं गिने जाते।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Each edge of the big cube gives cubes with 2 painted faces, but the 2 corner cubes on that edge have 3 painted faces, so we exclude them. Number of small cubes along one edge: n = 6/1 = 6. Cubes with exactly 2 painted faces = 12(n - 2) = 12(6 - 2) = 12 × 4 = 48.",
+              "hindi": "बड़े घन के हर किनारे पर 2 सतह रंगे हुए छोटे घन मिलते हैं, लेकिन हर किनारे के 2 कोने वाले घनों की 3 सतहें रंगी होती हैं, इसलिए उन्हें नहीं गिनते। एक किनारे पर छोटे घनों की संख्या: n = 6/1 = 6। ठीक 2 सतह रंगे छोटे घन = 12(n - 2) = 12(6 - 2) = 12 × 4 = 48।"
+            }
+          ],
+          "questionImageAsset": "dice3_q02.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 3",
+          "hindi": "डाइस 3"
+        },
+        {
+          "english": "Question 02",
+          "hindi": "प्रश्न 02"
+        },
+        {
+          "english": "Source page 14",
+          "hindi": "स्रोत पेज 14"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice3_q03_painted_cube",
+      "sourceLessonId": "verbal_reasoning_dice3",
+      "chapterNumber": 3,
+      "chapterTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "lessonTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "subtopicTitle": {
+        "english": "Question 03: Painted Cube",
+        "hindi": "प्रश्न 03: रंगा हुआ घन"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 03 from Dice 3.",
+        "hindi": "डाइस 3 का प्रश्न 03 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Painted Cube",
+        "hindi": "रंगा हुआ घन"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: A 7 cm cube is painted yellow on all its outer surfaces and then cut into 1 cm cubes. How many small cubes have 3 surfaces painted?",
+          "hindi": "प्रश्न: 7 सेमी के घन को बाहर से पीले रंग से रंगा जाता है, फिर उसे 1 सेमी के छोटे घनों में काटा जाता है। बताइए, कितने छोटे घनों की 3 सतहें रंगी होंगी?"
+        },
+        {
+          "english": "Small cubes with 3 painted faces are found only at the 8 corners of the big cube. A cube always has 8 corners, so after cutting the 7 cm cube into 1 cm cubes, the number of small cubes with 3 painted faces is 8.",
+          "hindi": "जिन छोटे घनों की 3 सतहें रंगी होती हैं, वे केवल बड़े घन के 8 कोनों पर होते हैं। किसी भी घन के हमेशा 8 कोने होते हैं। इसलिए 7 सेमी घन को 1 सेमी के छोटे घनों में काटने पर 3 सतह रंगे हुए छोटे घनों की संख्या 8 होगी।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Only corner cubes of a painted cube have 3 faces painted.",
+          "hindi": "रंगे हुए घन में केवल कोनों वाले छोटे घनों की 3 सतहें रंगी होती हैं।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice3_q03",
+          "prompt": {
+            "english": "A 7 cm cube is painted yellow on all its outer surfaces and then cut into 1 cm cubes. How many small cubes have 3 surfaces painted?",
+            "hindi": "7 सेमी के घन को बाहर से पीले रंग से रंगा जाता है, फिर उसे 1 सेमी के छोटे घनों में काटा जाता है। बताइए, कितने छोटे घनों की 3 सतहें रंगी होंगी?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "8",
+            "8 cubes",
+            "eight",
+            "आठ"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "Small cubes with 3 painted faces are found only at the 8 corners of the big cube. A cube always has 8 corners, so after cutting the 7 cm cube into 1 cm cubes, the number of small cubes with 3 painted faces is 8.",
+            "hindi": "जिन छोटे घनों की 3 सतहें रंगी होती हैं, वे केवल बड़े घन के 8 कोनों पर होते हैं। किसी भी घन के हमेशा 8 कोने होते हैं। इसलिए 7 सेमी घन को 1 सेमी के छोटे घनों में काटने पर 3 सतह रंगे हुए छोटे घनों की संख्या 8 होगी।"
+          },
+          "supportExample": {
+            "english": "Only corner cubes of a painted cube have 3 faces painted.",
+            "hindi": "रंगे हुए घन में केवल कोनों वाले छोटे घनों की 3 सतहें रंगी होती हैं।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Small cubes with 3 painted faces are found only at the 8 corners of the big cube. A cube always has 8 corners, so after cutting the 7 cm cube into 1 cm cubes, the number of small cubes with 3 painted faces is 8.",
+              "hindi": "जिन छोटे घनों की 3 सतहें रंगी होती हैं, वे केवल बड़े घन के 8 कोनों पर होते हैं। किसी भी घन के हमेशा 8 कोने होते हैं। इसलिए 7 सेमी घन को 1 सेमी के छोटे घनों में काटने पर 3 सतह रंगे हुए छोटे घनों की संख्या 8 होगी।"
+            }
+          ],
+          "questionImageAsset": "dice3_q03.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 3",
+          "hindi": "डाइस 3"
+        },
+        {
+          "english": "Question 03",
+          "hindi": "प्रश्न 03"
+        },
+        {
+          "english": "Source page 15",
+          "hindi": "स्रोत पेज 15"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice3_q04_painted_cube_zero_painted_faces",
+      "sourceLessonId": "verbal_reasoning_dice3",
+      "chapterNumber": 3,
+      "chapterTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "lessonTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "subtopicTitle": {
+        "english": "Question 04: Painted Cube: Zero Painted Faces",
+        "hindi": "प्रश्न 04: रंगा हुआ घन: शून्य रंगी सतहें"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 04 from Dice 3.",
+        "hindi": "डाइस 3 का प्रश्न 04 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Painted Cube: Zero Painted Faces",
+        "hindi": "रंगा हुआ घन: शून्य रंगी सतहें"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: A 4 cm cube is painted orange on all outer surfaces and then cut into 1 cm cubes. How many small cubes have no face painted?",
+          "hindi": "प्रश्न: 4 सेमी के घन को बाहर से नारंगी रंग से रंगकर 1 सेमी के छोटे घनों में काटा जाता है। कितने छोटे घनों की कोई भी सतह रंगी हुई नहीं होगी?"
+        },
+        {
+          "english": "The 4 cm cube is cut into 1 cm cubes, so there are 4 small cubes along each edge. Only the cubes fully inside have zero painted faces. For a painted cube, the number of such inner cubes is (n-2)^3. Here n = 4, so (4-2)^3 = 2^3 = 8.",
+          "hindi": "4 सेमी के घन को 1 सेमी के छोटे घनों में काटने पर हर किनारे पर 4 छोटे घन होंगे। जिन छोटे घनों की कोई सतह रंगी नहीं होती, वे केवल अंदर वाले घन होते हैं। रंगे हुए घन में ऐसे घनों की संख्या का सूत्र (n-2)^3 होता है। यहाँ n = 4, इसलिए (4-2)^3 = 2^3 = 8।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Cubes with zero painted faces are only the cubes completely inside, so use (n-2)^3.",
+          "hindi": "जिन छोटे घनों की कोई सतह रंगी नहीं होती, वे केवल अंदर वाले घन होते हैं, इसलिए सूत्र (n-2)^3 लगता है।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice3_q04",
+          "prompt": {
+            "english": "A 4 cm cube is painted orange on all outer surfaces and then cut into 1 cm cubes. How many small cubes have no face painted?",
+            "hindi": "4 सेमी के घन को बाहर से नारंगी रंग से रंगकर 1 सेमी के छोटे घनों में काटा जाता है। कितने छोटे घनों की कोई भी सतह रंगी हुई नहीं होगी?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "8",
+            "eight",
+            "आठ"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "The 4 cm cube is cut into 1 cm cubes, so there are 4 small cubes along each edge. Only the cubes fully inside have zero painted faces. For a painted cube, the number of such inner cubes is (n-2)^3. Here n = 4, so (4-2)^3 = 2^3 = 8.",
+            "hindi": "4 सेमी के घन को 1 सेमी के छोटे घनों में काटने पर हर किनारे पर 4 छोटे घन होंगे। जिन छोटे घनों की कोई सतह रंगी नहीं होती, वे केवल अंदर वाले घन होते हैं। रंगे हुए घन में ऐसे घनों की संख्या का सूत्र (n-2)^3 होता है। यहाँ n = 4, इसलिए (4-2)^3 = 2^3 = 8।"
+          },
+          "supportExample": {
+            "english": "Cubes with zero painted faces are only the cubes completely inside, so use (n-2)^3.",
+            "hindi": "जिन छोटे घनों की कोई सतह रंगी नहीं होती, वे केवल अंदर वाले घन होते हैं, इसलिए सूत्र (n-2)^3 लगता है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The 4 cm cube is cut into 1 cm cubes, so there are 4 small cubes along each edge. Only the cubes fully inside have zero painted faces. For a painted cube, the number of such inner cubes is (n-2)^3. Here n = 4, so (4-2)^3 = 2^3 = 8.",
+              "hindi": "4 सेमी के घन को 1 सेमी के छोटे घनों में काटने पर हर किनारे पर 4 छोटे घन होंगे। जिन छोटे घनों की कोई सतह रंगी नहीं होती, वे केवल अंदर वाले घन होते हैं। रंगे हुए घन में ऐसे घनों की संख्या का सूत्र (n-2)^3 होता है। यहाँ n = 4, इसलिए (4-2)^3 = 2^3 = 8।"
+            }
+          ],
+          "questionImageAsset": "dice3_q04.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 3",
+          "hindi": "डाइस 3"
+        },
+        {
+          "english": "Question 04",
+          "hindi": "प्रश्न 04"
+        },
+        {
+          "english": "Source page 16",
+          "hindi": "स्रोत पेज 16"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice3_q05_painted_cube_number_of_small_cubes",
+      "sourceLessonId": "verbal_reasoning_dice3",
+      "chapterNumber": 3,
+      "chapterTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "lessonTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "subtopicTitle": {
+        "english": "Question 05: Painted Cube - Number of Small Cubes",
+        "hindi": "प्रश्न 05: रंगा हुआ घन - छोटे घनों की संख्या"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 05 from Dice 3.",
+        "hindi": "डाइस 3 का प्रश्न 05 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Painted Cube - Number of Small Cubes",
+        "hindi": "रंगा हुआ घन - छोटे घनों की संख्या"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: A 6 cm cube is painted red and then cut into 1 cm cubes. Find the total number of small cubes.",
+          "hindi": "प्रश्न: एक 6 सेमी घन को लाल रंग से रंगा जाता है और फिर उसे 1 सेमी के छोटे घनों में काटा जाता है। छोटे घनों की कुल संख्या ज्ञात कीजिए।"
+        },
+        {
+          "english": "The edge of the big cube is 6 cm and each small cube has edge 1 cm. So the number of small cubes along one edge is 6/1 = 6. Total small cubes = 6^3 = 216.",
+          "hindi": "बड़े घन की भुजा 6 सेमी है और प्रत्येक छोटे घन की भुजा 1 सेमी है। इसलिए एक भुजा पर छोटे घनों की संख्या 6/1 = 6 होगी। कुल छोटे घन = 6^3 = 216।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Total small cubes = (edge of big cube / edge of small cube)^3.",
+          "hindi": "छोटे घनों की कुल संख्या = (बड़े घन की भुजा / छोटे घन की भुजा)^3।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice3_q05",
+          "prompt": {
+            "english": "A 6 cm cube is painted red and then cut into 1 cm cubes. Find the total number of small cubes.",
+            "hindi": "एक 6 सेमी घन को लाल रंग से रंगा जाता है और फिर उसे 1 सेमी के छोटे घनों में काटा जाता है। छोटे घनों की कुल संख्या ज्ञात कीजिए।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "216",
+            "216 cubes",
+            "216 small cubes",
+            "२१६"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "The edge of the big cube is 6 cm and each small cube has edge 1 cm. So the number of small cubes along one edge is 6/1 = 6. Total small cubes = 6^3 = 216.",
+            "hindi": "बड़े घन की भुजा 6 सेमी है और प्रत्येक छोटे घन की भुजा 1 सेमी है। इसलिए एक भुजा पर छोटे घनों की संख्या 6/1 = 6 होगी। कुल छोटे घन = 6^3 = 216।"
+          },
+          "supportExample": {
+            "english": "Total small cubes = (edge of big cube / edge of small cube)^3.",
+            "hindi": "छोटे घनों की कुल संख्या = (बड़े घन की भुजा / छोटे घन की भुजा)^3।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The edge of the big cube is 6 cm and each small cube has edge 1 cm. So the number of small cubes along one edge is 6/1 = 6. Total small cubes = 6^3 = 216.",
+              "hindi": "बड़े घन की भुजा 6 सेमी है और प्रत्येक छोटे घन की भुजा 1 सेमी है। इसलिए एक भुजा पर छोटे घनों की संख्या 6/1 = 6 होगी। कुल छोटे घन = 6^3 = 216।"
+            }
+          ],
+          "questionImageAsset": "dice3_q05.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 3",
+          "hindi": "डाइस 3"
+        },
+        {
+          "english": "Question 05",
+          "hindi": "प्रश्न 05"
+        },
+        {
+          "english": "Source page 17",
+          "hindi": "स्रोत पेज 17"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice3_q06_cube_corners",
+      "sourceLessonId": "verbal_reasoning_dice3",
+      "chapterNumber": 3,
+      "chapterTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "lessonTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "subtopicTitle": {
+        "english": "Question 06: Cube Corners",
+        "hindi": "प्रश्न 06: घन के कोने"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 06 from Dice 3.",
+        "hindi": "डाइस 3 का प्रश्न 06 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Cube Corners",
+        "hindi": "घन के कोने"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: How many corners does a cube have?",
+          "hindi": "प्रश्न: एक घन में कितने कोने होते हैं?"
+        },
+        {
+          "english": "A cube has 2 square faces opposite each other. Each square has 4 corners. So total corners = 4 + 4 = 8. These corners are also called vertices.",
+          "hindi": "घन में ऊपर और नीचे 2 वर्गाकार सतहें मानी जा सकती हैं। हर वर्ग के 4 कोने होते हैं। इसलिए कुल कोने = 4 + 4 = 8। इन कोनों को शीर्ष भी कहते हैं।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "A cube has 8 vertices, and each vertex is a corner.",
+          "hindi": "घन के 8 शीर्ष होते हैं, और हर शीर्ष एक कोना होता है।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice3_q06",
+          "prompt": {
+            "english": "How many corners does a cube have?",
+            "hindi": "एक घन में कितने कोने होते हैं?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "8",
+            "eight",
+            "8 corners",
+            "eight corners",
+            "आठ"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "A cube has 2 square faces opposite each other. Each square has 4 corners. So total corners = 4 + 4 = 8. These corners are also called vertices.",
+            "hindi": "घन में ऊपर और नीचे 2 वर्गाकार सतहें मानी जा सकती हैं। हर वर्ग के 4 कोने होते हैं। इसलिए कुल कोने = 4 + 4 = 8। इन कोनों को शीर्ष भी कहते हैं।"
+          },
+          "supportExample": {
+            "english": "A cube has 8 vertices, and each vertex is a corner.",
+            "hindi": "घन के 8 शीर्ष होते हैं, और हर शीर्ष एक कोना होता है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A cube has 2 square faces opposite each other. Each square has 4 corners. So total corners = 4 + 4 = 8. These corners are also called vertices.",
+              "hindi": "घन में ऊपर और नीचे 2 वर्गाकार सतहें मानी जा सकती हैं। हर वर्ग के 4 कोने होते हैं। इसलिए कुल कोने = 4 + 4 = 8। इन कोनों को शीर्ष भी कहते हैं।"
+            }
+          ],
+          "questionImageAsset": "dice3_q06.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 3",
+          "hindi": "डाइस 3"
+        },
+        {
+          "english": "Question 06",
+          "hindi": "प्रश्न 06"
+        },
+        {
+          "english": "Source page 18",
+          "hindi": "स्रोत पेज 18"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice3_q07_painted_cube",
+      "sourceLessonId": "verbal_reasoning_dice3",
+      "chapterNumber": 3,
+      "chapterTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "lessonTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "subtopicTitle": {
+        "english": "Question 07: Painted Cube",
+        "hindi": "प्रश्न 07: रंगा हुआ घन"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 07 from Dice 3.",
+        "hindi": "डाइस 3 का प्रश्न 07 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Painted Cube",
+        "hindi": "रंगा हुआ घन"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: A 10 cm cube is painted yellow on all outer surfaces and then cut into 2 cm cubes. How many small cubes have exactly one face painted?",
+          "hindi": "प्रश्न: 10 सेमी के घन की सभी बाहरी सतहों पर पीला रंग किया जाता है। फिर उसे 2 सेमी के छोटे घनों में काटा जाता है। ऐसे कितने छोटे घन होंगे जिनकी ठीक 1 सतह रंगी होगी?"
+        },
+        {
+          "english": "First find how many small cubes fit along one edge: n = 10/2 = 5. For a painted cube, the small cubes with exactly one face painted are the middle cubes on each of the 6 faces, so the formula is 6(n-2)^2. Therefore, 6(5-2)^2 = 6 x 3^2 = 6 x 9 = 54.",
+          "hindi": "पहले एक किनारे पर छोटे घनों की संख्या निकालते हैं: n = 10/2 = 5। रंगे हुए घन में जिन छोटे घनों की ठीक 1 सतह रंगी होती है, वे 6 फलकों के बीच वाले घन होते हैं, इसलिए सूत्र 6(n-2)^2 होता है। अतः 6(5-2)^2 = 6 x 3^2 = 6 x 9 = 54।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Cubes with exactly one face painted are the center cubes on each face: 6(n-2)^2.",
+          "hindi": "जिन छोटे घनों की ठीक 1 सतह रंगी होती है, वे हर फलक के बीच वाले घन होते हैं: 6(n-2)^2."
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice3_q07",
+          "prompt": {
+            "english": "A 10 cm cube is painted yellow on all outer surfaces and then cut into 2 cm cubes. How many small cubes have exactly one face painted?",
+            "hindi": "10 सेमी के घन की सभी बाहरी सतहों पर पीला रंग किया जाता है। फिर उसे 2 सेमी के छोटे घनों में काटा जाता है। ऐसे कितने छोटे घन होंगे जिनकी ठीक 1 सतह रंगी होगी?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "54",
+            "54 cubes",
+            "54 small cubes",
+            "54 घन",
+            "54 छोटे घन"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "First find how many small cubes fit along one edge: n = 10/2 = 5. For a painted cube, the small cubes with exactly one face painted are the middle cubes on each of the 6 faces, so the formula is 6(n-2)^2. Therefore, 6(5-2)^2 = 6 x 3^2 = 6 x 9 = 54.",
+            "hindi": "पहले एक किनारे पर छोटे घनों की संख्या निकालते हैं: n = 10/2 = 5। रंगे हुए घन में जिन छोटे घनों की ठीक 1 सतह रंगी होती है, वे 6 फलकों के बीच वाले घन होते हैं, इसलिए सूत्र 6(n-2)^2 होता है। अतः 6(5-2)^2 = 6 x 3^2 = 6 x 9 = 54।"
+          },
+          "supportExample": {
+            "english": "Cubes with exactly one face painted are the center cubes on each face: 6(n-2)^2.",
+            "hindi": "जिन छोटे घनों की ठीक 1 सतह रंगी होती है, वे हर फलक के बीच वाले घन होते हैं: 6(n-2)^2."
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First find how many small cubes fit along one edge: n = 10/2 = 5. For a painted cube, the small cubes with exactly one face painted are the middle cubes on each of the 6 faces, so the formula is 6(n-2)^2. Therefore, 6(5-2)^2 = 6 x 3^2 = 6 x 9 = 54.",
+              "hindi": "पहले एक किनारे पर छोटे घनों की संख्या निकालते हैं: n = 10/2 = 5। रंगे हुए घन में जिन छोटे घनों की ठीक 1 सतह रंगी होती है, वे 6 फलकों के बीच वाले घन होते हैं, इसलिए सूत्र 6(n-2)^2 होता है। अतः 6(5-2)^2 = 6 x 3^2 = 6 x 9 = 54।"
+            }
+          ],
+          "questionImageAsset": "dice3_q07.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 3",
+          "hindi": "डाइस 3"
+        },
+        {
+          "english": "Question 07",
+          "hindi": "प्रश्न 07"
+        },
+        {
+          "english": "Source page 19",
+          "hindi": "स्रोत पेज 19"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice3_q08_painted_cube",
+      "sourceLessonId": "verbal_reasoning_dice3",
+      "chapterNumber": 3,
+      "chapterTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "lessonTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "subtopicTitle": {
+        "english": "Question 08: Painted Cube",
+        "hindi": "प्रश्न 08: रंगा हुआ घन"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 08 from Dice 3.",
+        "hindi": "डाइस 3 का प्रश्न 08 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Painted Cube",
+        "hindi": "रंगा हुआ घन"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: A 20 cm cube is painted black and then cut into small cubes of side 4 cm. Find the number of small cubes with exactly 2 faces painted.",
+          "hindi": "प्रश्न: 20 सेमी भुजा वाले एक घन को काले रंग से रंगा जाता है, फिर उसे 4 सेमी भुजा वाले छोटे घनों में काटा जाता है। ऐसे छोटे घनों की संख्या ज्ञात कीजिए जिनकी ठीक 2 सतहें रंगी हों।"
+        },
+        {
+          "english": "First find how many small cubes fit along one edge: 20 / 4 = 5, so n = 5. In a painted cube, the cubes with exactly 2 painted faces lie on the edges, excluding the 2 corner cubes on each edge. Their count is 12(n - 2). So, 12(5 - 2) = 12 x 3 = 36. Therefore, 36 small cubes have exactly 2 faces painted.",
+          "hindi": "पहले एक किनारे पर छोटे घनों की संख्या निकालते हैं: 20 / 4 = 5, इसलिए n = 5। रंगे हुए घन में जिन छोटे घनों की ठीक 2 सतहें रंगी होती हैं, वे किनारों पर होते हैं, लेकिन हर किनारे के 2 कोने वाले घनों को छोड़ दिया जाता है। इनकी संख्या का सूत्र 12(n - 2) होता है। अतः 12(5 - 2) = 12 x 3 = 36। इसलिए ठीक 2 सतहों पर रंग वाले छोटे घनों की संख्या 36 है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Small cubes on edges, excluding corners, have exactly 2 painted faces.",
+          "hindi": "किनारों पर स्थित, लेकिन कोनों को छोड़कर, छोटे घनों की ठीक 2 सतहें रंगी होती हैं।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice3_q08",
+          "prompt": {
+            "english": "A 20 cm cube is painted black and then cut into small cubes of side 4 cm. Find the number of small cubes with exactly 2 faces painted.",
+            "hindi": "20 सेमी भुजा वाले एक घन को काले रंग से रंगा जाता है, फिर उसे 4 सेमी भुजा वाले छोटे घनों में काटा जाता है। ऐसे छोटे घनों की संख्या ज्ञात कीजिए जिनकी ठीक 2 सतहें रंगी हों।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "36",
+            "36 cubes",
+            "36 small cubes",
+            "छत्तीस",
+            "36 घन"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "First find how many small cubes fit along one edge: 20 / 4 = 5, so n = 5. In a painted cube, the cubes with exactly 2 painted faces lie on the edges, excluding the 2 corner cubes on each edge. Their count is 12(n - 2). So, 12(5 - 2) = 12 x 3 = 36. Therefore, 36 small cubes have exactly 2 faces painted.",
+            "hindi": "पहले एक किनारे पर छोटे घनों की संख्या निकालते हैं: 20 / 4 = 5, इसलिए n = 5। रंगे हुए घन में जिन छोटे घनों की ठीक 2 सतहें रंगी होती हैं, वे किनारों पर होते हैं, लेकिन हर किनारे के 2 कोने वाले घनों को छोड़ दिया जाता है। इनकी संख्या का सूत्र 12(n - 2) होता है। अतः 12(5 - 2) = 12 x 3 = 36। इसलिए ठीक 2 सतहों पर रंग वाले छोटे घनों की संख्या 36 है।"
+          },
+          "supportExample": {
+            "english": "Small cubes on edges, excluding corners, have exactly 2 painted faces.",
+            "hindi": "किनारों पर स्थित, लेकिन कोनों को छोड़कर, छोटे घनों की ठीक 2 सतहें रंगी होती हैं।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First find how many small cubes fit along one edge: 20 / 4 = 5, so n = 5. In a painted cube, the cubes with exactly 2 painted faces lie on the edges, excluding the 2 corner cubes on each edge. Their count is 12(n - 2). So, 12(5 - 2) = 12 x 3 = 36. Therefore, 36 small cubes have exactly 2 faces painted.",
+              "hindi": "पहले एक किनारे पर छोटे घनों की संख्या निकालते हैं: 20 / 4 = 5, इसलिए n = 5। रंगे हुए घन में जिन छोटे घनों की ठीक 2 सतहें रंगी होती हैं, वे किनारों पर होते हैं, लेकिन हर किनारे के 2 कोने वाले घनों को छोड़ दिया जाता है। इनकी संख्या का सूत्र 12(n - 2) होता है। अतः 12(5 - 2) = 12 x 3 = 36। इसलिए ठीक 2 सतहों पर रंग वाले छोटे घनों की संख्या 36 है।"
+            }
+          ],
+          "questionImageAsset": "dice3_q08.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 3",
+          "hindi": "डाइस 3"
+        },
+        {
+          "english": "Question 08",
+          "hindi": "प्रश्न 08"
+        },
+        {
+          "english": "Source page 20",
+          "hindi": "स्रोत पेज 20"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice3_q09_painted_cube",
+      "sourceLessonId": "verbal_reasoning_dice3",
+      "chapterNumber": 3,
+      "chapterTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "lessonTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "subtopicTitle": {
+        "english": "Question 09: Painted Cube",
+        "hindi": "प्रश्न 09: रंगा हुआ घन"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 09 from Dice 3.",
+        "hindi": "डाइस 3 का प्रश्न 09 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Painted Cube",
+        "hindi": "रंगा हुआ घन"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: An 18 cm cube is painted green and then cut into small cubes of side 3 cm. Find the number of small cubes that have no painted surface.",
+          "hindi": "प्रश्न: 18 सेमी के घन को हरे रंग से रंगा जाता है, फिर उसे 3 सेमी भुजा वाले छोटे घनों में काटा जाता है। उन छोटे घनों की संख्या ज्ञात कीजिए जिनकी कोई भी सतह रंगी हुई नहीं है।"
+        },
+        {
+          "english": "Each edge of the big cube is 18 cm, and each small cube has edge 3 cm. So the number of small cubes along one edge is 18/3 = 6. Cubes with zero painted surface are completely inside the big cube, so remove 1 layer from each side: 6 - 2 = 4. Therefore, number of unpainted cubes = 4^3 = 64.",
+          "hindi": "बड़े घन की हर भुजा 18 सेमी है और छोटे घन की भुजा 3 सेमी है। इसलिए एक भुजा पर छोटे घनों की संख्या 18/3 = 6 होगी। जिन घनों पर कोई रंग नहीं होगा, वे बिल्कुल अंदर वाले घन होंगे। इसलिए हर दिशा में बाहर की 1-1 परत हटाएँ: 6 - 2 = 4। अतः बिना रंग वाले घनों की संख्या = 4^3 = 64।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "For a painted cube, cubes with no paint are the inner cubes: (n-2)^3.",
+          "hindi": "रंगे हुए घन में बिना रंग वाले घन अंदर के होते हैं: (n-2)^3।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice3_q09",
+          "prompt": {
+            "english": "An 18 cm cube is painted green and then cut into small cubes of side 3 cm. Find the number of small cubes that have no painted surface.",
+            "hindi": "18 सेमी के घन को हरे रंग से रंगा जाता है, फिर उसे 3 सेमी भुजा वाले छोटे घनों में काटा जाता है। उन छोटे घनों की संख्या ज्ञात कीजिए जिनकी कोई भी सतह रंगी हुई नहीं है।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "64",
+            "64 cubes",
+            "64 small cubes",
+            "sixty four",
+            "चौंसठ",
+            "64 घन",
+            "64 छोटे घन"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "Each edge of the big cube is 18 cm, and each small cube has edge 3 cm. So the number of small cubes along one edge is 18/3 = 6. Cubes with zero painted surface are completely inside the big cube, so remove 1 layer from each side: 6 - 2 = 4. Therefore, number of unpainted cubes = 4^3 = 64.",
+            "hindi": "बड़े घन की हर भुजा 18 सेमी है और छोटे घन की भुजा 3 सेमी है। इसलिए एक भुजा पर छोटे घनों की संख्या 18/3 = 6 होगी। जिन घनों पर कोई रंग नहीं होगा, वे बिल्कुल अंदर वाले घन होंगे। इसलिए हर दिशा में बाहर की 1-1 परत हटाएँ: 6 - 2 = 4। अतः बिना रंग वाले घनों की संख्या = 4^3 = 64।"
+          },
+          "supportExample": {
+            "english": "For a painted cube, cubes with no paint are the inner cubes: (n-2)^3.",
+            "hindi": "रंगे हुए घन में बिना रंग वाले घन अंदर के होते हैं: (n-2)^3।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Each edge of the big cube is 18 cm, and each small cube has edge 3 cm. So the number of small cubes along one edge is 18/3 = 6. Cubes with zero painted surface are completely inside the big cube, so remove 1 layer from each side: 6 - 2 = 4. Therefore, number of unpainted cubes = 4^3 = 64.",
+              "hindi": "बड़े घन की हर भुजा 18 सेमी है और छोटे घन की भुजा 3 सेमी है। इसलिए एक भुजा पर छोटे घनों की संख्या 18/3 = 6 होगी। जिन घनों पर कोई रंग नहीं होगा, वे बिल्कुल अंदर वाले घन होंगे। इसलिए हर दिशा में बाहर की 1-1 परत हटाएँ: 6 - 2 = 4। अतः बिना रंग वाले घनों की संख्या = 4^3 = 64।"
+            }
+          ],
+          "questionImageAsset": "dice3_q09.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 3",
+          "hindi": "डाइस 3"
+        },
+        {
+          "english": "Question 09",
+          "hindi": "प्रश्न 09"
+        },
+        {
+          "english": "Source page 21",
+          "hindi": "स्रोत पेज 21"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice3_q10_cube_cutting",
+      "sourceLessonId": "verbal_reasoning_dice3",
+      "chapterNumber": 3,
+      "chapterTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "lessonTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "subtopicTitle": {
+        "english": "Question 10: Cube Cutting",
+        "hindi": "प्रश्न 10: घन को काटना"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 10 from Dice 3.",
+        "hindi": "डाइस 3 का प्रश्न 10 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Cube Cutting",
+        "hindi": "घन को काटना"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: What is the least possible number of cuts required to cut a cube into 64 identical pieces?",
+          "hindi": "प्रश्न: एक घन को 64 समान टुकड़ों में काटने के लिए न्यूनतम संभव कटौती की संख्या क्या होगी?"
+        },
+        {
+          "english": "Let the cube be divided equally along length, width, and height. If each side is split into n equal parts, total pieces = n^3. Here n^3 = 64, so n = 4 because 4 x 4 x 4 = 64. Now, to make 4 equal parts in one direction, we need 3 cuts. A cube has 3 directions, so total cuts = 3 + 3 + 3 = 9. Using the shown formula: 3(n - 1) = 3(4 - 1) = 9.",
+          "hindi": "घन को लंबाई, चौड़ाई और ऊंचाई तीनों दिशाओं में बराबर काटना है। अगर हर किनारे को n बराबर भागों में बांटा जाए, तो कुल टुकड़े n^3 होंगे। यहां n^3 = 64, इसलिए n = 4 क्योंकि 4 x 4 x 4 = 64। अब किसी एक दिशा में 4 समान भाग बनाने के लिए 3 कट चाहिए। घन में ऐसी 3 दिशाएं होती हैं, इसलिए कुल कट = 3 + 3 + 3 = 9। दिए गए सूत्र से भी: 3(n - 1) = 3(4 - 1) = 9।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "To make 4 equal parts in one direction, you need 3 cuts.",
+          "hindi": "किसी एक दिशा में 4 समान भाग बनाने के लिए 3 कट लगते हैं।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice3_q10",
+          "prompt": {
+            "english": "What is the least possible number of cuts required to cut a cube into 64 identical pieces?",
+            "hindi": "एक घन को 64 समान टुकड़ों में काटने के लिए न्यूनतम संभव कटौती की संख्या क्या होगी?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "9",
+            "nine",
+            "9 cuts",
+            "nine cuts",
+            "नौ",
+            "9 कट"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "Let the cube be divided equally along length, width, and height. If each side is split into n equal parts, total pieces = n^3. Here n^3 = 64, so n = 4 because 4 x 4 x 4 = 64. Now, to make 4 equal parts in one direction, we need 3 cuts. A cube has 3 directions, so total cuts = 3 + 3 + 3 = 9. Using the shown formula: 3(n - 1) = 3(4 - 1) = 9.",
+            "hindi": "घन को लंबाई, चौड़ाई और ऊंचाई तीनों दिशाओं में बराबर काटना है। अगर हर किनारे को n बराबर भागों में बांटा जाए, तो कुल टुकड़े n^3 होंगे। यहां n^3 = 64, इसलिए n = 4 क्योंकि 4 x 4 x 4 = 64। अब किसी एक दिशा में 4 समान भाग बनाने के लिए 3 कट चाहिए। घन में ऐसी 3 दिशाएं होती हैं, इसलिए कुल कट = 3 + 3 + 3 = 9। दिए गए सूत्र से भी: 3(n - 1) = 3(4 - 1) = 9।"
+          },
+          "supportExample": {
+            "english": "To make 4 equal parts in one direction, you need 3 cuts.",
+            "hindi": "किसी एक दिशा में 4 समान भाग बनाने के लिए 3 कट लगते हैं।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let the cube be divided equally along length, width, and height. If each side is split into n equal parts, total pieces = n^3. Here n^3 = 64, so n = 4 because 4 x 4 x 4 = 64. Now, to make 4 equal parts in one direction, we need 3 cuts. A cube has 3 directions, so total cuts = 3 + 3 + 3 = 9. Using the shown formula: 3(n - 1) = 3(4 - 1) = 9.",
+              "hindi": "घन को लंबाई, चौड़ाई और ऊंचाई तीनों दिशाओं में बराबर काटना है। अगर हर किनारे को n बराबर भागों में बांटा जाए, तो कुल टुकड़े n^3 होंगे। यहां n^3 = 64, इसलिए n = 4 क्योंकि 4 x 4 x 4 = 64। अब किसी एक दिशा में 4 समान भाग बनाने के लिए 3 कट चाहिए। घन में ऐसी 3 दिशाएं होती हैं, इसलिए कुल कट = 3 + 3 + 3 = 9। दिए गए सूत्र से भी: 3(n - 1) = 3(4 - 1) = 9।"
+            }
+          ],
+          "questionImageAsset": "dice3_q10.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 3",
+          "hindi": "डाइस 3"
+        },
+        {
+          "english": "Question 10",
+          "hindi": "प्रश्न 10"
+        },
+        {
+          "english": "Source page 22",
+          "hindi": "स्रोत पेज 22"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice3_q11_cutting_a_cube_into_smaller_cubes",
+      "sourceLessonId": "verbal_reasoning_dice3",
+      "chapterNumber": 3,
+      "chapterTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "lessonTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "subtopicTitle": {
+        "english": "Question 11: Cutting a Cube into Smaller Cubes",
+        "hindi": "प्रश्न 11: घन को छोटे घनों में काटना"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 11 from Dice 3.",
+        "hindi": "डाइस 3 का प्रश्न 11 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Cutting a Cube into Smaller Cubes",
+        "hindi": "घन को छोटे घनों में काटना"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: A 12 cm colored cube is cut into 64 smaller cubes. What is the edge length of each smaller cube?",
+          "hindi": "प्रश्न: 12 सेमी के रंगीन घन को 64 छोटे घनों में काटा जाता है। प्रत्येक छोटे घन की भुजा की लंबाई क्या होगी?"
+        },
+        {
+          "english": "Let the edge of each smaller cube be x cm. For cubes, number of small cubes = (big cube edge / small cube edge)^3. So (12/x)^3 = 64. Since 64 = 4^3, we get 12/x = 4. Therefore x = 12/4 = 3 cm. So each smaller cube has edge length 3 cm.",
+          "hindi": "मान लें प्रत्येक छोटे घन की भुजा x सेमी है। घन के लिए छोटे घनों की संख्या = (बड़े घन की भुजा / छोटे घन की भुजा)^3 होती है। इसलिए (12/x)^3 = 64। क्योंकि 64 = 4^3, इसलिए 12/x = 4। अब x = 12/4 = 3 सेमी। अतः प्रत्येक छोटे घन की भुजा 3 सेमी होगी।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "If a cube is divided into n × n × n equal cubes, the total number of small cubes is n^3.",
+          "hindi": "यदि किसी घन को n × n × n बराबर भागों में काटा जाए, तो छोटे घनों की कुल संख्या n^3 होती है।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice3_q11",
+          "prompt": {
+            "english": "A 12 cm colored cube is cut into 64 smaller cubes. What is the edge length of each smaller cube?",
+            "hindi": "12 सेमी के रंगीन घन को 64 छोटे घनों में काटा जाता है। प्रत्येक छोटे घन की भुजा की लंबाई क्या होगी?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "3 cm",
+            "3",
+            "3 centimetres",
+            "3 centimeters",
+            "3 cm.",
+            "3 सेमी",
+            "3 सेंटीमीटर"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "Let the edge of each smaller cube be x cm. For cubes, number of small cubes = (big cube edge / small cube edge)^3. So (12/x)^3 = 64. Since 64 = 4^3, we get 12/x = 4. Therefore x = 12/4 = 3 cm. So each smaller cube has edge length 3 cm.",
+            "hindi": "मान लें प्रत्येक छोटे घन की भुजा x सेमी है। घन के लिए छोटे घनों की संख्या = (बड़े घन की भुजा / छोटे घन की भुजा)^3 होती है। इसलिए (12/x)^3 = 64। क्योंकि 64 = 4^3, इसलिए 12/x = 4। अब x = 12/4 = 3 सेमी। अतः प्रत्येक छोटे घन की भुजा 3 सेमी होगी।"
+          },
+          "supportExample": {
+            "english": "If a cube is divided into n × n × n equal cubes, the total number of small cubes is n^3.",
+            "hindi": "यदि किसी घन को n × n × n बराबर भागों में काटा जाए, तो छोटे घनों की कुल संख्या n^3 होती है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let the edge of each smaller cube be x cm. For cubes, number of small cubes = (big cube edge / small cube edge)^3. So (12/x)^3 = 64. Since 64 = 4^3, we get 12/x = 4. Therefore x = 12/4 = 3 cm. So each smaller cube has edge length 3 cm.",
+              "hindi": "मान लें प्रत्येक छोटे घन की भुजा x सेमी है। घन के लिए छोटे घनों की संख्या = (बड़े घन की भुजा / छोटे घन की भुजा)^3 होती है। इसलिए (12/x)^3 = 64। क्योंकि 64 = 4^3, इसलिए 12/x = 4। अब x = 12/4 = 3 सेमी। अतः प्रत्येक छोटे घन की भुजा 3 सेमी होगी।"
+            }
+          ],
+          "questionImageAsset": "dice3_q11.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 3",
+          "hindi": "डाइस 3"
+        },
+        {
+          "english": "Question 11",
+          "hindi": "प्रश्न 11"
+        },
+        {
+          "english": "Source page 23",
+          "hindi": "स्रोत पेज 23"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice3_q12_cube_cutting",
+      "sourceLessonId": "verbal_reasoning_dice3",
+      "chapterNumber": 3,
+      "chapterTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "lessonTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "subtopicTitle": {
+        "english": "Question 12: Cube Cutting",
+        "hindi": "प्रश्न 12: घन काटना"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 12 from Dice 3.",
+        "hindi": "डाइस 3 का प्रश्न 12 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Cube Cutting",
+        "hindi": "घन काटना"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: If a cube is chopped and 729 small cubes are formed, how many times is the knife used in this process?",
+          "hindi": "प्रश्न: यदि एक घन को काटने पर 729 छोटे घन बनते हैं, तो इस प्रक्रिया में चाकू का उपयोग कितनी बार किया गया?"
+        },
+        {
+          "english": "Let the cube be cut into n equal parts on each edge. Then the number of small cubes is n^3. Given n^3 = 729, so n = 9. To make 9 parts along one direction, 8 cuts are needed. The cube has 3 directions, so total cuts = 8 + 8 + 8 = 24, that is 3(n-1) = 3(9-1) = 24.",
+          "hindi": "मान लें कि घन की हर भुजा को n बराबर भागों में काटा गया है। तब छोटे घनों की संख्या n^3 होगी। दिया है n^3 = 729, इसलिए n = 9। किसी एक दिशा में 9 भाग बनाने के लिए 8 कट लगते हैं। घन में ऐसी 3 दिशाएँ होती हैं, इसलिए कुल कट = 8 + 8 + 8 = 24, अर्थात 3(n-1) = 3(9-1) = 24।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "If a cube is divided into n equal parts on each edge, the total number of small cubes is n^3.",
+          "hindi": "यदि घन की हर भुजा को n बराबर भागों में बाँटा जाए, तो छोटे घनों की कुल संख्या n^3 होती है।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice3_q12",
+          "prompt": {
+            "english": "If a cube is chopped and 729 small cubes are formed, how many times is the knife used in this process?",
+            "hindi": "यदि एक घन को काटने पर 729 छोटे घन बनते हैं, तो इस प्रक्रिया में चाकू का उपयोग कितनी बार किया गया?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "24",
+            "24 times",
+            "twenty four",
+            "24 बार",
+            "२४"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "Let the cube be cut into n equal parts on each edge. Then the number of small cubes is n^3. Given n^3 = 729, so n = 9. To make 9 parts along one direction, 8 cuts are needed. The cube has 3 directions, so total cuts = 8 + 8 + 8 = 24, that is 3(n-1) = 3(9-1) = 24.",
+            "hindi": "मान लें कि घन की हर भुजा को n बराबर भागों में काटा गया है। तब छोटे घनों की संख्या n^3 होगी। दिया है n^3 = 729, इसलिए n = 9। किसी एक दिशा में 9 भाग बनाने के लिए 8 कट लगते हैं। घन में ऐसी 3 दिशाएँ होती हैं, इसलिए कुल कट = 8 + 8 + 8 = 24, अर्थात 3(n-1) = 3(9-1) = 24।"
+          },
+          "supportExample": {
+            "english": "If a cube is divided into n equal parts on each edge, the total number of small cubes is n^3.",
+            "hindi": "यदि घन की हर भुजा को n बराबर भागों में बाँटा जाए, तो छोटे घनों की कुल संख्या n^3 होती है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let the cube be cut into n equal parts on each edge. Then the number of small cubes is n^3. Given n^3 = 729, so n = 9. To make 9 parts along one direction, 8 cuts are needed. The cube has 3 directions, so total cuts = 8 + 8 + 8 = 24, that is 3(n-1) = 3(9-1) = 24.",
+              "hindi": "मान लें कि घन की हर भुजा को n बराबर भागों में काटा गया है। तब छोटे घनों की संख्या n^3 होगी। दिया है n^3 = 729, इसलिए n = 9। किसी एक दिशा में 9 भाग बनाने के लिए 8 कट लगते हैं। घन में ऐसी 3 दिशाएँ होती हैं, इसलिए कुल कट = 8 + 8 + 8 = 24, अर्थात 3(n-1) = 3(9-1) = 24।"
+            }
+          ],
+          "questionImageAsset": "dice3_q12.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 3",
+          "hindi": "डाइस 3"
+        },
+        {
+          "english": "Question 12",
+          "hindi": "प्रश्न 12"
+        },
+        {
+          "english": "Source page 24",
+          "hindi": "स्रोत पेज 24"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice3_q13_painted_cube_uncolored_inner_cubes",
+      "sourceLessonId": "verbal_reasoning_dice3",
+      "chapterNumber": 3,
+      "chapterTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "lessonTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "subtopicTitle": {
+        "english": "Question 13: Painted Cube: Uncolored Inner Cubes",
+        "hindi": "प्रश्न 13: रंगा हुआ घन: बिना रंग वाले अंदरूनी घन"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 13 from Dice 3.",
+        "hindi": "डाइस 3 का प्रश्न 13 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Painted Cube: Uncolored Inner Cubes",
+        "hindi": "रंगा हुआ घन: बिना रंग वाले अंदरूनी घन"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: All the faces of a cube are painted brown. Then it is cut into 512 small equal cubes. How many small cubes will have no face colored?",
+          "hindi": "प्रश्न: एक घन के सभी फलकों को भूरे रंग से रंगा गया है। फिर उसे 512 छोटे बराबर घनों में काटा गया है। ऐसे कितने छोटे घन बनेंगे जिनका कोई भी फलक रंगा हुआ न हो?"
+        },
+        {
+          "english": "Let the cube be cut into n small parts along each edge. Then total small cubes = n^3 = 512, so n = 8. The cubes with no colored face are only the inner cubes. Their number is (n-2)^3 = (8-2)^3 = 6^3 = 216.",
+          "hindi": "मान लें बड़े घन की हर धार को n बराबर भागों में काटा गया है। तब कुल छोटे घन n^3 = 512 होंगे, इसलिए n = 8। जिन छोटे घनों का कोई भी फलक रंगा नहीं होगा, वे केवल अंदर वाले घन होंगे। उनकी संख्या (n-2)^3 = (8-2)^3 = 6^3 = 216 है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "If a painted cube is divided into n×n×n small cubes, cubes with no painted face = (n-2)^3.",
+          "hindi": "यदि रंगे हुए घन को n×n×n छोटे घनों में बाँटा जाए, तो बिना रंग वाले घन = (n-2)^3 होते हैं।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice3_q13",
+          "prompt": {
+            "english": "All the faces of a cube are painted brown. Then it is cut into 512 small equal cubes. How many small cubes will have no face colored?",
+            "hindi": "एक घन के सभी फलकों को भूरे रंग से रंगा गया है। फिर उसे 512 छोटे बराबर घनों में काटा गया है। ऐसे कितने छोटे घन बनेंगे जिनका कोई भी फलक रंगा हुआ न हो?"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "216",
+            "216 cubes",
+            "216 small cubes",
+            "२१६",
+            "216 घन"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "Let the cube be cut into n small parts along each edge. Then total small cubes = n^3 = 512, so n = 8. The cubes with no colored face are only the inner cubes. Their number is (n-2)^3 = (8-2)^3 = 6^3 = 216.",
+            "hindi": "मान लें बड़े घन की हर धार को n बराबर भागों में काटा गया है। तब कुल छोटे घन n^3 = 512 होंगे, इसलिए n = 8। जिन छोटे घनों का कोई भी फलक रंगा नहीं होगा, वे केवल अंदर वाले घन होंगे। उनकी संख्या (n-2)^3 = (8-2)^3 = 6^3 = 216 है।"
+          },
+          "supportExample": {
+            "english": "If a painted cube is divided into n×n×n small cubes, cubes with no painted face = (n-2)^3.",
+            "hindi": "यदि रंगे हुए घन को n×n×n छोटे घनों में बाँटा जाए, तो बिना रंग वाले घन = (n-2)^3 होते हैं।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let the cube be cut into n small parts along each edge. Then total small cubes = n^3 = 512, so n = 8. The cubes with no colored face are only the inner cubes. Their number is (n-2)^3 = (8-2)^3 = 6^3 = 216.",
+              "hindi": "मान लें बड़े घन की हर धार को n बराबर भागों में काटा गया है। तब कुल छोटे घन n^3 = 512 होंगे, इसलिए n = 8। जिन छोटे घनों का कोई भी फलक रंगा नहीं होगा, वे केवल अंदर वाले घन होंगे। उनकी संख्या (n-2)^3 = (8-2)^3 = 6^3 = 216 है।"
+            }
+          ],
+          "questionImageAsset": "dice3_q13.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 3",
+          "hindi": "डाइस 3"
+        },
+        {
+          "english": "Question 13",
+          "hindi": "प्रश्न 13"
+        },
+        {
+          "english": "Source page 25",
+          "hindi": "स्रोत पेज 25"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice3_q14_painted_cube",
+      "sourceLessonId": "verbal_reasoning_dice3",
+      "chapterNumber": 3,
+      "chapterTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "lessonTitle": {
+        "english": "Dice 3",
+        "hindi": "डाइस 3"
+      },
+      "subtopicTitle": {
+        "english": "Question 14: Painted Cube",
+        "hindi": "प्रश्न 14: रंगा हुआ घन"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 14 from Dice 3.",
+        "hindi": "डाइस 3 का प्रश्न 14 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Painted Cube",
+        "hindi": "रंगा हुआ घन"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: A cube of side 49 cm is painted purple on all faces and then cut into smaller cubes of side 7 cm each. Find the number of smaller cubes having only one face painted.",
+          "hindi": "प्रश्न: 49 सेमी भुजा वाले एक घन के सभी फलक बैंगनी रंग से रंगे गए हैं और फिर उसे 7 सेमी भुजा वाले छोटे घनों में काट दिया गया है। उन छोटे घनों की संख्या ज्ञात कीजिए जिनके केवल एक फलक पर रंग लगा है।"
+        },
+        {
+          "english": "Number of small cubes along one edge = 49/7 = 7, so n = 7. Small cubes with exactly one face painted are the cubes on each face excluding edges and corners. On one face, such cubes = (n-2)^2 = (7-2)^2 = 25. Since a cube has 6 faces, total = 6 x 25 = 150.",
+          "hindi": "एक किनारे पर छोटे घनों की संख्या = 49/7 = 7, इसलिए n = 7। जिन छोटे घनों पर केवल एक फलक रंगा होता है, वे हर फलक के बीच वाले घन होते हैं; किनारों और कोनों वाले घन इसमें नहीं आते। एक फलक पर ऐसे घन = (n-2)^2 = (7-2)^2 = 25। घन के 6 फलक होते हैं, इसलिए कुल संख्या = 6 x 25 = 150।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "In a fully painted cube, cubes with exactly one face painted are the center cubes on each face: 6(n-2)^2.",
+          "hindi": "पूरी तरह रंगे हुए घन में केवल एक फलक रंगे छोटे घन हर फलक के बीच वाले भाग में होते हैं: 6(n-2)^2."
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice3_q14",
+          "prompt": {
+            "english": "A cube of side 49 cm is painted purple on all faces and then cut into smaller cubes of side 7 cm each. Find the number of smaller cubes having only one face painted.",
+            "hindi": "49 सेमी भुजा वाले एक घन के सभी फलक बैंगनी रंग से रंगे गए हैं और फिर उसे 7 सेमी भुजा वाले छोटे घनों में काट दिया गया है। उन छोटे घनों की संख्या ज्ञात कीजिए जिनके केवल एक फलक पर रंग लगा है।"
+          },
+          "type": "TEXT_INPUT",
+          "options": [],
+          "correctOptionIndex": null,
+          "acceptedAnswers": [
+            "150",
+            "150 cubes",
+            "150 small cubes",
+            "१५०"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "Number of small cubes along one edge = 49/7 = 7, so n = 7. Small cubes with exactly one face painted are the cubes on each face excluding edges and corners. On one face, such cubes = (n-2)^2 = (7-2)^2 = 25. Since a cube has 6 faces, total = 6 x 25 = 150.",
+            "hindi": "एक किनारे पर छोटे घनों की संख्या = 49/7 = 7, इसलिए n = 7। जिन छोटे घनों पर केवल एक फलक रंगा होता है, वे हर फलक के बीच वाले घन होते हैं; किनारों और कोनों वाले घन इसमें नहीं आते। एक फलक पर ऐसे घन = (n-2)^2 = (7-2)^2 = 25। घन के 6 फलक होते हैं, इसलिए कुल संख्या = 6 x 25 = 150।"
+          },
+          "supportExample": {
+            "english": "In a fully painted cube, cubes with exactly one face painted are the center cubes on each face: 6(n-2)^2.",
+            "hindi": "पूरी तरह रंगे हुए घन में केवल एक फलक रंगे छोटे घन हर फलक के बीच वाले भाग में होते हैं: 6(n-2)^2."
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Number of small cubes along one edge = 49/7 = 7, so n = 7. Small cubes with exactly one face painted are the cubes on each face excluding edges and corners. On one face, such cubes = (n-2)^2 = (7-2)^2 = 25. Since a cube has 6 faces, total = 6 x 25 = 150.",
+              "hindi": "एक किनारे पर छोटे घनों की संख्या = 49/7 = 7, इसलिए n = 7। जिन छोटे घनों पर केवल एक फलक रंगा होता है, वे हर फलक के बीच वाले घन होते हैं; किनारों और कोनों वाले घन इसमें नहीं आते। एक फलक पर ऐसे घन = (n-2)^2 = (7-2)^2 = 25। घन के 6 फलक होते हैं, इसलिए कुल संख्या = 6 x 25 = 150।"
+            }
+          ],
+          "questionImageAsset": "dice3_q14.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 3",
+          "hindi": "डाइस 3"
+        },
+        {
+          "english": "Question 14",
+          "hindi": "प्रश्न 14"
+        },
+        {
+          "english": "Source page 26",
+          "hindi": "स्रोत पेज 26"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    }
+  ]
+}

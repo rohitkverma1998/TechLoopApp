@@ -9,10 +9,12 @@
     "hindi": "डाइस और क्यूब"
   },
   "teacherNote": {
-    "english": "Use one question at a time. Ask the learner to compare adjacent and opposite faces before checking the bilingual solution.",
-    "hindi": "एक समय में एक प्रश्न कराइए। हल देखने से पहले विद्यार्थी से आसन्न और विपरीत फलकों की तुलना करवाइए।"
+    "english": "Each chapter comes from a separate PDF. Use the screenshot, compare faces carefully, and then check the bilingual solution.",
+    "hindi": "हर अध्याय अलग PDF से लिया गया है। पहले स्क्रीनशॉट देखकर फलकों की तुलना कराइए, फिर द्विभाषी हल जाँचिए।"
   },
   "chapterAssetPaths": [
-    "class5_rs_aggarwal_math/chapter_01_dice_and_cube.json"
+    "class5_rs_aggarwal_math/chapter_01_dice_1.json",
+    "class5_rs_aggarwal_math/chapter_02_dice_2.json",
+    "class5_rs_aggarwal_math/chapter_03_dice_3.json"
   ]
 }

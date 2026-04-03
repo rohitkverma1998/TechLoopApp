@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "is_question",
+    "question_number",
+    "topic_title_en",
+    "topic_title_hi",
+    "question_prompt_en",
+    "question_prompt_hi",
+    "question_type",
+    "options",
+    "correct_option_index",
+    "accepted_answers",
+    "final_answer",
+    "support_example_en",
+    "support_example_hi",
+    "solution_en",
+    "solution_hi"
+  ],
+  "properties": {
+    "is_question": {
+      "type": "boolean"
+    },
+    "question_number": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "topic_title_en": {
+      "type": "string"
+    },
+    "topic_title_hi": {
+      "type": "string"
+    },
+    "question_prompt_en": {
+      "type": "string"
+    },
+    "question_prompt_hi": {
+      "type": "string"
+    },
+    "question_type": {
+      "type": "string",
+      "enum": [
+        "MULTIPLE_CHOICE",
+        "TEXT_INPUT"
+      ]
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "correct_option_index": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "accepted_answers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "final_answer": {
+      "type": "string"
+    },
+    "support_example_en": {
+      "type": "string"
+    },
+    "support_example_hi": {
+      "type": "string"
+    },
+    "solution_en": {
+      "type": "string"
+    },
+    "solution_hi": {
+      "type": "string"
+    }
+  }
+}

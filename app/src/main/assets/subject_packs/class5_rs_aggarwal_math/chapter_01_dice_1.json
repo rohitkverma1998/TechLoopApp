@@ -1,0 +1,3133 @@
+{
+  "chapterNumber": 1,
+  "chapterTitle": {
+    "english": "Dice 1",
+    "hindi": "डाइस 1"
+  },
+  "topics": [
+    {
+      "id": "dice1_q01_dice_and_cube",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 01: Dice and Cube",
+        "hindi": "प्रश्न 01: पासा और घन"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 01 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 01 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Dice and Cube",
+        "hindi": "पासा और घन"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: What is the opposite face of 3?",
+          "hindi": "प्रश्न: 3 का विपरीत फलक कौन-सा है?"
+        },
+        {
+          "english": "In both cube views, face 2 is common. In the first view, 2 touches 4 and 5; in the second view, 2 touches 1 and 3. So around face 2, the four side faces are 4, 5, 1, and 3. Matching the two views shows that 5 and 3 lie opposite each other. Therefore, the opposite face of 3 is 5.",
+          "hindi": "दोनों घन चित्रों में 2 common फलक है। पहले चित्र में 2 के साथ 4 और 5 हैं, और दूसरे चित्र में 2 के साथ 1 और 3 हैं। यानी 2 के चारों ओर 4, 5, 1 और 3 आते हैं। इन दोनों स्थितियों को मिलाने पर 5 और 3 आमने-सामने यानी opposite होते हैं। इसलिए 3 का विपरीत फलक 5 है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "If one face is common in two views, compare the other touching faces to find opposites.",
+          "hindi": "अगर दो चित्रों में एक फलक common हो, तो उसके साथ दिख रहे बाकी फलकों को मिलाकर opposite निकाला जाता है।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q01",
+          "prompt": {
+            "english": "What is the opposite face of 3?",
+            "hindi": "3 का विपरीत फलक कौन-सा है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "4",
+              "hindi": "4"
+            },
+            {
+              "english": "5",
+              "hindi": "5"
+            },
+            {
+              "english": "2",
+              "hindi": "2"
+            },
+            {
+              "english": "1",
+              "hindi": "1"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [
+            "5",
+            "b",
+            "option b"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In both cube views, face 2 is common. In the first view, 2 touches 4 and 5; in the second view, 2 touches 1 and 3. So around face 2, the four side faces are 4, 5, 1, and 3. Matching the two views shows that 5 and 3 lie opposite each other. Therefore, the opposite face of 3 is 5.",
+            "hindi": "दोनों घन चित्रों में 2 common फलक है। पहले चित्र में 2 के साथ 4 और 5 हैं, और दूसरे चित्र में 2 के साथ 1 और 3 हैं। यानी 2 के चारों ओर 4, 5, 1 और 3 आते हैं। इन दोनों स्थितियों को मिलाने पर 5 और 3 आमने-सामने यानी opposite होते हैं। इसलिए 3 का विपरीत फलक 5 है।"
+          },
+          "supportExample": {
+            "english": "If one face is common in two views, compare the other touching faces to find opposites.",
+            "hindi": "अगर दो चित्रों में एक फलक common हो, तो उसके साथ दिख रहे बाकी फलकों को मिलाकर opposite निकाला जाता है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In both cube views, face 2 is common. In the first view, 2 touches 4 and 5; in the second view, 2 touches 1 and 3. So around face 2, the four side faces are 4, 5, 1, and 3. Matching the two views shows that 5 and 3 lie opposite each other. Therefore, the opposite face of 3 is 5.",
+              "hindi": "दोनों घन चित्रों में 2 common फलक है। पहले चित्र में 2 के साथ 4 और 5 हैं, और दूसरे चित्र में 2 के साथ 1 और 3 हैं। यानी 2 के चारों ओर 4, 5, 1 और 3 आते हैं। इन दोनों स्थितियों को मिलाने पर 5 और 3 आमने-सामने यानी opposite होते हैं। इसलिए 3 का विपरीत फलक 5 है।"
+            }
+          ],
+          "questionImageAsset": "dice1_q01.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 01",
+          "hindi": "प्रश्न 01"
+        },
+        {
+          "english": "Source page 11",
+          "hindi": "स्रोत पेज 11"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q02_opposite_face_of_a_dice",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 02: Opposite Face of a Dice",
+        "hindi": "प्रश्न 02: पासे का विपरीत फलक"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 02 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 02 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Opposite Face of a Dice",
+        "hindi": "पासे का विपरीत फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: What is the opposite face of 1?",
+          "hindi": "प्रश्न: 1 का विपरीत फलक क्या है?"
+        },
+        {
+          "english": "In both cubes, 3 is on the top. So keep 3 fixed and imagine rotating the first cube. After a 180° turn, the face opposite 1 will come to the front. In the second view, that face is 4. Therefore, the opposite face of 1 is 4.",
+          "hindi": "दोनों घनों में 3 ऊपर है। इसलिए ऊपर वाले 3 को स्थिर मानकर पहले घन को घुमाइए। 180° घुमाने पर 1 के पीछे वाला, यानी उसका विपरीत फलक, सामने आ जाएगा। दूसरी आकृति में सामने 4 दिख रहा है। इसलिए 1 का विपरीत फलक 4 है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "If the top face stays the same in two views, compare the side faces to find opposites.",
+          "hindi": "यदि ऊपर वाला फलक समान रहे, तो बगल के फलक देखकर विपरीत फलक पहचाना जा सकता है।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q02",
+          "prompt": {
+            "english": "What is the opposite face of 1?",
+            "hindi": "1 का विपरीत फलक क्या है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "4",
+              "hindi": "4"
+            },
+            {
+              "english": "6",
+              "hindi": "6"
+            },
+            {
+              "english": "2",
+              "hindi": "2"
+            },
+            {
+              "english": "5",
+              "hindi": "5"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [
+            "4",
+            "a",
+            "option a",
+            "four",
+            "चार"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In both cubes, 3 is on the top. So keep 3 fixed and imagine rotating the first cube. After a 180° turn, the face opposite 1 will come to the front. In the second view, that face is 4. Therefore, the opposite face of 1 is 4.",
+            "hindi": "दोनों घनों में 3 ऊपर है। इसलिए ऊपर वाले 3 को स्थिर मानकर पहले घन को घुमाइए। 180° घुमाने पर 1 के पीछे वाला, यानी उसका विपरीत फलक, सामने आ जाएगा। दूसरी आकृति में सामने 4 दिख रहा है। इसलिए 1 का विपरीत फलक 4 है।"
+          },
+          "supportExample": {
+            "english": "If the top face stays the same in two views, compare the side faces to find opposites.",
+            "hindi": "यदि ऊपर वाला फलक समान रहे, तो बगल के फलक देखकर विपरीत फलक पहचाना जा सकता है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In both cubes, 3 is on the top. So keep 3 fixed and imagine rotating the first cube. After a 180° turn, the face opposite 1 will come to the front. In the second view, that face is 4. Therefore, the opposite face of 1 is 4.",
+              "hindi": "दोनों घनों में 3 ऊपर है। इसलिए ऊपर वाले 3 को स्थिर मानकर पहले घन को घुमाइए। 180° घुमाने पर 1 के पीछे वाला, यानी उसका विपरीत फलक, सामने आ जाएगा। दूसरी आकृति में सामने 4 दिख रहा है। इसलिए 1 का विपरीत फलक 4 है।"
+            }
+          ],
+          "questionImageAsset": "dice1_q02.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 02",
+          "hindi": "प्रश्न 02"
+        },
+        {
+          "english": "Source page 12",
+          "hindi": "स्रोत पेज 12"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q03_dice_and_cube",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 03: Dice and Cube",
+        "hindi": "प्रश्न 03: पासा और घन"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 03 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 03 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Dice and Cube",
+        "hindi": "पासा और घन"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Two positions of a dice are shown. Which number will be at the bottom when 1 is at the top?",
+          "hindi": "प्रश्न: एक पासे की दो स्थितियाँ दिखाई गई हैं। जब 1 शीर्ष पर है, तो सबसे नीचे कौन सी संख्या होगी?"
+        },
+        {
+          "english": "In the first position, face 1 touches 6 and 5. In the second position, face 1 touches 4 and 3. So face 1 is adjacent to 6, 5, 4, and 3. A cube face can have only four adjacent faces, so the only remaining number, 2, must be opposite to 1. Therefore, when 1 is on the top, 2 will be at the bottom.",
+          "hindi": "पहली स्थिति में 1 वाले फलक के पास 6 और 5 हैं। दूसरी स्थिति में 1 वाले फलक के पास 4 और 3 हैं। यानी 1 के चारों पड़ोसी फलक 6, 5, 4 और 3 हैं। घन के किसी एक फलक के केवल 4 पड़ोसी फलक होते हैं, इसलिए बची हुई संख्या 2, 1 के विपरीत होगी। अतः जब 1 ऊपर होगा, तो नीचे 2 होगा।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "A face of a cube has 4 adjacent faces and 1 opposite face.",
+          "hindi": "घन के किसी एक फलक के 4 पड़ोसी फलक होते हैं और 1 विपरीत फलक होता है।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q03",
+          "prompt": {
+            "english": "Two positions of a dice are shown. Which number will be at the bottom when 1 is at the top?",
+            "hindi": "एक पासे की दो स्थितियाँ दिखाई गई हैं। जब 1 शीर्ष पर है, तो सबसे नीचे कौन सी संख्या होगी?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "3",
+              "hindi": "3"
+            },
+            {
+              "english": "4",
+              "hindi": "4"
+            },
+            {
+              "english": "2",
+              "hindi": "2"
+            },
+            {
+              "english": "6",
+              "hindi": "6"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [
+            "2",
+            "two",
+            "option c",
+            "c",
+            "२"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In the first position, face 1 touches 6 and 5. In the second position, face 1 touches 4 and 3. So face 1 is adjacent to 6, 5, 4, and 3. A cube face can have only four adjacent faces, so the only remaining number, 2, must be opposite to 1. Therefore, when 1 is on the top, 2 will be at the bottom.",
+            "hindi": "पहली स्थिति में 1 वाले फलक के पास 6 और 5 हैं। दूसरी स्थिति में 1 वाले फलक के पास 4 और 3 हैं। यानी 1 के चारों पड़ोसी फलक 6, 5, 4 और 3 हैं। घन के किसी एक फलक के केवल 4 पड़ोसी फलक होते हैं, इसलिए बची हुई संख्या 2, 1 के विपरीत होगी। अतः जब 1 ऊपर होगा, तो नीचे 2 होगा।"
+          },
+          "supportExample": {
+            "english": "A face of a cube has 4 adjacent faces and 1 opposite face.",
+            "hindi": "घन के किसी एक फलक के 4 पड़ोसी फलक होते हैं और 1 विपरीत फलक होता है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In the first position, face 1 touches 6 and 5. In the second position, face 1 touches 4 and 3. So face 1 is adjacent to 6, 5, 4, and 3. A cube face can have only four adjacent faces, so the only remaining number, 2, must be opposite to 1. Therefore, when 1 is on the top, 2 will be at the bottom.",
+              "hindi": "पहली स्थिति में 1 वाले फलक के पास 6 और 5 हैं। दूसरी स्थिति में 1 वाले फलक के पास 4 और 3 हैं। यानी 1 के चारों पड़ोसी फलक 6, 5, 4 और 3 हैं। घन के किसी एक फलक के केवल 4 पड़ोसी फलक होते हैं, इसलिए बची हुई संख्या 2, 1 के विपरीत होगी। अतः जब 1 ऊपर होगा, तो नीचे 2 होगा।"
+            }
+          ],
+          "questionImageAsset": "dice1_q03.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 03",
+          "hindi": "प्रश्न 03"
+        },
+        {
+          "english": "Source page 13",
+          "hindi": "स्रोत पेज 13"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q04_dice_opposite_face",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 04: Dice Opposite Face",
+        "hindi": "प्रश्न 04: पासे का विपरीत फलक"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 04 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 04 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Dice Opposite Face",
+        "hindi": "पासे का विपरीत फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Two positions of a dice are shown. Which number will be at the bottom when 3 is at the top?",
+          "hindi": "प्रश्न: एक पासे की दो स्थितियाँ दिखाई गई हैं। जब 3 शीर्ष पर हो, तब नीचे कौन-सी संख्या होगी?"
+        },
+        {
+          "english": "In the first position, 3 is adjacent to 4 and 2. In the second position, 3 is adjacent to 6 and 1. So the four faces touching 3 are 4, 2, 6, and 1. A die face can have only four adjacent faces, so the only remaining number, 5, must be opposite to 3. Therefore, when 3 is at the top, 5 will be at the bottom.",
+          "hindi": "पहली स्थिति में 3, 4 और 2 के साथ लगा हुआ है। दूसरी स्थिति में 3, 6 और 1 के साथ लगा हुआ है। इसलिए 3 के चारों पड़ोसी फलक 4, 2, 6 और 1 हैं। किसी भी पासे में एक फलक के केवल 4 पड़ोसी होते हैं, इसलिए बची हुई संख्या 5 ही 3 के विपरीत होगी। अतः जब 3 ऊपर होगा, तब नीचे 5 होगा।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "A face on a die touches 4 faces and has 1 opposite face.",
+          "hindi": "पासे के किसी भी फलक के 4 पड़ोसी और 1 विपरीत फलक होता है।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q04",
+          "prompt": {
+            "english": "Two positions of a dice are shown. Which number will be at the bottom when 3 is at the top?",
+            "hindi": "एक पासे की दो स्थितियाँ दिखाई गई हैं। जब 3 शीर्ष पर हो, तब नीचे कौन-सी संख्या होगी?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "4",
+              "hindi": "4"
+            },
+            {
+              "english": "5",
+              "hindi": "5"
+            },
+            {
+              "english": "2",
+              "hindi": "2"
+            },
+            {
+              "english": "6",
+              "hindi": "6"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [
+            "5",
+            "option b",
+            "b",
+            "number 5"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In the first position, 3 is adjacent to 4 and 2. In the second position, 3 is adjacent to 6 and 1. So the four faces touching 3 are 4, 2, 6, and 1. A die face can have only four adjacent faces, so the only remaining number, 5, must be opposite to 3. Therefore, when 3 is at the top, 5 will be at the bottom.",
+            "hindi": "पहली स्थिति में 3, 4 और 2 के साथ लगा हुआ है। दूसरी स्थिति में 3, 6 और 1 के साथ लगा हुआ है। इसलिए 3 के चारों पड़ोसी फलक 4, 2, 6 और 1 हैं। किसी भी पासे में एक फलक के केवल 4 पड़ोसी होते हैं, इसलिए बची हुई संख्या 5 ही 3 के विपरीत होगी। अतः जब 3 ऊपर होगा, तब नीचे 5 होगा।"
+          },
+          "supportExample": {
+            "english": "A face on a die touches 4 faces and has 1 opposite face.",
+            "hindi": "पासे के किसी भी फलक के 4 पड़ोसी और 1 विपरीत फलक होता है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In the first position, 3 is adjacent to 4 and 2. In the second position, 3 is adjacent to 6 and 1. So the four faces touching 3 are 4, 2, 6, and 1. A die face can have only four adjacent faces, so the only remaining number, 5, must be opposite to 3. Therefore, when 3 is at the top, 5 will be at the bottom.",
+              "hindi": "पहली स्थिति में 3, 4 और 2 के साथ लगा हुआ है। दूसरी स्थिति में 3, 6 और 1 के साथ लगा हुआ है। इसलिए 3 के चारों पड़ोसी फलक 4, 2, 6 और 1 हैं। किसी भी पासे में एक फलक के केवल 4 पड़ोसी होते हैं, इसलिए बची हुई संख्या 5 ही 3 के विपरीत होगी। अतः जब 3 ऊपर होगा, तब नीचे 5 होगा।"
+            }
+          ],
+          "questionImageAsset": "dice1_q04.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 04",
+          "hindi": "प्रश्न 04"
+        },
+        {
+          "english": "Source page 14",
+          "hindi": "स्रोत पेज 14"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q05_dice_and_cube",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 05: Dice and Cube",
+        "hindi": "प्रश्न 05: पासा और घन"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 05 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 05 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Dice and Cube",
+        "hindi": "पासा और घन"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Which face is opposite to N?",
+          "hindi": "प्रश्न: N के विपरीत फलक कौन-सा है?"
+        },
+        {
+          "english": "From the three views, O is the common face in the 1st and 3rd cubes. Around O, the other visible faces are J and L in one view, and N and C in the other view. So the four side faces around O are J, L, N, and C. In the 2nd view, L is adjacent to C, so L and C cannot be opposite. Hence the opposite pairing must be L and N. Therefore, the face opposite to N is L.",
+          "hindi": "तीनों दृश्यों में 1st और 3rd घन में O समान फलक है। O के आसपास 1st दृश्य में J और L दिखते हैं, और 3rd दृश्य में N और C दिखते हैं। यानी O के चारों ओर J, L, N और C हैं। 2nd दृश्य में L, C के साथ सटा हुआ है, इसलिए L और C विपरीत नहीं हो सकते। इसलिए सही विपरीत जोड़ी L और N होगी। अतः N के विपरीत फलक L है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "A face opposite to a given face can never appear touching it in any view.",
+          "hindi": "जो फलक किसी फलक के विपरीत होता है, वह किसी भी दृश्य में उसके साथ सटा हुआ नहीं दिखता।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q05",
+          "prompt": {
+            "english": "Which face is opposite to N?",
+            "hindi": "N के विपरीत फलक कौन-सा है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "B",
+              "hindi": "B"
+            },
+            {
+              "english": "L",
+              "hindi": "L"
+            },
+            {
+              "english": "O",
+              "hindi": "O"
+            },
+            {
+              "english": "C",
+              "hindi": "C"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [
+            "L",
+            "B",
+            "Option B"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "From the three views, O is the common face in the 1st and 3rd cubes. Around O, the other visible faces are J and L in one view, and N and C in the other view. So the four side faces around O are J, L, N, and C. In the 2nd view, L is adjacent to C, so L and C cannot be opposite. Hence the opposite pairing must be L and N. Therefore, the face opposite to N is L.",
+            "hindi": "तीनों दृश्यों में 1st और 3rd घन में O समान फलक है। O के आसपास 1st दृश्य में J और L दिखते हैं, और 3rd दृश्य में N और C दिखते हैं। यानी O के चारों ओर J, L, N और C हैं। 2nd दृश्य में L, C के साथ सटा हुआ है, इसलिए L और C विपरीत नहीं हो सकते। इसलिए सही विपरीत जोड़ी L और N होगी। अतः N के विपरीत फलक L है।"
+          },
+          "supportExample": {
+            "english": "A face opposite to a given face can never appear touching it in any view.",
+            "hindi": "जो फलक किसी फलक के विपरीत होता है, वह किसी भी दृश्य में उसके साथ सटा हुआ नहीं दिखता।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "From the three views, O is the common face in the 1st and 3rd cubes. Around O, the other visible faces are J and L in one view, and N and C in the other view. So the four side faces around O are J, L, N, and C. In the 2nd view, L is adjacent to C, so L and C cannot be opposite. Hence the opposite pairing must be L and N. Therefore, the face opposite to N is L.",
+              "hindi": "तीनों दृश्यों में 1st और 3rd घन में O समान फलक है। O के आसपास 1st दृश्य में J और L दिखते हैं, और 3rd दृश्य में N और C दिखते हैं। यानी O के चारों ओर J, L, N और C हैं। 2nd दृश्य में L, C के साथ सटा हुआ है, इसलिए L और C विपरीत नहीं हो सकते। इसलिए सही विपरीत जोड़ी L और N होगी। अतः N के विपरीत फलक L है।"
+            }
+          ],
+          "questionImageAsset": "dice1_q05.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 05",
+          "hindi": "प्रश्न 05"
+        },
+        {
+          "english": "Source page 15",
+          "hindi": "स्रोत पेज 15"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q06_opposite_face_in_dice",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 06: Opposite Face in Dice",
+        "hindi": "प्रश्न 06: पासे में विपरीत फलक"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 06 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 06 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Opposite Face in Dice",
+        "hindi": "पासे में विपरीत फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: What is the opposite face of 5?",
+          "hindi": "प्रश्न: 5 का विपरीत फलक कौन सा है?"
+        },
+        {
+          "english": "In the first two cube views, face 5 is common. With 5, we can see faces 1 and 2 in one view, and faces 3 and 4 in the other view. So 1, 2, 3, and 4 are all adjacent to 5. A face has only four adjacent faces, so the only number left is 6. Therefore, the opposite face of 5 is 6.",
+          "hindi": "पहले दो घन-चित्रों में 5 सामान्य फलक है। 5 के साथ एक चित्र में 1 और 2 दिख रहे हैं, और दूसरे चित्र में 3 और 4 दिख रहे हैं। इसलिए 1, 2, 3 और 4 सभी 5 के संलग्न फलक हैं। किसी एक फलक के केवल 4 संलग्न फलक होते हैं, इसलिए बचा हुआ अंक 6 होगा। अतः 5 का विपरीत फलक 6 है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "A face can have only 4 adjacent faces; the remaining one is its opposite.",
+          "hindi": "किसी भी फलक के 4 संलग्न फलक होते हैं; बचा हुआ फलक उसका विपरीत होता है।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q06",
+          "prompt": {
+            "english": "What is the opposite face of 5?",
+            "hindi": "5 का विपरीत फलक कौन सा है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "6",
+              "hindi": "6"
+            },
+            {
+              "english": "3",
+              "hindi": "3"
+            },
+            {
+              "english": "4",
+              "hindi": "4"
+            },
+            {
+              "english": "2",
+              "hindi": "2"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [
+            "6",
+            "Face 6",
+            "Opposite face of 5 is 6",
+            "६"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In the first two cube views, face 5 is common. With 5, we can see faces 1 and 2 in one view, and faces 3 and 4 in the other view. So 1, 2, 3, and 4 are all adjacent to 5. A face has only four adjacent faces, so the only number left is 6. Therefore, the opposite face of 5 is 6.",
+            "hindi": "पहले दो घन-चित्रों में 5 सामान्य फलक है। 5 के साथ एक चित्र में 1 और 2 दिख रहे हैं, और दूसरे चित्र में 3 और 4 दिख रहे हैं। इसलिए 1, 2, 3 और 4 सभी 5 के संलग्न फलक हैं। किसी एक फलक के केवल 4 संलग्न फलक होते हैं, इसलिए बचा हुआ अंक 6 होगा। अतः 5 का विपरीत फलक 6 है।"
+          },
+          "supportExample": {
+            "english": "A face can have only 4 adjacent faces; the remaining one is its opposite.",
+            "hindi": "किसी भी फलक के 4 संलग्न फलक होते हैं; बचा हुआ फलक उसका विपरीत होता है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In the first two cube views, face 5 is common. With 5, we can see faces 1 and 2 in one view, and faces 3 and 4 in the other view. So 1, 2, 3, and 4 are all adjacent to 5. A face has only four adjacent faces, so the only number left is 6. Therefore, the opposite face of 5 is 6.",
+              "hindi": "पहले दो घन-चित्रों में 5 सामान्य फलक है। 5 के साथ एक चित्र में 1 और 2 दिख रहे हैं, और दूसरे चित्र में 3 और 4 दिख रहे हैं। इसलिए 1, 2, 3 और 4 सभी 5 के संलग्न फलक हैं। किसी एक फलक के केवल 4 संलग्न फलक होते हैं, इसलिए बचा हुआ अंक 6 होगा। अतः 5 का विपरीत फलक 6 है।"
+            }
+          ],
+          "questionImageAsset": "dice1_q06.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 06",
+          "hindi": "प्रश्न 06"
+        },
+        {
+          "english": "Source page 16",
+          "hindi": "स्रोत पेज 16"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q07_dice_opposite_face",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 07: Dice: Opposite Face",
+        "hindi": "प्रश्न 07: पासा: विपरीत फलक"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 07 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 07 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Dice: Opposite Face",
+        "hindi": "पासा: विपरीत फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Which face is opposite to 2?",
+          "hindi": "प्रश्न: 2 का विपरीत फलक कौन-सा है?"
+        },
+        {
+          "english": "In both figures, 3 is on the top. In the first view, 2 is adjacent to 3 and 5. In the second view, 2 is adjacent to 3 and 4. So 2 is next to 3, 5, and 4. That means the opposite face of 2 must be one of the remaining unseen numbers, 1 or 6. Since we cannot fix only one face, the exact opposite of 2 cannot be determined. So the correct answer is CND.",
+          "hindi": "दोनों चित्रों में 3 ऊपर है। पहले दृश्य में 2, 3 और 5 के पास है। दूसरे दृश्य में 2, 3 और 4 के पास है। यानी 2, 3, 5 और 4 के साथ सटा हुआ है। इसलिए 2 के विपरीत फलक केवल बचे हुए अंकों 1 या 6 में से कोई एक हो सकता है। एक ही निश्चित फलक तय नहीं हो रहा, इसलिए 2 का विपरीत फलक निर्धारित नहीं किया जा सकता। अतः सही उत्तर CND है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Opposite faces of a dice are never seen together in one view.",
+          "hindi": "पासे के विपरीत फलक एक ही दृश्य में साथ नहीं दिखते।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q07",
+          "prompt": {
+            "english": "Which face is opposite to 2?",
+            "hindi": "2 का विपरीत फलक कौन-सा है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "3",
+              "hindi": "3"
+            },
+            {
+              "english": "5",
+              "hindi": "5"
+            },
+            {
+              "english": "1",
+              "hindi": "1"
+            },
+            {
+              "english": "CND",
+              "hindi": "CND"
+            }
+          ],
+          "correctOptionIndex": 3,
+          "acceptedAnswers": [
+            "CND",
+            "Cannot be determined",
+            "Cannot determine",
+            "d",
+            "Option D"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In both figures, 3 is on the top. In the first view, 2 is adjacent to 3 and 5. In the second view, 2 is adjacent to 3 and 4. So 2 is next to 3, 5, and 4. That means the opposite face of 2 must be one of the remaining unseen numbers, 1 or 6. Since we cannot fix only one face, the exact opposite of 2 cannot be determined. So the correct answer is CND.",
+            "hindi": "दोनों चित्रों में 3 ऊपर है। पहले दृश्य में 2, 3 और 5 के पास है। दूसरे दृश्य में 2, 3 और 4 के पास है। यानी 2, 3, 5 और 4 के साथ सटा हुआ है। इसलिए 2 के विपरीत फलक केवल बचे हुए अंकों 1 या 6 में से कोई एक हो सकता है। एक ही निश्चित फलक तय नहीं हो रहा, इसलिए 2 का विपरीत फलक निर्धारित नहीं किया जा सकता। अतः सही उत्तर CND है।"
+          },
+          "supportExample": {
+            "english": "Opposite faces of a dice are never seen together in one view.",
+            "hindi": "पासे के विपरीत फलक एक ही दृश्य में साथ नहीं दिखते।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In both figures, 3 is on the top. In the first view, 2 is adjacent to 3 and 5. In the second view, 2 is adjacent to 3 and 4. So 2 is next to 3, 5, and 4. That means the opposite face of 2 must be one of the remaining unseen numbers, 1 or 6. Since we cannot fix only one face, the exact opposite of 2 cannot be determined. So the correct answer is CND.",
+              "hindi": "दोनों चित्रों में 3 ऊपर है। पहले दृश्य में 2, 3 और 5 के पास है। दूसरे दृश्य में 2, 3 और 4 के पास है। यानी 2, 3, 5 और 4 के साथ सटा हुआ है। इसलिए 2 के विपरीत फलक केवल बचे हुए अंकों 1 या 6 में से कोई एक हो सकता है। एक ही निश्चित फलक तय नहीं हो रहा, इसलिए 2 का विपरीत फलक निर्धारित नहीं किया जा सकता। अतः सही उत्तर CND है।"
+            }
+          ],
+          "questionImageAsset": "dice1_q07.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 07",
+          "hindi": "प्रश्न 07"
+        },
+        {
+          "english": "Source page 17",
+          "hindi": "स्रोत पेज 17"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q08_dice",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 08: Dice",
+        "hindi": "प्रश्न 08: पासा"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 08 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 08 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Dice",
+        "hindi": "पासा"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Two positions of a dice are shown. When yellow is on the top, which colour will be at the bottom?",
+          "hindi": "प्रश्न: पासे की दो स्थितियां दिखाई गई हैं। जब पीला रंग सबसे ऊपर हो, तो सबसे नीचे कौन-सा रंग होगा?"
+        },
+        {
+          "english": "In the first view, Yellow is on top, Pink is on one side, and Red is on the other side. In the second view, Red stays in the same place, but Pink moves to the top. So the dice has been rotated while keeping Red fixed. After this turn, Blue comes to the side where Pink was earlier, which means Blue was at the bottom in the first view. Therefore, when Yellow is on top, Blue is at the bottom.",
+          "hindi": "पहली स्थिति में ऊपर Yellow है, एक तरफ Pink है और दूसरी तरफ Red है। दूसरी स्थिति में Red अपनी जगह पर बना रहता है, लेकिन Pink ऊपर आ जाता है। इसका मतलब है कि पासे को Red वाले फलक को स्थिर मानकर घुमाया गया है। घुमाने के बाद Blue उस जगह दिख रहा है जहाँ पहले Pink था, इसलिए पहली स्थिति में Blue नीचे था। अतः जब ऊपर Yellow होगा, तब नीचे Blue होगा।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "If one face stays fixed, imagine rotating the dice around that face.",
+          "hindi": "यदि एक फलक स्थिर रहे, तो पासे को उसी फलक के चारों ओर घुमा कर सोचें।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q08",
+          "prompt": {
+            "english": "Two positions of a dice are shown. When yellow is on the top, which colour will be at the bottom?",
+            "hindi": "पासे की दो स्थितियां दिखाई गई हैं। जब पीला रंग सबसे ऊपर हो, तो सबसे नीचे कौन-सा रंग होगा?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Blue",
+              "hindi": "Blue"
+            },
+            {
+              "english": "Pink",
+              "hindi": "Pink"
+            },
+            {
+              "english": "Red",
+              "hindi": "Red"
+            },
+            {
+              "english": "Orange",
+              "hindi": "Orange"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [
+            "Blue",
+            "नीला",
+            "Blue colour"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In the first view, Yellow is on top, Pink is on one side, and Red is on the other side. In the second view, Red stays in the same place, but Pink moves to the top. So the dice has been rotated while keeping Red fixed. After this turn, Blue comes to the side where Pink was earlier, which means Blue was at the bottom in the first view. Therefore, when Yellow is on top, Blue is at the bottom.",
+            "hindi": "पहली स्थिति में ऊपर Yellow है, एक तरफ Pink है और दूसरी तरफ Red है। दूसरी स्थिति में Red अपनी जगह पर बना रहता है, लेकिन Pink ऊपर आ जाता है। इसका मतलब है कि पासे को Red वाले फलक को स्थिर मानकर घुमाया गया है। घुमाने के बाद Blue उस जगह दिख रहा है जहाँ पहले Pink था, इसलिए पहली स्थिति में Blue नीचे था। अतः जब ऊपर Yellow होगा, तब नीचे Blue होगा।"
+          },
+          "supportExample": {
+            "english": "If one face stays fixed, imagine rotating the dice around that face.",
+            "hindi": "यदि एक फलक स्थिर रहे, तो पासे को उसी फलक के चारों ओर घुमा कर सोचें।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In the first view, Yellow is on top, Pink is on one side, and Red is on the other side. In the second view, Red stays in the same place, but Pink moves to the top. So the dice has been rotated while keeping Red fixed. After this turn, Blue comes to the side where Pink was earlier, which means Blue was at the bottom in the first view. Therefore, when Yellow is on top, Blue is at the bottom.",
+              "hindi": "पहली स्थिति में ऊपर Yellow है, एक तरफ Pink है और दूसरी तरफ Red है। दूसरी स्थिति में Red अपनी जगह पर बना रहता है, लेकिन Pink ऊपर आ जाता है। इसका मतलब है कि पासे को Red वाले फलक को स्थिर मानकर घुमाया गया है। घुमाने के बाद Blue उस जगह दिख रहा है जहाँ पहले Pink था, इसलिए पहली स्थिति में Blue नीचे था। अतः जब ऊपर Yellow होगा, तब नीचे Blue होगा।"
+            }
+          ],
+          "questionImageAsset": "dice1_q08.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 08",
+          "hindi": "प्रश्न 08"
+        },
+        {
+          "english": "Source page 18",
+          "hindi": "स्रोत पेज 18"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q09_cube_opposite_face",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 09: Cube Opposite Face",
+        "hindi": "प्रश्न 09: घन का विपरीत फलक"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 09 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 09 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Cube Opposite Face",
+        "hindi": "घन का विपरीत फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: What will come on the face opposite to the one showing '4'?",
+          "hindi": "प्रश्न: '4' दर्शाने वाले फलक के विपरीत फलक पर कौन होगा?"
+        },
+        {
+          "english": "In the 2nd and 3rd views, the common face is 6. Around 6, the adjacent faces visible are 5, M, 4, and R. Since a cube face can have only four adjacent faces, the remaining face 9 must be opposite to 6. Now matching the shown positions in the 1st and 3rd views gives the remaining opposite pair as 4 and M. So the face opposite to 4 is M.",
+          "hindi": "दूसरे और तीसरे चित्र में 6 सामान्य फलक है। 6 के साथ लगे हुए फलक 5, M, 4 और R दिख रहे हैं। किसी भी घन में एक फलक के केवल 4 सटे हुए फलक होते हैं, इसलिए बचा हुआ 9, 6 के विपरीत होगा। अब पहले और तीसरे चित्र की स्थितियों को मिलाने पर शेष विपरीत जोड़ी 4 और M बनती है। इसलिए 4 के विपरीत फलक पर M होगा।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "A cube face touches 4 faces and has 1 opposite face.",
+          "hindi": "घन का एक फलक 4 फलक को छूता है और 1 फलक उसके विपरीत होता है।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q09",
+          "prompt": {
+            "english": "What will come on the face opposite to the one showing '4'?",
+            "hindi": "'4' दर्शाने वाले फलक के विपरीत फलक पर कौन होगा?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "5",
+              "hindi": "5"
+            },
+            {
+              "english": "R",
+              "hindi": "R"
+            },
+            {
+              "english": "M",
+              "hindi": "M"
+            },
+            {
+              "english": "6",
+              "hindi": "6"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [
+            "M",
+            "C",
+            "Option C"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In the 2nd and 3rd views, the common face is 6. Around 6, the adjacent faces visible are 5, M, 4, and R. Since a cube face can have only four adjacent faces, the remaining face 9 must be opposite to 6. Now matching the shown positions in the 1st and 3rd views gives the remaining opposite pair as 4 and M. So the face opposite to 4 is M.",
+            "hindi": "दूसरे और तीसरे चित्र में 6 सामान्य फलक है। 6 के साथ लगे हुए फलक 5, M, 4 और R दिख रहे हैं। किसी भी घन में एक फलक के केवल 4 सटे हुए फलक होते हैं, इसलिए बचा हुआ 9, 6 के विपरीत होगा। अब पहले और तीसरे चित्र की स्थितियों को मिलाने पर शेष विपरीत जोड़ी 4 और M बनती है। इसलिए 4 के विपरीत फलक पर M होगा।"
+          },
+          "supportExample": {
+            "english": "A cube face touches 4 faces and has 1 opposite face.",
+            "hindi": "घन का एक फलक 4 फलक को छूता है और 1 फलक उसके विपरीत होता है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In the 2nd and 3rd views, the common face is 6. Around 6, the adjacent faces visible are 5, M, 4, and R. Since a cube face can have only four adjacent faces, the remaining face 9 must be opposite to 6. Now matching the shown positions in the 1st and 3rd views gives the remaining opposite pair as 4 and M. So the face opposite to 4 is M.",
+              "hindi": "दूसरे और तीसरे चित्र में 6 सामान्य फलक है। 6 के साथ लगे हुए फलक 5, M, 4 और R दिख रहे हैं। किसी भी घन में एक फलक के केवल 4 सटे हुए फलक होते हैं, इसलिए बचा हुआ 9, 6 के विपरीत होगा। अब पहले और तीसरे चित्र की स्थितियों को मिलाने पर शेष विपरीत जोड़ी 4 और M बनती है। इसलिए 4 के विपरीत फलक पर M होगा।"
+            }
+          ],
+          "questionImageAsset": "dice1_q09.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 09",
+          "hindi": "प्रश्न 09"
+        },
+        {
+          "english": "Source page 19",
+          "hindi": "स्रोत पेज 19"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q10_cube_opposite_face",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 10: Cube Opposite Face",
+        "hindi": "प्रश्न 10: घन का विपरीत फलक"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 10 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 10 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Cube Opposite Face",
+        "hindi": "घन का विपरीत फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Which face is opposite to the up-arrow face?",
+          "hindi": "प्रश्न: ऊपर की ओर तीर वाले फलक के विपरीत कौन-सा फलक है?"
+        },
+        {
+          "english": "In the first cube, the triangle face is adjacent to the arrow face and the circle face. In the second cube, the triangle face is adjacent to the circle face and the pentagon face. Since triangle and circle are the common adjacent faces in both views, the remaining faces, arrow and pentagon, must be opposite to each other. So the face opposite the up-arrow is the pentagon face.",
+          "hindi": "पहले घन में त्रिभुज वाला फलक, तीर वाले फलक और वृत्त वाले फलक से सटा है। दूसरे घन में त्रिभुज वाला फलक, वृत्त वाले फलक और पंचभुज वाले फलक से सटा है। दोनों चित्रों में त्रिभुज और वृत्त समान सटे हुए फलक हैं, इसलिए बचे हुए दो फलक, यानी तीर और पंचभुज, एक-दूसरे के विपरीत होंगे। अतः ऊपर वाले तीर के विपरीत पंचभुज वाला फलक है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "If two adjacent faces stay common in two cube views, the third faces shown are opposite.",
+          "hindi": "यदि दो घन-दृश्यों में दो सटे हुए फलक समान हों, तो तीसरे दिखे फलक एक-दूसरे के विपरीत होते हैं।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q10",
+          "prompt": {
+            "english": "Which face is opposite to the up-arrow face?",
+            "hindi": "ऊपर की ओर तीर वाले फलक के विपरीत कौन-सा फलक है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "Triangle",
+              "hindi": "Triangle"
+            },
+            {
+              "english": "Circle",
+              "hindi": "Circle"
+            },
+            {
+              "english": "Pentagon",
+              "hindi": "Pentagon"
+            },
+            {
+              "english": "Up arrow",
+              "hindi": "Up arrow"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [
+            "c",
+            "option c",
+            "Pentagon",
+            "पंचभुज"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In the first cube, the triangle face is adjacent to the arrow face and the circle face. In the second cube, the triangle face is adjacent to the circle face and the pentagon face. Since triangle and circle are the common adjacent faces in both views, the remaining faces, arrow and pentagon, must be opposite to each other. So the face opposite the up-arrow is the pentagon face.",
+            "hindi": "पहले घन में त्रिभुज वाला फलक, तीर वाले फलक और वृत्त वाले फलक से सटा है। दूसरे घन में त्रिभुज वाला फलक, वृत्त वाले फलक और पंचभुज वाले फलक से सटा है। दोनों चित्रों में त्रिभुज और वृत्त समान सटे हुए फलक हैं, इसलिए बचे हुए दो फलक, यानी तीर और पंचभुज, एक-दूसरे के विपरीत होंगे। अतः ऊपर वाले तीर के विपरीत पंचभुज वाला फलक है।"
+          },
+          "supportExample": {
+            "english": "If two adjacent faces stay common in two cube views, the third faces shown are opposite.",
+            "hindi": "यदि दो घन-दृश्यों में दो सटे हुए फलक समान हों, तो तीसरे दिखे फलक एक-दूसरे के विपरीत होते हैं।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In the first cube, the triangle face is adjacent to the arrow face and the circle face. In the second cube, the triangle face is adjacent to the circle face and the pentagon face. Since triangle and circle are the common adjacent faces in both views, the remaining faces, arrow and pentagon, must be opposite to each other. So the face opposite the up-arrow is the pentagon face.",
+              "hindi": "पहले घन में त्रिभुज वाला फलक, तीर वाले फलक और वृत्त वाले फलक से सटा है। दूसरे घन में त्रिभुज वाला फलक, वृत्त वाले फलक और पंचभुज वाले फलक से सटा है। दोनों चित्रों में त्रिभुज और वृत्त समान सटे हुए फलक हैं, इसलिए बचे हुए दो फलक, यानी तीर और पंचभुज, एक-दूसरे के विपरीत होंगे। अतः ऊपर वाले तीर के विपरीत पंचभुज वाला फलक है।"
+            }
+          ],
+          "questionImageAsset": "dice1_q10.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 10",
+          "hindi": "प्रश्न 10"
+        },
+        {
+          "english": "Source page 20",
+          "hindi": "स्रोत पेज 20"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q11_opposite_faces_of_a_dice",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 11: Opposite Faces of a Dice",
+        "hindi": "प्रश्न 11: पासे के विपरीत फलक"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 11 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 11 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Opposite Faces of a Dice",
+        "hindi": "पासे के विपरीत फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Which number will be at the bottom when 2 is at the top?",
+          "hindi": "प्रश्न: जब 2 शीर्ष पर है तो कौन-सी संख्या सबसे नीचे होगी?"
+        },
+        {
+          "english": "In the last three views, 4 is the common face. Around 4, the visible numbers are 3, 5, 1 and 6, so they form a cycle. From this cycle, opposite pairs are 3-1 and 5-6. The remaining two numbers are 2 and 4, so they must be opposite. Therefore, when 2 is on the top, 4 will be at the bottom.",
+          "hindi": "अंतिम तीन चित्रों में 4 समान फलक है। 4 के आसपास 3, 5, 1 और 6 दिख रहे हैं, इसलिए ये एक चक्र बनाते हैं। इस चक्र से विपरीत युग्म 3-1 और 5-6 मिलते हैं। अब 2 और 4 बचते हैं, इसलिए ये एक-दूसरे के विपरीत होंगे। अतः जब 2 ऊपर होगा, तब नीचे 4 होगा।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "With one common face, the surrounding faces form a cycle and opposite faces lie across that cycle.",
+          "hindi": "जब एक फलक समान रहता है, तो उसके आसपास के फलक चक्र बनाते हैं और आमने-सामने वाले फलक विपरीत होते हैं।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q11",
+          "prompt": {
+            "english": "Which number will be at the bottom when 2 is at the top?",
+            "hindi": "जब 2 शीर्ष पर है तो कौन-सी संख्या सबसे नीचे होगी?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "3",
+              "hindi": "3"
+            },
+            {
+              "english": "6",
+              "hindi": "6"
+            },
+            {
+              "english": "1",
+              "hindi": "1"
+            },
+            {
+              "english": "4",
+              "hindi": "4"
+            }
+          ],
+          "correctOptionIndex": 3,
+          "acceptedAnswers": [
+            "4",
+            "four",
+            "चार",
+            "d",
+            "option d"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In the last three views, 4 is the common face. Around 4, the visible numbers are 3, 5, 1 and 6, so they form a cycle. From this cycle, opposite pairs are 3-1 and 5-6. The remaining two numbers are 2 and 4, so they must be opposite. Therefore, when 2 is on the top, 4 will be at the bottom.",
+            "hindi": "अंतिम तीन चित्रों में 4 समान फलक है। 4 के आसपास 3, 5, 1 और 6 दिख रहे हैं, इसलिए ये एक चक्र बनाते हैं। इस चक्र से विपरीत युग्म 3-1 और 5-6 मिलते हैं। अब 2 और 4 बचते हैं, इसलिए ये एक-दूसरे के विपरीत होंगे। अतः जब 2 ऊपर होगा, तब नीचे 4 होगा।"
+          },
+          "supportExample": {
+            "english": "With one common face, the surrounding faces form a cycle and opposite faces lie across that cycle.",
+            "hindi": "जब एक फलक समान रहता है, तो उसके आसपास के फलक चक्र बनाते हैं और आमने-सामने वाले फलक विपरीत होते हैं।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In the last three views, 4 is the common face. Around 4, the visible numbers are 3, 5, 1 and 6, so they form a cycle. From this cycle, opposite pairs are 3-1 and 5-6. The remaining two numbers are 2 and 4, so they must be opposite. Therefore, when 2 is on the top, 4 will be at the bottom.",
+              "hindi": "अंतिम तीन चित्रों में 4 समान फलक है। 4 के आसपास 3, 5, 1 और 6 दिख रहे हैं, इसलिए ये एक चक्र बनाते हैं। इस चक्र से विपरीत युग्म 3-1 और 5-6 मिलते हैं। अब 2 और 4 बचते हैं, इसलिए ये एक-दूसरे के विपरीत होंगे। अतः जब 2 ऊपर होगा, तब नीचे 4 होगा।"
+            }
+          ],
+          "questionImageAsset": "dice1_q11.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 11",
+          "hindi": "प्रश्न 11"
+        },
+        {
+          "english": "Source page 21",
+          "hindi": "स्रोत पेज 21"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q12_dice_and_cube",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 12: Dice and Cube",
+        "hindi": "प्रश्न 12: पासा और घन"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 12 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 12 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Dice and Cube",
+        "hindi": "पासा और घन"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Given below are two positions of a dice. What will come on the face opposite to the face with 'F'?",
+          "hindi": "प्रश्न: नीचे एक पासे की दो स्थितियाँ दी गई हैं। 'F' वाले फलक के विपरीत फलक पर क्या आएगा?"
+        },
+        {
+          "english": "In both figures, the face 'L' is common and remains in the same position. So the die has been rotated keeping 'L' fixed. In the first view, the faces next to L are 7 on top and F on the right. In the second view, the faces next to L are 8 on top and N on the right. This matches a 180 degree turn around face L, so the top face 7 changes to its opposite face 8, and the right face F changes to its opposite face N. Therefore, the face opposite to 'F' is 'N'.",
+          "hindi": "दोनों चित्रों में 'L' वाला फलक समान है और उसी स्थान पर है। यानी पासे को 'L' को स्थिर मानकर घुमाया गया है। पहले चित्र में L के साथ ऊपर 7 और दाईं ओर F है। दूसरे चित्र में L के साथ ऊपर 8 और दाईं ओर N है। यह 180 डिग्री के घुमाव से संभव है, इसलिए ऊपर का 7 अपने विपरीत 8 में बदला और दाईं ओर का F अपने विपरीत N में बदला। अतः 'F' के विपरीत फलक पर 'N' आएगा।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "If one face is common in two views, compare the other faces around it after rotation to find opposite faces.",
+          "hindi": "यदि दो स्थितियों में एक फलक समान हो, तो उसके आसपास के बदले हुए फलक देखकर विपरीत फलक पता किया जाता है।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q12",
+          "prompt": {
+            "english": "Given below are two positions of a dice. What will come on the face opposite to the face with 'F'?",
+            "hindi": "नीचे एक पासे की दो स्थितियाँ दी गई हैं। 'F' वाले फलक के विपरीत फलक पर क्या आएगा?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "N",
+              "hindi": "N"
+            },
+            {
+              "english": "L",
+              "hindi": "L"
+            },
+            {
+              "english": "7",
+              "hindi": "7"
+            },
+            {
+              "english": "8",
+              "hindi": "8"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [
+            "N",
+            "A",
+            "Option A"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In both figures, the face 'L' is common and remains in the same position. So the die has been rotated keeping 'L' fixed. In the first view, the faces next to L are 7 on top and F on the right. In the second view, the faces next to L are 8 on top and N on the right. This matches a 180 degree turn around face L, so the top face 7 changes to its opposite face 8, and the right face F changes to its opposite face N. Therefore, the face opposite to 'F' is 'N'.",
+            "hindi": "दोनों चित्रों में 'L' वाला फलक समान है और उसी स्थान पर है। यानी पासे को 'L' को स्थिर मानकर घुमाया गया है। पहले चित्र में L के साथ ऊपर 7 और दाईं ओर F है। दूसरे चित्र में L के साथ ऊपर 8 और दाईं ओर N है। यह 180 डिग्री के घुमाव से संभव है, इसलिए ऊपर का 7 अपने विपरीत 8 में बदला और दाईं ओर का F अपने विपरीत N में बदला। अतः 'F' के विपरीत फलक पर 'N' आएगा।"
+          },
+          "supportExample": {
+            "english": "If one face is common in two views, compare the other faces around it after rotation to find opposite faces.",
+            "hindi": "यदि दो स्थितियों में एक फलक समान हो, तो उसके आसपास के बदले हुए फलक देखकर विपरीत फलक पता किया जाता है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In both figures, the face 'L' is common and remains in the same position. So the die has been rotated keeping 'L' fixed. In the first view, the faces next to L are 7 on top and F on the right. In the second view, the faces next to L are 8 on top and N on the right. This matches a 180 degree turn around face L, so the top face 7 changes to its opposite face 8, and the right face F changes to its opposite face N. Therefore, the face opposite to 'F' is 'N'.",
+              "hindi": "दोनों चित्रों में 'L' वाला फलक समान है और उसी स्थान पर है। यानी पासे को 'L' को स्थिर मानकर घुमाया गया है। पहले चित्र में L के साथ ऊपर 7 और दाईं ओर F है। दूसरे चित्र में L के साथ ऊपर 8 और दाईं ओर N है। यह 180 डिग्री के घुमाव से संभव है, इसलिए ऊपर का 7 अपने विपरीत 8 में बदला और दाईं ओर का F अपने विपरीत N में बदला। अतः 'F' के विपरीत फलक पर 'N' आएगा।"
+            }
+          ],
+          "questionImageAsset": "dice1_q12.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 12",
+          "hindi": "प्रश्न 12"
+        },
+        {
+          "english": "Source page 22",
+          "hindi": "स्रोत पेज 22"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q13_dice_and_cube",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 13: Dice and Cube",
+        "hindi": "प्रश्न 13: पासा और घन"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 13 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 13 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Dice and Cube",
+        "hindi": "पासा और घन"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Two different positions of the same die are shown. The six faces are marked 1, 2, 3, 4, 5 and 6. Which number will be on the face opposite to the one showing 4?",
+          "hindi": "प्रश्न: एक ही पासे की दो अलग-अलग स्थितियाँ दिखाई गई हैं। उसके छह फलक 1, 2, 3, 4, 5 और 6 से चिह्नित हैं। 4 वाले फलक के विपरीत फलक पर कौन-सा अंक होगा?"
+        },
+        {
+          "english": "In both figures, face 3 is common. So the faces shown with 3 are its adjacent faces. In the first view, 3 is adjacent to 2 and 1. In the second view, 3 is adjacent to 6 and 5. A face on a die has exactly four adjacent faces and one opposite face. Therefore the only number not adjacent to 3 is 4, so 4 is opposite to 3. Hence, the face opposite to 4 is 3.",
+          "hindi": "दोनों आकृतियों में 3 समान फलक है। इसलिए 3 के साथ दिखने वाले फलक उसके आस-पास वाले फलक हैं। पहली स्थिति में 3 के पास 2 और 1 हैं। दूसरी स्थिति में 3 के पास 6 और 5 हैं। पासे के किसी एक फलक के कुल 4 आस-पास वाले फलक होते हैं और 1 विपरीत फलक होता है। इसलिए 3 के आस-पास 2, 1, 6 और 5 हैं, तो बचा हुआ 4 उसका विपरीत होगा। अतः 4 के विपरीत फलक पर 3 होगा।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "If one face is common in two views, the other shown faces are adjacent to that common face.",
+          "hindi": "यदि दो स्थितियों में एक फलक समान हो, तो उसके साथ दिखने वाले बाकी फलक उस समान फलक के आस-पास होते हैं।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q13",
+          "prompt": {
+            "english": "Two different positions of the same die are shown. The six faces are marked 1, 2, 3, 4, 5 and 6. Which number will be on the face opposite to the one showing 4?",
+            "hindi": "एक ही पासे की दो अलग-अलग स्थितियाँ दिखाई गई हैं। उसके छह फलक 1, 2, 3, 4, 5 और 6 से चिह्नित हैं। 4 वाले फलक के विपरीत फलक पर कौन-सा अंक होगा?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "3",
+              "hindi": "3"
+            },
+            {
+              "english": "2",
+              "hindi": "2"
+            },
+            {
+              "english": "1",
+              "hindi": "1"
+            },
+            {
+              "english": "5",
+              "hindi": "5"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [
+            "3",
+            "A",
+            "Option A"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In both figures, face 3 is common. So the faces shown with 3 are its adjacent faces. In the first view, 3 is adjacent to 2 and 1. In the second view, 3 is adjacent to 6 and 5. A face on a die has exactly four adjacent faces and one opposite face. Therefore the only number not adjacent to 3 is 4, so 4 is opposite to 3. Hence, the face opposite to 4 is 3.",
+            "hindi": "दोनों आकृतियों में 3 समान फलक है। इसलिए 3 के साथ दिखने वाले फलक उसके आस-पास वाले फलक हैं। पहली स्थिति में 3 के पास 2 और 1 हैं। दूसरी स्थिति में 3 के पास 6 और 5 हैं। पासे के किसी एक फलक के कुल 4 आस-पास वाले फलक होते हैं और 1 विपरीत फलक होता है। इसलिए 3 के आस-पास 2, 1, 6 और 5 हैं, तो बचा हुआ 4 उसका विपरीत होगा। अतः 4 के विपरीत फलक पर 3 होगा।"
+          },
+          "supportExample": {
+            "english": "If one face is common in two views, the other shown faces are adjacent to that common face.",
+            "hindi": "यदि दो स्थितियों में एक फलक समान हो, तो उसके साथ दिखने वाले बाकी फलक उस समान फलक के आस-पास होते हैं।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In both figures, face 3 is common. So the faces shown with 3 are its adjacent faces. In the first view, 3 is adjacent to 2 and 1. In the second view, 3 is adjacent to 6 and 5. A face on a die has exactly four adjacent faces and one opposite face. Therefore the only number not adjacent to 3 is 4, so 4 is opposite to 3. Hence, the face opposite to 4 is 3.",
+              "hindi": "दोनों आकृतियों में 3 समान फलक है। इसलिए 3 के साथ दिखने वाले फलक उसके आस-पास वाले फलक हैं। पहली स्थिति में 3 के पास 2 और 1 हैं। दूसरी स्थिति में 3 के पास 6 और 5 हैं। पासे के किसी एक फलक के कुल 4 आस-पास वाले फलक होते हैं और 1 विपरीत फलक होता है। इसलिए 3 के आस-पास 2, 1, 6 और 5 हैं, तो बचा हुआ 4 उसका विपरीत होगा। अतः 4 के विपरीत फलक पर 3 होगा।"
+            }
+          ],
+          "questionImageAsset": "dice1_q13.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 13",
+          "hindi": "प्रश्न 13"
+        },
+        {
+          "english": "Source page 23",
+          "hindi": "स्रोत पेज 23"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q14_dice_and_cube",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 14: Dice and Cube",
+        "hindi": "प्रश्न 14: पासा और घन"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 14 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 14 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Dice and Cube",
+        "hindi": "पासा और घन"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Two different positions of the same die are shown. The six faces are numbered from 1 to 6. Which number is on the face opposite to the face showing 1?",
+          "hindi": "प्रश्न: एक ही पासे की दो अलग-अलग स्थितियाँ दिखाई गई हैं। इसके छह फलक 1 से 6 तक क्रमांकित हैं। 1 वाले फलक के विपरीत फलक पर कौन-सी संख्या होगी?"
+        },
+        {
+          "english": "In both figures, face 3 is common and stays in the same visible position. So we compare the other faces around 3. In the first figure, 4 is on top and 2 is on the right. In the second figure, 2 comes to the top and 1 comes to the right. This means the die has rotated around face 3, so the face that was opposite 4 has come into the place of 1. Therefore, 1 is opposite 4.",
+          "hindi": "दोनों चित्रों में 3 वाला फलक समान है और उसी स्थिति में दिख रहा है। इसलिए 3 के आसपास के बाकी फलक देखें। पहले चित्र में ऊपर 4 है और दाईं ओर 2 है। दूसरे चित्र में 2 ऊपर आ गया और 1 दाईं ओर आ गया। इसका मतलब पासा 3 वाले फलक के चारों ओर घूमा है, इसलिए 1 वाला फलक 4 के विपरीत होगा। अतः 1 के विपरीत संख्या 4 है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "If one face is common in two views, track how the other faces rotate around that common face.",
+          "hindi": "अगर दो स्थितियों में एक फलक समान हो, तो बाकी फलक उस समान फलक के चारों ओर कैसे घूमते हैं, यह देखें।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q14",
+          "prompt": {
+            "english": "Two different positions of the same die are shown. The six faces are numbered from 1 to 6. Which number is on the face opposite to the face showing 1?",
+            "hindi": "एक ही पासे की दो अलग-अलग स्थितियाँ दिखाई गई हैं। इसके छह फलक 1 से 6 तक क्रमांकित हैं। 1 वाले फलक के विपरीत फलक पर कौन-सी संख्या होगी?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "4",
+              "hindi": "4"
+            },
+            {
+              "english": "5",
+              "hindi": "5"
+            },
+            {
+              "english": "3",
+              "hindi": "3"
+            },
+            {
+              "english": "2",
+              "hindi": "2"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [
+            "4",
+            "four",
+            "चार"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In both figures, face 3 is common and stays in the same visible position. So we compare the other faces around 3. In the first figure, 4 is on top and 2 is on the right. In the second figure, 2 comes to the top and 1 comes to the right. This means the die has rotated around face 3, so the face that was opposite 4 has come into the place of 1. Therefore, 1 is opposite 4.",
+            "hindi": "दोनों चित्रों में 3 वाला फलक समान है और उसी स्थिति में दिख रहा है। इसलिए 3 के आसपास के बाकी फलक देखें। पहले चित्र में ऊपर 4 है और दाईं ओर 2 है। दूसरे चित्र में 2 ऊपर आ गया और 1 दाईं ओर आ गया। इसका मतलब पासा 3 वाले फलक के चारों ओर घूमा है, इसलिए 1 वाला फलक 4 के विपरीत होगा। अतः 1 के विपरीत संख्या 4 है।"
+          },
+          "supportExample": {
+            "english": "If one face is common in two views, track how the other faces rotate around that common face.",
+            "hindi": "अगर दो स्थितियों में एक फलक समान हो, तो बाकी फलक उस समान फलक के चारों ओर कैसे घूमते हैं, यह देखें।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In both figures, face 3 is common and stays in the same visible position. So we compare the other faces around 3. In the first figure, 4 is on top and 2 is on the right. In the second figure, 2 comes to the top and 1 comes to the right. This means the die has rotated around face 3, so the face that was opposite 4 has come into the place of 1. Therefore, 1 is opposite 4.",
+              "hindi": "दोनों चित्रों में 3 वाला फलक समान है और उसी स्थिति में दिख रहा है। इसलिए 3 के आसपास के बाकी फलक देखें। पहले चित्र में ऊपर 4 है और दाईं ओर 2 है। दूसरे चित्र में 2 ऊपर आ गया और 1 दाईं ओर आ गया। इसका मतलब पासा 3 वाले फलक के चारों ओर घूमा है, इसलिए 1 वाला फलक 4 के विपरीत होगा। अतः 1 के विपरीत संख्या 4 है।"
+            }
+          ],
+          "questionImageAsset": "dice1_q14.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 14",
+          "hindi": "प्रश्न 14"
+        },
+        {
+          "english": "Source page 24",
+          "hindi": "स्रोत पेज 24"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q15_dice_and_cube",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 15: Dice and Cube",
+        "hindi": "प्रश्न 15: पासा और घन"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 15 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 15 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Dice and Cube",
+        "hindi": "पासा और घन"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: In a die, 1, 2, 3 and 4 dots are on adjacent faces in clockwise order, and 5 and 6 dots are on the top and bottom faces. If 1 dot is on the top, which number of dots will be on the bottom?",
+          "hindi": "प्रश्न: एक पासे में 1, 2, 3 और 4 बिंदु आसन्न फलकों पर दक्षिणावर्त क्रम में हैं, तथा 5 और 6 बिंदु ऊपर और नीचे हैं। यदि 1 बिंदु ऊपर हो, तो नीचे कितने बिंदु होंगे?"
+        },
+        {
+          "english": "Since 5 and 6 are on the top and bottom, they are opposite faces. So 1, 2, 3 and 4 must go around the four side faces in clockwise order. In a ring of four side faces, the faces two steps apart are opposite. Therefore, 1 is opposite 3 and 2 is opposite 4. So if 1 comes to the top, the bottom face will be 3.",
+          "hindi": "क्योंकि 5 और 6 ऊपर और नीचे हैं, इसलिए वे आमने-सामने वाले फलक हैं। तब 1, 2, 3 और 4 चारों बगल वाले फलकों पर दक्षिणावर्त क्रम में होंगे। चार साइड-फेस के इस क्रम में जो संख्या दो स्थान छोड़कर आती है, वह विपरीत फलक पर होती है। इसलिए 1 के विपरीत 3 और 2 के विपरीत 4 होगा। अतः यदि 1 ऊपर है, तो नीचे 3 होगा।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "In a standard cube, opposite faces stay opposite after any rotation.",
+          "hindi": "घन में जो फलक आमने-सामने होते हैं, घुमाने पर भी वे आमने-सामने ही रहते हैं।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q15",
+          "prompt": {
+            "english": "In a die, 1, 2, 3 and 4 dots are on adjacent faces in clockwise order, and 5 and 6 dots are on the top and bottom faces. If 1 dot is on the top, which number of dots will be on the bottom?",
+            "hindi": "एक पासे में 1, 2, 3 और 4 बिंदु आसन्न फलकों पर दक्षिणावर्त क्रम में हैं, तथा 5 और 6 बिंदु ऊपर और नीचे हैं। यदि 1 बिंदु ऊपर हो, तो नीचे कितने बिंदु होंगे?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "4",
+              "hindi": "4"
+            },
+            {
+              "english": "6",
+              "hindi": "6"
+            },
+            {
+              "english": "3",
+              "hindi": "3"
+            },
+            {
+              "english": "2",
+              "hindi": "2"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [
+            "3",
+            "three",
+            "option c",
+            "c"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "Since 5 and 6 are on the top and bottom, they are opposite faces. So 1, 2, 3 and 4 must go around the four side faces in clockwise order. In a ring of four side faces, the faces two steps apart are opposite. Therefore, 1 is opposite 3 and 2 is opposite 4. So if 1 comes to the top, the bottom face will be 3.",
+            "hindi": "क्योंकि 5 और 6 ऊपर और नीचे हैं, इसलिए वे आमने-सामने वाले फलक हैं। तब 1, 2, 3 और 4 चारों बगल वाले फलकों पर दक्षिणावर्त क्रम में होंगे। चार साइड-फेस के इस क्रम में जो संख्या दो स्थान छोड़कर आती है, वह विपरीत फलक पर होती है। इसलिए 1 के विपरीत 3 और 2 के विपरीत 4 होगा। अतः यदि 1 ऊपर है, तो नीचे 3 होगा।"
+          },
+          "supportExample": {
+            "english": "In a standard cube, opposite faces stay opposite after any rotation.",
+            "hindi": "घन में जो फलक आमने-सामने होते हैं, घुमाने पर भी वे आमने-सामने ही रहते हैं।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Since 5 and 6 are on the top and bottom, they are opposite faces. So 1, 2, 3 and 4 must go around the four side faces in clockwise order. In a ring of four side faces, the faces two steps apart are opposite. Therefore, 1 is opposite 3 and 2 is opposite 4. So if 1 comes to the top, the bottom face will be 3.",
+              "hindi": "क्योंकि 5 और 6 ऊपर और नीचे हैं, इसलिए वे आमने-सामने वाले फलक हैं। तब 1, 2, 3 और 4 चारों बगल वाले फलकों पर दक्षिणावर्त क्रम में होंगे। चार साइड-फेस के इस क्रम में जो संख्या दो स्थान छोड़कर आती है, वह विपरीत फलक पर होती है। इसलिए 1 के विपरीत 3 और 2 के विपरीत 4 होगा। अतः यदि 1 ऊपर है, तो नीचे 3 होगा।"
+            }
+          ],
+          "questionImageAsset": "dice1_q15.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 15",
+          "hindi": "प्रश्न 15"
+        },
+        {
+          "english": "Source page 25",
+          "hindi": "स्रोत पेज 25"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q16_dice_opposite_face",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 16: Dice Opposite Face",
+        "hindi": "प्रश्न 16: पासा: विपरीत फलक"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 16 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 16 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Dice Opposite Face",
+        "hindi": "पासा: विपरीत फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Three different positions of the same dice are shown. Select the symbol that will be on the face opposite to the one having '@'.",
+          "hindi": "प्रश्न: एक ही पासे की तीन अलग-अलग स्थितियाँ दिखाई गई हैं। उस प्रतीक का चयन करें जो '@' वाले फलक के विपरीत फलक पर होगा।"
+        },
+        {
+          "english": "Look at the two views where '@' is visible. In the second figure, '@' is touching '&' and '#'. In the third figure, '@' is touching 'c' and '%'. So the four faces adjacent to '@' are '&', '#', 'c', and '%'. A dice face can touch only four faces, so the only remaining symbol, 'O', must be opposite to '@'.",
+          "hindi": "जहाँ-जहाँ '@' दिख रहा है, उन दोनों स्थितियों को देखिए। दूसरी आकृति में '@' के साथ '&' और '#' लगे हैं। तीसरी आकृति में '@' के साथ 'c' और '%' लगे हैं। इसलिए '@' के चार सटे हुए फलक '&', '#', 'c' और '%' हैं। किसी भी फलक के केवल 4 सटे हुए फलक होते हैं, इसलिए बचा हुआ एकमात्र प्रतीक 'O' ही '@' के विपरीत होगा।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "A face on a dice touches 4 faces and has 1 opposite face.",
+          "hindi": "पासे के किसी भी फलक के 4 सटे हुए फलक होते हैं और 1 विपरीत फलक होता है।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q16",
+          "prompt": {
+            "english": "Three different positions of the same dice are shown. Select the symbol that will be on the face opposite to the one having '@'.",
+            "hindi": "एक ही पासे की तीन अलग-अलग स्थितियाँ दिखाई गई हैं। उस प्रतीक का चयन करें जो '@' वाले फलक के विपरीत फलक पर होगा।"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "O",
+              "hindi": "O"
+            },
+            {
+              "english": "%",
+              "hindi": "%"
+            },
+            {
+              "english": "&",
+              "hindi": "&"
+            },
+            {
+              "english": "#",
+              "hindi": "#"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [
+            "O",
+            "A",
+            "option a",
+            "(a)"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "Look at the two views where '@' is visible. In the second figure, '@' is touching '&' and '#'. In the third figure, '@' is touching 'c' and '%'. So the four faces adjacent to '@' are '&', '#', 'c', and '%'. A dice face can touch only four faces, so the only remaining symbol, 'O', must be opposite to '@'.",
+            "hindi": "जहाँ-जहाँ '@' दिख रहा है, उन दोनों स्थितियों को देखिए। दूसरी आकृति में '@' के साथ '&' और '#' लगे हैं। तीसरी आकृति में '@' के साथ 'c' और '%' लगे हैं। इसलिए '@' के चार सटे हुए फलक '&', '#', 'c' और '%' हैं। किसी भी फलक के केवल 4 सटे हुए फलक होते हैं, इसलिए बचा हुआ एकमात्र प्रतीक 'O' ही '@' के विपरीत होगा।"
+          },
+          "supportExample": {
+            "english": "A face on a dice touches 4 faces and has 1 opposite face.",
+            "hindi": "पासे के किसी भी फलक के 4 सटे हुए फलक होते हैं और 1 विपरीत फलक होता है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Look at the two views where '@' is visible. In the second figure, '@' is touching '&' and '#'. In the third figure, '@' is touching 'c' and '%'. So the four faces adjacent to '@' are '&', '#', 'c', and '%'. A dice face can touch only four faces, so the only remaining symbol, 'O', must be opposite to '@'.",
+              "hindi": "जहाँ-जहाँ '@' दिख रहा है, उन दोनों स्थितियों को देखिए। दूसरी आकृति में '@' के साथ '&' और '#' लगे हैं। तीसरी आकृति में '@' के साथ 'c' और '%' लगे हैं। इसलिए '@' के चार सटे हुए फलक '&', '#', 'c' और '%' हैं। किसी भी फलक के केवल 4 सटे हुए फलक होते हैं, इसलिए बचा हुआ एकमात्र प्रतीक 'O' ही '@' के विपरीत होगा।"
+            }
+          ],
+          "questionImageAsset": "dice1_q16.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 16",
+          "hindi": "प्रश्न 16"
+        },
+        {
+          "english": "Source page 26",
+          "hindi": "स्रोत पेज 26"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q17_dice_and_cube",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 17: Dice and Cube",
+        "hindi": "प्रश्न 17: पासा और घन"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 17 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 17 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Dice and Cube",
+        "hindi": "पासा और घन"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: The six faces of a dice have been marked with the letters A, B, C, D, E and F. If A is adjacent to B, C and E, then which of the following statements is true?",
+          "hindi": "प्रश्न: एक पासे के छह फलकों पर A, B, C, D, E और F अक्षर अंकित हैं। यदि A, B, C और E के आसन्न है, तो निम्नलिखित में से कौन-सा कथन सत्य है?"
+        },
+        {
+          "english": "Face A can touch only 4 faces in a cube. We already know A is adjacent to B, C and E, so among D and F, only one can still be adjacent to A; the other must be opposite to A. The face opposite to A touches all four side faces, including the remaining one among D and F. Therefore D and F must be adjacent to each other. So the true statement is option (d).",
+          "hindi": "घन में A के साथ कुल 4 फलक ही सटे हो सकते हैं। यहाँ A, B, C और E के आसन्न है, इसलिए D और F में से केवल एक ही A के पास होगा और दूसरा A के विपरीत होगा। A के विपरीत वाला फलक बाकी चारों पार्श्व फलकों को छूता है, इसलिए D और F एक-दूसरे के आसन्न अवश्य होंगे। अतः सही कथन विकल्प (d) है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "A face of a cube has 4 adjacent faces and 1 opposite face.",
+          "hindi": "घन के किसी एक फलक के 4 पड़ोसी और 1 विपरीत फलक होता है।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q17",
+          "prompt": {
+            "english": "The six faces of a dice have been marked with the letters A, B, C, D, E and F. If A is adjacent to B, C and E, then which of the following statements is true?",
+            "hindi": "एक पासे के छह फलकों पर A, B, C, D, E और F अक्षर अंकित हैं। यदि A, B, C और E के आसन्न है, तो निम्नलिखित में से कौन-सा कथन सत्य है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "B is adjacent to E.",
+              "hindi": "B is adjacent to E."
+            },
+            {
+              "english": "A is adjacent to D.",
+              "hindi": "A is adjacent to D."
+            },
+            {
+              "english": "A is adjacent to F.",
+              "hindi": "A is adjacent to F."
+            },
+            {
+              "english": "D is adjacent to F.",
+              "hindi": "D is adjacent to F."
+            }
+          ],
+          "correctOptionIndex": 3,
+          "acceptedAnswers": [
+            "(d)",
+            "d",
+            "option d",
+            "D is adjacent to F",
+            "D and F are adjacent",
+            "D, F के नजदीक है"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "Face A can touch only 4 faces in a cube. We already know A is adjacent to B, C and E, so among D and F, only one can still be adjacent to A; the other must be opposite to A. The face opposite to A touches all four side faces, including the remaining one among D and F. Therefore D and F must be adjacent to each other. So the true statement is option (d).",
+            "hindi": "घन में A के साथ कुल 4 फलक ही सटे हो सकते हैं। यहाँ A, B, C और E के आसन्न है, इसलिए D और F में से केवल एक ही A के पास होगा और दूसरा A के विपरीत होगा। A के विपरीत वाला फलक बाकी चारों पार्श्व फलकों को छूता है, इसलिए D और F एक-दूसरे के आसन्न अवश्य होंगे। अतः सही कथन विकल्प (d) है।"
+          },
+          "supportExample": {
+            "english": "A face of a cube has 4 adjacent faces and 1 opposite face.",
+            "hindi": "घन के किसी एक फलक के 4 पड़ोसी और 1 विपरीत फलक होता है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Face A can touch only 4 faces in a cube. We already know A is adjacent to B, C and E, so among D and F, only one can still be adjacent to A; the other must be opposite to A. The face opposite to A touches all four side faces, including the remaining one among D and F. Therefore D and F must be adjacent to each other. So the true statement is option (d).",
+              "hindi": "घन में A के साथ कुल 4 फलक ही सटे हो सकते हैं। यहाँ A, B, C और E के आसन्न है, इसलिए D और F में से केवल एक ही A के पास होगा और दूसरा A के विपरीत होगा। A के विपरीत वाला फलक बाकी चारों पार्श्व फलकों को छूता है, इसलिए D और F एक-दूसरे के आसन्न अवश्य होंगे। अतः सही कथन विकल्प (d) है।"
+            }
+          ],
+          "questionImageAsset": "dice1_q17.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 17",
+          "hindi": "प्रश्न 17"
+        },
+        {
+          "english": "Source page 27",
+          "hindi": "स्रोत पेज 27"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q18_dice_opposite_face",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 18: Dice Opposite Face",
+        "hindi": "प्रश्न 18: पासे का विपरीत फलक"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 18 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 18 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Dice Opposite Face",
+        "hindi": "पासे का विपरीत फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Four different positions of the same dice are shown. Select the number that will be on the face opposite to the one having 5.",
+          "hindi": "प्रश्न: एक ही पासे की चार अलग-अलग स्थितियाँ दर्शाई गई हैं। वह संख्या चुनें जो 5 वाले फलक के विपरीत फलक पर होगी।"
+        },
+        {
+          "english": "From the shown positions, face 5 is adjacent to 3 and 2 in the first cube, to 6 and 2 in the third cube, and to 1 and 3 in the fourth cube. So the four faces touching 5 are 1, 2, 3, and 6. The only number left is 4, so 4 must be opposite to 5.",
+          "hindi": "दिखाई गई स्थितियों में 5 वाला फलक पहले घन में 3 और 2 के साथ, तीसरे घन में 6 और 2 के साथ, और चौथे घन में 1 और 3 के साथ लगा हुआ है। इसलिए 5 के आस-पास के चार फलक 1, 2, 3 और 6 हैं। बची हुई केवल 4 संख्या है, इसलिए 4 वाला फलक 5 के विपरीत होगा।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "On a cube, one face touches 4 faces and is opposite to 1 face.",
+          "hindi": "घन में एक फलक 4 फलक से लगा होता है और 1 फलक के विपरीत होता है।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q18",
+          "prompt": {
+            "english": "Four different positions of the same dice are shown. Select the number that will be on the face opposite to the one having 5.",
+            "hindi": "एक ही पासे की चार अलग-अलग स्थितियाँ दर्शाई गई हैं। वह संख्या चुनें जो 5 वाले फलक के विपरीत फलक पर होगी।"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "2",
+              "hindi": "2"
+            },
+            {
+              "english": "1",
+              "hindi": "1"
+            },
+            {
+              "english": "6",
+              "hindi": "6"
+            },
+            {
+              "english": "4",
+              "hindi": "4"
+            }
+          ],
+          "correctOptionIndex": 3,
+          "acceptedAnswers": [
+            "4",
+            "d",
+            "(d)"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "From the shown positions, face 5 is adjacent to 3 and 2 in the first cube, to 6 and 2 in the third cube, and to 1 and 3 in the fourth cube. So the four faces touching 5 are 1, 2, 3, and 6. The only number left is 4, so 4 must be opposite to 5.",
+            "hindi": "दिखाई गई स्थितियों में 5 वाला फलक पहले घन में 3 और 2 के साथ, तीसरे घन में 6 और 2 के साथ, और चौथे घन में 1 और 3 के साथ लगा हुआ है। इसलिए 5 के आस-पास के चार फलक 1, 2, 3 और 6 हैं। बची हुई केवल 4 संख्या है, इसलिए 4 वाला फलक 5 के विपरीत होगा।"
+          },
+          "supportExample": {
+            "english": "On a cube, one face touches 4 faces and is opposite to 1 face.",
+            "hindi": "घन में एक फलक 4 फलक से लगा होता है और 1 फलक के विपरीत होता है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "From the shown positions, face 5 is adjacent to 3 and 2 in the first cube, to 6 and 2 in the third cube, and to 1 and 3 in the fourth cube. So the four faces touching 5 are 1, 2, 3, and 6. The only number left is 4, so 4 must be opposite to 5.",
+              "hindi": "दिखाई गई स्थितियों में 5 वाला फलक पहले घन में 3 और 2 के साथ, तीसरे घन में 6 और 2 के साथ, और चौथे घन में 1 और 3 के साथ लगा हुआ है। इसलिए 5 के आस-पास के चार फलक 1, 2, 3 और 6 हैं। बची हुई केवल 4 संख्या है, इसलिए 4 वाला फलक 5 के विपरीत होगा।"
+            }
+          ],
+          "questionImageAsset": "dice1_q18.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 18",
+          "hindi": "प्रश्न 18"
+        },
+        {
+          "english": "Source page 28",
+          "hindi": "स्रोत पेज 28"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q19_opposite_face_of_a_dice",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 19: Opposite Face of a Dice",
+        "hindi": "प्रश्न 19: पासे का विपरीत फलक"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 19 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 19 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Opposite Face of a Dice",
+        "hindi": "पासे का विपरीत फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Six characters A, B, C, 1, 2 and 3 are written on different faces of a dice. Two positions of this dice are shown in the figure. Find the character on the face opposite to C.",
+          "hindi": "प्रश्न: एक पासे के अलग-अलग फलकों पर छह अक्षर A, B, C, 1, 2 और 3 लिखे हैं। इस पासे की दो स्थितियाँ चित्र में दर्शाई गई हैं। C के विपरीत फलक पर कौन-सा अक्षर है?"
+        },
+        {
+          "english": "In both figures, A is on the top, so A is the common face. That means the other four side faces around A are 2, 3, B and C. In the first view, 2 and 3 are adjacent side faces. In the second view, B and C are adjacent side faces. So the side faces around A must be in the order 2, 3, B, C (up to rotation). In this order, opposite side faces are 2 and B, and 3 and C. Therefore, the face opposite to C is 3.",
+          "hindi": "दोनों चित्रों में ऊपर A है, इसलिए A समान फलक है। इसका मतलब A के चारों ओर बाकी चार पार्श्व फलक 2, 3, B और C हैं। पहले चित्र में 2 और 3 साथ-साथ दिख रहे हैं। दूसरे चित्र में B और C साथ-साथ दिख रहे हैं। इसलिए A के आसपास इनका क्रम 2, 3, B, C (घुमाव के अनुसार) होगा। इस क्रम में विपरीत फलक 2 और B हैं, तथा 3 और C हैं। इसलिए C के विपरीत फलक पर 3 होगा।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "If one face is common in both views, compare the side faces around that common face.",
+          "hindi": "यदि दो स्थितियों में एक फलक समान हो, तो उसके आसपास के फलकों की तुलना करें।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q19",
+          "prompt": {
+            "english": "Six characters A, B, C, 1, 2 and 3 are written on different faces of a dice. Two positions of this dice are shown in the figure. Find the character on the face opposite to C.",
+            "hindi": "एक पासे के अलग-अलग फलकों पर छह अक्षर A, B, C, 1, 2 और 3 लिखे हैं। इस पासे की दो स्थितियाँ चित्र में दर्शाई गई हैं। C के विपरीत फलक पर कौन-सा अक्षर है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "2",
+              "hindi": "2"
+            },
+            {
+              "english": "B",
+              "hindi": "B"
+            },
+            {
+              "english": "3",
+              "hindi": "3"
+            },
+            {
+              "english": "1",
+              "hindi": "1"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [
+            "3",
+            "Option C"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In both figures, A is on the top, so A is the common face. That means the other four side faces around A are 2, 3, B and C. In the first view, 2 and 3 are adjacent side faces. In the second view, B and C are adjacent side faces. So the side faces around A must be in the order 2, 3, B, C (up to rotation). In this order, opposite side faces are 2 and B, and 3 and C. Therefore, the face opposite to C is 3.",
+            "hindi": "दोनों चित्रों में ऊपर A है, इसलिए A समान फलक है। इसका मतलब A के चारों ओर बाकी चार पार्श्व फलक 2, 3, B और C हैं। पहले चित्र में 2 और 3 साथ-साथ दिख रहे हैं। दूसरे चित्र में B और C साथ-साथ दिख रहे हैं। इसलिए A के आसपास इनका क्रम 2, 3, B, C (घुमाव के अनुसार) होगा। इस क्रम में विपरीत फलक 2 और B हैं, तथा 3 और C हैं। इसलिए C के विपरीत फलक पर 3 होगा।"
+          },
+          "supportExample": {
+            "english": "If one face is common in both views, compare the side faces around that common face.",
+            "hindi": "यदि दो स्थितियों में एक फलक समान हो, तो उसके आसपास के फलकों की तुलना करें।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In both figures, A is on the top, so A is the common face. That means the other four side faces around A are 2, 3, B and C. In the first view, 2 and 3 are adjacent side faces. In the second view, B and C are adjacent side faces. So the side faces around A must be in the order 2, 3, B, C (up to rotation). In this order, opposite side faces are 2 and B, and 3 and C. Therefore, the face opposite to C is 3.",
+              "hindi": "दोनों चित्रों में ऊपर A है, इसलिए A समान फलक है। इसका मतलब A के चारों ओर बाकी चार पार्श्व फलक 2, 3, B और C हैं। पहले चित्र में 2 और 3 साथ-साथ दिख रहे हैं। दूसरे चित्र में B और C साथ-साथ दिख रहे हैं। इसलिए A के आसपास इनका क्रम 2, 3, B, C (घुमाव के अनुसार) होगा। इस क्रम में विपरीत फलक 2 और B हैं, तथा 3 और C हैं। इसलिए C के विपरीत फलक पर 3 होगा।"
+            }
+          ],
+          "questionImageAsset": "dice1_q19.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 19",
+          "hindi": "प्रश्न 19"
+        },
+        {
+          "english": "Source page 29",
+          "hindi": "स्रोत पेज 29"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q20_dice_opposite_face",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 20: Dice Opposite Face",
+        "hindi": "प्रश्न 20: पासे का विपरीत फलक"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 20 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 20 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Dice Opposite Face",
+        "hindi": "पासे का विपरीत फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Three different positions of the same dice are shown. Find the number on the face opposite the face showing '1'.",
+          "hindi": "प्रश्न: एक ही पासे की तीन अलग-अलग स्थितियाँ दर्शाई गई हैं। '1' दर्शाने वाले फलक के विपरीत फलक पर कौन-सी संख्या होगी?"
+        },
+        {
+          "english": "In all three figures, the top face is 1. The visible side pairs are (2, 6), (6, 5), and (5, 4). So around face 1, the side faces go in order 2, 6, 5, 4. In this circular order, opposite side faces are 2 and 5, and 6 and 4. The only remaining number is 3, so 3 must be opposite to 1.",
+          "hindi": "तीनों आकृतियों में ऊपर वाला फलक 1 है। दिखने वाले बगल के जोड़े हैं: (2, 6), (6, 5), और (5, 4)। इसलिए 1 के चारों ओर फलक क्रम में 2, 6, 5, 4 होंगे। इस गोल क्रम में 2 के विपरीत 5 होगा और 6 के विपरीत 4 होगा। अब केवल 3 बचता है, इसलिए 1 के विपरीत 3 होगा।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "If one face stays the same in all views, the surrounding side faces can be arranged in a circular order.",
+          "hindi": "यदि हर दृश्य में एक ही फलक स्थिर हो, तो उसके आसपास के फलक गोल क्रम में रखे जा सकते हैं।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q20",
+          "prompt": {
+            "english": "Three different positions of the same dice are shown. Find the number on the face opposite the face showing '1'.",
+            "hindi": "एक ही पासे की तीन अलग-अलग स्थितियाँ दर्शाई गई हैं। '1' दर्शाने वाले फलक के विपरीत फलक पर कौन-सी संख्या होगी?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "6",
+              "hindi": "6"
+            },
+            {
+              "english": "2",
+              "hindi": "2"
+            },
+            {
+              "english": "3",
+              "hindi": "3"
+            },
+            {
+              "english": "4",
+              "hindi": "4"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [
+            "3",
+            "three",
+            "c",
+            "option c",
+            "विकल्प (c)",
+            "३"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In all three figures, the top face is 1. The visible side pairs are (2, 6), (6, 5), and (5, 4). So around face 1, the side faces go in order 2, 6, 5, 4. In this circular order, opposite side faces are 2 and 5, and 6 and 4. The only remaining number is 3, so 3 must be opposite to 1.",
+            "hindi": "तीनों आकृतियों में ऊपर वाला फलक 1 है। दिखने वाले बगल के जोड़े हैं: (2, 6), (6, 5), और (5, 4)। इसलिए 1 के चारों ओर फलक क्रम में 2, 6, 5, 4 होंगे। इस गोल क्रम में 2 के विपरीत 5 होगा और 6 के विपरीत 4 होगा। अब केवल 3 बचता है, इसलिए 1 के विपरीत 3 होगा।"
+          },
+          "supportExample": {
+            "english": "If one face stays the same in all views, the surrounding side faces can be arranged in a circular order.",
+            "hindi": "यदि हर दृश्य में एक ही फलक स्थिर हो, तो उसके आसपास के फलक गोल क्रम में रखे जा सकते हैं।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In all three figures, the top face is 1. The visible side pairs are (2, 6), (6, 5), and (5, 4). So around face 1, the side faces go in order 2, 6, 5, 4. In this circular order, opposite side faces are 2 and 5, and 6 and 4. The only remaining number is 3, so 3 must be opposite to 1.",
+              "hindi": "तीनों आकृतियों में ऊपर वाला फलक 1 है। दिखने वाले बगल के जोड़े हैं: (2, 6), (6, 5), और (5, 4)। इसलिए 1 के चारों ओर फलक क्रम में 2, 6, 5, 4 होंगे। इस गोल क्रम में 2 के विपरीत 5 होगा और 6 के विपरीत 4 होगा। अब केवल 3 बचता है, इसलिए 1 के विपरीत 3 होगा।"
+            }
+          ],
+          "questionImageAsset": "dice1_q20.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 20",
+          "hindi": "प्रश्न 20"
+        },
+        {
+          "english": "Source page 30",
+          "hindi": "स्रोत पेज 30"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q21_standard_dice_opposite_face",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 21: Standard Dice Opposite Face",
+        "hindi": "प्रश्न 21: मानक पासे का विपरीत फलक"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 21 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 21 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Standard Dice Opposite Face",
+        "hindi": "मानक पासे का विपरीत फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: If this is a standard dice, what will be the face opposite to 4?",
+          "hindi": "प्रश्न: अगर यह एक मानक पासा है, तो 4 के विपरीत फलक पर कौन-सा अंक होगा?"
+        },
+        {
+          "english": "This is a standard die, so opposite faces are fixed as 1-6, 2-5, and 3-4. Therefore, the face opposite 4 is 3. The shown faces 6, 2, and 4 are adjacent, which also confirms that 2 and 6 cannot be opposite to 4.",
+          "hindi": "यह मानक पासा है, इसलिए इसके विपरीत फलक निश्चित होते हैं: 1-6, 2-5 और 3-4। इसलिए 4 के विपरीत फलक पर 3 होगा। चित्र में 6, 2 और 4 साथ-साथ दिख रहे हैं, इसलिए 2 और 6, 4 के विपरीत नहीं हो सकते।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "In a standard die, opposite faces add up to 7.",
+          "hindi": "मानक पासे में विपरीत फलकों का योग 7 होता है।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q21",
+          "prompt": {
+            "english": "If this is a standard dice, what will be the face opposite to 4?",
+            "hindi": "अगर यह एक मानक पासा है, तो 4 के विपरीत फलक पर कौन-सा अंक होगा?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "3",
+              "hindi": "3"
+            },
+            {
+              "english": "5",
+              "hindi": "5"
+            },
+            {
+              "english": "2",
+              "hindi": "2"
+            },
+            {
+              "english": "6",
+              "hindi": "6"
+            }
+          ],
+          "correctOptionIndex": 0,
+          "acceptedAnswers": [
+            "3",
+            "three",
+            "a",
+            "option a",
+            "3 face",
+            "३"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "This is a standard die, so opposite faces are fixed as 1-6, 2-5, and 3-4. Therefore, the face opposite 4 is 3. The shown faces 6, 2, and 4 are adjacent, which also confirms that 2 and 6 cannot be opposite to 4.",
+            "hindi": "यह मानक पासा है, इसलिए इसके विपरीत फलक निश्चित होते हैं: 1-6, 2-5 और 3-4। इसलिए 4 के विपरीत फलक पर 3 होगा। चित्र में 6, 2 और 4 साथ-साथ दिख रहे हैं, इसलिए 2 और 6, 4 के विपरीत नहीं हो सकते।"
+          },
+          "supportExample": {
+            "english": "In a standard die, opposite faces add up to 7.",
+            "hindi": "मानक पासे में विपरीत फलकों का योग 7 होता है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "This is a standard die, so opposite faces are fixed as 1-6, 2-5, and 3-4. Therefore, the face opposite 4 is 3. The shown faces 6, 2, and 4 are adjacent, which also confirms that 2 and 6 cannot be opposite to 4.",
+              "hindi": "यह मानक पासा है, इसलिए इसके विपरीत फलक निश्चित होते हैं: 1-6, 2-5 और 3-4। इसलिए 4 के विपरीत फलक पर 3 होगा। चित्र में 6, 2 और 4 साथ-साथ दिख रहे हैं, इसलिए 2 और 6, 4 के विपरीत नहीं हो सकते।"
+            }
+          ],
+          "questionImageAsset": "dice1_q21.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 21",
+          "hindi": "प्रश्न 21"
+        },
+        {
+          "english": "Source page 31",
+          "hindi": "स्रोत पेज 31"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q22_standard_dice",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 22: Standard Dice",
+        "hindi": "प्रश्न 22: मानक पासा"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 22 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 22 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Standard Dice",
+        "hindi": "मानक पासा"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: If this is a standard die, what number will be on the face opposite to 2?",
+          "hindi": "प्रश्न: अगर यह एक मानक पासा है, तो 2 के विपरीत फलक पर कौन-सा अंक होगा?"
+        },
+        {
+          "english": "For a standard die, the opposite face pairs are fixed: 1-6, 2-5, and 3-4. So the face opposite to 2 is 5. In the figure, 6, 2, and 4 are shown as adjacent faces, which is consistent with this standard rule.",
+          "hindi": "मानक पासे में विपरीत फलकों के जोड़े निश्चित होते हैं: 1-6, 2-5, और 3-4। इसलिए 2 के विपरीत फलक पर 5 होगा। चित्र में 6, 2 और 4 पास-पास के फलक दिख रहे हैं, जो इसी मानक नियम के अनुसार सही है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "On a standard die, opposite faces always add up to 7.",
+          "hindi": "मानक पासे में विपरीत फलकों का योग हमेशा 7 होता है।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q22",
+          "prompt": {
+            "english": "If this is a standard die, what number will be on the face opposite to 2?",
+            "hindi": "अगर यह एक मानक पासा है, तो 2 के विपरीत फलक पर कौन-सा अंक होगा?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "3",
+              "hindi": "3"
+            },
+            {
+              "english": "5",
+              "hindi": "5"
+            },
+            {
+              "english": "2",
+              "hindi": "2"
+            },
+            {
+              "english": "6",
+              "hindi": "6"
+            }
+          ],
+          "correctOptionIndex": 1,
+          "acceptedAnswers": [
+            "5",
+            "b",
+            "five",
+            "पाँच",
+            "५"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "For a standard die, the opposite face pairs are fixed: 1-6, 2-5, and 3-4. So the face opposite to 2 is 5. In the figure, 6, 2, and 4 are shown as adjacent faces, which is consistent with this standard rule.",
+            "hindi": "मानक पासे में विपरीत फलकों के जोड़े निश्चित होते हैं: 1-6, 2-5, और 3-4। इसलिए 2 के विपरीत फलक पर 5 होगा। चित्र में 6, 2 और 4 पास-पास के फलक दिख रहे हैं, जो इसी मानक नियम के अनुसार सही है।"
+          },
+          "supportExample": {
+            "english": "On a standard die, opposite faces always add up to 7.",
+            "hindi": "मानक पासे में विपरीत फलकों का योग हमेशा 7 होता है।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "For a standard die, the opposite face pairs are fixed: 1-6, 2-5, and 3-4. So the face opposite to 2 is 5. In the figure, 6, 2, and 4 are shown as adjacent faces, which is consistent with this standard rule.",
+              "hindi": "मानक पासे में विपरीत फलकों के जोड़े निश्चित होते हैं: 1-6, 2-5, और 3-4। इसलिए 2 के विपरीत फलक पर 5 होगा। चित्र में 6, 2 और 4 पास-पास के फलक दिख रहे हैं, जो इसी मानक नियम के अनुसार सही है।"
+            }
+          ],
+          "questionImageAsset": "dice1_q22.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 22",
+          "hindi": "प्रश्न 22"
+        },
+        {
+          "english": "Source page 32",
+          "hindi": "स्रोत पेज 32"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q23_opposite_faces_on_a_die",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 23: Opposite Faces on a Die",
+        "hindi": "प्रश्न 23: पासे के विपरीत फलक"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 23 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 23 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Opposite Faces on a Die",
+        "hindi": "पासे के विपरीत फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Two different positions of the same die are given below. Which number is on the face opposite to the face containing 4?",
+          "hindi": "प्रश्न: एक ही पासे की दो अलग-अलग स्थितियाँ नीचे दी गई हैं। संख्या 4 वाले फलक के विपरीत फलक पर कौन-सी संख्या है?"
+        },
+        {
+          "english": "In the first view, the three visible faces are 6, 5, and 4. In the second view, the visible faces are 1, 3, and 2. Since no face is common in the two views, these are opposite-corner views of the same die. Now match the second die with the first by rotation: 6 goes opposite 1, 5 goes opposite 2, so 4 goes opposite 3. Therefore, the face opposite 4 has number 3.",
+          "hindi": "पहले दृश्य में 6, 5 और 4 एक साथ दिख रहे हैं। दूसरे दृश्य में 1, 3 और 2 एक साथ दिख रहे हैं। दोनों दृश्यों में कोई भी फलक समान नहीं है, इसलिए ये एक ही पासे के विपरीत कोनों के दृश्य हैं। अब दूसरे पासे को घुमाकर पहले वाले से मिलाते हैं: 6 के सामने 1 आता है, 5 के सामने 2 आता है, इसलिए 4 के सामने 3 आएगा। अतः 4 के विपरीत फलक पर 3 है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "If two views of a die have no common face, match them by rotation to find opposite pairs.",
+          "hindi": "यदि पासे के दो दृश्यों में कोई फलक समान न हो, तो घुमाकर विपरीत फलक की जोड़ियाँ निकाली जाती हैं।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q23",
+          "prompt": {
+            "english": "Two different positions of the same die are given below. Which number is on the face opposite to the face containing 4?",
+            "hindi": "एक ही पासे की दो अलग-अलग स्थितियाँ नीचे दी गई हैं। संख्या 4 वाले फलक के विपरीत फलक पर कौन-सी संख्या है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "6",
+              "hindi": "6"
+            },
+            {
+              "english": "5",
+              "hindi": "5"
+            },
+            {
+              "english": "1",
+              "hindi": "1"
+            },
+            {
+              "english": "3",
+              "hindi": "3"
+            }
+          ],
+          "correctOptionIndex": 3,
+          "acceptedAnswers": [
+            "3",
+            "three",
+            "तीन",
+            "Option D"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In the first view, the three visible faces are 6, 5, and 4. In the second view, the visible faces are 1, 3, and 2. Since no face is common in the two views, these are opposite-corner views of the same die. Now match the second die with the first by rotation: 6 goes opposite 1, 5 goes opposite 2, so 4 goes opposite 3. Therefore, the face opposite 4 has number 3.",
+            "hindi": "पहले दृश्य में 6, 5 और 4 एक साथ दिख रहे हैं। दूसरे दृश्य में 1, 3 और 2 एक साथ दिख रहे हैं। दोनों दृश्यों में कोई भी फलक समान नहीं है, इसलिए ये एक ही पासे के विपरीत कोनों के दृश्य हैं। अब दूसरे पासे को घुमाकर पहले वाले से मिलाते हैं: 6 के सामने 1 आता है, 5 के सामने 2 आता है, इसलिए 4 के सामने 3 आएगा। अतः 4 के विपरीत फलक पर 3 है।"
+          },
+          "supportExample": {
+            "english": "If two views of a die have no common face, match them by rotation to find opposite pairs.",
+            "hindi": "यदि पासे के दो दृश्यों में कोई फलक समान न हो, तो घुमाकर विपरीत फलक की जोड़ियाँ निकाली जाती हैं।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In the first view, the three visible faces are 6, 5, and 4. In the second view, the visible faces are 1, 3, and 2. Since no face is common in the two views, these are opposite-corner views of the same die. Now match the second die with the first by rotation: 6 goes opposite 1, 5 goes opposite 2, so 4 goes opposite 3. Therefore, the face opposite 4 has number 3.",
+              "hindi": "पहले दृश्य में 6, 5 और 4 एक साथ दिख रहे हैं। दूसरे दृश्य में 1, 3 और 2 एक साथ दिख रहे हैं। दोनों दृश्यों में कोई भी फलक समान नहीं है, इसलिए ये एक ही पासे के विपरीत कोनों के दृश्य हैं। अब दूसरे पासे को घुमाकर पहले वाले से मिलाते हैं: 6 के सामने 1 आता है, 5 के सामने 2 आता है, इसलिए 4 के सामने 3 आएगा। अतः 4 के विपरीत फलक पर 3 है।"
+            }
+          ],
+          "questionImageAsset": "dice1_q23.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 23",
+          "hindi": "प्रश्न 23"
+        },
+        {
+          "english": "Source page 33",
+          "hindi": "स्रोत पेज 33"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q24_dice_opposite_face",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 24: Dice Opposite Face",
+        "hindi": "प्रश्न 24: पासे का विपरीत फलक"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 24 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 24 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Dice Opposite Face",
+        "hindi": "पासे का विपरीत फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: Six letters P, Q, R, S, T and U are written on different faces of a die. Two positions of this die are shown in the figure below. Find the letter on the face opposite to R.",
+          "hindi": "प्रश्न: एक पासे के अलग-अलग फलकों पर छह अक्षर P, Q, R, S, T और U लिखे हैं। नीचे दिए गए चित्र में इस पासे की दो स्थितियाँ दिखाई गई हैं। R के विपरीत फलक पर कौन-सा अक्षर है?"
+        },
+        {
+          "english": "In the first view, the three faces meeting at one corner are P, R, and T. In the second view, the three faces meeting at the opposite corner are Q, S, and U. Since no face is common in the two views, these are opposite corners of the same die. In such a case, the top face matches the top face, and the two side faces cross-match. So P is opposite Q, R is opposite U, and T is opposite S. Therefore, the face opposite to R is U.",
+          "hindi": "पहली स्थिति में एक कोने पर P, R और T तीनों फलक मिल रहे हैं। दूसरी स्थिति में विपरीत कोने पर Q, S और U मिल रहे हैं। क्योंकि दोनों स्थितियों में कोई भी फलक समान नहीं है, इसलिए ये पासे के विपरीत कोने हैं। ऐसे प्रश्नों में ऊपर वाला फलक ऊपर वाले के विपरीत होता है और दोनों बाजू वाले फलक आपस में क्रॉस-मिलान करते हैं। इसलिए P के विपरीत Q, R के विपरीत U और T के विपरीत S होगा। अतः R के विपरीत फलक पर U है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "If two views have no common face, they show opposite corners of the same die.",
+          "hindi": "यदि दो स्थितियों में कोई भी फलक समान न हो, तो वे पासे के विपरीत कोने दिखाती हैं।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q24",
+          "prompt": {
+            "english": "Six letters P, Q, R, S, T and U are written on different faces of a die. Two positions of this die are shown in the figure below. Find the letter on the face opposite to R.",
+            "hindi": "एक पासे के अलग-अलग फलकों पर छह अक्षर P, Q, R, S, T और U लिखे हैं। नीचे दिए गए चित्र में इस पासे की दो स्थितियाँ दिखाई गई हैं। R के विपरीत फलक पर कौन-सा अक्षर है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "T",
+              "hindi": "T"
+            },
+            {
+              "english": "Q",
+              "hindi": "Q"
+            },
+            {
+              "english": "U",
+              "hindi": "U"
+            },
+            {
+              "english": "S",
+              "hindi": "S"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [
+            "U",
+            "C",
+            "यू"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In the first view, the three faces meeting at one corner are P, R, and T. In the second view, the three faces meeting at the opposite corner are Q, S, and U. Since no face is common in the two views, these are opposite corners of the same die. In such a case, the top face matches the top face, and the two side faces cross-match. So P is opposite Q, R is opposite U, and T is opposite S. Therefore, the face opposite to R is U.",
+            "hindi": "पहली स्थिति में एक कोने पर P, R और T तीनों फलक मिल रहे हैं। दूसरी स्थिति में विपरीत कोने पर Q, S और U मिल रहे हैं। क्योंकि दोनों स्थितियों में कोई भी फलक समान नहीं है, इसलिए ये पासे के विपरीत कोने हैं। ऐसे प्रश्नों में ऊपर वाला फलक ऊपर वाले के विपरीत होता है और दोनों बाजू वाले फलक आपस में क्रॉस-मिलान करते हैं। इसलिए P के विपरीत Q, R के विपरीत U और T के विपरीत S होगा। अतः R के विपरीत फलक पर U है।"
+          },
+          "supportExample": {
+            "english": "If two views have no common face, they show opposite corners of the same die.",
+            "hindi": "यदि दो स्थितियों में कोई भी फलक समान न हो, तो वे पासे के विपरीत कोने दिखाती हैं।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In the first view, the three faces meeting at one corner are P, R, and T. In the second view, the three faces meeting at the opposite corner are Q, S, and U. Since no face is common in the two views, these are opposite corners of the same die. In such a case, the top face matches the top face, and the two side faces cross-match. So P is opposite Q, R is opposite U, and T is opposite S. Therefore, the face opposite to R is U.",
+              "hindi": "पहली स्थिति में एक कोने पर P, R और T तीनों फलक मिल रहे हैं। दूसरी स्थिति में विपरीत कोने पर Q, S और U मिल रहे हैं। क्योंकि दोनों स्थितियों में कोई भी फलक समान नहीं है, इसलिए ये पासे के विपरीत कोने हैं। ऐसे प्रश्नों में ऊपर वाला फलक ऊपर वाले के विपरीत होता है और दोनों बाजू वाले फलक आपस में क्रॉस-मिलान करते हैं। इसलिए P के विपरीत Q, R के विपरीत U और T के विपरीत S होगा। अतः R के विपरीत फलक पर U है।"
+            }
+          ],
+          "questionImageAsset": "dice1_q24.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 24",
+          "hindi": "प्रश्न 24"
+        },
+        {
+          "english": "Source page 34",
+          "hindi": "स्रोत पेज 34"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q25_dice_adjacency",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 25: Dice Adjacency",
+        "hindi": "प्रश्न 25: पासे के आसन्न फलक"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 25 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 25 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Dice Adjacency",
+        "hindi": "पासे के आसन्न फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: The six faces of a die have been marked with the letters A, B, C, D, E and F. If A is adjacent to B, C and E, then which of the following statements is true?",
+          "hindi": "प्रश्न: एक पासे के छह फलकों पर A, B, C, D, E और F अक्षर अंकित हैं। यदि A, B, C और E से सटा हुआ है, तो निम्नलिखित में से कौन-सा कथन सत्य है?"
+        },
+        {
+          "english": "Place A on the top face. Then B, C and E can occupy three side faces around A. A face of a die has 4 adjacent faces, so among D and F, one must be on the fourth side face and the other must be opposite A on the bottom. The bottom face is adjacent to every side face, so D and F must be adjacent. Therefore the true statement is option (d).",
+          "hindi": "A को ऊपर वाले फलक पर मान लें। तब B, C और E, A के आसपास की तीन साइडों पर होंगे। पासे के किसी भी फलक के 4 आसन्न फलक होते हैं, इसलिए D और F में से एक चौथी साइड पर होगा और दूसरा A के ठीक विपरीत नीचे होगा। नीचे वाला फलक सभी साइड फलकों से सटा होता है, इसलिए D और F जरूर आसन्न होंगे। इसलिए सही कथन विकल्प (d) है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "A die face has 4 adjacent faces and 1 opposite face.",
+          "hindi": "पासे के हर फलक के 4 आसन्न और 1 विपरीत फलक होते हैं।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q25",
+          "prompt": {
+            "english": "The six faces of a die have been marked with the letters A, B, C, D, E and F. If A is adjacent to B, C and E, then which of the following statements is true?",
+            "hindi": "एक पासे के छह फलकों पर A, B, C, D, E और F अक्षर अंकित हैं। यदि A, B, C और E से सटा हुआ है, तो निम्नलिखित में से कौन-सा कथन सत्य है?"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "B is adjacent to E.",
+              "hindi": "B is adjacent to E."
+            },
+            {
+              "english": "A is adjacent to D.",
+              "hindi": "A is adjacent to D."
+            },
+            {
+              "english": "A is adjacent to F.",
+              "hindi": "A is adjacent to F."
+            },
+            {
+              "english": "D is adjacent to F.",
+              "hindi": "D is adjacent to F."
+            }
+          ],
+          "correctOptionIndex": 3,
+          "acceptedAnswers": [
+            "d",
+            "(d)",
+            "option d",
+            "option (d)",
+            "D is adjacent to F",
+            "D and F are adjacent",
+            "विकल्प (d)",
+            "डी और एफ आसन्न हैं"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "Place A on the top face. Then B, C and E can occupy three side faces around A. A face of a die has 4 adjacent faces, so among D and F, one must be on the fourth side face and the other must be opposite A on the bottom. The bottom face is adjacent to every side face, so D and F must be adjacent. Therefore the true statement is option (d).",
+            "hindi": "A को ऊपर वाले फलक पर मान लें। तब B, C और E, A के आसपास की तीन साइडों पर होंगे। पासे के किसी भी फलक के 4 आसन्न फलक होते हैं, इसलिए D और F में से एक चौथी साइड पर होगा और दूसरा A के ठीक विपरीत नीचे होगा। नीचे वाला फलक सभी साइड फलकों से सटा होता है, इसलिए D और F जरूर आसन्न होंगे। इसलिए सही कथन विकल्प (d) है।"
+          },
+          "supportExample": {
+            "english": "A die face has 4 adjacent faces and 1 opposite face.",
+            "hindi": "पासे के हर फलक के 4 आसन्न और 1 विपरीत फलक होते हैं।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Place A on the top face. Then B, C and E can occupy three side faces around A. A face of a die has 4 adjacent faces, so among D and F, one must be on the fourth side face and the other must be opposite A on the bottom. The bottom face is adjacent to every side face, so D and F must be adjacent. Therefore the true statement is option (d).",
+              "hindi": "A को ऊपर वाले फलक पर मान लें। तब B, C और E, A के आसपास की तीन साइडों पर होंगे। पासे के किसी भी फलक के 4 आसन्न फलक होते हैं, इसलिए D और F में से एक चौथी साइड पर होगा और दूसरा A के ठीक विपरीत नीचे होगा। नीचे वाला फलक सभी साइड फलकों से सटा होता है, इसलिए D और F जरूर आसन्न होंगे। इसलिए सही कथन विकल्प (d) है।"
+            }
+          ],
+          "questionImageAsset": "dice1_q25.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 25",
+          "hindi": "प्रश्न 25"
+        },
+        {
+          "english": "Source page 35",
+          "hindi": "स्रोत पेज 35"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    },
+    {
+      "id": "dice1_q26_dice_opposite_face",
+      "sourceLessonId": "verbal_reasoning_dice1",
+      "chapterNumber": 1,
+      "chapterTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "lessonTitle": {
+        "english": "Dice 1",
+        "hindi": "डाइस 1"
+      },
+      "subtopicTitle": {
+        "english": "Question 26: Dice Opposite Face",
+        "hindi": "प्रश्न 26: पासा विपरीत फलक"
+      },
+      "knowPrompt": {
+        "english": "Solve Question 26 from Dice 1.",
+        "hindi": "डाइस 1 का प्रश्न 26 हल कीजिए।"
+      },
+      "explanationTitle": {
+        "english": "Dice Opposite Face",
+        "hindi": "पासा विपरीत फलक"
+      },
+      "explanationParagraphs": [
+        {
+          "english": "Question: In a dice, the faces are 1, 2, 3, 4, 5 and 6. Find the opposite face of 2.",
+          "hindi": "प्रश्न: एक पासे में फलक 1, 2, 3, 4, 5 और 6 हैं। 2 का विपरीत फलक ज्ञात कीजिए।"
+        },
+        {
+          "english": "In both cube views, 3 is on the top. In the first view, 2 is beside 5, and in the second view, 2 is beside 4. So 2 is adjacent to 3, 5, and 4. Hence 2 cannot be opposite to 3, 5, or 4. The only remaining numbers are 1 and 6, so from the given figure the opposite face of 2 can only be either 1 or 6.",
+          "hindi": "दोनों घन चित्रों में ऊपर 3 है। पहले चित्र में 2, 5 के साथ है और दूसरे चित्र में 2, 4 के साथ है। इसलिए 2, 3, 5 और 4 के पास-पास है। अतः 2 का विपरीत 3, 5 या 4 नहीं हो सकता। अब केवल 1 और 6 बचते हैं, इसलिए दिए गए चित्र से 2 का विपरीत फलक केवल 1 या 6 में से कोई एक हो सकता है।"
+        }
+      ],
+      "examples": [
+        {
+          "english": "Faces seen together are adjacent, not opposite.",
+          "hindi": "जो फलक साथ दिखते हैं, वे आमने-सामने नहीं होते।"
+        }
+      ],
+      "visuals": [],
+      "questions": [
+        {
+          "id": "dice1_q26",
+          "prompt": {
+            "english": "In a dice, the faces are 1, 2, 3, 4, 5 and 6. Find the opposite face of 2.",
+            "hindi": "एक पासे में फलक 1, 2, 3, 4, 5 और 6 हैं। 2 का विपरीत फलक ज्ञात कीजिए।"
+          },
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "3",
+              "hindi": "3"
+            },
+            {
+              "english": "5",
+              "hindi": "5"
+            },
+            {
+              "english": "Either 1 or 6",
+              "hindi": "Either 1 or 6"
+            },
+            {
+              "english": "1",
+              "hindi": "1"
+            }
+          ],
+          "correctOptionIndex": 2,
+          "acceptedAnswers": [
+            "Either 1 or 6",
+            "1 or 6",
+            "Either 6 or 1",
+            "6 or 1"
+          ],
+          "hint": {
+            "english": "",
+            "hindi": ""
+          },
+          "wrongReason": {
+            "english": "In both cube views, 3 is on the top. In the first view, 2 is beside 5, and in the second view, 2 is beside 4. So 2 is adjacent to 3, 5, and 4. Hence 2 cannot be opposite to 3, 5, or 4. The only remaining numbers are 1 and 6, so from the given figure the opposite face of 2 can only be either 1 or 6.",
+            "hindi": "दोनों घन चित्रों में ऊपर 3 है। पहले चित्र में 2, 5 के साथ है और दूसरे चित्र में 2, 4 के साथ है। इसलिए 2, 3, 5 और 4 के पास-पास है। अतः 2 का विपरीत 3, 5 या 4 नहीं हो सकता। अब केवल 1 और 6 बचते हैं, इसलिए दिए गए चित्र से 2 का विपरीत फलक केवल 1 या 6 में से कोई एक हो सकता है।"
+          },
+          "supportExample": {
+            "english": "Faces seen together are adjacent, not opposite.",
+            "hindi": "जो फलक साथ दिखते हैं, वे आमने-सामने नहीं होते।"
+          },
+          "mistakeType": "PATTERN_RULE",
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In both cube views, 3 is on the top. In the first view, 2 is beside 5, and in the second view, 2 is beside 4. So 2 is adjacent to 3, 5, and 4. Hence 2 cannot be opposite to 3, 5, or 4. The only remaining numbers are 1 and 6, so from the given figure the opposite face of 2 can only be either 1 or 6.",
+              "hindi": "दोनों घन चित्रों में ऊपर 3 है। पहले चित्र में 2, 5 के साथ है और दूसरे चित्र में 2, 4 के साथ है। इसलिए 2, 3, 5 और 4 के पास-पास है। अतः 2 का विपरीत 3, 5 या 4 नहीं हो सकता। अब केवल 1 और 6 बचते हैं, इसलिए दिए गए चित्र से 2 का विपरीत फलक केवल 1 या 6 में से कोई एक हो सकता है।"
+            }
+          ],
+          "questionImageAsset": "dice1_q26.jpg"
+        }
+      ],
+      "tags": [
+        {
+          "english": "Verbal Reasoning",
+          "hindi": "वर्बल रीजनिंग"
+        },
+        {
+          "english": "Dice 1",
+          "hindi": "डाइस 1"
+        },
+        {
+          "english": "Question 26",
+          "hindi": "प्रश्न 26"
+        },
+        {
+          "english": "Source page 36",
+          "hindi": "स्रोत पेज 36"
+        }
+      ],
+      "mistakeFocus": "PATTERN_RULE"
+    }
+  ]
+}
