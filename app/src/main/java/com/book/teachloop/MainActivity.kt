@@ -1225,7 +1225,8 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         binding.decisionContainer.isVisible = false
         updateContentBottomInset(playbackVisible = false)
         updateDecisionContainerInset(playbackVisible = false)
-        binding.questionTitleText.text = topic.subtopicTitle.display(appState.language).substringBefore(":").trim()
+        ensureQuizContentOrder()
+        binding.questionTitleText.text = topic.subtopicTitle.display(appState.language)
         binding.questionPromptText.text = renderStyledText(question.prompt.display(appState.language))
         val assetImg = question.questionImageAsset
         if (assetImg != null) {
@@ -1242,6 +1243,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         } else {
             hideQuestionImage()
         }
+        ensureQuizContentOrder()
         binding.answerInputLayout.hint = ui("Type your answer", "à¤…à¤ªà¤¨à¤¾ à¤‰à¤¤à¥à¤¤à¤° à¤²à¤¿à¤–à¤¿à¤")
         binding.submitAnswerButton.text = ui("Submit answer", "à¤‰à¤¤à¥à¤¤à¤° à¤œà¤®à¤¾ à¤•à¤°à¥‡à¤‚")
 
@@ -1275,6 +1277,26 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             binding.answerInputEditText.setText("")
         }
         renderFeedbackCard()
+    }
+
+    private fun ensureQuizContentOrder() {
+        val container = binding.questionTitleText.parent as? LinearLayout ?: return
+        val orderedViews = listOf(
+            binding.questionTitleText,
+            binding.questionPromptText,
+            binding.questionImageView,
+            binding.answerOptions,
+            binding.answerInputLayout,
+            binding.hintText,
+            binding.submitAnswerButton,
+        )
+        if (orderedViews.any { it.parent != container }) return
+
+        orderedViews.forEachIndexed { index, view ->
+            if (container.indexOfChild(view) == index) return@forEachIndexed
+            container.removeView(view)
+            container.addView(view, index)
+        }
     }
 
     private fun loadQuestionBitmap(assetImg: String): Bitmap {
