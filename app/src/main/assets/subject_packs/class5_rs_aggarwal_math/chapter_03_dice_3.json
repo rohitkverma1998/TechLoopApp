@@ -53,9 +53,26 @@
             "english": "A 5 cm cube is painted blue and then cut into 1 cm small cubes. Find the number of small cubes having exactly 1 face painted.",
             "hindi": "5 सेमी के एक घन को नीले रंग से रंगकर 1 सेमी के छोटे घनों में काटा जाता है। उन छोटे घनों की संख्या ज्ञात कीजिए जिनकी केवल 1 सतह रंगी हुई है।"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "48",
+              "hindi": "48"
+            },
+            {
+              "english": "54",
+              "hindi": "54"
+            },
+            {
+              "english": "60",
+              "hindi": "60"
+            },
+            {
+              "english": "72",
+              "hindi": "72"
+            }
+          ],
+          "correctOptionIndex": 1,
           "acceptedAnswers": [
             "54",
             "54 cubes",
@@ -157,9 +174,26 @@
             "english": "A 6 cm cube is painted blue on all outer surfaces and then cut into 1 cm small cubes. How many small cubes have exactly 2 surfaces painted?",
             "hindi": "6 सेमी के घन को बाहर से नीले रंग से रंगा जाता है, फिर उसे 1 सेमी के छोटे घनों में काटा जाता है। ऐसे कितने छोटे घन होंगे जिनकी ठीक 2 सतहें रंगी हों?"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "36",
+              "hindi": "36"
+            },
+            {
+              "english": "48",
+              "hindi": "48"
+            },
+            {
+              "english": "54",
+              "hindi": "54"
+            },
+            {
+              "english": "60",
+              "hindi": "60"
+            }
+          ],
+          "correctOptionIndex": 1,
           "acceptedAnswers": [
             "48",
             "48 cubes",
@@ -260,9 +294,26 @@
             "english": "A 7 cm cube is painted yellow on all its outer surfaces and then cut into 1 cm cubes. How many small cubes have 3 surfaces painted?",
             "hindi": "7 सेमी के घन को बाहर से पीले रंग से रंगा जाता है, फिर उसे 1 सेमी के छोटे घनों में काटा जाता है। बताइए, कितने छोटे घनों की 3 सतहें रंगी होंगी?"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "6",
+              "hindi": "6"
+            },
+            {
+              "english": "8",
+              "hindi": "8"
+            },
+            {
+              "english": "10",
+              "hindi": "10"
+            },
+            {
+              "english": "12",
+              "hindi": "12"
+            }
+          ],
+          "correctOptionIndex": 1,
           "acceptedAnswers": [
             "8",
             "8 cubes",
@@ -363,9 +414,26 @@
             "english": "A 4 cm cube is painted orange on all outer surfaces and then cut into 1 cm cubes. How many small cubes have no face painted?",
             "hindi": "4 सेमी के घन को बाहर से नारंगी रंग से रंगकर 1 सेमी के छोटे घनों में काटा जाता है। कितने छोटे घनों की कोई भी सतह रंगी हुई नहीं होगी?"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "4",
+              "hindi": "4"
+            },
+            {
+              "english": "8",
+              "hindi": "8"
+            },
+            {
+              "english": "12",
+              "hindi": "12"
+            },
+            {
+              "english": "16",
+              "hindi": "16"
+            }
+          ],
+          "correctOptionIndex": 1,
           "acceptedAnswers": [
             "8",
             "eight",
@@ -465,9 +533,26 @@
             "english": "A 6 cm cube is painted red and then cut into 1 cm cubes. Find the total number of small cubes.",
             "hindi": "एक 6 सेमी घन को लाल रंग से रंगा जाता है और फिर उसे 1 सेमी के छोटे घनों में काटा जाता है। छोटे घनों की कुल संख्या ज्ञात कीजिए।"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "125",
+              "hindi": "125"
+            },
+            {
+              "english": "216",
+              "hindi": "216"
+            },
+            {
+              "english": "343",
+              "hindi": "343"
+            },
+            {
+              "english": "512",
+              "hindi": "512"
+            }
+          ],
+          "correctOptionIndex": 1,
           "acceptedAnswers": [
             "216",
             "216 cubes",
@@ -568,9 +653,26 @@
             "english": "How many corners does a cube have?",
             "hindi": "एक घन में कितने कोने होते हैं?"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "6",
+              "hindi": "6"
+            },
+            {
+              "english": "8",
+              "hindi": "8"
+            },
+            {
+              "english": "10",
+              "hindi": "10"
+            },
+            {
+              "english": "12",
+              "hindi": "12"
+            }
+          ],
+          "correctOptionIndex": 1,
           "acceptedAnswers": [
             "8",
             "eight",
@@ -672,9 +774,26 @@
             "english": "A 10 cm cube is painted yellow on all outer surfaces and then cut into 2 cm cubes. How many small cubes have exactly one face painted?",
             "hindi": "10 सेमी के घन की सभी बाहरी सतहों पर पीला रंग किया जाता है। फिर उसे 2 सेमी के छोटे घनों में काटा जाता है। ऐसे कितने छोटे घन होंगे जिनकी ठीक 1 सतह रंगी होगी?"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "36",
+              "hindi": "36"
+            },
+            {
+              "english": "54",
+              "hindi": "54"
+            },
+            {
+              "english": "72",
+              "hindi": "72"
+            },
+            {
+              "english": "90",
+              "hindi": "90"
+            }
+          ],
+          "correctOptionIndex": 1,
           "acceptedAnswers": [
             "54",
             "54 cubes",
@@ -776,9 +895,26 @@
             "english": "A 20 cm cube is painted black and then cut into small cubes of side 4 cm. Find the number of small cubes with exactly 2 faces painted.",
             "hindi": "20 सेमी भुजा वाले एक घन को काले रंग से रंगा जाता है, फिर उसे 4 सेमी भुजा वाले छोटे घनों में काटा जाता है। ऐसे छोटे घनों की संख्या ज्ञात कीजिए जिनकी ठीक 2 सतहें रंगी हों।"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "24",
+              "hindi": "24"
+            },
+            {
+              "english": "36",
+              "hindi": "36"
+            },
+            {
+              "english": "48",
+              "hindi": "48"
+            },
+            {
+              "english": "60",
+              "hindi": "60"
+            }
+          ],
+          "correctOptionIndex": 1,
           "acceptedAnswers": [
             "36",
             "36 cubes",
@@ -880,9 +1016,26 @@
             "english": "An 18 cm cube is painted green and then cut into small cubes of side 3 cm. Find the number of small cubes that have no painted surface.",
             "hindi": "18 सेमी के घन को हरे रंग से रंगा जाता है, फिर उसे 3 सेमी भुजा वाले छोटे घनों में काटा जाता है। उन छोटे घनों की संख्या ज्ञात कीजिए जिनकी कोई भी सतह रंगी हुई नहीं है।"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "27",
+              "hindi": "27"
+            },
+            {
+              "english": "64",
+              "hindi": "64"
+            },
+            {
+              "english": "125",
+              "hindi": "125"
+            },
+            {
+              "english": "216",
+              "hindi": "216"
+            }
+          ],
+          "correctOptionIndex": 1,
           "acceptedAnswers": [
             "64",
             "64 cubes",
@@ -986,9 +1139,26 @@
             "english": "What is the least possible number of cuts required to cut a cube into 64 identical pieces?",
             "hindi": "एक घन को 64 समान टुकड़ों में काटने के लिए न्यूनतम संभव कटौती की संख्या क्या होगी?"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "6",
+              "hindi": "6"
+            },
+            {
+              "english": "9",
+              "hindi": "9"
+            },
+            {
+              "english": "12",
+              "hindi": "12"
+            },
+            {
+              "english": "15",
+              "hindi": "15"
+            }
+          ],
+          "correctOptionIndex": 1,
           "acceptedAnswers": [
             "9",
             "nine",
@@ -1091,9 +1261,26 @@
             "english": "A 12 cm colored cube is cut into 64 smaller cubes. What is the edge length of each smaller cube?",
             "hindi": "12 सेमी के रंगीन घन को 64 छोटे घनों में काटा जाता है। प्रत्येक छोटे घन की भुजा की लंबाई क्या होगी?"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "2 cm",
+              "hindi": "2 सेमी"
+            },
+            {
+              "english": "3 cm",
+              "hindi": "3 सेमी"
+            },
+            {
+              "english": "4 cm",
+              "hindi": "4 सेमी"
+            },
+            {
+              "english": "6 cm",
+              "hindi": "6 सेमी"
+            }
+          ],
+          "correctOptionIndex": 1,
           "acceptedAnswers": [
             "3 cm",
             "3",
@@ -1197,9 +1384,26 @@
             "english": "If a cube is chopped and 729 small cubes are formed, how many times is the knife used in this process?",
             "hindi": "यदि एक घन को काटने पर 729 छोटे घन बनते हैं, तो इस प्रक्रिया में चाकू का उपयोग कितनी बार किया गया?"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "18",
+              "hindi": "18"
+            },
+            {
+              "english": "24",
+              "hindi": "24"
+            },
+            {
+              "english": "27",
+              "hindi": "27"
+            },
+            {
+              "english": "30",
+              "hindi": "30"
+            }
+          ],
+          "correctOptionIndex": 1,
           "acceptedAnswers": [
             "24",
             "24 times",
@@ -1301,9 +1505,26 @@
             "english": "All the faces of a cube are painted brown. Then it is cut into 512 small equal cubes. How many small cubes will have no face colored?",
             "hindi": "एक घन के सभी फलकों को भूरे रंग से रंगा गया है। फिर उसे 512 छोटे बराबर घनों में काटा गया है। ऐसे कितने छोटे घन बनेंगे जिनका कोई भी फलक रंगा हुआ न हो?"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "64",
+              "hindi": "64"
+            },
+            {
+              "english": "125",
+              "hindi": "125"
+            },
+            {
+              "english": "216",
+              "hindi": "216"
+            },
+            {
+              "english": "343",
+              "hindi": "343"
+            }
+          ],
+          "correctOptionIndex": 2,
           "acceptedAnswers": [
             "216",
             "216 cubes",
@@ -1405,9 +1626,26 @@
             "english": "A cube of side 49 cm is painted purple on all faces and then cut into smaller cubes of side 7 cm each. Find the number of smaller cubes having only one face painted.",
             "hindi": "49 सेमी भुजा वाले एक घन के सभी फलक बैंगनी रंग से रंगे गए हैं और फिर उसे 7 सेमी भुजा वाले छोटे घनों में काट दिया गया है। उन छोटे घनों की संख्या ज्ञात कीजिए जिनके केवल एक फलक पर रंग लगा है।"
           },
-          "type": "TEXT_INPUT",
-          "options": [],
-          "correctOptionIndex": null,
+          "type": "MULTIPLE_CHOICE",
+          "options": [
+            {
+              "english": "120",
+              "hindi": "120"
+            },
+            {
+              "english": "150",
+              "hindi": "150"
+            },
+            {
+              "english": "180",
+              "hindi": "180"
+            },
+            {
+              "english": "210",
+              "hindi": "210"
+            }
+          ],
+          "correctOptionIndex": 1,
           "acceptedAnswers": [
             "150",
             "150 cubes",
