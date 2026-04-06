@@ -34,11 +34,21 @@ class LessonEngine(
     fun startSession(
         mode: StudyMode,
         topicIds: List<String>,
+        timerSettings: TimerSettings = TimerSettings(),
+        startingStarsQuarters: Int = 0,
         now: Long = System.currentTimeMillis(),
     ) {
         if (topicIds.isEmpty()) {
             session = SessionSnapshot(bookId = book.id)
             return
+        }
+
+        val totalQuestions = topicIds.size
+        val timerEnabled = timerSettings.enabled && totalQuestions > 0
+        val timerDurationMillis = if (timerEnabled) {
+            totalQuestions.toLong() * timerSettings.secondsPerQuestion.coerceAtLeast(1).toLong() * 1000L
+        } else {
+            0L
         }
 
         session = SessionSnapshot(
@@ -48,6 +58,12 @@ class LessonEngine(
             queueIndex = 0,
             state = LearningState.ASK_IF_KNOWN,
             currentTopicStartedAt = now,
+            totalQuestions = totalQuestions,
+            timerEnabled = timerEnabled,
+            timerDurationMillis = timerDurationMillis,
+            timerStartedAt = if (timerEnabled) now else 0L,
+            timerEndsAt = if (timerEnabled) now + timerDurationMillis else 0L,
+            startingStarsQuarters = startingStarsQuarters,
         )
     }
 
@@ -63,11 +79,45 @@ class LessonEngine(
 
     fun totalQueuedTopics(): Int = session.queueTopicIds.size
 
+    fun totalQuestionCount(): Int = session.totalQuestions.coerceAtLeast(session.queueTopicIds.size)
+
     fun currentExplanationRepeats(): Int = session.explanationRepeats
 
     fun currentMistakeType(): MistakeType? = session.lastMistakeType
 
     fun currentTopicStartedAt(): Long = session.currentTopicStartedAt
+
+    fun remainingTimerMillis(now: Long = System.currentTimeMillis()): Long? {
+        if (!session.timerEnabled) return null
+        if (session.state == LearningState.DASHBOARD ||
+            session.state == LearningState.SESSION_COMPLETE ||
+            session.state == LearningState.SESSION_TIMEOUT
+        ) {
+            return null
+        }
+        return (session.timerEndsAt - now).coerceAtLeast(0L)
+    }
+
+    fun attemptedQuestionCount(): Int = session.attemptedTopicIds.size
+
+    fun correctQuestionCount(): Int = session.correctTopicIds.size
+
+    fun wrongQuestionCount(): Int = (attemptedQuestionCount() - correctQuestionCount()).coerceAtLeast(0)
+
+    fun markTimedOut(now: Long = System.currentTimeMillis()) {
+        if (!session.timerEnabled) return
+        if (session.state == LearningState.DASHBOARD ||
+            session.state == LearningState.SESSION_COMPLETE ||
+            session.state == LearningState.SESSION_TIMEOUT
+        ) {
+            return
+        }
+        session = session.copy(
+            state = LearningState.SESSION_TIMEOUT,
+            currentTopicStartedAt = now,
+            lastMistakeType = null,
+        )
+    }
 
     fun answerKnowTopic(knowsTopic: Boolean) {
         currentTopic() ?: run {
@@ -276,8 +326,11 @@ class LessonEngine(
                 message = text("No topic is active."),
             )
 
+        val updatedAttemptedTopicIds = (session.attemptedTopicIds + topic.id).distinct()
+
         return if (isCorrect) {
             val nextQueueIndex = session.queueIndex + 1
+            val updatedCorrectTopicIds = (session.correctTopicIds + topic.id).distinct()
             session = if (nextQueueIndex >= session.queueTopicIds.size) {
                 session.copy(
                     queueIndex = session.queueTopicIds.lastIndex,
@@ -286,6 +339,8 @@ class LessonEngine(
                     state = LearningState.SESSION_COMPLETE,
                     currentTopicStartedAt = now,
                     lastMistakeType = null,
+                    attemptedTopicIds = updatedAttemptedTopicIds,
+                    correctTopicIds = updatedCorrectTopicIds,
                 )
             } else {
                 session.copy(
@@ -295,6 +350,8 @@ class LessonEngine(
                     state = LearningState.ASK_IF_KNOWN,
                     currentTopicStartedAt = now,
                     lastMistakeType = null,
+                    attemptedTopicIds = updatedAttemptedTopicIds,
+                    correctTopicIds = updatedCorrectTopicIds,
                 )
             }
 
@@ -321,6 +378,7 @@ class LessonEngine(
                 state = LearningState.ASK_IF_KNOWN,
                 currentTopicStartedAt = now,
                 lastMistakeType = question.mistakeType,
+                attemptedTopicIds = updatedAttemptedTopicIds,
             )
 
             QuizResult(

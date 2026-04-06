@@ -9,12 +9,15 @@ import android.provider.Settings
 import android.speech.tts.TextToSpeech
 import android.speech.tts.UtteranceProgressListener
 import android.speech.tts.Voice
+import android.text.Editable
 import android.text.InputType
+import android.text.TextWatcher
 import android.util.Log
 import android.view.Gravity
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.LinearLayout
@@ -59,6 +62,8 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     private var baseDecisionBottomMargin = 0
     private val chalkHandler = Handler(Looper.getMainLooper())
     private var chalkWriteRunnable: Runnable? = null
+    private val sessionTimerHandler = Handler(Looper.getMainLooper())
+    private var sessionTimerRunnable: Runnable? = null
 
     private var textToSpeech: TextToSpeech? = null
     private var ttsReady = false
@@ -110,7 +115,11 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         solutionPreviewActive = false
         reportExpanded = false
         lastSpokenToken = null
-        engine.startSession(StudyMode.EXERCISE_PATH, listOf(topicId))
+        beginSession(
+            mode = StudyMode.EXERCISE_PATH,
+            queue = listOf(topicId),
+            now = System.currentTimeMillis(),
+        )
     }
 
     override fun onInit(status: Int) {
@@ -141,10 +150,17 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         if (!ttsReady && !ttsInitializing) {
             initializeTextToSpeech(forceRestart = textToSpeech != null)
         }
+        render()
+    }
+
+    override fun onPause() {
+        stopSessionTimerUpdates()
+        super.onPause()
     }
 
     override fun onDestroy() {
         stopChalkWriting(completeCurrentLine = false)
+        stopSessionTimerUpdates()
         textToSpeech?.stop()
         textToSpeech?.shutdown()
         super.onDestroy()
@@ -320,6 +336,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         binding.teacherModeButton.setOnClickListener { handleTeacherModeTap() }
         binding.teacherAssignmentsButton.setOnClickListener { showAssignmentsDialog() }
         binding.starSettingsButton.setOnClickListener { showStarSettingsDialog() }
+        binding.timerSettingsButton.setOnClickListener { showTimerSettingsDialog() }
         binding.teacherWeakTopicsButton.setOnClickListener { showWeakTopicsDialog() }
         binding.teacherExportButton.setOnClickListener { exportTeacherSummary() }
         binding.teacherLockButton.setOnClickListener {
@@ -342,10 +359,11 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         latestQuizResult = null
         latestIncorrectQuestion = null
         solutionPreviewActive = false
+        val now = System.currentTimeMillis()
         val queue = when (mode) {
             StudyMode.MAIN_PATH -> StudyPlanner.buildMainQueue(book, selectedProfile())
             StudyMode.EXERCISE_PATH -> StudyPlanner.buildExerciseQueue(book, selectedProfile())
-            StudyMode.REVISION -> StudyPlanner.buildRevisionQueue(book, selectedProfile(), System.currentTimeMillis())
+            StudyMode.REVISION -> StudyPlanner.buildRevisionQueue(book, selectedProfile(), now)
             StudyMode.WEAK_TOPICS -> StudyPlanner.buildWeakTopicQueue(book, selectedProfile())
         }
 
@@ -377,7 +395,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
         reportExpanded = false
         lastSpokenToken = null
-        engine.startSession(mode, queue)
+        beginSession(mode = mode, queue = queue, now = now)
         latestStatusMessage = when (mode) {
             StudyMode.MAIN_PATH -> ui(
                 "Starting the next learning path.",
@@ -399,7 +417,183 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 "à¤•à¤®à¤œà¥‹à¤° à¤µà¤¿à¤·à¤¯à¥‹à¤‚ à¤•à¤¾ à¤…à¤­à¥à¤¯à¤¾à¤¸ à¤¶à¥à¤°à¥‚ à¤¹à¥‹ à¤°à¤¹à¤¾ à¤¹à¥ˆà¥¤",
             )
         }
+        sessionTimerSummaryMessage(totalQuestions = queue.size, totalTimeMillis = engine.session.timerDurationMillis)
+            ?.let { timerMessage ->
+                latestStatusMessage = "${latestStatusMessage.orEmpty()}\n$timerMessage".trim()
+            }
         render()
+    }
+
+    private fun beginSession(
+        mode: StudyMode,
+        queue: List<String>,
+        now: Long,
+    ) {
+        engine.startSession(
+            mode = mode,
+            topicIds = queue,
+            timerSettings = appState.timerSettings,
+            startingStarsQuarters = effectiveStarsQuarters(selectedProfile()),
+            now = now,
+        )
+    }
+
+    private fun effectiveStarsQuarters(profile: StudentProfile): Int {
+        return profile.totalStars * 4 - profile.starPenaltyQuarters
+    }
+
+    private fun sessionTimerSummaryMessage(
+        totalQuestions: Int,
+        totalTimeMillis: Long,
+    ): String? {
+        if (!appState.timerSettings.enabled || totalQuestions <= 0 || totalTimeMillis <= 0L) return null
+        val durationText = formatDurationMillis(totalTimeMillis)
+        return ui(
+            "Timer: $durationText for $totalQuestions questions.",
+            "टाइमर: $durationText, $totalQuestions प्रश्नों के लिए।",
+        )
+    }
+
+    private fun expireTimedSessionIfNeeded(now: Long): Boolean {
+        val remainingMillis = engine.remainingTimerMillis(now) ?: return false
+        if (remainingMillis > 0L) return false
+
+        engine.markTimedOut(now)
+        latestQuizResult = null
+        latestIncorrectQuestion = null
+        solutionPreviewActive = false
+        speakSequenceActive = false
+        speechPaused = false
+        stopChalkWriting(completeCurrentLine = false)
+        textToSpeech?.stop()
+        lastSpokenToken = null
+        latestStatusMessage = ui(
+            "Time is up. Review the session summary below.",
+            "समय समाप्त हो गया। नीचे सत्र का सारांश देखें।",
+        )
+        return true
+    }
+
+    private fun syncSessionTimerUpdates() {
+        val remainingMillis = engine.remainingTimerMillis(System.currentTimeMillis())
+        if (remainingMillis == null) {
+            stopSessionTimerUpdates()
+            return
+        }
+
+        if (sessionTimerRunnable != null) return
+
+        val runnable = object : Runnable {
+            override fun run() {
+                val now = System.currentTimeMillis()
+                if (expireTimedSessionIfNeeded(now)) {
+                    stopSessionTimerUpdates()
+                    render()
+                    return
+                }
+                renderTimerOverlay(now)
+                sessionTimerHandler.postDelayed(this, 250L)
+            }
+        }
+        sessionTimerRunnable = runnable
+        sessionTimerHandler.post(runnable)
+    }
+
+    private fun stopSessionTimerUpdates() {
+        sessionTimerRunnable?.let { sessionTimerHandler.removeCallbacks(it) }
+        sessionTimerRunnable = null
+    }
+
+    private fun renderTimerOverlay(now: Long) {
+        val remainingMillis = engine.remainingTimerMillis(now)
+        val visible = remainingMillis != null
+        binding.timerCard.isVisible = visible
+        if (!visible) return
+
+        binding.timerValueText.text = formatDurationMillis(remainingMillis ?: 0L)
+        val urgent = (remainingMillis ?: 0L) <= 10_000L
+        binding.timerValueText.setTextColor(
+            if (urgent) getColor(R.color.feedback_error) else getColor(R.color.text_primary)
+        )
+    }
+
+    private fun buildSessionResultBody(timedOut: Boolean): String {
+        val totalQuestions = engine.totalQuestionCount()
+        val attemptedQuestions = engine.attemptedQuestionCount()
+        val correctQuestions = engine.correctQuestionCount()
+        val wrongQuestions = engine.wrongQuestionCount()
+        val starsGainedQuarters = effectiveStarsQuarters(selectedProfile()) - engine.session.startingStarsQuarters
+        val durationText = formatDurationMillis(engine.session.timerDurationMillis)
+        val remainingMillis = if (engine.session.timerEnabled) {
+            (engine.session.timerEndsAt - System.currentTimeMillis()).coerceAtLeast(0L)
+        } else {
+            0L
+        }
+
+        val introLine = when {
+            timedOut -> ui(
+                "Timer ended after $durationText.",
+                "टाइमर $durationText पर समाप्त हुआ।",
+            )
+            engine.session.timerEnabled -> ui(
+                "Completed all assigned questions before time ended.",
+                "समय समाप्त होने से पहले सभी दिए गए प्रश्न पूरे कर लिए गए।",
+            )
+            else -> ui(
+                "Completed all assigned questions.",
+                "सभी दिए गए प्रश्न पूरे कर लिए गए।",
+            )
+        }
+
+        val remainingLine = if (!timedOut && engine.session.timerEnabled) {
+            ui(
+                "Time left: ${formatDurationMillis(remainingMillis)}",
+                "बचा हुआ समय: ${formatDurationMillis(remainingMillis)}",
+            )
+        } else {
+            null
+        }
+
+        return listOfNotNull(
+            introLine,
+            remainingLine,
+            ui(
+                "Stars gained: ${formatQuarterStarValue(starsGainedQuarters)}",
+                "मिले सितारे: ${formatQuarterStarValue(starsGainedQuarters)}",
+            ),
+            ui(
+                "Questions attempted: $attemptedQuestions/$totalQuestions",
+                "प्रयास किए गए प्रश्न: $attemptedQuestions/$totalQuestions",
+            ),
+            ui("Correct: $correctQuestions", "सही: $correctQuestions"),
+            ui("Wrong: $wrongQuestions", "गलत: $wrongQuestions"),
+            ui(
+                "Return to the dashboard to start again or change the timer in teacher mode.",
+                "फिर से शुरू करने या टाइमर बदलने के लिए डैशबोर्ड पर वापस जाएँ।",
+            ),
+        ).joinToString("\n\n")
+    }
+
+    private fun formatQuarterStarValue(quarters: Int): String {
+        val value = quarters / 4.0
+        return if (value == value.toLong().toDouble()) {
+            value.toLong().toString()
+        } else {
+            String.format("%.2f", value).trimEnd('0').trimEnd('.')
+        }
+    }
+
+    private fun formatDurationMillis(durationMillis: Long): String {
+        val safeMillis = durationMillis.coerceAtLeast(0L)
+        val totalSeconds = if (safeMillis == 0L) 0L else (safeMillis + 999L) / 1000L
+        val hours = totalSeconds / 3600L
+        val minutes = (totalSeconds % 3600L) / 60L
+        val seconds = totalSeconds % 60L
+        return if (hours > 0L) {
+            String.format("%d:%02d:%02d", hours, minutes, seconds)
+        } else {
+            String.format("%02d:%02d", minutes, seconds)
+        }
     }
 
     private fun resetSelectedProfile() {
@@ -423,6 +617,10 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun submitAnswer() {
+        if (expireTimedSessionIfNeeded(System.currentTimeMillis())) {
+            render()
+            return
+        }
         val topic = engine.currentTopic() ?: return
         val currentQuestion = engine.currentQuestion(Difficulty.EASY) ?: return
         val explanationRepeats = engine.currentExplanationRepeats()
@@ -596,6 +794,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun render() {
+        expireTimedSessionIfNeeded(System.currentTimeMillis())
         saveState()
         if (engine.session.state != LearningState.EXPLAIN_TOPIC) {
             textToSpeech?.stop()
@@ -611,7 +810,9 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         renderReport(report)
         renderSession()
         renderCompletion()
+        renderTimerOverlay(System.currentTimeMillis())
         renderStatus()
+        syncSessionTimerUpdates()
         maybeSpeakExplanation()
     }
 
@@ -780,6 +981,15 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 "à¤¸à¥Œà¤‚à¤ªà¥‡ à¤—à¤ à¤…à¤§à¥à¤¯à¤¾à¤¯: ${assignments.joinToString(", ")}",
             )
         }
+        val timerSettings = appState.timerSettings
+        val timerSummary = if (timerSettings.enabled) {
+            ui(
+                "Timer: on - ${timerSettings.secondsPerQuestion} sec per question",
+                "टाइमर: चालू - ${timerSettings.secondsPerQuestion} सेकंड प्रति प्रश्न",
+            )
+        } else {
+            ui("Timer: off", "टाइमर: बंद")
+        }
 
         binding.teacherTitleText.text = ui("Teacher panel", "à¤Ÿà¥€à¤šà¤° à¤ªà¥ˆà¤¨à¤²")
         binding.teacherSummaryText.text = listOf(
@@ -796,6 +1006,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 "Weak topics: ${report.weakTopics} | Revision due: ${report.dueRevisionTopics}",
                 "à¤•à¤®à¤œà¥‹à¤° à¤µà¤¿à¤·à¤¯: ${report.weakTopics} | à¤¦à¥‡à¤¯ à¤ªà¥à¤¨à¤°à¤¾à¤µà¥ƒà¤¤à¥à¤¤à¤¿: ${report.dueRevisionTopics}",
             ),
+            timerSummary,
         ).joinToString("\n\n")
         binding.teacherAssignmentsButton.text = ui("Assign chapters", "अध्याय सौंपें")
         val ss = appState.starSettings
@@ -804,6 +1015,14 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             "Star settings  ✓${ss.correctStars.fmt()}  ✗−${ss.wrongPenalty.fmt()}  ↺+${ss.revisionBonus.fmt()}",
             "सितारा सेटिंग्स  ✓${ss.correctStars.fmt()}  ✗−${ss.wrongPenalty.fmt()}  ↺+${ss.revisionBonus.fmt()}",
         )
+        binding.timerSettingsButton.text = if (timerSettings.enabled) {
+            ui(
+                "Timer settings  ${timerSettings.secondsPerQuestion}s/question",
+                "टाइमर सेटिंग्स  ${timerSettings.secondsPerQuestion} सेकंड/प्रश्न",
+            )
+        } else {
+            ui("Timer settings  off", "टाइमर सेटिंग्स  बंद")
+        }
         binding.teacherWeakTopicsButton.text = ui("View weak topics", "à¤•à¤®à¤œà¥‹à¤° à¤µà¤¿à¤·à¤¯ à¤¦à¥‡à¤–à¥‡à¤‚")
         binding.teacherExportButton.text = ui("Export summary", "à¤¸à¤¾à¤°à¤¾à¤‚à¤¶ à¤­à¥‡à¤œà¥‡à¤‚")
         binding.resetProgressButton.text = ui("Reset child progress", "à¤¬à¤šà¥à¤šà¥‡ à¤•à¥€ à¤ªà¥à¤°à¤—à¤¤à¤¿ à¤°à¥€à¤¸à¥‡à¤Ÿ à¤•à¤°à¥‡à¤‚")
@@ -876,7 +1095,9 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private fun renderSession() {
         val topic = engine.currentTopic()
-        val sessionActive = engine.hasActiveSession() && engine.session.state != LearningState.SESSION_COMPLETE
+        val sessionActive = engine.hasActiveSession() &&
+            engine.session.state != LearningState.SESSION_COMPLETE &&
+            engine.session.state != LearningState.SESSION_TIMEOUT
         binding.sessionGroup.isVisible = sessionActive
         binding.teacherPlaybackCard.isVisible = sessionActive && engine.session.state == LearningState.EXPLAIN_TOPIC
         if (!sessionActive || topic == null) {
@@ -1505,35 +1726,20 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun renderCompletion() {
-        val sessionComplete = engine.session.state == LearningState.SESSION_COMPLETE
-        binding.completionCard.isVisible = sessionComplete
-        if (!sessionComplete) {
+        val sessionState = engine.session.state
+        val sessionFinished = sessionState == LearningState.SESSION_COMPLETE ||
+            sessionState == LearningState.SESSION_TIMEOUT
+        binding.completionCard.isVisible = sessionFinished
+        if (!sessionFinished) {
             return
         }
 
-        binding.completionTitleText.text = ui("Session complete", "à¤¸à¤¤à¥à¤° à¤ªà¥‚à¤°à¤¾")
-        binding.completionBodyText.text = when (engine.session.mode) {
-            StudyMode.MAIN_PATH -> ui(
-                "Great work. This child finished the current main-path queue. You can return to the dashboard for revision, weak-topic practice, or the report.",
-                "à¤¬à¤¹à¥à¤¤ à¤…à¤šà¥à¤›à¤¾à¥¤ à¤‡à¤¸ à¤¬à¤šà¥à¤šà¥‡ à¤¨à¥‡ à¤…à¤­à¥€ à¤•à¤¾ à¤®à¥à¤–à¥à¤¯ à¤…à¤§à¥à¤¯à¤¯à¤¨-à¤ªà¤¥ à¤ªà¥‚à¤°à¤¾ à¤•à¤° à¤²à¤¿à¤¯à¤¾ à¤¹à¥ˆà¥¤ à¤…à¤¬ à¤†à¤ª à¤¡à¥ˆà¤¶à¤¬à¥‹à¤°à¥à¤¡ à¤ªà¤° à¤²à¥Œà¤Ÿà¤•à¤° à¤ªà¥à¤¨à¤°à¤¾à¤µà¥ƒà¤¤à¥à¤¤à¤¿, à¤•à¤®à¤œà¥‹à¤° à¤µà¤¿à¤·à¤¯ à¤…à¤­à¥à¤¯à¤¾à¤¸, à¤¯à¤¾ à¤°à¤¿à¤ªà¥‹à¤°à¥à¤Ÿ à¤¦à¥‡à¤– à¤¸à¤•à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤",
-            )
-
-            StudyMode.EXERCISE_PATH -> ui(
-                "Exercise practice is complete for now. You can return to the dashboard for more exercise questions, revision, or the report.",
-                "à¤…à¤­à¥à¤¯à¤¾à¤¸ à¤ªà¤¥ à¤…à¤­à¥€ à¤•à¥‡ à¤²à¤¿à¤ à¤ªà¥‚à¤°à¤¾ à¤¹à¥‹ à¤—à¤¯à¤¾ à¤¹à¥ˆà¥¤ à¤…à¤¬ à¤†à¤ª à¤¡à¥ˆà¤¶à¤¬à¥‹à¤°à¥à¤¡ à¤ªà¤° à¤²à¥Œà¤Ÿà¤•à¤° à¤…à¤­à¥à¤¯à¤¾à¤¸, à¤ªà¥à¤¨à¤°à¤¾à¤µà¥ƒà¤¤à¥à¤¤à¤¿ à¤¯à¤¾ à¤°à¤¿à¤ªà¥‹à¤°à¥à¤Ÿ à¤¦à¥‡à¤– à¤¸à¤•à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤",
-            )
-
-            StudyMode.REVISION -> ui(
-                "Revision topics are complete for now. The next due set will appear automatically later.",
-                "à¤…à¤­à¥€ à¤•à¥‡ à¤²à¤¿à¤ à¤ªà¥à¤¨à¤°à¤¾à¤µà¥ƒà¤¤à¥à¤¤à¤¿ à¤µà¤¿à¤·à¤¯ à¤ªà¥‚à¤°à¥‡ à¤¹à¥‹ à¤—à¤ à¤¹à¥ˆà¤‚à¥¤ à¤…à¤—à¤²à¤¾ à¤¦à¥‡à¤¯ à¤¸à¥‡à¤Ÿ à¤¬à¤¾à¤¦ à¤®à¥‡à¤‚ à¤…à¤ªà¤¨à¥‡-à¤†à¤ª à¤¦à¤¿à¤–à¤¾à¤ˆ à¤¦à¥‡à¤—à¤¾à¥¤",
-            )
-
-            StudyMode.WEAK_TOPICS -> ui(
-                "Weak-topic practice is complete for now. Check the report to see what still needs support.",
-                "à¤…à¤­à¥€ à¤•à¥‡ à¤²à¤¿à¤ à¤•à¤®à¤œà¥‹à¤° à¤µà¤¿à¤·à¤¯à¥‹à¤‚ à¤•à¤¾ à¤…à¤­à¥à¤¯à¤¾à¤¸ à¤ªà¥‚à¤°à¤¾ à¤¹à¥‹ à¤—à¤¯à¤¾ à¤¹à¥ˆà¥¤ à¤†à¤—à¥‡ à¤•à¤¿à¤¸à¥‡ à¤¸à¤¹à¤¾à¤¯à¤¤à¤¾ à¤šà¤¾à¤¹à¤¿à¤, à¤¯à¤¹ à¤°à¤¿à¤ªà¥‹à¤°à¥à¤Ÿ à¤®à¥‡à¤‚ à¤¦à¥‡à¤–à¤¿à¤à¥¤",
-            )
-
-            null -> ui("You can return to the dashboard now.", "à¤…à¤¬ à¤†à¤ª à¤¡à¥ˆà¤¶à¤¬à¥‹à¤°à¥à¤¡ à¤ªà¤° à¤²à¥Œà¤Ÿ à¤¸à¤•à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤")
+        if (sessionState == LearningState.SESSION_TIMEOUT) {
+            binding.completionTitleText.text = ui("Time is up", "समय समाप्त")
+            binding.completionBodyText.text = buildSessionResultBody(timedOut = true)
+        } else {
+            binding.completionTitleText.text = ui("Session complete", "à¤¸à¤¤à¥à¤° à¤ªà¥‚à¤°à¤¾")
+            binding.completionBodyText.text = buildSessionResultBody(timedOut = false)
         }
         binding.restartButton.text = ui("Back to dashboard", "à¤¡à¥ˆà¤¶à¤¬à¥‹à¤°à¥à¤¡ à¤ªà¤° à¤µà¤¾à¤ªà¤¸")
     }
@@ -1997,6 +2203,125 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             .show()
     }
 
+    private fun showTimerSettingsDialog() {
+        val current = appState.timerSettings
+
+        val container = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            setPadding(72, 32, 72, 8)
+        }
+
+        val enableTimerCheck = CheckBox(this).apply {
+            text = ui("Enable session timer", "सत्र टाइमर चालू करें")
+            isChecked = current.enabled
+        }
+        container.addView(enableTimerCheck)
+
+        container.addView(TextView(this).apply {
+            text = ui("Seconds per question", "प्रति प्रश्न सेकंड")
+            textSize = 14f
+            setPadding(0, 16, 0, 4)
+        })
+
+        val secondsInput = EditText(this).apply {
+            setText(current.secondsPerQuestion.toString())
+            inputType = InputType.TYPE_CLASS_NUMBER
+            isEnabled = current.enabled
+        }
+        container.addView(secondsInput)
+
+        val helperText = TextView(this).apply {
+            text = ui(
+                "Total session time is calculated automatically when a path starts.",
+                "जब कोई पथ शुरू होगा, कुल समय अपने-आप प्रश्नों की संख्या से निकलेगा।",
+            )
+            textSize = 13f
+            setPadding(0, 12, 0, 0)
+        }
+        container.addView(helperText)
+
+        val previewText = TextView(this).apply {
+            textSize = 13f
+            setPadding(0, 10, 0, 0)
+        }
+        container.addView(previewText)
+
+        fun updatePreview() {
+            val secondsPerQuestion = secondsInput.text?.toString()?.toIntOrNull()?.coerceAtLeast(1)
+                ?: current.secondsPerQuestion
+            val enabled = enableTimerCheck.isChecked
+            secondsInput.isEnabled = enabled
+            previewText.text = if (!enabled) {
+                ui(
+                    "Timer is off. Start any path normally without a countdown.",
+                    "टाइमर बंद है। कोई भी पथ बिना काउंटडाउन के सामान्य रूप से शुरू होगा।",
+                )
+            } else {
+                listOf(
+                    ui(
+                        "Main path: ${formatDurationMillis(StudyPlanner.buildMainQueue(book, selectedProfile()).size.toLong() * secondsPerQuestion * 1000L)}",
+                        "मुख्य पथ: ${formatDurationMillis(StudyPlanner.buildMainQueue(book, selectedProfile()).size.toLong() * secondsPerQuestion * 1000L)}",
+                    ),
+                    ui(
+                        "Exercise path: ${formatDurationMillis(StudyPlanner.buildExerciseQueue(book, selectedProfile()).size.toLong() * secondsPerQuestion * 1000L)}",
+                        "अभ्यास पथ: ${formatDurationMillis(StudyPlanner.buildExerciseQueue(book, selectedProfile()).size.toLong() * secondsPerQuestion * 1000L)}",
+                    ),
+                    ui(
+                        "Revision path: ${formatDurationMillis(StudyPlanner.buildRevisionQueue(book, selectedProfile(), System.currentTimeMillis()).size.toLong() * secondsPerQuestion * 1000L)}",
+                        "पुनरावृत्ति पथ: ${formatDurationMillis(StudyPlanner.buildRevisionQueue(book, selectedProfile(), System.currentTimeMillis()).size.toLong() * secondsPerQuestion * 1000L)}",
+                    ),
+                    ui(
+                        "Weak-topic path: ${formatDurationMillis(StudyPlanner.buildWeakTopicQueue(book, selectedProfile()).size.toLong() * secondsPerQuestion * 1000L)}",
+                        "कमज़ोर-विषय पथ: ${formatDurationMillis(StudyPlanner.buildWeakTopicQueue(book, selectedProfile()).size.toLong() * secondsPerQuestion * 1000L)}",
+                    ),
+                ).joinToString("\n")
+            }
+        }
+
+        enableTimerCheck.setOnCheckedChangeListener { _, _ ->
+            updatePreview()
+        }
+        secondsInput.addTextChangedListener(
+            object : TextWatcher {
+                override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) = Unit
+
+                override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) = Unit
+
+                override fun afterTextChanged(s: Editable?) {
+                    updatePreview()
+                }
+            },
+        )
+        updatePreview()
+
+        AlertDialog.Builder(this)
+            .setTitle(ui("Timer settings", "टाइमर सेटिंग्स"))
+            .setView(container)
+            .setPositiveButton(ui("Save", "सहेजें")) { _, _ ->
+                val secondsPerQuestion = secondsInput.text?.toString()?.toIntOrNull()?.coerceAtLeast(1)
+                    ?: current.secondsPerQuestion
+                val enabled = enableTimerCheck.isChecked
+                appState = appState.copy(
+                    timerSettings = TimerSettings(
+                        enabled = enabled,
+                        secondsPerQuestion = secondsPerQuestion,
+                    ),
+                )
+                progressStore.save(appState)
+                latestStatusMessage = if (enabled) {
+                    ui(
+                        "Timer saved at $secondsPerQuestion seconds per question.",
+                        "टाइमर $secondsPerQuestion सेकंड प्रति प्रश्न पर सहेजा गया।",
+                    )
+                } else {
+                    ui("Timer disabled.", "टाइमर बंद किया गया।")
+                }
+                render()
+            }
+            .setNegativeButton(ui("Cancel", "रद्द करें"), null)
+            .show()
+    }
+
     private fun showWeakTopicsDialog() {
         val weakTopics = StudyPlanner.buildReport(book, selectedProfile(), System.currentTimeMillis()).weakTopicTitles
         val body = if (weakTopics.isEmpty()) {
@@ -2360,7 +2685,15 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             teacherPin = (snapshot.teacherPin as? String).orEmpty(),
             teacherModeUnlocked = snapshot.teacherModeUnlocked,
             starSettings = (snapshot.starSettings as? StarSettings) ?: StarSettings(),
+            timerSettings = sanitizeTimerSettings((snapshot.timerSettings as? TimerSettings) ?: TimerSettings()),
             session = normalizedSession,
+        )
+    }
+
+    private fun sanitizeTimerSettings(settings: TimerSettings): TimerSettings {
+        return TimerSettings(
+            enabled = settings.enabled,
+            secondsPerQuestion = settings.secondsPerQuestion.coerceAtLeast(1),
         )
     }
 
@@ -2369,6 +2702,12 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         selectedBookId: String,
     ): SessionSnapshot {
         val queueTopicIds = (session.queueTopicIds as? List<String>).orEmpty()
+        val attemptedTopicIds = (session.attemptedTopicIds as? List<String>).orEmpty()
+            .filter { it in queueTopicIds }
+            .distinct()
+        val correctTopicIds = (session.correctTopicIds as? List<String>).orEmpty()
+            .filter { it in attemptedTopicIds }
+            .distinct()
         val state = (session.state as? LearningState) ?: LearningState.DASHBOARD
         val mode = session.mode as? StudyMode
         return SessionSnapshot(
@@ -2381,6 +2720,14 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             explanationRepeats = session.explanationRepeats.coerceAtLeast(0),
             currentTopicStartedAt = session.currentTopicStartedAt.coerceAtLeast(0L),
             lastMistakeType = session.lastMistakeType as? MistakeType,
+            totalQuestions = session.totalQuestions.coerceAtLeast(queueTopicIds.size),
+            timerEnabled = session.timerEnabled && session.timerEndsAt > 0L,
+            timerDurationMillis = session.timerDurationMillis.coerceAtLeast(0L),
+            timerStartedAt = session.timerStartedAt.coerceAtLeast(0L),
+            timerEndsAt = session.timerEndsAt.coerceAtLeast(0L),
+            startingStarsQuarters = session.startingStarsQuarters,
+            attemptedTopicIds = attemptedTopicIds,
+            correctTopicIds = correctTopicIds,
         )
     }
 
@@ -2413,6 +2760,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             streakDays = profile.streakDays.coerceAtLeast(0),
             lastActiveDay = (profile.lastActiveDay as? String).orEmpty(),
             revisionRewardCount = profile.revisionRewardCount.coerceAtLeast(0),
+            starPenaltyQuarters = profile.starPenaltyQuarters.coerceAtLeast(0),
         )
     }
 

@@ -25,6 +25,7 @@ enum class LearningState {
     EXPLAIN_TOPIC,
     TAKE_QUIZ,
     SESSION_COMPLETE,
+    SESSION_TIMEOUT,
 }
 
 enum class QuestionType {
@@ -233,12 +234,25 @@ data class SessionSnapshot(
     val explanationRepeats: Int = 0,
     val currentTopicStartedAt: Long = 0L,
     val lastMistakeType: MistakeType? = null,
+    val totalQuestions: Int = 0,
+    val timerEnabled: Boolean = false,
+    val timerDurationMillis: Long = 0L,
+    val timerStartedAt: Long = 0L,
+    val timerEndsAt: Long = 0L,
+    val startingStarsQuarters: Int = 0,
+    val attemptedTopicIds: List<String> = emptyList(),
+    val correctTopicIds: List<String> = emptyList(),
 )
 
 data class StarSettings(
     val correctStars: Float = 1f,    // stars awarded for first-try correct answer (can be decimal)
     val wrongPenalty: Float = 0.25f, // stars deducted for first wrong attempt (can be decimal, e.g. 0.25, 0.5)
     val revisionBonus: Float = 1f,   // bonus stars awarded for correct answer in revision mode
+)
+
+data class TimerSettings(
+    val enabled: Boolean = false,
+    val secondsPerQuestion: Int = 60,
 )
 
 data class AppSnapshot(
@@ -251,6 +265,7 @@ data class AppSnapshot(
     val teacherPin: String = "",
     val teacherModeUnlocked: Boolean = false,
     val starSettings: StarSettings = StarSettings(),
+    val timerSettings: TimerSettings = TimerSettings(),
     val session: SessionSnapshot = SessionSnapshot(),
 ) {
     companion object {
