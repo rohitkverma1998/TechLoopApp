@@ -440,8 +440,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 623974 using commas in the Indian place value system, start from the right.",
+              "hindi": "भारतीय स्थान-मूल्य पद्धति में 623974 को कॉमा लगाकर लिखने के लिए दाईं ओर से शुरू करते हैं।"
+            },
+            {
+              "english": "Step 1: Keep the last 3 digits together: 974\nStep 2: Now move left and make groups of 2 digits: 23\nStep 3: One digit is left at the beginning: 6\nStep 4: Put commas between the groups: 6,23,974",
+              "hindi": "चरण 1: सबसे दाईं ओर के 3 अंक साथ लिखते हैं: 974\nचरण 2: अब बाईं ओर के अंकों को 2-2 के समूह में लिखते हैं: 23\nचरण 3: शुरुआत में 1 अंक बचता है: 6\nचरण 4: अब समूहों के बीच कॉमा लगाते हैं: 6,23,974"
+            },
+            {
+              "english": "Final answer: 6,23,974",
+              "hindi": "अंतिम उत्तर: 6,23,974"
+            }
+          ]
         }
       ],
       "tags": [
@@ -504,8 +520,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Write the number: 3768954",
+              "hindi": "दी गई संख्या है: 3768954"
+            },
+            {
+              "english": "In the Indian place value system, we put commas like this:\n1. Start from the right.\n2. Keep the last 3 digits together: 954\n3. Then move left and make groups of 2 digits: 68 and 37\n4. Now place commas between the groups.",
+              "hindi": "भारतीय स्थान-मूल्य पद्धति में कॉमा इस प्रकार लगाते हैं:\n1. दाईं ओर से शुरू करते हैं।\n2. आखिरी 3 अंक साथ रहते हैं: 954\n3. फिर बाईं ओर के अंकों को 2-2 के समूह में बाँटते हैं: 68 और 37\n4. अब समूहों के बीच कॉमा लगाते हैं।"
+            },
+            {
+              "english": "So, 3768954 becomes 37,68,954.",
+              "hindi": "इसलिए, 3768954 को 37,68,954 लिखेंगे।"
+            },
+            {
+              "english": "Final answer: 37,68,954",
+              "hindi": "अंतिम उत्तर: 37,68,954"
+            }
+          ]
         }
       ],
       "tags": [
@@ -568,8 +604,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 52673894 using commas in the Indian place value system, start from the right.",
+              "hindi": "भारतीय स्थान-मूल्य पद्धति में 52673894 को कॉमा लगाकर लिखने के लिए दाईं ओर से शुरू करते हैं।"
+            },
+            {
+              "english": "Step 1: Keep the last 3 digits together: 894\nStep 2: Now move left and make groups of 2 digits: 73, 26, 5\nStep 3: Put commas between these groups.",
+              "hindi": "चरण 1: आखिरी 3 अंक साथ रखते हैं: 894\nचरण 2: अब बाईं ओर जाते हुए 2-2 अंकों के समूह बनाते हैं: 73, 26, 5\nचरण 3: इन समूहों के बीच कॉमा लगाते हैं।"
+            },
+            {
+              "english": "So, 52673894 becomes 5,26,73,894.",
+              "hindi": "इसलिए, 52673894 को 5,26,73,894 लिखा जाएगा।"
+            },
+            {
+              "english": "Final answer: 5,26,73,894",
+              "hindi": "अंतिम उत्तर: 5,26,73,894"
+            }
+          ]
         }
       ],
       "tags": [
@@ -632,8 +688,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 430615029 using commas in the Indian place value system, we start from the right.",
+              "hindi": "भारतीय स्थान-मूल्य पद्धति में 430615029 को कॉमा के साथ लिखने के लिए हम दाईं ओर से शुरू करते हैं।"
+            },
+            {
+              "english": "Step 1: Keep the last 3 digits together: 029\nStep 2: After that, make groups of 2 digits moving left: 15, 06, 43\nStep 3: Now place commas between these groups.",
+              "hindi": "चरण 1: सबसे दाईं ओर के अंतिम 3 अंक साथ रहते हैं: 029\nचरण 2: उसके बाद बचे हुए अंकों को दाईं से बाईं ओर 2-2 के समूह में बाँटते हैं: 15, 06, 43\nचरण 3: अब इन समूहों के बीच कॉमा लगाते हैं।"
+            },
+            {
+              "english": "So, 430615029 becomes 43,06,15,029.",
+              "hindi": "इसलिए, 430615029 को 43,06,15,029 लिखेंगे।"
+            },
+            {
+              "english": "Final answer: 43,06,15,029",
+              "hindi": "Final answer: 43,06,15,029"
+            }
+          ]
         }
       ],
       "tags": [
@@ -696,8 +772,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 681008546 using commas in the Indian place value system, start from the right.",
+              "hindi": "681008546 को भारतीय स्थान-मूल्य पद्धति में कॉमा लगाकर लिखने के लिए दाईं ओर से शुरू करते हैं।"
+            },
+            {
+              "english": "Step 1: Keep the last 3 digits together: 546\nStep 2: Now move left and make groups of 2 digits: 08, 10, 68\nStep 3: Put commas between these groups.",
+              "hindi": "चरण 1: सबसे दाईं ओर के अंतिम 3 अंक साथ रखते हैं: 546\nचरण 2: अब बाईं ओर जाते हुए 2-2 अंकों के समूह बनाते हैं: 08, 10, 68\nचरण 3: अब इन समूहों के बीच कॉमा लगाते हैं।"
+            },
+            {
+              "english": "So, 681008546 becomes 68,10,08,546.",
+              "hindi": "इसलिए, 681008546 = 68,10,08,546"
+            },
+            {
+              "english": "Final answer: 68,10,08,546",
+              "hindi": "Final answer: 68,10,08,546"
+            }
+          ]
         }
       ],
       "tags": [
@@ -760,8 +856,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 705000038 using commas in the Indian place value system, follow these steps:\n1. Start from the right side.\n2. Keep the last 3 digits together: 038\n3. After that, make groups of 2 digits each: 00, 50, 70\n4. Now place commas between these groups.",
+              "hindi": "705000038 को भारतीय स्थान-मूल्य पद्धति में कॉमा लगाकर लिखने के लिए ये कदम अपनाएँ:\n1. दाईं ओर से शुरू करें।\n2. सबसे आखिरी 3 अंक साथ रखें: 038\n3. उसके बाद 2-2 अंकों के समूह बनाइए: 00, 50, 70\n4. अब इन समूहों के बीच कॉमा लगाइए।"
+            },
+            {
+              "english": "So, 705000038 is written as 70,50,00,038.\nFinal answer: 70,50,00,038",
+              "hindi": "इसलिए, 705000038 को 70,50,00,038 लिखा जाता है।\nFinal answer: 70,50,00,038"
+            }
+          ]
         }
       ],
       "tags": [
@@ -824,8 +932,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 800808088 in the Indian place value system, follow these steps:",
+              "hindi": "800808088 को भारतीय स्थान-मूल्य पद्धति में कॉमा के साथ लिखने के लिए इन चरणों का पालन करें:"
+            },
+            {
+              "english": "1. Start from the right side.\n2. Keep the last 3 digits together: 088\n3. After that, put commas after every 2 digits moving left: 08, 08, 80\n4. Now write all the groups together: 80,08,08,088",
+              "hindi": "1. दाईं ओर से शुरू करें।\n2. सबसे अंतिम 3 अंक साथ रखें: 088\n3. इसके बाद बाईं ओर जाते हुए हर 2 अंकों के बाद कॉमा लगाएँ: 08, 08, 80\n4. अब सभी भागों को साथ लिखें: 80,08,08,088"
+            },
+            {
+              "english": "Final answer: 80,08,08,088",
+              "hindi": "अंतिम उत्तर: 80,08,08,088"
+            }
+          ]
         }
       ],
       "tags": [
@@ -888,8 +1012,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 3.3.1(h)",
+              "hindi": "प्रश्न 3.3.1(h)"
+            },
+            {
+              "english": "We must write 900000100 using commas in the Indian place value system.",
+              "hindi": "हमें 900000100 को भारतीय स्थान-मूल्य पद्धति के अनुसार कॉमा लगाकर लिखना है।"
+            },
+            {
+              "english": "Step 1: In the Indian system, we put a comma after the last 3 digits from the right.\nSo, 900000100 becomes 900000,100.",
+              "hindi": "चरण 1: भारतीय पद्धति में दाईं ओर से पहले 3 अंकों के बाद कॉमा लगाते हैं।\nइसलिए 900000100, 900000,100 बनता है।"
+            },
+            {
+              "english": "Step 2: After that, we place commas after every 2 digits moving left.\n900000 becomes 90,00,00.",
+              "hindi": "चरण 2: इसके बाद बाईं ओर जाते हुए हर 2 अंकों के बाद कॉमा लगाते हैं।\n900000, 90,00,00 बनता है।"
+            },
+            {
+              "english": "Step 3: Now join them together.\nSo, the number is 90,00,00,100.",
+              "hindi": "चरण 3: अब इन्हें साथ में लिखते हैं।\nइसलिए संख्या 90,00,00,100 होगी।"
+            },
+            {
+              "english": "Final answer: 90,00,00,100",
+              "hindi": "अंतिम उत्तर: 90,00,00,100"
+            }
+          ]
         }
       ],
       "tags": [
@@ -952,8 +1104,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We use the Indian place value system.",
+              "hindi": "हम भारतीय स्थान-मूल्य पद्धति का उपयोग करते हैं।"
+            },
+            {
+              "english": "Step 1: Start from the right side of the number 303100001.\nStep 2: Keep the last 3 digits together: 001.\nStep 3: After that, put commas after every 2 digits moving left: 30 | 31 | 00 | 001.\nStep 4: Write the number with commas.",
+              "hindi": "चरण 1: संख्या 303100001 को दाईं ओर से देखिए।\nचरण 2: सबसे अंतिम 3 अंक साथ में लिखते हैं: 001.\nचरण 3: उसके बाद बाईं ओर जाते हुए हर 2 अंकों के बाद कॉमा लगाते हैं: 30 | 31 | 00 | 001.\nचरण 4: अब संख्या को कॉमा के साथ लिखिए।"
+            },
+            {
+              "english": "So, 303100001 becomes 30,31,00,001.",
+              "hindi": "इसलिए, 303100001 को 30,31,00,001 लिखा जाएगा।"
+            },
+            {
+              "english": "Final answer: 30,31,00,001",
+              "hindi": "अंतिम उत्तर: 30,31,00,001"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1016,8 +1188,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We read 74,10,507 in the Indian place value system.",
+              "hindi": "हम 74,10,507 को भारतीय संख्या पद्धति में पढ़ते हैं।"
+            },
+            {
+              "english": "Step 1: Split the number into parts:\n74,10,507 = 74 lakh + 10 thousand + 507",
+              "hindi": "चरण 1: संख्या को भागों में बाँटते हैं:\n74,10,507 = 74 लाख + 10 हजार + 507"
+            },
+            {
+              "english": "Step 2: Write each part in words:\n74 lakh = seventy-four lakh\n10 thousand = ten thousand\n507 = five hundred seven",
+              "hindi": "चरण 2: अब हर भाग को शब्दों में लिखते हैं:\n74 लाख = चौहत्तर लाख\n10 हजार = दस हजार\n507 = पाँच सौ सात"
+            },
+            {
+              "english": "Step 3: Put them together:\nSeventy-four lakh ten thousand five hundred seven.",
+              "hindi": "चरण 3: अब सबको साथ में पढ़ते हैं:\nचौहत्तर लाख दस हजार पाँच सौ सात।"
+            },
+            {
+              "english": "Final answer: Seventy-four lakh ten thousand five hundred seven.",
+              "hindi": "अंतिम उत्तर: चौहत्तर लाख दस हजार पाँच सौ सात।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1080,8 +1276,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "39,00,302 is written in the Indian place value system.",
+              "hindi": "39,00,302 भारतीय स्थान-मूल्य पद्धति में लिखा गया है।"
+            },
+            {
+              "english": "Step 1: Split the number as 39 | 00 | 302.\nStep 2: 39 means thirty-nine lakh.\nStep 3: 302 means three hundred two.\nStep 4: Put them together.",
+              "hindi": "चरण 1: संख्या को 39 | 00 | 302 में बाँटते हैं।\nचरण 2: 39 का मतलब उनतालीस लाख होता है।\nचरण 3: 302 का मतलब तीन सौ दो होता है।\nचरण 4: अब इन्हें साथ में लिखते हैं।"
+            },
+            {
+              "english": "Final answer: Thirty-nine lakh three hundred two.",
+              "hindi": "Final answer: उनतालीस लाख तीन सौ दो।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1144,8 +1356,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We read this number in the Indian place value system.",
+              "hindi": "हम इस संख्या को भारतीय स्थान-मूल्य पद्धति में पढ़ते हैं।"
+            },
+            {
+              "english": "2,41,05,063 = 2 crore + 41 lakh + 5 thousand + 63",
+              "hindi": "2,41,05,063 = 2 करोड़ + 41 लाख + 5 हज़ार + 63"
+            },
+            {
+              "english": "Now write each part in words:\n- 2 crore = two crore\n- 41 lakh = forty-one lakh\n- 5 thousand = five thousand\n- 63 = sixty-three",
+              "hindi": "अब हर भाग को शब्दों में लिखते हैं:\n- 2 करोड़ = दो करोड़\n- 41 लाख = इकतालीस लाख\n- 5 हज़ार = पाँच हज़ार\n- 63 = तिरसठ"
+            },
+            {
+              "english": "Put all the parts together:\nTwo crore forty-one lakh five thousand sixty-three",
+              "hindi": "अब सबको साथ में लिखते हैं:\nदो करोड़ इकतालीस लाख पाँच हज़ार तिरसठ"
+            },
+            {
+              "english": "Final answer: Two crore forty-one lakh five thousand sixty-three",
+              "hindi": "Final answer: दो करोड़ इकतालीस लाख पाँच हज़ार तिरसठ"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1208,8 +1444,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We read this number using the Indian place value system.",
+              "hindi": "हम इस संख्या को भारतीय स्थान-मूल्य पद्धति से पढ़ते हैं।"
+            },
+            {
+              "english": "10,00,53,109 = 10 crore 00 lakh 53 thousand 109",
+              "hindi": "10,00,53,109 = 10 करोड़ 00 लाख 53 हज़ार 109"
+            },
+            {
+              "english": "Step by step:\n1. 10 crore means Ten crore.\n2. 00 lakh means we do not say anything for lakh.\n3. 53 thousand means fifty-three thousand.\n4. 109 means one hundred nine.",
+              "hindi": "चरणबद्ध समझें:\n1. 10 करोड़ = दस करोड़\n2. 00 लाख = लाख नहीं बोलेंगे\n3. 53 हज़ार = तिरपन हज़ार\n4. 109 = एक सौ नौ"
+            },
+            {
+              "english": "Now put the parts together:\nTen crore fifty-three thousand one hundred nine.",
+              "hindi": "अब सबको साथ में पढ़ते हैं:\nदस करोड़ तिरपन हज़ार एक सौ नौ"
+            },
+            {
+              "english": "Final answer: Ten crore fifty-three thousand one hundred nine.",
+              "hindi": "अंतिम उत्तर: दस करोड़ तिरपन हज़ार एक सौ नौ।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1272,8 +1532,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We read 22,07,08,518 in the Indian place value system.",
+              "hindi": "हम 22,07,08,518 को भारतीय स्थान-मूल्य पद्धति में पढ़ते हैं।"
+            },
+            {
+              "english": "Step 1: Split the number by commas:\n22 | 07 | 08 | 518",
+              "hindi": "चरण 1: संख्या को कॉमा के अनुसार बाँटते हैं:\n22 | 07 | 08 | 518"
+            },
+            {
+              "english": "Step 2: Read each part:\n22 crore = twenty-two crore\n07 lakh = seven lakh\n08 thousand = eight thousand\n518 = five hundred eighteen",
+              "hindi": "चरण 2: हर भाग को पढ़ते हैं:\n22 करोड़ = बाईस करोड़\n07 लाख = सात लाख\n08 हज़ार = आठ हज़ार\n518 = पाँच सौ अठारह"
+            },
+            {
+              "english": "Step 3: Put them together:\nTwenty-two crore seven lakh eight thousand five hundred eighteen",
+              "hindi": "चरण 3: अब सबको साथ में पढ़ते हैं:\nबाईस करोड़ सात लाख आठ हज़ार पाँच सौ अठारह"
+            },
+            {
+              "english": "Final answer: Twenty-two crore seven lakh eight thousand five hundred eighteen.",
+              "hindi": "Final answer: बाईस करोड़ सात लाख आठ हज़ार पाँच सौ अठारह।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1336,8 +1620,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We read this number using the Indian place value system.",
+              "hindi": "हम इस संख्या को भारतीय स्थान-मूल्य पद्धति में पढ़ते हैं।"
+            },
+            {
+              "english": "36,10,06,284 = 36 crore, 10 lakh, 6 thousand, 284.",
+              "hindi": "36,10,06,284 = 36 करोड़, 10 लाख, 6 हज़ार, 284।"
+            },
+            {
+              "english": "Now write each part in words:\n36 crore = thirty-six crore\n10 lakh = ten lakh\n6 thousand = six thousand\n284 = two hundred eighty-four",
+              "hindi": "अब हर भाग को शब्दों में लिखते हैं:\n36 करोड़ = छत्तीस करोड़\n10 लाख = दस लाख\n6 हज़ार = छह हज़ार\n284 = दो सौ चौरासी"
+            },
+            {
+              "english": "Putting all the parts together:\nThirty-six crore ten lakh six thousand two hundred eighty-four.",
+              "hindi": "अब सबको साथ में लिखते हैं:\nछत्तीस करोड़ दस लाख छह हज़ार दो सौ चौरासी।"
+            },
+            {
+              "english": "Final answer: Thirty-six crore ten lakh six thousand two hundred eighty-four.",
+              "hindi": "अंतिम उत्तर: छत्तीस करोड़ दस लाख छह हज़ार दो सौ चौरासी।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1400,8 +1708,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 50,19,00,006 in words, read it in the Indian place value system.",
+              "hindi": "50,19,00,006 को शब्दों में लिखने के लिए हम इसे भारतीय स्थान-मूल्य पद्धति में पढ़ते हैं।"
+            },
+            {
+              "english": "50,19,00,006 = 50 crore 19 lakh 0 thousand 6",
+              "hindi": "50,19,00,006 = 50 करोड़ 19 लाख 0 हज़ार 6"
+            },
+            {
+              "english": "Now write each part in words:\n50 crore = fifty crore\n19 lakh = nineteen lakh\n0 thousand = we do not write it\n6 = six",
+              "hindi": "अब हर भाग को शब्दों में लिखते हैं:\n50 करोड़ = पचास करोड़\n19 लाख = उन्नीस लाख\n0 हज़ार = इसे नहीं लिखते\n6 = छह"
+            },
+            {
+              "english": "Putting the parts together, we get:\nFifty crore nineteen lakh six.",
+              "hindi": "सबको मिलाकर संख्या होगी:\nपचास करोड़ उन्नीस लाख छह।"
+            },
+            {
+              "english": "Final answer: Fifty crore nineteen lakh six.",
+              "hindi": "अंतिम उत्तर: पचास करोड़ उन्नीस लाख छह।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1464,8 +1796,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "10,01,01,100 is written in the Indian place value system.",
+              "hindi": "10,01,01,100 भारतीय स्थान-मूल्य पद्धति में लिखा गया है।"
+            },
+            {
+              "english": "Let us read it step by step:\n10,01,01,100 = 10 crore + 1 lakh + 1 thousand + 100",
+              "hindi": "इसे चरणों में पढ़ते हैं:\n10,01,01,100 = 10 करोड़ + 1 लाख + 1 हजार + 100"
+            },
+            {
+              "english": "So, the number name is:\nTen crore one lakh one thousand one hundred.",
+              "hindi": "इसलिए इस संख्या को शब्दों में लिखेंगे:\nदस करोड़ एक लाख एक हजार एक सौ।"
+            },
+            {
+              "english": "Final answer: Ten crore one lakh one thousand one hundred.",
+              "hindi": "अंतिम उत्तर: दस करोड़ एक लाख एक हजार एक सौ।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1528,8 +1880,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 3.3.2(i)",
+              "hindi": "प्रश्न 3.3.2(i)"
+            },
+            {
+              "english": "We have the number 4,04,04,004.",
+              "hindi": "हमें संख्या 4,04,04,004 को शब्दों में लिखना है।"
+            },
+            {
+              "english": "Step 1: Read it in the Indian place value system.\n4,04,04,004 = 4 crore, 4 lakh, 4 thousand, and 4.",
+              "hindi": "चरण 1: इसे भारतीय स्थान-मूल्य पद्धति में पढ़ते हैं।\n4,04,04,004 = 4 करोड़, 4 लाख, 4 हजार, और 4"
+            },
+            {
+              "english": "Step 2: Write each part in words.\n4 crore = four crore\n4 lakh = four lakh\n4 thousand = four thousand\n4 = four",
+              "hindi": "चरण 2: अब हर भाग को शब्दों में लिखते हैं।\n4 करोड़ = चार करोड़\n4 लाख = चार लाख\n4 हजार = चार हजार\n4 = चार"
+            },
+            {
+              "english": "Step 3: Put them together.\n4,04,04,004 = Four crore four lakh four thousand four.",
+              "hindi": "चरण 3: सबको साथ में लिखते हैं।\n4,04,04,004 = चार करोड़ चार लाख चार हजार चार"
+            },
+            {
+              "english": "Final answer: Four crore four lakh four thousand four.",
+              "hindi": "अंतिम उत्तर: चार करोड़ चार लाख चार हजार चार।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1592,8 +1972,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 3.3.3(a)",
+              "hindi": "प्रश्न 3.3.3(a)"
+            },
+            {
+              "english": "We need to write the number name in figures.",
+              "hindi": "हमें संख्या को अंकों में लिखना है।"
+            },
+            {
+              "english": "Step 1: Ninety-two lakh = 92,00,000\nStep 2: Five thousand = 5,000\nStep 3: Fifty-five = 55\nStep 4: Add them together:\n92,00,000 + 5,000 + 55 = 92,05,055",
+              "hindi": "चरण 1: बानवे लाख = 92,00,000\nचरण 2: पाँच हजार = 5,000\nचरण 3: पचपन = 55\nचरण 4: अब इन्हें जोड़ते हैं:\n92,00,000 + 5,000 + 55 = 92,05,055"
+            },
+            {
+              "english": "Final answer: 92,05,055",
+              "hindi": "अंतिम उत्तर: 92,05,055"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1656,8 +2056,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 3.3.3(b)\nWrite the number in figures: Six crore sixty-five lakh twenty thousand seven hundred sixteen",
+              "hindi": "प्रश्न 3.3.3(b)\nअंकों में लिखिए: छह करोड़ पैंसठ लाख बीस हजार सात सौ सोलह"
+            },
+            {
+              "english": "Step 1: Write each part in the Indian place value system.\n6 crore = 6,00,00,000\n65 lakh = 65,00,000\n20 thousand = 20,000\n716 = 716",
+              "hindi": "चरण 1: भारतीय स्थान-मूल्य पद्धति में हर भाग लिखते हैं।\n6 करोड़ = 6,00,00,000\n65 लाख = 65,00,000\n20 हजार = 20,000\n716 = 716"
+            },
+            {
+              "english": "Step 2: Add all the parts.\n6,00,00,000 + 65,00,000 + 20,000 + 716 = 6,65,20,716",
+              "hindi": "चरण 2: अब सबको जोड़ते हैं।\n6,00,00,000 + 65,00,000 + 20,000 + 716 = 6,65,20,716"
+            },
+            {
+              "english": "Final answer: 6,65,20,716",
+              "hindi": "अंतिम उत्तर: 6,65,20,716"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1720,8 +2140,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Nine crore nineteen lakh nine thousand nine hundred ninety",
+              "hindi": "Nine crore nineteen lakh nine thousand nine hundred ninety"
+            },
+            {
+              "english": "Let us write it using the Indian place value system step by step:",
+              "hindi": "इसे भारतीय स्थान-मूल्य पद्धति में चरणबद्ध तरीके से लिखते हैं:"
+            },
+            {
+              "english": "1. Nine crore = 9,00,00,000\n2. Nineteen lakh = 19,00,000\n3. Nine thousand = 9,000\n4. Nine hundred ninety = 990",
+              "hindi": "1. Nine crore = 9,00,00,000\n2. Nineteen lakh = 19,00,000\n3. Nine thousand = 9,000\n4. Nine hundred ninety = 990"
+            },
+            {
+              "english": "Now add them:\n9,00,00,000\n+ 19,00,000\n+ 9,000\n+ 990\n= 9,19,09,990",
+              "hindi": "अब इन्हें जोड़ते हैं:\n9,00,00,000\n+ 19,00,000\n+ 9,000\n+ 990\n= 9,19,09,990"
+            },
+            {
+              "english": "Final answer: 9,19,09,990",
+              "hindi": "अंतिम उत्तर: 9,19,09,990"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1784,8 +2228,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We write the number part by part in the Indian place-value system.",
+              "hindi": "हम इस संख्या को भारतीय स्थान-मूल्य पद्धति में भागों में लिखते हैं।"
+            },
+            {
+              "english": "Twelve crore = 12,00,00,000\nTen lakh = 10,00,000\nThree hundred sixty-five = 365",
+              "hindi": "बारह करोड़ = 12,00,00,000\nदस लाख = 10,00,000\nतीन सौ पैंसठ = 365"
+            },
+            {
+              "english": "Now add them:\n12,00,00,000\n+ 10,00,000\n+ 365\n= 12,10,00,365",
+              "hindi": "अब इन्हें जोड़ते हैं:\n12,00,00,000\n+ 10,00,000\n+ 365\n= 12,10,00,365"
+            },
+            {
+              "english": "Final answer: 12,10,00,365",
+              "hindi": "अंतिम उत्तर: 12,10,00,365"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1848,8 +2312,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Start with 5 crore = 5,00,00,000.\nStep 2: Add 42 thousand = 42,000.\nStep 3: Add 109 = 100 + 9.\nStep 4: Now put them together:\n5,00,00,000\n+   42,000\n+      109\n= 5,00,42,109",
+              "hindi": "चरण 1: 5 करोड़ = 5,00,00,000।\nचरण 2: 42 हजार = 42,000।\nचरण 3: 109 = 100 + 9।\nचरण 4: अब इन्हें साथ में लिखते हैं:\n5,00,00,000\n+   42,000\n+      109\n= 5,00,42,109"
+            },
+            {
+              "english": "So, the number in figures is 5,00,42,109.\nFinal answer: 5,00,42,109",
+              "hindi": "इसलिए अंकों में संख्या 5,00,42,109 है।\nFinal answer: 5,00,42,109"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1912,8 +2388,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write the number in figures, break it into parts:",
+              "hindi": "इस संख्या को अंकों में लिखने के लिए इसे भागों में बाँटते हैं:"
+            },
+            {
+              "english": "Twenty-three crore = 23,00,00,000\nFive lakh = 5,00,000\nSeven thousand = 7,000\nOne hundred eight = 108",
+              "hindi": "तेईस करोड़ = 23,00,00,000\nपाँच लाख = 5,00,000\nसात हजार = 7,000\nएक सौ आठ = 108"
+            },
+            {
+              "english": "Now add them:\n23,00,00,000\n+ 5,00,000\n+ 7,000\n+ 108\n= 23,05,07,108",
+              "hindi": "अब इन्हें जोड़ते हैं:\n23,00,00,000\n+ 5,00,000\n+ 7,000\n+ 108\n= 23,05,07,108"
+            },
+            {
+              "english": "Final answer: 23,05,07,108",
+              "hindi": "अंतिम उत्तर: 23,05,07,108"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1976,8 +2472,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We write the number using the Indian place value system.",
+              "hindi": "हम इस संख्या को भारतीय स्थान-मूल्य पद्धति में लिखेंगे।"
+            },
+            {
+              "english": "Step 1: Thirty crore = 30,00,00,000\nStep 2: Fifteen thousand = 15,000\nStep 3: Eighteen = 18",
+              "hindi": "चरण 1: Thirty crore = 30,00,00,000\nचरण 2: Fifteen thousand = 15,000\nचरण 3: Eighteen = 18"
+            },
+            {
+              "english": "Step 4: Add them together:\n30,00,00,000\n+   15,000\n+       18\n= 30,00,15,018",
+              "hindi": "चरण 4: अब इन्हें जोड़ते हैं:\n30,00,00,000\n+   15,000\n+       18\n= 30,00,15,018"
+            },
+            {
+              "english": "Final answer: 30,00,15,018",
+              "hindi": "अंतिम उत्तर: 30,00,15,018"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2040,8 +2556,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Fifty-two crore = 52,00,00,000.\nStep 2: One lakh = 0,01,00,000.\nStep 3: Thirty-one = 31.\nStep 4: There are no thousands or hundreds, so those places stay 0.\nStep 5: Put the parts together: 52,01,00,031.\nFinal answer: 52,01,00,031",
+              "hindi": "चरण 1: बावन करोड़ = 52,00,00,000।\nचरण 2: एक लाख = 0,01,00,000।\nचरण 3: इकतीस = 31।\nचरण 4: यहाँ हजार और सैकड़ा नहीं हैं, इसलिए उन स्थानों पर 0 आएगा।\nचरण 5: अब सबको साथ लिखते हैं: 52,01,00,031।\nअंतिम उत्तर: 52,01,00,031"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2104,8 +2628,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to write the number name in figures.",
+              "hindi": "हमें दिए गए संख्या-नाम को अंकों में लिखना है।"
+            },
+            {
+              "english": "Thirteen crore = 13,00,00,000\nFive hundred seventy = 570",
+              "hindi": "Thirteen crore = 13,00,00,000\nFive hundred seventy = 570"
+            },
+            {
+              "english": "Now add them:\n13,00,00,000\n+      570\n= 13,00,00,570",
+              "hindi": "अब इन्हें जोड़ते हैं:\n13,00,00,000\n+      570\n= 13,00,00,570"
+            },
+            {
+              "english": "Final answer: 13,00,00,570",
+              "hindi": "अंतिम उत्तर: 13,00,00,570"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2168,8 +2712,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We have to write “Ten crore ten thousand eleven” in figures.",
+              "hindi": "हमें “Ten crore ten thousand eleven” को अंकों में लिखना है।"
+            },
+            {
+              "english": "Step 1: Ten crore = 10,00,00,000\nStep 2: Ten thousand = 10,000\nStep 3: Eleven = 11",
+              "hindi": "चरण 1: दस करोड़ = 10,00,00,000\nचरण 2: दस हज़ार = 10,000\nचरण 3: ग्यारह = 11"
+            },
+            {
+              "english": "Now add them together:\n10,00,00,000 + 10,000 + 11 = 10,00,10,011",
+              "hindi": "अब इन्हें जोड़ते हैं:\n10,00,00,000 + 10,000 + 11 = 10,00,10,011"
+            },
+            {
+              "english": "Final answer: 10,00,10,011",
+              "hindi": "अंतिम उत्तर: 10,00,10,011"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2232,8 +2796,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step by step:\n1. One crore = 1,00,00,000\n2. One thousand = 1,000\n3. One = 1\n4. Add them: 1,00,00,000 + 1,000 + 1 = 1,00,01,001",
+              "hindi": "चरणबद्ध हल:\n1. एक करोड़ = 1,00,00,000\n2. एक हजार = 1,000\n3. एक = 1\n4. अब इन्हें जोड़ते हैं: 1,00,00,000 + 1,000 + 1 = 1,00,01,001"
+            },
+            {
+              "english": "So, the number in figures is 1,00,01,001.\nFinal answer: 1,00,01,001",
+              "hindi": "इसलिए अंकों में संख्या 1,00,01,001 है।\nअंतिम उत्तर: 1,00,01,001"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2296,8 +2872,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 3.3.4\nUsing the Indian place value system, we write the place of each digit from right to left as:\nOnes, Tens, Hundreds, Thousands, Ten Thousands, Lakhs, Ten Lakhs, Crores, Ten Crores.",
+              "hindi": "प्रश्न 3.3.4\nभारतीय स्थान-मूल्य पद्धति में दाएँ से बाएँ स्थान इस प्रकार होते हैं:\nइकाई, दहाई, सैकड़ा, हजार, दस हजार, लाख, दस लाख, करोड़, दस करोड़।"
+            },
+            {
+              "english": "Given numeral: 64,19,70,528",
+              "hindi": "दी गई संख्या: 64,19,70,528"
+            },
+            {
+              "english": "Now write the place value of each digit:\n6 is in the Ten Crores place, so its place value is 60,00,00,000.\n4 is in the Crores place, so its place value is 4,00,00,000.\n1 is in the Ten Lakhs place, so its place value is 10,00,000.\n9 is in the Lakhs place, so its place value is 9,00,000.\n7 is in the Ten Thousands place, so its place value is 70,000.\n0 is in the Thousands place, so its place value is 0.\n5 is in the Hundreds place, so its place value is 500.\n2 is in the Tens place, so its place value is 20.\n8 is in the Ones place, so its place value is 8.",
+              "hindi": "अब हर अंक का स्थान-मूल्य लिखते हैं:\n6 दस करोड़ के स्थान पर है, इसलिए इसका स्थान-मूल्य 60,00,00,000 है।\n4 करोड़ के स्थान पर है, इसलिए इसका स्थान-मूल्य 4,00,00,000 है।\n1 दस लाख के स्थान पर है, इसलिए इसका स्थान-मूल्य 10,00,000 है।\n9 लाख के स्थान पर है, इसलिए इसका स्थान-मूल्य 9,00,000 है।\n7 दस हजार के स्थान पर है, इसलिए इसका स्थान-मूल्य 70,000 है।\n0 हजार के स्थान पर है, इसलिए इसका स्थान-मूल्य 0 है।\n5 सैकड़ा के स्थान पर है, इसलिए इसका स्थान-मूल्य 500 है।\n2 दहाई के स्थान पर है, इसलिए इसका स्थान-मूल्य 20 है।\n8 इकाई के स्थान पर है, इसलिए इसका स्थान-मूल्य 8 है।"
+            },
+            {
+              "english": "Final answer:\n6 -> 60,00,00,000\n4 -> 4,00,00,000\n1 -> 10,00,000\n9 -> 9,00,000\n7 -> 70,000\n0 -> 0\n5 -> 500\n2 -> 20\n8 -> 8",
+              "hindi": "अंतिम उत्तर:\n6 -> 60,00,00,000\n4 -> 4,00,00,000\n1 -> 10,00,000\n9 -> 9,00,000\n7 -> 70,000\n0 -> 0\n5 -> 500\n2 -> 20\n8 -> 8"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2360,8 +2956,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Given numeral: 64,19,70,528",
+              "hindi": "दिया गया अंक: 64,19,70,528"
+            },
+            {
+              "english": "Using the Indian system of numeration, we write the places from right to left as:\nOnes, Tens, Hundreds, Thousands, Ten Thousands, Lakhs, Ten Lakhs, Crores, Ten Crores.",
+              "hindi": "भारतीय संख्या पद्धति में दाएँ से बाएँ स्थान होते हैं:\nइकाई, दहाई, सैकड़ा, हजार, दस हजार, लाख, दस लाख, करोड़, दस करोड़।"
+            },
+            {
+              "english": "Now write each digit with its place:\n6  4  1  9  7  0  5  2  8\nTen Crores, Crores, Ten Lakhs, Lakhs, Ten Thousands, Thousands, Hundreds, Tens, Ones",
+              "hindi": "अब हर अंक का स्थान देखें:\n6  4  1  9  7  0  5  2  8\nदस करोड़, करोड़, दस लाख, लाख, दस हजार, हजार, सैकड़ा, दहाई, इकाई"
+            },
+            {
+              "english": "So, the place value of each digit is:\n6 = 60,00,00,000\n4 = 4,00,00,000\n1 = 10,00,000\n9 = 9,00,000\n7 = 70,000\n0 = 0\n5 = 500\n2 = 20\n8 = 8",
+              "hindi": "इसलिए प्रत्येक अंक का स्थानिक मान है:\n6 = 60,00,00,000\n4 = 4,00,00,000\n1 = 10,00,000\n9 = 9,00,000\n7 = 70,000\n0 = 0\n5 = 500\n2 = 20\n8 = 8"
+            },
+            {
+              "english": "Final answer: In 64,19,70,528, the place values are 6 = 60,00,00,000, 4 = 4,00,00,000, 1 = 10,00,000, 9 = 9,00,000, 7 = 70,000, 0 = 0, 5 = 500, 2 = 20, and 8 = 8.",
+              "hindi": "Final answer: 64,19,70,528 में 6 का स्थानिक मान 60,00,00,000, 4 का 4,00,00,000, 1 का 10,00,000, 9 का 9,00,000, 7 का 70,000, 0 का 0, 5 का 500, 2 का 20 और 8 का 8 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2424,8 +3044,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 5,29,347 in expanded form, break it by place value.",
+              "hindi": "5,29,347 को expanded form में लिखने के लिए हम इसे place value के अनुसार तोड़ते हैं।"
+            },
+            {
+              "english": "5 is in the lakh place = 500000\n2 is in the ten-thousands place = 20000\n9 is in the thousands place = 9000\n3 is in the hundreds place = 300\n4 is in the tens place = 40\n7 is in the ones place = 7",
+              "hindi": "5 लाख के स्थान पर है = 500000\n2 दस-हजार के स्थान पर है = 20000\n9 हजार के स्थान पर है = 9000\n3 सैकड़ा के स्थान पर है = 300\n4 दहाई के स्थान पर है = 40\n7 इकाई के स्थान पर है = 7"
+            },
+            {
+              "english": "Now add all the place values:\n500000 + 20000 + 9000 + 300 + 40 + 7",
+              "hindi": "अब इन सभी values को जोड़ते हैं:\n500000 + 20000 + 9000 + 300 + 40 + 7"
+            },
+            {
+              "english": "Final answer: 500000 + 20000 + 9000 + 300 + 40 + 7",
+              "hindi": "अंतिम उत्तर: 500000 + 20000 + 9000 + 300 + 40 + 7"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2488,8 +3128,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "23,09,519 is read as twenty-three lakh nine thousand five hundred nineteen.",
+              "hindi": "23,09,519 को हम तेईस लाख नौ हजार पाँच सौ उन्नीस पढ़ते हैं।"
+            },
+            {
+              "english": "Let us write it by place value:\n2 is in the ten-lakh place = 20,00,000\n3 is in the lakh place = 3,00,000\n0 is in the ten-thousand place = 0\n9 is in the thousand place = 9,000\n5 is in the hundred place = 500\n1 is in the tens place = 10\n9 is in the ones place = 9",
+              "hindi": "अब इसे स्थान-मूल्य के अनुसार लिखते हैं:\n2 दस-लाख के स्थान पर है = 20,00,000\n3 लाख के स्थान पर है = 3,00,000\n0 दस-हजार के स्थान पर है = 0\n9 हजार के स्थान पर है = 9,000\n5 सैकड़ा के स्थान पर है = 500\n1 दहाई के स्थान पर है = 10\n9 इकाई के स्थान पर है = 9"
+            },
+            {
+              "english": "Now add the non-zero place values:\n20,00,000 + 3,00,000 + 9,000 + 500 + 10 + 9",
+              "hindi": "अब शून्य वाले मान को छोड़कर बाकी मान जोड़ते हैं:\n20,00,000 + 3,00,000 + 9,000 + 500 + 10 + 9"
+            },
+            {
+              "english": "Final answer: 20,00,000 + 3,00,000 + 9,000 + 500 + 10 + 9",
+              "hindi": "Final answer: 20,00,000 + 3,00,000 + 9,000 + 500 + 10 + 9"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2552,8 +3212,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 9,72,34,026 in expanded form, look at each digit and its place value:\n9 = 9,00,00,000\n7 = 70,00,000\n2 = 2,00,000\n3 = 30,000\n4 = 4,000\n0 = 0 hundreds, so we do not write it\n2 = 20\n6 = 6",
+              "hindi": "9,72,34,026 को expanded form में लिखने के लिए हर अंक का स्थानमान देखें:\n9 = 9,00,00,000\n7 = 70,00,000\n2 = 2,00,000\n3 = 30,000\n4 = 4,000\n0 = 0 सैकड़ा, इसलिए इसे नहीं लिखते\n2 = 20\n6 = 6"
+            },
+            {
+              "english": "Now add all the place values:\n9,00,00,000 + 70,00,000 + 2,00,000 + 30,000 + 4,000 + 20 + 6",
+              "hindi": "अब सभी स्थानमानों को जोड़ते हैं:\n9,00,00,000 + 70,00,000 + 2,00,000 + 30,000 + 4,000 + 20 + 6"
+            },
+            {
+              "english": "Final answer: 90000000 + 7000000 + 200000 + 30000 + 4000 + 20 + 6",
+              "hindi": "Final answer: 90000000 + 7000000 + 200000 + 30000 + 4000 + 20 + 6"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2616,8 +3292,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 13,06,19,804 in expanded form, break it by place value.",
+              "hindi": "13,06,19,804 को expanded form में लिखने के लिए हम इसे स्थान-मूल्य के अनुसार तोड़ते हैं।"
+            },
+            {
+              "english": "13,06,19,804 = 13 crore 6 lakh 19 thousand 804",
+              "hindi": "13,06,19,804 = 13 करोड़ 6 लाख 19 हज़ार 804"
+            },
+            {
+              "english": "Now split each non-zero digit:\n1 = 10,00,00,000 = 100000000\n3 = 3,00,00,000 = 30000000\n6 = 6,00,000 = 600000\n1 = 10,000 = 10000\n9 = 9,000 = 9000\n8 = 800\n4 = 4",
+              "hindi": "अब हर non-zero अंक को अलग लिखते हैं:\n1 = 10,00,00,000 = 100000000\n3 = 3,00,00,000 = 30000000\n6 = 6,00,000 = 600000\n1 = 10,000 = 10000\n9 = 9,000 = 9000\n8 = 800\n4 = 4"
+            },
+            {
+              "english": "So, the expanded form is:\n100000000 + 30000000 + 600000 + 10000 + 9000 + 800 + 4",
+              "hindi": "इसलिए इसका expanded form है:\n100000000 + 30000000 + 600000 + 10000 + 9000 + 800 + 4"
+            },
+            {
+              "english": "Final answer: 100000000 + 30000000 + 600000 + 10000 + 9000 + 800 + 4",
+              "hindi": "अंतिम उत्तर: 100000000 + 30000000 + 600000 + 10000 + 9000 + 800 + 4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2680,8 +3380,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 37,24,09,578 in expanded form, we break it according to place values.",
+              "hindi": "37,24,09,578 को expanded form में लिखने के लिए हम इसे स्थान-मूल्य के अनुसार तोड़ते हैं।"
+            },
+            {
+              "english": "3 is in the ten-crore place = 300000000\n7 is in the crore place = 70000000\n2 is in the ten-lakh place = 2000000\n4 is in the lakh place = 400000\n0 is in the ten-thousand place, so we do not write it\n9 is in the thousand place = 9000\n5 is in the hundreds place = 500\n7 is in the tens place = 70\n8 is in the ones place = 8",
+              "hindi": "3 दस करोड़ के स्थान पर है = 300000000\n7 करोड़ के स्थान par है = 70000000\n2 दस लाख के स्थान पर है = 2000000\n4 लाख के स्थान पर है = 400000\n0 दस हजार के स्थान पर है, इसलिए इसे नहीं लिखते\n9 हजार के स्थान पर है = 9000\n5 सैकड़ा के स्थान पर है = 500\n7 दहाई के स्थान पर है = 70\n8 इकाई के स्थान पर है = 8"
+            },
+            {
+              "english": "Now we add all the non-zero place values.",
+              "hindi": "अब हम सभी शून्य नहीं वाले स्थान-मूल्य जोड़ते हैं।"
+            },
+            {
+              "english": "Final answer: 300000000 + 70000000 + 2000000 + 400000 + 9000 + 500 + 70 + 8",
+              "hindi": "अंतिम उत्तर: 300000000 + 70000000 + 2000000 + 400000 + 9000 + 500 + 70 + 8"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2744,8 +3464,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 89,30,16,870 in expanded form, break it by place values:",
+              "hindi": "89,30,16,870 को expanded form में लिखने के लिए हम इसे स्थान-मूल्य के अनुसार तोड़ते हैं:"
+            },
+            {
+              "english": "8 is in the ten-crore place = 80,00,00,000\n9 is in the crore place = 9,00,00,000\n3 is in the ten-lakh place = 30,00,000\n0 is in the lakh place, so we do not write it\n1 is in the ten-thousand place = 10,000\n6 is in the thousand place = 6,000\n8 is in the hundred place = 800\n7 is in the ten place = 70\n0 is in the ones place, so we do not write it",
+              "hindi": "8 दस करोड़ के स्थान पर है = 80,00,00,000\n9 करोड़ के स्थान पर है = 9,00,00,000\n3 दस लाख के स्थान पर है = 30,00,000\n0 लाख के स्थान पर है, इसलिए इसे नहीं लिखते\n1 दस हजार के स्थान पर है = 10,000\n6 हजार के स्थान पर है = 6,000\n8 सैकड़ा के स्थान पर है = 800\n7 दहाई के स्थान पर है = 70\n0 इकाई के स्थान पर है, इसलिए इसे नहीं लिखते"
+            },
+            {
+              "english": "Now add the non-zero place values:\n800000000 + 90000000 + 3000000 + 10000 + 6000 + 800 + 70",
+              "hindi": "अब सभी non-zero स्थान-मूल्य जोड़ते हैं:\n800000000 + 90000000 + 3000000 + 10000 + 6000 + 800 + 70"
+            },
+            {
+              "english": "Final answer: 800000000 + 90000000 + 3000000 + 10000 + 6000 + 800 + 70",
+              "hindi": "अंतिम उत्तर: 800000000 + 90000000 + 3000000 + 10000 + 6000 + 800 + 70"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2808,8 +3548,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 3.3.7(a)",
+              "hindi": "Question 3.3.7(a)"
+            },
+            {
+              "english": "We have:\n3000000 + 700000 + 60000 + 9000 + 70 + 6",
+              "hindi": "हमें दिया है:\n3000000 + 700000 + 60000 + 9000 + 70 + 6"
+            },
+            {
+              "english": "Step 1: Write each number by its place value.\n3000000 = 30,00,000\n700000 = 7,00,000\n60000 = 60,000\n9000 = 9,000\n70 = 70\n6 = 6",
+              "hindi": "Step 1: हर संख्या को उसके स्थान-मूल्य के अनुसार समझते हैं।\n3000000 = 30,00,000\n700000 = 7,00,000\n60000 = 60,000\n9000 = 9,000\n70 = 70\n6 = 6"
+            },
+            {
+              "english": "Step 2: Add them together carefully.\n30,00,000 + 7,00,000 = 37,00,000\n37,00,000 + 60,000 = 37,60,000\n37,60,000 + 9,000 = 37,69,000\n37,69,000 + 70 = 37,69,070\n37,69,070 + 6 = 37,69,076",
+              "hindi": "Step 2: अब इन्हें एक-एक करके जोड़ते हैं।\n30,00,000 + 7,00,000 = 37,00,000\n37,00,000 + 60,000 = 37,60,000\n37,60,000 + 9,000 = 37,69,000\n37,69,000 + 70 = 37,69,070\n37,69,070 + 6 = 37,69,076"
+            },
+            {
+              "english": "Step 3: So, the standard form is:\n37,69,076",
+              "hindi": "Step 3: इसलिए इसका standard form है:\n37,69,076"
+            },
+            {
+              "english": "Final answer: 37,69,076",
+              "hindi": "Final answer: 37,69,076"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2872,8 +3640,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 3.3.7(b)",
+              "hindi": "प्रश्न 3.3.7(b)"
+            },
+            {
+              "english": "Write the following in standard form:\n60000000 + 8000000 + 30000 + 400 + 80 + 4",
+              "hindi": "निम्नलिखित को standard form में लिखिए:\n60000000 + 8000000 + 30000 + 400 + 80 + 4"
+            },
+            {
+              "english": "Step 1: Add the biggest numbers first.\n60000000 + 8000000 = 68000000",
+              "hindi": "चरण 1: सबसे बड़ी संख्याएँ पहले जोड़ते हैं।\n60000000 + 8000000 = 68000000"
+            },
+            {
+              "english": "Step 2: Add 30000.\n68000000 + 30000 = 68030000",
+              "hindi": "चरण 2: अब 30000 जोड़ते हैं।\n68000000 + 30000 = 68030000"
+            },
+            {
+              "english": "Step 3: Add 400.\n68030000 + 400 = 68030400",
+              "hindi": "चरण 3: अब 400 जोड़ते हैं।\n68030000 + 400 = 68030400"
+            },
+            {
+              "english": "Step 4: Add 80.\n68030400 + 80 = 68030480",
+              "hindi": "चरण 4: अब 80 जोड़ते हैं।\n68030400 + 80 = 68030480"
+            },
+            {
+              "english": "Step 5: Add 4.\n68030480 + 4 = 68030484",
+              "hindi": "चरण 5: अब 4 जोड़ते हैं।\n68030480 + 4 = 68030484"
+            },
+            {
+              "english": "So, the standard form is 6,80,30,484.\nFinal answer: 6,80,30,484",
+              "hindi": "इसलिए, standard form है 6,80,30,484.\nFinal answer: 6,80,30,484"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2936,8 +3740,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write this in standard form, we add all the numbers step by step.",
+              "hindi": "इसे standard form में लिखने के लिए हम सभी संख्याओं को एक-एक करके जोड़ते हैं।"
+            },
+            {
+              "english": "20000000 + 200000 = 20200000\n20200000 + 2000 = 20202000\n20202000 + 200 = 20202200\n20202200 + 2 = 20202202",
+              "hindi": "20000000 + 200000 = 20200000\n20200000 + 2000 = 20202000\n20202000 + 200 = 20202200\n20202200 + 2 = 20202202"
+            },
+            {
+              "english": "Now write it with commas in the Indian place value system:\n2,02,02,202",
+              "hindi": "अब इसे भारतीय स्थान-मूल्य पद्धति में कॉमा लगाकर लिखते हैं:\n2,02,02,202"
+            },
+            {
+              "english": "Final answer: 2,02,02,202",
+              "hindi": "Final answer: 2,02,02,202"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3000,8 +3824,48 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 3.3.7(d)",
+              "hindi": "Question 3.3.7(d)"
+            },
+            {
+              "english": "We need to write this expanded form in standard form:\n700000000 + 30000000 + 200000 + 80000 + 4000 + 60 + 9",
+              "hindi": "हमें इस expanded form को standard form में लिखना है:\n700000000 + 30000000 + 200000 + 80000 + 4000 + 60 + 9"
+            },
+            {
+              "english": "Step 1: Add the biggest numbers first.\n700000000 + 30000000 = 730000000",
+              "hindi": "चरण 1: सबसे बड़ी संख्याओं को पहले जोड़ते हैं।\n700000000 + 30000000 = 730000000"
+            },
+            {
+              "english": "Step 2: Add 200000.\n730000000 + 200000 = 730200000",
+              "hindi": "चरण 2: अब 200000 जोड़ते हैं।\n730000000 + 200000 = 730200000"
+            },
+            {
+              "english": "Step 3: Add 80000.\n730200000 + 80000 = 730280000",
+              "hindi": "चरण 3: अब 80000 जोड़ते हैं।\n730200000 + 80000 = 730280000"
+            },
+            {
+              "english": "Step 4: Add 4000.\n730280000 + 4000 = 730284000",
+              "hindi": "चरण 4: अब 4000 जोड़ते हैं।\n730280000 + 4000 = 730284000"
+            },
+            {
+              "english": "Step 5: Add 60.\n730284000 + 60 = 730284060",
+              "hindi": "चरण 5: अब 60 जोड़ते हैं।\n730284000 + 60 = 730284060"
+            },
+            {
+              "english": "Step 6: Add 9.\n730284060 + 9 = 730284069",
+              "hindi": "चरण 6: अब 9 जोड़ते हैं।\n730284060 + 9 = 730284069"
+            },
+            {
+              "english": "So, the standard form is 73,02,84,069.\nFinal answer: 73,02,84,069",
+              "hindi": "इसलिए, standard form है 73,02,84,069.\nअंतिम उत्तर: 73,02,84,069"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3064,8 +3928,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Standard form means writing the expanded number as one complete number.",
+              "hindi": "Standard form ka matlab hai phaili hui sankhya ko jodkar ek poori sankhya mein likhna."
+            },
+            {
+              "english": "Let us add step by step:\n500000000 + 5000 = 500005000\n500005000 + 50 = 500005050\n500005050 + 5 = 500005055",
+              "hindi": "Chaliye step by step jodte hain:\n500000000 + 5000 = 500005000\n500005000 + 50 = 500005050\n500005050 + 5 = 500005055"
+            },
+            {
+              "english": "So, the number in standard form is 500005055.\nIn Indian comma style, we write it as 50,00,05,055.",
+              "hindi": "Isliye standard form mein sankhya 500005055 hai.\nIndian comma style mein ise 50,00,05,055 likhte hain."
+            },
+            {
+              "english": "Final answer: 50,00,05,055",
+              "hindi": "अंतिम उत्तर: 50,00,05,055"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3128,8 +4012,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 3.3.7(f)",
+              "hindi": "Question 3.3.7(f)"
+            },
+            {
+              "english": "Write in standard form:\n900000000 + 900000 + 900 + 9",
+              "hindi": "मानक रूप में लिखिए:\n900000000 + 900000 + 900 + 9"
+            },
+            {
+              "english": "Step 1: Look at each number by place value.\n900000000 = 9 in the hundred millions place\n900000 = 9 in the hundred thousands place\n900 = 9 in the hundreds place\n9 = 9 in the ones place",
+              "hindi": "चरण 1: हर संख्या का स्थानमान समझते हैं।\n900000000 = 9 सौ मिलियन के स्थान पर\n900000 = 9 लाख के स्थान पर\n900 = 9 सैकड़ा के स्थान पर\n9 = 9 इकाई के स्थान पर"
+            },
+            {
+              "english": "Step 2: Add them together carefully.\n900000000 + 900000 = 900900000\n900900000 + 900 = 900900900\n900900900 + 9 = 900900909",
+              "hindi": "चरण 2: अब इन्हें ध्यान से जोड़ते हैं।\n900000000 + 900000 = 900900000\n900900000 + 900 = 900900900\n900900900 + 9 = 900900909"
+            },
+            {
+              "english": "Step 3: Write it with commas.\nIn Indian format: 90,09,00,909",
+              "hindi": "चरण 3: अब इसे कॉमा के साथ लिखते हैं।\nभारतीय पद्धति में: 90,09,00,909"
+            },
+            {
+              "english": "Final answer: 90,09,00,909",
+              "hindi": "Final answer: 90,09,00,909"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3192,8 +4104,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 40000000 + 10 + 7 in standard form, add the numbers step by step.",
+              "hindi": "40000000 + 10 + 7 को standard form में लिखने के लिए संख्याओं को एक-एक करके जोड़ते हैं।"
+            },
+            {
+              "english": "40000000 = 4,00,00,000\nNow add 10:\n4,00,00,000 + 10 = 4,00,00,010\nNow add 7:\n4,00,00,010 + 7 = 4,00,00,017",
+              "hindi": "40000000 = 4,00,00,000\nअब 10 जोड़ें:\n4,00,00,000 + 10 = 4,00,00,010\nअब 7 जोड़ें:\n4,00,00,010 + 7 = 4,00,00,017"
+            },
+            {
+              "english": "So, the standard form is 4,00,00,017.\nFinal answer: 4,00,00,017",
+              "hindi": "इसलिए standard form है 4,00,00,017.\nFinal answer: 4,00,00,017"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3271,8 +4199,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Look at the number carefully: 59,07,13,568.",
+              "hindi": "चरण 1: संख्या को ध्यान से देखिए: 59,07,13,568"
+            },
+            {
+              "english": "Step 2: Write it in the Indian place value system:\n59,07,13,568 = 59 crore 7 lakh 13 thousand 568.",
+              "hindi": "चरण 2: इसे भारतीय स्थान-मूल्य पद्धति में पढ़िए:\n59,07,13,568 = 59 करोड़ 7 लाख 13 हज़ार 568"
+            },
+            {
+              "english": "Step 3: Find where the digit 5 is.\nIn 59 crore, the digit 5 is in the ten-crore place.",
+              "hindi": "चरण 3: अब अंक 5 को पहचानिए।\n59 करोड़ में 5, दस-करोड़ के स्थान पर है।"
+            },
+            {
+              "english": "Step 4: Find its place value.\nPlace value of 5 = 5 × 10,00,00,000 = 50,00,00,000.",
+              "hindi": "चरण 4: इसका स्थान मूल्य निकालिए।\nअंक 5 का स्थान मूल्य = 5 × 10,00,00,000 = 50,00,00,000"
+            },
+            {
+              "english": "So, the correct option is A.",
+              "hindi": "इसलिए सही विकल्प A है।"
+            },
+            {
+              "english": "Final answer: 50,00,00,000 (50 crore)",
+              "hindi": "अंतिम उत्तर: 50,00,00,000 (50 करोड़)"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3335,8 +4291,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Write the numbers in the Indian place-value style:\n2906754 = 29,06,754\n2911754 = 29,11,754",
+              "hindi": "पहले संख्याओं को भारतीय स्थान-मूल्य पद्धति में लिखते हैं:\n2906754 = 29,06,754\n2911754 = 29,11,754"
+            },
+            {
+              "english": "Now count forward by 1,000 each time:\n29,06,754\n29,07,754\n29,08,754\n29,09,754\n29,10,754\n29,11,754",
+              "hindi": "अब 1,000-1,000 करके आगे गिनते हैं:\n29,06,754\n29,07,754\n29,08,754\n29,09,754\n29,10,754\n29,11,754"
+            },
+            {
+              "english": "So we keep 29 lakh the same, and the thousands part goes 06, 07, 08, 09, 10, 11.",
+              "hindi": "यहाँ 29 लाख वही रहता है, और हजार वाला भाग 06, 07, 08, 09, 10, 11 होता जाता है."
+            },
+            {
+              "english": "Final answer: 29,06,754, 29,07,754, 29,08,754, 29,09,754, 29,10,754, 29,11,754",
+              "hindi": "अंतिम उत्तर: 29,06,754, 29,07,754, 29,08,754, 29,09,754, 29,10,754, 29,11,754"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3399,8 +4375,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To count in crores, we add 1,00,00,000 each time.",
+              "hindi": "करोड़ों में गिनती करते समय हम हर बार 1,00,00,000 जोड़ते हैं।"
+            },
+            {
+              "english": "So the numbers go step by step like this:\n16,30,57,500\n17,30,57,500\n18,30,57,500\n19,30,57,500\n20,30,57,500\n21,30,57,500\n22,30,57,500",
+              "hindi": "इसलिए संख्याएँ क्रम से इस प्रकार होंगी:\n16,30,57,500\n17,30,57,500\n18,30,57,500\n19,30,57,500\n20,30,57,500\n21,30,57,500\n22,30,57,500"
+            },
+            {
+              "english": "Each new number is 1 crore more than the previous number.",
+              "hindi": "हर अगली संख्या पिछली संख्या से 1 करोड़ बड़ी है।"
+            },
+            {
+              "english": "Final answer: 163057500, 173057500, 183057500, 193057500, 203057500, 213057500, 223057500.",
+              "hindi": "Final answer: 163057500, 173057500, 183057500, 193057500, 203057500, 213057500, 223057500."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3463,8 +4459,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 3.3.11(a)",
+              "hindi": "प्रश्न 3.3.11(a)"
+            },
+            {
+              "english": "We look at the numbers:\n3140624, 3140724, 3140824",
+              "hindi": "दी गई संख्याएँ हैं:\n3140624, 3140724, 3140824"
+            },
+            {
+              "english": "Step 1: Compare the numbers carefully.\n3140624 to 3140724 = +100\n3140724 to 3140824 = +100",
+              "hindi": "चरण 1: संख्याओं को ध्यान से देखें।\n3140624 से 3140724 = +100\n3140724 से 3140824 = +100"
+            },
+            {
+              "english": "Step 2: The pattern is adding 100 each time.\nSo we keep adding 100 to get the next numbers.",
+              "hindi": "चरण 2: हर बार 100 जोड़ा जा रहा है।\nइसलिए अगली संख्याएँ निकालने के लिए हम 100-100 जोड़ेंगे।"
+            },
+            {
+              "english": "Step 3:\n3140824 + 100 = 3140924\n3140924 + 100 = 3141024\n3141024 + 100 = 3141124",
+              "hindi": "चरण 3:\n3140824 + 100 = 3140924\n3140924 + 100 = 3141024\n3141024 + 100 = 3141124"
+            },
+            {
+              "english": "Final answer: 3140924, 3141024, 3141124",
+              "hindi": "अंतिम उत्तर: 3140924, 3141024, 3141124"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3527,8 +4551,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We look at the numbers:\n3256419, 3257419, 3258419",
+              "hindi": "हम दिए गए संख्याओं को देखते हैं:\n3256419, 3257419, 3258419"
+            },
+            {
+              "english": "Step 1: Find the pattern.\n3257419 - 3256419 = 1000\n3258419 - 3257419 = 1000\nSo, each time we add 1000.",
+              "hindi": "चरण 1: पैटर्न पहचानो।\n3257419 - 3256419 = 1000\n3258419 - 3257419 = 1000\nइसलिए हर बार 1000 जोड़ा जा रहा है।"
+            },
+            {
+              "english": "Step 2: Write the next three numbers.\n3258419 + 1000 = 3259419\n3259419 + 1000 = 3260419\n3260419 + 1000 = 3261419",
+              "hindi": "चरण 2: अगली तीन संख्याएँ लिखो।\n3258419 + 1000 = 3259419\n3259419 + 1000 = 3260419\n3260419 + 1000 = 3261419"
+            },
+            {
+              "english": "Final answer: 3259419, 3260419, 3261419.",
+              "hindi": "अंतिम उत्तर: 3259419, 3260419, 3261419।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3591,8 +4635,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We look at the numbers carefully:\n70809010, 70909010, 71009010",
+              "hindi": "हम संख्याओं को ध्यान से देखते हैं:\n70809010, 70909010, 71009010"
+            },
+            {
+              "english": "The pattern is going up by 100000 each time.\n- 70809010 + 100000 = 70909010\n- 70909010 + 100000 = 71009010",
+              "hindi": "यहाँ हर बार 100000 जोड़ा जा रहा है।\n- 70809010 + 100000 = 70909010\n- 70909010 + 100000 = 71009010"
+            },
+            {
+              "english": "So we keep adding 100000:\n- 71009010 + 100000 = 71109010\n- 71109010 + 100000 = 71209010\n- 71209010 + 100000 = 71309010",
+              "hindi": "अब इसी तरह आगे बढ़ते हैं:\n- 71009010 + 100000 = 71109010\n- 71109010 + 100000 = 71209010\n- 71209010 + 100000 = 71309010"
+            },
+            {
+              "english": "Final answer: 71109010, 71209010, 71309010",
+              "hindi": "Final answer: 71109010, 71209010, 71309010"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3655,8 +4719,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We look at the numbers carefully:",
+              "hindi": "हम संख्याओं को ध्यान से देखते हैं:"
+            },
+            {
+              "english": "191817600, 201817600, 211817600",
+              "hindi": "191817600, 201817600, 211817600"
+            },
+            {
+              "english": "Step 1: Compare the first two numbers.\n191817600 to 201817600 means we add 10,000,000.",
+              "hindi": "चरण 1: पहली दो संख्याओं को देखो।\n191817600 से 201817600 बनने के लिए 10,000,000 जोड़ा गया है।"
+            },
+            {
+              "english": "Step 2: Compare the second and third numbers.\n201817600 to 211817600 also means we add 10,000,000.",
+              "hindi": "चरण 2: दूसरी और तीसरी संख्याओं को देखो।\n201817600 से 211817600 बनने के लिए भी 10,000,000 जोड़ा गया है।"
+            },
+            {
+              "english": "Step 3: So the pattern is: add 10,000,000 each time.",
+              "hindi": "चरण 3: इसलिए पैटर्न है: हर बार 10,000,000 जोड़ना है।"
+            },
+            {
+              "english": "Now continue the pattern:\n211817600 + 10,000,000 = 221817600\n221817600 + 10,000,000 = 231817600\n231817600 + 10,000,000 = 241817600",
+              "hindi": "अब आगे की संख्याएँ लिखते हैं:\n211817600 + 10,000,000 = 221817600\n221817600 + 10,000,000 = 231817600\n231817600 + 10,000,000 = 241817600"
+            },
+            {
+              "english": "Final answer: 221817600, 231817600, 241817600",
+              "hindi": "Final answer: 221817600, 231817600, 241817600"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3719,8 +4815,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 3.3.11(e)",
+              "hindi": "प्रश्न 3.3.11(e)"
+            },
+            {
+              "english": "Given pattern:\n302010400, 292010400, 282010400, ...",
+              "hindi": "दी गई संख्या-पट्टी:\n302010400, 292010400, 282010400, ..."
+            },
+            {
+              "english": "Step 1: Look at the first three numbers carefully.\n302010400 -> 292010400 -> 282010400",
+              "hindi": "चरण 1: पहली तीन संख्याओं को ध्यान से देखिए।\n302010400 -> 292010400 -> 282010400"
+            },
+            {
+              "english": "Step 2: Find the change.\n302010400 to 292010400 means we subtract 10000000.\n292010400 to 282010400 also means we subtract 10000000.",
+              "hindi": "चरण 2: अब अंतर देखिए।\n302010400 से 292010400 जाने पर 10000000 घटता है।\n292010400 से 282010400 जाने पर भी 10000000 घटता है।"
+            },
+            {
+              "english": "Step 3: So the pattern is subtracting 10000000 each time.",
+              "hindi": "चरण 3: इसलिए हर बार 10000000 घट रहा है।"
+            },
+            {
+              "english": "Step 4: Continue the pattern.\n282010400 - 10000000 = 272010400\n272010400 - 10000000 = 262010400\n262010400 - 10000000 = 252010400",
+              "hindi": "चरण 4: अब आगे की संख्याएँ लिखते हैं।\n282010400 - 10000000 = 272010400\n272010400 - 10000000 = 262010400\n262010400 - 10000000 = 252010400"
+            },
+            {
+              "english": "Final answer: 272010400, 262010400, 252010400",
+              "hindi": "अंतिम उत्तर: 272010400, 262010400, 252010400"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3783,8 +4911,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the smallest 9-digit number, think like this:\n1. A 9-digit number must have 9 places.\n2. The smallest number starts with 1.\n3. Then we put 8 zeros after it.\nSo, the smallest 9-digit number is 100000000.",
+              "hindi": "सबसे छोटी 9-अंकों की संख्या निकालने के लिए ऐसे सोचें:\n1. 9-अंकों की संख्या में 9 स्थान होते हैं।\n2. सबसे छोटी संख्या 1 से शुरू होती है।\n3. उसके बाद 8 शून्य लगते हैं।\nइसलिए सबसे छोटी 9-अंकों की संख्या 100000000 है।"
+            },
+            {
+              "english": "To find the largest 8-digit number:\n1. An 8-digit number has 8 places.\n2. The largest digit is 9.\n3. Put 9 in all 8 places.\nSo, the largest 8-digit number is 99999999.",
+              "hindi": "सबसे बड़ी 8-अंकों की संख्या निकालने के लिए:\n1. 8-अंकों की संख्या में 8 स्थान होते हैं।\n2. सबसे बड़ा अंक 9 होता है।\n3. सभी 8 स्थानों पर 9 लिखते हैं।\nइसलिए सबसे बड़ी 8-अंकों की संख्या 99999999 है।"
+            },
+            {
+              "english": "Final answer: Smallest 9-digit number = 100000000, Largest 8-digit number = 99999999.",
+              "hindi": "अंतिम उत्तर: सबसे छोटी 9-अंकों की संख्या = 100000000, सबसे बड़ी 8-अंकों की संख्या = 99999999।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3847,8 +4991,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the number just after 9536999, we add 1.",
+              "hindi": "9536999 के ठीक बाद आने वाली संख्या जानने के लिए हम उसमें 1 जोड़ते हैं।"
+            },
+            {
+              "english": "9536999 + 1 = 9537000",
+              "hindi": "9536999 + 1 = 9537000"
+            },
+            {
+              "english": "So, the number that comes just after 9536999 is 9537000.",
+              "hindi": "इसलिए, 9536999 के just after आने वाली संख्या 9537000 है।"
+            },
+            {
+              "english": "Final answer: 9537000",
+              "hindi": "अंतिम उत्तर: 9537000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3911,8 +5075,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the number just before 9900000, subtract 1 from it.",
+              "hindi": "9900000 se just pehle wali sankhya dhoondhne ke liye hum usme se 1 ghataate hain."
+            },
+            {
+              "english": "9900000 - 1 = 9899999",
+              "hindi": "9900000 - 1 = 9899999"
+            },
+            {
+              "english": "So, the number that comes just before 9900000 is 9899999.",
+              "hindi": "Isliye, 9900000 se just pehle aane wali sankhya 9899999 hai."
+            },
+            {
+              "english": "Final answer: 9899999",
+              "hindi": "Final answer: 9899999"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3975,8 +5159,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the number just after 13700899, we add 1.",
+              "hindi": "13700899 के ठीक बाद आने वाली संख्या जानने के लिए हम उसमें 1 जोड़ते हैं।"
+            },
+            {
+              "english": "13700899 + 1 = 13700900",
+              "hindi": "13700899 + 1 = 13700900"
+            },
+            {
+              "english": "So, the number just after 13700899 is 13700900.\nFinal answer: 13700900",
+              "hindi": "इसलिए 13700899 के ठीक बाद आने वाली संख्या 13700900 है।\nFinal answer: 13700900"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4039,8 +5239,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the number just before 10000000, we subtract 1.",
+              "hindi": "10000000 से ठीक पहले की संख्या जानने के लिए हम उसमें से 1 घटाते हैं।"
+            },
+            {
+              "english": "10000000 - 1 = 9999999",
+              "hindi": "10000000 - 1 = 9999999"
+            },
+            {
+              "english": "So, the number that comes just before 10000000 is 9999999.",
+              "hindi": "इसलिए, 10000000 से ठीक पहले आने वाली संख्या 9999999 है।"
+            },
+            {
+              "english": "Final answer: 9999999",
+              "hindi": "अंतिम उत्तर: 9999999"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4103,8 +5323,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Compare the two numbers: 1002456 and 987896.",
+              "hindi": "दो संख्याओं की तुलना करें: 1002456 और 987896."
+            },
+            {
+              "english": "Step 1: Count the digits.\n1002456 has 7 digits.\n987896 has 6 digits.",
+              "hindi": "चरण 1: अंकों की संख्या गिनिए.\n1002456 में 7 अंक हैं.\n987896 में 6 अंक हैं."
+            },
+            {
+              "english": "Step 2: A number with more digits is greater.\nSo, 1002456 is greater than 987896.",
+              "hindi": "चरण 2: जिस संख्या में ज्यादा अंक होते हैं, वह बड़ी होती है.\nइसलिए, 1002456, 987896 से बड़ा है."
+            },
+            {
+              "english": "Therefore, we put the symbol > in the box.",
+              "hindi": "अतः, खाली स्थान में > चिन्ह आएगा."
+            },
+            {
+              "english": "Final answer: 1002456 > 987896",
+              "hindi": "Final answer: 1002456 > 987896"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4167,8 +5411,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We have to fill the box with the correct symbol: > or <",
+              "hindi": "हमें खाली जगह में सही चिन्ह भरना है: > या <"
+            },
+            {
+              "english": "Compare the two numbers:\n23507104 and 14536523",
+              "hindi": "दोनों संख्याओं की तुलना करें:\n23507104 और 14536523"
+            },
+            {
+              "english": "Step 1: Look at the leftmost digits.\nIn 23507104, the first digit is 2.\nIn 14536523, the first digit is 1.",
+              "hindi": "चरण 1: सबसे बाएँ अंक को देखें।\n23507104 में पहला अंक 2 है।\n14536523 में पहला अंक 1 है।"
+            },
+            {
+              "english": "Step 2: Compare these digits.\nSince 2 is greater than 1, the whole number 23507104 is greater than 14536523.",
+              "hindi": "चरण 2: इन अंकों की तुलना करें।\nक्योंकि 2, 1 से बड़ा है, इसलिए 23507104, 14536523 से बड़ा है।"
+            },
+            {
+              "english": "So we put the symbol > in the box.",
+              "hindi": "इसलिए खाली जगह में > आएगा।"
+            },
+            {
+              "english": "Final answer: 23507104 > 14536523",
+              "hindi": "अंतिम उत्तर: 23507104 > 14536523"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4231,8 +5503,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Compare the two numbers carefully:",
+              "hindi": "दोनों संख्याओं को ध्यान से तुलना करें:"
+            },
+            {
+              "english": "54836903 and 103213102",
+              "hindi": "54836903 और 103213102"
+            },
+            {
+              "english": "Step 1: Count the digits.\n54836903 has 8 digits.\n103213102 has 9 digits.",
+              "hindi": "चरण 1: अंकों की संख्या गिनें।\n54836903 में 8 अंक हैं।\n103213102 में 9 अंक हैं।"
+            },
+            {
+              "english": "Step 2: A number with more digits is greater.\nSo, 103213102 is greater than 54836903.",
+              "hindi": "चरण 2: जिस संख्या में ज्यादा अंक होते हैं, वह बड़ी होती है।\nइसलिए, 103213102, 54836903 से बड़ा है।"
+            },
+            {
+              "english": "Step 3: Therefore, 54836903 is smaller than 103213102.\nSo we put the symbol < in the box.",
+              "hindi": "चरण 3: इसलिए, 54836903, 103213102 से छोटा है।\nतो खाली स्थान में < चिन्ह आएगा।"
+            },
+            {
+              "english": "Final answer: 54836903 < 103213102",
+              "hindi": "Final answer: 54836903 < 103213102"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4295,8 +5595,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Compare the two numbers step by step:",
+              "hindi": "दोनों संख्याओं को चरणबद्ध तरीके से तुलना करते हैं:"
+            },
+            {
+              "english": "203645817 and 164786938",
+              "hindi": "203645817 और 164786938"
+            },
+            {
+              "english": "Look at the leftmost digits first.\nIn 203645817, the first digit is 2.\nIn 164786938, the first digit is 1.",
+              "hindi": "सबसे पहले बाएँ तरफ के पहले अंक को देखें।\n203645817 में पहला अंक 2 है।\n164786938 में पहला अंक 1 है।"
+            },
+            {
+              "english": "Since 2 is greater than 1, 203645817 is greater than 164786938.\nSo we put the symbol > in the box.",
+              "hindi": "क्योंकि 2, 1 से बड़ा है, इसलिए 203645817, 164786938 से बड़ा है।\nइसलिए खाली बॉक्स में > चिन्ह आएगा।"
+            },
+            {
+              "english": "Final answer: 203645817 > 164786938",
+              "hindi": "Final answer: 203645817 > 164786938"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4359,8 +5683,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 3.4.1(e)",
+              "hindi": "Question 3.4.1(e)"
+            },
+            {
+              "english": "We need to fill the box with the correct symbol: > or <",
+              "hindi": "हमें सही चिन्ह भरना है: > या <"
+            },
+            {
+              "english": "Compare the numbers:\n35672416 and 35670590",
+              "hindi": "संख्याओं की तुलना करें:\n35672416 और 35670590"
+            },
+            {
+              "english": "Step 1: Look at the digits from left to right.\nBoth numbers start with 3, then 5, then 6, then 7.\nSo far, they are the same.",
+              "hindi": "चरण 1: बाएँ से दाएँ अंकों को देखो।\nदोनों संख्याएँ 3, फिर 5, फिर 6, फिर 7 से शुरू होती हैं।\nयहाँ तक दोनों समान हैं।"
+            },
+            {
+              "english": "Step 2: Now compare the next digit.\nIn 35672416, the next digit is 2.\nIn 35670590, the next digit is 0.",
+              "hindi": "चरण 2: अब अगला अंक देखो।\n35672416 में अगला अंक 2 है।\n35670590 में अगला अंक 0 है।"
+            },
+            {
+              "english": "Step 3: Since 2 is greater than 0, the first number is greater.",
+              "hindi": "चरण 3: क्योंकि 2, 0 से बड़ा है, इसलिए पहली संख्या बड़ी है।"
+            },
+            {
+              "english": "So,\n35672416 > 35670590",
+              "hindi": "इसलिए,\n35672416 > 35670590"
+            },
+            {
+              "english": "Final answer: >",
+              "hindi": "Final answer: >"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4423,8 +5783,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Compare the two numbers from left to right:",
+              "hindi": "इन दोनों संख्याओं को बाएं से दाएं तुलना करते हैं:"
+            },
+            {
+              "english": "478907506 and 478913401",
+              "hindi": "478907506 और 478913401"
+            },
+            {
+              "english": "The first digits are the same: 4 = 4\nThe second digits are the same: 7 = 7\nThe third digits are the same: 8 = 8\nThe fourth digits are the same: 9 = 9\nNow compare the next digit:\n0 is smaller than 1",
+              "hindi": "पहला अंक समान है: 4 = 4\nदूसरा अंक समान है: 7 = 7\nतीसरा अंक समान है: 8 = 8\nचौथा अंक समान है: 9 = 9\nअब अगला अंक देखो:\n0, 1 से छोटा है"
+            },
+            {
+              "english": "So, 478907506 is smaller than 478913401.\nTherefore, we put the symbol < in the box.",
+              "hindi": "इसलिए 478907506, 478913401 से छोटा है।\nअतः बॉक्स में < चिन्ह आएगा।"
+            },
+            {
+              "english": "Final answer: 478907506 < 478913401",
+              "hindi": "Final answer: 478907506 < 478913401"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4487,8 +5871,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Compare the numbers from left to right.",
+              "hindi": "संख्याओं को बाएँ से दाएँ तुलना करते हैं।"
+            },
+            {
+              "english": "613054901 and 613045989",
+              "hindi": "613054901 और 613045989"
+            },
+            {
+              "english": "The first 4 digits are the same: 6, 1, 3, 0.\nNow compare the next digit:\nIn 613054901, the next digit is 5.\nIn 613045989, the next digit is 4.\nSince 5 is greater than 4, 613054901 is greater than 613045989.",
+              "hindi": "पहले 4 अंक समान हैं: 6, 1, 3, 0.\nअब अगले अंक को देखें:\n613054901 में अगला अंक 5 है।\n613045989 में अगला अंक 4 है।\nक्योंकि 5, 4 से बड़ा है, इसलिए 613054901, 613045989 से बड़ा है।"
+            },
+            {
+              "english": "So we fill the box with >.",
+              "hindi": "इसलिए बॉक्स में > आएगा।"
+            },
+            {
+              "english": "Final answer: 613054901 > 613045989",
+              "hindi": "Final answer: 613054901 > 613045989"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4551,8 +5959,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Compare the numbers from left to right:",
+              "hindi": "इन संख्याओं को बाएं से दाएं तुलना करते हैं:"
+            },
+            {
+              "english": "750890315 and 750890410",
+              "hindi": "750890315 और 750890410"
+            },
+            {
+              "english": "The first 6 digits are the same: 750890\nNow compare the next digit:\n3 and 4\nSince 3 is smaller than 4, the first number is smaller.",
+              "hindi": "पहले 6 अंक दोनों में समान हैं: 750890\nअब अगला अंक देखें:\n3 और 4\nक्योंकि 3, 4 से छोटा है, इसलिए पहली संख्या छोटी है।"
+            },
+            {
+              "english": "So, we put the symbol < in the box.",
+              "hindi": "इसलिए बॉक्स में < चिन्ह आएगा।"
+            },
+            {
+              "english": "Final answer: 750890315 < 750890410",
+              "hindi": "Final answer: 750890315 < 750890410"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4615,8 +6047,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 3.4.1(i)",
+              "hindi": "प्रश्न 3.4.1(i)"
+            },
+            {
+              "english": "We need to fill the box with either > or <.",
+              "hindi": "हमें खाली जगह में > या < भरना है।"
+            },
+            {
+              "english": "Compare the two numbers:\n89276584 and 101625302",
+              "hindi": "दोनों संख्याओं की तुलना करें:\n89276584 और 101625302"
+            },
+            {
+              "english": "Step 1: Count the digits.\n89276584 has 8 digits.\n101625302 has 9 digits.",
+              "hindi": "चरण 1: अंकों की संख्या गिनते हैं।\n89276584 में 8 अंक हैं।\n101625302 में 9 अंक हैं।"
+            },
+            {
+              "english": "Step 2: A number with more digits is greater.\nSo, 101625302 is greater than 89276584.",
+              "hindi": "चरण 2: जिस संख्या में अधिक अंक होते हैं, वह बड़ी होती है।\nइसलिए, 101625302, 89276584 से बड़ी है।"
+            },
+            {
+              "english": "Step 3: Therefore, 89276584 is smaller than 101625302.",
+              "hindi": "चरण 3: इसलिए, 89276584, 101625302 से छोटा है।"
+            },
+            {
+              "english": "So we write:\n89276584 < 101625302",
+              "hindi": "तो हम लिखेंगे:\n89276584 < 101625302"
+            },
+            {
+              "english": "Final answer: <",
+              "hindi": "अंतिम उत्तर: <"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4679,8 +6147,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To compare 917263954 and 917260954, look at the digits from left to right.",
+              "hindi": "917263954 और 917260954 की तुलना करने के लिए अंकों को बाएं से दाएं देखो।"
+            },
+            {
+              "english": "Both numbers begin with 91726, so these parts are the same.\nNow compare the next digit:\nIn 917263954, the next digit is 3.\nIn 917260954, the next digit is 0.\nSince 3 is greater than 0, 917263954 is greater than 917260954.",
+              "hindi": "दोनों संख्याएं 91726 से शुरू होती हैं, इसलिए यह भाग समान है।\nअब अगला अंक देखो:\n917263954 में अगला अंक 3 है।\n917260954 में अगला अंक 0 है।\nक्योंकि 3, 0 से बड़ा है, इसलिए 917263954, 917260954 से बड़ा है।"
+            },
+            {
+              "english": "So, we should put the symbol > in the box.\nFinal answer: 917263954 > 917260954",
+              "hindi": "इसलिए खाली बॉक्स में > आएगा।\nअंतिम उत्तर: 917263954 > 917260954"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4743,8 +6227,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange numbers in descending order, we write them from biggest to smallest.",
+              "hindi": "घटते क्रम (descending order) में संख्याओं को सबसे बड़ी से सबसे छोटी तक लिखा जाता है।"
+            },
+            {
+              "english": "Given numbers:\n12965784, 3076897, 129654503, 2789988, 21345603",
+              "hindi": "दी गई संख्याएँ:\n12965784, 3076897, 129654503, 2789988, 21345603"
+            },
+            {
+              "english": "Step 1: Count the digits.\n129654503 has 9 digits, so it is the biggest.\n21345603 and 12965784 have 8 digits.\n3076897 and 2789988 have 7 digits.",
+              "hindi": "चरण 1: अंकों की संख्या देखिए।\n129654503 में 9 अंक हैं, इसलिए यह सबसे बड़ी संख्या है।\n21345603 और 12965784 में 8 अंक हैं।\n3076897 और 2789988 में 7 अंक हैं।"
+            },
+            {
+              "english": "Step 2: Compare the 8-digit numbers.\n21345603 is greater than 12965784, so:\n21345603 > 12965784",
+              "hindi": "चरण 2: 8 अंकों वाली संख्याओं की तुलना करें।\n21345603, 12965784 से बड़ी है, इसलिए:\n21345603 > 12965784"
+            },
+            {
+              "english": "Step 3: Compare the 7-digit numbers.\n3076897 is greater than 2789988, so:\n3076897 > 2789988",
+              "hindi": "चरण 3: 7 अंकों वाली संख्याओं की तुलना करें।\n3076897, 2789988 से बड़ी है, इसलिए:\n3076897 > 2789988"
+            },
+            {
+              "english": "Step 4: Write all numbers from biggest to smallest.\n129654503, 21345603, 12965784, 3076897, 2789988",
+              "hindi": "चरण 4: अब सभी संख्याओं को बड़ी से छोटी क्रम में लिखिए।\n129654503, 21345603, 12965784, 3076897, 2789988"
+            },
+            {
+              "english": "Final answer: 129654503, 21345603, 12965784, 3076897, 2789988",
+              "hindi": "अंतिम उत्तर: 129654503, 21345603, 12965784, 3076897, 2789988"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4807,8 +6323,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange the numbers in descending order, we place the greatest number first and the smallest number last.",
+              "hindi": "संख्याओं को descending order में लगाने का मतलब है सबसे बड़ी संख्या पहले और सबसे छोटी संख्या बाद में लिखना।"
+            },
+            {
+              "english": "Given numbers:\n245368009, 45639918, 93216723, 53791325, 245370119",
+              "hindi": "दी गई संख्याएँ:\n245368009, 45639918, 93216723, 53791325, 245370119"
+            },
+            {
+              "english": "Step 1: Look at the number of digits.\n- 245368009 and 245370119 have 9 digits.\n- 45639918, 93216723, and 53791325 have 8 digits.\nSo, the 9-digit numbers are greater than the 8-digit numbers.",
+              "hindi": "चरण 1: अंकों की संख्या देखिए।\n- 245368009 और 245370119 में 9 अंक हैं।\n- 45639918, 93216723 और 53791325 में 8 अंक हैं।\nइसलिए 9 अंकों वाली संख्याएँ 8 अंकों वाली संख्याओं से बड़ी होंगी।"
+            },
+            {
+              "english": "Step 2: Compare the 9-digit numbers.\n- 245370119\n- 245368009\nBoth start with 245, so compare the next parts:\n370119 > 368009\nSo, 245370119 > 245368009.",
+              "hindi": "चरण 2: 9 अंकों वाली संख्याओं की तुलना करें।\n- 245370119\n- 245368009\nदोनों 245 से शुरू होती हैं, इसलिए आगे के भाग की तुलना करेंगे:\n370119 > 368009\nइसलिए, 245370119 > 245368009"
+            },
+            {
+              "english": "Step 3: Compare the 8-digit numbers.\n- 93216723\n- 53791325\n- 45639918\nCompare from left to right:\n- 93216723 is greatest.\n- 53791325 is next.\n- 45639918 is smallest.",
+              "hindi": "चरण 3: 8 अंकों वाली संख्याओं की तुलना करें।\n- 93216723\n- 53791325\n- 45639918\nबाएँ से दाएँ तुलना करने पर:\n- 93216723 सबसे बड़ी है।\n- 53791325 उससे छोटी है।\n- 45639918 सबसे छोटी है।"
+            },
+            {
+              "english": "Step 4: Write all numbers from greatest to smallest.\n245370119, 245368009, 93216723, 53791325, 45639918",
+              "hindi": "चरण 4: अब सभी संख्याएँ बड़ी से छोटी क्रम में लिखिए।\n245370119, 245368009, 93216723, 53791325, 45639918"
+            },
+            {
+              "english": "Final answer: 245370119, 245368009, 93216723, 53791325, 45639918",
+              "hindi": "अंतिम उत्तर: 245370119, 245368009, 93216723, 53791325, 45639918"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4871,8 +6419,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange numbers in descending order, we write the biggest number first and the smallest number last.",
+              "hindi": "अवरोही क्रम में संख्याओं को सबसे बड़ी से सबसे छोटी तक लिखा जाता है।"
+            },
+            {
+              "english": "Step 1: Count the digits.\n627905480 and 627905623 have 9 digits.\n62790568, 62791023, and 62790931 have 8 digits.\nSo, the 9-digit numbers will come before the 8-digit numbers.",
+              "hindi": "चरण 1: अंकों की संख्या गिनिए।\n627905480 और 627905623 में 9 अंक हैं।\n62790568, 62791023 और 62790931 में 8 अंक हैं।\nइसलिए 9 अंकों वाली संख्याएँ पहले आएँगी।"
+            },
+            {
+              "english": "Step 2: Compare the 9-digit numbers.\n627905623 and 627905480 both start with 627905.\nNow compare the next part: 623 is greater than 480.\nSo, 627905623 > 627905480.",
+              "hindi": "चरण 2: 9 अंकों वाली संख्याओं की तुलना कीजिए।\n627905623 और 627905480 दोनों 627905 से शुरू होती हैं।\nअब आगे का भाग देखिए: 623, 480 से बड़ा है।\nइसलिए 627905623 > 627905480।"
+            },
+            {
+              "english": "Step 3: Compare the 8-digit numbers.\n62791023, 62790931, and 62790568 all start with 6279.\nNow compare the next digits:\n62791023 is greater than 62790931, and 62790931 is greater than 62790568.\nSo, 62791023 > 62790931 > 62790568.",
+              "hindi": "चरण 3: 8 अंकों वाली संख्याओं की तुलना कीजिए।\n62791023, 62790931 और 62790568 तीनों 6279 से शुरू होती हैं।\nअब आगे के अंक देखिए:\n62791023, 62790931 से बड़ा है, और 62790931, 62790568 से बड़ा है।\nइसलिए 62791023 > 62790931 > 62790568।"
+            },
+            {
+              "english": "Putting them all together in descending order:\n627905623, 627905480, 62791023, 62790931, 62790568",
+              "hindi": "अब इन्हें अवरोही क्रम में लिखते हैं:\n627905623, 627905480, 62791023, 62790931, 62790568"
+            },
+            {
+              "english": "Final answer: 627905623, 627905480, 62791023, 62790931, 62790568",
+              "hindi": "Final answer: 627905623, 627905480, 62791023, 62790931, 62790568"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4935,8 +6511,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange numbers in descending order, we place the biggest number first and the smallest number last.",
+              "hindi": "घटते क्रम में संख्याएँ सजाने का मतलब है सबसे बड़ी संख्या पहले और सबसे छोटी संख्या बाद में लिखना।"
+            },
+            {
+              "english": "Numbers given:\n63082318, 30728510, 27169237, 50643701, 7987689",
+              "hindi": "दी गई संख्याएँ:\n63082318, 30728510, 27169237, 50643701, 7987689"
+            },
+            {
+              "english": "Step 1: Check the number of digits.\n7987689 has 7 digits.\nAll the other numbers have 8 digits.\nSo, 7987689 is the smallest and will come last.",
+              "hindi": "चरण 1: अंकों की संख्या देखो।\n7987689 में 7 अंक हैं।\nबाकी सभी संख्याओं में 8 अंक हैं।\nइसलिए 7987689 सबसे छोटी है और सबसे अंत में आएगी।"
+            },
+            {
+              "english": "Step 2: Compare the 8-digit numbers by their first digit.\n63082318 starts with 6\n50643701 starts with 5\n30728510 starts with 3\n27169237 starts with 2",
+              "hindi": "चरण 2: 8 अंकों वाली संख्याओं के पहले अंक की तुलना करो।\n63082318 का पहला अंक 6 है\n50643701 का पहला अंक 5 है\n30728510 का पहला अंक 3 है\n27169237 का पहला अंक 2 है"
+            },
+            {
+              "english": "Since 6 > 5 > 3 > 2, their order is:\n63082318, 50643701, 30728510, 27169237",
+              "hindi": "क्योंकि 6 > 5 > 3 > 2, इसलिए इनका क्रम होगा:\n63082318, 50643701, 30728510, 27169237"
+            },
+            {
+              "english": "Step 3: Put the 7-digit number at the end.\nSo the complete descending order is:\n63082318, 50643701, 30728510, 27169237, 7987689",
+              "hindi": "चरण 3: अब 7 अंकों वाली संख्या को अंत में लिखो।\nइस प्रकार घटते क्रम में संख्याएँ हैं:\n63082318, 50643701, 30728510, 27169237, 7987689"
+            },
+            {
+              "english": "Final answer: 63082318, 50643701, 30728510, 27169237, 7987689",
+              "hindi": "Final answer: 63082318, 50643701, 30728510, 27169237, 7987689"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4999,8 +6607,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange numbers in descending order, we write the greatest number first and the smallest number last.",
+              "hindi": "अवरोही क्रम में संख्याओं को सबसे बड़ी से सबसे छोटी तक लिखा जाता है।"
+            },
+            {
+              "english": "Given numbers:\n7546890, 23150014, 998765, 23149925, 7546785",
+              "hindi": "दी गई संख्याएँ:\n7546890, 23150014, 998765, 23149925, 7546785"
+            },
+            {
+              "english": "Step 1: Look at the number of digits.\n23150014 and 23149925 have 8 digits, so they are bigger than 7546890 and 7546785, which have 7 digits.\n998765 has 6 digits, so it is the smallest.",
+              "hindi": "चरण 1: पहले अंकों की संख्या देखो।\n23150014 और 23149925 में 8 अंक हैं, इसलिए ये 7546890 और 7546785 से बड़ी हैं, क्योंकि उनमें 7 अंक हैं।\n998765 में 6 अंक हैं, इसलिए यह सबसे छोटी संख्या है।"
+            },
+            {
+              "english": "Step 2: Compare the 8-digit numbers.\n23150014 and 23149925\nBoth start with 2314..., but 23150014 is greater than 23149925.\nSo,\n23150014 > 23149925",
+              "hindi": "चरण 2: अब 8 अंकों वाली संख्याओं की तुलना करो।\n23150014 और 23149925\nदोनों 2314... से शुरू होती हैं, लेकिन 23150014, 23149925 से बड़ा है।\nइसलिए,\n23150014 > 23149925"
+            },
+            {
+              "english": "Step 3: Compare the 7-digit numbers.\n7546890 and 7546785\nThe first four digits are the same: 7546.\nNow compare the remaining part: 890 is greater than 785.\nSo,\n7546890 > 7546785",
+              "hindi": "चरण 3: अब 7 अंकों वाली संख्याओं की तुलना करो।\n7546890 और 7546785\nइनके पहले चार अंक समान हैं: 7546.\nअब आगे का भाग देखो: 890, 785 से बड़ा है।\nइसलिए,\n7546890 > 7546785"
+            },
+            {
+              "english": "Step 4: Write them from greatest to smallest.\n23150014, 23149925, 7546890, 7546785, 998765",
+              "hindi": "चरण 4: अब इन्हें सबसे बड़ी से सबसे छोटी संख्या तक लिखो।\n23150014, 23149925, 7546890, 7546785, 998765"
+            },
+            {
+              "english": "Final answer: 23150014, 23149925, 7546890, 7546785, 998765",
+              "hindi": "अंतिम उत्तर: 23150014, 23149925, 7546890, 7546785, 998765"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5063,8 +6703,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange the numbers in ascending order, we write them from smallest to greatest.",
+              "hindi": "संख्याओं को आरोही क्रम में लगाने का मतलब है उन्हें छोटी से बड़ी संख्या तक लिखना।"
+            },
+            {
+              "english": "Given numbers:\n14865710, 20507106, 30008215, 2786789, 2876879",
+              "hindi": "दी गई संख्याएँ:\n14865710, 20507106, 30008215, 2786789, 2876879"
+            },
+            {
+              "english": "Step 1: Look at the number of digits.\n2786789 and 2876879 have 7 digits.\n14865710, 20507106, and 30008215 have 8 digits.\nA 7-digit number is always smaller than an 8-digit number.",
+              "hindi": "चरण 1: अंकों की संख्या देखिए।\n2786789 और 2876879 में 7 अंक हैं।\n14865710, 20507106, और 30008215 में 8 अंक हैं।\n7 अंकों वाली संख्या, 8 अंकों वाली संख्या से हमेशा छोटी होती है।"
+            },
+            {
+              "english": "So the smaller numbers come first:\n2786789, 2876879",
+              "hindi": "इसलिए पहले छोटी संख्याएँ आएँगी:\n2786789, 2876879"
+            },
+            {
+              "english": "Step 2: Compare the two 7-digit numbers.\n2786789 < 2876879\nSo:\n2786789 comes before 2876879.",
+              "hindi": "चरण 2: अब 7 अंकों वाली दोनों संख्याओं की तुलना करें।\n2786789 < 2876879\nइसलिए:\n2786789, 2876879 से पहले आएगी।"
+            },
+            {
+              "english": "Step 3: Compare the 8-digit numbers.\n14865710, 20507106, 30008215\nCompare their first digits:\n1 < 2 < 3\nSo:\n14865710 < 20507106 < 30008215",
+              "hindi": "चरण 3: अब 8 अंकों वाली संख्याओं की तुलना करें।\n14865710, 20507106, 30008215\nइनके पहले अंक देखिए:\n1 < 2 < 3\nइसलिए:\n14865710 < 20507106 < 30008215"
+            },
+            {
+              "english": "Now write all the numbers in order from smallest to greatest.",
+              "hindi": "अब सभी संख्याओं को छोटी से बड़ी तक लिखते हैं।"
+            },
+            {
+              "english": "Final answer: 2786789, 2876879, 14865710, 20507106, 30008215",
+              "hindi": "Final answer: 2786789, 2876879, 14865710, 20507106, 30008215"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5127,8 +6803,72 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 3.4.3(b)",
+              "hindi": "Question 3.4.3(b)"
+            },
+            {
+              "english": "We have to arrange these numbers in ascending order. Ascending order means smallest to greatest.",
+              "hindi": "हमें दिए गए संख्याओं को आरोही क्रम में लगाना है। आरोही क्रम का मतलब है सबसे छोटी संख्या से सबसे बड़ी संख्या तक।"
+            },
+            {
+              "english": "Numbers:\n9368516, 10540603, 91032401, 9367839, 10541201",
+              "hindi": "संख्याएँ:\n9368516, 10540603, 91032401, 9367839, 10541201"
+            },
+            {
+              "english": "Step 1: First compare the number of digits.\n- 9368516 has 7 digits\n- 9367839 has 7 digits\n- 10540603 has 8 digits\n- 10541201 has 8 digits\n- 91032401 has 8 digits",
+              "hindi": "चरण 1: पहले अंकों की संख्या देखेंगे।\n- 9368516 में 7 अंक हैं\n- 9367839 में 7 अंक हैं\n- 10540603 में 8 अंक हैं\n- 10541201 में 8 अंक हैं\n- 91032401 में 8 अंक हैं"
+            },
+            {
+              "english": "So, the 7-digit numbers will come before the 8-digit numbers.",
+              "hindi": "इसलिए 7 अंकों वाली संख्याएँ, 8 अंकों वाली संख्याओं से पहले आएँगी।"
+            },
+            {
+              "english": "Step 2: Compare the 7-digit numbers.\n- 9367839\n- 9368516",
+              "hindi": "चरण 2: अब 7 अंकों वाली संख्याओं की तुलना करें।\n- 9367839\n- 9368516"
+            },
+            {
+              "english": "Both begin with 936, so compare the next digits:\n- 9367839 is smaller than 9368516",
+              "hindi": "दोनों 936 से शुरू हो रही हैं, इसलिए आगे के अंकों की तुलना करेंगे:\n- 9367839, 9368516 से छोटी है"
+            },
+            {
+              "english": "So:\n9367839 < 9368516",
+              "hindi": "इसलिए:\n9367839 < 9368516"
+            },
+            {
+              "english": "Step 3: Compare the 8-digit numbers.\n- 10540603\n- 10541201\n- 91032401",
+              "hindi": "चरण 3: अब 8 अंकों वाली संख्याओं की तुलना करें।\n- 10540603\n- 10541201\n- 91032401"
+            },
+            {
+              "english": "Among these, the numbers starting with 10 are smaller than the number starting with 91.\nSo first come:\n10540603 and 10541201",
+              "hindi": "इनमें 10 से शुरू होने वाली संख्याएँ, 91 से शुरू होने वाली संख्या से छोटी हैं।\nइसलिए पहले आएँगी:\n10540603 और 10541201"
+            },
+            {
+              "english": "Now compare them:\n- 10540603\n- 10541201",
+              "hindi": "अब इन दोनों की तुलना करें:\n- 10540603\n- 10541201"
+            },
+            {
+              "english": "Since 10540603 is smaller than 10541201,\n10540603 < 10541201",
+              "hindi": "क्योंकि 10540603, 10541201 से छोटी है,\n10540603 < 10541201"
+            },
+            {
+              "english": "And both are smaller than 91032401.",
+              "hindi": "और ये दोनों 91032401 से छोटी हैं।"
+            },
+            {
+              "english": "Step 4: Write all numbers from smallest to greatest.\n9367839, 9368516, 10540603, 10541201, 91032401",
+              "hindi": "चरण 4: अब सभी संख्याएँ सबसे छोटी से सबसे बड़ी तक लिखें।\n9367839, 9368516, 10540603, 10541201, 91032401"
+            },
+            {
+              "english": "Final answer: 9367839, 9368516, 10540603, 10541201, 91032401",
+              "hindi": "Final answer: 9367839, 9368516, 10540603, 10541201, 91032401"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5191,8 +6931,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange the numbers in ascending order, we put the smallest number first and the greatest number last.",
+              "hindi": "संख्याओं को ascending order में लगाने का मतलब है सबसे छोटी संख्या पहले और सबसे बड़ी संख्या बाद में लिखना।"
+            },
+            {
+              "english": "Given numbers:\n2537928, 101002301, 20547946, 100515602, 14035710",
+              "hindi": "दी गई संख्याएँ:\n2537928, 101002301, 20547946, 100515602, 14035710"
+            },
+            {
+              "english": "Step 1: Count the digits.\n2537928 has 7 digits.\n14035710 has 8 digits.\n20547946 has 8 digits.\n100515602 has 9 digits.\n101002301 has 9 digits.",
+              "hindi": "चरण 1: अंकों की संख्या गिनते हैं।\n2537928 में 7 अंक हैं।\n14035710 में 8 अंक हैं।\n20547946 में 8 अंक हैं।\n100515602 में 9 अंक हैं।\n101002301 में 9 अंक हैं।"
+            },
+            {
+              "english": "Step 2: Compare numbers with fewer digits first.\nSo, 2537928 is the smallest.",
+              "hindi": "चरण 2: जिस संख्या में कम अंक होते हैं, वह छोटी होती है।\nइसलिए 2537928 सबसे छोटी संख्या है।"
+            },
+            {
+              "english": "Step 3: Compare the 8-digit numbers.\n14035710 and 20547946\nSince 14 million is less than 20 million,\n14035710 < 20547946",
+              "hindi": "चरण 3: 8 अंकों वाली संख्याओं की तुलना करें।\n14035710 और 20547946\nक्योंकि 14 million, 20 million से छोटा है,\nइसलिए 14035710 < 20547946"
+            },
+            {
+              "english": "Step 4: Compare the 9-digit numbers.\n100515602 and 101002301\nCompare from the left:\n100... < 101...\nSo,\n100515602 < 101002301",
+              "hindi": "चरण 4: 9 अंकों वाली संख्याओं की तुलना करें।\n100515602 और 101002301\nबाएँ से तुलना करें:\n100... < 101...\nइसलिए,\n100515602 < 101002301"
+            },
+            {
+              "english": "Now write them from smallest to greatest:\n2537928, 14035710, 20547946, 100515602, 101002301",
+              "hindi": "अब इन्हें छोटे से बड़े क्रम में लिखते हैं:\n2537928, 14035710, 20547946, 100515602, 101002301"
+            },
+            {
+              "english": "Final answer: 2537928, 14035710, 20547946, 100515602, 101002301",
+              "hindi": "Final answer: 2537928, 14035710, 20547946, 100515602, 101002301"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5255,8 +7031,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange the numbers in ascending order, we write them from smallest to largest.",
+              "hindi": "संख्याओं को ascending order में लगाने का मतलब है उन्हें छोटी से बड़ी संख्या के क्रम में लिखना।"
+            },
+            {
+              "english": "Given numbers: 38715206, 129405817, 73678314, 7876589, 69721656",
+              "hindi": "दी गई संख्याएँ हैं: 38715206, 129405817, 73678314, 7876589, 69721656"
+            },
+            {
+              "english": "Step 1: Count the digits in each number.\n- 7876589 has 7 digits.\n- 38715206 has 8 digits.\n- 69721656 has 8 digits.\n- 73678314 has 8 digits.\n- 129405817 has 9 digits.",
+              "hindi": "चरण 1: हर संख्या के अंकों की संख्या गिनते हैं।\n- 7876589 में 7 अंक हैं।\n- 38715206 में 8 अंक हैं।\n- 69721656 में 8 अंक हैं।\n- 73678314 में 8 अंक हैं।\n- 129405817 में 9 अंक हैं।"
+            },
+            {
+              "english": "A number with fewer digits is smaller.\nSo, 7876589 is the smallest number, and 129405817 is the largest number.",
+              "hindi": "जिस संख्या में अंक कम होते हैं, वह संख्या छोटी होती है।\nइसलिए 7876589 सबसे छोटी संख्या है और 129405817 सबसे बड़ी संख्या है।"
+            },
+            {
+              "english": "Step 2: Compare the 8-digit numbers.\nWe compare 38715206, 69721656, and 73678314 from left to right.\n- 38... is smaller than 69... and 73...\n- 69... is smaller than 73...",
+              "hindi": "चरण 2: अब 8 अंकों वाली संख्याओं की तुलना करते हैं।\nहमें 38715206, 69721656 और 73678314 को बाएँ से दाएँ तुलना करना है।\n- 38... , 69... और 73... से छोटा है।\n- 69... , 73... से छोटा है।"
+            },
+            {
+              "english": "So:\n38715206 < 69721656 < 73678314",
+              "hindi": "इसलिए:\n38715206 < 69721656 < 73678314"
+            },
+            {
+              "english": "Now write all the numbers in ascending order:\n7876589, 38715206, 69721656, 73678314, 129405817",
+              "hindi": "अब सभी संख्याएँ छोटी से बड़ी क्रम में लिखते हैं:\n7876589, 38715206, 69721656, 73678314, 129405817"
+            },
+            {
+              "english": "Final answer: 7876589, 38715206, 69721656, 73678314, 129405817",
+              "hindi": "अंतिम उत्तर: 7876589, 38715206, 69721656, 73678314, 129405817"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5319,8 +7131,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 3.4.3(e)",
+              "hindi": "प्रश्न 3.4.3(e)"
+            },
+            {
+              "english": "We have to arrange these numbers in ascending order. Ascending order means smallest to greatest.",
+              "hindi": "हमें इन संख्याओं को आरोही क्रम में लगाना है। आरोही क्रम का मतलब है छोटी संख्या से बड़ी संख्या तक।"
+            },
+            {
+              "english": "Numbers given:\n743162109, 304288713, 561945107, 89590788, 602357100",
+              "hindi": "दी गई संख्याएँ:\n743162109, 304288713, 561945107, 89590788, 602357100"
+            },
+            {
+              "english": "Step 1: Look at the number of digits.\n89590788 has 8 digits.\nAll the other numbers have 9 digits.\nSo, 89590788 is the smallest number.",
+              "hindi": "चरण 1: अंकों की संख्या देखिए।\n89590788 में 8 अंक हैं।\nबाकी सभी संख्याओं में 9 अंक हैं।\nइसलिए 89590788 सबसे छोटी संख्या है।"
+            },
+            {
+              "english": "Step 2: Compare the 9-digit numbers.\n304288713, 561945107, 602357100, 743162109",
+              "hindi": "चरण 2: अब 9 अंकों वाली संख्याओं की तुलना करें।\n304288713, 561945107, 602357100, 743162109"
+            },
+            {
+              "english": "Step 3: Compare them from left to right.\n304288713 starts with 3, so it is the smallest among these.\n561945107 starts with 5, so it comes next.\n602357100 starts with 6, so it comes after that.\n743162109 starts with 7, so it is the greatest.",
+              "hindi": "चरण 3: इन्हें बाएँ से दाएँ देखकर तुलना करें।\n304288713 की शुरुआत 3 से होती है, इसलिए यह सबसे छोटी है।\n561945107 की शुरुआत 5 से होती है, इसलिए यह इसके बाद आएगी।\n602357100 की शुरुआत 6 से होती है, इसलिए यह उसके बाद आएगी।\n743162109 की शुरुआत 7 से होती है, इसलिए यह सबसे बड़ी है।"
+            },
+            {
+              "english": "So, in ascending order:\n89590788, 304288713, 561945107, 602357100, 743162109",
+              "hindi": "इसलिए आरोही क्रम है:\n89590788, 304288713, 561945107, 602357100, 743162109"
+            },
+            {
+              "english": "Final answer: 89590788, 304288713, 561945107, 602357100, 743162109",
+              "hindi": "अंतिम उत्तर: 89590788, 304288713, 561945107, 602357100, 743162109"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5383,8 +7231,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We have to encircle the largest number.",
+              "hindi": "हमें सबसे बड़ी संख्या पर घेरा लगाना है।"
+            },
+            {
+              "english": "Given numbers:\n31650829, 307482134, 4536794, 41035106, 238590746",
+              "hindi": "दी गई संख्याएँ:\n31650829, 307482134, 4536794, 41035106, 238590746"
+            },
+            {
+              "english": "Step 1: Count the digits in each number.\n31650829 has 8 digits.\n307482134 has 9 digits.\n4536794 has 7 digits.\n41035106 has 8 digits.\n238590746 has 9 digits.",
+              "hindi": "चरण 1: हर संख्या के अंकों की संख्या गिनते हैं।\n31650829 में 8 अंक हैं।\n307482134 में 9 अंक हैं।\n4536794 में 7 अंक हैं।\n41035106 में 8 अंक हैं।\n238590746 में 9 अंक हैं।"
+            },
+            {
+              "english": "Step 2: The numbers with the most digits are greater.\nSo we only compare:\n307482134 and 238590746",
+              "hindi": "चरण 2: जिस संख्या में अधिक अंक होते हैं, वह बड़ी होती है।\nइसलिए अब हम केवल इन दो संख्याओं की तुलना करेंगे:\n307482134 और 238590746"
+            },
+            {
+              "english": "Step 3: Compare from the left.\nIn 307482134, the first digit is 3.\nIn 238590746, the first digit is 2.\nSince 3 is greater than 2, 307482134 is greater.",
+              "hindi": "चरण 3: बाएँ से तुलना करते हैं।\n307482134 का पहला अंक 3 है।\n238590746 का पहला अंक 2 है।\nक्योंकि 3, 2 से बड़ा है, इसलिए 307482134 बड़ी संख्या है।"
+            },
+            {
+              "english": "Final answer: Encircle 307482134.",
+              "hindi": "Final answer: 307482134 पर घेरा लगाइए।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5447,8 +7323,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the largest number, first compare how many digits each number has.",
+              "hindi": "सबसे बड़ी संख्या ढूंढने के लिए पहले सभी संख्याओं में अंकों की संख्या देखिए।"
+            },
+            {
+              "english": "102234102 has 9 digits.\n93645753 has 8 digits.\n27810591 has 8 digits.\n102240003 has 9 digits.\n93646800 has 8 digits.",
+              "hindi": "102234102 में 9 अंक हैं।\n93645753 में 8 अंक हैं।\n27810591 में 8 अंक हैं।\n102240003 में 9 अंक हैं।\n93646800 में 8 अंक हैं।"
+            },
+            {
+              "english": "A number with more digits is usually larger, so the largest number must be one of the 9-digit numbers: 102234102 or 102240003.",
+              "hindi": "ज्यादा अंकों वाली संख्या आमतौर पर बड़ी होती है, इसलिए सबसे बड़ी संख्या 9 अंकों वाली संख्याओं में से होगी: 102234102 या 102240003।"
+            },
+            {
+              "english": "Now compare these two from left to right:\n102234102\n102240003",
+              "hindi": "अब इन दोनों की बाईं तरफ से तुलना करते हैं:\n102234102\n102240003"
+            },
+            {
+              "english": "The first four digits are the same: 1022.\nAt the next digit, 3 is smaller than 4.\nSo 102240003 is larger.",
+              "hindi": "पहले चार अंक समान हैं: 1022।\nअगले अंक पर 3 और 4 की तुलना करें।\n4, 3 से बड़ा है।\nइसलिए 102240003 बड़ी संख्या है।"
+            },
+            {
+              "english": "Final answer: 102240003.",
+              "hindi": "अंतिम उत्तर: 102240003।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5511,8 +7415,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the largest number, compare the numbers carefully.",
+              "hindi": "सबसे बड़ी संख्या ढूंढने के लिए हमें संख्याओं को ध्यान से तुलना करनी होगी।"
+            },
+            {
+              "english": "The numbers are:\n- 9037848\n- 12345716\n- 101010706\n- 91537964\n- 100718967",
+              "hindi": "दी गई संख्याएँ हैं:\n- 9037848\n- 12345716\n- 101010706\n- 91537964\n- 100718967"
+            },
+            {
+              "english": "Step 1: Count the digits.\n- 9037848 has 7 digits\n- 12345716 has 8 digits\n- 101010706 has 9 digits\n- 91537964 has 8 digits\n- 100718967 has 9 digits",
+              "hindi": "चरण 1: अंकों की संख्या गिनिए।\n- 9037848 में 7 अंक हैं\n- 12345716 में 8 अंक हैं\n- 101010706 में 9 अंक हैं\n- 91537964 में 8 अंक हैं\n- 100718967 में 9 अंक हैं"
+            },
+            {
+              "english": "Step 2: The largest number must be among the 9-digit numbers.\nThose are:\n- 101010706\n- 100718967",
+              "hindi": "चरण 2: सबसे बड़ी संख्या 9 अंकों वाली संख्याओं में होगी।\nवे हैं:\n- 101010706\n- 100718967"
+            },
+            {
+              "english": "Step 3: Compare them from the left.\n- 101010706 starts with 101 million\n- 100718967 starts with 100 million",
+              "hindi": "चरण 3: अब इन्हें बाईं ओर से तुलना करें।\n- 101010706 = 101 करोड़ 10 लाख 706\n- 100718967 = 100 करोड़ 71 लाख 89 हजार 967"
+            },
+            {
+              "english": "Since 101 million is greater than 100 million, 101010706 is larger.",
+              "hindi": "क्योंकि 101 करोड़, 100 करोड़ से बड़ा है, इसलिए 101010706 बड़ी संख्या है।"
+            },
+            {
+              "english": "So, the number to encircle is 101010706.",
+              "hindi": "इसलिए जिस संख्या पर गोला लगाना है, वह 101010706 है।"
+            },
+            {
+              "english": "Final answer: 101010706",
+              "hindi": "अंतिम उत्तर: 101010706"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5575,8 +7515,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the largest number, let us compare the numbers step by step.",
+              "hindi": "सबसे बड़ा नंबर ढूंढने के लिए हम इन संख्याओं की तुलना धीरे-धीरे करते हैं।"
+            },
+            {
+              "english": "The numbers are:\n9000009, 90000001, 9935469, 87590909, 88888888",
+              "hindi": "दी गई संख्याएँ हैं:\n9000009, 90000001, 9935469, 87590909, 88888888"
+            },
+            {
+              "english": "Step 1: Count the digits.\n- 9000009 has 7 digits\n- 90000001 has 8 digits\n- 9935469 has 7 digits\n- 87590909 has 8 digits\n- 88888888 has 8 digits",
+              "hindi": "Step 1: अंकों की संख्या गिनिए।\n- 9000009 में 7 अंक हैं\n- 90000001 में 8 अंक हैं\n- 9935469 में 7 अंक हैं\n- 87590909 में 8 अंक हैं\n- 88888888 में 8 अंक हैं"
+            },
+            {
+              "english": "Step 2: The number with the most digits is usually the largest.\nSo we compare the 8-digit numbers: 90000001, 87590909, and 88888888.",
+              "hindi": "Step 2: जिस संख्या में अधिक अंक होते हैं, वह आमतौर पर बड़ी होती है।\nअब हम 8 अंकों वाली संख्याओं की तुलना करते हैं: 90000001, 87590909, और 88888888."
+            },
+            {
+              "english": "Step 3: Compare the first digit.\n- 90000001 starts with 9\n- 87590909 starts with 8\n- 88888888 starts with 8",
+              "hindi": "Step 3: सबसे पहले बाएँ से पहला अंक देखिए।\n- 90000001 का पहला अंक 9 है\n- 87590909 का पहला अंक 8 है\n- 88888888 का पहला अंक 8 है"
+            },
+            {
+              "english": "A number starting with 9 is greater than numbers starting with 8.\nSo 90000001 is the largest number.",
+              "hindi": "9 से शुरू होने वाली संख्या, 8 से शुरू होने वाली संख्याओं से बड़ी होती है।\nइसलिए 90000001 सबसे बड़ी संख्या है।"
+            },
+            {
+              "english": "Final Answer: 90000001",
+              "hindi": "अंतिम उत्तर: 90000001"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5639,8 +7611,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To rewrite 35684129 using the International system, start from the right side.\n- Count 3 digits from the right: 129\n- Then place a comma before the next 3 digits: 684\n- Then place another comma before the remaining digits: 35\nSo the numeral becomes 35,684,129.\nFinal Answer: 35,684,129",
+              "hindi": "35684129 को International system में सही commas के साथ लिखने के लिए दाईं ओर से गिनती शुरू करते हैं।\n- दाईं ओर से 3 अंक लें: 129\n- फिर उसके पहले comma लगाएँ: 684\n- फिर बाकी बचे अंकों के पहले comma लगाएँ: 35\nइसलिए संख्या बनती है 35,684,129।\nअंतिम उत्तर: 35,684,129"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5703,8 +7683,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Write the number 50968302.\nIn the International system, we place commas after every 3 digits from the right.\nSo, 50968302 becomes 50,968,302.\nFinal answer: 50,968,302",
+              "hindi": "संख्या 50968302 को लिखें।\nInternational system में दाईं ओर से हर 3 अंकों के बाद comma लगाया जाता है।\nइसलिए 50968302 को 50,968,302 लिखा जाएगा।\nअंतिम उत्तर: 50,968,302"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5767,8 +7755,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In the International system, we put commas after every 3 digits, starting from the right.",
+              "hindi": "International system में हम दाईं ओर से हर 3 अंकों के बाद comma लगाते हैं।"
+            },
+            {
+              "english": "Step 1: Write the number as 103854179.\nStep 2: Group the digits into sets of 3 from the right:\n103 | 854 | 179\nStep 3: Put commas between the groups.",
+              "hindi": "Step 1: संख्या 103854179 को लिखिए।\nStep 2: दाईं ओर से 3-3 अंकों के समूह बनाइए:\n103 | 854 | 179\nStep 3: इन समूहों के बीच comma लगाइए।"
+            },
+            {
+              "english": "So, the numeral with proper commas is 103,854,179.",
+              "hindi": "इसलिए सही commas के साथ संख्या है 103,854,179।"
+            },
+            {
+              "english": "Final answer: 103,854,179",
+              "hindi": "Final answer: 103,854,179"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5831,8 +7839,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 42560247 in the International system, start from the right and make groups of three digits.\n42560247 → 42 | 560 | 247\nSo, the number with commas is 42,560,247.\nFinal answer: 42,560,247",
+              "hindi": "अंतरराष्ट्रीय पद्धति में दाईं ओर से अंकों को 3-3 के समूह में बाँटते हैं।\n42560247 → 42 | 560 | 247\nइसलिए सही रूप है 42,560,247।\nअंतिम उत्तर: 42,560,247"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5895,8 +7911,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In the International system, start from the right.\nPut the first comma after 3 digits, then place commas after every 2 digits.",
+              "hindi": "अंतरराष्ट्रीय पद्धति में दाईं ओर से गिनती शुरू करते हैं।\nपहले 3 अंकों के बाद एक कॉमा लगाते हैं, फिर हर 2 अंकों के बाद कॉमा लगाते हैं।"
+            },
+            {
+              "english": "491560543 → 491,560,543",
+              "hindi": "491560543 → 491,560,543"
+            },
+            {
+              "english": "So, the number written with proper commas is 491,560,543.",
+              "hindi": "इसलिए, सही कॉमा के साथ संख्या 491,560,543 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5959,8 +7991,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 793654182 with proper commas in the International system, start from the right side.",
+              "hindi": "793654182 में International system के अनुसार सही commas लगाने के लिए दाईं ओर से गिनती करते हैं।"
+            },
+            {
+              "english": "1. Put a comma after every 3 digits.\n2. Count from the right: 182 | 654 | 793\n3. So the number becomes 793,654,182.",
+              "hindi": "1. दाईं तरफ से हर 3 अंकों के बाद comma लगाते हैं।\n2. दाईं ओर से समूह बनाएं: 182 | 654 | 793\n3. इसलिए संख्या बनेगी 793,654,182।"
+            },
+            {
+              "english": "Final answer: 793,654,182",
+              "hindi": "अंतिम उत्तर: 793,654,182"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6023,8 +8071,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To rewrite a numeral in the International system, we place commas after every 3 digits from the right.",
+              "hindi": "अंतरराष्ट्रीय पद्धति में हम दाईं ओर से हर 3 अंकों के बाद कॉमा लगाते हैं।"
+            },
+            {
+              "english": "Step 1: Start from the right side of 300700006.\nStep 2: Make groups of 3 digits: 300 | 700 | 006.\nStep 3: Put commas between the groups.",
+              "hindi": "चरण 1: संख्या 300700006 को दाईं ओर से देखें।\nचरण 2: इसे 3-3 अंकों के समूह में बाँटें: 300 | 700 | 006।\nचरण 3: इन समूहों के बीच कॉमा लगाएँ।"
+            },
+            {
+              "english": "So, 300700006 becomes 300,700,006.",
+              "hindi": "इसलिए 300700006 को 300,700,006 लिखा जाएगा।"
+            },
+            {
+              "english": "Final answer: 300,700,006",
+              "hindi": "अंतिम उत्तर: 300,700,006"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6087,8 +8155,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 100006001 in the International system, start from the right.\nGroup the digits in sets of 3: 100 006 001.\nNow place commas between the groups: 100,006,001.\nFinal answer: 100,006,001",
+              "hindi": "International system mein number ko right se 3-3 digits ke groups mein likhte hain.\n100006001 ko right se group karne par milta hai: 100 006 001.\nAb in groups ke beech commas lagao: 100,006,001.\nFinal answer: 100,006,001"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6151,8 +8227,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 90007010 with proper commas in the International system, start from the right.\n1. Put commas after every 3 digits.\n2. Group the number as 90 | 007 | 010.\n3. So the numeral becomes 90,007,010.\nFinal answer: 90,007,010",
+              "hindi": "90007010 को अंतरराष्ट्रीय पद्धति (International system) में सही commas के साथ लिखने के लिए दाईं ओर से गिनते हैं.\n1. हर 3 अंकों के बाद comma लगाते हैं.\n2. संख्या को ऐसे समूह बनाते हैं: 90 | 007 | 010.\n3. इसलिए संख्या होगी 90,007,010.\nFinal answer: 90,007,010"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6215,8 +8299,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We write the number 25,863,475 in groups:\n- 25 million\n- 863 thousand\n- 475",
+              "hindi": "हम संख्या 25,863,475 को स्थान-मूल्य के अनुसार समूहों में पढ़ते हैं:\n- 2 करोड़\n- 58 लाख\n- 63 हजार\n- 475"
+            },
+            {
+              "english": "Now read each part in order:\n- 25 million = twenty-five million\n- 863 thousand = eight hundred sixty-three thousand\n- 475 = four hundred seventy-five",
+              "hindi": "अब हर भाग को क्रम से पढ़ते हैं:\n- 2 करोड़ = दो करोड़\n- 58 लाख = अट्ठावन लाख\n- 63 हजार = तिरसठ हजार\n- 475 = चार सौ पचहत्तर"
+            },
+            {
+              "english": "Join them together to get the number name:\nTwenty-five million eight hundred sixty-three thousand four hundred seventy-five",
+              "hindi": "इन सबको मिलाकर संख्या का नाम होगा:\nदो करोड़ अट्ठावन लाख तिरसठ हजार चार सौ पचहत्तर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6279,8 +8379,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's read the number by place values.\n30,807,541 can be split as 30 million, 807 thousand, and 541.\n30 million = thirty million\n807 thousand = eight hundred seven thousand\n541 = five hundred forty-one\nSo, the number name is: Thirty million eight hundred seven thousand five hundred forty-one.\nFinal answer: Thirty million eight hundred seven thousand five hundred forty-one.",
+              "hindi": "आइए संख्या को स्थान-मूल्य के अनुसार पढ़ते हैं।\n30,807,541 को हम 30 million, 807 thousand, और 541 के रूप में बाँट सकते हैं।\n30 million = तीस मिलियन\n807 thousand = आठ सौ सात हजार\n541 = पाँच सौ इकतालीस\nइसलिए संख्या का नाम है: तीस मिलियन आठ सौ सात हजार पाँच सौ इकतालीस।\nअंतिम उत्तर: तीस मिलियन आठ सौ सात हजार पाँच सौ इकतालीस।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6343,8 +8451,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "81,923,054 can be read in groups as 81 million, 923 thousand, and 54.",
+              "hindi": "81,923,054 को हम अलग-अलग समूहों में पढ़ते हैं: 81 million, 923 thousand, और 54।"
+            },
+            {
+              "english": "Step 1: Read 81 as eighty-one.\nStep 2: Read 923 as nine hundred twenty-three.\nStep 3: Read 54 as fifty-four.\nStep 4: Put the parts together in order.",
+              "hindi": "Step 1: 81 को पढ़ते हैं इक्यासी।\nStep 2: 923 को पढ़ते हैं नौ सौ तेईस।\nStep 3: 54 को पढ़ते हैं चौवन।\nStep 4: अब इन सभी भागों को क्रम से जोड़ते हैं।"
+            },
+            {
+              "english": "So, the number name is: Eighty-one million nine hundred twenty-three thousand fifty-four.",
+              "hindi": "इसलिए संख्या का नाम है: इक्यासी मिलियन नौ सौ तेईस हजार चौवन।"
+            },
+            {
+              "english": "Final answer: Eighty-one million nine hundred twenty-three thousand fifty-four",
+              "hindi": "अंतिम उत्तर: इक्यासी मिलियन नौ सौ तेईस हजार चौवन"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6407,8 +8535,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Split 140,905,319 into place values: 140 million, 905 thousand, and 319.\nStep 2: Write each part in words:\n140 = one hundred forty\n905 = nine hundred five\n319 = three hundred nineteen\nStep 3: Join the parts together.\nFinal answer: One hundred forty million nine hundred five thousand three hundred nineteen.",
+              "hindi": "चरण 1: 140,905,319 को स्थान-मूल्य के अनुसार बाँटते हैं: 140 मिलियन, 905 हज़ार, और 319।\nचरण 2: हर भाग को शब्दों में लिखते हैं:\n140 = एक सौ चालीस\n905 = नौ सौ पाँच\n319 = तीन सौ उन्नीस\nचरण 3: अब इन भागों को जोड़ते हैं।\nअंतिम उत्तर: एक सौ चालीस मिलियन नौ सौ पाँच हज़ार तीन सौ उन्नीस।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6471,8 +8607,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: 231,600,148 = 231 million + 600 thousand + 148.\nStep 2: 231 million is two hundred thirty-one million, 600 thousand is six hundred thousand, and 148 is one hundred forty-eight.\nStep 3: Put them together.\nFinal answer: Two hundred thirty-one million six hundred thousand one hundred forty-eight.",
+              "hindi": "चरण 1: 231,600,148 = 23 करोड़ + 16 लाख + 148.\nचरण 2: 23 करोड़ = तेईस करोड़, 16 लाख = सोलह लाख, और 148 = एक सौ अड़तालीस.\nचरण 3: अब इन्हें जोड़ते हैं.\nअंतिम उत्तर: तेईस करोड़ सोलह लाख एक सौ अड़तालीस."
+            }
+          ]
         }
       ],
       "tags": [
@@ -6535,8 +8679,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We read the number from left to right by splitting it into place values.",
+              "hindi": "हम इस संख्या को जगह के मान के अनुसार भागों में बांटकर पढ़ते हैं।"
+            },
+            {
+              "english": "490,300,007 = 490 million + 300 thousand + 7",
+              "hindi": "490,300,007 = 490 million + 300 thousand + 7"
+            },
+            {
+              "english": "So the number name is:\nFour hundred ninety million three hundred thousand seven",
+              "hindi": "इसलिए इसका संख्या नाम है:\nFour hundred ninety million three hundred thousand seven"
+            },
+            {
+              "english": "Final answer: Four hundred ninety million three hundred thousand seven",
+              "hindi": "Final answer: Four hundred ninety million three hundred thousand seven"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6599,8 +8763,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Split 101,010,001 into 101 million + 10 thousand + 1.\nStep 2: Read each part:\n- 101 million = one hundred one million\n- 10 thousand = ten thousand\n- 1 = one\nStep 3: Join the parts together.\nSo, the number name is: One hundred one million ten thousand one.\nFinal answer: One hundred one million ten thousand one",
+              "hindi": "चरण 1: 101,010,001 को 101 मिलियन + 10 हज़ार + 1 में बाँटते हैं.\nचरण 2: हर भाग को पढ़ते हैं:\n- 101 मिलियन = एक सौ एक मिलियन\n- 10 हज़ार = दस हज़ार\n- 1 = एक\nचरण 3: अब सभी भागों को साथ में जोड़ते हैं.\nइसलिए संख्या का नाम है: एक सौ एक मिलियन दस हज़ार एक.\nअंतिम उत्तर: एक सौ एक मिलियन दस हज़ार एक"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6663,8 +8835,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Look at the number 23,006,100.\nStep 2: Read it in groups: 23 million, 6 thousand, 100.\nStep 3: Write each part in words.\nSo, 23,006,100 is written as:\nTwenty-three million six thousand one hundred.\nFinal answer: Twenty-three million six thousand one hundred",
+              "hindi": "चरण 1: संख्या 23,006,100 को ध्यान से देखें।\nचरण 2: इसे समूहों में पढ़ें: 23 million, 6 thousand, 100।\nचरण 3: हर भाग को शब्दों में लिखें।\nइसलिए 23,006,100 को ऐसे लिखा जाएगा:\nदो करोड़ तीस लाख छह हजार एक सौ।\nFinal answer: दो करोड़ तीस लाख छह हजार एक सौ"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6727,8 +8907,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Read the number in parts.\n560,001,010 = 560 million + 1 thousand + 10",
+              "hindi": "चरण 1: संख्या को भागों में पढ़ते हैं।\n560,001,010 = 560 मिलियन + 1 हज़ार + 10"
+            },
+            {
+              "english": "Step 2: Write each part in words.\n560 million = five hundred sixty million\n1 thousand = one thousand\n10 = ten",
+              "hindi": "चरण 2: हर भाग को शब्दों में लिखते हैं।\n560 मिलियन = पाँच सौ साठ मिलियन\n1 हज़ार = एक हज़ार\n10 = दस"
+            },
+            {
+              "english": "Step 3: Join the parts.\nFive hundred sixty million one thousand ten",
+              "hindi": "चरण 3: सभी भागों को जोड़ते हैं।\nपाँच सौ साठ मिलियन एक हज़ार दस"
+            },
+            {
+              "english": "Final answer: Five hundred sixty million one thousand ten",
+              "hindi": "अंतिम उत्तर: पाँच सौ साठ मिलियन एक हज़ार दस"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6791,8 +8991,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write the number in figures, split the words into place values:\n- Sixty-four million = 64,000,000\n- One hundred nineteen thousand = 119,000\n- Eighteen = 18",
+              "hindi": "संख्या को अंकों में लिखने के लिए शब्दों को स्थान-मूल्य में बाँटते हैं:\n- Sixty-four million = 64,000,000\n- One hundred nineteen thousand = 119,000\n- Eighteen = 18"
+            },
+            {
+              "english": "Now add them together:\n64,000,000 + 119,000 + 18 = 64,119,018",
+              "hindi": "अब इन्हें जोड़ते हैं:\n64,000,000 + 119,000 + 18 = 64,119,018"
+            },
+            {
+              "english": "Final answer: 64,119,018",
+              "hindi": "अंतिम उत्तर: 64,119,018"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6855,8 +9071,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Break the number name into parts:\n- Two hundred eighty-nine million = 289,000,000\n- Sixty-nine thousand = 69,000\n- Forty-eight = 48",
+              "hindi": "संख्या के नाम को भागों में तोड़ते हैं:\n- दो सौ अट्ठासी करोड़ नहीं, बल्कि two hundred eighty-nine million = 289,000,000\n- sixty-nine thousand = 69,000\n- forty-eight = 48"
+            },
+            {
+              "english": "Now add them together:\n289,000,000 + 69,000 + 48 = 289,069,048",
+              "hindi": "अब इन्हें जोड़ते हैं:\n289,000,000 + 69,000 + 48 = 289,069,048"
+            },
+            {
+              "english": "Final answer: 289,069,048",
+              "hindi": "अंतिम उत्तर: 289,069,048"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6919,8 +9151,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Break the number into parts:\n- One hundred five million = 105,000,000\n- One hundred eight thousand = 108,000\n- Seven = 7\nNow add them:\n105,000,000 + 108,000 + 7 = 105,108,007\nFinal answer: 105,108,007",
+              "hindi": "संख्या को भागों में तोड़ते हैं:\n- One hundred five million = 105,000,000\n- One hundred eight thousand = 108,000\n- Seven = 7\nअब इन सबको जोड़ते हैं:\n105,000,000 + 108,000 + 7 = 105,108,007\nअंतिम उत्तर: 105,108,007"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6983,8 +9223,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: \"Seven hundred sixteen million\" means 716 million.\nSo, 716 million = 716,000,000.",
+              "hindi": "चरण 1: \"Seven hundred sixteen million\" का मतलब 716 million होता है।\nइसलिए, 716 million = 716,000,000."
+            },
+            {
+              "english": "Step 2: \"Six hundred five\" means 605.",
+              "hindi": "चरण 2: \"Six hundred five\" का मतलब 605 होता है।"
+            },
+            {
+              "english": "Step 3: Put them together:\n716,000,000 + 605 = 716,000,605.",
+              "hindi": "चरण 3: दोनों को साथ में लिखें:\n716,000,000 + 605 = 716,000,605."
+            },
+            {
+              "english": "Final answer: 716,000,605",
+              "hindi": "अंतिम उत्तर: 716,000,605"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7047,8 +9307,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write the number in figures, split the words into parts.\n- Three hundred one million = 301,000,000\n- Two thousand thirty-one = 2,031\nNow add them:\n301,000,000 + 2,031 = 301,002,031\nFinal answer: 301,002,031",
+              "hindi": "अंकों में लिखने के लिए संख्या को भागों में समझते हैं।\n- Three hundred one million = 301,000,000\n- Two thousand thirty-one = 2,031\nअब दोनों को जोड़ते हैं:\n301,000,000 + 2,031 = 301,002,031\nअंतिम उत्तर: 301,002,031"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7111,8 +9379,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Ten million = 10,000,000.\nStep 2: Three thousand = 3,000.\nStep 3: Thirty-six = 36.\nStep 4: Add them together: 10,000,000 + 3,000 + 36 = 10,003,036.\nFinal answer: 10,003,036.",
+              "hindi": "चरण 1: Ten million = 10,000,000.\nचरण 2: Three thousand = 3,000.\nचरण 3: Thirty-six = 36.\nचरण 4: इन सबको जोड़ें: 10,000,000 + 3,000 + 36 = 10,003,036.\nअंतिम उत्तर: 10,003,036."
+            }
+          ]
         }
       ],
       "tags": [
@@ -7175,8 +9451,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let’s write \"Nineteen million nineteen\" in figures step by step.",
+              "hindi": "आइए \"उन्नीस मिलियन उन्नीस\" को अंकों में लिखते हैं।"
+            },
+            {
+              "english": "1. \"Nineteen million\" means 19,000,000.\n2. \"Nineteen\" means 19.\n3. Add them together: 19,000,000 + 19 = 19,000,019.",
+              "hindi": "1. \"उन्नीस मिलियन\" का मतलब है 19,000,000।\n2. \"उन्नीस\" का मतलब है 19।\n3. दोनों को जोड़ें: 19,000,000 + 19 = 19,000,019।"
+            },
+            {
+              "english": "Final answer: 19,000,019",
+              "hindi": "अंतिम उत्तर: 19,000,019"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7239,8 +9531,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write \"Sixty million forty-four thousand sixty-four\" in figures, split it into parts:\n- Sixty million = 60,000,000\n- Forty-four thousand = 44,000\n- Sixty-four = 64",
+              "hindi": "\"Sixty million forty-four thousand sixty-four\" को अंकों में लिखने के लिए इसे भागों में समझते हैं:\n- Sixty million = 60,000,000\n- Forty-four thousand = 44,000\n- Sixty-four = 64"
+            },
+            {
+              "english": "Now add them together:\n60,000,000 + 44,000 + 64 = 60,044,064",
+              "hindi": "अब इन्हें जोड़ते हैं:\n60,000,000 + 44,000 + 64 = 60,044,064"
+            },
+            {
+              "english": "Final answer: 60,044,064",
+              "hindi": "अंतिम उत्तर: 60,044,064"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7303,8 +9611,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let’s write the number step by step.",
+              "hindi": "आइए इस संख्या को धीरे-धीरे समझते हैं।"
+            },
+            {
+              "english": "Two hundred million = 200,000,000\nTwo thousand twenty = 2,020",
+              "hindi": "Two hundred million = 200,000,000\nTwo thousand twenty = 2,020"
+            },
+            {
+              "english": "Now add them:\n200,000,000 + 2,020 = 200,002,020",
+              "hindi": "अब दोनों को जोड़ते हैं:\n200,000,000 + 2,020 = 200,002,020"
+            },
+            {
+              "english": "So, the number in figures is 200,002,020.\nFinal answer: 200,002,020.",
+              "hindi": "इसलिए, अंकों में संख्या है 200,002,020।\nअंतिम उत्तर: 200,002,020."
+            }
+          ]
         }
       ],
       "tags": [

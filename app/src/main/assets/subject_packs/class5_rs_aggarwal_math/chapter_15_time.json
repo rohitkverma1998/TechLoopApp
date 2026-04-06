@@ -625,8 +625,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "0640 hours is in 24-hour time.\n- 06 means 6 hours.\n- 40 means 40 minutes.\nSince 0640 is before 12:00 noon, it is in the morning, so we use a.m.\nSo, 0640 hours = 6:40 a.m.\nFinal answer: 6:40 a.m.",
+              "hindi": "0640 घंटे 24 घंटे वाली समय-प्रणाली में लिखा गया है।\n- 06 का मतलब 6 घंटे है।\n- 40 का मतलब 40 मिनट है।\nक्योंकि 0640, 12:00 दोपहर से पहले है, इसलिए यह सुबह का समय है और a.m. लगेगा।\nइसलिए, 0640 घंटे = 6:40 a.m.\nअंतिम उत्तर: 6:40 a.m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -690,8 +698,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "0130 hours is in 24-hour time.",
+              "hindi": "0130 hours 24-hour time mein diya gaya hai."
+            },
+            {
+              "english": "Step 1: Read the first two digits: 01 means 1 o'clock.\nStep 2: Read the last two digits: 30 means 30 minutes.\nStep 3: Since 0130 is after midnight and before noon, it is a.m.",
+              "hindi": "Step 1: Pehle do digits padho: 01 ka matlab 1 baje.\nStep 2: Aakhri do digits padho: 30 ka matlab 30 minutes.\nStep 3: Kyunki 0130 midnight ke baad aur noon se pehle hota hai, isliye yeh a.m. hai."
+            },
+            {
+              "english": "So, 0130 hours = 1:30 a.m.",
+              "hindi": "Isliye, 0130 hours = 1:30 a.m."
+            },
+            {
+              "english": "Final answer: 1:30 a.m.",
+              "hindi": "Final answer: 1:30 a.m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -755,8 +783,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: 0020 hours is written in 24-hour time.\nStep 2: 00 means 0 hours, and 20 means 20 minutes. So this is 20 minutes after midnight.\nStep 3: Since it is after midnight and before noon, it is a.m. (morning).\nSo, 0020 hours = 0:20 a.m.\nFinal answer: 0:20 a.m.",
+              "hindi": "चरण 1: 0020 घंटे 24-घंटे की समय-प्रणाली में लिखा गया है।\nचरण 2: 00 का मतलब 0 घंटे है, और 20 का मतलब 20 मिनट है। इसलिए यह आधी रात के 20 मिनट बाद है।\nचरण 3: क्योंकि यह आधी रात के बाद और दोपहर से पहले है, इसलिए यह a.m. (सुबह) है।\nइसलिए, 0020 घंटे = 0:20 a.m.\nअंतिम उत्तर: 0:20 a.m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -820,8 +856,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1206 hours is written as 12:06 in 24-hour time.\n- When the hour is 12 and the minutes are after 00, the time is in the afternoon, so we use p.m.\n- Noon is exactly 12:00 p.m., so 12:06 is not noon.\n- Midnight is 12:00 a.m., so this is not midnight.\nSo, 1206 hours = 12:06 p.m.",
+              "hindi": "1206 घंटे को 24-घंटे वाले समय में 12:06 लिखा जाता है।\n- जब घंटा 12 हो और मिनट 00 से आगे हों, तो यह दोपहर के बाद का समय होता है, इसलिए p.m. लगाते हैं।\n- noon यानी दोपहर ठीक 12:00 p.m. होता है, इसलिए 12:06 noon नहीं है।\n- midnight यानी आधी रात 12:00 a.m. होती है, इसलिए यह midnight भी नहीं है।\nइसलिए 1206 घंटे = 12:06 p.m."
+            },
+            {
+              "english": "Final answer: 12:06 p.m.",
+              "hindi": "अंतिम उत्तर: 12:06 p.m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -885,8 +933,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 1256 hours in a.m. or p.m. form, first read it as 12:56.",
+              "hindi": "1256 hours को a.m. या p.m. में लिखने के लिए इसे पहले 12:56 के रूप में पढ़ते हैं।"
+            },
+            {
+              "english": "Step 1: 1256 hours means 12:56 in 24-hour time.\nStep 2: Since the hour is 12 and the minutes are not 00, this is after noon.\nStep 3: Times from 12:00 to 12:59 are written as p.m.",
+              "hindi": "चरण 1: 1256 hours का मतलब 24-घंटे वाली समय-पद्धति में 12:56 है।\nचरण 2: यहाँ घंटा 12 है और मिनट 00 नहीं हैं, इसलिए यह दोपहर के बाद का समय है।\nचरण 3: 12:00 से 12:59 तक का समय p.m. में लिखा जाता है।"
+            },
+            {
+              "english": "So, 12:56 hours = 12:56 p.m.",
+              "hindi": "इसलिए, 12:56 hours = 12:56 p.m."
+            },
+            {
+              "english": "Final answer: 12:56 p.m.",
+              "hindi": "अंतिम उत्तर: 12:56 p.m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -950,8 +1018,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1438 hours is 14:38 in 24-hour time.\n- Since 14 is more than 12, subtract 12 to change it to 12-hour time: 14 - 12 = 2.\n- The minutes stay 38.\n- Because 14:38 is after noon, it is p.m.\nSo, 1438 hours = 2:38 p.m.\nFinal answer: 2:38 p.m.",
+              "hindi": "1438 hours को 24-hour time में 14:38 लिखा जाता है.\n- 14, 12 से बड़ा है, इसलिए 12 घटाते हैं: 14 - 12 = 2.\n- मिनट 38 ही रहेंगे.\n- क्योंकि यह दोपहर के बाद का समय है, इसलिए p.m. होगा.\nइसलिए 1438 hours = 2:38 p.m.\nअंतिम उत्तर: 2:38 p.m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1015,8 +1091,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1624 hours is written in 24-hour time.\nThe first two digits, 16, tell us the hour and the last two digits, 24, tell us the minutes.\nSince 16 is greater than 12, this is after noon, so we subtract 12 from 16:\n16 - 12 = 4\nSo 1624 hours = 4:24 in the afternoon, which is p.m.\nFinal answer: 4:24 p.m.",
+              "hindi": "1624 घंटे 24-घंटे की समय-पद्धति में लिखा गया है।\nपहले दो अंक 16 घंटे बताते हैं और आखिरी दो अंक 24 मिनट बताते हैं।\nक्योंकि 16, 12 से बड़ा है, इसलिए यह दोपहर के बाद का समय है। अब 16 में से 12 घटाते हैं:\n16 - 12 = 4\nइसलिए 1624 घंटे = 4:24, यानी p.m.\nअंतिम उत्तर: 4:24 p.m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1079,8 +1163,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "0000 hours is read as 12 midnight.",
+              "hindi": "0000 hours को 12 midnight कहा जाता है।"
+            },
+            {
+              "english": "Step 1: In 24-hour time, 0000 means 00:00.\nStep 2: This is the very start of a new day.\nStep 3: The correct way to say 00:00 in words is midnight.\nStep 4: Since the question asks for a.m., p.m., noon, or midnight, we write it as 12 midnight.",
+              "hindi": "चरण 1: 24-hour समय में 0000 का मतलब 00:00 होता है।\nचरण 2: यह नए दिन की बिल्कुल शुरुआत होती है।\nचरण 3: 00:00 को शब्दों में midnight यानी मध्यरात्रि कहते हैं।\nचरण 4: क्योंकि प्रश्न में a.m., p.m., noon, या midnight में से सही उत्तर लिखना है, इसलिए उत्तर 12 midnight होगा।"
+            },
+            {
+              "english": "Final answer: 12 midnight.",
+              "hindi": "अंतिम उत्तर: 12 midnight."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1144,8 +1244,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "2347 hours is written in the 24-hour clock.",
+              "hindi": "2347 hours 24-hour clock mein likha gaya time hai."
+            },
+            {
+              "english": "Step 1: Look at the hour part.\n- 23 is greater than 12, so we subtract 12.\n- 23 - 12 = 11",
+              "hindi": "Step 1: Ghante wale hisse ko dekhiye.\n- 23, 12 se bada hai, isliye 12 ghataate hain.\n- 23 - 12 = 11"
+            },
+            {
+              "english": "Step 2: Keep the minutes the same.\n- The minutes are 47.",
+              "hindi": "Step 2: Minutes ko wahi rehne dijiye.\n- Minutes 47 hain."
+            },
+            {
+              "english": "Step 3: Decide a.m. or p.m.\n- Since 23:47 is after 12 noon, it is p.m.",
+              "hindi": "Step 3: a.m. ya p.m. nirdharit kijiye.\n- Kyunki 23:47 dopahar 12 baje ke baad ka samay hai, isliye yeh p.m. hai."
+            },
+            {
+              "english": "So, 2347 hours = 11:47 p.m.",
+              "hindi": "Isliye, 2347 hours = 11:47 p.m."
+            },
+            {
+              "english": "Final answer: 11:47 p.m.",
+              "hindi": "Antim uttar: 11:47 p.m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1209,8 +1337,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "2139 hours is written in 24-hour time.\nStep 1: Read the first two digits, 21. So the time is 21:39.\nStep 2: Since 21 is greater than 12, we change it to 12-hour time and use p.m.\nStep 3: Subtract 12 from 21: 21 - 12 = 9.\nSo, 2139 hours becomes 9:39 p.m.\nFinal answer: 9:39 p.m.",
+              "hindi": "2139 hours 24-hour time में लिखा गया समय है।\nStep 1: पहले दो अंक 21 हैं। इसलिए समय 21:39 है।\nStep 2: क्योंकि 21, 12 से बड़ा है, इसलिए इसे 12-hour time में बदलते हैं और p.m. लगाते हैं।\nStep 3: 21 में से 12 घटाएँ: 21 - 12 = 9.\nइसलिए 2139 hours = 9:39 p.m. होता है।\nFinal answer: 9:39 p.m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1274,8 +1410,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1354 hours is written in 24-hour time.",
+              "hindi": "1354 घंटे 24-घंटे की समय-पद्धति में लिखा गया है।"
+            },
+            {
+              "english": "Step 1: Read it as 13:54.\nStep 2: Since 13 is greater than 12, subtract 12 from the hour.\n13 - 12 = 1\nStep 3: Keep the minutes the same, so it becomes 1:54.\nStep 4: Because 13:54 is after noon and before midnight, it is p.m.",
+              "hindi": "चरण 1: इसे 13:54 पढ़ते हैं।\nचरण 2: क्योंकि 13, 12 से बड़ा है, इसलिए घंटे में से 12 घटाते हैं।\n13 - 12 = 1\nचरण 3: मिनट वैसे ही रहते हैं, इसलिए समय 1:54 बनता है।\nचरण 4: क्योंकि 13:54 दोपहर के बाद और आधी रात से पहले है, इसलिए यह p.m. है।"
+            },
+            {
+              "english": "Final answer: 1:54 p.m.",
+              "hindi": "अंतिम उत्तर: 1:54 p.m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1339,8 +1491,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "2000 hours is written in 24-hour time.\n- 20:00 means 20 hours and 0 minutes.\n- Since 20 is greater than 12, subtract 12 from the hour: 20 - 12 = 8.\n- So, 2000 hours = 8:00 p.m.\nFinal answer: 8:00 p.m.",
+              "hindi": "2000 hours 24-hour time में लिखा गया समय है।\n- 20:00 का मतलब 20 घंटे और 0 मिनट है।\n- क्योंकि 20, 12 से बड़ा है, इसलिए घंटे में से 12 घटाते हैं: 20 - 12 = 8।\n- इसलिए 2000 hours = 8:00 p.m. यानी शाम 8:00 बजे।\nअंतिम उत्तर: 8:00 p.m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1403,8 +1563,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 4:05 a.m. into 24-hour clock time:\n1. It is a.m., so it is in the morning.\n2. For morning times from 1:00 a.m. to 11:59 a.m., the hour stays the same.\n3. Because the hour is 4, we write it as 04 in 24-hour time.\n4. Keep the minutes the same: 05.",
+              "hindi": "4:05 a.m. को 24-hour clock time में बदलने के लिए:\n1. यह a.m. है, इसलिए यह सुबह का समय है।\n2. सुबह 1:00 a.m. से 11:59 a.m. तक घंटे में कोई बदलाव नहीं होता।\n3. 4 को 24-hour time में 04 लिखा जाता है, क्योंकि एक अंक वाले घंटे के आगे 0 लगाया जाता है।\n4. मिनट वही रहते हैं: 05."
+            },
+            {
+              "english": "So, 4:05 a.m. = 04:05 hours.",
+              "hindi": "इसलिए, 4:05 a.m. = 04:05 hours."
+            },
+            {
+              "english": "Final answer: 0405 hours.",
+              "hindi": "अंतिम उत्तर: 0405 hours."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1467,8 +1643,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We are converting 11:32 a.m. into 24-hour time.",
+              "hindi": "हम 11:32 a.m. को 24-hour clock time में बदल रहे हैं।"
+            },
+            {
+              "english": "Step 1: The time is in a.m., so it is in the morning.\nStep 2: For morning times from 1:00 a.m. to 11:59 a.m., the hour stays the same in 24-hour time.\nStep 3: So 11:32 a.m. becomes 11:32 in 24-hour clock format.",
+              "hindi": "Step 1: यह समय a.m. में है, इसलिए यह सुबह का समय है।\nStep 2: 1:00 a.m. से 11:59 a.m. तक के समय में 24-hour format में घंटे नहीं बदलते।\nStep 3: इसलिए 11:32 a.m. = 11:32 हो जाता है।"
+            },
+            {
+              "english": "Final answer: 1132 hours",
+              "hindi": "Final answer: 1132 hours"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1531,8 +1723,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 0:08 a.m. into 24-hour clock time, follow these steps:",
+              "hindi": "0:08 a.m. को 24-hour clock time में बदलने के लिए ये कदम follow करें:"
+            },
+            {
+              "english": "1. In 24-hour time, the hour for midnight times is written as 00.\n2. The minutes stay the same.\n3. Here, the time is 0:08 a.m., so the hour becomes 00 and the minutes stay 08.\n4. Write the time together as 0008 hours.",
+              "hindi": "1. 24-hour time में midnight के आसपास का hour 00 लिखा जाता है।\n2. Minutes वैसे ही रहते हैं।\n3. यहाँ time 0:08 a.m. है, इसलिए hour 00 हो जाएगा और minutes 08 ही रहेंगे।\n4. अब इसे मिलाकर 0008 hours लिखते हैं।"
+            },
+            {
+              "english": "Final answer: 0008 hours.",
+              "hindi": "अंतिम उत्तर: 0008 hours."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1595,8 +1803,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 0:46 a.m. into 24-hour time, we look at the hour and the minutes.",
+              "hindi": "0:46 a.m. को 24-hour clock time में बदलने के लिए हम घंटे और मिनट देखते हैं।"
+            },
+            {
+              "english": "1. This is an a.m. time, so we keep the same time pattern for the morning.\n2. The hour is already 0, which means midnight hour in 24-hour time.\n3. Keep the minutes as 46.\n4. Write the time in 24-hour format as 00:46.",
+              "hindi": "1. यह a.m. का समय है, इसलिए सुबह के समय में समय वही रहता है।\n2. यहाँ hour पहले से 0 है, और 24-hour time में यह midnight hour को दिखाता है।\n3. minutes 46 वैसे ही रहते हैं।\n4. इसलिए 24-hour format में समय 00:46 होगा।"
+            },
+            {
+              "english": "Final answer: 0046 hours.",
+              "hindi": "अंतिम उत्तर: 0046 hours."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1659,8 +1883,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 12:15 p.m. into 24-hour time, remember that p.m. times usually add 12 to the hour. But when the time is already 12 p.m., we do not add anything because 12 p.m. is noon. So 12:15 p.m. stays 12:15 in 24-hour time. Final answer: 1215 hours.",
+              "hindi": "12:15 p.m. को 24-घंटे की घड़ी में बदलने के लिए याद रखें कि p.m. वाले समय में आमतौर पर घंटे में 12 जोड़े जाते हैं। लेकिन जब समय पहले से ही 12 p.m. हो, तब हम कुछ नहीं जोड़ते, क्योंकि 12 p.m. दोपहर 12 बजे होता है। इसलिए 12:15 p.m. 24-घंटे की घड़ी में भी 12:15 ही रहेगा। अंतिम उत्तर: 1215 hours."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1723,8 +1955,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 2:18 p.m. into 24-hour time, we add 12 to the hour because it is p.m. in the afternoon.",
+              "hindi": "2:18 p.m. को 24-hour clock time में बदलने के लिए हम घंटे में 12 जोड़ते हैं, क्योंकि यह दोपहर के बाद का समय है।"
+            },
+            {
+              "english": "Hour: 2 + 12 = 14\nMinutes stay the same: 18",
+              "hindi": "घंटा: 2 + 12 = 14\nमिनट वैसे ही रहेंगे: 18"
+            },
+            {
+              "english": "So, 2:18 p.m. becomes 14:18 in 24-hour clock time.",
+              "hindi": "इसलिए 2:18 p.m. = 14:18 हो जाता है।"
+            },
+            {
+              "english": "Final answer: 1418 hours.",
+              "hindi": "अंतिम उत्तर: 1418 hours."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1787,8 +2039,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "10:00 p.m. is in the evening. To change a p.m. time to 24-hour time, add 12 to the hour, except for 12 p.m.",
+              "hindi": "10:00 p.m. शाम का समय है। 24-hour clock में p.m. के समय को बदलने के लिए, 12 p.m. को छोड़कर घंटे में 12 जोड़ते हैं।"
+            },
+            {
+              "english": "Here, the hour is 10.\n10 + 12 = 22\nSo, 10:00 p.m. = 22:00 in 24-hour time.",
+              "hindi": "यहाँ घंटा 10 है।\n10 + 12 = 22\nइसलिए, 10:00 p.m. = 22:00 होता है।"
+            },
+            {
+              "english": "Final answer: 2200 hours",
+              "hindi": "अंतिम उत्तर: 2200 hours"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1851,8 +2119,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: In 24-hour time, a.m. times from 12:00 a.m. to 12:59 a.m. are written with 00 for the hour.\nStep 2: The time 0:58 a.m. is 58 minutes after midnight.\nStep 3: So we write the hour as 00 and keep the minutes as 58.\nTherefore, 0:58 a.m. becomes 0058 hours.\nFinal answer: 0058 hours.",
+              "hindi": "चरण 1: 24-hour clock में 12:00 a.m. से 12:59 a.m. तक के समय को घंटे के लिए 00 लिखा जाता है।\nचरण 2: 0:58 a.m. का मतलब है आधी रात के बाद 58 मिनट।\nचरण 3: इसलिए घंटे 00 होंगे और मिनट 58 ही रहेंगे।\nइसलिए 0:58 a.m. को 0058 hours लिखा जाता है।\nअंतिम उत्तर: 0058 hours."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1915,8 +2191,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "12:58 p.m. is in the afternoon.\nTo write it in 24-hour time, we keep 12 as 12 when the time is between 12:00 p.m. and 12:59 p.m.\nSo, 12:58 p.m. = 1258 hours.\nFinal answer: 1258 hours.",
+              "hindi": "12:58 p.m. दोपहर का समय है।\n24-hour clock में, 12:00 p.m. से 12:59 p.m. तक hour 12 ही रहता है।\nइसलिए 12:58 p.m. = 1258 hours।\nअंतिम उत्तर: 1258 hours।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1979,8 +2263,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 1:10 a.m. into 24-hour clock time, follow these steps:\n1. It is a.m., so we keep the same hour.\n2. For times from 12:00 a.m. to 11:59 a.m., we write the hour with two digits.\n3. So 1:10 a.m. becomes 01:10.\n4. In 24-hour format, this is written as 0110 hours.",
+              "hindi": "1:10 a.m. को 24-घंटे की घड़ी में बदलने के लिए ये कदम देखें:\n1. यह a.m. समय है, इसलिए घंटे को उसी तरह रखा जाता है।\n2. 12:00 a.m. से 11:59 a.m. तक के समय में घंटे को दो अंकों में लिखा जाता है।\n3. इसलिए 1:10 a.m. = 01:10 होता है।\n4. 24-घंटे के रूप में इसे 0110 hours लिखा जाता है।"
+            },
+            {
+              "english": "Final answer: 0110 hours",
+              "hindi": "अंतिम उत्तर: 0110 hours"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2043,8 +2339,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 2:30 a.m. into 24-hour clock time:\n1. For a.m. times, the hour stays the same in 24-hour time.\n2. The time is 2:30 a.m., so the hour is 2.\n3. Write a zero before 2 to make it two digits: 02.\n4. Keep the minutes the same: 30.\nSo, 2:30 a.m. = 02:30 hours.\nFinal answer: 0230 hours",
+              "hindi": "2:30 a.m. को 24-घंटे की घड़ी में बदलने के लिए:\n1. a.m. के समय में घंटा वही रहता है।\n2. समय 2:30 a.m. है, इसलिए घंटा 2 ही रहेगा।\n3. 2 के आगे 0 लगाकर उसे दो अंकों में लिखते हैं: 02.\n4. मिनट वही रहेंगे: 30.\nइसलिए 2:30 a.m. = 02:30 hours.\nअंतिम उत्तर: 0230 hours"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2107,8 +2411,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 9:30 p.m. into 24-hour clock time, follow these steps:",
+              "hindi": "9:30 p.m. को 24-hour clock time में बदलने के लिए ये कदम अपनाइए:"
+            },
+            {
+              "english": "1. 9:30 p.m. is an evening time, so it is a p.m. time.\n2. For p.m. times, add 12 to the hour number, unless it is 12 p.m.\n3. 9 + 12 = 21.\n4. Keep the minutes the same: 30 minutes.\n5. So, 9:30 p.m. becomes 21:30 in 24-hour time.",
+              "hindi": "1. 9:30 p.m. शाम का समय है, इसलिए यह p.m. time है।\n2. p.m. के समय में, घंटे वाली संख्या में 12 जोड़ते हैं, लेकिन 12 p.m. के लिए ऐसा नहीं करते।\n3. 9 + 12 = 21.\n4. मिनट वही रहते हैं: 30 मिनट।\n5. इसलिए 9:30 p.m. = 21:30 in 24-hour time."
+            },
+            {
+              "english": "Final answer: 2130 hours.",
+              "hindi": "Final answer: 2130 hours."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2172,8 +2492,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us read the timetable carefully.",
+              "hindi": "आइए समय-सारणी को ध्यान से पढ़ें।"
+            },
+            {
+              "english": "1. Find plane B in the table.\n2. Look at the time given for plane B leaving Delhi.\n3. The time shown is 12:10.\n4. Since this is after 12:00 noon, we write it as p.m.",
+              "hindi": "1. तालिका में विमान B को ढूँढिए।\n2. विमान B के दिल्ली से प्रस्थान का समय देखिए।\n3. दिया गया समय 12:10 है।\n4. क्योंकि यह 12:00 दोपहर के बाद का समय है, इसलिए इसे p.m. लिखेंगे।"
+            },
+            {
+              "english": "So, plane B leaves Delhi at 12:10 p.m.",
+              "hindi": "इसलिए विमान B दिल्ली से 12:10 p.m. पर निकलता है।"
+            },
+            {
+              "english": "Final answer: 12:10 p.m.",
+              "hindi": "अंतिम उत्तर: 12:10 p.m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2237,8 +2577,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find when plane A leaves Lucknow, we look at the departure time of plane A from Lucknow in the timetable.",
+              "hindi": "प्लेन A लखनऊ से कब निकलती है, यह जानने के लिए हमें टाइम-टेबल में लखनऊ वाले departure time को देखना है।"
+            },
+            {
+              "english": "Step 1: Read the row for plane A.\nStep 2: Find the column for Lucknow departure.\nStep 3: The time shown is 0:45 a.m.",
+              "hindi": "चरण 1: प्लेन A की पंक्ति पढ़ें।\nचरण 2: लखनऊ के departure time को देखें।\nचरण 3: वहाँ समय 0:45 a.m. दिया है।"
+            },
+            {
+              "english": "So, plane A leaves Lucknow at 0:45 a.m.",
+              "hindi": "इसलिए, प्लेन A लखनऊ से 0:45 a.m. पर निकलती है।"
+            },
+            {
+              "english": "Final answer: 0:45 a.m.",
+              "hindi": "अंतिम उत्तर: 0:45 a.m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2302,8 +2662,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us look at the timetable and find plane C.",
+              "hindi": "आइए समय-सारणी देखकर विमान C का समय निकालते हैं।"
+            },
+            {
+              "english": "1. We need the arrival time of plane C at Patna.\n2. From the table, plane C reaches Patna at 8:00 p.m.",
+              "hindi": "1. हमें विमान C के पटना पहुँचने का समय ढूँढना है।\n2. तालिका के अनुसार, विमान C पटना 8:00 p.m. पर पहुँचता है।"
+            },
+            {
+              "english": "So, plane C reaches Patna at 8:00 p.m.",
+              "hindi": "अतः विमान C पटना 8:00 p.m. पर पहुँचता है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2367,8 +2743,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Look at the row for **New Delhi**.\nStep 2: Find the time for the **Purva Express**.\nStep 3: The time shown is **1610** in 24-hour format.\nStep 4: Convert 1610 to a.m./p.m. time.\n- 1600 = 4:00 p.m.\n- 1610 = 4:10 p.m.",
+              "hindi": "चरण 1: **New Delhi** वाली पंक्ति को देखिए।\nचरण 2: **Purva Express** का समय खोजिए।\nचरण 3: वहाँ समय **1610** लिखा है, जो 24 घंटे वाली समय-प्रणाली में है।\nचरण 4: 1610 को a.m./p.m. में बदलिए।\n- 1600 = 4:00 p.m.\n- 1610 = 4:10 p.m."
+            },
+            {
+              "english": "So, the Purva Express leaves New Delhi at **4:10 p.m.**",
+              "hindi": "इसलिए Purva Express **शाम 4:10 बजे** New Delhi से निकलती है।"
+            },
+            {
+              "english": "Final answer: 4:10 p.m.",
+              "hindi": "अंतिम उत्तर: शाम 4:10 बजे"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2432,8 +2824,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "From the table, the Kalka Mail reaches Asansol at 0046.",
+              "hindi": "तालिका में आसनसोल के सामने कलका मेल का समय 0046 दिया है।"
+            },
+            {
+              "english": "Step 1: Read the time as 00:46.\nStep 2: In a 12-hour clock, 00:46 means 46 minutes after midnight.\nStep 3: Time after midnight is written as a.m.",
+              "hindi": "चरण 1: इसे 00:46 पढ़ते हैं।\nचरण 2: 12-घंटे वाली घड़ी में 00:46 का मतलब आधी रात के 46 मिनट बाद होता है।\nचरण 3: आधी रात के बाद का समय a.m. होता है।"
+            },
+            {
+              "english": "So, 00:46 = 12:46 a.m.",
+              "hindi": "इसलिए 00:46 = 12:46 a.m. होता है।"
+            },
+            {
+              "english": "Final answer: 12:46 a.m.",
+              "hindi": "अंतिम उत्तर: 12:46 a.m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2497,8 +2909,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the answer, look at the row for **Howrah** and the column for **Rajdhani-Express** in the table.",
+              "hindi": "उत्तर निकालने के लिए तालिका में **Howrah** की पंक्ति और **Rajdhani-Express** का स्तम्भ देखें।"
+            },
+            {
+              "english": "The time shown is **1205**.",
+              "hindi": "वहाँ समय **1205** दिया है।"
+            },
+            {
+              "english": "In railway time-tables, **1205** means **12:05**.\n- Since this is after 12:00 noon, it is **p.m.**",
+              "hindi": "रेलवे समय-सारिणी में **1205** का अर्थ **12:05** होता है।\n- क्योंकि यह 12:00 दोपहर के बाद है, इसलिए यह **p.m.** है।"
+            },
+            {
+              "english": "So, the Rajdhani-Express reaches Howrah at **12:05 p.m.**",
+              "hindi": "इसलिए राजधानी-एक्सप्रेस हावड़ा **12:05 p.m.** पर पहुँचती है।"
+            },
+            {
+              "english": "Final Answer: **12:05 p.m.**",
+              "hindi": "अंतिम उत्तर: **12:05 p.m.**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2562,8 +2998,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The table shows that the Purva Express arrives at Kanpur at 2305 hours.",
+              "hindi": "तालिका में Purva Express के सामने Kanpur के लिए आगमन समय 2305 घंटे दिया है।"
+            },
+            {
+              "english": "To write this in a.m. / p.m. form:\n- 2305 hours = 23:05 in 24-hour time\n- 23:05 is 11:05 p.m. in 12-hour time",
+              "hindi": "अब इसे a.m./p.m. में बदलते हैं:\n- 2305 घंटे = 24 घंटे वाली समय-पद्धति में 23:05\n- 23:05 = 12 घंटे वाली समय-पद्धति में 11:05 p.m."
+            },
+            {
+              "english": "So, the Purva Express reaches Kanpur at 11:05 p.m.",
+              "hindi": "इसलिए Purva Express कानपुर पहुँचती है 11:05 p.m. यानी 11:05 बजे रात।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2626,8 +3078,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert days into hours, use the fact that 1 day = 24 hours.",
+              "hindi": "दिनों को घंटों में बदलने के लिए हम जानते हैं कि 1 दिन = 24 घंटे होते हैं।"
+            },
+            {
+              "english": "So, 8 days = 8 × 24 hours.",
+              "hindi": "इसलिए, 8 दिन = 8 × 24 घंटे।"
+            },
+            {
+              "english": "8 × 24 = 192.",
+              "hindi": "8 × 24 = 192।"
+            },
+            {
+              "english": "Final answer: 192 hours.",
+              "hindi": "अंतिम उत्तर: 192 घंटे।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2690,8 +3162,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert days into hours, we use:\n1 day = 24 hours",
+              "hindi": "दिनों को घंटों में बदलने के लिए हम उपयोग करते हैं:\n1 दिन = 24 घंटे"
+            },
+            {
+              "english": "Now multiply:\n17 days = 17 × 24 hours\n17 × 24 = 408",
+              "hindi": "अब गुणा करें:\n17 दिन = 17 × 24 घंटे\n17 × 24 = 408"
+            },
+            {
+              "english": "So, 17 days = 408 hours.",
+              "hindi": "इसलिए, 17 दिन = 408 घंटे।"
+            },
+            {
+              "english": "Final Answer: 408 hours",
+              "hindi": "अंतिम उत्तर: 408 घंटे"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2754,8 +3246,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 6 days 19 hours into hours, we first change the days into hours.",
+              "hindi": "6 दिन 19 घंटे को घंटे में बदलने के लिए, पहले दिनों को घंटों में बदलते हैं।"
+            },
+            {
+              "english": "1 day = 24 hours\nSo, 6 days = 6 × 24 = 144 hours",
+              "hindi": "1 दिन = 24 घंटे\nइसलिए, 6 दिन = 6 × 24 = 144 घंटे"
+            },
+            {
+              "english": "Now add the extra 19 hours:\n144 + 19 = 163 hours",
+              "hindi": "अब 19 घंटे और जोड़ते हैं:\n144 + 19 = 163 घंटे"
+            },
+            {
+              "english": "Final answer: 163 hours",
+              "hindi": "अंतिम उत्तर: 163 घंटे"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2818,8 +3330,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 14 days 6 hours into hours, we first change the days into hours.",
+              "hindi": "14 days 6 hours को hours में बदलने के लिए, पहले days को hours में बदलते हैं।"
+            },
+            {
+              "english": "1 day = 24 hours\nSo, 14 days = 14 × 24 = 336 hours",
+              "hindi": "1 day = 24 hours\nइसलिए, 14 days = 14 × 24 = 336 hours"
+            },
+            {
+              "english": "Now add the extra 6 hours:\n336 + 6 = 342 hours",
+              "hindi": "अब 6 hours और जोड़ते हैं:\n336 + 6 = 342 hours"
+            },
+            {
+              "english": "Final answer: 342 hours",
+              "hindi": "Final answer: 342 hours"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2882,8 +3414,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 11 days 11 hours into hours, use:\n1 day = 24 hours",
+              "hindi": "11 दिन 11 घंटे को घंटों में बदलने के लिए:\n1 दिन = 24 घंटे"
+            },
+            {
+              "english": "Step 1: Convert 11 days into hours.\n11 × 24 = 264 hours",
+              "hindi": "चरण 1: 11 दिनों को घंटों में बदलें।\n11 × 24 = 264 घंटे"
+            },
+            {
+              "english": "Step 2: Add the extra 11 hours.\n264 + 11 = 275 hours",
+              "hindi": "चरण 2: 11 घंटे और जोड़ें।\n264 + 11 = 275 घंटे"
+            },
+            {
+              "english": "Final answer: 275 hours.",
+              "hindi": "अंतिम उत्तर: 275 घंटे।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2946,8 +3498,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert hours into minutes, remember this rule: 1 hour = 60 minutes.",
+              "hindi": "घंटों को मिनटों में बदलने के लिए यह नियम याद रखें: 1 घंटा = 60 मिनट होता है।"
+            },
+            {
+              "english": "So, for 10 hours:\n10 × 60 = 600",
+              "hindi": "अब 10 घंटे के लिए:\n10 × 60 = 600"
+            },
+            {
+              "english": "Therefore, 10 hours = 600 minutes.",
+              "hindi": "इसलिए, 10 घंटे = 600 मिनट।"
+            },
+            {
+              "english": "Final answer: 600 minutes",
+              "hindi": "अंतिम उत्तर: 600 मिनट"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3010,8 +3582,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 8 hours 56 minutes into minutes, follow these steps:",
+              "hindi": "8 घंटे 56 मिनट को मिनटों में बदलने के लिए ये कदम follow करें:"
+            },
+            {
+              "english": "1. We know that 1 hour = 60 minutes.\n2. So, 8 hours = 8 × 60 = 480 minutes.\n3. Now add the extra 56 minutes.\n4. 480 + 56 = 536 minutes.",
+              "hindi": "1. हमें पता है कि 1 घंटा = 60 मिनट.\n2. इसलिए 8 घंटे = 8 × 60 = 480 मिनट.\n3. अब 56 मिनट और जोड़ दें.\n4. 480 + 56 = 536 मिनट."
+            },
+            {
+              "english": "Final answer: 536 minutes.",
+              "hindi": "अंतिम उत्तर: 536 मिनट."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3074,8 +3662,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 16 hours 43 minutes into minutes, we first convert the hours into minutes.",
+              "hindi": "16 घंटे 43 मिनट को मिनटों में बदलने के लिए, पहले घंटों को मिनटों में बदलते हैं।"
+            },
+            {
+              "english": "1 hour = 60 minutes\nSo, 16 hours = 16 × 60 = 960 minutes.",
+              "hindi": "1 घंटा = 60 मिनट\nइसलिए, 16 घंटे = 16 × 60 = 960 मिनट।"
+            },
+            {
+              "english": "Now add the extra 43 minutes:\n960 + 43 = 1003 minutes.",
+              "hindi": "अब 43 मिनट और जोड़ते हैं:\n960 + 43 = 1003 मिनट।"
+            },
+            {
+              "english": "So, 16 hours 43 minutes = 1003 minutes.",
+              "hindi": "इसलिए, 16 घंटे 43 मिनट = 1003 मिनट।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3138,8 +3746,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 3 days 12 hours 25 minutes into minutes, we convert each part step by step.",
+              "hindi": "3 दिन 12 घंटे 25 मिनट को मिनटों में बदलने के लिए, हम हर भाग को अलग-अलग बदलते हैं।"
+            },
+            {
+              "english": "1 day = 24 hours\n1 hour = 60 minutes",
+              "hindi": "1 दिन = 24 घंटे\n1 घंटा = 60 मिनट"
+            },
+            {
+              "english": "Step 1: Convert 3 days into minutes\n3 days = 3 × 24 × 60 = 4320 minutes",
+              "hindi": "चरण 1: 3 दिन को मिनटों में बदलें\n3 दिन = 3 × 24 × 60 = 4320 मिनट"
+            },
+            {
+              "english": "Step 2: Convert 12 hours into minutes\n12 hours = 12 × 60 = 720 minutes",
+              "hindi": "चरण 2: 12 घंटे को मिनटों में बदलें\n12 घंटे = 12 × 60 = 720 मिनट"
+            },
+            {
+              "english": "Step 3: Keep 25 minutes as it is\n25 minutes = 25 minutes",
+              "hindi": "चरण 3: 25 मिनट वैसे ही रहेंगे\n25 मिनट = 25 मिनट"
+            },
+            {
+              "english": "Step 4: Add all the minutes\n4320 + 720 + 25 = 5065 minutes",
+              "hindi": "चरण 4: सभी मिनट जोड़ें\n4320 + 720 + 25 = 5065 मिनट"
+            },
+            {
+              "english": "Final answer: 5065 minutes",
+              "hindi": "अंतिम उत्तर: 5065 मिनट"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3202,8 +3842,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 2 days into minutes:\n1 day = 24 hours\n1 hour = 60 minutes\nSo, 2 days = 2 × 24 = 48 hours\nNow convert 48 hours into minutes:\n48 × 60 = 2880 minutes\nFinal answer: 2880 minutes.",
+              "hindi": "2 दिन को मिनटों में बदलने के लिए:\n1 दिन = 24 घंटे\n1 घंटा = 60 मिनट\nइसलिए, 2 दिन = 2 × 24 = 48 घंटे\nअब 48 घंटे को मिनटों में बदलते हैं:\n48 × 60 = 2880 मिनट\nअंतिम उत्तर: 2880 मिनट।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3266,8 +3914,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert minutes into seconds, we use the fact that 1 minute = 60 seconds.",
+              "hindi": "मिनट को सेकंड में बदलने के लिए हम जानते हैं कि 1 मिनट = 60 सेकंड होता है।"
+            },
+            {
+              "english": "So, for 9 minutes:\n9 × 60 = 540",
+              "hindi": "अब 9 मिनट के लिए:\n9 × 60 = 540"
+            },
+            {
+              "english": "Therefore, 9 minutes = 540 seconds.",
+              "hindi": "इसलिए, 9 मिनट = 540 सेकंड।"
+            },
+            {
+              "english": "Final answer: 540 seconds.",
+              "hindi": "अंतिम उत्तर: 540 सेकंड।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3330,8 +3998,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 6 minutes 54 seconds into seconds, we do it step by step.",
+              "hindi": "6 मिनट 54 सेकंड को सेकंड में बदलने के लिए हम इसे धीरे-धीरे करते हैं।"
+            },
+            {
+              "english": "1 minute = 60 seconds",
+              "hindi": "1 मिनट = 60 सेकंड"
+            },
+            {
+              "english": "So, 6 minutes = 6 × 60 = 360 seconds",
+              "hindi": "इसलिए, 6 मिनट = 6 × 60 = 360 सेकंड"
+            },
+            {
+              "english": "Now add the extra 54 seconds:\n360 + 54 = 414 seconds",
+              "hindi": "अब 54 सेकंड और जोड़ते हैं:\n360 + 54 = 414 सेकंड"
+            },
+            {
+              "english": "Final answer: 414 seconds",
+              "hindi": "अंतिम उत्तर: 414 सेकंड"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3394,8 +4086,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 13 minutes 36 seconds into seconds:\n1. 1 minute = 60 seconds.\n2. 13 minutes = 13 × 60 = 780 seconds.\n3. Add the extra 36 seconds: 780 + 36 = 816 seconds.\nFinal answer: 816 seconds.",
+              "hindi": "13 मिनट 36 सेकंड को सेकंड में बदलने के लिए:\n1. 1 मिनट = 60 सेकंड होता है।\n2. 13 मिनट = 13 × 60 = 780 सेकंड।\n3. अब 36 सेकंड और जोड़ें: 780 + 36 = 816 सेकंड।\nअंतिम उत्तर: 816 सेकंड।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3458,8 +4158,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 3 hours 25 minutes 16 seconds into seconds, we change each part into seconds and then add them.",
+              "hindi": "3 घंटे 25 मिनट 16 सेकंड को सेकंड में बदलने के लिए, हम हर भाग को सेकंड में बदलते हैं और फिर जोड़ते हैं।"
+            },
+            {
+              "english": "1 hour = 3600 seconds\nSo, 3 hours = 3 × 3600 = 10800 seconds",
+              "hindi": "1 घंटा = 3600 सेकंड\nइसलिए, 3 घंटे = 3 × 3600 = 10800 सेकंड"
+            },
+            {
+              "english": "1 minute = 60 seconds\nSo, 25 minutes = 25 × 60 = 1500 seconds",
+              "hindi": "1 मिनट = 60 सेकंड\nइसलिए, 25 मिनट = 25 × 60 = 1500 सेकंड"
+            },
+            {
+              "english": "16 seconds = 16 seconds",
+              "hindi": "16 सेकंड = 16 सेकंड"
+            },
+            {
+              "english": "Now add them:\n10800 + 1500 + 16 = 12316",
+              "hindi": "अब सभी को जोड़ते हैं:\n10800 + 1500 + 16 = 12316"
+            },
+            {
+              "english": "So, 3 hours 25 minutes 16 seconds = 12316 seconds.",
+              "hindi": "इसलिए, 3 घंटे 25 मिनट 16 सेकंड = 12316 सेकंड।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3522,8 +4250,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 5 hours 5 minutes 5 seconds into seconds, we convert each part separately.",
+              "hindi": "5 घंटे 5 मिनट 5 सेकंड को सेकंड में बदलने के लिए, हम हर भाग को अलग-अलग बदलते हैं।"
+            },
+            {
+              "english": "1. 1 hour = 3600 seconds\n   So, 5 hours = 5 × 3600 = 18000 seconds",
+              "hindi": "1. 1 घंटा = 3600 सेकंड\n   इसलिए, 5 घंटे = 5 × 3600 = 18000 सेकंड"
+            },
+            {
+              "english": "2. 1 minute = 60 seconds\n   So, 5 minutes = 5 × 60 = 300 seconds",
+              "hindi": "2. 1 मिनट = 60 सेकंड\n   इसलिए, 5 मिनट = 5 × 60 = 300 सेकंड"
+            },
+            {
+              "english": "3. 5 seconds = 5 seconds",
+              "hindi": "3. 5 सेकंड = 5 सेकंड"
+            },
+            {
+              "english": "4. Add them all:\n   18000 + 300 + 5 = 18305",
+              "hindi": "4. अब सबको जोड़ें:\n   18000 + 300 + 5 = 18305"
+            },
+            {
+              "english": "So, 5 hours 5 minutes 5 seconds = 18305 seconds.",
+              "hindi": "इसलिए, 5 घंटे 5 मिनट 5 सेकंड = 18305 सेकंड।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3586,8 +4342,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know that 1 year = 12 months.",
+              "hindi": "हम जानते हैं कि 1 वर्ष = 12 महीने होते हैं।"
+            },
+            {
+              "english": "So, to convert 4 years into months, multiply by 12:\n4 × 12 = 48",
+              "hindi": "अब 4 वर्ष को महीनों में बदलने के लिए 12 से गुणा करेंगे:\n4 × 12 = 48"
+            },
+            {
+              "english": "So, 4 years = 48 months.",
+              "hindi": "इसलिए, 4 वर्ष = 48 महीने।"
+            },
+            {
+              "english": "Final Answer: 48 months",
+              "hindi": "अंतिम उत्तर: 48 महीने"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3650,8 +4426,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: We know that 1 year = 12 months.",
+              "hindi": "चरण 1: हमें पता है कि 1 वर्ष = 12 महीने होते हैं।"
+            },
+            {
+              "english": "Step 2: So, 5 years = 5 × 12 = 60 months.",
+              "hindi": "चरण 2: इसलिए, 5 वर्ष = 5 × 12 = 60 महीने।"
+            },
+            {
+              "english": "Step 3: Add the extra 10 months.\n60 + 10 = 70 months.",
+              "hindi": "चरण 3: अब 10 महीने और जोड़ें।\n60 + 10 = 70 महीने।"
+            },
+            {
+              "english": "So, 5 years 10 months = 70 months.",
+              "hindi": "इसलिए, 5 वर्ष 10 महीने = 70 महीने।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3714,8 +4510,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 14 years 8 months into months, we do it step by step.",
+              "hindi": "14 वर्ष 8 महीने को महीनों में बदलने के लिए हम इसे चरणों में करते हैं।"
+            },
+            {
+              "english": "1. We know that 1 year = 12 months.\n2. So, 14 years = 14 × 12 = 168 months.\n3. Now add the extra 8 months.\n4. 168 + 8 = 176 months.",
+              "hindi": "1. हम जानते हैं कि 1 वर्ष = 12 महीने होते हैं।\n2. इसलिए 14 वर्ष = 14 × 12 = 168 महीने।\n3. अब इसमें 8 महीने और जोड़ते हैं।\n4. 168 + 8 = 176 महीने।"
+            },
+            {
+              "english": "Final answer: 176 months",
+              "hindi": "अंतिम उत्तर: 176 महीने"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3778,8 +4590,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 5 weeks 6 days into days:\n1 week = 7 days\n5 weeks = 5 × 7 = 35 days\nNow add the extra 6 days:\n35 + 6 = 41 days\nFinal answer: 41 days",
+              "hindi": "5 सप्ताह 6 दिन को दिनों में बदलने के लिए:\n1 सप्ताह = 7 दिन\n5 सप्ताह = 5 × 7 = 35 दिन\nअब 6 दिन और जोड़ें:\n35 + 6 = 41 दिन\nअंतिम उत्तर: 41 दिन"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3842,8 +4662,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 week = 7 days.\nSo, 8 weeks = 8 × 7 = 56 days.\nNow add the extra 4 days:\n56 + 4 = 60 days.\nFinal answer: 60 days.",
+              "hindi": "1 सप्ताह = 7 दिन।\nतो, 8 सप्ताह = 8 × 7 = 56 दिन।\nअब 4 दिन और जोड़ते हैं:\n56 + 4 = 60 दिन।\nअंतिम उत्तर: 60 दिन।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3906,8 +4734,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know that 1 week = 7 days.\nSo, 43 weeks = 43 × 7 = 301 days.\nNow add the extra 1 day:\n301 + 1 = 302 days.\nFinal answer: 302 days.",
+              "hindi": "हमें पता है कि 1 सप्ताह = 7 दिन होते हैं।\nतो, 43 सप्ताह = 43 × 7 = 301 दिन।\nअब 1 दिन और जोड़ते हैं:\n301 + 1 = 302 दिन।\nअंतिम उत्तर: 302 दिन।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3970,8 +4806,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert years into days, we use:\n1 year = 365 days",
+              "hindi": "वर्ष को दिनों में बदलने के लिए हम उपयोग करते हैं:\n1 वर्ष = 365 दिन"
+            },
+            {
+              "english": "Now for 2 years:\n2 × 365 = 730",
+              "hindi": "अब 2 वर्ष के लिए:\n2 × 365 = 730"
+            },
+            {
+              "english": "So, 2 years = 730 days.",
+              "hindi": "इसलिए, 2 वर्ष = 730 दिन।"
+            },
+            {
+              "english": "Final answer: 730 days",
+              "hindi": "अंतिम उत्तर: 730 दिन"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4034,8 +4890,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 3 years 120 days into days, we use the fact that 1 year = 365 days.",
+              "hindi": "3 वर्ष 120 दिन को दिनों में बदलने के लिए हम यह जानते हैं कि 1 वर्ष = 365 दिन होते हैं।"
+            },
+            {
+              "english": "Step 1: Convert 3 years into days.\n3 years = 3 × 365 = 1095 days",
+              "hindi": "चरण 1: 3 वर्ष को दिनों में बदलें।\n3 वर्ष = 3 × 365 = 1095 दिन"
+            },
+            {
+              "english": "Step 2: Add the extra 120 days.\n1095 + 120 = 1215 days",
+              "hindi": "चरण 2: अब 120 दिन और जोड़ें।\n1095 + 120 = 1215 दिन"
+            },
+            {
+              "english": "So, 3 years 120 days = 1215 days.",
+              "hindi": "इसलिए, 3 वर्ष 120 दिन = 1215 दिन।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4098,8 +4974,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 137 minutes into hours and minutes, use the fact that 1 hour = 60 minutes.",
+              "hindi": "137 मिनट को घंटे और मिनट में बदलने के लिए याद रखें कि 1 घंटा = 60 मिनट होता है।"
+            },
+            {
+              "english": "Step 1: Divide 137 by 60.\n137 minutes = 2 groups of 60 minutes, with some minutes left over.",
+              "hindi": "चरण 1: 137 को 60 से भाग दें।\n137 मिनट में 60 मिनट के 2 पूरे घंटे बनते हैं, और कुछ मिनट बचते हैं।"
+            },
+            {
+              "english": "Step 2: Find the leftover minutes.\n2 × 60 = 120 minutes\n137 - 120 = 17 minutes",
+              "hindi": "चरण 2: बचे हुए मिनट निकालें।\n2 × 60 = 120 मिनट\n137 - 120 = 17 मिनट"
+            },
+            {
+              "english": "So, 137 minutes = 2 hours and 17 minutes.",
+              "hindi": "इसलिए, 137 मिनट = 2 घंटे 17 मिनट।"
+            },
+            {
+              "english": "Final answer: 2 hours 17 minutes",
+              "hindi": "अंतिम उत्तर: 2 घंटे 17 मिनट"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4162,8 +5062,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 hour = 60 minutes. To convert 385 minutes into hours and minutes, divide 385 by 60. 385 ÷ 60 = 6 remainder 25. This means 385 minutes has 6 full hours and 25 minutes left. Final answer: 6 hours 25 minutes.",
+              "hindi": "1 घंटा = 60 मिनट होते हैं। 385 मिनट को घंटों और मिनटों में बदलने के लिए 385 को 60 से भाग देते हैं। 385 ÷ 60 = 6 शेष 25। इसका मतलब है कि 385 मिनट में 6 पूरे घंटे और 25 मिनट बचते हैं। अंतिम उत्तर: 6 घंटे 25 मिनट।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4226,8 +5134,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know that 1 hour = 60 minutes.",
+              "hindi": "हमें पता है कि 1 घंटा = 60 मिनट होता है।"
+            },
+            {
+              "english": "To convert 1023 minutes into hours and minutes, divide 1023 by 60.",
+              "hindi": "1023 मिनट को घंटे और मिनट में बदलने के लिए 1023 को 60 से भाग देते हैं।"
+            },
+            {
+              "english": "1023 ÷ 60 = 17 remainder 3",
+              "hindi": "1023 ÷ 60 = 17 शेष 3"
+            },
+            {
+              "english": "This means:\n- 17 full hours\n- 3 minutes left",
+              "hindi": "इसका मतलब है:\n- 17 पूरे घंटे\n- 3 मिनट बचे"
+            },
+            {
+              "english": "So, 1023 minutes = 17 hours 3 minutes.",
+              "hindi": "इसलिए, 1023 मिनट = 17 घंटे 3 मिनट।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4290,8 +5222,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 2006 minutes into hours and minutes, we use:\n1 hour = 60 minutes.",
+              "hindi": "2006 मिनट को घंटे और मिनट में बदलने के लिए हम यह जानते हैं:\n1 घंटा = 60 मिनट।"
+            },
+            {
+              "english": "Step 1: Divide 2006 by 60.\n2006 ÷ 60 = 33 remainder 26.",
+              "hindi": "चरण 1: 2006 को 60 से भाग दीजिए।\n2006 ÷ 60 = 33 शेष 26।"
+            },
+            {
+              "english": "Step 2: The quotient 33 means 33 full hours.\nThe remainder 26 means 26 extra minutes.",
+              "hindi": "चरण 2: 33 का मतलब है 33 पूरे घंटे।\nऔर 26 शेष का मतलब है 26 अतिरिक्त मिनट।"
+            },
+            {
+              "english": "So, 2006 minutes = 33 hours 26 minutes.",
+              "hindi": "इसलिए, 2006 मिनट = 33 घंटे 26 मिनट।"
+            },
+            {
+              "english": "Final answer: 33 hours 26 minutes",
+              "hindi": "अंतिम उत्तर: 33 घंटे 26 मिनट"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4354,8 +5310,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 minute = 60 seconds. To convert 1354 seconds into minutes and seconds, divide 1354 by 60. 1354 ÷ 60 = 22 remainder 34. So, 1354 seconds = 22 minutes 34 seconds. Final answer: 22 minutes 34 seconds.",
+              "hindi": "1 मिनट = 60 सेकंड। 1354 सेकंड को मिनट और सेकंड में बदलने के लिए 1354 को 60 से भाग देते हैं। 1354 ÷ 60 = 22 शेष 34। इसलिए 1354 सेकंड = 22 मिनट 34 सेकंड। अंतिम उत्तर: 22 मिनट 34 सेकंड।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4418,8 +5382,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert seconds into minutes and seconds, we use the fact that 1 minute = 60 seconds.",
+              "hindi": "सेकंड को मिनट और सेकंड में बदलने के लिए हम जानते हैं कि 1 मिनट = 60 सेकंड होता है।"
+            },
+            {
+              "english": "Step 1: Divide 2105 by 60.\n2105 ÷ 60 = 35 remainder 5",
+              "hindi": "चरण 1: 2105 को 60 से भाग दें।\n2105 ÷ 60 = 35 शेष 5"
+            },
+            {
+              "english": "Step 2: This means 35 full minutes and 5 seconds are left.\nSo, 2105 seconds = 35 minutes 5 seconds.",
+              "hindi": "चरण 2: इसका मतलब है 35 पूरे मिनट और 5 सेकंड बचे।\nइसलिए, 2105 सेकंड = 35 मिनट 5 सेकंड।"
+            },
+            {
+              "english": "Final answer: 35 minutes 5 seconds.",
+              "hindi": "अंतिम उत्तर: 35 मिनट 5 सेकंड।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4482,8 +5466,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 3268 seconds into minutes and seconds, we divide by 60 because 1 minute = 60 seconds.",
+              "hindi": "3268 सेकंड को मिनट और सेकंड में बदलने के लिए हमें 60 से भाग देना होगा, क्योंकि 1 मिनट = 60 सेकंड होता है।"
+            },
+            {
+              "english": "Step 1: Divide 3268 by 60.\n3268 ÷ 60 = 54 remainder 28",
+              "hindi": "Step 1: 3268 को 60 से भाग दें।\n3268 ÷ 60 = 54 शेष 28"
+            },
+            {
+              "english": "Step 2: Check it.\n54 × 60 = 3240 seconds\n3268 - 3240 = 28 seconds left",
+              "hindi": "Step 2: जाँच करें।\n54 × 60 = 3240 सेकंड\n3268 - 3240 = 28 सेकंड बचे"
+            },
+            {
+              "english": "So, 3268 seconds = 54 minutes 28 seconds.",
+              "hindi": "इसलिए, 3268 सेकंड = 54 मिनट 28 सेकंड।"
+            },
+            {
+              "english": "Final answer: 54 minutes 28 seconds",
+              "hindi": "अंतिम उत्तर: 54 मिनट 28 सेकंड"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4546,8 +5554,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 73 hours into days and hours, remember that 24 hours = 1 day.",
+              "hindi": "73 घंटे को दिन और घंटे में बदलने के लिए याद रखें कि 24 घंटे = 1 दिन होता है।"
+            },
+            {
+              "english": "Step 1: Divide 73 by 24.\n24 goes into 73 three times because 3 × 24 = 72.",
+              "hindi": "चरण 1: 73 को 24 से भाग दें।\n24, 73 में 3 बार जाता है क्योंकि 3 × 24 = 72।"
+            },
+            {
+              "english": "Step 2: Find the remainder.\n73 - 72 = 1\nSo, 1 hour is left.",
+              "hindi": "चरण 2: शेष निकालें।\n73 - 72 = 1\nइसलिए 1 घंटा बचता है।"
+            },
+            {
+              "english": "Therefore, 73 hours = 3 days and 1 hour.\nFinal answer: 3 days 1 hour.",
+              "hindi": "इस प्रकार, 73 घंटे = 3 दिन और 1 घंटा।\nअंतिम उत्तर: 3 दिन 1 घंटा।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4610,8 +5638,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 200 hours into days and hours, we use:",
+              "hindi": "200 घंटे को दिन और घंटे में बदलने के लिए हम यह जानते हैं:"
+            },
+            {
+              "english": "1 day = 24 hours",
+              "hindi": "1 दिन = 24 घंटे"
+            },
+            {
+              "english": "Now divide 200 by 24:\n200 ÷ 24 = 8 remainder 8",
+              "hindi": "अब 200 को 24 से भाग देते हैं:\n200 ÷ 24 = 8 शेष 8"
+            },
+            {
+              "english": "This means:\n- 8 full days = 8 × 24 = 192 hours\n- Remaining hours = 200 - 192 = 8 hours",
+              "hindi": "इसका मतलब है:\n- 8 पूरे दिन = 8 × 24 = 192 घंटे\n- बचे हुए घंटे = 200 - 192 = 8 घंटे"
+            },
+            {
+              "english": "So, 200 hours = 8 days 8 hours.",
+              "hindi": "इसलिए, 200 घंटे = 8 दिन 8 घंटे।"
+            },
+            {
+              "english": "Final answer: 8 days 8 hours",
+              "hindi": "अंतिम उत्तर: 8 दिन 8 घंटे"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4674,8 +5730,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 529 hours into days and hours, we use the fact that 1 day = 24 hours.",
+              "hindi": "529 घंटे को दिन और घंटों में बदलने के लिए हम जानते हैं कि 1 दिन = 24 घंटे होते हैं।"
+            },
+            {
+              "english": "Step 1: Divide 529 by 24.\n529 ÷ 24 = 22 remainder 1",
+              "hindi": "Step 1: 529 को 24 से भाग दें।\n529 ÷ 24 = 22 शेष 1"
+            },
+            {
+              "english": "Step 2: Check the multiplication.\n24 × 22 = 528",
+              "hindi": "Step 2: जाँच करें।\n24 × 22 = 528"
+            },
+            {
+              "english": "Step 3: Find the leftover hours.\n529 - 528 = 1",
+              "hindi": "Step 3: बचा हुआ घंटा निकालें।\n529 - 528 = 1"
+            },
+            {
+              "english": "So, 529 hours = 22 days and 1 hour.",
+              "hindi": "इसलिए, 529 घंटे = 22 दिन 1 घंटा।"
+            },
+            {
+              "english": "Final answer: 22 days 1 hour",
+              "hindi": "अंतिम उत्तर: 22 दिन 1 घंटा"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4738,8 +5822,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 1016 hours into days and hours, we use the fact that:\n1 day = 24 hours",
+              "hindi": "1016 घंटे को दिन और घंटे में बदलने के लिए हम जानते हैं:\n1 दिन = 24 घंटे"
+            },
+            {
+              "english": "Step 1: Divide 1016 by 24.\n1016 ÷ 24 = 42 remainder 8",
+              "hindi": "चरण 1: 1016 को 24 से भाग दें।\n1016 ÷ 24 = 42 शेष 8"
+            },
+            {
+              "english": "Step 2: Check the multiplication.\n42 × 24 = 1008",
+              "hindi": "चरण 2: गुणा करके जाँच करें।\n42 × 24 = 1008"
+            },
+            {
+              "english": "Step 3: Find the leftover hours.\n1016 - 1008 = 8",
+              "hindi": "चरण 3: बचा हुआ समय निकालें।\n1016 - 1008 = 8"
+            },
+            {
+              "english": "So, 1016 hours = 42 days 8 hours.",
+              "hindi": "इसलिए, 1016 घंटे = 42 दिन 8 घंटे।"
+            },
+            {
+              "english": "Final answer: 42 days 8 hours",
+              "hindi": "अंतिम उत्तर: 42 दिन 8 घंटे"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4802,8 +5914,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "There are 7 days in 1 week.",
+              "hindi": "1 सप्ताह में 7 दिन होते हैं।"
+            },
+            {
+              "english": "To convert 230 days into weeks and days, divide 230 by 7.",
+              "hindi": "230 दिनों को सप्ताह और दिनों में बदलने के लिए 230 को 7 से भाग देते हैं।"
+            },
+            {
+              "english": "230 ÷ 7 = 32 remainder 6",
+              "hindi": "230 ÷ 7 = 32 शेष 6"
+            },
+            {
+              "english": "So, 230 days = 32 weeks and 6 days.",
+              "hindi": "इसलिए, 230 दिन = 32 सप्ताह 6 दिन।"
+            },
+            {
+              "english": "Final answer: 32 weeks 6 days",
+              "hindi": "अंतिम उत्तर: 32 सप्ताह 6 दिन"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4866,8 +6002,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 341 days into weeks and days, use this rule:\n1 week = 7 days",
+              "hindi": "341 दिन को सप्ताह और दिनों में बदलने के लिए यह नियम उपयोग करें:\n1 सप्ताह = 7 दिन"
+            },
+            {
+              "english": "Now divide 341 by 7:\n341 ÷ 7 = 48 remainder 5",
+              "hindi": "अब 341 को 7 से भाग दें:\n341 ÷ 7 = 48 शेष 5"
+            },
+            {
+              "english": "This means 341 days contains 48 full weeks, and 5 days are left over.",
+              "hindi": "इसका मतलब है कि 341 दिनों में 48 पूरे सप्ताह हैं और 5 दिन बचते हैं।"
+            },
+            {
+              "english": "So, 341 days = 48 weeks 5 days.",
+              "hindi": "अतः, 341 दिन = 48 सप्ताह 5 दिन।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4930,8 +6086,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 400 days into weeks and days:",
+              "hindi": "400 दिन को सप्ताह और दिनों में बदलने के लिए:"
+            },
+            {
+              "english": "1. We know that 1 week = 7 days.\n2. Divide 400 by 7.\n3. 7 × 57 = 399, so 400 ÷ 7 = 57 weeks with 1 day left.\n4. The leftover 1 day stays as 1 day.",
+              "hindi": "1. हम जानते हैं कि 1 सप्ताह = 7 दिन होते हैं।\n2. 400 को 7 से भाग देते हैं।\n3. 7 × 57 = 399 होता है, इसलिए 400 ÷ 7 = 57 सप्ताह और 1 दिन शेष बचता है।\n4. बचा हुआ 1 दिन, 1 दिन ही रहेगा।"
+            },
+            {
+              "english": "So, 400 days = 57 weeks 1 day.",
+              "hindi": "इसलिए, 400 दिन = 57 सप्ताह 1 दिन।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4994,8 +6166,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To add 2 days 18 hours and 3 days 12 hours:\n1. Add the hours first: 18 + 12 = 30 hours.\n2. Since 24 hours make 1 day, 30 hours = 1 day 6 hours.\n3. Now add the days: 2 + 3 + 1 = 6 days.\nSo, the sum is 6 days 6 hours.\nFinal answer: 6 days 6 hours",
+              "hindi": "2 दिन 18 घंटे और 3 दिन 12 घंटे को जोड़ने के लिए:\n1. पहले घंटे जोड़ो: 18 + 12 = 30 घंटे।\n2. 24 घंटे = 1 दिन होता है, इसलिए 30 घंटे = 1 दिन 6 घंटे।\n3. अब दिन जोड़ो: 2 + 3 + 1 = 6 दिन।\nइसलिए कुल योग 6 दिन 6 घंटे है।\nअंतिम उत्तर: 6 दिन 6 घंटे"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5058,8 +6238,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1. First, remember that 1 week = 7 days.\n2. Convert the weeks into days and add the extra days carefully.\n3. The total for this item is 21 days.\nFinal answer: 21 days",
+              "hindi": "1. पहले याद रखें कि 1 सप्ताह = 7 दिन होता है।\n2. सप्ताहों को दिनों में बदलकर अतिरिक्त दिनों को ध्यान से जोड़ें।\n3. इस प्रश्न का कुल उत्तर 21 दिन है।\nअंतिम उत्तर: 21 दिन"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5122,8 +6310,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We add the time step by step.",
+              "hindi": "हम समय को step by step जोड़ते हैं।"
+            },
+            {
+              "english": "First, add the minutes:\n35 minutes + 15 minutes = 50 minutes",
+              "hindi": "पहले मिनट जोड़ते हैं:\n35 मिनट + 15 मिनट = 50 मिनट"
+            },
+            {
+              "english": "Now add the hours:\n5 hours + 4 hours = 9 hours",
+              "hindi": "अब घंटे जोड़ते हैं:\n5 घंटे + 4 घंटे = 9 घंटे"
+            },
+            {
+              "english": "So, the total time is 9 hours 50 minutes.",
+              "hindi": "इसलिए कुल समय 9 घंटे 50 मिनट है।"
+            },
+            {
+              "english": "Final answer: 9 hours 50 minutes",
+              "hindi": "अंतिम उत्तर: 9 घंटे 50 मिनट"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5186,8 +6398,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We add the time parts separately.",
+              "hindi": "हम समय को अलग-अलग भागों में जोड़ते हैं।"
+            },
+            {
+              "english": "Step 1: Add the minutes.\n46 minutes + 54 minutes = 100 minutes.",
+              "hindi": "चरण 1: मिनट जोड़ें।\n46 मिनट + 54 मिनट = 100 मिनट।"
+            },
+            {
+              "english": "Step 2: Convert 100 minutes.\n100 minutes = 1 hour 40 minutes.",
+              "hindi": "चरण 2: 100 मिनट को बदलें।\n100 मिनट = 1 घंटा 40 मिनट।"
+            },
+            {
+              "english": "Step 3: Add the hours.\n8 hours + 6 hours = 14 hours.\nNow add the extra 1 hour from the minutes.\n14 hours + 1 hour = 15 hours.",
+              "hindi": "चरण 3: घंटे जोड़ें।\n8 घंटे + 6 घंटे = 14 घंटे।\nअब मिनटों से मिला 1 घंटा भी जोड़ें।\n14 घंटे + 1 घंटा = 15 घंटे।"
+            },
+            {
+              "english": "Step 4: Write the remaining minutes.\n40 minutes remain.",
+              "hindi": "चरण 4: बचे हुए मिनट लिखें।\n40 मिनट बचे हैं।"
+            },
+            {
+              "english": "So, 8 hours 46 minutes + 6 hours 54 minutes = 15 hours 40 minutes.",
+              "hindi": "इसलिए, 8 घंटे 46 मिनट + 6 घंटे 54 मिनट = 15 घंटे 40 मिनट।"
+            },
+            {
+              "english": "Final answer: 15 hours 40 minutes.",
+              "hindi": "अंतिम उत्तर: 15 घंटे 40 मिनट।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5250,8 +6494,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To add 17 hours 8 minutes and 7 hours 52 minutes, add the minutes first.",
+              "hindi": "17 घंटे 8 मिनट और 7 घंटे 52 मिनट को जोड़ने के लिए पहले मिनट जोड़ते हैं।"
+            },
+            {
+              "english": "8 minutes + 52 minutes = 60 minutes\n60 minutes = 1 hour 0 minutes",
+              "hindi": "8 मिनट + 52 मिनट = 60 मिनट\n60 मिनट = 1 घंटा 0 मिनट"
+            },
+            {
+              "english": "Now add the hours:\n17 hours + 7 hours + 1 hour = 25 hours",
+              "hindi": "अब घंटे जोड़ते हैं:\n17 घंटे + 7 घंटे + 1 घंटा = 25 घंटे"
+            },
+            {
+              "english": "So, the answer is 25 hours.",
+              "hindi": "इसलिए, उत्तर 25 घंटे है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5314,8 +6578,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To add the times, add the hours separately and the minutes separately.\nHours: 2 + 4 + 5 = 11 hours.\nMinutes: 30 + 50 + 40 = 120 minutes.\n120 minutes = 2 hours.\nNow add these 2 hours to 11 hours: 11 + 2 = 13 hours.\nSo, the total is 13 hours.",
+              "hindi": "समय जोड़ने के लिए पहले घंटे अलग जोड़ते हैं और मिनट अलग जोड़ते हैं।\nघंटे: 2 + 4 + 5 = 11 घंटे।\nमिनट: 30 + 50 + 40 = 120 मिनट।\n120 मिनट = 2 घंटे।\nअब इन 2 घंटों को 11 घंटों में जोड़ें: 11 + 2 = 13 घंटे।\nइसलिए, कुल समय 13 घंटे है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5378,8 +6650,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We add the seconds first: 28 seconds + 17 seconds = 45 seconds.\nThen add the minutes: 8 minutes + 6 minutes = 14 minutes.\nSo, 8 minutes 28 seconds + 6 minutes 17 seconds = 14 minutes 45 seconds.\nFinal answer: 14 minutes 45 seconds.",
+              "hindi": "पहले सेकंड जोड़ते हैं: 28 सेकंड + 17 सेकंड = 45 सेकंड।\nफिर मिनट जोड़ते हैं: 8 मिनट + 6 मिनट = 14 मिनट।\nइसलिए, 8 मिनट 28 सेकंड + 6 मिनट 17 सेकंड = 14 मिनट 45 सेकंड।\nअंतिम उत्तर: 14 मिनट 45 सेकंड।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5442,8 +6722,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Add 13 minutes 32 seconds and 8 minutes 53 seconds step by step.",
+              "hindi": "13 मिनट 32 सेकंड और 8 मिनट 53 सेकंड को चरण दर चरण जोड़ते हैं।"
+            },
+            {
+              "english": "1. Add the seconds first:\n32 seconds + 53 seconds = 85 seconds.",
+              "hindi": "1. पहले सेकंड जोड़ते हैं:\n32 सेकंड + 53 सेकंड = 85 सेकंड।"
+            },
+            {
+              "english": "2. Convert 85 seconds:\n85 seconds = 1 minute 25 seconds.",
+              "hindi": "2. 85 सेकंड को मिनट में बदलते हैं:\n85 सेकंड = 1 मिनट 25 सेकंड।"
+            },
+            {
+              "english": "3. Add the minutes:\n13 minutes + 8 minutes = 21 minutes.",
+              "hindi": "3. अब मिनट जोड़ते हैं:\n13 मिनट + 8 मिनट = 21 मिनट।"
+            },
+            {
+              "english": "4. Add the extra 1 minute:\n21 minutes + 1 minute = 22 minutes.",
+              "hindi": "4. फिर अतिरिक्त 1 मिनट जोड़ते हैं:\n21 मिनट + 1 मिनट = 22 मिनट।"
+            },
+            {
+              "english": "So, the total is 22 minutes 25 seconds.",
+              "hindi": "इसलिए कुल समय 22 मिनट 25 सेकंड है।"
+            },
+            {
+              "english": "Final answer: 22 minutes 25 seconds.",
+              "hindi": "अंतिम उत्तर: 22 मिनट 25 सेकंड।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5506,8 +6818,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, add the seconds:\n46 seconds + 14 seconds = 60 seconds",
+              "hindi": "सबसे पहले सेकंड जोड़ते हैं:\n46 सेकंड + 14 सेकंड = 60 सेकंड"
+            },
+            {
+              "english": "60 seconds = 1 minute.",
+              "hindi": "60 सेकंड = 1 मिनट।"
+            },
+            {
+              "english": "Now, add the minutes:\n17 minutes + 18 minutes = 35 minutes",
+              "hindi": "अब मिनट जोड़ते हैं:\n17 मिनट + 18 मिनट = 35 मिनट"
+            },
+            {
+              "english": "Add the extra 1 minute:\n35 + 1 = 36 minutes",
+              "hindi": "अब 1 अतिरिक्त मिनट जोड़ते हैं:\n35 + 1 = 36 मिनट"
+            },
+            {
+              "english": "So, the answer is 36 minutes.",
+              "hindi": "इसलिए उत्तर 36 मिनट है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5570,8 +6906,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We add the three times step by step.",
+              "hindi": "हम तीनों समय को चरण दर चरण जोड़ते हैं।"
+            },
+            {
+              "english": "First, add the seconds:\n45 seconds + 24 seconds + 16 seconds = 85 seconds.",
+              "hindi": "सबसे पहले सेकंड जोड़ते हैं:\n45 सेकंड + 24 सेकंड + 16 सेकंड = 85 सेकंड।"
+            },
+            {
+              "english": "85 seconds = 1 minute 25 seconds.",
+              "hindi": "85 सेकंड = 1 मिनट 25 सेकंड।"
+            },
+            {
+              "english": "Now add the minutes:\n9 minutes + 6 minutes + 8 minutes = 23 minutes.",
+              "hindi": "अब मिनट जोड़ते हैं:\n9 मिनट + 6 मिनट + 8 मिनट = 23 मिनट।"
+            },
+            {
+              "english": "Add the extra 1 minute from the seconds:\n23 minutes + 1 minute = 24 minutes.",
+              "hindi": "अब सेकंड से आए 1 मिनट को जोड़ते हैं:\n23 मिनट + 1 मिनट = 24 मिनट।"
+            },
+            {
+              "english": "So, the total is 24 minutes 25 seconds.",
+              "hindi": "इसलिए कुल समय है 24 मिनट 25 सेकंड।"
+            },
+            {
+              "english": "Final answer: 24 minutes 25 seconds",
+              "hindi": "अंतिम उत्तर: 24 मिनट 25 सेकंड"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5634,8 +7002,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 3 days 12 hours from 5 days 20 hours.",
+              "hindi": "हमें 5 दिन 20 घंटे में से 3 दिन 12 घंटे घटाने हैं।"
+            },
+            {
+              "english": "Step 1: Subtract the hours.\n20 hours - 12 hours = 8 hours.",
+              "hindi": "चरण 1: पहले घंटे घटाएँ।\n20 घंटे - 12 घंटे = 8 घंटे।"
+            },
+            {
+              "english": "Step 2: Subtract the days.\n5 days - 3 days = 2 days.",
+              "hindi": "चरण 2: फिर दिन घटाएँ।\n5 दिन - 3 दिन = 2 दिन।"
+            },
+            {
+              "english": "So, the answer is 2 days 8 hours.",
+              "hindi": "इसलिए उत्तर है 2 दिन 8 घंटे।"
+            },
+            {
+              "english": "Final answer: 2 days 8 hours.",
+              "hindi": "अंतिम उत्तर: 2 दिन 8 घंटे।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5698,8 +7090,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 8 days 18 hours from 12 days 10 hours.",
+              "hindi": "हमें 12 दिन 10 घंटे में से 8 दिन 18 घंटे घटाने हैं।"
+            },
+            {
+              "english": "Step 1: Check the hours.\n12 days 10 hours has 10 hours, but we need to subtract 18 hours.\nSince 10 is smaller than 18, we borrow 1 day from 12 days.",
+              "hindi": "चरण 1: घंटों को देखें।\n12 दिन 10 घंटे में 10 घंटे हैं, लेकिन हमें 18 घंटे घटाने हैं।\nक्योंकि 10, 18 से छोटा है, इसलिए 12 दिनों में से 1 दिन उधार लेते हैं।"
+            },
+            {
+              "english": "Step 2: Convert 1 day into hours.\n1 day = 24 hours\nSo, 12 days 10 hours becomes 11 days 34 hours.",
+              "hindi": "चरण 2: 1 दिन को घंटों में बदलें।\n1 दिन = 24 घंटे\nइसलिए, 12 दिन 10 घंटे = 11 दिन 34 घंटे हो जाते हैं।"
+            },
+            {
+              "english": "Step 3: Subtract the hours.\n34 hours - 18 hours = 16 hours",
+              "hindi": "चरण 3: घंटे घटाएँ।\n34 घंटे - 18 घंटे = 16 घंटे"
+            },
+            {
+              "english": "Step 4: Subtract the days.\n11 days - 8 days = 3 days",
+              "hindi": "चरण 4: दिन घटाएँ।\n11 दिन - 8 दिन = 3 दिन"
+            },
+            {
+              "english": "So, the answer is 3 days 16 hours.",
+              "hindi": "अतः उत्तर है 3 दिन 16 घंटे।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5762,8 +7182,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 7 days 6 hours from 10 days.",
+              "hindi": "हमें 10 दिन में से 7 दिन 6 घंटे घटाने हैं।"
+            },
+            {
+              "english": "Step 1: Write 10 days as 10 days 0 hours.",
+              "hindi": "Step 1: 10 दिन को 10 दिन 0 घंटे लिखें।"
+            },
+            {
+              "english": "Step 2: We cannot subtract 6 hours from 0 hours, so we borrow 1 day.\n1 day = 24 hours\nSo, 10 days 0 hours = 9 days 24 hours.",
+              "hindi": "Step 2: 0 घंटे में से 6 घंटे नहीं घटा सकते, इसलिए 1 दिन उधार लेते हैं।\n1 दिन = 24 घंटे\nइसलिए, 10 दिन 0 घंटे = 9 दिन 24 घंटे।"
+            },
+            {
+              "english": "Step 3: Now subtract:\nDays: 9 - 7 = 2\nHours: 24 - 6 = 18",
+              "hindi": "Step 3: अब घटाएँ:\nदिन: 9 - 7 = 2\nघंटे: 24 - 6 = 18"
+            },
+            {
+              "english": "So, the answer is 2 days 18 hours.",
+              "hindi": "इसलिए, उत्तर है 2 दिन 18 घंटे।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5826,8 +7270,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 3 weeks 5 days from 5 weeks 2 days.",
+              "hindi": "हमें 5 सप्ताह 2 दिन में से 3 सप्ताह 5 दिन घटाने हैं।"
+            },
+            {
+              "english": "Step 1: Start with 5 weeks 2 days.\nStep 2: We cannot take 5 days away from 2 days, so borrow 1 week = 7 days.\nStep 3: Now 5 weeks 2 days becomes 4 weeks 9 days.\nStep 4: Subtract days: 9 days - 5 days = 4 days.\nStep 5: Subtract weeks: 4 weeks - 3 weeks = 1 week.",
+              "hindi": "चरण 1: शुरू में हमारे पास 5 सप्ताह 2 दिन हैं।\nचरण 2: 2 दिन में से 5 दिन नहीं घटा सकते, इसलिए 1 सप्ताह उधार लेते हैं। 1 सप्ताह = 7 दिन होते हैं।\nचरण 3: अब 5 सप्ताह 2 दिन = 4 सप्ताह 9 दिन हो जाते हैं।\nचरण 4: दिन घटाएँ: 9 दिन - 5 दिन = 4 दिन।\nचरण 5: सप्ताह घटाएँ: 4 सप्ताह - 3 सप्ताह = 1 सप्ताह।"
+            },
+            {
+              "english": "So, the answer is 1 week 4 days.",
+              "hindi": "इसलिए उत्तर है 1 सप्ताह 4 दिन।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5890,8 +7350,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 6 hours 25 minutes from 8 hours 40 minutes.",
+              "hindi": "हमें 8 घंटे 40 मिनट में से 6 घंटे 25 मिनट घटाने हैं।"
+            },
+            {
+              "english": "Step 1: Subtract the minutes.\n40 minutes - 25 minutes = 15 minutes",
+              "hindi": "चरण 1: पहले मिनट घटाइए।\n40 मिनट - 25 मिनट = 15 मिनट"
+            },
+            {
+              "english": "Step 2: Subtract the hours.\n8 hours - 6 hours = 2 hours",
+              "hindi": "चरण 2: फिर घंटे घटाइए।\n8 घंटे - 6 घंटे = 2 घंटे"
+            },
+            {
+              "english": "Step 3: Combine the answer.\n2 hours and 15 minutes",
+              "hindi": "चरण 3: दोनों को मिलाइए।\n2 घंटे 15 मिनट"
+            },
+            {
+              "english": "Final answer: 2 hours 15 minutes",
+              "hindi": "अंतिम उत्तर: 2 घंटे 15 मिनट"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5954,8 +7438,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 8 hours 46 minutes from 11 hours 30 minutes.",
+              "hindi": "हमें 11 घंटे 30 मिनट में से 8 घंटे 46 मिनट घटाने हैं।"
+            },
+            {
+              "english": "Step 1: Compare the minutes.\n30 minutes is smaller than 46 minutes, so we cannot subtract directly.",
+              "hindi": "Step 1: मिनटों को देखें।\n30 मिनट, 46 मिनट से छोटे हैं, इसलिए सीधे घटा नहीं सकते।"
+            },
+            {
+              "english": "Step 2: Borrow 1 hour from 11 hours.\n1 hour = 60 minutes.\nSo, 11 hours 30 minutes becomes 10 hours 90 minutes.",
+              "hindi": "Step 2: 11 घंटे में से 1 घंटा उधार लेते हैं।\n1 घंटा = 60 मिनट होता है।\nइसलिए 11 घंटे 30 मिनट = 10 घंटे 90 मिनट हो जाता है।"
+            },
+            {
+              "english": "Step 3: Subtract the minutes.\n90 minutes - 46 minutes = 44 minutes.",
+              "hindi": "Step 3: मिनट घटाइए।\n90 मिनट - 46 मिनट = 44 मिनट"
+            },
+            {
+              "english": "Step 4: Subtract the hours.\n10 hours - 8 hours = 2 hours.",
+              "hindi": "Step 4: घंटे घटाइए।\n10 घंटे - 8 घंटे = 2 घंटे"
+            },
+            {
+              "english": "So, the answer is 2 hours 44 minutes.",
+              "hindi": "इसलिए उत्तर 2 घंटे 44 मिनट है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6018,8 +7530,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To subtract 16 hours 34 minutes from 23 hours 26 minutes, follow these steps:",
+              "hindi": "16 घंटे 34 मिनट को 23 घंटे 26 मिनट में से घटाने के लिए, ये कदम अपनाएँ:"
+            },
+            {
+              "english": "1. Write the number as 23 hours 26 minutes.\n2. We need to subtract 34 minutes from 26 minutes, but 26 is smaller than 34.\n3. So, borrow 1 hour from 23 hours. Since 1 hour = 60 minutes, 23 hours 26 minutes becomes 22 hours 86 minutes.\n4. Now subtract the minutes: 86 - 34 = 52 minutes.\n5. Now subtract the hours: 22 - 16 = 6 hours.",
+              "hindi": "1. संख्या को 23 घंटे 26 मिनट लिखें।\n2. हमें 26 मिनट में से 34 मिनट घटाने हैं, लेकिन 26, 34 से छोटा है।\n3. इसलिए 23 घंटों में से 1 घंटा उधार लें। 1 घंटा = 60 मिनट होता है, इसलिए 23 घंटे 26 मिनट = 22 घंटे 86 मिनट हो जाएगा।\n4. अब मिनट घटाएँ: 86 - 34 = 52 मिनट।\n5. अब घंटे घटाएँ: 22 - 16 = 6 घंटे।"
+            },
+            {
+              "english": "So, 23 hours 26 minutes - 16 hours 34 minutes = 6 hours 52 minutes.",
+              "hindi": "इसलिए, 23 घंटे 26 मिनट - 16 घंटे 34 मिनट = 6 घंटे 52 मिनट।"
+            },
+            {
+              "english": "Final answer: 6 hours 52 minutes",
+              "hindi": "अंतिम उत्तर: 6 घंटे 52 मिनट"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6082,8 +7614,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 9 hours 40 minutes from 24 hours.",
+              "hindi": "हमें 24 घंटे में से 9 घंटे 40 मिनट घटाने हैं।"
+            },
+            {
+              "english": "Step 1: Write 24 hours as 24 hours 0 minutes.\nStep 2: We cannot subtract 40 minutes from 0 minutes, so borrow 1 hour from 24 hours.\n- 1 hour = 60 minutes\n- So 24 hours 0 minutes becomes 23 hours 60 minutes.\nStep 3: Subtract minutes:\n60 minutes - 40 minutes = 20 minutes.\nStep 4: Subtract hours:\n23 hours - 9 hours = 14 hours.",
+              "hindi": "चरण 1: 24 घंटे को 24 घंटे 0 मिनट लिखें।\nचरण 2: 0 मिनट में से 40 मिनट नहीं घटा सकते, इसलिए 24 घंटों में से 1 घंटा उधार लेते हैं।\n- 1 घंटा = 60 मिनट\n- इसलिए 24 घंटे 0 मिनट = 23 घंटे 60 मिनट\nचरण 3: मिनट घटाएँ:\n60 मिनट - 40 मिनट = 20 मिनट\nचरण 4: घंटे घटाएँ:\n23 घंटे - 9 घंटे = 14 घंटे"
+            },
+            {
+              "english": "So, 24 hours - 9 hours 40 minutes = 14 hours 20 minutes.",
+              "hindi": "इसलिए, 24 घंटे - 9 घंटे 40 मिनट = 14 घंटे 20 मिनट।"
+            },
+            {
+              "english": "Final answer: 14 hours 20 minutes",
+              "hindi": "अंतिम उत्तर: 14 घंटे 20 मिनट"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6146,8 +7698,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Subtract 8 minutes 32 seconds from 12 minutes 40 seconds.",
+              "hindi": "12 मिनट 40 सेकंड में से 8 मिनट 32 सेकंड घटाते हैं।"
+            },
+            {
+              "english": "Step 1: Subtract the seconds.\n40 seconds - 32 seconds = 8 seconds.",
+              "hindi": "चरण 1: सेकंड घटाएँ।\n40 सेकंड - 32 सेकंड = 8 सेकंड।"
+            },
+            {
+              "english": "Step 2: Subtract the minutes.\n12 minutes - 8 minutes = 4 minutes.",
+              "hindi": "चरण 2: मिनट घटाएँ।\n12 मिनट - 8 मिनट = 4 मिनट।"
+            },
+            {
+              "english": "So, 12 minutes 40 seconds - 8 minutes 32 seconds = 4 minutes 8 seconds.\nFinal answer: 4 minutes 8 seconds.",
+              "hindi": "इसलिए, 12 मिनट 40 सेकंड - 8 मिनट 32 सेकंड = 4 मिनट 8 सेकंड।\nअंतिम उत्तर: 4 मिनट 8 सेकंड।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6210,8 +7782,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 24 minutes 54 seconds from 36 minutes 23 seconds.",
+              "hindi": "हमें 36 मिनट 23 सेकंड में से 24 मिनट 54 सेकंड घटाने हैं।"
+            },
+            {
+              "english": "Step 1: Start with 36 minutes 23 seconds.\nWe cannot subtract 54 seconds from 23 seconds, because 23 is smaller than 54.",
+              "hindi": "चरण 1: 36 मिनट 23 सेकंड से शुरू करते हैं।\nहम 23 सेकंड में से 54 सेकंड नहीं घटा सकते, क्योंकि 23, 54 से छोटा है।"
+            },
+            {
+              "english": "Step 2: Borrow 1 minute from 36 minutes.\n1 minute = 60 seconds.\nSo, 36 minutes 23 seconds becomes 35 minutes 83 seconds.",
+              "hindi": "चरण 2: 36 मिनट में से 1 मिनट उधार लेते हैं।\n1 मिनट = 60 सेकंड होता है।\nइसलिए 36 मिनट 23 सेकंड अब 35 मिनट 83 सेकंड बन जाते हैं।"
+            },
+            {
+              "english": "Step 3: Subtract the seconds.\n83 seconds - 54 seconds = 29 seconds.",
+              "hindi": "चरण 3: सेकंड घटाइए।\n83 सेकंड - 54 सेकंड = 29 सेकंड।"
+            },
+            {
+              "english": "Step 4: Subtract the minutes.\n35 minutes - 24 minutes = 11 minutes.",
+              "hindi": "चरण 4: मिनट घटाइए।\n35 मिनट - 24 मिनट = 11 मिनट।"
+            },
+            {
+              "english": "So, the difference is 11 minutes 29 seconds. Final answer: 11 minutes 29 seconds.",
+              "hindi": "इसलिए उत्तर है 11 मिनट 29 सेकंड। अंतिम उत्तर: 11 मिनट 29 सेकंड।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6274,8 +7874,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 41 minutes 37 seconds from 54 minutes 25 seconds.",
+              "hindi": "हमें 54 मिनट 25 सेकंड में से 41 मिनट 37 सेकंड घटाने हैं।"
+            },
+            {
+              "english": "Step 1: Look at the seconds.\n25 seconds is smaller than 37 seconds, so we cannot subtract directly.",
+              "hindi": "चरण 1: पहले सेकंड देखें।\n25 सेकंड, 37 सेकंड से छोटा है, इसलिए सीधे घटा नहीं सकते।"
+            },
+            {
+              "english": "Step 2: Borrow 1 minute from 54 minutes.\n1 minute = 60 seconds.\nSo, 54 minutes 25 seconds becomes 53 minutes 85 seconds.",
+              "hindi": "चरण 2: 54 मिनट में से 1 मिनट उधार लें।\n1 मिनट = 60 सेकंड होता है।\nइसलिए 54 मिनट 25 सेकंड को हम 53 मिनट 85 सेकंड लिख सकते हैं।"
+            },
+            {
+              "english": "Step 3: Subtract the seconds.\n85 seconds - 37 seconds = 48 seconds.",
+              "hindi": "चरण 3: अब सेकंड घटाएँ।\n85 सेकंड - 37 सेकंड = 48 सेकंड।"
+            },
+            {
+              "english": "Step 4: Subtract the minutes.\n53 minutes - 41 minutes = 12 minutes.",
+              "hindi": "चरण 4: अब मिनट घटाएँ।\n53 मिनट - 41 मिनट = 12 मिनट।"
+            },
+            {
+              "english": "So, the answer is 12 minutes 48 seconds.",
+              "hindi": "इसलिए उत्तर है 12 मिनट 48 सेकंड।"
+            },
+            {
+              "english": "Final Answer: 12 minutes 48 seconds.",
+              "hindi": "अंतिम उत्तर: 12 मिनट 48 सेकंड।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6338,8 +7970,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 10 minutes 48 seconds from 13 minutes.",
+              "hindi": "हमें 13 मिनट में से 10 मिनट 48 सेकंड घटाने हैं।"
+            },
+            {
+              "english": "Write 13 minutes as 13 minutes 0 seconds.\nSince 0 seconds is smaller than 48 seconds, we borrow 1 minute from 13 minutes.\nSo, 13 minutes 0 seconds becomes 12 minutes 60 seconds.",
+              "hindi": "13 मिनट को 13 मिनट 0 सेकंड लिखते हैं।\nक्योंकि 0 सेकंड, 48 सेकंड से छोटा है, इसलिए हम 13 मिनट में से 1 मिनट उधार लेते हैं।\nअब 13 मिनट 0 सेकंड = 12 मिनट 60 सेकंड हो जाता है।"
+            },
+            {
+              "english": "Now subtract the seconds:\n60 seconds - 48 seconds = 12 seconds",
+              "hindi": "अब सेकंड घटाएँ:\n60 सेकंड - 48 सेकंड = 12 सेकंड"
+            },
+            {
+              "english": "Now subtract the minutes:\n12 minutes - 10 minutes = 2 minutes",
+              "hindi": "अब मिनट घटाएँ:\n12 मिनट - 10 मिनट = 2 मिनट"
+            },
+            {
+              "english": "So, 13 minutes - 10 minutes 48 seconds = 2 minutes 12 seconds.",
+              "hindi": "इसलिए, 13 मिनट - 10 मिनट 48 सेकंड = 2 मिनट 12 सेकंड।"
+            },
+            {
+              "english": "Final answer: 2 minutes 12 seconds.",
+              "hindi": "अंतिम उत्तर: 2 मिनट 12 सेकंड।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6402,8 +8062,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 14 years 9 months from 20 years.",
+              "hindi": "हमें 20 वर्ष में से 14 वर्ष 9 महीने घटाने हैं।"
+            },
+            {
+              "english": "Step 1: Write 20 years as 20 years 0 months.\nStep 2: Since we cannot subtract 9 months from 0 months, borrow 1 year from 20 years.\n1 year = 12 months, so 20 years 0 months becomes 19 years 12 months.\nStep 3: Now subtract:\n12 months - 9 months = 3 months\n19 years - 14 years = 5 years",
+              "hindi": "Step 1: 20 वर्ष को 20 वर्ष 0 महीने के रूप में लिखो।\nStep 2: 0 महीने में से 9 महीने नहीं घटा सकते, इसलिए 20 वर्ष में से 1 वर्ष उधार लेते हैं।\n1 वर्ष = 12 महीने, इसलिए 20 वर्ष 0 महीने = 19 वर्ष 12 महीने हो जाते हैं।\nStep 3: अब घटाओ:\n12 महीने - 9 महीने = 3 महीने\n19 वर्ष - 14 वर्ष = 5 वर्ष"
+            },
+            {
+              "english": "So, the answer is 5 years 3 months.\nFinal answer: 5 years 3 months.",
+              "hindi": "इसलिए उत्तर है 5 वर्ष 3 महीने।\nअंतिम उत्तर: 5 वर्ष 3 महीने।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6467,8 +8143,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Start time: 7:30 p.m.",
+              "hindi": "शुरुआती समय: 7:30 p.m."
+            },
+            {
+              "english": "Step 1: Add 3 hours.\n7:30 p.m. + 3 hours = 10:30 p.m.",
+              "hindi": "चरण 1: 3 घंटे जोड़ें।\n7:30 p.m. + 3 घंटे = 10:30 p.m."
+            },
+            {
+              "english": "Step 2: Add 50 minutes.\n10:30 p.m. + 50 minutes = 11:20 p.m.",
+              "hindi": "चरण 2: 50 मिनट जोड़ें।\n10:30 p.m. + 50 मिनट = 11:20 p.m."
+            },
+            {
+              "english": "So, the time will be 11:20 p.m.",
+              "hindi": "इसलिए समय होगा 11:20 p.m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -6532,8 +8228,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us add the time step by step.",
+              "hindi": "आइए समय को आसान तरीके से, कदम-दर-कदम जोड़ते हैं।"
+            },
+            {
+              "english": "Start time: 9:40 p.m.",
+              "hindi": "शुरुआती समय: 9:40 p.m. यानी रात 9:40 बजे"
+            },
+            {
+              "english": "1. Add 6 hours: 9:40 p.m. + 6 hours = 3:40 a.m.\n2. Add 30 minutes: 3:40 a.m. + 30 minutes = 4:10 a.m.",
+              "hindi": "1. 6 घंटे जोड़ें: 9:40 p.m. + 6 घंटे = 3:40 a.m.\n2. फिर 30 मिनट जोड़ें: 3:40 a.m. + 30 मिनट = 4:10 a.m."
+            },
+            {
+              "english": "So, the time will be 4:10 a.m.",
+              "hindi": "इसलिए समय होगा 4:10 a.m."
+            },
+            {
+              "english": "Final answer: 4:10 a.m.",
+              "hindi": "Final answer: 4:10 a.m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -6597,8 +8317,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find the time 3 hours before 1:30 p.m.",
+              "hindi": "हमें 1:30 p.m. से 3 घंटे पहले का समय निकालना है।"
+            },
+            {
+              "english": "Start at 1:30 p.m.\n- 1 hour earlier is 12:30 p.m.\n- 2 hours earlier is 11:30 a.m.\n- 3 hours earlier is 10:30 a.m.",
+              "hindi": "1:30 p.m. से शुरू करते हैं:\n- 1 घंटा पहले = 12:30 p.m.\n- 2 घंटे पहले = 11:30 a.m.\n- 3 घंटे पहले = 10:30 a.m."
+            },
+            {
+              "english": "So, 3 hours before 1:30 p.m. was 10:30 a.m.",
+              "hindi": "इसलिए, 1:30 p.m. से 3 घंटे पहले 10:30 a.m. था।"
+            },
+            {
+              "english": "Final answer: 10:30 a.m.",
+              "hindi": "अंतिम उत्तर: 10:30 a.m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -6662,8 +8402,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We start at 4:15 p.m.",
+              "hindi": "हम 4:15 p.m. से शुरू करते हैं।"
+            },
+            {
+              "english": "Step 1: Subtract 6 hours.\n4:15 p.m. minus 6 hours = 10:15 a.m.",
+              "hindi": "Step 1: 6 घंटे घटाइए।\n4:15 p.m. में से 6 घंटे = 10:15 a.m."
+            },
+            {
+              "english": "Step 2: Subtract 25 minutes.\n10:15 a.m. minus 25 minutes = 9:50 a.m.",
+              "hindi": "Step 2: 25 मिनट घटाइए।\n10:15 a.m. में से 25 मिनट = 9:50 a.m."
+            },
+            {
+              "english": "So, the time was 9:50 a.m.",
+              "hindi": "अतः समय था सुबह 9:50 बजे।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6726,8 +8486,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the time interval, count from 7:25 a.m. to 3:10 p.m.\n1. From 7:25 a.m. to 12:00 noon = 4 hours 35 minutes.\n2. From 12:00 noon to 3:10 p.m. = 3 hours 10 minutes.\n3. Add them: 4 hours 35 minutes + 3 hours 10 minutes = 7 hours 45 minutes.\nFinal answer: 7 hours 45 minutes.",
+              "hindi": "समयांतराल निकालने के लिए 7:25 a.m. से 3:10 p.m. तक गिनते हैं।\n1. 7:25 a.m. से 12:00 noon तक = 4 घंटे 35 मिनट।\n2. 12:00 noon से 3:10 p.m. तक = 3 घंटे 10 मिनट।\n3. दोनों को जोड़ें: 4 घंटे 35 मिनट + 3 घंटे 10 मिनट = 7 घंटे 45 मिनट।\nअंतिम उत्तर: 7 घंटे 45 मिनट।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6868,8 +8636,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A stationery shop opens at 9:30 a.m. and closes at 8:00 p.m.",
+              "hindi": "एक स्टेशनरी की दुकान सुबह 9:30 बजे खुलती है और शाम 8:00 बजे बंद होती है।"
+            },
+            {
+              "english": "Let us find how long it stays open.",
+              "hindi": "अब देखते हैं कि वह कितनी देर खुली रहती है।"
+            },
+            {
+              "english": "From 9:30 a.m. to 12:00 noon = 2 hours 30 minutes\nFrom 12:00 noon to 8:00 p.m. = 8 hours",
+              "hindi": "सुबह 9:30 बजे से दोपहर 12:00 बजे तक = 2 घंटे 30 मिनट\nदोपहर 12:00 बजे से शाम 8:00 बजे तक = 8 घंटे"
+            },
+            {
+              "english": "Now add them:\n2 hours 30 minutes + 8 hours = 10 hours 30 minutes",
+              "hindi": "अब दोनों को जोड़ते हैं:\n2 घंटे 30 मिनट + 8 घंटे = 10 घंटे 30 मिनट"
+            },
+            {
+              "english": "Final answer: 10 hours 30 minutes",
+              "hindi": "अंतिम उत्तर: 10 घंटे 30 मिनट"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6932,8 +8724,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: From 6:50 p.m. to 12:00 midnight = 5 hours 10 minutes.\nStep 2: From 12:00 midnight to 6:30 a.m. = 6 hours 30 minutes.\nStep 3: Add them: 5 hours 10 minutes + 6 hours 30 minutes = 11 hours 40 minutes.\nFinal answer: 11 hours 40 minutes.",
+              "hindi": "चरण 1: 6:50 बजे शाम से 12:00 बजे रात तक = 5 घंटे 10 मिनट।\nचरण 2: 12:00 बजे रात से 6:30 बजे सुबह तक = 6 घंटे 30 मिनट।\nचरण 3: दोनों समय जोड़ें: 5 घंटे 10 मिनट + 6 घंटे 30 मिनट = 11 घंटे 40 मिनट।\nअंतिम उत्तर: 11 घंटे 40 मिनट।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6996,8 +8796,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us find the time from Sunday 5:40 p.m. to Wednesday 12:30 p.m. step by step.",
+              "hindi": "आइए रविवार 5:40 बजे शाम से बुधवार 12:30 बजे दोपहर तक का समय चरणों में निकालते हैं।"
+            },
+            {
+              "english": "1. From Sunday 5:40 p.m. to Monday 5:40 p.m. = 24 hours = 1 day.\n2. From Monday 5:40 p.m. to Tuesday 5:40 p.m. = 24 hours = 1 day.\n3. From Tuesday 5:40 p.m. to Wednesday 5:40 p.m. = 24 hours = 1 day.\n4. But the train reached at Wednesday 12:30 p.m., which is 5 hours 10 minutes earlier than 5:40 p.m.\n5. So we subtract 5 hours 10 minutes from 3 days.",
+              "hindi": "1. रविवार 5:40 बजे शाम से सोमवार 5:40 बजे शाम तक = 24 घंटे = 1 दिन।\n2. सोमवार 5:40 बजे शाम से मंगलवार 5:40 बजे शाम तक = 24 घंटे = 1 दिन।\n3. मंगलवार 5:40 बजे शाम से बुधवार 5:40 बजे शाम तक = 24 घंटे = 1 दिन।\n4. लेकिन ट्रेन बुधवार 12:30 बजे दोपहर पहुँची, जो 5 घंटे 10 मिनट पहले है।\n5. इसलिए हमें 3 दिन में से 5 घंटे 10 मिनट घटाने होंगे।"
+            },
+            {
+              "english": "3 days = 2 days 24 hours\n24 hours - 5 hours 10 minutes = 18 hours 50 minutes",
+              "hindi": "3 दिन = 2 दिन 24 घंटे\n24 घंटे - 5 घंटे 10 मिनट = 18 घंटे 50 मिनट"
+            },
+            {
+              "english": "So, the total duration of the journey = 2 days 18 hours 50 minutes.",
+              "hindi": "इसलिए यात्रा की कुल अवधि = 2 दिन 18 घंटे 50 मिनट।"
+            },
+            {
+              "english": "Final Answer: 2 days 18 hours 50 minutes",
+              "hindi": "अंतिम उत्तर: 2 दिन 18 घंटे 50 मिनट"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7060,8 +8884,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, count from 8th August 2010 to 8th August 2014.\nThat is 4 years.",
+              "hindi": "सबसे पहले 8 अगस्त 2010 से 8 अगस्त 2014 तक गिनते हैं।\nयह 4 साल हुए।"
+            },
+            {
+              "english": "Now count from 8th August 2014 to 3rd January 2015.\nFrom 8th August 2014 to 8th December 2014 = 4 months.\nFrom 8th December 2014 to 3rd January 2015 = 26 days.",
+              "hindi": "अब 8 अगस्त 2014 से 3 जनवरी 2015 तक गिनते हैं।\n8 अगस्त 2014 से 8 दिसंबर 2014 तक = 4 महीने।\n8 दिसंबर 2014 से 3 जनवरी 2015 तक = 26 दिन।"
+            },
+            {
+              "english": "So, Naresh worked for 4 years 4 months 26 days.",
+              "hindi": "इसलिए, नरेश ने कंपनी में 4 साल 4 महीने 26 दिन काम किया।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7124,8 +8964,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We count the days from 5th December, 2015 to 12th February, 2016, including both the starting day and the ending day.",
+              "hindi": "हम 5 दिसंबर 2015 से 12 फरवरी 2016 तक के दिन गिनेंगे। इसमें शुरू और अंत की दोनों तारीखें शामिल होंगी।"
+            },
+            {
+              "english": "Step 1: Count the days from 5th December to 31st December.\nDecember has 31 days.\nDays in December = 31 - 5 + 1 = 27 days",
+              "hindi": "चरण 1: 5 दिसंबर से 31 दिसंबर तक के दिन गिनिए।\nदिसंबर में 31 दिन होते हैं।\nदिसंबर के दिन = 31 - 5 + 1 = 27 दिन"
+            },
+            {
+              "english": "Step 2: Count all the days in January 2016.\nDays in January = 31 days",
+              "hindi": "चरण 2: जनवरी 2016 के सभी दिन गिनिए।\nजनवरी के दिन = 31 दिन"
+            },
+            {
+              "english": "Step 3: Count the days from 1st February to 12th February.\nDays in February = 12 days",
+              "hindi": "चरण 3: 1 फरवरी से 12 फरवरी तक के दिन गिनिए।\nफरवरी के दिन = 12 दिन"
+            },
+            {
+              "english": "Step 4: Add them all.\n27 + 31 + 12 = 70",
+              "hindi": "चरण 4: सभी दिनों को जोड़िए।\n27 + 31 + 12 = 70"
+            },
+            {
+              "english": "So, Neera’s school was closed for 70 days.\nFinal answer: 70 days.",
+              "hindi": "इसलिए, नीरा का स्कूल 70 दिनों के लिए बंद था।\nअंतिम उत्तर: 70 दिन।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7188,8 +9056,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find how long I have been teaching, subtract the age when I started teaching from my current age.",
+              "hindi": "मैंने कितने समय से पढ़ाना शुरू किया है, यह जानने के लिए हम वर्तमान उम्र में से शुरू करने की उम्र घटाते हैं।"
+            },
+            {
+              "english": "Current age = 50 years 2 months\nAge when I started teaching = 22 years 7 months",
+              "hindi": "वर्तमान उम्र = 50 वर्ष 2 महीने\nपढ़ाना शुरू किया था = 22 वर्ष 7 महीने"
+            },
+            {
+              "english": "Now subtract the two ages.",
+              "hindi": "अब दोनों को घटाते हैं।"
+            },
+            {
+              "english": "Since 2 months is smaller than 7 months, we borrow 1 year = 12 months from 50 years.\nSo, 50 years 2 months becomes 49 years 14 months.",
+              "hindi": "क्योंकि 2 महीने, 7 महीनों से छोटे हैं, इसलिए 50 वर्षों में से 1 वर्ष उधार लेकर 12 महीने जोड़ते हैं।\nइसलिए 50 वर्ष 2 महीने = 49 वर्ष 14 महीने"
+            },
+            {
+              "english": "Now subtract:\n49 years 14 months\n- 22 years 7 months\n= 27 years 7 months",
+              "hindi": "अब घटाएँ:\n49 वर्ष 14 महीने\n- 22 वर्ष 7 महीने\n= 27 वर्ष 7 महीने"
+            },
+            {
+              "english": "So, I have been teaching for 27 years 7 months.",
+              "hindi": "इसलिए मैं 27 वर्ष 7 महीने से पढ़ा रहा हूँ।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7252,8 +9148,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Punam was born on 7th April 2004.\nAmit was born on 2nd March 2009.",
+              "hindi": "पूनम का जन्म 7 अप्रैल 2004 को हुआ था।\nअमित का जन्म 2 मार्च 2009 को हुआ था।"
+            },
+            {
+              "english": "Step 1: Compare the birth dates.\nPunam was born earlier, so she is older.\nAmit was born later, so he is younger.",
+              "hindi": "Step 1: जन्म की तारीखों की तुलना करें।\nपूनम का जन्म पहले हुआ था, इसलिए वह बड़ी है।\nअमित का जन्म बाद में हुआ था, इसलिए वह छोटा है।"
+            },
+            {
+              "english": "Step 2: Find the age difference.\nFrom 7th April 2004 to 2nd March 2009:\n- 4 years\n- 10 months\n- 23 days",
+              "hindi": "Step 2: दोनों की उम्र का अंतर निकालें।\n7 अप्रैल 2004 से 2 मार्च 2009 तक अंतर है:\n- 4 वर्ष\n- 10 महीने\n- 23 दिन"
+            },
+            {
+              "english": "So, Amit is younger than Punam by 4 years 10 months 23 days.",
+              "hindi": "इसलिए अमित, पूनम से 4 वर्ष 10 महीने 23 दिन छोटा है।"
+            },
+            {
+              "english": "Final answer: Amit is younger by 4 years 10 months 23 days.",
+              "hindi": "Final answer: अमित 4 वर्ष 10 महीने 23 दिन छोटा है।"
+            }
+          ]
         }
       ],
       "tags": [

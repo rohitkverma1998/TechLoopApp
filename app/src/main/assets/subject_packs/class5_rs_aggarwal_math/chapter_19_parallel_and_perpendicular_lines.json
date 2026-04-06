@@ -451,8 +451,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Two parallel lines always stay the same distance apart. When they are produced, or extended, they still do not meet each other. So, two parallel lines do not intersect when produced.",
+              "hindi": "दो समांतर रेखाएँ हमेशा एक-दूसरे से समान दूरी पर रहती हैं। जब उन्हें आगे बढ़ाया जाता है, तब भी वे आपस में नहीं मिलतीं। इसलिए, दो समांतर रेखाएँ जब बढ़ाई जाती हैं, तो वे एक-दूसरे को नहीं काटतीं।"
+            },
+            {
+              "english": "Final answer: intersect",
+              "hindi": "अंतिम उत्तर: intersect"
+            }
+          ]
         }
       ],
       "tags": [
@@ -515,8 +527,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to fill in the blank. When two lines intersect and make a right angle, they are called perpendicular lines. So the missing words are right angle. Final answer: right angle.",
+              "hindi": "हमें रिक्त स्थान भरना है। जब दो रेखाएँ एक-दूसरे को काटकर 90° का समकोण बनाती हैं, तो वे एक-दूसरे पर लम्बवत होती हैं। इसलिए रिक्त स्थान में समकोण आएगा। अंतिम उत्तर: समकोण।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -579,8 +599,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Parallel lines are lines that stay the same distance apart and never meet.",
+              "hindi": "समानांतर रेखाएँ वे रेखाएँ होती हैं जो हमेशा एक-दूसरे से समान दूरी पर रहती हैं और कभी नहीं मिलतीं।"
+            },
+            {
+              "english": "So, if we measure the gap between two parallel lines at any point, it does not change.",
+              "hindi": "इसलिए, यदि हम दो समानांतर रेखाओं के बीच की दूरी किसी भी जगह मापें, तो वह बदलती नहीं है।"
+            },
+            {
+              "english": "Therefore, the sentence is:\nThe distance between two parallel lines always remains constant.",
+              "hindi": "अतः वाक्य होगा:\nदो समानांतर रेखाओं के बीच की दूरी हमेशा स्थिर रहती है।"
+            },
+            {
+              "english": "Final answer: remains constant",
+              "hindi": "अंतिम उत्तर: स्थिर रहती है"
+            }
+          ]
         }
       ],
       "tags": [
@@ -647,8 +687,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1. Draw a straight line and name it EF.\n2. Mark a point P above the line EF.\n3. Place a ruler and set square so that one edge is along EF.\n4. Slide the set square carefully until the same edge passes through point P.\n5. Draw the new line through P and name it GH.\n6. Check that GH is parallel to EF.",
+              "hindi": "1. एक सीधी रेखा खींचो और उसे EF नाम दो।\n2. रेखा EF के ऊपर एक बिंदु P चिन्हित करो।\n3. एक रूलर और सेट-स्क्वेयर को इस तरह रखो कि उसका एक किनारा EF के साथ हो।\n4. सेट-स्क्वेयर को धीरे-धीरे खिसकाओ, जब तक वही किनारा बिंदु P से न गुजर जाए।\n5. P से होकर नई रेखा खींचो और उसे GH नाम दो।\n6. जाँच करो कि GH, EF के समांतर है।"
+            },
+            {
+              "english": "The required line GH has been drawn through P and is parallel to EF.\nFinal answer: done",
+              "hindi": "आवश्यक रेखा GH बिंदु P से होकर खींच दी गई है और EF के समांतर है।\nअंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -715,8 +767,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To solve this question, we need to draw a line parallel to RS passing through point T.",
+              "hindi": "इस प्रश्न को हल करने के लिए हमें RS के समानांतर एक रेखा बनानी है, जो बिंदु T से होकर जाए।"
+            },
+            {
+              "english": "Step 1: Draw a straight line RS.\nStep 2: Mark a point T below the line RS.\nStep 3: Using a ruler and set square, draw a new line through T.\nStep 4: Make sure the new line PQ is parallel to RS, so PQ ∥ RS.\nStep 5: Check that PQ passes through point T.",
+              "hindi": "चरण 1: एक सीधी रेखा RS खींचिए।\nचरण 2: रेखा RS के नीचे एक बिंदु T चिन्हित कीजिए।\nचरण 3: स्केल और सेट स्क्वेयर की मदद से T बिंदु से होकर एक नई रेखा खींचिए।\nचरण 4: ध्यान रखिए कि नई रेखा PQ, RS के समानांतर हो, यानी PQ ∥ RS।\nचरण 5: जाँचिए कि PQ रेखा बिंदु T से होकर गुजर रही है।"
+            },
+            {
+              "english": "The required line is drawn correctly.\ndone",
+              "hindi": "आवश्यक रेखा सही तरह से बन गई है।\ndone"
+            }
+          ]
         }
       ],
       "tags": [
@@ -783,8 +851,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1. Draw a straight line AB.\n2. Mark a point P on the line AB.\n3. Place a set square so that one side lies exactly on AB.\n4. Keep the right-angle corner of the set square at point P.\n5. Hold the set square in place and draw a line through P along the other side of the set square.\n6. The new line will make a right angle with AB, so it is perpendicular to AB.",
+              "hindi": "1. एक सीधी रेखा AB खींचिए।\n2. रेखा AB पर एक बिंदु P चिन्हित कीजिए।\n3. एक सेट स्क्वेयर को इस तरह रखिए कि उसकी एक भुजा AB के ऊपर ठीक से आ जाए।\n4. सेट स्क्वेयर का समकोण वाला कोना बिंदु P पर रखिए।\n5. सेट स्क्वेयर को स्थिर रखकर, उसकी दूसरी भुजा के सहारे P से होकर एक रेखा खींचिए।\n6. यह नई रेखा AB से 90° का कोण बनाएगी, इसलिए यह AB पर लम्ब होगी।"
+            },
+            {
+              "english": "Final answer: done",
+              "hindi": "अंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -851,8 +931,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1. Draw a line PQ.\n2. Mark a point R anywhere on the line.\n3. Place the protractor with its center at R and its base line along PQ.\n4. Find the 90-degree mark on the protractor.\n5. Make a small mark at 90 degrees.\n6. Draw a straight line through R and the 90-degree mark.\n7. This new line is perpendicular to PQ.",
+              "hindi": "1. रेखा PQ खींचिए।\n2. उस रेखा पर कोई एक बिंदु R चिन्हित कीजिए।\n3. प्रोट्रैक्टर का केंद्र R पर रखिए और उसकी आधार रेखा PQ के साथ मिलाइए।\n4. प्रोट्रैक्टर पर 90° का निशान ढूँढिए।\n5. 90° पर एक छोटा सा निशान लगाइए।\n6. R और 90° वाले निशान से होकर एक सीधी रेखा खींचिए।\n7. यह नई रेखा PQ पर लंब होगी।"
+            },
+            {
+              "english": "Final answer: done",
+              "hindi": "अंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -919,8 +1011,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1. Draw a line segment CD of length 5 cm.\n2. Starting from point C, measure 2 cm along the line segment toward D.\n3. Mark that point as E.\n4. Now CE = 2 cm and CD = 5 cm, so E is correctly placed on CD.\nFinal answer: done",
+              "hindi": "1. 5 सेमी लंबा रेखाखंड CD बनाइए।\n2. बिंदु C से CD पर D की ओर 2 सेमी नापिए।\n3. उस स्थान पर बिंदु E चिन्हित कीजिए।\n4. अब CE = 2 सेमी और CD = 5 सेमी है, इसलिए E सही जगह पर है।\nअंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -987,8 +1087,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1. Draw a line segment LM of length 5.4 cm.\n2. On LM, measure 2.3 cm from point L and mark that point as N.\n3. Now the point N is placed correctly on the line segment.\n4. If you want the remaining part, MN = 5.4 - 2.3 = 3.1 cm.\n5. The word to type at the end is done.\nFinal answer: done.",
+              "hindi": "1. 5.4 सेमी लंबा रेखाखंड LM बनाइए।\n2. LM पर L बिंदु से 2.3 सेमी मापकर बिंदु N चिन्हित कीजिए।\n3. अब बिंदु N सही जगह पर है।\n4. अगर बचे हुए भाग को देखना हो, तो MN = 5.4 - 2.3 = 3.1 सेमी होगा।\n5. अंत में टाइप करने वाला शब्द done है।\nअंतिम उत्तर: done."
+            }
+          ]
         }
       ],
       "tags": [

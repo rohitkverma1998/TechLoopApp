@@ -461,8 +461,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's look at each option step by step:\n- A line goes on forever in both directions, so it has no endpoints.\n- A ray starts at one point and goes on forever in one direction, so it has one endpoint.\n- A line segment has two endpoints.\n- A plane is a flat surface that extends forever, so it has no endpoints.\nSo, the figure that has two end points is a line segment.\nFinal answer: (c) a line segment",
+              "hindi": "आइए हर विकल्प को एक-एक करके समझें:\n- रेखा दोनों दिशाओं में अनंत तक जाती है, इसलिए उसके कोई अंत बिंदु नहीं होते।\n- किरण एक बिंदु से शुरू होती है और एक दिशा में अनंत तक जाती है, इसलिए उसका एक अंत बिंदु होता है।\n- रेखाखंड के दो अंत बिंदु होते हैं।\n- समतल एक सपाट सतह है जो अनंत तक फैली होती है, इसलिए उसके अंत बिंदु नहीं होते।\nइसलिए जिसके दो अंत बिंदु होते हैं, वह रेखाखंड है।\nअंतिम उत्तर: (c) रेखाखंड"
+            }
+          ]
         }
       ],
       "tags": [
@@ -525,8 +533,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let’s check each option step by step:",
+              "hindi": "आइए हर विकल्प को एक-एक करके समझते हैं:"
+            },
+            {
+              "english": "- A line segment has 2 end points.\n- A ray has 1 end point and goes on forever in one direction.\n- A line has no end points.\n- A plane has no end points.",
+              "hindi": "- रेखा खंड के 2 अंत बिंदु होते हैं।\n- किरण का 1 अंत बिंदु होता है और यह एक दिशा में हमेशा के लिए जाती रहती है।\n- रेखा के कोई अंत बिंदु नहीं होते।\n- समतल के भी कोई अंत बिंदु नहीं होते।"
+            },
+            {
+              "english": "So, the figure that has one end point is a ray.",
+              "hindi": "इसलिए जिस आकृति का एक अंत बिंदु होता है, वह किरण है।"
+            },
+            {
+              "english": "Final answer: (b) a ray",
+              "hindi": "अंतिम उत्तर: (b) किरण"
+            }
+          ]
         }
       ],
       "tags": [
@@ -589,8 +617,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us check each option step by step:",
+              "hindi": "आइए हर विकल्प को step by step देखें:"
+            },
+            {
+              "english": "- A line goes on forever in both directions, so it has no end points.\n- A ray has one end point and goes on forever in one direction.\n- A line segment has two end points.\n- A plane is a flat surface that also extends without end, but in this question the expected answer is the line.",
+              "hindi": "- एक line दोनों दिशाओं में हमेशा के लिए जाती है, इसलिए उसके कोई end points नहीं होते।\n- एक ray का एक end point होता है और वह एक दिशा में हमेशा के लिए जाती है।\n- एक line segment के दो end points होते हैं।\n- एक plane एक समतल सतह है जो भी अंत तक नहीं जाती, लेकिन इस प्रश्न में अपेक्षित उत्तर line है।"
+            },
+            {
+              "english": "So, the correct answer is (a) a line.",
+              "hindi": "इसलिए सही उत्तर है (a) a line."
+            },
+            {
+              "english": "Final Answer: (a) a line.",
+              "hindi": "अंतिम उत्तर: (a) a line."
+            }
+          ]
         }
       ],
       "tags": [
@@ -653,8 +701,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A definite length means a fixed or exact length.",
+              "hindi": "निश्चित लंबाई का मतलब है ऐसी लंबाई जो तय हो और मापी जा सके।"
+            },
+            {
+              "english": "- A line goes on forever in both directions, so it does not have a definite length.\n- A ray goes on forever in one direction, so it also does not have a definite length.\n- A plane is a flat surface that extends without end, so it does not have a definite length.\n- A line segment has two endpoints, so its length is fixed and can be measured.",
+              "hindi": "- रेखा (line) दोनों दिशाओं में अनंत तक जाती है, इसलिए उसकी निश्चित लंबाई नहीं होती।\n- किरण (ray) एक दिशा में अनंत तक जाती है, इसलिए उसकी भी निश्चित लंबाई नहीं होती।\n- समतल (plane) एक सपाट सतह है जो अनंत तक फैली होती है, इसलिए उसकी भी निश्चित लंबाई नहीं होती।\n- रेखाखंड (line segment) के दो अंतिम बिंदु होते हैं, इसलिए उसकी लंबाई निश्चित होती है और उसे मापा जा सकता है।"
+            },
+            {
+              "english": "So, the correct option is (b) a line segment.",
+              "hindi": "इसलिए सही विकल्प (b) रेखाखंड है।"
+            },
+            {
+              "english": "Final answer: (b) a line segment.",
+              "hindi": "अंतिम उत्तर: (b) रेखाखंड।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -717,8 +785,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's check each option:\n- A line goes on forever in both directions, so we cannot fully draw it on a piece of paper.\n- A line segment has two endpoints, so it fits on paper and can be drawn.\n- A ray goes on forever in one direction, so we cannot fully draw it.\n- A plane is a flat surface that extends without end, so it cannot be fully drawn.",
+              "hindi": "आइए हर विकल्प देखें:\n- रेखा दोनों दिशाओं में अनंत तक जाती है, इसलिए उसे कागज पर पूरी तरह नहीं बनाया जा सकता।\n- रेखाखंड के दो अंतिम बिंदु होते हैं, इसलिए उसे कागज पर बनाया जा सकता है।\n- किरण एक दिशा में अनंत तक जाती है, इसलिए उसे पूरी तरह नहीं बनाया जा सकता।\n- समतल बहुत बड़ा और अनंत माना जाता है, इसलिए उसे भी पूरी तरह नहीं बनाया जा सकता।"
+            },
+            {
+              "english": "So, the correct choice is the line segment.",
+              "hindi": "इसलिए सही उत्तर रेखाखंड है।"
+            },
+            {
+              "english": "Final answer: (b) a line segment.",
+              "hindi": "अंतिम उत्तर: (b) रेखाखंड।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -785,8 +869,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To draw a line segment of length 5 cm:\n1. Take a ruler and a pencil.\n2. Mark a starting point and name it A.\n3. Place the 0 mark of the ruler at A.\n4. Make a second mark at the 5 cm mark and name it B.\n5. Draw a straight line joining A and B.",
+              "hindi": "5 cm लंबाई की रेखाखंड बनाने के लिए:\n1. एक रूलर और पेंसिल लें।\n2. एक शुरुआती बिंदु बनाएं और उसे A नाम दें।\n3. रूलर का 0 निशान A पर रखें।\n4. 5 cm वाले निशान पर दूसरा बिंदु बनाएं और उसे B नाम दें।\n5. A और B को सीधी रेखा से जोड़ दें।"
+            },
+            {
+              "english": "Now the line segment AB is 5 cm long.",
+              "hindi": "अब रेखाखंड AB की लंबाई 5 cm है।"
+            },
+            {
+              "english": "Final answer: done",
+              "hindi": "अंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -853,8 +953,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To draw a line segment of length 6.3 cm, follow these steps:\n1. Take a ruler and a pencil.\n2. Draw a straight line and mark a starting point A.\n3. Place the 0 mark of the ruler at point A.\n4. Mark another point at 6.3 cm and label it B.\n5. Draw the line segment from A to B.",
+              "hindi": "6.3 सेमी लंबाई का रेखाखंड बनाने के लिए ये कदम follow करें:\n1. एक पैमाना और पेंसिल लें।\n2. एक सीधी रेखा खींचकर शुरुआती बिंदु A बनाएं।\n3. पैमाने का 0 निशान बिंदु A पर रखें।\n4. 6.3 सेमी पर एक और बिंदु B चिह्नित करें।\n5. A और B को मिलाकर रेखाखंड बनाएं।"
+            },
+            {
+              "english": "So, the required line segment is AB = 6.3 cm.",
+              "hindi": "इस प्रकार, रेखाखंड AB = 6.3 सेमी होगा।"
+            },
+            {
+              "english": "Final answer: done",
+              "hindi": "अंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -921,8 +1037,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To draw a line segment of length 7.5 cm:\n1. Take a ruler and a pencil.\n2. Mark one point and name it A.\n3. Put the ruler at point A.\n4. Measure 7.5 cm on the ruler.\n5. Mark the second point there and name it B.\n6. Draw a straight line joining A and B.\n7. Now the line segment AB is 7.5 cm long.",
+              "hindi": "7.5 सेमी लंबा रेखाखंड बनाने के लिए:\n1. एक रूलर और पेंसिल लें।\n2. एक बिंदु बनाइए और उसका नाम A रखिए।\n3. रूलर को बिंदु A पर रखिए।\n4. रूलर पर 7.5 सेमी मापिए।\n5. वहाँ दूसरा बिंदु बनाइए और उसका नाम B रखिए।\n6. A और B को मिलाकर एक सीधी रेखा खींचिए।\n7. अब AB रेखाखंड की लंबाई 7.5 सेमी है।"
+            },
+            {
+              "english": "Final answer: done",
+              "hindi": "अंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -985,8 +1113,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "This is a matching question. We need to connect each entry in Column I with the correct entry in Column II.",
+              "hindi": "यह एक मिलान वाला प्रश्न है। हमें Column I के प्रत्येक entry को Column II के सही entry से मिलाना है।"
+            },
+            {
+              "english": "From the given answer key, the correct matches are:\n1 -> (C)\n2 -> (B)\n3 -> (F)\n4 -> (A)\n5 -> (D)\n6 -> (E)",
+              "hindi": "दिए गए answer key के अनुसार सही मिलान है:\n1 -> (C)\n2 -> (B)\n3 -> (F)\n4 -> (A)\n5 -> (D)\n6 -> (E)"
+            },
+            {
+              "english": "So we match each number with its letter partner in Column II.",
+              "hindi": "इसलिए हम हर संख्या को Column II के सही अक्षर से जोड़ते हैं।"
+            },
+            {
+              "english": "Final answer: 1-(C), 2-(B), 3-(F), 4-(A), 5-(D), 6-(E).",
+              "hindi": "Final answer: 1-(C), 2-(B), 3-(F), 4-(A), 5-(D), 6-(E)."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1049,8 +1197,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A ray starts from a single point and goes on forever in one direction.\nSo, it has only one end point.\nThe blank is: one.\nFinal answer: one.",
+              "hindi": "किरण एक बिंदु से शुरू होती है और एक ही दिशा में हमेशा आगे बढ़ती रहती है।\nइसलिए किरण का केवल एक end point होता है।\nरिक्त स्थान में: एक आएगा।\nअंतिम उत्तर: एक।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1113,8 +1269,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A line goes on forever in both directions. It does not stop anywhere, so it has no end points. So the blank should be filled with: no end points.",
+              "hindi": "रेखा दोनों दिशाओं में हमेशा आगे बढ़ती है। यह कहीं रुकती नहीं है, इसलिए इसके कोई अंत बिंदु नहीं होते। इसलिए खाली स्थान में आएगा: कोई अंत बिंदु नहीं।"
+            },
+            {
+              "english": "Final answer: no end points.",
+              "hindi": "अंतिम उत्तर: कोई अंत बिंदु नहीं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1177,8 +1345,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: A line goes on forever in both directions.\nStep 2: Because it has no end, we cannot draw the whole line on a paper.\nSo the blank is: cannot.\nFinal answer: cannot",
+              "hindi": "चरण 1: रेखा दोनों दिशाओं में हमेशा के लिए जाती है।\nचरण 2: क्योंकि इसका कोई अंत नहीं होता, इसलिए इसे पूरी तरह कागज़ पर नहीं बनाया जा सकता।\nइसलिए खाली स्थान में आएगा: cannot.\nFinal answer: cannot"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1241,8 +1417,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A ray starts from one point and goes on forever in one direction.\nSo, it does not have a fixed or definite length.",
+              "hindi": "किरण एक बिंदु से शुरू होती है और एक ही दिशा में हमेशा आगे बढ़ती रहती है।\nइसलिए इसकी कोई निश्चित लंबाई नहीं होती।"
+            },
+            {
+              "english": "Fill in the blank: A ray has no definite length.",
+              "hindi": "रिक्त स्थान भरें: A ray has no definite length."
+            },
+            {
+              "english": "Final answer: definite",
+              "hindi": "Final answer: definite"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1305,8 +1497,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A line segment is a part of a line with two endpoints. Because its endpoints are fixed, its length does not change. So a line segment has a definite length.",
+              "hindi": "रेखा खंड रेखा का वह भाग होता है जिसके दो अंतिम बिंदु होते हैं। उसके अंतिम बिंदु निश्चित होते हैं, इसलिए उसकी लंबाई बदलती नहीं है। इसीलिए रेखा खंड की definite लंबाई होती है, यानी उसकी लंबाई निश्चित होती है।"
+            },
+            {
+              "english": "Final answer: definite.",
+              "hindi": "अंतिम उत्तर: definite."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1369,8 +1573,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To identify the parts, remember:\n- A line segment has two endpoints.\n- A ray has one endpoint and extends in one direction.",
+              "hindi": "पहले यह याद रखें:\n- रेखा खंड (line segment) के दो अंत बिंदु होते हैं।\n- किरण (ray) का एक अंत बिंदु होता है और वह एक ही दिशा में आगे बढ़ती जाती है।"
+            },
+            {
+              "english": "Now let us name them figure by figure:",
+              "hindi": "अब हर चित्र के भागों के नाम लिखते हैं:"
+            },
+            {
+              "english": "(a) In the first figure:\n- Line segment: BC\n- Rays: BA, BD",
+              "hindi": "(a) पहले चित्र में:\n- रेखा खंड: BC\n- किरणें: BA, BD"
+            },
+            {
+              "english": "(b) In the second figure:\n- Line segments: DE, EF, DF\n- Rays: DG, EH, FI",
+              "hindi": "(b) दूसरे चित्र में:\n- रेखा खंड: DE, EF, DF\n- किरणें: DG, EH, FI"
+            },
+            {
+              "english": "(c) In the third figure:\n- Line segments: ON, OP\n- Rays: NM, PQ",
+              "hindi": "(c) तीसरे चित्र में:\n- रेखा खंड: ON, OP\n- किरणें: NM, PQ"
+            },
+            {
+              "english": "Final answer: (a) Line segments BC; Rays BA, BD. (b) Line segments DE, EF, DF; Rays DG, EH, FI. (c) Line segments ON, OP; Rays NM, PQ.",
+              "hindi": "अंतिम उत्तर: (a) रेखा खंड BC; किरणें BA, BD। (b) रेखा खंड DE, EF, DF; किरणें DG, EH, FI। (c) रेखा खंड ON, OP; किरणें NM, PQ।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1437,8 +1669,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Draw a straight line.\nStep 2: Mark point Q as the starting point.\nStep 3: Mark point P on the same line after Q.\nStep 4: Draw an arrow beyond P to show the ray goes on forever.\nThis is ray QP, because it starts at Q and passes through P.\nFinal answer: done",
+              "hindi": "चरण 1: एक सीधी रेखा खींचिए।\nचरण 2: बिंदु Q को शुरुआती बिंदु के रूप में लिखिए।\nचरण 3: उसी रेखा पर Q के बाद बिंदु P लिखिए।\nचरण 4: P के आगे तीर का निशान लगाइए ताकि पता चले कि किरण आगे तक जाती है।\nयह QP किरण है, क्योंकि यह Q से शुरू होकर P से होकर आगे जाती है।\nअंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1505,8 +1745,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To solve this, we need to draw a line and mark two suitable points on it.",
+              "hindi": "इसे हल करने के लिए हमें एक सीधी रेखा बनानी है और उस पर दो उपयुक्त बिंदु चिह्नित करने हैं।"
+            },
+            {
+              "english": "Step 1: Draw a straight line.\nStep 2: Mark two points on the line and name them X and Y.\nStep 3: Remember that a line extends in both directions.",
+              "hindi": "चरण 1: एक सीधी रेखा खींचिए।\nचरण 2: रेखा पर दो बिंदु बनाइए और उन्हें X तथा Y नाम दीजिए।\nचरण 3: याद रखिए कि रेखा दोनों दिशाओं में आगे बढ़ती है।"
+            },
+            {
+              "english": "A simple diagram is:\n←────────X────────Y────────→",
+              "hindi": "सरल चित्र:\n←────────X────────Y────────→"
+            },
+            {
+              "english": "So, the required figure is a line XY.",
+              "hindi": "इसलिए आवश्यक आकृति एक रेखा XY है।"
+            },
+            {
+              "english": "Final answer: done",
+              "hindi": "अंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1573,8 +1837,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To solve this, we only need to mark the points in the given order and join them one by one.",
+              "hindi": "इस प्रश्न को हल करने के लिए दिए गए बिंदुओं को उसी क्रम में चिन्हित करना और फिर उन्हें एक-एक करके जोड़ना है।"
+            },
+            {
+              "english": "Step 1: Write the order of points.\nA, C, B, D, I, G, D, F, H, E, O, N, P, Q, M",
+              "hindi": "चरण 1: बिंदुओं का क्रम लिखिए।\nA, C, B, D, I, G, D, F, H, E, O, N, P, Q, M"
+            },
+            {
+              "english": "Step 2: Mark suitable points on paper.\nBecause no exact coordinates are given, you can place the points neatly anywhere as long as you follow the correct order.",
+              "hindi": "चरण 2: कागज पर उचित स्थानों पर बिंदु बनाइए।\nक्योंकि यहाँ कोई exact coordinates नहीं दिए गए हैं, इसलिए आप बिंदुओं को साफ-सुथरे तरीके से कहीं भी रख सकते हैं, बस क्रम सही होना चाहिए।"
+            },
+            {
+              "english": "Step 3: Join the points in order.\nDraw line segments from A to C, C to B, B to D, D to I, I to G, G to D, D to F, F to H, H to E, E to O, O to N, N to P, P to Q, and Q to M.",
+              "hindi": "चरण 3: बिंदुओं को क्रम से जोड़िए।\nA से C, C से B, B से D, D से I, I से G, G से D, D से F, F से H, H से E, E से O, O से N, N से P, P से Q, और Q से M तक रेखाखंड खींचिए।"
+            },
+            {
+              "english": "Step 4: Check your diagram.\nMake sure all the points are connected in the same sequence given in the question.",
+              "hindi": "चरण 4: अपना चित्र जाँचिए।\nध्यान रहे कि सभी बिंदु प्रश्न में दिए गए उसी क्रम में जुड़े हों।"
+            },
+            {
+              "english": "Final answer: done.",
+              "hindi": "अंतिम उत्तर: done."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1641,8 +1933,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A ray has one endpoint and goes on forever in one direction.",
+              "hindi": "किरण के एक सिरे पर एक बिंदु होता है और वह एक ही दिशा में अनंत तक जाती है।"
+            },
+            {
+              "english": "To draw ray MN:\n1. Mark point M first. This is the starting point of the ray.\n2. Mark point N on the same straight path to the right of M.\n3. Draw a straight line from M through N.\n4. Put an arrow at the end after N to show the ray continues forever.",
+              "hindi": "किरण MN को बनाने के लिए:\n1. सबसे पहले बिंदु M बनाइए। यह किरण का प्रारंभिक बिंदु है।\n2. M के दाईं ओर या उसी सीधी रेखा पर बिंदु N बनाइए।\n3. M से N तक एक सीधी रेखा खींचिए।\n4. N के बाद तीर का निशान लगाइए, ताकि पता चले कि किरण आगे भी जाती रहती है।"
+            },
+            {
+              "english": "Simple diagram:\nM•-----•N------>",
+              "hindi": "सरल चित्र:\nM•-----•N------>"
+            },
+            {
+              "english": "So, the diagram is a ray starting at M and passing through N.",
+              "hindi": "इस तरह चित्र में किरण M से शुरू होकर N से गुजरती हुई दिखाई देती है।"
+            },
+            {
+              "english": "Final answer: done",
+              "hindi": "अंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [

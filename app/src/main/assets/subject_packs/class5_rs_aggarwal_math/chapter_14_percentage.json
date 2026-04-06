@@ -636,8 +636,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Percent means \"out of 100.\"\nSo, 35% = 35/100.",
+              "hindi": "चरण 1: प्रतिशत का मतलब होता है \"100 में से\"।\nइसलिए, 35% = 35/100."
+            },
+            {
+              "english": "Step 2: Simplify the fraction.\n35 and 100 can both be divided by 5.\n35 ÷ 5 = 7\n100 ÷ 5 = 20",
+              "hindi": "चरण 2: भिन्न को सरल करें।\n35 और 100 दोनों को 5 से भाग दिया जा सकता है।\n35 ÷ 5 = 7\n100 ÷ 5 = 20"
+            },
+            {
+              "english": "So, 35/100 = 7/20.",
+              "hindi": "इसलिए, 35/100 = 7/20."
+            },
+            {
+              "english": "Final answer: 7/20.",
+              "hindi": "अंतिम उत्तर: 7/20."
+            }
+          ]
         }
       ],
       "tags": [
@@ -700,8 +720,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "48% means 48 out of 100.\nSo, write it as a fraction:\n48% = 48/100\nNow simplify the fraction by dividing the numerator and denominator by 4:\n48 ÷ 4 = 12\n100 ÷ 4 = 25\nSo, 48/100 = 12/25\nFinal answer: 12/25",
+              "hindi": "48% का मतलब है 100 में से 48।\nइसलिए इसे भिन्न के रूप में लिखते हैं:\n48% = 48/100\nअब इस भिन्न को सरल करते हैं। 48 और 100 दोनों को 4 से भाग देते हैं:\n48 ÷ 4 = 12\n100 ÷ 4 = 25\nतो, 48/100 = 12/25\nअंतिम उत्तर: 12/25"
+            }
+          ]
         }
       ],
       "tags": [
@@ -764,8 +792,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "72% means 72 out of 100.\nSo, 72% = 72/100.\nNow simplify the fraction by dividing the numerator and denominator by 4:\n72 ÷ 4 = 18\n100 ÷ 4 = 25\nSo the fraction in lowest terms is 18/25.\nFinal answer: 18/25",
+              "hindi": "72% का मतलब है 100 में से 72।\nइसलिए, 72% = 72/100।\nअब भिन्न को सरल करें। अंश और हर दोनों को 4 से भाग देते हैं:\n72 ÷ 4 = 18\n100 ÷ 4 = 25\nतो सबसे छोटे रूप में भिन्न 18/25 है।\nअंतिम उत्तर: 18/25"
+            }
+          ]
         }
       ],
       "tags": [
@@ -828,8 +864,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "84% means 84 out of 100.",
+              "hindi": "84% का मतलब है 100 में से 84।"
+            },
+            {
+              "english": "Step 1: Write it as a fraction:\n84% = 84/100",
+              "hindi": "Step 1: इसे भिन्न के रूप में लिखिए:\n84% = 84/100"
+            },
+            {
+              "english": "Step 2: Simplify the fraction.\nBoth 84 and 100 can be divided by 4:\n84 ÷ 4 = 21\n100 ÷ 4 = 25",
+              "hindi": "Step 2: इस भिन्न को सरल कीजिए।\n84 और 100 दोनों को 4 से भाग दे सकते हैं:\n84 ÷ 4 = 21\n100 ÷ 4 = 25"
+            },
+            {
+              "english": "So,\n84/100 = 21/25",
+              "hindi": "इसलिए,\n84/100 = 21/25"
+            },
+            {
+              "english": "Therefore, the fraction in lowest terms is 21/25.",
+              "hindi": "अतः सबसे सरल रूप में भिन्न 21/25 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -892,8 +952,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To express 7 1/2% as a fraction, first write it as 7.5%.\nPercent means \"out of 100\", so\n7.5% = 7.5/100.",
+              "hindi": "7 1/2% को भिन्न में बदलने के लिए पहले इसे 7.5% लिखते हैं।\nप्रतिशत का मतलब होता है \"100 में से\", इसलिए\n7.5% = 7.5/100."
+            },
+            {
+              "english": "Now remove the decimal by multiplying the numerator and denominator by 10:\n7.5/100 = 75/1000.",
+              "hindi": "अब दशमलव हटाने के लिए अंश और हर दोनों को 10 से गुणा करते हैं:\n7.5/100 = 75/1000."
+            },
+            {
+              "english": "Simplify 75/1000 by dividing both numbers by 25:\n75/1000 = 3/40.",
+              "hindi": "अब 75/1000 को सरल करते हैं। दोनों को 25 से भाग देते हैं:\n75/1000 = 3/40."
+            },
+            {
+              "english": "So, 7 1/2% as a fraction in lowest terms is 3/40.\nFinal answer: 3/40.",
+              "hindi": "इसलिए 7 1/2% का सबसे सरल भिन्न रूप 3/40 है।\nअंतिम उत्तर: 3/40।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -956,8 +1036,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 8 1/3% into a fraction, first write the mixed number as an improper fraction.",
+              "hindi": "8 1/3% को भिन्न में बदलने के लिए पहले इसे अशुद्ध भिन्न लिखते हैं।"
+            },
+            {
+              "english": "8 1/3 = 25/3",
+              "hindi": "8 1/3 = 25/3"
+            },
+            {
+              "english": "Now write the percent as a fraction over 100:",
+              "hindi": "अब प्रतिशत को 100 के ऊपर लिखते हैं:"
+            },
+            {
+              "english": "8 1/3% = 25/3 × 1/100",
+              "hindi": "8 1/3% = 25/3 × 1/100"
+            },
+            {
+              "english": "= 25/300",
+              "hindi": "= 25/300"
+            },
+            {
+              "english": "Now simplify:",
+              "hindi": "अब इसे सरल करते हैं:"
+            },
+            {
+              "english": "25/300 = 1/12",
+              "hindi": "25/300 = 1/12"
+            },
+            {
+              "english": "So, the fraction in lowest terms is 1/12.",
+              "hindi": "इसलिए, सबसे सरल रूप में भिन्न 1/12 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1020,8 +1136,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To express 16 2/3% as a fraction:",
+              "hindi": "16 2/3% को भिन्न में बदलने के लिए:"
+            },
+            {
+              "english": "1. First, write 16 2/3 as an improper fraction.\n   16 2/3 = (16 × 3 + 2) / 3 = 50/3",
+              "hindi": "1. पहले 16 2/3 को अशुद्ध भिन्न में बदलें।\n   16 2/3 = (16 × 3 + 2) / 3 = 50/3"
+            },
+            {
+              "english": "2. Now convert percent to a fraction by dividing by 100.\n   16 2/3% = (50/3) ÷ 100",
+              "hindi": "2. अब प्रतिशत को भिन्न में बदलने के लिए 100 से भाग दें।\n   16 2/3% = (50/3) ÷ 100"
+            },
+            {
+              "english": "3. Dividing by 100 means multiplying by 1/100.\n   (50/3) × (1/100) = 50/300",
+              "hindi": "3. 100 से भाग देना, 1/100 से गुणा करने के बराबर है।\n   (50/3) × (1/100) = 50/300"
+            },
+            {
+              "english": "4. Simplify the fraction.\n   50/300 = 1/6",
+              "hindi": "4. अब भिन्न को सरल करें।\n   50/300 = 1/6"
+            },
+            {
+              "english": "So, the fraction in lowest terms is 1/6.",
+              "hindi": "इसलिए, सबसे सरल भिन्न 1/6 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1084,8 +1228,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Percent means “out of 100.”\nSo, 37.5% = 37.5/100.",
+              "hindi": "चरण 1: प्रतिशत का मतलब होता है “100 में से।”\nइसलिए, 37.5% = 37.5/100."
+            },
+            {
+              "english": "Step 2: To remove the decimal, multiply the numerator and denominator by 10:\n37.5/100 = 375/1000.",
+              "hindi": "चरण 2: दशमलव हटाने के लिए अंश और हर दोनों को 10 से गुणा करें:\n37.5/100 = 375/1000."
+            },
+            {
+              "english": "Step 3: Now simplify the fraction.\nDivide both 375 and 1000 by 125:\n375 ÷ 125 = 3\n1000 ÷ 125 = 8",
+              "hindi": "चरण 3: अब भिन्न को सरल करें।\n375 और 1000 दोनों को 125 से भाग दें:\n375 ÷ 125 = 3\n1000 ÷ 125 = 8"
+            },
+            {
+              "english": "So, 37.5% = 3/8.",
+              "hindi": "इसलिए, 37.5% = 3/8."
+            },
+            {
+              "english": "Final answer: 3/8",
+              "hindi": "अंतिम उत्तर: 3/8"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1148,8 +1316,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "135% means 135 out of 100.\nSo we write it as a fraction:\n135% = 135/100\nNow simplify the fraction by dividing numerator and denominator by 5:\n135 ÷ 5 = 27\n100 ÷ 5 = 20\nSo, 135/100 = 27/20\nFinal answer: 27/20.",
+              "hindi": "135% का मतलब है 100 में से 135।\nइसलिए इसे भिन्न में लिखते हैं:\n135% = 135/100\nअब इस भिन्न को सरल करते हैं। अंश और हर दोनों को 5 से भाग देते हैं:\n135 ÷ 5 = 27\n100 ÷ 5 = 20\nइसलिए, 135/100 = 27/20\nअंतिम उत्तर: 27/20."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1212,8 +1388,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Remember that percent means \"out of 100.\"",
+              "hindi": "Step 1: याद रखिए कि प्रतिशत का मतलब \"100 में से\" होता है।"
+            },
+            {
+              "english": "So, 225% = 225/100",
+              "hindi": "इसलिए, 225% = 225/100"
+            },
+            {
+              "english": "Step 2: Now simplify the fraction.\nWe can divide the top and bottom by 25:\n225 ÷ 25 = 9\n100 ÷ 25 = 4",
+              "hindi": "Step 2: अब इस भिन्न को सरल करते हैं।\nहम ऊपर और नीचे दोनों को 25 से भाग देंगे:\n225 ÷ 25 = 9\n100 ÷ 25 = 4"
+            },
+            {
+              "english": "So, 225/100 = 9/4",
+              "hindi": "इसलिए, 225/100 = 9/4"
+            },
+            {
+              "english": "Step 3: The fraction is now in lowest terms because 9 and 4 do not have any common factor except 1.",
+              "hindi": "Step 3: अब यह भिन्न सबसे छोटे रूप में है, क्योंकि 9 और 4 का 1 के अलावा कोई समान गुणनखंड नहीं है।"
+            },
+            {
+              "english": "Final answer: 9/4",
+              "hindi": "अंतिम उत्तर: 9/4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1276,8 +1480,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "2% means 2 out of 100.\nSo, 2% = 2/100.\nNow simplify by dividing the numerator and denominator by 2:\n2/100 = 1/50.\nSo the fraction in lowest terms is 1/50.\nFinal answer: 1/50",
+              "hindi": "2% का मतलब 100 में से 2 है.\nइसलिए, 2% = 2/100.\nअब अंश और हर दोनों को 2 से भाग दें:\n2/100 = 1/50.\nइसलिए सबसे सरल रूप में भिन्न 1/50 है.\nअंतिम उत्तर: 1/50"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1340,8 +1552,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Write the percent as a fraction over 100.\n9.6% = 9.6/100",
+              "hindi": "Step 1: प्रतिशत को 100 के ऊपर भिन्न के रूप में लिखें।\n9.6% = 9.6/100"
+            },
+            {
+              "english": "Step 2: Remove the decimal by multiplying the numerator and denominator by 10.\n9.6/100 = 96/1000",
+              "hindi": "Step 2: दशमलव हटाने के लिए अंश और हर दोनों को 10 से गुणा करें।\n9.6/100 = 96/1000"
+            },
+            {
+              "english": "Step 3: Simplify the fraction.\n96 and 1000 can both be divided by 8.\n96/1000 = 12/125",
+              "hindi": "Step 3: भिन्न को सरल करें।\n96 और 1000 दोनों को 8 से भाग दिया जा सकता है।\n96/1000 = 12/125"
+            },
+            {
+              "english": "Final answer: 12/125",
+              "hindi": "अंतिम उत्तर: 12/125"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1404,8 +1636,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To express 23% as a decimal, remember that percent means \"per hundred.\"",
+              "hindi": "23% को दशमलव में बदलने के लिए याद रखें कि प्रतिशत का मतलब होता है \"सौ में से।\""
+            },
+            {
+              "english": "Step 1: Write 23% as a fraction:\n23% = 23/100",
+              "hindi": "Step 1: 23% को भिन्न के रूप में लिखिए:\n23% = 23/100"
+            },
+            {
+              "english": "Step 2: Divide 23 by 100:\n23 ÷ 100 = 0.23",
+              "hindi": "Step 2: 23 को 100 से भाग दीजिए:\n23 ÷ 100 = 0.23"
+            },
+            {
+              "english": "So, 23% as a decimal is 0.23.\nFinal answer: 0.23",
+              "hindi": "इसलिए, 23% का दशमलव रूप 0.23 है।\nअंतिम उत्तर: 0.23"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1468,8 +1720,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To express 72% as a decimal:",
+              "hindi": "72% को decimal में बदलने के लिए:"
+            },
+            {
+              "english": "1. Percent means “out of 100.”\n2. So, 72% = 72 out of 100 = 72/100.\n3. Divide 72 by 100.\n4. 72 ÷ 100 = 0.72.",
+              "hindi": "1. Percent का मतलब होता है “100 में से।”\n2. इसलिए 72% = 100 में से 72 = 72/100.\n3. अब 72 को 100 से भाग दें।\n4. 72 ÷ 100 = 0.72."
+            },
+            {
+              "english": "Final answer: 0.72",
+              "hindi": "Final answer: 0.72"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1532,8 +1800,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A percent means 'out of 100'.",
+              "hindi": "प्रतिशत का मतलब होता है '100 में से'."
+            },
+            {
+              "english": "6% = 6/100\n= 0.06",
+              "hindi": "6% = 6/100\n= 0.06"
+            },
+            {
+              "english": "So, 6% written as a decimal is 0.06.",
+              "hindi": "इसलिए, 6% का दशमलव रूप 0.06 है."
+            },
+            {
+              "english": "Final answer: 0.06",
+              "hindi": "अंतिम उत्तर: 0.06"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1596,8 +1884,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 10% as a decimal, we first remember what percent means.",
+              "hindi": "10% को दशमलव में लिखने के लिए पहले यह याद रखें कि प्रतिशत का मतलब होता है \"100 में से\"।"
+            },
+            {
+              "english": "Percent means \"out of 100.\"\nSo, 10% = 10 out of 100 = 10/100.",
+              "hindi": "इसलिए, 10% = 100 में से 10 = 10/100."
+            },
+            {
+              "english": "Now divide 10 by 100:\n10/100 = 0.10 = 0.1",
+              "hindi": "अब 10 को 100 से भाग दें:\n10/100 = 0.10 = 0.1"
+            },
+            {
+              "english": "So, 10% as a decimal is 0.1.",
+              "hindi": "इसलिए, 10% का दशमलव रूप 0.1 है।"
+            },
+            {
+              "english": "Final answer: 0.1",
+              "hindi": "अंतिम उत्तर: 0.1"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1660,8 +1972,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To express a percentage as a decimal, divide by 100.",
+              "hindi": "प्रतिशत को दशमलव में बदलने के लिए 100 से भाग देते हैं।"
+            },
+            {
+              "english": "Here, the number is 35.6%.\nSo,\n35.6% = 35.6 ÷ 100\n= 0.356",
+              "hindi": "यहाँ संख्या है 35.6%।\nतो,\n35.6% = 35.6 ÷ 100\n= 0.356"
+            },
+            {
+              "english": "We move the decimal point 2 places to the left.",
+              "hindi": "हम दशमलव बिंदु को 2 स्थान बाईं ओर ले जाते हैं।"
+            },
+            {
+              "english": "Final answer: 0.356",
+              "hindi": "Final answer: 0.356"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1724,8 +2056,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To express 104% as a decimal, remember that percent means per 100.\nSo, 104% = 104/100.\nNow divide 104 by 100:\n104 ÷ 100 = 1.04.\nSo, 104% as a decimal is 1.04.\nFinal answer: 1.04",
+              "hindi": "104% को decimal में बदलने के लिए याद रखें कि प्रतिशत का मतलब होता है प्रति 100.\nइसलिए 104% = 104/100.\nअब 104 को 100 से भाग दें:\n104 ÷ 100 = 1.04.\nइसलिए 104% का decimal रूप 1.04 है.\nअंतिम उत्तर: 1.04"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1788,8 +2128,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Part (g): 180%",
+              "hindi": "भाग (g): 180%"
+            },
+            {
+              "english": "Step 1: Remember that percent means \"out of 100\".\nSo, 180% = 180/100.",
+              "hindi": "चरण 1: याद रखें कि प्रतिशत का मतलब होता है \"100 में से\"।\nइसलिए, 180% = 180/100."
+            },
+            {
+              "english": "Step 2: Divide 180 by 100.\n180 ÷ 100 = 1.8",
+              "hindi": "चरण 2: 180 को 100 से भाग दीजिए।\n180 ÷ 100 = 1.8"
+            },
+            {
+              "english": "So, the decimal form of 180% is 1.8.",
+              "hindi": "इसलिए, 180% का दशमलव रूप 1.8 है।"
+            },
+            {
+              "english": "Final answer: 1.8",
+              "hindi": "अंतिम उत्तर: 1.8"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1852,8 +2216,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To express 235% as a decimal, remember that percent means \"per hundred\".\nSo, divide 235 by 100.\n235% = 235/100 = 2.35\nSo, 235% as a decimal is 2.35.\nFinal answer: 2.35.",
+              "hindi": "235% को decimal में बदलने के लिए याद रखें कि percent का मतलब \"प्रति सौ\" होता है।\nइसलिए 235 को 100 से भाग देते हैं।\n235% = 235/100 = 2.35\nइसलिए 235% का decimal रूप 2.35 है।\nअंतिम उत्तर: 2.35।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1916,8 +2288,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To express 4.5% as a decimal, use the rule: percent means \"per 100\".",
+              "hindi": "4.5% को decimal में बदलने के लिए यह नियम use करते हैं: प्रतिशत का मतलब होता है \"100 में से\"।"
+            },
+            {
+              "english": "So,\n4.5% = 4.5 ÷ 100\n= 0.045",
+              "hindi": "इसलिए,\n4.5% = 4.5 ÷ 100\n= 0.045"
+            },
+            {
+              "english": "Final answer: 0.045",
+              "hindi": "अंतिम उत्तर: 0.045"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1980,8 +2368,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To express a percent as a decimal, divide it by 100.",
+              "hindi": "किसी प्रतिशत को दशमलव में बदलने के लिए उसे 100 से भाग देते हैं।"
+            },
+            {
+              "english": "Here, the given number is 6.25%.",
+              "hindi": "यहाँ दिया गया है 6.25%।"
+            },
+            {
+              "english": "Step 1: Remove the percent sign.\n6.25% = 6.25 ÷ 100",
+              "hindi": "चरण 1: प्रतिशत का चिह्न हटा दें।\n6.25% = 6.25 ÷ 100"
+            },
+            {
+              "english": "Step 2: Divide by 100.\n6.25 ÷ 100 = 0.0625",
+              "hindi": "चरण 2: 100 से भाग दें।\n6.25 ÷ 100 = 0.0625"
+            },
+            {
+              "english": "So, 6.25% as a decimal is 0.0625.",
+              "hindi": "इसलिए, 6.25% का दशमलव रूप 0.0625 है।"
+            },
+            {
+              "english": "Final answer: 0.0625",
+              "hindi": "अंतिम उत्तर: 0.0625"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2044,8 +2460,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Percent means \"per hundred\".\nSo, 0.3% = 0.3 ÷ 100.\nWhen we divide by 100, the decimal point moves 2 places to the left:\n0.3 → 0.003.\nSo the decimal form of 0.3% is 0.003.\nFinal answer: 0.003",
+              "hindi": "प्रतिशत का मतलब होता है \"प्रति सौ\"।\nइसलिए, 0.3% = 0.3 ÷ 100.\n100 से भाग देने पर दशमलव बिंदु 2 स्थान बाईं ओर खिसकता है:\n0.3 → 0.003.\nइसलिए 0.3% का दशमलव रूप 0.003 है।\nअंतिम उत्तर: 0.003"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2108,8 +2532,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Percent means \"per hundred.\" To express 0.25% as a decimal, divide by 100.",
+              "hindi": "प्रतिशत का मतलब होता है \"प्रति 100\"। किसी प्रतिशत को दशमलव में बदलने के लिए 100 से भाग देते हैं।"
+            },
+            {
+              "english": "0.25% = 0.25 ÷ 100\n= 0.0025",
+              "hindi": "0.25% = 0.25 ÷ 100\n= 0.0025"
+            },
+            {
+              "english": "So, 0.25% written as a decimal is 0.0025.",
+              "hindi": "इसलिए 0.25% का दशमलव रूप 0.0025 है।"
+            },
+            {
+              "english": "Final answer: 0.0025",
+              "hindi": "अंतिम उत्तर: 0.0025"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2172,8 +2616,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: A percentage means “out of 100.”\nStep 2: The fraction is 23/100.\nStep 3: Since the denominator is already 100, the numerator tells the percentage directly.\nSo, 23/100 = 23%.\nFinal answer: 23%",
+              "hindi": "चरण 1: प्रतिशत का मतलब होता है “100 में से।”\nचरण 2: यहाँ भिन्न 23/100 है।\nचरण 3: क्योंकि हर 100 है, इसलिए अंश ही प्रतिशत बताता है।\nइसलिए 23/100 = 23%.\nअंतिम उत्तर: 23%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2236,8 +2688,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert a fraction into a percentage, write it as a number out of 100.",
+              "hindi": "किसी भिन्न को प्रतिशत में बदलने के लिए उसे 100 में से एक संख्या के रूप में लिखते हैं।"
+            },
+            {
+              "english": "Here the fraction is 9/100.\n- The denominator is 100, so it is already in percent form.\n- The numerator is 9.\n- So 9/100 = 9 out of 100 = 9%.",
+              "hindi": "यहाँ भिन्न है 9/100।\n- हर 100 है, इसलिए यह पहले से ही प्रतिशत के रूप में है।\n- अंश 9 है।\n- इसलिए 9/100 = 100 में से 9 = 9%।"
+            },
+            {
+              "english": "Final answer: 9%",
+              "hindi": "अंतिम उत्तर: 9%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2300,8 +2768,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert the fraction 7/10 into a percentage:",
+              "hindi": "7/10 को प्रतिशत में बदलने के लिए:"
+            },
+            {
+              "english": "Step 1: Write the fraction as a decimal.\n7 ÷ 10 = 0.7",
+              "hindi": "चरण 1: भिन्न को दशमलव में लिखें।\n7 ÷ 10 = 0.7"
+            },
+            {
+              "english": "Step 2: Convert the decimal to a percentage.\n0.7 × 100 = 70",
+              "hindi": "चरण 2: दशमलव को प्रतिशत में बदलें।\n0.7 × 100 = 70"
+            },
+            {
+              "english": "So, 7/10 = 70%.",
+              "hindi": "इसलिए, 7/10 = 70%।"
+            },
+            {
+              "english": "Final answer: 70%",
+              "hindi": "अंतिम उत्तर: 70%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2364,8 +2856,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 1/4 into a percentage:\n1. First divide 1 by 4: 1 ÷ 4 = 0.25\n2. Multiply by 100 to change it into a percentage: 0.25 × 100 = 25\nSo, 1/4 = 25%.\nFinal answer: 25%",
+              "hindi": "1/4 को प्रतिशत में बदलने के लिए:\n1. पहले 1 को 4 से भाग दें: 1 ÷ 4 = 0.25\n2. प्रतिशत पाने के लिए 0.25 को 100 से गुणा करें: 0.25 × 100 = 25\nइसलिए, 1/4 = 25%.\nअंतिम उत्तर: 25%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2428,8 +2928,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert the fraction \\(\\frac{1}{8}\\) into a percentage, follow these steps:",
+              "hindi": "भिन्न \\(\\frac{1}{8}\\) को प्रतिशत में बदलने के लिए ये कदम follow करें:"
+            },
+            {
+              "english": "1. First, divide 1 by 8.\n   \\(1 \\div 8 = 0.125\\)",
+              "hindi": "1. पहले 1 को 8 से भाग दीजिए।\n   \\(1 \\div 8 = 0.125\\)"
+            },
+            {
+              "english": "2. Now convert the decimal into a percentage by multiplying by 100.\n   \\(0.125 \\times 100 = 12.5\\)",
+              "hindi": "2. अब इस decimal को percentage में बदलने के लिए 100 से गुणा कीजिए।\n   \\(0.125 \\times 100 = 12.5\\)"
+            },
+            {
+              "english": "3. So, \\(\\frac{1}{8} = 12.5\\%\\)",
+              "hindi": "3. इसलिए, \\(\\frac{1}{8} = 12.5\\%\\)"
+            },
+            {
+              "english": "4. You can also write \\(12.5\\%\\) as \\(12\\frac{1}{2}\\%\\).",
+              "hindi": "4. \\(12.5\\%\\) को \\(12\\frac{1}{2}\\%\\) भी लिखा जा सकता है।"
+            },
+            {
+              "english": "Final answer: 12 1/2%.",
+              "hindi": "अंतिम उत्तर: 12 1/2%."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2492,8 +3020,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 2/5 into a percentage, we make the denominator 100, because percent means “per hundred.”",
+              "hindi": "2/5 को प्रतिशत में बदलने के लिए हम हर (denominator) को 100 बनाते हैं, क्योंकि प्रतिशत का मतलब होता है “प्रति 100।”"
+            },
+            {
+              "english": "Step 1: Find a number that makes 5 into 100.\n5 × 20 = 100",
+              "hindi": "चरण 1: देखें कि 5 को 100 बनाने के लिए कितने से गुणा करना होगा।\n5 × 20 = 100"
+            },
+            {
+              "english": "Step 2: Multiply both the numerator and denominator by 20.\n2/5 = (2 × 20) / (5 × 20) = 40/100",
+              "hindi": "चरण 2: अब अंश और हर दोनों को 20 से गुणा करें।\n2/5 = (2 × 20) / (5 × 20) = 40/100"
+            },
+            {
+              "english": "Step 3: Write 40/100 as a percentage.\n40/100 = 40%",
+              "hindi": "चरण 3: 40/100 को प्रतिशत में लिखें।\n40/100 = 40%"
+            },
+            {
+              "english": "So, 2/5 = 40%.",
+              "hindi": "इसलिए, 2/5 = 40%."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2556,8 +3108,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 3/20 into a percentage, first divide 3 by 20.\n3 ÷ 20 = 0.15\nNow multiply by 100 to change it into a percentage.\n0.15 × 100 = 15\nSo, 3/20 = 15%.\nFinal answer: 15%",
+              "hindi": "3/20 को प्रतिशत में बदलने के लिए पहले 3 को 20 से भाग देते हैं।\n3 ÷ 20 = 0.15\nअब इसे प्रतिशत में बदलने के लिए 100 से गुणा करते हैं।\n0.15 × 100 = 15\nइसलिए, 3/20 = 15%.\nअंतिम उत्तर: 15%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2620,8 +3180,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 9/20 into a percentage:\n1. Write the fraction as 9/20.\n2. Multiply by 100 because percentage means \"out of 100\".\n3. (9/20) × 100 = 9 × 5 = 45.\n4. So, 9/20 = 45/100 = 45%.\nFinal answer: 45%",
+              "hindi": "9/20 को प्रतिशत में बदलने के लिए:\n1. भिन्न है 9/20.\n2. प्रतिशत का मतलब होता है \"100 में से\"। इसलिए 100 से गुणा करते हैं।\n3. (9/20) × 100 = 9 × 5 = 45.\n4. इसलिए 9/20 = 45/100 = 45%.\nअंतिम उत्तर: 45%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2684,8 +3252,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert the fraction 18/25 into a percentage, we multiply it by 100.",
+              "hindi": "18/25 को प्रतिशत में बदलने के लिए हम इसे 100 से गुणा करते हैं।"
+            },
+            {
+              "english": "Step 1: Write the fraction.\n18/25",
+              "hindi": "चरण 1: भिन्न लिखिए।\n18/25"
+            },
+            {
+              "english": "Step 2: Multiply by 100.\n(18/25) × 100",
+              "hindi": "चरण 2: 100 से गुणा कीजिए।\n(18/25) × 100"
+            },
+            {
+              "english": "Step 3: Simplify.\n18 × 4 = 72\nbecause 100 ÷ 25 = 4",
+              "hindi": "चरण 3: सरल कीजिए।\n100 ÷ 25 = 4\nइसलिए 18 × 4 = 72"
+            },
+            {
+              "english": "So,\n18/25 = 72%",
+              "hindi": "तो,\n18/25 = 72%"
+            },
+            {
+              "english": "Final answer: 72%",
+              "hindi": "अंतिम उत्तर: 72%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2748,8 +3344,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 27/50 into a percentage, we make the denominator 100.",
+              "hindi": "27/50 को प्रतिशत में बदलने के लिए हम हर (denominator) को 100 बनाते हैं।"
+            },
+            {
+              "english": "Step 1: Multiply both numerator and denominator by 2.\n27/50 = (27 × 2) / (50 × 2) = 54/100",
+              "hindi": "चरण 1: अंश और हर दोनों को 2 से गुणा करें।\n27/50 = (27 × 2) / (50 × 2) = 54/100"
+            },
+            {
+              "english": "Step 2: A fraction out of 100 is a percentage.\nSo, 54/100 = 54%",
+              "hindi": "चरण 2: जो भिन्न 100 में हो, वही प्रतिशत होता है।\nइसलिए, 54/100 = 54%"
+            },
+            {
+              "english": "Final answer: 54%",
+              "hindi": "अंतिम उत्तर: 54%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2812,8 +3428,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 9/16 into a percentage, multiply it by 100.",
+              "hindi": "9/16 को प्रतिशत में बदलने के लिए इसे 100 से गुणा करते हैं।"
+            },
+            {
+              "english": "9/16 × 100 = 900/16 = 56.25",
+              "hindi": "9/16 × 100 = 900/16 = 56.25"
+            },
+            {
+              "english": "So, 9/16 = 56.25%",
+              "hindi": "इसलिए, 9/16 = 56.25%"
+            },
+            {
+              "english": "Now write 56.25% as a mixed fraction:\n56.25% = 56 1/4%",
+              "hindi": "अब 56.25% को मिश्र भिन्न में लिखते हैं:\n56.25% = 56 1/4%"
+            },
+            {
+              "english": "Final answer: 56 1/4%",
+              "hindi": "अंतिम उत्तर: 56 1/4%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2876,8 +3516,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert the fraction \\(\\frac{37}{40}\\) into a percentage, follow these steps:",
+              "hindi": "भिन्न \\(\\frac{37}{40}\\) को प्रतिशत में बदलने के लिए ये कदम करें:"
+            },
+            {
+              "english": "1. Write the fraction.\n   \\(\\frac{37}{40}\\)",
+              "hindi": "1. भिन्न लिखिए:\n   \\(\\frac{37}{40}\\)"
+            },
+            {
+              "english": "2. Multiply by 100 because percentage means “per 100”.\n   \\(\\frac{37}{40} \\times 100\\)",
+              "hindi": "2. प्रतिशत का मतलब “प्रति 100” होता है, इसलिए 100 से गुणा करते हैं:\n   \\(\\frac{37}{40} \\times 100\\)"
+            },
+            {
+              "english": "3. Divide 37 by 40 first.\n   \\(37 \\div 40 = 0.925\\)",
+              "hindi": "3. पहले 37 को 40 से भाग दीजिए:\n   \\(37 \\div 40 = 0.925\\)"
+            },
+            {
+              "english": "4. Now multiply by 100.\n   \\(0.925 \\times 100 = 92.5\\)",
+              "hindi": "4. अब 100 से गुणा कीजिए:\n   \\(0.925 \\times 100 = 92.5\\)"
+            },
+            {
+              "english": "So, \\(\\frac{37}{40} = 92.5\\%\\).",
+              "hindi": "इसलिए, \\(\\frac{37}{40} = 92.5\\%\\)।"
+            },
+            {
+              "english": "Final answer: 92.5%",
+              "hindi": "Final answer: 92.5%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2940,8 +3612,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert a fraction into a percentage, multiply it by 100 and add the % sign.",
+              "hindi": "किसी भिन्न को प्रतिशत में बदलने के लिए उसे 100 से गुणा करते हैं और % का चिह्न लगाते हैं।"
+            },
+            {
+              "english": "Given fraction = 2/3",
+              "hindi": "दी गई भिन्न = 2/3"
+            },
+            {
+              "english": "Step 1: Multiply by 100\n2/3 × 100 = 200/3",
+              "hindi": "चरण 1: 100 से गुणा करें\n2/3 × 100 = 200/3"
+            },
+            {
+              "english": "Step 2: Divide 200 by 3\n200 ÷ 3 = 66 2/3",
+              "hindi": "चरण 2: 200 को 3 से भाग दें\n200 ÷ 3 = 66 2/3"
+            },
+            {
+              "english": "So, 2/3 as a percentage is 66 2/3%.",
+              "hindi": "इसलिए, 2/3 का प्रतिशत 66 2/3% है।"
+            },
+            {
+              "english": "Final Answer: 66 2/3%",
+              "hindi": "अंतिम उत्तर: 66 2/3%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3004,8 +3704,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 2 1/5 into a percentage:\n1. First, write the mixed number as an improper fraction.\n   2 1/5 = (2 × 5 + 1) / 5 = 11/5\n2. Now convert the fraction into a percentage by multiplying by 100.\n   (11/5) × 100 = 220\n3. So the percentage is 220%.",
+              "hindi": "2 1/5 को प्रतिशत में बदलने के लिए:\n1. सबसे पहले मिश्र भिन्न को अशुद्ध भिन्न में बदलें।\n   2 1/5 = (2 × 5 + 1) / 5 = 11/5\n2. अब भिन्न को प्रतिशत में बदलने के लिए 100 से गुणा करें।\n   (11/5) × 100 = 220\n3. इसलिए प्रतिशत 220% है।"
+            },
+            {
+              "english": "Final answer: 220%",
+              "hindi": "अंतिम उत्तर: 220%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3068,8 +3780,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert a fraction into a percentage, we first change it into a decimal or use the idea of \"out of 100.\"",
+              "hindi": "किसी भिन्न को प्रतिशत में बदलने के लिए हम उसे दशमलव में बदलते हैं या \"100 में से\" के रूप में समझते हैं।"
+            },
+            {
+              "english": "Given mixed number: 3 1/4",
+              "hindi": "दिया गया मिश्रित भिन्न: 3 1/4"
+            },
+            {
+              "english": "Step 1: Convert it into an improper fraction.\n3 1/4 = 13/4",
+              "hindi": "चरण 1: इसे अशुद्ध भिन्न में बदलें।\n3 1/4 = 13/4"
+            },
+            {
+              "english": "Step 2: Divide 13 by 4.\n13 ÷ 4 = 3.25",
+              "hindi": "चरण 2: 13 को 4 से भाग दें।\n13 ÷ 4 = 3.25"
+            },
+            {
+              "english": "Step 3: Convert the decimal into a percentage.\n3.25 × 100 = 325%",
+              "hindi": "चरण 3: दशमलव को प्रतिशत में बदलें।\n3.25 × 100 = 325%"
+            },
+            {
+              "english": "So, 3 1/4 as a percentage is 325%.",
+              "hindi": "इसलिए, 3 1/4 का प्रतिशत 325% है।"
+            },
+            {
+              "english": "Final Answer: 325%",
+              "hindi": "अंतिम उत्तर: 325%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3132,8 +3876,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "For part (p), the fraction is 2 7/10.",
+              "hindi": "भाग (p) के लिए, भिन्न 2 7/10 है।"
+            },
+            {
+              "english": "Step 1: Convert the mixed number into an improper fraction.\n2 7/10 = (2 × 10 + 7)/10 = 27/10",
+              "hindi": "चरण 1: मिश्रित भिन्न को अशुद्ध भिन्न में बदलें।\n2 7/10 = (2 × 10 + 7)/10 = 27/10"
+            },
+            {
+              "english": "Step 2: Convert the fraction into a percentage.\nPercentage = fraction × 100\n= 27/10 × 100\n= 270",
+              "hindi": "चरण 2: भिन्न को प्रतिशत में बदलें।\nप्रतिशत = भिन्न × 100\n= 27/10 × 100\n= 270"
+            },
+            {
+              "english": "So, 2 7/10 = 270%.",
+              "hindi": "इसलिए, 2 7/10 = 270%."
+            },
+            {
+              "english": "Final answer: 270%",
+              "hindi": "अंतिम उत्तर: 270%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3196,8 +3964,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert a decimal into a percentage, multiply it by 100 and add the % sign.",
+              "hindi": "दशमलव को प्रतिशत में बदलने के लिए उसे 100 से गुणा करते हैं और % का चिन्ह लगाते हैं।"
+            },
+            {
+              "english": "0.8 × 100 = 80",
+              "hindi": "0.8 × 100 = 80"
+            },
+            {
+              "english": "So, 0.8 = 80%.",
+              "hindi": "इसलिए, 0.8 = 80%."
+            },
+            {
+              "english": "Final answer: 80%",
+              "hindi": "अंतिम उत्तर: 80%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3260,8 +4048,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert a decimal into a percentage, multiply it by 100 and add the % sign.\nHere, 0.25 × 100 = 25.\nSo, 0.25 = 25%.\nFinal answer: 25%",
+              "hindi": "दशमलव को प्रतिशत में बदलने के लिए उसे 100 से गुणा करते हैं और % चिन्ह लगाते हैं।\nयहाँ, 0.25 × 100 = 25.\nइसलिए, 0.25 = 25%.\nअंतिम उत्तर: 25%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3324,8 +4120,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert a decimal into a percentage, multiply it by 100.",
+              "hindi": "दशमलव को प्रतिशत में बदलने के लिए उसे 100 से गुणा करते हैं।"
+            },
+            {
+              "english": "Step 1: Write the decimal: 0.76\nStep 2: Multiply by 100: 0.76 × 100 = 76\nStep 3: Add the percent sign: 76%",
+              "hindi": "चरण 1: दशमलव लिखें: 0.76\nचरण 2: 100 से गुणा करें: 0.76 × 100 = 76\nचरण 3: प्रतिशत का चिन्ह लगाएँ: 76%"
+            },
+            {
+              "english": "So, 0.76 as a percentage is 76%.\nFinal answer: 76%",
+              "hindi": "इसलिए 0.76 का प्रतिशत 76% है।\nअंतिम उत्तर: 76%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3388,8 +4200,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert a decimal into a percentage, multiply the decimal by 100 and add the percent sign (%).",
+              "hindi": "दशमलव को प्रतिशत में बदलने के लिए उसे 100 से गुणा करते हैं और अंत में प्रतिशत का चिह्न (%) लगाते हैं।"
+            },
+            {
+              "english": "Step 1: Take the decimal 0.06.\nStep 2: Multiply it by 100.\n0.06 × 100 = 6\nStep 3: Write the percent sign.",
+              "hindi": "चरण 1: दशमलव 0.06 लें।\nचरण 2: इसे 100 से गुणा करें।\n0.06 × 100 = 6\nचरण 3: प्रतिशत का चिह्न लगाएँ।"
+            },
+            {
+              "english": "So, 0.06 = 6%.",
+              "hindi": "इसलिए, 0.06 = 6%."
+            },
+            {
+              "english": "Final answer: 6%",
+              "hindi": "अंतिम उत्तर: 6%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3452,8 +4284,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert a decimal into a percentage, multiply it by 100 and add the percent sign (%).",
+              "hindi": "किसी दशमलव को प्रतिशत में बदलने के लिए उसे 100 से गुणा करते हैं और % का चिन्ह लगाते हैं।"
+            },
+            {
+              "english": "Step 1: Start with 0.325\nStep 2: Multiply by 100: 0.325 × 100 = 32.5\nStep 3: Add the percent sign",
+              "hindi": "चरण 1: 0.325 से शुरू करें\nचरण 2: 100 से गुणा करें: 0.325 × 100 = 32.5\nचरण 3: % का चिन्ह लगाएँ"
+            },
+            {
+              "english": "So, 0.325 = 32.5%",
+              "hindi": "इसलिए, 0.325 = 32.5%"
+            },
+            {
+              "english": "Final answer: 32.5%",
+              "hindi": "अंतिम उत्तर: 32.5%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3516,8 +4368,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert a decimal into a percentage, multiply it by 100 and add the percent sign (%).",
+              "hindi": "दशमलव को प्रतिशत में बदलने के लिए उसे 100 से गुणा करते हैं और % का चिन्ह लगाते हैं।"
+            },
+            {
+              "english": "Step 1: Take the decimal 0.004.\nStep 2: Multiply by 100:\n0.004 × 100 = 0.4\nStep 3: Add the percent sign:\n0.4%",
+              "hindi": "Step 1: दशमलव 0.004 लें।\nStep 2: इसे 100 से गुणा करें:\n0.004 × 100 = 0.4\nStep 3: प्रतिशत का चिन्ह लगाएँ:\n0.4%"
+            },
+            {
+              "english": "Final answer: 0.4%",
+              "hindi": "अंतिम उत्तर: 0.4%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3580,8 +4448,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert a decimal into a percentage, multiply it by 100 and add the percent sign (%).",
+              "hindi": "दशमलव को प्रतिशत में बदलने के लिए उसे 100 से गुणा करते हैं और % का चिन्ह लगाते हैं।"
+            },
+            {
+              "english": "Step 1: 1.05 × 100 = 105\nStep 2: Add %",
+              "hindi": "चरण 1: 1.05 × 100 = 105\nचरण 2: % लगाइए"
+            },
+            {
+              "english": "So, 1.05 = 105%.",
+              "hindi": "इसलिए, 1.05 = 105%."
+            },
+            {
+              "english": "Final answer: 105%",
+              "hindi": "अंतिम उत्तर: 105%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3644,8 +4532,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert a decimal into a percentage, multiply by 100 and add the % sign.",
+              "hindi": "किसी दशमलव को प्रतिशत में बदलने के लिए उसे 100 से गुणा करते हैं और % का चिन्ह लगाते हैं."
+            },
+            {
+              "english": "Step 1: Write the decimal number.\n4.2",
+              "hindi": "चरण 1: दशमलव संख्या लिखें.\n4.2"
+            },
+            {
+              "english": "Step 2: Multiply by 100.\n4.2 × 100 = 420",
+              "hindi": "चरण 2: 100 से गुणा करें.\n4.2 × 100 = 420"
+            },
+            {
+              "english": "Step 3: Add the percentage sign.\nSo, 4.2 = 420%",
+              "hindi": "चरण 3: प्रतिशत का चिन्ह लगाएं.\nइसलिए, 4.2 = 420%"
+            },
+            {
+              "english": "Final answer: 420%",
+              "hindi": "अंतिम उत्तर: 420%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3708,8 +4620,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "24% means 24 out of 100.\nSo, 24% of 175 = (24/100) × 175.\n= 0.24 × 175\n= 42.\nFinal answer: 42",
+              "hindi": "24% का मतलब 100 में से 24 होता है।\nइसलिए, 175 का 24% = (24/100) × 175.\n= 0.24 × 175\n= 42.\nअंतिम उत्तर: 42"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3772,8 +4692,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 8% of 225, we first convert percent to a fraction.",
+              "hindi": "225 का 8% निकालने के लिए, पहले प्रतिशत को भिन्न में बदलते हैं।"
+            },
+            {
+              "english": "8% = 8/100",
+              "hindi": "8% = 8/100"
+            },
+            {
+              "english": "Now multiply:\n8/100 × 225 = 1800/100 = 18",
+              "hindi": "अब गुणा करें:\n8/100 × 225 = 1800/100 = 18"
+            },
+            {
+              "english": "So, 8% of 225 is 18.",
+              "hindi": "इसलिए, 225 का 8% = 18 है।"
+            },
+            {
+              "english": "Final answer: 18",
+              "hindi": "अंतिम उत्तर: 18"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3836,8 +4780,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 70% of 80, first write 70% as a fraction or decimal.",
+              "hindi": "70% of 80 निकालने के लिए पहले 70% को भिन्न या दशमलव में लिखते हैं।"
+            },
+            {
+              "english": "70% = 70/100 = 0.7",
+              "hindi": "70% = 70/100 = 0.7"
+            },
+            {
+              "english": "Now multiply:\n0.7 × 80 = 56",
+              "hindi": "अब गुणा करते हैं:\n0.7 × 80 = 56"
+            },
+            {
+              "english": "So, 70% of 80 is 56.",
+              "hindi": "इसलिए, 80 का 70% = 56."
+            },
+            {
+              "english": "Final answer: 56",
+              "hindi": "अंतिम उत्तर: 56"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3900,8 +4868,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Part (d): Find 120% of 45.",
+              "hindi": "भाग (d): 45 का 120% निकालिए।"
+            },
+            {
+              "english": "Step 1: Change 120% into a number.\n120% = 120/100 = 1.2",
+              "hindi": "चरण 1: 120% को संख्या में बदलिए।\n120% = 120/100 = 1.2"
+            },
+            {
+              "english": "Step 2: Multiply 45 by 1.2.\n1.2 × 45 = 54",
+              "hindi": "चरण 2: 45 को 1.2 से गुणा कीजिए।\n1.2 × 45 = 54"
+            },
+            {
+              "english": "You can also check it like this:\n100% of 45 = 45\n20% of 45 = 9\nSo, 120% of 45 = 45 + 9 = 54",
+              "hindi": "इसे ऐसे भी समझ सकते हैं:\n45 का 100% = 45\n45 का 20% = 9\nइसलिए 45 का 120% = 45 + 9 = 54"
+            },
+            {
+              "english": "Final answer: 54",
+              "hindi": "अंतिम उत्तर: 54"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3964,8 +4956,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 16% of 550, we use:",
+              "hindi": "16% of 550 निकालने के लिए हम यह तरीका use करते हैं:"
+            },
+            {
+              "english": "16% = 16/100",
+              "hindi": "16% = 16/100"
+            },
+            {
+              "english": "So,\n16% of 550 = 16/100 × 550",
+              "hindi": "इसलिए,\n16% of 550 = 16/100 × 550"
+            },
+            {
+              "english": "First divide 550 by 100:\n550 ÷ 100 = 5.5",
+              "hindi": "पहले 550 को 100 से भाग दें:\n550 ÷ 100 = 5.5"
+            },
+            {
+              "english": "Now multiply:\n5.5 × 16 = 88",
+              "hindi": "अब 5.5 को 16 से गुणा करें:\n5.5 × 16 = 88"
+            },
+            {
+              "english": "So, the value of 16% of 550 is 88.",
+              "hindi": "अतः 16% of 550 का मान 88 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4028,8 +5048,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Write 6.4% as a fraction: 6.4/100.\nStep 2: Find 6.4% of 750:\n(6.4/100) × 750 = 0.064 × 750.\nStep 3: Multiply: 750 × 0.064 = 48.\nSo, 6.4% of 750 = 48.\nFinal answer: 48",
+              "hindi": "Step 1: 6.4% को भिन्न में लिखें: 6.4/100.\nStep 2: 750 का 6.4% निकालें:\n(6.4/100) × 750 = 0.064 × 750.\nStep 3: गुणा करें: 750 × 0.064 = 48.\nइसलिए, 750 का 6.4% = 48.\nअंतिम उत्तर: 48"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4092,8 +5120,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 9% of 70:\n1. Change percent to a fraction: 9% = 9/100.\n2. Multiply by 70: (9/100) × 70 = 630/100.\n3. Simplify: 630/100 = 6.3.\nSo, 9% of 70 = 6.3.\nFinal answer: 6.3",
+              "hindi": "9% of 70 निकालने के लिए:\n1. प्रतिशत को भिन्न में बदलें: 9% = 9/100.\n2. इसे 70 से गुणा करें: (9/100) × 70 = 630/100.\n3. इसे सरल करें: 630/100 = 6.3.\nइसलिए, 9% of 70 = 6.3.\nअंतिम उत्तर: 6.3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4156,8 +5192,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 5% of 12.6, write 5% as 5/100.",
+              "hindi": "12.6 का 5% निकालने के लिए 5% को 5/100 लिखते हैं।"
+            },
+            {
+              "english": "5% of 12.6 = 5/100 × 12.6\n= 63/100\n= 0.63",
+              "hindi": "5% of 12.6 = 5/100 × 12.6\n= 63/100\n= 0.63"
+            },
+            {
+              "english": "Final answer: 63/100",
+              "hindi": "अंतिम उत्तर: 63/100"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4220,8 +5272,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 15% of 15, first write 15% as a fraction.",
+              "hindi": "15% का मतलब होता है 100 में से 15 भाग।"
+            },
+            {
+              "english": "15% = 15/100",
+              "hindi": "15% = 15/100"
+            },
+            {
+              "english": "Now multiply by 15:",
+              "hindi": "अब इसे 15 से गुणा करते हैं:"
+            },
+            {
+              "english": "15/100 × 15 = 225/100 = 2.25",
+              "hindi": "15/100 × 15 = 225/100 = 2.25"
+            },
+            {
+              "english": "So, 15% of 15 is 2.25.",
+              "hindi": "इसलिए, 15% of 15 = 2.25"
+            },
+            {
+              "english": "Final answer: 2.25",
+              "hindi": "Final answer: 2.25"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4285,8 +5365,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "20% means 20 out of 100.",
+              "hindi": "20% का मतलब 100 में से 20 होता है।"
+            },
+            {
+              "english": "So, 20% of Rs 70 = (20/100) × 70\n= 1/5 × 70\n= 14",
+              "hindi": "इसलिए, Rs 70 का 20% = (20/100) × 70\n= 1/5 × 70\n= 14"
+            },
+            {
+              "english": "Therefore, the value of Part (a) is Rs 14.",
+              "hindi": "अतः Part (a) का मान Rs 14 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4350,8 +5446,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 70% of 40 kg, we first write 70% as a fraction or decimal.",
+              "hindi": "70% of 40 kg निकालने के लिए, पहले 70% को भिन्न या दशमलव में लिखते हैं।"
+            },
+            {
+              "english": "70% = 70/100 = 0.7",
+              "hindi": "70% = 70/100 = 0.7"
+            },
+            {
+              "english": "Now multiply:\n0.7 × 40 = 28",
+              "hindi": "अब गुणा करते हैं:\n0.7 × 40 = 28"
+            },
+            {
+              "english": "So, 70% of 40 kg is 28 kg.",
+              "hindi": "इसलिए, 40 kg का 70% = 28 kg है।"
+            },
+            {
+              "english": "Final answer: 28 kg",
+              "hindi": "अंतिम उत्तर: 28 kg"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4415,8 +5535,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "14% means 14 out of 100.",
+              "hindi": "14% का मतलब 100 में से 14 होता है।"
+            },
+            {
+              "english": "So, 14% of 750 g = (14/100) × 750 g\n= 0.14 × 750 g\n= 105 g",
+              "hindi": "इसलिए, 750 g का 14% = (14/100) × 750 g\n= 0.14 × 750 g\n= 105 g"
+            },
+            {
+              "english": "Final answer: 105 g",
+              "hindi": "अंतिम उत्तर: 105 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4480,8 +5616,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 6% of Rs 125:",
+              "hindi": "Rs 125 का 6% निकालने के लिए:"
+            },
+            {
+              "english": "1. Write 6% as a fraction:\n   6% = 6/100",
+              "hindi": "1. 6% को भिन्न में लिखें:\n   6% = 6/100"
+            },
+            {
+              "english": "2. Multiply by 125:\n   (6/100) × 125 = 750/100 = 7.5",
+              "hindi": "2. इसे 125 से गुणा करें:\n   (6/100) × 125 = 750/100 = 7.5"
+            },
+            {
+              "english": "3. Write the answer in money form:\n   Rs 7.50",
+              "hindi": "3. पैसे के रूप में लिखें:\n   Rs 7.50"
+            },
+            {
+              "english": "Final answer: Rs 7.50",
+              "hindi": "अंतिम उत्तर: Rs 7.50"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4545,8 +5705,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: 60% means 60 out of 100, so 60% = 60/100 = 3/5.\nStep 2: 1 year = 12 months.\nStep 3: 3/5 of 12 months = 36/5 months = 7 1/5 months.\nStep 4: 1 year = 365 days.\nStep 5: 3/5 of 365 days = 219 days.\nFinal answer: 219 days",
+              "hindi": "चरण 1: 60% का मतलब 100 में से 60 होता है, इसलिए 60% = 60/100 = 3/5.\nचरण 2: 1 वर्ष = 12 महीने होते हैं।\nचरण 3: 12 महीनों का 3/5 = 36/5 महीने = 7 1/5 महीने.\nचरण 4: 1 वर्ष = 365 दिन होते हैं।\nचरण 5: 365 दिनों का 3/5 = 219 दिन.\nअंतिम उत्तर: 219 दिन"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4610,8 +5778,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 5% of a metre, first remember that 1 metre = 100 centimetres.",
+              "hindi": "5% of a metre निकालने के लिए पहले याद रखें कि 1 मीटर = 100 सेमी होता है।"
+            },
+            {
+              "english": "Now find 5% of 100 cm:\n5% = 5/100\nSo, 5/100 × 100 cm = 5 cm",
+              "hindi": "अब 100 सेमी का 5% निकालते हैं:\n5% = 5/100\nतो, 5/100 × 100 सेमी = 5 सेमी"
+            },
+            {
+              "english": "So, 5% of a metre = 5 cm.",
+              "hindi": "इसलिए, 1 मीटर का 5% = 5 सेमी।"
+            },
+            {
+              "english": "Final answer: 5 cm.",
+              "hindi": "अंतिम उत्तर: 5 सेमी।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4675,8 +5863,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 8% of a litre, first remember that 1 litre = 1000 mL.",
+              "hindi": "8% का मतलब 100 में से 8 भाग होता है।"
+            },
+            {
+              "english": "8% means 8 out of 100.\nSo, 8% of 1 litre = 8/100 × 1000 mL\n= 80 mL.",
+              "hindi": "हम जानते हैं कि 1 लीटर = 1000 mL.\nअब, 1 लीटर का 8% निकालते हैं:\n8/100 × 1000 mL = 80 mL"
+            },
+            {
+              "english": "Final answer: 80 mL",
+              "hindi": "अंतिम उत्तर: 80 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4740,8 +5944,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 8% of 2 kg, first remember that percent means 'out of 100'.",
+              "hindi": "8% का मतलब होता है 100 में से 8 भाग।"
+            },
+            {
+              "english": "Step 1: Write 8% as a decimal.\n8% = 8/100 = 0.08",
+              "hindi": "Step 1: 8% को decimal में लिखें।\n8% = 8/100 = 0.08"
+            },
+            {
+              "english": "Step 2: Multiply by 2 kg.\n0.08 × 2 = 0.16 kg",
+              "hindi": "Step 2: इसे 2 kg से गुणा करें।\n0.08 × 2 = 0.16 kg"
+            },
+            {
+              "english": "Step 3: Change kg into grams.\n1 kg = 1000 g\nSo, 0.16 kg = 0.16 × 1000 = 160 g",
+              "hindi": "Step 3: kg को ग्राम में बदलें।\n1 kg = 1000 g\nइसलिए, 0.16 kg = 0.16 × 1000 = 160 g"
+            },
+            {
+              "english": "Final answer: 160 g",
+              "hindi": "अंतिम उत्तर: 160 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4805,8 +6033,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "10% means 10 out of 100.",
+              "hindi": "10% का मतलब 100 में से 10 भाग होता है।"
+            },
+            {
+              "english": "We know that 1 litre = 1000 mL.",
+              "hindi": "हमें पता है कि 1 लीटर = 1000 mL होता है।"
+            },
+            {
+              "english": "So, 10% of 1 litre = (10/100) × 1000 mL\n= 100 mL.",
+              "hindi": "इसलिए, 1 लीटर का 10% = (10/100) × 1000 mL\n= 100 mL."
+            },
+            {
+              "english": "Final answer: 100 mL",
+              "hindi": "अंतिम उत्तर: 100 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4869,8 +6117,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find what per cent of 72 is 18, use this formula:\nPercentage = (Part ÷ Whole) × 100",
+              "hindi": "यह जानने के लिए कि 72 का कितना प्रतिशत 18 है, यह सूत्र इस्तेमाल करते हैं:\nप्रतिशत = (भाग ÷ कुल) × 100"
+            },
+            {
+              "english": "Here, Part = 18 and Whole = 72.\nSo,\nPercentage = (18 ÷ 72) × 100\nPercentage = 0.25 × 100\nPercentage = 25",
+              "hindi": "यहाँ भाग = 18 और कुल = 72 है।\nतो,\nप्रतिशत = (18 ÷ 72) × 100\nप्रतिशत = 0.25 × 100\nप्रतिशत = 25"
+            },
+            {
+              "english": "So, 18 is 25% of 72.\nFinal answer: 25%",
+              "hindi": "इसलिए, 18, 72 का 25% है।\nअंतिम उत्तर: 25%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4933,8 +6197,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find what per cent of 70 is 14.",
+              "hindi": "हमें यह पता लगाना है कि 70 का 14 कितना प्रतिशत है।"
+            },
+            {
+              "english": "Step 1: Write it as a fraction:\n14/70",
+              "hindi": "Step 1: इसे भिन्न के रूप में लिखो:\n14/70"
+            },
+            {
+              "english": "Step 2: Convert the fraction into a percent by multiplying by 100:\n(14/70) × 100",
+              "hindi": "Step 2: प्रतिशत निकालने के लिए 100 से गुणा करो:\n(14/70) × 100"
+            },
+            {
+              "english": "Step 3: Simplify:\n14/70 = 1/5",
+              "hindi": "Step 3: इसे सरल करो:\n14/70 = 1/5"
+            },
+            {
+              "english": "Step 4: Find 1/5 of 100:\n(1/5) × 100 = 20",
+              "hindi": "Step 4: 1/5 को 100 से गुणा करो:\n(1/5) × 100 = 20"
+            },
+            {
+              "english": "So, 14 is 20% of 70.",
+              "hindi": "इसलिए, 14, 70 का 20% है।"
+            },
+            {
+              "english": "Final answer: 20%",
+              "hindi": "Final answer: 20%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4997,8 +6293,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find what per cent of 30 is 24, let the required per cent be x.",
+              "hindi": "यह जानने के लिए कि 30 का कितना प्रतिशत 24 है, मान लेते हैं प्रतिशत = x."
+            },
+            {
+              "english": "x% of 30 = 24\n(x/100) × 30 = 24\nx = (24 × 100) / 30\nx = 80",
+              "hindi": "x% of 30 = 24\n(x/100) × 30 = 24\nx = (24 × 100) / 30\nx = 80"
+            },
+            {
+              "english": "So, 24 is 80% of 30. Final answer: 80%",
+              "hindi": "इसलिए, 24, 30 का 80% है। अंतिम उत्तर: 80%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5061,8 +6373,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find what percent 104 is of 65.",
+              "hindi": "हमें यह पता करना है कि 65 का कितने प्रतिशत 104 है।"
+            },
+            {
+              "english": "Step 1: Use the formula:\nPercent = (part / whole) × 100",
+              "hindi": "चरण 1: सूत्र लिखें:\nप्रतिशत = (भाग / पूरा) × 100"
+            },
+            {
+              "english": "Step 2: Put the values in:\nPercent = (104 / 65) × 100",
+              "hindi": "चरण 2: मान रखें:\nप्रतिशत = (104 / 65) × 100"
+            },
+            {
+              "english": "Step 3: Divide:\n104 ÷ 65 = 1.6",
+              "hindi": "चरण 3: भाग करें:\n104 ÷ 65 = 1.6"
+            },
+            {
+              "english": "Step 4: Multiply by 100:\n1.6 × 100 = 160",
+              "hindi": "चरण 4: 100 से गुणा करें:\n1.6 × 100 = 160"
+            },
+            {
+              "english": "So, 104 is 160% of 65.\nFinal answer: 160%",
+              "hindi": "इसलिए, 104, 65 का 160% है।\nअंतिम उत्तर: 160%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5125,8 +6465,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find what per cent of 42 is 29.4, we use the formula:",
+              "hindi": "यह जानने के लिए कि 42 का कितना प्रतिशत 29.4 है, हम सूत्र का उपयोग करते हैं:"
+            },
+            {
+              "english": "Percentage = (Part ÷ Whole) × 100",
+              "hindi": "प्रतिशत = (भाग ÷ पूरा) × 100"
+            },
+            {
+              "english": "Here,\nPart = 29.4\nWhole = 42",
+              "hindi": "यहाँ,\nभाग = 29.4\nपूरा = 42"
+            },
+            {
+              "english": "So,\nPercentage = (29.4 ÷ 42) × 100\n= 0.7 × 100\n= 70",
+              "hindi": "अब,\nप्रतिशत = (29.4 ÷ 42) × 100\n= 0.7 × 100\n= 70"
+            },
+            {
+              "english": "So, 29.4 is 70% of 42.",
+              "hindi": "इसलिए, 29.4, 42 का 70% है।"
+            },
+            {
+              "english": "Final answer: 70%",
+              "hindi": "अंतिम उत्तर: 70%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5189,8 +6557,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find what per cent of 63 is 31.5, we use:\nPercentage = (part / whole) × 100\nHere, part = 31.5 and whole = 63.\nPercentage = (31.5 / 63) × 100\n= 0.5 × 100\n= 50\nSo, 31.5 is 50% of 63.\nFinal answer: 50%",
+              "hindi": "31.5, 63 का कितना प्रतिशत है, यह निकालने के लिए हम सूत्र उपयोग करते हैं:\nप्रतिशत = (भाग / पूरा) × 100\nयहाँ भाग = 31.5 और पूरा = 63 है।\nप्रतिशत = (31.5 / 63) × 100\n= 0.5 × 100\n= 50\nइसलिए 31.5, 63 का 50% है।\nअंतिम उत्तर: 50%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5253,8 +6629,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 rupee = 100 paise.",
+              "hindi": "1 रुपया = 100 पैसे।"
+            },
+            {
+              "english": "We want to find what per cent 45 paise is of 1 rupee.",
+              "hindi": "हमें पता करना है कि 1 रुपये का 45 पैसे कितने प्रतिशत हैं।"
+            },
+            {
+              "english": "Percentage = (part / whole) × 100\n= (45 / 100) × 100\n= 45%",
+              "hindi": "प्रतिशत = (भाग / पूरा) × 100\n= (45 / 100) × 100\n= 45%"
+            },
+            {
+              "english": "Final answer: 45%",
+              "hindi": "अंतिम उत्तर: 45%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5317,8 +6713,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, convert both amounts into the same unit.",
+              "hindi": "पहले दोनों राशियों को एक ही इकाई में बदलते हैं।"
+            },
+            {
+              "english": "Rs 1.70 = 170 paise",
+              "hindi": "Rs 1.70 = 170 पैसे"
+            },
+            {
+              "english": "Now find what per cent 34 paise is of 170 paise:",
+              "hindi": "अब देखते हैं कि 34 पैसे, 170 पैसे का कितना प्रतिशत है:"
+            },
+            {
+              "english": "Percentage = (34 / 170) × 100\n= 0.2 × 100\n= 20%",
+              "hindi": "प्रतिशत = (34 / 170) × 100\n= 0.2 × 100\n= 20%"
+            },
+            {
+              "english": "So, 34 P is 20% of Rs 1.70.",
+              "hindi": "इसलिए 34 पैसे, Rs 1.70 का 20% है।"
+            },
+            {
+              "english": "Final answer: 20%",
+              "hindi": "अंतिम उत्तर: 20%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5381,8 +6805,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find what per cent 400 m is of 1 km, first write both in the same unit.",
+              "hindi": "400 m, 1 km का कितना प्रतिशत है, यह जानने के लिए दोनों को एक ही इकाई में लिखते हैं।"
+            },
+            {
+              "english": "1 km = 1000 m",
+              "hindi": "1 km = 1000 m"
+            },
+            {
+              "english": "Now find the fraction:\n400 m out of 1000 m = 400/1000",
+              "hindi": "अब भिन्न लिखते हैं:\n400 m out of 1000 m = 400/1000"
+            },
+            {
+              "english": "Convert this to per cent:\n(400/1000) × 100 = 40",
+              "hindi": "इसे प्रतिशत में बदलते हैं:\n(400/1000) × 100 = 40"
+            },
+            {
+              "english": "So, 400 m is 40% of 1 km.",
+              "hindi": "इसलिए, 400 m = 1 km का 40% है।"
+            },
+            {
+              "english": "Final answer: 40%",
+              "hindi": "अंतिम उत्तर: 40%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5445,8 +6897,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 m = 100 cm.",
+              "hindi": "1 m = 100 cm होता है।"
+            },
+            {
+              "english": "We need to find what per cent 15 cm is of 100 cm.",
+              "hindi": "हमें यह पता करना है कि 100 cm का 15 cm कितना प्रतिशत है।"
+            },
+            {
+              "english": "Fraction = 15/100",
+              "hindi": "भिन्न = 15/100"
+            },
+            {
+              "english": "To convert a fraction into per cent, multiply by 100.",
+              "hindi": "भिन्न को प्रतिशत में बदलने के लिए 100 से गुणा करते हैं।"
+            },
+            {
+              "english": "(15/100) × 100 = 15",
+              "hindi": "(15/100) × 100 = 15"
+            },
+            {
+              "english": "So, 15 cm is 15% of 1 m.",
+              "hindi": "इसलिए, 15 cm, 1 m का 15% है।"
+            },
+            {
+              "english": "Final answer: 15%",
+              "hindi": "अंतिम उत्तर: 15%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5509,8 +6993,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 cm = 10 mm.\nSo, 3 mm out of 10 mm = 3/10.\nTo find the per cent, multiply by 100:\n(3/10) × 100 = 30.\nSo, 3 mm is 30% of 1 cm.\nFinal answer: 30%.",
+              "hindi": "1 सेमी = 10 मिमी।\nइसलिए 1 सेमी में 3 मिमी = 3/10.\nप्रतिशत निकालने के लिए 100 से गुणा करते हैं:\n(3/10) × 100 = 30.\nइसलिए 3 मिमी, 1 सेमी का 30% है।\nअंतिम उत्तर: 30%."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5573,8 +7065,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find what per cent 225 g is of 2.5 kg, we use:",
+              "hindi": "225 g, 2.5 kg का कितना प्रतिशत है, यह जानने के लिए हम यह सूत्र इस्तेमाल करते हैं:"
+            },
+            {
+              "english": "Percentage = (Part ÷ Whole) × 100",
+              "hindi": "प्रतिशत = (भाग ÷ पूरा) × 100"
+            },
+            {
+              "english": "Step 1: Change both to the same unit.\n2.5 kg = 2500 g",
+              "hindi": "चरण 1: दोनों को एक ही इकाई में बदलें।\n2.5 kg = 2500 g"
+            },
+            {
+              "english": "Step 2: Put the values into the formula.\nPercentage = (225 ÷ 2500) × 100",
+              "hindi": "चरण 2: अब मान सूत्र में रखें।\nप्रतिशत = (225 ÷ 2500) × 100"
+            },
+            {
+              "english": "Step 3: Calculate.\n225 ÷ 2500 = 0.09\n0.09 × 100 = 9",
+              "hindi": "चरण 3: गणना करें।\n225 ÷ 2500 = 0.09\n0.09 × 100 = 9"
+            },
+            {
+              "english": "So, 225 g is 9% of 2.5 kg.",
+              "hindi": "इसलिए, 225 g, 2.5 kg का 9% है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5637,8 +7157,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let the number be x.",
+              "hindi": "मान लीजिए संख्या x है।"
+            },
+            {
+              "english": "8% of x means 8/100 of x.\nSo,\n(8/100) × x = 14",
+              "hindi": "8% का मतलब है 100 में से 8 भाग, यानी 8/100 of x.\nइसलिए,\n(8/100) × x = 14"
+            },
+            {
+              "english": "Now solve for x:\nx = 14 × 100 ÷ 8\nx = 1400 ÷ 8\nx = 175",
+              "hindi": "अब x निकालते हैं:\nx = 14 × 100 ÷ 8\nx = 1400 ÷ 8\nx = 175"
+            },
+            {
+              "english": "So, the number is 175.\nFinal answer: 175",
+              "hindi": "इसलिए संख्या 175 है।\nअंतिम उत्तर: 175"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5701,8 +7241,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let the number be x.\n\nWe are told that 6% of the number is 8.1.\nSo,\n6% of x = 8.1\n\nThis means:\n(6/100) × x = 8.1\n\nNow solve for x:\nx = 8.1 × 100 / 6\nx = 810 / 6\nx = 135\n\nSo, the number is 135.",
+              "hindi": "मान लीजिए संख्या x है।\n\nप्रश्न में दिया है कि संख्या का 6% = 8.1\nइसलिए,\n(6/100) × x = 8.1\n\nअब x निकालते हैं:\nx = 8.1 × 100 / 6\nx = 810 / 6\nx = 135\n\nअतः संख्या 135 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5765,8 +7313,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let the number be x.",
+              "hindi": "मान लीजिए संख्या x है।"
+            },
+            {
+              "english": "12.5% = 12.5/100 = 1/8.\nSo, 12.5% of x = x/8.",
+              "hindi": "12.5% = 12.5/100 = 1/8 होता है।\nइसलिए x का 12.5% = x/8 होगा।"
+            },
+            {
+              "english": "Given:\nx/8 = 3.5",
+              "hindi": "दिया है:\nx/8 = 3.5"
+            },
+            {
+              "english": "Multiply both sides by 8:\nx = 3.5 × 8\nx = 28",
+              "hindi": "दोनों तरफ 8 से गुणा करें:\nx = 3.5 × 8\nx = 28"
+            },
+            {
+              "english": "So, the number is 28.",
+              "hindi": "अतः संख्या 28 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5830,8 +7402,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let the amount be Rs x.",
+              "hindi": "मान लीजिए राशि Rs x है।"
+            },
+            {
+              "english": "We are told that 12% of x is Rs 15.\nSo,\n12% of x = 15",
+              "hindi": "हमें दिया है कि x का 12% = Rs 15।\nइसलिए,\n12% of x = 15"
+            },
+            {
+              "english": "Now convert 12% into a fraction:\n12% = 12/100",
+              "hindi": "अब 12% को भिन्न में लिखते हैं:\n12% = 12/100"
+            },
+            {
+              "english": "So,\n(12/100) × x = 15",
+              "hindi": "तो,\n(12/100) × x = 15"
+            },
+            {
+              "english": "To find x, multiply both sides by 100/12:\n x = 15 × 100 / 12\n x = 1500 / 12\n x = 125",
+              "hindi": "अब x निकालने के लिए दोनों तरफ 100/12 से गुणा करते हैं:\n x = 15 × 100 / 12\n x = 1500 / 12\n x = 125"
+            },
+            {
+              "english": "So, the amount is Rs 125.\nFinal answer: Rs 125",
+              "hindi": "इसलिए राशि Rs 125 है।\nअंतिम उत्तर: Rs 125"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5895,8 +7495,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let the full length be x cm.",
+              "hindi": "मान लेते हैं पूरी लंबाई x सेमी है।"
+            },
+            {
+              "english": "18% of x = 27 cm\nSo, 18/100 × x = 27\nx = 27 × 100 / 18\nx = 150",
+              "hindi": "x का 18% = 27 सेमी\nइसलिए, 18/100 × x = 27\nx = 27 × 100 / 18\nx = 150"
+            },
+            {
+              "english": "So, the length is 150 cm.\nFinal answer: 150 cm",
+              "hindi": "अतः लंबाई 150 सेमी है।\nअंतिम उत्तर: 150 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5960,8 +7576,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let the total weight be x.",
+              "hindi": "मान लीजिए कुल वजन x है।"
+            },
+            {
+              "english": "20% of x = 250 g\nSo, 20/100 × x = 250",
+              "hindi": "x का 20% = 250 g\nइसलिए, 20/100 × x = 250"
+            },
+            {
+              "english": "Now solve for x:\nx = 250 × 100 / 20\nx = 1250 g",
+              "hindi": "अब x निकालते हैं:\nx = 250 × 100 / 20\nx = 1250 g"
+            },
+            {
+              "english": "You can also think of it this way: 20% is one-fifth, so the full weight is 5 times 250 g.\n5 × 250 = 1250 g",
+              "hindi": "इसे ऐसे भी समझ सकते हैं: 20% का मतलब 1/5 होता है, इसलिए पूरा वजन 250 g का 5 गुना होगा।\n5 × 250 = 1250 g"
+            },
+            {
+              "english": "Final answer: 1250 g",
+              "hindi": "अंतिम उत्तर: 1250 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6024,8 +7664,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Total pupils = 40.\nStep 2: Girls are 35% of the class.\n35% of 40 = 35/100 × 40 = 14.\nSo, there are 14 girls.\nStep 3: Boys = total pupils - girls = 40 - 14 = 26.\nFinal answer: 14 girls and 26 boys.",
+              "hindi": "चरण 1: कुल विद्यार्थी = 40।\nचरण 2: लड़कियाँ कक्षा का 35% हैं।\n35% of 40 = 35/100 × 40 = 14।\nइसलिए, लड़कियाँ = 14।\nचरण 3: लड़के = कुल विद्यार्थी - लड़कियाँ = 40 - 14 = 26।\nअंतिम उत्तर: 14 लड़कियाँ और 26 लड़के।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6089,8 +7737,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: The man earns Rs 10800 per month.\nStep 2: He spends 75% of his income.\nStep 3: So, the remaining amount he saves is 100% - 75% = 25%.\nStep 4: Calculate 25% of Rs 10800.\nSavings = 25/100 × 10800 = 2700.\nSo, he saves Rs 2700 every month.\nFinal answer: Rs 2700",
+              "hindi": "चरण 1: आदमी की मासिक आय Rs 10800 है।\nचरण 2: वह अपनी आय का 75% खर्च करता है।\nचरण 3: इसलिए जो पैसा बचता है, वह 100% - 75% = 25% है।\nचरण 4: अब Rs 10800 का 25% निकालते हैं।\nबचत = 25/100 × 10800 = 2700.\nइसलिए वह हर महीने Rs 2700 बचाता है।\nअंतिम उत्तर: Rs 2700"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6153,8 +7809,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the percentage of marks, use this formula:",
+              "hindi": "अंक का प्रतिशत निकालने के लिए यह सूत्र उपयोग करते हैं:"
+            },
+            {
+              "english": "Percentage = (Marks obtained / Total marks) × 100",
+              "hindi": "प्रतिशत = (प्राप्त अंक / कुल अंक) × 100"
+            },
+            {
+              "english": "Here,\nMarks obtained = 312\nTotal marks = 650",
+              "hindi": "यहाँ,\nप्राप्त अंक = 312\nकुल अंक = 650"
+            },
+            {
+              "english": "So,\nPercentage = (312 / 650) × 100\n            = 48",
+              "hindi": "अब,\nप्रतिशत = (312 / 650) × 100\n         = 48"
+            },
+            {
+              "english": "Nisha got 48% marks.",
+              "hindi": "इसलिए निशा ने 48% अंक प्राप्त किए।"
+            },
+            {
+              "english": "Final answer: 48%",
+              "hindi": "अंतिम उत्तर: 48%"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6218,8 +7902,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: The total mass of the metal is 325 g.\nStep 2: Zinc is 36% of the metal.\nZinc = 36/100 × 325 = 117 g\nStep 3: The rest of the metal is copper.\nCopper = 100% - 36% = 64%\nStep 4: Copper = 64/100 × 325 = 208 g\nSo, the quantity of zinc is 117 g and the quantity of copper is 208 g.\nFinal answer: Zinc = 117 g, Copper = 208 g.",
+              "hindi": "चरण 1: धातु का कुल भार 325 g है।\nचरण 2: जस्ता 36% है।\nजस्ता = 36/100 × 325 = 117 g\nचरण 3: बाकी भाग ताँबा है।\nताँबा = 100% - 36% = 64%\nचरण 4: ताँबा = 64/100 × 325 = 208 g\nइसलिए, जस्ता की मात्रा 117 g और ताँबे की मात्रा 208 g है।\nअंतिम उत्तर: जस्ता = 117 g, ताँबा = 208 g."
+            }
+          ]
         }
       ],
       "tags": [

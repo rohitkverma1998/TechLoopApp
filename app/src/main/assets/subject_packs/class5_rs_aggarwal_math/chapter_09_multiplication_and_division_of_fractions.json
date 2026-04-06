@@ -462,8 +462,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To multiply 1/2 by 5, think of 5 groups of 1/2.",
+              "hindi": "1/2 को 5 से गुणा करने के लिए, 1/2 के 5 हिस्से सोचिए।"
+            },
+            {
+              "english": "1/2 × 5 = 1/2 + 1/2 + 1/2 + 1/2 + 1/2\n= 5/2\n= 2 1/2",
+              "hindi": "1/2 × 5 = 1/2 + 1/2 + 1/2 + 1/2 + 1/2\n= 5/2\n= 2 1/2"
+            },
+            {
+              "english": "Final answer: 2 1/2",
+              "hindi": "अंतिम उत्तर: 2 1/2"
+            }
+          ]
         }
       ],
       "tags": [
@@ -527,8 +543,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To solve 1/3 × 8, think of it as 8 groups of 1/3.",
+              "hindi": "1/3 × 8 को हल करने के लिए इसे 1/3 के 8 समूह मानिए।"
+            },
+            {
+              "english": "Step 1: Multiply the top number by 8.\n1 × 8 = 8",
+              "hindi": "चरण 1: ऊपर वाली संख्या 1 को 8 से गुणा करें।\n1 × 8 = 8"
+            },
+            {
+              "english": "Step 2: Keep the bottom number the same.\nSo we get 8/3.",
+              "hindi": "चरण 2: नीचे वाली संख्या 3 वही रहने दें।\nइसलिए हमें 8/3 मिलता है।"
+            },
+            {
+              "english": "Step 3: Change 8/3 into a mixed number.\n8 ÷ 3 = 2 remainder 2\nSo 8/3 = 2 2/3",
+              "hindi": "चरण 3: 8/3 को मिश्रित भिन्न में बदलें।\n8 ÷ 3 = 2 शेष 2\nइसलिए 8/3 = 2 2/3"
+            },
+            {
+              "english": "Final answer: 2 2/3",
+              "hindi": "अंतिम उत्तर: 2 2/3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -592,8 +632,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To multiply 2/3 by 7, think of 7 as 7/1.",
+              "hindi": "2/3 को 7 से गुणा करने के लिए 7 को 7/1 लिखते हैं।"
+            },
+            {
+              "english": "2/3 × 7/1 = 14/3",
+              "hindi": "2/3 × 7/1 = 14/3"
+            },
+            {
+              "english": "Now convert 14/3 into a mixed number:\n14 ÷ 3 = 4 remainder 2\nSo, 14/3 = 4 2/3",
+              "hindi": "अब 14/3 को मिश्रित भिन्न में बदलते हैं:\n14 ÷ 3 = 4 शेष 2\nइसलिए 14/3 = 4 2/3"
+            },
+            {
+              "english": "Final answer: 4 2/3",
+              "hindi": "अंतिम उत्तर: 4 2/3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -657,8 +717,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To multiply 3/5 by 6, write 6 as 6/1.",
+              "hindi": "3/5 को 6 से गुणा करने के लिए 6 को 6/1 लिख सकते हैं।"
+            },
+            {
+              "english": "Now multiply the numerators: 3 x 6 = 18.\nMultiply the denominators: 5 x 1 = 5.\nSo, 3/5 x 6 = 18/5.",
+              "hindi": "अब अंशों को गुणा करें: 3 x 6 = 18।\nहरों को गुणा करें: 5 x 1 = 5।\nइसलिए, 3/5 x 6 = 18/5।"
+            },
+            {
+              "english": "Convert 18/5 to a mixed number:\n18 divided by 5 is 3 remainder 3.\nSo, 18/5 = 3 3/5.",
+              "hindi": "अब 18/5 को मिश्रित भिन्न में बदलें:\n18 को 5 से भाग देने पर 3 भाग और 3 शेष मिलता है।\nइसलिए, 18/5 = 3 3/5।"
+            },
+            {
+              "english": "Final answer: 3 3/5",
+              "hindi": "अंतिम उत्तर: 3 3/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -722,8 +802,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find 5/6 × 8.\nWrite 8 as 8/1: 5/6 × 8/1.\nMultiply the numerators: 5 × 8 = 40.\nMultiply the denominators: 6 × 1 = 6.\nSo, 5/6 × 8 = 40/6.\nSimplify 40/6 by dividing top and bottom by 2: 20/3.\n20/3 = 6 2/3.\nFinal answer: 6 2/3",
+              "hindi": "हमें 5/6 × 8 निकालना है।\n8 को 8/1 लिख सकते हैं: 5/6 × 8/1.\nअब ऊपर वाले अंकों को गुणा करें: 5 × 8 = 40.\nनीचे वाले अंकों को गुणा करें: 6 × 1 = 6.\nइसलिए, 5/6 × 8 = 40/6.\nअब 40/6 को सरल करें। ऊपर और नीचे दोनों को 2 से भाग दें: 20/3.\n20/3 = 6 2/3.\nFinal answer: 6 2/3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -787,8 +875,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, write 12 as a fraction: 12 = 12/1.\nNow multiply the numerators and denominators:\n7/8 × 12/1 = 84/8\nNext, simplify 84/8:\n84 ÷ 8 = 10 remainder 4, so 84/8 = 10 4/8 = 10 1/2\nFinal answer: 10 1/2",
+              "hindi": "पहले 12 को भिन्न की तरह लिखें: 12 = 12/1।\nअब अंश और हर को गुणा करें:\n7/8 × 12/1 = 84/8\nअब 84/8 को सरल करें:\n84 ÷ 8 = 10 शेष 4, इसलिए 84/8 = 10 4/8 = 10 1/2\nअंतिम उत्तर: 10 1/2"
+            }
+          ]
         }
       ],
       "tags": [
@@ -853,8 +949,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, simplify the mixed number 1 3/21.\n3/21 = 1/7, so 1 3/21 = 1 1/7.\nNow convert it to an improper fraction: 1 1/7 = 8/7.\nMultiply: 8/7 × 9 = 72/7.\nConvert 72/7 back to a mixed number: 72 ÷ 7 = 10 remainder 2, so it is 10 2/7.\nFinal answer: 10 2/7.",
+              "hindi": "सबसे पहले मिश्रित भिन्न 1 3/21 को सरल करें।\n3/21 = 1/7, इसलिए 1 3/21 = 1 1/7.\nअब इसे अपूर्ण भिन्न में बदलें: 1 1/7 = 8/7.\nअब गुणा करें: 8/7 × 9 = 72/7.\nअब 72/7 को मिश्रित भिन्न में बदलें: 72 ÷ 7 = 10 शेष 2, इसलिए यह 10 2/7 है।\nअंतिम उत्तर: 10 2/7."
+            }
+          ]
         }
       ],
       "tags": [
@@ -919,8 +1023,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to multiply 1 7/18 by 14.",
+              "hindi": "हमें 1 7/18 को 14 से गुणा करना है।"
+            },
+            {
+              "english": "Step 1: Convert the mixed number to an improper fraction.\n1 7/18 = (18 + 7)/18 = 25/18",
+              "hindi": "चरण 1: मिश्र भिन्न को अशुद्ध भिन्न में बदलें।\n1 7/18 = (18 + 7)/18 = 25/18"
+            },
+            {
+              "english": "Step 2: Multiply by 14.\n25/18 × 14 = 350/18",
+              "hindi": "चरण 2: 14 से गुणा करें।\n25/18 × 14 = 350/18"
+            },
+            {
+              "english": "Step 3: Simplify the fraction.\n350/18 = 175/9",
+              "hindi": "चरण 3: भिन्न को सरल करें।\n350/18 = 175/9"
+            },
+            {
+              "english": "Step 4: Convert to a mixed number.\n175/9 = 19 4/9",
+              "hindi": "चरण 4: इसे मिश्र भिन्न में बदलें।\n175/9 = 19 4/9"
+            },
+            {
+              "english": "Final answer: 19 4/9",
+              "hindi": "अंतिम उत्तर: 19 4/9"
+            }
+          ]
         }
       ],
       "tags": [
@@ -985,8 +1117,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Convert the mixed number to an improper fraction.\n2 1/25 = (2 × 25 + 1)/25 = 51/25",
+              "hindi": "चरण 1: मिश्र भिन्न को अशुद्ध भिन्न में बदलें।\n2 1/25 = (2 × 25 + 1)/25 = 51/25"
+            },
+            {
+              "english": "Step 2: Multiply by 10.\n51/25 × 10 = 510/25",
+              "hindi": "चरण 2: 10 से गुणा करें।\n51/25 × 10 = 510/25"
+            },
+            {
+              "english": "Step 3: Simplify.\n510/25 = 102/5 = 20 2/5",
+              "hindi": "चरण 3: सरल करें।\n510/25 = 102/5 = 20 2/5"
+            },
+            {
+              "english": "Final answer: 20 2/5",
+              "hindi": "अंतिम उत्तर: 20 2/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1049,8 +1201,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To multiply 2 1/2 × 6, first change the mixed number into an improper fraction.",
+              "hindi": "2 1/2 × 6 को हल करने के लिए, पहले mixed number को improper fraction में बदलते हैं।"
+            },
+            {
+              "english": "2 1/2 = 5/2",
+              "hindi": "2 1/2 = 5/2"
+            },
+            {
+              "english": "Now multiply:\n5/2 × 6/1 = 30/2 = 15",
+              "hindi": "अब गुणा करें:\n5/2 × 6/1 = 30/2 = 15"
+            },
+            {
+              "english": "So, the answer is 15.\nFinal answer: 15.",
+              "hindi": "इसलिए, उत्तर 15 है।\nअंतिम उत्तर: 15।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1114,8 +1286,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to multiply 3 2/3 by 8.",
+              "hindi": "हमें 3 2/3 को 8 से गुणा करना है।"
+            },
+            {
+              "english": "Step 1: Change the mixed number to an improper fraction.\n3 2/3 = 11/3",
+              "hindi": "Step 1: मिश्र भिन्न को अशुद्ध भिन्न में बदलें।\n3 2/3 = 11/3"
+            },
+            {
+              "english": "Step 2: Multiply.\n11/3 × 8 = 88/3",
+              "hindi": "Step 2: गुणा करें।\n11/3 × 8 = 88/3"
+            },
+            {
+              "english": "Step 3: Change the answer back to a mixed number.\n88 ÷ 3 = 29 remainder 1\nSo, 88/3 = 29 1/3",
+              "hindi": "Step 3: उत्तर को मिश्र भिन्न में बदलें।\n88 को 3 से भाग देने पर 29 शेष 1 मिलता है।\nइसलिए, 88/3 = 29 1/3"
+            },
+            {
+              "english": "Final answer: 29 1/3",
+              "hindi": "Final answer: 29 1/3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1179,8 +1375,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to multiply 4 1/6 by 21.",
+              "hindi": "हमें 4 1/6 को 21 से गुणा करना है।"
+            },
+            {
+              "english": "Step 1: Change the mixed number into an improper fraction.\n4 1/6 = (4 × 6 + 1) / 6 = 25/6",
+              "hindi": "चरण 1: मिश्रित भिन्न को अशुद्ध भिन्न में बदलें।\n4 1/6 = (4 × 6 + 1) / 6 = 25/6"
+            },
+            {
+              "english": "Step 2: Multiply by 21.\n25/6 × 21 = 25 × 21 / 6",
+              "hindi": "चरण 2: 21 से गुणा करें।\n25/6 × 21 = 25 × 21 / 6"
+            },
+            {
+              "english": "Step 3: Simplify before multiplying.\n21 ÷ 6 = 7/2, so:\n25/6 × 21 = 25 × 7/2 = 175/2",
+              "hindi": "चरण 3: पहले सरल करें।\n21 ÷ 6 = 7/2, इसलिए:\n25/6 × 21 = 25 × 7/2 = 175/2"
+            },
+            {
+              "english": "Step 4: Change 175/2 into a mixed number.\n175 ÷ 2 = 87 remainder 1\nSo, 175/2 = 87 1/2",
+              "hindi": "चरण 4: 175/2 को मिश्रित संख्या में बदलें।\n175 ÷ 2 = 87 शेष 1\nइसलिए, 175/2 = 87 1/2"
+            },
+            {
+              "english": "Final answer: 87 1/2.",
+              "hindi": "अंतिम उत्तर: 87 1/2"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1244,8 +1468,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to multiply 5 3/8 by 20.",
+              "hindi": "हमें 5 3/8 को 20 से गुणा करना है।"
+            },
+            {
+              "english": "Step 1: Split the mixed number.\n5 3/8 = 5 + 3/8",
+              "hindi": "चरण 1: मिश्रित भिन्न को दो भागों में लिखें।\n5 3/8 = 5 + 3/8"
+            },
+            {
+              "english": "Step 2: Multiply each part by 20.\n20 × 5 = 100\n20 × 3/8 = 60/8 = 7 1/2",
+              "hindi": "चरण 2: दोनों भागों को 20 से गुणा करें।\n20 × 5 = 100\n20 × 3/8 = 60/8 = 7 1/2"
+            },
+            {
+              "english": "Step 3: Add the results.\n100 + 7 1/2 = 107 1/2",
+              "hindi": "चरण 3: दोनों उत्तर जोड़ें।\n100 + 7 1/2 = 107 1/2"
+            },
+            {
+              "english": "Final answer: 107 1/2",
+              "hindi": "अंतिम उत्तर: 107 1/2"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1309,8 +1557,48 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, convert the mixed number into an improper fraction.",
+              "hindi": "पहले मिश्र भिन्न को अशुद्ध भिन्न में बदलते हैं।"
+            },
+            {
+              "english": "3 7/15 = (3 × 15 + 7) / 15 = 52/15",
+              "hindi": "3 7/15 = (3 × 15 + 7) / 15 = 52/15"
+            },
+            {
+              "english": "Now multiply by 25:",
+              "hindi": "अब 25 से गुणा करते हैं:"
+            },
+            {
+              "english": "52/15 × 25 = 52 × 25 / 15\n= 1300/15",
+              "hindi": "52/15 × 25 = 52 × 25 / 15\n= 1300/15"
+            },
+            {
+              "english": "Simplify the fraction:",
+              "hindi": "अब इसे सरल करते हैं:"
+            },
+            {
+              "english": "1300/15 = 260/3",
+              "hindi": "1300/15 = 260/3"
+            },
+            {
+              "english": "Convert 260/3 into a mixed number:",
+              "hindi": "अब 260/3 को मिश्र भिन्न में बदलते हैं:"
+            },
+            {
+              "english": "260 ÷ 3 = 86 remainder 2\nSo, 260/3 = 86 2/3",
+              "hindi": "260 ÷ 3 = 86 शेष 2\nइसलिए, 260/3 = 86 2/3"
+            },
+            {
+              "english": "Final answer: 86 2/3",
+              "hindi": "अंतिम उत्तर: 86 2/3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1373,8 +1661,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To multiply 10 7/13 × 26, first change the mixed number into an improper fraction.",
+              "hindi": "10 7/13 × 26 करने के लिए पहले mixed number को improper fraction में बदलते हैं।"
+            },
+            {
+              "english": "10 7/13 = (10 × 13 + 7) / 13 = 137/13",
+              "hindi": "10 7/13 = (10 × 13 + 7) / 13 = 137/13"
+            },
+            {
+              "english": "Now multiply:\n137/13 × 26",
+              "hindi": "अब गुणा करें:\n137/13 × 26"
+            },
+            {
+              "english": "Since 26 ÷ 13 = 2, this becomes:\n137 × 2 = 274",
+              "hindi": "क्योंकि 26 ÷ 13 = 2, इसलिए यह बन जाता है:\n137 × 2 = 274"
+            },
+            {
+              "english": "So, 10 7/13 × 26 = 274.\nFinal answer: 274",
+              "hindi": "इसलिए 10 7/13 × 26 = 274।\nअंतिम उत्तर: 274"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1438,8 +1750,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to multiply: 2 10/21 × 28",
+              "hindi": "हमें गुणा करना है: 2 10/21 × 28"
+            },
+            {
+              "english": "Step 1: Split the mixed number.\n2 10/21 = 2 + 10/21",
+              "hindi": "चरण 1: मिश्र भिन्न को अलग करें।\n2 10/21 = 2 + 10/21"
+            },
+            {
+              "english": "Step 2: Multiply each part by 28.\n2 × 28 = 56",
+              "hindi": "चरण 2: दोनों भागों को 28 से गुणा करें।\n2 × 28 = 56"
+            },
+            {
+              "english": "10/21 × 28 = 10 × 28 / 21 = 280/21",
+              "hindi": "10/21 × 28 = 10 × 28 / 21 = 280/21"
+            },
+            {
+              "english": "Step 3: Simplify 280/21.\n280/21 = 40/3 = 13 1/3",
+              "hindi": "चरण 3: 280/21 को सरल करें।\n280/21 = 40/3 = 13 1/3"
+            },
+            {
+              "english": "Step 4: Add the two answers.\n56 + 13 1/3 = 69 1/3",
+              "hindi": "चरण 4: दोनों उत्तरों को जोड़ें।\n56 + 13 1/3 = 69 1/3"
+            },
+            {
+              "english": "Final answer: 69 1/3",
+              "hindi": "अंतिम उत्तर: 69 1/3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1504,8 +1848,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To multiply fractions, multiply the top numbers and multiply the bottom numbers.",
+              "hindi": "भिन्नों को गुणा करने के लिए ऊपर वाले अंकों को आपस में गुणा करते हैं और नीचे वाले अंकों को भी आपस में गुणा करते हैं।"
+            },
+            {
+              "english": "Step 1: Multiply the numerators:\n3 × 5 = 15",
+              "hindi": "चरण 1: ऊपर वाले अंक (numerators) गुणा करें:\n3 × 5 = 15"
+            },
+            {
+              "english": "Step 2: Multiply the denominators:\n4 × 7 = 28",
+              "hindi": "चरण 2: नीचे वाले अंक (denominators) गुणा करें:\n4 × 7 = 28"
+            },
+            {
+              "english": "Step 3: Write the new fraction:\n3/4 × 5/7 = 15/28",
+              "hindi": "चरण 3: नया भिन्न लिखें:\n3/4 × 5/7 = 15/28"
+            },
+            {
+              "english": "So, the answer is 15/28.",
+              "hindi": "इसलिए, अंतिम उत्तर 15/28 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1569,8 +1937,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To multiply fractions, multiply the top numbers first, then multiply the bottom numbers.",
+              "hindi": "भिन्नों को गुणा करने के लिए ऊपर वाले अंकों को आपस में गुणा करते हैं और नीचे वाले अंकों को आपस में गुणा करते हैं।"
+            },
+            {
+              "english": "5/6 × 9/10 = (5 × 9) / (6 × 10)\n= 45/60",
+              "hindi": "5/6 × 9/10 = (5 × 9) / (6 × 10)\n= 45/60"
+            },
+            {
+              "english": "Now simplify 45/60 by dividing both numbers by 15:\n45 ÷ 15 = 3\n60 ÷ 15 = 4",
+              "hindi": "अब 45/60 को सरल करते हैं। 45 और 60 दोनों को 15 से भाग देते हैं:\n45 ÷ 15 = 3\n60 ÷ 15 = 4"
+            },
+            {
+              "english": "So, 5/6 × 9/10 = 3/4\nFinal answer: 3/4",
+              "hindi": "इसलिए, 5/6 × 9/10 = 3/4\nअंतिम उत्तर: 3/4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1635,8 +2023,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To multiply 1 4/27 × 1 2/35, first change the mixed numbers into improper fractions.\n\n1 4/27 = (27 × 1 + 4)/27 = 31/27\n1 2/35 = (35 × 1 + 2)/35 = 37/35\n\nNow multiply the fractions:\n31/27 × 37/35 = (31 × 37)/(27 × 35)\n= 1147/945\n\nThis fraction cannot be simplified further.\n\nNow change it back to a mixed number:\n1147 ÷ 945 = 1 remainder 202\nSo, 1147/945 = 1 202/945\n\nFinal answer: 1 202/945",
+              "hindi": "1 4/27 × 1 2/35 को हल करने के लिए, पहले मिश्रित भिन्नों को अशुद्ध भिन्नों में बदलते हैं।\n\n1 4/27 = (27 × 1 + 4)/27 = 31/27\n1 2/35 = (35 × 1 + 2)/35 = 37/35\n\nअब दोनों भिन्नों को गुणा करते हैं:\n31/27 × 37/35 = (31 × 37)/(27 × 35)\n= 1147/945\n\nअब इसे सरल मिश्रित भिन्न में बदलते हैं:\n1147 ÷ 945 = 1 शेष 202\nइसलिए, 1147/945 = 1 202/945\n\nअंतिम उत्तर: 1 202/945"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1700,8 +2096,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, change the mixed number into an improper fraction:\n2 3/5 = (2 × 5 + 3)/5 = 13/5.\nNow multiply:\n13/5 × 7/13.\nThe 13 in the numerator and denominator cancels out:\n= 7/5.\nNow change 7/5 back into a mixed number:\n7/5 = 1 2/5.\nFinal answer: 1 2/5",
+              "hindi": "सबसे पहले मिश्र भिन्न को अपूर्ण भिन्न में बदलें:\n2 3/5 = (2 × 5 + 3)/5 = 13/5.\nअब गुणा करें:\n13/5 × 7/13.\n13 ऊपर और नीचे से कट जाएगा:\n= 7/5.\nअब 7/5 को मिश्र भिन्न में लिखें:\n7/5 = 1 2/5.\nअंतिम उत्तर: 1 2/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1765,8 +2169,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First convert the mixed number into an improper fraction:\n6 5/12 = (6 × 12 + 5)/12 = 77/12.",
+              "hindi": "सबसे पहले मिश्र भिन्न को अशुद्ध भिन्न में बदलें:\n6 5/12 = (6 × 12 + 5)/12 = 77/12."
+            },
+            {
+              "english": "Now multiply:\n77/12 × 6/11",
+              "hindi": "अब गुणा करें:\n77/12 × 6/11"
+            },
+            {
+              "english": "Before multiplying, simplify 6 and 12:\n6/12 = 1/2\nSo the expression becomes:\n77 × 1 / 2 × 11 = 77/22",
+              "hindi": "गुणा करने से पहले 6 और 12 को सरल करें:\n6/12 = 1/2\nइसलिए अभिव्यक्ति बन जाती है:\n77 × 1 / 2 × 11 = 77/22"
+            },
+            {
+              "english": "Now divide:\n77/22 = 7/2 = 3 1/2",
+              "hindi": "अब भाग दें:\n77/22 = 7/2 = 3 1/2"
+            },
+            {
+              "english": "Final answer: 3 1/2",
+              "hindi": "अंतिम उत्तर: 3 1/2"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1830,8 +2258,48 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to multiply 8/21 × 6 3/4.",
+              "hindi": "हमें 8/21 × 6 3/4 को गुणा करना है।"
+            },
+            {
+              "english": "Step 1: Change the mixed number into an improper fraction.\n6 3/4 = (6 × 4 + 3)/4 = 27/4",
+              "hindi": "चरण 1: मिश्रित भिन्न को अशुद्ध भिन्न में बदलें।\n6 3/4 = (6 × 4 + 3)/4 = 27/4"
+            },
+            {
+              "english": "Step 2: Multiply the fractions.\n8/21 × 27/4 = (8 × 27)/(21 × 4)",
+              "hindi": "चरण 2: भिन्नों को गुणा करें।\n8/21 × 27/4 = (8 × 27)/(21 × 4)"
+            },
+            {
+              "english": "Step 3: Simplify before multiplying.\n8 and 4 can be divided by 4:\n8/4 = 2",
+              "hindi": "चरण 3: गुणा करने से पहले सरल करें।\n8 और 4 को 4 से भाग दे सकते हैं:\n8/4 = 2"
+            },
+            {
+              "english": "So we get:\n2 × 27/21",
+              "hindi": "अब मिलता है:\n2 × 27/21"
+            },
+            {
+              "english": "Step 4: Simplify 27/21.\n27/21 = 9/7",
+              "hindi": "चरण 4: 27/21 को सरल करें।\n27/21 = 9/7"
+            },
+            {
+              "english": "Now multiply:\n2 × 9/7 = 18/7",
+              "hindi": "अब गुणा करें:\n2 × 9/7 = 18/7"
+            },
+            {
+              "english": "Step 5: Change to a mixed number.\n18/7 = 2 4/7",
+              "hindi": "चरण 5: इसे मिश्रित भिन्न में बदलें।\n18/7 = 2 4/7"
+            },
+            {
+              "english": "Final answer: 2 4/7",
+              "hindi": "अंतिम उत्तर: 2 4/7"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1895,8 +2363,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Convert the mixed number to an improper fraction.\n7 2/3 = 23/3",
+              "hindi": "चरण 1: पहले मिश्र भिन्न को अशुद्ध भिन्न में बदलें।\n7 2/3 = 23/3"
+            },
+            {
+              "english": "Step 2: Multiply the fractions.\n9/46 × 23/3 = (9 × 23) / (46 × 3)",
+              "hindi": "चरण 2: भिन्नों को गुणा करें।\n9/46 × 23/3 = (9 × 23) / (46 × 3)"
+            },
+            {
+              "english": "Step 3: Simplify before multiplying.\n9 and 3 can be simplified: 9 ÷ 3 = 3 and 3 ÷ 3 = 1\n23 and 46 can be simplified: 23 ÷ 23 = 1 and 46 ÷ 23 = 2",
+              "hindi": "चरण 3: गुणा करने से पहले सरल करें।\n9 और 3 को काट सकते हैं: 9 ÷ 3 = 3 और 3 ÷ 3 = 1\n23 और 46 को काट सकते हैं: 23 ÷ 23 = 1 और 46 ÷ 23 = 2"
+            },
+            {
+              "english": "So the product is 3/2.",
+              "hindi": "अब गुणनफल 3/2 है।"
+            },
+            {
+              "english": "Step 4: Convert 3/2 to a mixed number.\n3/2 = 1 1/2",
+              "hindi": "चरण 4: 3/2 को मिश्र भिन्न में बदलें।\n3/2 = 1 1/2"
+            },
+            {
+              "english": "Final Answer: 1 1/2",
+              "hindi": "अंतिम उत्तर: 1 1/2"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1960,8 +2456,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Convert the mixed number to an improper fraction.\n2 10/21 = (2 × 21 + 10) / 21 = 52/21.\nStep 2: Multiply by 28.\n28 × 52/21 = (28/21) × 52.\nStep 3: Simplify 28/21 = 4/3.\nSo, (4/3) × 52 = 208/3.\nStep 4: Convert to a mixed number.\n208/3 = 69 1/3.\nFinal answer: 69 1/3.",
+              "hindi": "चरण 1: मिश्रित संख्या को improper fraction में बदलें।\n2 10/21 = (2 × 21 + 10) / 21 = 52/21.\nचरण 2: 28 से गुणा करें।\n28 × 52/21 = (28/21) × 52.\nचरण 3: 28/21 को सरल करें।\n28/21 = 4/3.\nअब, (4/3) × 52 = 208/3.\nचरण 4: इसे mixed number में बदलें।\n208/3 = 69 1/3.\nअंतिम उत्तर: 69 1/3."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2025,8 +2529,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We first change the mixed numbers into improper fractions.",
+              "hindi": "पहले मिश्र भिन्नों को अशुद्ध भिन्न में बदलते हैं।"
+            },
+            {
+              "english": "4 4/15 = (4 × 15 + 4)/15 = 64/15\n3 1/8 = (3 × 8 + 1)/8 = 25/8",
+              "hindi": "4 4/15 = (4 × 15 + 4)/15 = 64/15\n3 1/8 = (3 × 8 + 1)/8 = 25/8"
+            },
+            {
+              "english": "Now multiply:\n64/15 × 25/8",
+              "hindi": "अब गुणा करते हैं:\n64/15 × 25/8"
+            },
+            {
+              "english": "We can simplify before multiplying:\n64 ÷ 8 = 8\n25 ÷ 5 = 5, and 15 ÷ 5 = 3",
+              "hindi": "गुणा करने से पहले सरल कर लेते हैं:\n64 ÷ 8 = 8\n25 ÷ 5 = 5, और 15 ÷ 5 = 3"
+            },
+            {
+              "english": "So the multiplication becomes:\n8 × 5/3 = 40/3",
+              "hindi": "अब यह बन जाता है:\n8 × 5/3 = 40/3"
+            },
+            {
+              "english": "Now change 40/3 into a mixed number:\n40 ÷ 3 = 13 remainder 1\nSo, 40/3 = 13 1/3",
+              "hindi": "अब 40/3 को मिश्र भिन्न में बदलते हैं:\n40 ÷ 3 = 13 शेष 1\nइसलिए, 40/3 = 13 1/3"
+            },
+            {
+              "english": "Final answer: 13 1/3.",
+              "hindi": "अंतिम उत्तर: 13 1/3."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2090,8 +2626,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to multiply: 6 3/16 × 7 7/11",
+              "hindi": "हमें गुणा करना है: 6 3/16 × 7 7/11"
+            },
+            {
+              "english": "Step 1: Convert the mixed numbers into improper fractions.\n6 3/16 = (6 × 16 + 3) / 16 = 99/16\n7 7/11 = (7 × 11 + 7) / 11 = 84/11",
+              "hindi": "चरण 1: दोनों मिश्र भिन्नों को अपूर्ण भिन्न में बदलें।\n6 3/16 = (6 × 16 + 3) / 16 = 99/16\n7 7/11 = (7 × 11 + 7) / 11 = 84/11"
+            },
+            {
+              "english": "Step 2: Multiply the fractions.\n99/16 × 84/11",
+              "hindi": "चरण 2: भिन्नों को गुणा करें।\n99/16 × 84/11"
+            },
+            {
+              "english": "Step 3: Simplify before multiplying.\n99 and 11 can be simplified:\n99/11 = 9\nSo we get:\n9 × 84/16",
+              "hindi": "चरण 3: गुणा करने से पहले सरल करें।\n99 और 11 को सरल किया जा सकता है:\n99/11 = 9\nअब हमारे पास है:\n9 × 84/16"
+            },
+            {
+              "english": "Now simplify 84/16:\n84/16 = 21/4",
+              "hindi": "अब 84/16 को सरल करें:\n84/16 = 21/4"
+            },
+            {
+              "english": "So the product is:\n9 × 21/4 = 189/4",
+              "hindi": "इसलिए गुणनफल होगा:\n9 × 21/4 = 189/4"
+            },
+            {
+              "english": "Step 4: Convert to a mixed number.\n189/4 = 47 1/4",
+              "hindi": "चरण 4: इसे मिश्र भिन्न में बदलें।\n189/4 = 47 1/4"
+            },
+            {
+              "english": "Final answer: 47 1/4",
+              "hindi": "अंतिम उत्तर: 47 1/4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2155,8 +2727,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let’s multiply the mixed numbers step by step.",
+              "hindi": "आइए इस गुणा को step by step हल करें।"
+            },
+            {
+              "english": "1. Change 3 6/25 into an improper fraction:\n   3 6/25 = (3 × 25 + 6) / 25 = 81/25",
+              "hindi": "1. पहले 3 6/25 को improper fraction में बदलें:\n   3 6/25 = (3 × 25 + 6) / 25 = 81/25"
+            },
+            {
+              "english": "2. Change 6 1/9 into an improper fraction:\n   6 1/9 = (6 × 9 + 1) / 9 = 55/9",
+              "hindi": "2. फिर 6 1/9 को improper fraction में बदलें:\n   6 1/9 = (6 × 9 + 1) / 9 = 55/9"
+            },
+            {
+              "english": "3. Now multiply the fractions:\n   81/25 × 55/9",
+              "hindi": "3. अब fractions को multiply करें:\n   81/25 × 55/9"
+            },
+            {
+              "english": "4. Simplify before multiplying:\n   81 ÷ 9 = 9\n   55 ÷ 25 = 11/5",
+              "hindi": "4. गुणा करने से पहले simplify करें:\n   81 ÷ 9 = 9\n   55 ÷ 25 = 11/5"
+            },
+            {
+              "english": "So the product becomes:\n   9 × 11/5 = 99/5",
+              "hindi": "इसलिए product होगा:\n   9 × 11/5 = 99/5"
+            },
+            {
+              "english": "5. Change 99/5 into a mixed number:\n   99 ÷ 5 = 19 remainder 4\n   So, 99/5 = 19 4/5",
+              "hindi": "5. अब 99/5 को mixed number में बदलें:\n   99 ÷ 5 = 19 शेष 4\n   इसलिए, 99/5 = 19 4/5"
+            },
+            {
+              "english": "Final answer: 19 4/5",
+              "hindi": "Final answer: 19 4/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2220,8 +2828,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Reading the first mixed number as 12 5/6, the problem becomes 12 5/6 × 1 5/22.",
+              "hindi": "पहली मिश्र भिन्न को 12 5/6 मानते हैं, तो प्रश्न बनता है 12 5/6 × 1 5/22."
+            },
+            {
+              "english": "1. Convert each mixed number to an improper fraction:\n   12 5/6 = (12 × 6 + 5) / 6 = 77/6\n   1 5/22 = (1 × 22 + 5) / 22 = 27/22",
+              "hindi": "1. दोनों मिश्र भिन्नों को अशुद्ध भिन्न में बदलें:\n   12 5/6 = (12 × 6 + 5) / 6 = 77/6\n   1 5/22 = (1 × 22 + 5) / 22 = 27/22"
+            },
+            {
+              "english": "2. Multiply the fractions:\n   77/6 × 27/22",
+              "hindi": "2. अब भिन्नों का गुणा करें:\n   77/6 × 27/22"
+            },
+            {
+              "english": "3. Simplify before multiplying:\n   77 and 22 can be divided by 11, and 27 and 6 can be divided by 3.\n   So we get 7/2 × 9/2 = 63/4",
+              "hindi": "3. पहले सरल करें:\n   77 और 22 को 11 से काट सकते हैं, और 27 और 6 को 3 से काट सकते हैं.\n   इसलिए हमें मिलता है 7/2 × 9/2 = 63/4"
+            },
+            {
+              "english": "4. Change 63/4 back to a mixed number:\n   63 ÷ 4 = 15 remainder 3\n   So 63/4 = 15 3/4",
+              "hindi": "4. 63/4 को मिश्र भिन्न में बदलें:\n   63 ÷ 4 = 15 शेष 3\n   इसलिए 63/4 = 15 3/4"
+            },
+            {
+              "english": "Final answer: 15 3/4",
+              "hindi": "अंतिम उत्तर: 15 3/4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2285,8 +2921,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To multiply the mixed numbers, first convert them into improper fractions.",
+              "hindi": "मिश्र भिन्नों को पहले अपूर्ण भिन्न (improper fraction) में बदलते हैं।"
+            },
+            {
+              "english": "1) Convert 4 9/14:\n4 9/14 = (4 × 14 + 9) / 14 = 65/14",
+              "hindi": "1) 4 9/14 को बदलें:\n4 9/14 = (4 × 14 + 9) / 14 = 65/14"
+            },
+            {
+              "english": "2) Convert 1 8/13:\n1 8/13 = (1 × 13 + 8) / 13 = 21/13",
+              "hindi": "2) 1 8/13 को बदलें:\n1 8/13 = (1 × 13 + 8) / 13 = 21/13"
+            },
+            {
+              "english": "3) Multiply the fractions:\n65/14 × 21/13",
+              "hindi": "3) अब भिन्नों को गुणा करें:\n65/14 × 21/13"
+            },
+            {
+              "english": "4) Cancel common factors before multiplying:\n65 and 13 can be reduced to 5 and 1\n21 and 14 can be reduced to 3 and 2",
+              "hindi": "4) गुणा करने से पहले समान गुणनखंड काट दें:\n65 और 13 को काटकर 5 और 1 मिलते हैं\n21 और 14 को काटकर 3 और 2 मिलते हैं"
+            },
+            {
+              "english": "So the product becomes:\n5/2 × 3/1 = 15/2",
+              "hindi": "अब बचता है:\n5/2 × 3/1 = 15/2"
+            },
+            {
+              "english": "5) Change 15/2 into a mixed number:\n15/2 = 7 1/2",
+              "hindi": "5) 15/2 को मिश्र भिन्न में बदलें:\n15/2 = 7 1/2"
+            },
+            {
+              "english": "Final answer: 7 1/2",
+              "hindi": "अंतिम उत्तर: 7 1/2"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2350,8 +3022,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Convert the mixed numbers to improper fractions:\n15 3/10 = 153/10\n4 1/6 = 25/6",
+              "hindi": "मिश्र भिन्नों को अशुद्ध भिन्न में बदलें:\n15 3/10 = 153/10\n4 1/6 = 25/6"
+            },
+            {
+              "english": "Now multiply:\n153/10 × 25/6 = (153 × 25)/(10 × 6) = 3825/60",
+              "hindi": "अब गुणा करें:\n153/10 × 25/6 = (153 × 25)/(10 × 6) = 3825/60"
+            },
+            {
+              "english": "Simplify:\n3825/60 = 255/4",
+              "hindi": "सरलीकरण करें:\n3825/60 = 255/4"
+            },
+            {
+              "english": "Convert back to a mixed number:\n255/4 = 63 3/4",
+              "hindi": "इसे मिश्र भिन्न में बदलें:\n255/4 = 63 3/4"
+            },
+            {
+              "english": "Final answer: 63 3/4",
+              "hindi": "अंतिम उत्तर: 63 3/4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2415,8 +3111,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We will multiply the mixed numbers step by step.",
+              "hindi": "हम मिश्र भिन्नों को चरण दर चरण गुणा करेंगे।"
+            },
+            {
+              "english": "1. Convert the mixed numbers into improper fractions:\n- 5 10/21 = (5 × 21 + 10) / 21 = (105 + 10) / 21 = 115/21\n- 1 17/46 = (1 × 46 + 17) / 46 = (46 + 17) / 46 = 63/46",
+              "hindi": "1. पहले मिश्र भिन्नों को अशुद्ध भिन्न (improper fraction) में बदलें:\n- 5 10/21 = (5 × 21 + 10) / 21 = (105 + 10) / 21 = 115/21\n- 1 17/46 = (1 × 46 + 17) / 46 = (46 + 17) / 46 = 63/46"
+            },
+            {
+              "english": "2. Multiply the fractions:\n115/21 × 63/46 = (115 × 63) / (21 × 46)",
+              "hindi": "2. अब भिन्नों को गुणा करें:\n115/21 × 63/46 = (115 × 63) / (21 × 46)"
+            },
+            {
+              "english": "3. Simplify before multiplying:\n- 115 and 46 can be divided by 23:\n  115 ÷ 23 = 5, and 46 ÷ 23 = 2\n- 63 and 21 can be divided by 21:\n  63 ÷ 21 = 3, and 21 ÷ 21 = 1",
+              "hindi": "3. गुणा करने से पहले सरल करें:\n- 115 और 46 को 23 से भाग दिया जा सकता है:\n  115 ÷ 23 = 5, और 46 ÷ 23 = 2\n- 63 और 21 को 21 से भाग दिया जा सकता है:\n  63 ÷ 21 = 3, और 21 ÷ 21 = 1"
+            },
+            {
+              "english": "So the product becomes:\n5 × 3 / (1 × 2) = 15/2",
+              "hindi": "अब गुणनफल होगा:\n5 × 3 / (1 × 2) = 15/2"
+            },
+            {
+              "english": "4. Convert 15/2 into a mixed number:\n15 ÷ 2 = 7 remainder 1, so 15/2 = 7 1/2",
+              "hindi": "4. 15/2 को मिश्र भिन्न में बदलें:\n15 ÷ 2 = 7 शेष 1, इसलिए 15/2 = 7 1/2"
+            },
+            {
+              "english": "Final answer: 7 1/2",
+              "hindi": "अंतिम उत्तर: 7 1/2"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2479,8 +3207,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Convert the mixed numbers to improper fractions.\n17 2/5 = (17 × 5 + 2)/5 = 87/5\n2 2/29 = (2 × 29 + 2)/29 = 60/29",
+              "hindi": "चरण 1: दोनों मिश्र भिन्नों को अशुद्ध भिन्न में बदलिए।\n17 2/5 = (17 × 5 + 2)/5 = 87/5\n2 2/29 = (2 × 29 + 2)/29 = 60/29"
+            },
+            {
+              "english": "Step 2: Multiply the fractions.\n87/5 × 60/29",
+              "hindi": "चरण 2: अब भिन्नों को गुणा कीजिए।\n87/5 × 60/29"
+            },
+            {
+              "english": "Step 3: Simplify before multiplying.\n60 ÷ 5 = 12, so we get:\n87 × 12 / 29",
+              "hindi": "चरण 3: गुणा करने से पहले सरल कीजिए।\n60 ÷ 5 = 12, इसलिए मिलता है:\n87 × 12 / 29"
+            },
+            {
+              "english": "Step 4: Divide 87 by 29.\n87 ÷ 29 = 3\nSo the product is 3 × 12 = 36",
+              "hindi": "चरण 4: 87 को 29 से भाग दीजिए।\n87 ÷ 29 = 3\nअब 3 × 12 = 36"
+            },
+            {
+              "english": "Final answer: 36",
+              "hindi": "अंतिम उत्तर: 36"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2543,8 +3295,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, read the question as 23 7/16 × 2 14/25.\nConvert the mixed numbers into improper fractions:\n23 7/16 = (23 × 16 + 7) / 16 = 375/16\n2 14/25 = (2 × 25 + 14) / 25 = 64/25\nNow multiply:\n375/16 × 64/25\nSimplify before multiplying:\n375 ÷ 25 = 15 and 64 ÷ 16 = 4\nSo the product is 15 × 4 = 60\nFinal answer: 60",
+              "hindi": "पहले प्रश्न को 23 7/16 × 2 14/25 के रूप में पढ़ते हैं।\nमिश्र भिन्नों को अशुद्ध भिन्न में बदलें:\n23 7/16 = (23 × 16 + 7) / 16 = 375/16\n2 14/25 = (2 × 25 + 14) / 25 = 64/25\nअब गुणा करें:\n375/16 × 64/25\nगुणा करने से पहले सरल करें:\n375 ÷ 25 = 15 और 64 ÷ 16 = 4\nइसलिए गुणनफल = 15 × 4 = 60\nअंतिम उत्तर: 60"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2607,8 +3367,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To multiply 0.0325 by 0.09, first ignore the decimals and multiply 325 × 9.",
+              "hindi": "0.0325 को 0.09 से गुणा करने के लिए, पहले दशमलव को नजरअंदाज करके 325 × 9 करते हैं।"
+            },
+            {
+              "english": "325 × 9 = 2925",
+              "hindi": "325 × 9 = 2925"
+            },
+            {
+              "english": "Now count the decimal places:\n- 0.0325 has 4 decimal places\n- 0.09 has 2 decimal places",
+              "hindi": "अब दशमलव स्थान गिनते हैं:\n- 0.0325 में 4 दशमलव स्थान हैं\n- 0.09 में 2 दशमलव स्थान हैं"
+            },
+            {
+              "english": "So the answer must have 4 + 2 = 6 decimal places.",
+              "hindi": "इसलिए उत्तर में कुल 4 + 2 = 6 दशमलव स्थान होंगे।"
+            },
+            {
+              "english": "Put the decimal in 2925 so it has 6 decimal places:\n0.002925",
+              "hindi": "2925 में दशमलव लगाकर 6 दशमलव स्थान बनाते हैं:\n0.002925"
+            },
+            {
+              "english": "Final answer: 0.002925",
+              "hindi": "अंतिम उत्तर: 0.002925"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2672,8 +3460,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to multiply these fractions:\n3/5 × 1/6 × 2/3",
+              "hindi": "हमें इन भिन्नों को गुणा करना है:\n3/5 × 1/6 × 2/3"
+            },
+            {
+              "english": "Step 1: Multiply the numerators: 3 × 1 × 2 = 6\nStep 2: Multiply the denominators: 5 × 6 × 3 = 90",
+              "hindi": "पहला कदम: अंशों को गुणा करें: 3 × 1 × 2 = 6\nदूसरा कदम: हरों को गुणा करें: 5 × 6 × 3 = 90"
+            },
+            {
+              "english": "So the fraction is 6/90.",
+              "hindi": "इसलिए भिन्न 6/90 है।"
+            },
+            {
+              "english": "Step 3: Simplify 6/90 by dividing top and bottom by 6:\n6/90 = 1/15",
+              "hindi": "तीसरा कदम: 6/90 को सरल करें। ऊपर और नीचे दोनों को 6 से भाग दें:\n6/90 = 1/15"
+            },
+            {
+              "english": "Final answer: 1/15",
+              "hindi": "अंतिम उत्तर: 1/15"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2736,8 +3548,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Convert the mixed numbers into improper fractions.\n2 1/4 = 9/4\n1 1/5 = 6/5\n3 1/3 = 10/3",
+              "hindi": "चरण 1: मिश्र भिन्नों को अशुद्ध भिन्न में बदलें।\n2 1/4 = 9/4\n1 1/5 = 6/5\n3 1/3 = 10/3"
+            },
+            {
+              "english": "Step 2: Multiply the fractions.\n9/4 × 6/5 × 10/3",
+              "hindi": "चरण 2: भिन्नों को गुणा करें।\n9/4 × 6/5 × 10/3"
+            },
+            {
+              "english": "Step 3: Simplify before multiplying.\n9 and 3 can be simplified, and 10 and 5 can be simplified.\nSo we get:\n3/4 × 6 × 2",
+              "hindi": "चरण 3: गुणा करने से पहले सरल करें।\n9 और 3 को सरल किया जा सकता है, और 10 और 5 को भी सरल किया जा सकता है।\nइसलिए हमें मिलता है:\n3/4 × 6 × 2"
+            },
+            {
+              "english": "Step 4: Multiply.\n3 × 6 × 2 = 36\n36/4 = 9",
+              "hindi": "चरण 4: अब गुणा करें।\n3 × 6 × 2 = 36\n36/4 = 9"
+            },
+            {
+              "english": "Final answer: 9",
+              "hindi": "अंतिम उत्तर: 9"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2803,8 +3639,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: The cost of one pencil is Rs 3 13/20.\nWe need the cost of 12 such pencils.",
+              "hindi": "चरण 1: एक पेंसिल की कीमत Rs 3 13/20 है।\nहमें 12 ऐसी पेंसिलों की कीमत निकालनी है।"
+            },
+            {
+              "english": "Step 2: Multiply the whole part and the fraction part by 12.\n12 × (3 13/20) = 12 × 3 + 12 × 13/20\n= 36 + 156/20\n= 36 + 39/5\n= 36 + 7 4/5\n= 43 4/5",
+              "hindi": "चरण 2: पूरे भाग और भिन्न भाग को 12 से गुणा करें।\n12 × (3 13/20) = 12 × 3 + 12 × 13/20\n= 36 + 156/20\n= 36 + 39/5\n= 36 + 7 4/5\n= 43 4/5"
+            },
+            {
+              "english": "So, the cost of 12 pencils is Rs 43 4/5.\nFinal answer: Rs 43 4/5.",
+              "hindi": "अतः 12 पेंसिलों की कीमत Rs 43 4/5 है।\nअंतिम उत्तर: Rs 43 4/5."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2868,8 +3720,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, write the amount in one bag: 97 4/5 kg.",
+              "hindi": "पहले एक थैले में चीनी की मात्रा लिखते हैं: 97 4/5 kg."
+            },
+            {
+              "english": "Convert it into a decimal:\n97 4/5 = 97 + 4/5 = 97.8 kg.",
+              "hindi": "अब इसे दशमलव में बदलते हैं:\n97 4/5 = 97 + 4/5 = 97.8 kg."
+            },
+            {
+              "english": "Now find the amount in 10 such bags:\n97.8 × 10 = 978.",
+              "hindi": "अब 10 ऐसे थैलों में चीनी की मात्रा निकालते हैं:\n97.8 × 10 = 978."
+            },
+            {
+              "english": "So, 10 bags contain 978 kg of sugar.",
+              "hindi": "इसलिए 10 थैलों में 978 kg चीनी होगी।"
+            },
+            {
+              "english": "Final answer: 978 kg",
+              "hindi": "अंतिम उत्तर: 978 kg"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2933,8 +3809,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We are told that 1 kilogram of apples costs Rs 16.",
+              "hindi": "हमें दिया है कि 1 किलोग्राम सेब की कीमत Rs 16 है।"
+            },
+            {
+              "english": "The question asks for the cost of 3 1/4 kilograms of apples.",
+              "hindi": "प्रश्न में 3 1/4 किलोग्राम सेब की कीमत पूछी गई है।"
+            },
+            {
+              "english": "Step 1: Change 3 1/4 into an improper fraction.\n3 1/4 = 13/4",
+              "hindi": "चरण 1: 3 1/4 को अशुद्ध भिन्न में बदलते हैं।\n3 1/4 = 13/4"
+            },
+            {
+              "english": "Step 2: Multiply by the cost of 1 kilogram.\nCost = 16 × 13/4",
+              "hindi": "चरण 2: 1 किलोग्राम की कीमत से गुणा करते हैं।\nकुल कीमत = 16 × 13/4"
+            },
+            {
+              "english": "Step 3: Simplify.\n16 ÷ 4 = 4\nSo, 4 × 13 = 52",
+              "hindi": "चरण 3: सरल करते हैं।\n16 ÷ 4 = 4\nअब, 4 × 13 = 52"
+            },
+            {
+              "english": "Therefore, the total cost of the apples is Rs 52.",
+              "hindi": "इसलिए, सेबों की कुल कीमत Rs 52 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2998,8 +3902,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Using the values from the exercise, multiply the given price by the given quantity.",
+              "hindi": "प्रश्न में दिए गए मानों का उपयोग करके, दिए गए मूल्य को दी गई मात्रा से गुणा करते हैं."
+            },
+            {
+              "english": "Step 1: Convert the mixed numbers into improper fractions.\n107 1/2 = 215/2\n2 1/5 = 11/5",
+              "hindi": "चरण 1: मिश्रित भिन्नों को अशुद्ध भिन्न में बदलें.\n107 1/2 = 215/2\n2 1/5 = 11/5"
+            },
+            {
+              "english": "Step 2: Multiply the fractions.\n215/2 × 11/5 = 2365/10",
+              "hindi": "चरण 2: भिन्नों को गुणा करें.\n215/2 × 11/5 = 2365/10"
+            },
+            {
+              "english": "Step 3: Simplify.\n2365/10 = 473/2\n473 ÷ 2 = 236 remainder 1, so 473/2 = 236 1/2",
+              "hindi": "चरण 3: सरल करें.\n2365/10 = 473/2\n473 ÷ 2 = 236 शेष 1, इसलिए 473/2 = 236 1/2"
+            },
+            {
+              "english": "So, the cost is Rs 236 1/2.\nFinal answer: Rs 236 1/2",
+              "hindi": "इसलिए कीमत Rs 236 1/2 है.\nअंतिम उत्तर: Rs 236 1/2"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3063,8 +3991,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the original length of the iron rod, we multiply the length of one piece by the number of pieces.",
+              "hindi": "लोहे की छड़ की मूल लंबाई निकालने के लिए, एक टुकड़े की लंबाई को टुकड़ों की संख्या से गुणा करते हैं।"
+            },
+            {
+              "english": "Step 1: Length of each piece = 6 3/4 m\nStep 2: Number of pieces = 8\nStep 3: Original length = 8 × 6 3/4",
+              "hindi": "चरण 1: एक टुकड़े की लंबाई = 6 3/4 m\nचरण 2: टुकड़ों की संख्या = 8\nचरण 3: मूल लंबाई = 8 × 6 3/4"
+            },
+            {
+              "english": "Now convert the mixed fraction:\n6 3/4 = 27/4",
+              "hindi": "अब मिश्रित भिन्न को साधारण भिन्न में बदलें:\n6 3/4 = 27/4"
+            },
+            {
+              "english": "So,\n8 × 27/4 = 54",
+              "hindi": "तो,\n8 × 27/4 = 54"
+            },
+            {
+              "english": "Therefore, the original length of the iron rod was 54 m.",
+              "hindi": "इसलिए, लोहे की छड़ की मूल लंबाई 54 m थी।"
+            },
+            {
+              "english": "Final answer: 54 m",
+              "hindi": "अंतिम उत्तर: 54 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3128,8 +4084,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Cost of 1 litre of petrol = Rs 64.8.\nWe need the cost of 35 litres.\nSo, cost = 64.8 × 35 = 2268.\nFinal answer: Rs 2268.",
+              "hindi": "1 लीटर पेट्रोल का मूल्य Rs 64.8 है।\nहमें 35 लीटर का मूल्य निकालना है।\nइसलिए, लागत = 64.8 × 35 = 2268।\nअंतिम उत्तर: Rs 2268."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3196,8 +4160,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, convert the mixed number: 7 2/3 = 23/3. Now multiply: 9/46 × 23/3 = (9 × 23) / (46 × 3). We can simplify first: 9 ÷ 3 = 3, so the problem becomes 3 × 23 / 46 = 69/46. Now divide 69 by 46: 69/46 = 3/2 = 1 1/2. Final answer: 1 1/2.",
+              "hindi": "सबसे पहले मिश्रित भिन्न को साधारण भिन्न में बदलें: 7 2/3 = 23/3। अब गुणा करें: 9/46 × 23/3 = (9 × 23) / (46 × 3)। पहले सरल कर सकते हैं: 9 ÷ 3 = 3, इसलिए यह बन जाता है 3 × 23 / 46 = 69/46। अब 69/46 को सरल करें: 69/46 = 3/2 = 1 1/2। अंतिम उत्तर: 1 1/2।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3261,8 +4233,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Convert 16 3/5 into an improper fraction.\n16 3/5 = 83/5 litres.\nStep 2: Multiply by 25 tins.\n83/5 × 25 = 83 × 5 = 415.\nSo, 25 such tins can hold 415 litres of oil.\nFinal answer: 415 litres",
+              "hindi": "चरण 1: 16 3/5 को अशुद्ध भिन्न में बदलें।\n16 3/5 = 83/5 लीटर।\nचरण 2: 25 टिन से गुणा करें।\n83/5 × 25 = 83 × 5 = 415।\nइसलिए 25 ऐसे टिन 415 लीटर तेल रख सकते हैं।\nअंतिम उत्तर: 415 लीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3328,8 +4308,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know the tank can hold 56 1/4 litres when it is full.",
+              "hindi": "हमें पता है कि टंकी पूरी भरी होने पर उसमें 56 1/4 लीटर पानी आता है।"
+            },
+            {
+              "english": "Step 1: Change 56 1/4 into an improper fraction.\n56 1/4 = 225/4",
+              "hindi": "चरण 1: 56 1/4 को अशुद्ध भिन्न में बदलें।\n56 1/4 = 225/4"
+            },
+            {
+              "english": "Step 2: Find 2/5 of this amount.\n(225/4) × (2/5)",
+              "hindi": "चरण 2: इसका 2/5 भाग निकालें।\n(225/4) × (2/5)"
+            },
+            {
+              "english": "Step 3: Multiply the fractions.\n= 450/20\n= 45/2\n= 22 1/2",
+              "hindi": "चरण 3: भिन्नों को गुणा करें।\n= 450/20\n= 45/2\n= 22 1/2"
+            },
+            {
+              "english": "So, the tank contains 22 1/2 litres of water when it is 2/5 full.",
+              "hindi": "इसलिए जब टंकी 2/5 भरी होती है, तो उसमें 22 1/2 लीटर पानी होता है।"
+            },
+            {
+              "english": "Final answer: 22 1/2 litres.",
+              "hindi": "अंतिम उत्तर: 22 1/2 लीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3393,8 +4401,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Convert 4 1/6 hours into an improper fraction.\n4 1/6 = 25/6 hours.",
+              "hindi": "चरण 1: 4 1/6 घंटे को अशुद्ध भिन्न में बदलें।\n4 1/6 = 25/6 घंटे।"
+            },
+            {
+              "english": "Step 2: Use the formula:\nDistance = Speed × Time\nSpeed = 1020 km/h\nTime = 25/6 h",
+              "hindi": "चरण 2: सूत्र का उपयोग करें:\nदूरी = चाल × समय\nचाल = 1020 किमी/घंटा\nसमय = 25/6 घंटा"
+            },
+            {
+              "english": "Step 3: Multiply.\n1020 × 25/6 = (1020 ÷ 6) × 25 = 170 × 25 = 4250",
+              "hindi": "चरण 3: गुणा करें।\n1020 × 25/6 = (1020 ÷ 6) × 25 = 170 × 25 = 4250"
+            },
+            {
+              "english": "So, the aeroplane will cover 4250 km.\nFinal answer: 4250 km",
+              "hindi": "इसलिए, विमान 4250 किमी दूरी तय करेगा।\nअंतिम उत्तर: 4250 किमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3458,8 +4486,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let the side of the square plot be 6 1/2 metres.",
+              "hindi": "वर्गाकार भूमि की एक भुजा = 6 1/2 मीटर है।"
+            },
+            {
+              "english": "Perimeter of a square = 4 × side\n= 4 × 6 1/2\n= 4 × 13/2\n= 26 metres",
+              "hindi": "वर्ग का परिमाप = 4 × भुजा\n= 4 × 6 1/2\n= 4 × 13/2\n= 26 मीटर"
+            },
+            {
+              "english": "So, the perimeter of the square plot of land is 26 m.",
+              "hindi": "अतः, वर्गाकार प्लॉट का परिमाप 26 मीटर है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3525,8 +4569,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the perimeter of a rectangular park, we use the formula:\nPerimeter = 2 × (Length + Breadth)",
+              "hindi": "आयताकार पार्क का परिमाप निकालने के लिए हम सूत्र का उपयोग करते हैं:\nपरिमाप = 2 × (लंबाई + चौड़ाई)"
+            },
+            {
+              "english": "Given:\nLength = 45 1/2 m\nBreadth = 34 3/4 m",
+              "hindi": "दिया है:\nलंबाई = 45 1/2 मीटर\nचौड़ाई = 34 3/4 मीटर"
+            },
+            {
+              "english": "Step 1: Add the length and breadth.\n45 1/2 + 34 3/4\n= 45 2/4 + 34 3/4\n= 79 5/4\n= 80 1/4 m",
+              "hindi": "चरण 1: लंबाई और चौड़ाई को जोड़िए।\n45 1/2 + 34 3/4\n= 45 2/4 + 34 3/4\n= 79 5/4\n= 80 1/4 मीटर"
+            },
+            {
+              "english": "Step 2: Multiply the sum by 2.\nPerimeter = 2 × 80 1/4\n= 160 1/2 m",
+              "hindi": "चरण 2: इस योग को 2 से गुणा कीजिए।\nपरिमाप = 2 × 80 1/4\n= 160 1/2 मीटर"
+            },
+            {
+              "english": "So, the perimeter of the park is 160 1/2 metres.\nFinal Answer: 160 1/2 metres",
+              "hindi": "अतः पार्क का परिमाप 160 1/2 मीटर है।\nअंतिम उत्तर: 160 1/2 मीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3592,8 +4660,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Convert the mixed number into an improper fraction.\n3 13/20 = (3 × 20 + 13) / 20 = 73/20.",
+              "hindi": "Step 1: मिश्र भिन्न को अशुद्ध भिन्न में बदलें।\n3 13/20 = (3 × 20 + 13) / 20 = 73/20."
+            },
+            {
+              "english": "Step 2: Find the cost of 12 pencils.\n73/20 × 12 = 876/20.",
+              "hindi": "Step 2: 12 पेंसिलों की कीमत निकालने के लिए 12 से गुणा करें।\n73/20 × 12 = 876/20."
+            },
+            {
+              "english": "Step 3: Simplify the fraction.\n876/20 = 219/5 = 43 4/5.",
+              "hindi": "Step 3: भिन्न को सरल करें।\n876/20 = 219/5 = 43 4/5."
+            },
+            {
+              "english": "So, the cost of 12 such pencils is 43 4/5 rupees (43.8 rupees).",
+              "hindi": "इसलिए, 12 ऐसी पेंसिलों की कीमत 43 4/5 रुपये (43.8 रुपये) है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3657,8 +4745,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 1/2 of 1/3, we multiply the fractions.",
+              "hindi": "1/2 का 1/3 निकालने के लिए हम भिन्नों को गुणा करते हैं।"
+            },
+            {
+              "english": "1/2 × 1/3 = 1/6",
+              "hindi": "1/2 × 1/3 = 1/6"
+            },
+            {
+              "english": "So, 1/2 of 1/3 is 1/6.\nFinal answer: 1/6",
+              "hindi": "इसलिए, 1/3 का 1/2 = 1/6।\nअंतिम उत्तर: 1/6"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3722,8 +4826,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 1/7 of 1/9, we multiply the fractions.",
+              "hindi": "1/7 का 1/9 निकालने के लिए हम भिन्नों को गुणा करते हैं।"
+            },
+            {
+              "english": "1/7 of 1/9 = 1/7 × 1/9\n= 1 × 1 / 7 × 9\n= 1/63",
+              "hindi": "1/7 of 1/9 = 1/7 × 1/9\n= 1 × 1 / 7 × 9\n= 1/63"
+            },
+            {
+              "english": "So, the answer is 1/63.",
+              "hindi": "इसलिए, उत्तर 1/63 है."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3787,8 +4907,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 2/3 of 6/7, we multiply the fractions.",
+              "hindi": "2/3 of 6/7 निकालने के लिए हम भिन्नों को गुणा करते हैं।"
+            },
+            {
+              "english": "2/3 of 6/7 = 2/3 × 6/7",
+              "hindi": "2/3 of 6/7 = 2/3 × 6/7"
+            },
+            {
+              "english": "Multiply the numerators:\n2 × 6 = 12",
+              "hindi": "ऊपर वाली संख्याएँ गुणा करें:\n2 × 6 = 12"
+            },
+            {
+              "english": "Multiply the denominators:\n3 × 7 = 21",
+              "hindi": "नीचे वाली संख्याएँ गुणा करें:\n3 × 7 = 21"
+            },
+            {
+              "english": "So we get 12/21.",
+              "hindi": "इसलिए हमें 12/21 मिलता है।"
+            },
+            {
+              "english": "Now simplify 12/21 by dividing top and bottom by 3:\n12/21 = 4/7",
+              "hindi": "अब 12/21 को सरल करें। ऊपर और नीचे दोनों को 3 से भाग दें:\n12/21 = 4/7"
+            },
+            {
+              "english": "Final answer: 4/7.",
+              "hindi": "अंतिम उत्तर: 4/7."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3852,8 +5004,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find a fraction of a number, multiply.\n3/7 of 14/15 = 3/7 × 14/15\nCancel 7 and 14:\n3/7 × 14/15 = 3 × 2 / 15 = 6/15\nSimplify 6/15:\n6/15 = 2/5\nFinal answer: 2/5",
+              "hindi": "किसी संख्या का भिन्न भाग निकालने के लिए गुणा करते हैं।\n14/15 का 3/7 = 3/7 × 14/15\n7 और 14 को काटते हैं:\n3/7 × 14/15 = 3 × 2 / 15 = 6/15\n6/15 को सरल करें:\n6/15 = 2/5\nअंतिम उत्तर: 2/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3917,8 +5077,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: 'Of' means multiply.\nStep 2: 5/8 × 16/25 = (5 × 16) / (8 × 25).\nStep 3: 5/8 × 16/25 = 80/200.\nStep 4: 80/200 = 2/5.\nFinal answer: 2/5",
+              "hindi": "चरण 1: 'का' का मतलब गुणा करना होता है।\nचरण 2: 5/8 × 16/25 = (5 × 16) / (8 × 25)।\nचरण 3: 5/8 × 16/25 = 80/200।\nचरण 4: 80/200 = 2/5।\nअंतिम उत्तर: 2/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3982,8 +5150,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 2/5 of 1 9/16, first change the mixed number into an improper fraction.\n1 9/16 = (16 + 9)/16 = 25/16.\nNow multiply:\n2/5 × 25/16 = 50/80.\nSimplify 50/80 by dividing the top and bottom by 10:\n50/80 = 5/8.\nSo, the answer is 5/8.",
+              "hindi": "2/5 of 1 9/16 निकालने के लिए पहले mixed number को improper fraction में बदलते हैं।\n1 9/16 = (16 + 9)/16 = 25/16.\nअब गुणा करें:\n2/5 × 25/16 = 50/80.\nअब 50/80 को सरल करें। ऊपर और नीचे दोनों को 10 से भाग दें:\n50/80 = 5/8.\nअंतिम उत्तर: 5/8"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4047,8 +5223,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 4/11 of 4 2/5, we multiply.",
+              "hindi": "4/11 of 4 2/5 निकालने के लिए हमें गुणा करना होगा।"
+            },
+            {
+              "english": "1. Convert the mixed number to an improper fraction:\n   4 2/5 = (4 × 5 + 2)/5 = 22/5",
+              "hindi": "1. पहले mixed number को improper fraction में बदलें:\n   4 2/5 = (4 × 5 + 2)/5 = 22/5"
+            },
+            {
+              "english": "2. Multiply:\n   4/11 × 22/5 = 88/55",
+              "hindi": "2. अब गुणा करें:\n   4/11 × 22/5 = 88/55"
+            },
+            {
+              "english": "3. Simplify the fraction:\n   88/55 = 8/5 = 1 3/5",
+              "hindi": "3. भिन्न को सरल करें:\n   88/55 = 8/5 = 1 3/5"
+            },
+            {
+              "english": "Final answer: 1 3/5",
+              "hindi": "अंतिम उत्तर: 1 3/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4111,8 +5311,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 3/4 of 56, we multiply 56 by 3/4.",
+              "hindi": "56 का 3/4 निकालने के लिए, हम 56 को 3/4 से गुणा करते हैं।"
+            },
+            {
+              "english": "Step 1: Divide 56 by 4\n56 ÷ 4 = 14",
+              "hindi": "चरण 1: 56 को 4 से भाग दीजिए\n56 ÷ 4 = 14"
+            },
+            {
+              "english": "Step 2: Multiply 14 by 3\n14 × 3 = 42",
+              "hindi": "चरण 2: 14 को 3 से गुणा कीजिए\n14 × 3 = 42"
+            },
+            {
+              "english": "So, 3/4 of 56 is 42.",
+              "hindi": "इसलिए, 56 का 3/4 = 42 है।"
+            },
+            {
+              "english": "Final answer: 42",
+              "hindi": "Final answer: 42"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4175,8 +5399,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 4/9 of 36, multiply 36 by 4/9.\n36 × 4/9 = (36 ÷ 9) × 4\n36 ÷ 9 = 4\n4 × 4 = 16\nSo, 4/9 of 36 is 16.\nFinal answer: 16",
+              "hindi": "36 का 4/9 निकालने के लिए 36 को 4/9 से गुणा करते हैं।\n36 × 4/9 = (36 ÷ 9) × 4\n36 ÷ 9 = 4\n4 × 4 = 16\nइसलिए, 36 का 4/9 = 16।\nअंतिम उत्तर: 16"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4239,8 +5471,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 8/11 of 44, multiply 44 by 8/11.",
+              "hindi": "44 का 8/11 निकालने के लिए 44 को 8/11 से गुणा करते हैं।"
+            },
+            {
+              "english": "Step 1: Write the expression.\n44 × 8/11",
+              "hindi": "चरण 1: अभिव्यक्ति लिखिए।\n44 × 8/11"
+            },
+            {
+              "english": "Step 2: Divide 44 by 11 first.\n44 ÷ 11 = 4",
+              "hindi": "चरण 2: पहले 44 को 11 से भाग दीजिए।\n44 ÷ 11 = 4"
+            },
+            {
+              "english": "Step 3: Multiply the result by 8.\n4 × 8 = 32",
+              "hindi": "चरण 3: अब 4 को 8 से गुणा कीजिए।\n4 × 8 = 32"
+            },
+            {
+              "english": "So, 8/11 of 44 = 32.\nFinal answer: 32.",
+              "hindi": "इसलिए, 44 का 8/11 = 32।\nअंतिम उत्तर: 32।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4303,8 +5559,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 9/13 of 78, we multiply 78 by 9/13.",
+              "hindi": "9/13 of 78 निकालने के लिए 78 को 9/13 से गुणा करते हैं।"
+            },
+            {
+              "english": "Step 1: Write the expression.\n9/13 of 78 = 9/13 × 78",
+              "hindi": "चरण 1: अभिव्यक्ति लिखिए।\n9/13 of 78 = 9/13 × 78"
+            },
+            {
+              "english": "Step 2: Simplify 78 ÷ 13.\n78 ÷ 13 = 6",
+              "hindi": "चरण 2: 78 ÷ 13 कीजिए।\n78 ÷ 13 = 6"
+            },
+            {
+              "english": "Step 3: Multiply 6 by 9.\n6 × 9 = 54",
+              "hindi": "चरण 3: 6 को 9 से गुणा कीजिए।\n6 × 9 = 54"
+            },
+            {
+              "english": "So, 9/13 of 78 = 54.\nFinal answer: 54",
+              "hindi": "इसलिए, 78 का 9/13 = 54।\nअंतिम उत्तर: 54"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4367,8 +5647,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: \"of\" means multiply.\nStep 2: 6/7 of 42 = 6/7 × 42.\nStep 3: First divide 42 by 7: 42 ÷ 7 = 6.\nStep 4: Now multiply 6 × 6 = 36.\nSo, 6/7 of 42 = 36.\nFinal answer: 36.",
+              "hindi": "चरण 1: \"of\" का मतलब गुणा करना होता है।\nचरण 2: 42 का 6/7 = 6/7 × 42।\nचरण 3: पहले 42 को 7 से भाग दें: 42 ÷ 7 = 6।\nचरण 4: अब 6 × 6 = 36।\nइसलिए, 42 का 6/7 = 36।\nअंतिम उत्तर: 36।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4432,8 +5720,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: The bag is full when it has 96 kg of sugar.\nStep 2: We need to find 5/8 of 96 kg.\nStep 3: 96 ÷ 8 = 12 kg.\nStep 4: 12 × 5 = 60 kg.\nSo, the bag has 60 kg of sugar when it is 5/8 full.\nFinal answer: 60 kg",
+              "hindi": "चरण 1: बैग पूरा भरने पर उसमें 96 kg चीनी होती है।\nचरण 2: हमें 96 kg का 5/8 भाग निकालना है।\nचरण 3: 96 ÷ 8 = 12 kg.\nचरण 4: 12 × 5 = 60 kg.\nइसलिए, बैग 5/8 भरा होने पर उसमें 60 kg चीनी होगी।\nअंतिम उत्तर: 60 kg"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4496,8 +5792,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: The class has 42 students in total.\nStep 2:  of the students passed.\nStep 3: Number of students who passed = 6/7 \u0000f7 42 = 6 \u0000d7 6 = 36.\nStep 4: Number of students who failed = 42 - 36 = 6.\nFinal answer: 6",
+              "hindi": "चरण 1: कक्षा में कुल 42 छात्र हैं।\nचरण 2: इनमें से 6/7 छात्र पास हुए।\nचरण 3: पास होने वाले छात्रों की संख्या = 42 \u0000d7 6/7 = 6 \u0000d7 6 = 36।\nचरण 4: फेल होने वाले छात्रों की संख्या = 42 - 36 = 6।\nअंतिम उत्तर: 6"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4560,8 +5864,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: The total number of committee members is 140.\nStep 2: Three-fourths of them were present.\nSo, present members = (3/4) × 140 = 105.\nStep 3: Absent members = total members - present members = 140 - 105 = 35.\nSo, 35 members were absent.",
+              "hindi": "चरण 1: समिति के कुल सदस्यों की संख्या 140 है।\nचरण 2: उनमें से तीन-चौथाई सदस्य बैठक में उपस्थित थे।\nइसलिए, उपस्थित सदस्य = (3/4) × 140 = 105।\nचरण 3: अनुपस्थित सदस्य = कुल सदस्य - उपस्थित सदस्य = 140 - 105 = 35।\nअतः 35 सदस्य अनुपस्थित थे।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4625,8 +5937,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Mona's school is 6 km away from her house.\nShe covers 2/3 of the distance in a rickshaw.\nDistance covered in the rickshaw = 2/3 × 6 = 4 km.\nRemaining distance = 6 - 4 = 2 km.\nSo, Mona walked 2 km.\nFinal answer: 2 km",
+              "hindi": "मोना का स्कूल उसके घर से 6 किमी दूर है।\nउसने दूरी का 2/3 हिस्सा रिक्शा से तय किया।\nरिक्शा से तय की गई दूरी = 2/3 × 6 = 4 किमी।\nबाकी बची दूरी = 6 - 4 = 2 किमी।\nइसलिए, मोना ने 2 किमी पैदल चली।\nअंतिम उत्तर: 2 किमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4689,8 +6009,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: The total capacity of the parking lot is 84 cars.\nStep 2: It is 3/4 occupied, so the number of cars already parked is 3/4 of 84.\n3/4 of 84 = (84 ÷ 4) × 3 = 21 × 3 = 63 cars.\nStep 3: The number of more cars that can be parked = 84 - 63 = 21 cars.",
+              "hindi": "चरण 1: पार्किंग लॉट की कुल क्षमता 84 कारें है।\nचरण 2: उसमें 3/4 हिस्सा भरा हुआ है, इसलिए पहले से खड़ी कारों की संख्या 84 का 3/4 होगी।\n84 का 3/4 = (84 ÷ 4) × 3 = 21 × 3 = 63 कारें।\nचरण 3: अब और कितनी कारें खड़ी की जा सकती हैं = 84 - 63 = 21 कारें।"
+            },
+            {
+              "english": "Final answer: 21 cars",
+              "hindi": "अंतिम उत्तर: 21 कारें"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4754,8 +6086,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let the total population of the village be 1.",
+              "hindi": "मान लेते हैं कि गाँव की कुल जनसंख्या 1 है।"
+            },
+            {
+              "english": "Step 1: Women make up 3/8 of the population.\nSo, fraction of the population that is women = 3/8.",
+              "hindi": "चरण 1: जनसंख्या का 3/8 भाग महिलाएँ हैं।\nइसलिए, महिलाओं का हिस्सा = 3/8."
+            },
+            {
+              "english": "Step 2: 2/3 of these women are illiterate.\nSo, fraction of the whole population that is illiterate women = 3/8 × 2/3.",
+              "hindi": "चरण 2: इन महिलाओं में से 2/3 अशिक्षित हैं।\nतो, पूरी जनसंख्या में अशिक्षित महिलाओं का हिस्सा = 3/8 × 2/3."
+            },
+            {
+              "english": "Step 3: Multiply the fractions.\n3/8 × 2/3 = 6/24 = 1/4.",
+              "hindi": "चरण 3: भिन्नों का गुणा करें।\n3/8 × 2/3 = 6/24 = 1/4."
+            },
+            {
+              "english": "So, 1/4 of the population consists of illiterate women.",
+              "hindi": "इसलिए, जनसंख्या का 1/4 भाग अशिक्षित महिलाओं का है।"
+            },
+            {
+              "english": "Final answer: 1/4",
+              "hindi": "अंतिम उत्तर: 1/4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4819,8 +6179,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the multiplicative inverse, we flip the fraction.\nThe given number is 3/5.\nIts reciprocal is 5/3, because (3/5) × (5/3) = 15/15 = 1.\nSo, the multiplicative inverse of 3/5 is 5/3.\nFinal answer: 5/3",
+              "hindi": "गुणात्मक प्रतिलोम निकालने के लिए भिन्न को उलट देते हैं।\nदी गई संख्या 3/5 है।\nइसका व्युत्क्रम 5/3 होगा, क्योंकि (3/5) × (5/3) = 15/15 = 1.\nइसलिए 3/5 का गुणात्मक प्रतिलोम 5/3 है।\nFinal answer: 5/3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4884,8 +6252,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the multiplicative inverse, we write the reciprocal of the fraction.",
+              "hindi": "गुणनात्मक प्रतिलोम निकालने के लिए भिन्न का व्युत्क्रम लेते हैं।"
+            },
+            {
+              "english": "Given fraction = 9/16",
+              "hindi": "दी गई भिन्न = 9/16"
+            },
+            {
+              "english": "Step 1: Swap the numerator and denominator.\n- Numerator 9 becomes denominator.\n- Denominator 16 becomes numerator.",
+              "hindi": "चरण 1: अंश और हर को बदल दीजिए।\n- अंश 9 को हर बना दीजिए।\n- हर 16 को अंश बना दीजिए।"
+            },
+            {
+              "english": "So, the multiplicative inverse of 9/16 is 16/9.",
+              "hindi": "इसलिए 9/16 का गुणनात्मक प्रतिलोम 16/9 है।"
+            },
+            {
+              "english": "Check:\n9/16 × 16/9 = 1",
+              "hindi": "जांच:\n9/16 × 16/9 = 1"
+            },
+            {
+              "english": "Final answer: 16/9",
+              "hindi": "अंतिम उत्तर: 16/9"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4948,8 +6344,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the multiplicative inverse, we need the number that makes the product equal to 1.",
+              "hindi": "गुणनात्मक व्युत्क्रम वह संख्या होती है जिसे मूल संख्या से गुणा करने पर 1 मिलता है।"
+            },
+            {
+              "english": "Given number = 1/8",
+              "hindi": "दी गई संख्या = 1/8"
+            },
+            {
+              "english": "Step 1: Write the reciprocal of 1/8.\nThe reciprocal of a fraction is found by swapping the numerator and denominator.\nSo, the reciprocal of 1/8 is 8/1 = 8.",
+              "hindi": "चरण 1: 1/8 का व्युत्क्रम लिखिए।\nकिसी भिन्न का व्युत्क्रम पाने के लिए उसके अंश और हर को बदल देते हैं।\nइसलिए 1/8 का व्युत्क्रम 8/1 = 8 होगा।"
+            },
+            {
+              "english": "Step 2: Check the answer.\n(1/8) × 8 = 1",
+              "hindi": "चरण 2: उत्तर की जाँच कीजिए।\n(1/8) × 8 = 1"
+            },
+            {
+              "english": "Since the product is 1, 8 is the multiplicative inverse of 1/8.",
+              "hindi": "चूंकि गुणनफल 1 है, इसलिए 1/8 का गुणनात्मक व्युत्क्रम 8 है।"
+            },
+            {
+              "english": "Final answer: 8",
+              "hindi": "अंतिम उत्तर: 8"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5013,8 +6437,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the multiplicative inverse, we swap the numerator and the denominator.",
+              "hindi": "गुणनात्मक व्युत्क्रम निकालने के लिए भिन्न के अंश और हर को आपस में बदलते हैं।"
+            },
+            {
+              "english": "Given fraction = 10/19",
+              "hindi": "दी गई भिन्न = 10/19"
+            },
+            {
+              "english": "Step 1: Swap the numerator and denominator.\nThe multiplicative inverse = 19/10",
+              "hindi": "चरण 1: अंश और हर को बदल दें।\nगुणनात्मक व्युत्क्रम = 19/10"
+            },
+            {
+              "english": "Step 2: Check by multiplying.\n10/19 × 19/10 = 1",
+              "hindi": "चरण 2: गुणा करके जाँच करें।\n10/19 × 19/10 = 1"
+            },
+            {
+              "english": "So, the multiplicative inverse of 10/19 is 19/10, which is also 1 9/10.",
+              "hindi": "इसलिए 10/19 का गुणनात्मक व्युत्क्रम 19/10 है, जिसे 1 9/10 भी लिखा जा सकता है।"
+            },
+            {
+              "english": "Final answer: 19/10",
+              "hindi": "अंतिम उत्तर: 19/10"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5078,8 +6530,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The multiplicative inverse of a number is the number that gives 1 when multiplied by the original number.",
+              "hindi": "किसी संख्या का गुणात्मक व्युत्क्रम वह संख्या होती है, जिसे मूल संख्या से गुणा करने पर 1 मिलता है।"
+            },
+            {
+              "english": "For 15, let the inverse be x.\nSo, 15 × x = 1\nTo find x, divide 1 by 15:\nx = 1/15",
+              "hindi": "15 के लिए, मान लेते हैं कि व्युत्क्रम x है।\nतो, 15 × x = 1\nअब x निकालने के लिए 1 को 15 से भाग देते हैं:\nx = 1/15"
+            },
+            {
+              "english": "Check:\n15 × 1/15 = 1",
+              "hindi": "जांच:\n15 × 1/15 = 1"
+            },
+            {
+              "english": "So, the multiplicative inverse of 15 is 1/15.",
+              "hindi": "इसलिए, 15 का गुणात्मक व्युत्क्रम 1/15 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5143,8 +6615,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: A multiplicative inverse is found by swapping the top and bottom numbers of a fraction.\nStep 2: The fraction is 12/7.\nStep 3: Swap the numerator and denominator: 7/12.\nStep 4: Check: 12/7 × 7/12 = 1.\nFinal answer: 7/12",
+              "hindi": "चरण 1: गुणात्मक प्रतिलोम निकालने के लिए भिन्न के ऊपर और नीचे की संख्याओं को बदल देते हैं।\nचरण 2: दी गई भिन्न 12/7 है।\nचरण 3: ऊपर-नीचे बदलने पर 7/12 मिलता है।\nचरण 4: जांच: 12/7 × 7/12 = 1।\nअंतिम उत्तर: 7/12"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5208,8 +6688,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the multiplicative inverse, we first change the mixed number into an improper fraction.",
+              "hindi": "गुणनात्मक प्रतिलोम निकालने के लिए पहले मिश्र भिन्न को अशुद्ध भिन्न में बदलते हैं।"
+            },
+            {
+              "english": "Step 1: Convert 2 4/13 into an improper fraction.\n2 4/13 = (2 × 13 + 4) / 13\n= (26 + 4) / 13\n= 30/13",
+              "hindi": "चरण 1: 2 4/13 को अशुद्ध भिन्न में बदलें।\n2 4/13 = (2 × 13 + 4) / 13\n= (26 + 4) / 13\n= 30/13"
+            },
+            {
+              "english": "Step 2: Take the reciprocal.\nThe multiplicative inverse of 30/13 is 13/30.",
+              "hindi": "चरण 2: इसका व्युत्क्रम लें।\n30/13 का गुणनात्मक प्रतिलोम 13/30 होगा।"
+            },
+            {
+              "english": "Step 3: Check.\n30/13 × 13/30 = 1\nSo, the answer is correct.",
+              "hindi": "चरण 3: जाँच करें।\n30/13 × 13/30 = 1\nइसलिए उत्तर सही है।"
+            },
+            {
+              "english": "Final answer: 13/30",
+              "hindi": "अंतिम उत्तर: 13/30"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5273,8 +6777,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the multiplicative inverse, first convert the mixed number into an improper fraction.",
+              "hindi": "गुणात्मक प्रतिलोम निकालने के लिए पहले मिश्र भिन्न को अशुद्ध भिन्न में बदलते हैं।"
+            },
+            {
+              "english": "2 6/7 = (2 × 7 + 6)/7 = 20/7.",
+              "hindi": "2 6/7 = (2 × 7 + 6)/7 = 20/7."
+            },
+            {
+              "english": "Now take the reciprocal of 20/7.\nThe reciprocal of a fraction is made by swapping the numerator and denominator.\nSo, the multiplicative inverse of 20/7 is 7/20.",
+              "hindi": "अब 20/7 का व्युत्क्रम लेते हैं।\nकिसी भिन्न का व्युत्क्रम पाने के लिए उसके अंश और हर को बदल देते हैं।\nइसलिए 20/7 का गुणात्मक प्रतिलोम 7/20 है।"
+            },
+            {
+              "english": "Check: (20/7) × (7/20) = 1.",
+              "hindi": "जांच: (20/7) × (7/20) = 1."
+            },
+            {
+              "english": "Final answer: 7/20.",
+              "hindi": "अंतिम उत्तर: 7/20."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5338,8 +6866,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the multiplicative inverse, we first convert the mixed number into an improper fraction.",
+              "hindi": "गुणनात्मक व्युत्क्रम निकालने के लिए पहले मिश्र भिन्न को साधारण भिन्न में बदलते हैं।"
+            },
+            {
+              "english": "Step 1: Convert 3 9/14 into a single fraction.\n3 9/14 = (3 × 14 + 9)/14 = (42 + 9)/14 = 51/14",
+              "hindi": "चरण 1: 3 9/14 को एक भिन्न में बदलें।\n3 9/14 = (3 × 14 + 9)/14 = (42 + 9)/14 = 51/14"
+            },
+            {
+              "english": "Step 2: Take the reciprocal.\nThe multiplicative inverse of 51/14 is 14/51.",
+              "hindi": "चरण 2: इसका व्युत्क्रम लें।\n51/14 का गुणनात्मक व्युत्क्रम 14/51 होगा।"
+            },
+            {
+              "english": "Step 3: Check.\n(51/14) × (14/51) = 1\nSo the answer is correct.",
+              "hindi": "चरण 3: जाँच करें।\n(51/14) × (14/51) = 1\nइससे उत्तर सही सिद्ध होता है।"
+            },
+            {
+              "english": "Final answer: 14/51",
+              "hindi": "अंतिम उत्तर: 14/51"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5403,8 +6955,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the multiplicative inverse of 6 5/8, first change it into an improper fraction.",
+              "hindi": "6 5/8 का गुणात्मक व्युत्क्रम (multiplicative inverse) निकालने के लिए पहले इसे अशुद्ध भिन्न में बदलते हैं।"
+            },
+            {
+              "english": "Step 1: Convert the mixed number into an improper fraction.\n6 5/8 = (6 × 8 + 5) / 8 = (48 + 5) / 8 = 53/8",
+              "hindi": "चरण 1: मिश्रित भिन्न को अशुद्ध भिन्न में बदलें।\n6 5/8 = (6 × 8 + 5) / 8 = (48 + 5) / 8 = 53/8"
+            },
+            {
+              "english": "Step 2: Find the reciprocal.\nThe multiplicative inverse of a number is its reciprocal, so we flip the fraction:\n53/8 becomes 8/53",
+              "hindi": "चरण 2: इसका व्युत्क्रम लें।\nकिसी संख्या का गुणात्मक व्युत्क्रम उसका reciprocal होता है, इसलिए भिन्न को उलट देते हैं:\n53/8 का व्युत्क्रम 8/53 है"
+            },
+            {
+              "english": "Step 3: Check.\n(53/8) × (8/53) = 1\nSo the answer is correct.",
+              "hindi": "चरण 3: जाँच करें।\n(53/8) × (8/53) = 1\nइसलिए उत्तर सही है।"
+            },
+            {
+              "english": "Final answer: 8/53.",
+              "hindi": "अंतिम उत्तर: 8/53."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5467,8 +7043,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the multiplicative inverse, we look for a number that multiplies with the given number to make 1.",
+              "hindi": "गुणात्मक व्युत्क्रम वह संख्या होती है, जिसे मूल संख्या से गुणा करने पर 1 मिलता है।"
+            },
+            {
+              "english": "For 1:\n- We need a number x such that 1 × x = 1.\n- The only number that works is 1.",
+              "hindi": "1 के लिए:\n- हमें ऐसी संख्या x चाहिए, जिससे 1 × x = 1 हो।\n- यह संख्या केवल 1 है।"
+            },
+            {
+              "english": "So, the multiplicative inverse of 1 is 1.",
+              "hindi": "इसलिए, 1 का गुणन प्रतिलोम 1 है।"
+            },
+            {
+              "english": "Final answer: 1",
+              "hindi": "अंतिम उत्तर: 1"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5531,8 +7127,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The multiplicative inverse of a number is the number that gives 1 when we multiply it by the original number.",
+              "hindi": "किसी संख्या का गुणनात्मक व्युत्क्रम वह संख्या होती है, जिसे मूल संख्या से गुणा करने पर 1 मिलता है।"
+            },
+            {
+              "english": "For 0, we would need a number x such that:\n0 × x = 1",
+              "hindi": "0 के लिए हमें ऐसी संख्या x चाहिए कि:\n0 × x = 1"
+            },
+            {
+              "english": "But 0 times any number is always 0, not 1.\nSo there is no number that can be the multiplicative inverse of 0.",
+              "hindi": "लेकिन 0 को किसी भी संख्या से गुणा करने पर हमेशा 0 ही मिलता है, 1 नहीं।\nइसलिए 0 का कोई गुणनात्मक व्युत्क्रम नहीं होता।"
+            },
+            {
+              "english": "Final answer: does not exist.",
+              "hindi": "अंतिम उत्तर: मौजूद नहीं है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5596,8 +7212,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To divide by 3, multiply by 1/3.",
+              "hindi": "3 से भाग देना का मतलब 1/3 से गुणा करना है।"
+            },
+            {
+              "english": "6/7 ÷ 3 = 6/7 × 1/3",
+              "hindi": "6/7 ÷ 3 = 6/7 × 1/3"
+            },
+            {
+              "english": "Now multiply the numerators: 6 × 1 = 6\nMultiply the denominators: 7 × 3 = 21",
+              "hindi": "अब अंशों को गुणा करें: 6 × 1 = 6\nहरों को गुणा करें: 7 × 3 = 21"
+            },
+            {
+              "english": "So, 6/7 ÷ 3 = 6/21\nThis can be simplified to 2/7",
+              "hindi": "इसलिए, 6/7 ÷ 3 = 6/21\nइसे सरल करने पर 2/7 मिलता है।"
+            },
+            {
+              "english": "Final answer: 2/7",
+              "hindi": "अंतिम उत्तर: 2/7"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5661,8 +7301,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find 7/12 ÷ 21.\nWhen we divide by a whole number, we multiply by its reciprocal:\n7/12 ÷ 21 = 7/12 × 1/21\nNow multiply the numerators and denominators:\n7 × 1 / (12 × 21) = 7/252\nSimplify 7/252 by dividing the top and bottom by 7:\n7/252 = 1/36\nFinal answer: 1/36.",
+              "hindi": "हमें 7/12 ÷ 21 निकालना है।\nजब हम किसी whole number से भाग देते हैं, तो हम उसके reciprocal से गुणा करते हैं:\n7/12 ÷ 21 = 7/12 × 1/21\nअब अंश और हर को गुणा करें:\n7 × 1 / (12 × 21) = 7/252\nअब 7/252 को 7 से भाग देकर सरल करें:\n7/252 = 1/36\nअंतिम उत्तर: 1/36."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5726,8 +7374,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the quotient of 4 2/3 ÷ 7, first convert the mixed number into an improper fraction.\n4 2/3 = 14/3\nNow divide by 7:\n14/3 ÷ 7 = 14/3 × 1/7\n= 14/21\n= 2/3\nSo, the final answer is 2/3.",
+              "hindi": "4 2/3 ÷ 7 का भागफल निकालने के लिए पहले 4 2/3 को अशुद्ध भिन्न में बदलते हैं।\n4 2/3 = 14/3\nअब 7 से भाग दें:\n14/3 ÷ 7 = 14/3 × 1/7\n= 14/21\n= 2/3\nअतः अंतिम उत्तर 2/3 है."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5791,8 +7447,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the quotient of 17 3/5 ÷ 33, follow these steps:\n1. First, convert the mixed number into an improper fraction.\n   17 3/5 = (17 × 5 + 3) / 5 = 88/5\n2. Now divide by 33 by multiplying by its reciprocal.\n   88/5 ÷ 33 = 88/5 × 1/33\n3. Multiply the fractions.\n   88/5 × 1/33 = 88/165\n4. Simplify the fraction.\n   88/165 = 8/15\nFinal answer: 8/15",
+              "hindi": "17 3/5 ÷ 33 का भागफल निकालने के लिए ये कदम करें:\n1. सबसे पहले मिश्रित भिन्न को अशुद्ध भिन्न में बदलें।\n   17 3/5 = (17 × 5 + 3) / 5 = 88/5\n2. अब 33 से भाग देने के लिए उसके व्युत्क्रम से गुणा करें।\n   88/5 ÷ 33 = 88/5 × 1/33\n3. भिन्नों को गुणा करें।\n   88/5 × 1/33 = 88/165\n4. भिन्न को सरल करें।\n   88/165 = 8/15\nअंतिम उत्तर: 8/15"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5856,8 +7520,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the quotient, divide by a fraction by multiplying by its reciprocal.",
+              "hindi": "भाग देने के लिए भिन्न का व्युत्क्रम लेकर गुणा करते हैं।"
+            },
+            {
+              "english": "7/9 ÷ 2/3 = 7/9 × 3/2",
+              "hindi": "7/9 ÷ 2/3 = 7/9 × 3/2"
+            },
+            {
+              "english": "Now multiply the numerators and the denominators:\n7 × 3 = 21\n9 × 2 = 18\nSo we get 21/18.",
+              "hindi": "अब अंश और हर को गुणा करें:\n7 × 3 = 21\n9 × 2 = 18\nइसलिए हमें 21/18 मिलता है।"
+            },
+            {
+              "english": "Simplify 21/18:\n21/18 = 7/6",
+              "hindi": "21/18 को सरल करें:\n21/18 = 7/6"
+            },
+            {
+              "english": "Convert 7/6 to a mixed number:\n7/6 = 1 1/6",
+              "hindi": "अब 7/6 को मिश्र भिन्न में लिखें:\n7/6 = 1 1/6"
+            },
+            {
+              "english": "Final answer: 1 1/6",
+              "hindi": "अंतिम उत्तर: 1 1/6"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5921,8 +7613,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the quotient of 7/24 ÷ 5/12, we divide fractions by multiplying by the reciprocal.",
+              "hindi": "7/24 ÷ 5/12 का भागफल निकालने के लिए हम भिन्नों का भाग reciprocals से करते हैं।"
+            },
+            {
+              "english": "Step 1: Keep the first fraction.\n7/24",
+              "hindi": "Step 1: पहली भिन्न को वैसे ही रखें।\n7/24"
+            },
+            {
+              "english": "Step 2: Change division to multiplication.\n7/24 × 12/5",
+              "hindi": "Step 2: भाग को गुणा में बदल दें।\n7/24 × 12/5"
+            },
+            {
+              "english": "Step 3: Multiply the numerators and the denominators.\n7 × 12 = 84\n24 × 5 = 120\nSo we get 84/120.",
+              "hindi": "Step 3: अंश और हर को गुणा करें।\n7 × 12 = 84\n24 × 5 = 120\nइसलिए हमें 84/120 मिलता है।"
+            },
+            {
+              "english": "Step 4: Simplify the fraction.\n84/120 = 7/10",
+              "hindi": "Step 4: भिन्न को सरल करें।\n84/120 = 7/10"
+            },
+            {
+              "english": "Final answer: 7/10",
+              "hindi": "अंतिम उत्तर: 7/10"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5986,8 +7706,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find: 9/26 ÷ 4 2/13",
+              "hindi": "हमें निकालना है: 9/26 ÷ 4 2/13"
+            },
+            {
+              "english": "Step 1: Change the mixed number into an improper fraction.\n4 2/13 = (4 × 13 + 2) / 13 = 54/13",
+              "hindi": "चरण 1: मिश्रित भिन्न को अशुद्ध भिन्न में बदलें।\n4 2/13 = (4 × 13 + 2) / 13 = 54/13"
+            },
+            {
+              "english": "Step 2: Change division into multiplication by the reciprocal.\n9/26 ÷ 54/13 = 9/26 × 13/54",
+              "hindi": "चरण 2: भाग को गुणा में बदलें और दूसरे भिन्न का व्युत्क्रम लें।\n9/26 ÷ 54/13 = 9/26 × 13/54"
+            },
+            {
+              "english": "Step 3: Simplify before multiplying.\n- 13 and 26 can be simplified: 13/26 = 1/2\n- 9 and 54 can be simplified: 9/54 = 1/6",
+              "hindi": "चरण 3: गुणा करने से पहले सरल करें।\n- 13 और 26 को सरल करें: 13/26 = 1/2\n- 9 और 54 को सरल करें: 9/54 = 1/6"
+            },
+            {
+              "english": "So we get:\n1/2 × 1/6 = 1/12",
+              "hindi": "अब मिलता है:\n1/2 × 1/6 = 1/12"
+            },
+            {
+              "english": "Final Answer: 1/12",
+              "hindi": "अंतिम उत्तर: 1/12"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6051,8 +7799,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, change the mixed numbers into improper fractions.\n8 1/6 = 49/6\n4 2/3 = 14/3",
+              "hindi": "सबसे पहले मिश्रित भिन्नों को अशुद्ध भिन्न में बदलते हैं।\n8 1/6 = 49/6\n4 2/3 = 14/3"
+            },
+            {
+              "english": "Now divide by multiplying by the reciprocal:\n49/6 ÷ 14/3 = 49/6 × 3/14",
+              "hindi": "अब भाग देने के लिए दूसरे भिन्न का व्युत्क्रम लेकर गुणा करते हैं:\n49/6 ÷ 14/3 = 49/6 × 3/14"
+            },
+            {
+              "english": "Multiply:\n49/6 × 3/14 = 147/84",
+              "hindi": "अब गुणा करें:\n49/6 × 3/14 = 147/84"
+            },
+            {
+              "english": "Simplify:\n147/84 = 7/4 = 1 3/4",
+              "hindi": "इसे सरल करें:\n147/84 = 7/4 = 1 3/4"
+            },
+            {
+              "english": "So, the quotient is 1 3/4.",
+              "hindi": "अतः भागफल 1 3/4 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6115,8 +7887,48 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the quotient, first change the mixed numbers into improper fractions:",
+              "hindi": "भागफल निकालने के लिए पहले मिश्र भिन्नों को अशुद्ध भिन्न में बदलिए:"
+            },
+            {
+              "english": "10 5/7 = 75/7\n1 11/14 = 25/14",
+              "hindi": "10 5/7 = 75/7\n1 11/14 = 25/14"
+            },
+            {
+              "english": "Now divide by multiplying by the reciprocal:",
+              "hindi": "अब भाग को गुणा में बदलिए और दूसरे भिन्न का व्युत्क्रम लीजिए:"
+            },
+            {
+              "english": "75/7 ÷ 25/14 = 75/7 × 14/25",
+              "hindi": "75/7 ÷ 25/14 = 75/7 × 14/25"
+            },
+            {
+              "english": "Simplify before multiplying:",
+              "hindi": "अब सरल कीजिए:"
+            },
+            {
+              "english": "75/25 = 3\n14/7 = 2",
+              "hindi": "75/25 = 3\n14/7 = 2"
+            },
+            {
+              "english": "Now multiply:",
+              "hindi": "अब गुणा कीजिए:"
+            },
+            {
+              "english": "3 × 2 = 6",
+              "hindi": "3 × 2 = 6"
+            },
+            {
+              "english": "Final answer: 6",
+              "hindi": "अंतिम उत्तर: 6"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6179,8 +7991,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, convert 33 1/3 into an improper fraction.\n33 1/3 = 100/3.\nNow divide by multiplying by the reciprocal:\n100 ÷ 100/3 = 100 × 3/100.\nThe 100s cancel, so we get 3.\nFinal answer: 3",
+              "hindi": "पहले 33 1/3 को अशुद्ध भिन्न में बदलें.\n33 1/3 = 100/3.\nअब भाग देने के लिए इसके व्युत्क्रम से गुणा करें:\n100 ÷ 100/3 = 100 × 3/100.\n100 कट जाते हैं, इसलिए उत्तर 3 मिलता है.\nअंतिम उत्तर: 3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6243,8 +8063,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the quotient of 88 ÷ 3 1/7, follow these steps:",
+              "hindi": "88 ÷ 3 1/7 का भागफल निकालने के लिए ये कदम करें:"
+            },
+            {
+              "english": "1. Convert the mixed number to an improper fraction.\n   3 1/7 = (3 × 7 + 1) / 7 = 22/7",
+              "hindi": "1. पहले मिश्रित भिन्न को अशुद्ध भिन्न में बदलें।\n   3 1/7 = (3 × 7 + 1) / 7 = 22/7"
+            },
+            {
+              "english": "2. Change division into multiplication by the reciprocal.\n   88 ÷ 22/7 = 88 × 7/22",
+              "hindi": "2. भाग को गुणा में बदलें और दूसरे भिन्न का व्युत्क्रम लें।\n   88 ÷ 22/7 = 88 × 7/22"
+            },
+            {
+              "english": "3. Simplify the fraction.\n   88 ÷ 22 = 4\n   So, 4 × 7 = 28",
+              "hindi": "3. अब सरल करें।\n   88 ÷ 22 = 4\n   इसलिए, 4 × 7 = 28"
+            },
+            {
+              "english": "So, the quotient is 28.",
+              "hindi": "इसलिए, भागफल 28 है।"
+            },
+            {
+              "english": "Final answer: 28",
+              "hindi": "अंतिम उत्तर: 28"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6308,8 +8156,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the quotient of 84 ÷ 7 7/8, first change the mixed number into an improper fraction.",
+              "hindi": "84 ÷ 7 7/8 का भागफल निकालने के लिए पहले mixed number को improper fraction में बदलते हैं।"
+            },
+            {
+              "english": "7 7/8 = (7 × 8 + 7) / 8 = 63/8",
+              "hindi": "7 7/8 = (7 × 8 + 7) / 8 = 63/8"
+            },
+            {
+              "english": "Now divide by a fraction by multiplying by its reciprocal:\n84 ÷ 63/8 = 84 × 8/63",
+              "hindi": "अब भिन्न से भाग देने के लिए उसके व्युत्क्रम से गुणा करते हैं:\n84 ÷ 63/8 = 84 × 8/63"
+            },
+            {
+              "english": "Simplify:\n84/63 = 4/3\nSo,\n4/3 × 8 = 32/3",
+              "hindi": "अब सरल करें:\n84/63 = 4/3\nइसलिए,\n4/3 × 8 = 32/3"
+            },
+            {
+              "english": "Convert 32/3 to a mixed number:\n32/3 = 10 2/3",
+              "hindi": "32/3 को mixed number में बदलें:\n32/3 = 10 2/3"
+            },
+            {
+              "english": "Final answer: 10 2/3",
+              "hindi": "अंतिम उत्तर: 10 2/3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6373,8 +8249,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's read the problem as 15 8/9 ÷ 3 2/3.",
+              "hindi": "आइए प्रश्न को 15 8/9 ÷ 3 2/3 मानकर हल करते हैं।"
+            },
+            {
+              "english": "Step 1: Convert 15 8/9 to an improper fraction.\n15 8/9 = (15 × 9 + 8)/9 = 143/9.",
+              "hindi": "चरण 1: 15 8/9 को improper fraction में बदलें।\n15 8/9 = (15 × 9 + 8)/9 = 143/9."
+            },
+            {
+              "english": "Step 2: Convert 3 2/3 to an improper fraction.\n3 2/3 = (3 × 3 + 2)/3 = 11/3.",
+              "hindi": "चरण 2: 3 2/3 को improper fraction में बदलें।\n3 2/3 = (3 × 3 + 2)/3 = 11/3."
+            },
+            {
+              "english": "Step 3: Change division into multiplication by the reciprocal.\n143/9 ÷ 11/3 = 143/9 × 3/11.",
+              "hindi": "चरण 3: भाग को गुणा में बदलें।\n143/9 ÷ 11/3 = 143/9 × 3/11."
+            },
+            {
+              "english": "Step 4: Simplify.\n143 ÷ 11 = 13, and 3 ÷ 9 = 1/3.\nSo the quotient is 13/3 = 4 1/3.",
+              "hindi": "चरण 4: सरल करें।\n143 ÷ 11 = 13 और 3 ÷ 9 = 1/3.\nइसलिए भागफल 13/3 = 4 1/3 है।"
+            },
+            {
+              "english": "Final answer: 4 1/3",
+              "hindi": "अंतिम उत्तर: 4 1/3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6438,8 +8342,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the quotient, change the mixed numbers into improper fractions first.\n16 2/3 = 50/3\n2 2/9 = 20/9\nNow divide by multiplying by the reciprocal:\n50/3 ÷ 20/9 = 50/3 × 9/20\nMultiply:\n50 × 9 = 450\n3 × 20 = 60\nSo, 450/60 = 15/2 = 7 1/2.\nFinal answer: 7 1/2.",
+              "hindi": "भागफल निकालने के लिए, पहले मिश्रित भिन्नों को अशुद्ध भिन्न में बदलते हैं।\n16 2/3 = 50/3\n2 2/9 = 20/9\nअब विभाजन के लिए दूसरे भिन्न का व्युत्क्रम लेकर गुणा करते हैं:\n50/3 ÷ 20/9 = 50/3 × 9/20\nअब गुणा करें:\n50 × 9 = 450\n3 × 20 = 60\nइसलिए, 450/60 = 15/2 = 7 1/2.\nअंतिम उत्तर: 7 1/2."
+            }
+          ]
         }
       ],
       "tags": [
@@ -6503,8 +8415,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Part 1: Find the quotient 5 7/10 ÷ 3 1/6.\nStep 1: Convert the mixed numbers into improper fractions.\n5 7/10 = 57/10\n3 1/6 = 19/6\nStep 2: Change division into multiplication by the reciprocal.\n57/10 ÷ 19/6 = 57/10 × 6/19\nStep 3: Multiply.\n57 × 6 = 342\n10 × 19 = 190\nSo, 342/190 = 171/95 because both numbers can be divided by 2.\nStep 4: Write it as a mixed number.\n171/95 = 1 76/95",
+              "hindi": "भाग 1: 5 7/10 ÷ 3 1/6 का भागफल निकालिए।\nचरण 1: मिश्र भिन्नों को अशुद्ध भिन्न में बदलिए।\n5 7/10 = 57/10\n3 1/6 = 19/6\nचरण 2: भाग को गुणा में बदलिए और दूसरे भिन्न का व्युत्क्रम लीजिए।\n57/10 ÷ 19/6 = 57/10 × 6/19\nचरण 3: गुणा कीजिए।\n57 × 6 = 342\n10 × 19 = 190\nइसलिए, 342/190 = 171/95 क्योंकि दोनों संख्याएँ 2 से विभाजित हो सकती हैं।\nचरण 4: इसे मिश्र भिन्न में लिखिए।\n171/95 = 1 76/95"
+            },
+            {
+              "english": "Part 2: Express 25 minutes as a fraction of an hour.\n1 hour = 60 minutes, so 25 minutes = 25/60 = 5/12 of an hour because both numbers can be divided by 5.",
+              "hindi": "भाग 2: 25 मिनट को 1 घंटे के भिन्न के रूप में लिखिए।\n1 घंटा = 60 मिनट, इसलिए 25 मिनट = 25/60 = 5/12 घंटा क्योंकि दोनों संख्याएँ 5 से विभाजित हो सकती हैं।"
+            },
+            {
+              "english": "Final answer: The quotient is 171/95 (or 1 76/95), and 25 minutes is 5/12 of an hour.",
+              "hindi": "अंतिम उत्तर: भागफल 171/95 (या 1 76/95) है, और 25 मिनट 1 घंटे का 5/12 भाग है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6568,8 +8496,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "There are 60 minutes in 1 hour.",
+              "hindi": "1 घंटे में 60 मिनट होते हैं।"
+            },
+            {
+              "english": "We want to express 25 minutes as a fraction of an hour, so we write:\n25/60",
+              "hindi": "25 मिनट को एक घंटे का भिन्न (fraction) बनाने के लिए हम लिखते हैं:\n25/60"
+            },
+            {
+              "english": "Now simplify the fraction by dividing the numerator and denominator by 5:\n25 ÷ 5 = 5\n60 ÷ 5 = 12",
+              "hindi": "अब इस भिन्न को सरल करें। 25 और 60 दोनों को 5 से भाग दें:\n25 ÷ 5 = 5\n60 ÷ 5 = 12"
+            },
+            {
+              "english": "So, 25 minutes = 5/12 of an hour.",
+              "hindi": "इसलिए, 25 मिनट = 5/12 घंटा।"
+            },
+            {
+              "english": "Final answer: 5/12",
+              "hindi": "अंतिम उत्तर: 5/12"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6633,8 +8585,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 rupee = 100 paise.",
+              "hindi": "1 रुपया = 100 पैसे।"
+            },
+            {
+              "english": "So, 35 paise = 35/100 rupee.",
+              "hindi": "इसलिए, 35 पैसे = 35/100 रुपया।"
+            },
+            {
+              "english": "Now simplify the fraction:\n35/100 = 7/20",
+              "hindi": "अब भिन्न को सरल करें:\n35/100 = 7/20"
+            },
+            {
+              "english": "So, 35 paise as a fraction of a rupee is 7/20.",
+              "hindi": "इसलिए, 35 पैसे रुपये का भिन्न रूप 7/20 है।"
+            },
+            {
+              "english": "Final answer: 7/20",
+              "hindi": "अंतिम उत्तर: 7/20"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6698,8 +8674,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 litre = 1000 mL.\nSo, 325 mL = 325/1000 litre.\nNow simplify the fraction:\n325/1000 = 13/40 (divide both numerator and denominator by 25).\nSo, 325 mL as a fraction of a litre is 13/40 litre.\nFinal answer: 13/40",
+              "hindi": "1 लीटर = 1000 mL.\nइसलिए, 325 mL = 325/1000 लीटर.\nअब भिन्न को सरल करें:\n325/1000 = 13/40 (ऊपर और नीचे दोनों को 25 से भाग दें)।\nइसलिए, 325 mL एक लीटर का 13/40 भाग है।\nअंतिम उत्तर: 13/40"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6763,8 +8747,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To express 65 cm as a fraction of a metre, first remember that 1 metre = 100 cm.",
+              "hindi": "65 सेमी को मीटर का भिन्न रूप में लिखने के लिए पहले याद रखें कि 1 मीटर = 100 सेमी।"
+            },
+            {
+              "english": "So, 65 cm = 65/100 of a metre.",
+              "hindi": "इसलिए, 65 सेमी = 65/100 मीटर।"
+            },
+            {
+              "english": "Now simplify the fraction:\n65/100 = 13/20",
+              "hindi": "अब इस भिन्न को सरल करते हैं:\n65/100 = 13/20"
+            },
+            {
+              "english": "So, 65 cm is 13/20 of a metre.",
+              "hindi": "इसलिए, 65 सेमी = 13/20 मीटर।"
+            },
+            {
+              "english": "Final answer: 13/20 metre",
+              "hindi": "अंतिम उत्तर: 13/20 मीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6828,8 +8836,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 km = 1000 m.\nWe need to express 125 m as a fraction of 1 km.\nSo, the fraction is 125/1000.\nNow simplify:\n125/1000 = 1/8\nTherefore, 125 m = 1/8 km.\nFinal answer: 1/8 km.",
+              "hindi": "1 km = 1000 m.\nहमें 125 m को 1 km का भिन्न भाग लिखना है।\nइसलिए भिन्न होगा 125/1000.\nअब इसे सरल करें:\n125/1000 = 1/8\nअतः 125 m = 1/8 km.\nअंतिम उत्तर: 1/8 km."
+            }
+          ]
         }
       ],
       "tags": [
@@ -6895,8 +8911,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: To find the cost of 1 kg, divide the total cost by the total weight.\nStep 2: Given: 3 1/4 kg of sugar costs Rs 106 3/5.\nStep 3: Convert to improper fractions: 3 1/4 = 13/4 and 106 3/5 = 533/5.\nStep 4: Cost of 1 kg = (533/5) ÷ (13/4) = (533/5) × (4/13).\nStep 5: Simplify: 533 ÷ 13 = 41, so the cost = (41 × 4)/5 = 164/5 = 32 4/5.\nFinal answer: Rs 32 4/5",
+              "hindi": "चरण 1: 1 किग्रा की कीमत निकालने के लिए कुल कीमत को कुल वजन से भाग देते हैं।\nचरण 2: दिया है: 3 1/4 किग्रा चीनी की कीमत Rs 106 3/5 है।\nचरण 3: अब इन्हें अशुद्ध भिन्न में बदलें: 3 1/4 = 13/4 और 106 3/5 = 533/5.\nचरण 4: 1 किग्रा की कीमत = (533/5) ÷ (13/4) = (533/5) × (4/13).\nचरण 5: सरल करें: 533 ÷ 13 = 41, इसलिए कीमत = (41 × 4)/5 = 164/5 = 32 4/5.\nअंतिम उत्तर: Rs 32 4/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6962,8 +8986,48 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The question says “sugar,” but the given data is about petrol. So we will find the cost of 1 litre of petrol.",
+              "hindi": "प्रश्न में “sugar” लिखा है, लेकिन दिया गया डेटा पेट्रोल का है। इसलिए हम 1 लीटर पेट्रोल का मूल्य निकालेंगे।"
+            },
+            {
+              "english": "Step 1: Given cost of 2 3/4 litres = Rs 145 1/5",
+              "hindi": "चरण 1: दिया है कि 2 3/4 लीटर का मूल्य = Rs 145 1/5"
+            },
+            {
+              "english": "Step 2: To find the cost of 1 litre, divide the total cost by the number of litres.",
+              "hindi": "चरण 2: 1 लीटर का मूल्य निकालने के लिए कुल मूल्य को लीटरों की संख्या से भाग देंगे।"
+            },
+            {
+              "english": "Cost of 1 litre = (145 1/5) ÷ (2 3/4)",
+              "hindi": "1 लीटर का मूल्य = (145 1/5) ÷ (2 3/4)"
+            },
+            {
+              "english": "Step 3: Convert the mixed numbers into improper fractions.\n145 1/5 = 726/5\n2 3/4 = 11/4",
+              "hindi": "चरण 3: मिश्रित भिन्नों को अशुद्ध भिन्न में बदलते हैं।\n145 1/5 = 726/5\n2 3/4 = 11/4"
+            },
+            {
+              "english": "Step 4: Now divide:\n(726/5) ÷ (11/4) = (726/5) × (4/11)",
+              "hindi": "चरण 4: अब भाग करते हैं:\n(726/5) ÷ (11/4) = (726/5) × (4/11)"
+            },
+            {
+              "english": "Step 5: Simplify:\n726 ÷ 11 = 66\nSo,\n66 × 4 / 5 = 264/5 = 52 4/5",
+              "hindi": "चरण 5: सरल करें:\n726 ÷ 11 = 66\nइसलिए,\n66 × 4 / 5 = 264/5 = 52 4/5"
+            },
+            {
+              "english": "Therefore, the cost of 1 litre of petrol is Rs 52 4/5.",
+              "hindi": "इसलिए, 1 लीटर पेट्रोल का मूल्य Rs 52 4/5 है।"
+            },
+            {
+              "english": "Final answer: Rs 52 4/5",
+              "hindi": "अंतिम उत्तर: Rs 52 4/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7026,8 +9090,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Find the salt in 1 bag.\n1 bag = 2 1/4 kg",
+              "hindi": "चरण 1: 1 थैले में कितना नमक है, यह लिखते हैं।\n1 थैला = 2 1/4 किग्रा"
+            },
+            {
+              "english": "Step 2: Find how many bags are needed.\nNumber of bags = total salt ÷ salt in 1 bag\n= 40 1/2 ÷ 2 1/4",
+              "hindi": "चरण 2: अब कुल नमक को 1 थैले के नमक से भाग देते हैं।\nथैलों की संख्या = कुल नमक ÷ 1 थैले का नमक\n= 40 1/2 ÷ 2 1/4"
+            },
+            {
+              "english": "Step 3: Convert to improper fractions.\n40 1/2 = 81/2\n2 1/4 = 9/4",
+              "hindi": "चरण 3: मिश्र भिन्न को अशुद्ध भिन्न में बदलते हैं।\n40 1/2 = 81/2\n2 1/4 = 9/4"
+            },
+            {
+              "english": "Step 4: Divide.\n81/2 ÷ 9/4 = 81/2 × 4/9 = 18",
+              "hindi": "चरण 4: भाग करते हैं।\n81/2 ÷ 9/4 = 81/2 × 4/9 = 18"
+            },
+            {
+              "english": "So, 18 bags are required.",
+              "hindi": "इसलिए 18 थैले चाहिए।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7093,8 +9181,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: The 14 tins share 178 1/2 litres of oil equally.\nStep 2: So, oil in 1 tin = 178 1/2 ÷ 14.\nStep 3: Change 178 1/2 to an improper fraction: 178 1/2 = 357/2.\nStep 4: Divide: 357/2 ÷ 14 = 357/2 × 1/14 = 357/28 = 12 3/4.\nSo, 1 tin has 12 3/4 litres of oil.\nFinal answer: 12 3/4 litres.",
+              "hindi": "चरण 1: 14 टिनों में 178 1/2 लीटर तेल बराबर बाँटा गया है।\nचरण 2: इसलिए 1 टिन में तेल = 178 1/2 ÷ 14.\nचरण 3: 178 1/2 को अशुद्ध भिन्न में बदलते हैं: 178 1/2 = 357/2.\nचरण 4: भाग करते हैं: 357/2 ÷ 14 = 357/2 × 1/14 = 357/28 = 12 3/4.\nइसलिए 1 टिन में 12 3/4 लीटर तेल है.\nअंतिम उत्तर: 12 3/4 लीटर."
+            }
+          ]
         }
       ],
       "tags": [
@@ -7160,8 +9256,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find how far the car goes in 1 hour, we divide the total distance by the total time.",
+              "hindi": "1 घंटे में कार कितनी दूरी तय करती है, यह जानने के लिए हम कुल दूरी को कुल समय से भाग देते हैं।"
+            },
+            {
+              "english": "Step 1: Write the mixed numbers as improper fractions.\n283 1/2 km = 567/2 km\n4 2/3 hours = 14/3 hours",
+              "hindi": "चरण 1: मिश्रित भिन्नों को अशुद्ध भिन्न में बदलें।\n283 1/2 km = 567/2 km\n4 2/3 hours = 14/3 hours"
+            },
+            {
+              "english": "Step 2: Divide distance by time.\n(567/2) ÷ (14/3) = (567/2) × (3/14)",
+              "hindi": "चरण 2: दूरी को समय से भाग दें।\n(567/2) ÷ (14/3) = (567/2) × (3/14)"
+            },
+            {
+              "english": "Step 3: Multiply.\n= 1701/28\n= 60 3/4",
+              "hindi": "चरण 3: गुणा करें।\n= 1701/28\n= 60 3/4"
+            },
+            {
+              "english": "So, in 1 hour, the car goes 60 3/4 km.",
+              "hindi": "इसलिए, 1 घंटे में कार 60 3/4 km जाती है।"
+            },
+            {
+              "english": "Final answer: 60 3/4 km",
+              "hindi": "अंतिम उत्तर: 60 3/4 km"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7227,8 +9351,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the weight of each bag, divide the total rice by the number of bags.",
+              "hindi": "प्रत्येक बोरी का वजन निकालने के लिए कुल चावल को बोरीयों की संख्या से भाग देते हैं।"
+            },
+            {
+              "english": "Total rice = 367 1/2 kg\nNumber of bags = 35",
+              "hindi": "कुल चावल = 367 1/2 किग्रा\nबोरियों की संख्या = 35"
+            },
+            {
+              "english": "First, convert 367 1/2 into an improper fraction:\n367 1/2 = 735/2",
+              "hindi": "पहले 367 1/2 को भिन्न में लिखते हैं:\n367 1/2 = 735/2"
+            },
+            {
+              "english": "Now divide by 35:\n(735/2) ÷ 35 = (735/2) × (1/35)\n= 735/70\n= 10 1/2",
+              "hindi": "अब 35 से भाग देते हैं:\n(735/2) ÷ 35 = (735/2) × (1/35)\n= 735/70\n= 10 1/2"
+            },
+            {
+              "english": "So, each bag weighs 10 1/2 kg.",
+              "hindi": "इसलिए, प्रत्येक बोरी का वजन 10 1/2 किग्रा है।"
+            },
+            {
+              "english": "Final answer: 10 1/2 kg",
+              "hindi": "अंतिम उत्तर: 10 1/2 किग्रा"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7291,8 +9443,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Convert 3 3/8 metres into an improper fraction.\n3 3/8 = 27/8 metres.\nStep 2: Divide the total cloth by the length of one piece.\n54 ÷ 27/8 = 54 × 8/27.\nStep 3: Simplify.\n54 × 8/27 = 2 × 8 = 16.\nSo, Suchi gets 16 pieces.",
+              "hindi": "चरण 1: 3 3/8 मीटर को भिन्न में बदलें।\n3 3/8 = 27/8 मीटर।\nचरण 2: कुल कपड़े को एक टुकड़े की लंबाई से भाग दें।\n54 ÷ 27/8 = 54 × 8/27.\nचरण 3: सरल करें।\n54 × 8/27 = 2 × 8 = 16.\nइसलिए, सुची को 16 टुकड़े मिलेंगे।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7358,8 +9518,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, write 36 1/8 m as an improper fraction:\n36 1/8 = 289/8",
+              "hindi": "पहले 36 1/8 m को improper fraction में लिखते हैं:\n36 1/8 = 289/8"
+            },
+            {
+              "english": "Now divide by 17:\n289/8 ÷ 17 = 289/8 × 1/17 = 289/136",
+              "hindi": "अब 17 से भाग देते हैं:\n289/8 ÷ 17 = 289/8 × 1/17 = 289/136"
+            },
+            {
+              "english": "Simplify the fraction:\n289 ÷ 17 = 17, so 289/136 = 17/8 = 2 1/8",
+              "hindi": "अब भिन्न को सरल करें:\n289 ÷ 17 = 17, इसलिए 289/136 = 17/8 = 2 1/8"
+            },
+            {
+              "english": "So, each piece of cloth is 2 1/8 m long.\nFinal answer: 2 1/8 m",
+              "hindi": "इसलिए कपड़े के प्रत्येक टुकड़े की लंबाई 2 1/8 m है।\nFinal answer: 2 1/8 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7425,8 +9605,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the breadth of a rectangle, we use:\nArea = Length × Breadth\nSo,\nBreadth = Area ÷ Length",
+              "hindi": "आयत की चौड़ाई निकालने के लिए सूत्र है:\nक्षेत्रफल = लंबाई × चौड़ाई\nइसलिए,\nचौड़ाई = क्षेत्रफल ÷ लंबाई"
+            },
+            {
+              "english": "Given:\nArea = 37 4/5 sq. cm = 189/5 sq. cm\nLength = 6 3/4 cm = 27/4 cm",
+              "hindi": "दिया है:\nक्षेत्रफल = 37 4/5 वर्ग सेमी = 189/5 वर्ग सेमी\nलंबाई = 6 3/4 सेमी = 27/4 सेमी"
+            },
+            {
+              "english": "Now divide:\nBreadth = (189/5) ÷ (27/4)\nBreadth = (189/5) × (4/27)",
+              "hindi": "अब भाग देते हैं:\nचौड़ाई = (189/5) ÷ (27/4)\nचौड़ाई = (189/5) × (4/27)"
+            },
+            {
+              "english": "Simplify:\n189 ÷ 27 = 7\nSo,\nBreadth = 7 × 4/5 = 28/5 = 5 3/5 cm",
+              "hindi": "सरल करें:\n189 ÷ 27 = 7\nइसलिए,\nचौड़ाई = 7 × 4/5 = 28/5 = 5 3/5 सेमी"
+            },
+            {
+              "english": "Final answer: 5 3/5 cm",
+              "hindi": "अंतिम उत्तर: 5 3/5 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7490,8 +9694,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let the other fraction be x.",
+              "hindi": "मान लेते हैं कि दूसरी भिन्न x है।"
+            },
+            {
+              "english": "The given fraction is 13 4/7, which is the same as 95/7.",
+              "hindi": "दी गई भिन्न 13 4/7 है, और इसे अपूर्ण भिन्न में लिखें तो 95/7 होगा।"
+            },
+            {
+              "english": "The product of the two fractions is 5, so:\n(95/7) × x = 5",
+              "hindi": "दोनों भिन्नों का गुणनफल 5 है, इसलिए:\n(95/7) × x = 5"
+            },
+            {
+              "english": "Now solve for x:\nx = 5 ÷ (95/7)\nx = 5 × 7/95\nx = 35/95\nx = 7/19",
+              "hindi": "अब x निकालते हैं:\nx = 5 ÷ (95/7)\nx = 5 × 7/95\nx = 35/95\nx = 7/19"
+            },
+            {
+              "english": "So, the other fraction is 7/19. Final answer: 7/19",
+              "hindi": "इसलिए दूसरी भिन्न 7/19 है। अंतिम उत्तर: 7/19"
+            }
+          ]
         }
       ],
       "tags": [

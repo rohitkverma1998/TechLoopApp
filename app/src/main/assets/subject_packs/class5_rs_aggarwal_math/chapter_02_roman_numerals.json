@@ -264,8 +264,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 78 in Roman numerals, break it into 50 + 20 + 8.",
+              "hindi": "78 को Roman numerals में लिखने के लिए इसे 50 + 20 + 8 में बाँटते हैं।"
+            },
+            {
+              "english": "50 = L\n20 = XX\n8 = VIII",
+              "hindi": "50 = L\n20 = XX\n8 = VIII"
+            },
+            {
+              "english": "Now put them together:\nL + XX + VIII = LXXVIII",
+              "hindi": "अब इन्हें साथ में लिखते हैं:\nL + XX + VIII = LXXVIII"
+            },
+            {
+              "english": "Final answer: LXXVIII",
+              "hindi": "अंतिम उत्तर: LXXVIII"
+            }
+          ]
         }
       ],
       "tags": [
@@ -328,8 +348,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 189 in Roman numerals, break it into parts:",
+              "hindi": "189 को Roman numeral में लिखने के लिए इसे भागों में तोड़ते हैं:"
+            },
+            {
+              "english": "189 = 100 + 80 + 9",
+              "hindi": "189 = 100 + 80 + 9"
+            },
+            {
+              "english": "Now write each part in Roman numerals:\n100 = C\n80 = LXXX\n9 = IX",
+              "hindi": "अब हर भाग को Roman numeral में लिखते हैं:\n100 = C\n80 = LXXX\n9 = IX"
+            },
+            {
+              "english": "Now join them together:\nC + LXXX + IX = CLXXXIX",
+              "hindi": "अब इन्हें साथ में लिखते हैं:\nC + LXXX + IX = CLXXXIX"
+            },
+            {
+              "english": "Final answer: CLXXXIX",
+              "hindi": "Final answer: CLXXXIX"
+            }
+          ]
         }
       ],
       "tags": [
@@ -392,8 +436,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 247 in Roman numerals, break it into parts:",
+              "hindi": "247 को Roman numerals में लिखने के लिए इसे भागों में तोड़ते हैं:"
+            },
+            {
+              "english": "247 = 200 + 40 + 7",
+              "hindi": "247 = 200 + 40 + 7"
+            },
+            {
+              "english": "Now write each part in Roman numerals:\n- 200 = CC\n- 40 = XL\n- 7 = VII",
+              "hindi": "अब हर भाग को Roman numerals में लिखते हैं:\n- 200 = CC\n- 40 = XL\n- 7 = VII"
+            },
+            {
+              "english": "Now join them together:\nCC + XL + VII = CCXLVII",
+              "hindi": "अब इन्हें साथ में लिखते हैं:\nCC + XL + VII = CCXLVII"
+            },
+            {
+              "english": "Final answer: CCXLVII",
+              "hindi": "अंतिम उत्तर: CCXLVII"
+            }
+          ]
         }
       ],
       "tags": [
@@ -456,8 +524,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 196 in Roman numerals, break it into parts:",
+              "hindi": "196 को Roman numeral में लिखने के लिए इसे भागों में बांटते हैं:"
+            },
+            {
+              "english": "196 = 100 + 90 + 6",
+              "hindi": "196 = 100 + 90 + 6"
+            },
+            {
+              "english": "Now write each part in Roman numerals:\n- 100 = C\n- 90 = XC\n- 6 = VI",
+              "hindi": "अब हर भाग को Roman numeral में लिखते हैं:\n- 100 = C\n- 90 = XC\n- 6 = VI"
+            },
+            {
+              "english": "Put them together:\nC + XC + VI = CXCVI",
+              "hindi": "अब इन्हें साथ में लिखते हैं:\nC + XC + VI = CXCVI"
+            },
+            {
+              "english": "Final answer: CXCVI",
+              "hindi": "Final answer: CXCVI"
+            }
+          ]
         }
       ],
       "tags": [
@@ -520,8 +612,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 365 in Roman numerals, break it into smaller parts:",
+              "hindi": "365 को Roman numeral में लिखने के लिए इसे छोटे भागों में तोड़ते हैं:"
+            },
+            {
+              "english": "365 = 300 + 60 + 5",
+              "hindi": "365 = 300 + 60 + 5"
+            },
+            {
+              "english": "Now write each part in Roman numerals:\n300 = CCC\n60 = LX (50 = L and 10 = X)\n5 = V",
+              "hindi": "अब हर भाग को Roman numeral में लिखते हैं:\n300 = CCC\n60 = LX (50 = L और 10 = X)\n5 = V"
+            },
+            {
+              "english": "Now put them together:\nCCC + LX + V = CCCLXV",
+              "hindi": "अब इन्हें साथ में लिखते हैं:\nCCC + LX + V = CCCLXV"
+            },
+            {
+              "english": "Final answer: CCCLXV",
+              "hindi": "अंतिम उत्तर: CCCLXV"
+            }
+          ]
         }
       ],
       "tags": [
@@ -584,8 +700,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 399 in Roman numerals, break it into parts:",
+              "hindi": "399 को Roman numerals में लिखने के लिए इसे भागों में तोड़ते हैं:"
+            },
+            {
+              "english": "399 = 300 + 90 + 9",
+              "hindi": "399 = 300 + 90 + 9"
+            },
+            {
+              "english": "Now write each part in Roman numerals:\n- 300 = CCC\n- 90 = XC\n- 9 = IX",
+              "hindi": "अब हर भाग को Roman numerals में लिखते हैं:\n- 300 = CCC\n- 90 = XC\n- 9 = IX"
+            },
+            {
+              "english": "Now join them together:\nCCC + XC + IX = CCCXCIX",
+              "hindi": "अब इन्हें साथ में लिखते हैं:\nCCC + XC + IX = CCCXCIX"
+            },
+            {
+              "english": "Final answer: CCCXCIX",
+              "hindi": "अंतिम उत्तर: CCCXCIX"
+            }
+          ]
         }
       ],
       "tags": [
@@ -648,8 +788,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 449 in Roman numerals, break it into parts:",
+              "hindi": "449 को रोमन अंकों में लिखने के लिए इसे भागों में तोड़ते हैं:"
+            },
+            {
+              "english": "449 = 400 + 40 + 9",
+              "hindi": "449 = 400 + 40 + 9"
+            },
+            {
+              "english": "Now write each part in Roman numerals:\n- 400 = CD\n- 40 = XL\n- 9 = IX",
+              "hindi": "अब हर भाग को रोमन अंक में लिखते हैं:\n- 400 = CD\n- 40 = XL\n- 9 = IX"
+            },
+            {
+              "english": "Now join them together:\nCD + XL + IX = CDXLIX",
+              "hindi": "अब इन्हें साथ में लिखते हैं:\nCD + XL + IX = CDXLIX"
+            },
+            {
+              "english": "Final answer: CDXLIX",
+              "hindi": "अंतिम उत्तर: CDXLIX"
+            }
+          ]
         }
       ],
       "tags": [
@@ -712,8 +876,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 495 in Roman numerals, break it into parts:",
+              "hindi": "495 को Roman numeral में लिखने के लिए इसे भागों में तोड़ते हैं:"
+            },
+            {
+              "english": "495 = 400 + 90 + 5",
+              "hindi": "495 = 400 + 90 + 5"
+            },
+            {
+              "english": "Now write each part in Roman numerals:\n- 400 = CD\n- 90 = XC\n- 5 = V",
+              "hindi": "अब हर भाग को Roman numeral में लिखते हैं:\n- 400 = CD\n- 90 = XC\n- 5 = V"
+            },
+            {
+              "english": "Put them together:\nCD + XC + V = CDXCV",
+              "hindi": "अब इन्हें साथ में लिखते हैं:\nCD + XC + V = CDXCV"
+            },
+            {
+              "english": "Final answer: CDXCV",
+              "hindi": "अंतिम उत्तर: CDXCV"
+            }
+          ]
         }
       ],
       "tags": [
@@ -776,8 +964,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 344 in Roman numerals, break it into parts:",
+              "hindi": "344 को रोमन अंकों में लिखने के लिए इसे भागों में बाँटते हैं:"
+            },
+            {
+              "english": "344 = 300 + 40 + 4",
+              "hindi": "344 = 300 + 40 + 4"
+            },
+            {
+              "english": "Now change each part into Roman numerals:\n- 300 = CCC\n- 40 = XL\n- 4 = IV",
+              "hindi": "अब हर भाग को रोमन अंक में लिखते हैं:\n- 300 = CCC\n- 40 = XL\n- 4 = IV"
+            },
+            {
+              "english": "Put them together:\nCCC + XL + IV = CCCXLIV",
+              "hindi": "अब इन्हें साथ में लिखते हैं:\nCCC + XL + IV = CCCXLIV"
+            },
+            {
+              "english": "Final answer: CCCXLIV",
+              "hindi": "अंतिम उत्तर: CCCXLIV"
+            }
+          ]
         }
       ],
       "tags": [
@@ -840,8 +1052,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 466 in Roman numerals, break it into parts:",
+              "hindi": "466 को Roman numerals में लिखने के लिए इसे छोटे भागों में बाँटते हैं:"
+            },
+            {
+              "english": "466 = 400 + 60 + 6",
+              "hindi": "466 = 400 + 60 + 6"
+            },
+            {
+              "english": "Now change each part into Roman numerals:\n- 400 = CD\n- 60 = LX\n- 6 = VI",
+              "hindi": "अब हर भाग को Roman numerals में लिखते हैं:\n- 400 = CD\n- 60 = LX\n- 6 = VI"
+            },
+            {
+              "english": "Put them together:\nCD + LX + VI = CDLXVI",
+              "hindi": "अब इन्हें साथ में लिखते हैं:\nCD + LX + VI = CDLXVI"
+            },
+            {
+              "english": "Final answer: CDLXVI",
+              "hindi": "अंतिम उत्तर: CDLXVI"
+            }
+          ]
         }
       ],
       "tags": [
@@ -904,8 +1140,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "LXIX is a Roman numeral.",
+              "hindi": "LXIX एक Roman numeral है।"
+            },
+            {
+              "english": "Step 1: L = 50\nStep 2: X = 10\nStep 3: IX = 9 because I before X means 10 - 1 = 9\nStep 4: Add them all: 50 + 10 + 9 = 69",
+              "hindi": "चरण 1: L = 50\nचरण 2: X = 10\nचरण 3: IX = 9, क्योंकि I, X से पहले है, इसलिए 10 - 1 = 9\nचरण 4: अब सबको जोड़ते हैं: 50 + 10 + 9 = 69"
+            },
+            {
+              "english": "Final answer: 69",
+              "hindi": "अंतिम उत्तर: 69"
+            }
+          ]
         }
       ],
       "tags": [
@@ -968,8 +1220,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write the Roman numeral XCI in Hindu-Arabic form, look at each part step by step.",
+              "hindi": "Roman numeral XCI को सामान्य संख्या (Hindu-Arabic numeral) में बदलने के लिए इसे चरणों में समझते हैं।"
+            },
+            {
+              "english": "X = 10, C = 100, and I = 1.\nIn XC, the smaller number X comes before the bigger number C, so we subtract: 100 - 10 = 90.\nThen add I = 1.\nSo, 90 + 1 = 91.",
+              "hindi": "X = 10, C = 100, और I = 1।\nXC में छोटा अंक X, बड़े अंक C से पहले है, इसलिए हम घटाते हैं: 100 - 10 = 90।\nफिर I = 1 को जोड़ते हैं।\nइसलिए, 90 + 1 = 91।"
+            },
+            {
+              "english": "Final answer: 91",
+              "hindi": "अंतिम उत्तर: 91"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1032,8 +1300,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "CXLVI is a Roman numeral.",
+              "hindi": "CXLVI एक Roman numeral है।"
+            },
+            {
+              "english": "Step 1: C = 100\nStep 2: XL = 40, because X before L means 50 - 10 = 40\nStep 3: VI = 6, because V = 5 and I = 1, so 5 + 1 = 6\nStep 4: Add them: 100 + 40 + 6 = 146",
+              "hindi": "Step 1: C = 100\nStep 2: XL = 40, क्योंकि X, L से पहले है, इसलिए 50 - 10 = 40\nStep 3: VI = 6, क्योंकि V = 5 और I = 1, इसलिए 5 + 1 = 6\nStep 4: अब जोड़ें: 100 + 40 + 6 = 146"
+            },
+            {
+              "english": "Final answer: 146",
+              "hindi": "अंतिम उत्तर: 146"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1096,8 +1380,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "CXCII is a Roman numeral.",
+              "hindi": "CXCII एक Roman numeral है।"
+            },
+            {
+              "english": "Step 1: C = 100\nStep 2: XC = 90 because X (10) comes before C (100), so we subtract: 100 - 10 = 90\nStep 3: II = 2\nStep 4: Add them together: 100 + 90 + 2 = 192",
+              "hindi": "चरण 1: C = 100\nचरण 2: XC = 90 क्योंकि X (10), C (100) से पहले आता है, इसलिए घटाते हैं: 100 - 10 = 90\nचरण 3: II = 2\nचरण 4: अब सबको जोड़ते हैं: 100 + 90 + 2 = 192"
+            },
+            {
+              "english": "Final answer: 192",
+              "hindi": "अंतिम उत्तर: 192"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1160,8 +1460,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "CCCLXXXV is a Roman numeral. We convert it step by step:",
+              "hindi": "CCCLXXXV एक Roman numeral है। इसे हम step by step सामान्य संख्या में बदलते हैं:"
+            },
+            {
+              "english": "C = 100\nC = 100\nC = 100\nL = 50\nX = 10\nX = 10\nX = 10\nV = 5",
+              "hindi": "C = 100\nC = 100\nC = 100\nL = 50\nX = 10\nX = 10\nX = 10\nV = 5"
+            },
+            {
+              "english": "Now add them:\n100 + 100 + 100 + 50 + 10 + 10 + 10 + 5 = 385",
+              "hindi": "अब इन्हें जोड़ते हैं:\n100 + 100 + 100 + 50 + 10 + 10 + 10 + 5 = 385"
+            },
+            {
+              "english": "So, the Hindu-Arabic numeral for CCCLXXXV is 385.",
+              "hindi": "इसलिए, CCCLXXXV का Hindu-Arabic numeral 385 है।"
+            },
+            {
+              "english": "Final answer: 385",
+              "hindi": "अंतिम उत्तर: 385"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1224,8 +1548,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "CCLIX is a Roman numeral.",
+              "hindi": "CCLIX एक रोमन संख्या है।"
+            },
+            {
+              "english": "Step 1: Write the values of the symbols.\nC = 100\nC = 100\nL = 50\nIX = 9",
+              "hindi": "चरण 1: इसके अक्षरों की कीमत लिखते हैं।\nC = 100\nC = 100\nL = 50\nIX = 9"
+            },
+            {
+              "english": "Step 2: Add them.\n100 + 100 + 50 + 9 = 259",
+              "hindi": "चरण 2: अब इन्हें जोड़ते हैं।\n100 + 100 + 50 + 9 = 259"
+            },
+            {
+              "english": "So, the Hindu-Arabic numeral for CCLIX is 259.\nFinal answer: 259",
+              "hindi": "इसलिए, CCLIX की हिंदू-अरबी संख्या 259 है।\nअंतिम उत्तर: 259"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1288,8 +1632,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "CCXCVI is a Roman numeral.",
+              "hindi": "CCXCVI एक Roman numeral है।"
+            },
+            {
+              "english": "Step 1: Break it into parts:\nCC + XC + VI",
+              "hindi": "चरण 1: इसे भागों में तोड़ते हैं:\nCC + XC + VI"
+            },
+            {
+              "english": "Step 2: Find the value of each part:\nC = 100, so CC = 200\nXC = 90 because X before C means 100 - 10 = 90\nVI = 6 because V = 5 and I = 1, so 5 + 1 = 6",
+              "hindi": "चरण 2: हर भाग का मान निकालते हैं:\nC = 100, इसलिए CC = 200\nXC = 90, क्योंकि X, C से पहले है, इसलिए 100 - 10 = 90\nVI = 6, क्योंकि V = 5 और I = 1, इसलिए 5 + 1 = 6"
+            },
+            {
+              "english": "Step 3: Add them:\n200 + 90 + 6 = 296",
+              "hindi": "चरण 3: अब सबको जोड़ते हैं:\n200 + 90 + 6 = 296"
+            },
+            {
+              "english": "Final answer: 296",
+              "hindi": "अंतिम उत्तर: 296"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1352,8 +1720,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert the Roman numeral CXCVI into a Hindu-Arabic numeral, read it step by step:",
+              "hindi": "Roman numeral CXCVI को Hindu-Arabic numeral में बदलते हैं, step by step:"
+            },
+            {
+              "english": "C = 100\nXC = 90\nV = 5\nI = 1",
+              "hindi": "C = 100\nXC = 90\nV = 5\nI = 1"
+            },
+            {
+              "english": "Now add them:\n100 + 90 + 5 + 1 = 196",
+              "hindi": "अब इन्हें जोड़ते हैं:\n100 + 90 + 5 + 1 = 196"
+            },
+            {
+              "english": "So, CXCVI = 196.\nFinal answer: 196",
+              "hindi": "इसलिए, CXCVI = 196।\nअंतिम उत्तर: 196"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1416,8 +1804,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write the Hindu-Arabic numeral for CCLXVI, change each Roman numeral into its value:\nC = 100\nC = 100\nL = 50\nX = 10\nV = 5\nI = 1",
+              "hindi": "CCLXVI को Hindu-Arabic numeral में बदलने के लिए, हर Roman numeral का मान लिखते हैं:\nC = 100\nC = 100\nL = 50\nX = 10\nV = 5\nI = 1"
+            },
+            {
+              "english": "Now add them:\n100 + 100 + 50 + 10 + 5 + 1 = 266",
+              "hindi": "अब इन सबको जोड़ते हैं:\n100 + 100 + 50 + 10 + 5 + 1 = 266"
+            },
+            {
+              "english": "So, the Hindu-Arabic numeral for CCLXVI is 266.\nFinal answer: 266",
+              "hindi": "इसलिए, CCLXVI का Hindu-Arabic numeral 266 है।\nअंतिम उत्तर: 266"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1480,8 +1884,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "CCCXIII is a Roman numeral.",
+              "hindi": "CCCXIII एक Roman numeral है।"
+            },
+            {
+              "english": "Step 1: Know the values.\nC = 100, X = 10, I = 1",
+              "hindi": "चरण 1: इसके मान पहचानो।\nC = 100, X = 10, I = 1"
+            },
+            {
+              "english": "Step 2: Add them.\nCCC = 100 + 100 + 100 = 300\nX = 10\nIII = 1 + 1 + 1 = 3",
+              "hindi": "चरण 2: इन्हें जोड़ो।\nCCC = 100 + 100 + 100 = 300\nX = 10\nIII = 1 + 1 + 1 = 3"
+            },
+            {
+              "english": "Step 3: Total.\n300 + 10 + 3 = 313",
+              "hindi": "चरण 3: कुल मान निकालो।\n300 + 10 + 3 = 313"
+            },
+            {
+              "english": "So, the Hindu-Arabic numeral for CCCXIII is 313.\nFinal answer: 313",
+              "hindi": "इसलिए, CCCXIII का Hindu-Arabic numeral 313 है।\nअंतिम उत्तर: 313"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1545,8 +1973,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check this, think of `IC` as a Roman numeral.",
+              "hindi": "इसे जाँचने के लिए `IC` को Roman numeral की तरह समझते हैं।"
+            },
+            {
+              "english": "Step 1: In Roman numerals, `I` can be written before only `V` and `X`.\nStep 2: `C` means 100.\nStep 3: Since `I` cannot be written before `C`, `IC` does not follow the Roman numeral rules.\nSo, `IC` is meaningless.",
+              "hindi": "चरण 1: Roman numerals में `I` केवल `V` और `X` से पहले लिखा जा सकता है।\nचरण 2: `C` का मान 100 होता है।\nचरण 3: क्योंकि `I`, `C` से पहले नहीं लिखा जा सकता, इसलिए `IC` Roman numeral के नियमों का पालन नहीं करता।\nइसलिए `IC` निरर्थक है।"
+            },
+            {
+              "english": "Final answer: IC is meaningless.",
+              "hindi": "अंतिम उत्तर: IC निरर्थक है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1611,8 +2055,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether CI is meaningless, we use the basic Roman numeral rules.",
+              "hindi": "यह देखने के लिए कि CI meaningless है या नहीं, हम Roman numerals के आसान नियम देखते हैं।"
+            },
+            {
+              "english": "Step 1: C means 100.\nStep 2: I means 1.\nStep 3: When a smaller numeral comes after a bigger numeral, we add them.\nSo, CI = 100 + 1 = 101.",
+              "hindi": "Step 1: C का मतलब 100 होता है।\nStep 2: I का मतलब 1 होता है।\nStep 3: जब छोटा numeral बड़े numeral के बाद आता है, तो हम उन्हें जोड़ते हैं।\nइसलिए, CI = 100 + 1 = 101."
+            },
+            {
+              "english": "Since CI makes a correct Roman numeral number, it is not meaningless.",
+              "hindi": "क्योंकि CI एक सही Roman numeral बनाता है, इसलिए यह meaningless नहीं है।"
+            },
+            {
+              "english": "Final answer: CI is not meaningless.",
+              "hindi": "Final answer: CI not meaningless."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1676,8 +2140,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We check whether \"IL\" is a correct Roman numeral.\nStep 1: In Roman numerals, I = 1 and L = 50.\nStep 2: The symbol I can be placed before only V and X to subtract.\nStep 3: I cannot be placed before L.\nSo \"IL\" is not a valid Roman numeral. It is meaningless.\nFinal answer: IL is meaningless.",
+              "hindi": "\"IL\" सही रोमन संख्या है या नहीं, इसे देखते हैं।\nचरण 1: रोमन अंकों में I = 1 और L = 50 होता है।\nचरण 2: I को घटाने के लिए केवल V और X के पहले लिखा जा सकता है।\nचरण 3: I को L के पहले नहीं लिखा जा सकता।\nइसलिए \"IL\" एक सही रोमन संख्या नहीं है। यह meaningless है।\nFinal answer: IL is meaningless."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1742,8 +2214,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Look at the letters carefully: LI.",
+              "hindi": "अक्षरों को ध्यान से देखो: LI."
+            },
+            {
+              "english": "Step 1: We ask, \"Does it have any meaning, or is it completely nonsense?\"\nStep 2: \"Li\" is used as a name, so it is not meaningless.\nStep 3: That means we should not put it in the meaningless group.",
+              "hindi": "चरण 1: हमें देखना है कि इसका कोई मतलब है या यह बिल्कुल बिना मतलब का है।\nचरण 2: \"Li\" एक नाम के रूप में इस्तेमाल होता है, इसलिए यह meaningless नहीं है।\nचरण 3: इसलिए इसे meaningless समूह में नहीं रखेंगे।"
+            },
+            {
+              "english": "Final answer: LI is meaningful.",
+              "hindi": "अंतिम उत्तर: LI meaningful है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1807,8 +2295,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether `VC` is meaningful, think of it as a Roman numeral.",
+              "hindi": "`VC` को जाँचने के लिए इसे Roman numeral मानते हैं।"
+            },
+            {
+              "english": "Step 1: In Roman numerals, `V = 5` and `C = 100`.\nStep 2: A smaller numeral can sometimes come before a bigger one to mean subtraction, but only in certain correct pairs.\nStep 3: `V` is not used before `C` for subtraction.\nStep 4: So `VC` is not a valid Roman numeral.",
+              "hindi": "चरण 1: Roman numerals में `V = 5` और `C = 100` होता है।\nचरण 2: कभी-कभी छोटा numeral बड़े numeral से पहले आकर घटाव दिखाता है, लेकिन यह केवल कुछ सही जोड़ों में होता है।\nचरण 3: `V`, `C` से पहले लिखकर घटाव नहीं दिखाता।\nचरण 4: इसलिए `VC` एक सही Roman numeral नहीं है।"
+            },
+            {
+              "english": "Therefore, `VC` is meaningless.\nFinal answer: VC is meaningless.",
+              "hindi": "इसलिए, `VC` meaningless है।\nअंतिम उत्तर: VC meaningless है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1873,8 +2377,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: We look at the word \"CV\".\nStep 2: \"CV\" is not a random or nonsense group of letters.\nStep 3: It is a short form used for \"Curriculum Vitae,\" which means a document about a person's studies, skills, and work.\nStep 4: Since \"CV\" has a clear meaning, it is not meaningless.\nFinal answer: CV is not meaningless.",
+              "hindi": "चरण 1: हम \"CV\" को देखते हैं।\nचरण 2: \"CV\" कोई बेकार या बिना अर्थ वाले अक्षर नहीं हैं।\nचरण 3: \"CV\" एक short form है, जिसका मतलब \"Curriculum Vitae\" होता है। यह किसी व्यक्ति की पढ़ाई, कौशल और काम की जानकारी वाला दस्तावेज़ होता है।\nचरण 4: इसलिए \"CV\" का अर्थ है, तो यह meaningless नहीं है।\nअंतिम उत्तर: CV meaningless नहीं है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1938,8 +2450,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether `CXXXXVI` is meaningful, we use the basic rules of Roman numerals.",
+              "hindi": "`CXXXXVI` meaningful hai ya meaningless, yeh jaanne ke liye Roman numerals ka basic rule dekhte hain."
+            },
+            {
+              "english": "Step 1: In Roman numerals, the same symbol cannot be written more than 3 times in a row.\nExamples: `III` is allowed, `XXX` is allowed, but `IIII` or `XXXX` is not allowed.",
+              "hindi": "Step 1: Roman numerals mein koi bhi same symbol lagatar 3 baar se zyada nahi likha jaata.\nUdaharan: `III` sahi hai, `XXX` sahi hai, lekin `IIII` ya `XXXX` sahi nahi hai."
+            },
+            {
+              "english": "Step 2: In `CXXXXVI`, the symbol `X` is written 4 times continuously: `XXXX`.",
+              "hindi": "Step 2: `CXXXXVI` mein `X` 4 baar lagatar likha gaya hai: `XXXX`."
+            },
+            {
+              "english": "Step 3: This breaks the Roman numeral rule.\nSo `CXXXXVI` is not a valid Roman numeral.",
+              "hindi": "Step 3: Yeh Roman numerals ke rule ko todta hai.\nIsliye `CXXXXVI` ek valid Roman numeral nahi hai."
+            },
+            {
+              "english": "Final answer: `CXXXXVI` is meaningless.",
+              "hindi": "Final answer: `CXXXXVI` meaningless hai."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2003,8 +2539,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We check whether CCCCXVI is a valid Roman numeral.",
+              "hindi": "हम जाँचते हैं कि CCCCXVI वैध रोमन संख्या है या नहीं।"
+            },
+            {
+              "english": "Step 1: In Roman numerals, C = 100 and X = 10, V = 5, I = 1.",
+              "hindi": "चरण 1: रोमन अंकों में C = 100, X = 10, V = 5 और I = 1 होता है।"
+            },
+            {
+              "english": "Step 2: A Roman numeral cannot repeat C four times in a row. C can be written at most 3 times.",
+              "hindi": "चरण 2: रोमन संख्या में C को लगातार 4 बार नहीं लिखते। C को अधिकतम 3 बार ही दोहराया जा सकता है।"
+            },
+            {
+              "english": "Step 3: Here we have CCCC, which means C is repeated 4 times.",
+              "hindi": "चरण 3: यहाँ CCCC लिखा है, यानी C को 4 बार दोहराया गया है।"
+            },
+            {
+              "english": "Step 4: So this is not written in the correct Roman numeral form. Therefore, it is meaningless.",
+              "hindi": "चरण 4: इसलिए यह सही रोमन संख्या नहीं है। अतः यह meaningless है।"
+            },
+            {
+              "english": "Final answer: CCCCXVI is meaningless.",
+              "hindi": "अंतिम उत्तर: CCCCXVI meaningless है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2068,8 +2632,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Roman numerals follow some fixed rules.",
+              "hindi": "Roman numerals (रोमन संख्याओं) के कुछ पक्के नियम होते हैं।"
+            },
+            {
+              "english": "Step 1: Look at the symbols.\nL = 50\nI = 1\nV = 5",
+              "hindi": "चरण 1: चिन्हों को पहचानें।\nL = 50\nI = 1\nV = 5"
+            },
+            {
+              "english": "Step 2: Check the rule.\nIn Roman numerals, L cannot be repeated.\nSymbols like V, L, and D are not written twice in a row.",
+              "hindi": "चरण 2: नियम देखें।\nRoman numerals में L को दो बार नहीं लिखा जाता।\nV, L और D जैसे चिन्ह लगातार दो बार नहीं आते।"
+            },
+            {
+              "english": "Step 3: Look at LLIV.\nHere, L is repeated twice: LL.\nThat breaks the Roman numeral rule.\nSo LLIV is not a valid Roman numeral.",
+              "hindi": "चरण 3: LLIV को देखें।\nयहाँ L दो बार लिखा है: LL.\nयह Roman numeral का नियम तोड़ता है।\nइसलिए LLIV एक सही Roman numeral नहीं है।"
+            },
+            {
+              "english": "Final answer: LLIV is meaningless.",
+              "hindi": "Final answer: LLIV meaningless है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2134,8 +2722,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether CCV is meaningless, we use the Roman numeral rules step by step.",
+              "hindi": "यह जाँचने के लिए कि CCV अर्थहीन है या नहीं, हम रोमन संख्या के नियमों को एक-एक करके देखते हैं।"
+            },
+            {
+              "english": "C = 100\nC = 100\nV = 5",
+              "hindi": "C = 100\nC = 100\nV = 5"
+            },
+            {
+              "english": "Now add them:\n100 + 100 + 5 = 205",
+              "hindi": "अब इन्हें जोड़ते हैं:\n100 + 100 + 5 = 205"
+            },
+            {
+              "english": "This is allowed because:\n- C can be repeated.\n- V is placed after C, so we add it.\n- The numeral is written in a correct Roman numeral form.",
+              "hindi": "यह सही है क्योंकि:\n- C को दोहराया जा सकता है।\n- V, C के बाद आया है, इसलिए इसे जोड़ा जाता है।\n- यह रोमन संख्या सही रूप में लिखी गई है।"
+            },
+            {
+              "english": "So, CCV has a value and is not meaningless.",
+              "hindi": "इसलिए, CCV का मान है और यह अर्थहीन नहीं है।"
+            },
+            {
+              "english": "Final answer: CCV is not meaningless. It is a meaningful Roman numeral equal to 205.",
+              "hindi": "Final answer: CCV अर्थहीन नहीं है। यह एक सार्थक रोमन संख्या है, जिसका मान 205 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2198,8 +2814,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Convert each Roman numeral into a number.\nXCIII = XC + III = 90 + 3 = 93\nCXIII = C + X + III = 100 + 10 + 3 = 113",
+              "hindi": "चरण 1: हर Roman numeral को संख्या में बदलते हैं।\nXCIII = XC + III = 90 + 3 = 93\nCXIII = C + X + III = 100 + 10 + 3 = 113"
+            },
+            {
+              "english": "Step 2: Compare the numbers.\n93 is smaller than 113.",
+              "hindi": "चरण 2: अब संख्याओं की तुलना करें।\n93, 113 से छोटा है।"
+            },
+            {
+              "english": "Step 3: So the correct symbol is <\nXCIII < CXIII",
+              "hindi": "चरण 3: इसलिए सही चिन्ह < है।\nXCIII < CXIII"
+            },
+            {
+              "english": "Final answer: XCIII < CXIII",
+              "hindi": "Final answer: XCIII < CXIII"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2262,8 +2898,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We compare the Roman numerals CD and CCCXC.",
+              "hindi": "हम Roman numerals CD और CCCXC की तुलना करते हैं।"
+            },
+            {
+              "english": "Step 1: Find the value of CD.\nC = 100 and D = 500.\nWhen a smaller numeral comes before a bigger numeral, we subtract.\nSo, CD = 500 - 100 = 400.",
+              "hindi": "चरण 1: CD का मान निकालते हैं।\nC = 100 और D = 500।\nजब छोटा numeral बड़े numeral से पहले आता है, तो हम घटाते हैं।\nइसलिए, CD = 500 - 100 = 400।"
+            },
+            {
+              "english": "Step 2: Find the value of CCCXC.\nCCC = 100 + 100 + 100 = 300.\nXC = 100 - 10 = 90.\nSo, CCCXC = 300 + 90 = 390.",
+              "hindi": "चरण 2: CCCXC का मान निकालते हैं।\nCCC = 100 + 100 + 100 = 300।\nXC = 100 - 10 = 90।\nइसलिए, CCCXC = 300 + 90 = 390।"
+            },
+            {
+              "english": "Step 3: Compare the numbers.\n400 is greater than 390.\nSo, CD is greater than CCCXC.",
+              "hindi": "चरण 3: अब दोनों संख्याओं की तुलना करते हैं।\n400, 390 से बड़ा है।\nइसलिए, CD, CCCXC से बड़ा है।"
+            },
+            {
+              "english": "Final answer: CD > CCCXC",
+              "hindi": "अंतिम उत्तर: CD > CCCXC"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2326,8 +2986,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step by step:\nCCLIX = CC + L + IX = 200 + 50 + 9 = 259.\nCCXLI = CC + XL + I = 200 + 40 + 1 = 241.\nNow compare 259 and 241.\n259 is greater than 241, so the correct symbol is >.\nFinal answer: CCLIX > CCXLI",
+              "hindi": "चरण दर चरण:\nCCLIX = CC + L + IX = 200 + 50 + 9 = 259.\nCCXLI = CC + XL + I = 200 + 40 + 1 = 241.\nअब 259 और 241 की तुलना करते हैं।\n259, 241 से बड़ा है, इसलिए सही चिन्ह > है।\nअंतिम उत्तर: CCLIX > CCXLI"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2390,8 +3058,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "CDXL = CD + XL = 400 + 40 = 440.\nCDLX = CD + LX = 400 + 60 = 460.\nNow compare 440 and 460.\nSince 440 is smaller than 460, we put the symbol <.\nFinal answer: CDXL < CDLX",
+              "hindi": "CDXL = CD + XL = 400 + 40 = 440.\nCDLX = CD + LX = 400 + 60 = 460.\nअब 440 और 460 की तुलना करते हैं।\nक्योंकि 440, 460 से छोटा है, इसलिए हम < चिन्ह लगाएंगे।\nFinal answer: CDXL < CDLX"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2454,8 +3130,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Compare the Roman numerals step by step:",
+              "hindi": "रोमन अंकों को एक-एक करके समझते हैं:"
+            },
+            {
+              "english": "CXLIX = C + XL + IX\n= 100 + 40 + 9\n= 149",
+              "hindi": "CXLIX = C + XL + IX\n= 100 + 40 + 9\n= 149"
+            },
+            {
+              "english": "CLXXXIX = C + L + XXX + IX\n= 100 + 50 + 30 + 9\n= 189",
+              "hindi": "CLXXXIX = C + L + XXX + IX\n= 100 + 50 + 30 + 9\n= 189"
+            },
+            {
+              "english": "Now compare the numbers:\n149 < 189",
+              "hindi": "अब संख्याओं की तुलना करें:\n149 < 189"
+            },
+            {
+              "english": "So, CXLIX < CLXXXIX",
+              "hindi": "इसलिए, CXLIX < CLXXXIX"
+            },
+            {
+              "english": "Final answer: <",
+              "hindi": "Final answer: <"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2518,8 +3222,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Change the Roman numerals into numbers.\nCCXXVI = 100 + 100 + 10 + 10 + 5 + 1 = 226\nCCXXIX = 100 + 100 + 10 + 10 + 9 = 229",
+              "hindi": "चरण 1: रोमन अंकों को सामान्य संख्याओं में बदलें।\nCCXXVI = 100 + 100 + 10 + 10 + 5 + 1 = 226\nCCXXIX = 100 + 100 + 10 + 10 + 9 = 229"
+            },
+            {
+              "english": "Step 2: Compare the numbers.\n226 is smaller than 229.",
+              "hindi": "चरण 2: अब संख्याओं की तुलना करें।\n226, 229 से छोटा है।"
+            },
+            {
+              "english": "So, CCXXVI < CCXXIX.\nFinal answer: CCXXVI < CCXXIX",
+              "hindi": "इसलिए, CCXXVI < CCXXIX।\nअंतिम उत्तर: CCXXVI < CCXXIX"
+            }
+          ]
         }
       ],
       "tags": [

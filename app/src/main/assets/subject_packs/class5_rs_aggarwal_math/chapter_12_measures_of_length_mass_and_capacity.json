@@ -951,8 +951,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "UNIT_CONVERSION",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We add the liters and milliliters separately.",
+              "hindi": "हम लीटर और मिलीलीटर को अलग-अलग जोड़ते हैं।"
+            },
+            {
+              "english": "Step 1: Add milliliters.\n565 mL + 785 mL = 1350 mL",
+              "hindi": "चरण 1: मिलीलीटर जोड़िए।\n565 मि.ली + 785 मि.ली = 1350 मि.ली"
+            },
+            {
+              "english": "Step 2: Convert 1350 mL.\nSince 1000 mL = 1 L, 1350 mL = 1 L 350 mL",
+              "hindi": "चरण 2: 1350 मि.ली को बदलिए।\nक्योंकि 1000 मि.ली = 1 ली, इसलिए 1350 मि.ली = 1 ली 350 मि.ली"
+            },
+            {
+              "english": "Step 3: Add liters.\n54 L + 79 L = 133 L",
+              "hindi": "चरण 3: लीटर जोड़िए।\n54 ली + 79 ली = 133 ली"
+            },
+            {
+              "english": "Step 4: Add the extra 1 L.\n133 L + 1 L = 134 L",
+              "hindi": "चरण 4: अतिरिक्त 1 ली जोड़िए।\n133 ली + 1 ली = 134 ली"
+            },
+            {
+              "english": "So, the total is 134 L 350 mL.",
+              "hindi": "इसलिए कुल उत्तर है 134 ली 350 मि.ली।"
+            },
+            {
+              "english": "Final answer: 134 L 350 mL",
+              "hindi": "अंतिम उत्तर: 134 ली 350 मि.ली"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1012,8 +1044,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert kilometers to meters, use the rule: 1 km = 1000 m.",
+              "hindi": "किलोमीटर को मीटर में बदलने के लिए नियम है: 1 km = 1000 m।"
+            },
+            {
+              "english": "So, 8 km = 8 × 1000 m = 8000 m.",
+              "hindi": "अब 8 km = 8 × 1000 m = 8000 m।"
+            },
+            {
+              "english": "Final answer: 8000 m",
+              "hindi": "अंतिम उत्तर: 8000 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1077,8 +1125,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert kilometres to metres, use:\n1 km = 1000 m",
+              "hindi": "किलोमीटर को मीटर में बदलने के लिए:\n1 km = 1000 m"
+            },
+            {
+              "english": "Now convert 9.4 km into metres:\n9.4 × 1000 = 9400",
+              "hindi": "अब 9.4 km को मीटर में बदलते हैं:\n9.4 × 1000 = 9400"
+            },
+            {
+              "english": "So, 9.4 km = 9400 m.",
+              "hindi": "इसलिए, 9.4 km = 9400 m."
+            },
+            {
+              "english": "Final answer: 9400 m",
+              "hindi": "अंतिम उत्तर: 9400 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1142,8 +1210,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert kilometers to meters, remember:\n1 km = 1000 m",
+              "hindi": "किलोमीटर को मीटर में बदलने के लिए याद रखें:\n1 km = 1000 m"
+            },
+            {
+              "english": "So, for 3.75 km:\n3.75 × 1000 = 3750",
+              "hindi": "अब 3.75 km के लिए:\n3.75 × 1000 = 3750"
+            },
+            {
+              "english": "Therefore, 3.75 km = 3750 m.\nFinal answer: 3750 m",
+              "hindi": "इसलिए, 3.75 km = 3750 m.\nअंतिम उत्तर: 3750 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1207,8 +1291,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 12.53.1(d): Convert 16 km 24 m into m.",
+              "hindi": "प्रश्न 12.53.1(d): 16 km 24 m को m में बदलिए।"
+            },
+            {
+              "english": "Step 1: We know that 1 km = 1000 m.\nStep 2: Convert 16 km into meters:\n16 × 1000 = 16000 m\nStep 3: Add the extra 24 m:\n16000 m + 24 m = 16024 m",
+              "hindi": "चरण 1: हम जानते हैं कि 1 km = 1000 m होता है।\nचरण 2: 16 km को मीटर में बदलते हैं:\n16 × 1000 = 16000 m\nचरण 3: अब बचे हुए 24 m को जोड़ते हैं:\n16000 m + 24 m = 16024 m"
+            },
+            {
+              "english": "So, 16 km 24 m = 16024 m.",
+              "hindi": "इसलिए, 16 km 24 m = 16024 m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1272,8 +1372,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 7 km 5 hm 6 dam 4 m into metres, convert each unit into m.",
+              "hindi": "7 km 5 hm 6 dam 4 m को मीटर में बदलने के लिए हर इकाई को मीटर में बदलते हैं।"
+            },
+            {
+              "english": "1 km = 1000 m\nSo, 7 km = 7 × 1000 = 7000 m",
+              "hindi": "1 km = 1000 m\nइसलिए, 7 km = 7 × 1000 = 7000 m"
+            },
+            {
+              "english": "1 hm = 100 m\nSo, 5 hm = 5 × 100 = 500 m",
+              "hindi": "1 hm = 100 m\nइसलिए, 5 hm = 5 × 100 = 500 m"
+            },
+            {
+              "english": "1 dam = 10 m\nSo, 6 dam = 6 × 10 = 60 m",
+              "hindi": "1 dam = 10 m\nइसलिए, 6 dam = 6 × 10 = 60 m"
+            },
+            {
+              "english": "Now add them all:\n7000 + 500 + 60 + 4 = 7564",
+              "hindi": "अब सबको जोड़ते हैं:\n7000 + 500 + 60 + 4 = 7564"
+            },
+            {
+              "english": "So, 7 km 5 hm 6 dam 4 m = 7564 m.",
+              "hindi": "इसलिए, 7 km 5 hm 6 dam 4 m = 7564 m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1337,8 +1465,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 3 km 8 hm 4 dam into metres, we use the metric units:\n- 1 km = 1000 m\n- 1 hm = 100 m\n- 1 dam = 10 m",
+              "hindi": "3 km 8 hm 4 dam को मीटर में बदलने के लिए हम metric units का use करते हैं:\n- 1 km = 1000 m\n- 1 hm = 100 m\n- 1 dam = 10 m"
+            },
+            {
+              "english": "Now convert each part:\n- 3 km = 3 × 1000 = 3000 m\n- 8 hm = 8 × 100 = 800 m\n- 4 dam = 4 × 10 = 40 m",
+              "hindi": "अब हर part को meter में बदलते हैं:\n- 3 km = 3 × 1000 = 3000 m\n- 8 hm = 8 × 100 = 800 m\n- 4 dam = 4 × 10 = 40 m"
+            },
+            {
+              "english": "Add them together:\n3000 + 800 + 40 = 3840 m",
+              "hindi": "अब सबको जोड़ते हैं:\n3000 + 800 + 40 = 3840 m"
+            },
+            {
+              "english": "Final answer: 3840 m",
+              "hindi": "Final answer: 3840 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1402,8 +1550,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 6 km 6 hm into meters, we use these facts:\n- 1 km = 1000 m\n- 1 hm = 100 m",
+              "hindi": "6 km 6 hm को मीटर में बदलने के लिए हम ये जानते हैं:\n- 1 km = 1000 m\n- 1 hm = 100 m"
+            },
+            {
+              "english": "Step 1: Convert 6 km to meters.\n6 km = 6 × 1000 = 6000 m",
+              "hindi": "Step 1: 6 km को मीटर में बदलें।\n6 km = 6 × 1000 = 6000 m"
+            },
+            {
+              "english": "Step 2: Convert 6 hm to meters.\n6 hm = 6 × 100 = 600 m",
+              "hindi": "Step 2: 6 hm को मीटर में बदलें।\n6 hm = 6 × 100 = 600 m"
+            },
+            {
+              "english": "Step 3: Add both parts.\n6000 m + 600 m = 6600 m",
+              "hindi": "Step 3: दोनों को जोड़ें।\n6000 m + 600 m = 6600 m"
+            },
+            {
+              "english": "Final answer: 6600 m",
+              "hindi": "अंतिम उत्तर: 6600 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1467,8 +1639,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 4 hm 5 dam 6 m into meters, first remember the unit values:\n1 hm = 100 m\n1 dam = 10 m\n1 m = 1 m",
+              "hindi": "4 hm 5 dam 6 m को मीटर में बदलने के लिए पहले इकाइयों का मान याद रखें:\n1 hm = 100 मीटर\n1 dam = 10 मीटर\n1 m = 1 मीटर"
+            },
+            {
+              "english": "Now convert each part:\n4 hm = 4 × 100 = 400 m\n5 dam = 5 × 10 = 50 m\n6 m = 6 m",
+              "hindi": "अब हर भाग को मीटर में बदलते हैं:\n4 hm = 4 × 100 = 400 मीटर\n5 dam = 5 × 10 = 50 मीटर\n6 m = 6 मीटर"
+            },
+            {
+              "english": "Now add them:\n400 + 50 + 6 = 456 m",
+              "hindi": "अब इन्हें जोड़ते हैं:\n400 + 50 + 6 = 456 मीटर"
+            },
+            {
+              "english": "Final answer: 456 m",
+              "hindi": "अंतिम उत्तर: 456 मीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1532,8 +1724,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert meters to centimeters, remember: 1 m = 100 cm.\nSo, 9 m = 9 × 100 cm = 900 cm.\nFinal answer: 900 cm.",
+              "hindi": "मीटर को सेंटीमीटर में बदलने के लिए याद रखें: 1 m = 100 cm.\nइसलिए, 9 m = 9 × 100 cm = 900 cm.\nअंतिम उत्तर: 900 cm."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1597,8 +1797,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert metres (m) into centimetres (cm), remember:\n1 m = 100 cm",
+              "hindi": "मीटर (m) को सेंटीमीटर (cm) में बदलने के लिए याद रखें:\n1 m = 100 cm"
+            },
+            {
+              "english": "So, for 7.6 m:\n7.6 × 100 = 760",
+              "hindi": "अब 7.6 m के लिए:\n7.6 × 100 = 760"
+            },
+            {
+              "english": "Therefore, 7.6 m = 760 cm.\nFinal answer: 760 cm",
+              "hindi": "इसलिए, 7.6 m = 760 cm.\nअंतिम उत्तर: 760 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1662,8 +1878,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert meters to centimeters, use the fact that 1 m = 100 cm.",
+              "hindi": "मीटर को सेंटीमीटर में बदलने के लिए हम जानते हैं कि 1 m = 100 cm होता है।"
+            },
+            {
+              "english": "So, 2.36 m = 2.36 × 100 cm.",
+              "hindi": "इसलिए, 2.36 m = 2.36 × 100 cm।"
+            },
+            {
+              "english": "Now multiply:\n2.36 × 100 = 236",
+              "hindi": "अब गुणा करें:\n2.36 × 100 = 236"
+            },
+            {
+              "english": "Therefore, 2.36 m = 236 cm.",
+              "hindi": "इसलिए, 2.36 m = 236 cm।"
+            },
+            {
+              "english": "Final answer: 236 cm",
+              "hindi": "अंतिम उत्तर: 236 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1727,8 +1967,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 8 dam into cm, use the metric steps:\n1 dam = 10 m\n1 m = 100 cm\nSo, 1 dam = 10 × 100 = 1000 cm",
+              "hindi": "8 dam को cm में बदलने के लिए हम metric conversion का उपयोग करते हैं:\n1 dam = 10 m\n1 m = 100 cm\nइसलिए, 1 dam = 10 × 100 = 1000 cm"
+            },
+            {
+              "english": "Now multiply by 8:\n8 dam = 8 × 1000 = 8000 cm",
+              "hindi": "अब 8 से गुणा करें:\n8 dam = 8 × 1000 = 8000 cm"
+            },
+            {
+              "english": "Final answer: 8000 cm",
+              "hindi": "अंतिम उत्तर: 8000 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1792,8 +2048,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 6 km into hm:\n1 km = 10 hm\nSo, 6 km = 6 × 10 hm\n= 60 hm\nFinal answer: 60 hm",
+              "hindi": "6 km को hm में बदलने के लिए:\n1 km = 10 hm\nइसलिए, 6 km = 6 × 10 hm\n= 60 hm\nअंतिम उत्तर: 60 hm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1857,8 +2121,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert km to dam, use the basic relation:\n1 km = 100 dam\nThis is because 1 km = 1000 m and 1 dam = 10 m, so 1000 ÷ 10 = 100 dam.\nNow multiply 5.3 by 100:\n5.3 km = 5.3 × 100 dam = 530 dam\nFinal answer: 530 dam",
+              "hindi": "किलोमीटर को डैम में बदलने के लिए यह संबंध उपयोग करते हैं:\n1 km = 100 dam\nक्योंकि 1 km = 1000 m और 1 dam = 10 m, इसलिए 1000 ÷ 10 = 100 dam.\nअब 5.3 को 100 से गुणा करें:\n5.3 km = 5.3 × 100 dam = 530 dam\nअंतिम उत्तर: 530 dam"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1922,8 +2194,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert kilometres (km) into decametres (dam), use the fact that:\n1 km = 100 dam",
+              "hindi": "किलोमीटर (km) को डेकामीटर (dam) में बदलने के लिए याद रखें:\n1 km = 100 dam"
+            },
+            {
+              "english": "Now convert 4.63 km:\n4.63 × 100 = 463",
+              "hindi": "अब 4.63 km को बदलते हैं:\n4.63 × 100 = 463"
+            },
+            {
+              "english": "So, 4.63 km = 463 dam.",
+              "hindi": "इसलिए, 4.63 km = 463 dam."
+            },
+            {
+              "english": "Final answer: 463 dam",
+              "hindi": "अंतिम उत्तर: 463 dam"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1987,8 +2279,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know that 1 dam = 10 m and 1 m = 10 dm.\nSo, 1 dam = 10 × 10 = 100 dm.\nNow multiply:\n2.5 dam = 2.5 × 100 = 250 dm.\nFinal answer: 250 dm",
+              "hindi": "हमें पता है कि 1 dam = 10 m और 1 m = 10 dm.\nइसलिए, 1 dam = 10 × 10 = 100 dm.\nअब गुणा करें:\n2.5 dam = 2.5 × 100 = 250 dm.\nअंतिम उत्तर: 250 dm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2052,8 +2352,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert centimetres (cm) into millimetres (mm), use the rule:\n1 cm = 10 mm",
+              "hindi": "सेंटीमीटर (cm) को मिलीमीटर (mm) में बदलने का नियम है:\n1 cm = 10 mm"
+            },
+            {
+              "english": "So, 23.4 cm = 23.4 × 10 mm\n= 234 mm",
+              "hindi": "अब 23.4 cm को mm में बदलते हैं:\n23.4 × 10 = 234 mm"
+            },
+            {
+              "english": "Final answer: 234 mm",
+              "hindi": "अंतिम उत्तर: 234 mm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2117,8 +2433,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert metres (m) into millimetres (mm), use this rule:",
+              "hindi": "मीटर (m) को मिलीमीटर (mm) में बदलने के लिए यह नियम इस्तेमाल करते हैं:"
+            },
+            {
+              "english": "1 m = 1000 mm",
+              "hindi": "1 m = 1000 mm"
+            },
+            {
+              "english": "Now multiply:\n4.1 m = 4.1 × 1000 mm\n= 4100 mm",
+              "hindi": "अब गुणा करें:\n4.1 m = 4.1 × 1000 mm\n= 4100 mm"
+            },
+            {
+              "english": "So, 4.1 m is 4100 mm.",
+              "hindi": "इसलिए, 4.1 m = 4100 mm."
+            },
+            {
+              "english": "Final answer: 4100 mm",
+              "hindi": "अंतिम उत्तर: 4100 mm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2182,8 +2522,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert meters into millimeters, use this rule:\n1 m = 1000 mm",
+              "hindi": "मीटर को मिलीमीटर में बदलने का नियम है:\n1 m = 1000 mm"
+            },
+            {
+              "english": "So, to convert 5.63 m into mm, multiply by 1000:\n5.63 × 1000 = 5630",
+              "hindi": "अब 5.63 m को mm में बदलने के लिए 1000 से गुणा करेंगे:\n5.63 × 1000 = 5630"
+            },
+            {
+              "english": "So, 5.63 m = 5630 mm.",
+              "hindi": "इसलिए, 5.63 m = 5630 mm."
+            },
+            {
+              "english": "Final answer: 5630 mm",
+              "hindi": "अंतिम उत्तर: 5630 mm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2247,8 +2607,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 meter = 1000 millimeters. To convert meters to millimeters, multiply by 1000. So, 3.428 m × 1000 = 3428 mm. Final answer: 3428 mm.",
+              "hindi": "1 मीटर = 1000 मिलीमीटर। मीटर को मिलीमीटर में बदलने के लिए 1000 से गुणा करते हैं। इसलिए, 3.428 m × 1000 = 3428 mm। अंतिम उत्तर: 3428 mm।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2312,8 +2680,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 km = 1000 m.\nSo, 3 km = 3 × 1000 = 3000 m.\nNow add the extra 42 m: 3000 + 42 = 3042 m.\nFinal answer: 3042 m",
+              "hindi": "1 km = 1000 m.\nइसलिए, 3 km = 3 × 1000 = 3000 m.\nअब 42 m और जोड़ें: 3000 + 42 = 3042 m.\nअंतिम उत्तर: 3042 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2377,8 +2753,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 8 m 6 cm into cm, we use:\n1 m = 100 cm",
+              "hindi": "8 m 6 cm को cm में बदलने के लिए हम यह नियम use करते हैं:\n1 m = 100 cm"
+            },
+            {
+              "english": "Step 1: Convert 8 m into cm.\n8 m = 8 × 100 = 800 cm",
+              "hindi": "Step 1: 8 m को cm में बदलें।\n8 m = 8 × 100 = 800 cm"
+            },
+            {
+              "english": "Step 2: Add the remaining 6 cm.\n800 cm + 6 cm = 806 cm",
+              "hindi": "Step 2: बचे हुए 6 cm को जोड़ें।\n800 cm + 6 cm = 806 cm"
+            },
+            {
+              "english": "Final answer: 806 cm",
+              "hindi": "अंतिम उत्तर: 806 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2442,8 +2838,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 6 cm 6 mm into millimetres, use the fact that 1 cm = 10 mm.\nSo, 6 cm = 6 × 10 = 60 mm.\nNow add the extra 6 mm:\n60 mm + 6 mm = 66 mm.\nFinal answer: 66 mm",
+              "hindi": "6 cm 6 mm को मिमी में बदलने के लिए, याद रखें कि 1 सेमी = 10 मिमी होता है।\nइसलिए, 6 सेमी = 6 × 10 = 60 मिमी।\nअब इसमें 6 मिमी और जोड़ें:\n60 मिमी + 6 मिमी = 66 मिमी।\nअंतिम उत्तर: 66 मिमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2507,8 +2911,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 4 m 4 cm into millimetres, convert each part separately.\n1 m = 1000 mm, so 4 m = 4 × 1000 = 4000 mm.\n1 cm = 10 mm, so 4 cm = 4 × 10 = 40 mm.\nNow add them: 4000 mm + 40 mm = 4040 mm.\nFinal answer: 4040 mm",
+              "hindi": "4 m 4 cm को मिलीमीटर में बदलने के लिए, दोनों भागों को अलग-अलग बदलते हैं।\n1 मी = 1000 मिमी, इसलिए 4 मी = 4 × 1000 = 4000 मिमी।\n1 सेमी = 10 मिमी, इसलिए 4 सेमी = 4 × 10 = 40 मिमी।\nअब दोनों को जोड़ते हैं: 4000 मिमी + 40 मिमी = 4040 मिमी।\nअंतिम उत्तर: 4040 मिमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2572,8 +2984,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 5.03 km into km and m, we separate the whole number part and the decimal part.",
+              "hindi": "5.03 km को km और m में बदलने के लिए हम पूरे भाग और दशमलव भाग को अलग करते हैं।"
+            },
+            {
+              "english": "Step 1: The whole number part is 5, so that is 5 km.\nStep 2: The decimal part is 0.03 km.\nStep 3: Since 1 km = 1000 m, convert 0.03 km to metres:\n0.03 × 1000 = 30 m\nStep 4: So, 5.03 km = 5 km 30 m.",
+              "hindi": "चरण 1: पूरा भाग 5 है, इसलिए यह 5 km होगा।\nचरण 2: दशमलव भाग 0.03 km है।\nचरण 3: क्योंकि 1 km = 1000 m होता है, इसलिए 0.03 km को metres में बदलते हैं:\n0.03 × 1000 = 30 m\nचरण 4: इसलिए, 5.03 km = 5 km 30 m."
+            },
+            {
+              "english": "Final answer: 5 km 30 m",
+              "hindi": "अंतिम उत्तर: 5 km 30 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2637,8 +3065,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "6.4 hm means 6 whole hectometres and 0.4 hectometre.\nWe know that 1 hm = 10 dam.\nSo, 0.1 hm = 1 dam.\nTherefore, 0.4 hm = 4 dam.\nSo, 6.4 hm = 6 hm and 4 dam.\nFinal answer: 6 hm 4 dam",
+              "hindi": "6.4 hm का मतलब है 6 पूरे हेक्टोमीटर और 0.4 हेक्टोमीटर।\nहमें पता है कि 1 hm = 10 dam होता है।\nइसलिए 0.1 hm = 1 dam होता है।\nतो 0.4 hm = 4 dam होगा।\nइसलिए 6.4 hm = 6 hm और 4 dam।\nअंतिम उत्तर: 6 hm 4 dam"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2702,8 +3138,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 16.4 m into metres and centimetres:\n1. Split 16.4 m into 16 m and 0.4 m.\n2. We know that 1 m = 100 cm.\n3. So, 0.4 m = 0.4 × 100 = 40 cm.\n4. Therefore, 16.4 m = 16 m 40 cm.\nFinal answer: 16 m 40 cm",
+              "hindi": "16.4 m को मीटर और सेंटीमीटर में बदलने के लिए:\n1. 16.4 m को 16 m और 0.4 m में बाँटिए।\n2. हम जानते हैं कि 1 m = 100 cm होता है।\n3. इसलिए 0.4 m = 0.4 × 100 = 40 cm।\n4. इस तरह 16.4 m = 16 m 40 cm।\nअंतिम उत्तर: 16 m 40 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2767,8 +3211,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: We know that 1 dam = 10 m.\nStep 2: So, 8.05 dam = 8.05 × 10 m = 80.5 m.\nStep 3: Now split 80.5 m into metres and decimetres.\nStep 4: 80.5 m = 80 m + 0.5 m.\nStep 5: Since 1 m = 10 dm, 0.5 m = 5 dm.\nSo, 8.05 dam = 80 m 5 dm.\nFinal Answer: 80 m 5 dm",
+              "hindi": "चरण 1: हमें पता है कि 1 dam = 10 m होता है।\nचरण 2: इसलिए 8.05 dam = 8.05 × 10 m = 80.5 m.\nचरण 3: अब 80.5 m को मीटर और डेसीमीटर में लिखते हैं।\nचरण 4: 80.5 m = 80 m + 0.5 m.\nचरण 5: क्योंकि 1 m = 10 dm होता है, इसलिए 0.5 m = 5 dm.\nइसलिए 8.05 dam = 80 m 5 dm.\nअंतिम उत्तर: 80 m 5 dm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2832,8 +3284,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 km = 1000 m.\nSo, 12 km = 12 × 1000 = 12000 m.\nNow add the extra 34 m: 12000 m + 34 m = 12034 m.\nFinal answer: 12034 m.",
+              "hindi": "1 km = 1000 m होता है।\nइसलिए 12 km = 12 × 1000 = 12000 m.\nअब 34 m और जोड़ते हैं: 12000 m + 34 m = 12034 m.\nअंतिम उत्तर: 12034 m।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2897,8 +3357,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 50 km 9 m into metres, we use the fact that 1 km = 1000 m.",
+              "hindi": "50 km 9 m को मीटर में बदलने के लिए हम यह जानते हैं कि 1 km = 1000 m होता है।"
+            },
+            {
+              "english": "Step 1: Convert 50 km into metres.\n50 km = 50 × 1000 = 50000 m",
+              "hindi": "Step 1: 50 km को मीटर में बदलें।\n50 km = 50 × 1000 = 50000 m"
+            },
+            {
+              "english": "Step 2: Add the remaining 9 m.\n50000 m + 9 m = 50009 m",
+              "hindi": "Step 2: बचे हुए 9 m को जोड़ें।\n50000 m + 9 m = 50009 m"
+            },
+            {
+              "english": "So, 50 km 9 m = 50009 m.\nFinal answer: 50009 m",
+              "hindi": "इसलिए, 50 km 9 m = 50009 m।\nअंतिम उत्तर: 50009 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2962,8 +3442,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: We know that 1 cm = 10 mm.\nStep 2: Convert 62 cm into mm: 62 × 10 = 620 mm.\nStep 3: Add the extra 5 mm: 620 mm + 5 mm = 625 mm.\nFinal answer: 625 mm.",
+              "hindi": "चरण 1: हम जानते हैं कि 1 सेमी = 10 मिमी होता है।\nचरण 2: 62 सेमी को मिमी में बदलें: 62 × 10 = 620 मिमी।\nचरण 3: बचे हुए 5 मिमी को जोड़ें: 620 मिमी + 5 मिमी = 625 मिमी।\nअंतिम उत्तर: 625 मिमी."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3027,8 +3515,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 7 m 8 cm into centimeters:\n1 m = 100 cm.\nSo, 7 m = 7 × 100 = 700 cm.\nNow add the extra 8 cm: 700 cm + 8 cm = 708 cm.\nFinal answer: 708 cm",
+              "hindi": "7 m 8 cm को सेंटीमीटर में बदलने के लिए:\n1 m = 100 cm होता है।\nइसलिए 7 m = 7 × 100 = 700 cm।\nअब 8 cm और जोड़ें: 700 cm + 8 cm = 708 cm।\nअंतिम उत्तर: 708 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3092,8 +3588,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert millimetres (mm) into centimetres (cm), remember:\n10 mm = 1 cm\nSo we divide by 10.",
+              "hindi": "मिलीमीटर (mm) को सेंटीमीटर (cm) में बदलने के लिए याद रखें:\n10 mm = 1 cm\nइसलिए हमें 10 से भाग देना होता है।"
+            },
+            {
+              "english": "8 mm = 8 ÷ 10 = 0.8 cm",
+              "hindi": "8 mm = 8 ÷ 10 = 0.8 cm"
+            },
+            {
+              "english": "Final answer: 0.8 cm",
+              "hindi": "अंतिम उत्तर: 0.8 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3157,8 +3669,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert centimeters to meters, remember:\n100 cm = 1 m\nSo we divide by 100.\n65 cm = 65 ÷ 100 = 0.65 m\nFinal Answer: 0.65 m",
+              "hindi": "सेंटीमीटर को मीटर में बदलने के लिए याद रखें:\n100 सेमी = 1 मीटर\nइसलिए 100 से भाग देते हैं।\n65 सेमी = 65 ÷ 100 = 0.65 मीटर\nअंतिम उत्तर: 0.65 मीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3222,8 +3742,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert centimetres (cm) into metres (m), we use:\n1 m = 100 cm",
+              "hindi": "सेंटीमीटर (cm) को मीटर (m) में बदलने के लिए हम जानते हैं:\n1 m = 100 cm"
+            },
+            {
+              "english": "So, to convert 160 cm into m, divide by 100:\n160 ÷ 100 = 1.6",
+              "hindi": "अब 160 cm को m में बदलने के लिए 100 से भाग देंगे:\n160 ÷ 100 = 1.6"
+            },
+            {
+              "english": "Therefore, 160 cm = 1.6 m.\nFinal Answer: 1.6 m",
+              "hindi": "इसलिए, 160 cm = 1.6 m.\nअंतिम उत्तर: 1.6 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3287,8 +3823,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 8 cm into m, use the fact that 1 m = 100 cm.\nSo, divide by 100:\n8 cm = 8 ÷ 100 m = 0.08 m.\nFinal answer: 0.08 m.",
+              "hindi": "8 सेमी को मीटर में बदलने के लिए याद रखें कि 1 मी = 100 सेमी होता है।\nइसलिए 100 से भाग देंगे:\n8 सेमी = 8 ÷ 100 मी = 0.08 मी।\nअंतिम उत्तर: 0.08 m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3352,8 +3896,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert metres (m) into kilometres (km), remember that 1 km = 1000 m.\nSo, to change 864 m into km, divide by 1000.",
+              "hindi": "मीटर (m) को किलोमीटर (km) में बदलने के लिए याद रखें कि 1 km = 1000 m होता है।\nइसलिए 864 m को km में बदलने के लिए 1000 से भाग देंगे।"
+            },
+            {
+              "english": "864 ÷ 1000 = 0.864",
+              "hindi": "864 ÷ 1000 = 0.864"
+            },
+            {
+              "english": "Therefore, 864 m = 0.864 km.\nFinal answer: 0.864 km",
+              "hindi": "इसलिए 864 m = 0.864 km।\nअंतिम उत्तर: 0.864 km"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3417,8 +3977,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert metres to kilometres, divide by 1000.",
+              "hindi": "मीटर को किलोमीटर में बदलने के लिए 1000 से भाग देते हैं।"
+            },
+            {
+              "english": "1 km = 1000 m\nSo, 2375 m ÷ 1000 = 2.375 km",
+              "hindi": "1 km = 1000 m\nइसलिए, 2375 m ÷ 1000 = 2.375 km"
+            },
+            {
+              "english": "Final answer: 2.375 km",
+              "hindi": "अंतिम उत्तर: 2.375 km"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3482,8 +4058,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert metres (m) into kilometres (km), we use:\n1 km = 1000 m",
+              "hindi": "मीटर (m) को किलोमीटर (km) में बदलने के लिए हम जानते हैं:\n1 km = 1000 m"
+            },
+            {
+              "english": "So, to change 58 m into km, divide by 1000:\n58 ÷ 1000 = 0.058",
+              "hindi": "अब 58 m को km में बदलने के लिए 1000 से भाग देंगे:\n58 ÷ 1000 = 0.058"
+            },
+            {
+              "english": "Therefore, 58 m = 0.058 km.\nFinal answer: 0.058 km",
+              "hindi": "इसलिए, 58 m = 0.058 km.\nअंतिम उत्तर: 0.058 km"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3547,8 +4139,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert metres (m) into kilometres (km), remember:\n1 km = 1000 m",
+              "hindi": "मीटर (m) को किलोमीटर (km) में बदलने के लिए याद रखें:\n1 km = 1000 m"
+            },
+            {
+              "english": "So we divide by 1000:\n9 m = 9 ÷ 1000 km\n9 m = 0.009 km",
+              "hindi": "इसलिए हमें 1000 से भाग देना होता है:\n9 m = 9 ÷ 1000 km\n9 m = 0.009 km"
+            },
+            {
+              "english": "Final answer: 0.009 km.",
+              "hindi": "अंतिम उत्तर: 0.009 किमी।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3612,8 +4220,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 5 cm 6 mm into cm, we use the fact that 10 mm = 1 cm.",
+              "hindi": "5 cm 6 mm को cm में बदलने के लिए हमें यह याद रखना है कि 10 mm = 1 cm होता है।"
+            },
+            {
+              "english": "So, 6 mm = 6/10 cm = 0.6 cm.",
+              "hindi": "इसलिए, 6 mm = 6/10 cm = 0.6 cm होगा।"
+            },
+            {
+              "english": "Now add this to 5 cm:\n5 cm + 0.6 cm = 5.6 cm.",
+              "hindi": "अब इसे 5 cm में जोड़ते हैं:\n5 cm + 0.6 cm = 5.6 cm."
+            },
+            {
+              "english": "Final answer: 5.6 cm",
+              "hindi": "अंतिम उत्तर: 5.6 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3677,8 +4305,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 26 cm 8 mm into centimetres, we first change the millimetres into centimetres.",
+              "hindi": "26 cm 8 mm को centimetres में बदलने के लिए, पहले millimetres को centimetres में बदलते हैं।"
+            },
+            {
+              "english": "We know that:\n10 mm = 1 cm\nSo, 8 mm = 8 ÷ 10 = 0.8 cm",
+              "hindi": "हम जानते हैं कि:\n10 mm = 1 cm\nइसलिए, 8 mm = 8 ÷ 10 = 0.8 cm"
+            },
+            {
+              "english": "Now add this to 26 cm:\n26 cm + 0.8 cm = 26.8 cm",
+              "hindi": "अब इसे 26 cm में जोड़ते हैं:\n26 cm + 0.8 cm = 26.8 cm"
+            },
+            {
+              "english": "Final answer: 26.8 cm",
+              "hindi": "अंतिम उत्तर: 26.8 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3742,8 +4390,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 6 m 65 cm into metres:",
+              "hindi": "6 m 65 cm को मीटर में बदलने के लिए:"
+            },
+            {
+              "english": "1. We know that 1 m = 100 cm.\n2. So, 65 cm = 65 ÷ 100 = 0.65 m.\n3. Now add it to 6 m: 6 + 0.65 = 6.65 m.",
+              "hindi": "1. हम जानते हैं कि 1 m = 100 cm होता है।\n2. इसलिए 65 cm = 65 ÷ 100 = 0.65 m होगा।\n3. अब इसे 6 m में जोड़ें: 6 + 0.65 = 6.65 m।"
+            },
+            {
+              "english": "Final answer: 6.65 m",
+              "hindi": "अंतिम उत्तर: 6.65 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3807,8 +4471,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 35 m 28 cm into metres:\n1. We know that 100 cm = 1 m.\n2. So, 28 cm = 28/100 m = 0.28 m.\n3. Now add it to 35 m: 35 + 0.28 = 35.28 m.\nFinal answer: 35.28 m.",
+              "hindi": "35 m 28 cm को मीटर में बदलने के लिए:\n1. हमें पता है कि 100 cm = 1 m.\n2. इसलिए 28 cm = 28/100 m = 0.28 m.\n3. अब इसे 35 m में जोड़ते हैं: 35 + 0.28 = 35.28 m.\nअंतिम उत्तर: 35.28 m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3872,8 +4544,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know that 1 m = 100 cm.\nSo, 5 cm = 5/100 m = 0.05 m.\nNow add it to 8 m:\n8 m + 0.05 m = 8.05 m.\nFinal answer: 8.05 m",
+              "hindi": "हम जानते हैं कि 1 मी = 100 सेमी।\nइसलिए 5 सेमी = 5/100 मी = 0.05 मी।\nअब इसे 8 मी में जोड़ते हैं:\n8 मी + 0.05 मी = 8.05 मी।\nअंतिम उत्तर: 8.05 मी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3937,8 +4617,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to convert 60 m 6 cm into metres.",
+              "hindi": "हमें 60 m 6 cm को मीटर में बदलना है।"
+            },
+            {
+              "english": "Step 1: Know the unit relation.\n1 m = 100 cm\nSo, 1 cm = 1/100 m = 0.01 m",
+              "hindi": "Step 1: इकाइयों का संबंध याद करें।\n1 m = 100 cm\nइसलिए 1 cm = 1/100 m = 0.01 m"
+            },
+            {
+              "english": "Step 2: Convert 6 cm into metres.\n6 cm = 6 × 0.01 m = 0.06 m",
+              "hindi": "Step 2: 6 cm को मीटर में बदलें।\n6 cm = 6 × 0.01 m = 0.06 m"
+            },
+            {
+              "english": "Step 3: Add it to 60 m.\n60 m + 0.06 m = 60.06 m",
+              "hindi": "Step 3: इसे 60 m में जोड़ दें।\n60 m + 0.06 m = 60.06 m"
+            },
+            {
+              "english": "Final answer: 60.06 m",
+              "hindi": "अंतिम उत्तर: 60.06 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4002,8 +4706,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to convert 8 km 275 m into kilometers.",
+              "hindi": "हमें 8 km 275 m को किलोमीटर में बदलना है।"
+            },
+            {
+              "english": "Step 1: Remember the conversion.\n1 km = 1000 m",
+              "hindi": "चरण 1: रूपांतरण याद करें।\n1 km = 1000 m"
+            },
+            {
+              "english": "Step 2: Convert 275 m into km.\n275 m = 275 ÷ 1000 = 0.275 km",
+              "hindi": "चरण 2: 275 m को km में बदलें।\n275 m = 275 ÷ 1000 = 0.275 km"
+            },
+            {
+              "english": "Step 3: Add this to 8 km.\n8 km + 0.275 km = 8.275 km",
+              "hindi": "चरण 3: इसे 8 km में जोड़ें।\n8 km + 0.275 km = 8.275 km"
+            },
+            {
+              "english": "Final answer: 8.275 km",
+              "hindi": "अंतिम उत्तर: 8.275 km"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4067,8 +4795,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to convert 24 km 65 m into kilometers.",
+              "hindi": "हमें 24 km 65 m को किलोमीटर में बदलना है।"
+            },
+            {
+              "english": "Step 1: Know the conversion.\n1 km = 1000 m",
+              "hindi": "Step 1: रूपांतरण याद रखें।\n1 km = 1000 m"
+            },
+            {
+              "english": "Step 2: Convert 65 m into km.\n65 m = 65/1000 km = 0.065 km",
+              "hindi": "Step 2: 65 m को km में बदलें।\n65 m = 65/1000 km = 0.065 km"
+            },
+            {
+              "english": "Step 3: Add it to 24 km.\n24 km + 0.065 km = 24.065 km",
+              "hindi": "Step 3: इसे 24 km में जोड़ें।\n24 km + 0.065 km = 24.065 km"
+            },
+            {
+              "english": "Final answer: 24.065 km",
+              "hindi": "Final answer: 24.065 km"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4132,8 +4884,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 36 km 10 m into km, first convert metres to kilometres.",
+              "hindi": "36 km 10 m को km में बदलने के लिए पहले मीटर को किलोमीटर में बदलते हैं।"
+            },
+            {
+              "english": "1 km = 1000 m\nSo, 10 m = 10 ÷ 1000 = 0.01 km",
+              "hindi": "1 km = 1000 m\nइसलिए 10 m = 10 ÷ 1000 = 0.01 km"
+            },
+            {
+              "english": "Now add it to 36 km:\n36 + 0.01 = 36.01 km",
+              "hindi": "अब इसे 36 km में जोड़ते हैं:\n36 + 0.01 = 36.01 km"
+            },
+            {
+              "english": "Final answer: 36.01 km",
+              "hindi": "अंतिम उत्तर: 36.01 किमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4197,8 +4969,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 6 km 5 m 4 cm into kilometres, we convert the smaller units into km first.",
+              "hindi": "6 km 5 m 4 cm को किलोमीटर में बदलने के लिए, पहले छोटे भागों को km में बदलते हैं।"
+            },
+            {
+              "english": "1 km = 1000 m\nSo, 5 m = 5/1000 km = 0.005 km",
+              "hindi": "1 km = 1000 m\nइसलिए, 5 m = 5/1000 km = 0.005 km"
+            },
+            {
+              "english": "Also, 1 km = 100000 cm\nSo, 4 cm = 4/100000 km = 0.00004 km",
+              "hindi": "और, 1 km = 100000 cm\nइसलिए, 4 cm = 4/100000 km = 0.00004 km"
+            },
+            {
+              "english": "Now add all the parts:\n6 km + 0.005 km + 0.00004 km = 6.00504 km",
+              "hindi": "अब सभी भागों को जोड़ते हैं:\n6 km + 0.005 km + 0.00004 km = 6.00504 km"
+            },
+            {
+              "english": "Final answer: 6.00504 km",
+              "hindi": "अंतिम उत्तर: 6.00504 km"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4262,8 +5058,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "150 cm into hm",
+              "hindi": "150 cm को hm में बदलना है।"
+            },
+            {
+              "english": "Step 1: We know 100 cm = 1 m.\nSo, 150 cm = 150 ÷ 100 = 1.5 m.",
+              "hindi": "Step 1: हम जानते हैं कि 100 cm = 1 m होता है।\nइसलिए, 150 cm = 150 ÷ 100 = 1.5 m."
+            },
+            {
+              "english": "Step 2: We know 100 m = 1 hm.\nSo, 1.5 m = 1.5 ÷ 100 = 0.015 hm.",
+              "hindi": "Step 2: हम जानते हैं कि 100 m = 1 hm होता है।\nइसलिए, 1.5 m = 1.5 ÷ 100 = 0.015 hm."
+            },
+            {
+              "english": "Final answer: 150 cm = 0.015 hm.",
+              "hindi": "अंतिम उत्तर: 150 cm = 0.015 hm."
+            }
+          ]
         }
       ],
       "tags": [
@@ -4327,8 +5143,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 480 mm into m:\n1. We know that 1 m = 1000 mm.\n2. So, to convert millimetres to metres, divide by 1000.\n3. 480 ÷ 1000 = 0.48.\nSo, 480 mm = 0.48 m.\nFinal answer: 0.48 m.",
+              "hindi": "480 mm को m में बदलने के लिए:\n1. हम जानते हैं कि 1 m = 1000 mm.\n2. इसलिए mm को m में बदलने के लिए 1000 से भाग देते हैं।\n3. 480 ÷ 1000 = 0.48.\nइसलिए 480 mm = 0.48 m.\nअंतिम उत्तर: 0.48 m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -4392,8 +5216,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 9 dam 8 cm into metres, we convert each part separately.",
+              "hindi": "9 dam 8 cm को मीटर में बदलने के लिए, हम दोनों भागों को अलग-अलग बदलते हैं।"
+            },
+            {
+              "english": "1. 1 dam = 10 m\nSo, 9 dam = 9 × 10 = 90 m",
+              "hindi": "1. 1 dam = 10 m\nइसलिए, 9 dam = 9 × 10 = 90 m"
+            },
+            {
+              "english": "2. 1 cm = 0.01 m\nSo, 8 cm = 8 × 0.01 = 0.08 m",
+              "hindi": "2. 1 cm = 0.01 m\nइसलिए, 8 cm = 8 × 0.01 = 0.08 m"
+            },
+            {
+              "english": "3. Now add them:\n90 m + 0.08 m = 90.08 m",
+              "hindi": "3. अब दोनों को जोड़ें:\n90 m + 0.08 m = 90.08 m"
+            },
+            {
+              "english": "Final answer: 90.08 m",
+              "hindi": "अंतिम उत्तर: 90.08 मी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4457,8 +5305,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 hm = 100 m.\nSo, 8 hm = 8 × 100 = 800 m.\nAlso, 1 dm = 0.1 m.\nSo, 8 dm = 8 × 0.1 = 0.8 m.\nNow add them: 800 m + 0.8 m = 800.8 m.\nFinal answer: 800.8 m",
+              "hindi": "1 hm = 100 m होता है।\nइसलिए, 8 hm = 8 × 100 = 800 m.\nऔर 1 dm = 0.1 m होता है।\nइसलिए, 8 dm = 8 × 0.1 = 0.8 m.\nअब दोनों को जोड़ें: 800 m + 0.8 m = 800.8 m.\nअंतिम उत्तर: 800.8 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4522,8 +5378,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 4 km 9 cm 5 mm into metres, change each part into metres first.",
+              "hindi": "4 km 9 cm 5 mm को मीटर में बदलने के लिए, पहले हर भाग को मीटर में बदलते हैं।"
+            },
+            {
+              "english": "1 km = 1000 m, so 4 km = 4000 m\n1 cm = 0.01 m, so 9 cm = 0.09 m\n1 mm = 0.001 m, so 5 mm = 0.005 m",
+              "hindi": "1 km = 1000 m, इसलिए 4 km = 4000 m\n1 cm = 0.01 m, इसलिए 9 cm = 0.09 m\n1 mm = 0.001 m, इसलिए 5 mm = 0.005 m"
+            },
+            {
+              "english": "Now add them:\n4000 + 0.09 + 0.005 = 4000.095",
+              "hindi": "अब सभी को जोड़ते हैं:\n4000 + 0.09 + 0.005 = 4000.095"
+            },
+            {
+              "english": "Final answer: 4000.095 m",
+              "hindi": "अंतिम उत्तर: 4000.095 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4587,8 +5463,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First add the meters: 634 m + 76 m + 708 m = 1418 m.\nSince 1000 m = 1 km, 1418 m = 1 km 418 m.\nNow add the kilometers: 26 km + 15 km + 8 km = 49 km.\nAdd the carried 1 km: 49 km + 1 km = 50 km.\nSo, the total is 50 km 418 m.\nFinal answer: 50 km 418 m.",
+              "hindi": "सबसे पहले मीटर जोड़ते हैं: 634 m + 76 m + 708 m = 1418 m.\nक्योंकि 1000 m = 1 km, इसलिए 1418 m = 1 km 418 m.\nअब किलोमीटर जोड़ते हैं: 26 km + 15 km + 8 km = 49 km.\nअब 1 km और जोड़ेंगे: 49 km + 1 km = 50 km.\nइसलिए कुल योग 50 km 418 m है।\nअंतिम उत्तर: 50 km 418 m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -4652,8 +5536,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to add 9 km 75 m, 12 km 165 m, and 768 m.",
+              "hindi": "हमें 9 km 75 m, 12 km 165 m और 768 m को जोड़ना है।"
+            },
+            {
+              "english": "Step 1: Add the meters.\n75 m + 165 m + 768 m = 1008 m",
+              "hindi": "चरण 1: पहले मीटर जोड़ें।\n75 m + 165 m + 768 m = 1008 m"
+            },
+            {
+              "english": "Step 2: Convert 1008 m.\n1000 m = 1 km, so 1008 m = 1 km 8 m",
+              "hindi": "चरण 2: 1008 m को बदलें।\n1000 m = 1 km, इसलिए 1008 m = 1 km 8 m"
+            },
+            {
+              "english": "Step 3: Add the kilometers.\n9 km + 12 km + 1 km = 22 km",
+              "hindi": "चरण 3: किलोमीटर जोड़ें।\n9 km + 12 km + 1 km = 22 km"
+            },
+            {
+              "english": "So, the total is 22 km 8 m.",
+              "hindi": "इसलिए कुल योग 22 km 8 m है."
+            }
+          ]
         }
       ],
       "tags": [
@@ -4717,8 +5625,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, convert everything into metres.\n8 km 8 m = 8008 m\n7 km 7 m = 7007 m\n645 m = 645 m\nNow add them:\n8008 + 7007 + 645 = 15660 m\nNow convert 15660 m into km and m:\n15660 m = 15 km 660 m\nFinal answer: 15 km 660 m",
+              "hindi": "सबसे पहले, सभी को मीटर में बदलते हैं।\n8 km 8 m = 8008 m\n7 km 7 m = 7007 m\n645 m = 645 m\nअब इन्हें जोड़ते हैं:\n8008 + 7007 + 645 = 15660 m\nअब 15660 m को km और m में बदलते हैं:\n15660 m = 15 km 660 m\nअंतिम उत्तर: 15 km 660 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4782,8 +5698,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's add the centimeters first:\n85 cm + 68 cm + 9 cm = 162 cm.\n162 cm = 1 m 62 cm.",
+              "hindi": "पहले सेंटीमीटर जोड़ते हैं:\n85 cm + 68 cm + 9 cm = 162 cm.\n162 cm = 1 m 62 cm."
+            },
+            {
+              "english": "Now add the meters:\n46 m + 37 m + 9 m = 92 m.\nAdd the extra 1 m:\n92 m + 1 m = 93 m.",
+              "hindi": "अब मीटर जोड़ते हैं:\n46 m + 37 m + 9 m = 92 m.\nअतिरिक्त 1 m जोड़ दें:\n92 m + 1 m = 93 m."
+            },
+            {
+              "english": "So, 46 m 85 cm + 37 m 68 cm + 9 m 9 cm = 93 m 62 cm.\nFinal answer: 93 m 62 cm.",
+              "hindi": "इसलिए, 46 m 85 cm + 37 m 68 cm + 9 m 9 cm = 93 m 62 cm.\nअंतिम उत्तर: 93 m 62 cm."
+            }
+          ]
         }
       ],
       "tags": [
@@ -4847,8 +5779,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We add the lengths step by step.",
+              "hindi": "आइए लंबाइयों को step by step जोड़ते हैं।"
+            },
+            {
+              "english": "First, write 65 cm as 0 m 65 cm.\nSo the three lengths are:\n32 m 76 cm\n8 m 38 cm\n0 m 65 cm",
+              "hindi": "पहले 65 cm को 0 m 65 cm लिखते हैं।\nअब तीनों लंबाइयाँ हैं:\n32 m 76 cm\n8 m 38 cm\n0 m 65 cm"
+            },
+            {
+              "english": "Now add the centimeters:\n76 cm + 38 cm + 65 cm = 179 cm",
+              "hindi": "अब centimeters जोड़ते हैं:\n76 cm + 38 cm + 65 cm = 179 cm"
+            },
+            {
+              "english": "179 cm = 1 m 79 cm",
+              "hindi": "179 cm = 1 m 79 cm"
+            },
+            {
+              "english": "Now add the meters:\n32 m + 8 m + 0 m + 1 m = 41 m",
+              "hindi": "अब meters जोड़ते हैं:\n32 m + 8 m + 0 m + 1 m = 41 m"
+            },
+            {
+              "english": "So the total is 41 m 79 cm.",
+              "hindi": "इसलिए कुल योग है 41 m 79 cm."
+            },
+            {
+              "english": "Final answer: 41 m 79 cm.",
+              "hindi": "अंतिम उत्तर: 41 m 79 cm."
+            }
+          ]
         }
       ],
       "tags": [
@@ -4912,8 +5876,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We add the lengths step by step.",
+              "hindi": "आइए लंबाइयों को चरणों में जोड़ते हैं।"
+            },
+            {
+              "english": "1. Convert everything to the same unit idea:\n- 9 m 9 cm = 9 meters 9 centimeters\n- 6 m 6 cm = 6 meters 6 centimeters\n- 85 cm = 0 meters 85 centimeters",
+              "hindi": "1. पहले सबको एक ही इकाई में समझते हैं:\n- 9 m 9 cm = 9 मीटर 9 सेंटीमीटर\n- 6 m 6 cm = 6 मीटर 6 सेंटीमीटर\n- 85 cm = 0 मीटर 85 सेंटीमीटर"
+            },
+            {
+              "english": "2. Add the centimeters:\n- 9 cm + 6 cm + 85 cm = 100 cm\n- 100 cm = 1 m 0 cm",
+              "hindi": "2. अब सेंटीमीटर जोड़ते हैं:\n- 9 cm + 6 cm + 85 cm = 100 cm\n- 100 cm = 1 m 0 cm"
+            },
+            {
+              "english": "3. Add the meters:\n- 9 m + 6 m + 1 m = 16 m",
+              "hindi": "3. अब मीटर जोड़ते हैं:\n- 9 m + 6 m + 1 m = 16 m"
+            },
+            {
+              "english": "So, the total is 16 m.",
+              "hindi": "इसलिए कुल लंबाई 16 m है।"
+            },
+            {
+              "english": "Final answer: 16 m",
+              "hindi": "अंतिम उत्तर: 16 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4977,8 +5969,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find 14 km - 6 km 8 hm.",
+              "hindi": "हमें 14 km में से 6 km 8 hm घटाना है।"
+            },
+            {
+              "english": "Step 1: Write 14 km as 13 km 10 hm.\nThis is because 1 km = 10 hm.\nSo, 14 km = 13 km 10 hm.",
+              "hindi": "चरण 1: 14 km को 13 km 10 hm लिखते हैं।\nक्योंकि 1 km = 10 hm होता है।\nइसलिए, 14 km = 13 km 10 hm."
+            },
+            {
+              "english": "Step 2: Subtract the hectometres.\n10 hm - 8 hm = 2 hm.",
+              "hindi": "चरण 2: अब hm घटाते हैं।\n10 hm - 8 hm = 2 hm."
+            },
+            {
+              "english": "Step 3: Subtract the kilometres.\n13 km - 6 km = 7 km.",
+              "hindi": "चरण 3: अब km घटाते हैं।\n13 km - 6 km = 7 km."
+            },
+            {
+              "english": "So, the answer is 7 km 2 hm.",
+              "hindi": "इसलिए उत्तर है 7 km 2 hm."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5042,8 +6058,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 18 km 675 m from 25 km 87 m.\nStep 1: Write it as 25 km 87 m - 18 km 675 m.\nStep 2: Since 87 m is smaller than 675 m, borrow 1 km = 1000 m from 25 km.\nSo 25 km 87 m becomes 24 km 1087 m.\nStep 3: Subtract meters: 1087 m - 675 m = 412 m.\nStep 4: Subtract kilometers: 24 km - 18 km = 6 km.\nSo, the result is 6 km 412 m.\nFinal answer: 6 km 412 m.",
+              "hindi": "Hamein 18 km 675 m ko 25 km 87 m se ghatana hai.\nStep 1: Ise likhte hain 25 km 87 m - 18 km 675 m.\nStep 2: Kyunki 87 m, 675 m se chhota hai, isliye 25 km me se 1 km udhaar lete hain.\n1 km = 1000 m hota hai.\nAb 25 km 87 m = 24 km 1087 m.\nStep 3: Ab meters ghataate hain: 1087 m - 675 m = 412 m.\nStep 4: Ab kilometers ghataate hain: 24 km - 18 km = 6 km.\nIsliye uttar hai 6 km 412 m.\nFinal answer: 6 km 412 m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5107,8 +6131,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find 42 km 32 m - 34 km 68 m.",
+              "hindi": "हमें 42 km 32 m - 34 km 68 m निकालना है।"
+            },
+            {
+              "english": "Step 1: Compare the metres.\n32 m is smaller than 68 m, so we cannot subtract directly.",
+              "hindi": "चरण 1: मीटर को देखिए।\n32 m, 68 m से छोटा है, इसलिए सीधे घटा नहीं सकते।"
+            },
+            {
+              "english": "Step 2: Borrow 1 km from 42 km.\n1 km = 1000 m\nSo, 42 km 32 m becomes 41 km 1032 m.",
+              "hindi": "चरण 2: 42 km में से 1 km उधार लेते हैं।\n1 km = 1000 m\nइसलिए 42 km 32 m = 41 km 1032 m हो जाता है।"
+            },
+            {
+              "english": "Step 3: Subtract metres.\n1032 m - 68 m = 964 m",
+              "hindi": "चरण 3: मीटर घटाइए।\n1032 m - 68 m = 964 m"
+            },
+            {
+              "english": "Step 4: Subtract kilometres.\n41 km - 34 km = 7 km",
+              "hindi": "चरण 4: किलोमीटर घटाइए।\n41 km - 34 km = 7 km"
+            },
+            {
+              "english": "So, the answer is 7 km 964 m.",
+              "hindi": "अतः उत्तर है 7 km 964 m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5172,8 +6224,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 10 km 9 m from 16 km 7 m.",
+              "hindi": "हमें 10 km 9 m को 16 km 7 m से घटाना है।"
+            },
+            {
+              "english": "Step 1: Write the subtraction:\n16 km 7 m - 10 km 9 m",
+              "hindi": "चरण 1: घटाव लिखिए:\n16 km 7 m - 10 km 9 m"
+            },
+            {
+              "english": "Step 2: The meters on top are smaller, because 7 m is less than 9 m.\nSo, borrow 1 km from 16 km.\n1 km = 1000 m",
+              "hindi": "चरण 2: मीटर वाले भाग में 7 m, 9 m से छोटा है।\nइसलिए 16 km में से 1 km उधार लेते हैं।\n1 km = 1000 m"
+            },
+            {
+              "english": "Now 16 km 7 m becomes 15 km 1007 m.",
+              "hindi": "अब 16 km 7 m = 15 km 1007 m हो जाता है।"
+            },
+            {
+              "english": "Step 3: Subtract meters:\n1007 m - 9 m = 998 m",
+              "hindi": "चरण 3: मीटर घटाइए:\n1007 m - 9 m = 998 m"
+            },
+            {
+              "english": "Step 4: Subtract kilometers:\n15 km - 10 km = 5 km",
+              "hindi": "चरण 4: किलोमीटर घटाइए:\n15 km - 10 km = 5 km"
+            },
+            {
+              "english": "So, the result is 5 km 998 m.",
+              "hindi": "इसलिए उत्तर है 5 km 998 m।"
+            },
+            {
+              "english": "Final answer: 5 km 998 m.",
+              "hindi": "अंतिम उत्तर: 5 km 998 m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5237,8 +6325,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 46 m 85 cm from 50 m.",
+              "hindi": "हमें 50 m में से 46 m 85 cm घटाने हैं।"
+            },
+            {
+              "english": "Step 1: Write 50 m as 50 m 0 cm.\nStep 2: Since 0 cm is smaller than 85 cm, borrow 1 m from 50 m.\nSo, 50 m 0 cm becomes 49 m 100 cm.\nStep 3: Now subtract:\n100 cm - 85 cm = 15 cm\n49 m - 46 m = 3 m",
+              "hindi": "चरण 1: 50 m को 50 m 0 cm लिखें।\nचरण 2: 0 cm, 85 cm से छोटा है, इसलिए 50 m में से 1 m उधार लें।\nअब 50 m 0 cm = 49 m 100 cm हो जाएगा।\nचरण 3: अब घटाएँ:\n100 cm - 85 cm = 15 cm\n49 m - 46 m = 3 m"
+            },
+            {
+              "english": "So, the result is 3 m 15 cm.\nFinal answer: 3 m 15 cm.",
+              "hindi": "इसलिए उत्तर 3 m 15 cm है।\nअंतिम उत्तर: 3 m 15 cm."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5302,8 +6406,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 14 m 28 cm from 23 m 10 cm.",
+              "hindi": "हमें 23 m 10 cm में से 14 m 28 cm घटाना है।"
+            },
+            {
+              "english": "Step 1: Write it as 23 m 10 cm - 14 m 28 cm.\nStep 2: Since 10 cm is smaller than 28 cm, borrow 1 m from 23 m.\nSo, 23 m 10 cm becomes 22 m 110 cm.\nStep 3: Subtract the centimeters: 110 cm - 28 cm = 82 cm.\nStep 4: Subtract the meters: 22 m - 14 m = 8 m.\nSo, the final answer is 8 m 82 cm.",
+              "hindi": "चरण 1: इसे 23 m 10 cm - 14 m 28 cm के रूप में लिखें।\nचरण 2: क्योंकि 10 cm, 28 cm से छोटा है, इसलिए 23 m में से 1 m उधार लें।\nअब 23 m 10 cm = 22 m 110 cm हो जाएगा।\nचरण 3: सेंटीमीटर घटाएँ: 110 cm - 28 cm = 82 cm.\nचरण 4: मीटर घटाएँ: 22 m - 14 m = 8 m.\nअतः अंतिम उत्तर 8 m 82 cm है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5367,8 +6483,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Vinay travelled in three parts:\n- By bicycle: 5 km 75 m\n- By bus: 18 km 356 m\n- On foot: 1 km 872 m",
+              "hindi": "विनय ने तीन हिस्सों में यात्रा की:\n- साइकिल से: 5 km 75 m\n- बस से: 18 km 356 m\n- पैदल: 1 km 872 m"
+            },
+            {
+              "english": "First, add the kilometres:\n5 + 18 + 1 = 24 km",
+              "hindi": "पहले किलोमीटर जोड़ते हैं:\n5 + 18 + 1 = 24 km"
+            },
+            {
+              "english": "Now, add the metres:\n75 + 356 + 872 = 1303 m",
+              "hindi": "अब मीटर जोड़ते हैं:\n75 + 356 + 872 = 1303 m"
+            },
+            {
+              "english": "Since 1000 m = 1 km, 1303 m = 1 km 303 m.",
+              "hindi": "क्योंकि 1000 m = 1 km, इसलिए 1303 m = 1 km 303 m."
+            },
+            {
+              "english": "Add this 1 km to 24 km:\n24 km + 1 km = 25 km",
+              "hindi": "अब इस 1 km को 24 km में जोड़ते हैं:\n24 km + 1 km = 25 km"
+            },
+            {
+              "english": "So, the total distance travelled by Vinay is 25 km 303 m.",
+              "hindi": "इसलिए, विनय द्वारा तय की गई कुल दूरी 25 km 303 m है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5432,8 +6576,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Rakesh bought 5 m of cloth.\nHe used 2 m 35 cm for his shirt.\nWe subtract to find the cloth left for his trousers: 5 m 0 cm - 2 m 35 cm.\nBorrow 1 m = 100 cm, so 5 m 0 cm becomes 4 m 100 cm.\nNow subtract the centimetres: 100 cm - 35 cm = 65 cm.\nSubtract the metres: 4 m - 2 m = 2 m.\nSo, the cloth left for his trousers is 2 m 65 cm.\nFinal answer: 2 m 65 cm.",
+              "hindi": "राकेश ने 5 मीटर कपड़ा खरीदा।\nउसने अपनी शर्ट के लिए 2 मीटर 35 सेंटीमीटर कपड़ा इस्तेमाल किया।\nअब हमें पतलून के लिए बचा हुआ कपड़ा निकालना है: 5 मीटर 0 सेंटीमीटर - 2 मीटर 35 सेंटीमीटर।\n1 मीटर = 100 सेंटीमीटर होता है, इसलिए 5 मीटर 0 सेंटीमीटर को 4 मीटर 100 सेंटीमीटर लिख सकते हैं।\nअब सेंटीमीटर घटाएँ: 100 सेंटीमीटर - 35 सेंटीमीटर = 65 सेंटीमीटर।\nअब मीटर घटाएँ: 4 मीटर - 2 मीटर = 2 मीटर।\nइसलिए पतलून के लिए कपड़ा बचा = 2 मीटर 65 सेंटीमीटर।\nअंतिम उत्तर: 2 मीटर 65 सेंटीमीटर।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5497,8 +6649,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "One frock needs 4 m 20 cm of cloth.",
+              "hindi": "एक frock के लिए 4 m 20 cm कपड़ा चाहिए।"
+            },
+            {
+              "english": "Step 1: Convert this to one unit.\n4 m 20 cm = 420 cm",
+              "hindi": "Step 1: इसे एक ही इकाई में बदलें।\n4 m 20 cm = 420 cm"
+            },
+            {
+              "english": "Step 2: Find cloth for 5 frocks.\n420 × 5 = 2100 cm",
+              "hindi": "Step 2: 5 frocks के लिए कपड़ा निकालें।\n420 × 5 = 2100 cm"
+            },
+            {
+              "english": "Step 3: Convert back to metres.\n2100 cm = 21 m",
+              "hindi": "Step 3: इसे फिर से मीटर में बदलें।\n2100 cm = 21 m"
+            },
+            {
+              "english": "So, the cloth needed for 5 frocks is 21 m.",
+              "hindi": "इसलिए 5 frocks के लिए 21 m कपड़ा चाहिए।"
+            },
+            {
+              "english": "Final answer: 21 m",
+              "hindi": "Final answer: 21 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5562,8 +6742,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Convert the speed into meters.\n2 km 675 m = 2,000 m + 675 m = 2,675 m per hour.",
+              "hindi": "चरण 1: गति को मीटर में बदलें।\n2 km 675 m = 2,000 m + 675 m = 2,675 m प्रति घंटा।"
+            },
+            {
+              "english": "Step 2: Find the distance covered in 8 hours.\n2,675 × 8 = 21,400 m.",
+              "hindi": "चरण 2: 8 घंटे में तय की गई दूरी निकालें।\n2,675 × 8 = 21,400 m।"
+            },
+            {
+              "english": "Step 3: Convert 21,400 m into km and m.\n21,400 m = 21 km 400 m.",
+              "hindi": "चरण 3: 21,400 m को km और m में बदलें।\n21,400 m = 21 km 400 m।"
+            },
+            {
+              "english": "Final answer: 21 km 400 m.",
+              "hindi": "अंतिम उत्तर: 21 km 400 m."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5627,8 +6827,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find the length of each small piece.",
+              "hindi": "हमें हर छोटे टुकड़े की लंबाई निकालनी है।"
+            },
+            {
+              "english": "Step 1: Total length of the rope = 34 m\nStep 2: Number of equal pieces = 10\nStep 3: Divide the total length by the number of pieces:\n34 ÷ 10 = 3.4",
+              "hindi": "चरण 1: रस्सी की कुल लंबाई = 34 मीटर\nचरण 2: बराबर टुकड़ों की संख्या = 10\nचरण 3: कुल लंबाई को टुकड़ों की संख्या से भाग दें:\n34 ÷ 10 = 3.4"
+            },
+            {
+              "english": "So, each small piece is 3.4 m long.",
+              "hindi": "इसलिए, हर छोटा टुकड़ा 3.4 मीटर लंबा है।"
+            },
+            {
+              "english": "Final answer: 3.4 m",
+              "hindi": "अंतिम उत्तर: 3.4 मीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5692,8 +6912,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the speed, we use:",
+              "hindi": "गति निकालने के लिए हम यह सूत्र उपयोग करते हैं:"
+            },
+            {
+              "english": "Speed = Distance ÷ Time",
+              "hindi": "गति = दूरी ÷ समय"
+            },
+            {
+              "english": "Given:\nDistance = 255 km\nTime = 6 hours",
+              "hindi": "दिया है:\nदूरी = 255 किमी\nसमय = 6 घंटे"
+            },
+            {
+              "english": "Now divide:\nSpeed = 255 ÷ 6 = 42.5",
+              "hindi": "अब भाग करें:\nगति = 255 ÷ 6 = 42.5"
+            },
+            {
+              "english": "So, the man’s speed is 42.5 km per hour.",
+              "hindi": "इसलिए, उस आदमी की गति 42.5 किमी प्रति घंटा है।"
+            },
+            {
+              "english": "Final answer: 42.5 km per hour",
+              "hindi": "अंतिम उत्तर: 42.5 किमी प्रति घंटा"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5757,8 +7005,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert kilograms to grams, remember:\n1 kg = 1000 g",
+              "hindi": "किलोग्राम को ग्राम में बदलने के लिए याद रखें:\n1 kg = 1000 g"
+            },
+            {
+              "english": "So for 4 kg:\n4 × 1000 = 4000",
+              "hindi": "अब 4 kg के लिए:\n4 × 1000 = 4000"
+            },
+            {
+              "english": "Therefore, 4 kg = 4000 g.\nFinal answer: 4000 g",
+              "hindi": "इसलिए, 4 kg = 4000 g.\nअंतिम उत्तर: 4000 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5822,8 +7086,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert kilograms (kg) into grams (g), we use:\n1 kg = 1000 g",
+              "hindi": "किलोग्राम (kg) को ग्राम (g) में बदलने के लिए हम यह नियम इस्तेमाल करते हैं:\n1 kg = 1000 g"
+            },
+            {
+              "english": "Now convert 8.5 kg to grams:\n8.5 × 1000 = 8500",
+              "hindi": "अब 8.5 kg को ग्राम में बदलते हैं:\n8.5 × 1000 = 8500"
+            },
+            {
+              "english": "So, 8.5 kg = 8500 g.",
+              "hindi": "इसलिए, 8.5 kg = 8500 g."
+            },
+            {
+              "english": "Final answer: 8500 g",
+              "hindi": "अंतिम उत्तर: 8500 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5887,8 +7171,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 kg = 1000 g.\nTo convert kilograms to grams, multiply by 1000.\n2.84 × 1000 = 2840.\nSo, 2.84 kg = 2840 g.\nFinal answer: 2840 g.",
+              "hindi": "1 kg = 1000 g होता है।\nकिलोग्राम को ग्राम में बदलने के लिए 1000 से गुणा करते हैं।\n2.84 × 1000 = 2840.\nइसलिए, 2.84 kg = 2840 g.\nअंतिम उत्तर: 2840 g."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5952,8 +7244,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert kilograms (kg) into grams (g), we use:",
+              "hindi": "किलोग्राम (kg) को ग्राम (g) में बदलने के लिए हम यह नियम उपयोग करते हैं:"
+            },
+            {
+              "english": "1 kg = 1000 g",
+              "hindi": "1 kg = 1000 g"
+            },
+            {
+              "english": "Now multiply:\n3.560 × 1000 = 3560",
+              "hindi": "अब गुणा करें:\n3.560 × 1000 = 3560"
+            },
+            {
+              "english": "So, 3.560 kg = 3560 g.",
+              "hindi": "इसलिए, 3.560 kg = 3560 g."
+            },
+            {
+              "english": "Final answer: 3560 g",
+              "hindi": "अंतिम उत्तर: 3560 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6017,8 +7333,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 13 kg 235 g into grams:\n1 kg = 1000 g\nSo, 13 kg = 13 × 1000 = 13000 g\nNow add 235 g:\n13000 g + 235 g = 13235 g\nFinal answer: 13235 g",
+              "hindi": "13 kg 235 g को ग्राम में बदलने के लिए:\n1 kg = 1000 g\nइसलिए, 13 kg = 13 × 1000 = 13000 g\nअब 235 g जोड़ें:\n13000 g + 235 g = 13235 g\nअंतिम उत्तर: 13235 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6082,8 +7406,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 9 kg 85 g into grams, we use the fact that 1 kg = 1000 g.",
+              "hindi": "9 kg 85 g को ग्राम में बदलने के लिए हम यह जानते हैं कि 1 किलोग्राम = 1000 ग्राम होता है।"
+            },
+            {
+              "english": "Step 1: Convert 9 kg into grams.\n9 kg = 9 × 1000 = 9000 g",
+              "hindi": "Step 1: 9 kg को ग्राम में बदलें।\n9 kg = 9 × 1000 = 9000 g"
+            },
+            {
+              "english": "Step 2: Add the remaining 85 g.\n9000 g + 85 g = 9085 g",
+              "hindi": "Step 2: बचे हुए 85 g को जोड़ें।\n9000 g + 85 g = 9085 g"
+            },
+            {
+              "english": "So, 9 kg 85 g = 9085 g.\nFinal answer: 9085 g",
+              "hindi": "इसलिए, 9 kg 85 g = 9085 g.\nFinal answer: 9085 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6147,8 +7491,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 5 kg 3 hg into grams, use these facts: 1 kg = 1000 g and 1 hg = 100 g. First, convert 5 kg: 5 × 1000 = 5000 g. Then convert 3 hg: 3 × 100 = 300 g. Now add them: 5000 g + 300 g = 5300 g. Final answer: 5300 g.",
+              "hindi": "5 kg 3 hg को ग्राम में बदलने के लिए ये नियम याद रखें: 1 kg = 1000 g और 1 hg = 100 g। पहले 5 kg को ग्राम में बदलें: 5 × 1000 = 5000 g। फिर 3 hg को ग्राम में बदलें: 3 × 100 = 300 g। अब दोनों को जोड़ें: 5000 g + 300 g = 5300 g। अंतिम उत्तर: 5300 g."
+            }
+          ]
         }
       ],
       "tags": [
@@ -6212,8 +7564,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 hg = 100 g and 1 dag = 10 g.",
+              "hindi": "1 hg = 100 g और 1 dag = 10 g।"
+            },
+            {
+              "english": "Step 1: Convert 8 hg into grams.\n8 hg = 8 × 100 = 800 g",
+              "hindi": "Step 1: 8 hg को ग्राम में बदलें।\n8 hg = 8 × 100 = 800 g"
+            },
+            {
+              "english": "Step 2: Convert 5 dag into grams.\n5 dag = 5 × 10 = 50 g",
+              "hindi": "Step 2: 5 dag को ग्राम में बदलें।\n5 dag = 5 × 10 = 50 g"
+            },
+            {
+              "english": "Step 3: Add them.\n800 g + 50 g = 850 g",
+              "hindi": "Step 3: दोनों को जोड़ें।\n800 g + 50 g = 850 g"
+            },
+            {
+              "english": "Final answer: 850 g",
+              "hindi": "अंतिम उत्तर: 850 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6277,8 +7653,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We convert each part into grams.",
+              "hindi": "हम हर भाग को ग्राम में बदलते हैं।"
+            },
+            {
+              "english": "1 kg = 1000 g\n1 hg = 100 g\n1 dag = 10 g",
+              "hindi": "1 kg = 1000 g\n1 hg = 100 g\n1 dag = 10 g"
+            },
+            {
+              "english": "Now convert:\n- 6 kg = 6 × 1000 = 6000 g\n- 3 hg = 3 × 100 = 300 g\n- 4 dag = 4 × 10 = 40 g\n- 5 g = 5 g",
+              "hindi": "अब बदलें:\n- 6 kg = 6 × 1000 = 6000 g\n- 3 hg = 3 × 100 = 300 g\n- 4 dag = 4 × 10 = 40 g\n- 5 g = 5 g"
+            },
+            {
+              "english": "Add them all:\n6000 + 300 + 40 + 5 = 6345 g",
+              "hindi": "अब सभी को जोड़ते हैं:\n6000 + 300 + 40 + 5 = 6345 g"
+            },
+            {
+              "english": "Final answer: 6345 g.",
+              "hindi": "अंतिम उत्तर: 6345 g."
+            }
+          ]
         }
       ],
       "tags": [
@@ -6342,8 +7742,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 7 kg 6 hg 9 dag into grams, change each part into grams.",
+              "hindi": "7 kg 6 hg 9 dag को ग्राम में बदलने के लिए हर भाग को ग्राम में बदलते हैं।"
+            },
+            {
+              "english": "1 kg = 1000 g, so 7 kg = 7000 g.\n1 hg = 100 g, so 6 hg = 600 g.\n1 dag = 10 g, so 9 dag = 90 g.",
+              "hindi": "1 kg = 1000 g, इसलिए 7 kg = 7000 g.\n1 hg = 100 g, इसलिए 6 hg = 600 g.\n1 dag = 10 g, इसलिए 9 dag = 90 g."
+            },
+            {
+              "english": "Now add them:\n7000 + 600 + 90 = 7690 g.",
+              "hindi": "अब इन्हें जोड़ते हैं:\n7000 + 600 + 90 = 7690 g."
+            },
+            {
+              "english": "Final answer: 7690 g",
+              "hindi": "अंतिम उत्तर: 7690 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6407,8 +7827,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know:\n1 kg = 1000 g\n1 hg = 100 g",
+              "hindi": "हमें पता है:\n1 kg = 1000 g\n1 hg = 100 g"
+            },
+            {
+              "english": "Now convert each part:\n5 kg = 5 × 1000 = 5000 g\n6 hg = 6 × 100 = 600 g",
+              "hindi": "अब दोनों भागों को ग्राम में बदलते हैं:\n5 kg = 5 × 1000 = 5000 g\n6 hg = 6 × 100 = 600 g"
+            },
+            {
+              "english": "Add them:\n5000 g + 600 g = 5600 g",
+              "hindi": "अब जोड़ते हैं:\n5000 g + 600 g = 5600 g"
+            },
+            {
+              "english": "Final answer: 5600 g.",
+              "hindi": "अंतिम उत्तर: 5600 g."
+            }
+          ]
         }
       ],
       "tags": [
@@ -6472,8 +7912,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 8 hg 5 dag 6 g into grams, change each part into grams.",
+              "hindi": "8 hg 5 dag 6 g को ग्राम में बदलने के लिए, हर भाग को ग्राम में बदलते हैं।"
+            },
+            {
+              "english": "1. 1 hg = 100 g, so 8 hg = 8 × 100 = 800 g\n2. 1 dag = 10 g, so 5 dag = 5 × 10 = 50 g\n3. 6 g stays 6 g",
+              "hindi": "1. 1 hg = 100 g, इसलिए 8 hg = 8 × 100 = 800 g\n2. 1 dag = 10 g, इसलिए 5 dag = 5 × 10 = 50 g\n3. 6 g वैसे ही 6 g रहेगा"
+            },
+            {
+              "english": "Now add them:\n800 g + 50 g + 6 g = 856 g",
+              "hindi": "अब सभी को जोड़ते हैं:\n800 g + 50 g + 6 g = 856 g"
+            },
+            {
+              "english": "Final answer: 856 g",
+              "hindi": "अंतिम उत्तर: 856 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6536,8 +7996,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert kilograms (kg) into hectograms (hg), use the conversion rule:\n1 kg = 10 hg",
+              "hindi": "किलोग्राम (kg) को हेक्टोग्राम (hg) में बदलने के लिए नियम है:\n1 kg = 10 hg"
+            },
+            {
+              "english": "Now multiply 9 by 10:\n9 kg = 9 × 10 hg\n9 kg = 90 hg",
+              "hindi": "अब 9 को 10 से गुणा करें:\n9 kg = 9 × 10 hg\n9 kg = 90 hg"
+            },
+            {
+              "english": "So, 9 kg = 90 hg.\nFinal answer: 90 hg",
+              "hindi": "इसलिए, 9 kg = 90 hg.\nअंतिम उत्तर: 90 hg"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6600,8 +8076,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert kilograms to decagrams, remember:\n1 kg = 100 dag",
+              "hindi": "किलोग्राम को डेका ग्राम (dag) में बदलने के लिए याद रखें:\n1 किग्रा = 100 dag"
+            },
+            {
+              "english": "Now convert 6.5 kg:\n6.5 × 100 = 650",
+              "hindi": "अब 6.5 किग्रा को बदलें:\n6.5 × 100 = 650"
+            },
+            {
+              "english": "So, 6.5 kg = 650 dag.\nFinal answer: 650 dag",
+              "hindi": "इसलिए, 6.5 किग्रा = 650 dag.\nअंतिम उत्तर: 650 dag"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6664,8 +8156,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert kilograms (kg) into decagrams (dag), use this rule:\n1 kg = 100 dag",
+              "hindi": "किलोग्राम (kg) को डेकाग्राम (dag) में बदलने के लिए यह नियम उपयोग करें:\n1 kg = 100 dag"
+            },
+            {
+              "english": "Now convert 5.91 kg:\n5.91 × 100 = 591",
+              "hindi": "अब 5.91 kg को बदलते हैं:\n5.91 × 100 = 591"
+            },
+            {
+              "english": "So, 5.91 kg = 591 dag.",
+              "hindi": "इसलिए, 5.91 kg = 591 dag."
+            },
+            {
+              "english": "Final answer: 591 dag",
+              "hindi": "अंतिम उत्तर: 591 dag"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6728,8 +8240,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 4.2 dag into dg, first remember the unit steps:\n1 dag = 10 g\n1 g = 10 dg\nSo, 1 dag = 100 dg.",
+              "hindi": "4.2 dag को dg में बदलने के लिए पहले इकाइयों का संबंध याद करें:\n1 dag = 10 g\n1 g = 10 dg\nइसलिए, 1 dag = 100 dg."
+            },
+            {
+              "english": "Now multiply:\n4.2 dag = 4.2 × 100 dg\n= 420 dg",
+              "hindi": "अब गुणा करें:\n4.2 dag = 4.2 × 100 dg\n= 420 dg"
+            },
+            {
+              "english": "So, the answer is 420 dg.",
+              "hindi": "अतः उत्तर 420 dg है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6793,8 +8321,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 kg = 1000 g",
+              "hindi": "1 kg = 1000 g"
+            },
+            {
+              "english": "So, 2 kg = 2 × 1000 g = 2000 g",
+              "hindi": "इसलिए, 2 kg = 2 × 1000 g = 2000 g"
+            },
+            {
+              "english": "Now add the extra 36 g:\n2000 g + 36 g = 2036 g",
+              "hindi": "अब 36 g और जोड़ते हैं:\n2000 g + 36 g = 2036 g"
+            },
+            {
+              "english": "Therefore, 2 kg 36 g = 2036 g.\nFinal answer: 2036 g",
+              "hindi": "इसलिए, 2 kg 36 g = 2036 g.\nअंतिम उत्तर: 2036 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6858,8 +8406,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 6 kg 8 g into grams, we use the fact that 1 kg = 1000 g.",
+              "hindi": "6 kg 8 g को ग्राम में बदलने के लिए हम यह जानते हैं कि 1 kg = 1000 g होता है।"
+            },
+            {
+              "english": "Step 1: Convert 6 kg into grams.\n6 kg = 6 × 1000 = 6000 g",
+              "hindi": "Step 1: 6 kg को ग्राम में बदलें।\n6 kg = 6 × 1000 = 6000 g"
+            },
+            {
+              "english": "Step 2: Add the extra 8 g.\n6000 g + 8 g = 6008 g",
+              "hindi": "Step 2: अब 8 g जोड़ें।\n6000 g + 8 g = 6008 g"
+            },
+            {
+              "english": "Final answer: 6008 g",
+              "hindi": "अंतिम उत्तर: 6008 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6923,8 +8491,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 kg = 1,000,000 mg.\nSo, 5 kg = 5 × 1,000,000 mg = 5,000,000 mg.\nNow add the extra 5 mg:\n5,000,000 mg + 5 mg = 5,000,005 mg.\nFinal answer: 5000005 mg",
+              "hindi": "1 kg = 10,00,000 mg होता है।\nइसलिए 5 kg = 5 × 10,00,000 mg = 50,00,000 mg।\nअब 5 mg और जोड़ते हैं:\n50,00,000 mg + 5 mg = 50,00,005 mg।\nअंतिम उत्तर: 5000005 mg"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6988,8 +8564,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 5 g 5 cg into mg, we convert each part into milligrams.",
+              "hindi": "5 g 5 cg को mg में बदलने के लिए, पहले दोनों भागों को milligram में बदलते हैं।"
+            },
+            {
+              "english": "Step 1: Convert grams to milligrams.\n1 g = 1000 mg\nSo, 5 g = 5 × 1000 = 5000 mg",
+              "hindi": "चरण 1: ग्राम को मिलिग्राम में बदलें।\n1 g = 1000 mg\nइसलिए, 5 g = 5 × 1000 = 5000 mg"
+            },
+            {
+              "english": "Step 2: Convert centigrams to milligrams.\n1 cg = 10 mg\nSo, 5 cg = 5 × 10 = 50 mg",
+              "hindi": "चरण 2: सेंटिग्राम को मिलिग्राम में बदलें।\n1 cg = 10 mg\nइसलिए, 5 cg = 5 × 10 = 50 mg"
+            },
+            {
+              "english": "Step 3: Add both parts.\n5000 mg + 50 mg = 5050 mg",
+              "hindi": "चरण 3: दोनों को जोड़ें।\n5000 mg + 50 mg = 5050 mg"
+            },
+            {
+              "english": "Final answer: 5050 mg",
+              "hindi": "अंतिम उत्तर: 5050 mg"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7053,8 +8653,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to convert 6.25 kg into kilograms and grams.",
+              "hindi": "हमें 6.25 किग्रा को किलोग्राम और ग्राम में बदलना है।"
+            },
+            {
+              "english": "Step 1: Split the number.\n6.25 kg = 6 kg + 0.25 kg",
+              "hindi": "चरण 1: संख्या को भागों में बाँटें।\n6.25 किग्रा = 6 किग्रा + 0.25 किग्रा"
+            },
+            {
+              "english": "Step 2: Convert 0.25 kg into grams.\nWe know 1 kg = 1000 g\nSo, 0.25 kg = 0.25 × 1000 = 250 g",
+              "hindi": "चरण 2: 0.25 किग्रा को ग्राम में बदलें।\nहमें पता है कि 1 किग्रा = 1000 ग्राम\nइसलिए, 0.25 किग्रा = 0.25 × 1000 = 250 ग्राम"
+            },
+            {
+              "english": "Step 3: Write the answer in kg and g.\n6.25 kg = 6 kg 250 g",
+              "hindi": "चरण 3: उत्तर किलोग्राम और ग्राम में लिखें।\n6.25 किग्रा = 6 किग्रा 250 ग्राम"
+            },
+            {
+              "english": "Final answer: 6 kg 250 g",
+              "hindi": "अंतिम उत्तर: 6 किग्रा 250 ग्राम"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7117,8 +8741,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 7.5 hg into hg and dag, we split the number into whole and decimal parts.",
+              "hindi": "7.5 hg को hg और dag में बदलने के लिए हम संख्या को पूरे भाग और दशमलव भाग में बांटते हैं।"
+            },
+            {
+              "english": "1. The whole part is 7, so that gives 7 hg.\n2. The decimal part is 0.5 hg.\n3. Since 1 hg = 10 dag, then 0.5 hg = 5 dag.\n4. So, 7.5 hg = 7 hg 5 dag.",
+              "hindi": "1. पूरे भाग में 7 है, इसलिए यह 7 hg होगा।\n2. दशमलव भाग 0.5 hg है।\n3. क्योंकि 1 hg = 10 dag होता है, इसलिए 0.5 hg = 5 dag होगा।\n4. इसलिए 7.5 hg = 7 hg 5 dag।"
+            },
+            {
+              "english": "Final answer: 7 hg 5 dag",
+              "hindi": "अंतिम उत्तर: 7 hg 5 dag"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7182,8 +8822,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 5.08 dag into g and dg, use these steps:",
+              "hindi": "5.08 dag को g और dg में बदलने के लिए ये कदम follow करें:"
+            },
+            {
+              "english": "1. We know that 1 dag = 10 g.\n2. So, 5.08 dag = 5.08 × 10 g.\n3. 5.08 × 10 = 50.8 g.\n4. Now split 50.8 g into grams and decigrams.\n5. 50.8 g = 50 g + 0.8 g.\n6. Since 1 g = 10 dg, 0.8 g = 8 dg.",
+              "hindi": "1. हम जानते हैं कि 1 dag = 10 g.\n2. इसलिए 5.08 dag = 5.08 × 10 g.\n3. 5.08 × 10 = 50.8 g.\n4. अब 50.8 g को grams और decigrams में बाँटते हैं.\n5. 50.8 g = 50 g + 0.8 g.\n6. क्योंकि 1 g = 10 dg, इसलिए 0.8 g = 8 dg."
+            },
+            {
+              "english": "So, 5.08 dag = 50 g 8 dg.",
+              "hindi": "इसलिए 5.08 dag = 50 g 8 dg."
+            },
+            {
+              "english": "Final answer: 50 g 8 dg.",
+              "hindi": "अंतिम उत्तर: 50 g 8 dg."
+            }
+          ]
         }
       ],
       "tags": [
@@ -7247,8 +8907,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 18.3 g into g and cg:",
+              "hindi": "18.3 g को g और cg में बदलने के लिए:"
+            },
+            {
+              "english": "1. Split 18.3 g into whole grams and decimal part.\n   18.3 g = 18 g + 0.3 g",
+              "hindi": "1. 18.3 g को पूरे ग्राम और दशमलव भाग में बाँटें।\n   18.3 g = 18 g + 0.3 g"
+            },
+            {
+              "english": "2. Convert 0.3 g into centigrams.\n   Since 1 g = 100 cg,\n   0.3 g = 0.3 × 100 = 30 cg",
+              "hindi": "2. अब 0.3 g को सेंटीग्राम में बदलें।\n   क्योंकि 1 g = 100 cg होता है,\n   इसलिए 0.3 g = 0.3 × 100 = 30 cg"
+            },
+            {
+              "english": "3. Combine them.\n   18.3 g = 18 g 30 cg",
+              "hindi": "3. दोनों को मिलाएँ।\n   18.3 g = 18 g 30 cg"
+            },
+            {
+              "english": "Final answer: 18 g 30 cg",
+              "hindi": "अंतिम उत्तर: 18 g 30 cg"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7312,8 +8996,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert grams (g) into kilograms (kg), we divide by 1000.",
+              "hindi": "ग्राम (g) को किलोग्राम (kg) में बदलने के लिए 1000 से भाग देते हैं।"
+            },
+            {
+              "english": "Step 1: Write the given amount.\n6340 g",
+              "hindi": "Step 1: दी गई मात्रा लिखिए।\n6340 g"
+            },
+            {
+              "english": "Step 2: Divide by 1000 because 1000 g = 1 kg.\n6340 ÷ 1000 = 6.34",
+              "hindi": "Step 2: 1000 से भाग दीजिए, क्योंकि 1000 g = 1 kg होता है।\n6340 ÷ 1000 = 6.34"
+            },
+            {
+              "english": "So, 6340 g = 6.34 kg.",
+              "hindi": "इसलिए, 6340 g = 6.34 kg."
+            },
+            {
+              "english": "Final answer: 6.34 kg",
+              "hindi": "अंतिम उत्तर: 6.34 kg"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7377,8 +9085,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: We know that 1 g = 1000 mg.\nStep 2: To convert mg into g, divide by 1000.\nStep 3: 5460 ÷ 1000 = 5.46.\nSo, 5460 mg = 5.46 g.\nFinal answer: 5.46 g",
+              "hindi": "चरण 1: हमें पता है कि 1 g = 1000 mg.\nचरण 2: mg को g में बदलने के लिए 1000 से भाग देते हैं।\nचरण 3: 5460 ÷ 1000 = 5.46.\nइसलिए, 5460 mg = 5.46 g.\nअंतिम उत्तर: 5.46 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7442,8 +9158,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert milligrams (mg) into grams (g), remember:",
+              "hindi": "मिलीग्राम (mg) को ग्राम (g) में बदलने के लिए याद रखें:"
+            },
+            {
+              "english": "1 g = 1000 mg",
+              "hindi": "1 g = 1000 mg"
+            },
+            {
+              "english": "So we divide by 1000.",
+              "hindi": "इसलिए हमें 1000 से भाग देना है।"
+            },
+            {
+              "english": "536 mg = 536 ÷ 1000 g\n= 0.536 g",
+              "hindi": "536 mg = 536 ÷ 1000 g\n= 0.536 g"
+            },
+            {
+              "english": "Final answer: 0.536 g.",
+              "hindi": "अंतिम उत्तर: 0.536 g."
+            }
+          ]
         }
       ],
       "tags": [
@@ -7507,8 +9247,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert milligrams (mg) to grams (g), remember that 1000 mg = 1 g.\nSo, divide by 1000.\n23 mg = 23 ÷ 1000 = 0.023 g.\nFinal answer: 0.023 g",
+              "hindi": "मिलीग्राम (mg) को ग्राम (g) में बदलने के लिए याद रखें कि 1000 mg = 1 g होता है।\nइसलिए 1000 से भाग देते हैं।\n23 mg = 23 ÷ 1000 = 0.023 g.\nअंतिम उत्तर: 0.023 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7572,8 +9320,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1. We know that 1 kg = 1000 g.\n2. So, 75 g = 75 ÷ 1000 kg = 0.075 kg.\n3. Now add this to 4 kg:\n   4 + 0.075 = 4.075\n4. So, 4 kg 75 g = 4.075 kg.",
+              "hindi": "1. हम जानते हैं कि 1 kg = 1000 g होता है।\n2. इसलिए 75 g = 75 ÷ 1000 kg = 0.075 kg.\n3. अब इसे 4 kg में जोड़ते हैं:\n   4 + 0.075 = 4.075\n4. इसलिए 4 kg 75 g = 4.075 kg."
+            },
+            {
+              "english": "Final answer: 4.075 kg",
+              "hindi": "अंतिम उत्तर: 4.075 kg"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7637,8 +9397,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert grams into kilograms, remember this rule:\n1000 g = 1 kg",
+              "hindi": "ग्राम को किलोग्राम में बदलने का नियम याद रखें:\n1000 g = 1 kg"
+            },
+            {
+              "english": "So, 950 g = 950 ÷ 1000 = 0.95 kg",
+              "hindi": "इसलिए 950 g = 950 ÷ 1000 = 0.95 kg"
+            },
+            {
+              "english": "Now add this to 7 kg:\n7 + 0.95 = 7.95 kg",
+              "hindi": "अब इसे 7 kg में जोड़ें:\n7 + 0.95 = 7.95 kg"
+            },
+            {
+              "english": "Final answer: 7.95 kg",
+              "hindi": "अंतिम उत्तर: 7.95 kg"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7702,8 +9482,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 9 kg 5 g into kilograms, use 1 kg = 1000 g.\nSo, 5 g = 5/1000 kg = 0.005 kg.\nNow add it to 9 kg: 9 + 0.005 = 9.005 kg.\nFinal answer: 9.005 kg",
+              "hindi": "9 kg 5 g को किलोग्राम में बदलने के लिए, याद रखें कि 1 kg = 1000 g होता है।\nइसलिए 5 g = 5/1000 kg = 0.005 kg होगा।\nअब इसे 9 kg में जोड़ें: 9 + 0.005 = 9.005 kg।\nअंतिम उत्तर: 9.005 kg"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7767,8 +9555,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 16 g 65 mg into grams, use the fact that 1 g = 1000 mg.",
+              "hindi": "16 g 65 mg को ग्राम में बदलने के लिए हम यह जानते हैं कि 1 ग्राम = 1000 मिलीग्राम होता है।"
+            },
+            {
+              "english": "So, 65 mg = 65 ÷ 1000 g = 0.065 g.",
+              "hindi": "इसलिए, 65 मिलीग्राम = 65 ÷ 1000 ग्राम = 0.065 ग्राम।"
+            },
+            {
+              "english": "Now add it to 16 g:\n16 g + 0.065 g = 16.065 g.",
+              "hindi": "अब इसे 16 ग्राम में जोड़ते हैं:\n16 ग्राम + 0.065 ग्राम = 16.065 ग्राम।"
+            },
+            {
+              "english": "Final answer: 16.065 g",
+              "hindi": "अंतिम उत्तर: 16.065 ग्राम"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7832,8 +9640,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 6 g 635 mg into grams, we use:\n1 g = 1000 mg",
+              "hindi": "6 g 635 mg को ग्राम में बदलने के लिए हम यह उपयोग करते हैं:\n1 g = 1000 mg"
+            },
+            {
+              "english": "Step 1: Convert 635 mg into g.\n635 mg = 635 ÷ 1000 g = 0.635 g",
+              "hindi": "चरण 1: 635 mg को g में बदलें।\n635 mg = 635 ÷ 1000 g = 0.635 g"
+            },
+            {
+              "english": "Step 2: Add this to 6 g.\n6 g + 0.635 g = 6.635 g",
+              "hindi": "चरण 2: इसे 6 g में जोड़ें।\n6 g + 0.635 g = 6.635 g"
+            },
+            {
+              "english": "Final answer: 6.635 g",
+              "hindi": "अंतिम उत्तर: 6.635 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7897,8 +9725,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know that 1 g = 1000 mg.\nSo, 8 mg = 8/1000 g = 0.008 g.\nNow add this to 53 g:\n53 g + 0.008 g = 53.008 g.\nSo, 53 g 8 mg = 53.008 g.\nFinal answer: 53.008 g",
+              "hindi": "हमें पता है कि 1 g = 1000 mg होता है।\nइसलिए 8 mg = 8/1000 g = 0.008 g होगा।\nअब इसे 53 g में जोड़ते हैं:\n53 g + 0.008 g = 53.008 g.\nइसलिए 53 g 8 mg = 53.008 g.\nअंतिम उत्तर: 53.008 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7965,8 +9801,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 8 kg 25 g from 10 kg 10 g.",
+              "hindi": "हमें 10 किग्रा 10 ग्राम में से 8 किग्रा 25 ग्राम घटाना है।"
+            },
+            {
+              "english": "Step 1: The grams part is too small, because 10 g is less than 25 g.\nSo, borrow 1 kg from 10 kg.\n1 kg = 1000 g.",
+              "hindi": "चरण 1: ग्राम वाले भाग में 10 ग्राम, 25 ग्राम से छोटे हैं।\nइसलिए 10 किग्रा में से 1 किग्रा उधार लेते हैं।\n1 किग्रा = 1000 ग्राम"
+            },
+            {
+              "english": "Now 10 kg 10 g becomes 9 kg 1010 g.",
+              "hindi": "अब 10 किग्रा 10 ग्राम = 9 किग्रा 1010 ग्राम"
+            },
+            {
+              "english": "Step 2: Subtract the grams.\n1010 g - 25 g = 985 g",
+              "hindi": "चरण 2: अब ग्राम घटाइए।\n1010 ग्राम - 25 ग्राम = 985 ग्राम"
+            },
+            {
+              "english": "Step 3: Subtract the kilograms.\n9 kg - 8 kg = 1 kg",
+              "hindi": "चरण 3: अब किलोग्राम घटाइए।\n9 किग्रा - 8 किग्रा = 1 किग्रा"
+            },
+            {
+              "english": "So, the result is 1 kg 985 g.\nFinal answer: 1 kg 985 g",
+              "hindi": "इसलिए उत्तर है 1 किग्रा 985 ग्राम।\nअंतिम उत्तर: 1 किग्रा 985 ग्राम"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8033,8 +9897,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We add the kilograms and grams separately.",
+              "hindi": "हम किलोग्राम और ग्राम को अलग-अलग जोड़ते हैं।"
+            },
+            {
+              "english": "Kilograms: 8 + 6 + 9 = 23 kg\nGrams: 260 + 325 + 85 = 670 g",
+              "hindi": "किलोग्राम: 8 + 6 + 9 = 23 किग्रा\nग्राम: 260 + 325 + 85 = 670 ग्राम"
+            },
+            {
+              "english": "Since 670 g is less than 1000 g, we do not need to carry over.",
+              "hindi": "क्योंकि 670 ग्राम, 1000 ग्राम से कम है, इसलिए carry करने की जरूरत नहीं है।"
+            },
+            {
+              "english": "So, the total weight of fruits bought by Nisha is 23 kg 670 g.",
+              "hindi": "इसलिए नisha द्वारा खरीदे गए फलों का कुल वजन 23 किग्रा 670 ग्राम है।"
+            },
+            {
+              "english": "Final answer: 23 kg 670 g",
+              "hindi": "अंतिम उत्तर: 23 किग्रा 670 ग्राम"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8102,8 +9990,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us compare the two weights.\nAshu = 36 kg 540 g\nNisha = 40 kg 125 g",
+              "hindi": "आइए दोनों वजन की तुलना करें।\nAshu = 36 kg 540 g\nNisha = 40 kg 125 g"
+            },
+            {
+              "english": "We subtract Ashu's weight from Nisha's weight:\n40 kg 125 g - 36 kg 540 g",
+              "hindi": "अब हम Nisha के वजन में से Ashu का वजन घटाएँगे:\n40 kg 125 g - 36 kg 540 g"
+            },
+            {
+              "english": "Since 125 g is smaller than 540 g, we borrow 1 kg = 1000 g.\nSo, 40 kg 125 g becomes 39 kg 1125 g.\nNow subtract:\n1125 g - 540 g = 585 g\n39 kg - 36 kg = 3 kg",
+              "hindi": "क्योंकि 125 g, 540 g से छोटा है, इसलिए 1 kg = 1000 g उधार लेते हैं।\nअब 40 kg 125 g = 39 kg 1125 g हो जाएगा।\nअब घटाएँ:\n1125 g - 540 g = 585 g\n39 kg - 36 kg = 3 kg"
+            },
+            {
+              "english": "So the difference is 3 kg 585 g.\nTherefore, Nisha weighs more.\nFinal Answer: Nisha weighs more by 3 kg 585 g.",
+              "hindi": "इसलिए अंतर 3 kg 585 g है।\nअतः Nisha का वजन अधिक है।\nFinal Answer: Nisha weighs more by 3 kg 585 g."
+            }
+          ]
         }
       ],
       "tags": [
@@ -8170,8 +10078,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know the total weight of Shashi and Sakshi is 73 kg 250 g.",
+              "hindi": "हमें दिया है कि शशि और साक्षी का कुल वजन 73 kg 250 g है।"
+            },
+            {
+              "english": "Shashi weighs 38 kg 675 g.",
+              "hindi": "शशि का वजन 38 kg 675 g है।"
+            },
+            {
+              "english": "To find Sakshi's weight, subtract Shashi's weight from the total weight:\n73 kg 250 g - 38 kg 675 g",
+              "hindi": "साक्षी का वजन निकालने के लिए कुल वजन में से शशि का वजन घटाएँ:\n73 kg 250 g - 38 kg 675 g"
+            },
+            {
+              "english": "Step 1: We cannot subtract 675 g from 250 g, so we borrow 1 kg from 73 kg.\n73 kg 250 g = 72 kg 1250 g",
+              "hindi": "चरण 1: 250 g में से 675 g नहीं घटा सकते, इसलिए 73 kg में से 1 kg उधार लेते हैं।\n73 kg 250 g = 72 kg 1250 g"
+            },
+            {
+              "english": "Step 2: Subtract the grams.\n1250 g - 675 g = 575 g",
+              "hindi": "चरण 2: ग्राम घटाएँ।\n1250 g - 675 g = 575 g"
+            },
+            {
+              "english": "Step 3: Subtract the kilograms.\n72 kg - 38 kg = 34 kg",
+              "hindi": "चरण 3: किलोग्राम घटाएँ।\n72 kg - 38 kg = 34 kg"
+            },
+            {
+              "english": "So, Sakshi's weight is 34 kg 575 g.",
+              "hindi": "इसलिए साक्षी का वजन 34 kg 575 g है।"
+            },
+            {
+              "english": "Final answer: 34 kg 575 g",
+              "hindi": "Final answer: 34 kg 575 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8238,8 +10182,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Each bag of wheat weighs 25 kg 650 g.",
+              "hindi": "गेहूं की प्रत्येक बोरी का वजन 25 किग्रा 650 ग्राम है।"
+            },
+            {
+              "english": "Step 1: Multiply the kilograms.\n25 × 8 = 200 kg",
+              "hindi": "चरण 1: किलोग्राम को गुणा करें।\n25 × 8 = 200 किग्रा"
+            },
+            {
+              "english": "Step 2: Multiply the grams.\n650 × 8 = 5200 g",
+              "hindi": "चरण 2: ग्राम को गुणा करें।\n650 × 8 = 5200 ग्राम"
+            },
+            {
+              "english": "Step 3: Convert grams into kilograms and grams.\n5200 g = 5 kg 200 g",
+              "hindi": "चरण 3: ग्राम को किलोग्राम और ग्राम में बदलें।\n5200 ग्राम = 5 किग्रा 200 ग्राम"
+            },
+            {
+              "english": "Step 4: Add the kilograms.\n200 kg + 5 kg = 205 kg",
+              "hindi": "चरण 4: किलोग्राम को जोड़ें।\n200 किग्रा + 5 किग्रा = 205 किग्रा"
+            },
+            {
+              "english": "So, the total weight of 8 bags is 205 kg 200 g.\nFinal answer: 205 kg 200 g.",
+              "hindi": "इसलिए 8 बोरियों का कुल वजन 205 किग्रा 200 ग्राम है।\nअंतिम उत्तर: 205 किग्रा 200 ग्राम।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8306,8 +10278,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Convert 52 kg 500 g into grams.\n52 kg = 52,000 g\nSo, 52 kg 500 g = 52,500 g.\nStep 2: Divide by 6.\n52,500 ÷ 6 = 8,750 g.\nStep 3: Convert 8,750 g back into kg and g.\n8,750 g = 8 kg 750 g.\nSo, the weight of each bag is 8 kg 750 g.\nFinal answer: 8 kg 750 g",
+              "hindi": "Step 1: 52 kg 500 g को ग्राम में बदलें।\n52 kg = 52,000 g\nइसलिए 52 kg 500 g = 52,500 g.\nStep 2: 6 से भाग दें।\n52,500 ÷ 6 = 8,750 g.\nStep 3: 8,750 g को kg और g में बदलें।\n8,750 g = 8 kg 750 g.\nइसलिए हर बोरी का वजन 8 kg 750 g है।\nFinal answer: 8 kg 750 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8372,8 +10352,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert liters to milliliters, use the rule 1 L = 1000 mL.",
+              "hindi": "लीटर को मिलीलीटर में बदलने के लिए नियम है: 1 L = 1000 mL।"
+            },
+            {
+              "english": "So, for 8 L:\n8 × 1000 = 8000",
+              "hindi": "अब 8 L के लिए:\n8 × 1000 = 8000"
+            },
+            {
+              "english": "Therefore, 8 L = 8000 mL.\nFinal answer: 8000 mL.",
+              "hindi": "इसलिए, 8 L = 8000 mL।\nअंतिम उत्तर: 8000 mL।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8438,8 +10434,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Use the conversion rule: 1 L = 1000 mL.\nStep 2: Convert 3 L into mL: 3 × 1000 = 3000 mL.\nStep 3: Add the extra 360 mL: 3000 mL + 360 mL = 3360 mL.\nFinal answer: 3360 mL.",
+              "hindi": "Step 1: रूपांतरण नियम याद रखें: 1 L = 1000 mL.\nStep 2: 3 L को mL में बदलें: 3 × 1000 = 3000 mL.\nStep 3: अब 360 mL और जोड़ें: 3000 mL + 360 mL = 3360 mL.\nअंतिम उत्तर: 3360 mL."
+            }
+          ]
         }
       ],
       "tags": [
@@ -8504,8 +10508,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 6 kL 250 L into litres, we use:\n1 kL = 1000 L",
+              "hindi": "6 kL 250 L को लीटर में बदलने के लिए हम जानते हैं:\n1 kL = 1000 L"
+            },
+            {
+              "english": "Step 1: Convert 6 kL into L.\n6 kL = 6 × 1000 = 6000 L",
+              "hindi": "चरण 1: 6 kL को लीटर में बदलें।\n6 kL = 6 × 1000 = 6000 L"
+            },
+            {
+              "english": "Step 2: Add the extra 250 L.\n6000 L + 250 L = 6250 L",
+              "hindi": "चरण 2: अब 250 L जोड़ें।\n6000 L + 250 L = 6250 L"
+            },
+            {
+              "english": "So, 6 kL 250 L = 6250 L.\nFinal answer: 6250 L.",
+              "hindi": "इसलिए, 6 kL 250 L = 6250 L.\nअंतिम उत्तर: 6250 L."
+            }
+          ]
         }
       ],
       "tags": [
@@ -8570,8 +10594,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 5 daL 6 L into litres, first remember that 1 daL = 10 L.\nSo, 5 daL = 5 × 10 L = 50 L.\nNow add the extra 6 L:\n50 L + 6 L = 56 L.\nFinal answer: 56 L.",
+              "hindi": "5 daL 6 L को लीटर में बदलने के लिए, पहले याद रखें कि 1 daL = 10 L होता है।\nइसलिए, 5 daL = 5 × 10 L = 50 L.\nअब इसमें 6 L और जोड़ते हैं:\n50 L + 6 L = 56 L.\nअंतिम उत्तर: 56 L."
+            }
+          ]
         }
       ],
       "tags": [
@@ -8636,8 +10668,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 65 kL 345 L into litres, use this fact:\n1 kL = 1000 L",
+              "hindi": "65 kL 345 L को लीटर में बदलने के लिए यह नियम उपयोग करें:\n1 kL = 1000 L"
+            },
+            {
+              "english": "Step 1: Convert 65 kL into L\n65 × 1000 = 65000 L",
+              "hindi": "Step 1: 65 kL को L में बदलें\n65 × 1000 = 65000 L"
+            },
+            {
+              "english": "Step 2: Add the extra 345 L\n65000 + 345 = 65345 L",
+              "hindi": "Step 2: 345 L को जोड़ें\n65000 + 345 = 65345 L"
+            },
+            {
+              "english": "So, 65 kL 345 L = 65345 L.",
+              "hindi": "इसलिए, 65 kL 345 L = 65345 L."
+            },
+            {
+              "english": "Final answer: 65345 L",
+              "hindi": "Final answer: 65345 L"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8702,8 +10758,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 5 kL 35 L into litres, remember that 1 kL = 1000 L.\nSo, 5 kL = 5 × 1000 = 5000 L.\nNow add the remaining 35 L:\n5000 L + 35 L = 5035 L.\nFinal answer: 5035 L",
+              "hindi": "5 kL 35 L को लीटर में बदलने के लिए याद रखें कि 1 kL = 1000 L होता है।\nइसलिए, 5 kL = 5 × 1000 = 5000 L।\nअब बचे हुए 35 L को जोड़ें:\n5000 L + 35 L = 5035 L।\nअंतिम उत्तर: 5035 L"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8768,8 +10832,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 36 kL 5 L into litres, we convert each part into L.",
+              "hindi": "36 kL 5 L को L में बदलने के लिए, हम दोनों भागों को लीटर में बदलते हैं।"
+            },
+            {
+              "english": "Step 1: Know the conversion.\n1 kL = 1000 L",
+              "hindi": "Step 1: रूपांतरण याद रखें।\n1 kL = 1000 L"
+            },
+            {
+              "english": "Step 2: Convert 36 kL into L.\n36 kL = 36 × 1000 = 36000 L",
+              "hindi": "Step 2: 36 kL को L में बदलें।\n36 kL = 36 × 1000 = 36000 L"
+            },
+            {
+              "english": "Step 3: Add the remaining 5 L.\n36000 L + 5 L = 36005 L",
+              "hindi": "Step 3: बचे हुए 5 L को जोड़ें।\n36000 L + 5 L = 36005 L"
+            },
+            {
+              "english": "Final answer: 36005 L",
+              "hindi": "अंतिम उत्तर: 36005 L"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8834,8 +10922,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 8 L 375 mL into mL, we use:\n1 L = 1000 mL",
+              "hindi": "8 L 375 mL को mL में बदलने के लिए हम यह नियम use करते हैं:\n1 L = 1000 mL"
+            },
+            {
+              "english": "Step 1: Convert 8 L into mL.\n8 L = 8 × 1000 = 8000 mL",
+              "hindi": "Step 1: 8 L को mL में बदलिए।\n8 L = 8 × 1000 = 8000 mL"
+            },
+            {
+              "english": "Step 2: Add the extra 375 mL.\n8000 mL + 375 mL = 8375 mL",
+              "hindi": "Step 2: अब 375 mL जोड़िए।\n8000 mL + 375 mL = 8375 mL"
+            },
+            {
+              "english": "Final answer: 8375 mL",
+              "hindi": "अंतिम उत्तर: 8375 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8900,8 +11008,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 37 L 65 mL into mL, we use:\n1 L = 1000 mL",
+              "hindi": "37 L 65 mL को mL में बदलने के लिए हम यह जानते हैं:\n1 L = 1000 mL"
+            },
+            {
+              "english": "Step 1: Convert 37 L into mL.\n37 × 1000 = 37000 mL",
+              "hindi": "Step 1: 37 L को mL में बदलें।\n37 × 1000 = 37000 mL"
+            },
+            {
+              "english": "Step 2: Add the extra 65 mL.\n37000 + 65 = 37065 mL",
+              "hindi": "Step 2: बचे हुए 65 mL को जोड़ें।\n37000 + 65 = 37065 mL"
+            },
+            {
+              "english": "So, 37 L 65 mL = 37065 mL.\nFinal answer: 37065 mL",
+              "hindi": "इसलिए, 37 L 65 mL = 37065 mL.\nFinal answer: 37065 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8966,8 +11094,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 15 L 6 mL into millilitres:\n1 L = 1000 mL.\nSo, 15 L = 15 × 1000 = 15000 mL.\nNow add the extra 6 mL:\n15000 mL + 6 mL = 15006 mL.\nFinal answer: 15006 mL",
+              "hindi": "15 L 6 mL को mL में बदलने के लिए:\n1 L = 1000 mL.\nइसलिए 15 L = 15 × 1000 = 15000 mL.\nअब 6 mL और जोड़ें:\n15000 mL + 6 mL = 15006 mL.\nअंतिम उत्तर: 15006 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9031,8 +11167,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert liters to milliliters, use this rule:\n1 L = 1000 mL",
+              "hindi": "लीटर को मिलीलीटर में बदलने के लिए यह नियम याद रखें:\n1 L = 1000 mL"
+            },
+            {
+              "english": "So, for 8 L:\n8 × 1000 = 8000",
+              "hindi": "अब 8 L के लिए:\n8 × 1000 = 8000"
+            },
+            {
+              "english": "Therefore, 8 L = 8000 mL.",
+              "hindi": "इसलिए, 8 L = 8000 mL."
+            },
+            {
+              "english": "Final answer: 8000 mL",
+              "hindi": "अंतिम उत्तर: 8000 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9096,8 +11252,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 3 L 360 mL into mL, we use:\n1 L = 1000 mL",
+              "hindi": "3 L 360 mL को mL में बदलने के लिए हम यह उपयोग करते हैं:\n1 L = 1000 mL"
+            },
+            {
+              "english": "First, convert 3 L into mL:\n3 × 1000 = 3000 mL",
+              "hindi": "पहले 3 L को mL में बदलते हैं:\n3 × 1000 = 3000 mL"
+            },
+            {
+              "english": "Now add the extra 360 mL:\n3000 + 360 = 3360 mL",
+              "hindi": "अब इसमें 360 mL जोड़ते हैं:\n3000 + 360 = 3360 mL"
+            },
+            {
+              "english": "Final answer: 3360 mL",
+              "hindi": "अंतिम उत्तर: 3360 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9161,8 +11337,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 6 kL 250 L into litres, first remember that 1 kL = 1000 L.\nSo, 6 kL = 6 × 1000 = 6000 L.\nNow add the extra 250 L:\n6000 L + 250 L = 6250 L.\nFinal answer: 6250 L.",
+              "hindi": "6 kL 250 L को लीटर में बदलने के लिए पहले याद रखें कि 1 kL = 1000 L होता है।\nइसलिए 6 kL = 6 × 1000 = 6000 L।\nअब 250 L और जोड़ें:\n6000 L + 250 L = 6250 L।\nअंतिम उत्तर: 6250 L."
+            }
+          ]
         }
       ],
       "tags": [
@@ -9226,8 +11410,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 5 daL 6 L into liters, first remember: 1 daL = 10 L.",
+              "hindi": "5 daL 6 L को लीटर में बदलने के लिए, पहले याद रखें: 1 daL = 10 L होता है।"
+            },
+            {
+              "english": "Step 1: Convert 5 daL into liters.\n5 daL = 5 × 10 L = 50 L",
+              "hindi": "चरण 1: 5 daL को लीटर में बदलें।\n5 daL = 5 × 10 L = 50 L"
+            },
+            {
+              "english": "Step 2: Add the extra 6 L.\n50 L + 6 L = 56 L",
+              "hindi": "चरण 2: उसमें 6 L और जोड़ें।\n50 L + 6 L = 56 L"
+            },
+            {
+              "english": "So, 5 daL 6 L = 56 L.\nFinal answer: 56 L",
+              "hindi": "इसलिए, 5 daL 6 L = 56 L।\nअंतिम उत्तर: 56 L"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9291,8 +11495,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to convert 65 kL 345 L into litres (L).",
+              "hindi": "हमें 65 kL 345 L को लीटर (L) में बदलना है।"
+            },
+            {
+              "english": "Step 1: Use the conversion rule.\n1 kL = 1000 L",
+              "hindi": "चरण 1: रूपांतरण नियम याद करें।\n1 kL = 1000 L"
+            },
+            {
+              "english": "Step 2: Convert 65 kL into L.\n65 kL = 65 × 1000 = 65000 L",
+              "hindi": "चरण 2: 65 kL को लीटर में बदलें।\n65 kL = 65 × 1000 = 65000 L"
+            },
+            {
+              "english": "Step 3: Add the extra 345 L.\n65000 L + 345 L = 65345 L",
+              "hindi": "चरण 3: 345 L को जोड़ें।\n65000 L + 345 L = 65345 L"
+            },
+            {
+              "english": "Final Answer: 65345 L",
+              "hindi": "अंतिम उत्तर: 65345 L"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9356,8 +11584,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 kL means 1000 L.\nSo, 5 kL = 5 × 1000 = 5000 L.\nNow add the extra 35 L:\n5000 L + 35 L = 5035 L.\nFinal answer: 5035 L",
+              "hindi": "1 kL का मतलब 1000 L होता है।\nइसलिए 5 kL = 5 × 1000 = 5000 L।\nअब 35 L और जोड़ते हैं:\n5000 L + 35 L = 5035 L।\nअंतिम उत्तर: 5035 L"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9421,8 +11657,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 kL = 1000 L.\n36 kL = 36 × 1000 = 36000 L.\nNow add the extra 5 L: 36000 L + 5 L = 36005 L.\nFinal answer: 36005 L",
+              "hindi": "1 kL = 1000 L.\n36 kL = 36 × 1000 = 36000 L.\nअब 5 L और जोड़ते हैं: 36000 L + 5 L = 36005 L.\nअंतिम उत्तर: 36005 L"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9486,8 +11730,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Remember the conversion.\n1 L = 1000 mL",
+              "hindi": "चरण 1: रूपांतरण याद रखें।\n1 L = 1000 mL"
+            },
+            {
+              "english": "Step 2: Convert 8 L into mL.\n8 L = 8 × 1000 = 8000 mL",
+              "hindi": "चरण 2: 8 L को mL में बदलें।\n8 L = 8 × 1000 = 8000 mL"
+            },
+            {
+              "english": "Step 3: Add the extra 375 mL.\n8000 mL + 375 mL = 8375 mL",
+              "hindi": "चरण 3: अतिरिक्त 375 mL जोड़ें।\n8000 mL + 375 mL = 8375 mL"
+            },
+            {
+              "english": "So, 8 L 375 mL = 8375 mL.\nFinal answer: 8375 mL",
+              "hindi": "इसलिए, 8 L 375 mL = 8375 mL.\nअंतिम उत्तर: 8375 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9551,8 +11815,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert litres to millilitres, remember:\n1 L = 1000 mL",
+              "hindi": "लीटर को मिलीलीटर में बदलने के लिए याद रखें:\n1 L = 1000 mL"
+            },
+            {
+              "english": "Step 1: Convert 37 L into mL.\n37 × 1000 = 37000 mL",
+              "hindi": "Step 1: 37 L को mL में बदलें।\n37 × 1000 = 37000 mL"
+            },
+            {
+              "english": "Step 2: Add the extra 65 mL.\n37000 mL + 65 mL = 37065 mL",
+              "hindi": "Step 2: 65 mL और जोड़ें।\n37000 mL + 65 mL = 37065 mL"
+            },
+            {
+              "english": "Final answer: 37065 mL",
+              "hindi": "अंतिम उत्तर: 37065 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9616,8 +11900,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 L = 1000 mL.\nSo, 15 L = 15 × 1000 = 15000 mL.\nNow add the extra 6 mL:\n15000 mL + 6 mL = 15006 mL.\nFinal answer: 15006 mL",
+              "hindi": "1 L = 1000 mL.\nइसलिए, 15 L = 15 × 1000 = 15000 mL.\nअब 6 mL और जोड़ते हैं:\n15000 mL + 6 mL = 15006 mL.\nअंतिम उत्तर: 15006 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9681,8 +11973,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert kiloliters (kL) into liters (L), use this rule:",
+              "hindi": "किलोलिटर (kL) को लीटर (L) में बदलने के लिए यह नियम उपयोग करें:"
+            },
+            {
+              "english": "1 kL = 1000 L",
+              "hindi": "1 kL = 1000 L"
+            },
+            {
+              "english": "Now convert 2.8 kL:\n2.8 × 1000 = 2800",
+              "hindi": "अब 2.8 kL को बदलते हैं:\n2.8 × 1000 = 2800"
+            },
+            {
+              "english": "So, 2.8 kL = 2800 L.",
+              "hindi": "इसलिए, 2.8 kL = 2800 L."
+            },
+            {
+              "english": "Final answer: 2800 L",
+              "hindi": "अंतिम उत्तर: 2800 L"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9746,8 +12062,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert liters (L) to milliliters (mL), use this rule:\n1 L = 1000 mL",
+              "hindi": "लीटर (L) को मिलीलीटर (mL) में बदलने के लिए यह नियम उपयोग करते हैं:\n1 L = 1000 mL"
+            },
+            {
+              "english": "So, 6.375 L = 6.375 × 1000 mL",
+              "hindi": "अब, 6.375 L = 6.375 × 1000 mL"
+            },
+            {
+              "english": "When we multiply by 1000, the decimal point moves 3 places to the right:\n6.375 → 6375",
+              "hindi": "1000 से गुणा करने पर दशमलव बिंदु 3 स्थान दाईं ओर चला जाता है:\n6.375 → 6375"
+            },
+            {
+              "english": "Therefore, 6.375 L = 6375 mL.\nFinal answer: 6375 mL",
+              "hindi": "इसलिए, 6.375 L = 6375 mL.\nअंतिम उत्तर: 6375 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9811,8 +12147,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert liters (L) into milliliters (mL), we use:\n1 L = 1000 mL",
+              "hindi": "लीटर (L) को मिलीलीटर (mL) में बदलने के लिए हम यह नियम इस्तेमाल करते हैं:\n1 L = 1000 mL"
+            },
+            {
+              "english": "So, multiply 8.05 by 1000:\n8.05 × 1000 = 8050",
+              "hindi": "अब 8.05 को 1000 से गुणा करते हैं:\n8.05 × 1000 = 8050"
+            },
+            {
+              "english": "You can also think of it like this:\n8 L = 8000 mL\n0.05 L = 50 mL\n8000 mL + 50 mL = 8050 mL",
+              "hindi": "इसे ऐसे भी समझ सकते हैं:\n8 L = 8000 mL\n0.05 L = 50 mL\n8000 mL + 50 mL = 8050 mL"
+            },
+            {
+              "english": "Final answer: 8050 mL",
+              "hindi": "अंतिम उत्तर: 8050 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9876,8 +12232,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We use the fact that 1000 mL = 1 L.",
+              "hindi": "हमें यह तथ्य उपयोग करना है कि 1000 mL = 1 L."
+            },
+            {
+              "english": "Step 1: Convert 125 mL into L.\n125 mL = 125 ÷ 1000 = 0.125 L.",
+              "hindi": "कदम 1: 125 mL को L में बदलें।\n125 mL = 125 ÷ 1000 = 0.125 L."
+            },
+            {
+              "english": "Step 2: Add this to 6 L.\n6 L + 0.125 L = 6.125 L.",
+              "hindi": "कदम 2: इसे 6 L में जोड़ें।\n6 L + 0.125 L = 6.125 L."
+            },
+            {
+              "english": "So, 6 L 125 mL = 6.125 L.\nFinal answer: 6.125 L",
+              "hindi": "इसलिए, 6 L 125 mL = 6.125 L.\nअंतिम उत्तर: 6.125 L"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9941,8 +12317,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 18 L 46 mL into litres, use the fact that 1 L = 1000 mL.",
+              "hindi": "18 L 46 mL को लीटर में बदलने के लिए, यह याद रखें कि 1 L = 1000 mL होता है।"
+            },
+            {
+              "english": "Step 1: Convert 46 mL into L.\n46 mL = 46/1000 L = 0.046 L",
+              "hindi": "चरण 1: 46 mL को लीटर में बदलें।\n46 mL = 46/1000 L = 0.046 L"
+            },
+            {
+              "english": "Step 2: Add it to 18 L.\n18 L + 0.046 L = 18.046 L",
+              "hindi": "चरण 2: इसे 18 L में जोड़ें।\n18 L + 0.046 L = 18.046 L"
+            },
+            {
+              "english": "Final answer: 18.046 L",
+              "hindi": "अंतिम उत्तर: 18.046 L"
+            }
+          ]
         }
       ],
       "tags": [
@@ -10006,8 +12402,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 120 L 8 mL into liters, keep the liters as they are and change the millilitres into liters.",
+              "hindi": "120 L 8 mL को लीटर में बदलने के लिए, लीटर को वैसे ही रखें और मिलीलीटर को लीटर में बदलें।"
+            },
+            {
+              "english": "We know that 1 L = 1000 mL.\nSo, 1 mL = 1/1000 L = 0.001 L.",
+              "hindi": "हमें पता है कि 1 L = 1000 mL.\nइसलिए 1 mL = 1/1000 L = 0.001 L."
+            },
+            {
+              "english": "Now convert 8 mL into liters:\n8 mL = 8 × 0.001 L = 0.008 L.",
+              "hindi": "अब 8 mL को लीटर में बदलते हैं:\n8 mL = 8 × 0.001 L = 0.008 L."
+            },
+            {
+              "english": "Now add this to 120 L:\n120 L + 0.008 L = 120.008 L.",
+              "hindi": "अब इसे 120 L में जोड़ते हैं:\n120 L + 0.008 L = 120.008 L."
+            },
+            {
+              "english": "Final answer: 120.008 L",
+              "hindi": "अंतिम उत्तर: 120.008 L"
+            }
+          ]
         }
       ],
       "tags": [
@@ -10071,8 +12491,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 8 kL 625 l into kL:\n1. We know that 1 kL = 1000 l.\n2. So, 625 l = 625 ÷ 1000 = 0.625 kL.\n3. Now add this to 8 kL: 8 + 0.625 = 8.625 kL.\nFinal answer: 8.625 kL.",
+              "hindi": "8 kL 625 l को kL में बदलने के लिए:\n1. हम जानते हैं कि 1 kL = 1000 l होता है।\n2. इसलिए 625 l = 625 ÷ 1000 = 0.625 kL।\n3. अब इसे 8 kL में जोड़ें: 8 + 0.625 = 8.625 kL।\nअंतिम उत्तर: 8.625 kL।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -10136,8 +12564,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 kL = 1000 L.\nWe need to convert 50 kL 60 L into kL.\nConvert 60 L into kL: 60 ÷ 1000 = 0.06 kL.\nNow add it to 50 kL: 50 + 0.06 = 50.06 kL.\nFinal answer: 50.06 kL",
+              "hindi": "1 kL = 1000 L होता है।\nहमें 50 kL 60 L को kL में बदलना है।\n60 L को kL में बदलें: 60 ÷ 1000 = 0.06 kL।\nअब इसे 50 kL में जोड़ें: 50 + 0.06 = 50.06 kL।\nअंतिम उत्तर: 50.06 kL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -10201,8 +12637,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 30 kL 5 L into kL, we use the fact that 1 kL = 1000 L.",
+              "hindi": "30 kL 5 L को kL में बदलने के लिए, हम यह जानते हैं कि 1 kL = 1000 L होता है।"
+            },
+            {
+              "english": "So, 5 L = 5/1000 kL = 0.005 kL.",
+              "hindi": "इसलिए, 5 L = 5/1000 kL = 0.005 kL."
+            },
+            {
+              "english": "Now add it to 30 kL:\n30 kL + 0.005 kL = 30.005 kL.",
+              "hindi": "अब इसे 30 kL में जोड़ते हैं:\n30 kL + 0.005 kL = 30.005 kL."
+            },
+            {
+              "english": "Final answer: 30.005 kL.",
+              "hindi": "अंतिम उत्तर: 30.005 kL."
+            }
+          ]
         }
       ],
       "tags": [
@@ -10266,8 +12722,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert milliliters (mL) into liters (L), remember:\n1 L = 1000 mL",
+              "hindi": "मिलीलीटर (mL) को लीटर (L) में बदलने के लिए याद रखें:\n1 L = 1000 mL"
+            },
+            {
+              "english": "So, we divide by 1000:\n3560 ÷ 1000 = 3.56",
+              "hindi": "अब 1000 से भाग देंगे:\n3560 ÷ 1000 = 3.56"
+            },
+            {
+              "english": "Therefore, 3560 mL = 3.56 L.\nFinal Answer: 3.56 L",
+              "hindi": "इसलिए, 3560 mL = 3.56 L.\nअंतिम उत्तर: 3.56 L"
+            }
+          ]
         }
       ],
       "tags": [
@@ -10331,8 +12803,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 68 mL into L, we use the fact that:",
+              "hindi": "68 mL को L में बदलने के लिए हम यह जानते हैं:"
+            },
+            {
+              "english": "1 L = 1000 mL",
+              "hindi": "1 L = 1000 mL"
+            },
+            {
+              "english": "So to change millilitres to litres, divide by 1000:\n68 mL = 68 ÷ 1000 L\n= 0.068 L",
+              "hindi": "अब millilitre को litre में बदलने के लिए 1000 से भाग देते हैं:\n68 mL = 68 ÷ 1000 L\n= 0.068 L"
+            },
+            {
+              "english": "Final answer: 0.068 L",
+              "hindi": "अंतिम उत्तर: 0.068 L"
+            }
+          ]
         }
       ],
       "tags": [
@@ -10396,8 +12888,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 9 mL into L, remember that 1 L = 1000 mL.\nSo, we divide by 1000.",
+              "hindi": "9 mL को L में बदलने के लिए याद रखें कि 1 L = 1000 mL होता है।\nइसलिए, 1000 से भाग देते हैं।"
+            },
+            {
+              "english": "9 mL = 9 ÷ 1000 L = 0.009 L.",
+              "hindi": "9 mL = 9 ÷ 1000 L = 0.009 L."
+            },
+            {
+              "english": "So, 9 mL = 0.009 L.\nFinal answer: 0.009 L",
+              "hindi": "इसलिए, 9 mL = 0.009 L.\nअंतिम उत्तर: 0.009 L"
+            }
+          ]
         }
       ],
       "tags": [
@@ -10461,8 +12969,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Add the litres and millilitres separately.",
+              "hindi": "लीटर और मिलीलीटर को अलग-अलग जोड़ते हैं।"
+            },
+            {
+              "english": "Step 1: Add the litres\n15 L + 23 L + 16 L = 54 L",
+              "hindi": "चरण 1: लीटर जोड़िए\n15 L + 23 L + 16 L = 54 L"
+            },
+            {
+              "english": "Step 2: Add the millilitres\n680 mL + 75 mL + 8 mL = 763 mL",
+              "hindi": "चरण 2: मिलीलीटर जोड़िए\n680 mL + 75 mL + 8 mL = 763 mL"
+            },
+            {
+              "english": "Step 3: Check if we need to convert\nSince 763 mL is less than 1000 mL, we do not need to carry anything to litres.",
+              "hindi": "चरण 3: जाँचिए कि क्या रूपांतरण करना है\nक्योंकि 763 mL, 1000 mL से कम है, इसलिए लीटर में कुछ जोड़ने की जरूरत नहीं है।"
+            },
+            {
+              "english": "So, the total is 54 L 763 mL.",
+              "hindi": "इसलिए कुल उत्तर है 54 L 763 mL."
+            }
+          ]
         }
       ],
       "tags": [
@@ -10526,8 +13058,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We add litres and millilitres separately.",
+              "hindi": "हम लीटर और मिलीलीटर को अलग-अलग जोड़ते हैं।"
+            },
+            {
+              "english": "Step 1: Add the litres\n37 L + 40 L + 51 L = 128 L",
+              "hindi": "चरण 1: लीटर जोड़िए\n37 L + 40 L + 51 L = 128 L"
+            },
+            {
+              "english": "Step 2: Add the millilitres\n56 mL + 67 mL + 43 mL = 166 mL",
+              "hindi": "चरण 2: मिलीलीटर जोड़िए\n56 mL + 67 mL + 43 mL = 166 mL"
+            },
+            {
+              "english": "Step 3: Check if we need to carry\n166 mL is less than 1000 mL, so no carrying is needed.",
+              "hindi": "चरण 3: देखें कि क्या carry करना है\n166 mL, 1000 mL से कम है, इसलिए carry नहीं करेंगे।"
+            },
+            {
+              "english": "So, the total is 128 L 166 mL.",
+              "hindi": "इसलिए कुल उत्तर है 128 L 166 mL।"
+            },
+            {
+              "english": "Final answer: 128 L 166 mL",
+              "hindi": "अंतिम उत्तर: 128 L 166 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -10591,8 +13151,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Add the liters: 19 + 76 + 88 = 183 L.\nStep 2: Add the milliliters: 9 + 7 + 5 = 21 mL.\nStep 3: Since 21 mL is less than 1000 mL, no carrying is needed.\nSo, the total is 183 L 21 mL.\nFinal answer: 183 L 21 mL",
+              "hindi": "चरण 1: लीटर जोड़ें: 19 + 76 + 88 = 183 L.\nचरण 2: मिलीलीटर जोड़ें: 9 + 7 + 5 = 21 mL.\nचरण 3: 21 mL, 1000 mL से कम है, इसलिए कोई कैरी नहीं होगी।\nइसलिए कुल योग 183 L 21 mL है।\nअंतिम उत्तर: 183 L 21 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -10656,8 +13224,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us add the amounts step by step.",
+              "hindi": "आइए इस जोड़ को चरण-दर-चरण हल करें।"
+            },
+            {
+              "english": "We have:\n86 kL 450 L\n93 kL 675 L\n3 kL 287 L",
+              "hindi": "दिए गए हैं:\n86 kL 450 L\n93 kL 675 L\n3 kL 287 L"
+            },
+            {
+              "english": "Step 1: Add the liters.\n450 L + 675 L + 287 L = 1412 L",
+              "hindi": "चरण 1: पहले लीटर जोड़ते हैं।\n450 L + 675 L + 287 L = 1412 L"
+            },
+            {
+              "english": "Step 2: Convert 1412 L into kL and L.\n1000 L = 1 kL, so 1412 L = 1 kL 412 L",
+              "hindi": "चरण 2: 1412 L को kL और L में बदलते हैं।\n1000 L = 1 kL होता है, इसलिए 1412 L = 1 kL 412 L"
+            },
+            {
+              "english": "Step 3: Add the kiloliters.\n86 kL + 93 kL + 3 kL = 182 kL",
+              "hindi": "चरण 3: अब किलोलीटर जोड़ते हैं।\n86 kL + 93 kL + 3 kL = 182 kL"
+            },
+            {
+              "english": "Step 4: Add the carried 1 kL.\n182 kL + 1 kL = 183 kL",
+              "hindi": "चरण 4: जो 1 kL ऊपर आया था, उसे भी जोड़ते हैं।\n182 kL + 1 kL = 183 kL"
+            },
+            {
+              "english": "So, the total is 183 kL 412 L.",
+              "hindi": "इसलिए, अंतिम उत्तर है 183 kL 412 L."
+            }
+          ]
         }
       ],
       "tags": [
@@ -10721,8 +13321,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us add the kilolitres and litres separately.",
+              "hindi": "आइए पहले किलोलीटर और लीटर को अलग-अलग जोड़ते हैं।"
+            },
+            {
+              "english": "Kilolitres:\n29 kL + 48 kL + 74 kL = 151 kL",
+              "hindi": "किलोलीटर:\n29 kL + 48 kL + 74 kL = 151 kL"
+            },
+            {
+              "english": "Litres:\n568 L + 39 L + 6 L = 613 L",
+              "hindi": "लीटर:\n568 L + 39 L + 6 L = 613 L"
+            },
+            {
+              "english": "Since 613 L is less than 1000 L, we do not need to convert it into kilolitres.",
+              "hindi": "क्योंकि 613 L, 1000 L से कम है, इसलिए इसे किलोलीटर में बदलने की जरूरत नहीं है।"
+            },
+            {
+              "english": "So, the total is 151 kL 613 L.",
+              "hindi": "अतः कुल योग 151 kL 613 L है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -10786,8 +13410,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Think of 1 kL as 1000 L.\nAdd the kilolitres: 9 kL + 8 kL = 17 kL.\nAdd the litres: 9 L + 8 L + 93 L = 110 L.\nBecause 110 L is less than 1000 L, it stays as litres.\nSo, the total is 17 kL 110 L.\nFinal answer: 17 kL 110 L.",
+              "hindi": "1 kL = 1000 L होता है.\nपहले किलोलीटर जोड़ें: 9 kL + 8 kL = 17 kL.\nअब लीटर जोड़ें: 9 L + 8 L + 93 L = 110 L.\nक्योंकि 110 L, 1000 L से कम है, इसलिए इसे लीटर में ही रखते हैं.\nइसलिए कुल 17 kL 110 L है.\nअंतिम उत्तर: 17 kL 110 L."
+            }
+          ]
         }
       ],
       "tags": [
@@ -10851,8 +13483,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 68 L 590 mL from 105 L 325 mL.\nStep 1: Since 325 mL is smaller than 590 mL, borrow 1 L = 1000 mL from 105 L.\nSo, 105 L 325 mL becomes 104 L 1325 mL.\nStep 2: Subtract the millilitres: 1325 mL - 590 mL = 735 mL.\nStep 3: Subtract the litres: 104 L - 68 L = 36 L.\nSo, the result is 36 L 735 mL.\nFinal answer: 36 L 735 mL.",
+              "hindi": "हमें 105 L 325 mL में से 68 L 590 mL घटाना है।\nचरण 1: क्योंकि 325 mL, 590 mL से छोटा है, इसलिए 105 L में से 1 L उधार लेते हैं। 1 L = 1000 mL होता है।\nअब 105 L 325 mL = 104 L 1325 mL.\nचरण 2: अब मिलीलीटर घटाइए: 1325 mL - 590 mL = 735 mL.\nचरण 3: अब लीटर घटाइए: 104 L - 68 L = 36 L.\nइसलिए उत्तर है 36 L 735 mL.\nअंतिम उत्तर: 36 L 735 mL."
+            }
+          ]
         }
       ],
       "tags": [
@@ -10916,8 +13556,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Write 112 L as 112 L 0 mL.\nNow subtract 74 L 625 mL.\nSince 0 mL is smaller than 625 mL, borrow 1 L from 112 L.\nSo 112 L 0 mL becomes 111 L 1000 mL.\nNow subtract the milliliters: 1000 mL - 625 mL = 375 mL.\nThen subtract the liters: 111 L - 74 L = 37 L.\nSo, the answer is 37 L 375 mL.",
+              "hindi": "112 L को 112 L 0 mL लिखिए।\nअब 74 L 625 mL घटाइए।\nक्योंकि 0 mL, 625 mL से छोटा है, इसलिए 112 L में से 1 L उधार लेते हैं।\nइससे 112 L 0 mL = 111 L 1000 mL हो जाता है।\nअब mL घटाइए: 1000 mL - 625 mL = 375 mL.\nफिर L घटाइए: 111 L - 74 L = 37 L.\nइसलिए उत्तर है 37 L 375 mL."
+            }
+          ]
         }
       ],
       "tags": [
@@ -10981,8 +13629,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 49 L 875 mL from 83 L 60 mL.\nStep 1: Since 60 mL is smaller than 875 mL, borrow 1 L from 83 L.\n1 L = 1000 mL, so 83 L 60 mL becomes 82 L 1060 mL.\nStep 2: Subtract the milliliters: 1060 mL - 875 mL = 185 mL.\nStep 3: Subtract the liters: 82 L - 49 L = 33 L.\nSo, the answer is 33 L 185 mL.\nFinal answer: 33 L 185 mL",
+              "hindi": "हमें 83 L 60 mL में से 49 L 875 mL घटाना है।\nचरण 1: 60 mL, 875 mL से छोटा है, इसलिए 83 L में से 1 L उधार लेते हैं।\n1 L = 1000 mL, इसलिए 83 L 60 mL = 82 L 1060 mL हो जाता है।\nचरण 2: अब मिलीलीटर घटाइए: 1060 mL - 875 mL = 185 mL।\nचरण 3: अब लीटर घटाइए: 82 L - 49 L = 33 L।\nइसलिए उत्तर है 33 L 185 mL।\nFinal answer: 33 L 185 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -11046,8 +13702,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 56 kL 376 L from 80 kL 80 L.",
+              "hindi": "हमें 56 kL 376 L को 80 kL 80 L में से घटाना है।"
+            },
+            {
+              "english": "Step 1: Compare the liters.\nWe have 80 L, but we need to subtract 376 L.\nSo, we borrow 1 kL from 80 kL.",
+              "hindi": "चरण 1: लीटर को देखिए।\n80 L में 376 L नहीं घटाए जा सकते, इसलिए 1 kL उधार लेते हैं।"
+            },
+            {
+              "english": "1 kL = 1000 L\nSo 80 kL 80 L becomes 79 kL 1080 L.",
+              "hindi": "1 kL = 1000 L\nइसलिए 80 kL 80 L = 79 kL 1080 L हो जाता है।"
+            },
+            {
+              "english": "Step 2: Subtract liters.\n1080 L - 376 L = 704 L",
+              "hindi": "चरण 2: लीटर घटाइए।\n1080 L - 376 L = 704 L"
+            },
+            {
+              "english": "Step 3: Subtract kiloliters.\n79 kL - 56 kL = 23 kL",
+              "hindi": "चरण 3: किलोलिटर घटाइए।\n79 kL - 56 kL = 23 kL"
+            },
+            {
+              "english": "So, the answer is 23 kL 704 L.",
+              "hindi": "अतः उत्तर है 23 kL 704 L।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -11111,8 +13795,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 27 kL 89 L from 90 kL 7 L.",
+              "hindi": "हमें 90 kL 7 L में से 27 kL 89 L घटाना है।"
+            },
+            {
+              "english": "Step 1: Write the numbers in columns.\n90 kL 7 L\n- 27 kL 89 L",
+              "hindi": "चरण 1: दोनों संख्याएँ ऊपर-नीचे लिखिए।\n90 kL 7 L\n- 27 kL 89 L"
+            },
+            {
+              "english": "Step 2: Subtract the litres.\n7 L is smaller than 89 L, so we borrow 1 kL from 90 kL.\n1 kL = 1000 L\nSo, 90 kL 7 L becomes 89 kL 1007 L.",
+              "hindi": "चरण 2: पहले लीटर घटाइए।\n7 L, 89 L से छोटा है, इसलिए हमें 90 kL में से 1 kL उधार लेना होगा।\n1 kL = 1000 L\nइसलिए 90 kL 7 L = 89 kL 1007 L"
+            },
+            {
+              "english": "Step 3: Now subtract.\nLitres: 1007 L - 89 L = 918 L\nKilolitres: 89 kL - 27 kL = 62 kL",
+              "hindi": "चरण 3: अब घटाइए।\nलीटर: 1007 L - 89 L = 918 L\nकिलोलीटर: 89 kL - 27 kL = 62 kL"
+            },
+            {
+              "english": "So, the answer is 62 kL 918 L.",
+              "hindi": "अतः उत्तर है 62 kL 918 L."
+            }
+          ]
         }
       ],
       "tags": [
@@ -11176,8 +13884,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 35 kL 267 L from 50 kL.",
+              "hindi": "हमें 50 kL में से 35 kL 267 L घटाना है।"
+            },
+            {
+              "english": "Step 1: Write 50 kL in a form that lets us subtract liters.\n1 kL = 1000 L, so 50 kL = 49 kL 1000 L.",
+              "hindi": "चरण 1: 50 kL को ऐसे लिखिए जिससे लीटर घटा सकें।\n1 kL = 1000 L, इसलिए 50 kL = 49 kL 1000 L लिखते हैं।"
+            },
+            {
+              "english": "Step 2: Subtract liters.\n1000 L - 267 L = 733 L.",
+              "hindi": "चरण 2: लीटर घटाइए।\n1000 L - 267 L = 733 L."
+            },
+            {
+              "english": "Step 3: Subtract kiloliters.\n49 kL - 35 kL = 14 kL.",
+              "hindi": "चरण 3: किलोलीटर घटाइए।\n49 kL - 35 kL = 14 kL."
+            },
+            {
+              "english": "So, the result is 14 kL 733 L.",
+              "hindi": "अतः उत्तर है 14 kL 733 L."
+            }
+          ]
         }
       ],
       "tags": [
@@ -11241,8 +13973,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, add the milliliters: 650 mL + 500 mL + 850 mL = 2000 mL.\n2000 mL = 2 L.\nNow add the liters: 5 L + 4 L + 6 L = 15 L.\nAdd the extra 2 L: 15 L + 2 L = 17 L.\nSo, Shobha bought 17 L milk in three days. Final answer: 17 L.",
+              "hindi": "पहले milliliter जोड़ते हैं: 650 mL + 500 mL + 850 mL = 2000 mL.\n2000 mL = 2 L.\nअब liter जोड़ते हैं: 5 L + 4 L + 6 L = 15 L.\nअब 2 L और जोड़ते हैं: 15 L + 2 L = 17 L.\nइसलिए शोभा ने तीन दिनों में 17 L दूध खरीदा। अंतिम उत्तर: 17 L."
+            }
+          ]
         }
       ],
       "tags": [
@@ -11306,8 +14046,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Write the quantities.\n- Milk = 8 L 725 mL\n- Water = 1 L 275 mL",
+              "hindi": "चरण 1: दी गई मात्रा लिखिए।\n- दूध = 8 L 725 mL\n- पानी = 1 L 275 mL"
+            },
+            {
+              "english": "Step 2: Add the millilitres.\n725 mL + 275 mL = 1000 mL\n1000 mL = 1 L",
+              "hindi": "चरण 2: मिलीलीटर को जोड़िए।\n725 mL + 275 mL = 1000 mL\n1000 mL = 1 L"
+            },
+            {
+              "english": "Step 3: Add the litres.\n8 L + 1 L + 1 L = 10 L",
+              "hindi": "चरण 3: लीटर को जोड़िए।\n8 L + 1 L + 1 L = 10 L"
+            },
+            {
+              "english": "So, the total volume of the adulterated milk is 10 L.\nFinal answer: 10 L",
+              "hindi": "इसलिए, मिलावटी दूध का कुल आयतन 10 L है।\nअंतिम उत्तर: 10 L"
+            }
+          ]
         }
       ],
       "tags": [
@@ -11371,8 +14131,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find how much more water can be poured into the bath tub.",
+              "hindi": "हमें यह पता लगाना है कि टब में और कितना पानी डाला जा सकता है।"
+            },
+            {
+              "english": "Capacity of the bath tub = 70 L 0 mL\nWater already in the tub = 23 L 750 mL",
+              "hindi": "टब की कुल क्षमता = 70 L 0 mL\nटब में पहले से पानी = 23 L 750 mL"
+            },
+            {
+              "english": "Now subtract:\n70 L 0 mL - 23 L 750 mL",
+              "hindi": "अब घटाएँ:\n70 L 0 mL - 23 L 750 mL"
+            },
+            {
+              "english": "Since 0 mL is smaller than 750 mL, we borrow 1 L from 70 L.\nSo, 70 L 0 mL becomes 69 L 1000 mL.",
+              "hindi": "क्योंकि 0 mL, 750 mL से छोटा है, इसलिए 70 L में से 1 L उधार लेते हैं।\nतो 70 L 0 mL = 69 L 1000 mL"
+            },
+            {
+              "english": "Now subtract:\n1000 mL - 750 mL = 250 mL\n69 L - 23 L = 46 L",
+              "hindi": "अब घटाएँ:\n1000 mL - 750 mL = 250 mL\n69 L - 23 L = 46 L"
+            },
+            {
+              "english": "So, the bath tub can take 46 L 250 mL more water.",
+              "hindi": "इसलिए टब में और 46 L 250 mL पानी डाला जा सकता है।"
+            },
+            {
+              "english": "Final answer: 46 L 250 mL",
+              "hindi": "अंतिम उत्तर: 46 L 250 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -11436,8 +14228,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find how much petrol was used up.\n\nStep 1: Petrol at the start = 28 L\nStep 2: Petrol left at the end = 12 L 365 mL\n\nNow subtract the remaining petrol from the starting petrol.\nTo subtract easily, write 28 L as 27 L 1000 mL.\n\n27 L 1000 mL\n- 12 L 365 mL\n= 15 L 635 mL\n\nSo, the petrol used up in the journey was 15 L 635 mL.\n\nFinal answer: 15 L 635 mL",
+              "hindi": "हमें यह पता करना है कि यात्रा में कितना पेट्रोल खर्च हुआ।\n\nचरण 1: शुरुआत में पेट्रोल = 28 L\nचरण 2: अंत में बचा हुआ पेट्रोल = 12 L 365 mL\n\nअब, खर्च हुआ पेट्रोल = शुरू का पेट्रोल - बचा हुआ पेट्रोल\n\nघटाने के लिए 28 L को 27 L 1000 mL लिखते हैं।\n\n27 L 1000 mL\n- 12 L 365 mL\n= 15 L 635 mL\n\nइसलिए यात्रा में 15 L 635 mL पेट्रोल खर्च हुआ।\n\nअंतिम उत्तर: 15 L 635 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -11501,8 +14301,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find the total weight of Michael and Rahul.",
+              "hindi": "हमें माइकल और राहुल का कुल वजन निकालना है।"
+            },
+            {
+              "english": "Michael = 46 kg 365 g\nRahul = 28 kg 975 g",
+              "hindi": "माइकल = 46 kg 365 g\nराहुल = 28 kg 975 g"
+            },
+            {
+              "english": "Step 1: Add the grams.\n365 g + 975 g = 1340 g",
+              "hindi": "चरण 1: पहले ग्राम जोड़ते हैं।\n365 g + 975 g = 1340 g"
+            },
+            {
+              "english": "1340 g = 1 kg 340 g",
+              "hindi": "1340 g = 1 kg 340 g"
+            },
+            {
+              "english": "Step 2: Add the kilograms.\n46 kg + 28 kg = 74 kg",
+              "hindi": "चरण 2: फिर किलोग्राम जोड़ते हैं।\n46 kg + 28 kg = 74 kg"
+            },
+            {
+              "english": "Step 3: Add the extra 1 kg from the grams.\n74 kg + 1 kg = 75 kg",
+              "hindi": "चरण 3: ग्राम से मिला 1 kg भी जोड़ते हैं।\n74 kg + 1 kg = 75 kg"
+            },
+            {
+              "english": "So, the total weight is 75 kg 340 g.",
+              "hindi": "इसलिए, कुल वजन 75 kg 340 g है।"
+            },
+            {
+              "english": "Final answer: 75 kg 340 g",
+              "hindi": "अंतिम उत्तर: 75 kg 340 g"
+            }
+          ]
         }
       ],
       "tags": [
@@ -11566,8 +14402,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A bottle contains 875 mL of syrup.\nFor 12 bottles:\n875 × 12 = 10500 mL\nNow convert mL to litres.\n1000 mL = 1 L\n10500 mL = 10500 ÷ 1000 = 10.5 L\nSo, the quantity of syrup in 12 bottles is 10.5 L.\nFinal answer: 10.5 L",
+              "hindi": "एक बोतल में 875 mL सिरप है।\n12 बोतलों में सिरप की मात्रा:\n875 × 12 = 10500 mL\nअब mL को लीटर में बदलते हैं।\n1000 mL = 1 L\n10500 mL = 10500 ÷ 1000 = 10.5 L\nइसलिए 12 बोतलों में सिरप की मात्रा 10.5 L है।\nअंतिम उत्तर: 10.5 L"
+            }
+          ]
         }
       ],
       "tags": [
@@ -11631,8 +14475,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Convert the soft drink in 1 can into milliliters.\n2 L 425 mL = 2000 mL + 425 mL = 2425 mL",
+              "hindi": "चरण 1: 1 कैन में दी गई सॉफ्ट ड्रिंक को मिलीलीटर में बदलते हैं।\n2 L 425 mL = 2000 mL + 425 mL = 2425 mL"
+            },
+            {
+              "english": "Step 2: Multiply by 8.\n2425 × 8 = 19400 mL",
+              "hindi": "चरण 2: अब इसे 8 से गुणा करते हैं।\n2425 × 8 = 19400 mL"
+            },
+            {
+              "english": "Step 3: Convert 19400 mL back into liters and milliliters.\n19400 mL = 19 L 400 mL",
+              "hindi": "चरण 3: 19400 mL को फिर से लीटर और मिलीलीटर में बदलते हैं।\n19400 mL = 19 L 400 mL"
+            },
+            {
+              "english": "So, the soft drink in 8 such cans is 19 L 400 mL.\nFinal answer: 19 L 400 mL",
+              "hindi": "इसलिए 8 ऐसी कैनों में 19 L 400 mL सॉफ्ट ड्रिंक होगी।\nअंतिम उत्तर: 19 L 400 mL"
+            }
+          ]
         }
       ],
       "tags": [
@@ -11696,8 +14560,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: The tap leaks 150 mL in 1 hour.\nStep 2: In 10 hours, water wasted = 150 × 10 = 1500 mL.\nStep 3: Convert mL to litres. 1000 mL = 1 litre, so 1500 mL = 1.5 litres.\nFinal answer: 1.5 litres.",
+              "hindi": "Step 1: नल 1 घंटे में 150 mL पानी टपकाता है।\nStep 2: 10 घंटे में पानी = 150 × 10 = 1500 mL होगा।\nStep 3: mL को लीटर में बदलें। 1000 mL = 1 लीटर, इसलिए 1500 mL = 1.5 लीटर।\nअंतिम उत्तर: 1.5 लीटर।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -11760,8 +14632,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, convert litres to millilitres.\n1 litre = 1000 mL\nSo, 10 litres = 10 × 1000 = 10000 mL.\nEach bottle holds 250 mL.\nNumber of bottles = 10000 ÷ 250 = 40.\nSo, 40 bottles are required. Final answer: 40 bottles.",
+              "hindi": "पहले लीटर को मिलीलीटर में बदलें।\n1 लीटर = 1000 mL\nइसलिए, 10 लीटर = 10 × 1000 = 10000 mL.\nहर बोतल में 250 mL आता है।\nबोतलों की संख्या = 10000 ÷ 250 = 40.\nइसलिए, 40 बोतलों की आवश्यकता होगी। अंतिम उत्तर: 40 बोतलें।"
+            }
+          ]
         }
       ],
       "tags": [

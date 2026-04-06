@@ -240,8 +240,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the area of a rectangle, we use the formula:\nArea = Length × Breadth",
+              "hindi": "आयत का क्षेत्रफल निकालने का सूत्र है:\nक्षेत्रफल = लंबाई × चौड़ाई"
+            },
+            {
+              "english": "Here,\nLength = 18 cm\nBreadth = 12 cm",
+              "hindi": "यहाँ,\nलंबाई = 18 सेमी\nचौड़ाई = 12 सेमी"
+            },
+            {
+              "english": "Now substitute the values:\nArea = 18 × 12\nArea = 216",
+              "hindi": "अब मानों को सूत्र में रखें:\nक्षेत्रफल = 18 × 12\nक्षेत्रफल = 216"
+            },
+            {
+              "english": "So, the area of the rectangle is 216 square cm.\nFinal answer: 216 sq cm",
+              "hindi": "इसलिए, आयत का क्षेत्रफल 216 वर्ग सेमी है।\nअंतिम उत्तर: 216 वर्ग सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -306,8 +326,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the area of a rectangle, we use:\nArea = Length × Breadth",
+              "hindi": "आयत का क्षेत्रफल निकालने का सूत्र है:\nक्षेत्रफल = लंबाई × चौड़ाई"
+            },
+            {
+              "english": "Here, Length = 14 m and Breadth = 9 m.",
+              "hindi": "यहाँ, लंबाई = 14 m और चौड़ाई = 9 m है।"
+            },
+            {
+              "english": "Now multiply:\nArea = 14 × 9 = 126",
+              "hindi": "अब गुणा करते हैं:\nक्षेत्रफल = 14 × 9 = 126"
+            },
+            {
+              "english": "So, the area of the rectangle is 126 square metres.\nFinal answer: 126 sq m",
+              "hindi": "इसलिए, आयत का क्षेत्रफल 126 वर्ग मीटर है।\nअंतिम उत्तर: 126 sq m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -372,8 +412,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the area of a rectangle, use:\nArea = Length × Breadth\nHere, Length = 56 cm and Breadth = 8.5 cm.\nSo,\nArea = 56 × 8.5\n= 56 × (8 + 0.5)\n= (56 × 8) + (56 × 0.5)\n= 448 + 28\n= 476\nSo, the area of the rectangle is 476 sq cm.",
+              "hindi": "आयत का क्षेत्रफल निकालने के लिए:\nक्षेत्रफल = लंबाई × चौड़ाई\nयहाँ, लंबाई = 56 सेमी और चौड़ाई = 8.5 सेमी है।\nइसलिए,\nक्षेत्रफल = 56 × 8.5\n= 56 × (8 + 0.5)\n= (56 × 8) + (56 × 0.5)\n= 448 + 28\n= 476\nअतः आयत का क्षेत्रफल 476 वर्ग सेमी है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -438,8 +486,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Area of a rectangle = Length × Breadth.",
+              "hindi": "आयत का क्षेत्रफल = लंबाई × चौड़ाई।"
+            },
+            {
+              "english": "Given:\nLength = 27.5 cm\nBreadth = 16 cm",
+              "hindi": "दिया है:\nलंबाई = 27.5 सेमी\nचौड़ाई = 16 सेमी"
+            },
+            {
+              "english": "Now multiply:\nArea = 27.5 × 16\nArea = 440",
+              "hindi": "अब गुणा करें:\nक्षेत्रफल = 27.5 × 16\nक्षेत्रफल = 440"
+            },
+            {
+              "english": "So, the area of the rectangle is 440 sq cm.\nFinal answer: 440 sq cm",
+              "hindi": "इसलिए, आयत का क्षेत्रफल 440 वर्ग सेमी है।\nअंतिम उत्तर: 440 वर्ग सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -504,8 +572,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the area of a rectangle, we use the formula:\nArea = Length × Breadth",
+              "hindi": "आयत का क्षेत्रफल निकालने के लिए सूत्र होता है:\nक्षेत्रफल = लंबाई × चौड़ाई"
+            },
+            {
+              "english": "Given:\nLength = 1.8 m\nBreadth = 80 cm",
+              "hindi": "दिया है:\nलंबाई = 1.8 m\nचौड़ाई = 80 cm"
+            },
+            {
+              "english": "First, convert both measurements into the same unit.\n80 cm = 0.8 m",
+              "hindi": "पहले दोनों मापों को एक ही इकाई में बदलते हैं।\n80 cm = 0.8 m"
+            },
+            {
+              "english": "Now multiply:\nArea = 1.8 × 0.8\nArea = 1.44",
+              "hindi": "अब गुणा करते हैं:\nक्षेत्रफल = 1.8 × 0.8\nक्षेत्रफल = 1.44"
+            },
+            {
+              "english": "So, the area of the rectangle is 1.44 square metres.",
+              "hindi": "इसलिए आयत का क्षेत्रफल 1.44 वर्ग मीटर है।"
+            },
+            {
+              "english": "Final Answer: 1.44 sq m",
+              "hindi": "अंतिम उत्तर: 1.44 वर्ग मीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -572,8 +668,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the area of a rectangle, we use:\nArea = Length × Breadth",
+              "hindi": "आयत का क्षेत्रफल निकालने का सूत्र है:\nक्षेत्रफल = लंबाई × चौड़ाई"
+            },
+            {
+              "english": "Step 1: Make the units the same.\nLength = 2 m 50 cm = 2.5 m\nBreadth = 60 cm = 0.6 m",
+              "hindi": "चरण 1: दोनों मापों को एक ही इकाई में बदलें।\nलंबाई = 2 m 50 cm = 2.5 m\nचौड़ाई = 60 cm = 0.6 m"
+            },
+            {
+              "english": "Step 2: Multiply.\nArea = 2.5 × 0.6 = 1.5 sq. m",
+              "hindi": "चरण 2: गुणा करें।\nक्षेत्रफल = 2.5 × 0.6 = 1.5 वर्ग मीटर"
+            },
+            {
+              "english": "We can also write it in square centimetres:\n2 m 50 cm = 250 cm\nArea = 250 × 60 = 15000 sq. cm",
+              "hindi": "इसे वर्ग सेंटीमीटर में भी लिख सकते हैं:\n2 m 50 cm = 250 cm\nक्षेत्रफल = 250 × 60 = 15000 वर्ग सेमी"
+            },
+            {
+              "english": "Final Answer: 1.5 sq. m",
+              "hindi": "अंतिम उत्तर: 1.5 वर्ग मीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -638,8 +758,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A square has 4 equal sides.\nThe area of a square is found by:\nArea = side × side\nHere, side = 17 cm\nSo, Area = 17 × 17 = 289\nTherefore, the area of the square is 289 sq cm.",
+              "hindi": "वर्ग की 4 भुजाएँ बराबर होती हैं।\nवर्ग का क्षेत्रफल निकालने का सूत्र है:\nक्षेत्रफल = भुजा × भुजा\nयहाँ भुजा = 17 सेमी\nइसलिए, क्षेत्रफल = 17 × 17 = 289\nअतः, वर्ग का क्षेत्रफल 289 वर्ग सेमी है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -704,8 +832,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the area of a square, we use:\nArea = side × side",
+              "hindi": "वर्ग का क्षेत्रफल निकालने का सूत्र है:\nक्षेत्रफल = भुजा × भुजा"
+            },
+            {
+              "english": "Here, side = 23 m\nSo,\nArea = 23 × 23 = 529",
+              "hindi": "यहाँ भुजा = 23 m\nतो,\nक्षेत्रफल = 23 × 23 = 529"
+            },
+            {
+              "english": "Therefore, the area of the square is 529 sq m.",
+              "hindi": "इसलिए, वर्ग का क्षेत्रफल 529 वर्ग मीटर है।"
+            },
+            {
+              "english": "Final answer: 529 sq m",
+              "hindi": "अंतिम उत्तर: 529 वर्ग मीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -770,8 +918,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the area of a square, we use the formula:",
+              "hindi": "वर्ग का क्षेत्रफल निकालने का सूत्र है:"
+            },
+            {
+              "english": "Area = side × side",
+              "hindi": "क्षेत्रफल = भुजा × भुजा"
+            },
+            {
+              "english": "Here, the side of the square is 13.5 cm.",
+              "hindi": "यहाँ वर्ग की भुजा 13.5 सेमी है।"
+            },
+            {
+              "english": "So,\nArea = 13.5 × 13.5\nArea = 182.25",
+              "hindi": "इसलिए,\nक्षेत्रफल = 13.5 × 13.5\nक्षेत्रफल = 182.25"
+            },
+            {
+              "english": "The area of the square is 182.25 sq cm.",
+              "hindi": "वर्ग का क्षेत्रफल 182.25 वर्ग सेमी है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -836,8 +1008,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Side of the square = 3 m 40 cm.\nFirst, convert 40 cm into metres:\n40 cm = 0.40 m\nSo, side = 3.40 m",
+              "hindi": "वर्ग की भुजा = 3 m 40 cm\nपहले 40 cm को मीटर में बदलते हैं:\n40 cm = 0.40 m\nइसलिए भुजा = 3.40 m"
+            },
+            {
+              "english": "Area of a square = side × side\nArea = 3.40 × 3.40\nArea = 11.56 sq m",
+              "hindi": "वर्ग का क्षेत्रफल = भुजा × भुजा\nक्षेत्रफल = 3.40 × 3.40\nक्षेत्रफल = 11.56 वर्ग मीटर"
+            },
+            {
+              "english": "Final answer: 11.56 sq m",
+              "hindi": "अंतिम उत्तर: 11.56 वर्ग मीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -901,8 +1089,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the length of a rectangle, we use:\nArea = length × breadth\nGiven:\nArea = 104 sq cm\nBreadth = 8 cm\nSo, length = Area ÷ Breadth\nLength = 104 ÷ 8\nLength = 13 cm\nTherefore, the length of the rectangle is 13 cm.",
+              "hindi": "आयत की लंबाई निकालने के लिए हम सूत्र उपयोग करते हैं:\nक्षेत्रफल = लंबाई × चौड़ाई\nदिया है:\nक्षेत्रफल = 104 वर्ग सेमी\nचौड़ाई = 8 सेमी\nअब,\nलंबाई = क्षेत्रफल ÷ चौड़ाई\nलंबाई = 104 ÷ 8\nलंबाई = 13 सेमी\nइसलिए, आयत की लंबाई 13 सेमी है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -966,8 +1162,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know the formula for the area of a rectangle:\nArea = Length × Breadth",
+              "hindi": "हमें आयत का क्षेत्रफल वाला सूत्र पता है:\nक्षेत्रफल = लंबाई × चौड़ाई"
+            },
+            {
+              "english": "Given:\nArea = 378 sq m\nBreadth = 14 m",
+              "hindi": "दिया है:\nक्षेत्रफल = 378 वर्ग मीटर\nचौड़ाई = 14 मीटर"
+            },
+            {
+              "english": "To find the length, divide the area by the breadth:\nLength = Area ÷ Breadth\nLength = 378 ÷ 14\nLength = 27",
+              "hindi": "लंबाई निकालने के लिए, क्षेत्रफल को चौड़ाई से भाग देते हैं:\nलंबाई = क्षेत्रफल ÷ चौड़ाई\nलंबाई = 378 ÷ 14\nलंबाई = 27"
+            },
+            {
+              "english": "So, the length of the rectangle is 27 m.",
+              "hindi": "इसलिए, आयत की लंबाई 27 मीटर है।"
+            },
+            {
+              "english": "Final answer: 27 m",
+              "hindi": "अंतिम उत्तर: 27 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1031,8 +1251,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the length of a rectangle, we use:",
+              "hindi": "आयत की लंबाई निकालने के लिए हम सूत्र का उपयोग करते हैं:"
+            },
+            {
+              "english": "Area = Length × Breadth",
+              "hindi": "क्षेत्रफल = लंबाई × चौड़ाई"
+            },
+            {
+              "english": "Given:\n- Area = 900 sq cm\n- Breadth = 25 cm",
+              "hindi": "दिया है:\n- क्षेत्रफल = 900 वर्ग सेमी\n- चौड़ाई = 25 सेमी"
+            },
+            {
+              "english": "Now use the formula:\n900 = Length × 25",
+              "hindi": "अब सूत्र में मान रखें:\n900 = लंबाई × 25"
+            },
+            {
+              "english": "To find Length, divide area by breadth:\nLength = 900 ÷ 25\nLength = 36",
+              "hindi": "लंबाई निकालने के लिए क्षेत्रफल को चौड़ाई से भाग दें:\nलंबाई = 900 ÷ 25\nलंबाई = 36"
+            },
+            {
+              "english": "So, the length of the rectangle is 36 cm.",
+              "hindi": "इसलिए, आयत की लंबाई 36 सेमी है।"
+            },
+            {
+              "english": "Final answer: 36 cm",
+              "hindi": "अंतिम उत्तर: 36 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1096,8 +1348,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the length of a rectangle, we use the formula:",
+              "hindi": "आयत की लंबाई निकालने के लिए हम सूत्र का उपयोग करते हैं:"
+            },
+            {
+              "english": "Area = Length × Breadth",
+              "hindi": "क्षेत्रफल = लंबाई × चौड़ाई"
+            },
+            {
+              "english": "Given:\nArea = 102 sq m\nBreadth = 8.5 m",
+              "hindi": "दिया है:\nक्षेत्रफल = 102 वर्ग मीटर\nचौड़ाई = 8.5 मीटर"
+            },
+            {
+              "english": "So,\nLength = Area ÷ Breadth\nLength = 102 ÷ 8.5\nLength = 12",
+              "hindi": "तो,\nलंबाई = क्षेत्रफल ÷ चौड़ाई\nलंबाई = 102 ÷ 8.5\nलंबाई = 12"
+            },
+            {
+              "english": "So, the length of the rectangle is 12 m.",
+              "hindi": "अतः, आयत की लंबाई 12 m है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1161,8 +1437,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the breadth of a rectangle, we use the formula:\nArea = Length × Breadth",
+              "hindi": "आयत की चौड़ाई निकालने के लिए हम सूत्र का उपयोग करते हैं:\nक्षेत्रफल = लंबाई × चौड़ाई"
+            },
+            {
+              "english": "Given:\nArea = 208 sq cm\nLength = 16 cm",
+              "hindi": "दिया है:\nक्षेत्रफल = 208 वर्ग सेमी\nलंबाई = 16 सेमी"
+            },
+            {
+              "english": "Now rearrange the formula to find breadth:\nBreadth = Area ÷ Length",
+              "hindi": "अब चौड़ाई निकालने के लिए सूत्र को बदलते हैं:\nचौड़ाई = क्षेत्रफल ÷ लंबाई"
+            },
+            {
+              "english": "Substitute the values:\nBreadth = 208 ÷ 16\nBreadth = 13",
+              "hindi": "मान रखकर:\nचौड़ाई = 208 ÷ 16\nचौड़ाई = 13"
+            },
+            {
+              "english": "So, the breadth of the rectangle is 13 cm.",
+              "hindi": "अतः आयत की चौड़ाई 13 सेमी है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1226,8 +1526,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know:\n- Area of rectangle = 391 sq cm\n- Length = 23 cm",
+              "hindi": "हमें दिया है:\n- आयत का क्षेत्रफल = 391 वर्ग सेमी\n- लंबाई = 23 सेमी"
+            },
+            {
+              "english": "Formula:\nArea = Length × Breadth",
+              "hindi": "सूत्र:\nक्षेत्रफल = लंबाई × चौड़ाई"
+            },
+            {
+              "english": "So,\nBreadth = Area ÷ Length\nBreadth = 391 ÷ 23\nBreadth = 17 cm",
+              "hindi": "इसलिए,\nचौड़ाई = क्षेत्रफल ÷ लंबाई\nचौड़ाई = 391 ÷ 23\nचौड़ाई = 17 सेमी"
+            },
+            {
+              "english": "Check:\n23 × 17 = 391\nSo the answer is correct.",
+              "hindi": "जाँच:\n23 × 17 = 391\nइसलिए उत्तर सही है।"
+            },
+            {
+              "english": "Final answer: 17 cm",
+              "hindi": "अंतिम उत्तर: 17 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1291,8 +1615,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the breadth of a rectangle, we use:",
+              "hindi": "आयत की चौड़ाई निकालने के लिए हम सूत्र का उपयोग करते हैं:"
+            },
+            {
+              "english": "Area = Length × Breadth",
+              "hindi": "क्षेत्रफल = लंबाई × चौड़ाई"
+            },
+            {
+              "english": "Given:\nArea = 117 sq m\nLength = 13 m",
+              "hindi": "दिया है:\nक्षेत्रफल = 117 वर्ग मीटर\nलंबाई = 13 मीटर"
+            },
+            {
+              "english": "So,\nBreadth = Area ÷ Length\nBreadth = 117 ÷ 13\nBreadth = 9 m",
+              "hindi": "अब,\nचौड़ाई = क्षेत्रफल ÷ लंबाई\nचौड़ाई = 117 ÷ 13\nचौड़ाई = 9 मीटर"
+            },
+            {
+              "english": "Final answer: 9 m",
+              "hindi": "अंतिम उत्तर: 9 मीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1356,8 +1704,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the breadth of a rectangle, we use the formula:",
+              "hindi": "आयत की चौड़ाई निकालने के लिए हम यह सूत्र use करते हैं:"
+            },
+            {
+              "english": "Area = Length × Breadth",
+              "hindi": "क्षेत्रफल = लंबाई × चौड़ाई"
+            },
+            {
+              "english": "Given:\nArea = 52 sq m\nLength = 8 m",
+              "hindi": "दिया है:\nक्षेत्रफल = 52 वर्ग मीटर\nलंबाई = 8 मीटर"
+            },
+            {
+              "english": "Now, put the values into the formula:\n52 = 8 × Breadth",
+              "hindi": "अब मानों को सूत्र में रखें:\n52 = 8 × चौड़ाई"
+            },
+            {
+              "english": "To find the breadth, divide the area by the length:\nBreadth = 52 ÷ 8\nBreadth = 6.5 m",
+              "hindi": "चौड़ाई निकालने के लिए क्षेत्रफल को लंबाई से भाग दें:\nचौड़ाई = 52 ÷ 8\nचौड़ाई = 6.5 मीटर"
+            },
+            {
+              "english": "So, the breadth of the rectangle is 6.5 m.",
+              "hindi": "इसलिए, आयत की चौड़ाई 6.5 मीटर है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1420,8 +1796,52 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, convert all measurements into the same unit.",
+              "hindi": "सबसे पहले, सभी मापों को एक ही इकाई में बदलते हैं।"
+            },
+            {
+              "english": "Length of the path = 18 m = 1800 cm\nBreadth of the path = 12 m = 1200 cm",
+              "hindi": "पथ की लंबाई = 18 m = 1800 cm\nपथ की चौड़ाई = 12 m = 1200 cm"
+            },
+            {
+              "english": "Area of the path = length × breadth\n= 1800 × 1200\n= 2,160,000 cm²",
+              "hindi": "पथ का क्षेत्रफल = लंबाई × चौड़ाई\n= 1800 × 1200\n= 2,160,000 cm²"
+            },
+            {
+              "english": "Now find the area of one stone slab.",
+              "hindi": "अब एक पत्थर की स्लैब का क्षेत्रफल निकालते हैं।"
+            },
+            {
+              "english": "Length of one slab = 24 cm\nBreadth of one slab = 15 cm",
+              "hindi": "एक स्लैब की लंबाई = 24 cm\nएक स्लैब की चौड़ाई = 15 cm"
+            },
+            {
+              "english": "Area of one slab = 24 × 15\n= 360 cm²",
+              "hindi": "एक स्लैब का क्षेत्रफल = 24 × 15\n= 360 cm²"
+            },
+            {
+              "english": "Now divide the total area of the path by the area of one slab.",
+              "hindi": "अब पथ के कुल क्षेत्रफल को एक स्लैब के क्षेत्रफल से भाग देते हैं।"
+            },
+            {
+              "english": "Number of slabs = 2,160,000 ÷ 360\n= 6000",
+              "hindi": "स्लैबों की संख्या = 2,160,000 ÷ 360\n= 6000"
+            },
+            {
+              "english": "So, 6000 stone slab pieces are required.",
+              "hindi": "इसलिए 6000 पत्थर की स्लैब के टुकड़े चाहिए।"
+            },
+            {
+              "english": "Final answer: 6000",
+              "hindi": "अंतिम उत्तर: 6000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1484,8 +1904,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, find the area of the path.\nLength of path = 12.5 m\nWidth of path = 4.8 m\nArea of path = 12.5 × 4.8 = 60 m²",
+              "hindi": "सबसे पहले, पथ का क्षेत्रफल निकालते हैं।\nपथ की लंबाई = 12.5 m\nपथ की चौड़ाई = 4.8 m\nपथ का क्षेत्रफल = 12.5 × 4.8 = 60 m²"
+            },
+            {
+              "english": "Now find the area of one block.\nLength of one block = 25 cm = 0.25 m\nWidth of one block = 12 cm = 0.12 m\nArea of one block = 0.25 × 0.12 = 0.03 m²",
+              "hindi": "अब एक ब्लॉक का क्षेत्रफल निकालते हैं।\nएक ब्लॉक की लंबाई = 25 cm = 0.25 m\nएक ब्लॉक की चौड़ाई = 12 cm = 0.12 m\nएक ब्लॉक का क्षेत्रफल = 0.25 × 0.12 = 0.03 m²"
+            },
+            {
+              "english": "Now divide the area of the path by the area of one block.\nNumber of blocks = 60 ÷ 0.03 = 2000",
+              "hindi": "अब पथ के क्षेत्रफल को एक ब्लॉक के क्षेत्रफल से भाग देते हैं।\nब्लॉकों की संख्या = 60 ÷ 0.03 = 2000"
+            },
+            {
+              "english": "So, 2000 blocks are required.\nFinal answer: 2000 blocks.",
+              "hindi": "इसलिए 2000 ब्लॉक्स की आवश्यकता होगी।\nअंतिम उत्तर: 2000 ब्लॉक्स।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1549,8 +1989,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find which carpet is bigger, we compare their areas.",
+              "hindi": "यह जानने के लिए कि कौन-सा कालीन बड़ा है, हम दोनों के क्षेत्रफल निकालते हैं।"
+            },
+            {
+              "english": "Carpet 1: length = 16 m, breadth = 12.5 m\nArea = 16 × 12.5 = 200 m²",
+              "hindi": "पहला कालीन: लंबाई = 16 m, चौड़ाई = 12.5 m\nक्षेत्रफल = 16 × 12.5 = 200 m²"
+            },
+            {
+              "english": "Carpet 2: length = 15 m, breadth = 13.8 m\nArea = 15 × 13.8 = 207 m²",
+              "hindi": "दूसरा कालीन: लंबाई = 15 m, चौड़ाई = 13.8 m\nक्षेत्रफल = 15 × 13.8 = 207 m²"
+            },
+            {
+              "english": "Now compare the areas:\n200 m² < 207 m²",
+              "hindi": "अब तुलना करें:\n200 m² < 207 m²"
+            },
+            {
+              "english": "So, the second carpet is bigger.\nFinal answer: 15 m by 13.8 m carpet is bigger.",
+              "hindi": "इसलिए दूसरा कालीन बड़ा है।\nअंतिम उत्तर: 15 m by 13.8 m वाला कालीन बड़ा है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1614,8 +2078,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Each carpet is a rectangle.\nArea of 1 carpet = length × width = 4 × 2.5 = 10 sq. m\nThere are 26 carpets.\nSo, area of the whole floor = 26 × 10 = 260 sq. m\nFinal answer: 260 sq. m",
+              "hindi": "हर कालीन आयताकार है।\n1 कालीन का क्षेत्रफल = लंबाई × चौड़ाई = 4 × 2.5 = 10 वर्ग मीटर\nकुल 26 कालीन हैं।\nइसलिए हॉल के फर्श का क्षेत्रफल = 26 × 10 = 260 वर्ग मीटर\nअंतिम उत्तर: 260 वर्ग मीटर"
+            }
+          ]
         }
       ],
       "tags": [

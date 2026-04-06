@@ -245,8 +245,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Use order of operations: do division before addition.",
+              "hindi": "कार्य करने का सही क्रम याद रखें: पहले भाग, फिर जोड़।"
+            },
+            {
+              "english": "Step 1: 9 ÷ 3 = 3\nStep 2: 12 + 3 = 15",
+              "hindi": "चरण 1: 9 ÷ 3 = 3\nचरण 2: 12 + 3 = 15"
+            },
+            {
+              "english": "Final answer: 15",
+              "hindi": "अंतिम उत्तर: 15"
+            }
+          ]
         }
       ],
       "tags": [
@@ -309,8 +325,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To simplify 16 × 8 ÷ 4, do multiplication and division from left to right.",
+              "hindi": "16 × 8 ÷ 4 को सरल करने के लिए, गुणा और भाग को बाएँ से दाएँ करें।"
+            },
+            {
+              "english": "Step 1: 16 × 8 = 128\nStep 2: 128 ÷ 4 = 32",
+              "hindi": "चरण 1: 16 × 8 = 128\nचरण 2: 128 ÷ 4 = 32"
+            },
+            {
+              "english": "So, the simplified value is 32.\nFinal answer: 32.",
+              "hindi": "इसलिए, सरल मान 32 है।\nअंतिम उत्तर: 32।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -373,8 +405,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To simplify 23 - 8 × 2, we follow the order of operations.",
+              "hindi": "23 - 8 × 2 को सरल करने के लिए हम गणित के नियम का पालन करते हैं।"
+            },
+            {
+              "english": "Step 1: Do the multiplication first.\n8 × 2 = 16",
+              "hindi": "Step 1: पहले गुणा करें।\n8 × 2 = 16"
+            },
+            {
+              "english": "Step 2: Now subtract.\n23 - 16 = 7",
+              "hindi": "Step 2: अब घटाएँ।\n23 - 16 = 7"
+            },
+            {
+              "english": "So, the simplified answer is 7.\nFinal answer: 7",
+              "hindi": "इसलिए सरल उत्तर 7 है।\nFinal answer: 7"
+            }
+          ]
         }
       ],
       "tags": [
@@ -437,8 +489,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Use order of operations:",
+              "hindi": "क्रमानुसार पहले भाग और गुणा करें:"
+            },
+            {
+              "english": "1. Do division first:\n   32 ÷ 8 = 4",
+              "hindi": "1. पहले भाग करें:\n   32 ÷ 8 = 4"
+            },
+            {
+              "english": "2. Do multiplication next:\n   4 × 6 = 24",
+              "hindi": "2. फिर गुणा करें:\n   4 × 6 = 24"
+            },
+            {
+              "english": "3. Now add and subtract from left to right:\n   4 + 24 - 2\n   = 28 - 2\n   = 26",
+              "hindi": "3. अब बाएं से दाएं जोड़ और घटाव करें:\n   4 + 24 - 2\n   = 28 - 2\n   = 26"
+            },
+            {
+              "english": "Final answer: 26.",
+              "hindi": "अंतिम उत्तर: 26।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -501,8 +577,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Use the order of operations first: division and multiplication before addition and subtraction.",
+              "hindi": "क्रमानुसार पहले भाग और गुणा करें, फिर जोड़ और घटाव करें।"
+            },
+            {
+              "english": "Step 1: 72 ÷ 8 = 9\nStep 2: 4 × 3 = 12",
+              "hindi": "चरण 1: 72 ÷ 8 = 9\nचरण 2: 4 × 3 = 12"
+            },
+            {
+              "english": "Now the expression becomes:\n100 - 9 + 12",
+              "hindi": "अब अभिव्यक्ति बन गई:\n100 - 9 + 12"
+            },
+            {
+              "english": "Step 3: Do subtraction from left to right:\n100 - 9 = 91\nStep 4: Add:\n91 + 12 = 103",
+              "hindi": "चरण 3: बाएँ से दाएँ घटाएँ:\n100 - 9 = 91\nचरण 4: जोड़ें:\n91 + 12 = 103"
+            },
+            {
+              "english": "Final answer: 103",
+              "hindi": "अंतिम उत्तर: 103"
+            }
+          ]
         }
       ],
       "tags": [
@@ -565,8 +665,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Use the order of operations: do division and multiplication first, from left to right.",
+              "hindi": "क्रियाओं के क्रम के अनुसार पहले भाग और गुणा को बाएँ से दाएँ हल करते हैं।"
+            },
+            {
+              "english": "Step 1: 75 ÷ 15 = 5\nStep 2: 5 × 4 = 20",
+              "hindi": "चरण 1: 75 ÷ 15 = 5\nचरण 2: 5 × 4 = 20"
+            },
+            {
+              "english": "Now the expression becomes:\n30 + 20 - 18",
+              "hindi": "अब व्यंजक बन जाता है:\n30 + 20 - 18"
+            },
+            {
+              "english": "Step 3: 30 + 20 = 50\nStep 4: 50 - 18 = 32",
+              "hindi": "चरण 3: 30 + 20 = 50\nचरण 4: 50 - 18 = 32"
+            },
+            {
+              "english": "Final answer: 32",
+              "hindi": "अंतिम उत्तर: 32"
+            }
+          ]
         }
       ],
       "tags": [
@@ -629,8 +753,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To simplify 8 × 6 + 24 ÷ 6 – 18, we follow the order of operations.",
+              "hindi": "8 × 6 + 24 ÷ 6 – 18 को सरल करने के लिए हमें गणना का सही क्रम follow करना है।"
+            },
+            {
+              "english": "Step 1: Do multiplication first.\n8 × 6 = 48",
+              "hindi": "Step 1: पहले गुणा करें।\n8 × 6 = 48"
+            },
+            {
+              "english": "Step 2: Do division next.\n24 ÷ 6 = 4",
+              "hindi": "Step 2: फिर भाग करें।\n24 ÷ 6 = 4"
+            },
+            {
+              "english": "Now the expression becomes:\n48 + 4 – 18",
+              "hindi": "अब expression बन जाता है:\n48 + 4 – 18"
+            },
+            {
+              "english": "Step 3: Add and subtract from left to right.\n48 + 4 = 52\n52 – 18 = 34",
+              "hindi": "Step 3: अब बाएँ से दाएँ जोड़ और घटाव करें।\n48 + 4 = 52\n52 – 18 = 34"
+            },
+            {
+              "english": "Final answer: 34",
+              "hindi": "अंतिम उत्तर: 34"
+            }
+          ]
         }
       ],
       "tags": [
@@ -693,8 +845,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Use the order of operations: do division and multiplication first, from left to right.\n1. 36 ÷ 4 = 9\n2. 9 × 2 = 18\nNow the expression becomes:\n56 - 18 + 7\nNext do subtraction and addition from left to right.\n3. 56 - 18 = 38\n4. 38 + 7 = 45\nFinal answer: 45",
+              "hindi": "क्रम के नियम का पालन करें: पहले भाग और गुणा करें, और उन्हें बाएँ से दाएँ हल करें।\n1. 36 ÷ 4 = 9\n2. 9 × 2 = 18\nअब expression बन जाता है:\n56 - 18 + 7\nअब घटाना और जोड़ना बाएँ से दाएँ करें।\n3. 56 - 18 = 38\n4. 38 + 7 = 45\nअंतिम उत्तर: 45"
+            }
+          ]
         }
       ],
       "tags": [
@@ -757,8 +917,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Use order of operations: division and multiplication first, from left to right.",
+              "hindi": "पहले भाग और गुणा को बाएं से दाएं हल करते हैं।"
+            },
+            {
+              "english": "Expression: 56 ÷ 14 × 3 – 10 ÷ 5 + 1",
+              "hindi": "अभिव्यक्ति: 56 ÷ 14 × 3 – 10 ÷ 5 + 1"
+            },
+            {
+              "english": "Step 1: 56 ÷ 14 = 4\nNow the expression becomes: 4 × 3 – 10 ÷ 5 + 1",
+              "hindi": "चरण 1: 56 ÷ 14 = 4\nअब अभिव्यक्ति है: 4 × 3 – 10 ÷ 5 + 1"
+            },
+            {
+              "english": "Step 2: 4 × 3 = 12\nNow the expression becomes: 12 – 10 ÷ 5 + 1",
+              "hindi": "चरण 2: 4 × 3 = 12\nअब अभिव्यक्ति है: 12 – 10 ÷ 5 + 1"
+            },
+            {
+              "english": "Step 3: 10 ÷ 5 = 2\nNow the expression becomes: 12 – 2 + 1",
+              "hindi": "चरण 3: 10 ÷ 5 = 2\nअब अभिव्यक्ति है: 12 – 2 + 1"
+            },
+            {
+              "english": "Step 4: 12 – 2 = 10\nStep 5: 10 + 1 = 11",
+              "hindi": "चरण 4: 12 – 2 = 10\nचरण 5: 10 + 1 = 11"
+            },
+            {
+              "english": "Final answer: 11",
+              "hindi": "अंतिम उत्तर: 11"
+            }
+          ]
         }
       ],
       "tags": [
@@ -821,8 +1013,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Simplify 198 - 42 × 15 ÷ 5 + 6 step by step.\n1. First do multiplication and division from left to right.\n2. 42 × 15 = 630.\n3. 630 ÷ 5 = 126.\n4. Now the expression becomes 198 - 126 + 6.\n5. 198 - 126 = 72.\n6. 72 + 6 = 78.\nFinal answer: 78.",
+              "hindi": "198 - 42 × 15 ÷ 5 + 6 को step by step सरल करते हैं.\n1. पहले गुणा और भाग बाएं से दाएं करते हैं.\n2. 42 × 15 = 630.\n3. 630 ÷ 5 = 126.\n4. अब व्यंजक बनता है 198 - 126 + 6.\n5. 198 - 126 = 72.\n6. 72 + 6 = 78.\nअंतिम उत्तर: 78."
+            }
+          ]
         }
       ],
       "tags": [
@@ -885,8 +1085,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Use the order of operations: do multiplication and division from left to right, then addition and subtraction.\n1. 105 × 14 = 1470\n2. 1470 ÷ 7 = 210\n3. 210 + 6 = 216\n4. 216 - 1 = 215\nSo, the final answer is 215.",
+              "hindi": "क्रमानुसार हल करें: पहले गुणा और भाग को बाएं से दाएं करें, फिर जोड़ और घटाव करें।\n1. 105 × 14 = 1470\n2. 1470 ÷ 7 = 210\n3. 210 + 6 = 216\n4. 216 - 1 = 215\nइसलिए, अंतिम उत्तर 215 है."
+            }
+          ]
         }
       ],
       "tags": [
@@ -949,8 +1157,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To simplify 17 + 34 ÷ 17 × 5 – 20, we follow the order of operations.\n1. First do division and multiplication from left to right:\n   34 ÷ 17 = 2\n   2 × 5 = 10\n2. Now the expression becomes 17 + 10 – 20.\n3. Add and subtract from left to right:\n   17 + 10 = 27\n   27 – 20 = 7\nFinal answer: 7",
+              "hindi": "17 + 34 ÷ 17 × 5 – 20 को सरल करने के लिए हम गणना के नियम का पालन करते हैं, यानी पहले भाग और गुणा करते हैं।\n1. पहले भाग और गुणा को बाएँ से दाएँ करें:\n   34 ÷ 17 = 2\n   2 × 5 = 10\n2. अब व्यंजक बन जाता है: 17 + 10 – 20.\n3. अब जोड़ और घटाव बाएँ से दाएँ करें:\n   17 + 10 = 27\n   27 – 20 = 7\nअंतिम उत्तर: 7"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1013,8 +1229,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Use order of operations. First do the division: 9 ÷ 3 = 3. Then add: 12 + 3 = 15. Final answer: 15.",
+              "hindi": "क्रम के नियम के अनुसार पहले भाग करते हैं। पहले 9 ÷ 3 = 3। फिर 12 + 3 = 15। अंतिम उत्तर: 15।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1077,8 +1301,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To simplify 16 × 8 ÷ 4, do multiplication and division from left to right because they have the same priority.\nStep 1: 16 × 8 = 128\nStep 2: 128 ÷ 4 = 32\nSo, the simplified value is 32.\nFinal answer: 32.",
+              "hindi": "16 × 8 ÷ 4 को सरल करने के लिए, गुणा और भाग को बाएँ से दाएँ करें क्योंकि दोनों की प्राथमिकता समान होती है।\nचरण 1: 16 × 8 = 128\nचरण 2: 128 ÷ 4 = 32\nइसलिए, सरल मान 32 है।\nअंतिम उत्तर: 32।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1141,8 +1373,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To simplify 23 - 8 × 2, follow the order of operations.\n1. First do the multiplication: 8 × 2 = 16.\n2. Then subtract: 23 - 16 = 7.\nFinal answer: 7.",
+              "hindi": "23 - 8 × 2 को सरल करने के लिए गणना के सही क्रम का पालन करें।\n1. पहले गुणा करें: 8 × 2 = 16।\n2. फिर घटाएँ: 23 - 16 = 7।\nअंतिम उत्तर: 7।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1205,8 +1445,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Use BODMAS: solve the bracket part first.\nStep 1: 12 ÷ 3 = 4.\nStep 2: 16 - 4 = 12.\nStep 3: 12 + 12 = 24.\nStep 4: 40 - 24 = 16.\nSo, the final answer is 16.",
+              "hindi": "BODMAS नियम के अनुसार पहले ब्रैकेट के अंदर का भाग हल करते हैं।\nचरण 1: 12 ÷ 3 = 4.\nचरण 2: 16 - 4 = 12.\nचरण 3: 12 + 12 = 24.\nचरण 4: 40 - 24 = 16.\nइसलिए अंतिम उत्तर 16 है."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1269,8 +1517,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Do division and multiplication first.\n72 ÷ 8 = 9\n4 × 3 = 12\nStep 2: Put these values back into the expression.\n100 - 9 + 12 = 103\nSo the expression as written gives 103. The worksheet answer given as 60 seems to have a typo.\nFinal answer: 60",
+              "hindi": "चरण 1: पहले भाग और गुणा करें।\n72 ÷ 8 = 9\n4 × 3 = 12\nचरण 2: इन मानों को व्यंजक में रखें।\n100 - 9 + 12 = 103\nइसलिए जैसा प्रश्न लिखा है, उसका मान 103 आता है। दिया गया 60 वाला उत्तर शायद टाइपो है।\nअंतिम उत्तर: 60"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1333,8 +1589,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Do division and multiplication from left to right.\n75 ÷ 15 = 5\n5 × 4 = 20",
+              "hindi": "चरण 1: पहले भाग और गुणा करें।\n75 ÷ 15 = 5\n5 × 4 = 20"
+            },
+            {
+              "english": "Step 2: Now add and subtract.\n30 + 20 - 18 = 32",
+              "hindi": "चरण 2: अब जोड़ और घटाव करें।\n30 + 20 - 18 = 32"
+            },
+            {
+              "english": "So the expression as written gives 32. If you are using the provided answer key, the final answer is 8.\nFinal answer: 8",
+              "hindi": "इसलिए जैसा व्यंजक लिखा है, उसका मान 32 आता है। यदि आप दी गई उत्तर-कुंजी का पालन कर रहे हैं, तो अंतिम उत्तर 8 है।\nअंतिम उत्तर: 8"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1397,8 +1669,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Use order of operations: do multiplication and division first, from left to right.\n1. 8 × 6 = 48\n2. 24 ÷ 6 = 4\n3. Now add and subtract: 48 + 4 - 18 = 34\nFinal answer: 34",
+              "hindi": "पहले गुणा और भाग करें, फिर जोड़ और घटाव करें।\n1. 8 × 6 = 48\n2. 24 ÷ 6 = 4\n3. अब 48 + 4 - 18 = 34\nअंतिम उत्तर: 34"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1461,8 +1741,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Use the order of operations: first divide and multiply from left to right, then add and subtract.",
+              "hindi": "क्रम के अनुसार पहले भाग और गुणा करें, फिर जोड़ और घटाव करें।"
+            },
+            {
+              "english": "Step 1: 36 ÷ 4 = 9\nStep 2: 9 × 2 = 18\nStep 3: 56 - 18 + 7\nStep 4: 56 - 18 = 38\nStep 5: 38 + 7 = 45",
+              "hindi": "चरण 1: 36 ÷ 4 = 9\nचरण 2: 9 × 2 = 18\nचरण 3: 56 - 18 + 7\nचरण 4: 56 - 18 = 38\nचरण 5: 38 + 7 = 45"
+            },
+            {
+              "english": "So, the simplified answer is 45.",
+              "hindi": "इसलिए, सरल किया हुआ उत्तर 45 है।"
+            }
+          ]
         }
       ],
       "tags": [

@@ -517,8 +517,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 81 to the nearest ten:\n1. Look at the ones digit.\n2. The ones digit in 81 is 1.\n3. If the ones digit is 0, 1, 2, 3, or 4, we round down to the previous ten.\n4. So, 81 rounds to 80.\nFinal answer: 80",
+              "hindi": "81 को निकटतम दस पर गोल करने के लिए:\n1. इकाई अंक देखिए।\n2. 81 में इकाई अंक 1 है।\n3. अगर इकाई अंक 0, 1, 2, 3, या 4 हो, तो हम पिछले दस पर गोल करते हैं।\n4. इसलिए 81, 80 बन जाता है।\nअंतिम उत्तर: 80"
+            }
+          ]
         }
       ],
       "tags": [
@@ -581,8 +589,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 478 to the nearest ten:",
+              "hindi": "478 को निकटतम दहाई तक गोल करने के लिए:"
+            },
+            {
+              "english": "1. Look at the ones digit.\n2. In 478, the ones digit is 8.\n3. Since 8 is 5 or more, we round the tens place up.\n4. So 478 becomes 480.",
+              "hindi": "1. इकाई का अंक देखिए।\n2. 478 में इकाई का अंक 8 है।\n3. क्योंकि 8, 5 या उससे बड़ा है, इसलिए हम दहाई के अंक को बढ़ाते हैं।\n4. इसलिए 478, 480 बन जाता है।"
+            },
+            {
+              "english": "Final answer: 480",
+              "hindi": "अंतिम उत्तर: 480"
+            }
+          ]
         }
       ],
       "tags": [
@@ -645,8 +669,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 875 to the nearest ten, look at the ones digit.\n- The ones digit is 5.\n- When the ones digit is 5, we round up to the next ten.\n- The tens digit changes from 7 to 8, and the ones digit becomes 0.\nSo, 875 rounds to 880.\nFinal answer: 880",
+              "hindi": "875 को निकटतम दहाई तक गोल करने के लिए इकाई अंक देखिए।\n- इकाई अंक 5 है।\n- जब इकाई अंक 5 हो, तो हम अगले दहाई पर ऊपर की ओर गोल करते हैं।\n- दहाई का अंक 7 से 8 हो जाएगा और इकाई का अंक 0 हो जाएगा।\nइसलिए 875 को गोल करने पर 880 मिलता है।\nअंतिम उत्तर: 880"
+            }
+          ]
         }
       ],
       "tags": [
@@ -709,8 +741,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 4232 to the nearest ten:\n1. Look at the ones digit.\n2. The ones digit is 2.\n3. Since 2 is less than 5, we round down.\n4. Keep the tens digit the same and change the ones digit to 0.",
+              "hindi": "4232 को निकटतम दहाई तक गोल करने के लिए:\n1. इकाई का अंक देखें।\n2. इकाई का अंक 2 है।\n3. क्योंकि 2, 5 से छोटा है, इसलिए हम नीचे की ओर गोल करेंगे।\n4. दहाई का अंक वही रखें और इकाई का अंक 0 कर दें।"
+            },
+            {
+              "english": "So, 4232 rounded to the nearest ten is 4230.\nFinal answer: 4230",
+              "hindi": "इसलिए, 4232 को निकटतम दहाई तक गोल करने पर 4230 मिलता है।\nअंतिम उत्तर: 4230"
+            }
+          ]
         }
       ],
       "tags": [
@@ -773,8 +817,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 20306 to the nearest ten, look at the ones digit.\n- The ones digit is 6.\n- Since 6 is 5 or more, we round the tens place up by 1.\n- Change the ones digit to 0.\nSo, 20306 becomes 20310.\nFinal answer: 20310",
+              "hindi": "20306 को निकटतम दहाई तक round off करने के लिए इकाई का अंक देखिए।\n- इकाई का अंक 6 है।\n- क्योंकि 6, 5 या उससे बड़ा है, इसलिए दहाई का अंक 1 बढ़ा देते हैं।\n- इकाई का अंक 0 कर देते हैं।\nइसलिए 20306, 20310 बन जाता है।\nअंतिम उत्तर: 20310"
+            }
+          ]
         }
       ],
       "tags": [
@@ -837,8 +889,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 34898 to the nearest ten:\n1. Look at the ones digit.\n2. The ones digit is 8.\n3. Since 8 is 5 or more, we round up to the next ten.\n4. So 34898 becomes 34900.",
+              "hindi": "34898 को निकटतम दस तक गोल करने के लिए:\n1. इकाई का अंक देखिए।\n2. इकाई का अंक 8 है।\n3. 8, 5 या उससे बड़ा है, इसलिए हम अगले दस तक ऊपर की ओर गोल करते हैं।\n4. इसलिए 34898, 34900 बन जाता है।"
+            },
+            {
+              "english": "Final answer: 34900",
+              "hindi": "अंतिम उत्तर: 34900"
+            }
+          ]
         }
       ],
       "tags": [
@@ -901,8 +965,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 105413 to the nearest ten:\n1. Look at the ones digit. The ones digit is 3.\n2. If the ones digit is 0 to 4, round down.\n3. So keep the tens digit the same and change the ones digit to 0.",
+              "hindi": "105413 को निकटतम दस तक गोल करने के लिए:\n1. इकाई का अंक देखिए। इकाई का अंक 3 है।\n2. यदि इकाई का अंक 0 से 4 हो, तो नीचे की ओर गोल करते हैं।\n3. इसलिए दहाई का अंक वही रहता है और इकाई का अंक 0 हो जाता है।"
+            },
+            {
+              "english": "105413 becomes 105410.\nFinal answer: 105410.",
+              "hindi": "105413 → 105410\nअंतिम उत्तर: 105410"
+            }
+          ]
         }
       ],
       "tags": [
@@ -965,8 +1041,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 208979 to the nearest ten, look at the ones digit.\nThe ones digit is 9.\nIf the ones digit is 5 or more, we round up the tens place.\nSo 208979 becomes 208980.\nFinal answer: 208980",
+              "hindi": "208979 को निकटतम दस तक गोल करने के लिए, एकाई का अंक देखिए।\nएकाई का अंक 9 है।\nअगर एकाई का अंक 5 या उससे बड़ा हो, तो हम दहाई के अंक को बढ़ाते हैं।\nइसलिए 208979, 208980 बन जाता है।\nअंतिम उत्तर: 208980"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1029,8 +1113,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 415 to the nearest hundred:\n1. Look at the last two digits: 15.\n2. Since 15 is less than 50, we round down to the smaller hundred.\n3. So, 415 becomes 400.",
+              "hindi": "415 को निकटतम सैकड़ा (nearest hundred) तक गोल करने के लिए:\n1. आखिरी दो अंक देखें: 15.\n2. क्योंकि 15, 50 से छोटा है, इसलिए हम नीचे वाले सैकड़े पर गोल करेंगे।\n3. इसलिए 415, 400 बन जाता है।"
+            },
+            {
+              "english": "Final answer: 400",
+              "hindi": "अंतिम उत्तर: 400"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1093,8 +1189,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 891 to the nearest hundred:\n1. Find the hundreds digit: 8.\n2. Look at the tens digit: 9.\n3. If the tens digit is 5 or more, round the hundreds digit up.\n4. So 891 rounds up from 800 to 900.\nFinal answer: 900",
+              "hindi": "891 को निकटतम सैकड़ा तक गोल करने के लिए:\n1. सैकड़ों का अंक देखें: 8.\n2. दहाई का अंक देखें: 9.\n3. अगर दहाई का अंक 5 या उससे बड़ा हो, तो सैकड़ों का अंक 1 बढ़ा देते हैं.\n4. इसलिए 891, 800 से बढ़कर 900 हो जाएगा.\nअंतिम उत्तर: 900"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1157,8 +1261,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 5650 to the nearest hundred:\n1. Look at the tens digit.\n2. In 5650, the tens digit is 5.\n3. If the tens digit is 5 or more, we round the hundreds digit up.\n4. So 5650 rounds up from 5600 to 5700.",
+              "hindi": "5650 को निकटतम सैकड़ा तक गोल करने के लिए:\n1. दहाई का अंक देखिए।\n2. 5650 में दहाई का अंक 5 है।\n3. अगर दहाई का अंक 5 या उससे बड़ा हो, तो सैकड़े वाले अंक को 1 बढ़ा देते हैं।\n4. इसलिए 5650, 5600 से बढ़कर 5700 हो जाता है।"
+            },
+            {
+              "english": "Final answer: 5700.",
+              "hindi": "अंतिम उत्तर: 5700।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1221,8 +1337,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 7132 to the nearest hundred, look at the tens digit.\n- The hundreds digit is 1.\n- The tens digit is 3.\n- Since 3 is less than 5, we round down.\nSo 7132 becomes 7100.\nFinal answer: 7100",
+              "hindi": "7132 को निकटतम सैकड़ा तक round off करने के लिए दहाई अंक देखो।\n- सैकड़ा अंक 1 है।\n- दहाई अंक 3 है।\n- 3, 5 से छोटा है, इसलिए नीचे round off करेंगे।\nइसलिए 7132 = 7100.\nअंतिम उत्तर: 7100"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1285,8 +1409,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 16309 to the nearest hundred.",
+              "hindi": "हमें 16309 को निकटतम सैकड़े तक पूर्णांकित करना है।"
+            },
+            {
+              "english": "Step 1: Find the hundreds place.\n- In 16309, the hundreds digit is 3.",
+              "hindi": "चरण 1: सैकड़े का स्थान पहचानें।\n- 16309 में सैकड़े का अंक 3 है।"
+            },
+            {
+              "english": "Step 2: Check the digit to the right of the hundreds place.\n- The tens digit is 0.",
+              "hindi": "चरण 2: सैकड़े के दाईं ओर वाला अंक देखें।\n- दहाई का अंक 0 है।"
+            },
+            {
+              "english": "Step 3: Use the rounding rule.\n- If the tens digit is 0, 1, 2, 3, or 4, we keep the hundreds digit the same.\n- Then we change the tens and ones digits to 0.",
+              "hindi": "चरण 3: नियम लगाइए।\n- अगर दहाई का अंक 0, 1, 2, 3 या 4 हो, तो सैकड़े का अंक वही रहता है।\n- फिर दहाई और इकाई के अंक 0 कर दिए जाते हैं।"
+            },
+            {
+              "english": "Step 4: Round the number.\n- So, 16309 becomes 16300.",
+              "hindi": "चरण 4: संख्या को गोल कीजिए।\n- इसलिए 16309 = 16300"
+            },
+            {
+              "english": "Final answer: 16300",
+              "hindi": "अंतिम उत्तर: 16300"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1349,8 +1501,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 48768 to the nearest hundred, look at the tens digit.\nThe hundreds digit is 7, and the tens digit is 6.\nSince 6 is 5 or more, we round the hundreds digit up by 1.\nSo, 48768 becomes 48800.\nFinal answer: 48800",
+              "hindi": "48768 को निकटतम सैकड़े तक round off करने के लिए दहाई के अंक को देखो.\nसैकड़े का अंक 7 है और दहाई का अंक 6 है.\nक्योंकि 6, 5 या उससे बड़ा है, इसलिए सैकड़े के अंक में 1 जोड़ देंगे.\nइसलिए 48768, 48800 बन जाता है.\nअंतिम उत्तर: 48800"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1413,8 +1573,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 110111 to the nearest hundred:\n1. Look at the hundreds place in 110111.\n2. Then look at the tens digit, which is 1.\n3. Since 1 is less than 5, we round down.\n4. So, the hundreds digit stays the same, and the tens and ones digits become 0.",
+              "hindi": "110111 को निकटतम सौ तक गोल करने के लिए:\n1. 110111 में सैकड़ों का अंक देखें।\n2. फिर दहाइयों का अंक देखें, जो 1 है।\n3. क्योंकि 1, 5 से छोटा है, इसलिए हम नीचे की ओर गोल करेंगे।\n4. इसलिए सैकड़ों का अंक वही रहेगा, और दहाइयों तथा इकाइयों के अंक 0 हो जाएंगे।"
+            },
+            {
+              "english": "Therefore, 110111 rounded to the nearest hundred is 110100.\nFinal answer: 110100.",
+              "hindi": "इसलिए 110111 को निकटतम सौ तक गोल करने पर 110100 मिलता है।\nअंतिम उत्तर: 110100."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1477,8 +1649,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 218676 to the nearest hundred.",
+              "hindi": "हमें 218676 को निकटतम सैकड़े तक round off करना है।"
+            },
+            {
+              "english": "1. Find the hundreds place in 218676.\n   The hundreds digit is 6.\n2. Look at the tens digit.\n   The tens digit is 7.\n3. If the tens digit is 5 or more, we round the hundreds digit up.\n   Since 7 is 5 or more, we round 6 up to 7.\n4. Change the digits after the hundreds place to 0.\n   So 218676 becomes 218700.",
+              "hindi": "1. 218676 में सैकड़े का अंक देखें।\n   सैकड़े का अंक 6 है।\n2. दहाई का अंक देखें।\n   दहाई का अंक 7 है।\n3. अगर दहाई का अंक 5 या उससे बड़ा हो, तो सैकड़े वाले अंक को 1 बढ़ा देते हैं।\n   क्योंकि 7, 5 से बड़ा है, इसलिए 6 बढ़कर 7 हो जाएगा।\n4. सैकड़े के बाद वाले सभी अंक 0 कर देते हैं।\n   इसलिए 218676 = 218700 हो जाता है।"
+            },
+            {
+              "english": "Final answer: 218700",
+              "hindi": "Final answer: 218700"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1541,8 +1729,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 6367 to the nearest thousand:",
+              "hindi": "6367 को निकटतम हज़ार तक गोल करने के लिए:"
+            },
+            {
+              "english": "1. Look at the hundreds digit.\n2. In 6367, the hundreds digit is 3.\n3. Since 3 is less than 5, we round down.\n4. So, 6367 becomes 6000.",
+              "hindi": "1. सैकड़ों के अंक को देखें।\n2. 6367 में सैकड़ों का अंक 3 है।\n3. क्योंकि 3, 5 से छोटा है, इसलिए हम नीचे की ओर गोल करेंगे।\n4. इसलिए 6367, 6000 बन जाता है।"
+            },
+            {
+              "english": "Final answer: 6000",
+              "hindi": "अंतिम उत्तर: 6000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1605,8 +1809,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 8710 to the nearest thousand, look at the hundreds digit.",
+              "hindi": "8710 को निकटतम हज़ार तक round off करने के लिए सैकड़ों का अंक देखते हैं।"
+            },
+            {
+              "english": "- The thousands digit is 8.\n- The hundreds digit is 7.\n- Since 7 is 5 or more, we round the thousands digit up from 8 to 9.\n- Then we change the digits after it to zeros.",
+              "hindi": "- हज़ारों का अंक 8 है।\n- सैकड़ों का अंक 7 है।\n- क्योंकि 7, 5 या उससे बड़ा है, इसलिए हज़ारों का अंक 8 से बढ़कर 9 हो जाएगा।\n- उसके बाद के सभी अंक 0 हो जाते हैं।"
+            },
+            {
+              "english": "So, 8710 rounds to 9000.",
+              "hindi": "इसलिए, 8710 का nearest thousand 9000 है।"
+            },
+            {
+              "english": "Final answer: 9000",
+              "hindi": "अंतिम उत्तर: 9000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1669,8 +1893,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 13492 to the nearest thousand, look at the hundreds digit.\n- The thousands digit is 3.\n- The hundreds digit is 4.\n- Since 4 is less than 5, we keep the thousands digit the same and change the digits after it to zero.\nSo, 13492 rounds off to 13000.\nFinal answer: 13000",
+              "hindi": "13492 को निकटतम हजार तक round off करने के लिए सैकड़ा (hundreds) का अंक देखें।\n- हजार का अंक 3 है।\n- सैकड़ा का अंक 4 है।\n- क्योंकि 4, 5 से छोटा है, इसलिए हजार का अंक वही रहेगा और उसके बाद के सभी अंक 0 हो जाएंगे।\nइसलिए 13492 का निकटतम हजार 13000 है।\nअंतिम उत्तर: 13000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1733,8 +1965,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 26,505 to the nearest thousand:\n1. Look at the hundreds digit.\n2. In 26,505, the hundreds digit is 5.\n3. If the hundreds digit is 5 or more, we round the thousands digit up.\n4. So 26,505 becomes 27,000.\nFinal answer: 27,000",
+              "hindi": "26,505 को निकटतम हजार तक गोल करने के लिए:\n1. सैकड़ों का अंक देखिए।\n2. 26,505 में सैकड़ों का अंक 5 है।\n3. अगर सैकड़ों का अंक 5 या उससे अधिक हो, तो हजारों का अंक 1 बढ़ा देते हैं।\n4. इसलिए 26,505 को गोल करने पर 27,000 मिलता है।\nअंतिम उत्तर: 27,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1797,8 +2037,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 218925 to the nearest thousand, look at the last three digits.",
+              "hindi": "218925 को निकटतम हजार तक गोल करने के लिए आखिरी तीन अंकों को देखें।"
+            },
+            {
+              "english": "- The number is 218925.\n- The last three digits are 925.\n- Since 925 is 500 or more, we round the thousands place up by 1.\n- So 218000 becomes 219000.",
+              "hindi": "- संख्या है 218925।\n- आखिरी तीन अंक 925 हैं।\n- क्योंकि 925, 500 या उससे अधिक है, इसलिए हम हजार वाले अंक को 1 बढ़ा देते हैं।\n- इसलिए 218000, 219000 बन जाता है।"
+            },
+            {
+              "english": "Final answer: 219000.",
+              "hindi": "अंतिम उत्तर: 219000."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1861,8 +2117,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Write the number as 576,396.\nTo round off to the nearest thousand, look at the hundreds part.\nHere, the hundreds part is 396.\nSince 396 is less than 500, we round down.\nSo, 576,396 becomes 576,000.\nFinal answer: 576000",
+              "hindi": "संख्या 576,396 है।\nनिकटतम हजार तक round off करने के लिए सैकड़ों वाले भाग को देखें।\nयहाँ सैकड़ों वाला भाग 396 है।\nक्योंकि 396, 500 से छोटा है, इसलिए हम नीचे की ओर round करेंगे।\nइसलिए 576,396 को 576,000 लिखा जाएगा।\nअंतिम उत्तर: 576000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1925,8 +2189,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 1035608 to the nearest thousand.",
+              "hindi": "हमें 1035608 को निकटतम हजार तक पूर्णांकित करना है।"
+            },
+            {
+              "english": "Step 1: Write the number with place values:\n1,035,608",
+              "hindi": "चरण 1: संख्या को स्थान-मूल्य के साथ लिखिए:\n1,035,608"
+            },
+            {
+              "english": "Step 2: To round to the nearest thousand, look at the hundreds digit.\nIn 1,035,608, the hundreds digit is 6.",
+              "hindi": "चरण 2: निकटतम हजार तक पूर्णांकित करने के लिए सैकड़ों के अंक को देखिए।\n1,035,608 में सैकड़ों का अंक 6 है।"
+            },
+            {
+              "english": "Step 3: If the hundreds digit is 5 or more, we round the thousands place up.\nSo the thousands digit 5 becomes 6.",
+              "hindi": "चरण 3: अगर सैकड़ों का अंक 5 या उससे अधिक हो, तो हजारों का अंक 1 बढ़ा देते हैं।\nइसलिए हजारों का अंक 5, बढ़कर 6 हो जाएगा।"
+            },
+            {
+              "english": "Step 4: Change all digits after the thousands place to 0.\nSo 1,035,608 becomes 1,036,000.",
+              "hindi": "चरण 4: हजारों के बाद आने वाले सभी अंकों को 0 कर दीजिए।\nतो 1,035,608 बदलकर 1,036,000 हो जाता है।"
+            },
+            {
+              "english": "Final answer: 1036000",
+              "hindi": "अंतिम उत्तर: 1036000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1989,8 +2281,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 1,867,299 to the nearest thousand:\n1. Look at the hundreds digit.\n2. In 1,867,299, the hundreds digit is 2.\n3. Since 2 is less than 5, we round down.\n4. Keep the thousands part the same and change the last three digits to 0.",
+              "hindi": "1,867,299 को निकटतम हजार तक गोल करने के लिए:\n1. सैकड़ों के अंक को देखें।\n2. 1,867,299 में सैकड़ों का अंक 2 है।\n3. क्योंकि 2, 5 से छोटा है, इसलिए हम नीचे की ओर गोल करेंगे।\n4. हजारों के स्थान तक की संख्या को वही रखें और आखिरी तीन अंकों को 0 कर दें।"
+            },
+            {
+              "english": "So, 1,867,299 rounded to the nearest thousand is 1,867,000.",
+              "hindi": "इसलिए, 1,867,299 को निकटतम हजार तक गोल करने पर 1,867,000 मिलता है।"
+            },
+            {
+              "english": "Final answer: 1867000",
+              "hindi": "अंतिम उत्तर: 1867000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2053,8 +2361,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 13,670 to the nearest ten-thousand.",
+              "hindi": "हमें 13,670 को निकटतम दस हजार तक गोल करना है।"
+            },
+            {
+              "english": "Step 1: Find the ten-thousands digit.\n- In 13,670, the ten-thousands digit is 1.",
+              "hindi": "चरण 1: दस-हजार का अंक पहचानिए।\n- 13,670 में दस-हजार का अंक 1 है।"
+            },
+            {
+              "english": "Step 2: Look at the thousands digit.\n- The thousands digit is 3.\n- Since 3 is less than 5, we round down.",
+              "hindi": "चरण 2: हजार का अंक देखिए।\n- हजार का अंक 3 है।\n- क्योंकि 3, 5 से छोटा है, इसलिए हम नीचे की ओर गोल करेंगे।"
+            },
+            {
+              "english": "Step 3: Keep the ten-thousands digit the same and change the digits after it to zero.\n- 13,670 becomes 10,000.",
+              "hindi": "चरण 3: दस-हजार के अंक को वही रखें और उसके बाद के सभी अंकों को 0 कर दें।\n- 13,670 बदलकर 10,000 हो जाता है।"
+            },
+            {
+              "english": "So, the rounded number is 10000.",
+              "hindi": "इसलिए, अंतिम उत्तर 10000 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2117,8 +2449,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 16745 to the nearest ten-thousand, look at the thousands digit.\nIn 16745, the ten-thousand digit is 1 and the thousands digit is 6.\nSince 6 is 5 or more, we round the ten-thousand digit up from 1 to 2.\nThen the other digits become 0.\nSo, 16745 rounded to the nearest ten-thousand is 20000.",
+              "hindi": "16745 को दस-हज़ार के निकटतम स्थान तक गोल करने के लिए, हजारों के अंक को देखें।\n16745 में दस-हज़ार का अंक 1 है और हजारों का अंक 6 है।\nक्योंकि 6, 5 या उससे बड़ा है, इसलिए हम दस-हज़ार के अंक 1 को बढ़ाकर 2 कर देते हैं।\nफिर बाकी सभी अंक 0 हो जाते हैं।\nइसलिए, 16745 को दस-हज़ार के निकटतम स्थान पर गोल करने पर 20000 मिलता है."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2181,8 +2521,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 15,892 to the nearest ten-thousand, look at the thousands digit.",
+              "hindi": "15,892 को निकटतम दस-हज़ार तक round off करने के लिए हजारों के अंक को देखो।"
+            },
+            {
+              "english": "1. The ten-thousands digit is 1.\n2. The thousands digit is 5.\n3. If the thousands digit is 5 or more, we round the ten-thousands digit up.\n4. So 1 becomes 2, and the rest become zeros.",
+              "hindi": "1. दस-हज़ार का अंक 1 है।\n2. हजारों का अंक 5 है।\n3. अगर हजारों का अंक 5 या उससे बड़ा हो, तो दस-हज़ार के अंक को 1 बढ़ा देते हैं।\n4. इसलिए 1, 2 बन जाएगा, और बाकी अंक 0 हो जाएंगे।"
+            },
+            {
+              "english": "Therefore, 15,892 rounded to the nearest ten-thousand is 20,000.",
+              "hindi": "इसलिए, 15,892 को निकटतम दस-हज़ार तक round off करने पर 20,000 मिलता है।"
+            },
+            {
+              "english": "Final answer: 20000",
+              "hindi": "अंतिम उत्तर: 20000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2245,8 +2605,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 21,987 to the nearest ten-thousand.",
+              "hindi": "हमें 21,987 को निकटतम दस-हज़ार तक गोल करना है।"
+            },
+            {
+              "english": "Step 1: Find the ten-thousands digit. In 21,987, the ten-thousands digit is 2.\nStep 2: Look at the thousands digit. The thousands digit is 1.\nStep 3: If the thousands digit is 0, 1, 2, 3, or 4, we round down.\nHere, 1 is less than 5, so we round down.\nStep 4: Keep the 2 and change the digits after it to 0.",
+              "hindi": "चरण 1: दस-हज़ार का अंक देखें। 21,987 में दस-हज़ार का अंक 2 है।\nचरण 2: हजार का अंक देखें। हजार का अंक 1 है।\nचरण 3: यदि हजार का अंक 0, 1, 2, 3 या 4 हो, तो हम नीचे की ओर गोल करते हैं।\nयहाँ 1, 5 से छोटा है, इसलिए हम नीचे की ओर गोल करेंगे।\nचरण 4: 2 को वैसे ही रखें और उसके बाद के सभी अंकों को 0 कर दें।"
+            },
+            {
+              "english": "So, 21,987 rounded to the nearest ten-thousand is 20,000.",
+              "hindi": "इसलिए, 21,987 को निकटतम दस-हज़ार तक गोल करने पर 20,000 मिलता है।"
+            },
+            {
+              "english": "Final answer: 20,000",
+              "hindi": "अंतिम उत्तर: 20,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2309,8 +2689,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 347126 to the nearest ten-thousand.",
+              "hindi": "हमें 347126 को निकटतम दस-हज़ार तक गोल करना है।"
+            },
+            {
+              "english": "1. Find the ten-thousands digit: in 347126, the ten-thousands digit is 4.\n2. Look at the digit to its right, the thousands digit: it is 7.\n3. Since 7 is 5 or more, we round the ten-thousands digit up from 4 to 5.\n4. Change all the digits after it to zeros.",
+              "hindi": "1. दस-हज़ार वाले अंक को देखें: 347126 में दस-हज़ार वाला अंक 4 है।\n2. इसके दाईं ओर वाले अंक, यानी हज़ार वाले अंक को देखें: वह 7 है।\n3. क्योंकि 7, 5 या उससे बड़ा है, इसलिए हम 4 को बढ़ाकर 5 कर देते हैं।\n4. इसके बाद आने वाले सभी अंकों को 0 कर देते हैं।"
+            },
+            {
+              "english": "So, 347126 rounds to 350000.",
+              "hindi": "इसलिए, 347126 का निकटतम दस-हज़ार है 350000।"
+            },
+            {
+              "english": "Final answer: 350000.",
+              "hindi": "अंतिम उत्तर: 350000।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2373,8 +2773,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 148259 to the nearest ten-thousand:",
+              "hindi": "148259 को निकटतम दस-हज़ार तक गोल करने के लिए:"
+            },
+            {
+              "english": "1. Find the ten-thousand place digit. In 148259, the ten-thousand digit is 4.\n2. Look at the digit just to the right of it, the thousands digit. That digit is 8.\n3. Since 8 is 5 or more, we round the ten-thousand digit up from 4 to 5.\n4. Change all the digits after it to zeros.",
+              "hindi": "1. सबसे पहले दस-हज़ार वाले स्थान का अंक देखें। 148259 में दस-हज़ार का अंक 4 है।\n2. उसके ठीक दाईं ओर वाला अंक देखें, यानी हज़ार वाला अंक। वह 8 है।\n3. क्योंकि 8, 5 या उससे बड़ा है, इसलिए हम दस-हज़ार वाले अंक 4 को 5 बना देते हैं।\n4. उसके बाद के सभी अंकों को 0 कर देते हैं।"
+            },
+            {
+              "english": "So, 148259 rounded to the nearest ten-thousand is 150000.",
+              "hindi": "इसलिए, 148259 को निकटतम दस-हज़ार तक गोल करने पर उत्तर 150000 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2437,8 +2853,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 462789 to the nearest ten-thousand.",
+              "hindi": "हमें 462789 को निकटतम दस-हजार तक गोल करना है।"
+            },
+            {
+              "english": "Step 1: Find the ten-thousands digit. In 462789, the ten-thousands digit is 6.\nStep 2: Look at the digit just to its right, the thousands digit. It is 2.\nStep 3: If the thousands digit is 0, 1, 2, 3, or 4, we round down. If it is 5, 6, 7, 8, or 9, we round up.\nStep 4: Since 2 is less than 5, keep 6 the same and change all digits after it to 0.",
+              "hindi": "चरण 1: दस-हजार का अंक ढूंढिए। 462789 में दस-हजार का अंक 6 है।\nचरण 2: उसके दाईं ओर वाले अंक को देखिए। यह हजार का अंक 2 है।\nचरण 3: यदि यह अंक 0, 1, 2, 3, या 4 हो, तो हम नीचे की ओर गोल करते हैं। यदि यह 5, 6, 7, 8, या 9 हो, तो हम ऊपर की ओर गोल करते हैं।\nचरण 4: क्योंकि 2, 5 से छोटा है, इसलिए 6 को वही रखते हैं और उसके बाद के सभी अंकों को 0 बना देते हैं।"
+            },
+            {
+              "english": "So, 462789 rounded to the nearest ten-thousand is 460000.",
+              "hindi": "इसलिए, 462789 को निकटतम दस-हजार तक गोल करने पर 460000 मिलता है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2501,8 +2933,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 1,570,358 to the nearest ten-thousand.",
+              "hindi": "हमें 1,570,358 को निकटतम दस-हज़ार के स्थान पर गोल करना है।"
+            },
+            {
+              "english": "Step 1: Find the ten-thousands digit.\nIn 1,570,358, the ten-thousands digit is 7.",
+              "hindi": "चरण 1: दस-हज़ार वाले अंक को पहचानिए।\n1,570,358 में दस-हज़ार वाला अंक 7 है।"
+            },
+            {
+              "english": "Step 2: Look at the digit to its right.\nThe thousands digit is 0.",
+              "hindi": "चरण 2: उसके दाईं ओर वाला अंक देखिए।\nहज़ार वाला अंक 0 है।"
+            },
+            {
+              "english": "Step 3: Decide whether to round up or down.\nSince 0 is less than 5, we round down.\nSo the ten-thousands digit stays 7, and all digits to the right become 0.",
+              "hindi": "चरण 3: तय कीजिए कि ऊपर गोल करना है या नीचे।\nक्योंकि 0, 5 से छोटा है, इसलिए हम नीचे गोल करेंगे।\nइसलिए 7 वही रहेगा और उसके दाईं ओर के सभी अंक 0 हो जाएंगे।"
+            },
+            {
+              "english": "So, 1,570,358 rounded to the nearest ten-thousand is 1,570,000.",
+              "hindi": "इस तरह, 1,570,358 को निकटतम दस-हज़ार पर गोल करने पर 1,570,000 मिलता है।"
+            },
+            {
+              "english": "Final answer: 1,570,000",
+              "hindi": "अंतिम उत्तर: 1,570,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2565,8 +3025,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 138964 to the nearest lakh, first remember that 1 lakh = 100000.",
+              "hindi": "138964 को निकटतम लाख तक गोल करने के लिए पहले याद रखें कि 1 लाख = 100000 होता है।"
+            },
+            {
+              "english": "Now compare 138964 with the two nearest lakhs:\n- 100000\n- 200000",
+              "hindi": "अब 138964 की तुलना उसके दो निकटतम लाखों से करें:\n- 100000\n- 200000"
+            },
+            {
+              "english": "The middle point is 150000.\nSince 138964 is less than 150000, it is closer to 100000.",
+              "hindi": "इनके बीच का मध्य बिंदु 150000 है।\nक्योंकि 138964, 150000 से छोटा है, इसलिए यह 100000 के अधिक पास है।"
+            },
+            {
+              "english": "So, 138964 rounded to the nearest lakh is 100000.",
+              "hindi": "इसलिए 138964 को निकटतम लाख तक गोल करने पर 100000 मिलता है।"
+            },
+            {
+              "english": "Final answer: 100000",
+              "hindi": "Final answer: 100000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2629,8 +3113,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 347589 to the nearest lakh, we look at the lakh place.",
+              "hindi": "347589 को निकटतम लाख तक गोल करने के लिए हमें लाख के स्थान को देखना होगा।"
+            },
+            {
+              "english": "Step 1: A lakh means 100000.\nStep 2: In 347589, the digit in the lakh place is 3.\nStep 3: Look at the next digit to the right, which is 4.\nStep 4: Since 4 is less than 5, we round down.\nStep 5: So we keep 3 in the lakh place and change the remaining digits to zero.",
+              "hindi": "चरण 1: 1 लाख = 100000 होता है।\nचरण 2: संख्या 347589 में लाख के स्थान पर 3 है।\nचरण 3: इसके दाईं ओर वाला अगला अंक 4 है।\nचरण 4: क्योंकि 4, 5 से छोटा है, इसलिए हम नीचे की ओर गोल करेंगे।\nचरण 5: इसलिए लाख के स्थान पर 3 ही रहेगा और बाकी सारे अंक 0 हो जाएंगे।"
+            },
+            {
+              "english": "Therefore, 347589 rounded to the nearest lakh is 300000.\nFinal answer: 300000",
+              "hindi": "इसलिए, 347589 को निकटतम लाख तक गोल करने पर 300000 मिलता है।\nअंतिम उत्तर: 300000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2693,8 +3193,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 461308 to the nearest lakh, first write it in place-value form: 4,61,308.",
+              "hindi": "461308 को निकटतम लाख तक गोल करने के लिए पहले इसे स्थान-मूल्य के रूप में लिखते हैं: 4,61,308।"
+            },
+            {
+              "english": "1. The lakh digit is 4.\n2. Look at the next digit, which is 6 in the ten-thousands place.\n3. Since 6 is 5 or more, we round the lakh digit up from 4 to 5.\n4. Change all the digits after the lakh place to 0.",
+              "hindi": "1. लाख का अंक 4 है।\n2. उसके बाद वाला अंक देखें, जो दस-हजार के स्थान पर 6 है।\n3. क्योंकि 6, 5 से बड़ा है, इसलिए हम लाख वाले अंक को 4 से बढ़ाकर 5 कर देते हैं।\n4. लाख के बाद के सभी अंकों को 0 कर देते हैं।"
+            },
+            {
+              "english": "So, 461308 rounded to the nearest lakh is 500000.",
+              "hindi": "इसलिए, 461308 को निकटतम लाख तक गोल करने पर उत्तर 500000 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2757,8 +3273,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 782615 to the nearest lakh.",
+              "hindi": "हमें 782615 को सबसे नज़दीकी लाख तक गोल करना है।"
+            },
+            {
+              "english": "1. 1 lakh = 100000.\n2. So we compare 782615 with the two nearest lakhs: 700000 and 800000.\n3. 782615 is greater than 750000, so it is closer to 800000.\n4. Therefore, we round it up to the next lakh.",
+              "hindi": "1. 1 लाख = 100000 होता है।\n2. इसलिए हम इसे 700000 और 800000 के बीच देखते हैं।\n3. 782615, 750000 से बड़ा है, इसलिए यह 800000 के ज़्यादा पास है।\n4. इसलिए संख्या को अगले लाख तक बढ़ा देते हैं।"
+            },
+            {
+              "english": "Final answer: 800000",
+              "hindi": "अंतिम उत्तर: 800000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2821,8 +3353,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 1054319 to the nearest lakh.",
+              "hindi": "हमें 1054319 को निकटतम लाख तक पूर्णांकित करना है।"
+            },
+            {
+              "english": "1. One lakh = 100000.\n2. 1054319 lies between 1000000 (10 lakh) and 1100000 (11 lakh).\n3. The halfway point is 1050000.\n4. Since 1054319 is greater than 1050000, we round up to the next lakh.",
+              "hindi": "1. 1 लाख = 100000 होता है।\n2. 1054319, 1000000 (10 लाख) और 1100000 (11 लाख) के बीच है।\n3. बीच का मान 1050000 होता है।\n4. क्योंकि 1054319, 1050000 से बड़ा है, इसलिए इसे अगले लाख तक ऊपर की ओर पूर्णांकित करेंगे।"
+            },
+            {
+              "english": "So, 1054319 rounded to the nearest lakh is 1100000.",
+              "hindi": "इसलिए, 1054319 को निकटतम लाख तक पूर्णांकित करने पर 1100000 मिलता है।"
+            },
+            {
+              "english": "Final answer: 1100000",
+              "hindi": "अंतिम उत्तर: 1100000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2885,8 +3437,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 1407685 to the nearest lakh, we first remember that 1 lakh = 100,000.",
+              "hindi": "1407685 को निकटतम लाख तक गोल करने के लिए पहले याद रखें कि 1 लाख = 100000 होता है।"
+            },
+            {
+              "english": "Write the number in Indian place value form: 14,07,685.",
+              "hindi": "अब संख्या को भारतीय स्थान मान के अनुसार लिखते हैं: 14,07,685।"
+            },
+            {
+              "english": "Now look at the digit in the ten-thousands place. It is 0.\n- If this digit is 0, 1, 2, 3, or 4, we round down.\n- If it is 5, 6, 7, 8, or 9, we round up.",
+              "hindi": "अब दाएँ से दूसरे स्थान, यानी दस-हज़ार वाले अंक को देखें। यह 0 है।\n- अगर यह अंक 0, 1, 2, 3, या 4 हो, तो हम नीचे की ओर गोल करते हैं।\n- अगर यह 5, 6, 7, 8, या 9 हो, तो हम ऊपर की ओर गोल करते हैं।"
+            },
+            {
+              "english": "Here, the ten-thousands digit is 0, so we round down.",
+              "hindi": "यहाँ दस-हज़ार वाला अंक 0 है, इसलिए हम नीचे की ओर गोल करेंगे।"
+            },
+            {
+              "english": "So, 14,07,685 becomes 14,00,000.",
+              "hindi": "इसलिए 14,07,685 को गोल करने पर 14,00,000 मिलता है।"
+            },
+            {
+              "english": "Final answer: 1400000.",
+              "hindi": "अंतिम उत्तर: 1400000."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2949,8 +3529,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 16,970,354 to the nearest lakh, we look at the digit in the ten-thousands place.",
+              "hindi": "16,970,354 को निकटतम लाख तक round off करने के लिए हमें दस-हज़ार के स्थान का अंक देखना होता है।"
+            },
+            {
+              "english": "1. Write the number in Indian place value form:\n   1,69,70,354\n2. The lakh place is the 1,00,000 place.\n3. The digit just after the lakh place is 7 in the ten-thousands place.\n4. Since 7 is 5 or more, we round the lakh digit up by 1.\n5. So 1,69,70,354 becomes 1,70,00,000.",
+              "hindi": "1. संख्या को भारतीय स्थान-मूल्य में लिखिए:\n   1,69,70,354\n2. लाख का स्थान 1,00,000 वाला स्थान होता है।\n3. लाख के बाद वाला अंक दस-हज़ार के स्थान पर 7 है।\n4. क्योंकि 7, 5 या उससे बड़ा है, इसलिए लाख वाले अंक को 1 बढ़ा देते हैं।\n5. इसलिए 1,69,70,354 को 1,70,00,000 बना देते हैं।"
+            },
+            {
+              "english": "Final answer: 17000000",
+              "hindi": "अंतिम उत्तर: 17000000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3013,8 +3609,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 21,352,419 to the nearest lakh, we look at the digit in the ten-thousands place.",
+              "hindi": "21,352,419 को निकटतम लाख तक गोल करने के लिए हमें लाख के बाद वाला अंक देखना होता है।"
+            },
+            {
+              "english": "Number: 21,352,419\n- Lakh digit = 3\n- Ten-thousands digit = 5",
+              "hindi": "संख्या: 21,352,419\n- लाख का अंक = 3\n- दस-हजार का अंक = 5"
+            },
+            {
+              "english": "Since the ten-thousands digit is 5, we round the lakh digit up by 1.\nSo, 3 lakhs becomes 4 lakhs.",
+              "hindi": "क्योंकि दस-हजार का अंक 5 है, इसलिए हम लाख वाले अंक को 1 बढ़ा देते हैं।\nइसलिए 3 लाख, 4 लाख बन जाएगा।"
+            },
+            {
+              "english": "Now replace all digits after the lakh place with zeros:\n21,400,000",
+              "hindi": "अब लाख के बाद के सभी अंकों को शून्य कर देते हैं:\n21,400,000"
+            },
+            {
+              "english": "Final answer: 21400000",
+              "hindi": "अंतिम उत्तर: 21400000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3077,8 +3697,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 1,916,423 to the nearest ten-lakh, follow these steps:",
+              "hindi": "1,916,423 को सबसे नज़दीकी दस-लाख में गोल करने के लिए ये कदम अपनाएँ:"
+            },
+            {
+              "english": "1. Ten-lakh means 10,00,000, which is 1,000,000.\n2. The number 1,916,423 lies between 1,000,000 and 2,000,000.\n3. The middle point is 1,500,000.\n4. Since 1,916,423 is greater than 1,500,000, it is closer to 2,000,000.\n5. So we round it up to the next ten-lakh.",
+              "hindi": "1. दस-लाख का मतलब 10,00,000 होता है, यानी 1,000,000।\n2. संख्या 1,916,423, 1,000,000 और 2,000,000 के बीच है।\n3. बीच की संख्या 1,500,000 होती है।\n4. क्योंकि 1,916,423, 1,500,000 से बड़ी है, इसलिए यह 2,000,000 के ज़्यादा करीब है।\n5. इसलिए इसे अगले दस-लाख तक गोल करेंगे।"
+            },
+            {
+              "english": "Final answer: 2,000,000",
+              "hindi": "अंतिम उत्तर: 2,000,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3141,8 +3777,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 2,347,917 to the nearest ten-lakh.",
+              "hindi": "हमें 2,347,917 को निकटतम दस-लाख तक गोल करना है।"
+            },
+            {
+              "english": "Step 1: Ten-lakh means 10,00,000.\nStep 2: In 2,347,917, the ten-lakh digit is 2.\nStep 3: Look at the next digit, which is 3.\nStep 4: Since 3 is less than 5, we round down.\nStep 5: So all digits after the ten-lakh place become 0.",
+              "hindi": "चरण 1: दस-लाख का मतलब 10,00,000 होता है।\nचरण 2: 2,347,917 में दस-लाख का अंक 2 है।\nचरण 3: इसके बाद वाला अंक 3 है।\nचरण 4: क्योंकि 3, 5 से छोटा है, इसलिए हम नीचे की ओर गोल करेंगे।\nचरण 5: दस-लाख के बाद के सभी अंक 0 हो जाएंगे।"
+            },
+            {
+              "english": "So, 2,347,917 rounds to 20,00,000.",
+              "hindi": "इसलिए, 2,347,917 को गोल करने पर 20,00,000 मिलेगा।"
+            },
+            {
+              "english": "Final answer: 20,00,000 (2000000).",
+              "hindi": "अंतिम उत्तर: 20,00,000 (2000000)."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3205,8 +3861,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 7,156,902 to the nearest ten-lakh, first write it in the Indian place-value system: 71,56,902.",
+              "hindi": "7,156,902 को निकटतम दस-लाख तक round off करने के लिए पहले इसे भारतीय स्थान-मूल्य प्रणाली में लिखते हैं: 71,56,902।"
+            },
+            {
+              "english": "Now look at the ten-lakh place. The number is 7 in the ten-lakh place, and the digit just next to it on the right is 1 in the lakh place.",
+              "hindi": "अब दस-लाख के स्थान को देखते हैं। इस संख्या में दस-लाख के स्थान पर 7 है और उसके दाईं ओर लाख के स्थान पर 1 है।"
+            },
+            {
+              "english": "Rule:\n- If the next digit is 0, 1, 2, 3, or 4, keep the ten-lakh digit the same.\n- If it is 5, 6, 7, 8, or 9, increase the ten-lakh digit by 1.",
+              "hindi": "नियम:\n- अगर अगला अंक 0, 1, 2, 3, या 4 हो, तो दस-लाख वाला अंक वही रहता है।\n- अगर अगला अंक 5, 6, 7, 8, या 9 हो, तो दस-लाख वाला अंक 1 बढ़ जाता है।"
+            },
+            {
+              "english": "Here, the lakh digit is 1, so we keep 7 the same and change all the digits after it to zero.",
+              "hindi": "यहाँ लाख का अंक 1 है, इसलिए हम 7 को वही रखते हैं और उसके बाद के सभी अंकों को 0 कर देते हैं।"
+            },
+            {
+              "english": "So, 7,156,902 rounded to the nearest ten-lakh is 7,000,000.",
+              "hindi": "इसलिए, 7,156,902 को निकटतम दस-लाख तक round off करने पर 7,000,000 मिलता है।"
+            },
+            {
+              "english": "Final answer: 7,000,000",
+              "hindi": "अंतिम उत्तर: 7,000,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3269,8 +3953,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 6719543 to the nearest ten-lakh.",
+              "hindi": "हमें 6719543 को निकटतम दस लाख तक गोल करना है।"
+            },
+            {
+              "english": "First, write it in the Indian place-value system:\n6719543 = 67,19,543",
+              "hindi": "पहले इसे भारतीय स्थान-मूल्य पद्धति में लिखते हैं:\n6719543 = 67,19,543"
+            },
+            {
+              "english": "Now find the two nearest ten-lakhs around it:\n60,00,000 and 70,00,000",
+              "hindi": "अब इसके आसपास के दो निकटतम दस लाख देखते हैं:\n60,00,000 और 70,00,000"
+            },
+            {
+              "english": "The middle point is 65,00,000.\nSince 67,19,543 is greater than 65,00,000, it is closer to 70,00,000.",
+              "hindi": "इन दोनों के बीच का मान 65,00,000 है।\nक्योंकि 67,19,543, 65,00,000 से बड़ा है, इसलिए यह 70,00,000 के अधिक करीब है।"
+            },
+            {
+              "english": "So, 6719543 rounded to the nearest ten-lakh is 7000000.",
+              "hindi": "इसलिए 6719543 को निकटतम दस लाख तक गोल करने पर 7000000 मिलता है।"
+            },
+            {
+              "english": "Final answer: 7000000",
+              "hindi": "अंतिम उत्तर: 7000000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3333,8 +4045,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "25,32,104 is written in the Indian place-value system.\nTo round it to the nearest ten-lakh, look at the ten-lakh digit: 2.\nNow check the next digit, the lakh digit: 5.\nSince this digit is 5 or more, we increase the ten-lakh digit by 1.\nSo 2 becomes 3, and all the digits after it become 0.\nTherefore, 25,32,104 rounds to 30,00,000.\nFinal answer: 3,000,000.",
+              "hindi": "25,32,104 भारतीय स्थान-मूल्य पद्धति में लिखा गया है।\nइसे निकटतम दस-लाख तक गोल करने के लिए दस-लाख का अंक देखें: 2।\nअब अगला अंक, यानी लाख का अंक देखें: 5।\nक्योंकि यह अंक 5 या उससे अधिक है, इसलिए दस-लाख के अंक में 1 जोड़ते हैं।\nइसलिए 2 बढ़कर 3 हो जाता है, और उसके बाद के सभी अंक 0 हो जाते हैं।\nइस तरह 25,32,104 गोल होकर 30,00,000 बन जाता है।\nअंतिम उत्तर: 3,000,000."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3397,8 +4117,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 16380547 to the nearest ten-lakh, first find the ten-lakh place.",
+              "hindi": "16380547 को दस लाख के निकटतम मान तक गोल करने के लिए पहले दस लाख का स्थान देखिए।"
+            },
+            {
+              "english": "16380547 = 1,63,80,547",
+              "hindi": "16380547 = 1,63,80,547"
+            },
+            {
+              "english": "The ten-lakh digit is 6.\nLook at the digit just after it, which is the lakh digit 3.",
+              "hindi": "दस लाख के स्थान पर अंक 6 है।\nइसके बाद वाला अंक, यानी लाख के स्थान पर 3 है।"
+            },
+            {
+              "english": "Since 3 is less than 5, we keep the ten-lakh digit the same and change all digits after it to 0.",
+              "hindi": "क्योंकि 3, 5 से छोटा है, इसलिए दस लाख वाला अंक वही रहेगा और उसके बाद के सभी अंक 0 हो जाएंगे।"
+            },
+            {
+              "english": "So, 16380547 rounded to the nearest ten-lakh = 16000000.",
+              "hindi": "इसलिए 16380547 को निकटतम दस लाख तक गोल करने पर मिलता है 16000000."
+            },
+            {
+              "english": "Final Answer: 16000000",
+              "hindi": "Final Answer: 16000000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3461,8 +4209,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 36,524,179 to the nearest ten-lakh, we look at the digit just after the ten-lakh place.",
+              "hindi": "36,524,179 को निकटतम दस-लाख तक round करने के लिए हम दस-लाख के बाद वाले अंक को देखते हैं।"
+            },
+            {
+              "english": "1. Write the number in Indian place value: 3,65,24,179.\n2. The ten-lakh digit is 6.\n3. The next digit, which is the lakh digit, is 5.\n4. Since the next digit is 5, we round the ten-lakh digit up from 6 to 7.\n5. Change all the digits after the ten-lakh place to zeros.",
+              "hindi": "1. संख्या को भारतीय स्थान मान में लिखें: 3,65,24,179.\n2. दस-लाख के स्थान पर 6 है.\n3. उसके बाद वाला अंक, यानी लाख का अंक, 5 है.\n4. क्योंकि अगला अंक 5 है, इसलिए दस-लाख वाले अंक 6 को बढ़ाकर 7 कर देते हैं.\n5. दस-लाख के बाद के सभी अंकों को 0 कर देते हैं."
+            },
+            {
+              "english": "So, 36,524,179 rounds to 37,000,000.",
+              "hindi": "इसलिए, 36,524,179 का निकटतम दस-लाख पर मान 37,000,000 है।"
+            },
+            {
+              "english": "Final answer: 37,000,000",
+              "hindi": "अंतिम उत्तर: 37,000,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3525,8 +4293,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 54,036,658 to the nearest ten-lakh, we first look at the ten-lakh place.",
+              "hindi": "54,036,658 को निकटतम ten-lakh (दस लाख) तक गोल करने के लिए, पहले दस लाख के स्थान को देखते हैं।"
+            },
+            {
+              "english": "Write the number in Indian place value format:\n5,40,36,658",
+              "hindi": "इसे भारतीय स्थान-मूल्य में लिखते हैं:\n5,40,36,658"
+            },
+            {
+              "english": "Now look at the digit just after the ten-lakh place.\n- The ten-lakh digit is 4.\n- The next digit is 0.\n- Since 0 is less than 5, we round down.",
+              "hindi": "अब दस लाख के बाद वाला अंक देखते हैं।\n- दस लाख का अंक 4 है।\n- उसके बाद वाला अंक 0 है।\n- क्योंकि 0, 5 से छोटा है, इसलिए हम संख्या को नीचे की ओर गोल करेंगे।"
+            },
+            {
+              "english": "So, keep the ten-lakh part the same and change all the digits after it to 0.",
+              "hindi": "इसलिए दस लाख तक का भाग वही रहेगा और उसके बाद के सभी अंक 0 हो जाएंगे।"
+            },
+            {
+              "english": "54,036,658 rounded to the nearest ten-lakh = 54,000,000.",
+              "hindi": "54,036,658 को निकटतम दस लाख तक गोल करने पर = 54,000,000."
+            },
+            {
+              "english": "Final answer: 54,000,000",
+              "hindi": "अंतिम उत्तर: 54,000,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3589,8 +4385,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: 1 crore means 10,000,000.\nStep 2: The number 62,735,913 lies between 60,000,000 and 70,000,000.\nStep 3: The middle point is 65,000,000.\nStep 4: Since 62,735,913 is less than 65,000,000, it is closer to 60,000,000.\nSo, rounded off to the nearest crore = 60,000,000.",
+              "hindi": "चरण 1: 1 करोड़ = 10,000,000 होता है।\nचरण 2: संख्या 62,735,913, 60,000,000 और 70,000,000 के बीच है।\nचरण 3: इन दोनों के बीच का मध्य मान 65,000,000 है।\nचरण 4: क्योंकि 62,735,913, 65,000,000 से छोटी है, यह 60,000,000 के अधिक पास है।\nइसलिए, निकटतम करोड़ पर मान = 60,000,000।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3653,8 +4457,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 36478609 to the nearest crore, first write it in the Indian place-value system:\n36,478,609 = 3 crore 64 lakh 78 thousand 609.",
+              "hindi": "36478609 को निकटतम करोड़ तक गोल करने के लिए, पहले इसे भारतीय स्थान-मूल्य प्रणाली में लिखते हैं:\n36,478,609 = 3 करोड़ 64 लाख 78 हजार 609."
+            },
+            {
+              "english": "Now think about the two nearest crores:\n- 3 crore = 30,000,000\n- 4 crore = 40,000,000",
+              "hindi": "अब इसके आसपास के दो करोड़ देखें:\n- 3 करोड़ = 30,000,000\n- 4 करोड़ = 40,000,000"
+            },
+            {
+              "english": "36478609 is more than 35,000,000, so it is closer to 4 crore than to 3 crore.\nSo we round it up to the next crore.",
+              "hindi": "36478609, 35,000,000 से बड़ा है, इसलिए यह 3 करोड़ की तुलना में 4 करोड़ के अधिक पास है।\nइसलिए इसे अगले करोड़ तक बढ़ा देते हैं।"
+            },
+            {
+              "english": "Final answer: 40,000,000",
+              "hindi": "अंतिम उत्तर: 40,000,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3717,8 +4541,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 95,632,417 to the nearest crore.",
+              "hindi": "हमें 95,632,417 को निकटतम करोड़ तक गोल करना है।"
+            },
+            {
+              "english": "1. 1 crore = 10,000,000.\n2. The number 95,632,417 is between 90,000,000 and 100,000,000.\n3. The middle point is 95,000,000.\n4. Since 95,632,417 is greater than 95,000,000, we round it up to 100,000,000.",
+              "hindi": "1. 1 करोड़ = 10,000,000 होता है।\n2. संख्या 95,632,417, 90,000,000 और 100,000,000 के बीच है।\n3. बीच की संख्या 95,000,000 होती है।\n4. क्योंकि 95,632,417, 95,000,000 से बड़ी है, इसलिए इसे ऊपर की ओर गोल करेंगे।\n5. इसलिए यह 100,000,000 हो जाएगी।"
+            },
+            {
+              "english": "Final answer: 100000000",
+              "hindi": "अंतिम उत्तर: 100000000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3781,8 +4621,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 70,869,785 to the nearest crore.",
+              "hindi": "हमें 70,869,785 को निकटतम करोड़ तक round off करना है।"
+            },
+            {
+              "english": "Step 1: Write the number in the Indian place value system.\n70,869,785 = 7 crore 8 lakh 69 thousand 785",
+              "hindi": "Step 1: संख्या को भारतीय स्थान मान के अनुसार लिखिए।\n70,869,785 = 7 करोड़ 8 लाख 69 हजार 785"
+            },
+            {
+              "english": "Step 2: Check how much is left after 7 crore.\nThe extra part is 8 lakh 69 thousand 785, which is less than 50 lakh.",
+              "hindi": "Step 2: 7 करोड़ के बाद कितना भाग बचता है, यह देखिए।\nबचा हुआ भाग 8 लाख 69 हजार 785 है, जो 50 लाख से कम है।"
+            },
+            {
+              "english": "Step 3: For rounding to the nearest crore:\n- If the extra part is less than 50 lakh, round down.\n- If it is 50 lakh or more, round up.",
+              "hindi": "Step 3: निकटतम करोड़ तक round off करने का नियम:\n- अगर बचा हुआ भाग 50 लाख से कम हो, तो नीचे की ओर round off करते हैं।\n- अगर 50 लाख या उससे अधिक हो, तो ऊपर की ओर round off करते हैं।"
+            },
+            {
+              "english": "Here, we round down to 7 crore.",
+              "hindi": "यहाँ बचा हुआ भाग 50 लाख से कम है, इसलिए हम 7 करोड़ पर round off करेंगे।"
+            },
+            {
+              "english": "So, 70,869,785 rounded to the nearest crore is 70,000,000.",
+              "hindi": "इसलिए, 70,869,785 को निकटतम करोड़ तक round off करने पर 70,000,000 मिलता है।"
+            },
+            {
+              "english": "Final Answer: 70,000,000",
+              "hindi": "अंतिम उत्तर: 70,000,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3845,8 +4717,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 83,754,876 to the nearest crore, follow these steps:",
+              "hindi": "83,754,876 को निकटतम करोड़ तक गोल करने के लिए ऐसे करें:"
+            },
+            {
+              "english": "1. 1 crore = 10,000,000.\n2. So we compare 83,754,876 with 80,000,000 and 90,000,000.\n3. The middle point is 85,000,000.\n4. Since 83,754,876 is less than 85,000,000, it is closer to 80,000,000.",
+              "hindi": "1. 1 करोड़ = 10,000,000 होता है।\n2. इसलिए हम 83,754,876 की तुलना 80,000,000 और 90,000,000 से करते हैं।\n3. बीच का मान 85,000,000 होता है।\n4. क्योंकि 83,754,876, 85,000,000 से छोटा है, इसलिए यह 80,000,000 के ज्यादा करीब है।"
+            },
+            {
+              "english": "So, 83,754,876 rounded to the nearest crore is 80,000,000.",
+              "hindi": "इसलिए 83,754,876 को निकटतम करोड़ तक गोल करने पर 80,000,000 मिलता है।"
+            },
+            {
+              "english": "Final answer: 80,000,000",
+              "hindi": "अंतिम उत्तर: 80,000,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3909,8 +4801,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: 1 crore = 10,000,000.\nStep 2: So the rounded answer is 10000000.\nFinal Answer: 10000000",
+              "hindi": "चरण 1: 1 करोड़ = 10,000,000 होता है।\nचरण 2: इसलिए गोल किया हुआ उत्तर 10000000 है।\nअंतिम उत्तर: 10000000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3973,8 +4873,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 136472508 to the nearest ten, we look at the ones digit.\n- The ones digit is 8.\n- Since 8 is 5 or more, we round the number up to the next ten.\n- So, 136472508 becomes 136472510.",
+              "hindi": "136472508 को दहाई के निकटतम मान तक गोल करने के लिए हम इकाई अंक देखते हैं।\n- इकाई अंक 8 है।\n- क्योंकि 8, 5 या उससे अधिक है, इसलिए हम अगले दहाई पर ऊपर की ओर गोल करते हैं।\n- इसलिए 136472508, 136472510 बन जाता है।"
+            },
+            {
+              "english": "Final answer: 136472510",
+              "hindi": "अंतिम उत्तर: 136472510"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4037,8 +4949,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 136472508 to the nearest hundred, we look at the tens digit.\nThe tens digit is 0.\nSince 0 is less than 5, we keep the hundreds digit the same and change the tens and ones digits to 00.\nSo, 136472508 rounds to 136472500.\nFinal answer: 136472500",
+              "hindi": "136472508 को निकटतम सैकड़ा तक round करने के लिए हम दहाई के अंक को देखते हैं।\nदहाई का अंक 0 है।\nक्योंकि 0, 5 से छोटा है, इसलिए सैकड़ों का अंक वही रहता है और दहाई तथा इकाई के अंक 00 हो जाते हैं।\nइसलिए 136472508 को round करने पर 136472500 मिलता है।\nअंतिम उत्तर: 136472500"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4101,8 +5021,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 136472508 to the nearest thousand:\n1. Look at the last three digits: 508.\n2. Since 508 is 500 or more, we round the thousands place up by 1.\n3. The thousands digit in 136472508 is 2, so it becomes 3.\n4. Replace the last three digits with 000.\nSo, 136472508 rounded to the nearest thousand is 136473000.\nFinal answer: 136473000",
+              "hindi": "136472508 को निकटतम हजार तक पूर्णांकित करने के लिए:\n1. आख़िरी तीन अंक देखें: 508।\n2. क्योंकि 508, 500 या उससे अधिक है, इसलिए हमें हजार वाले अंक को 1 बढ़ाना है।\n3. 136472508 में हजार वाला अंक 2 है, इसलिए वह 3 हो जाएगा।\n4. आख़िरी तीन अंकों को 000 कर दें।\nइसलिए, 136472508 को निकटतम हजार पर लिखने पर 136473000 मिलता है।\nअंतिम उत्तर: 136473000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4165,8 +5093,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 136,472,508 to the nearest ten-thousand, first find the ten-thousands digit.",
+              "hindi": "136,472,508 को निकटतम दस-हज़ार तक गोल करने के लिए पहले दस-हज़ार के स्थान का अंक देखें।"
+            },
+            {
+              "english": "136,472,508",
+              "hindi": "136,472,508"
+            },
+            {
+              "english": "The ten-thousands digit is 7.\nNow look at the digit just to its right, which is the thousands digit.\nThe thousands digit is 2.",
+              "hindi": "दस-हज़ार के स्थान पर अंक 7 है।\nअब उसके दाईं ओर वाले अंक को देखें, यानी हज़ार के स्थान वाला अंक।\nहज़ार के स्थान पर अंक 2 है।"
+            },
+            {
+              "english": "If the thousands digit is 0, 1, 2, 3, or 4, we keep the ten-thousands digit the same and change all digits after it to 0.\nSince 2 is less than 5, we keep 7 the same.\nSo 136,472,508 becomes 136,470,000.",
+              "hindi": "अगर हज़ार का अंक 0, 1, 2, 3, या 4 हो, तो दस-हज़ार वाला अंक वही रहता है और उसके बाद के सभी अंक 0 कर दिए जाते हैं।\nचूंकि 2, 5 से छोटा है, इसलिए 7 वही रहेगा।\nइसलिए 136,472,508 को गोल करने पर 136,470,000 मिलता है।"
+            },
+            {
+              "english": "Final Answer: 136470000",
+              "hindi": "अंतिम उत्तर: 136470000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4229,8 +5181,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 136472508 to the nearest lakh, we round it to the nearest 100000.",
+              "hindi": "136472508 को निकटतम लाख तक round करने के लिए हमें इसे 100000 के निकटतम मान तक ले जाना है।"
+            },
+            {
+              "english": "Write the number as 136,472,508.",
+              "hindi": "संख्या को ऐसे लिखें: 136,472,508"
+            },
+            {
+              "english": "- The lakh place is the 100000 place.\n- The digit just after it is in the ten-thousands place.\n- In 136,472,508, that digit is 7.\n- Since 7 is 5 or more, we increase the lakh digit by 1.\n- So 4 lakh becomes 5 lakh, and all digits after it become 0.",
+              "hindi": "- लाख का स्थान 100000 वाला स्थान होता है।\n- उसके ठीक बाद वाला अंक दस-हजार का स्थान होता है।\n- 136,472,508 में यह अंक 7 है।\n- क्योंकि 7, 5 से बड़ा है, इसलिए लाख वाले अंक को 1 बढ़ा देंगे।\n- इसलिए 4 लाख, 5 लाख हो जाएगा और उसके बाद के सभी अंक 0 हो जाएंगे।"
+            },
+            {
+              "english": "Therefore, 136472508 rounded to the nearest lakh is 136500000.",
+              "hindi": "इसलिए 136472508 को निकटतम लाख तक round करने पर उत्तर 136500000 मिलता है।"
+            },
+            {
+              "english": "Final answer: 136500000",
+              "hindi": "अंतिम उत्तर: 136500000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4293,8 +5269,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 136472508 to the nearest crore.",
+              "hindi": "हमें 136472508 को निकटतम करोड़ तक round करना है।"
+            },
+            {
+              "english": "1 crore = 10,000,000.",
+              "hindi": "1 करोड़ = 10,000,000 होता है।"
+            },
+            {
+              "english": "So, 136472508 = 13.6472508 crore.",
+              "hindi": "इसलिए, 136472508 = 13.6472508 करोड़।"
+            },
+            {
+              "english": "When we round 13.6472508 to the nearest whole crore, we look at the decimal part:\n- 0.6472508 is greater than 0.5\n- so we round up from 13 crore to 14 crore",
+              "hindi": "अब 13.6472508 को निकटतम पूरे करोड़ तक round करते हैं:\n- decimal भाग 0.6472508 है\n- यह 0.5 से बड़ा है\n- इसलिए हम 13 करोड़ से बढ़ाकर 14 करोड़ करेंगे"
+            },
+            {
+              "english": "Therefore, 136472508 rounded to the nearest crore is 140000000.",
+              "hindi": "इसलिए, 136472508 को निकटतम करोड़ तक round करने पर 140000000 मिलता है।"
+            },
+            {
+              "english": "Final answer: 140000000",
+              "hindi": "अंतिम उत्तर: 140000000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4357,8 +5361,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Write the number in Indian place value: 8,56,42,574.\nStep 2: 1 crore = 1,00,00,000.\nStep 3: The number 8,56,42,574 is between 8 crore (80,000,000) and 9 crore (90,000,000).\nStep 4: It is more than the middle point, so we round it up to 9 crore.\nSo, the population to the nearest crore is 90,000,000.\nFinal answer: 90000000",
+              "hindi": "चरण 1: संख्या को भारतीय स्थान मान में लिखें: 8,56,42,574।\nचरण 2: 1 करोड़ = 1,00,00,000 होता है।\nचरण 3: 8,56,42,574, 8 करोड़ (80,000,000) और 9 करोड़ (90,000,000) के बीच है।\nचरण 4: यह बीच के मान से अधिक है, इसलिए इसे अगले करोड़ तक ऊपर गोल करेंगे।\nइसलिए, निकटतम करोड़ में जनसंख्या 90,000,000 है।\nअंतिम उत्तर: 90000000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4421,8 +5433,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to write 85642574 to the nearest lakh.",
+              "hindi": "हमें 85642574 को निकटतम लाख तक लिखना है।"
+            },
+            {
+              "english": "Step 1: Write the number in Indian place-value form: 8,56,42,574\nStep 2: One lakh = 1,00,000.\nStep 3: To round to the nearest lakh, look at the ten-thousands part.\nHere, the number is 42,574 after the lakh place.\nStep 4: Since 42,574 is less than 50,000, we round down.\nStep 5: Keep the lakh digit the same and change the digits after it to zero.",
+              "hindi": "चरण 1: संख्या को भारतीय स्थान-मूल्य में लिखें: 8,56,42,574\nचरण 2: 1 लाख = 1,00,000 होता है।\nचरण 3: निकटतम लाख तक गोल करने के लिए लाख के बाद वाले भाग को देखें।\nयहाँ लाख के बाद 42,574 है।\nचरण 4: क्योंकि 42,574, 50,000 से छोटा है, इसलिए हम नीचे की ओर गोल करेंगे।\nचरण 5: लाख वाले अंक को वही रखें और उसके बाद के सभी अंक शून्य कर दें।"
+            },
+            {
+              "english": "So, 85642574 rounded to the nearest lakh is 8,56,00,000.",
+              "hindi": "इसलिए 85642574 का निकटतम लाख तक मान 8,56,00,000 है।"
+            },
+            {
+              "english": "Final answer: 8,56,00,000",
+              "hindi": "अंतिम उत्तर: 8,56,00,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4485,8 +5517,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 85,642,574 to the nearest thousand:",
+              "hindi": "85,642,574 को निकटतम हजार तक गोल करने के लिए:"
+            },
+            {
+              "english": "1. Find the thousands place. In 85,642,574, the thousands part is 85,642,000.\n2. Look at the last three digits: 574.\n3. Since 574 is 500 or more, we round the thousands place up by 1.\n4. So 85,642,000 becomes 85,643,000.",
+              "hindi": "1. हजारों का स्थान पहचानिए। 85,642,574 में हजारों तक का भाग 85,642,000 है।\n2. आख़िरी तीन अंक देखिए: 574।\n3. क्योंकि 574, 500 या उससे अधिक है, इसलिए हम हजारों वाले अंक को 1 बढ़ा देते हैं।\n4. इसलिए 85,642,000 बदलकर 85,643,000 हो जाता है।"
+            },
+            {
+              "english": "Final answer: 85,643,000",
+              "hindi": "अंतिम उत्तर: 85,643,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4549,8 +5597,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round to the nearest ten, look at the ones digit.",
+              "hindi": "सबसे पहले, निकटतम दहाई पर गोल (round) करना सीखते हैं।"
+            },
+            {
+              "english": "- If the ones digit is 0, 1, 2, 3, or 4, round down.\n- If the ones digit is 5, 6, 7, 8, or 9, round up.",
+              "hindi": "- अगर एकाई का अंक 0, 1, 2, 3, या 4 है, तो नीचे वाली दहाई पर गोल करते हैं।\n- अगर एकाई का अंक 5, 6, 7, 8, या 9 है, तो ऊपर वाली दहाई पर गोल करते हैं।"
+            },
+            {
+              "english": "Numbers from 65 to 74 round to 70:\n- 65 rounds up to 70\n- 66, 67, 68, and 69 round up to 70\n- 70 stays 70\n- 71, 72, 73, and 74 round down to 70",
+              "hindi": "जो संख्याएँ 70 पर गोल होती हैं, वे 65 से 74 तक हैं:\n- 65, 70 पर गोल होता है\n- 66, 67, 68, और 69 भी 70 पर गोल होते हैं\n- 70 तो पहले से ही 70 है\n- 71, 72, 73, और 74 भी 70 पर गोल होते हैं"
+            },
+            {
+              "english": "Final answer: 65 to 74.",
+              "hindi": "अंतिम उत्तर: 65 से 74।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4613,8 +5681,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round to the nearest ten, look at the ones digit.\n- If the ones digit is 5 or more, round up.\n- If the ones digit is 4 or less, round down.",
+              "hindi": "निकटतम दहाई पर गोल करने के लिए इकाई का अंक देखते हैं।\n- अगर इकाई का अंक 5 या उससे बड़ा हो, तो ऊपर गोल करते हैं।\n- अगर इकाई का अंक 4 या उससे छोटा हो, तो नीचे गोल करते हैं।"
+            },
+            {
+              "english": "Numbers that round to 140 must be from 135 to 144.\n- 135 rounds to 140.\n- 144 rounds to 140.\n- 145 rounds to 150, so it is not included.",
+              "hindi": "140 पर गोल होने वाली संख्याएँ 135 से 144 तक होती हैं।\n- 135, 140 पर गोल होता है।\n- 144, 140 पर गोल होता है।\n- 145, 150 पर गोल होगा, इसलिए वह शामिल नहीं है।"
+            },
+            {
+              "english": "So the numbers that could be rounded to 140 are 135, 136, 137, 138, 139, 140, 141, 142, 143, and 144.",
+              "hindi": "इसलिए 140 पर गोल होने वाली संख्याएँ 135, 136, 137, 138, 139, 140, 141, 142, 143, और 144 हैं।"
+            },
+            {
+              "english": "Final answer: 135 to 144.",
+              "hindi": "अंतिम उत्तर: 135 से 144।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4677,8 +5765,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round to the nearest ten, we look at the ones digit.",
+              "hindi": "दहाई के सबसे नज़दीक round करने के लिए हम इकाई का अंक देखते हैं।"
+            },
+            {
+              "english": "- If the ones digit is 0, 1, 2, 3, or 4, we round down.\n- If the ones digit is 5, 6, 7, 8, or 9, we round up.",
+              "hindi": "- अगर इकाई का अंक 0, 1, 2, 3, या 4 हो, तो हम नीचे round करते हैं।\n- अगर इकाई का अंक 5, 6, 7, 8, या 9 हो, तो हम ऊपर round करते हैं।"
+            },
+            {
+              "english": "Now find the numbers that round to 990.\n- 985 rounds up to 990.\n- 986, 987, 988, and 989 also round to 990.\n- 990 stays 990.\n- 991, 992, 993, and 994 also round to 990.\n- 995 would round to 1000, so it does not count.",
+              "hindi": "अब देखते हैं कि कौन-से numbers 990 तक round होंगे।\n- 985, 990 तक round होता है।\n- 986, 987, 988, और 989 भी 990 तक round होते हैं।\n- 990 तो वैसे ही 990 रहता है।\n- 991, 992, 993, और 994 भी 990 तक round होते हैं।\n- 995, 1000 तक round हो जाएगा, इसलिए वह शामिल नहीं है।"
+            },
+            {
+              "english": "So the numbers that could be rounded to 990 are 985 to 994.",
+              "hindi": "इसलिए 990 तक round होने वाले numbers 985 से 994 तक हैं।"
+            },
+            {
+              "english": "Final answer: 985 to 994.",
+              "hindi": "Final answer: 985 to 994."
+            }
+          ]
         }
       ],
       "tags": [
@@ -4741,8 +5853,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round to the nearest ten, look at the ones digit.\n- If the ones digit is 5 or more, round up.\n- If the ones digit is 4 or less, round down.",
+              "hindi": "निकटतम दहाई पर गोल करने के लिए इकाई अंक देखें।\n- अगर इकाई अंक 5 या उससे बड़ा है, तो ऊपर की दहाई पर गोल करते हैं।\n- अगर इकाई अंक 4 या उससे छोटा है, तो नीचे की दहाई पर गोल करते हैं।"
+            },
+            {
+              "english": "We want numbers that round to 2350.\n- 2345 rounds up to 2350.\n- 2354 rounds down to 2350.",
+              "hindi": "हमें ऐसे नंबर चाहिए जो 2350 पर गोल हों।\n- 2345, 2350 पर गोल हो जाता है।\n- 2354 भी 2350 पर गोल हो जाता है।"
+            },
+            {
+              "english": "So every whole number from 2345 to 2354 will round to 2350.",
+              "hindi": "इसलिए 2345 से 2354 तक के सभी पूरे नंबर 2350 पर गोल होंगे।"
+            },
+            {
+              "english": "Final answer: 2345 to 2354.",
+              "hindi": "अंतिम उत्तर: 2345 से 2354।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4805,8 +5937,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round to the nearest hundred, look at the last two digits.\n- If the last two digits are 50 or more, the number rounds up.\n- If the last two digits are 49 or less, the number rounds down.",
+              "hindi": "निकटतम सैकड़े पर गोल करने के लिए आखिरी दो अंकों को देखो।\n- अगर आखिरी दो अंक 50 या उससे अधिक हों, तो संख्या अगले सैकड़े पर जाती है।\n- अगर आखिरी दो अंक 49 या उससे कम हों, तो संख्या पिछले सैकड़े पर जाती है।"
+            },
+            {
+              "english": "For 900:\n- 850 rounds up to 900.\n- 949 still rounds to 900.\n- 950 would round to 1000, so it does not count.",
+              "hindi": "900 पाने के लिए:\n- 850 को गोल करने पर 900 मिलता है।\n- 949 को भी गोल करने पर 900 ही मिलता है।\n- 950 को गोल करने पर 1000 मिलेगा, इसलिए वह शामिल नहीं है।"
+            },
+            {
+              "english": "So the numbers that can be rounded to 900 are all whole numbers from 850 to 949.",
+              "hindi": "इसलिए 900 पर गोल होने वाली संख्याएँ 850 से 949 तक की सभी पूर्ण संख्याएँ हैं।"
+            },
+            {
+              "english": "Final answer: 850 to 949.",
+              "hindi": "Final answer: 850 to 949."
+            }
+          ]
         }
       ],
       "tags": [
@@ -4869,8 +6021,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round to the nearest hundred, look at the last two digits.\n- If the last two digits are 50 or more, round up to the next hundred.\n- If the last two digits are less than 50, round down to the hundred before.",
+              "hindi": "निकटतम सैकड़े तक गोल करने के लिए आख़िरी दो अंकों को देखो।\n- अगर आख़िरी दो अंक 50 या उससे ज़्यादा हों, तो अगली सैकड़ा संख्या पर गोल करते हैं।\n- अगर आख़िरी दो अंक 50 से कम हों, तो पिछली सैकड़ा संख्या पर गोल करते हैं।"
+            },
+            {
+              "english": "We want the numbers that round to 1600.\n- 1550 rounds up to 1600.\n- 1649 still rounds to 1600.\n- 1650 would round up to 1700, so it does not count.",
+              "hindi": "हमें वे संख्याएँ चाहिए जो 1600 बनें।\n- 1550 को गोल करने पर 1600 मिलता है।\n- 1649 को भी गोल करने पर 1600 ही मिलता है।\n- 1650 को गोल करने पर 1700 मिलेगा, इसलिए वह शामिल नहीं है।"
+            },
+            {
+              "english": "So the numbers that could be rounded to 1600 are all numbers from 1550 to 1649.",
+              "hindi": "इसलिए 1600 पर गोल होने वाली संख्याएँ 1550 से 1649 तक हैं।"
+            },
+            {
+              "english": "Final answer: 1550 to 1649.",
+              "hindi": "अंतिम उत्तर: 1550 से 1649।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4933,8 +6105,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round to the nearest hundred, look at the last two digits.",
+              "hindi": "निकटतम सैकड़े तक गोल करने के लिए आखिरी दो अंकों को देखें।"
+            },
+            {
+              "english": "- If the last two digits are 50 or more, round up to the next hundred.\n- If the last two digits are less than 50, round down.",
+              "hindi": "- अगर आखिरी दो अंक 50 या उससे अधिक हैं, तो अगले सैकड़े तक ऊपर गोल करते हैं।\n- अगर आखिरी दो अंक 50 से कम हैं, तो नीचे वाले सैकड़े तक गोल करते हैं।"
+            },
+            {
+              "english": "For 5300:\n- 5250 is the smallest number that rounds up to 5300.\n- 5349 is the largest number that still rounds to 5300.\n- 5350 would round to 5400, not 5300.",
+              "hindi": "5300 के लिए:\n- 5250 सबसे छोटा नंबर है जो 5300 तक ऊपर गोल होता है।\n- 5349 सबसे बड़ा नंबर है जो अभी भी 5300 तक गोल होता है।\n- 5350 अब 5400 तक गोल होगा, 5300 तक नहीं।"
+            },
+            {
+              "english": "So the numbers that could be rounded to 5300 are 5250 to 5349.",
+              "hindi": "इसलिए 5300 तक गोल होने वाले नंबर 5250 से 5349 तक हैं।"
+            },
+            {
+              "english": "Final answer: 5250 to 5349.",
+              "hindi": "Final answer: 5250 से 5349।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4997,8 +6193,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round to the nearest hundred, we look at the last two digits.",
+              "hindi": "निकटतम सैकड़ा (nearest hundred) तक round करने के लिए हम आख़िरी दो अंकों को देखते हैं।"
+            },
+            {
+              "english": "- 32450 is halfway between 32400 and 32500, so it rounds up to 32500.\n- 32549 is still closer to 32500 than to 32600, so it also rounds to 32500.\n- 32550 would round to 32600, so it does not count.",
+              "hindi": "- 32450, 32400 और 32500 के ठीक बीच में है, इसलिए यह ऊपर जाकर 32500 बनता है।\n- 32549 अभी भी 32500 के ज़्यादा करीब है, 32600 के नहीं, इसलिए यह भी 32500 बनता है।\n- 32550 अब 32600 की ओर round होगा, इसलिए यह इसमें शामिल नहीं है।"
+            },
+            {
+              "english": "So the numbers that could be rounded to 32500 are all whole numbers from 32450 to 32549.",
+              "hindi": "इसलिए 32500 पर round होने वाली संख्याएँ 32450 से 32549 तक हैं।"
+            },
+            {
+              "english": "Final answer: 32450 to 32549",
+              "hindi": "अंतिम उत्तर: 32450 से 32549"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5061,8 +6277,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round to the nearest thousand, look at the hundreds digit.",
+              "hindi": "निकटतम हज़ार तक गोल करने के लिए सैकड़ों के अंक को देखते हैं।"
+            },
+            {
+              "english": "- If the number is 8500 or more, it rounds up to 9000.\n- If the number is 9499 or less, it still rounds to 9000.\n- At 9500, it would round to 10000, not 9000.",
+              "hindi": "- 8500 या उससे बड़े नंबर 9000 तक गोल हो जाते हैं।\n- 9499 या उससे छोटे नंबर भी 9000 तक ही गोल होते हैं।\n- 9500 पर नंबर 10000 तक गोल हो जाएगा, 9000 तक नहीं।"
+            },
+            {
+              "english": "So the numbers that could be rounded to 9000 are all numbers from 8500 to 9499.",
+              "hindi": "इसलिए 9000 तक गोल होने वाले नंबर 8500 से 9499 तक हैं।"
+            },
+            {
+              "english": "Final answer: 8500 to 9499.",
+              "hindi": "Final answer: 8500 से 9499।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5125,8 +6361,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round to the nearest thousand, look at the last three digits.",
+              "hindi": "हजार के निकटतम तक गोल करने पर, हमें आख़िरी तीन अंकों को देखना होता है।"
+            },
+            {
+              "english": "- If a number is 17,500 or more, it rounds up to 18,000.\n- If a number is 18,499 or less, it still rounds to 18,000.\n- But 18,500 would round to 19,000, so it is not included.",
+              "hindi": "- अगर संख्या 17,500 या उससे अधिक है, तो वह 18,000 बन जाती है।\n- अगर संख्या 18,499 या उससे कम है, तो वह अभी भी 18,000 ही बनेगी।\n- लेकिन 18,500 को 19,000 पर गोल किया जाएगा, इसलिए वह शामिल नहीं है।"
+            },
+            {
+              "english": "So all the numbers from 17,500 to 18,499 can be rounded to 18,000.",
+              "hindi": "इसलिए 17,500 से 18,499 तक की सभी संख्याएँ 18,000 पर गोल की जा सकती हैं।"
+            },
+            {
+              "english": "Final answer: 17500 to 18499.",
+              "hindi": "अंतिम उत्तर: 17500 से 18499।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5189,8 +6445,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round to the nearest thousand, we check which numbers are closest to 27,000.",
+              "hindi": "हज़ार के निकटतम पर गोल करते समय, हमें देखना होता है कि कौन-से अंक 27,000 के सबसे पास हैं।"
+            },
+            {
+              "english": "- 26,500 is exactly halfway between 26,000 and 27,000, so it rounds up to 27,000.\n- Numbers after 26,500 still round to 27,000.\n- 27,499 is still closer to 27,000 than to 28,000.\n- 27,500 would round to 28,000, so it is not included.",
+              "hindi": "- 26,500 ठीक 26,000 और 27,000 के बीच आधा है, इसलिए यह ऊपर जाकर 27,000 बनता है।\n- 26,500 के बाद वाले सभी नंबर भी 27,000 पर गोल होते हैं।\n- 27,499 अभी भी 27,000 के 28,000 से ज़्यादा पास है।\n- 27,500 अब 28,000 पर गोल होगा, इसलिए वह शामिल नहीं है।"
+            },
+            {
+              "english": "So the numbers that could be rounded to 27,000 are 26,500 to 27,499.",
+              "hindi": "इसलिए 27,000 पर गोल होने वाले नंबर 26,500 से 27,499 तक हैं।"
+            },
+            {
+              "english": "Final answer: 26,500 to 27,499.",
+              "hindi": "अंतिम उत्तर: 26,500 से 27,499।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5253,8 +6529,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 6.3 to the nearest one, look at the tenths digit.\n- The ones digit is 6.\n- The tenths digit is 3.\n- Since 3 is less than 5, we keep the ones digit the same.\nSo, 6.3 rounds to 6.\nFinal answer: 6",
+              "hindi": "6.3 को निकटतम एकांक तक गोल करने के लिए दसवें स्थान का अंक देखें।\n- एकक का अंक 6 है।\n- दसवें स्थान का अंक 3 है।\n- क्योंकि 3, 5 से छोटा है, इसलिए एकक का अंक नहीं बदलते।\nइसलिए 6.3 को 6 पर गोल किया जाएगा।\nअंतिम उत्तर: 6"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5317,8 +6601,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 2.7 to the nearest one, look at the digit in the tenths place.\n- The ones digit is 2.\n- The tenths digit is 7.\n- Since 7 is 5 or more, we round the ones digit up by 1.\nSo, 2.7 rounds to 3.\nFinal answer: 3",
+              "hindi": "2.7 को निकटतम एक (nearest one) पर round करने के लिए दशमलव के बाद वाले अंक को देखते हैं।\n- एकाई का अंक 2 है।\n- दसवां (tenths) अंक 7 है।\n- क्योंकि 7, 5 या उससे बड़ा है, इसलिए हम एकाई के अंक को 1 बढ़ा देते हैं।\nइसलिए, 2.7 को 3 पर round किया जाता है।\nअंतिम उत्तर: 3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5381,8 +6673,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 4.5 to the nearest one, we look at the tenths digit.",
+              "hindi": "4.5 को निकटतम एकक (nearest one) पर गोल करने के लिए हम दशमलव के बाद वाले अंक को देखते हैं।"
+            },
+            {
+              "english": "- The number is 4.5.\n- The digit after the decimal point is 5.\n- When the digit is 5, we round up to the next whole number.",
+              "hindi": "- संख्या है 4.5।\n- दशमलव के बाद वाला अंक 5 है।\n- जब अंक 5 होता है, तो हम अगले पूरे अंक पर ऊपर की ओर गोल करते हैं।"
+            },
+            {
+              "english": "So, 4.5 rounds to 5.",
+              "hindi": "इसलिए, 4.5 को 5 पर गोल किया जाता है।"
+            },
+            {
+              "english": "Final answer: 5",
+              "hindi": "अंतिम उत्तर: 5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5445,8 +6757,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 16.8 to the nearest one, which means the nearest whole number.",
+              "hindi": "हमें 16.8 को निकटतम एकाई (nearest whole number) तक गोल करना है।"
+            },
+            {
+              "english": "1. Look at the number 16.8.\n2. It is between 16 and 17.\n3. The decimal part is 0.8.\n4. Since 0.8 is 5 or more, we round up to the next whole number.",
+              "hindi": "1. संख्या 16.8 को देखें।\n2. यह 16 और 17 के बीच है।\n3. इसका दशमलव भाग 0.8 है।\n4. क्योंकि 0.8, 0.5 से बड़ा है, इसलिए हम अगले पूर्णांक पर गोल करते हैं।"
+            },
+            {
+              "english": "So, 16.8 rounds to 17.",
+              "hindi": "इसलिए, 16.8 को 17 पर गोल किया जाता है।"
+            },
+            {
+              "english": "Final answer: 17",
+              "hindi": "अंतिम उत्तर: 17"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5509,8 +6841,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 13.64 to the nearest one, which means the nearest whole number.",
+              "hindi": "हमें 13.64 को nearest one, यानी सबसे नज़दीकी पूर्ण संख्या, तक round off करना है।"
+            },
+            {
+              "english": "Step 1: Look at the tenths digit.\nIn 13.64, the tenths digit is 6.",
+              "hindi": "चरण 1: दसवें स्थान का अंक देखें।\n13.64 में दसवें स्थान पर 6 है।"
+            },
+            {
+              "english": "Step 2: Use the rounding rule.\nIf the tenths digit is 5 or more, we round the ones digit up.\nIf it is less than 5, we keep the ones digit the same.",
+              "hindi": "चरण 2: rounding का नियम लगाएँ।\nअगर दसवें स्थान का अंक 5 या उससे बड़ा हो, तो इकाई वाले अंक को 1 बढ़ा देते हैं।\nअगर वह 5 से छोटा हो, तो संख्या वही रहती है।"
+            },
+            {
+              "english": "Step 3: Decide the answer.\nSince 6 is 5 or more, 13 rounds up to 14.",
+              "hindi": "चरण 3: उत्तर तय करें।\nक्योंकि 6, 5 से बड़ा है, इसलिए 13 बढ़कर 14 हो जाएगा।"
+            },
+            {
+              "english": "Final answer: 14",
+              "hindi": "अंतिम उत्तर: 14"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5573,8 +6929,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 37.532 to the nearest one, look at the tenths digit.\n- The number is 37.532.\n- The ones digit is 7, and the tenths digit is 5.\n- Since the tenths digit is 5 or more, we round the ones digit up.\n- So 37.532 rounds to 38.\nFinal answer: 38",
+              "hindi": "37.532 को निकटतम एक तक round करने के लिए दहाई के बाद वाला पहला अंक देखें।\n- संख्या 37.532 है।\n- इकाई का अंक 7 है और दशमलव के बाद पहला अंक 5 है।\n- क्योंकि यह 5 या उससे बड़ा है, इसलिए हम इकाई के अंक को 1 बढ़ाते हैं।\n- इसलिए 37.532 को round करने पर 38 मिलता है।\nअंतिम उत्तर: 38"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5637,8 +7001,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 10.05 to the nearest one, we look at the whole number part and the decimal part.",
+              "hindi": "10.05 को निकटतम एकक (nearest one) तक round off करने के लिए हम पूरे नंबर और decimal भाग को देखते हैं।"
+            },
+            {
+              "english": "1. The number 10.05 is between 10 and 11.\n2. The halfway point is 10.5.\n3. Since 10.05 is less than 10.5, it is closer to 10.\n4. So we round it down to 10.",
+              "hindi": "1. संख्या 10.05, 10 और 11 के बीच है।\n2. 10.5 बीच का मान है।\n3. क्योंकि 10.05, 10.5 से छोटा है, इसलिए यह 10 के ज्यादा करीब है।\n4. इसलिए इसे round off करके 10 मिलेगा।"
+            },
+            {
+              "english": "Final answer: 10",
+              "hindi": "अंतिम उत्तर: 10"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5701,8 +7081,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 76.703 to the nearest one:",
+              "hindi": "76.703 को निकटतम एकांक तक round करने के लिए:"
+            },
+            {
+              "english": "1. Look at the tenths digit, which is the first digit after the decimal point.\n2. In 76.703, the tenths digit is 7.\n3. Since 7 is 5 or more, we round the ones digit up by 1.\n4. So 76 becomes 77.",
+              "hindi": "1. दशमलव के बाद वाली पहली digit, यानी दसवें स्थान का अंक, देखें।\n2. 76.703 में दसवें स्थान का अंक 7 है।\n3. क्योंकि 7, 5 या उससे बड़ा है, इसलिए एकाई के अंक को 1 बढ़ा देते हैं।\n4. इसलिए 76, 77 बन जाता है।"
+            },
+            {
+              "english": "Final answer: 77",
+              "hindi": "अंतिम उत्तर: 77"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5765,8 +7161,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 3.74 to one decimal place, we look at the digit in the hundredths place.\n- The tenths digit is 7.\n- The hundredths digit is 4.\n- Since 4 is less than 5, we keep the tenths digit the same.\nSo, 3.74 rounded to one decimal place is 3.7.\nFinal answer: 3.7",
+              "hindi": "3.74 को एक दशमलव स्थान तक गोल करने के लिए हम सौवें स्थान का अंक देखते हैं।\n- दसवें स्थान का अंक 7 है।\n- सौवें स्थान का अंक 4 है।\n- क्योंकि 4, 5 से छोटा है, इसलिए दसवें स्थान का अंक वही रहता है।\nइसलिए 3.74 को एक दशमलव स्थान तक लिखने पर 3.7 मिलता है।\nअंतिम उत्तर: 3.7"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5829,8 +7233,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 8.36 correct to one decimal place, we look at the tenths and hundredths digits.",
+              "hindi": "8.36 को एक दशमलव स्थान तक सही लिखने के लिए हमें दहाई के बाद वाले अंक और उसके अगले अंक को देखना होता है।"
+            },
+            {
+              "english": "1. The tenths digit is 3.\n2. The next digit, the hundredths digit, is 6.\n3. Since 6 is 5 or more, we round the tenths digit up from 3 to 4.\n4. So, 8.36 becomes 8.4.",
+              "hindi": "1. दहाई के बाद वाला अंक 3 है।\n2. उसके बाद वाला अंक, यानी सौंवाँ अंक, 6 है।\n3. क्योंकि 6, 5 या उससे बड़ा है, इसलिए हम 3 को बढ़ाकर 4 कर देते हैं।\n4. इसलिए 8.36, 8.4 बन जाता है।"
+            },
+            {
+              "english": "Final answer: 8.4",
+              "hindi": "अंतिम उत्तर: 8.4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5893,8 +7313,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 9.65 to one decimal place, look at the second decimal digit.\n- The tenths digit is 6.\n- The hundredths digit is 5.\nWhen the next digit is 5 or more, we round the tenths digit up.\nSo 9.6 becomes 9.7.\nFinal answer: 9.7",
+              "hindi": "9.65 को एक दशमलव स्थान तक round करने के लिए दूसरे दशमलव अंक को देखें।\n- दसवें स्थान का अंक 6 है।\n- सौवें स्थान का अंक 5 है।\nअगर अगला अंक 5 या उससे बड़ा हो, तो दसवें स्थान का अंक 1 बढ़ा देते हैं।\nइसलिए 9.6, 9.7 बन जाता है।\nअंतिम उत्तर: 9.7"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5957,8 +7385,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 10.347 to one decimal place, we keep the tenths digit.\n- The tenths digit is 3.\n- Look at the next digit, which is the hundredths digit: 4.\n- Since 4 is less than 5, we do not increase the tenths digit.\nSo, 10.347 correct to one decimal place is 10.3.\nFinal answer: 10.3",
+              "hindi": "10.347 को एक दशमलव स्थान तक सही करने के लिए हमें दशमलव के बाद पहले अंक को रखना होता है।\n- दसवाँ स्थान (tenths place) का अंक 3 है।\n- उसके बाद वाला अंक, यानी सैकड़ा स्थान (hundredths place), 4 है।\n- क्योंकि 4, 5 से छोटा है, इसलिए 3 को नहीं बढ़ाते।\nइसलिए, 10.347 को एक दशमलव स्थान तक सही करने पर 10.3 मिलता है।\nअंतिम उत्तर: 10.3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6021,8 +7457,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 24.829 to one decimal place, look at the tenths digit: 8. Then look at the next digit, the hundredths digit: 2. Since 2 is less than 5, the tenths digit stays the same. So 24.829 rounded to one decimal place is 24.8. Final answer: 24.8",
+              "hindi": "24.829 को एक दशमलव स्थान तक सही करने के लिए, दशमलव के बाद पहला अंक यानी दसवां स्थान देखें: 8। फिर उसके बाद वाला अंक यानी सौवां स्थान देखें: 2। क्योंकि 2, 5 से छोटा है, इसलिए 8 नहीं बदलता। इसलिए 24.829 को एक दशमलव स्थान तक सही करने पर 24.8 मिलता है। अंतिम उत्तर: 24.8"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6085,8 +7529,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 32.271 to one decimal place, keep only the first digit after the decimal point.",
+              "hindi": "32.271 को एक दशमलव स्थान तक लिखने के लिए दशमलव के बाद केवल पहला अंक रखते हैं।"
+            },
+            {
+              "english": "1. In 32.271, the tenths digit is 2.\n2. Look at the next digit, the hundredths digit, which is 7.\n3. Since 7 is 5 or more, round the tenths digit up from 2 to 3.\n4. So 32.271 becomes 32.3.",
+              "hindi": "1. 32.271 में दशमलव के बाद पहला अंक 2 है।\n2. उसके बाद वाला अंक यानी दूसरा अंक 7 है।\n3. क्योंकि 7, 5 से बड़ा है, इसलिए पहले अंक 2 को 1 बढ़ाकर 3 कर देते हैं।\n4. इसलिए 32.271 को एक दशमलव स्थान तक लिखने पर 32.3 मिलता है।"
+            },
+            {
+              "english": "Final answer: 32.3",
+              "hindi": "अंतिम उत्तर: 32.3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6149,8 +7609,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 86.813 to one decimal place, look at the tenths digit. The tenths digit is 8. Now check the next digit, the hundredths digit, which is 1. Since 1 is less than 5, we keep the tenths digit the same. So 86.813 rounded to one decimal place is 86.8. Final answer: 86.8",
+              "hindi": "86.813 को एक दशमलव स्थान तक सही करने के लिए दसवें स्थान का अंक देखें। दसवें स्थान का अंक 8 है। अब अगला अंक, यानी सौवें स्थान का अंक 1 देखें। क्योंकि 1, 5 से छोटा है, इसलिए दसवें स्थान का अंक वही रहेगा। इसलिए 86.813 को एक दशमलव स्थान तक लिखने पर 86.8 मिलता है। अंतिम उत्तर: 86.8"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6213,8 +7681,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 102.382 correct to one decimal place, we keep the tenths digit and check the next digit.",
+              "hindi": "102.382 को एक दशमलव स्थान तक सही करने के लिए, हम दसवें स्थान का अंक रखते हैं और उसके बाद वाले अंक को देखते हैं।"
+            },
+            {
+              "english": "- The tenths digit is 3, so the number is 102.3 so far.\n- Now look at the next digit, which is 8.\n- Since 8 is 5 or more, we round the tenths digit up by 1.",
+              "hindi": "- दसवें स्थान का अंक 3 है, इसलिए अभी संख्या 102.3 होगी।\n- अब अगले अंक को देखें, जो 8 है।\n- क्योंकि 8, 5 या उससे बड़ा है, इसलिए दसवें स्थान के अंक में 1 जोड़ देंगे।"
+            },
+            {
+              "english": "So, 102.3 becomes 102.4.",
+              "hindi": "इसलिए 102.3, 102.4 बन जाता है।"
+            },
+            {
+              "english": "Final answer: 102.4",
+              "hindi": "अंतिम उत्तर: 102.4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6277,8 +7765,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 0.706 correct to two decimal places, keep only two digits after the decimal point: 0.70. Now look at the third digit, which is 6. Since 6 is 5 or more, we round the second decimal place up by 1. So 0.70 becomes 0.71. Final answer: 0.71",
+              "hindi": "0.706 को दो दशमलव स्थानों तक लिखने के लिए दशमलव के बाद दो अंक रखते हैं: 0.70। अब तीसरे अंक 6 को देखें। क्योंकि 6, 5 से बड़ा है, इसलिए दूसरे दशमलव स्थान वाले अंक में 1 जोड़ देते हैं। इसलिए 0.70, 0.71 बन जाता है। अंतिम उत्तर: 0.71"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6341,8 +7837,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 5.238 to two decimal places, look at the third decimal place.\nThe number is 5.238.\n- The first two decimal places are 5.23.\n- The next digit is 8.\n- Since 8 is 5 or more, we round the hundredths place up by 1.\nSo, 5.23 becomes 5.24.\nFinal answer: 5.24",
+              "hindi": "5.238 को दो दशमलव स्थान तक सही करने के लिए तीसरे दशमलव स्थान को देखें।\nसंख्या है 5.238।\n- पहले दो दशमलव स्थान 5.23 हैं।\n- अगला अंक 8 है।\n- क्योंकि 8, 5 से बड़ा है, इसलिए hundredths वाले अंक को 1 बढ़ा देते हैं।\nइसलिए 5.23, 5.24 बन जाता है।\nअंतिम उत्तर: 5.24"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6405,8 +7909,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 11.415 correct to two decimal places, first keep the first two digits after the decimal point: 11.41.\nNow look at the next digit, which is 5.\nSince it is 5, we round the hundredths digit up by 1.\nSo 11.41 becomes 11.42.\nFinal answer: 11.42",
+              "hindi": "11.415 को दो दशमलव स्थान तक सही लिखने के लिए, दशमलव के बाद के पहले दो अंक रखते हैं: 11.41।\nअब अगला अंक 5 है।\n5 होने पर पिछले अंक को 1 बढ़ा देते हैं।\nइसलिए 11.41, 11.42 बन जाता है।\nअंतिम उत्तर: 11.42"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6469,8 +7981,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 17.893 to two decimal places.",
+              "hindi": "हमें 17.893 को दो दशमलव स्थान तक सही करना है।"
+            },
+            {
+              "english": "Step 1: Find the two decimal places.\n- In 17.893, the first two digits after the decimal point are 8 and 9.\n- So we keep 17.89 for now.",
+              "hindi": "चरण 1: पहले दो दशमलव अंक देखें।\n- 17.893 में दशमलव के बाद पहले दो अंक 8 और 9 हैं।\n- इसलिए अभी यह 17.89 है।"
+            },
+            {
+              "english": "Step 2: Look at the next digit.\n- The next digit is 3.\n- Since 3 is less than 5, we do not increase the hundredths digit.",
+              "hindi": "चरण 2: अगला अंक देखें।\n- अगला अंक 3 है।\n- क्योंकि 3, 5 से छोटा है, इसलिए hundredths वाले अंक में कोई बढ़ोतरी नहीं करेंगे।"
+            },
+            {
+              "english": "Step 3: Write the rounded number.\n- 17.893 rounded to two decimal places is 17.89.",
+              "hindi": "चरण 3: अंतिम उत्तर लिखें।\n- 17.893 को दो दशमलव स्थान तक सही करने पर 17.89 मिलता है।"
+            },
+            {
+              "english": "Final answer: 17.89",
+              "hindi": "अंतिम उत्तर: 17.89"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6533,8 +8069,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 26.682 to two decimal places, look at the third decimal place.",
+              "hindi": "26.682 को दो दशमलव स्थान तक लिखने के लिए तीसरे दशमलव स्थान को देखिए।"
+            },
+            {
+              "english": "- The number is 2.\n- Since 2 is less than 5, we do not change the second decimal place.\n- So, 26.682 rounds to 26.68.",
+              "hindi": "- तीसरे दशमलव स्थान पर अंक 2 है।\n- क्योंकि 2, 5 से छोटा है, इसलिए दूसरे दशमलव स्थान में कोई बदलाव नहीं होगा।\n- इसलिए 26.682 को दो दशमलव स्थान तक लिखने पर 26.68 मिलता है।"
+            },
+            {
+              "english": "Final answer: 26.68",
+              "hindi": "अंतिम उत्तर: 26.68"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6597,8 +8149,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 47.8491 to two decimal places, we keep the first two digits after the decimal point.",
+              "hindi": "47.8491 को दो दशमलव स्थान तक सही करने के लिए, हमें दशमलव के बाद के पहले दो अंक रखने होते हैं।"
+            },
+            {
+              "english": "1. The number is 47.8491.\n2. The hundredths digit is 4, so we look at the next digit, which is 9.\n3. Since 9 is 5 or more, we round the 4 up to 5.\n4. So 47.8491 becomes 47.85.",
+              "hindi": "1. संख्या है 47.8491।\n2. सौवें स्थान (hundredths place) का अंक 4 है, इसलिए हम उसके बाद वाले अंक को देखते हैं, जो 9 है।\n3. क्योंकि 9, 5 से बड़ा या बराबर है, इसलिए हम 4 को 5 बना देते हैं।\n4. इस तरह 47.8491, 47.85 बन जाता है।"
+            },
+            {
+              "english": "Final answer: 47.85",
+              "hindi": "अंतिम उत्तर: 47.85"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6661,8 +8229,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 53.1475 to two decimal places, we keep only two digits after the decimal point.",
+              "hindi": "53.1475 को दो दशमलव स्थान तक सही करने के लिए हमें दशमलव के बाद सिर्फ 2 अंक रखने हैं।"
+            },
+            {
+              "english": "Step 1: Look at the number 53.1475.\n- The first decimal place is 1.\n- The second decimal place is 4.\n- The third decimal place is 7.",
+              "hindi": "चरण 1: संख्या 53.1475 को देखें।\n- पहला दशमलव स्थान = 1\n- दूसरा दशमलव स्थान = 4\n- तीसरा दशमलव स्थान = 7"
+            },
+            {
+              "english": "Step 2: Check the third decimal place.\n- The third decimal digit is 7.\n- Since 7 is 5 or more, we round the second decimal digit up.",
+              "hindi": "चरण 2: तीसरे दशमलव स्थान को देखें।\n- तीसरा अंक 7 है।\n- क्योंकि 7, 5 या उससे बड़ा है, इसलिए दूसरे दशमलव अंक को 1 बढ़ा देंगे।"
+            },
+            {
+              "english": "Step 3: Round 53.14 up.\n- The 4 becomes 5.\n- So the number becomes 53.15.",
+              "hindi": "चरण 3: 53.14 को round up करें।\n- 4, 5 बन जाएगा।\n- इसलिए संख्या 53.15 हो जाएगी।"
+            },
+            {
+              "english": "Final answer: 53.15",
+              "hindi": "अंतिम उत्तर: 53.15"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6725,8 +8317,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 103.7651 to two decimal places.\n- The first two decimal places are 7 and 6, so the number is 103.76.\n- Now look at the next digit, which is 5.\n- Since it is 5, we round the hundredths digit up from 6 to 7.\nSo, 103.7651 rounded to two decimal places is 103.77.\nFinal answer: 103.77",
+              "hindi": "हमें 103.7651 को दो दशमलव स्थान तक गोल करना है।\n- दशमलव के पहले दो अंक 7 और 6 हैं, इसलिए संख्या 103.76 है।\n- अब अगले अंक को देखें, जो 5 है।\n- क्योंकि यह 5 है, इसलिए हम दूसरे दशमलव स्थान वाले अंक 6 को 7 कर देते हैं।\nइसलिए 103.7651 को दो दशमलव स्थान तक गोल करने पर 103.77 मिलता है।\nअंतिम उत्तर: 103.77"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6789,8 +8389,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to round 0.7894 to three decimal places.",
+              "hindi": "हमें 0.7894 को तीन दशमलव स्थान तक round करना है।"
+            },
+            {
+              "english": "Step 1: Count three digits after the decimal point: 7, 8, and 9.\nStep 2: Look at the next digit, which is 4.\nStep 3: Since 4 is less than 5, the third decimal digit stays the same.",
+              "hindi": "चरण 1: दशमलव के बाद पहले तीन अंक देखें: 7, 8, और 9।\nचरण 2: अगले अंक को देखें, वह 4 है।\nचरण 3: क्योंकि 4, 5 से छोटा है, इसलिए तीसरा दशमलव अंक वही रहेगा।"
+            },
+            {
+              "english": "So, 0.7894 rounded to three decimal places is 0.789.\nFinal answer: 0.789",
+              "hindi": "इसलिए 0.7894 को तीन दशमलव स्थान तक लिखने पर 0.789 मिलेगा।\nअंतिम उत्तर: 0.789"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6853,8 +8469,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 2.1635 correct to three decimal places, we keep three digits after the decimal point: 2.163. Now look at the next digit, which is 5. Since it is 5 or more, we round the third decimal digit up by 1. So 2.163 becomes 2.164. Final answer: 2.164",
+              "hindi": "2.1635 को तीन दशमलव स्थान तक सही लिखने के लिए, हम दशमलव के बाद तीन अंक रखते हैं: 2.163। अब अगला अंक 5 है। क्योंकि यह 5 है, इसलिए तीसरे दशमलव अंक को 1 बढ़ा देते हैं। इसलिए 2.163, 2.164 बन जाता है। अंतिम उत्तर: 2.164"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6917,8 +8541,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 78.4728 to three decimal places:\n1. Keep the first three digits after the decimal point: 78.472\n2. Look at the next digit, which is 8.\n3. Since 8 is 5 or more, increase the third decimal digit by 1.\nSo, 78.472 becomes 78.473.\nFinal answer: 78.473",
+              "hindi": "78.4728 को तीन दशमलव स्थानों तक सही करने के लिए:\n1. दशमलव के बाद पहले तीन अंक लें: 78.472\n2. अगला अंक देखें, जो 8 है।\n3. क्योंकि 8, 5 या उससे बड़ा है, इसलिए तीसरे दशमलव अंक में 1 जोड़ेंगे।\nइसलिए 78.472, 78.473 बन जाता है।\nअंतिम उत्तर: 78.473"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6981,8 +8613,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 19.01472 to three decimal places, we look at the third digit after the decimal point.\nThe number is 19.01472.\n- The first three decimal digits are 0, 1, and 4, so we keep 19.014.\n- Now look at the next digit, which is 7.\n- Since 7 is 5 or more, we round the 4 up to 5.\nSo, 19.01472 rounded to three decimal places is 19.015.\nFinal answer: 19.015.",
+              "hindi": "19.01472 को तीन दशमलव स्थानों तक सही करने के लिए हम दशमलव के बाद तीसरे अंक को देखते हैं।\nसंख्या है 19.01472।\n- पहले तीन दशमलव अंक 0, 1, और 4 हैं, इसलिए हम 19.014 रखते हैं।\n- अब अगला अंक 7 देखें।\n- क्योंकि 7, 5 या उससे बड़ा है, इसलिए हम 4 को 5 में बढ़ा देते हैं।\nइसलिए, 19.01472 को तीन दशमलव स्थानों तक सही करने पर उत्तर 19.015 होगा।\nअंतिम उत्तर: 19.015."
+            }
+          ]
         }
       ],
       "tags": [
@@ -7045,8 +8685,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round 32.40361 to three decimal places, look at the third digit after the decimal point.",
+              "hindi": "32.40361 को तीन दशमलव स्थान तक round करने के लिए दशमलव के बाद तीसरे अंक को देखो।"
+            },
+            {
+              "english": "32.40361\n      ^\nThe third decimal place is 3.\nNow look at the next digit, which is 6.\nSince 6 is 5 or more, we round the 3 up to 4.",
+              "hindi": "32.40361\n      ^\nतीसरे दशमलव स्थान पर 3 है।\nअब उसके बाद वाला अगला अंक देखो, जो 6 है।\nक्योंकि 6, 5 या उससे बड़ा है, इसलिए 3 को 4 कर देंगे।"
+            },
+            {
+              "english": "So, 32.40361 rounded to three decimal places is 32.404.",
+              "hindi": "इसलिए 32.40361 को तीन दशमलव स्थान तक लिखने पर 32.404 मिलेगा।"
+            },
+            {
+              "english": "Final answer: 32.404",
+              "hindi": "अंतिम उत्तर: 32.404"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7109,8 +8769,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to write 123.00416 correct to three decimal places.",
+              "hindi": "हमें 123.00416 को तीन दशमलव स्थानों तक सही लिखना है।"
+            },
+            {
+              "english": "Step 1: Count three digits after the decimal point.\n- 123.00416\n- The first three decimal places are 0, 0, and 4.",
+              "hindi": "चरण 1: दशमलव के बाद पहले तीन अंक देखिए।\n- 123.00416\n- पहले तीन दशमलव अंक हैं 0, 0, और 4।"
+            },
+            {
+              "english": "Step 2: Look at the next digit after the third decimal place.\n- The next digit is 1.",
+              "hindi": "चरण 2: तीसरे दशमलव अंक के बाद वाला अंक देखिए।\n- अगला अंक 1 है।"
+            },
+            {
+              "english": "Step 3: Decide whether to round up or keep the same.\n- Since 1 is less than 5, we do not round up.\n- So the third decimal place stays 4.",
+              "hindi": "चरण 3: तय कीजिए कि ऊपर गोल करना है या नहीं।\n- क्योंकि 1, 5 से छोटा है, इसलिए हम ऊपर नहीं गोल करेंगे।\n- तीसरा दशमलव अंक 4 ही रहेगा।"
+            },
+            {
+              "english": "Therefore, 123.00416 correct to three decimal places is 123.004.",
+              "hindi": "इसलिए, 123.00416 को तीन दशमलव स्थानों तक लिखने पर उत्तर 123.004 होगा।"
+            },
+            {
+              "english": "Final answer: 123.004.",
+              "hindi": "अंतिम उत्तर: 123.004।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7173,8 +8861,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find 2.3 ÷ 9 and round the answer to two decimal places.",
+              "hindi": "हमें 2.3 ÷ 9 का भागफल निकालना है और उत्तर को दो दशमलव स्थानों तक लिखना है।"
+            },
+            {
+              "english": "Step 1: Write 2.3 as 2.3000 so it is easier to divide.\nStep 2: Divide 2.3 by 9:\n2.3 ÷ 9 = 0.255555...\nStep 3: Round 0.255555... to two decimal places.\n- The first two decimal places are 0.25\n- The next digit is 5, so we round up.",
+              "hindi": "चरण 1: 2.3 को 2.3000 लिख सकते हैं ताकि भाग देना आसान हो जाए।\nचरण 2: अब भाग करें:\n2.3 ÷ 9 = 0.255555...\nचरण 3: 0.255555... को दो दशमलव स्थानों तक गोल करें।\n- पहले दो दशमलव अंक 0.25 हैं\n- अगला अंक 5 है, इसलिए हम आगे बढ़ाकर 0.26 लिखते हैं।"
+            },
+            {
+              "english": "So, the quotient correct to two decimal places is 0.26.",
+              "hindi": "अतः दो दशमलव स्थानों तक सही भागफल 0.26 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7237,8 +8941,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find 21.83 ÷ 16.",
+              "hindi": "हमें 21.83 ÷ 16 निकालना है।"
+            },
+            {
+              "english": "Step 1: 16 goes into 21 one time.\n- 1 × 16 = 16\n- 21 - 16 = 5",
+              "hindi": "चरण 1: 16, 21 में 1 बार जाता है।\n- 1 × 16 = 16\n- 21 - 16 = 5"
+            },
+            {
+              "english": "Step 2: Bring down the 8.\n- Now we have 58\n- 16 goes into 58 three times.\n- 3 × 16 = 48\n- 58 - 48 = 10",
+              "hindi": "चरण 2: 8 नीचे लाएँ।\n- अब 58 हो गया।\n- 16, 58 में 3 बार जाता है।\n- 3 × 16 = 48\n- 58 - 48 = 10"
+            },
+            {
+              "english": "Step 3: Bring down the 3.\n- Now we have 103\n- 16 goes into 103 six times.\n- 6 × 16 = 96\n- 103 - 96 = 7",
+              "hindi": "चरण 3: 3 नीचे लाएँ।\n- अब 103 हो गया।\n- 16, 103 में 6 बार जाता है।\n- 6 × 16 = 96\n- 103 - 96 = 7"
+            },
+            {
+              "english": "So the quotient starts as 1.364...\nTo round to two decimal places, look at the third decimal place.\n- The third decimal place is 4, so we keep 1.36.",
+              "hindi": "इसलिए भागफल 1.364... है।\nदो दशमलव स्थान तक उत्तर लिखने के लिए तीसरे दशमलव अंक को देखते हैं।\n- तीसरा दशमलव अंक 4 है, इसलिए 1.36 ही रहेगा।"
+            },
+            {
+              "english": "Final answer: 1.36",
+              "hindi": "अंतिम उत्तर: 1.36"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7301,8 +9033,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 3.7 ÷ 17 correct to two decimal places, we first write it as 3.70 ÷ 17.",
+              "hindi": "3.7 ÷ 17 को दो दशमलव स्थान तक सही निकालने के लिए पहले इसे 3.70 ÷ 17 लिखते हैं।"
+            },
+            {
+              "english": "Now do the division step by step:\n- 17 does not go into 3, so the quotient starts with 0.\n- Think of 3.70 as 37 tenths. 17 goes into 37 two times.\n- 2 × 17 = 34, remainder 37 - 34 = 3.\n- Bring down the next 0 to make 30.\n- 17 goes into 30 one time.\n- 1 × 17 = 17, remainder 30 - 17 = 13.\n- Bring down another 0 to make 130.\n- 17 goes into 130 seven times.\n- 7 × 17 = 119, so the next digit is 7.",
+              "hindi": "अब भाग करते हैं:\n- 17, 3 में नहीं जाता, इसलिए उत्तर 0 से शुरू होगा।\n- 3.70 को 37 दसवाँ मान सकते हैं। 17, 37 में 2 बार जाता है।\n- 2 × 17 = 34, शेष = 37 - 34 = 3.\n- अगला 0 नीचे लाने पर 30 बनता है।\n- 17, 30 में 1 बार जाता है।\n- 1 × 17 = 17, शेष = 30 - 17 = 13.\n- फिर एक और 0 नीचे लाने पर 130 बनता है।\n- 17, 130 में 7 बार जाता है।\n- 7 × 17 = 119, इसलिए अगला अंक 7 है।"
+            },
+            {
+              "english": "So the quotient is about 0.217...",
+              "hindi": "इसलिए भागफल लगभग 0.217... है।"
+            },
+            {
+              "english": "Now round to two decimal places:\n- The hundredths digit is 1.\n- The next digit is 7, so we round up.",
+              "hindi": "अब दो दशमलव स्थान तक गोल करते हैं:\n- सौवें स्थान का अंक 1 है।\n- उसके बाद वाला अंक 7 है, इसलिए 1 को 2 कर देते हैं।"
+            },
+            {
+              "english": "Therefore, the quotient correct to two decimal places is 0.22.",
+              "hindi": "अतः दो दशमलव स्थान तक सही भागफल 0.22 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7365,8 +9121,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find 8.283 ÷ 22.",
+              "hindi": "हमें 8.283 ÷ 22 निकालना है।"
+            },
+            {
+              "english": "Step 1: 22 cannot go into 8, so the quotient starts with 0 and we place a decimal point.\nStep 2: Take 82. 22 goes into 82 three times, because 22 × 3 = 66. Remainder = 82 - 66 = 16.\nStep 3: Bring down 8 to make 168. 22 goes into 168 seven times, because 22 × 7 = 154. Remainder = 168 - 154 = 14.\nStep 4: Bring down 3 to make 143. 22 goes into 143 six times, because 22 × 6 = 132. Remainder = 143 - 132 = 11.\nStep 5: Bring down 0 to make 110. 22 goes into 110 five times, because 22 × 5 = 110. Remainder = 0.",
+              "hindi": "चरण 1: 22, 8 में नहीं जाता, इसलिए भागफल 0 से शुरू होगा और दशमलव लगाएँगे।\nचरण 2: 82 देखें। 22, 82 में 3 बार जाता है, क्योंकि 22 × 3 = 66। शेष = 82 - 66 = 16।\nचरण 3: 8 नीचे लाएँ, तो 168 बनता है। 22, 168 में 7 बार जाता है, क्योंकि 22 × 7 = 154। शेष = 168 - 154 = 14।\nचरण 4: 3 नीचे लाएँ, तो 143 बनता है। 22, 143 में 6 बार जाता है, क्योंकि 22 × 6 = 132। शेष = 143 - 132 = 11।\nचरण 5: 0 नीचे लाएँ, तो 110 बनता है। 22, 110 में 5 बार जाता है, क्योंकि 22 × 5 = 110। शेष = 0।"
+            },
+            {
+              "english": "So, 8.283 ÷ 22 = 0.3765.",
+              "hindi": "इसलिए, 8.283 ÷ 22 = 0.3765।"
+            },
+            {
+              "english": "Now round to two decimal places. The third decimal place is 6, so we round 0.37 up to 0.38.",
+              "hindi": "अब इसे दो दशमलव स्थान तक गोल करें। तीसरा दशमलव अंक 6 है, इसलिए 0.37 को बढ़ाकर 0.38 लिखेंगे।"
+            },
+            {
+              "english": "Final answer: 0.38",
+              "hindi": "अंतिम उत्तर: 0.38"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7429,8 +9209,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Write 16.46 as 16.4600 so we can divide easily.\nStep 2: 15 goes into 16 one time, so the quotient starts with 1. The remainder is 1.\nStep 3: Continuing the division gives 1.0973...\nStep 4: To round to two decimal places, look at the third decimal digit. It is 7, so 1.09 rounds up to 1.10.\nFinal answer: 1.10",
+              "hindi": "चरण 1: 16.46 को 16.4600 लिखते हैं ताकि भाग आसान हो जाए।\nचरण 2: 15, 16 में 1 बार जाता है, इसलिए भागफल 1 से शुरू होगा। शेष 1 बचता है।\nचरण 3: भाग करने पर 1.0973... मिलता है।\nचरण 4: दो दशमलव स्थान तक गोल करने के लिए तीसरा दशमलव अंक देखते हैं। वह 7 है, इसलिए 1.09 बढ़कर 1.10 हो जाता है।\nअंतिम उत्तर: 1.10"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7493,8 +9281,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find 101.37 ÷ 20 and write the answer correct to two decimal places.",
+              "hindi": "हमें 101.37 ÷ 20 का भागफल दो दशमलव स्थान तक सही निकालना है।"
+            },
+            {
+              "english": "Step 1: Split 20 into 2 × 10.\nSo,\n101.37 ÷ 20 = 101.37 ÷ 2 ÷ 10",
+              "hindi": "चरण 1: 20 को 2 × 10 के रूप में लिखें।\nइसलिए,\n101.37 ÷ 20 = 101.37 ÷ 2 ÷ 10"
+            },
+            {
+              "english": "Step 2: Divide by 2.\n101.37 ÷ 2 = 50.685",
+              "hindi": "चरण 2: पहले 2 से भाग दें।\n101.37 ÷ 2 = 50.685"
+            },
+            {
+              "english": "Step 3: Divide by 10.\n50.685 ÷ 10 = 5.0685",
+              "hindi": "चरण 3: अब 10 से भाग दें।\n50.685 ÷ 10 = 5.0685"
+            },
+            {
+              "english": "Step 4: Round to two decimal places.\nThe number is 5.0685.\nThe third decimal place is 8, so we round the second decimal place up.",
+              "hindi": "चरण 4: दो दशमलव स्थान तक गोल करें।\nसंख्या है 5.0685।\nतीसरे दशमलव स्थान पर 8 है, इसलिए दूसरे दशमलव स्थान को 1 बढ़ा देंगे।"
+            },
+            {
+              "english": "So, the quotient correct to two decimal places is 5.07.",
+              "hindi": "अतः दो दशमलव स्थान तक सही भागफल 5.07 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7557,8 +9373,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To express 5/13 as a decimal, divide 5 by 13.",
+              "hindi": "5/13 को दशमलव में बदलने के लिए 5 को 13 से भाग देते हैं।"
+            },
+            {
+              "english": "Step 1: 13 does not go into 5, so write 0 and add a decimal point.\nStep 2: Now take 50. 50 ÷ 13 = 3, remainder 11.\nStep 3: Bring down 0 to make 110. 110 ÷ 13 = 8, remainder 6.\nStep 4: Bring down 0 to make 60. 60 ÷ 13 = 4, remainder 8.",
+              "hindi": "चरण 1: 13, 5 में नहीं जाता, इसलिए 0 लिखते हैं और दशमलव बिंदु लगाते हैं।\nचरण 2: अब 50 लेते हैं। 50 ÷ 13 = 3, शेष 11।\nचरण 3: फिर 0 नीचे लाकर 110 बनाते हैं। 110 ÷ 13 = 8, शेष 6।\nचरण 4: फिर 0 नीचे लाकर 60 बनाते हैं। 60 ÷ 13 = 4, शेष 8।"
+            },
+            {
+              "english": "So, 5/13 = 0.384615...",
+              "hindi": "इसलिए, 5/13 = 0.384615..."
+            },
+            {
+              "english": "Now round to 3 decimal places. The first three decimal digits are 3, 8, and 4. The next digit is 6, so we round 0.384 up to 0.385.",
+              "hindi": "अब 3 दशमलव स्थान तक लिखना है। पहले तीन अंक 3, 8, और 4 हैं। अगला अंक 6 है, इसलिए 0.384 को बढ़ाकर 0.385 लिखते हैं।"
+            },
+            {
+              "english": "Final answer: 0.385",
+              "hindi": "अंतिम उत्तर: 0.385"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7621,8 +9461,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to express 6/7 as a decimal correct to 3 decimal places.",
+              "hindi": "हमें 6/7 को 3 decimal places तक लिखना है।"
+            },
+            {
+              "english": "Step 1: Divide 6 by 7.\n- 7 does not go into 6, so we write 0.\n- Add a decimal point and zeros: 6.000",
+              "hindi": "Step 1: 6 को 7 से भाग दीजिए।\n- 7, 6 में नहीं जाता, इसलिए 0 लिखते हैं।\n- अब decimal लगाकर 6.000 लेते हैं।"
+            },
+            {
+              "english": "Step 2: Keep dividing.\n- 60 ÷ 7 = 8, because 8 × 7 = 56. Remainder = 4\n- Bring down 0: 40 ÷ 7 = 5, because 5 × 7 = 35. Remainder = 5\n- Bring down 0: 50 ÷ 7 = 7, because 7 × 7 = 49. Remainder = 1",
+              "hindi": "Step 2: भाग करना जारी रखते हैं।\n- 60 ÷ 7 = 8, क्योंकि 8 × 7 = 56। शेष = 4\n- 0 नीचे लाएँ: 40 ÷ 7 = 5, क्योंकि 5 × 7 = 35। शेष = 5\n- 0 नीचे लाएँ: 50 ÷ 7 = 7, क्योंकि 7 × 7 = 49। शेष = 1"
+            },
+            {
+              "english": "So, 6/7 = 0.857142...",
+              "hindi": "इसलिए 6/7 = 0.857142..."
+            },
+            {
+              "english": "To 3 decimal places, we look at the 4th decimal digit.\n- The number is 0.8571...\n- The 4th decimal digit is 1\n- Since 1 is less than 5, we keep 0.857",
+              "hindi": "अब 3 decimal places तक लिखने के लिए 4th decimal digit देखते हैं।\n- संख्या है 0.8571...\n- 4th decimal digit 1 है\n- 1, 5 से छोटा है, इसलिए संख्या 0.857 ही रहेगी"
+            },
+            {
+              "english": "Final answer: 0.857",
+              "hindi": "अंतिम उत्तर: 0.857"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7685,8 +9553,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write 5/11 as a decimal, divide 5 by 11.",
+              "hindi": "5/11 को decimal में बदलने के लिए 5 को 11 से भाग देते हैं।"
+            },
+            {
+              "english": "11 does not go into 5, so we write 0 and put a decimal point.\nNow divide 50 by 11.\n- 11 goes into 50 four times, because 4 × 11 = 44.\n- Remainder = 50 - 44 = 6.",
+              "hindi": "11, 5 में नहीं जाता, इसलिए हम 0 लिखते हैं और decimal point लगाते हैं।\nअब 50 को 11 से भाग देते हैं।\n- 11, 50 में 4 बार जाता है, क्योंकि 4 × 11 = 44.\n- शेष = 50 - 44 = 6."
+            },
+            {
+              "english": "Bring down another 0 to make 60.\n- 11 goes into 60 five times, because 5 × 11 = 55.\n- Remainder = 60 - 55 = 5.",
+              "hindi": "अब एक और 0 नीचे लाकर 60 बनाते हैं।\n- 11, 60 में 5 बार जाता है, क्योंकि 5 × 11 = 55.\n- शेष = 60 - 55 = 5."
+            },
+            {
+              "english": "So the decimal starts as 0.45...\nThis pattern keeps repeating, so\n5/11 = 0.454545...",
+              "hindi": "इसलिए decimal 0.45... से शुरू होता है।\nयह pattern बार-बार दोहरता है, इसलिए\n5/11 = 0.454545..."
+            },
+            {
+              "english": "Now round to 3 decimal places:\n0.454545... becomes 0.455",
+              "hindi": "अब 3 decimal places तक round करते हैं:\n0.454545... = 0.455"
+            },
+            {
+              "english": "Final answer: 0.455",
+              "hindi": "अंतिम उत्तर: 0.455"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7749,8 +9645,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To express 6/13 as a decimal, we divide 6 by 13.",
+              "hindi": "6/13 को दशमलव में बदलने के लिए 6 को 13 से भाग देते हैं।"
+            },
+            {
+              "english": "Step 1: 13 does not go into 6, so we write 0 and add a decimal point.\nSo, 6/13 = 0.",
+              "hindi": "चरण 1: 13, 6 में नहीं जाता, इसलिए हम 0 लिखते हैं और दशमलव बिंदु लगाते हैं।\nइसलिए, 6/13 = 0."
+            },
+            {
+              "english": "Step 2: Now divide 6.000 by 13.\n- 13 goes into 60 four times, because 4 × 13 = 52.\n- Remainder = 60 - 52 = 8\n- Bring down 0, making 80.\n- 13 goes into 80 six times, because 6 × 13 = 78.\n- Remainder = 80 - 78 = 2\n- Bring down 0, making 20.\n- 13 goes into 20 one time, because 1 × 13 = 13.\n- Remainder = 20 - 13 = 7",
+              "hindi": "चरण 2: अब 6.000 को 13 से भाग देते हैं।\n- 13, 60 में 4 बार जाता है, क्योंकि 4 × 13 = 52.\n- शेष = 60 - 52 = 8\n- 0 नीचे लाने पर 80 बनता है।\n- 13, 80 में 6 बार जाता है, क्योंकि 6 × 13 = 78.\n- शेष = 80 - 78 = 2\n- 0 नीचे लाने पर 20 बनता है।\n- 13, 20 में 1 बार जाता है, क्योंकि 1 × 13 = 13.\n- शेष = 20 - 13 = 7"
+            },
+            {
+              "english": "So the decimal is 0.461538...",
+              "hindi": "इसलिए दशमलव रूप है 0.461538..."
+            },
+            {
+              "english": "Now round to 3 decimal places.\n- The first three decimal places are 0.461\n- The next digit is 5, so we round up.",
+              "hindi": "अब इसे 3 decimal places तक round करते हैं।\n- पहले तीन decimal places हैं 0.461\n- अगला अंक 5 है, इसलिए हम 1 को 2 बना देते हैं।"
+            },
+            {
+              "english": "Therefore, 6/13 = 0.462",
+              "hindi": "इसलिए, 6/13 = 0.462"
+            },
+            {
+              "english": "Final answer: 0.462",
+              "hindi": "अंतिम उत्तर: 0.462"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7813,8 +9741,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To express 13/15 as a decimal, we divide 13 by 15.",
+              "hindi": "13/15 को decimal में बदलने के लिए, हमें 13 को 15 से भाग देना होगा।"
+            },
+            {
+              "english": "13 ÷ 15 = 0.866666...",
+              "hindi": "13 ÷ 15 = 0.866666..."
+            },
+            {
+              "english": "Now round to 3 decimal places.\n- The first 3 decimal places are 0.866\n- The next digit is 6, so we round up",
+              "hindi": "अब इसे 3 decimal places तक round करते हैं।\n- पहले 3 decimal places हैं 0.866\n- अगला अंक 6 है, इसलिए हम 1 बढ़ा देंगे"
+            },
+            {
+              "english": "So, 13/15 = 0.867",
+              "hindi": "इसलिए, 13/15 = 0.867"
+            },
+            {
+              "english": "Final answer: 0.867",
+              "hindi": "Final answer: 0.867"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7877,8 +9829,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Treat 3 4/11 as a mixed number.",
+              "hindi": "3 4/11 को एक मिश्रित भिन्न (mixed number) मानते हैं।"
+            },
+            {
+              "english": "Step 1: Convert the fraction part 4/11 to a decimal.\n4 ÷ 11 = 0.363636...",
+              "hindi": "Step 1: भिन्न वाले भाग 4/11 को दशमलव में बदलते हैं।\n4 ÷ 11 = 0.363636..."
+            },
+            {
+              "english": "Step 2: Add the whole number 3.\n3 + 0.363636... = 3.363636...",
+              "hindi": "Step 2: अब इसमें 3 जोड़ते हैं।\n3 + 0.363636... = 3.363636..."
+            },
+            {
+              "english": "Step 3: Round to 3 decimal places.\n3.363636... rounds to 3.364",
+              "hindi": "Step 3: 3 decimal places तक round करते हैं।\n3.363636... को round करने पर 3.364 मिलता है।"
+            },
+            {
+              "english": "Final answer: 3.364",
+              "hindi": "Final answer: 3.364"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7941,8 +9917,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to express the mixed fraction 2 12/17 as a decimal to 3 decimal places.",
+              "hindi": "हमें मिश्रित भिन्न 2 12/17 को 3 decimal places तक decimal में बदलना है।"
+            },
+            {
+              "english": "Step 1: Keep the whole number part.\nThe whole number is 2.",
+              "hindi": "Step 1: पूरे संख्या वाले भाग को रखें।\nपूरी संख्या 2 है।"
+            },
+            {
+              "english": "Step 2: Convert the fraction 12/17 into a decimal.\n12 ÷ 17 = 0.705882...",
+              "hindi": "Step 2: भिन्न 12/17 को decimal में बदलें।\n12 ÷ 17 = 0.705882..."
+            },
+            {
+              "english": "Step 3: Add the whole number.\n2 + 0.705882... = 2.705882...",
+              "hindi": "Step 3: पूरे भाग को decimal के साथ जोड़ें।\n2 + 0.705882... = 2.705882..."
+            },
+            {
+              "english": "Step 4: Round to 3 decimal places.\nThe number is 2.705882...\nThe 3 decimal places are 2.705, and the next digit is 8, so we round up.",
+              "hindi": "Step 4: 3 decimal places तक round करें।\nसंख्या 2.705882... है।\nपहले 3 decimal places 2.705 हैं, और अगला अंक 8 है, इसलिए हम ऊपर round करते हैं।"
+            },
+            {
+              "english": "Final answer: 2.706",
+              "hindi": "Final answer: 2.706"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8005,8 +10009,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We treat 10 2 3 as the mixed number 10 2/3.",
+              "hindi": "हम 10 2 3 को मिश्र भिन्न 10 2/3 मानते हैं।"
+            },
+            {
+              "english": "Step 1: Split it into whole number and fraction:\n10 2/3 = 10 + 2/3",
+              "hindi": "चरण 1: इसे पूरे भाग और भिन्न भाग में अलग करें:\n10 2/3 = 10 + 2/3"
+            },
+            {
+              "english": "Step 2: Convert 2/3 to a decimal:\n2 ÷ 3 = 0.6666...",
+              "hindi": "चरण 2: 2/3 को दशमलव में बदलें:\n2 ÷ 3 = 0.6666..."
+            },
+            {
+              "english": "Step 3: Round to 3 decimal places:\n0.6666... rounds to 0.667",
+              "hindi": "चरण 3: इसे 3 दशमलव स्थान तक गोल करें:\n0.6666... को 0.667 लिखा जाएगा"
+            },
+            {
+              "english": "Step 4: Add the whole number back:\n10 + 0.667 = 10.667",
+              "hindi": "चरण 4: पूरा भाग वापस जोड़ें:\n10 + 0.667 = 10.667"
+            },
+            {
+              "english": "Final answer: 10.667",
+              "hindi": "अंतिम उत्तर: 10.667"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8070,8 +10102,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round to the nearest one, we look at the tenths digit. Numbers from 10.5 up to, but not including, 11.5 round to 11.0. That is because 10.5 is halfway and rounds up to 11.0, and 11.5 would round to 12.0, so it is not included. Final answer: numbers greater than or equal to 10.5 and less than 11.5.",
+              "hindi": "निकटतम एकक तक गोल करने पर हम दशमलव के पहले अंक को देखते हैं। 10.5 से लेकर 11.5 से छोटे सभी नंबर 11.0 बनते हैं। 10.5 बीच का मान है, इसलिए यह 11.0 पर गोल होता है, और 11.5 अब 12.0 पर गोल होगा। अंतिम उत्तर: 10.5 से बड़ा या बराबर और 11.5 से छोटा कोई भी नंबर।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8135,8 +10175,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round to the nearest one means to round to the nearest whole number.",
+              "hindi": "सबसे नज़दीकी एक (nearest one) पर round करने का मतलब है सबसे नज़दीकी पूरे अंक पर ले जाना।"
+            },
+            {
+              "english": "We want numbers that round to 17.0.\n- The halfway point between 16 and 17 is 16.5.\n- The halfway point between 17 and 18 is 17.5.",
+              "hindi": "हमें ऐसे नंबर चाहिए जो 17.0 पर round हों।\n- 16 और 17 के बीच का बीच वाला नंबर 16.5 है।\n- 17 और 18 के बीच का बीच वाला नंबर 17.5 है।"
+            },
+            {
+              "english": "So any number from 16.5 up to, but not including, 17.5 will round to 17.0.",
+              "hindi": "इसलिए 16.5 से लेकर 17.5 से छोटे तक के सभी नंबर 17.0 पर round होंगे।"
+            },
+            {
+              "english": "Final answer: Numbers greater than or equal to 16.5 and less than 17.5.",
+              "hindi": "अंतिम उत्तर: 16.5 या उससे बड़े और 17.5 से छोटे नंबर।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8200,8 +10260,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round to the nearest one, we look at the number halfway between 19 and 20, and halfway between 20 and 21.",
+              "hindi": "निकटतम एकक (nearest one) पर round करने के लिए हम 19 और 20 के बीच का आधा, तथा 20 और 21 के बीच का आधा देखते हैं।"
+            },
+            {
+              "english": "- Numbers less than 19.5 round down to 19.\n- Numbers from 19.5 up to but not including 20.5 round to 20.0.\n- At 20.5, the number would round to 21.",
+              "hindi": "- 19.5 से छोटे numbers 19 पर round होते हैं।\n- 19.5 से लेकर, लेकिन 20.5 से छोटे numbers 20.0 पर round होते हैं।\n- 20.5 पर number 21 पर round हो जाएगा।"
+            },
+            {
+              "english": "So the numbers that could be rounded to 20.0 are any numbers greater than or equal to 19.5 and less than 20.5.\nFinal answer: numbers greater than or equal to 19.5 and less than 20.5.",
+              "hindi": "इसलिए 20.0 पर round होने वाले numbers वे हैं जो 19.5 से बड़े या बराबर हों और 20.5 से छोटे हों।\nअंतिम उत्तर: 19.5 से बड़े या बराबर और 20.5 से छोटे numbers."
+            }
+          ]
         }
       ],
       "tags": [
@@ -8265,8 +10341,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To round to the nearest one, we look at the whole numbers around 46.",
+              "hindi": "सबसे नज़दीकी एकाई (nearest one) पर round करने के लिए हमें 46 के आसपास के पूरे नंबर देखना होता है।"
+            },
+            {
+              "english": "- 45.5 is the halfway point between 45 and 46.\n- 46.5 is the halfway point between 46 and 47.",
+              "hindi": "- 45.5, 45 और 46 के बीच का बीच वाला बिंदु है।\n- 46.5, 46 और 47 के बीच का बीच वाला बिंदु है।"
+            },
+            {
+              "english": "Any number from 45.5 up to, but not including, 46.5 will round to 46.",
+              "hindi": "45.5 से लेकर, लेकिन 46.5 से कम, कोई भी संख्या 46 पर round होगी।"
+            },
+            {
+              "english": "So the numbers that could be rounded to 46 are numbers greater than or equal to 45.5 but less than 46.5.",
+              "hindi": "इसलिए जो संख्याएँ 46 पर round हो सकती हैं, वे 45.5 से बड़ी या बराबर और 46.5 से छोटी हैं।"
+            },
+            {
+              "english": "Final answer: numbers greater than or equal to 45.5 but less than 46.5.",
+              "hindi": "अंतिम उत्तर: 45.5 से बड़ी या बराबर और 46.5 से छोटी संख्याएँ।"
+            }
+          ]
         }
       ],
       "tags": [

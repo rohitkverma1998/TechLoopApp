@@ -412,8 +412,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the perimeter of a triangle, add the lengths of all three sides.",
+              "hindi": "त्रिभुज का परिमाप निकालने के लिए तीनों भुजाओं को जोड़ते हैं।"
+            },
+            {
+              "english": "Given sides:\n8 cm, 6 cm, 5 cm",
+              "hindi": "दी गई भुजाएँ:\n8 cm, 6 cm, 5 cm"
+            },
+            {
+              "english": "Step 1: Add the sides.\n8 + 6 + 5 = 19",
+              "hindi": "चरण 1: सभी भुजाओं को जोड़िए।\n8 + 6 + 5 = 19"
+            },
+            {
+              "english": "Step 2: Write the unit.\nSo, the perimeter = 19 cm",
+              "hindi": "चरण 2: इकाई लिखिए।\nइसलिए, परिमाप = 19 cm"
+            },
+            {
+              "english": "Final answer: 19 cm",
+              "hindi": "अंतिम उत्तर: 19 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -741,8 +765,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the perimeter of a triangle, we add all three sides.\nSides: 7.6 cm, 6.4 cm, 5.2 cm\nStep 1: 7.6 + 6.4 = 14.0\nStep 2: 14.0 + 5.2 = 19.2\nSo, the perimeter of the triangle is 19.2 cm.\nFinal answer: 19.2 cm.",
+              "hindi": "त्रिभुज का परिमाप निकालने के लिए उसकी तीनों भुजाओं को जोड़ते हैं।\nभुजाएँ: 7.6 सेमी, 6.4 सेमी, 5.2 सेमी\nचरण 1: 7.6 + 6.4 = 14.0\nचरण 2: 14.0 + 5.2 = 19.2\nइसलिए, त्रिभुज का परिमाप 19.2 सेमी है।\nअंतिम उत्तर: 19.2 सेमी."
+            }
+          ]
         }
       ],
       "tags": [
@@ -806,8 +838,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the perimeter of a triangle, add the lengths of all its sides.",
+              "hindi": "किसी त्रिभुज का परिमाप निकालने के लिए उसकी तीनों भुजाओं को जोड़ते हैं।"
+            },
+            {
+              "english": "Given sides:\n4.8 cm, 5.3 cm, 8.2 cm",
+              "hindi": "दी गई भुजाएँ:\n4.8 सेमी, 5.3 सेमी, 8.2 सेमी"
+            },
+            {
+              "english": "Step 1: Add the first two sides.\n4.8 + 5.3 = 10.1",
+              "hindi": "चरण 1: पहली दो भुजाएँ जोड़िए।\n4.8 + 5.3 = 10.1"
+            },
+            {
+              "english": "Step 2: Add the third side.\n10.1 + 8.2 = 18.3",
+              "hindi": "चरण 2: तीसरी भुजा जोड़िए।\n10.1 + 8.2 = 18.3"
+            },
+            {
+              "english": "So, the perimeter of the triangle is 18.3 cm.",
+              "hindi": "इसलिए, त्रिभुज का परिमाप 18.3 सेमी है।"
+            },
+            {
+              "english": "Final answer: 18.3 cm",
+              "hindi": "अंतिम उत्तर: 18.3 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -871,8 +931,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the perimeter of a triangle, we add all three side lengths.",
+              "hindi": "त्रिभुज का परिमाप निकालने के लिए हम उसकी तीनों भुजाओं को जोड़ते हैं।"
+            },
+            {
+              "english": "Given sides:\n- 6 cm\n- 7.3 cm\n- 8.5 cm",
+              "hindi": "दी गई भुजाएँ:\n- 6 सेमी\n- 7.3 सेमी\n- 8.5 सेमी"
+            },
+            {
+              "english": "Step 1: Add the first two sides.\n6 + 7.3 = 13.3 cm",
+              "hindi": "चरण 1: पहली दो भुजाएँ जोड़ें।\n6 + 7.3 = 13.3 सेमी"
+            },
+            {
+              "english": "Step 2: Add the third side.\n13.3 + 8.5 = 21.8 cm",
+              "hindi": "चरण 2: तीसरी भुजा जोड़ें।\n13.3 + 8.5 = 21.8 सेमी"
+            },
+            {
+              "english": "So, the perimeter of the triangle is 21.8 cm.",
+              "hindi": "इसलिए त्रिभुज का परिमाप 21.8 सेमी है।"
+            },
+            {
+              "english": "Final answer: 21.8 cm",
+              "hindi": "अंतिम उत्तर: 21.8 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -936,8 +1024,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the perimeter of a triangle, we add the lengths of all its sides.",
+              "hindi": "त्रिभुज का परिमाप निकालने के लिए हम उसकी सभी भुजाओं की लंबाइयों को जोड़ते हैं।"
+            },
+            {
+              "english": "This is an isosceles triangle, so its two equal sides are the same length.\n- First equal side = 5.8 cm\n- Second equal side = 5.8 cm\n- Third side = 7.5 cm",
+              "hindi": "यह एक समद्विबाहु त्रिभुज है, इसलिए इसकी दो बराबर भुजाएँ समान लंबाई की हैं।\n- पहली बराबर भुजा = 5.8 सेमी\n- दूसरी बराबर भुजा = 5.8 सेमी\n- तीसरी भुजा = 7.5 सेमी"
+            },
+            {
+              "english": "Now add them:\n5.8 + 5.8 + 7.5 = 19.1",
+              "hindi": "अब इन्हें जोड़ते हैं:\n5.8 + 5.8 + 7.5 = 19.1"
+            },
+            {
+              "english": "So, the perimeter of the triangle is 19.1 cm.",
+              "hindi": "इसलिए, त्रिभुज का परिमाप 19.1 सेमी है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1001,8 +1109,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "An equilateral triangle has 3 equal sides.\nEach side = 8.4 cm.\nPerimeter = side + side + side\nPerimeter = 8.4 + 8.4 + 8.4 = 25.2 cm.\nFinal answer: 25.2 cm",
+              "hindi": "एक समबाहु त्रिभुज की 3ों भुजाएँ बराबर होती हैं।\nप्रत्येक भुजा = 8.4 सेमी।\nपरिमाप = भुजा + भुजा + भुजा\nपरिमाप = 8.4 + 8.4 + 8.4 = 25.2 सेमी।\nअंतिम उत्तर: 25.2 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1066,8 +1182,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Perimeter of a triangle = sum of all its sides.\nGiven perimeter = 16 cm.\nTwo sides = 3.8 cm and 5.6 cm.\nThird side = 16 - 3.8 - 5.6 = 16 - 9.4 = 6.6 cm.\nSo, the third side is 6.6 cm.\nFinal answer: 6.6 cm",
+              "hindi": "त्रिभुज की परिमाप = तीनों भुजाओं का योग होता है।\nदिया है परिमाप = 16 सेमी।\nदो भुजाएँ = 3.8 सेमी और 5.6 सेमी।\nतीसरी भुजा = 16 - 3.8 - 5.6 = 16 - 9.4 = 6.6 सेमी।\nइसलिए तीसरी भुजा 6.6 सेमी है।\nअंतिम उत्तर: 6.6 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1131,8 +1255,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "For an equilateral triangle, all 3 sides are equal.",
+              "hindi": "समबाहु त्रिभुज में तीनों भुजाएँ बराबर होती हैं।"
+            },
+            {
+              "english": "The perimeter means the sum of all 3 sides.\nSo, each side = 17.7 ÷ 3\nEach side = 5.9 cm",
+              "hindi": "परिमाप का मतलब है तीनों भुजाओं का योग।\nइसलिए, एक भुजा = 17.7 ÷ 3\nएक भुजा = 5.9 सेमी"
+            },
+            {
+              "english": "Final answer: 5.9 cm",
+              "hindi": "अंतिम उत्तर: 5.9 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1198,8 +1338,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the perimeter of a rectangle, we use the formula:\nPerimeter = 2 × (Length + Breadth)",
+              "hindi": "आयत का परिमाप निकालने का सूत्र है:\nपरिमाप = 2 × (लंबाई + चौड़ाई)"
+            },
+            {
+              "english": "Here, Length = 36 cm and Breadth = 29 cm.",
+              "hindi": "यहाँ, लंबाई = 36 सेमी और चौड़ाई = 29 सेमी है।"
+            },
+            {
+              "english": "Step 1: Add the length and breadth.\n36 + 29 = 65 cm",
+              "hindi": "चरण 1: लंबाई और चौड़ाई को जोड़िए।\n36 + 29 = 65 सेमी"
+            },
+            {
+              "english": "Step 2: Multiply the sum by 2.\n2 × 65 = 130 cm",
+              "hindi": "चरण 2: इस योग को 2 से गुणा कीजिए।\n2 × 65 = 130 सेमी"
+            },
+            {
+              "english": "So, the perimeter of the rectangle is 130 cm.",
+              "hindi": "इसलिए, आयत का परिमाप 130 सेमी है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1528,8 +1692,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Perimeter means the total distance around the rectangle.",
+              "hindi": "परिमाप का मतलब है आयत के चारों ओर की कुल दूरी।"
+            },
+            {
+              "english": "For a rectangle, the formula is:\nPerimeter = 2 × (Length + Breadth)",
+              "hindi": "आयत का सूत्र है:\nपरिमाप = 2 × (लंबाई + चौड़ाई)"
+            },
+            {
+              "english": "Here:\nLength = 7 m\nBreadth = 5 m",
+              "hindi": "यहाँ:\nलंबाई = 7 m\nचौड़ाई = 5 m"
+            },
+            {
+              "english": "Now substitute the values:\nPerimeter = 2 × (7 + 5)\nPerimeter = 2 × 12\nPerimeter = 24 m",
+              "hindi": "अब मान रखिए:\nपरिमाप = 2 × (7 + 5)\nपरिमाप = 2 × 12\nपरिमाप = 24 m"
+            },
+            {
+              "english": "So, the perimeter of the rectangle is 24 m.",
+              "hindi": "इसलिए, आयत का परिमाप 24 m है।"
+            },
+            {
+              "english": "Final answer: 24 m",
+              "hindi": "अंतिम उत्तर: 24 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1593,8 +1785,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We use the formula for the perimeter of a rectangle:\nPerimeter = 2 × (Length + Breadth)",
+              "hindi": "आयत का परिमाप निकालने का सूत्र है:\nपरिमाप = 2 × (लंबाई + चौड़ाई)"
+            },
+            {
+              "english": "Given:\nLength = 2 m 60 cm\nBreadth = 1 m 90 cm",
+              "hindi": "दिया है:\nलंबाई = 2 m 60 cm\nचौड़ाई = 1 m 90 cm"
+            },
+            {
+              "english": "First, write both in the same unit.\n2 m 60 cm = 2.6 m\n1 m 90 cm = 1.9 m",
+              "hindi": "पहले दोनों को एक ही इकाई में लिखते हैं।\n2 m 60 cm = 2.6 m\n1 m 90 cm = 1.9 m"
+            },
+            {
+              "english": "Now add them:\n2.6 + 1.9 = 4.5 m",
+              "hindi": "अब जोड़ते हैं:\n2.6 + 1.9 = 4.5 m"
+            },
+            {
+              "english": "Now multiply by 2:\nPerimeter = 2 × 4.5 = 9 m",
+              "hindi": "अब 2 से गुणा करते हैं:\nपरिमाप = 2 × 4.5 = 9 m"
+            },
+            {
+              "english": "Final answer: 9 m",
+              "hindi": "अंतिम उत्तर: 9 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1658,8 +1878,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the perimeter of a rectangle, we use the formula:\nPerimeter = 2 × (Length + Breadth)",
+              "hindi": "आयत का परिमाप निकालने के लिए सूत्र है:\nपरिमाप = 2 × (लंबाई + चौड़ाई)"
+            },
+            {
+              "english": "Here,\nLength = 12.6 m\nBreadth = 9.4 m",
+              "hindi": "यहाँ,\nलंबाई = 12.6 m\nचौड़ाई = 9.4 m"
+            },
+            {
+              "english": "Step 1: Add the length and breadth\n12.6 + 9.4 = 22.0 m",
+              "hindi": "Step 1: लंबाई और चौड़ाई को जोड़ें\n12.6 + 9.4 = 22.0 m"
+            },
+            {
+              "english": "Step 2: Multiply by 2\n2 × 22.0 = 44 m",
+              "hindi": "Step 2: 2 से गुणा करें\n2 × 22.0 = 44 m"
+            },
+            {
+              "english": "So, the perimeter of the rectangle is 44 m.\nFinal answer: 44 m",
+              "hindi": "इसलिए, आयत का परिमाप 44 m है।\nअंतिम उत्तर: 44 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1723,8 +1967,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the breadth of a rectangle, we use the formula for perimeter:\nPerimeter = 2 × (Length + Breadth)",
+              "hindi": "आयत की चौड़ाई निकालने के लिए हम परिमाप का सूत्र उपयोग करते हैं:\nपरिमाप = 2 × (लंबाई + चौड़ाई)"
+            },
+            {
+              "english": "Given:\nPerimeter = 110 cm\nLength = 35 cm",
+              "hindi": "दिया है:\nपरिमाप = 110 सेमी\nलंबाई = 35 सेमी"
+            },
+            {
+              "english": "Now put the values into the formula:\n110 = 2 × (35 + Breadth)",
+              "hindi": "अब मान सूत्र में रखिए:\n110 = 2 × (35 + चौड़ाई)"
+            },
+            {
+              "english": "Divide both sides by 2:\n55 = 35 + Breadth",
+              "hindi": "दोनों तरफ 2 से भाग दीजिए:\n55 = 35 + चौड़ाई"
+            },
+            {
+              "english": "Subtract 35 from both sides:\nBreadth = 55 - 35\nBreadth = 20 cm",
+              "hindi": "अब दोनों तरफ से 35 घटाइए:\nचौड़ाई = 55 - 35\nचौड़ाई = 20 सेमी"
+            },
+            {
+              "english": "Final answer: 20 cm",
+              "hindi": "अंतिम उत्तर: 20 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1788,8 +2060,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the breadth of a rectangle, we use the perimeter formula:",
+              "hindi": "आयत की चौड़ाई निकालने के लिए हम परिमाप का सूत्र उपयोग करते हैं:"
+            },
+            {
+              "english": "Perimeter = 2 × (Length + Breadth)",
+              "hindi": "परिमाप = 2 × (लंबाई + चौड़ाई)"
+            },
+            {
+              "english": "Given:\nPerimeter = 420 m\nLength = 120 m",
+              "hindi": "दिया है:\nपरिमाप = 420 m\nलंबाई = 120 m"
+            },
+            {
+              "english": "Step 1: Put the values in the formula.\n420 = 2 × (120 + Breadth)",
+              "hindi": "चरण 1: सूत्र में मान रखें।\n420 = 2 × (120 + चौड़ाई)"
+            },
+            {
+              "english": "Step 2: Divide both sides by 2.\n210 = 120 + Breadth",
+              "hindi": "चरण 2: दोनों तरफ 2 से भाग दें।\n210 = 120 + चौड़ाई"
+            },
+            {
+              "english": "Step 3: Subtract 120 from both sides.\nBreadth = 210 - 120\nBreadth = 90 m",
+              "hindi": "चरण 3: दोनों तरफ से 120 घटाएँ।\nचौड़ाई = 210 - 120\nचौड़ाई = 90 m"
+            },
+            {
+              "english": "So, the breadth of the garden is 90 m.",
+              "hindi": "इसलिए, बाग की चौड़ाई 90 m है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1853,8 +2157,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the perimeter of a square, we use the formula:\nPerimeter = 4 × side",
+              "hindi": "वर्ग का परिमाप निकालने के लिए सूत्र होता है:\nपरिमाप = 4 × भुजा"
+            },
+            {
+              "english": "Here, each side of the square is 45 cm.\nSo,\nPerimeter = 4 × 45\nPerimeter = 180 cm",
+              "hindi": "यहाँ वर्ग की प्रत्येक भुजा 45 सेमी है।\nतो,\nपरिमाप = 4 × 45\nपरिमाप = 180 सेमी"
+            },
+            {
+              "english": "Final answer: 180 cm",
+              "hindi": "अंतिम उत्तर: 180 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2184,8 +2504,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the perimeter of a square, we use:\nPerimeter = 4 × side",
+              "hindi": "वर्ग का परिमाप निकालने का सूत्र है:\nपरिमाप = 4 × भुजा"
+            },
+            {
+              "english": "Here, each side = 16 m.\nSo,\nPerimeter = 4 × 16 = 64 m",
+              "hindi": "यहाँ भुजा = 16 m है।\nअब,\nपरिमाप = 4 × 16 = 64 m"
+            },
+            {
+              "english": "Therefore, the perimeter of the square is 64 m.\nFinal Answer: 64 m",
+              "hindi": "इसलिए वर्ग का परिमाप 64 m है।\nअंतिम उत्तर: 64 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2251,8 +2587,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Side of the square = 2 m 10 cm",
+              "hindi": "वर्ग की एक भुजा = 2 m 10 cm"
+            },
+            {
+              "english": "Step 1: Convert the side to one unit.\n2 m 10 cm = 210 cm",
+              "hindi": "चरण 1: भुजा को एक ही इकाई में बदलते हैं।\n2 m 10 cm = 210 cm"
+            },
+            {
+              "english": "Step 2: Use the perimeter formula for a square.\nPerimeter = 4 × side",
+              "hindi": "चरण 2: वर्ग का परिमाप का सूत्र लगाते हैं।\nपरिमाप = 4 × भुजा"
+            },
+            {
+              "english": "Step 3: Substitute the value.\nPerimeter = 4 × 210 cm = 840 cm",
+              "hindi": "चरण 3: मान रखकर हल करते हैं।\nपरिमाप = 4 × 210 cm = 840 cm"
+            },
+            {
+              "english": "Step 4: Convert back to meters and centimeters.\n840 cm = 8 m 40 cm",
+              "hindi": "चरण 4: इसे मीटर और सेंटीमीटर में बदलते हैं।\n840 cm = 8 m 40 cm"
+            },
+            {
+              "english": "So, the perimeter of the square is 8 m 40 cm.",
+              "hindi": "अतः वर्ग का परिमाप 8 m 40 cm है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2316,8 +2680,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the perimeter of a square, we use the formula:\nPerimeter = 4 × side\nHere, each side = 3 m 25 cm.\nNow multiply the side by 4:\n4 × 3 m = 12 m\n4 × 25 cm = 100 cm\nSo, perimeter = 12 m 100 cm\nSince 100 cm = 1 m, we add it to 12 m.\nTherefore, perimeter = 13 m\nFinal answer: 13 m",
+              "hindi": "वर्ग की परिमाप निकालने का सूत्र है:\nपरिमाप = 4 × भुजा\nयहाँ भुजा = 3 m 25 cm है।\nअब भुजा को 4 से गुणा करते हैं:\n4 × 3 m = 12 m\n4 × 25 cm = 100 cm\nइसलिए, परिमाप = 12 m 100 cm\nक्योंकि 100 cm = 1 m होता है, इसलिए इसे 12 m में जोड़ देते हैं।\nअतः परिमाप = 13 m\nअंतिम उत्तर: 13 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2381,8 +2753,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the length of wire needed to fence the field, we find the perimeter.",
+              "hindi": "खेत को चारों ओर से घेरने के लिए जितनी तार चाहिए, उसे उस खेत की परिमाप कहते हैं।"
+            },
+            {
+              "english": "Perimeter of the field = sum of all three sides\n= 35 m + 60 m + 110 m\n= 205 m",
+              "hindi": "परिमाप = तीनों भुजाओं का योग\n= 35 m + 60 m + 110 m\n= 205 m"
+            },
+            {
+              "english": "So, the length of wire required is 205 m.",
+              "hindi": "इसलिए, आवश्यक तार की लंबाई 205 m है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2446,8 +2834,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the length of the wooden frame, we need the perimeter of the rectangle.",
+              "hindi": "लकड़ी के फ्रेम की लंबाई निकालने के लिए हमें आयत का परिमाप निकालना होगा।"
+            },
+            {
+              "english": "Step 1: Write the formula for perimeter of a rectangle.\nPerimeter = 2 × (length + width)",
+              "hindi": "चरण 1: आयत का परिमाप का सूत्र लिखिए।\nपरिमाप = 2 × (लंबाई + चौड़ाई)"
+            },
+            {
+              "english": "Step 2: Substitute the given values.\nLength = 54 cm\nWidth = 36 cm\nSo,\nPerimeter = 2 × (54 + 36)",
+              "hindi": "चरण 2: दिए गए मान रखिए।\nलंबाई = 54 सेमी\nचौड़ाई = 36 सेमी\nतो,\nपरिमाप = 2 × (54 + 36)"
+            },
+            {
+              "english": "Step 3: Add first.\n54 + 36 = 90",
+              "hindi": "चरण 3: पहले जोड़िए।\n54 + 36 = 90"
+            },
+            {
+              "english": "Step 4: Multiply by 2.\n2 × 90 = 180 cm",
+              "hindi": "चरण 4: अब 2 से गुणा कीजिए।\n2 × 90 = 180 सेमी"
+            },
+            {
+              "english": "Step 5: Convert 180 cm into meters and centimeters.\n180 cm = 1 m 80 cm",
+              "hindi": "चरण 5: 180 सेमी को मीटर और सेंटीमीटर में बदलिए।\n180 सेमी = 1 मीटर 80 सेमी"
+            },
+            {
+              "english": "So, the length of the wooden frame required is 1 m 80 cm.\nFinal answer: 1 m 80 cm.",
+              "hindi": "इसलिए, लकड़ी के फ्रेम की आवश्यक लंबाई 1 मीटर 80 सेमी है।\nअंतिम उत्तर: 1 मीटर 80 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2511,8 +2931,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the cost of the wall, first find the perimeter of the rectangular plot.",
+              "hindi": "दीवार की लागत निकालने के लिए पहले आयताकार खेत की परिमाप निकालते हैं।"
+            },
+            {
+              "english": "Step 1: Perimeter of a rectangle = 2 × (length + breadth)\n= 2 × (63 + 47)\n= 2 × 110\n= 220 m",
+              "hindi": "चरण 1: आयत का परिमाप = 2 × (लंबाई + चौड़ाई)\n= 2 × (63 + 47)\n= 2 × 110\n= 220 मीटर"
+            },
+            {
+              "english": "Step 2: Cost of constructing the wall = perimeter × cost per metre\n= 220 × 130\n= 28,600",
+              "hindi": "चरण 2: दीवार बनाने की लागत = परिमाप × प्रति मीटर लागत\n= 220 × 130\n= 28,600"
+            },
+            {
+              "english": "So, the cost of constructing the wall is Rs 28,600.\nFinal Answer: Rs 28,600",
+              "hindi": "इसलिए, दीवार बनाने की लागत Rs 28,600 है।\nअंतिम उत्तर: Rs 28,600"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2576,8 +3016,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A square has 4 equal sides.",
+              "hindi": "एक वर्ग की 4 बराबर भुजाएँ होती हैं।"
+            },
+            {
+              "english": "Step 1: Find the distance around the field in 1 round.\nPerimeter of square = 4 × side\n= 4 × 95\n= 380 m",
+              "hindi": "Step 1: 1 चक्कर में खेत के चारों ओर की दूरी निकालें।\nवर्ग का परिमाप = 4 × भुजा\n= 4 × 95\n= 380 m"
+            },
+            {
+              "english": "Step 2: Tanvy runs 3 rounds.\nTotal distance = 3 × 380\n= 1140 m",
+              "hindi": "Step 2: Tanvy 3 चक्कर लगाती है।\nकुल दूरी = 3 × 380\n= 1140 m"
+            },
+            {
+              "english": "Final answer: 1140 m",
+              "hindi": "Final answer: 1140 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2641,8 +3101,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "For a square field, the total length of the fence is the perimeter.",
+              "hindi": "वर्गाकार खेत के चारों ओर लगी बाड़ की कुल लंबाई परिमाप कहलाती है।"
+            },
+            {
+              "english": "Perimeter of a square = 4 × side",
+              "hindi": "वर्ग का परिमाप = 4 × भुजा"
+            },
+            {
+              "english": "Given perimeter = 308 m\nSo, 4 × side = 308",
+              "hindi": "दिया है परिमाप = 308 मीटर\nइसलिए, 4 × भुजा = 308"
+            },
+            {
+              "english": "Now divide both sides by 4:\nside = 308 ÷ 4 = 77",
+              "hindi": "अब दोनों तरफ 4 से भाग दें:\nभुजा = 308 ÷ 4 = 77"
+            },
+            {
+              "english": "So, the length of each side of the field is 77 m.",
+              "hindi": "इसलिए, खेत की प्रत्येक भुजा की लंबाई 77 मीटर है।"
+            },
+            {
+              "english": "Final answer: 77 m",
+              "hindi": "अंतिम उत्तर: 77 मीटर"
+            }
+          ]
         }
       ],
       "tags": [

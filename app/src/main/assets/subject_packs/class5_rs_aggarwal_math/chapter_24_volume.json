@@ -338,8 +338,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the volume of a cuboid, we use the formula:\nVolume = length × breadth × height\nGiven:\nLength = 16 cm\nBreadth = 12 cm\nHeight = 8 cm\nNow multiply:\nVolume = 16 × 12 × 8\nFirst, 16 × 12 = 192\nThen, 192 × 8 = 1536\nSo, the volume of the cuboid is 1536 cu cm.\nFinal answer: 1536 cu cm.",
+              "hindi": "घनाभ का आयतन निकालने का सूत्र है:\nआयतन = लंबाई × चौड़ाई × ऊँचाई\nदिया है:\nलंबाई = 16 सेमी\nचौड़ाई = 12 सेमी\nऊँचाई = 8 सेमी\nअब गुणा करें:\nआयतन = 16 × 12 × 8\nपहले, 16 × 12 = 192\nफिर, 192 × 8 = 1536\nइसलिए घनाभ का आयतन 1536 घन सेमी है।\nअंतिम उत्तर: 1536 घन सेमी।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -404,8 +412,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the volume of a cuboid, we use the formula:",
+              "hindi": "घनाभ का आयतन निकालने का सूत्र है:"
+            },
+            {
+              "english": "Volume = length × breadth × height",
+              "hindi": "आयतन = लंबाई × चौड़ाई × ऊँचाई"
+            },
+            {
+              "english": "Given:\nLength = 14 m\nBreadth = 8 m\nHeight = 2.5 m",
+              "hindi": "दिया है:\nलंबाई = 14 m\nचौड़ाई = 8 m\nऊँचाई = 2.5 m"
+            },
+            {
+              "english": "Step 1: Multiply length and breadth.\n14 × 8 = 112",
+              "hindi": "चरण 1: लंबाई और चौड़ाई को गुणा करें।\n14 × 8 = 112"
+            },
+            {
+              "english": "Step 2: Multiply the result by the height.\n112 × 2.5 = 280",
+              "hindi": "चरण 2: अब प्राप्त उत्तर को ऊँचाई से गुणा करें।\n112 × 2.5 = 280"
+            },
+            {
+              "english": "So, the volume of the cuboid is 280 cubic metres.",
+              "hindi": "इसलिए, घनाभ का आयतन 280 घन मीटर है।"
+            },
+            {
+              "english": "Final answer: 280 cu m",
+              "hindi": "अंतिम उत्तर: 280 घन मीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -710,8 +750,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A cube has all its edges equal.",
+              "hindi": "घन (cube) की सभी भुजाएँ बराबर होती हैं।"
+            },
+            {
+              "english": "Given edge = 14 cm\nFormula for volume of a cube = side × side × side\n= 14 × 14 × 14\n= 2744",
+              "hindi": "दी गई भुजा = 14 सेमी\nघन का आयतन निकालने का सूत्र = भुजा × भुजा × भुजा\n= 14 × 14 × 14\n= 2744"
+            },
+            {
+              "english": "So, the volume of the cube is 2744 cu cm.",
+              "hindi": "इसलिए, घन का आयतन 2744 घन सेमी है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -855,8 +911,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "For a cube, all edges are equal.",
+              "hindi": "घन (cube) में सभी भुजाएँ बराबर होती हैं।"
+            },
+            {
+              "english": "Formula for the volume of a cube:\nVolume = side × side × side = side³",
+              "hindi": "घन का आयतन निकालने का सूत्र:\nआयतन = भुजा × भुजा × भुजा = भुजा³"
+            },
+            {
+              "english": "Here, the edge of the cube = 1.2 m\nSo,\nVolume = 1.2 × 1.2 × 1.2\n= 1.728 m³",
+              "hindi": "यहाँ घन की भुजा = 1.2 m है।\nअब,\nआयतन = 1.2 × 1.2 × 1.2\n= 1.728 m³"
+            },
+            {
+              "english": "So, the volume of the cube is 1.728 cubic metres.",
+              "hindi": "इसलिए घन का आयतन 1.728 घन मीटर है।"
+            },
+            {
+              "english": "Final answer: 1.728 cu m",
+              "hindi": "अंतिम उत्तर: 1.728 घन मीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -921,8 +1001,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the volume of a cube, we use the formula:\nVolume = edge × edge × edge = a³\nHere, the edge is 6.5 cm.\nSo,\nVolume = 6.5 × 6.5 × 6.5\nFirst, 6.5 × 6.5 = 42.25\nThen, 42.25 × 6.5 = 274.625\nSo, the volume of the cube is 274.625 cubic centimeters.\nFinal answer: 274.625 cu cm",
+              "hindi": "घन का आयतन निकालने का सूत्र है:\nआयतन = भुजा × भुजा × भुजा = a³\nयहाँ भुजा 6.5 सेमी है।\nतो,\nआयतन = 6.5 × 6.5 × 6.5\nपहले, 6.5 × 6.5 = 42.25\nफिर, 42.25 × 6.5 = 274.625\nइसलिए घन का आयतन 274.625 घन सेमी है।\nअंतिम उत्तर: 274.625 cu cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -986,8 +1074,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the volume of earth dug out, we find the volume of the pit.",
+              "hindi": "गड्ढे से निकाली गई मिट्टी का आयतन निकालने के लिए हम गड्ढे का आयतन निकालते हैं।"
+            },
+            {
+              "english": "For a rectangular pit:\nVolume = length × width × depth",
+              "hindi": "आयताकार गड्ढे के लिए:\nआयतन = लंबाई × चौड़ाई × गहराई"
+            },
+            {
+              "english": "Given:\nLength = 6.5 m\nWidth = 2.4 m\nDepth = 1.5 m",
+              "hindi": "दिया है:\nलंबाई = 6.5 m\nचौड़ाई = 2.4 m\nगहराई = 1.5 m"
+            },
+            {
+              "english": "Now multiply step by step:\n6.5 × 2.4 = 15.6\n15.6 × 1.5 = 23.4",
+              "hindi": "अब क्रम से गुणा करते हैं:\n6.5 × 2.4 = 15.6\n15.6 × 1.5 = 23.4"
+            },
+            {
+              "english": "So, the volume of the earth dug out = 23.4 cubic metres.",
+              "hindi": "इसलिए, गड्ढे से निकाली गई मिट्टी का आयतन = 23.4 घन मीटर।"
+            },
+            {
+              "english": "Final answer: 23.4 cu. m",
+              "hindi": "अंतिम उत्तर: 23.4 घन मीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1051,8 +1167,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A cubical pit has all its edges equal.",
+              "hindi": "घनाकार गड्ढे की सभी भुजाएँ बराबर होती हैं।"
+            },
+            {
+              "english": "Given side of the pit = 4.1 m",
+              "hindi": "दिया है, एक भुजा = 4.1 मीटर"
+            },
+            {
+              "english": "Volume of a cube = side × side × side\n= 4.1 × 4.1 × 4.1\nFirst, 4.1 × 4.1 = 16.81\nNow, 16.81 × 4.1 = 68.921",
+              "hindi": "घन का आयतन = भुजा × भुजा × भुजा\n= 4.1 × 4.1 × 4.1\nपहले, 4.1 × 4.1 = 16.81\nअब, 16.81 × 4.1 = 68.921"
+            },
+            {
+              "english": "So, the volume of the earth dug out = 68.921 cubic metres.",
+              "hindi": "इसलिए, निकाली गई मिट्टी का आयतन = 68.921 घन मीटर है।"
+            },
+            {
+              "english": "Final answer: 68.921 cu. m",
+              "hindi": "अंतिम उत्तर: 68.921 घन मीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1116,8 +1256,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find how much air the room contains, we find the volume of the room.",
+              "hindi": "कमरे में कितनी हवा है, यह जानने के लिए हमें कमरे का आयतन निकालना होगा।"
+            },
+            {
+              "english": "Step 1: Use the formula for volume of a cuboid:\nVolume = length × breadth × height",
+              "hindi": "चरण 1: घनाभ का सूत्र लिखिए:\nआयतन = लंबाई × चौड़ाई × ऊँचाई"
+            },
+            {
+              "english": "Step 2: Put the given values:\nVolume = 12 × 7.8 × 5",
+              "hindi": "चरण 2: दिए गए मान रखिए:\nआयतन = 12 × 7.8 × 5"
+            },
+            {
+              "english": "Step 3: Multiply:\n12 × 7.8 = 93.6\n93.6 × 5 = 468",
+              "hindi": "चरण 3: गुणा कीजिए:\n12 × 7.8 = 93.6\n93.6 × 5 = 468"
+            },
+            {
+              "english": "So, the room contains 468 cubic metres of air.",
+              "hindi": "इसलिए कमरे में 468 घन मीटर हवा है।"
+            },
+            {
+              "english": "Final answer: 468 cu.m",
+              "hindi": "अंतिम उत्तर: 468 घन मीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1180,8 +1348,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Find the volume of the room.\nVolume = length × breadth × height\n= 12 × 7.8 × 5\n= 468 cubic metres",
+              "hindi": "चरण 1: कमरे का आयतन निकालिए।\nआयतन = लंबाई × चौड़ाई × ऊँचाई\n= 12 × 7.8 × 5\n= 468 घन मीटर"
+            },
+            {
+              "english": "Step 2: Find how many boys can sit in the room.\nEach boy occupies 2.6 cubic metres of air space.\nNumber of boys = 468 ÷ 2.6\n= 180",
+              "hindi": "चरण 2: अब पता लगाइए कि कितने लड़के बैठ सकते हैं।\nप्रत्येक लड़का 2.6 घन मीटर हवा की जगह घेरता है।\nलड़कों की संख्या = 468 ÷ 2.6\n= 180"
+            },
+            {
+              "english": "Final answer: 180 boys.",
+              "hindi": "अंतिम उत्तर: 180 लड़के।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1244,8 +1428,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, convert all measurements into the same unit.",
+              "hindi": "सबसे पहले सभी मापों को एक ही इकाई में बदलते हैं।"
+            },
+            {
+              "english": "Carton size = 1 m × 72 cm × 50 cm\nSince 1 m = 100 cm, the carton size becomes 100 cm × 72 cm × 50 cm.",
+              "hindi": "कार्टन का आकार = 1 m × 72 cm × 50 cm\nक्योंकि 1 m = 100 cm, इसलिए कार्टन का आकार 100 cm × 72 cm × 50 cm होगा।"
+            },
+            {
+              "english": "Now compare the sizes of the box and the carton:\n- Along 100 cm, we can place 100 ÷ 10 = 10 boxes\n- Along 72 cm, we can place 72 ÷ 8 = 9 boxes\n- Along 50 cm, we can place 50 ÷ 5 = 10 boxes",
+              "hindi": "अब बॉक्स और कार्टन की माप की तुलना करते हैं:\n- 100 cm की लंबाई में 100 ÷ 10 = 10 बॉक्स रख सकते हैं\n- 72 cm की चौड़ाई में 72 ÷ 8 = 9 बॉक्स रख सकते हैं\n- 50 cm की ऊँचाई में 50 ÷ 5 = 10 बॉक्स रख सकते हैं"
+            },
+            {
+              "english": "Now multiply these numbers:\n10 × 9 × 10 = 900",
+              "hindi": "अब इन तीनों को गुणा करते हैं:\n10 × 9 × 10 = 900"
+            },
+            {
+              "english": "So, the number of boxes that can be packed in the carton is 900.",
+              "hindi": "अतः कार्टन में 900 बॉक्स पैक किए जा सकते हैं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1308,8 +1516,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find how many bricks are needed, we compare the volume of the terrace with the volume of one brick.",
+              "hindi": "ईंटों की संख्या निकालने के लिए हम पहले terrace का आयतन निकालेंगे और फिर एक ईंट के आयतन से भाग देंगे।"
+            },
+            {
+              "english": "Step 1: Convert all measurements into the same unit.\n- Terrace length = 5 m = 500 cm\n- Terrace breadth = 3 m = 300 cm\n- Terrace height = 80 cm",
+              "hindi": "चरण 1: सभी मापों को एक ही इकाई में बदलें।\n- Terrace की लंबाई = 5 m = 500 cm\n- Terrace की चौड़ाई = 3 m = 300 cm\n- Terrace की ऊँचाई = 80 cm"
+            },
+            {
+              "english": "Step 2: Find the volume of the terrace.\nVolume = length × breadth × height\n= 500 × 300 × 80\n= 12,000,000 cm³",
+              "hindi": "चरण 2: Terrace का आयतन निकालें।\nआयतन = लंबाई × चौड़ाई × ऊँचाई\n= 500 × 300 × 80\n= 12,000,000 cm³"
+            },
+            {
+              "english": "Step 3: Find the volume of one brick.\nBrick length = 25 cm\nBrick width = 16 cm\nBrick thickness = 7.5 cm",
+              "hindi": "चरण 3: एक ईंट का आयतन निकालें।\nईंट की लंबाई = 25 cm\nईंट की चौड़ाई = 16 cm\nईंट की मोटाई = 7.5 cm"
+            },
+            {
+              "english": "Volume of one brick = 25 × 16 × 7.5\n= 3000 cm³",
+              "hindi": "एक ईंट का आयतन = 25 × 16 × 7.5\n= 3000 cm³"
+            },
+            {
+              "english": "Step 4: Divide the terrace volume by the brick volume.\nNumber of bricks = 12,000,000 ÷ 3000\n= 4000",
+              "hindi": "चरण 4: Terrace के आयतन को एक ईंट के आयतन से भाग दें।\nईंटों की संख्या = 12,000,000 ÷ 3000\n= 4000"
+            },
+            {
+              "english": "So, 4000 bricks are required.",
+              "hindi": "अतः 4000 ईंटों की आवश्यकता होगी।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1372,8 +1612,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find how many cubical blocks can be cut, we use volume.",
+              "hindi": "कितने घनाकार खंड काटे जा सकते हैं, यह जानने के लिए हम आयतन का उपयोग करते हैं।"
+            },
+            {
+              "english": "Step 1: Find the volume of the wooden block.\nVolume = length × breadth × height\n= 24 × 18 × 15\n= 6480 cm³",
+              "hindi": "Step 1: लकड़ी के खंड का आयतन निकालें।\nआयतन = लंबाई × चौड़ाई × ऊँचाई\n= 24 × 18 × 15\n= 6480 घन सेमी"
+            },
+            {
+              "english": "Step 2: Find the volume of one cubical block.\nEdge of cube = 6 cm\nVolume of one cube = 6 × 6 × 6 = 216 cm³",
+              "hindi": "Step 2: एक घन (cube) का आयतन निकालें।\nघन की भुजा = 6 सेमी\nएक घन का आयतन = 6 × 6 × 6 = 216 घन सेमी"
+            },
+            {
+              "english": "Step 3: Divide the total volume by the volume of one cube.\nNumber of cubes = 6480 ÷ 216 = 30",
+              "hindi": "Step 3: कुल आयतन को एक घन के आयतन से भाग दें।\nघनों की संख्या = 6480 ÷ 216 = 30"
+            },
+            {
+              "english": "So, 30 cubical blocks can be cut from the wooden block.",
+              "hindi": "इसलिए, लकड़ी के खंड से 30 घनाकार ब्लॉक काटे जा सकते हैं।"
+            },
+            {
+              "english": "Final Answer: 30",
+              "hindi": "Final Answer: 30"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1436,8 +1704,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The amount of space occupied by a solid is called its volume.\nA solid is a 3D shape, and volume tells us how much space it takes up.\nSo the correct word is: volume.\nFinal answer: volume",
+              "hindi": "किसी ठोस वस्तु द्वारा घेरा गया स्थान उसकी आयतन कहलाता है।\nठोस आकृति 3D होती है, और आयतन बताता है कि वह कितना स्थान घेरती है।\nइसलिए सही शब्द है: आयतन।\nअंतिम उत्तर: आयतन"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1500,8 +1776,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A cuboid has 3 measurements: length, breadth, and height.\nTo find the volume of a cuboid, we multiply all three measurements.\nSo, Volume of a cuboid = length × breadth × height.\nFinal answer: length × breadth × height",
+              "hindi": "घनाभ की 3 माप होती हैं: लंबाई, चौड़ाई, और ऊँचाई।\nघनाभ का आयतन निकालने के लिए इन तीनों को गुणा करते हैं।\nइसलिए, घनाभ का आयतन = लंबाई × चौड़ाई × ऊँचाई।\nअंतिम उत्तर: लंबाई × चौड़ाई × ऊँचाई"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1564,8 +1848,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A cube has 3 equal dimensions: length, width, and height. In a cube, all three are the same, so we write the volume as:\nVolume of a cube = side × side × side\nSo the blanks are filled with: side, side, side.\nFinal answer: side × side × side",
+              "hindi": "घन की 3 बराबर भुजाएँ होती हैं: लंबाई, चौड़ाई और ऊँचाई। घन में ये तीनों एक जैसी होती हैं, इसलिए आयतन का सूत्र होता है:\nघन का आयतन = भुजा × भुजा × भुजा\nइसलिए खाली स्थानों में आएगा: भुजा, भुजा, भुजा।\nअंतिम उत्तर: भुजा × भुजा × भुजा"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1643,8 +1935,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Amit has 60 small cubes, and each cube is 1 cm³.\nSo, he can build a cuboid only if its volume is 60 cm³ or less, and for using all 60 cubes exactly, the volume should be 60 cm³.",
+              "hindi": "अमित के पास 60 छोटे घन हैं, और हर घन का आयतन 1 cm³ है।\nइसलिए वह केवल वही घनाभ बना सकता है जिसका आयतन 60 cm³ हो।"
+            },
+            {
+              "english": "Now check each option:\n(a) 5 × 4 × 3 = 60 cm³\nSo this cuboid can be built.",
+              "hindi": "अब हर विकल्प जाँचते हैं:\n(a) 5 × 4 × 3 = 60 cm³\nइसलिए यह घनाभ बनाया जा सकता है।"
+            },
+            {
+              "english": "(b) 2 × 3 × 10 = 60 cm³\nSo this cuboid can be built.",
+              "hindi": "(b) 2 × 3 × 10 = 60 cm³\nइसलिए यह घनाभ बनाया जा सकता है।"
+            },
+            {
+              "english": "(c) 4 × 4 × 4 = 64 cm³\nThis needs 64 cubes, but Amit has only 60 cubes.\nSo he cannot build this cuboid.",
+              "hindi": "(c) 4 × 4 × 4 = 64 cm³\nइसे बनाने के लिए 64 घन चाहिए, लेकिन अमित के पास केवल 60 घन हैं।\nइसलिए वह यह घनाभ नहीं बना सकता।"
+            },
+            {
+              "english": "(d) 6 × 5 × 2 = 60 cm³\nSo this cuboid can be built.",
+              "hindi": "(d) 6 × 5 × 2 = 60 cm³\nइसलिए यह घनाभ बनाया जा सकता है।"
+            },
+            {
+              "english": "Final answer: Option (c).",
+              "hindi": "अंतिम उत्तर: विकल्प (c)।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1710,8 +2030,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know:\n1 m = 100 cm",
+              "hindi": "हमें पता है:\n1 m = 100 cm"
+            },
+            {
+              "english": "So,\n1 cubic m = 1 m × 1 m × 1 m\n= 100 cm × 100 cm × 100 cm\n= 1,000,000 cubic cm",
+              "hindi": "इसलिए,\n1 घन मीटर = 1 m × 1 m × 1 m\n= 100 cm × 100 cm × 100 cm\n= 1,000,000 घन सेमी"
+            },
+            {
+              "english": "Given volume of the cuboid = 1/8 cubic m",
+              "hindi": "दिया है कि घनाभ का आयतन = 1/8 घन मीटर"
+            },
+            {
+              "english": "So its volume in cubic cm is:\n1/8 × 1,000,000 = 125,000",
+              "hindi": "अब इसे घन सेमी में बदलते हैं:\n1/8 × 1,000,000 = 125,000"
+            },
+            {
+              "english": "Therefore, the volume of the cuboid is 125000 cu cm.",
+              "hindi": "अतः घनाभ का आयतन 125000 घन सेमी है।"
+            }
+          ]
         }
       ],
       "tags": [

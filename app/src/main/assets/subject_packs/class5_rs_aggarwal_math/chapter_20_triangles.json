@@ -473,8 +473,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To make a triangle, the sum of any two sides must be greater than the third side.\nHere, 8 + 5 = 13.\nBut 13 is less than 15.\nSo these three line segments cannot form a triangle.\nFinal answer: No.",
+              "hindi": "त्रिभुज बनाने के लिए किसी भी दो भुजाओं का योग तीसरी भुजा से बड़ा होना चाहिए।\nयहाँ 8 + 5 = 13 होता है।\nलेकिन 13, 15 से छोटा है।\nइसलिए इन तीन रेखाखंडों से त्रिभुज नहीं बन सकता।\nअंतिम उत्तर: नहीं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -537,8 +545,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether three line segments can form a triangle, we use the triangle inequality rule.",
+              "hindi": "यह जानने के लिए कि तीन रेखाखंड त्रिभुज बना सकते हैं या नहीं, हम त्रिभुज असमानता का नियम उपयोग करते हैं।"
+            },
+            {
+              "english": "Rule:\n- The sum of any two sides must be greater than the third side.",
+              "hindi": "नियम:\n- किसी भी दो भुजाओं का योग तीसरी भुजा से बड़ा होना चाहिए।"
+            },
+            {
+              "english": "Given sides:\n- 6 cm, 7 cm, 13 cm",
+              "hindi": "दी गई भुजाएँ:\n- 6 सेमी, 7 सेमी, 13 सेमी"
+            },
+            {
+              "english": "Now check:\n- 6 + 7 = 13\n- But 13 is not greater than 13",
+              "hindi": "अब जाँच करें:\n- 6 + 7 = 13\n- लेकिन 13, 13 से बड़ा नहीं है"
+            },
+            {
+              "english": "For a triangle, the sum must be strictly greater, not equal.\nSo these three line segments cannot form a triangle.",
+              "hindi": "त्रिभुज बनने के लिए योग का तीसरी भुजा से सख्ती से बड़ा होना जरूरी है, बराबर होना काफी नहीं है।\nइसलिए ये तीन रेखाखंड त्रिभुज नहीं बना सकते।"
+            },
+            {
+              "english": "Final answer: No.",
+              "hindi": "अंतिम उत्तर: नहीं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -601,8 +637,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether three line segments can form a triangle, we use the triangle rule:",
+              "hindi": "यह जानने के लिए कि तीन रेखाखंडों से त्रिभुज बन सकता है या नहीं, हम त्रिभुज का नियम लगाते हैं:"
+            },
+            {
+              "english": "The sum of any two sides must be greater than the third side.",
+              "hindi": "किसी भी दो भुजाओं का योग तीसरी भुजा से बड़ा होना चाहिए।"
+            },
+            {
+              "english": "Given sides:\n- 7 cm\n- 6 cm\n- 11 cm",
+              "hindi": "दी गई भुजाएँ:\n- 7 सेमी\n- 6 सेमी\n- 11 सेमी"
+            },
+            {
+              "english": "Now check:\n- 7 + 6 = 13, and 13 > 11\n- 7 + 11 = 18, and 18 > 6\n- 6 + 11 = 17, and 17 > 7",
+              "hindi": "अब जाँच करें:\n- 7 + 6 = 13, और 13 > 11\n- 7 + 11 = 18, और 18 > 6\n- 6 + 11 = 17, और 17 > 7"
+            },
+            {
+              "english": "All three conditions are true.\nSo, these three line segments can form a triangle.",
+              "hindi": "तीनों शर्तें सही हैं।\nइसलिए इन तीनों रेखाखंडों से त्रिभुज बनाया जा सकता है।"
+            },
+            {
+              "english": "Final answer: Yes, a triangle can be formed.",
+              "hindi": "अंतिम उत्तर: हाँ, त्रिभुज बनाया जा सकता है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -665,8 +729,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether three line segments can form a triangle, we use the triangle inequality rule:\n1. The sum of any two sides must be greater than the third side.",
+              "hindi": "त्रिभुज बनाने के लिए हम triangle inequality rule का उपयोग करते हैं:\n1. किसी भी दो भुजाओं का योग तीसरी भुजा से बड़ा होना चाहिए।"
+            },
+            {
+              "english": "Here the sides are 6.5 cm, 16.5 cm, and 5.6 cm.",
+              "hindi": "यहाँ भुजाएँ हैं 6.5 cm, 16.5 cm, और 5.6 cm."
+            },
+            {
+              "english": "Check the two smaller sides:\n6.5 + 5.6 = 12.1 cm",
+              "hindi": "दो छोटी भुजाओं को जोड़ते हैं:\n6.5 + 5.6 = 12.1 cm"
+            },
+            {
+              "english": "Now compare:\n12.1 cm < 16.5 cm",
+              "hindi": "अब तुलना करें:\n12.1 cm < 16.5 cm"
+            },
+            {
+              "english": "Since the sum of the two smaller sides is less than the longest side, a triangle cannot be formed.",
+              "hindi": "क्योंकि दो छोटी भुजाओं का योग सबसे बड़ी भुजा से छोटा है, इसलिए त्रिभुज नहीं बन सकता।"
+            },
+            {
+              "english": "Final answer: No, it is not possible to form a triangle.",
+              "hindi": "अंतिम उत्तर: नहीं, त्रिभुज बनाना संभव नहीं है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -729,8 +821,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Yes, it is possible to form a triangle.",
+              "hindi": "हाँ, त्रिभुज बनाना संभव है।"
+            },
+            {
+              "english": "Step 1: To form a triangle, the sum of any two side lengths must be greater than the third side.",
+              "hindi": "कदम 1: त्रिभुज बनाने के लिए किसी भी दो भुजाओं का योग तीसरी भुजा से बड़ा होना चाहिए।"
+            },
+            {
+              "english": "Step 2: Check the sides 6 cm, 6 cm, and 6 cm.\n- 6 + 6 = 12, and 12 > 6\n- This works for every pair of sides.",
+              "hindi": "कदम 2: अब 6 सेमी, 6 सेमी, और 6 सेमी वाली भुजाओं को देखें।\n- 6 + 6 = 12, और 12 > 6\n- यह हर जोड़ी के लिए सही है।"
+            },
+            {
+              "english": "Step 3: Since all three sides are equal, this would be an equilateral triangle.",
+              "hindi": "कदम 3: चूंकि तीनों भुजाएँ बराबर हैं, इसलिए यह समबाहु त्रिभुज होगा।"
+            },
+            {
+              "english": "So, a triangle can be formed.",
+              "hindi": "इसलिए त्रिभुज बनाया जा सकता है।"
+            },
+            {
+              "english": "Final answer: Yes.",
+              "hindi": "अंतिम उत्तर: हाँ।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -793,8 +913,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether three line segments can make a triangle, use the triangle inequality rule:\n1. Add any two sides and compare with the third side.\n2. For 7 cm, 8 cm, and 10 cm:\n   - 7 + 8 = 15, and 15 > 10\n   - 7 + 10 = 17, and 17 > 8\n   - 8 + 10 = 18, and 18 > 7\n3. Since the sum of every pair of sides is greater than the third side, these line segments can form a triangle.",
+              "hindi": "यह देखने के लिए कि तीन रेखाखंड मिलकर त्रिभुज बना सकते हैं या नहीं, त्रिभुज असमता नियम का उपयोग करते हैं:\n1. किसी भी दो भुजाओं को जोड़कर तीसरी भुजा से तुलना करते हैं।\n2. 7 सेमी, 8 सेमी, और 10 सेमी के लिए:\n   - 7 + 8 = 15, और 15 > 10\n   - 7 + 10 = 17, और 17 > 8\n   - 8 + 10 = 18, और 18 > 7\n3. क्योंकि हर दो भुजाओं का योग तीसरी भुजा से बड़ा है, इसलिए इन रेखाखंडों से त्रिभुज बनाया जा सकता है।"
+            },
+            {
+              "english": "Final answer: Yes, it is possible to form a triangle.",
+              "hindi": "अंतिम उत्तर: हाँ, त्रिभुज बनाना संभव है."
+            }
+          ]
         }
       ],
       "tags": [
@@ -857,8 +989,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A scalene triangle is a triangle in which no two sides are equal.\nSo, all its sides are of different lengths.\nTherefore, the blank should be filled with: different\nFinal answer: different",
+              "hindi": "विषमभुज त्रिभुज वह त्रिभुज होता है जिसकी कोई भी दो भुजाएँ बराबर नहीं होतीं।\nइसलिए, इसकी सभी भुजाओं की लंबाई अलग-अलग होती है।\nइसलिए रिक्त स्थान में आएगा: different\nअंतिम उत्तर: different"
+            }
+          ]
         }
       ],
       "tags": [
@@ -921,8 +1061,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "An isosceles triangle is a triangle with 2 sides of the same length.",
+              "hindi": "एक समद्विबाहु त्रिभुज वह त्रिभुज होता है जिसकी 2 भुजाएँ समान लंबाई की होती हैं।"
+            },
+            {
+              "english": "Step 1: Read the sentence: “sides of an isosceles triangle are ............ in length.”\nStep 2: Remember the rule for an isosceles triangle: it has two equal sides.\nStep 3: So the blank should be filled with “two equal” or simply “equal,” depending on how the sentence is written.",
+              "hindi": "Step 1: वाक्य पढ़िए: “isosceles triangle की sides are ............ in length.”\nStep 2: समद्विबाहु त्रिभुज का नियम याद कीजिए: इसकी दो भुजाएँ बराबर होती हैं।\nStep 3: इसलिए खाली स्थान में “two equal” या केवल “equal” आएगा, वाक्य की बनावट के अनुसार।"
+            },
+            {
+              "english": "Final answer: two equal",
+              "hindi": "Final answer: two equal"
+            }
+          ]
         }
       ],
       "tags": [
@@ -985,8 +1141,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to fill in the blank.",
+              "hindi": "हमें रिक्त स्थान भरना है।"
+            },
+            {
+              "english": "1. A triangle has 3 sides.\n2. If all 3 sides are the same length, that triangle is called an equilateral triangle.\n3. So the missing word before \"triangle\" is \"equilateral\".",
+              "hindi": "1. त्रिभुज की 3 भुजाएँ होती हैं।\n2. जब तीनों भुजाएँ एक ही लंबाई की हों, तो उसे समबाहु त्रिभुज कहते हैं।\n3. इसलिए \"triangle\" से पहले आने वाला शब्द \"equilateral\" है।"
+            },
+            {
+              "english": "Final answer: equilateral",
+              "hindi": "Final answer: equilateral"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1049,8 +1221,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We use the triangle inequality rule.\nFor any triangle, the sum of the lengths of any two sides is always greater than the length of the third side.\nSo the missing word is: greater.\nFinal answer: greater",
+              "hindi": "हम त्रिभुज के नियम का उपयोग करते हैं।\nकिसी भी त्रिभुज में, किसी भी दो भुजाओं की लंबाइयों का योग हमेशा तीसरी भुजा की लंबाई से अधिक होता है।\nइसलिए खाली स्थान में शब्द आएगा: greater यानी \"बड़ा\" या \"अधिक\"।\nअंतिम उत्तर: greater"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1113,8 +1293,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "An equilateral triangle has all three sides equal.\nSo, all three angles are equal too.\nThe sum of angles in any triangle is 180°.\nSo each angle = 180° ÷ 3 = 60°.\nAnswer: 60°",
+              "hindi": "समबाहु त्रिभुज की तीनों भुजाएँ बराबर होती हैं।\nइसलिए उसके तीनों कोण भी बराबर होते हैं।\nकिसी भी त्रिभुज के सभी कोणों का योग 180° होता है।\nइसलिए प्रत्येक कोण = 180° ÷ 3 = 60°।\nउत्तर: 60°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1177,8 +1365,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A scalene triangle has all three sides of different lengths. In a triangle, if the sides are all different, then the three angles are also all different.",
+              "hindi": "समद्विबाहु त्रिभुज नहीं, बल्कि स्कैलेन त्रिभुज में तीनों भुजाएँ अलग-अलग लंबाई की होती हैं। इसलिए उसके तीनों कोणों के माप भी अलग-अलग होते हैं।"
+            },
+            {
+              "english": "So the blank should be: different",
+              "hindi": "इसलिए रिक्त स्थान में आएगा: different"
+            },
+            {
+              "english": "Completed sentence: All the three angles of a scalene triangle are of different measures.",
+              "hindi": "पूरा वाक्य: स्कैलेन त्रिभुज के तीनों कोणों के माप अलग-अलग होते हैं।"
+            },
+            {
+              "english": "Final answer: different",
+              "hindi": "अंतिम उत्तर: different"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1241,8 +1449,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "An isosceles triangle has two equal sides.\nThe angles opposite those equal sides are also equal.\nSo the blank should be filled with: equal.\nFinal answer: equal.",
+              "hindi": "समद्विबाहु त्रिभुज में दो भुजाएँ बराबर होती हैं।\nउन बराबर भुजाओं के सामने वाले कोण भी बराबर होते हैं।\nइसलिए रिक्त स्थान में \"equal\" यानी \"समान\" आएगा।\nअंतिम उत्तर: equal."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1305,8 +1521,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: An equilateral triangle has all 3 sides equal.\nStep 2: A triangle with only 2 equal sides is called an isosceles triangle.\nStep 3: The statement says that a triangle with only two equal sides is an equilateral triangle.\nThis is not correct.\nFinal answer: False.",
+              "hindi": "चरण 1: समबाहु त्रिभुज की 3ों भुजाएँ बराबर होती हैं।\nचरण 2: जिस त्रिभुज की केवल 2 भुजाएँ बराबर होती हैं, उसे समद्विबाहु त्रिभुज कहते हैं।\nचरण 3: दिए गए कथन में कहा गया है कि केवल दो बराबर भुजाओं वाला त्रिभुज समबाहु त्रिभुज होता है।\nयह सही नहीं है।\nअंतिम उत्तर: False (असत्य)."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1369,8 +1593,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: An equilateral triangle has all 3 sides equal.\nStep 2: An isosceles triangle has at least 2 equal sides.\nStep 3: Since an equilateral triangle has 3 equal sides, it also has 2 equal sides.\nSo, every equilateral triangle is also an isosceles triangle.\nFinal answer: True.",
+              "hindi": "चरण 1: समभुज त्रिभुज की तीनों भुजाएँ बराबर होती हैं।\nचरण 2: समद्विबाहु त्रिभुज में कम से कम 2 भुजाएँ बराबर होती हैं।\nचरण 3: क्योंकि समभुज त्रिभुज की 3 भुजाएँ बराबर होती हैं, इसलिए उसमें 2 भुजाएँ बराबर होना भी शामिल है।\nइसलिए, हर समभुज त्रिभुज समद्विबाहु त्रिभुज भी होता है।\nअंतिम उत्तर: True."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1433,8 +1665,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A triangle has 3 sides.",
+              "hindi": "त्रिभुज की 3 भुजाएँ होती हैं।"
+            },
+            {
+              "english": "A basic rule of triangles is: the sum of any two sides is greater than the third side.\nFor example, if the sides are a, b, and c, then:\n- a + b > c\n- b + c > a\n- c + a > b",
+              "hindi": "त्रिभुज का एक मूल नियम है: किसी भी दो भुजाओं का योग तीसरी भुजा से बड़ा होता है।\nउदाहरण के लिए, यदि भुजाएँ a, b, और c हैं, तो:\n- a + b > c\n- b + c > a\n- c + a > b"
+            },
+            {
+              "english": "So the given statement is true.",
+              "hindi": "इसलिए दिया गया कथन सत्य है।"
+            },
+            {
+              "english": "Final answer: True",
+              "hindi": "अंतिम उत्तर: True"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1497,8 +1749,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check the statement, we remember a few facts about triangles.",
+              "hindi": "कथन की जांच करने के लिए हमें त्रिभुज के बारे में कुछ बातें याद रखनी हैं।"
+            },
+            {
+              "english": "An isosceles triangle has at least two equal sides.\nIts equal angles are also equal.\nBut the third angle can be different.",
+              "hindi": "समद्विबाहु त्रिभुज में कम से कम दो भुजाएँ बराबर होती हैं।\nइसके बराबर कोण भी बराबर होते हैं।\nलेकिन तीसरा कोण अलग हो सकता है।"
+            },
+            {
+              "english": "So, it is not true that every angle in an isosceles triangle is 60 degrees.\nThat happens only in an equilateral triangle, where all three sides and all three angles are equal.",
+              "hindi": "इसलिए यह सही नहीं है कि समद्विबाहु त्रिभुज का हर कोण 60 डिग्री होता है।\nयह बात केवल समबाहु त्रिभुज में होती है, जहाँ तीनों भुजाएँ और तीनों कोण बराबर होते हैं।"
+            },
+            {
+              "english": "Final answer: False.",
+              "hindi": "अंतिम उत्तर: False."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1561,8 +1833,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "An isosceles triangle has at least two equal sides.\nThe angles opposite the equal sides are also equal.\nSo, two angles of an isosceles triangle are always equal.",
+              "hindi": "समद्विबाहु त्रिभुज में कम से कम दो भुजाएँ बराबर होती हैं।\nबराबर भुजाओं के सामने वाले कोण भी बराबर होते हैं।\nइसलिए समद्विबाहु त्रिभुज के दो कोण हमेशा बराबर होते हैं।"
+            },
+            {
+              "english": "Final answer: True.",
+              "hindi": "अंतिम उत्तर: True."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1625,8 +1909,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In any triangle, the sum of all three angles is 180°.",
+              "hindi": "किसी भी त्रिभुज में तीनों कोणों का योग 180° होता है।"
+            },
+            {
+              "english": "Given:\nAngle B = 46°\nAngle C = 54°",
+              "hindi": "दिया है:\nकोण B = 46°\nकोण C = 54°"
+            },
+            {
+              "english": "Now add the known angles:\n46° + 54° = 100°",
+              "hindi": "अब दिए गए कोणों को जोड़ते हैं:\n46° + 54° = 100°"
+            },
+            {
+              "english": "So, Angle A = 180° - 100° = 80°.",
+              "hindi": "इसलिए, कोण A = 180° - 100° = 80°"
+            },
+            {
+              "english": "Final answer: 80°.",
+              "hindi": "अंतिम उत्तर: 80°."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1689,8 +1997,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the missing angle in triangle PQR, use the angle-sum property of a triangle.",
+              "hindi": "त्रिभुज PQR में missing angle निकालने के लिए त्रिभुज के कोणों का नियम उपयोग करते हैं।"
+            },
+            {
+              "english": "Step 1: Add the two given angles: 35° + 62° = 97°.\nStep 2: Subtract this from 180° because all angles in a triangle add up to 180°.\n180° - 97° = 83°.",
+              "hindi": "Step 1: दिए गए दो कोण जोड़ें: 35° + 62° = 97°.\nStep 2: 180° में से 97° घटाएँ, क्योंकि त्रिभुज के सभी कोणों का योग 180° होता है।\n180° - 97° = 83°."
+            },
+            {
+              "english": "So, the missing angle is 83°.\nFinal Answer: 83°",
+              "hindi": "इसलिए, missing angle 83° है।\nअंतिम उत्तर: 83°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1753,8 +2077,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In triangle XYZ, the sum of all angles is 180°.",
+              "hindi": "त्रिभुज XYZ में सभी कोणों का योग 180° होता है।"
+            },
+            {
+              "english": "Given:\n∠X = 105°\n∠Z = 35°",
+              "hindi": "दिया है:\n∠X = 105°\n∠Z = 35°"
+            },
+            {
+              "english": "Let the missing angle be ∠R.",
+              "hindi": "मान लेते हैं कि अज्ञात कोण ∠R है।"
+            },
+            {
+              "english": "So,\n∠X + ∠R + ∠Z = 180°\n105° + ∠R + 35° = 180°",
+              "hindi": "तो,\n∠X + ∠R + ∠Z = 180°\n105° + ∠R + 35° = 180°"
+            },
+            {
+              "english": "First add the known angles:\n105° + 35° = 140°",
+              "hindi": "पहले दिए गए दोनों कोण जोड़ते हैं:\n105° + 35° = 140°"
+            },
+            {
+              "english": "Now subtract from 180°:\n∠R = 180° - 140° = 40°",
+              "hindi": "अब 180° में से घटाते हैं:\n∠R = 180° - 140° = 40°"
+            },
+            {
+              "english": "Final answer: ∠R = 40°",
+              "hindi": "अंतिम उत्तर: ∠R = 40°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1817,8 +2173,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In a right-angled triangle, one angle is always 90°.",
+              "hindi": "एक समकोण त्रिभुज में एक कोण हमेशा 90° होता है।"
+            },
+            {
+              "english": "Step 1: One angle is given as 35°.\nStep 2: The sum of all angles in a triangle is 180°.\nStep 3: Subtract the known angles from 180°:\n180° - 90° - 35° = 55°",
+              "hindi": "चरण 1: एक कोण 35° दिया गया है।\nचरण 2: किसी भी त्रिभुज के तीनों कोणों का योग 180° होता है।\nचरण 3: अब ज्ञात कोणों को 180° में से घटाएँ:\n180° - 90° - 35° = 55°"
+            },
+            {
+              "english": "So, the other unknown angle is 55°.\nTherefore, the three angles are 90°, 35°, and 55°.\nFinal answer: ∠Y = 55°.",
+              "hindi": "इसलिए, दूसरा अज्ञात कोण 55° है।\nतो त्रिभुज के कोण हैं 90°, 35°, और 55°।\nअंतिम उत्तर: ∠Y = 55°."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1881,8 +2253,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find ∠Y, we use a basic fact about triangles:",
+              "hindi": "∠Y निकालने के लिए हम त्रिभुज का एक आसान नियम इस्तेमाल करेंगे:"
+            },
+            {
+              "english": "1. The sum of all angles in a triangle is 180°.\n2. If all the angles are equal, then the triangle has 3 equal angles.\n3. So each angle = 180° ÷ 3 = 60°.\n4. Therefore, ∠Y = 60°.",
+              "hindi": "1. किसी भी त्रिभुज के तीनों कोणों का योग 180° होता है।\n2. अगर त्रिभुज के सभी कोण बराबर हैं, तो तीनों कोण समान होंगे।\n3. इसलिए हर कोण = 180° ÷ 3 = 60°.\n4. इसलिए ∠Y = 60°."
+            },
+            {
+              "english": "Final answer: 60°",
+              "hindi": "अंतिम उत्तर: 60°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1945,8 +2333,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "An isosceles triangle has 2 equal angles.",
+              "hindi": "एक समद्विबाहु त्रिभुज में 2 कोण बराबर होते हैं।"
+            },
+            {
+              "english": "Step 1: One equal angle is 64°.\nStep 2: The other equal angle is also 64°.\nStep 3: The sum of angles in a triangle is 180°.\nStep 4: Third angle = 180° - 64° - 64° = 52°.",
+              "hindi": "चरण 1: एक बराबर कोण 64° है।\nचरण 2: दूसरा बराबर कोण भी 64° होगा।\nचरण 3: त्रिभुज के तीनों कोणों का योग 180° होता है।\nचरण 4: तीसरा कोण = 180° - 64° - 64° = 52°."
+            },
+            {
+              "english": "So the three angles are 64°, 64°, and 52°.\nFinal answer: 64°, 64°, 52°.",
+              "hindi": "इसलिए तीनों कोण 64°, 64°, और 52° हैं।\nअंतिम उत्तर: 64°, 64°, 52°."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2009,8 +2413,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "An isosceles right triangle has one right angle, so one angle is 90°. The total of all angles in a triangle is 180°. \n180° - 90° = 90° left for the other two equal angles. \nSince the two angles are equal, divide 90° by 2: 90° ÷ 2 = 45°. \nSo, each of the two equal angles is 45°. Final answer: 45°",
+              "hindi": "समद्विबाहु समकोण त्रिभुज में एक कोण 90° होता है। त्रिभुज के तीनों कोणों का योग 180° होता है। \n180° - 90° = 90° बचते हैं दो बराबर कोणों के लिए। \nक्योंकि दोनों कोण बराबर हैं, इसलिए 90° को 2 से भाग देते हैं: 90° ÷ 2 = 45°। \nइसलिए दो बराबर कोणों में से प्रत्येक का माप 45° है। अंतिम उत्तर: 45°"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2073,8 +2485,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "An isosceles triangle has 2 equal angles.",
+              "hindi": "एक समद्विबाहु त्रिभुज में 2 कोण बराबर होते हैं।"
+            },
+            {
+              "english": "Step 1: The sum of all angles in a triangle is 180°.\nStep 2: The third angle is 80°.\nStep 3: So the two equal angles together are 180° - 80° = 100°.\nStep 4: Since the two angles are equal, each one is 100° ÷ 2 = 50°.",
+              "hindi": "चरण 1: किसी भी त्रिभुज के तीनों कोणों का योग 180° होता है।\nचरण 2: तीसरा कोण 80° है।\nचरण 3: इसलिए दो बराबर कोणों का कुल योग 180° - 80° = 100° होगा।\nचरण 4: क्योंकि दोनों कोण बराबर हैं, इसलिए प्रत्येक कोण = 100° ÷ 2 = 50° होगा।"
+            },
+            {
+              "english": "Final answer: Each of the two equal angles is 50°.",
+              "hindi": "अंतिम उत्तर: दोनों बराबर कोण 50°-50° हैं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2137,8 +2565,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In triangle ABC, the sum of all angles is 180°.",
+              "hindi": "त्रिभुज ABC में सभी कोणों का योग 180° होता है।"
+            },
+            {
+              "english": "Given:\n∠A = 55°\n∠C = 45°",
+              "hindi": "दिया है:\n∠A = 55°\n∠C = 45°"
+            },
+            {
+              "english": "First, find ∠B:\n∠B = 180° - (55° + 45°)\n∠B = 180° - 100°\n∠B = 80°",
+              "hindi": "पहले ∠B निकालते हैं:\n∠B = 180° - (55° + 45°)\n∠B = 180° - 100°\n∠B = 80°"
+            },
+            {
+              "english": "Now the three angles are 55°, 45°, and 80°.\nAll three angles are different, so all three sides are also different.",
+              "hindi": "अब तीनों कोण हैं 55°, 45° और 80°।\nये तीनों कोण अलग-अलग हैं, इसलिए त्रिभुज की तीनों भुजाएँ भी अलग-अलग होंगी।"
+            },
+            {
+              "english": "So, triangle ABC is scalene.",
+              "hindi": "इसलिए त्रिभुज ABC scalene है।"
+            },
+            {
+              "english": "Final answer: scalene",
+              "hindi": "अंतिम उत्तर: scalene"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2201,8 +2657,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In triangle PQR, ∠P = 90° and ∠Q = 45°. The sum of angles in a triangle is 180°, so ∠R = 180° - 90° - 45° = 45°. Now ∠Q and ∠R are equal. A triangle with two equal angles has two equal sides, so it is an isosceles triangle. Final answer: isosceles.",
+              "hindi": "त्रिभुज PQR में ∠P = 90° और ∠Q = 45° है। त्रिभुज के सभी कोणों का योग 180° होता है, इसलिए ∠R = 180° - 90° - 45° = 45° होगा। अब ∠Q और ∠R बराबर हैं। जिन त्रिभुजों के दो कोण बराबर होते हैं, उनकी दो भुजाएँ भी बराबर होती हैं। इसलिए यह समद्विबाहु त्रिभुज है। अंतिम उत्तर: समद्विबाहु।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2265,8 +2729,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know that the angles in a triangle add up to 180°.",
+              "hindi": "हमें पता है कि किसी त्रिभुज के तीनों कोणों का योग 180° होता है।"
+            },
+            {
+              "english": "Given:\n∠X = 60°\n∠Y = 60°",
+              "hindi": "दिया है:\n∠X = 60°\n∠Y = 60°"
+            },
+            {
+              "english": "Step 1: Add the two angles.\n60° + 60° = 120°",
+              "hindi": "चरण 1: दोनों कोणों को जोड़ें।\n60° + 60° = 120°"
+            },
+            {
+              "english": "Step 2: Find the third angle.\n∠Z = 180° - 120° = 60°",
+              "hindi": "चरण 2: तीसरा कोण निकालें।\n∠Z = 180° - 120° = 60°"
+            },
+            {
+              "english": "Step 3: Now all three angles are 60°.\nA triangle with all angles equal to 60° has all sides equal.\nThat kind of triangle is called an equilateral triangle.",
+              "hindi": "चरण 3: अब तीनों कोण 60° हैं।\nजिस त्रिभुज के तीनों कोण 60° हों, उसकी तीनों भुजाएँ बराबर होती हैं।\nऐसे त्रिभुज को समबाहु त्रिभुज कहते हैं।"
+            },
+            {
+              "english": "Final answer: equilateral",
+              "hindi": "अंतिम उत्तर: equilateral (समबाहु)"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2329,8 +2821,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In triangle ABC, we are given:\n∠B = 56°\n∠C = 40°",
+              "hindi": "त्रिभुज ABC में हमें दिया है:\n∠B = 56°\n∠C = 40°"
+            },
+            {
+              "english": "Step 1: Find ∠A.\nSum of angles in a triangle = 180°\nSo, ∠A = 180° - 56° - 40° = 84°",
+              "hindi": "चरण 1: ∠A निकालिए।\nत्रिभुज के तीनों कोणों का योग 180° होता है।\nइसलिए, ∠A = 180° - 56° - 40° = 84°"
+            },
+            {
+              "english": "Step 2: Check the angles.\nAll three angles are less than 90°:\n∠A = 84°\n∠B = 56°\n∠C = 40°",
+              "hindi": "चरण 2: कोणों को देखिए।\nतीनों कोण 90° से छोटे हैं:\n∠A = 84°\n∠B = 56°\n∠C = 40°"
+            },
+            {
+              "english": "A triangle with all angles less than 90° is called an acute-angled triangle.",
+              "hindi": "जिस त्रिभुज के सभी कोण 90° से छोटे हों, उसे acute-angled यानी तीक्ष्ण-कोणीय त्रिभुज कहते हैं।"
+            },
+            {
+              "english": "Final answer: acute-angled",
+              "hindi": "अंतिम उत्तर: acute-angled"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2393,8 +2909,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the type of triangle, we use the fact that the sum of all angles in a triangle is 180°.",
+              "hindi": "त्रिभुज के सभी कोणों का योग 180° होता है।"
+            },
+            {
+              "english": "Here, ∠P = 40° and ∠Q = 40°.\nSo, ∠R = 180° - 40° - 40° = 100°.",
+              "hindi": "यहाँ ∠P = 40° और ∠Q = 40° हैं।\nइसलिए, ∠R = 180° - 40° - 40° = 100°।"
+            },
+            {
+              "english": "Now one angle is 100°, and 100° is greater than 90°.\nA triangle with one angle greater than 90° is called an obtuse-angled triangle.",
+              "hindi": "अब एक कोण 100° है, और 100° , 90° से बड़ा है।\nजिस त्रिभुज का एक कोण 90° से बड़ा हो, उसे obtuse-angled triangle कहते हैं।"
+            },
+            {
+              "english": "Final answer: obtuse-angled",
+              "hindi": "अंतिम उत्तर: obtuse-angled"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2457,8 +2993,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In triangle XYZ, the sum of all angles is 180°.",
+              "hindi": "त्रिभुज XYZ में सभी कोणों का योग 180° होता है।"
+            },
+            {
+              "english": "Given:\n∠X = 45°\n∠Y = 45°",
+              "hindi": "दिया है:\n∠X = 45°\n∠Y = 45°"
+            },
+            {
+              "english": "Step 1: Add the two angles.\n45° + 45° = 90°",
+              "hindi": "Step 1: दोनों कोणों को जोड़ें।\n45° + 45° = 90°"
+            },
+            {
+              "english": "Step 2: Find the third angle.\n∠Z = 180° - 90° = 90°",
+              "hindi": "Step 2: तीसरा कोण निकालें।\n∠Z = 180° - 90° = 90°"
+            },
+            {
+              "english": "Step 3: A triangle with one 90° angle is called a right-angled triangle.",
+              "hindi": "Step 3: जिस त्रिभुज में एक कोण 90° हो, उसे समकोण त्रिभुज कहते हैं।"
+            },
+            {
+              "english": "So, D XYZ is right-angled.",
+              "hindi": "इसलिए D XYZ right-angled है।"
+            },
+            {
+              "english": "Final answer: right-angled",
+              "hindi": "Final answer: right-angled"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2521,8 +3089,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In triangle LMN:\n- ∠L = 46°\n- ∠M = 34°",
+              "hindi": "त्रिभुज LMN में:\n- ∠L = 46°\n- ∠M = 34°"
+            },
+            {
+              "english": "Step 1: Add the two known angles.\n46° + 34° = 80°",
+              "hindi": "चरण 1: दिए गए दोनों कोणों को जोड़िए।\n46° + 34° = 80°"
+            },
+            {
+              "english": "Step 2: Find the third angle.\n180° - 80° = 100°",
+              "hindi": "चरण 2: तीसरा कोण निकालिए।\n180° - 80° = 100°"
+            },
+            {
+              "english": "Step 3: Check the type of triangle.\nOne angle is 100°, and 100° is greater than 90°.\nSo, triangle LMN is an obtuse-angled triangle.",
+              "hindi": "चरण 3: त्रिभुज का प्रकार पहचानिए।\nएक कोण 100° है, और 100° 90° से बड़ा होता है।\nइसलिए, त्रिभुज LMN एक अधिककोण त्रिभुज है।"
+            },
+            {
+              "english": "Final answer: obtuse-angled",
+              "hindi": "Final answer: obtuse-angled"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2585,8 +3177,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A triangle has 3 angles.\nAn acute angle is smaller than 90°.\nA triangle can have all 3 angles acute only when it is an acute triangle.\nSo, the maximum number of acute angles a triangle can have is 3.\nFinal answer: 3.",
+              "hindi": "त्रिभुज के 3 कोण होते हैं।\n90° से छोटा कोण तीक्ष्ण कोण (acute angle) कहलाता है।\nयदि त्रिभुज acute triangle हो, तो उसके तीनों कोण 90° से छोटे होते हैं।\nइसलिए एक त्रिभुज में अधिकतम 3 तीक्ष्ण कोण हो सकते हैं।\nअंतिम उत्तर: 3."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2649,8 +3249,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A triangle has 3 angles, and the sum of its angles is 180°. A right angle is 90°.",
+              "hindi": "एक त्रिभुज में 3 कोण होते हैं, और इन तीनों कोणों का योग 180° होता है। समकोण 90° होता है।"
+            },
+            {
+              "english": "If a triangle has one right angle, the other two angles must together be 90°.\nSo, there is no space for a second right angle, because 90° + 90° = 180°, and that would leave 0° for the third angle.",
+              "hindi": "अगर किसी त्रिभुज में एक समकोण है, तो बाकी दो कोणों का जोड़ 90° होगा।\nइसलिए दूसरा समकोण नहीं हो सकता, क्योंकि 90° + 90° = 180° हो जाएगा और तीसरे कोण के लिए 0° बचेगा।"
+            },
+            {
+              "english": "So, a triangle can have only one right angle.",
+              "hindi": "इसलिए, एक त्रिभुज में केवल 1 समकोण हो सकता है।"
+            },
+            {
+              "english": "Final answer: 1 right angle.",
+              "hindi": "अंतिम उत्तर: 1 समकोण।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2713,8 +3333,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A triangle can have only 1 obtuse angle.",
+              "hindi": "एक त्रिभुज में केवल 1 अधिक कोण (obtuse angle) हो सकता है।"
+            },
+            {
+              "english": "Step 1: An obtuse angle is an angle greater than 90°.\nStep 2: The three angles of a triangle always add up to 180°.\nStep 3: If a triangle had 2 obtuse angles, then their sum would already be more than 180°.\nStep 4: That is impossible in a triangle.",
+              "hindi": "Step 1: अधिक कोण 90° से बड़ा होता है।\nStep 2: किसी भी त्रिभुज के तीनों कोणों का योग हमेशा 180° होता है।\nStep 3: अगर किसी त्रिभुज में 2 अधिक कोण होते, तो उनका योग ही 180° से बड़ा हो जाता।\nStep 4: यह त्रिभुज में संभव नहीं है।"
+            },
+            {
+              "english": "So, a triangle can have at most one obtuse angle.",
+              "hindi": "इसलिए, एक त्रिभुज में अधिकतम एक ही अधिक कोण हो सकता है।"
+            },
+            {
+              "english": "Final answer: 1",
+              "hindi": "Final answer: 1"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2777,8 +3417,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether these can be the three angles of a triangle, we use the rule:",
+              "hindi": "यह जाँचने के लिए कि क्या ये त्रिभुज के तीन कोण हो सकते हैं, हम नियम का उपयोग करते हैं:"
+            },
+            {
+              "english": "The sum of all three angles of a triangle is always 180°.",
+              "hindi": "त्रिभुज के तीनों कोणों का योग हमेशा 180° होता है।"
+            },
+            {
+              "english": "Now add the given angles:\n110° + 25° + 35° = 170°",
+              "hindi": "अब दिए गए कोणों को जोड़ते हैं:\n110° + 25° + 35° = 170°"
+            },
+            {
+              "english": "Since 170° is not equal to 180°, these angles cannot form a triangle.",
+              "hindi": "क्योंकि 170° , 180° के बराबर नहीं है, इसलिए ये कोण त्रिभुज नहीं बना सकते।"
+            },
+            {
+              "english": "Final answer: No.",
+              "hindi": "अंतिम उत्तर: No"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2841,8 +3505,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: In a triangle, the sum of all three angles is always 180°.\nStep 2: Add the given angles: 63° + 37° + 80° = 180°.\nStep 3: Since the total is 180°, these angles can form a triangle.\nFinal answer: Yes.",
+              "hindi": "चरण 1: त्रिभुज के तीनों कोणों का योग हमेशा 180° होता है।\nचरण 2: दिए गए कोण जोड़िए: 63° + 37° + 80° = 180°।\nचरण 3: क्योंकि योग 180° है, इसलिए ये कोण त्रिभुज बना सकते हैं।\nअंतिम उत्तर: Yes."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2905,8 +3577,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: In any triangle, the sum of all three angles is 180°.\nStep 2: Add the given angles: 72° + 32° = 104°.\nStep 3: Now add 76° more: 104° + 76° = 180°.\nStep 4: Since the total is exactly 180°, these angles can form a triangle.\nSo this set of angles is possible.\nFinal answer: Yes.",
+              "hindi": "चरण 1: किसी भी त्रिभुज में तीनों कोणों का योग 180° होता है।\nचरण 2: दिए गए कोण जोड़िए: 72° + 32° = 104°।\nचरण 3: अब 76° और जोड़िए: 104° + 76° = 180°।\nचरण 4: क्योंकि कुल योग बिल्कुल 180° है, इसलिए ये कोण त्रिभुज बना सकते हैं।\nइसलिए यह कोणों का सेट संभव है।\nअंतिम उत्तर: Yes."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2969,8 +3649,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether three angles can belong to a triangle, add them.",
+              "hindi": "यह जाँचने के लिए कि क्या तीन कोण त्रिभुज के हो सकते हैं, उन्हें जोड़ते हैं।"
+            },
+            {
+              "english": "70° + 70° + 50° = 190°",
+              "hindi": "70° + 70° + 50° = 190°"
+            },
+            {
+              "english": "The sum of the three angles of a triangle must be 180°.",
+              "hindi": "त्रिभुज के तीनों कोणों का योग 180° होना चाहिए।"
+            },
+            {
+              "english": "Here, the sum is 190°, not 180°.\nSo these angles cannot be the measures of all the three angles of a triangle.",
+              "hindi": "यहाँ योग 190° है, 180° नहीं।\nइसलिए ये कोण त्रिभुज के तीनों कोणों की माप नहीं हो सकते।"
+            },
+            {
+              "english": "Final answer: No.",
+              "hindi": "अंतिम उत्तर: No."
+            }
+          ]
         }
       ],
       "tags": [

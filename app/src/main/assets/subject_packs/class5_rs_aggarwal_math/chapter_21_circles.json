@@ -348,8 +348,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A circle has many points on its boundary. If A and B are two points on the circle, and we join them with a straight line segment, that line segment is called a chord of the circle. So, the line segment AB is called a chord of the circle. Final answer: chord.",
+              "hindi": "वृत्त की परिधि पर A और B दो बिंदु हैं। जब इन दोनों बिंदुओं को एक सीधी रेखा से जोड़ा जाता है, तो जो रेखाखंड बनता है उसे जीवा कहते हैं। इसलिए, AB रेखाखंड वृत्त की जीवा कहलाता है। अंतिम उत्तर: chord (जीवा)।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -412,8 +420,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A line segment that passes through the centre of a circle and has both end points on the circle is called a diameter.\nStep 1: It starts at one point on the circle.\nStep 2: It goes through the centre of the circle.\nStep 3: It ends at another point on the circle.\nSo the blank is diameter.\nFinal answer: diameter",
+              "hindi": "जो रेखाखंड वृत्त के केंद्र से होकर गुजरता है और जिसके दोनों सिरे वृत्त पर होते हैं, उसे व्यास कहते हैं।\nचरण 1: यह वृत्त के एक बिंदु से शुरू होता है।\nचरण 2: यह केंद्र से होकर गुजरता है।\nचरण 3: यह वृत्त के दूसरे बिंदु पर समाप्त होता है।\nइसलिए रिक्त स्थान में व्यास आएगा।\nअंतिम उत्तर: व्यास।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -476,8 +492,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A chord is a line segment that joins two points on a circle.\nA diameter is also a chord, but it passes through the center of the circle.\nAmong all chords of a circle, the diameter is the longest one.\nSo the blank is: longest.\nFinal answer: longest",
+              "hindi": "Chord वह रेखाखंड होता है जो वृत्त के दो बिंदुओं को जोड़ता है।\nDiameter भी एक chord है, लेकिन यह वृत्त के केंद्र से होकर गुजरता है।\nवृत्त के सभी chords में diameter सबसे लंबा होता है।\nइसलिए खाली स्थान में 'longest' आएगा।\nअंतिम उत्तर: longest"
+            }
+          ]
         }
       ],
       "tags": [
@@ -541,8 +565,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the diameter of a circle, use the formula:\nDiameter = 2 × radius",
+              "hindi": "वृत्त का व्यास निकालने का सूत्र है:\nव्यास = 2 × त्रिज्या"
+            },
+            {
+              "english": "Here, the radius is 4 cm.\nSo, Diameter = 2 × 4 = 8 cm",
+              "hindi": "यहाँ त्रिज्या 4 सेमी है।\nइसलिए, व्यास = 2 × 4 = 8 सेमी"
+            },
+            {
+              "english": "Final answer: 8 cm",
+              "hindi": "अंतिम उत्तर: 8 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -606,8 +646,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the diameter of a circle, use the formula:\nDiameter = 2 × Radius",
+              "hindi": "वृत्त का व्यास निकालने के लिए सूत्र है:\nव्यास = 2 × त्रिज्या"
+            },
+            {
+              "english": "Here, the radius is 3.8 cm.\nSo,\nDiameter = 2 × 3.8 = 7.6 cm",
+              "hindi": "यहाँ त्रिज्या 3.8 सेमी है।\nइसलिए,\nव्यास = 2 × 3.8 = 7.6 सेमी"
+            },
+            {
+              "english": "Final answer: 7.6 cm",
+              "hindi": "अंतिम उत्तर: 7.6 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -671,8 +727,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the diameter of a circle, we use the formula:",
+              "hindi": "वृत्त का व्यास निकालने के लिए हम यह सूत्र उपयोग करते हैं:"
+            },
+            {
+              "english": "Diameter = 2 × Radius",
+              "hindi": "व्यास = 2 × त्रिज्या"
+            },
+            {
+              "english": "Here, the radius is 5.4 cm.",
+              "hindi": "यहाँ त्रिज्या 5.4 cm है।"
+            },
+            {
+              "english": "So,\nDiameter = 2 × 5.4\nDiameter = 10.8 cm",
+              "hindi": "अब,\nव्यास = 2 × 5.4\nव्यास = 10.8 cm"
+            },
+            {
+              "english": "Final answer: 10.8 cm",
+              "hindi": "अंतिम उत्तर: 10.8 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -736,8 +816,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the diameter of a circle, we use the formula:",
+              "hindi": "वृत्त का व्यास निकालने के लिए हम यह सूत्र उपयोग करते हैं:"
+            },
+            {
+              "english": "Diameter = 2 × Radius",
+              "hindi": "व्यास = 2 × त्रिज्या"
+            },
+            {
+              "english": "Given radius = 6.1 cm",
+              "hindi": "दी गई त्रिज्या = 6.1 सेमी"
+            },
+            {
+              "english": "So,\nDiameter = 2 × 6.1 = 12.2 cm",
+              "hindi": "अब,\nव्यास = 2 × 6.1 = 12.2 सेमी"
+            },
+            {
+              "english": "The diameter of the circle is 12.2 cm.",
+              "hindi": "अतः वृत्त का व्यास 12.2 सेमी है।"
+            },
+            {
+              "english": "Final answer: 12.2 cm",
+              "hindi": "अंतिम उत्तर: 12.2 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -801,8 +909,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know that the diameter of a circle is twice the radius.",
+              "hindi": "हम जानते हैं कि किसी वृत्त का व्यास उसके त्रिज्या का 2 गुना होता है।"
+            },
+            {
+              "english": "Given diameter = 9 cm",
+              "hindi": "दिया है: व्यास = 9 सेमी"
+            },
+            {
+              "english": "To find the radius, divide the diameter by 2:\nRadius = 9 ÷ 2 = 4.5 cm",
+              "hindi": "त्रिज्या निकालने के लिए व्यास को 2 से भाग देते हैं:\nत्रिज्या = 9 ÷ 2 = 4.5 सेमी"
+            },
+            {
+              "english": "So, the radius of the circle is 4.5 cm.",
+              "hindi": "इसलिए, वृत्त की त्रिज्या 4.5 सेमी है।"
+            },
+            {
+              "english": "Final answer: 4.5 cm",
+              "hindi": "अंतिम उत्तर: 4.5 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -866,8 +998,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the radius, remember this rule:\nRadius = Diameter ÷ 2",
+              "hindi": "त्रिज्या निकालने का नियम है:\nत्रिज्या = व्यास ÷ 2"
+            },
+            {
+              "english": "Here, the diameter is 7.8 cm.\nSo,\nRadius = 7.8 ÷ 2 = 3.9 cm",
+              "hindi": "यहाँ व्यास 7.8 cm है।\nतो,\nत्रिज्या = 7.8 ÷ 2 = 3.9 cm"
+            },
+            {
+              "english": "So, the radius of the circle is 3.9 cm.",
+              "hindi": "इसलिए, वृत्त की त्रिज्या 3.9 cm है।"
+            },
+            {
+              "english": "Final answer: 3.9 cm",
+              "hindi": "अंतिम उत्तर: 3.9 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -931,8 +1083,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the radius, we use the relation:",
+              "hindi": "त्रिज्या निकालने के लिए हम यह सूत्र उपयोग करते हैं:"
+            },
+            {
+              "english": "Radius = Diameter ÷ 2",
+              "hindi": "त्रिज्या = व्यास ÷ 2"
+            },
+            {
+              "english": "Here, the diameter is 9.2 cm.",
+              "hindi": "यहाँ व्यास 9.2 सेमी है।"
+            },
+            {
+              "english": "So,\nRadius = 9.2 ÷ 2 = 4.6 cm",
+              "hindi": "अब,\nत्रिज्या = 9.2 ÷ 2 = 4.6 सेमी"
+            },
+            {
+              "english": "The radius of the circle is 4.6 cm.",
+              "hindi": "वृत्त की त्रिज्या 4.6 सेमी है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -996,8 +1172,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the radius of a circle, use the formula:\nRadius = Diameter ÷ 2",
+              "hindi": "वृत्त की त्रिज्या निकालने के लिए सूत्र है:\nत्रिज्या = व्यास ÷ 2"
+            },
+            {
+              "english": "Here, the diameter is 7 cm.\nSo,\nRadius = 7 ÷ 2 = 3.5 cm",
+              "hindi": "यहाँ व्यास 7 cm है।\nइसलिए,\nत्रिज्या = 7 ÷ 2 = 3.5 cm"
+            },
+            {
+              "english": "Final answer: 3.5 cm",
+              "hindi": "अंतिम उत्तर: 3.5 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1061,8 +1253,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We use the formula for the circumference of a circle:\nCircumference = 2 × π × radius",
+              "hindi": "वृत्त की परिधि का सूत्र है:\nपरिधि = 2 × π × त्रिज्या"
+            },
+            {
+              "english": "Here, the radius = 7 cm.",
+              "hindi": "यहाँ त्रिज्या = 7 सेमी है।"
+            },
+            {
+              "english": "Now substitute the value:\nCircumference = 2 × 22/7 × 7",
+              "hindi": "अब मान रखिए:\nपरिधि = 2 × 22/7 × 7"
+            },
+            {
+              "english": "First, 7 cancels out:\nCircumference = 2 × 22\nCircumference = 44 cm",
+              "hindi": "पहले 7 कट जाएगा:\nपरिधि = 2 × 22\nपरिधि = 44 सेमी"
+            },
+            {
+              "english": "Final answer: 44 cm.",
+              "hindi": "अंतिम उत्तर: 44 सेमी।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1126,8 +1342,48 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the circumference of a circle, we use the formula:",
+              "hindi": "वृत्त की परिधि निकालने का सूत्र है:"
+            },
+            {
+              "english": "Circumference = 2πr",
+              "hindi": "परिधि = 2πr"
+            },
+            {
+              "english": "Here, the radius r = 6.3 cm.",
+              "hindi": "यहाँ, त्रिज्या r = 6.3 cm है।"
+            },
+            {
+              "english": "Now substitute the value:\nCircumference = 2 × π × 6.3",
+              "hindi": "अब मान रखिए:\nपरिधि = 2 × π × 6.3"
+            },
+            {
+              "english": "Using π = 22/7:\nCircumference = 2 × 22/7 × 6.3",
+              "hindi": "π = 22/7 लेने पर:\nपरिधि = 2 × 22/7 × 6.3"
+            },
+            {
+              "english": "First, multiply 2 × 22 = 44\nSo,\nCircumference = 44/7 × 6.3",
+              "hindi": "पहले 2 × 22 = 44\nतो,\nपरिधि = 44/7 × 6.3"
+            },
+            {
+              "english": "Now 6.3 ÷ 7 = 0.9\nSo,\nCircumference = 44 × 0.9 = 39.6",
+              "hindi": "अब 6.3 ÷ 7 = 0.9\nइसलिए,\nपरिधि = 44 × 0.9 = 39.6"
+            },
+            {
+              "english": "Therefore, the circumference of the circle is 39.6 cm.",
+              "hindi": "अतः वृत्त की परिधि 39.6 cm है।"
+            },
+            {
+              "english": "Final answer: 39.6 cm",
+              "hindi": "अंतिम उत्तर: 39.6 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1191,8 +1447,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We use the formula for the circumference of a circle:",
+              "hindi": "वृत्त की परिधि निकालने का सूत्र है:"
+            },
+            {
+              "english": "Circumference = 2πr",
+              "hindi": "परिधि = 2πr"
+            },
+            {
+              "english": "Here, the radius r = 5.6 cm.\nUsing π = 22/7:",
+              "hindi": "यहाँ त्रिज्या r = 5.6 सेमी है।\nπ का मान 22/7 लेते हैं:"
+            },
+            {
+              "english": "Circumference = 2 × 22/7 × 5.6\n= 44/7 × 5.6\n= 44 × 0.8\n= 35.2 cm",
+              "hindi": "परिधि = 2 × 22/7 × 5.6\n= 44/7 × 5.6\n= 44 × 0.8\n= 35.2 सेमी"
+            },
+            {
+              "english": "So, the circumference of the circle is 35.2 cm.",
+              "hindi": "अतः वृत्त की परिधि 35.2 सेमी है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1256,8 +1536,52 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We use the formula for the circumference of a circle:",
+              "hindi": "वृत्त की परिधि निकालने का सूत्र है:"
+            },
+            {
+              "english": "Circumference = 2 × π × r",
+              "hindi": "परिधि = 2 × π × r"
+            },
+            {
+              "english": "Here,\n- radius, r = 4.2 cm\n- π = 22/7",
+              "hindi": "यहाँ,\n- त्रिज्या, r = 4.2 cm\n- π = 22/7"
+            },
+            {
+              "english": "Now substitute the values:",
+              "hindi": "अब मान रखते हैं:"
+            },
+            {
+              "english": "Circumference = 2 × 22/7 × 4.2",
+              "hindi": "परिधि = 2 × 22/7 × 4.2"
+            },
+            {
+              "english": "First, write 4.2 as a fraction:\n4.2 = 21/5",
+              "hindi": "4.2 को भिन्न में लिखें:\n4.2 = 21/5"
+            },
+            {
+              "english": "So,\nCircumference = 2 × 22/7 × 21/5",
+              "hindi": "तो,\nपरिधि = 2 × 22/7 × 21/5"
+            },
+            {
+              "english": "Simplify:\n22 × 21 = 462\n7 × 5 = 35",
+              "hindi": "अब सरल करें:\n22 × 21 = 462\n7 × 5 = 35"
+            },
+            {
+              "english": "Circumference = 2 × 462/35\n= 924/35\n= 26.4 cm",
+              "hindi": "परिधि = 2 × 462/35\n= 924/35\n= 26.4 cm"
+            },
+            {
+              "english": "Final answer: 26.4 cm",
+              "hindi": "अंतिम उत्तर: 26.4 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1321,8 +1645,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A circle’s circumference means the distance around the circle.",
+              "hindi": "वृत्त की परिधि का मतलब होता है वृत्त के चारों ओर की दूरी।"
+            },
+            {
+              "english": "Use the formula:\nC = 2πr",
+              "hindi": "सूत्र है:\nC = 2πr"
+            },
+            {
+              "english": "Here, the radius r = 6 cm.\nTake π = 3.14.",
+              "hindi": "यहाँ, त्रिज्या r = 6 सेमी है।\nπ का मान 3.14 लेते हैं।"
+            },
+            {
+              "english": "Now substitute the values:\nC = 2 × 3.14 × 6\nC = 37.68 cm",
+              "hindi": "अब मान रखें:\nC = 2 × 3.14 × 6\nC = 37.68 सेमी"
+            },
+            {
+              "english": "So, the circumference of the circle is 37.68 cm.",
+              "hindi": "इसलिए, वृत्त की परिधि 37.68 सेमी है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1386,8 +1734,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: The radius of the circle is 8 cm.\nStep 2: Use the formula for circumference:\nCircumference = 2 × π × r\nStep 3: Substitute r = 8 cm and π = 3.14:\nCircumference = 2 × 3.14 × 8\nStep 4: Multiply:\n2 × 3.14 × 8 = 50.24\nSo, the circumference of the circle is 50.24 cm.\nFinal answer: 50.24 cm",
+              "hindi": "चरण 1: वृत्त की त्रिज्या 8 सेमी है।\nचरण 2: परिधि का सूत्र है:\nपरिधि = 2 × π × r\nचरण 3: r = 8 सेमी और π = 3.14 रखें:\nपरिधि = 2 × 3.14 × 8\nचरण 4: गुणा करें:\n2 × 3.14 × 8 = 50.24\nइसलिए, वृत्त की परिधि 50.24 सेमी है।\nअंतिम उत्तर: 50.24 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1451,8 +1807,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the circumference of a circle, we use the formula:\nCircumference = 2 × π × r",
+              "hindi": "वृत्त की परिधि निकालने का सूत्र है:\nपरिधि = 2 × π × त्रिज्या"
+            },
+            {
+              "english": "Here, radius r = 4.5 cm.",
+              "hindi": "यहाँ त्रिज्या = 4.5 cm है।"
+            },
+            {
+              "english": "Now substitute the value:\nCircumference = 2 × 3.14 × 4.5",
+              "hindi": "अब मान रखिए:\nपरिधि = 2 × 3.14 × 4.5"
+            },
+            {
+              "english": "First multiply:\n2 × 3.14 = 6.28",
+              "hindi": "पहले गुणा करें:\n2 × 3.14 = 6.28"
+            },
+            {
+              "english": "Now multiply:\n6.28 × 4.5 = 28.26",
+              "hindi": "अब फिर गुणा करें:\n6.28 × 4.5 = 28.26"
+            },
+            {
+              "english": "So, the circumference of the circle is 28.26 cm.",
+              "hindi": "इसलिए वृत्त की परिधि 28.26 cm है।"
+            },
+            {
+              "english": "Final Answer: 28.26 cm",
+              "hindi": "अंतिम उत्तर: 28.26 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1516,8 +1904,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the circumference of a circle, we use the formula:\nC = 2\\u03c0r",
+              "hindi": "वृत्त की परिधि निकालने के लिए हम सूत्र का उपयोग करते हैं:\nC = 2\\u03c0r"
+            },
+            {
+              "english": "Here, the radius r = 6.5 cm and \\u03c0 = 3.14.",
+              "hindi": "यहाँ, त्रिज्या r = 6.5 सेमी है और \\u03c0 = 3.14 है।"
+            },
+            {
+              "english": "Now substitute the values:\nC = 2 \\u00d7 3.14 \\u00d7 6.5\nC = 6.28 \\u00d7 6.5\nC = 40.82 cm",
+              "hindi": "अब मान रखिए:\nC = 2 \\u00d7 3.14 \\u00d7 6.5\nC = 6.28 \\u00d7 6.5\nC = 40.82 सेमी"
+            },
+            {
+              "english": "So, the circumference of the circle is 40.82 cm.",
+              "hindi": "इसलिए, वृत्त की परिधि 40.82 सेमी है।"
+            },
+            {
+              "english": "Final Answer: 40.82 cm",
+              "hindi": "अंतिम उत्तर: 40.82 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1581,8 +1993,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know the formula for the circumference of a circle:\nC = 2πr",
+              "hindi": "वृत्त की परिधि का सूत्र है:\nC = 2πr"
+            },
+            {
+              "english": "Here, the circumference is 22 cm.\nSo,\n22 = 2 × π × r",
+              "hindi": "यहाँ परिधि 22 cm है।\nतो,\n22 = 2 × π × r"
+            },
+            {
+              "english": "Using π = 22/7:\n22 = 2 × 22/7 × r\n22 = 44r/7",
+              "hindi": "π = 22/7 रखने पर:\n22 = 2 × 22/7 × r\n22 = 44r/7"
+            },
+            {
+              "english": "Multiply both sides by 7:\n154 = 44r",
+              "hindi": "अब दोनों तरफ 7 से गुणा करें:\n154 = 44r"
+            },
+            {
+              "english": "Now divide both sides by 44:\nr = 154/44 = 3.5 cm",
+              "hindi": "अब दोनों तरफ 44 से भाग दें:\nr = 154/44 = 3.5 cm"
+            },
+            {
+              "english": "Final answer: 3.5 cm",
+              "hindi": "अंतिम उत्तर: 3.5 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1646,8 +2086,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the radius, we use the formula for the circumference of a circle:\nC = 2πr",
+              "hindi": "वृत्त की परिधि का सूत्र होता है:\nC = 2πr"
+            },
+            {
+              "english": "Here, the circumference is 17.6 cm.\nSo,\n17.6 = 2 × π × r",
+              "hindi": "यहाँ परिधि 17.6 cm है।\nइसलिए,\n17.6 = 2 × π × r"
+            },
+            {
+              "english": "Using π = 22/7:\n17.6 = 2 × 22/7 × r",
+              "hindi": "π = 22/7 रखने पर:\n17.6 = 2 × 22/7 × r"
+            },
+            {
+              "english": "Now solve for r:\nr = 17.6 × 7 / 44\nr = 2.8 cm",
+              "hindi": "अब r निकालते हैं:\nr = 17.6 × 7 / 44\nr = 2.8 cm"
+            },
+            {
+              "english": "Final answer: 2.8 cm",
+              "hindi": "अंतिम उत्तर: 2.8 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1711,8 +2175,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know the formula for the circumference of a circle:\nC = 2πr",
+              "hindi": "हमें वृत्त की परिधि का सूत्र पता है:\nC = 2πr"
+            },
+            {
+              "english": "Given:\nC = 30.8 cm",
+              "hindi": "दिया है:\nC = 30.8 cm"
+            },
+            {
+              "english": "So, the radius is:\nr = C / (2π)",
+              "hindi": "अब त्रिज्या निकालते हैं:\nr = C / (2π)"
+            },
+            {
+              "english": "Using π = 22/7:\nr = 30.8 / (2 × 22/7)\nr = 30.8 / (44/7)\nr = 30.8 × 7 / 44\nr = 215.6 / 44\nr = 4.9 cm",
+              "hindi": "π = 22/7 रखने पर:\nr = 30.8 / (2 × 22/7)\nr = 30.8 / (44/7)\nr = 30.8 × 7 / 44\nr = 215.6 / 44\nr = 4.9 cm"
+            },
+            {
+              "english": "So, the radius of the circle is 4.9 cm.\nFinal answer: 4.9 cm",
+              "hindi": "इसलिए वृत्त की त्रिज्या 4.9 cm है।\nअंतिम उत्तर: 4.9 cm"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1776,8 +2264,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We use the formula for the circumference of a circle:",
+              "hindi": "वृत्त की परिधि का सूत्र है:"
+            },
+            {
+              "english": "C = 2πr",
+              "hindi": "C = 2πr"
+            },
+            {
+              "english": "Given:\nC = 79.2 cm\nπ = 22/7",
+              "hindi": "दिया है:\nC = 79.2 सेमी\nπ = 22/7"
+            },
+            {
+              "english": "Now substitute the values:\n79.2 = 2 × 22/7 × r\n79.2 = 44/7 × r",
+              "hindi": "अब मान रखिए:\n79.2 = 2 × 22/7 × r\n79.2 = 44/7 × r"
+            },
+            {
+              "english": "To find r, divide both sides by 44/7:\nr = 79.2 × 7 / 44\nr = 554.4 / 44\nr = 12.6",
+              "hindi": "अब r निकालने के लिए दोनों तरफ 44/7 से भाग दीजिए:\nr = 79.2 × 7 / 44\nr = 554.4 / 44\nr = 12.6"
+            },
+            {
+              "english": "So, the radius of the circle is 12.6 cm.",
+              "hindi": "इसलिए, वृत्त की त्रिज्या 12.6 सेमी है।"
+            },
+            {
+              "english": "Final answer: 12.6 cm",
+              "hindi": "अंतिम उत्तर: 12.6 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1841,8 +2361,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the diameter of a circle, use the formula:",
+              "hindi": "वृत्त का व्यास निकालने के लिए सूत्र है:"
+            },
+            {
+              "english": "Circumference = π × diameter",
+              "hindi": "परिधि = π × व्यास"
+            },
+            {
+              "english": "Given:\nCircumference = 66 cm",
+              "hindi": "दिया है:\nपरिधि = 66 सेमी"
+            },
+            {
+              "english": "So,\n66 = (22/7) × diameter",
+              "hindi": "अब,\n66 = (22/7) × व्यास"
+            },
+            {
+              "english": "Now solve for diameter:\ndiameter = 66 × 7 ÷ 22\n= 21 cm",
+              "hindi": "व्यास निकालें:\nव्यास = 66 × 7 ÷ 22\n= 21 सेमी"
+            },
+            {
+              "english": "Final answer: 21 cm",
+              "hindi": "अंतिम उत्तर: 21 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1906,8 +2454,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the diameter of a circle, we use the formula:",
+              "hindi": "वृत्त का व्यास निकालने के लिए हम यह सूत्र उपयोग करते हैं:"
+            },
+            {
+              "english": "Circumference = π × diameter",
+              "hindi": "परिधि = π × व्यास"
+            },
+            {
+              "english": "Given circumference = 35.2 cm\nTake π = 22/7",
+              "hindi": "दिया है, परिधि = 35.2 cm\nऔर π = 22/7 लेते हैं"
+            },
+            {
+              "english": "So,\ndiameter = circumference ÷ π\n= 35.2 ÷ (22/7)\n= 35.2 × 7 ÷ 22\n= 11.2 cm",
+              "hindi": "तो,\nव्यास = परिधि ÷ π\n= 35.2 ÷ (22/7)\n= 35.2 × 7 ÷ 22\n= 11.2 cm"
+            },
+            {
+              "english": "So, the diameter of the circle is 11.2 cm.",
+              "hindi": "अतः वृत्त का व्यास 11.2 cm है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1971,8 +2543,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We use the formula:\nCircumference = π × diameter",
+              "hindi": "हम सूत्र का उपयोग करते हैं:\nपरिधि = π × व्यास"
+            },
+            {
+              "english": "We are given the circumference = 30.8 cm.\nSo,\ndiameter = circumference ÷ π",
+              "hindi": "यहाँ परिधि = 30.8 सेमी दी गई है।\nइसलिए,\nव्यास = परिधि ÷ π"
+            },
+            {
+              "english": "Using π = 22/7:\ndiameter = 30.8 ÷ (22/7)\ndiameter = 30.8 × 7 ÷ 22\ndiameter = 215.6 ÷ 22\ndiameter = 9.8 cm",
+              "hindi": "π = 22/7 लेने पर:\nव्यास = 30.8 ÷ (22/7)\nव्यास = 30.8 × 7 ÷ 22\nव्यास = 215.6 ÷ 22\nव्यास = 9.8 सेमी"
+            },
+            {
+              "english": "So, the diameter of the circle is 9.8 cm.",
+              "hindi": "अतः वृत्त का व्यास 9.8 सेमी है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2036,8 +2628,48 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We are given the circumference of the circle:\nC = 35 cm",
+              "hindi": "हमें वृत्त की परिधि दी गई है:\nC = 35 सेमी"
+            },
+            {
+              "english": "We use the formula:\nC = πd",
+              "hindi": "हम सूत्र का उपयोग करते हैं:\nC = πd"
+            },
+            {
+              "english": "So, the diameter is:\nd = C ÷ π",
+              "hindi": "इसलिए, व्यास होगा:\nd = C ÷ π"
+            },
+            {
+              "english": "Now put the values:\nd = 35 ÷ (22/7)",
+              "hindi": "अब मान रखिए:\nd = 35 ÷ (22/7)"
+            },
+            {
+              "english": "d = 35 × 7/22",
+              "hindi": "d = 35 × 7/22"
+            },
+            {
+              "english": "d = 245/22",
+              "hindi": "d = 245/22"
+            },
+            {
+              "english": "d = 11.13636...",
+              "hindi": "d = 11.13636..."
+            },
+            {
+              "english": "Rounding to 2 decimal places:\nd = 11.13 cm",
+              "hindi": "2 दशमलव स्थान तक गोल करने पर:\nd = 11.13 सेमी"
+            },
+            {
+              "english": "Final answer: 11.13 cm",
+              "hindi": "अंतिम उत्तर: 11.13 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2104,8 +2736,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Steps:\n1. Draw a circle with centre O and radius 3.8 cm using a compass.\n2. Mark any point A on the circle.\n3. Open the compass to 4.2 cm.\n4. With A as the centre, draw an arc to cut the circle at B.\n5. Join A and B.\n6. AB is the required chord of length 4.2 cm.\nFinal answer: done",
+              "hindi": "चरण:\n1. कम्पास की सहायता से केंद्र O और त्रिज्या 3.8 सेमी वाला एक वृत्त बनाइए.\n2. वृत्त पर कोई भी बिंदु A चिन्हित कीजिए.\n3. कम्पास को 4.2 सेमी पर खोलिए.\n4. A को केंद्र मानकर एक चाप खींचिए, जो वृत्त को B पर काटे.\n5. A और B को मिलाइए.\n6. AB 4.2 सेमी लंबी आवश्यक जीवा है.\nअंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2172,8 +2812,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Mark a point O as the center.\nStep 2: Using a compass, draw the first circle with radius 4.5 cm.\nStep 3: Keep the same center O and draw the second circle with radius 5.2 cm.\nStep 4: The space between the two circles is called a ring or annulus.\nStep 5: Shade only this ring formed between the two circles.\nThe work is complete.\nFinal answer: done",
+              "hindi": "चरण 1: एक बिंदु O को केंद्र के रूप में चिन्हित करें।\nचरण 2: कंपास की मदद से 4.5 सेमी त्रिज्या वाला पहला वृत्त बनाइए।\nचरण 3: उसी केंद्र O को रखते हुए 5.2 सेमी त्रिज्या वाला दूसरा वृत्त बनाइए।\nचरण 4: दोनों वृत्तों के बीच का भाग वलय (ring) कहलाता है।\nचरण 5: केवल इसी बीच वाले भाग को छायांकित कीजिए।\nकाम पूरा हो गया।\nअंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2236,8 +2884,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1. The radius of the circle is 5.5 cm.\n2. The distance OA is 6.3 cm.\n3. Compare them: 6.3 cm > 5.5 cm.\n4. If the distance of a point from the centre is greater than the radius, the point lies outside the circle.",
+              "hindi": "1. वृत्त की त्रिज्या 5.5 सेमी है।\n2. OA की दूरी 6.3 सेमी है।\n3. दोनों की तुलना करें: 6.3 सेमी > 5.5 सेमी।\n4. यदि किसी बिंदु की केंद्र से दूरी त्रिज्या से अधिक हो, तो वह बिंदु वृत्त के बाहर होता है।"
+            },
+            {
+              "english": "So, point A is in the exterior of the circle.",
+              "hindi": "इसलिए बिंदु A वृत्त के बाह्य भाग में है।"
+            },
+            {
+              "english": "Final answer: Exterior of the circle.",
+              "hindi": "अंतिम उत्तर: वृत्त के बाहर (Exterior of the circle)।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2300,8 +2964,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We compare the distance from the centre O to point B with the radius of the circle.",
+              "hindi": "हमें केंद्र O से बिंदु B की दूरी को वृत्त की त्रिज्या से तुलना करनी है।"
+            },
+            {
+              "english": "1. Radius of the circle = 5.5 cm\n2. OB = 4.8 cm\n3. Since 4.8 cm < 5.5 cm, point B lies inside the circle.\n4. A point inside a circle is called a point in the interior of the circle.",
+              "hindi": "1. वृत्त की त्रिज्या = 5.5 सेमी\n2. OB = 4.8 सेमी\n3. क्योंकि 4.8 सेमी < 5.5 सेमी, इसलिए बिंदु B वृत्त के अंदर है।\n4. जो बिंदु वृत्त के अंदर होता है, उसे वृत्त का आंतरिक बिंदु (interior of the circle) कहते हैं।"
+            },
+            {
+              "english": "Final answer: B is in the interior of the circle.",
+              "hindi": "अंतिम उत्तर: B वृत्त के interior of the circle में है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2364,8 +3044,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "For part (c), we compare the distance of point C from the center O with the radius of the circle.",
+              "hindi": "भाग (c) के लिए, हम बिंदु C की केंद्र O से दूरी की तुलना वृत्त की त्रिज्या से करेंगे।"
+            },
+            {
+              "english": "- Radius of the circle = 5.5 cm\n- OC = 7 cm\n- Since 7 cm > 5.5 cm, point C is farther from the center than the radius.",
+              "hindi": "- वृत्त की त्रिज्या = 5.5 सेमी\n- OC = 7 सेमी\n- क्योंकि 7 सेमी > 5.5 सेमी, इसलिए बिंदु C केंद्र से त्रिज्या से अधिक दूर है।"
+            },
+            {
+              "english": "So, point C lies outside the circle.",
+              "hindi": "इसलिए बिंदु C वृत्त के बाहर है।"
+            },
+            {
+              "english": "Final answer: C is in the exterior of the circle.",
+              "hindi": "अंतिम उत्तर: C वृत्त के exterior में है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2428,8 +3128,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Given: A circle has centre O and radius 5.5 cm.",
+              "hindi": "दिया है: एक वृत्त का केंद्र O है और त्रिज्या 5.5 सेमी है।"
+            },
+            {
+              "english": "For point D, we are told that OD = 5.5 cm.",
+              "hindi": "बिंदु D के लिए, दिया है कि OD = 5.5 सेमी।"
+            },
+            {
+              "english": "Step 1: Compare OD with the radius of the circle.\n- Radius of the circle = 5.5 cm\n- OD = 5.5 cm",
+              "hindi": "चरण 1: OD की तुलना त्रिज्या से करें।\n- वृत्त की त्रिज्या = 5.5 सेमी\n- OD = 5.5 सेमी"
+            },
+            {
+              "english": "Step 2: Use the circle rule.\n- If the distance from the centre to a point is equal to the radius, the point lies on the circle.",
+              "hindi": "चरण 2: वृत्त का नियम याद करें।\n- यदि केंद्र से किसी बिंदु की दूरी त्रिज्या के बराबर हो, तो वह बिंदु वृत्त पर होता है।"
+            },
+            {
+              "english": "Step 3: Apply the rule.\n- Since OD is equal to the radius, point D lies on the circle.",
+              "hindi": "चरण 3: नियम लागू करें।\n- क्योंकि OD त्रिज्या के बराबर है, इसलिए बिंदु D वृत्त पर है।"
+            },
+            {
+              "english": "Final answer: D is on the circle.",
+              "hindi": "अंतिम उत्तर: D वृत्त पर है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2492,8 +3220,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Part (e): OE = 5 cm",
+              "hindi": "भाग (e): OE = 5 सेमी"
+            },
+            {
+              "english": "The circle has centre O and radius 5.5 cm.\nTo know the position of point E, compare OE with the radius of the circle.",
+              "hindi": "वृत्त का केंद्र O है और त्रिज्या 5.5 सेमी है।\nबिंदु E की स्थिति जानने के लिए OE की तुलना वृत्त की त्रिज्या से करते हैं।"
+            },
+            {
+              "english": "Here, OE = 5 cm and radius = 5.5 cm.\nSince 5 cm is less than 5.5 cm, point E lies inside the circle.\nSo, E is in the interior of the circle.",
+              "hindi": "यहाँ, OE = 5 सेमी और त्रिज्या = 5.5 सेमी है।\nक्योंकि 5 सेमी, 5.5 सेमी से छोटा है, इसलिए बिंदु E वृत्त के अंदर स्थित है।\nइसलिए E वृत्त के interior में है।"
+            },
+            {
+              "english": "Final answer: interior of the circle.",
+              "hindi": "अंतिम उत्तर: वृत्त के अंदर (interior of the circle)।"
+            }
+          ]
         }
       ],
       "tags": [

@@ -247,8 +247,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the average, add all the numbers and divide by how many numbers there are.",
+              "hindi": "औसत निकालने के लिए सभी संख्याओं को जोड़ते हैं और फिर कुल संख्याओं की संख्या से भाग देते हैं।"
+            },
+            {
+              "english": "Step 1: Add the numbers.\n9 + 11 + 13 + 15 + 17 = 65",
+              "hindi": "चरण 1: संख्याओं को जोड़िए।\n9 + 11 + 13 + 15 + 17 = 65"
+            },
+            {
+              "english": "Step 2: Count the numbers.\nThere are 5 numbers.",
+              "hindi": "चरण 2: संख्याओं की गिनती कीजिए।\nयहाँ 5 संख्याएँ हैं।"
+            },
+            {
+              "english": "Step 3: Divide the sum by the number of values.\n65 ÷ 5 = 13",
+              "hindi": "चरण 3: योग को संख्याओं की संख्या से भाग दीजिए।\n65 ÷ 5 = 13"
+            },
+            {
+              "english": "So, the average is 13.",
+              "hindi": "इसलिए, औसत 13 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -311,8 +335,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the average, add all the numbers first and then divide by how many numbers there are.",
+              "hindi": "औसत निकालने के लिए पहले सभी संख्याओं को जोड़ते हैं, फिर कुल संख्याओं की संख्या से भाग देते हैं।"
+            },
+            {
+              "english": "Step 1: Add the numbers\n9.3 + 6.7 = 16.0\n16.0 + 7.4 = 23.4\n23.4 + 8.2 = 31.6",
+              "hindi": "चरण 1: संख्याएँ जोड़ें\n9.3 + 6.7 = 16.0\n16.0 + 7.4 = 23.4\n23.4 + 8.2 = 31.6"
+            },
+            {
+              "english": "Step 2: Divide by 4\n31.6 ÷ 4 = 7.9",
+              "hindi": "चरण 2: 4 से भाग दें\n31.6 ÷ 4 = 7.9"
+            },
+            {
+              "english": "So, the average is 7.9.",
+              "hindi": "इसलिए, औसत 7.9 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -375,8 +419,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Average means: (sum of all numbers) ÷ (number of numbers).",
+              "hindi": "औसत = (सभी संख्याओं का योग) ÷ (संख्याओं की कुल संख्या)."
+            },
+            {
+              "english": "Here the numbers are 6 2/5, 5 3/10, 4 1/5, and 7 7/10.",
+              "hindi": "यहाँ संख्याएँ हैं 6 2/5, 5 3/10, 4 1/5 और 7 7/10."
+            },
+            {
+              "english": "First, add them:\n6 2/5 + 5 3/10 + 4 1/5 + 7 7/10\n= 6.4 + 5.3 + 4.2 + 7.7\n= 23.6",
+              "hindi": "पहले जोड़ें:\n6 2/5 + 5 3/10 + 4 1/5 + 7 7/10\n= 6.4 + 5.3 + 4.2 + 7.7\n= 23.6"
+            },
+            {
+              "english": "Now divide by 4 because there are 4 numbers:\n23.6 ÷ 4 = 5.9",
+              "hindi": "अब 4 से भाग दें, क्योंकि 4 संख्याएँ हैं:\n23.6 ÷ 4 = 5.9"
+            },
+            {
+              "english": "5.9 as a mixed number is 5 9/10.",
+              "hindi": "5.9 को मिश्रित भिन्न में लिखें तो 5 9/10 होता है."
+            },
+            {
+              "english": "Final answer: 5 9/10",
+              "hindi": "अंतिम उत्तर: 5 9/10"
+            }
+          ]
         }
       ],
       "tags": [
@@ -439,8 +511,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The first nine counting numbers are 1, 2, 3, 4, 5, 6, 7, 8, and 9.\nStep 1: Add them all.\n1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45\nStep 2: Divide the total by the number of numbers.\n45 ÷ 9 = 5\nSo, the average of the first nine counting numbers is 5.\nFinal answer: 5",
+              "hindi": "पहली नौ गिनती की संख्याएँ 1, 2, 3, 4, 5, 6, 7, 8, और 9 हैं।\nचरण 1: इन सभी संख्याओं को जोड़ें।\n1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45\nचरण 2: कुल योग को संख्याओं की संख्या से भाग दें।\n45 ÷ 9 = 5\nइसलिए, पहली नौ गिनती की संख्याओं का औसत 5 है।\nअंतिम उत्तर: 5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -503,8 +583,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Find the odd numbers between 50 and 60.\nThe odd numbers are 51, 53, 55, 57, and 59.",
+              "hindi": "चरण 1: 50 और 60 के बीच की विषम संख्याएँ लिखिए।\nविषम संख्याएँ हैं 51, 53, 55, 57, और 59।"
+            },
+            {
+              "english": "Step 2: Add them.\n51 + 53 + 55 + 57 + 59 = 275",
+              "hindi": "चरण 2: इन सबको जोड़िए।\n51 + 53 + 55 + 57 + 59 = 275"
+            },
+            {
+              "english": "Step 3: Count how many numbers there are.\nThere are 5 odd numbers.",
+              "hindi": "चरण 3: कुल संख्याएँ गिनिए।\nकुल 5 विषम संख्याएँ हैं।"
+            },
+            {
+              "english": "Step 4: Find the average.\nAverage = 275 ÷ 5 = 55",
+              "hindi": "चरण 4: औसत निकालिए।\nऔसत = 275 ÷ 5 = 55"
+            },
+            {
+              "english": "Final answer: 55",
+              "hindi": "अंतिम उत्तर: 55"
+            }
+          ]
         }
       ],
       "tags": [
@@ -567,8 +671,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the average of all even numbers between 7 and 17, first list the even numbers.",
+              "hindi": "7 और 17 के बीच की सभी सम संख्याएँ पहले लिखते हैं।"
+            },
+            {
+              "english": "Even numbers between 7 and 17 are: 8, 10, 12, 14, 16",
+              "hindi": "7 और 17 के बीच की सम संख्याएँ हैं: 8, 10, 12, 14, 16"
+            },
+            {
+              "english": "Now add them:\n8 + 10 + 12 + 14 + 16 = 60",
+              "hindi": "अब इनका योग करें:\n8 + 10 + 12 + 14 + 16 = 60"
+            },
+            {
+              "english": "Count the numbers:\nThere are 5 numbers.",
+              "hindi": "अब संख्याओं को गिनें:\nकुल 5 संख्याएँ हैं।"
+            },
+            {
+              "english": "Now divide the sum by the count:\n60 ÷ 5 = 12",
+              "hindi": "अब योग को संख्या से भाग दें:\n60 ÷ 5 = 12"
+            },
+            {
+              "english": "So, the average is 12.\nFinal answer: 12",
+              "hindi": "इसलिए, औसत 12 है।\nअंतिम उत्तर: 12"
+            }
+          ]
         }
       ],
       "tags": [
@@ -631,8 +763,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Prime numbers are numbers greater than 1 that have only 2 factors: 1 and themselves.",
+              "hindi": "अभाज्य संख्याएँ वे होती हैं जिनके केवल 2 गुणनखंड होते हैं: 1 और स्वयं वह संख्या।"
+            },
+            {
+              "english": "Step 1: Find the prime numbers between 20 and 40.\nThey are 23, 29, 31, and 37.",
+              "hindi": "चरण 1: 20 और 40 के बीच की अभाज्य संख्याएँ लिखिए।\nवे हैं 23, 29, 31, और 37।"
+            },
+            {
+              "english": "Step 2: Add them.\n23 + 29 + 31 + 37 = 120",
+              "hindi": "चरण 2: इन्हें जोड़िए।\n23 + 29 + 31 + 37 = 120"
+            },
+            {
+              "english": "Step 3: Count how many prime numbers there are.\nThere are 4 prime numbers.",
+              "hindi": "चरण 3: देखिए कितनी अभाज्य संख्याएँ हैं।\nकुल 4 अभाज्य संख्याएँ हैं।"
+            },
+            {
+              "english": "Step 4: Find the average.\nAverage = 120 ÷ 4 = 30",
+              "hindi": "चरण 4: औसत निकालिए।\nऔसत = 120 ÷ 4 = 30"
+            },
+            {
+              "english": "Final answer: 30",
+              "hindi": "अंतिम उत्तर: 30"
+            }
+          ]
         }
       ],
       "tags": [
@@ -695,8 +855,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The first six multiples of 3 are:\n3, 6, 9, 12, 15, 18",
+              "hindi": "3 के पहले छह गुणज हैं:\n3, 6, 9, 12, 15, 18"
+            },
+            {
+              "english": "Step 1: Add them all.\n3 + 6 + 9 + 12 + 15 + 18 = 63",
+              "hindi": "चरण 1: इन सबको जोड़िए।\n3 + 6 + 9 + 12 + 15 + 18 = 63"
+            },
+            {
+              "english": "Step 2: Divide the total by 6, because there are 6 numbers.\n63 ÷ 6 = 10.5",
+              "hindi": "चरण 2: 63 को 6 से भाग दीजिए, क्योंकि कुल 6 संख्याएँ हैं।\n63 ÷ 6 = 10.5"
+            },
+            {
+              "english": "So, the average of the first six multiples of 3 is 10.5.\nFinal Answer: 10.5",
+              "hindi": "इसलिए, 3 के पहले छह गुणजों का औसत 10.5 है।\nअंतिम उत्तर: 10.5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -759,8 +939,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the average score per match, first add all the runs scored in the 6 matches.",
+              "hindi": "औसत स्कोर प्रति मैच निकालने के लिए, पहले 6 मैचों में बनाए गए सभी रन जोड़ते हैं।"
+            },
+            {
+              "english": "102 + 56 + 230 + 40 + 180 + 124 = 732",
+              "hindi": "102 + 56 + 230 + 40 + 180 + 124 = 732"
+            },
+            {
+              "english": "Now divide the total runs by the number of matches.",
+              "hindi": "अब कुल रनों को मैचों की संख्या से भाग देते हैं।"
+            },
+            {
+              "english": "732 ÷ 6 = 122",
+              "hindi": "732 ÷ 6 = 122"
+            },
+            {
+              "english": "So, Hemant's average score per match is 122 runs.",
+              "hindi": "इसलिए, हेमंत का प्रति मैच औसत स्कोर 122 रन है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -824,8 +1028,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The first nine counting numbers are 1, 2, 3, 4, 5, 6, 7, 8, and 9.",
+              "hindi": "पहली नौ गिनती की संख्याएँ हैं: 1, 2, 3, 4, 5, 6, 7, 8, और 9।"
+            },
+            {
+              "english": "Step 1: Add them all.\n1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45",
+              "hindi": "चरण 1: सभी संख्याओं को जोड़िए।\n1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45"
+            },
+            {
+              "english": "Step 2: Count how many numbers there are.\nThere are 9 numbers.",
+              "hindi": "चरण 2: कुल संख्याएँ गिनिए।\nकुल 9 संख्याएँ हैं।"
+            },
+            {
+              "english": "Step 3: Find the average.\nAverage = Total sum ÷ Number of numbers = 45 ÷ 9 = 5",
+              "hindi": "चरण 3: औसत निकालिए।\nऔसत = कुल योग ÷ संख्याओं की संख्या = 45 ÷ 9 = 5"
+            },
+            {
+              "english": "So, the average is 5.",
+              "hindi": "अतः औसत 5 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -889,8 +1117,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the average speed, we use:",
+              "hindi": "औसत गति निकालने के लिए हम यह सूत्र इस्तेमाल करते हैं:"
+            },
+            {
+              "english": "Average speed = Total distance ÷ Total time",
+              "hindi": "औसत गति = कुल दूरी ÷ कुल समय"
+            },
+            {
+              "english": "Step 1: Add all the distances covered in 5 hours.\n65 + 72 + 68 + 70 + 55 = 330 km",
+              "hindi": "चरण 1: 5 घंटों में तय की गई सभी दूरियों को जोड़िए।\n65 + 72 + 68 + 70 + 55 = 330 किमी"
+            },
+            {
+              "english": "Step 2: Find the total time.\nThe car traveled for 5 hours.",
+              "hindi": "चरण 2: कुल समय निकालिए।\nकार 5 घंटे चली है।"
+            },
+            {
+              "english": "Step 3: Divide total distance by total time.\n330 ÷ 5 = 66",
+              "hindi": "चरण 3: कुल दूरी को कुल समय से भाग दीजिए।\n330 ÷ 5 = 66"
+            },
+            {
+              "english": "So, the average speed of the car is 66 km per hour.\nFinal answer: 66 km per hour.",
+              "hindi": "इसलिए, कार की औसत गति 66 किमी प्रति घंटा है।\nअंतिम उत्तर: 66 किमी प्रति घंटा।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -953,8 +1209,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the average age, let us first convert all the ages into months.",
+              "hindi": "औसत आयु निकालने के लिए, पहले सभी आयु को महीनों में बदलते हैं।"
+            },
+            {
+              "english": "1. 16 years 4 months = (16 × 12) + 4 = 192 + 4 = 196 months\n2. 15 years 8 months = (15 × 12) + 8 = 180 + 8 = 188 months\n3. 14 years 9 months = (14 × 12) + 9 = 168 + 9 = 177 months\n4. 15 years 3 months = (15 × 12) + 3 = 180 + 3 = 183 months\n5. 14 years 8 months = (14 × 12) + 8 = 168 + 8 = 176 months",
+              "hindi": "1. 16 वर्ष 4 महीने = (16 × 12) + 4 = 192 + 4 = 196 महीने\n2. 15 वर्ष 8 महीने = (15 × 12) + 8 = 180 + 8 = 188 महीने\n3. 14 वर्ष 9 महीने = (14 × 12) + 9 = 168 + 9 = 177 महीने\n4. 15 वर्ष 3 महीने = (15 × 12) + 3 = 180 + 3 = 183 महीने\n5. 14 वर्ष 8 महीने = (14 × 12) + 8 = 168 + 8 = 176 महीने"
+            },
+            {
+              "english": "Now add all the months:\n196 + 188 + 177 + 183 + 176 = 920 months",
+              "hindi": "अब सभी महीनों को जोड़ते हैं:\n196 + 188 + 177 + 183 + 176 = 920 महीने"
+            },
+            {
+              "english": "Now divide by 5 girls:\n920 ÷ 5 = 184 months",
+              "hindi": "अब 5 लड़कियों से भाग देते हैं:\n920 ÷ 5 = 184 महीने"
+            },
+            {
+              "english": "Now convert 184 months back into years and months:\n184 months = 15 years 4 months",
+              "hindi": "अब 184 महीनों को वर्ष और महीने में बदलते हैं:\n184 महीने = 15 वर्ष 4 महीने"
+            },
+            {
+              "english": "Final answer: 15 years 4 months.",
+              "hindi": "अंतिम उत्तर: 15 वर्ष 4 महीने।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1018,8 +1302,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find the average length of 4 pieces of wire.",
+              "hindi": "हमें 4 तारों के टुकड़ों की औसत लंबाई निकालनी है।"
+            },
+            {
+              "english": "Step 1: Write all the lengths.\n16 m 80 cm, 17 m 25 cm, 13 m 75 cm, 12 m 20 cm",
+              "hindi": "चरण 1: सभी लंबाइयाँ लिखिए।\n16 m 80 cm, 17 m 25 cm, 13 m 75 cm, 12 m 20 cm"
+            },
+            {
+              "english": "Step 2: Add the centimetres.\n80 + 25 + 75 + 20 = 200 cm",
+              "hindi": "चरण 2: सेंटीमीटर जोड़िए।\n80 + 25 + 75 + 20 = 200 cm"
+            },
+            {
+              "english": "200 cm = 2 m",
+              "hindi": "200 cm = 2 m"
+            },
+            {
+              "english": "Step 3: Add the metres.\n16 + 17 + 13 + 12 = 58 m",
+              "hindi": "चरण 3: मीटर जोड़िए।\n16 + 17 + 13 + 12 = 58 m"
+            },
+            {
+              "english": "Step 4: Add the extra 2 m from centimetres.\n58 m + 2 m = 60 m",
+              "hindi": "चरण 4: सेंटीमीटर से मिले 2 मीटर को जोड़िए।\n58 m + 2 m = 60 m"
+            },
+            {
+              "english": "Step 5: Divide by 4 pieces.\n60 m ÷ 4 = 15 m",
+              "hindi": "चरण 5: 4 टुकड़ों से भाग दीजिए।\n60 m ÷ 4 = 15 m"
+            },
+            {
+              "english": "So, the average length per piece is 15 m.",
+              "hindi": "अतः प्रति टुकड़ा औसत लंबाई 15 m है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1083,8 +1403,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Find the total earning in the first 4 months.\nRs 8500 per month for 4 months = 8500 × 4 = Rs 34,000.",
+              "hindi": "चरण 1: पहले 4 महीनों की कुल कमाई निकालिए।\nRs 8500 प्रति माह × 4 महीने = Rs 34,000।"
+            },
+            {
+              "english": "Step 2: Find the total earning in the next 2 months.\nRs 10,000 per month for 2 months = 10,000 × 2 = Rs 20,000.",
+              "hindi": "चरण 2: अगले 2 महीनों की कुल कमाई निकालिए।\nRs 10,000 प्रति माह × 2 महीने = Rs 20,000।"
+            },
+            {
+              "english": "Step 3: Find the total earning for all 6 months.\nRs 34,000 + Rs 20,000 = Rs 54,000.",
+              "hindi": "चरण 3: 6 महीनों की कुल कमाई निकालिए।\nRs 34,000 + Rs 20,000 = Rs 54,000।"
+            },
+            {
+              "english": "Step 4: Find the average earning per month.\nAverage = Total earning ÷ Total months\nAverage = 54,000 ÷ 6 = Rs 9,000.",
+              "hindi": "चरण 4: प्रति माह औसत कमाई निकालिए।\nऔसत = कुल कमाई ÷ कुल महीने\nऔसत = 54,000 ÷ 6 = Rs 9,000।"
+            },
+            {
+              "english": "So, his average earning per month during this period is Rs 9000.",
+              "hindi": "अतः इस अवधि में उसकी औसत मासिक कमाई Rs 9000 है।"
+            }
+          ]
         }
       ],
       "tags": [

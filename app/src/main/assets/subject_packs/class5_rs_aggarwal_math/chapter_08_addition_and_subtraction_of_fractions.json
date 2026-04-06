@@ -458,8 +458,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the sum of 5/7 + 2/7, notice that the denominators are the same.\nSo, we add the numerators: 5 + 2 = 7.\nThe denominator stays 7.\nSo, 5/7 + 2/7 = 7/7 = 1.\nFinal answer: 1",
+              "hindi": "5/7 + 2/7 का योग निकालने के लिए ध्यान दें कि दोनों भिन्नों के हर (denominator) समान हैं।\nइसलिए हम केवल अंश (numerator) जोड़ते हैं: 5 + 2 = 7.\nहर 7 ही रहेगा।\nतो, 5/7 + 2/7 = 7/7 = 1.\nअंतिम उत्तर: 1"
+            }
+          ]
         }
       ],
       "tags": [
@@ -523,8 +531,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To add fractions with the same denominator, keep the denominator the same and add the numerators.",
+              "hindi": "एक ही हर वाले भिन्नों को जोड़ने के लिए हर वही रहता है और अंश जोड़ते हैं।"
+            },
+            {
+              "english": "2/9 + 5/9 = (2 + 5)/9 = 7/9",
+              "hindi": "2/9 + 5/9 = (2 + 5)/9 = 7/9"
+            },
+            {
+              "english": "Final answer: 7/9",
+              "hindi": "अंतिम उत्तर: 7/9"
+            }
+          ]
         }
       ],
       "tags": [
@@ -588,8 +612,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To add fractions with the same denominator, add the numerators and keep the denominator the same.",
+              "hindi": "एक ही हर वाले भिन्नों को जोड़ने के लिए, अंशों को जोड़ते हैं और हर वही रखते हैं."
+            },
+            {
+              "english": "3/11 + 9/11 = (3 + 9)/11 = 12/11",
+              "hindi": "3/11 + 9/11 = (3 + 9)/11 = 12/11"
+            },
+            {
+              "english": "12/11 is an improper fraction. Convert it to a mixed number:\n12/11 = 1 1/11",
+              "hindi": "12/11 एक अपूर्ण भिन्न है. इसे मिश्र भिन्न में बदलें:\n12/11 = 1 1/11"
+            },
+            {
+              "english": "Final answer: 1 1/11",
+              "hindi": "अंतिम उत्तर: 1 1/11"
+            }
+          ]
         }
       ],
       "tags": [
@@ -653,8 +697,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To add fractions with the same denominator, keep the denominator the same and add the numerators.",
+              "hindi": "जब भिन्नों के हर समान हों, तो हर वही रहता है और अंशों को जोड़ते हैं।"
+            },
+            {
+              "english": "6/7 + 3/7 = (6 + 3)/7 = 9/7.",
+              "hindi": "6/7 + 3/7 = (6 + 3)/7 = 9/7।"
+            },
+            {
+              "english": "Now convert 9/7 to a mixed number: 9/7 = 1 2/7.",
+              "hindi": "अब 9/7 को मिश्रित भिन्न में लिखें: 9/7 = 1 2/7।"
+            },
+            {
+              "english": "Final answer: 1 2/7.",
+              "hindi": "अंतिम उत्तर: 1 2/7।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -718,8 +782,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To add 5/8 + 5/8, the denominators are the same, so we add the numerators.\n5 + 5 = 10\nSo, 5/8 + 5/8 = 10/8\nNow simplify 10/8 by dividing the top and bottom by 2:\n10/8 = 5/4\nConvert 5/4 to a mixed number:\n5/4 = 1 1/4\nFinal answer: 1 1/4",
+              "hindi": "5/8 + 5/8 को जोड़ने के लिए, दोनों भिन्नों के हर (denominator) समान हैं, इसलिए हम केवल अंश (numerator) जोड़ते हैं।\n5 + 5 = 10\nइसलिए, 5/8 + 5/8 = 10/8\nअब 10/8 को सरल करें। ऊपर और नीचे दोनों को 2 से भाग दें:\n10/8 = 5/4\nअब 5/4 को mixed number में लिखते हैं:\n5/4 = 1 1/4\nअंतिम उत्तर: 1 1/4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -783,8 +855,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We add fractions with the same denominator by adding the numerators.\n5/12 + 11/12 = (5 + 11)/12 = 16/12.\nNow simplify 16/12 by dividing the top and bottom by 4: 16/12 = 4/3.\n4/3 = 1 1/3.\nFinal answer: 1 1/3",
+              "hindi": "जब हर समान हो, तो हम अंश जोड़ते हैं।\n5/12 + 11/12 = (5 + 11)/12 = 16/12.\nअब 16/12 को सरल करें। 16 और 12 दोनों को 4 से भाग दें: 16/12 = 4/3.\n4/3 = 1 1/3.\nअंतिम उत्तर: 1 1/3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -848,8 +928,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's add the fractions step by step:",
+              "hindi": "आइए भिन्नों को चरण दर चरण जोड़ते हैं:"
+            },
+            {
+              "english": "1/4 + 1/4 = 2/4",
+              "hindi": "1/4 + 1/4 = 2/4"
+            },
+            {
+              "english": "Now add the last fraction:",
+              "hindi": "अब आखिरी भिन्न जोड़ते हैं:"
+            },
+            {
+              "english": "2/4 + 3/4 = 5/4",
+              "hindi": "2/4 + 3/4 = 5/4"
+            },
+            {
+              "english": "Convert 5/4 into a mixed number:",
+              "hindi": "अब 5/4 को मिश्रित भिन्न में बदलते हैं:"
+            },
+            {
+              "english": "5/4 = 1 1/4",
+              "hindi": "5/4 = 1 1/4"
+            },
+            {
+              "english": "So, the sum is 1 1/4.",
+              "hindi": "अतः योग 1 1/4 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -913,8 +1025,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To add fractions with the same denominator, keep the denominator the same and add the numerators.",
+              "hindi": "एक ही हर वाली भिन्नों को जोड़ने के लिए हर वही रखते हैं और अंशों को जोड़ते हैं।"
+            },
+            {
+              "english": "4/15 + 7/15 + 8/15\n= (4 + 7 + 8)/15\n= 19/15",
+              "hindi": "4/15 + 7/15 + 8/15\n= (4 + 7 + 8)/15\n= 19/15"
+            },
+            {
+              "english": "Now write 19/15 as a mixed number:\n19/15 = 1 4/15",
+              "hindi": "अब 19/15 को मिश्रित भिन्न में लिखते हैं:\n19/15 = 1 4/15"
+            },
+            {
+              "english": "Final answer: 1 4/15.",
+              "hindi": "अंतिम उत्तर: 1 4/15."
+            }
+          ]
         }
       ],
       "tags": [
@@ -979,8 +1111,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find:\n1/10 + 7/10 + 3/10",
+              "hindi": "हमें यह जोड़ निकालना है:\n1/10 + 7/10 + 3/10"
+            },
+            {
+              "english": "Step 1: The denominators are all the same.\nSo we can add the numerators:\n1 + 7 + 3 = 11",
+              "hindi": "चरण 1: सभी भिन्नों के हर (denominator) समान हैं।\nइसलिए हम केवल अंश (numerator) जोड़ेंगे:\n1 + 7 + 3 = 11"
+            },
+            {
+              "english": "Step 2: Keep the denominator 10.\nSo the sum is:\n11/10",
+              "hindi": "चरण 2: हर 10 ही रहेगा।\nइसलिए योग होगा:\n11/10"
+            },
+            {
+              "english": "Step 3: Convert 11/10 to a mixed number.\n11/10 = 1 1/10",
+              "hindi": "चरण 3: 11/10 को मिश्रित भिन्न (mixed number) में लिखें।\n11/10 = 1 1/10"
+            },
+            {
+              "english": "Final answer: 1 1/10",
+              "hindi": "अंतिम उत्तर: 1 1/10"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1044,8 +1200,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We add fractions with the same denominator by adding the numerators and keeping the denominator the same.",
+              "hindi": "एक ही हर वाली भिन्नों को जोड़ने के लिए हम अंशों को जोड़ते हैं और हर वही रखते हैं।"
+            },
+            {
+              "english": "9/16 + 7/16 + 3/16 = (9 + 7 + 3) / 16\n= 19/16",
+              "hindi": "9/16 + 7/16 + 3/16 = (9 + 7 + 3) / 16\n= 19/16"
+            },
+            {
+              "english": "Now convert 19/16 into a mixed number.\n16/16 = 1 whole, and 3/16 is left over.\nSo, 19/16 = 1 3/16.",
+              "hindi": "अब 19/16 को मिश्रित भिन्न में बदलते हैं।\n16/16 = 1 पूरा भाग होता है, और 3/16 बचता है।\nइसलिए, 19/16 = 1 3/16."
+            },
+            {
+              "english": "Final answer: 1 3/16",
+              "hindi": "अंतिम उत्तर: 1 3/16"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1108,8 +1284,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to add: 16/21 + 4/21 + 1/21",
+              "hindi": "हमें यह जोड़ना है: 16/21 + 4/21 + 1/21"
+            },
+            {
+              "english": "Step 1: The denominators are the same.\nAll three fractions have denominator 21, so we add only the numerators.",
+              "hindi": "चरण 1: हर समान हैं।\nतीनों भिन्नों का हर 21 है, इसलिए हम केवल अंश जोड़ेंगे।"
+            },
+            {
+              "english": "Step 2: Add the numerators.\n16 + 4 + 1 = 21",
+              "hindi": "चरण 2: अंशों को जोड़ें।\n16 + 4 + 1 = 21"
+            },
+            {
+              "english": "Step 3: Write the answer over the same denominator.\n21/21",
+              "hindi": "चरण 3: उत्तर को उसी हर के साथ लिखें।\n21/21"
+            },
+            {
+              "english": "Step 4: Simplify.\n21/21 = 1",
+              "hindi": "चरण 4: सरल करें।\n21/21 = 1"
+            },
+            {
+              "english": "So, the final answer is 1.",
+              "hindi": "इसलिए, अंतिम उत्तर 1 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1173,8 +1377,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The fractions all have the same denominator, 19. So we add the numerators:",
+              "hindi": "इन सभी भिन्नों का हर 19 है। इसलिए हम केवल अंश जोड़ेंगे:"
+            },
+            {
+              "english": "12/19 + 8/19 + 6/19 = (12 + 8 + 6)/19\n= 26/19",
+              "hindi": "12/19 + 8/19 + 6/19 = (12 + 8 + 6)/19\n= 26/19"
+            },
+            {
+              "english": "Now convert 26/19 into a mixed number:\n26 ÷ 19 = 1 remainder 7\nSo,\n26/19 = 1 7/19",
+              "hindi": "अब 26/19 को मिश्र भिन्न में बदलते हैं:\n26 ÷ 19 = 1 शेष 7\nइसलिए,\n26/19 = 1 7/19"
+            },
+            {
+              "english": "Final answer: 1 7/19",
+              "hindi": "अंतिम उत्तर: 1 7/19"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1239,8 +1463,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to add 5/7 and 2/7.",
+              "hindi": "हमें 5/7 और 2/7 को जोड़ना है।"
+            },
+            {
+              "english": "Step 1: Notice that the denominators are the same.\nBoth fractions have denominator 7, so we can add the numerators directly.",
+              "hindi": "Step 1: ध्यान दीजिए कि दोनों भिन्नों के हर समान हैं।\nदोनों में हर 7 है, इसलिए हम अंशों को सीधे जोड़ सकते हैं।"
+            },
+            {
+              "english": "Step 2: Add the numerators.\n5 + 2 = 7\nSo, 5/7 + 2/7 = 7/7",
+              "hindi": "Step 2: अंशों को जोड़िए।\n5 + 2 = 7\nइसलिए, 5/7 + 2/7 = 7/7"
+            },
+            {
+              "english": "Step 3: Simplify the fraction.\n7/7 = 1",
+              "hindi": "Step 3: भिन्न को सरल कीजिए।\n7/7 = 1"
+            },
+            {
+              "english": "Final answer: 1",
+              "hindi": "Final answer: 1"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1305,8 +1553,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To add fractions with the same denominator, keep the denominator the same and add the numerators.",
+              "hindi": "एक ही हर वाली भिन्नों को जोड़ते समय हर वही रहता है और अंश जोड़ते हैं।"
+            },
+            {
+              "english": "2/9 + 5/9 = (2 + 5)/9 = 7/9",
+              "hindi": "2/9 + 5/9 = (2 + 5)/9 = 7/9"
+            },
+            {
+              "english": "So, the sum is 7/9.",
+              "hindi": "इसलिए, योग 7/9 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1371,8 +1635,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to add the fractions 3/11 and 9/11.",
+              "hindi": "हमें 3/11 और 9/11 को जोड़ना है।"
+            },
+            {
+              "english": "Step 1: Check the denominators.\nBoth fractions have the same denominator, 11.",
+              "hindi": "चरण 1: हर देखें।\nदोनों भिन्नों का हर 11 है।"
+            },
+            {
+              "english": "Step 2: Add the numerators.\n3 + 9 = 12",
+              "hindi": "चरण 2: अंश जोड़ें।\n3 + 9 = 12"
+            },
+            {
+              "english": "Step 3: Keep the denominator the same.\nSo, 3/11 + 9/11 = 12/11",
+              "hindi": "चरण 3: हर वही रखें।\nइसलिए, 3/11 + 9/11 = 12/11"
+            },
+            {
+              "english": "Step 4: Convert the improper fraction to a mixed number.\n12/11 = 1 1/11",
+              "hindi": "चरण 4: इसे मिश्रित भिन्न में बदलें।\n12/11 = 1 1/11"
+            },
+            {
+              "english": "Final answer: 1 1/11",
+              "hindi": "अंतिम उत्तर: 1 1/11"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1437,8 +1729,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the sum of 6/7 + 3/7, look at the denominators first.",
+              "hindi": "6/7 + 3/7 का योग निकालने के लिए पहले हर (denominator) देखें।"
+            },
+            {
+              "english": "Both fractions have the same denominator, 7, so we can add the numerators:\n6 + 3 = 9",
+              "hindi": "दोनों भिन्नों का हर 7 है, इसलिए हम अंश (numerator) जोड़ सकते हैं:\n6 + 3 = 9"
+            },
+            {
+              "english": "So, the sum is 9/7.",
+              "hindi": "इसलिए, योग 9/7 है।"
+            },
+            {
+              "english": "Now turn 9/7 into a mixed number:\n9/7 = 1 2/7",
+              "hindi": "अब 9/7 को मिश्रित भिन्न (mixed number) में बदलते हैं:\n9/7 = 1 2/7"
+            },
+            {
+              "english": "Final answer: 1 2/7",
+              "hindi": "अंतिम उत्तर: 1 2/7"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1503,8 +1819,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the sum of 5/8 + 5/8, we add the numerators because the denominators are the same.",
+              "hindi": "5/8 + 5/8 का योग निकालने के लिए, क्योंकि दोनों भिन्नों का हर (denominator) समान है, हम केवल अंश (numerator) जोड़ते हैं।"
+            },
+            {
+              "english": "Step 1: Keep the denominator 8.\nStep 2: Add the numerators: 5 + 5 = 10.\nSo, 5/8 + 5/8 = 10/8.",
+              "hindi": "चरण 1: हर 8 को वैसे ही रहने दें।\nचरण 2: अंशों को जोड़ें: 5 + 5 = 10.\nइसलिए, 5/8 + 5/8 = 10/8."
+            },
+            {
+              "english": "Step 3: Simplify 10/8.\n10/8 = 5/4.",
+              "hindi": "चरण 3: 10/8 को सरल करें।\n10/8 = 5/4."
+            },
+            {
+              "english": "Step 4: Write 5/4 as a mixed number.\n5/4 = 1 1/4.",
+              "hindi": "चरण 4: 5/4 को मिश्र भिन्न (mixed number) में लिखें।\n5/4 = 1 1/4."
+            },
+            {
+              "english": "Final answer: 1 1/4",
+              "hindi": "अंतिम उत्तर: 1 1/4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1568,8 +1908,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We add fractions with the same denominator by adding the numerators.\n5/12 + 11/12 = (5 + 11)/12 = 16/12.\nNow simplify 16/12 by dividing the top and bottom by 4: 16/12 = 4/3.\n4/3 = 1 1/3.\nFinal answer: 1 1/3",
+              "hindi": "जब हर समान हो, तो हम अंश जोड़ते हैं।\n5/12 + 11/12 = (5 + 11)/12 = 16/12.\nअब 16/12 को सरल करें। 16 और 12 दोनों को 4 से भाग दें: 16/12 = 4/3.\n4/3 = 1 1/3.\nअंतिम उत्तर: 1 1/3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1634,8 +1982,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, add the fractions with the same denominator: 1/4 + 1/4 = 2/4.\nNow add 3/4: 2/4 + 3/4 = 5/4.\nSince 5/4 is greater than 1, write it as a mixed number: 1 1/4.\nFinal answer: 1 1/4",
+              "hindi": "सबसे पहले समान हर वाली भिन्नों को जोड़ें: 1/4 + 1/4 = 2/4.\nअब 3/4 जोड़ें: 2/4 + 3/4 = 5/4.\nक्योंकि 5/4, 1 से बड़ा है, इसलिए इसे मिश्रित संख्या में लिखते हैं: 1 1/4.\nअंतिम उत्तर: 1 1/4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1700,8 +2056,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the sum, add the numerators because the denominators are the same.",
+              "hindi": "जोड़ने के लिए, क्योंकि सभी भिन्नों का हर समान है, हम अंशों को जोड़ते हैं और हर वही रखते हैं।"
+            },
+            {
+              "english": "4/15 + 7/15 + 8/15 = (4 + 7 + 8) / 15 = 19/15",
+              "hindi": "4/15 + 7/15 + 8/15 = (4 + 7 + 8) / 15 = 19/15"
+            },
+            {
+              "english": "Now convert 19/15 into a mixed number:\n19/15 = 1 4/15",
+              "hindi": "अब 19/15 को मिश्र भिन्न में लिखते हैं:\n19/15 = 1 4/15"
+            },
+            {
+              "english": "Final answer: 1 4/15",
+              "hindi": "अंतिम उत्तर: 1 4/15"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1766,8 +2142,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to add: 1/10 + 7/10 + 3/10",
+              "hindi": "हमें जोड़ना है: 1/10 + 7/10 + 3/10"
+            },
+            {
+              "english": "Step 1: The denominators are the same, so we add the numerators.\n1 + 7 + 3 = 11",
+              "hindi": "Step 1: तीनों भिन्नों के हर (denominator) एक जैसे हैं, इसलिए हम केवल अंश (numerator) जोड़ेंगे।\n1 + 7 + 3 = 11"
+            },
+            {
+              "english": "Step 2: Keep the denominator 10.\nSo the sum is 11/10.",
+              "hindi": "Step 2: हर 10 ही रहेगा।\nइसलिए योग = 11/10"
+            },
+            {
+              "english": "Step 3: Convert 11/10 to a mixed number.\n11/10 = 1 1/10",
+              "hindi": "Step 3: 11/10 को मिश्र भिन्न में बदलें।\n11/10 = 1 1/10"
+            },
+            {
+              "english": "Final answer: 1 1/10",
+              "hindi": "Final answer: 1 1/10"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1832,8 +2232,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to add: 9/16 + 7/16 + 3/16",
+              "hindi": "हमें जोड़ना है: 9/16 + 7/16 + 3/16"
+            },
+            {
+              "english": "Step 1: The denominators are all the same, and they are 16.\nSo we only add the numerators:\n9 + 7 + 3 = 19",
+              "hindi": "चरण 1: तीनों भिन्नों के हर 16 हैं।\nइसलिए हम केवल अंश जोड़ेंगे:\n9 + 7 + 3 = 19"
+            },
+            {
+              "english": "Step 2: Keep the denominator the same:\n19/16",
+              "hindi": "चरण 2: हर 16 ही रहेगा:\n19/16"
+            },
+            {
+              "english": "Step 3: Convert 19/16 to a mixed number:\n19/16 = 16/16 + 3/16 = 1 3/16",
+              "hindi": "चरण 3: 19/16 को मिश्र भिन्न में बदलें:\n19/16 = 16/16 + 3/16 = 1 3/16"
+            },
+            {
+              "english": "Final answer: 1 3/16",
+              "hindi": "अंतिम उत्तर: 1 3/16"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1898,8 +2322,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to add 16/21, 4/21, and 1/21.\nBecause the denominators are the same, we add the numerators: 16 + 4 + 1 = 21.\nSo the fraction becomes 21/21.\n21/21 = 1.\nFinal answer: 1",
+              "hindi": "हमें 16/21, 4/21 और 1/21 को जोड़ना है।\nक्योंकि सभी भिन्नों के हर 21 हैं, इसलिए हम अंश जोड़ते हैं: 16 + 4 + 1 = 21।\nअब भिन्न बनती है 21/21।\n21/21 = 1।\nअंतिम उत्तर: 1"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1964,8 +2396,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find 12/19 + 8/19 + 6/19.\nAll the fractions have the same denominator, 19, so we add the numerators.\n12 + 8 + 6 = 26\nSo the sum is 26/19.\nNow write 26/19 as a mixed number:\n26/19 = 19/19 + 7/19 = 1 7/19\nFinal answer: 1 7/19",
+              "hindi": "हमें 12/19 + 8/19 + 6/19 का योग निकालना है।\nतीनों भिन्नों का हर 19 है, इसलिए हम सिर्फ अंश जोड़ेंगे।\n12 + 8 + 6 = 26\nइसलिए योग 26/19 होगा।\nअब 26/19 को मिश्र भिन्न में लिखते हैं:\n26/19 = 19/19 + 7/19 = 1 7/19\nअंतिम उत्तर: 1 7/19"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2029,8 +2469,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the sum of 5/9 + 7/12 + 1/3, we need a common denominator.",
+              "hindi": "5/9 + 7/12 + 1/3 का योग निकालने के लिए हमें एक समान हर (common denominator) चाहिए।"
+            },
+            {
+              "english": "Step 1: Find a common denominator.\nThe denominators are 9, 12, and 3.\nA common denominator is 36.",
+              "hindi": "Step 1: समान हर निकालें।\nहर 9, 12, और 3 हैं।\nइनका समान हर 36 है।"
+            },
+            {
+              "english": "Step 2: Rewrite each fraction with denominator 36.\n5/9 = 20/36\n7/12 = 21/36\n1/3 = 12/36",
+              "hindi": "Step 2: हर भिन्न को 36 हर में लिखें।\n5/9 = 20/36\n7/12 = 21/36\n1/3 = 12/36"
+            },
+            {
+              "english": "Step 3: Add the numerators.\n20/36 + 21/36 + 12/36 = 53/36",
+              "hindi": "Step 3: अंश जोड़ें।\n20/36 + 21/36 + 12/36 = 53/36"
+            },
+            {
+              "english": "Step 4: Change to a mixed number.\n53/36 = 1 17/36",
+              "hindi": "Step 4: इसे मिश्र भिन्न में बदलें।\n53/36 = 1 17/36"
+            },
+            {
+              "english": "Final answer: 1 17/36",
+              "hindi": "Final answer: 1 17/36"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2094,8 +2562,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to add: 3/4 + 5/8 + 7/12",
+              "hindi": "हमें जोड़ना है: 3/4 + 5/8 + 7/12"
+            },
+            {
+              "english": "Step 1: Find a common denominator.\nThe denominators are 4, 8, and 12.\nThe least common multiple of 4, 8, and 12 is 24.",
+              "hindi": "Step 1: समान हर (common denominator) निकालें।\nहर हैं 4, 8, और 12।\nइनका LCM = 24 है।"
+            },
+            {
+              "english": "Step 2: Convert each fraction to denominator 24.\n3/4 = 18/24\n5/8 = 15/24\n7/12 = 14/24",
+              "hindi": "Step 2: हर भिन्न को 24 हर में बदलें।\n3/4 = 18/24\n5/8 = 15/24\n7/12 = 14/24"
+            },
+            {
+              "english": "Step 3: Add the numerators.\n18/24 + 15/24 + 14/24 = 47/24",
+              "hindi": "Step 3: अब अंशों को जोड़ें।\n18/24 + 15/24 + 14/24 = 47/24"
+            },
+            {
+              "english": "Step 4: Change the improper fraction into a mixed number.\n47/24 = 1 23/24",
+              "hindi": "Step 4: अब इसे mixed number में लिखें।\n47/24 = 1 23/24"
+            },
+            {
+              "english": "Final Answer: 1 23/24",
+              "hindi": "Final Answer: 1 23/24"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2159,8 +2655,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to add 3/8 + 5/16 + 13/24.\nStep 1: Find a common denominator. The LCM of 8, 16, and 24 is 48.\nStep 2: Convert each fraction:\n3/8 = 18/48\n5/16 = 15/48\n13/24 = 26/48\nStep 3: Add the numerators:\n18/48 + 15/48 + 26/48 = 59/48\nStep 4: Convert to a mixed number:\n59/48 = 1 11/48\nFinal answer: 1 11/48",
+              "hindi": "हमें 3/8 + 5/16 + 13/24 को जोड़ना है।\nStep 1: समान हर (common denominator) निकालें। 8, 16 और 24 का LCM 48 है।\nStep 2: हर को 48 बनाइए:\n3/8 = 18/48\n5/16 = 15/48\n13/24 = 26/48\nStep 3: अंशों को जोड़िए:\n18/48 + 15/48 + 26/48 = 59/48\nStep 4: मिश्र भिन्न में बदलिए:\n59/48 = 1 11/48\nअंतिम उत्तर: 1 11/48"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2224,8 +2728,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to add 5/6 + 7/12 + 11/18.",
+              "hindi": "हमें 5/6 + 7/12 + 11/18 को जोड़ना है।"
+            },
+            {
+              "english": "Step 1: Find a common denominator.\nThe denominators are 6, 12, and 18.\nThe LCM of 6, 12, and 18 is 36.",
+              "hindi": "चरण 1: समान हर (common denominator) ढूंढते हैं।\nहर हैं 6, 12, और 18।\nइनका LCM 36 है।"
+            },
+            {
+              "english": "Step 2: Rewrite each fraction with denominator 36.\n5/6 = 30/36\n7/12 = 21/36\n11/18 = 22/36",
+              "hindi": "चरण 2: हर भिन्न को 36 हर में लिखते हैं।\n5/6 = 30/36\n7/12 = 21/36\n11/18 = 22/36"
+            },
+            {
+              "english": "Step 3: Add the numerators.\n30/36 + 21/36 + 22/36 = 73/36",
+              "hindi": "चरण 3: अंशों को जोड़ते हैं।\n30/36 + 21/36 + 22/36 = 73/36"
+            },
+            {
+              "english": "Step 4: Convert to a mixed number.\n73/36 = 2 1/36, because 73 = 36 × 2 + 1.",
+              "hindi": "चरण 4: इसे मिश्रित भिन्न में बदलते हैं।\n73/36 = 2 1/36, क्योंकि 73 = 36 × 2 + 1 है।"
+            },
+            {
+              "english": "Final answer: 2 1/36",
+              "hindi": "अंतिम उत्तर: 2 1/36"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2290,8 +2822,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To add 1/2 + 1/3 + 1/4 + 1/6, first find a common denominator.",
+              "hindi": "1/2 + 1/3 + 1/4 + 1/6 को जोड़ने के लिए पहले समान हर लेते हैं।"
+            },
+            {
+              "english": "The LCM of 2, 3, 4, and 6 is 12.",
+              "hindi": "2, 3, 4, और 6 का LCM 12 है।"
+            },
+            {
+              "english": "Convert each fraction:\n1/2 = 6/12\n1/3 = 4/12\n1/4 = 3/12\n1/6 = 2/12",
+              "hindi": "अब हर भिन्न को 12 हर में बदलते हैं:\n1/2 = 6/12\n1/3 = 4/12\n1/4 = 3/12\n1/6 = 2/12"
+            },
+            {
+              "english": "Now add the numerators:\n6/12 + 4/12 + 3/12 + 2/12 = 15/12",
+              "hindi": "अब अंश जोड़ते हैं:\n6/12 + 4/12 + 3/12 + 2/12 = 15/12"
+            },
+            {
+              "english": "Simplify 15/12 by dividing top and bottom by 3:\n15/12 = 5/4",
+              "hindi": "15/12 को सरल करें:\n15/12 = 5/4"
+            },
+            {
+              "english": "Write it as a mixed number:\n5/4 = 1 1/4",
+              "hindi": "मिश्र भिन्न में लिखें:\n5/4 = 1 1/4"
+            },
+            {
+              "english": "Final answer: 1 1/4",
+              "hindi": "अंतिम उत्तर: 1 1/4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2356,8 +2920,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, write the whole number 1 as a fraction with denominator 24: 1 = 24/24.",
+              "hindi": "सबसे पहले 1 को हर 24 वाले भिन्न में लिखते हैं: 1 = 24/24।"
+            },
+            {
+              "english": "Now find a common denominator for 3, 4, and 8. The smallest common denominator is 24.",
+              "hindi": "अब 3, 4 और 8 का सबसे छोटा समान हर 24 है।"
+            },
+            {
+              "english": "Convert each fraction:\n2/3 = 16/24\n3/4 = 18/24\n5/8 = 15/24",
+              "hindi": "भिन्नों को बदलें:\n2/3 = 16/24\n3/4 = 18/24\n5/8 = 15/24"
+            },
+            {
+              "english": "Now add them:\n24/24 + 16/24 + 18/24 + 15/24 = 73/24",
+              "hindi": "अब जोड़ें:\n24/24 + 16/24 + 18/24 + 15/24 = 73/24"
+            },
+            {
+              "english": "Convert 73/24 to a mixed number:\n73 ÷ 24 = 3 remainder 1, so 73/24 = 3 1/24.",
+              "hindi": "73/24 को मिश्र भिन्न में बदलें:\n73 ÷ 24 = 3 शेष 1, इसलिए 73/24 = 3 1/24।"
+            },
+            {
+              "english": "Final answer: 3 1/24",
+              "hindi": "अंतिम उत्तर: 3 1/24"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2421,8 +3013,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's add the whole numbers and the fractions separately.",
+              "hindi": "आइए पूरे भाग और भिन्न भाग को अलग-अलग जोड़ते हैं।"
+            },
+            {
+              "english": "Step 1: Add the whole numbers.\n4 + 3 = 7",
+              "hindi": "चरण 1: पूरे संख्याओं को जोड़ें।\n4 + 3 = 7"
+            },
+            {
+              "english": "Step 2: Add the fractions.\n2/5 + 1/5 = 3/5\nThe denominators are the same, so we add the numerators.",
+              "hindi": "चरण 2: भिन्नों को जोड़ें।\n2/5 + 1/5 = 3/5\nहर समान है, इसलिए हम केवल अंश जोड़ते हैं।"
+            },
+            {
+              "english": "Step 3: Combine the two parts.\n7 + 3/5 = 7 3/5",
+              "hindi": "चरण 3: दोनों भागों को मिलाएँ।\n7 + 3/5 = 7 3/5"
+            },
+            {
+              "english": "Final answer: 7 3/5",
+              "hindi": "अंतिम उत्तर: 7 3/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2486,8 +3102,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find: 3 4/7 + 5 2/7",
+              "hindi": "हमें यह निकालना है: 3 4/7 + 5 2/7"
+            },
+            {
+              "english": "Step 1: Add the whole numbers.\n3 + 5 = 8",
+              "hindi": "Step 1: पहले पूरे अंकों को जोड़ें।\n3 + 5 = 8"
+            },
+            {
+              "english": "Step 2: Add the fractions.\n4/7 + 2/7 = 6/7",
+              "hindi": "Step 2: फिर भिन्नों को जोड़ें।\n4/7 + 2/7 = 6/7"
+            },
+            {
+              "english": "Step 3: Combine the answers.\n8 + 6/7 = 8 6/7",
+              "hindi": "Step 3: दोनों उत्तरों को मिलाएँ।\n8 + 6/7 = 8 6/7"
+            },
+            {
+              "english": "Final answer: 8 6/7",
+              "hindi": "अंतिम उत्तर: 8 6/7"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2551,8 +3191,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, add the whole numbers: 6 + 3 = 9.",
+              "hindi": "सबसे पहले, पूरे अंक जोड़ें: 6 + 3 = 9."
+            },
+            {
+              "english": "Next, add the fractions: 1/4 + 3/8.\nTo add them easily, change 1/4 into eighths:\n1/4 = 2/8.",
+              "hindi": "अब भिन्न जोड़ें: 1/4 + 3/8.\nइन्हें आसानी से जोड़ने के लिए 1/4 को आठवें भाग में बदलें:\n1/4 = 2/8."
+            },
+            {
+              "english": "Now add the fractions:\n2/8 + 3/8 = 5/8.",
+              "hindi": "अब भिन्न जोड़ें:\n2/8 + 3/8 = 5/8."
+            },
+            {
+              "english": "Put the whole number and fraction together:\n9 5/8.",
+              "hindi": "अब पूरे अंक और भिन्न को मिलाइए:\n9 5/8."
+            },
+            {
+              "english": "Final answer: 9 5/8.",
+              "hindi": "अंतिम उत्तर: 9 5/8."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2616,8 +3280,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We add the whole numbers and the fractional parts separately.",
+              "hindi": "हम पूरे संख्याओं और भिन्नों को अलग-अलग जोड़ते हैं।"
+            },
+            {
+              "english": "Step 1: Add the whole numbers:\n4 + 5 = 9",
+              "hindi": "चरण 1: पूरे अंक जोड़ें:\n4 + 5 = 9"
+            },
+            {
+              "english": "Step 2: Add the fractions:\n1/6 + 7/12\nTo add them, use the same denominator.\n1/6 = 2/12\nSo, 2/12 + 7/12 = 9/12",
+              "hindi": "चरण 2: भिन्न जोड़ें:\n1/6 + 7/12\nइनका हर (denominator) समान करना होगा।\n1/6 = 2/12\nइसलिए, 2/12 + 7/12 = 9/12"
+            },
+            {
+              "english": "Step 3: Simplify the fraction:\n9/12 = 3/4",
+              "hindi": "चरण 3: भिन्न को सरल करें:\n9/12 = 3/4"
+            },
+            {
+              "english": "Step 4: Combine the whole number and the fraction:\n9 + 3/4 = 9 3/4",
+              "hindi": "चरण 4: पूरे अंक और भिन्न को मिलाएँ:\n9 + 3/4 = 9 3/4"
+            },
+            {
+              "english": "Final answer: 9 3/4",
+              "hindi": "अंतिम उत्तर: 9 3/4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2681,8 +3373,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, add the fractional parts: 3/7 and 9/14.\nMake the denominators the same. Since 3/7 = 6/14, we get:\n6/14 + 9/14 = 15/14\n15/14 = 1 1/14\nNow add the whole number:\n2 + 1 1/14 = 3 1/14\nFinal answer: 3 1/14",
+              "hindi": "पहले भिन्न भाग जोड़ते हैं: 3/7 और 9/14।\nहर समान करने के लिए 3/7 = 6/14 करते हैं। अब:\n6/14 + 9/14 = 15/14\n15/14 = 1 1/14\nअब पूरा भाग जोड़ते हैं:\n2 + 1 1/14 = 3 1/14\nअंतिम उत्तर: 3 1/14"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2746,8 +3446,48 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find: 2 4/9 + 2/3",
+              "hindi": "हमें निकालना है: 2 4/9 + 2/3"
+            },
+            {
+              "english": "Step 1: Keep the whole number part.\nThe whole number is 2.",
+              "hindi": "चरण 1: पूरे अंक वाला भाग रखें।\nपूरे अंक वाला भाग 2 है।"
+            },
+            {
+              "english": "Step 2: Add the fractions.\nWe need to add 4/9 + 2/3.",
+              "hindi": "चरण 2: भिन्नों को जोड़ें।\nहमें 4/9 + 2/3 जोड़ना है।"
+            },
+            {
+              "english": "Step 3: Make the denominators the same.\nThe denominator of 4/9 is 9.\nConvert 2/3 to ninths:\n2/3 = 6/9",
+              "hindi": "चरण 3: हरों को समान बनाइए।\n4/9 का हर 9 है।\nअब 2/3 को नौवें भाग में बदलते हैं:\n2/3 = 6/9"
+            },
+            {
+              "english": "Step 4: Add the fractions.\n4/9 + 6/9 = 10/9",
+              "hindi": "चरण 4: भिन्नों को जोड़िए।\n4/9 + 6/9 = 10/9"
+            },
+            {
+              "english": "Step 5: Change 10/9 into a mixed number.\n10/9 = 1 1/9",
+              "hindi": "चरण 5: 10/9 को मिश्रित भिन्न में बदलिए।\n10/9 = 1 1/9"
+            },
+            {
+              "english": "Step 6: Add this 1 to the whole number 2.\n2 + 1 = 3",
+              "hindi": "चरण 6: इस 1 को पूरे अंक 2 में जोड़िए।\n2 + 1 = 3"
+            },
+            {
+              "english": "So, the sum is 3 1/9.",
+              "hindi": "इसलिए, कुल योग 3 1/9 है।"
+            },
+            {
+              "english": "Final answer: 3 1/9",
+              "hindi": "अंतिम उत्तर: 3 1/9"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2811,8 +3551,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We add the mixed numbers step by step.",
+              "hindi": "आइए इन मिश्रित भिन्नों को चरण-दर-चरण जोड़ते हैं।"
+            },
+            {
+              "english": "1) Convert each mixed number into improper fractions:\n1 3/4 = 7/4\n2 2/3 = 8/3\n3 1/6 = 19/6",
+              "hindi": "1) हर मिश्रित भिन्न को अशुद्ध भिन्न में बदलें:\n1 3/4 = 7/4\n2 2/3 = 8/3\n3 1/6 = 19/6"
+            },
+            {
+              "english": "2) Find a common denominator. The LCM of 4, 3, and 6 is 12.\nSo:\n7/4 = 21/12\n8/3 = 32/12\n19/6 = 38/12",
+              "hindi": "2) अब हर भिन्न का हर समान करें। 4, 3, और 6 का LCM 12 है।\nइसलिए:\n7/4 = 21/12\n8/3 = 32/12\n19/6 = 38/12"
+            },
+            {
+              "english": "3) Add them:\n21/12 + 32/12 + 38/12 = 91/12",
+              "hindi": "3) अब जोड़ें:\n21/12 + 32/12 + 38/12 = 91/12"
+            },
+            {
+              "english": "4) Convert 91/12 back to a mixed number:\n91 ÷ 12 = 7 remainder 7\nSo, 91/12 = 7 7/12.",
+              "hindi": "4) 91/12 को मिश्रित भिन्न में बदलें:\n91 ÷ 12 = 7 शेष 7\nइसलिए, 91/12 = 7 7/12."
+            },
+            {
+              "english": "Final answer: 7 7/12",
+              "hindi": "अंतिम उत्तर: 7 7/12"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2876,8 +3644,52 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us add the mixed numbers step by step:",
+              "hindi": "आइए इस जोड़ को step by step करते हैं:"
+            },
+            {
+              "english": "2 4/5 + 1 3/10 + 2 1/2",
+              "hindi": "2 4/5 + 1 3/10 + 2 1/2"
+            },
+            {
+              "english": "Step 1: Make the denominators the same.\nThe denominators are 5, 10, and 2.\nThe LCM of 5, 10, and 2 is 10.\nSo we convert each fraction to tenths:\n- 4/5 = 8/10\n- 3/10 = 3/10\n- 1/2 = 5/10",
+              "hindi": "Step 1: सभी भिन्नों के हर (denominator) एक जैसे करें।\nयहाँ हर हैं 5, 10, और 2।\nइनका LCM 10 है।\nइसलिए हम सभी भिन्नों को दसवें भाग में बदलते हैं:\n- 4/5 = 8/10\n- 3/10 = 3/10\n- 1/2 = 5/10"
+            },
+            {
+              "english": "Now the sum becomes:\n2 8/10 + 1 3/10 + 2 5/10",
+              "hindi": "अब सवाल बन जाएगा:\n2 8/10 + 1 3/10 + 2 5/10"
+            },
+            {
+              "english": "Step 2: Add the whole numbers.\n2 + 1 + 2 = 5",
+              "hindi": "Step 2: पूरे अंकों को जोड़ें।\n2 + 1 + 2 = 5"
+            },
+            {
+              "english": "Step 3: Add the fractions.\n8/10 + 3/10 + 5/10 = 16/10",
+              "hindi": "Step 3: भिन्नों को जोड़ें।\n8/10 + 3/10 + 5/10 = 16/10"
+            },
+            {
+              "english": "16/10 = 1 6/10 = 1 3/5",
+              "hindi": "16/10 = 1 6/10 = 1 3/5"
+            },
+            {
+              "english": "Step 4: Add that extra 1 to the whole number part.\n5 + 1 = 6",
+              "hindi": "Step 4: जो 1 मिला है, उसे पूरे अंक में जोड़ें।\n5 + 1 = 6"
+            },
+            {
+              "english": "So the total is:\n6 3/5",
+              "hindi": "इसलिए कुल योग है:\n6 3/5"
+            },
+            {
+              "english": "Final answer: 6 3/5",
+              "hindi": "अंतिम उत्तर: 6 3/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2941,8 +3753,48 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We will add the mixed numbers step by step.",
+              "hindi": "हम इस मिश्रित भिन्न को चरण-दर-चरण जोड़ेंगे।"
+            },
+            {
+              "english": "1. Add the whole numbers:\n2 + 3 + 1 = 6",
+              "hindi": "1. पहले पूरे अंक जोड़ते हैं:\n2 + 3 + 1 = 6"
+            },
+            {
+              "english": "2. Add the fractions:\n5/9 + 1/3 + 5/6",
+              "hindi": "2. अब भिन्न जोड़ते हैं:\n5/9 + 1/3 + 5/6"
+            },
+            {
+              "english": "To add them, make the denominators the same. The LCM of 9, 3, and 6 is 18.",
+              "hindi": "इन्हें जोड़ने के लिए हरों को समान बनाते हैं। 9, 3 और 6 का LCM 18 है।"
+            },
+            {
+              "english": "5/9 = 10/18\n1/3 = 6/18\n5/6 = 15/18",
+              "hindi": "5/9 = 10/18\n1/3 = 6/18\n5/6 = 15/18"
+            },
+            {
+              "english": "Now add:\n10/18 + 6/18 + 15/18 = 31/18",
+              "hindi": "अब जोड़ें:\n10/18 + 6/18 + 15/18 = 31/18"
+            },
+            {
+              "english": "3. Convert 31/18 to a mixed number:\n31/18 = 1 13/18",
+              "hindi": "3. 31/18 को मिश्रित भिन्न में बदलें:\n31/18 = 1 13/18"
+            },
+            {
+              "english": "4. Add this to the whole number part:\n6 + 1 13/18 = 7 13/18",
+              "hindi": "4. इसे पूरे अंकों के साथ जोड़ें:\n6 + 1 13/18 = 7 13/18"
+            },
+            {
+              "english": "Final answer: 7 13/18",
+              "hindi": "अंतिम उत्तर: 7 13/18"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3006,8 +3858,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us solve it step by step.",
+              "hindi": "आइए इसे धीरे-धीरे हल करते हैं।"
+            },
+            {
+              "english": "Question: 3 2/5 + 1 1/10 + 4/15",
+              "hindi": "प्रश्न: 3 2/5 + 1 1/10 + 4/15"
+            },
+            {
+              "english": "Step 1: Add the whole numbers.\n3 + 1 = 4",
+              "hindi": "चरण 1: पहले पूरे अंक जोड़ते हैं।\n3 + 1 = 4"
+            },
+            {
+              "english": "Step 2: Add the fractions.\nWe need to add 2/5, 1/10, and 4/15.",
+              "hindi": "चरण 2: अब भिन्न जोड़ते हैं।\nहमें 2/5, 1/10, और 4/15 को जोड़ना है।"
+            },
+            {
+              "english": "The LCM of 5, 10, and 15 is 30.\nSo, convert each fraction into thirtieths:\n2/5 = 12/30\n1/10 = 3/30\n4/15 = 8/30",
+              "hindi": "5, 10, और 15 का LCM 30 है।\nइसलिए हर भिन्न को 30 हर वाले रूप में बदलते हैं:\n2/5 = 12/30\n1/10 = 3/30\n4/15 = 8/30"
+            },
+            {
+              "english": "Step 3: Add the fractions.\n12/30 + 3/30 + 8/30 = 23/30",
+              "hindi": "चरण 3: अब भिन्न जोड़ते हैं।\n12/30 + 3/30 + 8/30 = 23/30"
+            },
+            {
+              "english": "Step 4: Combine the whole number and the fraction.\n4 + 23/30 = 4 23/30",
+              "hindi": "चरण 4: पूरे अंक और भिन्न को मिलाते हैं।\n4 + 23/30 = 4 23/30"
+            },
+            {
+              "english": "Final answer: 4 23/30",
+              "hindi": "अंतिम उत्तर: 4 23/30"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3071,8 +3959,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find: 2 3/5 + 8 + 7/10",
+              "hindi": "हमें यह निकालना है: 2 3/5 + 8 + 7/10"
+            },
+            {
+              "english": "Step 1: Add the whole numbers.\n2 + 8 = 10",
+              "hindi": "चरण 1: पहले पूर्ण संख्याएँ जोड़ते हैं।\n2 + 8 = 10"
+            },
+            {
+              "english": "Step 2: Add the fractions.\n3/5 + 7/10",
+              "hindi": "चरण 2: अब भिन्न जोड़ते हैं।\n3/5 + 7/10"
+            },
+            {
+              "english": "Make the denominators the same. Since 5 can be changed to 10:\n3/5 = 6/10",
+              "hindi": "हर (denominator) एक जैसा करते हैं। 5 को 10 में बदला जा सकता है:\n3/5 = 6/10"
+            },
+            {
+              "english": "Now add:\n6/10 + 7/10 = 13/10 = 1 3/10",
+              "hindi": "अब जोड़ें:\n6/10 + 7/10 = 13/10 = 1 3/10"
+            },
+            {
+              "english": "Step 3: Add this to 10.\n10 + 1 3/10 = 11 3/10",
+              "hindi": "चरण 3: इसे 10 में जोड़ें।\n10 + 1 3/10 = 11 3/10"
+            },
+            {
+              "english": "Final answer: 11 3/10",
+              "hindi": "अंतिम उत्तर: 11 3/10"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3136,8 +4056,48 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us add the numbers step by step:",
+              "hindi": "आइए इसे step by step जोड़ते हैं:"
+            },
+            {
+              "english": "7 1/2 + 5/9 + 2/3",
+              "hindi": "7 1/2 + 5/9 + 2/3"
+            },
+            {
+              "english": "Step 1: Keep the whole number 7 aside for now.\nWe will add the fractions first:\n1/2 + 5/9 + 2/3",
+              "hindi": "Step 1: पहले 7 को अलग रख देते हैं।\nअब केवल भिन्नों को जोड़ते हैं:\n1/2 + 5/9 + 2/3"
+            },
+            {
+              "english": "Step 2: Find a common denominator.\nThe denominators are 2, 9, and 3.\nThe least common denominator is 18.",
+              "hindi": "Step 2: समान हर (common denominator) निकालते हैं।\nहर हैं 2, 9, और 3।\nइनका LCM 18 है।"
+            },
+            {
+              "english": "Step 3: Change each fraction to eighteenths:\n1/2 = 9/18\n5/9 = 10/18\n2/3 = 12/18",
+              "hindi": "Step 3: हर भिन्न को 18 हर में बदलते हैं:\n1/2 = 9/18\n5/9 = 10/18\n2/3 = 12/18"
+            },
+            {
+              "english": "Step 4: Add the fractions:\n9/18 + 10/18 + 12/18 = 31/18",
+              "hindi": "Step 4: अब भिन्नों को जोड़ते हैं:\n9/18 + 10/18 + 12/18 = 31/18"
+            },
+            {
+              "english": "Step 5: Convert 31/18 to a mixed number:\n31/18 = 1 13/18",
+              "hindi": "Step 5: 31/18 को मिश्र भिन्न में बदलते हैं:\n31/18 = 1 13/18"
+            },
+            {
+              "english": "Step 6: Add the whole number 7:\n7 + 1 13/18 = 8 13/18",
+              "hindi": "Step 6: अब 7 जोड़ते हैं:\n7 + 1 13/18 = 8 13/18"
+            },
+            {
+              "english": "Final answer: 8 13/18",
+              "hindi": "अंतिम उत्तर: 8 13/18"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3200,8 +4160,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We are subtracting fractions with the same denominator.",
+              "hindi": "हम समान हर वाले भिन्नों को घटा रहे हैं।"
+            },
+            {
+              "english": "Step 1: Keep the denominator the same: 4.\nStep 2: Subtract the numerators: 9 - 1 = 8.\nSo, 9/4 - 1/4 = 8/4.\nStep 3: Simplify 8/4 = 2.",
+              "hindi": "Step 1: हर को वही रखें: 4.\nStep 2: अंशों को घटाएँ: 9 - 1 = 8.\nइसलिए, 9/4 - 1/4 = 8/4.\nStep 3: 8/4 को सरल करें: 2."
+            },
+            {
+              "english": "Final answer: 2",
+              "hindi": "अंतिम उत्तर: 2"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3265,8 +4241,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find: 3/8 - 1/8",
+              "hindi": "हमें निकालना है: 3/8 - 1/8"
+            },
+            {
+              "english": "Step 1: Notice that the denominators are the same.\nBoth fractions have denominator 8.",
+              "hindi": "चरण 1: देखें कि दोनों भिन्नों के हर (denominator) समान हैं।\nदोनों का हर 8 है।"
+            },
+            {
+              "english": "Step 2: When denominators are the same, subtract the numerators.\n3 - 1 = 2",
+              "hindi": "चरण 2: जब हर समान हो, तो अंश (numerator) को घटाते हैं।\n3 - 1 = 2"
+            },
+            {
+              "english": "Step 3: Keep the denominator the same.\nSo, 3/8 - 1/8 = 2/8",
+              "hindi": "चरण 3: हर वही रहता है।\nइसलिए, 3/8 - 1/8 = 2/8"
+            },
+            {
+              "english": "Step 4: Simplify the fraction.\n2/8 = 1/4",
+              "hindi": "चरण 4: भिन्न को सरल करें।\n2/8 = 1/4"
+            },
+            {
+              "english": "Final answer: 1/4",
+              "hindi": "अंतिम उत्तर: 1/4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3330,8 +4334,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 7/10 - 3/10, notice that the denominators are the same.\nSo we subtract only the numerators:\n7/10 - 3/10 = (7 - 3)/10 = 4/10.\nNow simplify 4/10 by dividing the top and bottom by 2:\n4/10 = 2/5.\nFinal answer: 2/5",
+              "hindi": "7/10 - 3/10 निकालने के लिए पहले ध्यान दें कि दोनों भिन्नों के हर (denominator) समान हैं।\nइसलिए हम केवल अंश (numerator) घटाते हैं:\n7/10 - 3/10 = (7 - 3)/10 = 4/10.\nअब 4/10 को सरल करते हैं। ऊपर और नीचे दोनों को 2 से भाग देते हैं:\n4/10 = 2/5.\nअंतिम उत्तर: 2/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3395,8 +4407,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We have 11/15 - 8/15.\n1. The denominators are the same, so we subtract the numerators.\n2. 11 - 8 = 3.\n3. Keep the denominator 15.\nSo, 11/15 - 8/15 = 3/15.\n4. Simplify 3/15 by dividing the top and bottom by 3: 3/15 = 1/5.\nFinal answer: 1/5.",
+              "hindi": "हमारे पास 11/15 - 8/15 है।\n1. दोनों भिन्नों का हर एक जैसा है, इसलिए हम केवल अंश घटाते हैं।\n2. 11 - 8 = 3.\n3. हर 15 वही रहेगा।\nइसलिए, 11/15 - 8/15 = 3/15.\n4. अब 3/15 को सरल करें: ऊपर और नीचे दोनों को 3 से भाग दें।\n3/15 = 1/5.\nअंतिम उत्तर: 1/5."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3460,8 +4480,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We are subtracting fractions with the same denominator.\n1. The denominators are both 20, so keep 20 the same.\n2. Subtract the numerators: 7 - 3 = 4.\n3. So, 7/20 - 3/20 = 4/20.\n4. Simplify 4/20 by dividing the top and bottom by 4: 4/20 = 1/5.",
+              "hindi": "हम समान हर वाली भिन्नों को घटा रहे हैं।\n1. दोनों हर 20 हैं, इसलिए 20 को वैसे ही रखें।\n2. अंशों को घटाएँ: 7 - 3 = 4।\n3. इसलिए, 7/20 - 3/20 = 4/20।\n4. अब 4/20 को सरल करें। 4 और 20 दोनों को 4 से भाग दें: 4/20 = 1/5।"
+            },
+            {
+              "english": "Final answer: 1/5",
+              "hindi": "अंतिम उत्तर: 1/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3525,8 +4557,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 5/6 - 1/6, first notice that the denominators are the same.",
+              "hindi": "5/6 - 1/6 निकालने के लिए पहले देखें कि दोनों भिन्नों के हर समान हैं।"
+            },
+            {
+              "english": "When fractions have the same denominator, subtract the numerators and keep the denominator the same:\n5 - 1 = 4\nSo, 5/6 - 1/6 = 4/6",
+              "hindi": "जब हर समान हो, तो अंशों को घटाते हैं और हर वही रखते हैं:\n5 - 1 = 4\nइसलिए, 5/6 - 1/6 = 4/6"
+            },
+            {
+              "english": "Now simplify 4/6 by dividing the top and bottom by 2:\n4/6 = 2/3",
+              "hindi": "अब 4/6 को सरल करें। ऊपर और नीचे दोनों को 2 से भाग दें:\n4/6 = 2/3"
+            },
+            {
+              "english": "Final answer: 2/3",
+              "hindi": "अंतिम उत्तर: 2/3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3589,8 +4641,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find: 3/2 - 1/2",
+              "hindi": "हमें यह निकालना है: 3/2 - 1/2"
+            },
+            {
+              "english": "Step 1: The denominators are the same.\nBoth fractions have denominator 2, so we subtract the numerators.",
+              "hindi": "Step 1: दोनों भिन्नों के हर (denominator) एक जैसे हैं।\nदोनों में हर 2 है, इसलिए हम ऊपर वाले अंक यानी अंश (numerator) को घटाते हैं।"
+            },
+            {
+              "english": "Step 2: Subtract the top numbers.\n3 - 1 = 2",
+              "hindi": "Step 2: ऊपर वाले अंक घटाइए।\n3 - 1 = 2"
+            },
+            {
+              "english": "Step 3: Keep the same denominator.\nSo we get 2/2.",
+              "hindi": "Step 3: हर वही रहेगा।\nइसलिए हमें मिलता है 2/2।"
+            },
+            {
+              "english": "Step 4: Simplify.\n2/2 = 1",
+              "hindi": "Step 4: सरल कीजिए।\n2/2 = 1"
+            },
+            {
+              "english": "Final answer: 1",
+              "hindi": "अंतिम उत्तर: 1"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3654,8 +4734,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 5/18 - 1/18, notice that the denominators are the same.",
+              "hindi": "5/18 - 1/18 निकालने के लिए ध्यान दें कि दोनों भिन्नों के हर (denominator) समान हैं।"
+            },
+            {
+              "english": "Step 1: Subtract the numerators.\n5 - 1 = 4",
+              "hindi": "Step 1: अंश (numerator) घटाइए।\n5 - 1 = 4"
+            },
+            {
+              "english": "Step 2: Keep the denominator the same.\nSo, 5/18 - 1/18 = 4/18",
+              "hindi": "Step 2: हर वही रखिए।\nइसलिए, 5/18 - 1/18 = 4/18"
+            },
+            {
+              "english": "Step 3: Simplify the fraction.\n4/18 = 2/9",
+              "hindi": "Step 3: भिन्न को सरल कीजिए।\n4/18 = 2/9"
+            },
+            {
+              "english": "Final answer: 2/9",
+              "hindi": "अंतिम उत्तर: 2/9"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3719,8 +4823,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find 9/28 - 5/28.",
+              "hindi": "हमें 9/28 - 5/28 निकालना है।"
+            },
+            {
+              "english": "Step 1: The denominators are the same, so we subtract the numerators.\n9 - 5 = 4",
+              "hindi": "Step 1: दोनों भिन्नों के हर (denominator) समान हैं, इसलिए हम केवल अंश (numerator) घटाते हैं।\n9 - 5 = 4"
+            },
+            {
+              "english": "Step 2: Keep the denominator 28.\nSo the answer is 4/28.",
+              "hindi": "Step 2: हर 28 वही रहेगा।\nइसलिए उत्तर 4/28 है।"
+            },
+            {
+              "english": "Step 3: Simplify the fraction.\n4/28 = 1/7",
+              "hindi": "Step 3: अब इसे सरल रूप में लिखते हैं।\n4/28 = 1/7"
+            },
+            {
+              "english": "Final answer: 1/7",
+              "hindi": "अंतिम उत्तर: 1/7"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3784,8 +4912,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the difference of 1/2 and 1/3, subtract the smaller fraction from the larger fraction:\n1/2 - 1/3\nFind a common denominator. The least common denominator of 2 and 3 is 6.\nSo, 1/2 = 3/6 and 1/3 = 2/6.\nNow subtract:\n3/6 - 2/6 = 1/6.\nFinal answer: 1/6.",
+              "hindi": "1/2 और 1/3 का अंतर निकालने के लिए, बड़ी भिन्न में से छोटी भिन्न घटाते हैं:\n1/2 - 1/3\nअब समान हर बनाते हैं। 2 और 3 का लघुत्तम समापवर्त्य 6 है।\nइसलिए 1/2 = 3/6 और 1/3 = 2/6.\nअब घटाएँ:\n3/6 - 2/6 = 1/6.\nअंतिम उत्तर: 1/6."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3849,8 +4985,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the difference of 1/6 and 2/3, subtract the smaller fraction from the larger fraction.",
+              "hindi": "1/6 और 2/3 का difference निकालने के लिए बड़े भिन्न में से छोटे भिन्न को घटाते हैं."
+            },
+            {
+              "english": "Step 1: Write 2/3 with denominator 6.\n2/3 = 4/6",
+              "hindi": "Step 1: 2/3 को denominator 6 में लिखें.\n2/3 = 4/6"
+            },
+            {
+              "english": "Step 2: Subtract.\n4/6 - 1/6 = 3/6",
+              "hindi": "Step 2: अब घटाएँ.\n4/6 - 1/6 = 3/6"
+            },
+            {
+              "english": "Step 3: Simplify.\n3/6 = 1/2",
+              "hindi": "Step 3: सरल करें.\n3/6 = 1/2"
+            },
+            {
+              "english": "Final answer: 1/2",
+              "hindi": "Final answer: 1/2"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3914,8 +5074,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find the difference between 3/4 and 5/6.",
+              "hindi": "हमें 3/4 और 5/6 का अंतर निकालना है।"
+            },
+            {
+              "english": "Step 1: Take the larger fraction first.\n5/6 is larger than 3/4, so we subtract:\n5/6 - 3/4",
+              "hindi": "Step 1: पहले बड़ी भिन्न को लें।\n5/6, 3/4 से बड़ी है, इसलिए हम घटाते हैं:\n5/6 - 3/4"
+            },
+            {
+              "english": "Step 2: Make the denominators the same.\nThe LCM of 6 and 4 is 12.\nSo,\n5/6 = 10/12\n3/4 = 9/12",
+              "hindi": "Step 2: दोनों के हर (denominator) बराबर करें।\n6 और 4 का LCM 12 है।\nइसलिए,\n5/6 = 10/12\n3/4 = 9/12"
+            },
+            {
+              "english": "Step 3: Subtract the numerators.\n10/12 - 9/12 = 1/12",
+              "hindi": "Step 3: अब अंश (numerator) घटाएँ।\n10/12 - 9/12 = 1/12"
+            },
+            {
+              "english": "So, the difference is 1/12.",
+              "hindi": "इसलिए, अंतर 1/12 है।"
+            },
+            {
+              "english": "Final answer: 1/12",
+              "hindi": "Final answer: 1/12"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3979,8 +5167,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the difference of 3/8 and 5/12, first write both fractions with the same denominator.",
+              "hindi": "3/8 और 5/12 का अंतर निकालने के लिए, पहले दोनों भिन्नों का हर एक जैसा करते हैं।"
+            },
+            {
+              "english": "The least common denominator of 8 and 12 is 24.",
+              "hindi": "8 और 12 का LCM 24 है।"
+            },
+            {
+              "english": "3/8 = 9/24\n5/12 = 10/24",
+              "hindi": "3/8 = 9/24\n5/12 = 10/24"
+            },
+            {
+              "english": "Now subtract the smaller fraction from the larger fraction:\n10/24 - 9/24 = 1/24",
+              "hindi": "अब बड़े भिन्न में से छोटे भिन्न को घटाते हैं:\n10/24 - 9/24 = 1/24"
+            },
+            {
+              "english": "So, the difference is 1/24.",
+              "hindi": "इसलिए, अंतर 1/24 है।"
+            },
+            {
+              "english": "Final answer: 1/24",
+              "hindi": "अंतिम उत्तर: 1/24"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4044,8 +5260,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the difference of 7/10 and 8/15, we subtract the smaller fraction from the larger fraction.",
+              "hindi": "7/10 और 8/15 का अंतर निकालने के लिए हम बड़ी भिन्न में से छोटी भिन्न घटाते हैं।"
+            },
+            {
+              "english": "Step 1: Find a common denominator.\nThe LCM of 10 and 15 is 30.",
+              "hindi": "चरण 1: समान हर निकालिए।\n10 और 15 का LCM 30 है।"
+            },
+            {
+              "english": "Step 2: Convert both fractions.\n7/10 = 21/30\n8/15 = 16/30",
+              "hindi": "चरण 2: दोनों भिन्नों को 30 हर में बदलिए।\n7/10 = 21/30\n8/15 = 16/30"
+            },
+            {
+              "english": "Step 3: Subtract.\n21/30 - 16/30 = 5/30",
+              "hindi": "चरण 3: घटाइए।\n21/30 - 16/30 = 5/30"
+            },
+            {
+              "english": "Step 4: Simplify.\n5/30 = 1/6",
+              "hindi": "चरण 4: सरल कीजिए।\n5/30 = 1/6"
+            },
+            {
+              "english": "Final answer: 1/6",
+              "hindi": "अंतिम उत्तर: 1/6"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4109,8 +5353,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the difference, subtract the smaller fraction from the larger fraction.",
+              "hindi": "अंतर निकालने के लिए बड़ी भिन्न में से छोटी भिन्न को घटाते हैं।"
+            },
+            {
+              "english": "19/15 - 7/20",
+              "hindi": "19/15 - 7/20"
+            },
+            {
+              "english": "First, find a common denominator.\nThe LCM of 15 and 20 is 60.",
+              "hindi": "पहले समान हर (common denominator) निकालते हैं।\n15 और 20 का LCM 60 है।"
+            },
+            {
+              "english": "So,\n19/15 = 76/60\n7/20 = 21/60",
+              "hindi": "इसलिए,\n19/15 = 76/60\n7/20 = 21/60"
+            },
+            {
+              "english": "Now subtract:\n76/60 - 21/60 = 55/60",
+              "hindi": "अब घटाएँ:\n76/60 - 21/60 = 55/60"
+            },
+            {
+              "english": "Simplify the fraction:\n55/60 = 11/12",
+              "hindi": "इसे सरल करें:\n55/60 = 11/12"
+            },
+            {
+              "english": "Final answer: 11/12",
+              "hindi": "अंतिम उत्तर: 11/12"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4174,8 +5450,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the difference, first make the denominators the same. \n4/5 = 8/10.\nNow subtract:\n8/10 - 3/10 = 5/10.\nSimplify 5/10 by dividing top and bottom by 5:\n5/10 = 1/2.\nFinal answer: 1/2",
+              "hindi": "अंतर निकालने के लिए पहले हर समान बनाते हैं।\n4/5 = 8/10.\nअब घटाएँ:\n8/10 - 3/10 = 5/10.\nअब 5/10 को 5 से भाग देकर सरल करें:\n5/10 = 1/2.\nअंतिम उत्तर: 1/2"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4239,8 +5523,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 6 - 3/5, we rewrite 6 in fifths.\n6 = 5 5/5.\nNow subtract:\n5 5/5 - 3/5 = 5 2/5.\nSo, the difference is 5 2/5.",
+              "hindi": "6 - 3/5 निकालने के लिए पहले 6 को पाँचवें भागों में लिखते हैं.\n6 = 5 5/5.\nअब घटाएँ:\n5 5/5 - 3/5 = 5 2/5.\nइसलिए, अंतर 5 2/5 है."
+            }
+          ]
         }
       ],
       "tags": [
@@ -4305,8 +5597,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 17/16 - 11/24, we first make the denominators the same.\nThe LCM of 16 and 24 is 48.\nSo, 17/16 = (17 × 3)/(16 × 3) = 51/48.\nAnd 11/24 = (11 × 2)/(24 × 2) = 22/48.\nNow subtract:\n51/48 - 22/48 = (51 - 22)/48 = 29/48.\nSo, the difference is 29/48.",
+              "hindi": "17/16 - 11/24 का अंतर निकालने के लिए पहले हर समान करते हैं।\n16 और 24 का LCM 48 है।\nइसलिए, 17/16 = (17 × 3)/(16 × 3) = 51/48.\nऔर 11/24 = (11 × 2)/(24 × 2) = 22/48.\nअब घटाइए:\n51/48 - 22/48 = (51 - 22)/48 = 29/48.\nअतः अंतर 29/48 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4370,8 +5670,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 1 - 8/15, first write 1 as a fraction with denominator 15.",
+              "hindi": "1 - 8/15 का अंतर निकालने के लिए, पहले 1 को 15 हर वाले भिन्न के रूप में लिखते हैं।"
+            },
+            {
+              "english": "1 = 15/15",
+              "hindi": "1 = 15/15"
+            },
+            {
+              "english": "Now subtract:\n15/15 - 8/15 = (15 - 8)/15 = 7/15",
+              "hindi": "अब घटाते हैं:\n15/15 - 8/15 = (15 - 8)/15 = 7/15"
+            },
+            {
+              "english": "So, the difference is 7/15.",
+              "hindi": "इसलिए अंतर 7/15 है।"
+            },
+            {
+              "english": "Final answer: 7/15",
+              "hindi": "Final answer: 7/15"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4435,8 +5759,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 5 - 5/8, rewrite 5 as a fraction with eighths: 5 = 4 8/8.\nNow subtract:\n4 8/8 - 5/8 = 4 3/8.\nSo, the difference is 4 3/8.\nFinal answer: 4 3/8.",
+              "hindi": "5 - 5/8 का अंतर निकालने के लिए 5 को आठवें भागों में लिखते हैं: 5 = 4 8/8.\nअब घटाइए:\n4 8/8 - 5/8 = 4 3/8.\nइसलिए, अंतर 4 3/8 है.\nअंतिम उत्तर: 4 3/8."
+            }
+          ]
         }
       ],
       "tags": [
@@ -4500,8 +5832,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the difference of 53/6 - 7, first write 7 with denominator 6.",
+              "hindi": "53/6 - 7 का अंतर निकालने के लिए पहले 7 को हर 6 वाले भिन्न में लिखते हैं।"
+            },
+            {
+              "english": "7 = 42/6",
+              "hindi": "7 = 42/6"
+            },
+            {
+              "english": "Now subtract:\n53/6 - 42/6 = 11/6",
+              "hindi": "अब घटाइए:\n53/6 - 42/6 = 11/6"
+            },
+            {
+              "english": "Now convert 11/6 into a mixed number:\n11 ÷ 6 = 1 remainder 5\nSo, 11/6 = 1 5/6",
+              "hindi": "अब 11/6 को मिश्रित भिन्न में बदलते हैं:\n11 ÷ 6 = 1 शेष 5\nइसलिए, 11/6 = 1 5/6"
+            },
+            {
+              "english": "Final answer: 1 5/6",
+              "hindi": "अंतिम उत्तर: 1 5/6"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4565,8 +5921,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We can read the question as 3 3/4 - 2 1/2.\nStep 1: Change 1/2 into fourths.\n1/2 = 2/4\nSo, 2 1/2 = 2 2/4.\nStep 2: Subtract the whole numbers.\n3 - 2 = 1\nStep 3: Subtract the fractions.\n3/4 - 2/4 = 1/4\nStep 4: Put them together.\n1 + 1/4 = 1 1/4\nFinal answer: 1 1/4",
+              "hindi": "हम प्रश्न को 3 3/4 - 2 1/2 के रूप में समझते हैं.\nचरण 1: 1/2 को चौथाई में बदलें.\n1/2 = 2/4\nइसलिए, 2 1/2 = 2 2/4.\nचरण 2: पूरे भाग घटाएँ.\n3 - 2 = 1\nचरण 3: भिन्न भाग घटाएँ.\n3/4 - 2/4 = 1/4\nचरण 4: दोनों को मिलाएँ.\n1 + 1/4 = 1 1/4\nअंतिम उत्तर: 1 1/4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4630,8 +5994,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We will solve 6 2/3 - 4 1/9 step by step.",
+              "hindi": "हम 6 2/3 - 4 1/9 को चरण दर चरण हल करेंगे।"
+            },
+            {
+              "english": "Step 1: Convert both mixed numbers into fractions with the same denominator.\n6 2/3 = 20/3\n4 1/9 = 37/9",
+              "hindi": "चरण 1: दोनों मिश्र भिन्नों को भिन्न में बदलें और समान हर बनाइए।\n6 2/3 = 20/3\n4 1/9 = 37/9"
+            },
+            {
+              "english": "Step 2: Make the denominators the same.\n20/3 = 60/9",
+              "hindi": "चरण 2: हर समान कीजिए।\n20/3 = 60/9"
+            },
+            {
+              "english": "Now subtract:\n60/9 - 37/9 = 23/9",
+              "hindi": "अब घटाइए:\n60/9 - 37/9 = 23/9"
+            },
+            {
+              "english": "Step 3: Convert 23/9 into a mixed number.\n23/9 = 2 5/9",
+              "hindi": "चरण 3: 23/9 को मिश्र भिन्न में बदलिए।\n23/9 = 2 5/9"
+            },
+            {
+              "english": "Final answer: 2 5/9",
+              "hindi": "अंतिम उत्तर: 2 5/9"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4695,8 +6087,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The question is read as **5 2/3 - 2 3/4**.",
+              "hindi": "प्रश्न को **5 2/3 - 2 3/4** के रूप में पढ़ते हैं।"
+            },
+            {
+              "english": "Step 1: Convert both mixed numbers into improper fractions.\n- 5 2/3 = (5 × 3 + 2) / 3 = 17/3\n- 2 3/4 = (2 × 4 + 3) / 4 = 11/4",
+              "hindi": "चरण 1: दोनों मिश्र भिन्नों को अशुद्ध भिन्न में बदलते हैं।\n- 5 2/3 = (5 × 3 + 2) / 3 = 17/3\n- 2 3/4 = (2 × 4 + 3) / 4 = 11/4"
+            },
+            {
+              "english": "Step 2: Make the denominators the same.\n- LCM of 3 and 4 is 12\n- 17/3 = 68/12\n- 11/4 = 33/12",
+              "hindi": "चरण 2: दोनों हर समान करते हैं।\n- 3 और 4 का LCM = 12\n- 17/3 = 68/12\n- 11/4 = 33/12"
+            },
+            {
+              "english": "Step 3: Subtract.\n- 68/12 - 33/12 = 35/12",
+              "hindi": "चरण 3: घटाते हैं।\n- 68/12 - 33/12 = 35/12"
+            },
+            {
+              "english": "Step 4: Convert back to a mixed number.\n- 35/12 = 2 11/12",
+              "hindi": "चरण 4: इसे मिश्र भिन्न में बदलते हैं।\n- 35/12 = 2 11/12"
+            },
+            {
+              "english": "Final answer: **2 11/12**",
+              "hindi": "अंतिम उत्तर: **2 11/12**"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4760,8 +6180,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Treat it as the mixed numbers 5 5/12 and 4 1/6.",
+              "hindi": "इसे मिश्रित संख्याओं 5 5/12 और 4 1/6 के रूप में लें।"
+            },
+            {
+              "english": "Step 1: Change 1/6 to twelfths.\n1/6 = 2/12, so 4 1/6 = 4 2/12.",
+              "hindi": "चरण 1: 1/6 को 12वें हिस्सों में बदलें।\n1/6 = 2/12, इसलिए 4 1/6 = 4 2/12।"
+            },
+            {
+              "english": "Step 2: Subtract.\n5 5/12 - 4 2/12 = (5 - 4) + (5/12 - 2/12)\n= 1 + 3/12",
+              "hindi": "चरण 2: घटाएं।\n5 5/12 - 4 2/12 = (5 - 4) + (5/12 - 2/12)\n= 1 + 3/12"
+            },
+            {
+              "english": "Step 3: Simplify 3/12.\n3/12 = 1/4",
+              "hindi": "चरण 3: 3/12 को सरल करें।\n3/12 = 1/4"
+            },
+            {
+              "english": "So the answer is 1 1/4\nFinal answer: 1 1/4",
+              "hindi": "इसलिए उत्तर है 1 1/4\nअंतिम उत्तर: 1 1/4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4825,8 +6269,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Read the question as the mixed numbers 5 1/8 - 3 1/12.\nStep 1: Find a common denominator for 1/8 and 1/12. The LCM of 8 and 12 is 24.\nStep 2: Convert the fractions: 1/8 = 3/24 and 1/12 = 2/24.\nStep 3: Subtract the whole numbers: 5 - 3 = 2.\nStep 4: Subtract the fractions: 3/24 - 2/24 = 1/24.\nStep 5: Combine them: 2 + 1/24 = 2 1/24.\nFinal answer: 2 1/24.",
+              "hindi": "प्रश्न को मिश्रित भिन्न 5 1/8 - 3 1/12 के रूप में पढ़ें।\nचरण 1: 1/8 और 1/12 का समान हर निकालें। 8 और 12 का LCM 24 है।\nचरण 2: भिन्नों को बदलें: 1/8 = 3/24 और 1/12 = 2/24।\nचरण 3: पूरे भागों को घटाएँ: 5 - 3 = 2।\nचरण 4: भिन्नों को घटाएँ: 3/24 - 2/24 = 1/24।\nचरण 5: दोनों को मिलाएँ: 2 + 1/24 = 2 1/24।\nअंतिम उत्तर: 2 1/24।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4890,8 +6342,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Convert the mixed numbers to improper fractions.\n5 3/10 = 53/10\n3 7/15 = 52/15",
+              "hindi": "चरण 1: मिश्रित भिन्नों को अशुद्ध भिन्न में बदलिए।\n5 3/10 = 53/10\n3 7/15 = 52/15"
+            },
+            {
+              "english": "Step 2: Find a common denominator.\nThe LCM of 10 and 15 is 30.\n53/10 = 159/30\n52/15 = 104/30",
+              "hindi": "चरण 2: समान हर निकालिए।\n10 और 15 का LCM 30 है।\n53/10 = 159/30\n52/15 = 104/30"
+            },
+            {
+              "english": "Step 3: Subtract.\n159/30 - 104/30 = 55/30",
+              "hindi": "चरण 3: घटाइए।\n159/30 - 104/30 = 55/30"
+            },
+            {
+              "english": "Step 4: Simplify.\n55/30 = 11/6 = 1 5/6",
+              "hindi": "चरण 4: सरल कीजिए।\n55/30 = 11/6 = 1 5/6"
+            },
+            {
+              "english": "Final answer: 1 5/6",
+              "hindi": "अंतिम उत्तर: 1 5/6"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4955,8 +6431,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Treat the question as the mixed numbers 7 4/9 and 3 5/12.\nStep 2: Find a common denominator for 4/9 and 5/12.\nThe LCM of 9 and 12 is 36, so 4/9 = 16/36 and 5/12 = 15/36.\nStep 3: Subtract the fractions.\n16/36 - 15/36 = 1/36.\nStep 4: Subtract the whole numbers.\n7 - 3 = 4.\nSo the difference is 4 1/36.\nFinal answer: 4 1/36",
+              "hindi": "चरण 1: प्रश्न को 7 4/9 और 3 5/12 वाले मिश्र भिन्नों के रूप में समझिए।\nचरण 2: 4/9 और 5/12 के लिए समान हर निकालिए।\n9 और 12 का ल.स. 36 है, इसलिए 4/9 = 16/36 और 5/12 = 15/36।\nचरण 3: भिन्नों को घटाइए।\n16/36 - 15/36 = 1/36।\nचरण 4: पूरे अंकों को घटाइए।\n7 - 3 = 4।\nइसलिए अंतर 4 1/36 है।\nअंतिम उत्तर: 4 1/36"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5020,8 +6504,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In this question, 51/6 means 5 1/6 and 17/10 means 1 7/10.",
+              "hindi": "इस प्रश्न में 51/6 का मतलब 5 1/6 है और 17/10 का मतलब 1 7/10 है।"
+            },
+            {
+              "english": "Step 1: Change both mixed numbers into improper fractions.\n5 1/6 = (5 × 6 + 1)/6 = 31/6\n1 7/10 = (1 × 10 + 7)/10 = 17/10",
+              "hindi": "चरण 1: दोनों मिश्र भिन्नों को अशुद्ध भिन्न में बदलें।\n5 1/6 = (5 × 6 + 1)/6 = 31/6\n1 7/10 = (1 × 10 + 7)/10 = 17/10"
+            },
+            {
+              "english": "Step 2: Find a common denominator.\nThe LCM of 6 and 10 is 30.\n31/6 = 155/30\n17/10 = 51/30",
+              "hindi": "चरण 2: समान हर निकालें।\n6 और 10 का LCM 30 है।\n31/6 = 155/30\n17/10 = 51/30"
+            },
+            {
+              "english": "Step 3: Subtract.\n155/30 - 51/30 = 104/30",
+              "hindi": "चरण 3: घटाएँ।\n155/30 - 51/30 = 104/30"
+            },
+            {
+              "english": "Step 4: Simplify the fraction.\n104/30 = 52/15 = 3 7/15",
+              "hindi": "चरण 4: भिन्न को सरल करें।\n104/30 = 52/15 = 3 7/15"
+            },
+            {
+              "english": "Final answer: 3 7/15",
+              "hindi": "अंतिम उत्तर: 3 7/15"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5085,8 +6597,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find the difference of 3 and 2 1/8.",
+              "hindi": "हमें 3 और 2 1/8 का अंतर निकालना है।"
+            },
+            {
+              "english": "Step 1: Write 3 as a fraction with denominator 8.\n3 = 24/8",
+              "hindi": "चरण 1: 3 को हर 8 वाले भिन्न में लिखिए।\n3 = 24/8"
+            },
+            {
+              "english": "Step 2: Now subtract.\n24/8 - 21/8 = 3/8",
+              "hindi": "चरण 2: अब घटाइए।\n24/8 - 21/8 = 3/8"
+            },
+            {
+              "english": "Step 3: But the question is asking for 3 - 2 1/8, so:\n3 = 24/8\n2 1/8 = 17/8\n24/8 - 17/8 = 7/8",
+              "hindi": "चरण 3: लेकिन इस प्रश्न में 3 - 2 1/8 पूछा गया है, इसलिए:\n3 = 24/8\n2 1/8 = 17/8\n24/8 - 17/8 = 7/8"
+            },
+            {
+              "english": "Final answer: 7/8",
+              "hindi": "अंतिम उत्तर: 7/8"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5150,8 +6686,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "In this question, 16/7 means 1 6/7.\nStep 1: Write 5 as 35/7, because 5 × 7 = 35.\nStep 2: Write 1 6/7 as 13/7, because 1 × 7 + 6 = 13.\nStep 3: Subtract.\n35/7 - 13/7 = 22/7\nStep 4: Write 22/7 as a mixed number.\n22/7 = 3 1/7\nSo, the difference is 3 1/7.\nFinal answer: 3 1/7",
+              "hindi": "इस प्रश्न में 16/7 का मतलब 1 6/7 है।\nचरण 1: 5 को 35/7 लिखिए, क्योंकि 5 × 7 = 35।\nचरण 2: 1 6/7 को 13/7 लिखिए, क्योंकि 1 × 7 + 6 = 13।\nचरण 3: घटाइए।\n35/7 - 13/7 = 22/7\nचरण 4: 22/7 को मिश्र भिन्न में लिखिए।\n22/7 = 3 1/7\nइसलिए अंतर 3 1/7 है।\nअंतिम उत्तर: 3 1/7"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5215,8 +6759,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the difference, use a common denominator.",
+              "hindi": "अंतर निकालने के लिए पहले हर समान करते हैं।"
+            },
+            {
+              "english": "Step 1: Convert 3 3/4 to an improper fraction.\n3 3/4 = 15/4",
+              "hindi": "चरण 1: 3 3/4 को अपूर्ण भिन्न में बदलें।\n3 3/4 = 15/4"
+            },
+            {
+              "english": "Step 2: Make the denominators the same.\n15/4 = 75/20\n7/10 = 14/20",
+              "hindi": "चरण 2: दोनों भिन्नों के हर समान करें।\n15/4 = 75/20\n7/10 = 14/20"
+            },
+            {
+              "english": "Step 3: Subtract.\n75/20 - 14/20 = 61/20",
+              "hindi": "चरण 3: घटाएँ।\n75/20 - 14/20 = 61/20"
+            },
+            {
+              "english": "Step 4: Change back to a mixed number.\n61/20 = 3 1/20",
+              "hindi": "चरण 4: इसे मिश्र भिन्न में बदलें।\n61/20 = 3 1/20"
+            },
+            {
+              "english": "Final answer: 3 1/20",
+              "hindi": "अंतिम उत्तर: 3 1/20"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5280,8 +6852,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Convert 1 11/24 to an improper fraction.\n1 11/24 = 24/24 + 11/24 = 35/24.\nStep 2: Convert 7/8 to a fraction with denominator 24.\n7/8 = 21/24.\nStep 3: Subtract.\n35/24 - 21/24 = 14/24.\nStep 4: Simplify.\n14/24 = 7/12.\nFinal answer: 7/12",
+              "hindi": "Step 1: 1 11/24 को improper fraction में बदलें.\n1 11/24 = 24/24 + 11/24 = 35/24.\nStep 2: 7/8 को 24 हर वाले भिन्न में बदलें.\n7/8 = 21/24.\nStep 3: घटाएं.\n35/24 - 21/24 = 14/24.\nStep 4: सरल करें.\n14/24 = 7/12.\nअंतिम उत्तर: 7/12"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5345,8 +6925,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To simplify 1/2 + 3/4 - 5/8, we first make all the denominators the same.",
+              "hindi": "1/2 + 3/4 - 5/8 को सरल करने के लिए पहले सभी भिन्नों का हर (denominator) एक जैसा बनाते हैं।"
+            },
+            {
+              "english": "1/2 = 4/8\n3/4 = 6/8\n5/8 = 5/8",
+              "hindi": "1/2 = 4/8\n3/4 = 6/8\n5/8 = 5/8"
+            },
+            {
+              "english": "Now substitute them back:\n4/8 + 6/8 - 5/8",
+              "hindi": "अब इन्हें लिखें:\n4/8 + 6/8 - 5/8"
+            },
+            {
+              "english": "Add and subtract the numerators:\n4 + 6 - 5 = 5\nSo the answer is 5/8.",
+              "hindi": "अब अंशों (numerators) को जोड़ें और घटाएँ:\n4 + 6 - 5 = 5\nइसलिए उत्तर है 5/8।"
+            },
+            {
+              "english": "Final answer: 5/8",
+              "hindi": "अंतिम उत्तर: 5/8"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5410,8 +7014,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to simplify: 7/8 – 1/6 + 5/12.",
+              "hindi": "हमें 7/8 – 1/6 + 5/12 को सरल करना है।"
+            },
+            {
+              "english": "Step 1: Find a common denominator.\nThe least common multiple of 8, 6, and 12 is 24.",
+              "hindi": "चरण 1: समान हर (common denominator) खोजें।\n8, 6 और 12 का लघुत्तम समापवर्त्य 24 है।"
+            },
+            {
+              "english": "Step 2: Rewrite each fraction with denominator 24.\n7/8 = 21/24\n1/6 = 4/24\n5/12 = 10/24",
+              "hindi": "चरण 2: हर भिन्न को 24 हर में लिखें।\n7/8 = 21/24\n1/6 = 4/24\n5/12 = 10/24"
+            },
+            {
+              "english": "Step 3: Do the subtraction and addition.\n21/24 - 4/24 + 10/24 = (21 - 4 + 10)/24 = 27/24",
+              "hindi": "चरण 3: अब घटाएँ और जोड़ें।\n21/24 - 4/24 + 10/24 = (21 - 4 + 10)/24 = 27/24"
+            },
+            {
+              "english": "Step 4: Simplify.\n27/24 = 9/8 = 1 1/8",
+              "hindi": "चरण 4: भिन्न को सरल करें।\n27/24 = 9/8 = 1 1/8"
+            },
+            {
+              "english": "Final Answer: 1 1/8",
+              "hindi": "अंतिम उत्तर: 1 1/8"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5475,8 +7107,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's simplify 1/4 - 5/9 + 7/12 step by step.\n1. Find a common denominator for 4, 9, and 12. The LCM is 36.\n2. Convert each fraction:\n   1/4 = 9/36\n   5/9 = 20/36\n   7/12 = 21/36\n3. Substitute and simplify:\n   9/36 - 20/36 + 21/36 = (9 - 20 + 21)/36 = 10/36\n4. Reduce the fraction:\n   10/36 = 5/18\nFinal answer: 5/18",
+              "hindi": "आइए 1/4 - 5/9 + 7/12 को step by step सरल करें।\n1. 4, 9 और 12 का common denominator खोजें। इनका LCM 36 है।\n2. हर भिन्न को 36 हर वाले रूप में बदलें:\n   1/4 = 9/36\n   5/9 = 20/36\n   7/12 = 21/36\n3. अब जोड़-घटाव करें:\n   9/36 - 20/36 + 21/36 = (9 - 20 + 21)/36 = 10/36\n4. भिन्न को सरल करें:\n   10/36 = 5/18\nअंतिम उत्तर: 5/18"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5540,8 +7180,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To simplify 3/5 + 7/10 - 1/2:\n1. Find a common denominator. The denominators are 5, 10, and 2. The smallest common denominator is 10.\n2. Convert each fraction to tenths:\n   3/5 = 6/10\n   7/10 = 7/10\n   1/2 = 5/10\n3. Now combine:\n   6/10 + 7/10 - 5/10 = 8/10\n4. Simplify 8/10 by dividing numerator and denominator by 2:\n   8/10 = 4/5\nFinal answer: 4/5",
+              "hindi": "3/5 + 7/10 - 1/2 को सरल करने के लिए:\n1. पहले समान हर (common denominator) लेते हैं। हर हैं 5, 10, और 2. इनका सबसे छोटा समान हर 10 है।\n2. अब हर भिन्न को 10 के रूप में लिखते हैं:\n   3/5 = 6/10\n   7/10 = 7/10\n   1/2 = 5/10\n3. अब जोड़-घटाव करते हैं:\n   6/10 + 7/10 - 5/10 = 8/10\n4. 8/10 को सरल करें। 8 और 10 दोनों को 2 से भाग दें:\n   8/10 = 4/5\nअंतिम उत्तर: 4/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5605,8 +7253,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To simplify 3/10 - 8/15 + 2/5, first find a common denominator.",
+              "hindi": "3/10 - 8/15 + 2/5 को सरल करने के लिए पहले समान हर (common denominator) निकालते हैं।"
+            },
+            {
+              "english": "The LCM of 10, 15, and 5 is 30.",
+              "hindi": "10, 15 और 5 का LCM 30 है।"
+            },
+            {
+              "english": "Rewrite each fraction with denominator 30:\n3/10 = 9/30\n8/15 = 16/30\n2/5 = 12/30",
+              "hindi": "अब हर भिन्न को 30 हर में लिखते हैं:\n3/10 = 9/30\n8/15 = 16/30\n2/5 = 12/30"
+            },
+            {
+              "english": "Now do the subtraction and addition:\n9/30 - 16/30 + 12/30 = (9 - 16 + 12)/30 = 5/30",
+              "hindi": "अब घटाव और जोड़ करें:\n9/30 - 16/30 + 12/30 = (9 - 16 + 12)/30 = 5/30"
+            },
+            {
+              "english": "Now simplify 5/30:\n5/30 = 1/6",
+              "hindi": "अब 5/30 को सरल करें:\n5/30 = 1/6"
+            },
+            {
+              "english": "Final answer: 1/6",
+              "hindi": "अंतिम उत्तर: 1/6"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5670,8 +7346,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To simplify 4/9 - 5/12 + 1/4, we first find a common denominator.",
+              "hindi": "4/9 - 5/12 + 1/4 को सरल करने के लिए पहले समान हर (common denominator) निकालते हैं।"
+            },
+            {
+              "english": "The denominators are 9, 12, and 4.\nThe least common denominator is 36.",
+              "hindi": "हर हैं 9, 12, और 4.\nइनका लघुत्तम समापवर्तक 36 है।"
+            },
+            {
+              "english": "Now convert each fraction:\n4/9 = 16/36\n5/12 = 15/36\n1/4 = 9/36",
+              "hindi": "अब हर भिन्न को 36 हर में लिखते हैं:\n4/9 = 16/36\n5/12 = 15/36\n1/4 = 9/36"
+            },
+            {
+              "english": "Substitute them into the expression:\n16/36 - 15/36 + 9/36",
+              "hindi": "अब इन्हें मूल प्रश्न में रखें:\n16/36 - 15/36 + 9/36"
+            },
+            {
+              "english": "Now do the numerator step by step:\n16 - 15 + 9 = 10",
+              "hindi": "अब ऊपर वाले अंकों को क्रम से हल करें:\n16 - 15 + 9 = 10"
+            },
+            {
+              "english": "So we get:\n10/36",
+              "hindi": "इसलिए हमें मिलता है:\n10/36"
+            },
+            {
+              "english": "Now simplify the fraction by dividing numerator and denominator by 2:\n10/36 = 5/18",
+              "hindi": "अब इस भिन्न को सरल करें। 10 और 36 दोनों को 2 से भाग देते हैं:\n10/36 = 5/18"
+            },
+            {
+              "english": "Final answer: 5/18",
+              "hindi": "अंतिम उत्तर: 5/18"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5735,8 +7447,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us solve it step by step.",
+              "hindi": "आइए इसे चरणों में हल करें।"
+            },
+            {
+              "english": "1. Change the mixed numbers into improper fractions:\n- 2 1/3 = 7/3\n- 3 1/6 = 19/6\n- 1 5/12 = 17/12",
+              "hindi": "1. पहले मिश्र भिन्नों को अपूर्ण भिन्न में बदलें:\n- 2 1/3 = 7/3\n- 3 1/6 = 19/6\n- 1 5/12 = 17/12"
+            },
+            {
+              "english": "2. Take the common denominator 12:\n- 7/3 = 28/12\n- 19/6 = 38/12\n- 17/12 = 17/12",
+              "hindi": "2. अब 12 को समान हर लें:\n- 7/3 = 28/12\n- 19/6 = 38/12\n- 17/12 = 17/12"
+            },
+            {
+              "english": "3. Now add and subtract:\n28/12 + 38/12 - 17/12 = 49/12",
+              "hindi": "3. अब जोड़ और घटाव करें:\n28/12 + 38/12 - 17/12 = 49/12"
+            },
+            {
+              "english": "4. Convert 49/12 back to a mixed number:\n49/12 = 4 1/12",
+              "hindi": "4. 49/12 को फिर से मिश्र भिन्न में बदलें:\n49/12 = 4 1/12"
+            },
+            {
+              "english": "Final answer: 4 1/12",
+              "hindi": "अंतिम उत्तर: 4 1/12"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5800,8 +7540,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us simplify the expression step by step:",
+              "hindi": "आइए इस व्यंजक को step by step सरल करें:"
+            },
+            {
+              "english": "4 1/4 - 2 3/8 + 3 1/3",
+              "hindi": "4 1/4 - 2 3/8 + 3 1/3"
+            },
+            {
+              "english": "Step 1: Convert each mixed number into an improper fraction.\n4 1/4 = 17/4\n2 3/8 = 19/8\n3 1/3 = 10/3",
+              "hindi": "Step 1: सभी मिश्रित भिन्नों को अशुद्ध भिन्न में बदलें।\n4 1/4 = 17/4\n2 3/8 = 19/8\n3 1/3 = 10/3"
+            },
+            {
+              "english": "Step 2: Find a common denominator.\nThe LCM of 4, 8, and 3 is 24.",
+              "hindi": "Step 2: समान हर (common denominator) लें।\n4, 8, और 3 का LCM 24 है।"
+            },
+            {
+              "english": "So,\n17/4 = 102/24\n19/8 = 57/24\n10/3 = 80/24",
+              "hindi": "इसलिए,\n17/4 = 102/24\n19/8 = 57/24\n10/3 = 80/24"
+            },
+            {
+              "english": "Step 3: Perform the operation.\n102/24 - 57/24 + 80/24\n= (102 - 57 + 80)/24\n= 125/24",
+              "hindi": "Step 3: अब जोड़-घटाव करें।\n102/24 - 57/24 + 80/24\n= (102 - 57 + 80)/24\n= 125/24"
+            },
+            {
+              "english": "Step 4: Convert 125/24 into a mixed number.\n125 ÷ 24 = 5 remainder 5\nSo, 125/24 = 5 5/24",
+              "hindi": "Step 4: 125/24 को मिश्रित भिन्न में बदलें।\n125 ÷ 24 = 5 शेष 5\nइसलिए, 125/24 = 5 5/24"
+            },
+            {
+              "english": "Final answer: 5 5/24",
+              "hindi": "अंतिम उत्तर: 5 5/24"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5865,8 +7641,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us simplify step by step.",
+              "hindi": "आइए इसे step by step सरल करते हैं।"
+            },
+            {
+              "english": "1. First convert the mixed numbers into improper fractions:\n   6 5/9 = (6 x 9 + 5)/9 = 59/9\n   4 1/3 = (4 x 3 + 1)/3 = 13/3\n   2 1/6 = (2 x 6 + 1)/6 = 13/6",
+              "hindi": "1. पहले mixed numbers को improper fractions में बदलते हैं:\n   6 5/9 = (6 x 9 + 5)/9 = 59/9\n   4 1/3 = (4 x 3 + 1)/3 = 13/3\n   2 1/6 = (2 x 6 + 1)/6 = 13/6"
+            },
+            {
+              "english": "2. Now make the denominators the same. The LCM of 9, 3, and 6 is 18.\n   59/9 = 118/18\n   13/3 = 78/18\n   13/6 = 39/18",
+              "hindi": "2. अब हर fractions का denominator same करते हैं। 9, 3, और 6 का LCM 18 है।\n   59/9 = 118/18\n   13/3 = 78/18\n   13/6 = 39/18"
+            },
+            {
+              "english": "3. Subtract:\n   118/18 - 78/18 - 39/18 = (118 - 78 - 39)/18 = 1/18",
+              "hindi": "3. अब घटाते हैं:\n   118/18 - 78/18 - 39/18 = (118 - 78 - 39)/18 = 1/18"
+            },
+            {
+              "english": "So, the simplified answer is 1/18.",
+              "hindi": "अंतिम उत्तर: 1/18"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5930,8 +7730,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's solve it step by step:\n1. Change the mixed numbers into improper fractions:\n   3 1/5 = 16/5\n   5 3/10 = 53/10\n2. Write 10 with denominator 10:\n   10 = 100/10\n3. Now subtract:\n   100/10 - 16/5 - 53/10\n   = 100/10 - 32/10 - 53/10\n   = 15/10\n4. Simplify the fraction:\n   15/10 = 3/2 = 1 1/2\nFinal answer: 1 1/2",
+              "hindi": "आइए इसे आसान चरणों में हल करें:\n1. मिश्रित भिन्नों को अशुद्ध भिन्न में बदलें:\n   3 1/5 = 16/5\n   5 3/10 = 53/10\n2. 10 को हर 10 में लिखें:\n   10 = 100/10\n3. अब घटाएँ:\n   100/10 - 16/5 - 53/10\n   = 100/10 - 32/10 - 53/10\n   = 15/10\n4. भिन्न को सरल करें:\n   15/10 = 3/2 = 1 1/2\nअंतिम उत्तर: 1 1/2"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5995,8 +7803,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find:\n(7 3/4 + 6 1/2) - (5 1/2 + 6 3/8)",
+              "hindi": "हमें यह निकालना है:\n(7 3/4 + 6 1/2) - (5 1/2 + 6 3/8)"
+            },
+            {
+              "english": "Step 1: Add the first two numbers.\n7 3/4 + 6 1/2\n= 7 3/4 + 6 2/4\n= 13 5/4\n= 14 1/4",
+              "hindi": "चरण 1: पहले दो संख्याओं का योग निकालिए।\n7 3/4 + 6 1/2\n= 7 3/4 + 6 2/4\n= 13 5/4\n= 14 1/4"
+            },
+            {
+              "english": "Step 2: Add the second two numbers.\n5 1/2 + 6 3/8\n= 5 4/8 + 6 3/8\n= 11 7/8",
+              "hindi": "चरण 2: दूसरी दो संख्याओं का योग निकालिए।\n5 1/2 + 6 3/8\n= 5 4/8 + 6 3/8\n= 11 7/8"
+            },
+            {
+              "english": "Step 3: Subtract the second sum from the first sum.\n14 1/4 - 11 7/8\n= 14 2/8 - 11 7/8\n= 13 10/8 - 11 7/8\n= 2 3/8",
+              "hindi": "चरण 3: पहले योग में से दूसरे योग को घटाइए।\n14 1/4 - 11 7/8\n= 14 2/8 - 11 7/8\n= 13 10/8 - 11 7/8\n= 2 3/8"
+            },
+            {
+              "english": "Final answer: 2 3/8",
+              "hindi": "अंतिम उत्तर: 2 3/8"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6060,8 +7892,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract the difference of 6 2/3 and 5 1/6 from the difference of 4 and 2 1/3.",
+              "hindi": "हमें 6 2/3 और 5 1/6 के अंतर को, 4 और 2 1/3 के अंतर में से घटाना है।"
+            },
+            {
+              "english": "Step 1: Find the difference of 4 and 2 1/3.\n4 - 2 1/3 = 1 2/3",
+              "hindi": "चरण 1: पहले 4 और 2 1/3 का अंतर निकालते हैं।\n4 - 2 1/3 = 1 2/3"
+            },
+            {
+              "english": "Step 2: Find the difference of 6 2/3 and 5 1/6.\n6 2/3 - 5 1/6 = 6 4/6 - 5 1/6 = 1 3/6 = 1 1/2",
+              "hindi": "चरण 2: अब 6 2/3 और 5 1/6 का अंतर निकालते हैं।\n6 2/3 - 5 1/6 = 6 4/6 - 5 1/6 = 1 3/6 = 1 1/2"
+            },
+            {
+              "english": "Step 3: Subtract the second difference from the first difference.\n1 2/3 - 1 1/2 = 5/3 - 3/2\nTake LCM of 3 and 2, which is 6:\n5/3 = 10/6\n3/2 = 9/6\n10/6 - 9/6 = 1/6",
+              "hindi": "चरण 3: अब पहले अंतर में से दूसरे अंतर को घटाते हैं।\n1 2/3 - 1 1/2 = 5/3 - 3/2\n3 और 2 का LCM 6 है:\n5/3 = 10/6\n3/2 = 9/6\n10/6 - 9/6 = 1/6"
+            },
+            {
+              "english": "Final answer: 1/6",
+              "hindi": "अंतिम उत्तर: 1/6"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6127,8 +7983,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the total jump, add the three lengths:\n3/5 + 3/4 + 7/10\nThe common denominator of 5, 4, and 10 is 20.\nSo, 3/5 = 12/20, 3/4 = 15/20, and 7/10 = 14/20.\nNow add them:\n12/20 + 15/20 + 14/20 = 41/20\n41/20 = 2 1/20\nSo, the frog jumped 2 1/20 m in all.\nFinal answer: 2 1/20 m",
+              "hindi": "कुल दूरी निकालने के लिए तीनों छलाँगों की लंबाइयाँ जोड़ते हैं:\n3/5 + 3/4 + 7/10\n5, 4 और 10 का समान हर 20 है।\nइसलिए, 3/5 = 12/20, 3/4 = 15/20, और 7/10 = 14/20.\nअब इन्हें जोड़ते हैं:\n12/20 + 15/20 + 14/20 = 41/20\n41/20 = 2 1/20\nइसलिए मेंढक ने कुल 2 1/20 m छलाँग लगाई।\nअंतिम उत्तर: 2 1/20 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6192,8 +8056,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Convert the mixed numbers into improper fractions.\n2 3/4 = 11/4\n1 1/3 = 4/3",
+              "hindi": "चरण 1: मिश्र भिन्नों को अपूर्ण भिन्नों में बदलें।\n2 3/4 = 11/4\n1 1/3 = 4/3"
+            },
+            {
+              "english": "Step 2: Make the denominators the same.\nThe LCM of 4 and 3 is 12.\n11/4 = 33/12\n4/3 = 16/12",
+              "hindi": "चरण 2: हरों को समान करें।\n4 और 3 का LCM 12 है।\n11/4 = 33/12\n4/3 = 16/12"
+            },
+            {
+              "english": "Step 3: Add the fractions.\n33/12 + 16/12 = 49/12",
+              "hindi": "चरण 3: भिन्नों को जोड़ें।\n33/12 + 16/12 = 49/12"
+            },
+            {
+              "english": "Step 4: Convert 49/12 into a mixed number.\n49/12 = 4 1/12",
+              "hindi": "चरण 4: 49/12 को मिश्र भिन्न में बदलें।\n49/12 = 4 1/12"
+            },
+            {
+              "english": "So, Renu took 4 1/12 hours in all.",
+              "hindi": "इसलिए, रेनु ने कुल 4 1/12 घंटे लगाए।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6259,8 +8147,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We add all the quantities of vegetables.",
+              "hindi": "हमें सभी सब्ज़ियों की मात्रा जोड़नी है।"
+            },
+            {
+              "english": "Potatoes = 4 1/2 kg\nOnions = 3 1/4 kg\nTomatoes = 3/4 kg\nPeas = 1 1/8 kg",
+              "hindi": "आलू = 4 1/2 kg\nप्याज = 3 1/4 kg\nटमाटर = 3/4 kg\nमटर = 1 1/8 kg"
+            },
+            {
+              "english": "Step 1: Change all the mixed numbers and fractions to eighths.\n4 1/2 = 4 4/8\n3 1/4 = 3 2/8\n3/4 = 3 6/8\n1 1/8 = 1 1/8",
+              "hindi": "चरण 1: सभी भिन्नों को 8 के हर में लिखें।\n4 1/2 = 4 4/8\n3 1/4 = 3 2/8\n3/4 = 3 6/8\n1 1/8 = 1 1/8"
+            },
+            {
+              "english": "Step 2: Add the whole numbers.\n4 + 3 + 0 + 1 = 8",
+              "hindi": "चरण 2: पहले पूरे अंक जोड़ें।\n4 + 3 + 0 + 1 = 8"
+            },
+            {
+              "english": "Step 3: Add the fractions.\n4/8 + 2/8 + 6/8 + 1/8 = 13/8 = 1 5/8",
+              "hindi": "चरण 3: अब भिन्न भाग जोड़ें।\n4/8 + 2/8 + 6/8 + 1/8 = 13/8 = 1 5/8"
+            },
+            {
+              "english": "Step 4: Add the whole part and the fraction part.\n8 + 1 5/8 = 9 5/8",
+              "hindi": "चरण 4: पूरे अंक और भिन्न भाग को जोड़ें।\n8 + 1 5/8 = 9 5/8"
+            },
+            {
+              "english": "So, the total quantity of vegetables purchased by Rohit is 9 5/8 kg.",
+              "hindi": "इसलिए, रोहित ने कुल 9 5/8 kg सब्ज़ियाँ खरीदीं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6326,8 +8246,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Write the lengths as mixed numbers.\nRope length = 7 1/4 m\nCut-off piece = 3 4/5 m",
+              "hindi": "चरण 1: दोनों लंबाइयों को मिश्र भिन्न के रूप में लिखते हैं।\nरस्सी की लंबाई = 7 1/4 m\nकटी हुई लंबाई = 3 4/5 m"
+            },
+            {
+              "english": "Step 2: Make the denominators the same.\n1/4 = 5/20 and 4/5 = 16/20\nSo,\n7 1/4 = 7 5/20\n3 4/5 = 3 16/20",
+              "hindi": "चरण 2: हरों को समान बनाते हैं।\n1/4 = 5/20 और 4/5 = 16/20\nइसलिए,\n7 1/4 = 7 5/20\n3 4/5 = 3 16/20"
+            },
+            {
+              "english": "Step 3: Subtract.\n7 5/20 - 3 16/20\nWe cannot subtract 16/20 from 5/20, so borrow 1 from 7.\n7 5/20 = 6 25/20\nNow subtract:\n6 25/20 - 3 16/20 = 3 9/20",
+              "hindi": "चरण 3: अब घटाते हैं।\n7 5/20 - 3 16/20\nक्योंकि 5/20 में से 16/20 नहीं घटा सकते, इसलिए 7 में से 1 उधार लेते हैं।\n7 5/20 = 6 25/20\nअब घटाएँ:\n6 25/20 - 3 16/20 = 3 9/20"
+            },
+            {
+              "english": "So, the remaining piece is 3 9/20 m.\nFinal answer: 3 9/20 m",
+              "hindi": "इसलिए, बची हुई रस्सी की लंबाई 3 9/20 m है।\nअंतिम उत्तर: 3 9/20 m"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6393,8 +8333,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: The cylinder had 35 litres of gas.\nStep 2: 23 3/5 litres were used.\nStep 3: Subtract to find how much is left.",
+              "hindi": "चरण 1: गैस सिलिंडर में 35 लीटर गैस थी।\nचरण 2: उसमें से 23 3/5 लीटर गैस इस्तेमाल हो गई।\nचरण 3: अब बची हुई गैस निकालने के लिए घटाएँ।"
+            },
+            {
+              "english": "35 - 23 3/5 = 11 2/5",
+              "hindi": "35 - 23 3/5 = 11 2/5"
+            },
+            {
+              "english": "So, the gas left in the cylinder is 11 2/5 litres.\nFinal answer: 11 2/5 litres",
+              "hindi": "इसलिए सिलिंडर में 11 2/5 लीटर गैस बची है।\nअंतिम उत्तर: 11 2/5 लीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6460,8 +8416,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The drum is full of rice and weighs 40 1/6 kg.\nThe empty drum weighs 13 3/4 kg.",
+              "hindi": "ड्रम में चावल भरा हुआ है और उसका वजन 40 1/6 kg है।\nखाली ड्रम का वजन 13 3/4 kg है।"
+            },
+            {
+              "english": "To find the weight of rice, subtract the empty drum from the full drum:\n40 1/6 - 13 3/4",
+              "hindi": "चावल का वजन निकालने के लिए, भरे हुए ड्रम के वजन में से खाली ड्रम का वजन घटाते हैं:\n40 1/6 - 13 3/4"
+            },
+            {
+              "english": "First, make the fractions have the same denominator.\n1/6 = 2/12 and 3/4 = 9/12.\nSo,\n40 2/12 - 13 9/12",
+              "hindi": "पहले भिन्नों के हर (denominator) समान करते हैं।\n1/6 = 2/12 और 3/4 = 9/12\nइसलिए,\n40 2/12 - 13 9/12"
+            },
+            {
+              "english": "Since 2/12 is smaller than 9/12, borrow 1 kg from 40 kg:\n40 2/12 = 39 14/12",
+              "hindi": "क्योंकि 2/12, 9/12 से छोटा है, इसलिए 40 kg में से 1 kg उधार लेते हैं:\n40 2/12 = 39 14/12"
+            },
+            {
+              "english": "Now subtract:\n39 14/12 - 13 9/12 = 26 5/12",
+              "hindi": "अब घटाते हैं:\n39 14/12 - 13 9/12 = 26 5/12"
+            },
+            {
+              "english": "So, the weight of rice in the drum is 26 5/12 kg.",
+              "hindi": "इसलिए, ड्रम में चावल का वजन 26 5/12 kg है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6527,8 +8511,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Compare the two heights.\nDeepak = 148 5/6 cm\nVikas = 153 3/4 cm",
+              "hindi": "चरण 1: दोनों ऊँचाइयों की तुलना करते हैं।\nदीपक = 148 5/6 सेमी\nविकास = 153 3/4 सेमी"
+            },
+            {
+              "english": "Step 2: Vikas has the greater height, so we subtract Deepak’s height from Vikas’s height.\n153 3/4 - 148 5/6",
+              "hindi": "चरण 2: 153 3/4 सेमी, 148 5/6 सेमी से बड़ी है। इसलिए विकास लंबा है।\nअब हमें अंतर निकालना है:\n153 3/4 - 148 5/6"
+            },
+            {
+              "english": "Step 3: Make the fractions have the same denominator.\n153 3/4 = 153 9/12\n148 5/6 = 148 10/12",
+              "hindi": "चरण 3: भिन्नों के हर (denominator) समान करते हैं।\n153 3/4 = 153 9/12\n148 5/6 = 148 10/12"
+            },
+            {
+              "english": "Step 4: Now subtract.\n153 9/12 - 148 10/12\n= (153 - 148) + (9/12 - 10/12)\n= 5 - 1/12\n= 4 11/12 cm",
+              "hindi": "चरण 4: अब घटाते हैं।\n153 9/12 - 148 10/12\n= (153 - 148) + (9/12 - 10/12)\n= 5 - 1/12\n= 4 11/12 सेमी"
+            },
+            {
+              "english": "So, Vikas is taller by 4 11/12 cm.\nFinal answer: Vikas, 4 11/12 cm",
+              "hindi": "इसलिए विकास, दीपक से 4 11/12 सेमी लंबा है।\nअंतिम उत्तर: विकास, 4 11/12 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6592,8 +8600,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let the number be x.",
+              "hindi": "मान लीजिए वह संख्या x है।"
+            },
+            {
+              "english": "We have:\n6 4/5 - x = 2 7/10",
+              "hindi": "हमें दिया है:\n6 4/5 - x = 2 7/10"
+            },
+            {
+              "english": "So,\nx = 6 4/5 - 2 7/10",
+              "hindi": "इसलिए,\nx = 6 4/5 - 2 7/10"
+            },
+            {
+              "english": "Now change 6 4/5 into tenths:\n6 4/5 = 6 8/10",
+              "hindi": "अब 6 4/5 को दशमलव के समान हर में लिखते हैं:\n6 4/5 = 6 8/10"
+            },
+            {
+              "english": "Now subtract:\n6 8/10 - 2 7/10 = 4 1/10",
+              "hindi": "अब घटाएँ:\n6 8/10 - 2 7/10 = 4 1/10"
+            },
+            {
+              "english": "So, the number that must be subtracted is 4 1/10.",
+              "hindi": "इसलिए जो संख्या घटानी है, वह 4 1/10 है।"
+            },
+            {
+              "english": "Final answer: 4 1/10",
+              "hindi": "अंतिम उत्तर: 4 1/10"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6657,8 +8697,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find what must be added, subtract 7 1/6 from 9 1/9.",
+              "hindi": "यह जानने के लिए कि क्या जोड़ना है, 9 1/9 में से 7 1/6 घटाते हैं।"
+            },
+            {
+              "english": "Step 1: Convert both mixed numbers to fractions with the same denominator.\n9 1/9 = 9 2/18 = 9 2/18\n7 1/6 = 7 3/18",
+              "hindi": "चरण 1: दोनों मिश्र भिन्नों को एक ही हर में लिखिए।\n9 1/9 = 9 2/18\n7 1/6 = 7 3/18"
+            },
+            {
+              "english": "Step 2: Subtract the whole numbers and the fractions.\n9 2/18 - 7 3/18\n= (9 - 7) + (2/18 - 3/18)\n= 2 - 1/18\n= 1 17/18",
+              "hindi": "चरण 2: अब घटाइए।\n9 2/18 - 7 3/18\n= (9 - 7) + (2/18 - 3/18)\n= 2 - 1/18\n= 1 17/18"
+            },
+            {
+              "english": "So, the number that must be added is 1 17/18.",
+              "hindi": "इसलिए, जोड़ने वाली संख्या 1 17/18 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6724,8 +8784,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Total distance = 47 1/2 km.\nDistance by scooter = 29 1/3 km.\nDistance by bicycle = 8 5/6 km.",
+              "hindi": "कुल दूरी = 47 1/2 किमी।\nस्कूटर से दूरी = 29 1/3 किमी।\nसाइकिल से दूरी = 8 5/6 किमी।"
+            },
+            {
+              "english": "First, add the distances covered by scooter and bicycle:\n29 1/3 + 8 5/6\n= 29 2/6 + 8 5/6\n= 37 7/6\n= 38 1/6 km.",
+              "hindi": "पहले, स्कूटर और साइकिल से तय की गई दूरी को जोड़ते हैं:\n29 1/3 + 8 5/6\n= 29 2/6 + 8 5/6\n= 37 7/6\n= 38 1/6 किमी।"
+            },
+            {
+              "english": "Now subtract this from the total distance:\n47 1/2 - 38 1/6\n= 47 3/6 - 38 1/6\n= 9 2/6\n= 9 1/3 km.",
+              "hindi": "अब इस जोड़ को कुल दूरी से घटाते हैं:\n47 1/2 - 38 1/6\n= 47 3/6 - 38 1/6\n= 9 2/6\n= 9 1/3 किमी।"
+            },
+            {
+              "english": "So, he travelled 9 1/3 km on foot.",
+              "hindi": "इसलिए, उसने पैदल 9 1/3 किमी यात्रा की।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6791,8 +8871,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let the total weight of fruits in the basket be 19 1/3 kg.",
+              "hindi": "आइए बास्केट में रखे फलों का कुल वजन 19 1/3 किग्रा मानते हैं।"
+            },
+            {
+              "english": "Step 1: Write the total weight and the given parts.\n- Total fruits = 19 1/3 kg\n- Apples = 8 1/9 kg\n- Oranges = 3 1/6 kg\n- Pears = total weight - apples - oranges",
+              "hindi": "चरण 1: दिए गए मान लिखिए।\n- कुल फल = 19 1/3 किग्रा\n- सेब = 8 1/9 किग्रा\n- संतरे = 3 1/6 किग्रा\n- नाशपाती = कुल वजन - सेब - संतरे"
+            },
+            {
+              "english": "Step 2: Convert to improper fractions.\n- 19 1/3 = 58/3\n- 8 1/9 = 73/9\n- 3 1/6 = 19/6",
+              "hindi": "चरण 2: इन्हें भिन्नों में बदलिए।\n- 19 1/3 = 58/3\n- 8 1/9 = 73/9\n- 3 1/6 = 19/6"
+            },
+            {
+              "english": "Step 3: Find the total weight of apples and oranges.\n- 73/9 + 19/6\n- LCM of 9 and 6 is 18\n- 73/9 = 146/18\n- 19/6 = 57/18\n- 146/18 + 57/18 = 203/18",
+              "hindi": "चरण 3: सेब और संतरे का कुल वजन निकालिए।\n- 73/9 + 19/6\n- 9 और 6 का LCM = 18\n- 73/9 = 146/18\n- 19/6 = 57/18\n- 146/18 + 57/18 = 203/18"
+            },
+            {
+              "english": "Step 4: Subtract from the total.\n- 58/3 = 348/18\n- Pears = 348/18 - 203/18 = 145/18\n- 145/18 = 8 1/18",
+              "hindi": "चरण 4: अब इसे कुल वजन में से घटाइए।\n- 58/3 = 348/18\n- नाशपाती = 348/18 - 203/18 = 145/18\n- 145/18 = 8 1/18"
+            },
+            {
+              "english": "So, the weight of pears in the basket is 8 1/18 kg.",
+              "hindi": "इसलिए बास्केट में नाशपाती का वजन 8 1/18 किग्रा है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6858,8 +8966,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Meena had 12 metres of cloth.\nShe used 7 3/4 metres for curtains and 1 5/6 metres for a bed-sheet.",
+              "hindi": "मीना के पास 12 मीटर कपड़ा था।\nउसने परदों के लिए 7 3/4 मीटर और बेड-शीट के लिए 1 5/6 मीटर कपड़ा इस्तेमाल किया।"
+            },
+            {
+              "english": "Step 1: Add the cloth used.\n7 3/4 = 7 9/12\n1 5/6 = 1 10/12\nSo, cloth used = 7 9/12 + 1 10/12\n= 8 + 19/12\n= 9 7/12 metres",
+              "hindi": "चरण 1: इस्तेमाल किए गए कपड़े को जोड़ते हैं।\n7 3/4 = 7 9/12\n1 5/6 = 1 10/12\nतो, इस्तेमाल किया गया कपड़ा = 7 9/12 + 1 10/12\n= 8 + 19/12\n= 9 7/12 मीटर"
+            },
+            {
+              "english": "Step 2: Subtract from the total cloth.\n12 - 9 7/12 = 2 5/12 metres",
+              "hindi": "चरण 2: कुल कपड़े में से घटाते हैं।\n12 - 9 7/12 = 2 5/12 मीटर"
+            },
+            {
+              "english": "So, the cloth left is 2 5/12 metres.",
+              "hindi": "अतः बचा हुआ कपड़ा 2 5/12 मीटर है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6923,8 +9051,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let’s compare the two expressions step by step.",
+              "hindi": "आइए दोनों expressions को step by step compare करें।"
+            },
+            {
+              "english": "1. Find the difference between 2 3/4 and 5 1/6.\n   - First, write them as improper fractions:\n     2 3/4 = 11/4\n     5 1/6 = 31/6\n   - Use a common denominator of 12:\n     11/4 = 33/12\n     31/6 = 62/12\n   - Now subtract:\n     62/12 - 33/12 = 29/12\n   - Convert back to a mixed number:\n     29/12 = 2 5/12",
+              "hindi": "1. 2 3/4 और 5 1/6 का difference निकालें।\n   - पहले इन्हें improper fraction में बदलते हैं:\n     2 3/4 = 11/4\n     5 1/6 = 31/6\n   - Common denominator 12 लेते हैं:\n     11/4 = 33/12\n     31/6 = 62/12\n   - अब subtract करते हैं:\n     62/12 - 33/12 = 29/12\n   - इसे mixed number में बदलें:\n     29/12 = 2 5/12"
+            },
+            {
+              "english": "2. Find the sum of 1 3/12 and 1 1/3.\n   - First, simplify 1 3/12:\n     3/12 = 1/4, so 1 3/12 = 1 1/4\n   - Now add:\n     1 1/4 + 1 1/3\n   - Use a common denominator of 12:\n     1 1/4 = 1 3/12\n     1 1/3 = 1 4/12\n   - Add them:\n     1 3/12 + 1 4/12 = 2 7/12",
+              "hindi": "2. 1 3/12 और 1 1/3 का sum निकालें।\n   - पहले 1 3/12 को सरल करें:\n     3/12 = 1/4, इसलिए 1 3/12 = 1 1/4\n   - अब जोड़ते हैं:\n     1 1/4 + 1 1/3\n   - Common denominator 12 लेते हैं:\n     1 1/4 = 1 3/12\n     1 1/3 = 1 4/12\n   - अब जोड़ें:\n     1 3/12 + 1 4/12 = 2 7/12"
+            },
+            {
+              "english": "3. Compare the answers:\n   - Difference = 2 5/12\n   - Sum = 2 7/12\n   - Since 2 7/12 is greater than 2 5/12, the sum is greater.",
+              "hindi": "3. अब दोनों answers compare करें:\n   - Difference = 2 5/12\n   - Sum = 2 7/12\n   - क्योंकि 2 7/12, 2 5/12 से बड़ा है, इसलिए sum बड़ा है।"
+            },
+            {
+              "english": "Final answer: The sum of 1 3/12 and 1 1/3",
+              "hindi": "Final answer: The sum of 1 3/12 and 1 1/3"
+            }
+          ]
         }
       ],
       "tags": [

@@ -591,8 +591,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 rupee = 100 paise.",
+              "hindi": "1 रुपया = 100 पैसे।"
+            },
+            {
+              "english": "To convert Rs 8.56 into paise, multiply by 100:\n8.56 × 100 = 856",
+              "hindi": "Rs 8.56 को पैसे में बदलने के लिए 100 से गुणा करते हैं:\n8.56 × 100 = 856"
+            },
+            {
+              "english": "So, Rs 8.56 = 856 paise.\nFinal answer: 856 paise.",
+              "hindi": "इसलिए, Rs 8.56 = 856 पैसे।\nअंतिम उत्तर: 856 पैसे।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -656,8 +672,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert rupees into paise, remember: 1 rupee = 100 paise.",
+              "hindi": "रुपये को पैसे में बदलने के लिए याद रखें: 1 रुपया = 100 पैसे।"
+            },
+            {
+              "english": "Given amount = Rs 92.67",
+              "hindi": "दी गई राशि = Rs 92.67"
+            },
+            {
+              "english": "Step 1: Multiply by 100\n92.67 × 100 = 9267",
+              "hindi": "चरण 1: 100 से गुणा करें\n92.67 × 100 = 9267"
+            },
+            {
+              "english": "Step 2: Write the unit\nSo, Rs 92.67 = 9267 paise.",
+              "hindi": "चरण 2: इकाई लिखें\nइसलिए, Rs 92.67 = 9267 पैसे।"
+            },
+            {
+              "english": "Final answer: 9267 paise",
+              "hindi": "अंतिम उत्तर: 9267 पैसे"
+            }
+          ]
         }
       ],
       "tags": [
@@ -721,8 +761,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert Rs 123.05 into paise, use the fact that 1 rupee = 100 paise.",
+              "hindi": "Rs 123.05 को पैसे में बदलने के लिए यह याद रखें कि 1 रुपया = 100 पैसे होता है।"
+            },
+            {
+              "english": "Step 1: Convert the rupees part.\n123 rupees = 123 × 100 = 12300 paise",
+              "hindi": "Step 1: रुपये वाले भाग को बदलें।\n123 रुपये = 123 × 100 = 12300 पैसे"
+            },
+            {
+              "english": "Step 2: Convert the remaining 0.05 rupee.\n0.05 rupee = 5 paise",
+              "hindi": "Step 2: बचे हुए 0.05 रुपये को बदलें।\n0.05 रुपया = 5 पैसे"
+            },
+            {
+              "english": "Step 3: Add them.\n12300 + 5 = 12305 paise",
+              "hindi": "Step 3: दोनों को जोड़ें।\n12300 + 5 = 12305 पैसे"
+            },
+            {
+              "english": "Final Answer: 12305 paise",
+              "hindi": "अंतिम उत्तर: 12305 पैसे"
+            }
+          ]
         }
       ],
       "tags": [
@@ -786,8 +850,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert rupees into paise, use the rule:\n1 rupee = 100 paise.",
+              "hindi": "रुपयों को पैसे में बदलने के लिए नियम है:\n1 रुपया = 100 पैसे।"
+            },
+            {
+              "english": "Here, the amount is Rs 70.70.\nThis means:\n- 70 rupees\n- 70 paise",
+              "hindi": "यहाँ राशि Rs 70.70 है।\nइसका मतलब है:\n- 70 रुपये\n- 70 पैसे"
+            },
+            {
+              "english": "Now convert the rupees into paise:\n70 × 100 = 7000 paise",
+              "hindi": "अब 70 रुपये को पैसे में बदलें:\n70 × 100 = 7000 पैसे"
+            },
+            {
+              "english": "Add the extra 70 paise:\n7000 + 70 = 7070 paise",
+              "hindi": "अब 70 पैसे और जोड़ें:\n7000 + 70 = 7070 पैसे"
+            },
+            {
+              "english": "So, the answer is 7070 paise.",
+              "hindi": "अतः उत्तर 7070 पैसे है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -851,8 +939,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert rupees into paise, remember:\n1 rupee = 100 paise.",
+              "hindi": "रुपये को पैसे में बदलने के लिए याद रखें:\n1 रुपया = 100 पैसे।"
+            },
+            {
+              "english": "Here, the amount is Rs 0.84.\nSo we multiply 0.84 by 100:\n0.84 × 100 = 84",
+              "hindi": "यहाँ राशि है Rs 0.84।\nइसलिए 0.84 को 100 से गुणा करते हैं:\n0.84 × 100 = 84"
+            },
+            {
+              "english": "So, Rs 0.84 = 84 paise.\nFinal answer: 84 paise.",
+              "hindi": "इसलिए, Rs 0.84 = 84 पैसे।\nअंतिम उत्तर: 84 पैसे।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -916,8 +1020,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert rupees into paise, remember that 1 rupee = 100 paise.\nSo, Rs 0.03 = 0.03 × 100 paise = 3 paise.\nFinal answer: 3 paise.",
+              "hindi": "रुपये को पैसे में बदलने के लिए याद रखें: 1 रुपया = 100 पैसे।\nइसलिए, Rs 0.03 = 0.03 × 100 = 3 पैसे।\nअंतिम उत्तर: 3 पैसे।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -981,8 +1093,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert rupees into paise, remember: 1 rupee = 100 paise.\nRs 0.10 means 0.10 × 100 = 10 paise.\nSo, Rs 0.10 = 10 paise.\nFinal answer: 10 paise",
+              "hindi": "रुपयों को पैसे में बदलने के लिए याद रखें: 1 रुपया = 100 पैसे।\nRs 0.10 का मतलब 0.10 × 100 = 10 पैसे है।\nइसलिए, Rs 0.10 = 10 पैसे।\nअंतिम उत्तर: 10 पैसे"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1046,8 +1166,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 rupee = 100 paise.\nTo convert rupees into paise, multiply by 100.\nRs 0.09 × 100 = 9 paise.\nFinal answer: 9 paise.",
+              "hindi": "1 रुपया = 100 पैसे।\nरुपयों को पैसे में बदलने के लिए 100 से गुणा करते हैं।\nRs 0.09 × 100 = 9 पैसे।\nअंतिम उत्तर: 9 पैसे।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1111,8 +1239,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert rupees into paise, remember:\n1 rupee = 100 paise",
+              "hindi": "रुपयों को पैसे में बदलने के लिए याद रखें:\n1 रुपया = 100 पैसे"
+            },
+            {
+              "english": "Given amount = 36 rupees 85 paise",
+              "hindi": "दी गई राशि = 36 रुपये 85 पैसे"
+            },
+            {
+              "english": "Step 1: Convert 36 rupees into paise.\n36 × 100 = 3600 paise",
+              "hindi": "चरण 1: 36 रुपयों को पैसे में बदलें।\n36 × 100 = 3600 पैसे"
+            },
+            {
+              "english": "Step 2: Add the extra 85 paise.\n3600 + 85 = 3685 paise",
+              "hindi": "चरण 2: बचे हुए 85 पैसे जोड़ें।\n3600 + 85 = 3685 पैसे"
+            },
+            {
+              "english": "Final answer: 3685 paise",
+              "hindi": "अंतिम उत्तर: 3685 पैसे"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1176,8 +1328,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert rupees and paise into only paise, remember:\n1 rupee = 100 paise.",
+              "hindi": "रुपये और पैसे को केवल पैसे में बदलने के लिए याद रखें:\n1 रुपया = 100 पैसे"
+            },
+            {
+              "english": "Given: 6 rupees 6 paise",
+              "hindi": "दिया है: 6 रुपये 6 पैसे"
+            },
+            {
+              "english": "Step 1: Convert 6 rupees into paise.\n6 × 100 = 600 paise",
+              "hindi": "चरण 1: 6 रुपये को पैसे में बदलें।\n6 × 100 = 600 पैसे"
+            },
+            {
+              "english": "Step 2: Add the extra 6 paise.\n600 + 6 = 606 paise",
+              "hindi": "चरण 2: बचे हुए 6 पैसे जोड़ें।\n600 + 6 = 606 पैसे"
+            },
+            {
+              "english": "So, 6 rupees 6 paise = 606 paise.",
+              "hindi": "इसलिए, 6 रुपये 6 पैसे = 606 पैसे।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1241,8 +1417,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert Rs 37 1/2 into paise, first write it as a mixed number:\nRs 37 1/2 = Rs 37 + 1/2 Rs\nNow use the rule:\n1 rupee = 100 paise\nSo, 37 rupees = 37 × 100 = 3700 paise\nAnd 1/2 rupee = 100 ÷ 2 = 50 paise\nAdd them:\n3700 + 50 = 3750 paise\nSo, Rs 37 1/2 = 3750 paise.",
+              "hindi": "Rs 37 1/2 को पैसे में बदलने के लिए, पहले इसे इस तरह लिखते हैं:\nRs 37 1/2 = Rs 37 + 1/2 Rs\nअब नियम लगाते हैं:\n1 रुपया = 100 पैसे\nतो, 37 रुपये = 37 × 100 = 3700 पैसे\nऔर 1/2 रुपया = 100 ÷ 2 = 50 पैसे\nअब दोनों को जोड़ते हैं:\n3700 + 50 = 3750 पैसे\nइसलिए, Rs 37 1/2 = 3750 पैसे।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1306,8 +1490,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert Rs 19 1/4 into paise, use the fact that 1 rupee = 100 paise.",
+              "hindi": "Rs 19 1/4 को पैसे में बदलने के लिए याद रखें कि 1 रुपया = 100 पैसे होते हैं।"
+            },
+            {
+              "english": "Step 1: Convert 1/4 rupee into paise.\n1/4 of 100 paise = 25 paise.",
+              "hindi": "चरण 1: 1/4 रुपये को पैसे में बदलें।\n1/4 of 100 पैसे = 25 पैसे।"
+            },
+            {
+              "english": "Step 2: Add it to 19 rupees.\n19 rupees = 19 × 100 = 1900 paise.",
+              "hindi": "चरण 2: 19 रुपये को पैसे में बदलें।\n19 रुपये = 19 × 100 = 1900 पैसे।"
+            },
+            {
+              "english": "Step 3: Add the 25 paise.\n1900 + 25 = 1925 paise.",
+              "hindi": "चरण 3: अब 25 पैसे जोड़ें।\n1900 + 25 = 1925 पैसे।"
+            },
+            {
+              "english": "Final answer: 1925 paise",
+              "hindi": "अंतिम उत्तर: 1925 पैसे"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1371,8 +1579,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert Rs 23 3/4 into paise, we use the fact that 1 rupee = 100 paise.",
+              "hindi": "Rs 23 3/4 को पैसे में बदलने के लिए हम जानते हैं कि 1 रुपया = 100 पैसे होता है।"
+            },
+            {
+              "english": "Step 1: Convert the whole rupees into paise.\n23 rupees = 23 × 100 = 2300 paise",
+              "hindi": "चरण 1: पूरे 23 रुपयों को पैसे में बदलें।\n23 रुपये = 23 × 100 = 2300 पैसे"
+            },
+            {
+              "english": "Step 2: Convert 3/4 rupee into paise.\n3/4 of 100 = 75 paise",
+              "hindi": "चरण 2: 3/4 रुपये को पैसे में बदलें।\n3/4 of 100 = 75 पैसे"
+            },
+            {
+              "english": "Step 3: Add them together.\n2300 + 75 = 2375 paise",
+              "hindi": "चरण 3: दोनों को जोड़ें।\n2300 + 75 = 2375 पैसे"
+            },
+            {
+              "english": "Final answer: 2375 paise",
+              "hindi": "अंतिम उत्तर: 2375 पैसे"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1436,8 +1668,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "100 paise make 1 rupee.\nSo, to convert 8365 paise into rupees, divide by 100.\n8365 ÷ 100 = 83.65\nSo, 8365 paise = Rs 83.65.\nFinal answer: Rs 83.65",
+              "hindi": "100 पैसे = 1 रुपया।\n8365 पैसे को रुपये में बदलने के लिए 100 से भाग देते हैं।\n8365 ÷ 100 = 83.65\nइसलिए, 8365 पैसे = Rs 83.65।\nअंतिम उत्तर: Rs 83.65"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1501,8 +1741,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert paise into rupees, remember:\n100 paise = 1 rupee",
+              "hindi": "पैसे को रुपये में बदलने के लिए याद रखें:\n100 पैसे = 1 रुपया"
+            },
+            {
+              "english": "Now divide 7000 by 100:\n7000 ÷ 100 = 70",
+              "hindi": "अब 7000 को 100 से भाग दें:\n7000 ÷ 100 = 70"
+            },
+            {
+              "english": "So, 7000 paise = 70 rupees.",
+              "hindi": "इसलिए, 7000 पैसे = 70 रुपये।"
+            },
+            {
+              "english": "Final answer: Rs 70.00",
+              "hindi": "अंतिम उत्तर: Rs 70.00"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1566,8 +1826,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert paise into rupees, remember: 100 paise = 1 rupee.",
+              "hindi": "पैसे को रुपये में बदलने के लिए याद रखें: 100 पैसे = 1 रुपया।"
+            },
+            {
+              "english": "Step 1: Divide 874 by 100.\n874 paise = 874 ÷ 100 rupees\n= 8 rupees and 74 paise.",
+              "hindi": "Step 1: 874 को 100 से भाग दीजिए।\n874 पैसे = 874 ÷ 100 रुपये\n= 8 रुपये और 74 पैसे।"
+            },
+            {
+              "english": "Step 2: Write it in rupees and paise form.\n874 paise = Rs 8.74",
+              "hindi": "Step 2: इसे रुपये और पैसे के रूप में लिखिए।\n874 पैसे = Rs 8.74"
+            },
+            {
+              "english": "Final answer: Rs 8.74",
+              "hindi": "Final answer: Rs 8.74"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1631,8 +1911,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert paise into rupees, remember:\n100 paise = 1 rupee",
+              "hindi": "पैसे को रुपये में बदलने के लिए याद रखें:\n100 पैसे = 1 रुपया"
+            },
+            {
+              "english": "Now divide 708 paise by 100:\n708 paise = 7 rupees and 8 paise",
+              "hindi": "अब 708 पैसे को 100 से भाग दें:\n708 पैसे = 7 रुपये 8 पैसे"
+            },
+            {
+              "english": "So, in rupees and paise, the amount is Rs 7.08.",
+              "hindi": "इसलिए रुपये और पैसे में यह राशि Rs 7.08 होगी।"
+            },
+            {
+              "english": "Final answer: Rs 7.08",
+              "hindi": "अंतिम उत्तर: Rs 7.08"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1696,8 +1996,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 rupee = 100 paise.\nSo, to convert 104 paise into rupees, divide by 100.\n104 paise = 104 ÷ 100 rupees = 1.04 rupees.\nSo, 104 paise = Rs 1.04.",
+              "hindi": "100 पैसे = 1 रुपया।\nइसलिए 104 पैसे को रुपये में बदलने के लिए 100 से भाग देते हैं।\n104 पैसे = 104 ÷ 100 रुपये = 1.04 रुपये।\nअतः 104 पैसे = Rs 1.04."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1761,8 +2069,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert paise into rupees, remember: 100 paise = 1 rupee.\nSo, 92 paise = 92 ÷ 100 rupees = 0.92 rupee.\nWe write this as Rs 0.92.\nFinal answer: Rs 0.92",
+              "hindi": "पैसे को रुपये में बदलने के लिए याद रखें: 100 पैसे = 1 रुपया।\nइसलिए 92 पैसे = 92 ÷ 100 रुपये = 0.92 रुपया।\nइसे हम Rs 0.92 लिखते हैं।\nअंतिम उत्तर: Rs 0.92"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1826,8 +2142,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "1 rupee = 100 paise.\nTo convert 16 paise into rupees, divide by 100.\n16 paise = 16/100 rupee = Rs 0.16.\nFinal answer: Rs 0.16",
+              "hindi": "1 रुपया = 100 पैसे।\n16 पैसे को रुपये में बदलने के लिए 100 से भाग देते हैं।\n16 पैसे = 16/100 रुपया = Rs 0.16।\nअंतिम उत्तर: Rs 0.16"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1891,8 +2215,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert paise into rupees, remember that 100 paise = 1 rupee.\nSo, 9 paise = 9 ÷ 100 rupee = 0.09 rupee.\nTherefore, 9 paise = Rs 0.09.",
+              "hindi": "पैसे को रुपये में बदलने के लिए याद रखें कि 100 पैसे = 1 रुपया।\nइसलिए, 9 पैसे = 9 ÷ 100 रुपया = 0.09 रुपया।\nअतः 9 पैसे = रु 0.09।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1956,8 +2288,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know that 100 paise = 1 rupee.",
+              "hindi": "हमें पता है कि 100 पैसे = 1 रुपया।"
+            },
+            {
+              "english": "To convert 2 paise into rupees, divide by 100:\n2 ÷ 100 = 0.02",
+              "hindi": "2 पैसे को रुपये में बदलने के लिए 100 से भाग देते हैं:\n2 ÷ 100 = 0.02"
+            },
+            {
+              "english": "So, 2 paise = Rs 0.02.",
+              "hindi": "इसलिए, 2 पैसे = Rs 0.02।"
+            },
+            {
+              "english": "Final answer: Rs 0.02",
+              "hindi": "अंतिम उत्तर: Rs 0.02"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2021,8 +2373,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to add Rs 54.65 and Rs 27.85.",
+              "hindi": "हमें Rs 54.65 और Rs 27.85 को जोड़ना है।"
+            },
+            {
+              "english": "Step 1: Write the numbers in columns:\n  54.65\n+ 27.85\n------",
+              "hindi": "चरण 1: संख्याओं को एक के नीचे एक लिखिए:\n  54.65\n+ 27.85\n------"
+            },
+            {
+              "english": "Step 2: Add the hundredths: 5 + 5 = 10, so write 0 and carry 1.\nStep 3: Add the tenths: 6 + 8 + 1 = 15, so write 5 and carry 1.\nStep 4: Add the ones: 4 + 7 + 1 = 12, so write 2 and carry 1.\nStep 5: Add the tens: 5 + 2 + 1 = 8.",
+              "hindi": "चरण 2: सौंवें स्थान पर जोड़िए: 5 + 5 = 10, इसलिए 0 लिखिए और 1 carry कीजिए।\nचरण 3: दसवें स्थान पर जोड़िए: 6 + 8 + 1 = 15, इसलिए 5 लिखिए और 1 carry कीजिए।\nचरण 4: इकाई स्थान पर जोड़िए: 4 + 7 + 1 = 12, इसलिए 2 लिखिए और 1 carry कीजिए।\nचरण 5: दहाई स्थान पर जोड़िए: 5 + 2 + 1 = 8।"
+            },
+            {
+              "english": "So, Rs 54.65 + Rs 27.85 = Rs 82.50.\nFinal answer: Rs 82.50",
+              "hindi": "इसलिए, Rs 54.65 + Rs 27.85 = Rs 82.50।\nअंतिम उत्तर: Rs 82.50"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2086,8 +2458,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to add Rs 73.84 and Rs 39.76.",
+              "hindi": "हमें Rs 73.84 और Rs 39.76 को जोड़ना है।"
+            },
+            {
+              "english": "Step 1: Add the paise.\n84 paise + 76 paise = 160 paise.",
+              "hindi": "Step 1: पैसे जोड़िए।\n84 पैसे + 76 पैसे = 160 पैसे।"
+            },
+            {
+              "english": "160 paise = Rs 1.60, so we carry Rs 1 to the rupees place.",
+              "hindi": "160 पैसे = Rs 1.60 होते हैं, इसलिए Rs 1 रुपये में जोड़ देंगे।"
+            },
+            {
+              "english": "Step 2: Add the rupees.\n73 + 39 = 112\nNow add the carried Rs 1:\n112 + 1 = 113",
+              "hindi": "Step 2: रुपये जोड़िए।\n73 + 39 = 112\nअब जो Rs 1 मिला है, उसे जोड़िए:\n112 + 1 = 113"
+            },
+            {
+              "english": "Step 3: Write the total.\nRs 113.60",
+              "hindi": "Step 3: कुल उत्तर लिखिए।\nRs 113.60"
+            },
+            {
+              "english": "Final Answer: Rs 113.60",
+              "hindi": "अंतिम उत्तर: Rs 113.60"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2151,8 +2551,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Write the amounts in a column and line up the decimal points.",
+              "hindi": "राशियों को एक के नीचे एक लिखिए और दशमलव बिंदु को सीधा रखिए।"
+            },
+            {
+              "english": "Rs 61.83\n+ Rs 38.67\n+  Rs 8.95\n---------",
+              "hindi": "Rs 61.83\n+ Rs 38.67\n+ Rs 8.95\n---------"
+            },
+            {
+              "english": "First add the paise:\n83 + 67 + 95 = 245 paise\n245 paise = Rs 2.45\nSo, write 45 paise and carry 2 rupees.",
+              "hindi": "पहले पैसे जोड़ते हैं:\n83 + 67 + 95 = 245 पैसे\n245 पैसे = Rs 2.45\nइसलिए 45 पैसे लिखेंगे और 2 रुपये आगे बढ़ाएंगे।"
+            },
+            {
+              "english": "Now add the rupees:\n61 + 38 + 8 + 2 = 109",
+              "hindi": "अब रुपये जोड़ते हैं:\n61 + 38 + 8 + 2 = 109"
+            },
+            {
+              "english": "So the total is Rs 109.45.\nFinal answer: Rs 109.45",
+              "hindi": "इसलिए कुल योग Rs 109.45 है।\nअंतिम उत्तर: Rs 109.45"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2216,8 +2640,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Write the amounts in a line:\nRs 107.40\nRs 245.80\nRs 68.90\nStep 2: Add the paise: 40 + 80 + 90 = 210 paise = Rs 2.10\nStep 3: Add the rupees: 107 + 245 + 68 = 420\nStep 4: Add the carried over Rs 2 from paise: 420 + 2 = 422\nSo, the total is Rs 422.10.",
+              "hindi": "चरण 1: राशियों को एक सीध में लिखें:\nRs 107.40\nRs 245.80\nRs 68.90\nचरण 2: पैसे जोड़ें: 40 + 80 + 90 = 210 पैसे = Rs 2.10\nचरण 3: रुपये जोड़ें: 107 + 245 + 68 = 420 रुपये\nचरण 4: पैसे के 2 रुपये को जोड़ें: 420 + 2 = 422\nअतः कुल योग Rs 422.10 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2281,8 +2713,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let’s add the amounts step by step.",
+              "hindi": "आइए इन राशियों को step by step जोड़ते हैं।"
+            },
+            {
+              "english": "We have:\nRs. 372.56\nRs. 168.68\nRs. 37.86",
+              "hindi": "हमें जोड़ना है:\nRs. 372.56\nRs. 168.68\nRs. 37.86"
+            },
+            {
+              "english": "First, add the paise:\n56 + 68 + 86 = 210 paise",
+              "hindi": "पहले पैसे (paise) जोड़ते हैं:\n56 + 68 + 86 = 210 पैसे"
+            },
+            {
+              "english": "Since 100 paise = 1 rupee,\n210 paise = 2 rupees and 10 paise.",
+              "hindi": "क्योंकि 100 पैसे = 1 रुपया,\nइसलिए 210 पैसे = 2 रुपये 10 पैसे"
+            },
+            {
+              "english": "Now add the rupees:\n372 + 168 + 37 = 577",
+              "hindi": "अब रुपये जोड़ते हैं:\n372 + 168 + 37 = 577"
+            },
+            {
+              "english": "Add the 2 rupees carried from the paise:\n577 + 2 = 579",
+              "hindi": "अब पैसे से आए 2 रुपये भी जोड़ दें:\n577 + 2 = 579"
+            },
+            {
+              "english": "So the total is:\nRs. 579.10",
+              "hindi": "इसलिए कुल योग है:\nRs. 579.10"
+            },
+            {
+              "english": "Final answer: Rs. 579.10",
+              "hindi": "अंतिम उत्तर: Rs. 579.10"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2346,8 +2814,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find how much to add, we subtract the smaller amount from the bigger amount.",
+              "hindi": "यह जानने के लिए कि कितना जोड़ना है, हम बड़े नंबर में से छोटे नंबर को घटाते हैं।"
+            },
+            {
+              "english": "Step 1: Write the numbers.\n114.36 - 97.68",
+              "hindi": "चरण 1: संख्याएँ लिखिए।\n114.36 - 97.68"
+            },
+            {
+              "english": "Step 2: Subtract carefully.\n114.36 - 97.68 = 16.68",
+              "hindi": "चरण 2: ध्यान से घटाइए।\n114.36 - 97.68 = 16.68"
+            },
+            {
+              "english": "Step 3: Check the answer.\nIf we add Rs 16.68 to Rs 97.68, we get Rs 114.36.",
+              "hindi": "चरण 3: उत्तर जाँचिए।\nअगर हम Rs 97.68 में Rs 16.68 जोड़ें, तो Rs 114.36 मिलता है।"
+            },
+            {
+              "english": "Final answer: Rs 16.68",
+              "hindi": "अंतिम उत्तर: Rs 16.68"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2411,8 +2903,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find how much more is needed, subtract Rs 174.54 from Rs 200.60.",
+              "hindi": "यह जानने के लिए कि कितना अंतर है, Rs 200.60 में से Rs 174.54 घटाएँ।"
+            },
+            {
+              "english": "Start with the decimal part:\n60 paise - 54 paise = 06 paise",
+              "hindi": "पहले दशमलव भाग घटाते हैं:\n60 पैसे - 54 पैसे = 06 पैसे"
+            },
+            {
+              "english": "Now subtract the rupees:\n200 - 174 = 26",
+              "hindi": "अब रुपये घटाते हैं:\n200 - 174 = 26"
+            },
+            {
+              "english": "So, Rs 200.60 - Rs 174.54 = Rs 26.06",
+              "hindi": "इसलिए, Rs 200.60 - Rs 174.54 = Rs 26.06"
+            },
+            {
+              "english": "Final answer: Rs 26.06",
+              "hindi": "अंतिम उत्तर: Rs 26.06"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2476,8 +2992,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find how much is left when Rs 29.87 is taken from Rs 37.05.\nWrite it as subtraction: Rs 37.05 - Rs 29.87.\nNow subtract step by step:\n37.05\n-29.87\n= 7.18\nSo, the answer is Rs 7.18.",
+              "hindi": "हमें यह पता करना है कि Rs 37.05 में से Rs 29.87 निकालने पर कितना बचता है।\nइसे घटाव के रूप में लिखते हैं: Rs 37.05 - Rs 29.87.\nअब कदम-दर-कदम घटाएँ:\n37.05\n-29.87\n= 7.18\nइसलिए, अंतिम उत्तर Rs 7.18 है."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2541,8 +3065,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "This is a subtraction problem: we find how much is left after taking Rs 147.85 from Rs 203.00.",
+              "hindi": "यह घटाव का सवाल है: हमें पता करना है कि Rs 203.00 में से Rs 147.85 घटाने पर कितना बचता है।"
+            },
+            {
+              "english": "Write the numbers with decimal points aligned:\nRs 203.00\n- Rs 147.85\n-----------",
+              "hindi": "संख्याओं को दशमलव के साथ सीधा लिखते हैं:\nRs 203.00\n- Rs 147.85\n-----------"
+            },
+            {
+              "english": "Step 1: Subtract the paise.\n0 paise cannot take away 85 paise, so borrow 1 rupee = 100 paise.\n100 paise - 85 paise = 15 paise.",
+              "hindi": "चरण 1: पैसे घटाइए।\n0 पैसे में से 85 पैसे नहीं घट सकते, इसलिए 1 रुपया उधार लेते हैं = 100 पैसे।\n100 पैसे - 85 पैसे = 15 पैसे।"
+            },
+            {
+              "english": "Step 2: Subtract the rupees.\nAfter borrowing, 203 rupees becomes 202 rupees.\n202 - 147 = 55.",
+              "hindi": "चरण 2: रुपये घटाइए।\n1 रुपया उधार लेने के बाद 203 रुपये, 202 रुपये रह जाते हैं।\n202 - 147 = 55."
+            },
+            {
+              "english": "So, the answer is Rs 55.15.\nFinal answer: Rs 55.15",
+              "hindi": "इसलिए उत्तर है Rs 55.15.\nअंतिम उत्तर: Rs 55.15"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2606,8 +3154,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Add the prices step by step:\nRs 126.50 + Rs 35.80 = Rs 162.30\nRs 162.30 + Rs 28.65 = Rs 190.95\nRs 190.95 + Rs 6.05 = Rs 197.00\nSo, the total amount paid by Rohan is Rs 197.",
+              "hindi": "आइए कीमतों को एक-एक करके जोड़ते हैं:\nRs 126.50 + Rs 35.80 = Rs 162.30\nRs 162.30 + Rs 28.65 = Rs 190.95\nRs 190.95 + Rs 6.05 = Rs 197.00\nइसलिए, रोहन ने कुल Rs 197 दिए।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2671,8 +3227,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find the total amount Sajal paid for oranges, apples, and guavas.",
+              "hindi": "हमें सेजल द्वारा खरीदे गए संतरे, सेब और अमरूद की कुल राशि निकालनी है।"
+            },
+            {
+              "english": "Step 1: Add the cost of oranges and apples.\nRs 132.80 + Rs 87.95 = Rs 220.75",
+              "hindi": "चरण 1: संतरे और सेब की कीमत जोड़ें।\nRs 132.80 + Rs 87.95 = Rs 220.75"
+            },
+            {
+              "english": "Step 2: Add the cost of guavas.\nRs 220.75 + Rs 73.40 = Rs 294.15",
+              "hindi": "चरण 2: अब अमरूद की कीमत जोड़ें।\nRs 220.75 + Rs 73.40 = Rs 294.15"
+            },
+            {
+              "english": "So, the total amount paid by Sajal is Rs 294.15.",
+              "hindi": "इसलिए, सेजल ने कुल Rs 294.15 का भुगतान किया।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2736,8 +3312,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: The cost price of the bat is Rs 163.25.\nStep 2: The selling price of the bat is Rs 205.00.\nStep 3: Money earned = Selling price - Cost price.\nStep 4: Rs 205.00 - Rs 163.25 = Rs 41.75.\nSo, the shopkeeper earned Rs 41.75.\nFinal answer: Rs 41.75",
+              "hindi": "चरण 1: बल्ले का क्रय मूल्य Rs 163.25 है।\nचरण 2: बल्ले का विक्रय मूल्य Rs 205.00 है।\nचरण 3: कमाई = विक्रय मूल्य - क्रय मूल्य।\nचरण 4: Rs 205.00 - Rs 163.25 = Rs 41.75।\nइसलिए दुकानदार ने Rs 41.75 कमाए।\nअंतिम उत्तर: Rs 41.75"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2801,8 +3385,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "This is a subtraction question.\nManisha bought stationery worth Rs 685.65 and paid Rs 1000.\nTo find the money she got back, subtract:\n1000.00 - 685.65 = 314.35\nSo, she got Rs 314.35 back.",
+              "hindi": "यह घटाव का प्रश्न है।\nमनीषा ने Rs 685.65 की स्टेशनरी खरीदी और दुकानदार को Rs 1000 दिए।\nवापस मिलने वाला पैसा निकालने के लिए घटाएँ:\n1000.00 - 685.65 = 314.35\nइसलिए उसे Rs 314.35 वापस मिले।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2866,8 +3458,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to multiply Rs 14.45 by 8.",
+              "hindi": "हमें Rs 14.45 को 8 से गुणा करना है।"
+            },
+            {
+              "english": "Step 1: Break 14.45 into easier parts.\n14.45 = 14 + 0.45",
+              "hindi": "चरण 1: 14.45 को आसान भागों में बाँटें।\n14.45 = 14 + 0.45"
+            },
+            {
+              "english": "Step 2: Multiply each part by 8.\n14 × 8 = 112\n0.45 × 8 = 3.60",
+              "hindi": "चरण 2: हर भाग को 8 से गुणा करें।\n14 × 8 = 112\n0.45 × 8 = 3.60"
+            },
+            {
+              "english": "Step 3: Add the results.\n112 + 3.60 = 115.60",
+              "hindi": "चरण 3: दोनों उत्तरों को जोड़ें।\n112 + 3.60 = 115.60"
+            },
+            {
+              "english": "So, Rs 14.45 × 8 = Rs 115.60.",
+              "hindi": "इसलिए, Rs 14.45 × 8 = Rs 115.60."
+            },
+            {
+              "english": "Final Answer: Rs 115.60",
+              "hindi": "अंतिम उत्तर: Rs 115.60"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2931,8 +3551,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To multiply Rs 86.38 by 15, break 15 into 10 + 5.",
+              "hindi": "Rs 86.38 को 15 से गुणा करने के लिए 15 को 10 + 5 में बाँटते हैं।"
+            },
+            {
+              "english": "Step 1: Multiply by 10:\nRs 86.38 × 10 = Rs 863.80",
+              "hindi": "चरण 1: 10 से गुणा करें:\nRs 86.38 × 10 = Rs 863.80"
+            },
+            {
+              "english": "Step 2: Multiply by 5:\nRs 86.38 × 5 = Rs 431.90",
+              "hindi": "चरण 2: 5 से गुणा करें:\nRs 86.38 × 5 = Rs 431.90"
+            },
+            {
+              "english": "Step 3: Add both results:\nRs 863.80 + Rs 431.90 = Rs 1295.70",
+              "hindi": "चरण 3: दोनों उत्तर जोड़ें:\nRs 863.80 + Rs 431.90 = Rs 1295.70"
+            },
+            {
+              "english": "Final answer: Rs 1295.70.",
+              "hindi": "अंतिम उत्तर: Rs 1295.70."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2996,8 +3640,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's multiply Rs 137.96 by 12 step by step.",
+              "hindi": "आइए Rs 137.96 को 12 से चरणों में गुणा करें।"
+            },
+            {
+              "english": "1. First multiply by 10:\n   137.96 × 10 = 1379.60\n2. Now multiply by 2:\n   137.96 × 2 = 275.92\n3. Add the two results:\n   1379.60 + 275.92 = 1655.52",
+              "hindi": "1. पहले 10 से गुणा करें:\n   137.96 × 10 = 1379.60\n2. अब 2 से गुणा करें:\n   137.96 × 2 = 275.92\n3. दोनों उत्तरों को जोड़ें:\n   1379.60 + 275.92 = 1655.52"
+            },
+            {
+              "english": "So, Rs 137.96 × 12 = Rs 1655.52.",
+              "hindi": "इसलिए, Rs 137.96 × 12 = Rs 1655.52."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3061,8 +3721,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To multiply Rs 305.05 by 16, split 16 into 10 + 6.",
+              "hindi": "Rs 305.05 को 16 से गुणा करना है।\n16 को 10 और 6 में बाँट लेते हैं।"
+            },
+            {
+              "english": "First, 305.05 × 10 = 3050.50\nThen, 305.05 × 6 = 1830.30",
+              "hindi": "305.05 × 10 = 3050.50\n305.05 × 6 = 1830.30"
+            },
+            {
+              "english": "Now add the two results:\n3050.50 + 1830.30 = 4880.80",
+              "hindi": "अब दोनों उत्तरों को जोड़ते हैं:\n3050.50 + 1830.30 = 4880.80"
+            },
+            {
+              "english": "So, Rs 305.05 × 16 = Rs 4880.80",
+              "hindi": "इसलिए, Rs 305.05 × 16 = Rs 4880.80"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3126,8 +3806,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To multiply Rs 268.54 by 18, split 18 into 10 + 8.",
+              "hindi": "Rs 268.54 को 18 से गुणा करने के लिए 18 को 10 + 8 में तोड़ते हैं।"
+            },
+            {
+              "english": "First:\n268.54 × 10 = 2685.40",
+              "hindi": "पहले:\n268.54 × 10 = 2685.40"
+            },
+            {
+              "english": "Then:\n268.54 × 8 = 2148.32",
+              "hindi": "फिर:\n268.54 × 8 = 2148.32"
+            },
+            {
+              "english": "Now add both answers:\n2685.40 + 2148.32 = 4833.72",
+              "hindi": "अब दोनों उत्तर जोड़ें:\n2685.40 + 2148.32 = 4833.72"
+            },
+            {
+              "english": "So, Rs 268.54 × 18 = Rs 4833.72.\nFinal answer: Rs 4833.72",
+              "hindi": "इसलिए, Rs 268.54 × 18 = Rs 4833.72.\nअंतिम उत्तर: Rs 4833.72"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3191,8 +3895,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find Rs 410.37 × 20.",
+              "hindi": "हमें Rs 410.37 को 20 से गुणा करना है।"
+            },
+            {
+              "english": "Step 1: Multiply by 2.\n410.37 × 2 = 820.74",
+              "hindi": "चरण 1: 2 से गुणा करें।\n410.37 × 2 = 820.74"
+            },
+            {
+              "english": "Step 2: Multiply by 10.\n820.74 × 10 = 8207.40",
+              "hindi": "चरण 2: 10 से गुणा करें।\n820.74 × 10 = 8207.40"
+            },
+            {
+              "english": "So, Rs 410.37 × 20 = Rs 8207.40.\nFinal Answer: Rs 8207.40",
+              "hindi": "इसलिए, Rs 410.37 × 20 = Rs 8207.40.\nअंतिम उत्तर: Rs 8207.40"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3256,8 +3980,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find one-fifth of Rs 63.50.",
+              "hindi": "हमें Rs 63.50 का एक-पाँचवाँ भाग निकालना है।"
+            },
+            {
+              "english": "Step 1: Divide 63.50 by 5.\nStep 2: 63.50 ÷ 5 = 12.70.\nStep 3: So the amount is Rs 12.70.",
+              "hindi": "Step 1: 63.50 को 5 से भाग दें।\nStep 2: 63.50 ÷ 5 = 12.70।\nStep 3: इसलिए राशि Rs 12.70 है।"
+            },
+            {
+              "english": "Final answer: Rs 12.70",
+              "hindi": "अंतिम उत्तर: Rs 12.70"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3321,8 +4061,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to divide Rs 283.25 by 11.\nStep 1: 11 × 25 = 275.\nStep 2: 283.25 - 275 = 8.25.\nStep 3: 8.25 ÷ 11 = 0.75.\nStep 4: 25 + 0.75 = 25.75.\nFinal answer: Rs 25.75",
+              "hindi": "हमें Rs 283.25 को 11 से भाग देना है।\nStep 1: 11 × 25 = 275।\nStep 2: इसे 283.25 से घटाएं: 283.25 - 275 = 8.25।\nStep 3: 8.25 ÷ 11 = 0.75।\nStep 4: 25 + 0.75 = 25.75।\nअंतिम उत्तर: Rs 25.75"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3386,8 +4134,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to share Rs 658.70 equally into 14 parts.\nStep 1: 14 goes into 658 exactly 47 times because 14 x 47 = 658.\nStep 2: 0.70 divided by 14 = 0.05.\nStep 3: 47 + 0.05 = 47.05.\nFinal answer: Rs 47.05",
+              "hindi": "हमें Rs 658.70 को 14 बराबर हिस्सों में बांटना है।\nStep 1: 14, 658 में ठीक 47 बार जाता है क्योंकि 14 x 47 = 658।\nStep 2: 0.70 को 14 से भाग देने पर 0.05 मिलता है।\nStep 3: 47 + 0.05 = 47.05।\nअंतिम उत्तर: Rs 47.05"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3451,8 +4207,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to divide Rs 260.00 by 16.\nStep 1: 16 x 16 = 256.\nStep 2: 260.00 - 256.00 = 4.00.\nStep 3: 4.00 / 16 = 0.25.\nStep 4: 16 + 0.25 = 16.25, which means 16 rupees 25 paise.\nFinal answer: Rs 16.25",
+              "hindi": "हमें Rs 260.00 को 16 से भाग देना है।\nचरण 1: 16 x 16 = 256।\nचरण 2: 260.00 - 256.00 = 4.00।\nचरण 3: 4.00 / 16 = 0.25।\nचरण 4: 16 + 0.25 = 16.25, यानी 16 रुपये 25 पैसे।\nअंतिम उत्तर: Rs 16.25"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3516,8 +4280,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find the total cost by multiplying the cost of 1 packet by 16 packets.",
+              "hindi": "हमें 1 पैकेट की कीमत को 16 पैकेटों से गुणा करना है।"
+            },
+            {
+              "english": "Cost of each packet = Rs 23.85\nNumber of packets = 16",
+              "hindi": "1 पैकेट की कीमत = Rs 23.85\nपैकेटों की संख्या = 16"
+            },
+            {
+              "english": "Now multiply:\n23.85 × 16 = 23.85 × (10 + 6)\n= (23.85 × 10) + (23.85 × 6)\n= 238.50 + 143.10\n= 381.60",
+              "hindi": "अब गुणा करते हैं:\n23.85 × 16 = 23.85 × (10 + 6)\n= (23.85 × 10) + (23.85 × 6)\n= 238.50 + 143.10\n= 381.60"
+            },
+            {
+              "english": "So, the total cost is Rs 381.60.",
+              "hindi": "इसलिए, कुल कीमत Rs 381.60 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3581,8 +4365,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the cost of 15 chairs, we multiply the cost of 1 chair by 15.",
+              "hindi": "15 कुर्सियों का खर्च निकालने के लिए, 1 कुर्सी की कीमत को 15 से गुणा करते हैं।"
+            },
+            {
+              "english": "Cost of 1 chair = Rs 247.60\nCost of 15 chairs = 247.60 × 15\n= 247.60 × (10 + 5)\n= 2476.00 + 1238.00\n= 3714.00",
+              "hindi": "1 कुर्सी की कीमत = Rs 247.60\n15 कुर्सियों की कीमत = 247.60 × 15\n= 247.60 × (10 + 5)\n= 2476.00 + 1238.00\n= 3714.00"
+            },
+            {
+              "english": "So, the cost of 15 such chairs is Rs 3714.",
+              "hindi": "इसलिए, 15 ऐसी कुर्सियों की कीमत Rs 3714 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3646,8 +4446,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Cost of 1 kg of sugar = Rs 35.80\nWe need the cost of 18 kg of sugar.",
+              "hindi": "1 किलोग्राम चीनी की कीमत = Rs 35.80 है\nहमें 18 किलोग्राम चीनी की कीमत निकालनी है।"
+            },
+            {
+              "english": "Step 1: Multiply the cost of 1 kg by 18\nRs 35.80 × 18 = Rs 644.40",
+              "hindi": "Step 1: 1 किलोग्राम की कीमत को 18 से गुणा करें\nRs 35.80 × 18 = Rs 644.40"
+            },
+            {
+              "english": "Step 2: Check the multiplication\n35.80 × 10 = 358.00\n35.80 × 8 = 286.40\n358.00 + 286.40 = 644.40",
+              "hindi": "Step 2: गुणा को जांचें\n35.80 × 10 = 358.00\n35.80 × 8 = 286.40\n358.00 + 286.40 = 644.40"
+            },
+            {
+              "english": "So, the cost of 18 kg of sugar is Rs 644.40.",
+              "hindi": "इसलिए, 18 किलोग्राम चीनी की कीमत Rs 644.40 है।"
+            },
+            {
+              "english": "Final answer: Rs 644.40",
+              "hindi": "Final answer: Rs 644.40"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3711,8 +4535,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know:\nCost of 14 kg of tomatoes = Rs 231.00\nTo find the cost of 1 kg, divide the total cost by 14.\nRs 231.00 ÷ 14 = Rs 16.50\nSo, the cost of 1 kg of tomatoes is Rs 16.50.",
+              "hindi": "हमें दिया है:\n14 किलोग्राम टमाटरों की कीमत = Rs 231.00\n1 किलोग्राम की कीमत निकालने के लिए, कुल कीमत को 14 से भाग देंगे।\nRs 231.00 ÷ 14 = Rs 16.50\nइसलिए, 1 किलोग्राम टमाटर की कीमत Rs 16.50 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3776,8 +4608,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know that the cost of 17 jam bottles is Rs 901.85.\nTo find the cost of 1 jam bottle, divide the total cost by 17.",
+              "hindi": "हमें पता है कि 17 जैम की बोतलों की कुल कीमत Rs 901.85 है।\n1 जैम बोतल की कीमत निकालने के लिए कुल कीमत को 17 से भाग देंगे।"
+            },
+            {
+              "english": "901.85 ÷ 17 = 53.05",
+              "hindi": "901.85 ÷ 17 = 53.05"
+            },
+            {
+              "english": "So, the cost of each jam bottle is Rs 53.05.\nFinal answer: Rs 53.05",
+              "hindi": "इसलिए, एक जैम बोतल की कीमत Rs 53.05 है।\nअंतिम उत्तर: Rs 53.05"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3841,8 +4689,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the cost of 1 kg rice, divide the total cost by the total number of kilograms.",
+              "hindi": "1 किलोग्राम चावल का मूल्य निकालने के लिए कुल कीमत को कुल किलोग्राम से भाग देते हैं।"
+            },
+            {
+              "english": "Cost of 1 kg rice = 616 ÷ 16\n= 38.5\n= Rs 38.50",
+              "hindi": "1 kg चावल की कीमत = 616 ÷ 16\n= 38.5\n= Rs 38.50"
+            },
+            {
+              "english": "So, the cost of rice per kg is Rs 38.50.",
+              "hindi": "इसलिए, चावल का प्रति किलोग्राम मूल्य Rs 38.50 है।"
+            },
+            {
+              "english": "Final answer: Rs 38.50 per kg.",
+              "hindi": "अंतिम उत्तर: Rs 38.50 प्रति किलोग्राम।"
+            }
+          ]
         }
       ],
       "tags": [

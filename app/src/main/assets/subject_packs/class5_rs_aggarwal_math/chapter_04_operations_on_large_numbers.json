@@ -988,8 +988,60 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us add the numbers step by step:",
+              "hindi": "आइए इन संख्याओं को चरणों में जोड़ते हैं:"
+            },
+            {
+              "english": "3,675,218\n+ 2,517,673\n-----------",
+              "hindi": "3,675,218\n+ 2,517,673\n-----------"
+            },
+            {
+              "english": "Start from the rightmost digit:",
+              "hindi": "अब दाईं ओर से जोड़ना शुरू करते हैं:"
+            },
+            {
+              "english": "1. 8 + 3 = 11\n   Write 1 and carry 1.",
+              "hindi": "1. 8 + 3 = 11\n   1 लिखेंगे और 1 carry करेंगे।"
+            },
+            {
+              "english": "2. 1 + 7 + 1 = 9\n   Write 9.",
+              "hindi": "2. 1 + 7 + 1 = 9\n   9 लिखेंगे।"
+            },
+            {
+              "english": "3. 2 + 6 = 8\n   Write 8.",
+              "hindi": "3. 2 + 6 = 8\n   8 लिखेंगे।"
+            },
+            {
+              "english": "4. 5 + 7 = 12\n   Write 2 and carry 1.",
+              "hindi": "4. 5 + 7 = 12\n   2 लिखेंगे और 1 carry करेंगे।"
+            },
+            {
+              "english": "5. 7 + 1 + 1 = 9\n   Write 9.",
+              "hindi": "5. 7 + 1 + 1 = 9\n   9 लिखेंगे।"
+            },
+            {
+              "english": "6. 6 + 5 = 11\n   Write 1 and carry 1.",
+              "hindi": "6. 6 + 5 = 11\n   1 लिखेंगे और 1 carry करेंगे।"
+            },
+            {
+              "english": "7. 3 + 2 + 1 = 6\n   Write 6.",
+              "hindi": "7. 3 + 2 + 1 = 6\n   6 लिखेंगे।"
+            },
+            {
+              "english": "So, the sum is 6,192,891.",
+              "hindi": "इसलिए योग है 6,192,891।"
+            },
+            {
+              "english": "Final Answer: 6192891",
+              "hindi": "अंतिम उत्तर: 6192891"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1052,8 +1104,56 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let’s add 7,453,619 + 1,876,984 step by step.",
+              "hindi": "आइए 7,453,619 + 1,876,984 को चरण दर चरण जोड़ते हैं।"
+            },
+            {
+              "english": "Write the numbers in columns and add from right to left:",
+              "hindi": "दाईं ओर से बाईं ओर जोड़ते हैं:"
+            },
+            {
+              "english": "Ones: 9 + 4 = 13\nWrite 3, carry 1.",
+              "hindi": "इकाई: 9 + 4 = 13\n3 लिखें, 1 carry करें।"
+            },
+            {
+              "english": "Tens: 1 + 8 + 1 = 10\nWrite 0, carry 1.",
+              "hindi": "दहाई: 1 + 8 + 1 = 10\n0 लिखें, 1 carry करें।"
+            },
+            {
+              "english": "Hundreds: 6 + 9 + 1 = 16\nWrite 6, carry 1.",
+              "hindi": "सैकड़ा: 6 + 9 + 1 = 16\n6 लिखें, 1 carry करें।"
+            },
+            {
+              "english": "Thousands: 3 + 6 + 1 = 10\nWrite 0, carry 1.",
+              "hindi": "हज़ार: 3 + 6 + 1 = 10\n0 लिखें, 1 carry करें।"
+            },
+            {
+              "english": "Ten-thousands: 5 + 7 + 1 = 13\nWrite 3, carry 1.",
+              "hindi": "दस-हज़ार: 5 + 7 + 1 = 13\n3 लिखें, 1 carry करें।"
+            },
+            {
+              "english": "Hundred-thousands: 4 + 8 + 1 = 13\nWrite 3, carry 1.",
+              "hindi": "लाख: 4 + 8 + 1 = 13\n3 लिखें, 1 carry करें।"
+            },
+            {
+              "english": "Millions: 7 + 1 + 1 = 9\nWrite 9.",
+              "hindi": "दस-लाख: 7 + 1 + 1 = 9\n9 लिखें।"
+            },
+            {
+              "english": "So, 7,453,619 + 1,876,984 = 9,330,603.",
+              "hindi": "इसलिए, 7,453,619 + 1,876,984 = 9,330,603."
+            },
+            {
+              "english": "Final answer: 9,330,603",
+              "hindi": "Final answer: 9,330,603"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1116,8 +1216,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let’s add the numbers by place value.",
+              "hindi": "आइए संख्याओं को स्थान-मूल्य के अनुसार जोड़ते हैं।"
+            },
+            {
+              "english": "75,436,948\n+ 2,784,236\n-----------",
+              "hindi": "75,436,948\n+ 2,784,236\n-----------"
+            },
+            {
+              "english": "Start from the right:\n- 8 + 6 = 14, write 4 and carry 1.\n- 4 + 3 + 1 = 8.\n- 9 + 2 = 11, write 1 and carry 1.\n- 6 + 4 + 1 = 11, write 1 and carry 1.\n- 3 + 8 + 1 = 12, write 2 and carry 1.\n- 4 + 7 + 1 = 12, write 2 and carry 1.\n- 5 + 0 + 1 = 6.\n- 7 + 2 = 9.",
+              "hindi": "दाईं ओर से जोड़ना शुरू करते हैं:\n- 8 + 6 = 14, 4 लिखो और 1 carry करो।\n- 4 + 3 + 1 = 8।\n- 9 + 2 = 11, 1 लिखो और 1 carry करो।\n- 6 + 4 + 1 = 11, 1 लिखो और 1 carry करो।\n- 3 + 8 + 1 = 12, 2 लिखो और 1 carry करो।\n- 4 + 7 + 1 = 12, 2 लिखो और 1 carry करो।\n- 5 + 0 + 1 = 6।\n- 7 + 2 = 9।"
+            },
+            {
+              "english": "So, the sum is 78,221,184.",
+              "hindi": "इसलिए उत्तर 78,221,184 है।"
+            },
+            {
+              "english": "Final answer: 78,221,184",
+              "hindi": "अंतिम उत्तर: 78,221,184"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1180,8 +1304,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Write the numbers in columns:\n38,256,714\n+ 3,967,489",
+              "hindi": "संख्याओं को स्तंभ में लिखिए:\n38,256,714\n+ 3,967,489"
+            },
+            {
+              "english": "Now add from right to left:\n4 + 9 = 13, write 3 and carry 1.\n1 + 1 + 8 = 10, write 0 and carry 1.\n1 + 7 + 4 = 12, write 2 and carry 1.\n1 + 6 + 7 = 14, write 4 and carry 1.\n1 + 5 + 6 = 12, write 2 and carry 1.\n1 + 2 + 9 = 12, write 2 and carry 1.\n1 + 8 + 3 = 12, write 2 and carry 1.\n1 + 3 = 4.",
+              "hindi": "अब दाएँ से बाएँ जोड़ते हैं:\n4 + 9 = 13, 3 लिखिए और 1 को अगले स्थान पर ले जाइए।\n1 + 1 + 8 = 10, 0 लिखिए और 1 को अगले स्थान पर ले जाइए।\n1 + 7 + 4 = 12, 2 लिखिए और 1 को अगले स्थान पर ले जाइए।\n1 + 6 + 7 = 14, 4 लिखिए और 1 को अगले स्थान पर ले जाइए।\n1 + 5 + 6 = 12, 2 लिखिए और 1 को अगले स्थान पर ले जाइए।\n1 + 2 + 9 = 12, 2 लिखिए और 1 को अगले स्थान पर ले जाइए।\n1 + 8 + 3 = 12, 2 लिखिए और 1 को अगले स्थान पर ले जाइए।\n1 + 3 = 4."
+            },
+            {
+              "english": "So, the sum is 42,224,203.\nFinal answer: 42224203",
+              "hindi": "इसलिए योग है 42,224,203.\nअंतिम उत्तर: 42224203"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1244,8 +1384,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We add the numbers one step at a time.",
+              "hindi": "हम संख्याओं को एक-एक करके जोड़ते हैं।"
+            },
+            {
+              "english": "1) 43,268,974 + 6,794,347 = 50,063,321\n2) 50,063,321 + 316,554 = 50,379,875",
+              "hindi": "1) 43,268,974 + 6,794,347 = 50,063,321\n2) 50,063,321 + 316,554 = 50,379,875"
+            },
+            {
+              "english": "So, the sum is 50,379,875.",
+              "hindi": "इसलिए, योग है 50,379,875."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1308,8 +1464,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us add the numbers step by step.",
+              "hindi": "आइए इन संख्याओं को चरण दर चरण जोड़ते हैं।"
+            },
+            {
+              "english": "First, add 16875309 and 23426793:\n16875309 + 23426793 = 40302102",
+              "hindi": "पहले 16875309 और 23426793 को जोड़ते हैं:\n16875309 + 23426793 = 40302102"
+            },
+            {
+              "english": "Now add the third number:\n40302102 + 4231518 = 44533620",
+              "hindi": "अब तीसरी संख्या जोड़ते हैं:\n40302102 + 4231518 = 44533620"
+            },
+            {
+              "english": "So, the sum is 44533620.\nFinal answer: 44533620",
+              "hindi": "इसलिए, योग 44533620 है।\nअंतिम उत्तर: 44533620"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1372,8 +1548,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's add the numbers step by step.",
+              "hindi": "आइए संख्याओं को चरण दर चरण जोड़ते हैं।"
+            },
+            {
+              "english": "1. First add 134,526,729 and 243,647,394:\n   134,526,729 + 243,647,394 = 378,174,123",
+              "hindi": "1. पहले 134,526,729 और 243,647,394 को जोड़ें:\n   134,526,729 + 243,647,394 = 378,174,123"
+            },
+            {
+              "english": "2. Now add the third number:\n   378,174,123 + 69,318,453 = 447,492,576",
+              "hindi": "2. अब तीसरी संख्या जोड़ें:\n   378,174,123 + 69,318,453 = 447,492,576"
+            },
+            {
+              "english": "So, the final answer is 447,492,576.",
+              "hindi": "इसलिए अंतिम उत्तर 447,492,576 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1436,8 +1632,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to add three numbers: 245,719,563 + 463,267,478 + 71,932,345.",
+              "hindi": "हमें तीन संख्याएँ जोड़नी हैं: 245,719,563 + 463,267,478 + 71,932,345."
+            },
+            {
+              "english": "Step 1: Add the first two numbers.\n245,719,563\n+463,267,478\n=708,987,041",
+              "hindi": "पहला कदम: पहले दो संख्याएँ जोड़ते हैं।\n245,719,563\n+463,267,478\n=708,987,041"
+            },
+            {
+              "english": "Step 2: Add the third number.\n708,987,041\n+ 71,932,345\n=780,919,386",
+              "hindi": "दूसरा कदम: अब तीसरी संख्या जोड़ते हैं।\n708,987,041\n+ 71,932,345\n=780,919,386"
+            },
+            {
+              "english": "So, the final answer is 780,919,386.",
+              "hindi": "अंतिम उत्तर 780,919,386 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1500,8 +1716,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let’s add the numbers step by step.",
+              "hindi": "आइए इन संख्याओं को चरण दर चरण जोड़ते हैं।"
+            },
+            {
+              "english": "1. Add the first two numbers:\n   5,764,239 + 43,075,786 = 48,840,025",
+              "hindi": "1. पहले दो संख्याएँ जोड़ते हैं:\n   5,764,239 + 43,075,786 = 48,840,025"
+            },
+            {
+              "english": "2. Add the third number:\n   48,840,025 + 139,608,945 = 188,448,970",
+              "hindi": "2. अब तीसरी संख्या जोड़ते हैं:\n   48,840,025 + 139,608,945 = 188,448,970"
+            },
+            {
+              "english": "3. Add the last number:\n   188,448,970 + 96,578 = 188,545,548",
+              "hindi": "3. अब आखिरी संख्या जोड़ते हैं:\n   188,448,970 + 96,578 = 188,545,548"
+            },
+            {
+              "english": "So, the sum is 188,545,548.\nFinal answer: 188,545,548",
+              "hindi": "इसलिए, योग 188,545,548 है।\nअंतिम उत्तर: 188,545,548"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1564,8 +1804,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let’s add the numbers step by step.",
+              "hindi": "आइए इन संख्याओं को चरण-दर-चरण जोड़ते हैं।"
+            },
+            {
+              "english": "1. 546271285 + 173827493 = 720098778\n2. 720098778 + 10374678 = 730473456\n3. 730473456 + 2992789 = 733466245",
+              "hindi": "1. 546271285 + 173827493 = 720098778\n2. 720098778 + 10374678 = 730473456\n3. 730473456 + 2992789 = 733466245"
+            },
+            {
+              "english": "So, the total is 733466245.",
+              "hindi": "इसलिए, कुल योग 733466245 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1628,8 +1884,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We will add the numbers step by step.",
+              "hindi": "हम इन संख्याओं को चरण दर चरण जोड़ते हैं।"
+            },
+            {
+              "english": "13256978 + 6975684 + 23679",
+              "hindi": "13256978 + 6975684 + 23679"
+            },
+            {
+              "english": "First, add 13,256,978 and 6,975,684:\n13,256,978\n+ 6,975,684\n= 20,232,662",
+              "hindi": "पहले 13,256,978 और 6,975,684 को जोड़ते हैं:\n13,256,978\n+ 6,975,684\n= 20,232,662"
+            },
+            {
+              "english": "Now add 23,679:\n20,232,662\n+    23,679\n= 20,256,341",
+              "hindi": "अब 23,679 जोड़ते हैं:\n20,232,662\n+    23,679\n= 20,256,341"
+            },
+            {
+              "english": "So, the sum of the given numbers is 20,256,341.",
+              "hindi": "इसलिए, दी गई संख्याओं का योग 20,256,341 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1692,8 +1972,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us add the numbers step by step:",
+              "hindi": "आइए इन संख्याओं को चरण दर चरण जोड़ते हैं:"
+            },
+            {
+              "english": "343,851,728 + 166,452,675 = 510,304,403",
+              "hindi": "343,851,728 + 166,452,675 = 510,304,403"
+            },
+            {
+              "english": "Now add the next number:\n510,304,403 + 3,672,563 = 513,976,966",
+              "hindi": "अब अगली संख्या जोड़ते हैं:\n510,304,403 + 3,672,563 = 513,976,966"
+            },
+            {
+              "english": "Now add the last number:\n513,976,966 + 935 = 513,977,901",
+              "hindi": "अब अंतिम संख्या जोड़ते हैं:\n513,976,966 + 935 = 513,977,901"
+            },
+            {
+              "english": "So, the sum is 513,977,901.",
+              "hindi": "इसलिए, योग 513,977,901 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1756,8 +2060,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's add the numbers step by step:",
+              "hindi": "आइए संख्याओं को एक-एक करके जोड़ते हैं:"
+            },
+            {
+              "english": "474,361,279 + 236,554,385 = 710,915,664\n710,915,664 + 53,168,837 = 764,084,501\n764,084,501 + 20,716,314 = 784,800,815",
+              "hindi": "474,361,279 + 236,554,385 = 710,915,664\n710,915,664 + 53,168,837 = 764,084,501\n764,084,501 + 20,716,314 = 784,800,815"
+            },
+            {
+              "english": "So, the sum is 784,800,815.",
+              "hindi": "इसलिए, योग 784,800,815 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1820,8 +2140,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find how many persons visited the shrine during the two years, we add the number of visitors in both years.",
+              "hindi": "यह जानने के लिए कि इन दो वर्षों में कुल कितने लोग माता वैष्णो देवी के पवित्र मंदिर में गए, हमें दोनों वर्षों की संख्याओं को जोड़ना होगा।"
+            },
+            {
+              "english": "First year = 6,378,907\nSecond year = 7,865,089",
+              "hindi": "पहला वर्ष = 6,378,907\nदूसरा वर्ष = 7,865,089"
+            },
+            {
+              "english": "Now add them:\n6,378,907\n+ 7,865,089\n= 14,243,996",
+              "hindi": "अब जोड़ते हैं:\n6,378,907\n+ 7,865,089\n= 14,243,996"
+            },
+            {
+              "english": "So, 14,243,996 persons visited the shrine during these two years.\nFinal answer: 14,243,996.",
+              "hindi": "इसलिए इन दो वर्षों में कुल 14,243,996 व्यक्ति मंदिर गए।\nअंतिम उत्तर: 14,243,996."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1884,8 +2224,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the total number of bags, add the bags produced by all three factories.",
+              "hindi": "कुल थैलियों की संख्या निकालने के लिए तीनों कारखानों की थैलियों को जोड़ते हैं।"
+            },
+            {
+              "english": "23807575 + 19728686 + 8962347\n= 43536261 + 8962347\n= 52498608",
+              "hindi": "23807575 + 19728686 + 8962347\n= 43536261 + 8962347\n= 52498608"
+            },
+            {
+              "english": "So, the three sugar factories produced 52,498,608 bags in all.",
+              "hindi": "इसलिए, तीनों चीनी कारखानों ने मिलकर 52,498,608 थैलियाँ बनाई।"
+            },
+            {
+              "english": "Final answer: 52,498,608 bags.",
+              "hindi": "अंतिम उत्तर: 52,498,608 थैलियाँ।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1948,8 +2308,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find the total population by adding all three groups.",
+              "hindi": "हमें शहर की कुल जनसंख्या निकालनी है। इसके लिए पुरुषों, महिलाओं और बच्चों की संख्या को जोड़ेंगे।"
+            },
+            {
+              "english": "Men = 5,726,439\nWomen = 4,439,675\nChildren = 2,016,348",
+              "hindi": "पुरुष = 5,726,439\nमहिलाएँ = 4,439,675\nबच्चे = 2,016,348"
+            },
+            {
+              "english": "Step 1: Add men and women.\n5,726,439 + 4,439,675 = 10,166,114",
+              "hindi": "Step 1: पुरुष और महिलाओं को जोड़ते हैं।\n5,726,439 + 4,439,675 = 10,166,114"
+            },
+            {
+              "english": "Step 2: Add the children.\n10,166,114 + 2,016,348 = 12,182,462",
+              "hindi": "Step 2: अब बच्चों को जोड़ते हैं।\n10,166,114 + 2,016,348 = 12,182,462"
+            },
+            {
+              "english": "So, the total population of the city is 12,182,462.",
+              "hindi": "इसलिए शहर की कुल जनसंख्या 12,182,462 है।"
+            },
+            {
+              "english": "Final answer: 12182462",
+              "hindi": "अंतिम उत्तर: 12182462"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2012,8 +2400,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let the number of females be 6,813,675.",
+              "hindi": "मान लीजिए महिलाओं की संख्या 6,813,675 है।"
+            },
+            {
+              "english": "The male population was 2,359,324 more than the female population.\nSo, male population = 6,813,675 + 2,359,324\n= 9,172,999",
+              "hindi": "पुरुषों की संख्या महिलाओं से 2,359,324 अधिक थी।\nइसलिए, पुरुषों की संख्या = 6,813,675 + 2,359,324\n= 9,172,999"
+            },
+            {
+              "english": "Now find the total population.\nTotal population = male population + female population\n= 9,172,999 + 6,813,675\n= 15,986,674",
+              "hindi": "अब कुल जनसंख्या निकालते हैं।\nकुल जनसंख्या = पुरुषों की संख्या + महिलाओं की संख्या\n= 9,172,999 + 6,813,675\n= 15,986,674"
+            },
+            {
+              "english": "Final answer: The male population was 9,172,999 and the total population of the city was 15,986,674.",
+              "hindi": "अंतिम उत्तर: पुरुष जनसंख्या 9,172,999 थी और उस वर्ष शहर की कुल जनसंख्या 15,986,674 थी।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2077,8 +2485,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us solve it step by step.",
+              "hindi": "आइए इसे चरण दर चरण हल करते हैं।"
+            },
+            {
+              "english": "1. Sales-receipt in 2011 = Rs 13047546\n2. It increased next year by Rs 7973674\n3. So, sales-receipt in 2012 = 13047546 + 7973674 = Rs 21021220",
+              "hindi": "1. वर्ष 2011 में बिक्री-प्राप्ति = Rs 13047546\n2. अगले वर्ष इसमें Rs 7973674 की वृद्धि हुई\n3. इसलिए, वर्ष 2012 में बिक्री-प्राप्ति = 13047546 + 7973674 = Rs 21021220"
+            },
+            {
+              "english": "Now find the total sales-receipt for both years:\n4. Total = 13047546 + 21021220 = Rs 34068766",
+              "hindi": "अब दोनों वर्षों की कुल बिक्री-प्राप्ति निकालते हैं:\n4. कुल = 13047546 + 21021220 = Rs 34068766"
+            },
+            {
+              "english": "Final answer: Rs 21021220 and Rs 34068766.",
+              "hindi": "अंतिम उत्तर: Rs 21021220 और Rs 34068766."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2141,8 +2569,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us solve it step by step.",
+              "hindi": "आइए इसे चरणबद्ध तरीके से हल करते हैं।"
+            },
+            {
+              "english": "1. Bicycles produced in the first year = 6,736,265\n2. In the next year, production was 1,374,589 more than the first year.",
+              "hindi": "1. पहले वर्ष में बनी साइकिलें = 6,736,265\n2. अगले वर्ष साइकिलों का उत्पादन पहले वर्ष से 1,374,589 अधिक था।"
+            },
+            {
+              "english": "So, bicycles produced in the next year = 6,736,265 + 1,374,589 = 8,110,854",
+              "hindi": "इसलिए, अगले वर्ष बनी साइकिलें = 6,736,265 + 1,374,589 = 8,110,854"
+            },
+            {
+              "english": "Now add the bicycles from both years:\n6,736,265 + 8,110,854 = 14,847,119",
+              "hindi": "अब दोनों वर्षों की साइकिलों को जोड़ते हैं:\n6,736,265 + 8,110,854 = 14,847,119"
+            },
+            {
+              "english": "Final answer: 14,847,119 bicycles",
+              "hindi": "अंतिम उत्तर: 14,847,119 साइकिलें"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2205,8 +2657,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the number of votes registered, we add:",
+              "hindi": "पंजीकृत मतों की संख्या निकालने के लिए हमें ये सभी जोड़ने होंगे:"
+            },
+            {
+              "english": "1. Votes received by the 3 candidates:\n   678509 + 462397 + 97685 = 1238591",
+              "hindi": "1. तीनों उम्मीदवारों को मिले वोट:\n   678509 + 462397 + 97685 = 1238591"
+            },
+            {
+              "english": "2. Invalid votes:\n   1238591 + 16489 = 1255080",
+              "hindi": "2. अवैध वोट जोड़ें:\n   1238591 + 16489 = 1255080"
+            },
+            {
+              "english": "3. Persons who did not vote are also counted in the total registered votes:\n   1255080 + 45716 = 1300796",
+              "hindi": "3. जिन्होंने वोट नहीं दिया, उन्हें भी कुल पंजीकृत मतों में शामिल करते हैं:\n   1255080 + 45716 = 1300796"
+            },
+            {
+              "english": "So, the number of votes registered was 1300796.",
+              "hindi": "अतः पंजीकृत मतों की संख्या 1300796 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2269,8 +2745,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the greater number, compare the numbers from left to right.",
+              "hindi": "बड़ी संख्या पता करने के लिए दोनों संख्याओं की तुलना बाएँ से दाएँ करें।"
+            },
+            {
+              "english": "The number with the larger value is 21211579.",
+              "hindi": "जिस संख्या का मान बड़ा होता है, वही बड़ी संख्या होती है। यहाँ बड़ी संख्या 21211579 है।"
+            },
+            {
+              "english": "So, the greater number is 21211579.",
+              "hindi": "अतः बड़ी संख्या 21211579 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2333,8 +2825,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A number exceeds 35637844 by 7674156.",
+              "hindi": "35637844 से 7674156 अधिक संख्या ज्ञात करनी है।"
+            },
+            {
+              "english": "\"Exceeds by\" means we should add the extra amount.",
+              "hindi": "\"By 7674156\" का मतलब है कि उस संख्या में 7674156 जोड़ना होगा।"
+            },
+            {
+              "english": "So, we add:\n35637844 + 7674156 = 43312000",
+              "hindi": "अब जोड़ते हैं:\n35637844 + 7674156 = 43312000"
+            },
+            {
+              "english": "Therefore, the number is 43312000.",
+              "hindi": "इसलिए संख्या 43312000 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2397,8 +2909,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We subtract from right to left.",
+              "hindi": "हम दाईं तरफ से बाईं तरफ घटाते हैं।"
+            },
+            {
+              "english": "Number setup:\n  5,647,812\n- 2,785,745\n-----------",
+              "hindi": "संख्या इस तरह लिखते हैं:\n  5,647,812\n- 2,785,745\n-----------"
+            },
+            {
+              "english": "1. Ones: 2 - 5 cannot be done, so we borrow 1 ten. Then 12 - 5 = 7.\n2. Tens: after borrowing, 0 - 4 cannot be done, so we borrow from the hundreds place. Then 10 - 4 = 6.\n3. Hundreds: 7 - 7 = 0.\n4. Thousands: 7 - 5 = 2.\n5. Ten-thousands: 4 - 8 cannot be done, so we borrow from the next place. Then 14 - 8 = 6.\n6. Hundred-thousands: after borrowing, 5 - 7 cannot be done, so we borrow from the millions place. Then 15 - 7 = 8.\n7. Millions: after borrowing, 4 - 2 = 2.",
+              "hindi": "1. इकाई: 2 - 5 नहीं हो सकता, इसलिए हम दहाई से 1 उधार लेते हैं। तब 12 - 5 = 7.\n2. दहाई: उधार लेने के बाद 0 - 4 नहीं हो सकता, इसलिए हम सैकड़ा से उधार लेते हैं। तब 10 - 4 = 6.\n3. सैकड़ा: 7 - 7 = 0.\n4. हजार: 7 - 5 = 2.\n5. दस-हजार: 4 - 8 नहीं हो सकता, इसलिए हम अगले स्थान से उधार लेते हैं। तब 14 - 8 = 6.\n6. लाख: उधार लेने के बाद 5 - 7 नहीं हो सकता, इसलिए हम करोड़ वाले स्थान से उधार लेते हैं। तब 15 - 7 = 8.\n7. करोड़: उधार लेने के बाद 4 - 2 = 2."
+            },
+            {
+              "english": "So, 5,647,812 - 2,785,745 = 2,862,067.\nFinal answer: 2,862,067",
+              "hindi": "इसलिए, 5,647,812 - 2,785,745 = 2,862,067.\nअंतिम उत्तर: 2,862,067"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2461,8 +2993,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Write the numbers in columns:\n7,856,429\n- 3,698,367",
+              "hindi": "संख्याओं को ऊपर-नीचे लिखो:\n7,856,429\n- 3,698,367"
+            },
+            {
+              "english": "Now subtract from right to left:\n- Ones: 9 - 7 = 2\n- Tens: 2 - 6 cannot, so borrow 1 from the 4 in the hundreds place. Tens becomes 12 and hundreds becomes 3. 12 - 6 = 6\n- Hundreds: 3 - 3 = 0\n- Thousands: 6 - 8 cannot, so borrow 1 from the 5 in the ten-thousands place. Thousands becomes 16 and ten-thousands becomes 4. 16 - 8 = 8\n- Ten-thousands: 4 - 9 cannot, so borrow 1 from the 8 in the hundred-thousands place. Ten-thousands becomes 14 and hundred-thousands becomes 7. 14 - 9 = 5\n- Hundred-thousands: 7 - 6 = 1\n- Millions: 7 - 3 = 4",
+              "hindi": "अब दाईं ओर से घटाते हैं:\n- इकाई: 9 - 7 = 2\n- दहाई: 2 - 6 नहीं हो सकता, इसलिए 4 वाले सैकड़ा स्थान से 1 उधार लेते हैं। दहाई 12 हो जाती है और सैकड़ा 3 रह जाता है। 12 - 6 = 6\n- सैकड़ा: 3 - 3 = 0\n- हज़ार: 6 - 8 नहीं हो सकता, इसलिए 5 वाले दस-हज़ार स्थान से 1 उधार लेते हैं। हज़ार 16 हो जाती है और दस-हज़ार 4 रह जाता है। 16 - 8 = 8\n- दस-हज़ार: 4 - 9 नहीं हो सकता, इसलिए 8 वाले लाख स्थान से 1 उधार लेते हैं। दस-हज़ार 14 हो जाती है और लाख 7 रह जाता है। 14 - 9 = 5\n- लाख: 7 - 6 = 1\n- दस-लाख: 7 - 3 = 4"
+            },
+            {
+              "english": "So, 7,856,429 - 3,698,367 = 4,158,062.\nFinal answer: 4158062.",
+              "hindi": "इसलिए, 7,856,429 - 3,698,367 = 4,158,062.\nअंतिम उत्तर: 4158062."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2525,8 +3073,56 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 9,342,517 - 7,456,789.",
+              "hindi": "हमें 9,342,517 - 7,456,789 करना है।"
+            },
+            {
+              "english": "Write the numbers in columns:\n9,342,517\n-7,456,789",
+              "hindi": "संख्याओं को एक के नीचे एक लिखते हैं:\n9,342,517\n-7,456,789"
+            },
+            {
+              "english": "Now subtract from right to left.",
+              "hindi": "अब दाएँ से बाएँ घटाते हैं।"
+            },
+            {
+              "english": "Ones: 7 - 9 cannot be done, so borrow 1 ten.\n17 - 9 = 8",
+              "hindi": "इकाई: 7 - 9 नहीं हो सकता, इसलिए 1 दहाई उधार लेते हैं।\n17 - 9 = 8"
+            },
+            {
+              "english": "Tens: after borrowing, 1 became 0, so 0 - 8 cannot be done. Borrow 1 hundred.\n10 - 8 = 2",
+              "hindi": "दहाई: उधार लेने के बाद 1, 0 बन गया।\n0 - 8 नहीं हो सकता, इसलिए 1 सैकड़ा उधार लेते हैं।\n10 - 8 = 2"
+            },
+            {
+              "english": "Hundreds: after borrowing, 5 became 4.\n4 - 7 cannot be done, so borrow 1 thousand.\n14 - 7 = 7",
+              "hindi": "सैकड़ा: उधार लेने के बाद 5, 4 बन गया।\n4 - 7 नहीं हो सकता, इसलिए 1 हज़ार उधार लेते हैं।\n14 - 7 = 7"
+            },
+            {
+              "english": "Thousands: after borrowing, 2 became 1.\n1 - 6 cannot be done, so borrow 1 ten-thousand.\n11 - 6 = 5",
+              "hindi": "हज़ार: उधार लेने के बाद 2, 1 बन गया।\n1 - 6 नहीं हो सकता, इसलिए 1 दस हज़ार उधार लेते हैं।\n11 - 6 = 5"
+            },
+            {
+              "english": "Ten-thousands: after borrowing, 4 became 3.\n3 - 5 cannot be done, so borrow 1 hundred-thousand.\n13 - 5 = 8",
+              "hindi": "दस हज़ार: उधार लेने के बाद 4, 3 बन गया।\n3 - 5 नहीं हो सकता, इसलिए 1 लाख उधार लेते हैं।\n13 - 5 = 8"
+            },
+            {
+              "english": "Hundred-thousands: after borrowing, 3 became 2.\n2 - 4 cannot be done, so borrow 1 million.\n12 - 4 = 8",
+              "hindi": "लाख: उधार लेने के बाद 3, 2 बन गया।\n2 - 4 नहीं हो सकता, इसलिए 1 करोड़ उधार लेते हैं।\n12 - 4 = 8"
+            },
+            {
+              "english": "Millions: after borrowing, 9 became 8.\n8 - 7 = 1",
+              "hindi": "करोड़: उधार लेने के बाद 9, 8 बन गया।\n8 - 7 = 1"
+            },
+            {
+              "english": "So, the answer is 1,885,728.",
+              "hindi": "अतः अंतिम उत्तर 1,885,728 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2589,8 +3185,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We will subtract 6,354,724 - 968,836.",
+              "hindi": "आइए 6,354,724 में से 968,836 घटाएँ।"
+            },
+            {
+              "english": "Write them in columns:\n6,354,724\n- 968,836",
+              "hindi": "इसे कॉलम में लिखें:\n6,354,724\n- 968,836"
+            },
+            {
+              "english": "Now subtract from right to left:\n- Ones: 4 - 6 cannot be done, so borrow 1 from 2. Then 14 - 6 = 8.\n- Tens: 1 - 3 cannot be done, so borrow 1 from 7. Then 11 - 3 = 8.\n- Hundreds: 6 - 8 cannot be done, so borrow 1 from 4. Then 16 - 8 = 8.\n- Thousands: 3 - 8 cannot be done, so borrow 1 from 5. Then 13 - 8 = 5.\n- Ten-thousands: 4 - 6 cannot be done, so borrow 1 from 3. Then 14 - 6 = 8.\n- Hundred-thousands: 2 - 9 cannot be done, so borrow 1 from 6. Then 12 - 9 = 3.\n- Millions: 5 - 0 = 5.",
+              "hindi": "अब दाईं ओर से घटाएँ:\n- इकाई: 4 - 6 नहीं हो सकता, इसलिए 2 से 1 उधार लें। तब 14 - 6 = 8।\n- दहाई: 1 - 3 नहीं हो सकता, इसलिए 7 से 1 उधार लें। तब 11 - 3 = 8।\n- सैकड़ा: 6 - 8 नहीं हो सकता, इसलिए 4 से 1 उधार लें। तब 16 - 8 = 8।\n- हज़ार: 3 - 8 नहीं हो सकता, इसलिए 5 से 1 उधार लें। तब 13 - 8 = 5।\n- दस-हज़ार: 4 - 6 नहीं हो सकता, इसलिए 3 से 1 उधार लें। तब 14 - 6 = 8।\n- लाख: 2 - 9 नहीं हो सकता, इसलिए 6 से 1 उधार लें। तब 12 - 9 = 3।\n- दस-लाख: 5 - 0 = 5।"
+            },
+            {
+              "english": "So, 6,354,724 - 968,836 = 5,385,888.\nFinal answer: 5,385,888.",
+              "hindi": "इसलिए, 6,354,724 - 968,836 = 5,385,888।\nअंतिम उत्तर: 5,385,888."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2653,8 +3269,60 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to subtract 9,789,174 from 34,275,063.",
+              "hindi": "हमें 34,275,063 में से 9,789,174 घटाना है।"
+            },
+            {
+              "english": "Write the numbers in columns:\n34,275,063\n- 9,789,174",
+              "hindi": "संख्याओं को एक के नीचे एक लिखते हैं:\n34,275,063\n- 9,789,174"
+            },
+            {
+              "english": "Now subtract from right to left.",
+              "hindi": "अब दाईं ओर से घटाना शुरू करते हैं।"
+            },
+            {
+              "english": "1. Ones: 3 - 4 cannot be done, so borrow 1 ten from 6.\n   3 becomes 13, and 6 becomes 5.\n   13 - 4 = 9",
+              "hindi": "1. इकाई: 3 - 4 नहीं हो सकता, इसलिए 6 से 1 उधार लेते हैं।\n   3, अब 13 बन जाता है और 6, 5 बन जाता है।\n   13 - 4 = 9"
+            },
+            {
+              "english": "2. Tens: 5 - 7 cannot be done, so borrow 1 hundred.\n   But the hundreds digit is 0, so we first borrow from the 5 thousands.\n   The thousands digit becomes 4, the hundreds digit becomes 10.\n   Then borrow 1 hundred to the tens place.\n   The tens digit becomes 15.\n   15 - 7 = 8",
+              "hindi": "2. दहाई: 5 - 7 नहीं हो सकता, इसलिए 1 सैकड़ा उधार लेना होगा।\n   लेकिन सैकड़ा वाले स्थान पर 0 है, इसलिए पहले हजार वाले 5 से उधार लेते हैं।\n   हजार वाला अंक 4 हो जाता है और सैकड़ा वाला अंक 10 हो जाता है।\n   अब सैकड़ा में से दहाई को 1 उधार देते हैं।\n   दहाई वाला अंक 15 बन जाता है।\n   15 - 7 = 8"
+            },
+            {
+              "english": "3. Hundreds: 9 - 1 = 8",
+              "hindi": "3. सैकड़ा: 9 - 1 = 8"
+            },
+            {
+              "english": "4. Thousands: 4 - 9 cannot be done, so borrow 1 from 7 ten-thousands.\n   The ten-thousands digit becomes 6, and the thousands digit becomes 14.\n   14 - 9 = 5",
+              "hindi": "4. हजार: 4 - 9 नहीं हो सकता, इसलिए 7 दस-हजार वाले स्थान से 1 उधार लेते हैं।\n   दस-हजार वाला अंक 6 हो जाता है और हजार वाला अंक 14 हो जाता है।\n   14 - 9 = 5"
+            },
+            {
+              "english": "5. Ten-thousands: 6 - 8 cannot be done, so borrow 1 from 2 hundred-thousands.\n   The hundred-thousands digit becomes 1, and the ten-thousands digit becomes 16.\n   16 - 8 = 8",
+              "hindi": "5. दस-हजार: 6 - 8 नहीं हो सकता, इसलिए 2 लाख वाले स्थान से 1 उधार लेते हैं।\n   लाख वाला अंक 1 हो जाता है और दस-हजार वाला अंक 16 हो जाता है।\n   16 - 8 = 8"
+            },
+            {
+              "english": "6. Hundred-thousands: 1 - 7 cannot be done, so borrow 1 from 4 millions.\n   The millions digit becomes 3, and the hundred-thousands digit becomes 11.\n   11 - 7 = 4",
+              "hindi": "6. लाख: 1 - 7 नहीं हो सकता, इसलिए 4 करोड़ वाले स्थान से 1 उधार लेते हैं।\n   करोड़ वाला अंक 3 हो जाता है और लाख वाला अंक 11 हो जाता है।\n   11 - 7 = 4"
+            },
+            {
+              "english": "7. Millions: 3 - 9 cannot be done, so borrow 1 from the 3 ten-millions.\n   The ten-millions digit becomes 2, and the millions digit becomes 13.\n   13 - 9 = 4",
+              "hindi": "7. करोड़: 3 - 9 नहीं हो सकता, इसलिए 3 करोड़ वाले स्थान से 1 उधार लेते हैं।\n   करोड़ वाला अंक 2 हो जाता है और करोड़ वाला अगला अंक 13 बन जाता है।\n   13 - 9 = 4"
+            },
+            {
+              "english": "8. Ten-millions: 2 - 0 = 2",
+              "hindi": "8. दस-करोड़: 2 - 0 = 2"
+            },
+            {
+              "english": "So, the final answer is 24,485,889.",
+              "hindi": "अंतिम उत्तर: 24,485,889"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2717,8 +3385,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's subtract in easy steps.",
+              "hindi": "आओ इसे आसान चरणों में घटाएँ।"
+            },
+            {
+              "english": "8,736,724 = 8,000,000 + 700,000 + 30,000 + 6,000 + 700 + 20 + 4",
+              "hindi": "8,736,724 = 8,000,000 + 700,000 + 30,000 + 6,000 + 700 + 20 + 4"
+            },
+            {
+              "english": "50,304,601 - 8,000,000 = 42,304,601\n42,304,601 - 700,000 = 41,604,601\n42,304,601 - 700,000 = 41,604,601\n41,604,601 - 30,000 = 41,574,601\n41,574,601 - 6,000 = 41,568,601\n41,568,601 - 700 = 41,567,901\n41,567,901 - 20 = 41,567,881\n41,567,881 - 4 = 41,567,877",
+              "hindi": "50,304,601 - 8,000,000 = 42,304,601\n42,304,601 - 700,000 = 41,604,601\n41,604,601 - 30,000 = 41,574,601\n41,574,601 - 6,000 = 41,568,601\n41,568,601 - 700 = 41,567,901\n41,567,901 - 20 = 41,567,881\n41,567,881 - 4 = 41,567,877"
+            },
+            {
+              "english": "So, 50,304,601 - 8,736,724 = 41,567,877.\nFinal answer: 41,567,877",
+              "hindi": "इसलिए, 50,304,601 - 8,736,724 = 41,567,877.\nअंतिम उत्तर: 41,567,877"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2781,8 +3469,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's subtract 231,629,547 - 192,739,789 step by step.",
+              "hindi": "चलिए 231,629,547 - 192,739,789 को step by step घटाते हैं।"
+            },
+            {
+              "english": "Write the numbers in columns:\n  231,629,547\n- 192,739,789\n--------------",
+              "hindi": "पहले संख्याओं को एक के नीचे एक लिखते हैं:\n  231,629,547\n- 192,739,789\n--------------"
+            },
+            {
+              "english": "Now subtract from right to left:\n- Ones: 7 - 9 cannot be done, so borrow 1 from the tens place. 17 - 9 = 8\n- Tens: 3 - 8 cannot be done, so borrow 1 from the hundreds place. 13 - 8 = 5\n- Hundreds: 4 - 7 cannot be done, so borrow 1 from the thousands place. 14 - 7 = 7\n- Thousands: 8 - 9 cannot be done, so borrow 1 from the ten-thousands place. 18 - 9 = 9\n- Ten-thousands: 1 - 3 cannot be done, so borrow 1 from the hundred-thousands place. 11 - 3 = 8\n- Hundred-thousands: 5 - 7 cannot be done, so borrow 1 from the millions place. 15 - 7 = 8\n- Millions: 0 - 2 cannot be done, so borrow 1 from the ten-millions place. 10 - 2 = 8\n- Ten-millions: 2 - 9 cannot be done, so borrow 1 from the hundred-millions place. 12 - 9 = 3\n- Hundred-millions: 1 - 1 = 0",
+              "hindi": "अब दाएँ से बाएँ घटाते हैं:\n- इकाई: 7 - 9 नहीं हो सकता, इसलिए दहाई से 1 उधार लेते हैं। 17 - 9 = 8\n- दहाई: 3 - 8 नहीं हो सकता, इसलिए सैकड़ा से 1 उधार लेते हैं। 13 - 8 = 5\n- सैकड़ा: 4 - 7 नहीं हो सकता, इसलिए हजार से 1 उधार लेते हैं। 14 - 7 = 7\n- हजार: 8 - 9 नहीं हो सकता, इसलिए दस-हजार से 1 उधार लेते हैं। 18 - 9 = 9\n- दस-हजार: 1 - 3 नहीं हो सकता, इसलिए लाख से 1 उधार लेते हैं। 11 - 3 = 8\n- लाख: 5 - 7 नहीं हो सकता, इसलिए दस लाख से 1 उधार लेते हैं। 15 - 7 = 8\n- दस लाख: 0 - 2 नहीं हो सकता, इसलिए करोड़ से 1 उधार लेते हैं। 10 - 2 = 8\n- करोड़: 2 - 9 नहीं हो सकता, इसलिए 23 करोड़ में से 1 उधार लेने पर 12 - 9 = 3\n- सबसे बाएँ: 1 - 1 = 0"
+            },
+            {
+              "english": "So the answer is 38,889,758.",
+              "hindi": "इसलिए उत्तर है 38,889,758।"
+            },
+            {
+              "english": "Final answer: 38,889,758",
+              "hindi": "अंतिम उत्तर: 38,889,758"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2845,8 +3557,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's split 24,617,058 into easy parts and subtract step by step.",
+              "hindi": "आइए 24,617,058 को आसान भागों में बाँटकर चरण दर चरण घटाएँ।"
+            },
+            {
+              "english": "71,305,004 - 24,617,058\n= 71,305,004 - 24,000,000 - 600,000 - 17,058",
+              "hindi": "71,305,004 - 24,617,058\n= 71,305,004 - 24,000,000 - 600,000 - 17,058"
+            },
+            {
+              "english": "First subtract 24,000,000:\n71,305,004 - 24,000,000 = 47,305,004",
+              "hindi": "पहले 24,000,000 घटाएँ:\n71,305,004 - 24,000,000 = 47,305,004"
+            },
+            {
+              "english": "Then subtract 600,000:\n47,305,004 - 600,000 = 46,705,004",
+              "hindi": "फिर 600,000 घटाएँ:\n47,305,004 - 600,000 = 46,705,004"
+            },
+            {
+              "english": "Then subtract 17,058:\n46,705,004 - 17,058 = 46,687,946",
+              "hindi": "फिर 17,058 घटाएँ:\n46,705,004 - 17,058 = 46,687,946"
+            },
+            {
+              "english": "So, the answer is 46,687,946.\nFinal answer: 46,687,946",
+              "hindi": "इसलिए उत्तर है 46,687,946।\nअंतिम उत्तर: 46,687,946"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2909,8 +3649,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Write the numbers in columns:",
+              "hindi": "संख्याओं को ऐसे लिखिए:"
+            },
+            {
+              "english": "90,400,013\n- 60,502,417\n-----------\nStart from the right.\n1. Ones: 3 - 7 cannot be done, so borrow 1 from the tens place. 3 becomes 13, and 13 - 7 = 6.\n2. Tens: 0 - 1 cannot be done, so borrow across the zeros from the 4 in the hundred-thousands place. This changes the places in between into 9s and makes the tens place 10. Then 10 - 1 = 9.\n3. Hundreds: 9 - 4 = 5.\n4. Thousands: 9 - 2 = 7.\n5. Ten-thousands: 9 - 0 = 9.\n6. Hundred-thousands: 3 - 5 cannot be done, so borrow 1 from the 9 in the ten-millions place. Then 13 - 5 = 8.\n7. Millions: 9 - 0 = 9.\n8. Ten-millions: 8 - 6 = 2.\nSo, 90,400,013 - 60,502,417 = 29,897,596.\nFinal answer: 29897596",
+              "hindi": "9,04,00,013\n- 6,05,02,417\n-------------\nदाएँ से घटाना शुरू करते हैं।\n1. इकाई: 3 - 7 नहीं हो सकता, इसलिए दहाई से 1 उधार लेते हैं। 3, 13 बन जाता है, और 13 - 7 = 6।\n2. दहाई: 0 - 1 नहीं हो सकता, इसलिए शून्यों के पार बाईं तरफ की 4 से उधार लेते हैं। बीच की जगहें 9 बन जाती हैं और दहाई 10 हो जाती है। फिर 10 - 1 = 9।\n3. सैकड़ा: 9 - 4 = 5।\n4. हज़ार: 9 - 2 = 7।\n5. दस-हज़ार: 9 - 0 = 9।\n6. लाख: 3 - 5 नहीं हो सकता, इसलिए करोड़ वाली जगह के 9 से 1 उधार लेते हैं। फिर 13 - 5 = 8।\n7. दस-लाख: 9 - 0 = 9।\n8. करोड़: 8 - 6 = 2।\nइसलिए, 9,04,00,013 - 6,05,02,417 = 2,98,97,596।\nअंतिम उत्तर: 29897596"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2973,8 +3725,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's subtract 302,415,206 - 203,516,438 step by step.",
+              "hindi": "आइए 302,415,206 - 203,516,438 को चरण दर चरण हल करें।"
+            },
+            {
+              "english": "First, subtract 203,000,000 from 302,415,206:\n302,415,206 - 203,000,000 = 99,415,206.",
+              "hindi": "पहले 203,000,000 घटाएँ:\n302,415,206 - 203,000,000 = 99,415,206."
+            },
+            {
+              "english": "Now subtract the remaining 516,438:\n99,415,206 - 516,438 = 98,898,768.",
+              "hindi": "अब बाकी 516,438 घटाएँ:\n99,415,206 - 516,438 = 98,898,768."
+            },
+            {
+              "english": "So, 302,415,206 - 203,516,438 = 98,898,768.",
+              "hindi": "इसलिए 302,415,206 - 203,516,438 = 98,898,768."
+            },
+            {
+              "english": "Final answer: 98,898,768.",
+              "hindi": "अंतिम उत्तर: 98,898,768."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3037,8 +3813,56 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's solve 5826704 - 3927815 step by step:",
+              "hindi": "आइए 5826704 - 3927815 को चरणों में हल करें:"
+            },
+            {
+              "english": "5826704\n- 3927815\n---------",
+              "hindi": "5826704\n- 3927815\n---------"
+            },
+            {
+              "english": "Start from the right:",
+              "hindi": "दाईं ओर से घटाना शुरू करते हैं:"
+            },
+            {
+              "english": "1. Ones: 4 - 5 cannot be done.\n   The tens place has 0, so we first borrow 1 from the 7 in the hundreds place.\n   Now the tens place becomes 10.\n   Then we borrow 1 from the tens place and add it to the ones place, so the ones place becomes 14 and the tens place becomes 9.\n   14 - 5 = 9",
+              "hindi": "1. इकाई: 4 - 5 नहीं हो सकता.\n   दहाई स्थान में 0 है, इसलिए पहले सैकड़ा स्थान के 7 से 1 उधार लेते हैं.\n   अब दहाई स्थान 10 हो गया.\n   फिर दहाई स्थान से 1 उधार लेकर इकाई स्थान में जोड़ते हैं, इसलिए इकाई स्थान 14 और दहाई स्थान 9 हो जाता है.\n   14 - 5 = 9"
+            },
+            {
+              "english": "2. Tens: 9 - 1 = 8",
+              "hindi": "2. दहाई: 9 - 1 = 8"
+            },
+            {
+              "english": "3. Hundreds: 6 - 8 cannot be done, so borrow 1 from the 6 in the thousands place.\n   Hundreds place becomes 16 and thousands place becomes 5.\n   16 - 8 = 8",
+              "hindi": "3. सैकड़ा: 6 - 8 नहीं हो सकता, इसलिए हज़ार स्थान के 6 से 1 उधार लेते हैं.\n   सैकड़ा स्थान 16 और हज़ार स्थान 5 हो गया.\n   16 - 8 = 8"
+            },
+            {
+              "english": "4. Thousands: 5 - 7 cannot be done, so borrow 1 from the 2 in the ten-thousands place.\n   Thousands place becomes 15 and ten-thousands place becomes 1.\n   15 - 7 = 8",
+              "hindi": "4. हज़ार: 5 - 7 नहीं हो सकता, इसलिए दस हज़ार स्थान के 2 से 1 उधार लेते हैं.\n   हज़ार स्थान 15 और दस हज़ार स्थान 1 हो गया.\n   15 - 7 = 8"
+            },
+            {
+              "english": "5. Ten-thousands: 1 - 2 cannot be done, so borrow 1 from the 8 in the hundred-thousands place.\n   Ten-thousands place becomes 11 and hundred-thousands place becomes 7.\n   11 - 2 = 9",
+              "hindi": "5. दस हज़ार: 1 - 2 नहीं हो सकता, इसलिए लाख स्थान के 8 से 1 उधार लेते हैं.\n   दस हज़ार स्थान 11 और लाख स्थान 7 हो गया.\n   11 - 2 = 9"
+            },
+            {
+              "english": "6. Hundred-thousands: 7 - 9 cannot be done, so borrow 1 from the 5 in the millions place.\n   Hundred-thousands place becomes 17 and millions place becomes 4.\n   17 - 9 = 8",
+              "hindi": "6. लाख: 7 - 9 नहीं हो सकता, इसलिए दस लाख स्थान के 5 से 1 उधार लेते हैं.\n   लाख स्थान 17 और दस लाख स्थान 4 हो गया.\n   17 - 9 = 8"
+            },
+            {
+              "english": "7. Millions: 4 - 3 = 1",
+              "hindi": "7. दस लाख: 4 - 3 = 1"
+            },
+            {
+              "english": "So, 5826704 - 3927815 = 1898889.\nFinal answer: 1898889",
+              "hindi": "इसलिए, 5826704 - 3927815 = 1898889.\nअंतिम उत्तर: 1898889"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3101,8 +3925,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We subtract from right to left.",
+              "hindi": "हम दाईं ओर से बाईं ओर घटाते हैं."
+            },
+            {
+              "english": "8134205\n- 5146307\n---------\n 2987898",
+              "hindi": "8134205\n- 5146307\n---------\n 2987898"
+            },
+            {
+              "english": "Step by step:\n1. Ones: 5 - 7 cannot, so we borrow.\n2. The tens digit is 0, so it borrows from 2 in the hundreds place. Then the ones place can borrow 1 from tens and becomes 15.\n3. 15 - 7 = 8.\n4. Tens: 9 - 0 = 9.\n5. Hundreds: 1 - 3 cannot, so borrow from 4 in the thousands place. Then 11 - 3 = 8.\n6. Thousands: 3 - 6 cannot, so borrow from 3 in the ten-thousands place. Then 13 - 6 = 7.\n7. Ten-thousands: 2 - 4 cannot, so borrow from 1 in the hundred-thousands place. Then 12 - 4 = 8.\n8. Hundred-thousands: 0 - 1 cannot, so borrow from 8 in the millions place. Then 10 - 1 = 9.\n9. Millions: 7 - 5 = 2.",
+              "hindi": "कदम दर कदम:\n1. इकाई: 5 - 7 नहीं हो सकता, इसलिए उधार लिया जाता है.\n2. दहाई में 0 है, इसलिए सैकड़ा 2 से उधार लिया जाता है. फिर इकाई दहाई से 1 उधार लेकर 15 बन जाती है.\n3. 15 - 7 = 8.\n4. दहाई: 9 - 0 = 9.\n5. सैकड़ा: 1 - 3 नहीं हो सकता, इसलिए हजार 4 से उधार लिया जाता है. फिर 11 - 3 = 8.\n6. हजार: 3 - 6 नहीं हो सकता, इसलिए दस हजार 3 से उधार लिया जाता है. फिर 13 - 6 = 7.\n7. दस हजार: 2 - 4 नहीं हो सकता, इसलिए लाख 1 से उधार लिया जाता है. फिर 12 - 4 = 8.\n8. लाख: 0 - 1 नहीं हो सकता, इसलिए दस लाख 8 से उधार लिया जाता है. फिर 10 - 1 = 9.\n9. दस लाख: 7 - 5 = 2."
+            },
+            {
+              "english": "So, the difference is 2987898.",
+              "hindi": "इसलिए अंतर 2987898 है."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3165,8 +4009,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Write the numbers with place values lined up:\n6010036\n-5419947",
+              "hindi": "संख्याओं को एक के नीचे एक लिखिए:\n6010036\n-5419947"
+            },
+            {
+              "english": "To make it easier, split 5419947 into 5419000 + 947.\nNow subtract in two steps:\n1. 6010036 - 5419000 = 591036\n2. 591036 - 947 = 590089",
+              "hindi": "इसे आसान बनाने के लिए 5419947 को 5419000 + 947 में बाँटिए।\nअब दो चरणों में घटाइए:\n1. 6010036 - 5419000 = 591036\n2. 591036 - 947 = 590089"
+            },
+            {
+              "english": "So, the difference is 590089.\nFinal answer: 590089",
+              "hindi": "इसलिए अंतर 590089 है।\nअंतिम उत्तर: 590089"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3229,8 +4089,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find:\n12,034,504 - 8,075,698",
+              "hindi": "हमें निकालना है:\n12,034,504 - 8,075,698"
+            },
+            {
+              "english": "Step 1: Line up the numbers by place value.\n12,034,504\n- 8,075,698\n-----------",
+              "hindi": "चरण 1: दोनों संख्याओं को सही जगह पर लिखिए।\n12,034,504\n- 8,075,698\n-----------"
+            },
+            {
+              "english": "Step 2: Subtract from right to left.\n- Ones: 4 - 8 cannot be done, so borrow. 14 - 8 = 6\n- Tens: after borrowing, 9 - 9 = 0\n- Hundreds: 4 - 6 cannot be done, so borrow. 14 - 6 = 8\n- Thousands: after borrowing, 3 - 5 cannot be done, so borrow again. 13 - 5 = 8\n- Ten-thousands: 9 - 7 = 2\n- Hundred-thousands: 0 - 0 = 0\n- Millions: 2 - 8 cannot be done, so borrow from the next place. 12 - 8 = 4\n- Ten-millions: after borrowing, 1 - 0 = 1",
+              "hindi": "चरण 2: दाईं ओर से घटाना शुरू करें।\n- इकाई: 4 - 8 नहीं हो सकता, इसलिए उधार लेते हैं। 14 - 8 = 6\n- दहाई: उधार लेने के बाद 9 - 9 = 0\n- सैकड़ा: 4 - 6 नहीं हो सकता, इसलिए उधार लेते हैं। 14 - 6 = 8\n- हजार: 3 - 5 नहीं हो सकता, इसलिए फिर उधार लेते हैं। 13 - 5 = 8\n- दस हजार: 9 - 7 = 2\n- लाख: 0 - 0 = 0\n- करोड़: 2 - 8 नहीं हो सकता, इसलिए आगे से उधार लेते हैं। 12 - 8 = 4\n- दस करोड़: उधार लेने के बाद 1 - 0 = 1"
+            },
+            {
+              "english": "So the difference is:\n3,958,806",
+              "hindi": "इसलिए अंतर है:\n3,958,806"
+            },
+            {
+              "english": "Final answer: 3,958,806",
+              "hindi": "अंतिम उत्तर: 3,958,806"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3293,8 +4177,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find how much 6437859 is less than 7016418, subtract:\n7016418 - 6437859 = 578559\nSo, 6437859 is less than 7016418 by 578559.\nFinal answer: 578559",
+              "hindi": "6437859, 7016418 से कितना कम है, यह जानने के लिए घटाव करते हैं:\n7016418 - 6437859 = 578559\nइसलिए 6437859, 7016418 से 578559 कम है।\nअंतिम उत्तर: 578559"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3357,8 +4249,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find by how much 7102340 exceeds 6824572, subtract the smaller number from the larger number.",
+              "hindi": "यह जानने के लिए कि 7102340, 6824572 से कितना अधिक है, बड़े संख्या में से छोटी संख्या घटाते हैं।"
+            },
+            {
+              "english": "7102340 - 6824572 = 277768",
+              "hindi": "7102340 - 6824572 = 277768"
+            },
+            {
+              "english": "So, 7102340 exceeds 6824572 by 277768.",
+              "hindi": "इसलिए 7102340, 6824572 से 277768 अधिक है।"
+            },
+            {
+              "english": "Final answer: 277768",
+              "hindi": "अंतिम उत्तर: 277768"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3421,8 +4333,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find what must be added, subtract the starting number from the final number.",
+              "hindi": "यह जानने के लिए कि कितना जोड़ना है, हम अंतिम संख्या में से पहली संख्या घटाते हैं।"
+            },
+            {
+              "english": "6164324 - 5678469 = 485855",
+              "hindi": "6164324 - 5678469 = 485855"
+            },
+            {
+              "english": "So, 485855 must be added to 5678469 to make 6164324.",
+              "hindi": "इसलिए 5678469 में 485855 जोड़ने पर 6164324 मिलता है।"
+            },
+            {
+              "english": "Final answer: 485855",
+              "hindi": "अंतिम उत्तर: 485855"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3485,8 +4417,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let the number be x.",
+              "hindi": "मान लीजिए संख्या x है।"
+            },
+            {
+              "english": "We need:\n9005413 - x = 7906547",
+              "hindi": "हमें दिया है:\n9005413 - x = 7906547"
+            },
+            {
+              "english": "So,\nx = 9005413 - 7906547",
+              "hindi": "अब,\nx = 9005413 - 7906547"
+            },
+            {
+              "english": "Now subtract:\n9005413 - 7906547 = 1098866",
+              "hindi": "घटाने पर मिलता है:\n9005413 - 7906547 = 1098866"
+            },
+            {
+              "english": "So, the number that must be subtracted is 1098866.",
+              "hindi": "इसलिए, जो संख्या घटानी है वह 1098866 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3549,8 +4505,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know:\n- Sum of the two numbers = 13604050\n- One number = 7824361",
+              "hindi": "हमें दिया है:\n- दो संख्याओं का योग = 13604050\n- एक संख्या = 7824361"
+            },
+            {
+              "english": "To find the other number, subtract the known number from the total sum:\n13604050 - 7824361 = 5779689",
+              "hindi": "दूसरी संख्या निकालने के लिए, कुल योग में से दी गई संख्या घटाते हैं:\n13604050 - 7824361 = 5779689"
+            },
+            {
+              "english": "So, the other number is 5779689.",
+              "hindi": "इसलिए, दूसरी संख्या 5779689 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3613,8 +4585,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We use subtraction to find how many candidates failed.",
+              "hindi": "कितने उम्मीदवार फेल हुए, यह जानने के लिए हम घटाव करेंगे।"
+            },
+            {
+              "english": "Step 1: Total candidates appeared = 1008314\nStep 2: Candidates who passed = 789425\nStep 3: Failed candidates = 1008314 - 789425",
+              "hindi": "चरण 1: कुल उपस्थित उम्मीदवार = 1008314\nचरण 2: पास होने वाले उम्मीदवार = 789425\nचरण 3: फेल होने वाले उम्मीदवार = 1008314 - 789425"
+            },
+            {
+              "english": "Now subtract:\n1008314 - 789425 = 218889",
+              "hindi": "अब घटाव करें:\n1008314 - 789425 = 218889"
+            },
+            {
+              "english": "So, 218889 candidates failed.",
+              "hindi": "अतः 218889 उम्मीदवार फेल हुए।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3677,8 +4669,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the increase in production, subtract the number of switches made in the first year from the number made in the next year.",
+              "hindi": "उत्पादन में वृद्धि जानने के लिए, अगले वर्ष बने स्विचों में से पहले वर्ष बने स्विचों को घटाते हैं।"
+            },
+            {
+              "english": "Switches in the following year = 6,010,016\nSwitches in the particular year = 5,365,129",
+              "hindi": "अगले वर्ष के स्विच = 6,010,016\nपहले वर्ष के स्विच = 5,365,129"
+            },
+            {
+              "english": "Now subtract:\n6,010,016 - 5,365,129 = 644,887",
+              "hindi": "अब घटाइए:\n6,010,016 - 5,365,129 = 644,887"
+            },
+            {
+              "english": "So, the increase in the production of switches is 644,887.",
+              "hindi": "इसलिए स्विचों के उत्पादन में वृद्धि 644,887 है।"
+            },
+            {
+              "english": "Final answer: 644,887 switches.",
+              "hindi": "Final answer: 644,887 स्विच।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3741,8 +4757,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know:\n- Winning candidate's votes = 6,872,403\n- Winning margin = 983,516",
+              "hindi": "हमें दिया है:\n- जीतने वाले उम्मीदवार के वोट = 6,872,403\n- जीत का अंतर = 983,516"
+            },
+            {
+              "english": "The margin tells us how many more votes the winner got than the other candidate.\nSo, to find the other candidate's votes, subtract the margin from the winner's votes:",
+              "hindi": "अंतर का मतलब है कि विजेता को दूसरे उम्मीदवार से इतने वोट अधिक मिले थे।\nइसलिए दूसरे उम्मीदवार के वोट निकालने के लिए हम घटाव करेंगे:"
+            },
+            {
+              "english": "6,872,403 - 983,516 = 5,888,887",
+              "hindi": "6,872,403 - 983,516 = 5,888,887"
+            },
+            {
+              "english": "So, the other candidate received 5,888,887 votes.",
+              "hindi": "इसलिए, दूसरे उम्मीदवार को 5,888,887 वोट मिले।"
+            },
+            {
+              "english": "Final answer: 5,888,887",
+              "hindi": "Final answer: 5,888,887"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3805,8 +4845,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Total students in all the secondary schools = 7651234\nNumber of girl-students = 2963459",
+              "hindi": "कुल छात्र = 7651234\nछात्राओं की संख्या = 2963459"
+            },
+            {
+              "english": "To find the number of boys, subtract girl-students from total students:\n7651234 - 2963459 = 4687775",
+              "hindi": "लड़कों की संख्या निकालने के लिए, कुल छात्रों में से छात्राओं की संख्या घटाते हैं:\n7651234 - 2963459 = 4687775"
+            },
+            {
+              "english": "So, there are 4687775 boys in these schools.",
+              "hindi": "इसलिए इन स्कूलों में 4687775 लड़के हैं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3869,8 +4925,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Total population of the city = 15,207,635.\nStep 2: Number of men and women = 6,751,574 + 6,036,425 = 12,787,999.\nStep 3: Number of children = 15,207,635 - 12,787,999 = 2,419,636.\nSo, there are 2,419,636 children in the city. Final answer: 2,419,636",
+              "hindi": "चरण 1: शहर की कुल जनसंख्या = 15,207,635.\nचरण 2: पुरुषों और महिलाओं की संख्या = 6,751,574 + 6,036,425 = 12,787,999.\nचरण 3: बच्चों की संख्या = 15,207,635 - 12,787,999 = 2,419,636.\nइसलिए शहर में 2,419,636 बच्चे हैं। अंतिम उत्तर: 2,419,636"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3933,8 +4997,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know that the total number of candidates who got through is 506212.",
+              "hindi": "हमें पता है कि कुल उत्तीर्ण उम्मीदवारों की संख्या 506212 है।"
+            },
+            {
+              "english": "Step 1: Add the candidates who passed in first and second division.\n197538 + 238604 = 436142",
+              "hindi": "चरण 1: पहली और दूसरी श्रेणी में पास हुए उम्मीदवारों को जोड़ते हैं।\n197538 + 238604 = 436142"
+            },
+            {
+              "english": "Step 2: Subtract this from the total.\n506212 - 436142 = 70070",
+              "hindi": "चरण 2: इस संख्या को कुल से घटाते हैं।\n506212 - 436142 = 70070"
+            },
+            {
+              "english": "So, the number of candidates who passed in third division is 70070.",
+              "hindi": "इसलिए तीसरी श्रेणी में 70070 उम्मीदवार पास हुए।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3997,8 +5081,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to fill in the blank in:\n1485 × __ = 2346 × 1485",
+              "hindi": "हमें इस रिक्त स्थान को भरना है:\n1485 × __ = 2346 × 1485"
+            },
+            {
+              "english": "Step 1: Look at both sides of the equation.\nThe right side already has the numbers 2346 and 1485.",
+              "hindi": "चरण 1: दोनों पक्षों को देखें।\nदाईं तरफ 2346 और 1485 हैं।"
+            },
+            {
+              "english": "Step 2: Use the commutative property of multiplication.\nThis means we can change the order of numbers in multiplication without changing the answer.\nSo:\n1485 × 2346 = 2346 × 1485",
+              "hindi": "चरण 2: गुणा का क्रम बदलने का नियम लगाएं।\nगुणा में संख्याओं का क्रम बदलने से उत्तर नहीं बदलता।\nइसलिए:\n1485 × 2346 = 2346 × 1485"
+            },
+            {
+              "english": "Step 3: Compare with the blank.\nThe missing number must be 2346.",
+              "hindi": "चरण 3: अब खाली स्थान की संख्या बताएं।\nखाली स्थान में 2346 आएगा।"
+            },
+            {
+              "english": "Final Answer: 2346",
+              "hindi": "अंतिम उत्तर: 2346"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4061,8 +5169,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We can use the commutative property of multiplication: a × b = b × a.\nSo, 2947 × 4508 = 4508 × 2947.\nThe missing number is 2947.\nFinal answer: 2947",
+              "hindi": "हम गुणा के क्रम-विनिमेय गुण का उपयोग करते हैं: a × b = b × a.\nइसलिए, 2947 × 4508 = 4508 × 2947.\nखाली स्थान में आने वाली संख्या 2947 है।\nअंतिम उत्तर: 2947"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4125,8 +5241,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to fill the blank in 2772 × __ = 2772.\nA number stays the same when we multiply it by 1.\nSo, 2772 × 1 = 2772.\nTherefore, the missing number is 1.\nFinal answer: 1",
+              "hindi": "हमें 2772 × __ = 2772 में खाली जगह भरनी है।\nजब किसी संख्या को 1 से गुणा करते हैं, तो संख्या वही रहती है।\nइसलिए, 2772 × 1 = 2772.\nअतः खाली जगह में 1 आएगा।\nअंतिम उत्तर: 1"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4189,8 +5313,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to fill in the blank in 4358 × __ = 0.\nA number multiplied by 0 always gives 0.\nSo the blank must be 0, because 4358 × 0 = 0.\nFinal answer: 0",
+              "hindi": "हमें 4358 × __ = 0 में खाली जगह भरनी है।\nकिसी भी संख्या को 0 से गुणा करने पर उत्तर 0 ही आता है।\nइसलिए खाली जगह में 0 आएगा, क्योंकि 4358 × 0 = 0।\nअंतिम उत्तर: 0"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4253,8 +5385,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We use the distributive property:\n35 × (100 + 37) = (35 × 100) + (35 × 37)\nSo the missing number is 37.",
+              "hindi": "हम वितरण गुणधर्म का उपयोग करते हैं:\n35 × (100 + 37) = (35 × 100) + (35 × 37)\nइसलिए खाली जगह में 37 आएगा।"
+            },
+            {
+              "english": "Check:\n35 × 100 = 3500\n35 × 37 = 1295\n3500 + 1295 = 4795",
+              "hindi": "जांच करें:\n35 × 100 = 3500\n35 × 37 = 1295\n3500 + 1295 = 4795"
+            },
+            {
+              "english": "Final answer: 37",
+              "hindi": "अंतिम उत्तर: 37"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4317,8 +5465,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Use the distributive property:\n146 × (1000 + 48) = (146 × 1000) + (146 × 48)\nSo the blanks are 1000 and 48.\nNow calculate each part:\n146 × 1000 = 146000\n146 × 48 = 7008\nAdd them:\n146000 + 7008 = 153008\nFinal answer: 146 × (1000 + 48) = (146 × 1000) + (146 × 48) = 153008",
+              "hindi": "वितरण गुणधर्म का उपयोग करें:\n146 × (1000 + 48) = (146 × 1000) + (146 × 48)\nइसलिए रिक्त स्थानों में 1000 और 48 आएंगे।\nअब दोनों भागों की गणना करें:\n146 × 1000 = 146000\n146 × 48 = 7008\nअब जोड़ें:\n146000 + 7008 = 153008\nअंतिम उत्तर: 146 × (1000 + 48) = (146 × 1000) + (146 × 48) = 153008"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4381,8 +5537,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We use the associative property of multiplication.\nStep 1: The question is 375 × (147 × 903) = (375 × 147) × ___.\nStep 2: In multiplication, we can change only the grouping of numbers, not the numbers themselves.\nStep 3: So the number that stays with 147 must be 903.\nTherefore, 375 × (147 × 903) = (375 × 147) × 903.\nFinal answer: 903.",
+              "hindi": "हम गुणा के associative property का उपयोग करते हैं।\nStep 1: प्रश्न है 375 × (147 × 903) = (375 × 147) × ___।\nStep 2: गुणा में हम सिर्फ़ brackets यानी grouping बदल सकते हैं, संख्याएँ नहीं बदलते।\nStep 3: इसलिए 147 के साथ जो संख्या रहेगी, वह 903 होगी।\nइसलिए 375 × (147 × 903) = (375 × 147) × 903.\nFinal answer: 903."
+            }
+          ]
         }
       ],
       "tags": [
@@ -4445,8 +5609,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to fill in the blank in:",
+              "hindi": "हमें इस खाली स्थान को भरना है:"
+            },
+            {
+              "english": "( ) × (1030 × 975) = (2460 × 1030) × 975",
+              "hindi": "( ) × (1030 × 975) = (2460 × 1030) × 975"
+            },
+            {
+              "english": "Step 1: Look at the right side.\nThe numbers are grouped as (2460 × 1030) × 975.",
+              "hindi": "Step 1: दाईं तरफ देखिए।\nवह है: (2460 × 1030) × 975"
+            },
+            {
+              "english": "Step 2: Use the same grouping on the left side.\nThe left side is ( ) × (1030 × 975).\nThis matches the pattern a × (b × c) = (a × b) × c.",
+              "hindi": "Step 2: बाईं तरफ का रूप है: ( ) × (1030 × 975)\nयह a × (b × c) = (a × b) × c वाले पैटर्न जैसा है।"
+            },
+            {
+              "english": "Step 3: So the missing number must be 2460.\nThen both sides become:\n2460 × (1030 × 975) = (2460 × 1030) × 975",
+              "hindi": "Step 3: इसलिए खाली स्थान में 2460 आएगा।\nतब दोनों तरफ होगा:\n2460 × (1030 × 975) = (2460 × 1030) × 975"
+            },
+            {
+              "english": "So the blank is 2460.\nFinal answer: 2460.",
+              "hindi": "इसलिए खाली स्थान का मान 2460 है।\nFinal answer: 2460."
+            }
+          ]
         }
       ],
       "tags": [
@@ -4509,8 +5701,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to solve: 2718 × 10",
+              "hindi": "हमें हल करना है: 2718 × 10"
+            },
+            {
+              "english": "When we multiply any number by 10, we add one zero at the end of the number.",
+              "hindi": "जब हम किसी संख्या को 10 से गुणा करते हैं, तो उस संख्या के अंत में एक 0 जुड़ जाता है।"
+            },
+            {
+              "english": "So, 2718 × 10 = 27180",
+              "hindi": "इसलिए, 2718 × 10 = 27180"
+            },
+            {
+              "english": "Final answer: 27180",
+              "hindi": "अंतिम उत्तर: 27180"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4573,8 +5785,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To solve 16875 × 10, remember a simple rule: when we multiply a number by 10, we add one zero at the end of the number.",
+              "hindi": "16875 × 10 को हल करने के लिए एक आसान नियम याद रखें: जब हम किसी संख्या को 10 से गुणा करते हैं, तो उसके अंत में 1 शून्य जुड़ जाता है।"
+            },
+            {
+              "english": "16875 becomes 168750",
+              "hindi": "16875 में 1 शून्य जोड़ने पर 168750 मिलता है।"
+            },
+            {
+              "english": "So, 16875 × 10 = 168750.",
+              "hindi": "इसलिए, 16875 × 10 = 168750।"
+            },
+            {
+              "english": "Final answer: 168750",
+              "hindi": "Final answer: 168750"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4637,8 +5869,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To multiply by 100, we move the digits two places to the left or add two zeros at the end.\n3875 × 100 = 387500\nSo, the blank is 387500.\nFinal answer: 387500",
+              "hindi": "100 से गुणा करने पर संख्या के अंत में दो शून्य जुड़ जाते हैं, या अंक दो स्थान बाईं ओर खिसक जाते हैं.\n3875 × 100 = 387500\nइसलिए खाली स्थान में 387500 आएगा.\nअंतिम उत्तर: 387500"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4701,8 +5941,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To solve 29272 × 100, remember that multiplying by 100 means adding two zeros to the number.",
+              "hindi": "29272 × 100 को हल करने के लिए याद रखें कि 100 से गुणा करने पर संख्या के अंत में दो शून्य जुड़ जाते हैं।"
+            },
+            {
+              "english": "Step 1: Start with 29272.\nStep 2: Multiply by 100, so add 2 zeros.\nStep 3: 29272 becomes 2927200.",
+              "hindi": "चरण 1: संख्या 29272 लें।\nचरण 2: इसे 100 से गुणा करें, इसलिए 2 शून्य जोड़ें।\nचरण 3: 29272 → 2927200 हो जाता है।"
+            },
+            {
+              "english": "So, 29272 × 100 = 2927200.\nFinal answer: 2927200",
+              "hindi": "इसलिए, 29272 × 100 = 2927200.\nअंतिम उत्तर: 2927200"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4765,8 +6021,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to solve: 6087 × 1000",
+              "hindi": "हमें हल करना है: 6087 × 1000"
+            },
+            {
+              "english": "When we multiply a whole number by 1000, we add 3 zeros to the right of the number.",
+              "hindi": "जब हम किसी पूरे संख्या को 1000 से गुणा करते हैं, तो उसके दाईं ओर 3 शून्य जोड़ देते हैं।"
+            },
+            {
+              "english": "So, 6087 becomes 6087000.",
+              "hindi": "इसलिए, 6087 बदलकर 6087000 हो जाता है।"
+            },
+            {
+              "english": "Therefore, 6087 × 1000 = 6087000",
+              "hindi": "अतः, 6087 × 1000 = 6087000"
+            },
+            {
+              "english": "Final answer: 6087000",
+              "hindi": "अंतिम उत्तर: 6087000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4829,8 +6109,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To multiply by 1000, we add 3 zeros to the end of the number.\n47385 × 1000 = 47385000\nSo, the final answer is 47385000.",
+              "hindi": "1000 से गुणा करने पर संख्या के अंत में 3 शून्य जुड़ जाते हैं।\n47385 × 1000 = 47385000\nइसलिए अंतिम उत्तर 47385000 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4893,8 +6181,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 6540 × 50, we can break 50 into 5 × 10.",
+              "hindi": "6540 × 50 निकालने के लिए हम 50 को 5 × 10 में तोड़ सकते हैं।"
+            },
+            {
+              "english": "Step 1: 6540 × 5 = 32700\nStep 2: 32700 × 10 = 327000",
+              "hindi": "Step 1: 6540 × 5 = 32700\nStep 2: 32700 × 10 = 327000"
+            },
+            {
+              "english": "So, 6540 × 50 = 327000.\nFinal answer: 327000",
+              "hindi": "इसलिए, 6540 × 50 = 327000।\nअंतिम उत्तर: 327000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4957,8 +6261,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 9784 × 60, think of 60 as 6 × 10.\nFirst, 9784 × 6 = 58704.\nNow multiply by 10, so add one zero: 587040.\nSo, 9784 × 60 = 587040.\nFinal answer: 587040.",
+              "hindi": "9784 × 60 निकालने के लिए 60 को 6 × 10 मानते हैं।\nपहले 9784 × 6 = 58704.\nअब 10 से गुणा करने के लिए 58704 के बाद एक शून्य जोड़ते हैं: 587040.\nइसलिए, 9784 × 60 = 587040.\nअंतिम उत्तर: 587040."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5021,8 +6333,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We can make 70 into 7 × 10.",
+              "hindi": "हम 70 को 7 × 10 लिख सकते हैं।"
+            },
+            {
+              "english": "Step 1: Multiply 15235 × 7 = 106645\nStep 2: Now multiply by 10: 106645 × 10 = 1066450",
+              "hindi": "चरण 1: 15235 × 7 = 106645\nचरण 2: अब 10 से गुणा करें: 106645 × 10 = 1066450"
+            },
+            {
+              "english": "So, 15235 × 70 = 1066450.",
+              "hindi": "इसलिए, 15235 × 70 = 1066450।"
+            },
+            {
+              "english": "Final answer: 1066450.",
+              "hindi": "अंतिम उत्तर: 1066450।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5085,8 +6417,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find 7892 × 300.",
+              "hindi": "हमें 7892 × 300 निकालना है।"
+            },
+            {
+              "english": "Step 1: Rewrite 300 as 3 × 100.\n7892 × 300 = 7892 × 3 × 100",
+              "hindi": "चरण 1: 300 को 3 × 100 के रूप में लिखें।\n7892 × 300 = 7892 × 3 × 100"
+            },
+            {
+              "english": "Step 2: Multiply 7892 by 3.\n7892 × 3 = 23676",
+              "hindi": "चरण 2: 7892 को 3 से गुणा करें।\n7892 × 3 = 23676"
+            },
+            {
+              "english": "Step 3: Multiply by 100.\n23676 × 100 = 2367600",
+              "hindi": "चरण 3: अब 100 से गुणा करें।\n23676 × 100 = 2367600"
+            },
+            {
+              "english": "So, the product is 2367600.",
+              "hindi": "इसलिए, गुणनफल 2367600 है।"
+            },
+            {
+              "english": "Final answer: 2367600",
+              "hindi": "अंतिम उत्तर: 2367600"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5149,8 +6509,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 8986 × 700, we can break 700 into 7 × 100.",
+              "hindi": "8986 × 700 निकालने के लिए, 700 को 7 × 100 के रूप में लिखते हैं।"
+            },
+            {
+              "english": "Step 1: First multiply 8986 × 7.\n8986 × 7 = 62902",
+              "hindi": "चरण 1: पहले 8986 × 7 करें।\n8986 × 7 = 62902"
+            },
+            {
+              "english": "Step 2: Now multiply by 100.\nMultiplying by 100 means adding two zeros.\n62902 × 100 = 6290200",
+              "hindi": "चरण 2: अब 100 से गुणा करें।\n100 से गुणा करने पर दो शून्य जुड़ जाते हैं।\n62902 × 100 = 6290200"
+            },
+            {
+              "english": "So, 8986 × 700 = 6290200.",
+              "hindi": "इसलिए, 8986 × 700 = 6290200."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5213,8 +6593,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find 26305 × 800.\nFirst, multiply by 8:\n26305 × 8 = 210440.\nNow multiply by 100 because 800 = 8 × 100:\n26305 × 800 = 210440 × 100 = 21044000.\nFinal answer: 21044000",
+              "hindi": "हमें 26305 × 800 निकालना है।\nपहले 8 से गुणा करें:\n26305 × 8 = 210440.\nअब 800 = 8 × 100 है, इसलिए 100 से गुणा करेंगे:\n26305 × 800 = 210440 × 100 = 21044000.\nअंतिम उत्तर: 21044000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5277,8 +6665,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We can make this easier by breaking 4000 into 4 × 1000.",
+              "hindi": "हम 4000 को 4 × 1000 लिखकर इसे आसान बना सकते हैं।"
+            },
+            {
+              "english": "2981 × 4000 = 2981 × 4 × 1000\nFirst, multiply 2981 × 4 = 11924.\nNow multiply by 1000. Multiplying by 1000 means adding three zeros.\nSo, 11924 × 1000 = 11,924,000.",
+              "hindi": "2981 × 4000 = 2981 × 4 × 1000\nपहले 2981 × 4 = 11924.\nअब 1000 से गुणा करें। 1000 से गुणा करने का मतलब है तीन शून्य जोड़ना।\nइसलिए, 11924 × 1000 = 11,924,000."
+            },
+            {
+              "english": "Final answer: 11,924,000",
+              "hindi": "अंतिम उत्तर: 11,924,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5341,8 +6745,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 7897 × 6000, break 6000 into 6 × 1000.",
+              "hindi": "7897 × 6000 निकालने के लिए 6000 को 6 × 1000 के रूप में लिखते हैं।"
+            },
+            {
+              "english": "First, multiply 7897 × 6:\n7897 × 6 = 47382",
+              "hindi": "पहले 7897 × 6 करें:\n7897 × 6 = 47382"
+            },
+            {
+              "english": "Now multiply 47382 × 1000.\nMultiplying by 1000 adds three zeros:\n47382 × 1000 = 47,382,000",
+              "hindi": "अब 47382 × 1000 करें।\n1000 से गुणा करने पर तीन शून्य जुड़ जाते हैं:\n47382 × 1000 = 47,382,000"
+            },
+            {
+              "english": "So, 7897 × 6000 = 47,382,000.\nFinal answer: 47,382,000",
+              "hindi": "इसलिए, 7897 × 6000 = 47,382,000।\nअंतिम उत्तर: 47,382,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5405,8 +6829,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 99999 × 2000 by suitable grouping, write 2000 as 2 × 1000.",
+              "hindi": "99999 × 2000 को उपयुक्त समूह बनाकर निकालने के लिए, 2000 को 2 × 1000 लिखते हैं।"
+            },
+            {
+              "english": "99999 × 2000 = 99999 × (2 × 1000)\nUsing grouping, we can write it as:\n(99999 × 2) × 1000\n= 199998 × 1000\n= 199998000",
+              "hindi": "99999 × 2000 = 99999 × (2 × 1000)\nसमूह बदलकर, इसे ऐसे लिख सकते हैं:\n(99999 × 2) × 1000\n= 199998 × 1000\n= 199998000"
+            },
+            {
+              "english": "So, the product is 199998000.\nFinal answer: 199998000",
+              "hindi": "अतः, गुणनफल 199998000 है।\nअंतिम उत्तर: 199998000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5469,8 +6909,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We can solve this by grouping the numbers in a smart way.",
+              "hindi": "हम इस गुणा को आसान तरीके से हल कर सकते हैं।"
+            },
+            {
+              "english": "2 × 467 × 5\n= (2 × 5) × 467\n= 10 × 467\n= 4670",
+              "hindi": "2 × 467 × 5\n= (2 × 5) × 467\n= 10 × 467\n= 4670"
+            },
+            {
+              "english": "So, the final answer is 4670.",
+              "hindi": "इसलिए, अंतिम उत्तर 4670 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5533,8 +6989,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We can make the multiplication easier by grouping the numbers:",
+              "hindi": "हम इस गुणा को आसान बनाने के लिए संख्याओं को समूह में लिख सकते हैं:"
+            },
+            {
+              "english": "5 × 1986 × 20 = (5 × 20) × 1986",
+              "hindi": "5 × 1986 × 20 = (5 × 20) × 1986"
+            },
+            {
+              "english": "First, multiply 5 × 20 = 100.",
+              "hindi": "पहले 5 × 20 = 100."
+            },
+            {
+              "english": "Now multiply 100 × 1986 = 198600.",
+              "hindi": "अब 100 × 1986 = 198600."
+            },
+            {
+              "english": "So, the product is 198600.\nFinal answer: 198600.",
+              "hindi": "इसलिए, प्राप्त गुणनफल 198600 है।\nअंतिम उत्तर: 198600।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5597,8 +7077,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We can make this easier by grouping the numbers in a smart way.",
+              "hindi": "हम इसे आसान तरीके से हल कर सकते हैं।"
+            },
+            {
+              "english": "4 × 829 × 25",
+              "hindi": "4 × 829 × 25"
+            },
+            {
+              "english": "Step 1: Multiply 4 and 25 first.\n4 × 25 = 100",
+              "hindi": "Step 1: पहले 4 और 25 को गुणा करें।\n4 × 25 = 100"
+            },
+            {
+              "english": "Step 2: Now multiply 100 by 829.\n100 × 829 = 82900",
+              "hindi": "Step 2: अब 100 को 829 से गुणा करें।\n100 × 829 = 82900"
+            },
+            {
+              "english": "So, the product is 82900.",
+              "hindi": "इसलिए, गुणनफल 82900 है।"
+            },
+            {
+              "english": "Final answer: 82900",
+              "hindi": "Final answer: 82900"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5661,8 +7169,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find: 4 × 248 × 125",
+              "hindi": "हमें निकालना है: 4 × 248 × 125"
+            },
+            {
+              "english": "Step 1: Rearrange the numbers to make the multiplication easier.\n4 × 125 = 500",
+              "hindi": "चरण 1: संख्याओं को ऐसे रखें कि गुणा आसान हो जाए।\n4 × 125 = 500"
+            },
+            {
+              "english": "Step 2: Now multiply the remaining number.\n500 × 248 = 124000",
+              "hindi": "चरण 2: अब बाकी संख्या से गुणा करें।\n500 × 248 = 124000"
+            },
+            {
+              "english": "So, 4 × 248 × 125 = 124000.\nFinal answer: 124000.",
+              "hindi": "इसलिए, 4 × 248 × 125 = 124000.\nअंतिम उत्तर: 124000."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5725,8 +7253,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find: 8 × 3472 × 125",
+              "hindi": "हमें निकालना है: 8 × 3472 × 125"
+            },
+            {
+              "english": "Step 1: Rearrange the numbers to make the multiplication easy.\n8 × 125 = 1000",
+              "hindi": "चरण 1: संख्याओं को ऐसे क्रम में लिखते हैं जिससे गुणा आसान हो जाए।\n8 × 125 = 1000"
+            },
+            {
+              "english": "Step 2: Now multiply 3472 by 1000.\n3472 × 1000 = 3472000",
+              "hindi": "चरण 2: अब 3472 को 1000 से गुणा करते हैं।\n3472 × 1000 = 3472000"
+            },
+            {
+              "english": "So, the product is 3472000.",
+              "hindi": "इसलिए, अंतिम उत्तर 3472000 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5789,8 +7337,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Use suitable grouping:\n2 x 5726 x 500 = (2 x 500) x 5726\n= 1000 x 5726\n= 5,726,000\nSo, the product is 5,726,000.\nFinal answer: 5,726,000",
+              "hindi": "उचित समूह बनाकर हल करें:\n2 x 5726 x 500 = (2 x 500) x 5726\n= 1000 x 5726\n= 5,726,000\nअतः गुणनफल 5,726,000 है।\nअंतिम उत्तर: 5,726,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5853,8 +7409,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: The commutative property of multiplication says that a × b = b × a.\nStep 2: In 2346 × 1485, the factors are 2346 and 1485.\nStep 3: So in 1485 × ___, the missing number must be the other factor, 2346.\nTherefore, the blank is 2346.\nFinal answer: 2346",
+              "hindi": "चरण 1: गुणन का क्रम-विनिमय गुण कहता है कि a × b = b × a.\nचरण 2: 2346 × 1485 में गुणनखंड 2346 और 1485 हैं।\nचरण 3: इसलिए 1485 × ___ में रिक्त स्थान में दूसरा गुणनखंड आएगा, यानी 2346.\nइसलिए रिक्त स्थान में 2346 आएगा.\nअंतिम उत्तर: 2346"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5918,8 +7482,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To divide by 10, move the decimal point one place to the left.\n2718 = 2718.0\n2718.0 ÷ 10 = 271.8\nSo the blank is 271.8.\nFinal answer: 271.8",
+              "hindi": "10 से भाग देने पर दशमलव बिंदु एक स्थान बाईं ओर खिसकता है।\n2718 = 2718.0\n2718.0 ÷ 10 = 271.8\nइसलिए रिक्त स्थान में 271.8 आएगा।\nअंतिम उत्तर: 271.8"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5982,8 +7554,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find 6540 × 50.",
+              "hindi": "हमें 6540 × 50 निकालना है।"
+            },
+            {
+              "english": "Step 1: Write 50 as 5 × 10.\n6540 × 50 = 6540 × (5 × 10)",
+              "hindi": "Step 1: 50 को 5 × 10 लिखते हैं।\n6540 × 50 = 6540 × (5 × 10)"
+            },
+            {
+              "english": "Step 2: First multiply 6540 by 5.\n6540 × 5 = 32700",
+              "hindi": "Step 2: पहले 6540 को 5 से गुणा करते हैं।\n6540 × 5 = 32700"
+            },
+            {
+              "english": "Step 3: Now multiply by 10.\n32700 × 10 = 327000",
+              "hindi": "Step 3: अब 10 से गुणा करते हैं।\n32700 × 10 = 327000"
+            },
+            {
+              "english": "So, 6540 × 50 = 327000.\nFinal answer: 327000",
+              "hindi": "इसलिए, 6540 × 50 = 327000.\nअंतिम उत्तर: 327000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6046,8 +7642,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 9784 × 60, use a simple trick:",
+              "hindi": "9784 × 60 निकालने के लिए एक आसान तरीका है:"
+            },
+            {
+              "english": "60 = 6 × 10\nSo, first find 9784 × 6, then multiply the result by 10.",
+              "hindi": "60 = 6 × 10\nइसलिए पहले 9784 × 6 करें, फिर उत्तर को 10 से गुणा करें।"
+            },
+            {
+              "english": "9784 × 6 = 58704\nNow multiply by 10:\n58704 × 10 = 587040",
+              "hindi": "9784 × 6 = 58704\nअब 10 से गुणा करें:\n58704 × 10 = 587040"
+            },
+            {
+              "english": "So, the product is 587040.",
+              "hindi": "इसलिए अंतिम उत्तर 587040 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6110,8 +7726,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We can make 70 into 7 × 10.\nStep 1: Multiply 15235 × 7 = 106645.\nStep 2: Now multiply by 10: 106645 × 10 = 1066450.\nSo, 15235 × 70 = 1066450.\nFinal answer: 1066450.",
+              "hindi": "हम 70 को 7 × 10 लिख सकते हैं।\nचरण 1: 15235 × 7 = 106645।\nचरण 2: अब 10 से गुणा करें: 106645 × 10 = 1066450।\nइसलिए, 15235 × 70 = 1066450।\nअंतिम उत्तर: 1066450।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6174,8 +7798,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 7892 × 300, write 300 as 3 × 100.",
+              "hindi": "7892 × 300 निकालने के लिए 300 को 3 × 100 लिखते हैं।"
+            },
+            {
+              "english": "Step 1: Multiply 7892 by 3.\n7892 × 3 = 23676",
+              "hindi": "चरण 1: 7892 को 3 से गुणा करें।\n7892 × 3 = 23676"
+            },
+            {
+              "english": "Step 2: Multiply the result by 100.\n23676 × 100 = 2,367,600",
+              "hindi": "चरण 2: अब 23676 को 100 से गुणा करें।\n23676 × 100 = 2,367,600"
+            },
+            {
+              "english": "So, 7892 × 300 = 2,367,600.",
+              "hindi": "इसलिए, 7892 × 300 = 2,367,600."
+            }
+          ]
         }
       ],
       "tags": [
@@ -6238,8 +7882,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 8986 × 700, first multiply 8986 by 7, then multiply by 100 because 700 = 7 × 100.",
+              "hindi": "8986 × 700 निकालने के लिए पहले 8986 को 7 से गुणा करते हैं, फिर 100 से गुणा करते हैं, क्योंकि 700 = 7 × 100।"
+            },
+            {
+              "english": "8986 × 7 = 62,902",
+              "hindi": "8986 × 7 = 62,902"
+            },
+            {
+              "english": "Now multiply by 100:\n62,902 × 100 = 6,290,200",
+              "hindi": "अब 100 से गुणा करें:\n62,902 × 100 = 6,290,200"
+            },
+            {
+              "english": "So, the product is 6,290,200.",
+              "hindi": "इसलिए, गुणनफल 6,290,200 है."
+            }
+          ]
         }
       ],
       "tags": [
@@ -6302,8 +7966,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 26305 × 800, first multiply 26305 × 8.\n26305 × 8 = 210440.\nNow multiply by 100 because 800 = 8 × 100.\nSo, 210440 × 100 = 21,044,000.\nFinal answer: 21,044,000",
+              "hindi": "26305 × 800 निकालने के लिए पहले 26305 × 8 करें।\n26305 × 8 = 210440।\nअब इसे 100 से गुणा करें, क्योंकि 800 = 8 × 100 है।\nइसलिए, 210440 × 100 = 21,044,000।\nअंतिम उत्तर: 21,044,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6366,8 +8038,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 2981 × 4000, we can use a simple trick.",
+              "hindi": "2981 × 4000 निकालने के लिए हम एक आसान तरीका इस्तेमाल कर सकते हैं।"
+            },
+            {
+              "english": "4000 = 4 × 1000.\nSo,\n2981 × 4000 = 2981 × 4 × 1000.",
+              "hindi": "4000 = 4 × 1000 होता है।\nइसलिए,\n2981 × 4000 = 2981 × 4 × 1000."
+            },
+            {
+              "english": "First, multiply 2981 by 4:\n2981 × 4 = 11924.",
+              "hindi": "पहले 2981 को 4 से गुणा करें:\n2981 × 4 = 11924."
+            },
+            {
+              "english": "Now multiply by 1000. Multiplying by 1000 means adding three zeros:\n11924 × 1000 = 11,924,000.",
+              "hindi": "अब 11924 को 1000 से गुणा करें। 1000 से गुणा करने पर तीन शून्य जुड़ जाते हैं:\n11924 × 1000 = 11,924,000."
+            },
+            {
+              "english": "Final answer: 11,924,000",
+              "hindi": "अंतिम उत्तर: 11,924,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6430,8 +8126,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 7897 × 6000, we can break 6000 into 6 × 1000.",
+              "hindi": "7897 × 6000 निकालने के लिए, हम 6000 को 6 × 1000 के रूप में लिख सकते हैं।"
+            },
+            {
+              "english": "Step 1: Multiply 7897 × 6\n7897 × 6 = 47382",
+              "hindi": "Step 1: 7897 × 6 करें\n7897 × 6 = 47382"
+            },
+            {
+              "english": "Step 2: Multiply by 1000\n47382 × 1000 = 47,382,000",
+              "hindi": "Step 2: अब 1000 से गुणा करें\n47382 × 1000 = 47,382,000"
+            },
+            {
+              "english": "So, 7897 × 6000 = 47,382,000.",
+              "hindi": "इसलिए, 7897 × 6000 = 47,382,000."
+            },
+            {
+              "english": "Final answer: 47,382,000",
+              "hindi": "Final answer: 47,382,000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6494,8 +8214,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find 99999 × 2000 by suitable grouping, write 2000 as 2 × 1000.",
+              "hindi": "99999 × 2000 को उपयुक्त समूह बनाकर निकालने के लिए, 2000 को 2 × 1000 लिखते हैं।"
+            },
+            {
+              "english": "99999 × 2000 = 99999 × (2 × 1000)\nUsing grouping, we can write it as:\n(99999 × 2) × 1000\n= 199998 × 1000\n= 199998000",
+              "hindi": "99999 × 2000 = 99999 × (2 × 1000)\nसमूह बदलकर, इसे ऐसे लिख सकते हैं:\n(99999 × 2) × 1000\n= 199998 × 1000\n= 199998000"
+            },
+            {
+              "english": "So, the product is 199998000.\nFinal answer: 199998000",
+              "hindi": "अतः, गुणनफल 199998000 है।\nअंतिम उत्तर: 199998000"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6558,8 +8294,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We can make the multiplication easier by grouping the numbers.",
+              "hindi": "हम गुणा को आसान बनाने के लिए संख्याओं को एक साथ समूह में लिख सकते हैं।"
+            },
+            {
+              "english": "2 × 467 × 5 = (2 × 5) × 467",
+              "hindi": "2 × 467 × 5 = (2 × 5) × 467"
+            },
+            {
+              "english": "First, multiply 2 and 5:\n2 × 5 = 10",
+              "hindi": "पहले 2 और 5 को गुणा करें:\n2 × 5 = 10"
+            },
+            {
+              "english": "Now multiply 10 and 467:\n10 × 467 = 4670",
+              "hindi": "अब 10 और 467 को गुणा करें:\n10 × 467 = 4670"
+            },
+            {
+              "english": "So, the product is 4670.",
+              "hindi": "इसलिए, उत्तर 4670 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6622,8 +8382,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to multiply 10654 by 875.",
+              "hindi": "हमें 10654 को 875 से गुणा करना है।"
+            },
+            {
+              "english": "Let us break 875 into 800 + 70 + 5.",
+              "hindi": "चलो 875 को 800 + 70 + 5 में तोड़ते हैं।"
+            },
+            {
+              "english": "1. 10654 × 800 = 8,523,200\n2. 10654 × 70 = 745,780\n3. 10654 × 5 = 53,270",
+              "hindi": "1. 10654 × 800 = 8,523,200\n2. 10654 × 70 = 745,780\n3. 10654 × 5 = 53,270"
+            },
+            {
+              "english": "Now add all the parts:\n8,523,200 + 745,780 + 53,270 = 9,322,250",
+              "hindi": "अब इन सभी उत्तरों को जोड़ते हैं:\n8,523,200 + 745,780 + 53,270 = 9,322,250"
+            },
+            {
+              "english": "So, 10654 × 875 = 9,322,250.\nFinal answer: 9,322,250",
+              "hindi": "इसलिए, 10654 × 875 = 9,322,250.\nअंतिम उत्तर: 9,322,250"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6686,8 +8470,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To multiply 14567 by 1065, break 1065 into easy parts:",
+              "hindi": "14567 को 1065 से गुणा करने के लिए, 1065 को छोटे भागों में तोड़ते हैं:"
+            },
+            {
+              "english": "1065 = 1000 + 60 + 5",
+              "hindi": "1065 = 1000 + 60 + 5"
+            },
+            {
+              "english": "Now multiply each part:\n14567 × 1000 = 14,567,000\n14567 × 60 = 874,020\n14567 × 5 = 72,835",
+              "hindi": "अब हर भाग से गुणा करें:\n14567 × 1000 = 14,567,000\n14567 × 60 = 874,020\n14567 × 5 = 72,835"
+            },
+            {
+              "english": "Now add the answers:\n14,567,000\n+   874,020\n+    72,835\n= 15,513,855",
+              "hindi": "अब सभी उत्तरों को जोड़ें:\n14,567,000\n+   874,020\n+    72,835\n= 15,513,855"
+            },
+            {
+              "english": "So, 14567 × 1065 = 15,513,855.\nFinal answer: 15513855",
+              "hindi": "इसलिए, 14567 × 1065 = 15,513,855.\nअंतिम उत्तर: 15513855"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6750,8 +8558,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To multiply 8985 by 1789, we can break 1789 into easier parts:",
+              "hindi": "8985 को 1789 से गुणा करने के लिए, हम 1789 को छोटे भागों में तोड़ते हैं:"
+            },
+            {
+              "english": "1789 = 1000 + 700 + 80 + 9",
+              "hindi": "1789 = 1000 + 700 + 80 + 9"
+            },
+            {
+              "english": "Now multiply 8985 by each part:",
+              "hindi": "अब 8985 को हर भाग से गुणा करते हैं:"
+            },
+            {
+              "english": "8985 × 1000 = 8,985,000\n8985 × 700 = 6,289,500\n8985 × 80 = 718,800\n8985 × 9 = 80,865",
+              "hindi": "8985 × 1000 = 8,985,000\n8985 × 700 = 6,289,500\n8985 × 80 = 718,800\n8985 × 9 = 80,865"
+            },
+            {
+              "english": "Now add all the answers:",
+              "hindi": "अब सभी उत्तरों को जोड़ते हैं:"
+            },
+            {
+              "english": "8,985,000 + 6,289,500 = 15,274,500\n15,274,500 + 718,800 = 15,993,300\n15,993,300 + 80,865 = 16,074,165",
+              "hindi": "8,985,000 + 6,289,500 = 15,274,500\n15,274,500 + 718,800 = 15,993,300\n15,993,300 + 80,865 = 16,074,165"
+            },
+            {
+              "english": "So, 8985 × 1789 = 16,074,165.\nFinal answer: 16,074,165",
+              "hindi": "इसलिए, 8985 × 1789 = 16,074,165.\nFinal answer: 16,074,165"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6814,8 +8654,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to multiply 10023 by 1034.",
+              "hindi": "हमें 10023 को 1034 से गुणा करना है।"
+            },
+            {
+              "english": "Step 1: Break 1034 into place values.\n1034 = 1000 + 30 + 4",
+              "hindi": "Step 1: 1034 को स्थान मानों में तोड़ें।\n1034 = 1000 + 30 + 4"
+            },
+            {
+              "english": "Step 2: Multiply 10023 by each part.\n10023 × 1000 = 10,023,000\n10023 × 30 = 300,690\n10023 × 4 = 40,092",
+              "hindi": "Step 2: 10023 को हर भाग से गुणा करें।\n10023 × 1000 = 10,023,000\n10023 × 30 = 300,690\n10023 × 4 = 40,092"
+            },
+            {
+              "english": "Step 3: Add the results.\n10,023,000 + 300,690 + 40,092 = 10,363,782",
+              "hindi": "Step 3: सभी उत्तर जोड़ें।\n10,023,000 + 300,690 + 40,092 = 10,363,782"
+            },
+            {
+              "english": "So, 10023 × 1034 = 10,363,782.\nFinal answer: 10363782",
+              "hindi": "इसलिए, 10023 × 1034 = 10,363,782।\nFinal answer: 10363782"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6878,8 +8742,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to multiply 20185 by 1648.",
+              "hindi": "हमें 20185 को 1648 से गुणा करना है।"
+            },
+            {
+              "english": "Let us break 1648 into place values:\n1648 = 1000 + 600 + 40 + 8",
+              "hindi": "आइए 1648 को उसके स्थान मान में तोड़ते हैं:\n1648 = 1000 + 600 + 40 + 8"
+            },
+            {
+              "english": "Now multiply 20185 by each part:\n20185 × 8 = 161480\n20185 × 40 = 807400\n20185 × 600 = 12111000\n20185 × 1000 = 20185000",
+              "hindi": "अब 20185 को हर भाग से गुणा करते हैं:\n20185 × 8 = 161480\n20185 × 40 = 807400\n20185 × 600 = 12111000\n20185 × 1000 = 20185000"
+            },
+            {
+              "english": "Now add them:\n161480 + 807400 = 968880\n968880 + 12111000 = 13079880\n13079880 + 20185000 = 33264880",
+              "hindi": "अब इन्हें जोड़ते हैं:\n161480 + 807400 = 968880\n968880 + 12111000 = 13079880\n13079880 + 20185000 = 33264880"
+            },
+            {
+              "english": "So, 20185 × 1648 = 33264880.\nFinal answer: 33264880",
+              "hindi": "इसलिए, 20185 × 1648 = 33264880.\nअंतिम उत्तर: 33264880"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6942,8 +8830,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We can solve this by breaking 1526 into place values:",
+              "hindi": "हम 1526 को उसके स्थान मानों में तोड़कर हल कर सकते हैं:"
+            },
+            {
+              "english": "1526 = 1000 + 500 + 20 + 6",
+              "hindi": "1526 = 1000 + 500 + 20 + 6"
+            },
+            {
+              "english": "Now multiply 15487 by each part:",
+              "hindi": "अब 15487 को हर भाग से गुणा करते हैं:"
+            },
+            {
+              "english": "15487 × 6 = 92922\n15487 × 20 = 309740\n15487 × 500 = 7743500\n15487 × 1000 = 15487000",
+              "hindi": "15487 × 6 = 92922\n15487 × 20 = 309740\n15487 × 500 = 7743500\n15487 × 1000 = 15487000"
+            },
+            {
+              "english": "Now add all the results:",
+              "hindi": "अब सभी उत्तरों को जोड़ते हैं:"
+            },
+            {
+              "english": "15487000 + 7743500 + 309740 + 92922 = 23633162",
+              "hindi": "15487000 + 7743500 + 309740 + 92922 = 23633162"
+            },
+            {
+              "english": "So, 15487 × 1526 = 23633162.",
+              "hindi": "इसलिए, 15487 × 1526 = 23633162."
+            }
+          ]
         }
       ],
       "tags": [
@@ -7007,8 +8927,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The cost of 1 scooter = Rs 36453.",
+              "hindi": "1 स्कूटर की कीमत = Rs 36453 है।"
+            },
+            {
+              "english": "We need the cost of 270 scooters.",
+              "hindi": "हमें 270 स्कूटरों की कीमत निकालनी है।"
+            },
+            {
+              "english": "So, we multiply:\n36453 × 270\n= 36453 × 27 × 10\nFirst, 36453 × 27 = 36453 × (20 + 7)\n= 36453 × 20 + 36453 × 7\n= 729060 + 255171\n= 984231\nNow multiply by 10:\n984231 × 10 = 9842310",
+              "hindi": "इसलिए हम गुणा करेंगे:\n36453 × 270\n= 36453 × 27 × 10\nपहले, 36453 × 27 = 36453 × (20 + 7)\n= 36453 × 20 + 36453 × 7\n= 729060 + 255171\n= 984231\nअब इसे 10 से गुणा करें:\n984231 × 10 = 9842310"
+            },
+            {
+              "english": "So, the cost of 270 scooters is Rs 9842310.\nFinal answer: Rs 9842310",
+              "hindi": "इसलिए 270 स्कूटरों की कीमत Rs 9842310 है।\nअंतिम उत्तर: Rs 9842310"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7072,8 +9012,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find the cost of 1486 bicycles when the cost of 1 bicycle is Rs 2895.",
+              "hindi": "हमें 1486 साइकिलों की कीमत निकालनी है, जब 1 साइकिल की कीमत Rs 2895 है।"
+            },
+            {
+              "english": "Step 1: Multiply 2895 by 1486.\n2895 × 1486 = 2895 × (1000 + 400 + 80 + 6)",
+              "hindi": "चरण 1: 2895 को 1486 से गुणा करें।\n2895 × 1486 = 2895 × (1000 + 400 + 80 + 6)"
+            },
+            {
+              "english": "Step 2: Find each part.\n2895 × 1000 = 2895000\n2895 × 400 = 1158000\n2895 × 80 = 231600\n2895 × 6 = 17370",
+              "hindi": "चरण 2: हर भाग का मान निकालें।\n2895 × 1000 = 2895000\n2895 × 400 = 1158000\n2895 × 80 = 231600\n2895 × 6 = 17370"
+            },
+            {
+              "english": "Step 3: Add all the parts.\n2895000 + 1158000 = 4053000\n4053000 + 231600 = 4284600\n4284600 + 17370 = 4301970",
+              "hindi": "चरण 3: सभी उत्तरों को जोड़ें।\n2895000 + 1158000 = 4053000\n4053000 + 231600 = 4284600\n4284600 + 17370 = 4301970"
+            },
+            {
+              "english": "So, the cost of 1486 bicycles is Rs 4301970.",
+              "hindi": "इसलिए, 1486 साइकिलों की कीमत Rs 4301970 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7137,8 +9101,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find how much 759 trucks can carry, we multiply the load of 1 truck by 759.",
+              "hindi": "759 ट्रकों द्वारा ले जाया जाने वाला कुल सामान जानने के लिए, 1 ट्रक का भार 759 से गुणा करेंगे।"
+            },
+            {
+              "english": "1 truck = 6785 kg\n759 trucks = 6785 × 759\n= 6785 × (700 + 50 + 9)\n= 6785 × 700 + 6785 × 50 + 6785 × 9\n= 4,749,500 + 339,250 + 61,065\n= 5,149,815 kg",
+              "hindi": "1 ट्रक = 6785 kg\n759 ट्रक = 6785 × 759\n= 6785 × (700 + 50 + 9)\n= 6785 × 700 + 6785 × 50 + 6785 × 9\n= 4,749,500 + 339,250 + 61,065\n= 5,149,815 kg"
+            },
+            {
+              "english": "Final answer: 5,149,815 kg",
+              "hindi": "अंतिम उत्तर: 5,149,815 kg"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7202,8 +9182,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find the total weight of 1483 bags.",
+              "hindi": "हमें 1483 बोरियों का कुल वजन निकालना है।"
+            },
+            {
+              "english": "Each bag weighs 108 kg.",
+              "hindi": "एक बोरी का वजन 108 kg है।"
+            },
+            {
+              "english": "Step 1: Multiply 1483 by 100.\n1483 × 100 = 148300",
+              "hindi": "चरण 1: 1483 को 100 से गुणा करें।\n1483 × 100 = 148300"
+            },
+            {
+              "english": "Step 2: Multiply 1483 by 8.\n1483 × 8 = 11864",
+              "hindi": "चरण 2: 1483 को 8 से गुणा करें।\n1483 × 8 = 11864"
+            },
+            {
+              "english": "Step 3: Add both results.\n148300 + 11864 = 160164",
+              "hindi": "चरण 3: दोनों उत्तरों को जोड़ें।\n148300 + 11864 = 160164"
+            },
+            {
+              "english": "So, the total weight of the wheat bags is 160164 kg.",
+              "hindi": "इसलिए, गेहूं की बोरियों का कुल वजन 160164 kg है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7267,8 +9275,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find how much cloth the mill will produce in 286 days, we multiply the cloth made in 1 day by the number of days.",
+              "hindi": "286 दिनों में कपड़ा कितना बनेगा, यह जानने के लिए हम 1 दिन में बनने वाले कपड़े को दिनों की संख्या से गुणा करते हैं।"
+            },
+            {
+              "english": "Cloth produced in 1 day = 3746 metres\nCloth produced in 286 days = 3746 × 286",
+              "hindi": "1 दिन में कपड़ा = 3746 मीटर\n286 दिनों में कपड़ा = 3746 × 286"
+            },
+            {
+              "english": "Now split 286 into parts:\n3746 × 286 = 3746 × (200 + 80 + 6)\n= (3746 × 200) + (3746 × 80) + (3746 × 6)\n= 749200 + 299680 + 22476\n= 1071356",
+              "hindi": "अब 286 को भागों में लिखते हैं:\n3746 × 286 = 3746 × (200 + 80 + 6)\n= (3746 × 200) + (3746 × 80) + (3746 × 6)\n= 749200 + 299680 + 22476\n= 1071356"
+            },
+            {
+              "english": "So, the cloth mill will produce 1071356 metres of cloth in 286 days.\nFinal Answer: 1071356 metres",
+              "hindi": "इसलिए, 286 दिनों में कपड़ा मिल 1071356 मीटर कपड़ा बनाएगी।\nअंतिम उत्तर: 1071356 मीटर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7331,8 +9359,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the total number of pencils, we multiply the number of pencils in 1 box by the number of boxes.",
+              "hindi": "कुल पेंसिलें निकालने के लिए, 1 डिब्बे में पेंसिलों की संख्या को डिब्बों की संख्या से गुणा करते हैं।"
+            },
+            {
+              "english": "Pencils in 1 box = 2748\nNumber of boxes = 1674",
+              "hindi": "1 डिब्बे में पेंसिलें = 2748\nडिब्बों की संख्या = 1674"
+            },
+            {
+              "english": "So,\n2748 × 1674 = 2748 × (1600 + 70 + 4)\n= (2748 × 1600) + (2748 × 70) + (2748 × 4)\n= 4,396,800 + 192,360 + 10,992\n= 4,600,152",
+              "hindi": "अब,\n2748 × 1674 = 2748 × (1600 + 70 + 4)\n= (2748 × 1600) + (2748 × 70) + (2748 × 4)\n= 4,396,800 + 192,360 + 10,992\n= 4,600,152"
+            },
+            {
+              "english": "So, there are 4,600,152 pencils.",
+              "hindi": "इसलिए, कुल 4,600,152 पेंसिलें हैं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7396,8 +9444,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know that 1 bundle of rope = 548 metres.\nWe need to find the rope in 2367 such bundles.",
+              "hindi": "हम जानते हैं कि रस्सी के 1 बंडल की लंबाई = 548 मीटर है।\nहमें 2367 ऐसे बंडलों में कुल रस्सी ज्ञात करनी है।"
+            },
+            {
+              "english": "So, we multiply:\n548 × 2367",
+              "hindi": "इसलिए, हम गुणा करेंगे:\n548 × 2367"
+            },
+            {
+              "english": "Now break 2367 into parts:\n548 × 2367 = 548 × (2000 + 300 + 60 + 7)",
+              "hindi": "अब 2367 को भागों में लिखते हैं:\n548 × 2367 = 548 × (2000 + 300 + 60 + 7)"
+            },
+            {
+              "english": "= 548 × 2000 + 548 × 300 + 548 × 60 + 548 × 7\n= 1,096,000 + 164,400 + 32,880 + 3,836\n= 1,297,116",
+              "hindi": "= 548 × 2000 + 548 × 300 + 548 × 60 + 548 × 7\n= 1,096,000 + 164,400 + 32,880 + 3,836\n= 1,297,116"
+            },
+            {
+              "english": "So, the total rope will be 1297116 metres.",
+              "hindi": "अतः कुल रस्सी 1297116 मीटर है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7461,8 +9533,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "First, find the total annual fees collected from all students.",
+              "hindi": "सबसे पहले, सभी विद्यार्थियों से एक वर्ष में ली जाने वाली कुल फीस निकालते हैं।"
+            },
+            {
+              "english": "Number of students = 1869\nFees paid by each student in a year = Rs 27650",
+              "hindi": "विद्यार्थियों की संख्या = 1869\nप्रति विद्यार्थी वार्षिक फीस = रु 27650"
+            },
+            {
+              "english": "We multiply:\n1869 × 27650\n= 27650 × (1800 + 60 + 9)\n= (27650 × 1800) + (27650 × 60) + (27650 × 9)\n= 49,770,000 + 1,659,000 + 248,850\n= 51,677,850",
+              "hindi": "अब गुणा करते हैं:\n1869 × 27650\n= 27650 × (1800 + 60 + 9)\n= (27650 × 1800) + (27650 × 60) + (27650 × 9)\n= 49,770,000 + 1,659,000 + 248,850\n= 51,677,850"
+            },
+            {
+              "english": "So, the money collected in a year is Rs 51,677,850.\nFinal answer: Rs 51677850.",
+              "hindi": "अतः एक वर्ष में कुल रु 51,677,850 इकट्ठा होंगे।\nअंतिम उत्तर: रु 51677850."
+            }
+          ]
         }
       ],
       "tags": [
@@ -7525,8 +9617,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find the total number of letters in the newspaper.",
+              "hindi": "हमें अखबार में कुल अक्षरों की संख्या निकालनी है।"
+            },
+            {
+              "english": "This is a continued product:\n124 × 136 × 36",
+              "hindi": "यह एक continued product है:\n124 × 136 × 36"
+            },
+            {
+              "english": "Step 1: Multiply 124 × 136\n124 × 136 = 16864",
+              "hindi": "Step 1: 124 × 136 को गुणा करते हैं\n124 × 136 = 16864"
+            },
+            {
+              "english": "Step 2: Multiply 16864 × 36\n16864 × 36 = 16864 × (30 + 6)\n= 16864 × 30 + 16864 × 6\n= 505920 + 101184\n= 607104",
+              "hindi": "Step 2: 16864 × 36 को गुणा करते हैं\n16864 × 36 = 16864 × (30 + 6)\n= 16864 × 30 + 16864 × 6\n= 505920 + 101184\n= 607104"
+            },
+            {
+              "english": "So, the newspaper contains 607104 letters.",
+              "hindi": "इसलिए अखबार में कुल 607104 अक्षर हैं।"
+            },
+            {
+              "english": "Final answer: 607104 letters",
+              "hindi": "Final answer: 607104 अक्षर"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7589,8 +9709,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find the total weight, so we multiply the numbers:",
+              "hindi": "हमें कुल वजन निकालना है, इसलिए हम इन संख्याओं को गुणा करेंगे:"
+            },
+            {
+              "english": "628 × 537 × 96",
+              "hindi": "628 × 537 × 96"
+            },
+            {
+              "english": "Step 1: First multiply 628 × 537.\n628 × 537 = 337,236",
+              "hindi": "चरण 1: पहले 628 × 537 करते हैं।\n628 × 537 = 337,236"
+            },
+            {
+              "english": "Step 2: Now multiply 337,236 × 96.\nIt is easier to use 96 = 100 - 4.",
+              "hindi": "चरण 2: अब 337,236 × 96 करते हैं।\n96 को 100 - 4 लिखना आसान है।"
+            },
+            {
+              "english": "337,236 × 100 = 33,723,600\n337,236 × 4 = 1,348,944",
+              "hindi": "337,236 × 100 = 33,723,600\n337,236 × 4 = 1,348,944"
+            },
+            {
+              "english": "Now subtract:\n33,723,600 - 1,348,944 = 32,374,656",
+              "hindi": "अब घटाएँ:\n33,723,600 - 1,348,944 = 32,374,656"
+            },
+            {
+              "english": "So, the total weight is 32,374,656.",
+              "hindi": "इसलिए कुल वजन 32,374,656 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7653,8 +9805,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We can multiply in two easy steps.\nFirst, multiply 2356 and 126:\n2356 × 126 = 2356 × (100 + 20 + 6)\n= 235600 + 47120 + 14136\n= 296856.\nNow multiply by 103:\n296856 × 103 = 296856 × (100 + 3)\n= 29685600 + 890568\n= 30576168.\nSo, the product is 30576168",
+              "hindi": "हम इसे दो आसान चरणों में गुणा कर सकते हैं।\nपहले 2356 और 126 को गुणा करते हैं:\n2356 × 126 = 2356 × (100 + 20 + 6)\n= 235600 + 47120 + 14136\n= 296856.\nअब 296856 को 103 से गुणा करते हैं:\n296856 × 103 = 296856 × (100 + 3)\n= 29685600 + 890568\n= 30576168.\nअतः गुणनफल 30576168 है"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7717,8 +9877,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's divide 83254 by 58 using long division step by step.",
+              "hindi": "आइए 83254 को 58 से लंबा भाग लगाकर हल करें।"
+            },
+            {
+              "english": "1. Look at 83. Since 58 goes into 83 one time, write 1 in the quotient.\n   1 × 58 = 58\n   83 - 58 = 25",
+              "hindi": "1. पहले 83 देखें। 58, 83 में 1 बार जाता है, इसलिए भागफल में 1 लिखते हैं।\n   1 × 58 = 58\n   83 - 58 = 25"
+            },
+            {
+              "english": "2. Bring down the next digit 2. Now we have 252.\n   58 goes into 252 four times.\n   4 × 58 = 232\n   252 - 232 = 20",
+              "hindi": "2. अगला अंक 2 नीचे लाएँ। अब संख्या 252 हो गई।\n   58, 252 में 4 बार जाता है।\n   4 × 58 = 232\n   252 - 232 = 20"
+            },
+            {
+              "english": "3. Bring down the next digit 5. Now we have 205.\n   58 goes into 205 three times.\n   3 × 58 = 174\n   205 - 174 = 31",
+              "hindi": "3. अगला अंक 5 नीचे लाएँ। अब संख्या 205 हो गई।\n   58, 205 में 3 बार जाता है।\n   3 × 58 = 174\n   205 - 174 = 31"
+            },
+            {
+              "english": "4. Bring down the last digit 4. Now we have 314.\n   58 goes into 314 five times.\n   5 × 58 = 290\n   314 - 290 = 24",
+              "hindi": "4. अंतिम अंक 4 नीचे लाएँ। अब संख्या 314 हो गई।\n   58, 314 में 5 बार जाता है।\n   5 × 58 = 290\n   314 - 290 = 24"
+            },
+            {
+              "english": "So, the quotient is 1435 and the remainder is 24.",
+              "hindi": "इसलिए भागफल 1435 है और शेष 24 है।"
+            },
+            {
+              "english": "Final answer: Quotient = 1435, Remainder = 24.",
+              "hindi": "अंतिम उत्तर: भागफल = 1435, शेष = 24।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7781,8 +9973,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We divide 547802 by 97 step by step.",
+              "hindi": "हम 547802 को 97 से चरण-दर-चरण भाग देते हैं।"
+            },
+            {
+              "english": "1. 97 goes into 547 five times because 97 × 5 = 485.\n   Remainder: 547 - 485 = 62",
+              "hindi": "1. 97, 547 में 5 बार जाता है क्योंकि 97 × 5 = 485।\n   शेष: 547 - 485 = 62"
+            },
+            {
+              "english": "2. Bring down 8 to make 628.\n   97 goes into 628 six times because 97 × 6 = 582.\n   Remainder: 628 - 582 = 46",
+              "hindi": "2. 8 नीचे लाने पर संख्या 628 बनती है।\n   97, 628 में 6 बार जाता है क्योंकि 97 × 6 = 582।\n   शेष: 628 - 582 = 46"
+            },
+            {
+              "english": "3. Bring down 0 to make 460.\n   97 goes into 460 four times because 97 × 4 = 388.\n   Remainder: 460 - 388 = 72",
+              "hindi": "3. 0 नीचे लाने पर संख्या 460 बनती है।\n   97, 460 में 4 बार जाता है क्योंकि 97 × 4 = 388।\n   शेष: 460 - 388 = 72"
+            },
+            {
+              "english": "4. Bring down 2 to make 722.\n   97 goes into 722 seven times because 97 × 7 = 679.\n   Remainder: 722 - 679 = 43",
+              "hindi": "4. 2 नीचे लाने पर संख्या 722 बनती है।\n   97, 722 में 7 बार जाता है क्योंकि 97 × 7 = 679।\n   शेष: 722 - 679 = 43"
+            },
+            {
+              "english": "So the quotient is 5647 and the remainder is 43.\nCheck: 97 × 5647 = 547759, and 547802 - 547759 = 43.",
+              "hindi": "इसलिए भागफल 5647 है और शेष 43 है।\nजांच: 97 × 5647 = 547759, और 547802 - 547759 = 43।"
+            },
+            {
+              "english": "Final answer: Q = 5647, R = 43",
+              "hindi": "अंतिम उत्तर: Q = 5647, R = 43"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7845,8 +10069,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We divide 673900 by 86 step by step:\n1. 86 goes into 673 7 times because 86 × 7 = 602.\n   Remainder: 673 - 602 = 71.\n2. Bring down 9 to make 719.\n   86 goes into 719 8 times because 86 × 8 = 688.\n   Remainder: 719 - 688 = 31.\n3. Bring down 0 to make 310.\n   86 goes into 310 3 times because 86 × 3 = 258.\n   Remainder: 310 - 258 = 52.\n4. Bring down the last 0 to make 520.\n   86 goes into 520 6 times because 86 × 6 = 516.\n   Remainder: 520 - 516 = 4.\nSo, the quotient is 7836 and the remainder is 4.\nFinal answer: Quotient = 7836, Remainder = 4.",
+              "hindi": "हम 673900 को 86 से भाग देते हैं, चरणों में:\n1. 86, 673 में 7 बार जाता है, क्योंकि 86 × 7 = 602.\n   शेष: 673 - 602 = 71.\n2. 9 नीचे लाकर 719 बनता है.\n   86, 719 में 8 बार जाता है, क्योंकि 86 × 8 = 688.\n   शेष: 719 - 688 = 31.\n3. 0 नीचे लाकर 310 बनता है.\n   86, 310 में 3 बार जाता है, क्योंकि 86 × 3 = 258.\n   शेष: 310 - 258 = 52.\n4. आख़िरी 0 नीचे लाकर 520 बनता है.\n   86, 520 में 6 बार जाता है, क्योंकि 86 × 6 = 516.\n   शेष: 520 - 516 = 4.\nइसलिए भागफल 7836 है और शेष 4 है.\nअंतिम उत्तर: भागफल = 7836, शेष = 4."
+            }
+          ]
         }
       ],
       "tags": [
@@ -7909,8 +10141,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to divide 333624 by 137 and find the quotient and remainder.",
+              "hindi": "हमें 333624 को 137 से भाग देना है और भागफल तथा शेष निकालना है।"
+            },
+            {
+              "english": "Step 1: Start with the first 3 digits, 333, because 137 cannot go into 33.\n137 goes into 333 only 2 times.\n137 × 2 = 274\n333 - 274 = 59\nSo the first digit of the quotient is 2.",
+              "hindi": "चरण 1: पहले 3 अंक 333 लें, क्योंकि 137, 33 में नहीं जाता।\n137, 333 में 2 बार जाता है।\n137 × 2 = 274\n333 - 274 = 59\nइसलिए भागफल का पहला अंक 2 है।"
+            },
+            {
+              "english": "Step 2: Bring down 6.\nNow we have 596.\n137 goes into 596 4 times.\n137 × 4 = 548\n596 - 548 = 48\nSo the next digit of the quotient is 4.",
+              "hindi": "चरण 2: 6 नीचे लाएँ।\nअब संख्या 596 हो गई।\n137, 596 में 4 बार जाता है।\n137 × 4 = 548\n596 - 548 = 48\nइसलिए भागफल का अगला अंक 4 है।"
+            },
+            {
+              "english": "Step 3: Bring down 2.\nNow we have 482.\n137 goes into 482 3 times.\n137 × 3 = 411\n482 - 411 = 71\nSo the next digit of the quotient is 3.",
+              "hindi": "चरण 3: 2 नीचे लाएँ।\nअब संख्या 482 हो गई।\n137, 482 में 3 बार जाता है।\n137 × 3 = 411\n482 - 411 = 71\nइसलिए भागफल का अगला अंक 3 है।"
+            },
+            {
+              "english": "Step 4: Bring down 4.\nNow we have 714.\n137 goes into 714 5 times.\n137 × 5 = 685\n714 - 685 = 29\nSo the last digit of the quotient is 5.",
+              "hindi": "चरण 4: 4 नीचे लाएँ।\nअब संख्या 714 हो गई।\n137, 714 में 5 बार जाता है।\n137 × 5 = 685\n714 - 685 = 29\nइसलिए भागफल का अंतिम अंक 5 है।"
+            },
+            {
+              "english": "Therefore, the quotient is 2435 and the remainder is 29.\nFinal answer: Quotient = 2435, Remainder = 29.",
+              "hindi": "इसलिए भागफल 2435 और शेष 29 है।\nअंतिम उत्तर: भागफल = 2435, शेष = 29."
+            }
+          ]
         }
       ],
       "tags": [
@@ -7973,8 +10233,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find 598613 ÷ 243 using long division.",
+              "hindi": "हमें 598613 ÷ 243 का भाग लंबी भाग विधि से निकालना है।"
+            },
+            {
+              "english": "Step 1: Look at 598.\n243 goes into 598 2 times because 243 × 2 = 486.\nSubtract: 598 - 486 = 112.",
+              "hindi": "चरण 1: 598 पर ध्यान दें।\n243, 598 में 2 बार जाता है क्योंकि 243 × 2 = 486.\nघटाएँ: 598 - 486 = 112."
+            },
+            {
+              "english": "Step 2: Bring down the next digit 6.\nNow we have 1126.\n243 goes into 1126 4 times because 243 × 4 = 972.\nSubtract: 1126 - 972 = 154.",
+              "hindi": "चरण 2: अगला अंक 6 नीचे लाएँ।\nअब संख्या 1126 हो जाती है।\n243, 1126 में 4 बार जाता है क्योंकि 243 × 4 = 972.\nघटाएँ: 1126 - 972 = 154."
+            },
+            {
+              "english": "Step 3: Bring down the next digit 1.\nNow we have 1541.\n243 goes into 1541 6 times because 243 × 6 = 1458.\nSubtract: 1541 - 1458 = 83.",
+              "hindi": "चरण 3: अगला अंक 1 नीचे लाएँ।\nअब संख्या 1541 हो जाती है।\n243, 1541 में 6 बार जाता है क्योंकि 243 × 6 = 1458.\nघटाएँ: 1541 - 1458 = 83."
+            },
+            {
+              "english": "Step 4: Bring down the last digit 3.\nNow we have 833.\n243 goes into 833 3 times because 243 × 3 = 729.\nSubtract: 833 - 729 = 104.",
+              "hindi": "चरण 4: अंतिम अंक 3 नीचे लाएँ।\nअब संख्या 833 हो जाती है।\n243, 833 में 3 बार जाता है क्योंकि 243 × 3 = 729.\nघटाएँ: 833 - 729 = 104."
+            },
+            {
+              "english": "So the quotient is 2463 and the remainder is 104.",
+              "hindi": "इसलिए भागफल 2463 है और शेष 104 है।"
+            },
+            {
+              "english": "Final answer: Quotient = 2463, Remainder = 104.",
+              "hindi": "अंतिम उत्तर: भागफल = 2463, शेष = 104."
+            }
+          ]
         }
       ],
       "tags": [
@@ -8037,8 +10329,56 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We will divide 1808016 by 359 using long division.",
+              "hindi": "आइए 1808016 को 359 से लंबा भाग करके भागफल और शेष निकालते हैं।"
+            },
+            {
+              "english": "Step 1: Take the first few digits.\n359 goes into 1808.\n359 × 5 = 1795\n359 × 6 = 2154, which is too big.\nSo the first digit of the quotient is 5.",
+              "hindi": "चरण 1: पहले कुछ अंकों को लें।\n359, 1808 में जाता है।\n359 × 5 = 1795\n359 × 6 = 2154, जो बहुत बड़ा है।\nइसलिए भागफल का पहला अंक 5 होगा।"
+            },
+            {
+              "english": "1808 - 1795 = 13\nBring down the next digit 0.\nNow we have 130.",
+              "hindi": "1808 - 1795 = 13\nअब अगला अंक 0 नीचे लाते हैं।\nहमें 130 मिलता है।"
+            },
+            {
+              "english": "Step 2: 359 goes into 130.\nIt does not go even 1 time, so write 0 in the quotient.",
+              "hindi": "चरण 2: 359, 130 में नहीं जाता।\nइसलिए भागफल में 0 लिखेंगे।"
+            },
+            {
+              "english": "Bring down the next digit 1.\nNow we have 1301.",
+              "hindi": "अब अगला अंक 1 नीचे लाते हैं।\nहमें 1301 मिलता है।"
+            },
+            {
+              "english": "Step 3: 359 goes into 1301.\n359 × 3 = 1077\n359 × 4 = 1436, which is too big.\nSo the next digit of the quotient is 3.",
+              "hindi": "चरण 3: 359, 1301 में जाता है।\n359 × 3 = 1077\n359 × 4 = 1436, जो बहुत बड़ा है।\nइसलिए भागफल का अगला अंक 3 होगा।"
+            },
+            {
+              "english": "1301 - 1077 = 224\nBring down the next digit 6.\nNow we have 2246.",
+              "hindi": "1301 - 1077 = 224\nअब अगला अंक 6 नीचे लाते हैं।\nहमें 2246 मिलता है।"
+            },
+            {
+              "english": "Step 4: 359 goes into 2246.\n359 × 6 = 2154\n359 × 7 = 2513, which is too big.\nSo the next digit of the quotient is 6.",
+              "hindi": "चरण 4: 359, 2246 में जाता है।\n359 × 6 = 2154\n359 × 7 = 2513, जो बहुत बड़ा है।\nइसलिए भागफल का अगला अंक 6 होगा।"
+            },
+            {
+              "english": "2246 - 2154 = 92",
+              "hindi": "2246 - 2154 = 92"
+            },
+            {
+              "english": "So the quotient is 5036 and the remainder is 92.",
+              "hindi": "इसलिए भागफल 5036 और शेष 92 है।"
+            },
+            {
+              "english": "Final answer: Quotient = 5036, Remainder = 92.",
+              "hindi": "अंतिम उत्तर: भागफल = 5036, शेष = 92।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8101,8 +10441,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to divide 2265737 by 479 using long division.",
+              "hindi": "हमें 2265737 को 479 से भाग देना है। हम लंबा भाग करेंगे।"
+            },
+            {
+              "english": "Step 1: Take the first 4 digits, 2265, because 479 does not fit into 226.\n479 goes into 2265 four times, because 479 × 4 = 1916 and 479 × 5 = 2395 is too big.\nWrite 4 in the quotient.\n2265 - 1916 = 349.",
+              "hindi": "चरण 1: पहले 4 अंक 2265 लें, क्योंकि 479, 226 में नहीं जाता।\n479, 2265 में 4 बार जाता है, क्योंकि 479 × 4 = 1916 और 479 × 5 = 2395, जो बहुत बड़ा है।\nभागफल में 4 लिखें।\n2265 - 1916 = 349."
+            },
+            {
+              "english": "Step 2: Bring down the next digit 7 to make 3497.\n479 goes into 3497 seven times, because 479 × 7 = 3353 and 479 × 8 = 3832 is too big.\nWrite 7 in the quotient.\n3497 - 3353 = 144.",
+              "hindi": "चरण 2: अगला अंक 7 नीचे लाएँ, तो 3497 बनेगा।\n479, 3497 में 7 बार जाता है, क्योंकि 479 × 7 = 3353 और 479 × 8 = 3832, जो बहुत बड़ा है।\nभागफल में 7 लिखें।\n3497 - 3353 = 144."
+            },
+            {
+              "english": "Step 3: Bring down the next digit 3 to make 1443.\n479 goes into 1443 three times, because 479 × 3 = 1437 and 479 × 4 = 1916 is too big.\nWrite 3 in the quotient.\n1443 - 1437 = 6.",
+              "hindi": "चरण 3: अगला अंक 3 नीचे लाएँ, तो 1443 बनेगा।\n479, 1443 में 3 बार जाता है, क्योंकि 479 × 3 = 1437 और 479 × 4 = 1916, जो बहुत बड़ा है।\nभागफल में 3 लिखें।\n1443 - 1437 = 6."
+            },
+            {
+              "english": "Step 4: Bring down the last digit 7 to make 67.\n479 does not go into 67, so write 0 in the quotient.\nThe remainder is 67.",
+              "hindi": "चरण 4: आख़िरी अंक 7 नीचे लाएँ, तो 67 बनेगा।\n479, 67 में नहीं जाता, इसलिए भागफल में 0 लिखें।\nअब शेष 67 है।"
+            },
+            {
+              "english": "So, the quotient is 4730 and the remainder is 67.\nCheck: 479 × 4730 + 67 = 2265737.",
+              "hindi": "इसलिए, भागफल 4730 और शेष 67 है।\nजांच: 479 × 4730 + 67 = 2265737."
+            },
+            {
+              "english": "Final Answer: Quotient = 4730, Remainder = 67",
+              "hindi": "अंतिम उत्तर: भागफल = 4730, शेष = 67"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8165,8 +10537,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us divide 5419307 by 396 step by step.",
+              "hindi": "आइए 5419307 को 396 से चरणों में भाग करें।"
+            },
+            {
+              "english": "1. Take the first 3 digits: 541.\n   396 goes into 541 one time.\n   1 × 396 = 396\n   541 - 396 = 145",
+              "hindi": "1. पहले 3 अंक लें: 541\n   396, 541 में 1 बार जाता है।\n   1 × 396 = 396\n   541 - 396 = 145"
+            },
+            {
+              "english": "2. Bring down the next digit 9.\n   Now we have 1459.\n   396 goes into 1459 three times.\n   3 × 396 = 1188\n   1459 - 1188 = 271",
+              "hindi": "2. अगला अंक 9 नीचे लाएँ।\n   अब संख्या 1459 है।\n   396, 1459 में 3 बार जाता है।\n   3 × 396 = 1188\n   1459 - 1188 = 271"
+            },
+            {
+              "english": "3. Bring down the next digit 3.\n   Now we have 2713.\n   396 goes into 2713 six times.\n   6 × 396 = 2376\n   2713 - 2376 = 337",
+              "hindi": "3. अगला अंक 3 नीचे लाएँ।\n   अब संख्या 2713 है।\n   396, 2713 में 6 बार जाता है।\n   6 × 396 = 2376\n   2713 - 2376 = 337"
+            },
+            {
+              "english": "4. Bring down the next digit 0.\n   Now we have 3370.\n   396 goes into 3370 eight times.\n   8 × 396 = 3168\n   3370 - 3168 = 202",
+              "hindi": "4. अगला अंक 0 नीचे लाएँ।\n   अब संख्या 3370 है।\n   396, 3370 में 8 बार जाता है।\n   8 × 396 = 3168\n   3370 - 3168 = 202"
+            },
+            {
+              "english": "5. Bring down the last digit 7.\n   Now we have 2027.\n   396 goes into 2027 five times.\n   5 × 396 = 1980\n   2027 - 1980 = 47",
+              "hindi": "5. आख़िरी अंक 7 नीचे लाएँ।\n   अब संख्या 2027 है।\n   396, 2027 में 5 बार जाता है।\n   5 × 396 = 1980\n   2027 - 1980 = 47"
+            },
+            {
+              "english": "So, the quotient is 13685 and the remainder is 47.",
+              "hindi": "इसलिए भागफल 13685 है और शेषफल 47 है।"
+            },
+            {
+              "english": "Final answer: Quotient = 13685, Remainder = 47.",
+              "hindi": "अंतिम उत्तर: भागफल = 13685, शेषफल = 47."
+            }
+          ]
         }
       ],
       "tags": [
@@ -8229,8 +10637,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's divide 8670863 by 561 step by step:",
+              "hindi": "आइए 8670863 को 561 से चरण-दर-चरण भाग दें:"
+            },
+            {
+              "english": "1. First, look at 867.\n   561 goes into 867 one time.\n   867 - 561 = 306",
+              "hindi": "1. पहले 867 को देखें।\n   561, 867 में 1 बार जाता है।\n   867 - 561 = 306"
+            },
+            {
+              "english": "2. Bring down the next digit, 0, to make 3060.\n   561 goes into 3060 five times, because 561 × 5 = 2805 and 561 × 6 = 3366 is too large.\n   3060 - 2805 = 255",
+              "hindi": "2. अगला अंक 0 नीचे लाएँ, तो 3060 बनता है।\n   561, 3060 में 5 बार जाता है, क्योंकि 561 × 5 = 2805 और 561 × 6 = 3366 बहुत बड़ा है।\n   3060 - 2805 = 255"
+            },
+            {
+              "english": "3. Bring down the next digit, 8, to make 2558.\n   561 goes into 2558 four times, because 561 × 4 = 2244 and 561 × 5 = 2805 is too large.\n   2558 - 2244 = 314",
+              "hindi": "3. अगला अंक 8 नीचे लाएँ, तो 2558 बनता है।\n   561, 2558 में 4 बार जाता है, क्योंकि 561 × 4 = 2244 और 561 × 5 = 2805 बहुत बड़ा है।\n   2558 - 2244 = 314"
+            },
+            {
+              "english": "4. Bring down the next digit, 6, to make 3146.\n   561 goes into 3146 five times, because 561 × 5 = 2805 and 561 × 6 = 3366 is too large.\n   3146 - 2805 = 341",
+              "hindi": "4. अगला अंक 6 नीचे लाएँ, तो 3146 बनता है।\n   561, 3146 में 5 बार जाता है, क्योंकि 561 × 5 = 2805 और 561 × 6 = 3366 बहुत बड़ा है।\n   3146 - 2805 = 341"
+            },
+            {
+              "english": "5. Bring down the last digit, 3, to make 3413.\n   561 goes into 3413 six times, because 561 × 6 = 3366 and 561 × 7 = 3927 is too large.\n   3413 - 3366 = 47",
+              "hindi": "5. आख़िरी अंक 3 नीचे लाएँ, तो 3413 बनता है।\n   561, 3413 में 6 बार जाता है, क्योंकि 561 × 6 = 3366 और 561 × 7 = 3927 बहुत बड़ा है।\n   3413 - 3366 = 47"
+            },
+            {
+              "english": "The remainder is 47, and it is smaller than 561, so we stop.",
+              "hindi": "शेष 47 है, और यह 561 से छोटा है, इसलिए हम रुक जाते हैं।"
+            },
+            {
+              "english": "So, the quotient is 15456 and the remainder is 47.\nFinal answer: 8670863 ÷ 561 = 15456 remainder 47.",
+              "hindi": "इसलिए भागफल 15456 है और शेष 47 है।\nअंतिम उत्तर: 8670863 ÷ 561 = 15456 शेष 47."
+            }
+          ]
         }
       ],
       "tags": [
@@ -8293,8 +10737,20 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's divide 9,362,596 by 594 step by step:\n- 594 goes into 936 = 1 time. 1 × 594 = 594. 936 - 594 = 342.\n- Bring down the next digit, 2, to make 3422. 594 goes into 3422 = 5 times. 5 × 594 = 2970. 3422 - 2970 = 452.\n- Bring down the next digit, 5, to make 4525. 594 goes into 4525 = 7 times. 7 × 594 = 4158. 4525 - 4158 = 367.\n- Bring down the next digit, 9, to make 3679. 594 goes into 3679 = 6 times. 6 × 594 = 3564. 3679 - 3564 = 115.\n- Bring down the next digit, 6, to make 1156. 594 goes into 1156 = 1 time. 1 × 594 = 594. 1156 - 594 = 562.",
+              "hindi": "आइए 9,362,596 को 594 से चरणों में भाग करें:\n- 594, 936 में 1 बार जाता है। 1 × 594 = 594। 936 - 594 = 342।\n- अगला अंक 2 नीचे लाएँ और 3422 बनता है। 594, 3422 में 5 बार जाता है। 5 × 594 = 2970। 3422 - 2970 = 452।\n- अगला अंक 5 नीचे लाएँ और 4525 बनता है। 594, 4525 में 7 बार जाता है। 7 × 594 = 4158। 4525 - 4158 = 367।\n- अगला अंक 9 नीचे लाएँ और 3679 बनता है। 594, 3679 में 6 बार जाता है। 6 × 594 = 3564। 3679 - 3564 = 115।\n- अगला अंक 6 नीचे लाएँ और 1156 बनता है। 594, 1156 में 1 बार जाता है। 1 × 594 = 594। 1156 - 594 = 562।"
+            },
+            {
+              "english": "So, 594 goes into 9,362,596 exactly 15,761 times and 562 is left over.\nCheck: 594 × 15761 + 562 = 9362596.\nFinal answer: Quotient = 15761, Remainder = 562.",
+              "hindi": "इसलिए 594, 9,362,596 में 15,761 बार जाता है और 562 शेष बचता है।\nजांच: 594 × 15761 + 562 = 9362596।\nअंतिम उत्तर: भागफल = 15761, शेषफल = 562."
+            }
+          ]
         }
       ],
       "tags": [
@@ -8357,8 +10813,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To divide 6932570 by 642, we use long division.",
+              "hindi": "6932570 को 642 से भाग देने के लिए हम लंबी भाग विधि का उपयोग करते हैं।"
+            },
+            {
+              "english": "1. First, 642 goes into 693 one time.\n   1 × 642 = 642\n   693 - 642 = 51",
+              "hindi": "1. पहले 642, 693 में 1 बार जाता है।\n   1 × 642 = 642\n   693 - 642 = 51"
+            },
+            {
+              "english": "2. Bring down the next digit 2. Now we have 512.\n   512 is smaller than 642, so write 0 in the quotient.",
+              "hindi": "2. अगला अंक 2 नीचे लाते हैं। अब 512 बनता है।\n   512, 642 से छोटा है, इसलिए भागफल में 0 लिखते हैं।"
+            },
+            {
+              "english": "3. Bring down 5. Now we have 5125.\n   642 goes into 5125 seven times.\n   7 × 642 = 4494\n   5125 - 4494 = 631",
+              "hindi": "3. अब 5 नीचे लाते हैं। अब 5125 बनता है।\n   642, 5125 में 7 बार जाता है।\n   7 × 642 = 4494\n   5125 - 4494 = 631"
+            },
+            {
+              "english": "4. Bring down 7. Now we have 6317.\n   642 goes into 6317 nine times.\n   9 × 642 = 5778\n   6317 - 5778 = 539",
+              "hindi": "4. अगला अंक 7 नीचे लाते हैं। अब 6317 बनता है।\n   642, 6317 में 9 बार जाता है।\n   9 × 642 = 5778\n   6317 - 5778 = 539"
+            },
+            {
+              "english": "5. Bring down 0. Now we have 5390.\n   642 goes into 5390 eight times.\n   8 × 642 = 5136\n   5390 - 5136 = 254",
+              "hindi": "5. अब 0 नीचे लाते हैं। अब 5390 बनता है।\n   642, 5390 में 8 बार जाता है।\n   8 × 642 = 5136\n   5390 - 5136 = 254"
+            },
+            {
+              "english": "So, the quotient is 10798 and the remainder is 254.",
+              "hindi": "इसलिए भागफल 10798 और शेषफल 254 है।"
+            },
+            {
+              "english": "Check: 642 × 10798 + 254 = 6932570.\nFinal Answer: Quotient (Q) = 10798, Remainder (R) = 254.",
+              "hindi": "जांच: 642 × 10798 + 254 = 6932570.\nअंतिम उत्तर: भागफल (Q) = 10798, शेषफल (R) = 254।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8421,8 +10913,48 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to divide 9736215 by 937.",
+              "hindi": "हमें 9736215 को 937 से भाग देना है।"
+            },
+            {
+              "english": "Let us do it step by step:",
+              "hindi": "आइए इसे चरण-दर-चरण हल करें:"
+            },
+            {
+              "english": "1. 937 goes into 973 one time.\n   1 × 937 = 937\n   973 - 937 = 36",
+              "hindi": "1. 937, 973 में 1 बार जाता है।\n   1 × 937 = 937\n   973 - 937 = 36"
+            },
+            {
+              "english": "2. Bring down the next digit 6.\n   Now we have 366.\n   937 goes into 366 zero times.\n   So the next digit in the quotient is 0.",
+              "hindi": "2. अगला अंक 6 नीचे लाते हैं।\n   अब हमारे पास 366 है।\n   937, 366 में 0 बार जाता है।\n   इसलिए भागफल में अगला अंक 0 होगा।"
+            },
+            {
+              "english": "3. Bring down the next digit 2.\n   Now we have 3662.\n   937 goes into 3662 three times.\n   3 × 937 = 2811\n   3662 - 2811 = 851",
+              "hindi": "3. अगला अंक 2 नीचे लाते हैं।\n   अब हमारे पास 3662 है।\n   937, 3662 में 3 बार जाता है।\n   3 × 937 = 2811\n   3662 - 2811 = 851"
+            },
+            {
+              "english": "4. Bring down the next digit 1.\n   Now we have 8511.\n   937 goes into 8511 nine times.\n   9 × 937 = 8433\n   8511 - 8433 = 78",
+              "hindi": "4. अगला अंक 1 नीचे लाते हैं।\n   अब हमारे पास 8511 है।\n   937, 8511 में 9 बार जाता है।\n   9 × 937 = 8433\n   8511 - 8433 = 78"
+            },
+            {
+              "english": "5. Bring down the last digit 5.\n   Now we have 785.\n   937 goes into 785 zero times.\n   So the last digit in the quotient is 0.\n   The remainder is 785.",
+              "hindi": "5. आख़िरी अंक 5 नीचे लाते हैं।\n   अब हमारे पास 785 है।\n   937, 785 में 0 बार जाता है।\n   इसलिए भागफल का आख़िरी अंक 0 होगा।\n   शेषफल 785 है।"
+            },
+            {
+              "english": "So, the quotient is 10390 and the remainder is 785.",
+              "hindi": "इसलिए भागफल 10390 और शेषफल 785 है।"
+            },
+            {
+              "english": "Final answer: Quotient = 10390, Remainder = 785.",
+              "hindi": "अंतिम उत्तर: भागफल = 10390, शेषफल = 785."
+            }
+          ]
         }
       ],
       "tags": [
@@ -8485,8 +11017,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We solve 8203015 ÷ 798 by long division.",
+              "hindi": "हम 8203015 ÷ 798 को लंबा भाग विधि से हल करते हैं।"
+            },
+            {
+              "english": "1. 798 goes into 820 one time.\n   820 - 798 = 22\n   Bring down 3, so we get 223.",
+              "hindi": "1. 798, 820 में 1 बार जाता है।\n   820 - 798 = 22\n   3 नीचे लाने पर 223 मिलता है।"
+            },
+            {
+              "english": "2. 223 is smaller than 798, so write 0 in the quotient.\n   Bring down 0, so we get 2230.\n   2230 - 1596 = 634.",
+              "hindi": "2. 223, 798 से छोटा है, इसलिए भागफल में 0 लिखते हैं।\n   0 नीचे लाने पर 2230 मिलता है।\n   2230 - 1596 = 634"
+            },
+            {
+              "english": "3. Bring down 1, so we get 6341.\n   6341 - 5586 = 755.",
+              "hindi": "3. 1 नीचे लाने पर 6341 मिलता है।\n   6341 - 5586 = 755"
+            },
+            {
+              "english": "4. Bring down 5, so we get 7555.\n   7555 - 7182 = 373.",
+              "hindi": "4. 5 नीचे लाने पर 7555 मिलता है।\n   7555 - 7182 = 373"
+            },
+            {
+              "english": "So the digits in the quotient are 1, 0, 2, 7, 9.\nThat gives quotient = 10279 and remainder = 373.",
+              "hindi": "अब भागफल के अंक 1, 0, 2, 7, 9 हैं।\nइसलिए भागफल = 10279 और शेष = 373।"
+            },
+            {
+              "english": "Final answer: Quotient = 10279, Remainder = 373.",
+              "hindi": "अंतिम उत्तर: भागफल = 10279, शेष = 373."
+            }
+          ]
         }
       ],
       "tags": [
@@ -8549,8 +11113,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us divide 11911100 by 697 step by step.",
+              "hindi": "आइए 11911100 को 697 से भाग देकर भागफल और शेष निकालें।"
+            },
+            {
+              "english": "1. Start with the first few digits: 1191.\n2. 697 goes into 1191 one time because 697 × 1 = 697.\n3. Subtract: 1191 - 697 = 494.\n4. Bring down the next digit 1. Now we have 4941.\n5. 697 goes into 4941 seven times because 697 × 7 = 4879.\n6. Subtract: 4941 - 4879 = 62.\n7. Bring down the next digit 1. Now we have 621.\n8. 697 does not go into 621, so write 0 in the quotient.\n9. Bring down the next digit 0. Now we have 6210.\n10. 697 goes into 6210 eight times because 697 × 8 = 5576.\n11. Subtract: 6210 - 5576 = 634.\n12. Bring down the next digit 0. Now we have 6340.\n13. 697 goes into 6340 nine times because 697 × 9 = 6273.\n14. Subtract: 6340 - 6273 = 67.",
+              "hindi": "1. पहले 1191 को देखें। 697, 1191 में 1 बार जाता है क्योंकि 697 × 1 = 697।\n2. घटाएँ: 1191 - 697 = 494।\n3. अगला अंक 1 नीचे लाएँ। अब संख्या 4941 हो जाती है।\n4. 697, 4941 में 7 बार जाता है क्योंकि 697 × 7 = 4879।\n5. घटाएँ: 4941 - 4879 = 62।\n6. अगला अंक 1 नीचे लाएँ। अब संख्या 621 हो जाती है।\n7. 697, 621 में नहीं जाता, इसलिए भागफल में 0 लिखते हैं।\n8. अगला अंक 0 नीचे लाएँ। अब संख्या 6210 हो जाती है।\n9. 697, 6210 में 8 बार जाता है क्योंकि 697 × 8 = 5576।\n10. घटाएँ: 6210 - 5576 = 634।\n11. अगला अंक 0 नीचे लाएँ। अब संख्या 6340 हो जाती है।\n12. 697, 6340 में 9 बार जाता है क्योंकि 697 × 9 = 6273।\n13. घटाएँ: 6340 - 6273 = 67।"
+            },
+            {
+              "english": "So, the quotient is 17089 and the remainder is 67.",
+              "hindi": "इसलिए भागफल 17089 और शेष 67 है।"
+            },
+            {
+              "english": "Final answer: Q = 17089, R = 67.",
+              "hindi": "अंतिम उत्तर: Q = 17089, R = 67."
+            }
+          ]
         }
       ],
       "tags": [
@@ -8613,8 +11197,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Take 1234. Since 971 goes into 1234 only 1 time, write 1 in the quotient.\n1 × 971 = 971\n1234 - 971 = 263\nStep 2: Bring down 0 to make 2630. 971 goes into 2630 2 times.\n2 × 971 = 1942\n2630 - 1942 = 688\nStep 3: Bring down 5 to make 6885. 971 goes into 6885 7 times.\n7 × 971 = 6797\n6885 - 6797 = 88\nStep 4: Bring down 6 to make 886. Since 886 is smaller than 971, write 0 in the quotient.\nBring down the next 0 to make 8860\nStep 5: 971 goes into 8860 9 times.\n9 × 971 = 8739\n8860 - 8739 = 121\nSo the quotient is 12709 and the remainder is 121.\nFinal answer: Q = 12709, R = 121.",
+              "hindi": "चरण 1: पहले 1234 लें। 971, 1234 में सिर्फ 1 बार आता है, इसलिए भागफल में 1 लिखें।\n1 × 971 = 971\n1234 - 971 = 263\nचरण 2: 0 नीचे लाकर 2630 बनाइए। 971, 2630 में 2 बार आता है।\n2 × 971 = 1942\n2630 - 1942 = 688\nचरण 3: 5 नीचे लाकर 6885 बनाइए। 971, 6885 में 7 बार आता है।\n7 × 971 = 6797\n6885 - 6797 = 88\nचरण 4: 6 नीचे लाकर 886 बनाइए। क्योंकि 886, 971 से छोटा है, इसलिए भागफल में 0 लिखते हैं।\nअगला 0 नीचे लाकर 8860 बनाइए।\nचरण 5: 971, 8860 में 9 बार आता है।\n9 × 971 = 8739\n8860 - 8739 = 121\nइसलिए भागफल 12709 है और शेषफल 121 है।\nअंतिम उत्तर: भागफल = 12709, शेषफल = 121।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8677,8 +11269,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Use the division rule:\nDividend = Divisor × Quotient + Remainder",
+              "hindi": "भाग का नियम:\nभाज्य = भाजक × भागफल + शेष"
+            },
+            {
+              "english": "Step 1: Multiply the divisor and quotient.\n187 × 3078 = 575586",
+              "hindi": "Step 1: भाजक और भागफल को गुणा करें।\n187 × 3078 = 575586"
+            },
+            {
+              "english": "Step 2: Add the remainder.\n575586 + 96 = 575682",
+              "hindi": "Step 2: शेष जोड़ें।\n575586 + 96 = 575682"
+            },
+            {
+              "english": "So, the dividend is 575682.",
+              "hindi": "इसलिए, भाज्य 575682 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8741,8 +11353,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Question 4.13.17",
+              "hindi": "प्रश्न 4.13.17"
+            },
+            {
+              "english": "We use the dividend formula:\nDividend = Divisor × Quotient + Remainder",
+              "hindi": "हम भागफल का नियम उपयोग करेंगे:\nDividend = Divisor × Quotient + Remainder"
+            },
+            {
+              "english": "Given:\nDivisor = 429\nQuotient = 5237\nRemainder = 248",
+              "hindi": "दिया है:\nDivisor = 429\nQuotient = 5237\nRemainder = 248"
+            },
+            {
+              "english": "Step 1: Multiply the divisor and quotient.\n429 × 5237 = 5237 × (400 + 20 + 9)\n= (5237 × 400) + (5237 × 20) + (5237 × 9)\n= 2,094,800 + 104,740 + 47,133\n= 2,246,673",
+              "hindi": "चरण 1: divisor और quotient को गुणा करें।\n429 × 5237 = 5237 × (400 + 20 + 9)\n= (5237 × 400) + (5237 × 20) + (5237 × 9)\n= 2,094,800 + 104,740 + 47,133\n= 2,246,673"
+            },
+            {
+              "english": "Step 2: Add the remainder.\n2,246,673 + 248 = 2,246,921",
+              "hindi": "चरण 2: अब remainder जोड़ें।\n2,246,673 + 248 = 2,246,921"
+            },
+            {
+              "english": "So, the dividend is 2,246,921.",
+              "hindi": "इसलिए dividend = 2,246,921 है।"
+            },
+            {
+              "english": "Final answer: 2246921",
+              "hindi": "Final answer: 2246921"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8805,8 +11449,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The largest 7-digit number is 9,999,999.\nThe largest 3-digit number is 999.",
+              "hindi": "सबसे बड़ी 7 अंकों की संख्या 9,999,999 है।\nसबसे बड़ी 3 अंकों की संख्या 999 है।"
+            },
+            {
+              "english": "Now divide 9,999,999 by 999.",
+              "hindi": "अब 9,999,999 को 999 से भाग देते हैं।"
+            },
+            {
+              "english": "We can check:\n999 × 10000 = 9,990,000\n999 × 10 = 9,990\n999 × 10010 = 9,999,990",
+              "hindi": "जांच करते हैं:\n999 × 10000 = 9,990,000\n999 × 10 = 9,990\n999 × 10010 = 9,999,990"
+            },
+            {
+              "english": "Now subtract:\n9,999,999 - 9,999,990 = 9",
+              "hindi": "अब घटाएँ:\n9,999,999 - 9,999,990 = 9"
+            },
+            {
+              "english": "So, the quotient is 10010 and the remainder is 9.",
+              "hindi": "इसलिए भागफल 10010 है और शेष 9 है।"
+            },
+            {
+              "english": "Final answer: Quotient = 10010, Remainder = 9.",
+              "hindi": "अंतिम उत्तर: भागफल = 10010, शेष = 9।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8869,8 +11541,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The smallest 8-digit number is 10000000.\nThe largest 2-digit number is 99.",
+              "hindi": "सबसे छोटी 8-अंकीय संख्या 10000000 है।\nसबसे बड़ी 2-अंकीय संख्या 99 है।"
+            },
+            {
+              "english": "Now divide 10000000 by 99.",
+              "hindi": "अब 10000000 को 99 से भाग देते हैं।"
+            },
+            {
+              "english": "99 × 101010 = 9999990\n10000000 - 9999990 = 10",
+              "hindi": "99 × 101010 = 9999990\n10000000 - 9999990 = 10"
+            },
+            {
+              "english": "So, 10000000 ÷ 99 gives a quotient of 101010 and a remainder of 10.",
+              "hindi": "इसलिए 10000000 ÷ 99 का भागफल 101010 और शेष 10 है।"
+            },
+            {
+              "english": "Final Answer: Quotient = 101010, Remainder = 10.",
+              "hindi": "अंतिम उत्तर: भागफल = 101010, शेष = 10।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8933,8 +11629,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find how many cartons are required, divide the total number of screws by the number of screws in one carton.",
+              "hindi": "यह जानने के लिए कि कितने कार्टन चाहिए, कुल स्क्रू को एक कार्टन में आने वाले स्क्रू से भाग देते हैं।"
+            },
+            {
+              "english": "Number of cartons = 4426125 ÷ 275",
+              "hindi": "कार्टन की संख्या = 4426125 ÷ 275"
+            },
+            {
+              "english": "Now divide:\n275 × 16095 = 4426125",
+              "hindi": "अब भाग देने पर:\n275 × 16095 = 4426125"
+            },
+            {
+              "english": "So, 4426125 screws need 16095 cartons.",
+              "hindi": "इसलिए 4426125 स्क्रू रखने के लिए 16095 कार्टन चाहिए।"
+            },
+            {
+              "english": "Final answer: 16095 cartons.",
+              "hindi": "अंतिम उत्तर: 16095 कार्टन।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -8997,8 +11717,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find how many pencils are in 1 box.",
+              "hindi": "हमें 1 बॉक्स में पेंसिलों की संख्या पता करनी है।"
+            },
+            {
+              "english": "Total pencils = 7,359,105\nNumber of boxes = 845",
+              "hindi": "कुल पेंसिलें = 7,359,105\nबॉक्सों की संख्या = 845"
+            },
+            {
+              "english": "So, we divide:\n7,359,105 ÷ 845 = 8,709",
+              "hindi": "इसलिए हम भाग देंगे:\n7,359,105 ÷ 845 = 8,709"
+            },
+            {
+              "english": "Check:\n845 × 8,709 = 7,359,105",
+              "hindi": "जांच:\n845 × 8,709 = 7,359,105"
+            },
+            {
+              "english": "So, each box has 8,709 pencils.\nFinal answer: 8,709 pencils.",
+              "hindi": "इसलिए हर बॉक्स में 8,709 पेंसिलें हैं।\nअंतिम उत्तर: 8,709 पेंसिलें।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9062,8 +11806,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the cost of one radio, we divide the total cost by the number of radios.",
+              "hindi": "एक रेडियो की कीमत निकालने के लिए, कुल लागत को रेडियो की संख्या से भाग देते हैं।"
+            },
+            {
+              "english": "Total cost = Rs 1664212\nNumber of radios = 347",
+              "hindi": "कुल लागत = Rs 1664212\nरेडियो की संख्या = 347"
+            },
+            {
+              "english": "Cost of one radio = 1664212 ÷ 347 = 4796",
+              "hindi": "एक रेडियो की कीमत = 1664212 ÷ 347 = 4796"
+            },
+            {
+              "english": "So, the cost of one radio is Rs 4796.",
+              "hindi": "इसलिए, एक रेडियो की कीमत Rs 4796 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9127,8 +11891,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the cost of 1 quintal of wheat, divide the total cost by the total number of quintals.",
+              "hindi": "1 क्विंटल गेहूं का मूल्य निकालने के लिए कुल लागत को कुल क्विंटलों से भाग देते हैं।"
+            },
+            {
+              "english": "Step 1: Total cost = Rs 1214400\nStep 2: Total quintals = 736\nStep 3: Cost of 1 quintal = 1214400 ÷ 736",
+              "hindi": "चरण 1: कुल लागत = Rs 1214400\nचरण 2: कुल क्विंटल = 736\nचरण 3: 1 क्विंटल का मूल्य = 1214400 ÷ 736"
+            },
+            {
+              "english": "Now divide:\n1214400 ÷ 736 = 1650",
+              "hindi": "अब भाग देते हैं:\n1214400 ÷ 736 = 1650"
+            },
+            {
+              "english": "So, the cost of one quintal of wheat is Rs 1650.",
+              "hindi": "इसलिए, 1 क्विंटल गेहूं की कीमत Rs 1650 है।"
+            },
+            {
+              "english": "Final answer: Rs 1650",
+              "hindi": "अंतिम उत्तर: Rs 1650"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9192,8 +11980,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know that 249 trucks carry 1711875 kg in total.\nTo find the weight carried by 1 truck, divide the total weight by the number of trucks.\nSo, 1711875 ÷ 249 = 6875.\nWe can check: 6875 × 249 = 1711875.\nTherefore, one truck can carry 6875 kg.\nFinal Answer: 6875 kg",
+              "hindi": "हमें पता है कि 249 ट्रक मिलकर कुल 1711875 किग्रा वजन ले जा सकते हैं।\nएक ट्रक कितना वजन ले जा सकता है, यह जानने के लिए कुल वजन को ट्रकों की संख्या से भाग देंगे।\nइसलिए, 1711875 ÷ 249 = 6875।\nजांच करने पर: 6875 × 249 = 1711875।\nइसलिए एक ट्रक 6875 किग्रा वजन ले जा सकता है।\nअंतिम उत्तर: 6875 किग्रा"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9257,8 +12053,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We are given:\n- Number of water tanks = 187\n- Total water they can hold = 1323025 litres",
+              "hindi": "हमें दिया है:\n- पानी की टंकियों की संख्या = 187\n- कुल पानी = 1323025 लीटर"
+            },
+            {
+              "english": "To find the capacity of each tank, we divide the total water by the number of tanks.",
+              "hindi": "प्रत्येक टैंक की क्षमता निकालने के लिए, हम कुल पानी को टंकियों की संख्या से भाग देंगे।"
+            },
+            {
+              "english": "Capacity of each tank = 1323025 ÷ 187\n= 7075",
+              "hindi": "प्रत्येक टैंक की क्षमता = 1323025 ÷ 187\n= 7075"
+            },
+            {
+              "english": "So, each tank can hold 7075 litres of water.",
+              "hindi": "इसलिए, प्रत्येक टैंक की क्षमता 7075 लीटर है।"
+            },
+            {
+              "english": "Final answer: 7075 litres.",
+              "hindi": "अंतिम उत्तर: 7075 लीटर।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9321,8 +12141,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A calculator costs Rs 845.\nThe shopkeeper collected Rs 742755 in one month.\nTo find how many calculators he sold, we divide total money by the cost of 1 calculator:\n742755 ÷ 845 = 879\nSo, he sold 879 calculators.\nFinal answer: 879 calculators.",
+              "hindi": "एक कैलकुलेटर की कीमत Rs 845 है।\nदुकानदार ने एक महीने में Rs 742755 कमाए।\nयह जानने के लिए कि उसने कितने कैलकुलेटर बेचे, हम कुल पैसे को 1 कैलकुलेटर की कीमत से भाग देंगे:\n742755 ÷ 845 = 879\nइसलिए, उसने 879 कैलकुलेटर बेचे।\nअंतिम उत्तर: 879 कैलकुलेटर।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9385,8 +12213,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find how many shelves are needed.",
+              "hindi": "हमें पता करना है कि कितनी अलमारियाँ (shelves) चाहिए होंगी।"
+            },
+            {
+              "english": "Step 1: Total books = 669375\nStep 2: Books in each shelf = 375\nStep 3: Divide total books by books per shelf:\n669375 ÷ 375 = 1785",
+              "hindi": "चरण 1: कुल किताबें = 669375\nचरण 2: हर शेल्फ में किताबें = 375\nचरण 3: कुल किताबों को एक शेल्फ में किताबों से भाग दें:\n669375 ÷ 375 = 1785"
+            },
+            {
+              "english": "So, 1785 shelves will be needed.\nFinal answer: 1785",
+              "hindi": "इसलिए 1785 शेल्फ की जरूरत होगी।\nअंतिम उत्तर: 1785"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9449,8 +12293,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the average number of persons who visited Appu Ghar in one day, we divide the total number of persons by the number of days.",
+              "hindi": "एक दिन में औसत व्यक्तियों की संख्या निकालने के लिए कुल व्यक्तियों को दिनों की संख्या से भाग देते हैं।"
+            },
+            {
+              "english": "Total persons = 950589\nNumber of days = 327",
+              "hindi": "कुल व्यक्ति = 950589\nदिनों की संख्या = 327"
+            },
+            {
+              "english": "Average per day = 950589 ÷ 327 = 2907",
+              "hindi": "औसत प्रति दिन = 950589 ÷ 327 = 2907"
+            },
+            {
+              "english": "So, on average, 2907 persons visited Appu Ghar in one day.",
+              "hindi": "इसलिए, Appu Ghar में एक दिन में औसतन 2907 व्यक्ति आए।"
+            },
+            {
+              "english": "Final Answer: 2907",
+              "hindi": "अंतिम उत्तर: 2907"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9514,8 +12382,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find how many bundles can be made, we divide the total wire by the wire in each bundle.",
+              "hindi": "कितनी गठरियाँ बनेंगी, यह जानने के लिए हमें कुल तार को एक गठरी में आने वाले तार से भाग देना होगा।"
+            },
+            {
+              "english": "Total wire = 1633500 metres\nWire in each bundle = 182 metres",
+              "hindi": "कुल तार = 1633500 मीटर\nएक गठरी में तार = 182 मीटर"
+            },
+            {
+              "english": "Step 1: Divide 1633500 by 182.\n1633500 ÷ 182 = 8975 remainder 50",
+              "hindi": "चरण 1: 1633500 को 182 से भाग दें।\n1633500 ÷ 182 = 8975 शेष 50"
+            },
+            {
+              "english": "Step 2: Check the remainder.\n8975 × 182 = 1633450\n1633500 - 1633450 = 50",
+              "hindi": "चरण 2: शेषफल की जाँच करें।\n8975 × 182 = 1633450\n1633500 - 1633450 = 50"
+            },
+            {
+              "english": "So, 8975 full bundles will be made and 50 metres of wire will remain unpacked.",
+              "hindi": "इसलिए 8975 पूरी गठरियाँ बनेंगी और 50 मीटर तार बिना पैक किए रह जाएगा।"
+            },
+            {
+              "english": "Final answer: 8975 bundles, 50 metres remaining.",
+              "hindi": "अंतिम उत्तर: 8975 गठरियाँ, 50 मीटर शेष।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -9578,8 +12474,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We know:\n- Product of the two numbers = 1785483\n- One number = 987",
+              "hindi": "हमें दिया है:\n- दो संख्याओं का गुणनफल = 1785483\n- एक संख्या = 987"
+            },
+            {
+              "english": "To find the other number, divide the product by the known number:\n1785483 ÷ 987 = 1809",
+              "hindi": "दूसरी संख्या निकालने के लिए गुणनफल को दी गई संख्या से भाग देते हैं:\n1785483 ÷ 987 = 1809"
+            },
+            {
+              "english": "Check:\n987 × 1809 = 1785483",
+              "hindi": "जांच:\n987 × 1809 = 1785483"
+            },
+            {
+              "english": "So, the other number is 1809.",
+              "hindi": "इसलिए, दूसरी संख्या 1809 है."
+            }
+          ]
         }
       ],
       "tags": [

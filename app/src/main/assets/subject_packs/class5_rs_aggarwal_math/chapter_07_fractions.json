@@ -477,8 +477,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: The whole shape is divided into 3 equal parts.\nStep 2: 2 of those parts are shaded.\nSo, the fraction shaded is 2/3.\nStep 3: Out of 3 equal parts, 1 part is not shaded.\nSo, the fraction unshaded is 1/3.\nFinal answer: (a) 2/3  (b) 1/3",
+              "hindi": "चरण 1: पूरी आकृति को 3 बराबर भागों में बाँटा गया है।\nचरण 2: उन 3 भागों में से 2 भाग रंगे हुए हैं।\nइसलिए, रंगा हुआ भाग = 2/3।\nचरण 3: 3 बराबर भागों में से 1 भाग बिना रंग का है।\nइसलिए, बिना रंग का भाग = 1/3।\nअंतिम उत्तर: (a) 2/3  (b) 1/3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -542,8 +550,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "A unit fraction is a fraction with 1 as the numerator.",
+              "hindi": "एक unit fraction वह भिन्न होती है जिसमें numerator यानी अंश 1 होता है।"
+            },
+            {
+              "english": "Let us check each fraction one by one:\n- 6/1: not a unit fraction, because the numerator is 6.\n- 1/4: unit fraction, because the numerator is 1.\n- 3/6: not a unit fraction, because the numerator is 3.\n- 1/7: unit fraction, because the numerator is 1.\n- 9/1: not a unit fraction, because the numerator is 9.\n- 1/10: unit fraction, because the numerator is 1.\n- 5/5: not a unit fraction, because the numerator is 5.\n- 1/11: unit fraction, because the numerator is 1.",
+              "hindi": "अब हर भिन्न को एक-एक करके देखते हैं:\n- 6/1: unit fraction नहीं है, क्योंकि अंश 6 है।\n- 1/4: unit fraction है, क्योंकि अंश 1 है।\n- 3/6: unit fraction नहीं है, क्योंकि अंश 3 है।\n- 1/7: unit fraction है, क्योंकि अंश 1 है।\n- 9/1: unit fraction नहीं है, क्योंकि अंश 9 है।\n- 1/10: unit fraction है, क्योंकि अंश 1 है।\n- 5/5: unit fraction नहीं है, क्योंकि अंश 5 है।\n- 1/11: unit fraction है, क्योंकि अंश 1 है।"
+            },
+            {
+              "english": "So, circle the unit fractions: 1/4, 1/7, 1/10, 1/11.",
+              "hindi": "इसलिए unit fractions को circle करना है: 1/4, 1/7, 1/10, 1/11."
+            },
+            {
+              "english": "Final answer: 1/4, 1/7, 1/10, 1/11",
+              "hindi": "Final answer: 1/4, 1/7, 1/10, 1/11"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1263,8 +1291,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: A proper fraction has a numerator smaller than the denominator.\nStep 2: In 7/8, the numerator is 7 and the denominator is 8.\nStep 3: Since 7 is smaller than 8, 7/8 is a proper fraction, not an improper fraction.\nSo, do not circle 7/8. Final answer: no",
+              "hindi": "चरण 1: proper fraction में numerator, denominator से छोटा होता है।\nचरण 2: 7/8 में numerator 7 है और denominator 8 है।\nचरण 3: क्योंकि 7, 8 से छोटा है, इसलिए 7/8 एक proper fraction है, improper fraction नहीं है।\nइसलिए 7/8 को circle नहीं करना है। अंतिम उत्तर: no"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1329,8 +1365,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: An improper fraction has a numerator (top number) that is the same as or bigger than the denominator (bottom number).\nStep 2: In 4/4, the numerator is 4 and the denominator is 4.\nStep 3: Since the numerator and denominator are the same, 4/4 is an improper fraction.\nSo, circle 4/4. Final answer: Improper fraction (Yes).",
+              "hindi": "चरण 1: अनुचित भिन्न में अंश (ऊपर की संख्या) हर (नीचे की संख्या) के बराबर या उससे बड़ा होता है।\nचरण 2: 4/4 में अंश 4 है और हर 4 है।\nचरण 3: क्योंकि अंश और हर बराबर हैं, इसलिए 4/4 एक अनुचित भिन्न है।\nइसलिए 4/4 को घेरा लगाओ। अंतिम उत्तर: अनुचित भिन्न (हाँ)।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1395,8 +1439,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find an improper fraction, check whether the numerator is greater than the denominator.",
+              "hindi": "अपरिमेय भिन्न (improper fraction) पहचानने के लिए देखो कि अंश हर से बड़ा है या नहीं।"
+            },
+            {
+              "english": "For 11/6:\n- Numerator = 11\n- Denominator = 6\n- Since 11 > 6, 11/6 is an improper fraction.",
+              "hindi": "11/6 में:\n- अंश = 11\n- हर = 6\n- क्योंकि 11 > 6 है, इसलिए 11/6 एक improper fraction है।"
+            },
+            {
+              "english": "So, circle 11/6.\nFinal answer: 11/6 is an improper fraction.",
+              "hindi": "इसलिए 11/6 पर गोला लगाओ।\nअंतिम उत्तर: 11/6 एक improper fraction है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1461,8 +1521,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us check the fraction 8/1 step by step.",
+              "hindi": "आइए 8/1 भिन्न को step by step देखते हैं।"
+            },
+            {
+              "english": "1. The top number is 8. It is called the numerator.\n2. The bottom number is 1. It is called the denominator.\n3. In an improper fraction, the numerator is greater than or equal to the denominator.\n4. Here, 8 is greater than 1.\n5. So, 8/1 is an improper fraction.",
+              "hindi": "1. ऊपर वाला नंबर 8 है। इसे अंश कहते हैं।\n2. नीचे वाला नंबर 1 है। इसे हर कहते हैं।\n3. अपूर्ण भिन्न में अंश, हर से बड़ा या उसके बराबर होता है।\n4. यहाँ 8, 1 से बड़ा है।\n5. इसलिए 8/1 एक अपूर्ण भिन्न है।"
+            },
+            {
+              "english": "Circle 8/1.",
+              "hindi": "8/1 पर गोला लगाइए।"
+            },
+            {
+              "english": "Final Answer: improper fraction",
+              "hindi": "अंतिम उत्तर: अपूर्ण भिन्न"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1527,8 +1607,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let us check the fraction 1/1.\n- The top number is the numerator.\n- The bottom number is the denominator.\n- In 1/1, the numerator is 1 and the denominator is 1.\n- An improper fraction has a numerator that is greater than or equal to the denominator.\n- Since 1 is equal to 1, 1/1 is an improper fraction.",
+              "hindi": "आइए 1/1 को देखें।\n- ऊपर वाली संख्या को अंश कहते हैं।\n- नीचे वाली संख्या को हर कहते हैं।\n- 1/1 में अंश 1 है और हर भी 1 है।\n- अपूर्ण भिन्न में अंश, हर से बड़ा या बराबर होता है।\n- यहाँ 1 = 1 है, इसलिए 1/1 एक अपूर्ण भिन्न है।"
+            },
+            {
+              "english": "So, circle 1/1.",
+              "hindi": "इसलिए 1/1 पर गोला लगाइए।"
+            },
+            {
+              "english": "Final answer: yes, 1/1 is an improper fraction.",
+              "hindi": "अंतिम उत्तर: हाँ, 1/1 एक अपूर्ण भिन्न है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1592,8 +1688,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert the mixed number 3 3/5 into an improper fraction, follow these steps:",
+              "hindi": "मिश्र भिन्न 3 3/5 को अशुद्ध भिन्न में बदलने के लिए ये कदम करें:"
+            },
+            {
+              "english": "1. Keep the denominator the same. The denominator is 5.\n2. Multiply the whole number by the denominator: 3 × 5 = 15.\n3. Add the numerator: 15 + 3 = 18.\n4. Put this number over the same denominator: 18/5.",
+              "hindi": "1. हर को वही रखें। हर 5 है।\n2. पूरे अंक को हर से गुणा करें: 3 × 5 = 15.\n3. अब अंश जोड़ें: 15 + 3 = 18.\n4. इस संख्या को उसी हर के ऊपर लिखें: 18/5."
+            },
+            {
+              "english": "So, the improper fraction is 18/5.",
+              "hindi": "इसलिए, अशुद्ध भिन्न 18/5 है."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1657,8 +1769,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The given number is usually read as the mixed number 2 5/7.",
+              "hindi": "दिया गया प्रश्न आमतौर पर मिश्र भिन्न 2 5/7 के रूप में पढ़ा जाता है।"
+            },
+            {
+              "english": "To convert a mixed number into an improper fraction:\n1. Multiply the whole number by the denominator.\n   2 × 7 = 14\n2. Add the numerator.\n   14 + 5 = 19\n3. Keep the same denominator.",
+              "hindi": "मिश्र भिन्न को अपूर्ण भिन्न में बदलने के लिए:\n1. पूरे अंक को हर से गुणा करें।\n   2 × 7 = 14\n2. अंश को जोड़ें।\n   14 + 5 = 19\n3. हर वही रखिए।"
+            },
+            {
+              "english": "So, 2 5/7 = 19/7.",
+              "hindi": "इसलिए, 2 5/7 = 19/7।"
+            },
+            {
+              "english": "Final answer: 19/7",
+              "hindi": "अंतिम उत्तर: 19/7"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1722,8 +1854,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to convert the mixed number 6 2/3 into an improper fraction.",
+              "hindi": "हमें मिश्र भिन्न 6 2/3 को अशुद्ध भिन्न में बदलना है।"
+            },
+            {
+              "english": "Step 1: Keep the denominator the same. The denominator is 3.\nStep 2: Multiply the whole number by the denominator: 6 × 3 = 18.\nStep 3: Add the numerator: 18 + 2 = 20.\nStep 4: Write the result over the same denominator: 20/3.",
+              "hindi": "चरण 1: हर (denominator) वही रहेगा। हर 3 है।\nचरण 2: पूरे भाग को हर से गुणा करें: 6 × 3 = 18।\nचरण 3: अब अंश (numerator) जोड़ें: 18 + 2 = 20।\nचरण 4: उसी हर के साथ भिन्न लिखें: 20/3।"
+            },
+            {
+              "english": "Final answer: 20/3",
+              "hindi": "अंतिम उत्तर: 20/3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1787,8 +1935,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert a mixed fraction into an improper fraction, we follow these steps.",
+              "hindi": "मिश्र भिन्न को अशुद्ध भिन्न में बदलने के लिए हम ये कदम करते हैं।"
+            },
+            {
+              "english": "Given mixed fraction: 4 5/6",
+              "hindi": "दिया गया मिश्र भिन्न: 4 5/6"
+            },
+            {
+              "english": "Step 1: Multiply the whole number by the denominator.\n4 × 6 = 24",
+              "hindi": "Step 1: पूरे भाग को हर से गुणा करें।\n4 × 6 = 24"
+            },
+            {
+              "english": "Step 2: Add the numerator.\n24 + 5 = 29",
+              "hindi": "Step 2: अंश को जोड़ें।\n24 + 5 = 29"
+            },
+            {
+              "english": "Step 3: Keep the same denominator.\nSo, the improper fraction is 29/6.",
+              "hindi": "Step 3: हर वही रहता है।\nइसलिए अशुद्ध भिन्न है 29/6।"
+            },
+            {
+              "english": "Final answer: 29/6",
+              "hindi": "Final answer: 29/6"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1852,8 +2028,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "This question is asking us to convert the mixed number 7 1/7 into an improper fraction.",
+              "hindi": "यह प्रश्न हमें मिश्रित भिन्न 7 1/7 को अशुद्ध भिन्न में बदलने के लिए कह रहा है।"
+            },
+            {
+              "english": "Step 1: Keep the denominator the same.\nThe denominator is 7.",
+              "hindi": "चरण 1: हर को वही रखें।\nहर 7 है।"
+            },
+            {
+              "english": "Step 2: Multiply the whole number by the denominator.\n7 × 7 = 49",
+              "hindi": "चरण 2: पूरे अंक को हर से गुणा करें।\n7 × 7 = 49"
+            },
+            {
+              "english": "Step 3: Add the numerator.\n49 + 1 = 50",
+              "hindi": "चरण 3: अंश को जोड़ें।\n49 + 1 = 50"
+            },
+            {
+              "english": "Step 4: Write the answer over the same denominator.\nSo, the improper fraction is 50/7.",
+              "hindi": "चरण 4: उत्तर को उसी हर के नीचे लिखें।\nइसलिए अशुद्ध भिन्न 50/7 है।"
+            },
+            {
+              "english": "Final answer: 50/7",
+              "hindi": "अंतिम उत्तर: 50/7"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1917,8 +2121,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 11/4 into a mixed number, divide 11 by 4.",
+              "hindi": "11/4 को मिश्रित भिन्न में बदलने के लिए 11 को 4 से भाग दें।"
+            },
+            {
+              "english": "11 ÷ 4 = 2 remainder 3",
+              "hindi": "11 ÷ 4 = 2 शेष 3"
+            },
+            {
+              "english": "So, the whole number part is 2, and the remainder becomes the numerator. The denominator stays 4.",
+              "hindi": "अब भागफल 2 पूरा भाग है, और शेष 3 अंश बन जाएगा। हर 4 ही रहेगा।"
+            },
+            {
+              "english": "Therefore, 11/4 = 2 3/4.",
+              "hindi": "इसलिए, 11/4 = 2 3/4।"
+            },
+            {
+              "english": "Final answer: 2 3/4",
+              "hindi": "अंतिम उत्तर: 2 3/4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1982,8 +2210,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 17/8 into a mixed number:\n1. Divide 17 by 8.\n2. 17 ÷ 8 = 2 remainder 1.\n3. The quotient 2 becomes the whole number.\n4. The remainder 1 becomes the new numerator, and the denominator stays 8.\nSo, 17/8 = 2 1/8.\nFinal answer: 2 1/8",
+              "hindi": "17/8 को mixed number में बदलने के लिए:\n1. 17 को 8 से भाग दो।\n2. 17 ÷ 8 = 2 शेष 1।\n3. भागफल 2 पूरा भाग (whole number) बनता है।\n4. शेष 1 नया अंश (numerator) बनता है, और हर (denominator) 8 ही रहता है।\nइसलिए, 17/8 = 2 1/8।\nअंतिम उत्तर: 2 1/8"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2047,8 +2283,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 23/6 into a mixed number, divide 23 by 6.",
+              "hindi": "23/6 को मिश्र भिन्न में बदलने के लिए 23 को 6 से भाग देते हैं।"
+            },
+            {
+              "english": "Step 1: 6 goes into 23 three times because 6 × 3 = 18.\nStep 2: Subtract 18 from 23.\n23 - 18 = 5\nStep 3: Write the quotient as the whole number and the remainder as the numerator.\nSo, 23/6 = 3 5/6.",
+              "hindi": "चरण 1: 6, 23 में 3 बार जाता है क्योंकि 6 × 3 = 18.\nचरण 2: 23 में से 18 घटाएँ.\n23 - 18 = 5\nचरण 3: भागफल को पूरा अंक और शेष को अंश लिखते हैं.\nइसलिए, 23/6 = 3 5/6."
+            },
+            {
+              "english": "Final answer: 3 5/6",
+              "hindi": "अंतिम उत्तर: 3 5/6"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2112,8 +2364,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 19/5 into a mixed number, follow these steps:",
+              "hindi": "19/5 को मिश्रित भिन्न (mixed number) में बदलने के लिए ये चरण करें:"
+            },
+            {
+              "english": "1. Divide 19 by 5.\n2. 5 goes into 19 three times because 5 × 3 = 15.\n3. Subtract 15 from 19: 19 - 15 = 4.\n4. So the whole number is 3 and the remainder is 4.\n5. Write the remainder over the original denominator 5.",
+              "hindi": "1. 19 को 5 से भाग दीजिए।\n2. 5, 19 में 3 बार जाता है क्योंकि 5 × 3 = 15.\n3. अब 19 - 15 = 4 बचता है।\n4. इसलिए पूरा भाग 3 हुआ और शेष 4 बचा।\n5. शेष 4 को हर 5 के ऊपर लिखते हैं।"
+            },
+            {
+              "english": "So, 19/5 = 3 4/5.",
+              "hindi": "इसलिए, 19/5 = 3 4/5."
+            },
+            {
+              "english": "Final answer: 3 4/5",
+              "hindi": "अंतिम उत्तर: 3 4/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2177,8 +2449,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To convert 15/7 into a mixed number, divide 15 by 7.\n7 goes into 15 2 times because 7 × 2 = 14.\nNow subtract: 15 - 14 = 1.\nSo the whole number is 2 and the remainder is 1.\nWrite the remainder over the original denominator: 1/7.\nTherefore, 15/7 = 2 1/7.\nFinal answer: 2 1/7.",
+              "hindi": "15/7 को मिश्रित भिन्न में बदलने के लिए 15 को 7 से भाग देते हैं।\n7, 15 में 2 बार जाता है क्योंकि 7 × 2 = 14।\nअब घटाएँ: 15 - 14 = 1।\nइसलिए पूर्णांक भाग 2 है और शेष 1 है।\nशेष को मूल हर के ऊपर लिखते हैं: 1/7।\nइस तरह, 15/7 = 2 1/7।\nअंतिम उत्तर: 2 1/7।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2242,8 +2522,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find fractions equivalent to 2/3, multiply the numerator and the denominator by the same number.",
+              "hindi": "2/3 ke barabar bhinn paane ke liye, aparam (numerator) aur har (denominator) dono ko ek hi sankhya se guna karte hain."
+            },
+            {
+              "english": "1. Multiply by 2: 2/3 × 2/2 = 4/6\n2. Multiply by 3: 2/3 × 3/3 = 6/9\n3. Multiply by 4: 2/3 × 4/4 = 8/12\n4. Multiply by 5: 2/3 × 5/5 = 10/15",
+              "hindi": "1. 2 se guna: 2/3 × 2/2 = 4/6\n2. 3 se guna: 2/3 × 3/3 = 6/9\n3. 4 se guna: 2/3 × 4/4 = 8/12\n4. 5 se guna: 2/3 × 5/5 = 10/15"
+            },
+            {
+              "english": "So, four equivalent fractions of 2/3 are: 4/6, 6/9, 8/12, 10/15.",
+              "hindi": "Isliye, 2/3 ke chaar sam tulya bhinn hain: 4/6, 6/9, 8/12, 10/15."
+            },
+            {
+              "english": "Final answer: 4/6, 6/9, 8/12, 10/15",
+              "hindi": "Antim उत्तर: 4/6, 6/9, 8/12, 10/15"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2307,8 +2607,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write equivalent fractions, multiply the numerator and denominator by the same whole number.",
+              "hindi": "समान भिन्न लिखने के लिए अंश और हर दोनों को एक ही संख्या से गुणा करते हैं।"
+            },
+            {
+              "english": "For 5/6:\n- Multiply by 2: 5 × 2 / 6 × 2 = 10/12\n- Multiply by 3: 5 × 3 / 6 × 3 = 15/18\n- Multiply by 4: 5 × 4 / 6 × 4 = 20/24\n- Multiply by 5: 5 × 5 / 6 × 5 = 25/30",
+              "hindi": "5/6 के लिए:\n- 2 से गुणा करें: 5 × 2 / 6 × 2 = 10/12\n- 3 से गुणा करें: 5 × 3 / 6 × 3 = 15/18\n- 4 से गुणा करें: 5 × 4 / 6 × 4 = 20/24\n- 5 से गुणा करें: 5 × 5 / 6 × 5 = 25/30"
+            },
+            {
+              "english": "So, four equivalent fractions of 5/6 are 10/12, 15/18, 20/24, and 25/30.",
+              "hindi": "इसलिए 5/6 के चार समान भिन्न हैं 10/12, 15/18, 20/24, और 25/30।"
+            },
+            {
+              "english": "Final Answer: 10/12, 15/18, 20/24, 25/30",
+              "hindi": "Final Answer: 10/12, 15/18, 20/24, 25/30"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2372,8 +2692,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to write four fractions equivalent to 4/7.",
+              "hindi": "हमें 4/7 के चार समतुल्य भिन्न लिखने हैं।"
+            },
+            {
+              "english": "Equivalent fractions are made by multiplying the numerator and denominator by the same number.",
+              "hindi": "समतुल्य भिन्न बनाने के लिए अंश और हर दोनों को एक ही संख्या से गुणा करते हैं।"
+            },
+            {
+              "english": "Step 1: Start with 4/7.\nStep 2: Multiply the numerator and denominator by 2:\n4 × 2 / 7 × 2 = 8/14\nStep 3: Multiply by 3:\n4 × 3 / 7 × 3 = 12/21\nStep 4: Multiply by 4:\n4 × 4 / 7 × 4 = 16/28\nStep 5: Multiply by 5:\n4 × 5 / 7 × 5 = 20/35",
+              "hindi": "Step 1: 4/7 से शुरू करते हैं।\nStep 2: अंश और हर दोनों को 2 से गुणा करें:\n4 × 2 / 7 × 2 = 8/14\nStep 3: 3 से गुणा करें:\n4 × 3 / 7 × 3 = 12/21\nStep 4: 4 से गुणा करें:\n4 × 4 / 7 × 4 = 16/28\nStep 5: 5 से गुणा करें:\n4 × 5 / 7 × 5 = 20/35"
+            },
+            {
+              "english": "So, four equivalent fractions of 4/7 are 8/14, 12/21, 16/28, and 20/35.",
+              "hindi": "इसलिए 4/7 के चार समतुल्य भिन्न हैं 8/14, 12/21, 16/28, और 20/35।"
+            },
+            {
+              "english": "Final answer: 8/14, 12/21, 16/28, 20/35",
+              "hindi": "Final answer: 8/14, 12/21, 16/28, 20/35"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2437,8 +2781,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To write fractions equivalent to 3/5, multiply the numerator and denominator by the same number.",
+              "hindi": "3/5 के बराबर भिन्न लिखने के लिए अंश और हर दोनों को एक ही संख्या से गुणा करते हैं।"
+            },
+            {
+              "english": "3/5 × 2/2 = 6/10\n3/5 × 3/3 = 9/15\n3/5 × 4/4 = 12/20\n3/5 × 5/5 = 15/25",
+              "hindi": "3/5 × 2/2 = 6/10\n3/5 × 3/3 = 9/15\n3/5 × 4/4 = 12/20\n3/5 × 5/5 = 15/25"
+            },
+            {
+              "english": "So, four equivalent fractions of 3/5 are 6/10, 9/15, 12/20, and 15/25.",
+              "hindi": "इसलिए 3/5 के चार समतुल्य भिन्न हैं: 6/10, 9/15, 12/20, और 15/25."
+            }
+          ]
         }
       ],
       "tags": [
@@ -2502,8 +2862,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find equivalent fractions of 8/11, multiply the numerator and denominator by the same number.",
+              "hindi": "8/11 के समान भिन्नें निकालने के लिए अंश और हर दोनों को एक ही संख्या से गुणा करते हैं।"
+            },
+            {
+              "english": "1. 8/11 × 2/2 = 16/22\n2. 8/11 × 3/3 = 24/33\n3. 8/11 × 4/4 = 32/44\n4. 8/11 × 5/5 = 40/55",
+              "hindi": "1. 8/11 × 2/2 = 16/22\n2. 8/11 × 3/3 = 24/33\n3. 8/11 × 4/4 = 32/44\n4. 8/11 × 5/5 = 40/55"
+            },
+            {
+              "english": "These are all equivalent to 8/11 because the value stays the same.",
+              "hindi": "ये सभी भिन्नें 8/11 के बराबर हैं क्योंकि इनका मान वही रहता है।"
+            },
+            {
+              "english": "Final answer: 16/22, 24/33, 32/44, 40/55",
+              "hindi": "अंतिम उत्तर: 16/22, 24/33, 32/44, 40/55"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2566,8 +2946,48 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to fill in the blank in this fraction equation:",
+              "hindi": "हमें इस भिन्न वाले समीकरण में खाली स्थान भरना है:"
+            },
+            {
+              "english": "3/5 = 12/___",
+              "hindi": "3/5 = 12/___"
+            },
+            {
+              "english": "Step 1: Think of it as two equal fractions.\nIf two fractions are equal, we can cross-multiply.",
+              "hindi": "Step 1: इसे दो बराबर भिन्नों की तरह समझिए।\nअगर दो भिन्न बराबर हैं, तो हम cross-multiplication कर सकते हैं।"
+            },
+            {
+              "english": "Step 2: Cross-multiply.\n3 × ___ = 5 × 12",
+              "hindi": "Step 2: Cross-multiply कीजिए।\n3 × ___ = 5 × 12"
+            },
+            {
+              "english": "Step 3: Find the right side.\n5 × 12 = 60",
+              "hindi": "Step 3: दाईं तरफ का मान निकालिए।\n5 × 12 = 60"
+            },
+            {
+              "english": "So,\n3 × ___ = 60",
+              "hindi": "तो,\n3 × ___ = 60"
+            },
+            {
+              "english": "Step 4: Divide 60 by 3.\n___ = 60 ÷ 3 = 20",
+              "hindi": "Step 4: 60 को 3 से भाग दीजिए।\n___ = 60 ÷ 3 = 20"
+            },
+            {
+              "english": "Check:\n3/5 = 12/20\nBecause 3 × 20 = 60 and 5 × 12 = 60.",
+              "hindi": "जांच:\n3/5 = 12/20\nक्योंकि 3 × 20 = 60 और 5 × 12 = 60."
+            },
+            {
+              "english": "Final answer: 20",
+              "hindi": "Final answer: 20"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2630,8 +3050,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to fill in the blank in the fraction 6/13 = __/52.",
+              "hindi": "हमें भिन्न 6/13 = __/52 में खाली स्थान भरना है।"
+            },
+            {
+              "english": "Step 1: Look at the denominator.\n13 becomes 52.",
+              "hindi": "Step 1: हर (denominator) को देखें।\n13, 52 बन रहा है।"
+            },
+            {
+              "english": "Step 2: Find the number used.\n13 × 4 = 52.\nSo, we multiply by 4.",
+              "hindi": "Step 2: पता करें कितने से गुणा किया गया है।\n13 × 4 = 52.\nइसलिए 4 से गुणा किया गया है।"
+            },
+            {
+              "english": "Step 3: Do the same to the numerator.\n6 × 4 = 24.",
+              "hindi": "Step 3: अब अंश (numerator) को भी उसी संख्या से गुणा करें।\n6 × 4 = 24."
+            },
+            {
+              "english": "So the missing numeral is 24.",
+              "hindi": "इसलिए खाली स्थान में 24 आएगा।"
+            },
+            {
+              "english": "Therefore, 6/13 = 24/52.\nFinal answer: 24",
+              "hindi": "अतः 6/13 = 24/52.\nFinal answer: 24"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2694,8 +3142,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: To make equivalent fractions, multiply the numerator and denominator by the same number.\nStep 2: Here, 7 becomes 35, so we multiply by 5.\nStep 3: Multiply the denominator by the same 5: 17 × 5 = 85.\nSo the fraction becomes 35/85.\nThe missing numeral is 35.\nFinal answer: 35",
+              "hindi": "चरण 1: समान भिन्न बनाने के लिए अंश और हर दोनों को एक ही संख्या से गुणा करते हैं।\nचरण 2: यहाँ 7 को 35 बनाने के लिए 5 से गुणा किया गया है।\nचरण 3: उसी 5 से 17 को भी गुणा करें: 17 × 5 = 85.\nइसलिए भिन्न 35/85 बनती है।\nखाली स्थान में 35 आएगा।\nअंतिम उत्तर: 35"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2758,8 +3214,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We want an equivalent fraction: 11/27 = 33/__.",
+              "hindi": "हमें एक समान भिन्न चाहिए: 11/27 = 33/__."
+            },
+            {
+              "english": "Step 1: See how 11 becomes 33.\n11 × 3 = 33, so the numerator was multiplied by 3.",
+              "hindi": "चरण 1: देखें कि 11, 33 कैसे बनता है।\n11 × 3 = 33, इसलिए अंश को 3 से गुणा किया गया है।"
+            },
+            {
+              "english": "Step 2: Multiply the denominator by the same number.\n27 × 3 = 81.",
+              "hindi": "चरण 2: हर को भी उसी संख्या से गुणा करें।\n27 × 3 = 81."
+            },
+            {
+              "english": "So the missing number is 81.",
+              "hindi": "इसलिए खाली स्थान में 81 आएगा।"
+            },
+            {
+              "english": "Final answer: 81",
+              "hindi": "अंतिम उत्तर: 81"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2823,8 +3303,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find an equivalent fraction of 7/11 with denominator 33, we need to make the denominator 11 become 33.",
+              "hindi": "33 हर वाला 7/11 का एक समतुल्य भिन्न निकालने के लिए हमें हर (denominator) को 11 से 33 बनाना है।"
+            },
+            {
+              "english": "Step 1: Find the number we multiply 11 by.\n11 × 3 = 33\nSo, multiply both the numerator and denominator by 3.",
+              "hindi": "चरण 1: देखें 11 को 33 बनाने के लिए किस संख्या से गुणा करना होगा।\n11 × 3 = 33\nइसलिए अंश और हर दोनों को 3 से गुणा करेंगे।"
+            },
+            {
+              "english": "Step 2: Multiply the numerator.\n7 × 3 = 21",
+              "hindi": "चरण 2: अंश को गुणा करें।\n7 × 3 = 21"
+            },
+            {
+              "english": "Step 3: Write the new fraction.\n7/11 = 21/33",
+              "hindi": "चरण 3: नया भिन्न लिखें।\n7/11 = 21/33"
+            },
+            {
+              "english": "Final answer: 21/33",
+              "hindi": "अंतिम उत्तर: 21/33"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2888,8 +3392,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find an equivalent fraction of 5/6 with numerator 35, we look at the numerator first. \n5 becomes 35 by multiplying by 7, because 5 × 7 = 35. \nNow multiply the denominator by the same number: 6 × 7 = 42. \nSo the equivalent fraction is 35/42. Final answer: 35/42.",
+              "hindi": "5/6 का ऐसा समतुल्य भिन्न ढूंढने के लिए जिसका अंश 35 हो, पहले अंश को देखते हैं। \n5 को 35 बनाने के लिए 7 से गुणा करना होगा, क्योंकि 5 × 7 = 35। \nअब हर को भी उसी संख्या 7 से गुणा करते हैं: 6 × 7 = 42। \nइसलिए समतुल्य भिन्न 35/42 है। अंतिम उत्तर: 35/42।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2953,8 +3465,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find an equivalent fraction of 45/54 with numerator 5, we need to make the numerator 45 become 5.",
+              "hindi": "45/54 का ऐसा समतुल्य भिन्न निकालने के लिए जिसका अंश 5 हो, हमें 45 को 5 बनाना होगा।"
+            },
+            {
+              "english": "45 ÷ 9 = 5\nSo, divide the denominator by 9 too:\n54 ÷ 9 = 6",
+              "hindi": "45 ÷ 9 = 5\nतो हर को भी 9 से भाग देंगे:\n54 ÷ 9 = 6"
+            },
+            {
+              "english": "Therefore, 45/54 = 5/6.",
+              "hindi": "इसलिए, 45/54 = 5/6."
+            },
+            {
+              "english": "Final answer: 5/6",
+              "hindi": "अंतिम उत्तर: 5/6"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3018,8 +3550,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find an equivalent fraction of 35/40 with denominator 8, we need to make the denominator 40 become 8.\n\n35/40 = (35 ÷ 5) / (40 ÷ 5) = 7/8\n\nSo, the equivalent fraction is 7/8.\nFinal answer: 7/8",
+              "hindi": "35/40 का ऐसा समान भिन्न निकालना है जिसका हर 8 हो।\n\n40 को 8 बनाने के लिए 5 से भाग देते हैं, इसलिए ऊपर वाले 35 को भी 5 से भाग देंगे।\n\n35 ÷ 5 = 7 और 40 ÷ 5 = 8\n\nइसलिए 35/40 = 7/8\nअंतिम उत्तर: 7/8"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3082,8 +3622,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether 3/4 and 15/20 are equivalent, we can simplify or compare them.",
+              "hindi": "3/4 और 15/20 के समतुल्य होने की जाँच करने के लिए हम सरल करके देख सकते हैं।"
+            },
+            {
+              "english": "Step 1: Start with 3/4.\nStep 2: Multiply the numerator and denominator by 5:\n3 × 5 / 4 × 5 = 15/20.\nStep 3: This gives 15/20, which is the same as the second fraction.",
+              "hindi": "चरण 1: 3/4 से शुरू करते हैं।\nचरण 2: अंश और हर दोनों को 5 से गुणा करते हैं:\n3 × 5 / 4 × 5 = 15/20।\nचरण 3: हमें 15/20 मिलता है, जो दूसरी भिन्न के बराबर है।"
+            },
+            {
+              "english": "So, the two fractions are equivalent.\nFinal answer: Yes.",
+              "hindi": "इसलिए, दोनों भिन्न समतुल्य हैं।\nअंतिम उत्तर: हाँ।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3146,8 +3702,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether 4/5 and 12/20 are equivalent, we can simplify 12/20.",
+              "hindi": "4/5 और 12/20 के समतुल्य होने की जांच करने के लिए, 12/20 को सरल करें।"
+            },
+            {
+              "english": "12/20 = 3/5 because we divide the numerator and denominator by 4.",
+              "hindi": "12/20 = 3/5, क्योंकि हम अंश और हर दोनों को 4 से भाग देते हैं।"
+            },
+            {
+              "english": "Now compare:\n4/5 = 4/5\n3/5 = 3/5",
+              "hindi": "अब तुलना करें:\n4/5 = 4/5\n3/5 = 3/5"
+            },
+            {
+              "english": "Since 4/5 and 3/5 are different, the fractions are not equivalent.",
+              "hindi": "क्योंकि 4/5 और 3/5 अलग-अलग हैं, इसलिए ये भिन्न समतुल्य नहीं हैं।"
+            },
+            {
+              "english": "You can also check by making the denominator 20:\n4/5 = 16/20, not 12/20.",
+              "hindi": "आप इसे हर 20 बनाकर भी देख सकते हैं:\n4/5 = 16/20, लेकिन 12/20 नहीं।"
+            },
+            {
+              "english": "Final answer: No, the fractions are not equivalent.",
+              "hindi": "अंतिम उत्तर: नहीं, ये भिन्न समतुल्य नहीं हैं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3210,8 +3794,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to check whether 2/3 and 10/15 are equivalent fractions.",
+              "hindi": "हमें देखना है कि 2/3 और 10/15 समतुल्य भिन्न हैं या नहीं।"
+            },
+            {
+              "english": "Step 1: Simplify 10/15.\nBoth 10 and 15 can be divided by 5.\n10 ÷ 5 = 2 and 15 ÷ 5 = 3.\nSo, 10/15 = 2/3.",
+              "hindi": "चरण 1: 10/15 को सरल करें।\n10 और 15 दोनों को 5 से भाग दिया जा सकता है।\n10 ÷ 5 = 2 और 15 ÷ 5 = 3।\nइसलिए, 10/15 = 2/3।"
+            },
+            {
+              "english": "Step 2: Compare.\n2/3 and 2/3 are the same fraction.",
+              "hindi": "चरण 2: तुलना करें।\n2/3 और 2/3 एक ही भिन्न हैं।"
+            },
+            {
+              "english": "So, the given fractions are equivalent.\nFinal answer: Yes.",
+              "hindi": "इसलिए, दी गई भिन्नें समतुल्य हैं।\nअंतिम उत्तर: हाँ।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3274,8 +3878,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to check whether 5/8 and 15/24 are equivalent fractions.",
+              "hindi": "हमें यह जाँच करनी है कि 5/8 और 15/24 समतुल्य भिन्न हैं या नहीं।"
+            },
+            {
+              "english": "Step 1: Simplify 15/24.\nDivide the numerator and denominator by 3:\n15 ÷ 3 = 5\n24 ÷ 3 = 8\nSo, 15/24 = 5/8.",
+              "hindi": "चरण 1: 15/24 को सरल कीजिए।\nअंश और हर दोनों को 3 से भाग दीजिए:\n15 ÷ 3 = 5\n24 ÷ 3 = 8\nइसलिए, 15/24 = 5/8"
+            },
+            {
+              "english": "Step 2: Compare the fractions.\nWe got the same fraction 5/8.",
+              "hindi": "चरण 2: दोनों भिन्नों की तुलना कीजिए।\nहमें वही भिन्न 5/8 मिली।"
+            },
+            {
+              "english": "So, the two fractions are equivalent.",
+              "hindi": "इसलिए, दोनों भिन्न समतुल्य हैं।"
+            },
+            {
+              "english": "Final answer: Yes, 5/8 and 15/24 are equivalent fractions.",
+              "hindi": "अंतिम उत्तर: हाँ, 5/8 और 15/24 समतुल्य भिन्न हैं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3338,8 +3966,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether 7/11 and 28/44 are equivalent, we can simplify 28/44.",
+              "hindi": "7/11 और 28/44 के समतुल्य होने की जाँच करने के लिए हम 28/44 को सरल करते हैं।"
+            },
+            {
+              "english": "Step 1: Divide the numerator and denominator by 4.\n28 ÷ 4 = 7\n44 ÷ 4 = 11",
+              "hindi": "चरण 1: अंश और हर को 4 से भाग दें।\n28 ÷ 4 = 7\n44 ÷ 4 = 11"
+            },
+            {
+              "english": "So, 28/44 = 7/11.",
+              "hindi": "इसलिए, 28/44 = 7/11।"
+            },
+            {
+              "english": "Step 2: Compare the fractions.\n7/11 and 28/44 are the same fraction.",
+              "hindi": "चरण 2: दोनों भिन्नों की तुलना करें।\n7/11 और 28/44 एक ही भिन्न हैं।"
+            },
+            {
+              "english": "So, they are equivalent.",
+              "hindi": "इसलिए, ये समतुल्य हैं।"
+            },
+            {
+              "english": "Final answer: Yes.",
+              "hindi": "अंतिम उत्तर: हाँ."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3402,8 +4058,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's compare the fractions 3/10 and 12/50.",
+              "hindi": "आइए 3/10 और 12/50 की तुलना करें।"
+            },
+            {
+              "english": "Step 1: Simplify 12/50.\n12/50 = 6/25 (divide numerator and denominator by 2).",
+              "hindi": "चरण 1: 12/50 को सरल करें।\n12/50 = 6/25 (अंश और हर दोनों को 2 से भाग दें)।"
+            },
+            {
+              "english": "Step 2: Write 3/10 with denominator 50.\n3/10 = 15/50.",
+              "hindi": "चरण 2: 3/10 को हर 50 वाला भिन्न लिखें।\n3/10 = 15/50."
+            },
+            {
+              "english": "Step 3: Compare the fractions.\n15/50 and 12/50 are not the same.",
+              "hindi": "चरण 3: तुलना करें।\n15/50 और 12/50 एक जैसे नहीं हैं।"
+            },
+            {
+              "english": "We can also check by cross multiplication:\n3 × 50 = 150\n10 × 12 = 120\nSince 150 ≠ 120, the fractions are not equivalent.",
+              "hindi": "हम cross multiplication से भी जाँच कर सकते हैं:\n3 × 50 = 150\n10 × 12 = 120\nक्योंकि 150 ≠ 120, इसलिए भिन्न समतुल्य नहीं हैं।"
+            },
+            {
+              "english": "Final Answer: No, 3/10 and 12/50 are not equivalent.",
+              "hindi": "अंतिम उत्तर: नहीं, 3/10 और 12/50 समतुल्य नहीं हैं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3466,8 +4150,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether 21/40 is in simplest form, we look for a common factor of 21 and 40.\n21 = 3 × 7\n40 = 2 × 2 × 2 × 5\nThey do not share any factor other than 1, so the fraction cannot be reduced.\nSo, 21/40 is already in simplest form.\nFinal answer: Yes.",
+              "hindi": "21/40 के सरलतम रूप में होने की जाँच करने के लिए हम 21 और 40 का कोई समान गुणनखंड देखते हैं।\n21 = 3 × 7\n40 = 2 × 2 × 2 × 5\nइन दोनों में 1 के अलावा कोई समान गुणनखंड नहीं है, इसलिए इस भिन्न को और सरल नहीं किया जा सकता।\nइसलिए 21/40 पहले से ही सरलतम रूप में है।\nअंतिम उत्तर: Yes."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3530,8 +4222,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether 24/35 is in simplest form, we look for a common factor of 24 and 35.",
+              "hindi": "24/35 के सरलतम रूप में होने की जाँच करने के लिए, हमें 24 और 35 का कोई common factor देखना होता है।"
+            },
+            {
+              "english": "Step 1: Factors of 24 are 1, 2, 3, 4, 6, 8, 12, 24.\nStep 2: Factors of 35 are 1, 5, 7, 35.\nStep 3: The only common factor is 1.",
+              "hindi": "चरण 1: 24 के गुणनखंड हैं 1, 2, 3, 4, 6, 8, 12, 24।\nचरण 2: 35 के गुणनखंड हैं 1, 5, 7, 35।\nचरण 3: दोनों में केवल common factor 1 है।"
+            },
+            {
+              "english": "Since 24 and 35 do not share any factor greater than 1, the fraction cannot be reduced any more.",
+              "hindi": "क्योंकि 24 और 35 का 1 के अलावा कोई common factor नहीं है, इसलिए यह भिन्न और छोटे रूप में नहीं बदली जा सकती।"
+            },
+            {
+              "english": "Final answer: Yes.",
+              "hindi": "अंतिम उत्तर: हाँ।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3594,8 +4306,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether 15/20 is in simplest form, we look for a number that can divide both 15 and 20.",
+              "hindi": "यह देखने के लिए कि 15/20 सरलतम रूप में है या नहीं, हमें देखना होता है कि क्या 15 और 20 दोनों को एक ही संख्या से भाग दिया जा सकता है।"
+            },
+            {
+              "english": "- 15 and 20 are both divisible by 5.\n- 15 ÷ 5 = 3\n- 20 ÷ 5 = 4",
+              "hindi": "- 15 और 20 दोनों 5 से विभाजित होते हैं।\n- 15 ÷ 5 = 3\n- 20 ÷ 5 = 4"
+            },
+            {
+              "english": "So, 15/20 can be written in a smaller form: 3/4.\nThat means 15/20 is not in simplest form.",
+              "hindi": "इसलिए 15/20 को और छोटे रूप में लिखा जा सकता है: 3/4।\nइसका मतलब है कि 15/20 सरलतम रूप में नहीं है।"
+            },
+            {
+              "english": "Final answer: No.",
+              "hindi": "Final answer: No."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3658,8 +4390,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether 36/81 is in simplest form, look for a number greater than 1 that divides both 36 and 81.",
+              "hindi": "यह देखने के लिए कि 36/81 सबसे सरल रूप में है या नहीं, हमें ऐसी संख्या ढूँढनी होती है जो 36 और 81 दोनों को भाग दे सके और 1 से बड़ी हो।"
+            },
+            {
+              "english": "36 and 81 both divide by 9:\n36 ÷ 9 = 4\n81 ÷ 9 = 9",
+              "hindi": "36 और 81 दोनों 9 से विभाजित होते हैं:\n36 ÷ 9 = 4\n81 ÷ 9 = 9"
+            },
+            {
+              "english": "So, 36/81 can be reduced to 4/9.\nBecause it can be simplified, 36/81 is not in simplest form.",
+              "hindi": "इसलिए 36/81 को घटाकर 4/9 लिखा जा सकता है।\nक्योंकि इसे और सरल किया जा सकता है, 36/81 सबसे सरल रूप में नहीं है।"
+            },
+            {
+              "english": "Final answer: No.",
+              "hindi": "अंतिम उत्तर: नहीं।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3722,8 +4474,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let’s check whether 24/57 is already in simplest form.",
+              "hindi": "आइए देखें कि 24/57 सबसे सरल रूप में है या नहीं।"
+            },
+            {
+              "english": "A fraction is in simplest form when the top number and bottom number have no common factor other than 1.",
+              "hindi": "कोई भिन्न तब सबसे सरल रूप में होती है जब ऊपर और नीचे की संख्याओं का 1 के अलावा कोई समान गुणनखंड न हो।"
+            },
+            {
+              "english": "For 24 and 57:\n- 24 = 3 × 8\n- 57 = 3 × 19",
+              "hindi": "24 और 57 के लिए:\n- 24 = 3 × 8\n- 57 = 3 × 19"
+            },
+            {
+              "english": "Both numbers can be divided by 3, so they are not in simplest form yet.",
+              "hindi": "दोनों संख्याएँ 3 से विभाजित हो सकती हैं, इसलिए यह भिन्न सबसे सरल रूप में नहीं है।"
+            },
+            {
+              "english": "If we divide both by 3:\n- 24 ÷ 3 = 8\n- 57 ÷ 3 = 19",
+              "hindi": "अगर हम दोनों को 3 से भाग दें:\n- 24 ÷ 3 = 8\n- 57 ÷ 3 = 19"
+            },
+            {
+              "english": "So 24/57 becomes 8/19.",
+              "hindi": "तो 24/57 बदलकर 8/19 हो जाती है।"
+            },
+            {
+              "english": "Final answer: No, 24/57 is not in simplest form.",
+              "hindi": "अंतिम उत्तर: नहीं, 24/57 सबसे सरल रूप में नहीं है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3786,8 +4570,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether 28/39 is in simplest form, find the greatest common divisor of 28 and 39.\n- Factors of 28: 1, 2, 4, 7, 14, 28\n- Factors of 39: 1, 3, 13, 39\nThe only common factor is 1, so 28 and 39 do not share any factor greater than 1.\nThat means the fraction cannot be reduced any further.\nFinal answer: 28/39 is already in simplest form.",
+              "hindi": "28/39 के सरलतम रूप में होने की जांच करने के लिए 28 और 39 का सबसे बड़ा समान गुणनखंड (GCD) देखते हैं।\n- 28 के गुणनखंड: 1, 2, 4, 7, 14, 28\n- 39 के गुणनखंड: 1, 3, 13, 39\nदोनों का केवल समान गुणनखंड 1 है, इसलिए 28 और 39 का 1 से बड़ा कोई समान गुणनखंड नहीं है।\nइसलिए इस भिन्न को और सरल नहीं किया जा सकता।\nअंतिम उत्तर: 28/39 पहले से ही सरलतम रूप में है."
+            }
+          ]
         }
       ],
       "tags": [
@@ -3851,8 +4643,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Let's simplify 9/27 step by step.\n1. Find a number that can divide both 9 and 27.\n2. Both numbers can be divided by 9.\n3. 9 ÷ 9 = 1 and 27 ÷ 9 = 3.\n4. So, 9/27 = 1/3.\nThe fraction in simplest form is 1/3.\nFinal answer: 1/3",
+              "hindi": "आइए 9/27 को सरल रूप में बदलते हैं।\n1. ऐसा एक number ढूंढिए जो 9 और 27, दोनों को divide कर सके।\n2. 9 और 27, दोनों 9 से divide होते हैं।\n3. 9 ÷ 9 = 1 और 27 ÷ 9 = 3.\n4. इसलिए 9/27 = 1/3.\nइसका सबसे सरल रूप 1/3 है।\nअंतिम उत्तर: 1/3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3916,8 +4716,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the simplest form of 16/24, we divide the numerator and denominator by their greatest common factor.",
+              "hindi": "16/24 को सरलतम रूप में लिखने के लिए, अंश और हर दोनों को उनके सबसे बड़े साझा गुणनखंड से भाग देते हैं।"
+            },
+            {
+              "english": "The greatest common factor of 16 and 24 is 8.",
+              "hindi": "16 और 24 का सबसे बड़ा साझा गुणनखंड 8 है।"
+            },
+            {
+              "english": "16 ÷ 8 = 2\n24 ÷ 8 = 3",
+              "hindi": "16 ÷ 8 = 2\n24 ÷ 8 = 3"
+            },
+            {
+              "english": "So, 16/24 = 2/3.",
+              "hindi": "इसलिए, 16/24 = 2/3."
+            },
+            {
+              "english": "Final answer: 2/3",
+              "hindi": "अंतिम उत्तर: 2/3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3981,8 +4805,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether 42/48 is in simplest form, look for a number that divides both 42 and 48. Both numbers can be divided by 6.",
+              "hindi": "42/48 सरलतम रूप में है या नहीं, यह देखने के लिए हम ऐसी संख्या ढूँढते हैं जिससे 42 और 48 दोनों भाग जाएँ। 42 और 48 दोनों 6 से भाग जाते हैं।"
+            },
+            {
+              "english": "42 ÷ 6 = 7\n48 ÷ 6 = 8",
+              "hindi": "42 ÷ 6 = 7\n48 ÷ 6 = 8"
+            },
+            {
+              "english": "So, 42/48 = 7/8.",
+              "hindi": "इसलिए 42/48 = 7/8।"
+            },
+            {
+              "english": "Because 42/48 can be reduced, it is not already in simplest form. Final answer: 7/8.",
+              "hindi": "क्योंकि 42/48 को और सरल किया जा सकता है, यह पहले से सरलतम रूप में नहीं है। अंतिम उत्तर: 7/8."
+            }
+          ]
         }
       ],
       "tags": [
@@ -4046,8 +4890,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether 45/54 is in simplest form, find a common factor of 45 and 54. Both numbers can be divided by 9.",
+              "hindi": "45/54 सरलतम रूप में है या नहीं, यह देखने के लिए 45 और 54 का एक समान गुणनखंड देखें। दोनों को 9 से भाग दिया जा सकता है।"
+            },
+            {
+              "english": "45 ÷ 9 = 5\n54 ÷ 9 = 6",
+              "hindi": "45 ÷ 9 = 5\n54 ÷ 9 = 6"
+            },
+            {
+              "english": "So, 45/54 = 5/6.",
+              "hindi": "इसलिए 45/54 = 5/6।"
+            },
+            {
+              "english": "Because it can be reduced, 45/54 is not in simplest form.",
+              "hindi": "क्योंकि इसे और छोटा किया जा सकता है, 45/54 सरलतम रूप में नहीं है।"
+            },
+            {
+              "english": "Final answer: 5/6",
+              "hindi": "अंतिम उत्तर: 5/6"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4111,8 +4979,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether 40/72 is in simplest form, find the greatest common factor of 40 and 72. The greatest common factor is 8.",
+              "hindi": "यह देखने के लिए कि 40/72 सबसे सरल रूप में है या नहीं, 40 और 72 का सबसे बड़ा समान गुणनखंड (HCF) निकालते हैं। 40 और 72 का HCF 8 है।"
+            },
+            {
+              "english": "Now divide both numbers by 8:\n40 ÷ 8 = 5\n72 ÷ 8 = 9",
+              "hindi": "अब अंश और हर दोनों को 8 से भाग देते हैं:\n40 ÷ 8 = 5\n72 ÷ 8 = 9"
+            },
+            {
+              "english": "So, 40/72 = 5/9.",
+              "hindi": "इसलिए, 40/72 = 5/9।"
+            },
+            {
+              "english": "That means 40/72 is not in simplest form. Final answer: 5/9.",
+              "hindi": "इसका मतलब है कि 40/72 सबसे सरल रूप में नहीं है। अंतिम उत्तर: 5/9।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4176,8 +5064,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether 38/95 is in simplest form, find the greatest common factor of 38 and 95. Both numbers are divisible by 19. So divide the numerator and denominator by 19:\n38 ÷ 19 = 2\n95 ÷ 19 = 5\nSo 38/95 = 2/5. The fraction 2/5 has no common factor other than 1, so it is in simplest form.\nFinal answer: 2/5",
+              "hindi": "38/95 को सरलतम रूप में बदलने के लिए 38 और 95 का सबसे बड़ा समान गुणनखंड देखिए। दोनों 19 से विभाजित होते हैं। इसलिए अंश और हर दोनों को 19 से भाग देते हैं:\n38 ÷ 19 = 2\n95 ÷ 19 = 5\nइसलिए 38/95 = 2/5। 2/5 में 1 के अलावा कोई समान गुणनखंड नहीं है, इसलिए यह सरलतम रूप में है।\nअंतिम उत्तर: 2/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4241,8 +5137,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether 35/63 is in simplest form, find the greatest common factor of 35 and 63. Both numbers can be divided by 7.\n35 ÷ 7 = 5\n63 ÷ 7 = 9\nSo, 35/63 = 5/9.\nSince 35/63 can be reduced, it is not in simplest form. The simplest form is 5/9.\nFinal answer: 5/9",
+              "hindi": "यह देखने के लिए कि 35/63 सरलतम रूप में है या नहीं, 35 और 63 का सबसे बड़ा समान गुणनखंड देखें। दोनों 7 से विभाजित होते हैं।\n35 ÷ 7 = 5\n63 ÷ 7 = 9\nइसलिए 35/63 = 5/9.\nक्योंकि 35/63 को और छोटा किया जा सकता है, यह सरलतम रूप में नहीं है। इसका सरलतम रूप 5/9 है।\nअंतिम उत्तर: 5/9"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4306,8 +5210,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether 56/70 is in simplest form, find a number that divides both 56 and 70. The greatest common factor is 14.\n56 ÷ 14 = 4\n70 ÷ 14 = 5\nSo 56/70 = 4/5. Since 56 and 70 have a common factor bigger than 1, 56/70 is not in simplest form. Final answer: 4/5",
+              "hindi": "56/70 सरलतम रूप में है या नहीं, यह देखने के लिए हम देखते हैं कि 56 और 70 दोनों को कौन-सी समान संख्या से भाग दिया जा सकता है। दोनों का सबसे बड़ा समान गुणनखंड 14 है।\n56 ÷ 14 = 4\n70 ÷ 14 = 5\nइसलिए 56/70 = 4/5। क्योंकि 56 और 70 में 1 से बड़ी समान संख्या है, इसलिए 56/70 सरलतम रूप में नहीं है। अंतिम उत्तर: 4/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4371,8 +5283,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the simplest form of 64/80, divide the numerator and denominator by their greatest common factor.\n64 and 80 can both be divided by 16.\n64 ÷ 16 = 4\n80 ÷ 16 = 5\nSo, 64/80 = 4/5.\nFinal answer: 4/5.",
+              "hindi": "64/80 को सरलतम रूप में लिखने के लिए, अंश और हर दोनों को उनके सबसे बड़े समान भाजक से भाग देते हैं।\n64 और 80 दोनों 16 से विभाजित होते हैं।\n64 ÷ 16 = 4\n80 ÷ 16 = 5\nइसलिए, 64/80 = 4/5.\nअंतिम उत्तर: 4/5."
+            }
+          ]
         }
       ],
       "tags": [
@@ -4436,8 +5356,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To check whether 44/66 is in simplest form, we find the greatest common factor of 44 and 66.",
+              "hindi": "44/66 को सबसे सरल रूप में लिखने के लिए, हमें 44 और 66 का सबसे बड़ा समान गुणनखंड (HCF) ढूँढना होगा।"
+            },
+            {
+              "english": "44 = 2 × 2 × 11\n66 = 2 × 3 × 11",
+              "hindi": "44 = 2 × 2 × 11\n66 = 2 × 3 × 11"
+            },
+            {
+              "english": "The biggest number that divides both is 22.\nNow divide the numerator and denominator by 22:\n44 ÷ 22 = 2\n66 ÷ 22 = 3",
+              "hindi": "दोनों को विभाजित करने वाली सबसे बड़ी संख्या 22 है।\nअब अंश और हर दोनों को 22 से भाग दें:\n44 ÷ 22 = 2\n66 ÷ 22 = 3"
+            },
+            {
+              "english": "So, 44/66 = 2/3.\nSince 2 and 3 do not have any common factor other than 1, this is the simplest form.",
+              "hindi": "इसलिए, 44/66 = 2/3।\nक्योंकि 2 और 3 का 1 के अलावा कोई समान गुणनखंड नहीं है, यह सबसे सरल रूप है।"
+            },
+            {
+              "english": "Final answer: 2/3",
+              "hindi": "अंतिम उत्तर: 2/3"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4501,8 +5445,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find whether 72/80 is in simplest form, we check if the numerator and denominator have a common factor bigger than 1.",
+              "hindi": "यह पता लगाने के लिए कि 72/80 सबसे सरल रूप में है या नहीं, हमें देखना होगा कि अंश और हर का कोई 1 से बड़ा समान गुणनखंड है या नहीं।"
+            },
+            {
+              "english": "1. 72 and 80 are both divisible by 8.\n2. Divide the numerator and denominator by 8:\n   72 ÷ 8 = 9\n   80 ÷ 8 = 10\n3. So, 72/80 = 9/10.",
+              "hindi": "1. 72 और 80 दोनों 8 से विभाजित हो सकते हैं।\n2. अंश और हर को 8 से भाग दीजिए:\n   72 ÷ 8 = 9\n   80 ÷ 8 = 10\n3. इसलिए, 72/80 = 9/10."
+            },
+            {
+              "english": "Since 72/80 can be reduced, it is not in simplest form. The simplest form is 9/10.",
+              "hindi": "क्योंकि 72/80 को और सरल किया जा सकता है, यह सबसे सरल रूप में नहीं है। इसका सबसे सरल रूप 9/10 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4566,8 +5526,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To reduce 51/68 to simplest form, find the greatest common factor of 51 and 68.",
+              "hindi": "51/68 को सबसे सरल रूप में लाने के लिए, 51 और 68 का सबसे बड़ा समान गुणनखंड (GCF) निकालते हैं।"
+            },
+            {
+              "english": "51 = 3 × 17\n68 = 4 × 17",
+              "hindi": "51 = 3 × 17\n68 = 4 × 17"
+            },
+            {
+              "english": "The common factor is 17.",
+              "hindi": "दोनों में समान गुणनखंड 17 है।"
+            },
+            {
+              "english": "Now divide the numerator and denominator by 17:\n51 ÷ 17 = 3\n68 ÷ 17 = 4",
+              "hindi": "अब अंश और हर दोनों को 17 से भाग दें:\n51 ÷ 17 = 3\n68 ÷ 17 = 4"
+            },
+            {
+              "english": "So, 51/68 = 3/4.",
+              "hindi": "इसलिए, 51/68 = 3/4."
+            },
+            {
+              "english": "Final answer: 3/4",
+              "hindi": "अंतिम उत्तर: 3/4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4631,8 +5619,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find the greater fraction in the pair: 3/4 and 1/4.",
+              "hindi": "हमें दिए गए जोड़े 3/4 और 1/4 में से बड़ी भिन्न ढूँढनी है।"
+            },
+            {
+              "english": "Step 1: Look at the denominators.\nBoth fractions have the same denominator, 4.",
+              "hindi": "चरण 1: हरों को देखें।\nदोनों भिन्नों का हर 4 है।"
+            },
+            {
+              "english": "Step 2: Compare the numerators.\n3/4 has numerator 3.\n1/4 has numerator 1.",
+              "hindi": "चरण 2: अंशों की तुलना करें।\n3/4 का अंश 3 है।\n1/4 का अंश 1 है।"
+            },
+            {
+              "english": "Step 3: Compare 3 and 1.\nSince 3 is greater than 1, 3/4 is greater than 1/4.",
+              "hindi": "चरण 3: 3 और 1 की तुलना करें।\nक्योंकि 3, 1 से बड़ा है, इसलिए 3/4, 1/4 से बड़ी है।"
+            },
+            {
+              "english": "Final answer: 3/4",
+              "hindi": "Final answer: 3/4"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4696,8 +5708,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to compare 4/7 and 6/7.",
+              "hindi": "हमें 4/7 और 6/7 की तुलना करनी है।"
+            },
+            {
+              "english": "Step 1: Look at the denominators.\nBoth fractions have the same denominator, 7.",
+              "hindi": "चरण 1: हरों को देखिए।\nदोनों भिन्नों का हर 7 है।"
+            },
+            {
+              "english": "Step 2: Compare the numerators.\nThe numerators are 4 and 6.\nSince 6 is greater than 4, 6/7 is greater than 4/7.",
+              "hindi": "चरण 2: अंशों की तुलना कीजिए।\nअंश 4 और 6 हैं।\nक्योंकि 6, 4 से बड़ा है, इसलिए 6/7, 4/7 से बड़ा है।"
+            },
+            {
+              "english": "So, the greater fraction is 6/7.",
+              "hindi": "इसलिए बड़ा भिन्न 6/7 है।"
+            },
+            {
+              "english": "Final answer: 6/7",
+              "hindi": "अंतिम उत्तर: 6/7"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4761,8 +5797,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to compare the fractions 7/9 and 5/9.",
+              "hindi": "हमें 7/9 और 5/9 को compare करना है।"
+            },
+            {
+              "english": "Step 1: Notice the denominators.\nBoth fractions have the same denominator, 9.",
+              "hindi": "Step 1: हर (denominator) देखिए।\nदोनों fractions का हर 9 है।"
+            },
+            {
+              "english": "Step 2: Compare the numerators.\nThe numerators are 7 and 5.\nSince 7 is greater than 5, 7/9 is greater than 5/9.",
+              "hindi": "Step 2: अंश (numerator) compare कीजिए।\nअंश 7 और 5 हैं।\nक्योंकि 7, 5 से बड़ा है, इसलिए 7/9, 5/9 से बड़ा है।"
+            },
+            {
+              "english": "So, the greater fraction is 7/9.",
+              "hindi": "इसलिए बड़ा fraction 7/9 है।"
+            },
+            {
+              "english": "Final answer: 7/9",
+              "hindi": "अंतिम उत्तर: 7/9"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4826,8 +5886,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To compare 8/13 and 11/13, look at the denominators first.",
+              "hindi": "8/13 और 11/13 की तुलना करने के लिए पहले हरों (denominators) को देखें।"
+            },
+            {
+              "english": "1. The denominators are the same: 13 and 13.\n2. When denominators are equal, the fraction with the larger numerator is greater.\n3. Compare the numerators: 8 and 11.\n4. Since 11 > 8, 11/13 is greater.",
+              "hindi": "1. दोनों हर एक जैसे हैं: 13 और 13।\n2. जब हर समान हों, तो जिस भिन्न का अंश (numerator) बड़ा होता है, वही भिन्न बड़ा होता है।\n3. अंशों की तुलना करें: 8 और 11।\n4. क्योंकि 11 > 8, इसलिए 11/13 बड़ा है।"
+            },
+            {
+              "english": "Final answer: 11/13",
+              "hindi": "अंतिम उत्तर: 11/13"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4891,8 +5967,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We compare the fractions 13/27 and 23/27.",
+              "hindi": "हम 13/27 और 23/27 की तुलना करते हैं।"
+            },
+            {
+              "english": "Step 1: Look at the denominators.\nBoth fractions have the same denominator, 27.",
+              "hindi": "चरण 1: हरों को देखिए।\nदोनों भिन्नों का हर 27 है।"
+            },
+            {
+              "english": "Step 2: When denominators are the same, compare the numerators.\n13 and 23 are the numerators.",
+              "hindi": "चरण 2: जब हर समान हो, तो अंशों की तुलना करते हैं।\nयहां अंश 13 और 23 हैं।"
+            },
+            {
+              "english": "Step 3: The larger numerator gives the greater fraction.\nSince 23 > 13, 23/27 is greater than 13/27.",
+              "hindi": "चरण 3: जिसका अंश बड़ा होता है, वही भिन्न बड़ी होती है।\nक्योंकि 23 > 13, इसलिए 23/27, 13/27 से बड़ी है।"
+            },
+            {
+              "english": "Final answer: 23/27.",
+              "hindi": "अंतिम उत्तर: 23/27।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4956,8 +6056,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to compare the two fractions: 17/21 and 20/21.",
+              "hindi": "हमें दो भिन्नों की तुलना करनी है: 17/21 और 20/21।"
+            },
+            {
+              "english": "Step 1: Check the denominators.\nBoth fractions have the same denominator, 21.",
+              "hindi": "चरण 1: हर (denominator) देखिए।\nदोनों भिन्नों का हर 21 है।"
+            },
+            {
+              "english": "Step 2: Compare the numerators.\n17 and 20 are the numerators.\nSince 20 is greater than 17, 20/21 is the greater fraction.",
+              "hindi": "चरण 2: अंश (numerator) की तुलना कीजिए।\nअंश 17 और 20 हैं।\nक्योंकि 20, 17 से बड़ा है, इसलिए 20/21 बड़ा भिन्न है।"
+            },
+            {
+              "english": "Final answer: 20/21",
+              "hindi": "अंतिम उत्तर: 20/21"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5021,8 +6141,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the smaller fraction, compare 1/3 and 1/5.",
+              "hindi": "छोटी भिन्न पता करने के लिए 1/3 और 1/5 की तुलना करें।"
+            },
+            {
+              "english": "Both fractions have the same numerator, 1.\nWhen the numerators are the same, the fraction with the larger denominator is smaller, because the whole is divided into more equal parts.",
+              "hindi": "दोनों भिन्नों में अंश 1 है।\nजब अंश समान हों, तो जिसका हर बड़ा होता है, वह भिन्न छोटी होती है, क्योंकि पूरी वस्तु को ज्यादा बराबर भागों में बांटा जाता है।"
+            },
+            {
+              "english": "Since 5 is greater than 3, 1/5 is smaller than 1/3.",
+              "hindi": "क्योंकि 5, 3 से बड़ा है, इसलिए 1/5, 1/3 से छोटी है।"
+            },
+            {
+              "english": "Final answer: 1/5.",
+              "hindi": "अंतिम उत्तर: 1/5."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5086,8 +6226,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find the smaller fraction in the pair 5/6 and 5/7.",
+              "hindi": "हमें 5/6 और 5/7 में से छोटा भिन्न ढूंढना है।"
+            },
+            {
+              "english": "Step 1: Notice that the numerators are the same.\n- Both fractions have numerator 5.",
+              "hindi": "चरण 1: ध्यान दीजिए कि दोनों के अंश समान हैं।\n- दोनों भिन्नों में अंश 5 है।"
+            },
+            {
+              "english": "Step 2: When two fractions have the same numerator, the fraction with the larger denominator is smaller.\n- 7 is larger than 6.",
+              "hindi": "चरण 2: जब दो भिन्नों के अंश समान हों, तो जिसका हर बड़ा होता है, वह भिन्न छोटा होता है।\n- 7, 6 से बड़ा है।"
+            },
+            {
+              "english": "Step 3: So 5/7 is smaller than 5/6.",
+              "hindi": "चरण 3: इसलिए 5/7, 5/6 से छोटा है।"
+            },
+            {
+              "english": "Final answer: 5/7",
+              "hindi": "अंतिम उत्तर: 5/7"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5151,8 +6315,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to find the smaller fraction in the pair 4/9 and 4/7.",
+              "hindi": "हमें 4/9 और 4/7 में से छोटी भिन्न निकालनी है।"
+            },
+            {
+              "english": "Step 1: Notice that the numerators are the same.\nBoth fractions have numerator 4.",
+              "hindi": "चरण 1: देखें कि दोनों भिन्नों के अंश समान हैं।\nदोनों में अंश 4 है।"
+            },
+            {
+              "english": "Step 2: Compare the denominators.\n9 is bigger than 7.",
+              "hindi": "चरण 2: हरों की तुलना करें।\n9, 7 से बड़ा है।"
+            },
+            {
+              "english": "Step 3: Remember the rule.\nWhen the numerators are the same, the fraction with the larger denominator is smaller.\nThis is because the whole is divided into more equal parts, so each part becomes smaller.",
+              "hindi": "चरण 3: नियम याद रखें।\nजब अंश समान हों, तो जिसका हर बड़ा होता है, वह भिन्न छोटी होती है।\nक्योंकि पूरे भाग को ज्यादा बराबर हिस्सों में बाँटा गया है, इसलिए हर हिस्सा छोटा हो जाता है।"
+            },
+            {
+              "english": "So, 4/9 is smaller than 4/7.",
+              "hindi": "इसलिए 4/9, 4/7 से छोटी है।"
+            },
+            {
+              "english": "Final answer: 4/9",
+              "hindi": "अंतिम उत्तर: 4/9"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5216,8 +6408,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find the smaller fraction, compare the denominators because the numerators are the same.",
+              "hindi": "छोटी भिन्न निकालने के लिए हम हर की तुलना करते हैं, क्योंकि दोनों भिन्नों के अंश समान हैं."
+            },
+            {
+              "english": "- Both fractions have numerator 7.\n- When the numerators are the same, the fraction with the larger denominator is smaller.\n- Here, 13 is larger than 10.\n- So, 7/13 is smaller than 7/10.",
+              "hindi": "- दोनों भिन्नों में अंश 7 है.\n- जब अंश समान हों, तो जिसका हर बड़ा होता है, वह भिन्न छोटी होती है.\n- यहाँ 13, 10 से बड़ा है.\n- इसलिए 7/13, 7/10 से छोटी है."
+            },
+            {
+              "english": "Final answer: 7/13",
+              "hindi": "अंतिम उत्तर: 7/13"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5281,8 +6489,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To compare 8/9 and 8/11, notice that both fractions have the same numerator: 8. When the numerator is the same, the fraction with the larger denominator is smaller, because the whole is divided into more equal parts. Since 11 is greater than 9, 8/11 is smaller than 8/9. Final answer: 8/11.",
+              "hindi": "8/9 और 8/11 की तुलना करने के लिए देखें कि दोनों भिन्नों में अंश 8 है। जब अंश एक जैसा हो, तो जिसका हर बड़ा होता है, वह भिन्न छोटा होता है, क्योंकि पूरा भाग ज्यादा बराबर हिस्सों में बंट जाता है। यहाँ 11, 9 से बड़ा है, इसलिए 8/11, 8/9 से छोटा है। अंतिम उत्तर: 8/11।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5346,8 +6562,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We compare 6/7 and 6/5.\nWhen two fractions have the same numerator, the fraction with the larger denominator is smaller.\nHere, both fractions have numerator 6.\nSince 7 > 5, 6/7 is smaller than 6/5.\nFinal answer: 6/7",
+              "hindi": "हम 6/7 और 6/5 की तुलना करते हैं।\nजब दो भिन्नों के अंश समान हों, तो जिसका हर बड़ा होता है, वह भिन्न छोटी होती है।\nयहाँ दोनों भिन्नों में अंश 6 है।\nक्योंकि 7 > 5, इसलिए 6/7, 6/5 से छोटी है।\nअंतिम उत्तर: 6/7"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5411,8 +6635,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "These fractions all have the same denominator, 11.\nWhen fractions have the same denominator, we compare the numerators.\nA smaller numerator means a smaller fraction.",
+              "hindi": "इन सभी भिन्नों का हर 11 है।\nजब भिन्नों का हर समान होता है, तो हम अंश की तुलना करते हैं।\nछोटा अंश वाला भिन्न छोटा होता है।"
+            },
+            {
+              "english": "The numerators are 9, 3, 7, 6, and 10.\nIn ascending order, the numerators go from smallest to largest:\n3, 6, 7, 9, 10.\nSo the fractions in ascending order are:\n3/11, 6/11, 7/11, 9/11, 10/11.",
+              "hindi": "अंश हैं 9, 3, 7, 6, और 10।\nआरोही क्रम में अंश सबसे छोटे से सबसे बड़े तक होते हैं:\n3, 6, 7, 9, 10.\nइसलिए भिन्नों का आरोही क्रम है:\n3/11, 6/11, 7/11, 9/11, 10/11."
+            },
+            {
+              "english": "Final answer: 3/11, 6/11, 7/11, 9/11, 10/11",
+              "hindi": "अंतिम उत्तर: 3/11, 6/11, 7/11, 9/11, 10/11"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5476,8 +6716,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange fractions in ascending order, we write them from smallest to largest. Here all the fractions have the same denominator, 15. So we only need to compare the numerators.",
+              "hindi": "भिन्नों को ascending order में लगाना मतलब है उन्हें छोटे से बड़े क्रम में लिखना। यहाँ सभी भिन्नों का हर 15 है। इसलिए हमें केवल अंशों की तुलना करनी है।"
+            },
+            {
+              "english": "The numerators are 8, 2, 11, 7, and 13.",
+              "hindi": "अंश हैं 8, 2, 11, 7, और 13।"
+            },
+            {
+              "english": "Now put them in ascending order:\n2 < 7 < 8 < 11 < 13",
+              "hindi": "अब इन्हें छोटे से बड़े क्रम में लिखते हैं:\n2 < 7 < 8 < 11 < 13"
+            },
+            {
+              "english": "So the fractions in ascending order are:\n2/15, 7/15, 8/15, 11/15, 13/15.",
+              "hindi": "इसलिए ascending order में भिन्न हैं:\n2/15, 7/15, 8/15, 11/15, 13/15."
+            },
+            {
+              "english": "Final answer: 2/15, 7/15, 8/15, 11/15, 13/15.",
+              "hindi": "अंतिम उत्तर: 2/15, 7/15, 8/15, 11/15, 13/15."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5541,8 +6805,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "All the fractions have the same denominator, 19.\nWhen denominators are the same, the fraction with the smaller numerator is smaller.\nSo we just arrange the numerators in increasing order: 3, 5, 7, 11, 13.\nTherefore, the fractions in ascending order are: 3/19, 5/19, 7/19, 11/19, 13/19.\nFinal answer: 3/19, 5/19, 7/19, 11/19, 13/19.",
+              "hindi": "सभी भिन्नों का हर 19 है।\nजब हर समान हो, तो जिसका अंश छोटा होता है, वह भिन्न छोटी होती है।\nइसलिए हम अंशों को छोटे से बड़े क्रम में लिखते हैं: 3, 5, 7, 11, 13।\nअब भिन्नों का ascending order है: 3/19, 5/19, 7/19, 11/19, 13/19।\nअंतिम उत्तर: 3/19, 5/19, 7/19, 11/19, 13/19."
+            }
+          ]
         }
       ],
       "tags": [
@@ -5606,8 +6878,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "All the fractions have the same denominator, 25.\nWhen the denominators are the same, the fraction with the smaller numerator is smaller.\nSo we only compare the numerators: 12, 23, 9, 13, 11.\nIn ascending order, the numerators are 9, 11, 12, 13, 23.\nTherefore, the fractions in ascending order are:\n9/25, 11/25, 12/25, 13/25, 23/25.\nFinal answer: 9/25, 11/25, 12/25, 13/25, 23/25",
+              "hindi": "सभी भिन्नों का हर 25 है।\nजब हर समान हो, तो जिसका अंश छोटा होता है, वह भिन्न छोटा होता है।\nअब अंशों को देखें: 12, 23, 9, 13, 11.\nछोटे से बड़े क्रम में अंश हैं: 9, 11, 12, 13, 23.\nइसलिए भिन्नों का आरोही क्रम है:\n9/25, 11/25, 12/25, 13/25, 23/25.\nअंतिम उत्तर: 9/25, 11/25, 12/25, 13/25, 23/25"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5671,8 +6951,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange fractions in descending order, we start with the greatest fraction and go to the smallest.",
+              "hindi": "अवरोही क्रम में fractions को सजाने के लिए हम सबसे बड़े fraction से शुरू करते हैं और सबसे छोटे fraction तक जाते हैं।"
+            },
+            {
+              "english": "All the fractions here have the same numerator: 3.\nWhen the numerator is the same, the fraction with the smaller denominator is larger.",
+              "hindi": "यहाँ सभी fractions का अंश 3 है।\nजब अंश समान हो, तो जिसका हर (denominator) छोटा होता है, वह fraction बड़ा होता है।"
+            },
+            {
+              "english": "So we compare the denominators:\n5, 7, 8, 11, 14\nThe smallest denominator is 5, so 3/5 is the greatest.\nNext comes 3/7, then 3/8, then 3/11, and finally 3/14.",
+              "hindi": "अब हरों की तुलना करते हैं:\n5, 7, 8, 11, 14\nसबसे छोटा हर 5 है, इसलिए 3/5 सबसे बड़ा fraction है।\nउसके बाद 3/7, फिर 3/8, फिर 3/11, और अंत में 3/14 आता है।"
+            },
+            {
+              "english": "So the descending order is:\n3/5, 3/7, 3/8, 3/11, 3/14",
+              "hindi": "इसलिए अवरोही क्रम है:\n3/5, 3/7, 3/8, 3/11, 3/14"
+            },
+            {
+              "english": "Final answer: 3/5, 3/7, 3/8, 3/11, 3/14",
+              "hindi": "Final answer: 3/5, 3/7, 3/8, 3/11, 3/14"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5736,8 +7040,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange fractions in descending order, we write them from greatest to smallest.\nHere, all fractions have the same numerator 8.\nWhen the numerator is the same, the fraction with the smaller denominator is larger.\nSo we compare the denominators:\n9, 11, 13, 15, 17\nThe smallest denominator is 9, so 8/9 is the greatest.\nNext comes 8/11, then 8/13, then 8/15, and finally 8/17.\nSo the descending order is:\n8/9, 8/11, 8/13, 8/15, 8/17\nFinal answer: 8/9, 8/11, 8/13, 8/15, 8/17",
+              "hindi": "भिन्नों को अवरोही क्रम में लिखने का मतलब है सबसे बड़े से सबसे छोटे क्रम में लिखना।\nयहाँ सभी भिन्नों का अंश 8 है।\nजब अंश समान हो, तो जिस भिन्न का हर छोटा होता है, वह भिन्न बड़ी होती है।\nइसलिए हम हरों की तुलना करते हैं:\n9, 11, 13, 15, 17\nसबसे छोटा हर 9 है, इसलिए 8/9 सबसे बड़ी भिन्न है।\nइसके बाद 8/11, फिर 8/13, फिर 8/15, और अंत में 8/17 आएगा।\nइसलिए अवरोही क्रम है:\n8/9, 8/11, 8/13, 8/15, 8/17\nअंतिम उत्तर: 8/9, 8/11, 8/13, 8/15, 8/17"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5801,8 +7113,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange the fractions in descending order, we write them from the largest to the smallest.",
+              "hindi": "भिन्नों को अवरोही क्रम में लिखने का मतलब है उन्हें सबसे बड़े से सबसे छोटे क्रम में लिखना।"
+            },
+            {
+              "english": "Here, all the fractions have the same numerator, 5. When the numerator is the same, the fraction with the smaller denominator is larger.",
+              "hindi": "यहाँ सभी भिन्नों में अंश 5 है। जब अंश समान हो, तो जिसका हर छोटा होता है, वह भिन्न बड़ा होता है।"
+            },
+            {
+              "english": "So we compare the denominators:\n- 5/6 is the largest\n- 5/8 comes next\n- 5/11 is smaller than 5/8\n- 5/12 is smaller than 5/11\n- 5/14 is the smallest",
+              "hindi": "अब हरों की तुलना करें:\n- 5/6 सबसे बड़ा है\n- उसके बाद 5/8 आता है\n- 5/11, 5/8 से छोटा है\n- 5/12, 5/11 से छोटा है\n- 5/14 सबसे छोटा है"
+            },
+            {
+              "english": "Therefore, the fractions in descending order are:\n5/6, 5/8, 5/11, 5/12, 5/14",
+              "hindi": "इसलिए भिन्नों का अवरोही क्रम है:\n5/6, 5/8, 5/11, 5/12, 5/14"
+            },
+            {
+              "english": "Final answer: 5/6, 5/8, 5/11, 5/12, 5/14",
+              "hindi": "अंतिम उत्तर: 5/6, 5/8, 5/11, 5/12, 5/14"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5866,8 +7202,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Descending order means arranging from greatest to smallest.\nAll the fractions have the same numerator, 10. When the numerator is the same, the fraction with the smaller denominator is larger.\nSo we compare the denominators: 11, 17, 19, 21, 23.\nThe smallest denominator, 11, gives the greatest fraction, and the largest denominator, 23, gives the smallest fraction.\nTherefore, the descending order is: 10/11, 10/17, 10/19, 10/21, 10/23.\nFinal answer: 10/11, 10/17, 10/19, 10/21, 10/23",
+              "hindi": "अवरोही क्रम का मतलब है सबसे बड़े से सबसे छोटे क्रम में लिखना।\nइन सभी भिन्नों में अंश 10 है। जब अंश समान हो, तो जिस भिन्न का हर छोटा होता है, वह भिन्न बड़ी होती है।\nइसलिए हम हरों की तुलना करते हैं: 11, 17, 19, 21, 23।\nसबसे छोटा हर 11 है, इसलिए 10/11 सबसे बड़ी भिन्न है। सबसे बड़ा हर 23 है, इसलिए 10/23 सबसे छोटी भिन्न है।\nइसलिए अवरोही क्रम है: 10/11, 10/17, 10/19, 10/21, 10/23।\nअंतिम उत्तर: 10/11, 10/17, 10/19, 10/21, 10/23"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5930,8 +7274,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To compare 25/7 and 8, write 8 as a fraction with denominator 7: 8 = 56/7. Now compare 25/7 and 56/7. Since 25 is less than 56, we have 25/7 < 8. Final answer: <",
+              "hindi": "25/7 और 8 की तुलना करने के लिए 8 को 7 हर वाले भिन्न में लिखते हैं: 8 = 56/7। अब 25/7 और 56/7 की तुलना करें। क्योंकि 25, 56 से छोटा है, इसलिए 25/7 < 8। अंतिम उत्तर: <"
+            }
+          ]
         }
       ],
       "tags": [
@@ -5994,8 +7346,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to compare 3/4 and 2/5.",
+              "hindi": "हमें 3/4 और 2/5 की तुलना करनी है।"
+            },
+            {
+              "english": "Step 1: Find a common way to compare them.\n3/4 = 0.75\n2/5 = 0.4",
+              "hindi": "Step 1: इन्हें आसान तरीके से लिखते हैं।\n3/4 = 0.75\n2/5 = 0.4"
+            },
+            {
+              "english": "Step 2: Compare the decimals.\n0.75 is greater than 0.4.",
+              "hindi": "Step 2: अब दोनों की तुलना करें।\n0.75, 0.4 से बड़ा है।"
+            },
+            {
+              "english": "So, 3/4 > 2/5.",
+              "hindi": "इसलिए 3/4 > 2/5."
+            },
+            {
+              "english": "Final answer: >",
+              "hindi": "Final answer: >"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6058,8 +7434,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Compare the two fractions 17/4 and 13/3.",
+              "hindi": "17/4 और 13/3 की तुलना करें।"
+            },
+            {
+              "english": "Convert them to mixed numbers:\n17/4 = 4 1/4\n13/3 = 4 1/3",
+              "hindi": "इन्हें मिश्र भिन्न में बदलते हैं:\n17/4 = 4 1/4\n13/3 = 4 1/3"
+            },
+            {
+              "english": "Both are 4 and something, but 1/4 is smaller than 1/3.\nSo 17/4 is less than 13/3.",
+              "hindi": "दोनों में 4 समान है, लेकिन 1/4, 1/3 से छोटा है।\nइसलिए 17/4, 13/3 से छोटा है।"
+            },
+            {
+              "english": "The correct symbol is <.\nFinal answer: <",
+              "hindi": "सही चिन्ह < है।\nअंतिम उत्तर: <"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6122,8 +7518,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We compare the two sides: 58/4 and 7.",
+              "hindi": "हम दोनों पक्षों की तुलना करते हैं: 58/4 और 7।"
+            },
+            {
+              "english": "Step 1: Divide 58 by 4.\n58 ÷ 4 = 14.5",
+              "hindi": "चरण 1: 58 को 4 से भाग दें।\n58 ÷ 4 = 14.5"
+            },
+            {
+              "english": "Step 2: Compare 14.5 and 7.\n14.5 is greater than 7.",
+              "hindi": "चरण 2: 14.5 और 7 की तुलना करें।\n14.5, 7 से बड़ा है।"
+            },
+            {
+              "english": "So, the correct symbol is >.\nFinal answer: >",
+              "hindi": "इसलिए सही प्रतीक > है।\nअंतिम उत्तर: >"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6186,8 +7602,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Compare 4/6 and 6/9.",
+              "hindi": "4/6 और 6/9 की तुलना करें।"
+            },
+            {
+              "english": "- Simplify 4/6 by dividing the top and bottom by 2: 4/6 = 2/3.\n- Simplify 6/9 by dividing the top and bottom by 3: 6/9 = 2/3.",
+              "hindi": "- 4/6 को सरल करें: ऊपर और नीचे दोनों को 2 से भाग दें, तो 4/6 = 2/3।\n- 6/9 को सरल करें: ऊपर और नीचे दोनों को 3 से भाग दें, तो 6/9 = 2/3।"
+            },
+            {
+              "english": "Both fractions are the same, so the correct symbol is =.",
+              "hindi": "दोनों भिन्न समान हैं, इसलिए सही चिन्ह = है।"
+            },
+            {
+              "english": "Final answer: =",
+              "hindi": "अंतिम उत्तर: ="
+            }
+          ]
         }
       ],
       "tags": [
@@ -6250,8 +7686,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We compare the two fractions 13/6 and 11/5.",
+              "hindi": "हमें 13/6 और 11/5 की तुलना करनी है।"
+            },
+            {
+              "english": "Use cross-multiplication:\n13 × 5 = 65\n11 × 6 = 66",
+              "hindi": "तिर्यक गुणा करें:\n13 × 5 = 65\n11 × 6 = 66"
+            },
+            {
+              "english": "Since 65 is smaller than 66, 13/6 is smaller than 11/5.",
+              "hindi": "क्योंकि 65, 66 से छोटा है, इसलिए 13/6, 11/5 से छोटा है।"
+            },
+            {
+              "english": "Final answer: <",
+              "hindi": "अंतिम उत्तर: <"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6314,8 +7770,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Compare the two sides step by step.",
+              "hindi": "दोनों तरफ की तुलना धीरे-धीरे करते हैं।"
+            },
+            {
+              "english": "The right side is 10 ÷ 5 ÷ 9.\nFirst, 10 ÷ 5 = 2.\nThen, 2 ÷ 9 = 2/9.",
+              "hindi": "दाईं तरफ है 10 ÷ 5 ÷ 9.\nपहले 10 ÷ 5 = 2.\nफिर 2 ÷ 9 = 2/9."
+            },
+            {
+              "english": "Now compare 7 and 2/9.\n7 is a whole number, and 2/9 is less than 1, so 7 is much bigger.",
+              "hindi": "अब 7 और 2/9 की तुलना करें।\n7 एक पूरा संख्या है, और 2/9 1 से भी छोटी है, इसलिए 7 बहुत बड़ा है।"
+            },
+            {
+              "english": "So the correct symbol is >.\nFinal answer: >",
+              "hindi": "इसलिए सही चिन्ह > है।\nअंतिम उत्तर: >"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6378,8 +7854,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to compare 3/10 and 7/25.",
+              "hindi": "हमें 3/10 और 7/25 की तुलना करनी है।"
+            },
+            {
+              "english": "Step 1: Make the denominators the same.\n3/10 = 15/50\n7/25 = 14/50",
+              "hindi": "चरण 1: दोनों के हर समान बनाइए।\n3/10 = 15/50\n7/25 = 14/50"
+            },
+            {
+              "english": "Step 2: Compare the numerators.\n15 is greater than 14.",
+              "hindi": "चरण 2: अंशों की तुलना कीजिए।\n15, 14 से बड़ा है।"
+            },
+            {
+              "english": "So, 3/10 > 7/25.\nFinal answer: >",
+              "hindi": "इसलिए, 3/10 > 7/25।\nअंतिम उत्तर: >"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6442,8 +7938,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We need to compare 38 and 2/9.\n2/9 is a proper fraction, so it is less than 1.\n38 is a whole number and is much greater than 1.\nSo, 38 > 2/9.\nFinal answer: >",
+              "hindi": "हमें 38 और 2/9 की तुलना करनी है।\n2/9 एक उचित भिन्न है, इसलिए यह 1 से छोटी है।\n38 एक पूर्ण संख्या है और 1 से बहुत बड़ी है।\nइसलिए 38 > 2/9।\nअंतिम उत्तर: >"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6506,8 +8010,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To compare 23/5 and 23/4, notice that both fractions have the same numerator: 23.",
+              "hindi": "23/5 और 23/4 की तुलना करने के लिए ध्यान दें कि दोनों भिन्नों में अंश (numerator) एक ही है: 23."
+            },
+            {
+              "english": "When two fractions have the same numerator, the one with the smaller denominator is larger, because the whole is divided into fewer parts.",
+              "hindi": "जब दो भिन्नों का अंश समान हो, तो जिसका हर (denominator) छोटा होता है, वह भिन्न बड़ा होता है, क्योंकि पूरे को कम भागों में बाँटा जाता है।"
+            },
+            {
+              "english": "Here, 4 is smaller than 5.\nSo, 23/4 is greater than 23/5.",
+              "hindi": "यहाँ 4, 5 से छोटा है।\nइसलिए 23/4, 23/5 से बड़ा है।"
+            },
+            {
+              "english": "You can also check by dividing:\n23/5 = 4.6\n23/4 = 5.75\nSince 5.75 is greater than 4.6, 23/4 is larger.",
+              "hindi": "जांच के लिए भाग भी कर सकते हैं:\n23/5 = 4.6\n23/4 = 5.75\nचूँकि 5.75, 4.6 से बड़ा है, इसलिए 23/4 बड़ा है।"
+            },
+            {
+              "english": "Final answer: 23/5 < 23/4.",
+              "hindi": "अंतिम उत्तर: 23/5 < 23/4."
+            }
+          ]
         }
       ],
       "tags": [
@@ -6570,8 +8098,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To compare 31/3 and 33/10, make the denominators the same.\nThe LCM of 3 and 10 is 30.\nSo,\n31/3 = (31×10)/(3×10) = 310/30\n33/10 = (33×3)/(10×3) = 99/30\nNow both fractions have the same denominator.\nCompare the numerators: 310 is greater than 99.\nSo, 31/3 is greater than 33/10.\nFinal answer: 31/3 > 33/10.",
+              "hindi": "31/3 और 33/10 की तुलना करने के लिए हम हर (denominator) समान करते हैं.\n3 और 10 का LCM 30 है.\nइसलिए,\n31/3 = (31×10)/(3×10) = 310/30\n33/10 = (33×3)/(10×3) = 99/30\nअब दोनों भिन्नों का हर समान है.\nअंशों (numerators) की तुलना करें: 310, 99 से बड़ा है.\nइसलिए 31/3, 33/10 से बड़ा है.\nअंतिम उत्तर: 31/3 > 33/10."
+            }
+          ]
         }
       ],
       "tags": [
@@ -6634,8 +8170,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To compare 21/7 and 17/9, first simplify each fraction.\n- 21/7 = 3 because 21 ÷ 7 = 3.\n- 17/9 = 1 remainder 8, so 17/9 = 1 8/9, which is less than 2.\nNow compare the values:\n3 is greater than 1 8/9.\nSo, 21/7 is greater than 17/9.\nFinal answer: 21/7 > 17/9.",
+              "hindi": "21/7 और 17/9 की तुलना करने के लिए पहले दोनों भिन्नों को सरल करें।\n- 21/7 = 3, क्योंकि 21 ÷ 7 = 3।\n- 17/9 = 1 शेष 8, इसलिए 17/9 = 1 8/9 होता है, जो 2 से छोटा है।\nअब 3 और 1 8/9 की तुलना करें।\n3, 1 8/9 से बड़ा है।\nइसलिए, 21/7, 17/9 से बड़ा है।\nअंतिम उत्तर: 21/7 > 17/9."
+            }
+          ]
         }
       ],
       "tags": [
@@ -6698,8 +8242,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Simplify each fraction.\n42/7 = 6 because 42 ÷ 7 = 6.\n41/3 = 13 remainder 2, so it is 13 2/3 because 41 ÷ 3 = 13.",
+              "hindi": "चरण 1: दोनों भिन्नों को सरल करें।\n42/7 = 6 क्योंकि 42 ÷ 7 = 6।\n41/3 = 13 शेष 2, इसलिए यह 13 2/3 है क्योंकि 41 ÷ 3 = 13 आता है।"
+            },
+            {
+              "english": "Step 2: Compare the values.\n6 is smaller than 13 2/3.",
+              "hindi": "चरण 2: दोनों के मान की तुलना करें।\n6, 13 2/3 से छोटा है।"
+            },
+            {
+              "english": "So, 42/7 < 41/3.\nFinal answer: 42/7 < 41/3.",
+              "hindi": "इसलिए, 42/7 < 41/3।\nअंतिम उत्तर: 42/7 < 41/3।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6762,8 +8322,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To compare 51/6 and 51/4:\n1. The numerators are the same: 51 and 51.\n2. When the numerators are equal, the fraction with the smaller denominator is larger.\n3. Here, 4 is smaller than 6, so 51/4 is larger than 51/6.",
+              "hindi": "51/6 और 51/4 की तुलना करने के लिए:\n1. दोनों भिन्नों के अंश (numerator) समान हैं: 51 और 51।\n2. जब अंश समान हों, तो जिसका हर (denominator) छोटा होता है, वह भिन्न बड़ा होता है।\n3. यहाँ 4, 6 से छोटा है, इसलिए 51/4, 51/6 से बड़ा है।"
+            },
+            {
+              "english": "You can also check by dividing:\n51/6 = 8.5\n51/4 = 12.75",
+              "hindi": "जांच के लिए भाग भी कर सकते हैं:\n51/6 = 8.5\n51/4 = 12.75"
+            },
+            {
+              "english": "12.75 is greater than 8.5.\nFinal answer: 51/6 < 51/4.",
+              "hindi": "12.75, 8.5 से बड़ा है।\nअंतिम उत्तर: 51/6 < 51/4."
+            }
+          ]
         }
       ],
       "tags": [
@@ -6826,8 +8402,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To compare 2/1 and 21/10, let us write them in a simpler form.",
+              "hindi": "2/1 और 21/10 की तुलना करने के लिए, पहले इन्हें आसान रूप में लिखते हैं।"
+            },
+            {
+              "english": "Step 1: Convert 2/1 into a number.\n2/1 = 2",
+              "hindi": "चरण 1: 2/1 को संख्या में बदलें।\n2/1 = 2"
+            },
+            {
+              "english": "Step 2: Convert 21/10 into a decimal.\n21/10 = 2.1",
+              "hindi": "चरण 2: 21/10 को दशमलव में बदलें।\n21/10 = 2.1"
+            },
+            {
+              "english": "Step 3: Compare the two numbers.\n2 is smaller than 2.1.",
+              "hindi": "चरण 3: दोनों संख्याओं की तुलना करें।\n2, 2.1 से छोटा है।"
+            },
+            {
+              "english": "So, 2/1 is less than 21/10.",
+              "hindi": "इसलिए 2/1, 21/10 से छोटा है।"
+            },
+            {
+              "english": "Final answer: 2/1 < 21/10",
+              "hindi": "अंतिम उत्तर: 2/1 < 21/10"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6891,8 +8495,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange the fractions in ascending order, we compare their values from smallest to largest.",
+              "hindi": "भिन्नों को बढ़ते क्रम में रखने के लिए हम उनके मान को सबसे छोटे से सबसे बड़े तक तुलना करते हैं।"
+            },
+            {
+              "english": "Fractions: 5/6, 7/9, 2/3, 11/12",
+              "hindi": "दिए गए भिन्न: 5/6, 7/9, 2/3, 11/12"
+            },
+            {
+              "english": "Step 1: Find a common denominator.\nThe LCM of 6, 9, 3, and 12 is 36.",
+              "hindi": "चरण 1: एक समान हर (common denominator) निकालते हैं।\n6, 9, 3 और 12 का LCM = 36 है।"
+            },
+            {
+              "english": "Step 2: Convert each fraction to denominator 36.\n- 5/6 = 30/36\n- 7/9 = 28/36\n- 2/3 = 24/36\n- 11/12 = 33/36",
+              "hindi": "चरण 2: हर भिन्न को 36 हर वाले भिन्न में बदलते हैं।\n- 5/6 = 30/36\n- 7/9 = 28/36\n- 2/3 = 24/36\n- 11/12 = 33/36"
+            },
+            {
+              "english": "Step 3: Compare the numerators.\n24, 28, 30, 33",
+              "hindi": "चरण 3: अब अंशों की तुलना करते हैं।\n24, 28, 30, 33"
+            },
+            {
+              "english": "So the ascending order is:\n2/3, 7/9, 5/6, 11/12",
+              "hindi": "इसलिए बढ़ते क्रम में भिन्न हैं:\n2/3, 7/9, 5/6, 11/12"
+            },
+            {
+              "english": "Final answer: 2/3, 7/9, 5/6, 11/12",
+              "hindi": "अंतिम उत्तर: 2/3, 7/9, 5/6, 11/12"
+            }
+          ]
         }
       ],
       "tags": [
@@ -6956,8 +8592,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange the fractions in ascending order, we compare their values from smallest to greatest.",
+              "hindi": "भिन्नों को आरोही क्रम में रखने के लिए हम उनके मान को सबसे छोटे से सबसे बड़े क्रम में लिखते हैं।"
+            },
+            {
+              "english": "Step 1: Find a common denominator.\nThe denominators are 5, 10, 15, and 2.\nTheir LCM is 30.",
+              "hindi": "चरण 1: समान हर निकालें।\nहर हैं 5, 10, 15 और 2।\nइनका LCM 30 है।"
+            },
+            {
+              "english": "Step 2: Convert each fraction to denominator 30.\n4/5 = 24/30\n7/10 = 21/30\n8/15 = 16/30\n1/2 = 15/30",
+              "hindi": "चरण 2: सभी भिन्नों को हर 30 में बदलें।\n4/5 = 24/30\n7/10 = 21/30\n8/15 = 16/30\n1/2 = 15/30"
+            },
+            {
+              "english": "Step 3: Write them from smallest to greatest.\n15/30, 16/30, 21/30, 24/30",
+              "hindi": "चरण 3: अब इन्हें सबसे छोटे से सबसे बड़े क्रम में लिखें।\n15/30, 16/30, 21/30, 24/30"
+            },
+            {
+              "english": "So, the fractions in ascending order are:\n1/2, 8/15, 7/10, 4/5",
+              "hindi": "इसलिए भिन्नों का आरोही क्रम है:\n1/2, 8/15, 7/10, 4/5"
+            },
+            {
+              "english": "Final answer: 1/2, 8/15, 7/10, 4/5",
+              "hindi": "अंतिम उत्तर: 1/2, 8/15, 7/10, 4/5"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7021,8 +8685,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Ascending order means writing the fractions from smallest to largest.",
+              "hindi": "आरोही क्रम का मतलब है भिन्नों को छोटे से बड़े क्रम में लिखना।"
+            },
+            {
+              "english": "We can compare the fractions by making their denominators the same.\nThe LCM of 3, 10, 6, and 5 is 30.",
+              "hindi": "भिन्नों की तुलना करने के लिए हम उनके हर (denominator) को समान बना सकते हैं।\n3, 10, 6 और 5 का LCM 30 है।"
+            },
+            {
+              "english": "So,\n1/3 = 10/30\n3/10 = 9/30\n5/6 = 25/30\n2/5 = 12/30",
+              "hindi": "अब भिन्नों को 30 हर में बदलते हैं:\n1/3 = 10/30\n3/10 = 9/30\n5/6 = 25/30\n2/5 = 12/30"
+            },
+            {
+              "english": "Now compare the numerators:\n9/30 < 10/30 < 12/30 < 25/30",
+              "hindi": "अब अंशों (numerator) की तुलना करें:\n9/30 < 10/30 < 12/30 < 25/30"
+            },
+            {
+              "english": "So, the fractions in ascending order are:\n3/10, 1/3, 2/5, 5/6",
+              "hindi": "इसलिए आरोही क्रम है:\n3/10, 1/3, 2/5, 5/6"
+            },
+            {
+              "english": "Final answer: 3/10, 1/3, 2/5, 5/6",
+              "hindi": "अंतिम उत्तर: 3/10, 1/3, 2/5, 5/6"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7086,8 +8778,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange the fractions in ascending order, we compare their values.",
+              "hindi": "Fractions ko ascending order me arrange karne ke liye humein unki values compare karni hoti hain."
+            },
+            {
+              "english": "Fractions given: 7/8, 5/12, 15/16, 17/24",
+              "hindi": "Diye gaye fractions: 7/8, 5/12, 15/16, 17/24"
+            },
+            {
+              "english": "Step 1: Find a common denominator.\nThe denominators are 8, 12, 16, and 24.\nTheir LCM is 48.",
+              "hindi": "Step 1: Ek common denominator nikaalte hain.\nDenominators hain 8, 12, 16, aur 24.\nInka LCM 48 hai."
+            },
+            {
+              "english": "Step 2: Convert each fraction into denominator 48.\n5/12 = 20/48\n17/24 = 34/48\n7/8 = 42/48\n15/16 = 45/48",
+              "hindi": "Step 2: Har fraction ko denominator 48 me badalte hain.\n5/12 = 20/48\n17/24 = 34/48\n7/8 = 42/48\n15/16 = 45/48"
+            },
+            {
+              "english": "Step 3: Compare the numerators.\n20 < 34 < 42 < 45\nSo the fractions in ascending order are:\n5/12 < 17/24 < 7/8 < 15/16",
+              "hindi": "Step 3: Numerators ko compare karte hain.\n20 < 34 < 42 < 45\nIsliye ascending order hoga:\n5/12 < 17/24 < 7/8 < 15/16"
+            },
+            {
+              "english": "Final answer: 5/12, 17/24, 7/8, 15/16",
+              "hindi": "Final answer: 5/12, 17/24, 7/8, 15/16"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7151,8 +8871,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange the fractions in descending order, we compare their values from largest to smallest.",
+              "hindi": "अवरोही क्रम में लिखने के लिए हमें भिन्नों को सबसे बड़ी से सबसे छोटी संख्या के क्रम में रखना होता है।"
+            },
+            {
+              "english": "Step 1: Convert each fraction to the same denominator.\n- 1/2 = 8/16\n- 3/4 = 12/16\n- 5/8 = 10/16\n- 9/16 = 9/16",
+              "hindi": "चरण 1: सभी भिन्नों का हर समान करते हैं।\n- 1/2 = 8/16\n- 3/4 = 12/16\n- 5/8 = 10/16\n- 9/16 = 9/16"
+            },
+            {
+              "english": "Step 2: Now compare the numerators.\n- 12/16 is the greatest\n- then 10/16\n- then 9/16\n- then 8/16",
+              "hindi": "चरण 2: अब अंशों की तुलना करते हैं।\n- 12/16 सबसे बड़ा है\n- फिर 10/16\n- फिर 9/16\n- फिर 8/16"
+            },
+            {
+              "english": "So, the descending order is:\n3/4, 5/8, 9/16, 1/2",
+              "hindi": "इसलिए अवरोही क्रम है:\n3/4, 5/8, 9/16, 1/2"
+            },
+            {
+              "english": "Final answer: 3/4, 5/8, 9/16, 1/2",
+              "hindi": "अंतिम उत्तर: 3/4, 5/8, 9/16, 1/2"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7216,8 +8960,40 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange the fractions in descending order, we compare them from largest to smallest.",
+              "hindi": "Fractions ko descending order mein lagane ka matlab hai unhe sabse bade se sabse chhote kram mein likhna."
+            },
+            {
+              "english": "Fractions: 2/7, 11/35, 9/14, 13/28",
+              "hindi": "Diye gaye fractions: 2/7, 11/35, 9/14, 13/28"
+            },
+            {
+              "english": "Step 1: Find a common denominator.\nThe denominators are 7, 35, 14, and 28.\nThe LCM of these numbers is 140.",
+              "hindi": "Step 1: Ek common denominator nikaalte hain.\nDenominators hain 7, 35, 14, aur 28.\nInka LCM 140 hai."
+            },
+            {
+              "english": "Step 2: Convert each fraction to denominator 140.\n- 2/7 = 40/140\n- 11/35 = 44/140\n- 9/14 = 90/140\n- 13/28 = 65/140",
+              "hindi": "Step 2: Har fraction ko denominator 140 mein badalte hain.\n- 2/7 = 40/140\n- 11/35 = 44/140\n- 9/14 = 90/140\n- 13/28 = 65/140"
+            },
+            {
+              "english": "Step 3: Compare the numerators.\nSince all fractions now have the same denominator, the fraction with the bigger numerator is larger.\nSo the order is:\n90/140 > 65/140 > 44/140 > 40/140",
+              "hindi": "Step 3: Ab numerators compare karte hain.\nJab denominator same ho, to jis fraction ka numerator bada hota hai, woh fraction bada hota hai.\nIsliye order hoga:\n90/140 > 65/140 > 44/140 > 40/140"
+            },
+            {
+              "english": "Step 4: Write the fractions in descending order.\n9/14, 13/28, 11/35, 2/7",
+              "hindi": "Step 4: Ab fractions ko descending order mein likhte hain.\n9/14, 13/28, 11/35, 2/7"
+            },
+            {
+              "english": "Final answer: 9/14, 13/28, 11/35, 2/7",
+              "hindi": "अंतिम उत्तर: 9/14, 13/28, 11/35, 2/7"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7281,8 +9057,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Descending order means arranging fractions from the largest to the smallest.",
+              "hindi": "घटते क्रम (descending order) का मतलब है सबसे बड़े भिन्न से सबसे छोटे भिन्न तक लिखना।"
+            },
+            {
+              "english": "Let us compare the fractions by making the denominators the same.\nThe denominators are 4, 8, 12, and 24.\nThe LCM of 4, 8, 12, and 24 is 24.",
+              "hindi": "आइए भिन्नों की तुलना करने के लिए उनके हर (denominator) समान करें।\nहर हैं 4, 8, 12 और 24।\nइनका LCM 24 है।"
+            },
+            {
+              "english": "Now convert each fraction:\n3/4 = 18/24\n7/8 = 21/24\n7/12 = 14/24\n17/24 = 17/24",
+              "hindi": "अब हर भिन्न को 24 हर में बदलते हैं:\n3/4 = 18/24\n7/8 = 21/24\n7/12 = 14/24\n17/24 = 17/24"
+            },
+            {
+              "english": "Now compare the numerators:\n21, 18, 17, 14",
+              "hindi": "अब अंशों की तुलना करें:\n21, 18, 17, 14"
+            },
+            {
+              "english": "So the descending order is:\n7/8 > 3/4 > 17/24 > 7/12",
+              "hindi": "इसलिए घटते क्रम में भिन्न होंगे:\n7/8 > 3/4 > 17/24 > 7/12"
+            },
+            {
+              "english": "Final answer: 7/8, 3/4, 17/24, 7/12",
+              "hindi": "अंतिम उत्तर: 7/8, 3/4, 17/24, 7/12"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7346,8 +9150,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To arrange the fractions in descending order, we write them from greatest to smallest.",
+              "hindi": "भिन्नों को अवरोही क्रम में लगाने का मतलब है, सबसे बड़े से सबसे छोटे तक लिखना।"
+            },
+            {
+              "english": "Let us compare them by making the denominators the same.",
+              "hindi": "आइए पहले सभी भिन्नों के हर (denominator) समान कर लेते हैं।"
+            },
+            {
+              "english": "2/5 = 12/30\n3/10 = 9/30\n7/15 = 14/30\n1/2 = 15/30",
+              "hindi": "2/5 = 12/30\n3/10 = 9/30\n7/15 = 14/30\n1/2 = 15/30"
+            },
+            {
+              "english": "Now compare the numerators:\n15/30 > 14/30 > 12/30 > 9/30",
+              "hindi": "अब अंश (numerator) की तुलना करें:\n15/30 > 14/30 > 12/30 > 9/30"
+            },
+            {
+              "english": "So the descending order is:\n1/2, 7/15, 2/5, 3/10",
+              "hindi": "इसलिए अवरोही क्रम होगा:\n1/2, 7/15, 2/5, 3/10"
+            },
+            {
+              "english": "Final answer: 1/2, 7/15, 2/5, 3/10",
+              "hindi": "अंतिम उत्तर: 1/2, 7/15, 2/5, 3/10"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7411,8 +9243,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Descending order means arranging fractions from greatest to smallest.",
+              "hindi": "Descending order का मतलब है भिन्नों को सबसे बड़े से सबसे छोटे क्रम में लिखना।"
+            },
+            {
+              "english": "Step 1: Convert each fraction to a simple value.\n- 5/9 ≈ 0.56\n- 3/12 = 1/4 = 0.25\n- 1/3 ≈ 0.33\n- 4/15 ≈ 0.27",
+              "hindi": "Step 1: हर भिन्न का मान देखें।\n- 5/9 ≈ 0.56\n- 3/12 = 1/4 = 0.25\n- 1/3 ≈ 0.33\n- 4/15 ≈ 0.27"
+            },
+            {
+              "english": "Step 2: Compare the values.\n- 0.56 is the greatest\n- then 0.33\n- then 0.27\n- then 0.25",
+              "hindi": "Step 2: अब इनकी तुलना करें।\n- 0.56 सबसे बड़ा है\n- उसके बाद 0.33\n- फिर 0.27\n- और सबसे छोटा 0.25"
+            },
+            {
+              "english": "So, the descending order is:\n5/9, 1/3, 4/15, 3/12",
+              "hindi": "इसलिए descending order है:\n5/9, 1/3, 4/15, 3/12"
+            },
+            {
+              "english": "Final answer: 5/9, 1/3, 4/15, 3/12",
+              "hindi": "Final answer: 5/9, 1/3, 4/15, 3/12"
+            }
+          ]
         }
       ],
       "tags": [
@@ -7476,8 +9332,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Descending order means from greatest to smallest.",
+              "hindi": "घटते क्रम (descending order) का मतलब है सबसे बड़े से सबसे छोटे तक लिखना।"
+            },
+            {
+              "english": "Let us compare the fractions by writing them with the same denominator, 24:\n- 3/8 = 9/24\n- 1/2 = 12/24\n- 2/3 = 16/24\n- 5/6 = 20/24",
+              "hindi": "आइए इन भिन्नों को एक ही हर 24 में बदलकर तुलना करें:\n- 3/8 = 9/24\n- 1/2 = 12/24\n- 2/3 = 16/24\n- 5/6 = 20/24"
+            },
+            {
+              "english": "Now we arrange them from the largest numerator to the smallest numerator:\n20/24 > 16/24 > 12/24 > 9/24",
+              "hindi": "अब हम इन्हें सबसे बड़े से सबसे छोटे क्रम में लिखते हैं:\n20/24 > 16/24 > 12/24 > 9/24"
+            },
+            {
+              "english": "So, the fractions in descending order are: 5/6, 2/3, 1/2, 3/8.",
+              "hindi": "इसलिए घटते क्रम में भिन्न हैं: 5/6, 2/3, 1/2, 3/8."
+            },
+            {
+              "english": "Final answer: 5/6, 2/3, 1/2, 3/8",
+              "hindi": "अंतिम उत्तर: 5/6, 2/3, 1/2, 3/8"
+            }
+          ]
         }
       ],
       "tags": [

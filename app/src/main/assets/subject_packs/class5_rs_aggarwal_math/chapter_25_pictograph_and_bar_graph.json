@@ -316,8 +316,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Take 1 symbol = 3 students.",
+              "hindi": "1 प्रतीक = 3 छात्र मानिए।"
+            },
+            {
+              "english": "Now divide each number by 3 to find how many symbols we need:\n- Monday: 36 ÷ 3 = 12 symbols\n- Tuesday: 30 ÷ 3 = 10 symbols\n- Wednesday: 33 ÷ 3 = 11 symbols\n- Thursday: 39 ÷ 3 = 13 symbols\n- Friday: 30 ÷ 3 = 10 symbols\n- Saturday: 27 ÷ 3 = 9 symbols",
+              "hindi": "अब हर दिन के छात्रों की संख्या को 3 से भाग दें:\n- Monday: 36 ÷ 3 = 12 प्रतीक\n- Tuesday: 30 ÷ 3 = 10 प्रतीक\n- Wednesday: 33 ÷ 3 = 11 प्रतीक\n- Thursday: 39 ÷ 3 = 13 प्रतीक\n- Friday: 30 ÷ 3 = 10 प्रतीक\n- Saturday: 27 ÷ 3 = 9 प्रतीक"
+            },
+            {
+              "english": "Pictograph:\n- Monday: ●●●●●●●●●●●●\n- Tuesday: ●●●●●●●●●●\n- Wednesday: ●●●●●●●●●●●\n- Thursday: ●●●●●●●●●●●●●\n- Friday: ●●●●●●●●●●\n- Saturday: ●●●●●●●●●",
+              "hindi": "पिक्टोग्राफ:\n- Monday: ●●●●●●●●●●●●\n- Tuesday: ●●●●●●●●●●\n- Wednesday: ●●●●●●●●●●●\n- Thursday: ●●●●●●●●●●●●●\n- Friday: ●●●●●●●●●●\n- Saturday: ●●●●●●●●●"
+            },
+            {
+              "english": "This is the pictograph of students present during the week.\ndone",
+              "hindi": "यह सप्ताह के छात्रों की उपस्थिति का पिक्टोग्राफ है।\ndone"
+            }
+          ]
         }
       ],
       "tags": [
@@ -384,8 +404,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Find the symbols.\n6500 men ÷ 500 = 13 symbols\n4500 women ÷ 500 = 9 symbols\n1500 children ÷ 500 = 3 symbols",
+              "hindi": "चरण 1: प्रतीक गिनो।\n6500 पुरुष ÷ 500 = 13 प्रतीक\n4500 महिलाएँ ÷ 500 = 9 प्रतीक\n1500 बच्चे ÷ 500 = 3 प्रतीक"
+            },
+            {
+              "english": "Step 2: Draw the pictograph.",
+              "hindi": "चरण 2: चित्रलेख बनाओ।"
+            },
+            {
+              "english": "Key:\n1 ● = 500 men\n1 ■ = 500 women\n1 ▲ = 500 children",
+              "hindi": "कुंजी:\n1 ● = 500 पुरुष\n1 ■ = 500 महिलाएँ\n1 ▲ = 500 बच्चे"
+            },
+            {
+              "english": "Pictograph:\nMen:      ● ● ● ● ● ● ● ● ● ● ● ● ●\nWomen:    ■ ■ ■ ■ ■ ■ ■ ■ ■\nChildren: ▲ ▲ ▲",
+              "hindi": "चित्रलेख:\nपुरुष:      ● ● ● ● ● ● ● ● ● ● ● ● ●\nमहिलाएँ:    ■ ■ ■ ■ ■ ■ ■ ■ ■\nबच्चे:      ▲ ▲ ▲"
+            },
+            {
+              "english": "Step 3: Check.\nMen: 13 × 500 = 6500\nWomen: 9 × 500 = 4500\nChildren: 3 × 500 = 1500",
+              "hindi": "चरण 3: जाँच करो।\nपुरुष: 13 × 500 = 6500\nमहिलाएँ: 9 × 500 = 4500\nबच्चे: 3 × 500 = 1500"
+            },
+            {
+              "english": "Final answer: The pictograph shows the population correctly.\ndone",
+              "hindi": "अंतिम उत्तर: यह चित्रलेख जनसंख्या को सही दिखाता है।\ndone"
+            }
+          ]
         }
       ],
       "tags": [
@@ -452,8 +500,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Choose a key for the pictograph.\nLet 1 symbol = 100 vehicles.",
+              "hindi": "चरण 1: पिक्टोग्राफ के लिए एक key चुनिए।\nमान लीजिए 1 चिन्ह = 100 वाहन।"
+            },
+            {
+              "english": "Step 2: Write each number using the key.\n- Cycles = 800 = 8 symbols\n- Scooters = 500 = 5 symbols\n- Cars = 300 = 3 symbols\n- Buses = 200 = 2 symbols",
+              "hindi": "चरण 2: हर संख्या को key के अनुसार लिखिए।\n- साइकिल = 800 = 8 चिन्ह\n- स्कूटर = 500 = 5 चिन्ह\n- कार = 300 = 3 चिन्ह\n- बस = 200 = 2 चिन्ह"
+            },
+            {
+              "english": "Step 3: Draw the pictograph.\nKey: ● = 100 vehicles",
+              "hindi": "चरण 3: पिक्टोग्राफ बनाइए।\nKey: ● = 100 वाहन"
+            },
+            {
+              "english": "Cycles:    ● ● ● ● ● ● ● ●\nScooters:  ● ● ● ● ●\nCars:      ● ● ●\nBuses:     ● ●",
+              "hindi": "साइकिल:  ● ● ● ● ● ● ● ●\nस्कूटर:   ● ● ● ● ●\nकार:      ● ● ●\nबस:       ● ●"
+            },
+            {
+              "english": "This pictograph shows the number of vehicles running in a day in Meerut city.",
+              "hindi": "यह पिक्टोग्राफ मेरठ शहर में एक दिन में चलने वाले वाहनों की संख्या दिखाता है।"
+            },
+            {
+              "english": "Final answer: done",
+              "hindi": "अंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -517,8 +593,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Part (a): How many students go to school on foot?",
+              "hindi": "भाग (a): कितने छात्र पैदल स्कूल जाते हैं?"
+            },
+            {
+              "english": "Step 1: Count the pictures for students who go on foot.\nThere are 4 pictures.",
+              "hindi": "चरण 1: पैदल जाने वाले छात्रों के चित्र गिनिए।\nयहाँ 4 चित्र हैं।"
+            },
+            {
+              "english": "Step 2: Find the value of one picture.\nEach picture represents 100 students.",
+              "hindi": "चरण 2: एक चित्र का मान निकालिए।\nहर चित्र 100 छात्रों को दिखाता है।"
+            },
+            {
+              "english": "Step 3: Multiply.\n4 × 100 = 400",
+              "hindi": "चरण 3: गुणा कीजिए।\n4 × 100 = 400"
+            },
+            {
+              "english": "So, 400 students go to school on foot.",
+              "hindi": "इसलिए, 400 छात्र पैदल स्कूल जाते हैं।"
+            },
+            {
+              "english": "Final answer: 400 students.",
+              "hindi": "अंतिम उत्तर: 400 छात्र।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -582,8 +686,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: In the pictograph, the bus has 1 picture.\nStep 2: Each picture represents 100 students.\nStep 3: So, 1 picture = 100 students.\nTherefore, the number of students who use the school bus is 100 students.\nFinal Answer: 100 students.",
+              "hindi": "चरण 1: पिक्टोग्राफ में बस के लिए 1 चित्र दिया है।\nचरण 2: हर 1 चित्र 100 छात्रों को दिखाता है।\nचरण 3: इसलिए 1 चित्र = 100 छात्र।\nइसलिए, स्कूल बस से जाने वाले छात्रों की संख्या 100 है।\nअंतिम उत्तर: 100 छात्र।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -647,8 +759,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To find how many students use a bicycle, look at the pictograph.",
+              "hindi": "साइकिल से जाने वाले छात्रों की संख्या निकालने के लिए पिक्टोग्राफ को देखें।"
+            },
+            {
+              "english": "- Bicycle has 5 pictures.\n- Each picture represents 100 students.\n- So, multiply 5 × 100.",
+              "hindi": "- साइकिल के लिए 5 चित्र हैं।\n- हर एक चित्र 100 छात्रों को दिखाता है।\n- इसलिए 5 × 100 करते हैं।"
+            },
+            {
+              "english": "5 × 100 = 500",
+              "hindi": "5 × 100 = 500"
+            },
+            {
+              "english": "So, 500 students use a bicycle to go to their school.",
+              "hindi": "इसलिए, अपने स्कूल जाने के लिए साइकिल का उपयोग करने वाले छात्रों की संख्या 500 है।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -712,8 +844,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We count all the pictures in the pictograph.",
+              "hindi": "हम चित्रलेख में सभी चित्रों को गिनते हैं।"
+            },
+            {
+              "english": "On foot = 4 pictures\nBy bicycle = 5 pictures\nBy car = 1 picture\nBy bus = 1 picture",
+              "hindi": "पैदल = 4 चित्र\nसाइकिल से = 5 चित्र\nकार से = 1 चित्र\nबस से = 1 चित्र"
+            },
+            {
+              "english": "Total pictures = 4 + 5 + 1 + 1 = 11",
+              "hindi": "कुल चित्र = 4 + 5 + 1 + 1 = 11"
+            },
+            {
+              "english": "Each picture represents 100 students.\nSo, total students = 11 × 100 = 1100",
+              "hindi": "हर चित्र 100 विद्यार्थियों को दिखाता है।\nइसलिए, कुल विद्यार्थी = 11 × 100 = 1100"
+            },
+            {
+              "english": "Final answer: 1100 students.",
+              "hindi": "अंतिम उत्तर: 1100 विद्यार्थी।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -777,8 +933,32 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Read the pictograph values.\n- On foot = 4 pictures\n- On bicycle = 5 pictures\n- By car = 1 picture\n- By bus = 1 picture",
+              "hindi": "चरण 1: पिक्टोग्राफ में दिए गए चित्रों को पढ़िए।\n- पैदल = 4 चित्र\n- साइकिल से = 5 चित्र\n- कार से = 1 चित्र\n- बस से = 1 चित्र"
+            },
+            {
+              "english": "Step 2: Each picture represents 100 students.\n- On foot = 4 × 100 = 400 students\n- On bicycle = 5 × 100 = 500 students\n- By car = 1 × 100 = 100 students\n- By bus = 1 × 100 = 100 students",
+              "hindi": "चरण 2: हर एक चित्र 100 छात्रों को दिखाता है।\n- पैदल = 4 × 100 = 400 छात्र\n- साइकिल से = 5 × 100 = 500 छात्र\n- कार से = 1 × 100 = 100 छात्र\n- बस से = 1 × 100 = 100 छात्र"
+            },
+            {
+              "english": "Step 3: Compare the numbers.\n- 400, 500, 100, 100",
+              "hindi": "चरण 3: अब सभी संख्याओं की तुलना कीजिए।\n- 400, 500, 100, 100"
+            },
+            {
+              "english": "The greatest number is 500.\nSo, the mode used by the maximum number of students is on bicycle.",
+              "hindi": "सबसे बड़ी संख्या 500 है।\nइसलिए, सबसे अधिक छात्र साइकिल से स्कूल जाते हैं।"
+            },
+            {
+              "english": "Final answer: on bicycle",
+              "hindi": "अंतिम उत्तर: साइकिल से"
+            }
+          ]
         }
       ],
       "tags": [
@@ -845,8 +1025,44 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To draw a pictograph, we first choose a scale.",
+              "hindi": "पिक्टोग्राफ बनाने के लिए हम पहले एक scale चुनते हैं।"
+            },
+            {
+              "english": "Scale: 1 symbol = 50 persons",
+              "hindi": "Scale: 1 चिन्ह = 50 व्यक्ति"
+            },
+            {
+              "english": "Now divide each number by 50:\n- Hindi: 500 ÷ 50 = 10 symbols\n- Tamil: 450 ÷ 50 = 9 symbols\n- Bengali: 250 ÷ 50 = 5 symbols\n- Malayalam: 150 ÷ 50 = 3 symbols",
+              "hindi": "अब हर संख्या को 50 से भाग देते हैं:\n- हिंदी: 500 ÷ 50 = 10 चिन्ह\n- तमिल: 450 ÷ 50 = 9 चिन्ह\n- बंगाली: 250 ÷ 50 = 5 चिन्ह\n- मलयालम: 150 ÷ 50 = 3 चिन्ह"
+            },
+            {
+              "english": "Pictograph:",
+              "hindi": "पिक्टोग्राफ:"
+            },
+            {
+              "english": "Key: 👤 = 50 persons",
+              "hindi": "Key: 👤 = 50 व्यक्ति"
+            },
+            {
+              "english": "Hindi      👤 👤 👤 👤 👤 👤 👤 👤 👤 👤\nTamil      👤 👤 👤 👤 👤 👤 👤 👤 👤\nBengali    👤 👤 👤 👤 👤\nMalayalam  👤 👤 👤",
+              "hindi": "हिंदी      👤 👤 👤 👤 👤 👤 👤 👤 👤 👤\nतमिल       👤 👤 👤 👤 👤 👤 👤 👤 👤\nबंगाली     👤 👤 👤 👤 👤\nमलयालम     👤 👤 👤"
+            },
+            {
+              "english": "So, the pictograph shows the number of people speaking each language in the colony.",
+              "hindi": "इस तरह पिक्टोग्राफ कॉलोनी में अलग-अलग भाषाएँ जानने वाले लोगों की संख्या दिखाता है।"
+            },
+            {
+              "english": "Final answer: done.",
+              "hindi": "अंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -913,8 +1129,36 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To draw the bar graph, follow these steps:",
+              "hindi": "बार ग्राफ बनाने के लिए ये कदम अपनाइए:"
+            },
+            {
+              "english": "1. Draw two lines, called axes.\n2. Write the days on the horizontal axis:\n   Day I, Day II, Day III, Day IV, Day V.\n3. Write the number of absentees on the vertical axis.\n4. Choose a scale. For example, 1 unit = 5 absentees.\n5. Draw one bar for each day with the correct height:\n   - Day I = 30\n   - Day II = 45\n   - Day III = 20\n   - Day IV = 50\n   - Day V = 15",
+              "hindi": "1. पहले दो रेखाएं बनाइए, जिन्हें अक्ष कहते हैं।\n2. नीचे वाली रेखा पर दिन लिखिए:\n   Day I, Day II, Day III, Day IV, Day V.\n3. खड़ी रेखा पर absentees की संख्या लिखिए।\n4. एक scale चुनिए। उदाहरण: 1 unit = 5 absentees.\n5. हर दिन के लिए सही ऊंचाई का एक-एक bar बनाइए:\n   - Day I = 30\n   - Day II = 45\n   - Day III = 20\n   - Day IV = 50\n   - Day V = 15"
+            },
+            {
+              "english": "A simple text version of the bar graph is:",
+              "hindi": "बार ग्राफ का एक simple text version:"
+            },
+            {
+              "english": "Day I    : ######      (30)\nDay II   : #########   (45)\nDay III  : ####        (20)\nDay IV   : ##########  (50)\nDay V    : ###         (15)",
+              "hindi": "Day I    : ######      (30)\nDay II   : #########   (45)\nDay III  : ####        (20)\nDay IV   : ##########  (50)\nDay V    : ###         (15)"
+            },
+            {
+              "english": "So, the tallest bar is for Day IV and the shortest bar is for Day V.",
+              "hindi": "इसमें Day IV का bar सबसे ऊंचा है और Day V का bar सबसे छोटा है।"
+            },
+            {
+              "english": "Final answer: done",
+              "hindi": "Final answer: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -981,8 +1225,24 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To draw the bar graph for Amit’s marks, follow these steps:\n1. Draw two lines at right angles.\n2. On the horizontal axis, write the test numbers: I, II, III, IV, V.\n3. On the vertical axis, write the marks scale from 0 to 90.\n4. Choose a simple scale, such as 10 marks = 1 unit.\n5. Draw one bar for each test with these heights:\n   - Test I = 60\n   - Test II = 80\n   - Test III = 40\n   - Test IV = 70\n   - Test V = 90\n6. Keep all bars the same width and leave equal gaps between them.\n7. Give the graph a title: “Amit’s Marks in Five Tests.”",
+              "hindi": "अमित के अंकों का बार ग्राफ बनाने के लिए ये कदम अपनाइए:\n1. सबसे पहले दो सीधी रेखाएँ एक-दूसरे के लंबवत खींचिए।\n2. क्षैतिज अक्ष (Horizontal axis) पर टेस्ट के नाम लिखिए: I, II, III, IV, V.\n3. ऊर्ध्वाधर अक्ष (Vertical axis) पर अंकों का पैमाना 0 से 90 तक लिखिए।\n4. एक सरल स्केल चुनिए, जैसे 10 अंक = 1 इकाई।\n5. हर टेस्ट के लिए एक-एक बार बनाइए, जिनकी ऊँचाइयाँ ये हों:\n   - टेस्ट I = 60\n   - टेस्ट II = 80\n   - टेस्ट III = 40\n   - टेस्ट IV = 70\n   - टेस्ट V = 90\n6. सभी बार की चौड़ाई समान रखिए और उनके बीच बराबर दूरी रखिए।\n7. ग्राफ का शीर्षक लिखिए: “अमित के पाँच टेस्टों के अंक।”"
+            },
+            {
+              "english": "So the bar graph should show the marks 60, 80, 40, 70, and 90 for Tests I to V.",
+              "hindi": "इस तरह बार ग्राफ में टेस्ट I, II, III, IV, V के लिए क्रमशः 60, 80, 40, 70, और 90 अंक दिखेंगे।"
+            },
+            {
+              "english": "Final answer: done.",
+              "hindi": "अंतिम उत्तर: done."
+            }
+          ]
         }
       ],
       "tags": [
@@ -1049,8 +1309,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To draw the bar graph, follow these steps:",
+              "hindi": "बार ग्राफ बनाने के लिए ये कदम अपनाइए:"
+            },
+            {
+              "english": "1. Draw two lines, one horizontal and one vertical.\n2. Write the language names on the horizontal line (x-axis): Tamil, Telugu, Malayalam, Hindi, Bengali.\n3. Write the number of students on the vertical line (y-axis).\n4. Choose a scale, for example:\n   - 1 unit = 25 students\n5. Now draw bars with these heights:\n   - Tamil = 125 students = 5 units\n   - Telugu = 75 students = 3 units\n   - Malayalam = 50 students = 2 units\n   - Hindi = 25 students = 1 unit\n   - Bengali = 25 students = 1 unit\n6. Give the graph a title, such as \"Students by Language\".",
+              "hindi": "1. एक क्षैतिज रेखा और एक ऊर्ध्वाधर रेखा बनाइए।\n2. क्षैतिज रेखा (x-axis) पर भाषाओं के नाम लिखिए: तमिल, तेलुगु, मलयालम, हिंदी, बंगाली।\n3. ऊर्ध्वाधर रेखा (y-axis) पर विद्यार्थियों की संख्या लिखिए।\n4. एक scale चुनिए, जैसे:\n   - 1 इकाई = 25 विद्यार्थी\n5. अब इन ऊँचाइयों की पट्टियाँ बनाइए:\n   - तमिल = 125 विद्यार्थी = 5 इकाई\n   - तेलुगु = 75 विद्यार्थी = 3 इकाई\n   - मलयालम = 50 विद्यार्थी = 2 इकाई\n   - हिंदी = 25 विद्यार्थी = 1 इकाई\n   - बंगाली = 25 विद्यार्थी = 1 इकाई\n6. ग्राफ का शीर्षक लिखिए, जैसे \"भाषा के अनुसार विद्यार्थी\"।"
+            },
+            {
+              "english": "The bar for Tamil should be the tallest, and the bars for Hindi and Bengali should be the shortest and equal in height.",
+              "hindi": "तमिल की पट्टी सबसे ऊँची होगी, और हिंदी तथा बंगाली की पट्टियाँ सबसे छोटी और बराबर होंगी।"
+            },
+            {
+              "english": "Final answer: done",
+              "hindi": "अंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1117,8 +1397,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "To draw the bar graph, follow these steps:",
+              "hindi": "बार ग्राफ बनाने के लिए ये कदम अपनाइए:"
+            },
+            {
+              "english": "1. Draw two lines: a horizontal axis and a vertical axis.\n2. Write the book types on the horizontal axis:\n   English, Mathematics, General Knowledge, Science, Tamil.\n3. Choose a suitable scale on the vertical axis. A good scale is:\n   1 unit = 50 books.\n4. Find the height of each bar:\n   - English = 450 books = 9 units\n   - Mathematics = 600 books = 12 units\n   - General Knowledge = 150 books = 3 units\n   - Science = 250 books = 5 units\n   - Tamil = 200 books = 4 units\n5. Draw one bar for each subject with the correct height.\n6. Give the graph a title like “Different Books in a Library”.",
+              "hindi": "1. दो रेखाएँ खींचिए: एक क्षैतिज रेखा और एक ऊर्ध्वाधर रेखा।\n2. क्षैतिज अक्ष पर पुस्तक के प्रकार लिखिए:\n   English, Mathematics, General Knowledge, Science, Tamil.\n3. ऊर्ध्वाधर अक्ष पर किताबों की संख्या लिखिए। एक अच्छा पैमाना यह हो सकता है:\n   1 इकाई = 50 किताबें।\n4. हर बार की ऊँचाई निकालिए:\n   - English = 450 किताबें = 9 इकाई\n   - Mathematics = 600 किताबें = 12 इकाई\n   - General Knowledge = 150 किताबें = 3 इकाई\n   - Science = 250 किताबें = 5 इकाई\n   - Tamil = 200 किताबें = 4 इकाई\n5. हर विषय के लिए सही ऊँचाई का एक-एक बार बनाइए।\n6. ग्राफ का शीर्षक लिखिए: “पुस्तकालय में विभिन्न पुस्तकों की संख्या”。"
+            },
+            {
+              "english": "So the bar graph should have bars of heights 9, 12, 3, 5, and 4 units.",
+              "hindi": "इसलिए बार ग्राफ में 9, 12, 3, 5, और 4 इकाई ऊँचाई के बार होंगे।"
+            },
+            {
+              "english": "Final answer: done",
+              "hindi": "अंतिम उत्तर: done"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1181,8 +1481,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Write the rainfall for each month.\nJune = 5 cm, July = 12 cm, August = 6 cm, September = 3 cm, October = 2 cm, November = 4 cm.\nStep 2: Compare the numbers.\n12 cm is the greatest rainfall.\nStep 3: Find the month with 12 cm.\nJuly has 12 cm rainfall.\nFinal Answer: July",
+              "hindi": "चरण 1: हर महीने की वर्षा लिखिए।\nजून = 5 सेमी, जुलाई = 12 सेमी, अगस्त = 6 सेमी, सितंबर = 3 सेमी, अक्टूबर = 2 सेमी, नवंबर = 4 सेमी।\nचरण 2: सभी संख्याओं की तुलना कीजिए।\n12 सेमी सबसे अधिक वर्षा है।\nचरण 3: देखें कि 12 सेमी किस महीने में है।\n12 सेमी जुलाई में है।\nअंतिम उत्तर: जुलाई।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1246,8 +1554,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We are given the rainfall for each month.",
+              "hindi": "हमें हर महीने की वर्षा दी गई है।"
+            },
+            {
+              "english": "June = 5 cm\nJuly = 12 cm\nAugust = 6 cm\nSeptember = 3 cm\nOctober = 2 cm\nNovember = 4 cm",
+              "hindi": "जून = 5 सेमी\nजुलाई = 12 सेमी\nअगस्त = 6 सेमी\nसितंबर = 3 सेमी\nअक्टूबर = 2 सेमी\nनवंबर = 4 सेमी"
+            },
+            {
+              "english": "The question asks for the rainfall in September.\nFrom the list, September rainfall is 3 cm.",
+              "hindi": "प्रश्न सितंबर महीने की वर्षा पूछ रहा है।\nसूची में सितंबर की वर्षा 3 सेमी है।"
+            },
+            {
+              "english": "Final answer: 3 cm",
+              "hindi": "अंतिम उत्तर: 3 सेमी"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1310,8 +1638,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "The driest month is the month with the least rainfall.",
+              "hindi": "सबसे शुष्क महीना वह होता है जिसमें सबसे कम वर्षा होती है।"
+            },
+            {
+              "english": "Rainfall given:\n- June: 5 cm\n- July: 12 cm\n- August: 6 cm\n- September: 3 cm\n- October: 2 cm\n- November: 4 cm",
+              "hindi": "दी गई वर्षा:\n- जून: 5 सेमी\n- जुलाई: 12 सेमी\n- अगस्त: 6 सेमी\n- सितंबर: 3 सेमी\n- अक्टूबर: 2 सेमी\n- नवंबर: 4 सेमी"
+            },
+            {
+              "english": "Now compare the rainfall values. The smallest amount is 2 cm.\nThat 2 cm rainfall was in October.",
+              "hindi": "अब सभी महीनों की वर्षा की तुलना करें। सबसे कम वर्षा 2 सेमी है।\nयह 2 सेमी वर्षा अक्टूबर में हुई थी।"
+            },
+            {
+              "english": "Final answer: October.",
+              "hindi": "अंतिम उत्तर: अक्टूबर।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1374,8 +1722,28 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "Step 1: Read what the bar graph shows.\nIt shows the number of families for each number of members.",
+              "hindi": "चरण 1: बार ग्राफ क्या दिखाता है, यह पढ़िए।\nयह हर परिवार में सदस्यों की संख्या के अनुसार परिवारों की संख्या दिखाता है।"
+            },
+            {
+              "english": "Step 2: Look at the bars.\nEach bar tells how many families have 1 member, 2 members, 3 members, 4 members, 5 members, or 6 members.",
+              "hindi": "चरण 2: बारों को देखिए।\nहर बार यह बताती है कि 1 सदस्य, 2 सदस्य, 3 सदस्य, 4 सदस्य, 5 सदस्य या 6 सदस्य वाले कितने परिवार हैं।"
+            },
+            {
+              "english": "So, the bar graph gives the number of families having a particular number of members.",
+              "hindi": "इसलिए, यह बार ग्राफ किसी विशेष सदस्य संख्या वाले परिवारों की संख्या बताता है।"
+            },
+            {
+              "english": "Final answer: Number of families having a particular number of members.",
+              "hindi": "अंतिम उत्तर: किसी विशेष सदस्य संख्या वाले परिवारों की संख्या।"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1438,8 +1806,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "We look at the bar graph for the families with 3 members.\nThe graph shows that 3 members = 40 families.\nSo, the number of families having 3 members is 40.\nFinal answer: 40",
+              "hindi": "हम 3 सदस्यों वाले परिवारों के लिए बार ग्राफ देखते हैं।\nग्राफ में 3 सदस्यों के लिए 40 परिवार दिखाए गए हैं।\nइसलिए, 3 सदस्यों वाले परिवारों की संख्या 40 है।\nअंतिम उत्तर: 40"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1502,8 +1878,16 @@
           "wrongReason": null,
           "supportExample": null,
           "mistakeType": "GENERAL",
-          "reteachTitle": null,
-          "reteachParagraphs": []
+          "reteachTitle": {
+            "english": "Solution",
+            "hindi": "हल"
+          },
+          "reteachParagraphs": [
+            {
+              "english": "From the bar graph, look at the group for 6 members.\nIt shows 20 families.\nSo, the number of families that have 6 members is 20.\nFinal answer: 20 families.",
+              "hindi": "बार ग्राफ में 6 सदस्यों वाले समूह को देखें।\nयह 20 परिवार दिखाता है।\nइसलिए, 6 सदस्य वाले परिवारों की संख्या 20 है।\nअंतिम उत्तर: 20 परिवार।"
+            }
+          ]
         }
       ],
       "tags": [
