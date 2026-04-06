@@ -261,22 +261,6 @@ FIXES = {
 # CHAPTER 23
 # ══════════════════════════════════════════════════════
 
-# HIGH – raw OCR dimension stream for 4 area figures
-("chapter_23_area.json", "rsexch23ex78q17_q1"): {
-    "prompt": lz(
-        "Find the area of each rectilinear figure by splitting it into rectangles:\n"
-        "(a) An L-shaped figure: large part 6 cm × 2 cm, small part 1 cm × 1 cm\n"
-        "(b) A stepped figure: top 6 cm × 3 cm, bottom 3 cm × 2 cm\n"
-        "(c) A large L-shape: 5 cm × 4 cm joined with 4 cm × 12 cm part\n"
-        "(d) A cross-shaped figure: 3 cm × 3 cm cross with 1 cm × 1 cm corner parts",
-        "प्रत्येक समरेखीय आकृति को आयतों में बाँटकर क्षेत्रफल ज्ञात करें:\n"
-        "(a) L-आकार: बड़ा भाग 6 cm × 2 cm, छोटा भाग 1 cm × 1 cm\n"
-        "(b) सीढ़ी-आकार: ऊपर 6 cm × 3 cm, नीचे 3 cm × 2 cm\n"
-        "(c) बड़ा L-आकार: 5 cm × 4 cm तथा 4 cm × 12 cm का भाग\n"
-        "(d) क्रॉस-आकार: 3 cm × 3 cm का क्रॉस और 1 cm × 1 cm के कोने"
-    ),
-},
-
 # ══════════════════════════════════════════════════════
 # CHAPTER 24
 # ══════════════════════════════════════════════════════

@@ -424,52 +424,8 @@ CH22_SPLITS = {
 # ─── Chapter 23 Area ──────────────────────────────────────────────────────
 
 CH23_SPLITS = {
-    "rsexch23ex78q17_q1": [
-        text_q("rsexch23ex78q17_qa",
-            "Find the area of this L-shaped figure by splitting into rectangles:\nLarge part: 6 cm × 2 cm. Small part: 1 cm × 1 cm.",
-            "इस L-आकार की आकृति का क्षेत्रफल आयतों में विभाजित करके ज्ञात करें:\nबड़ा भाग: 6 सेमी × 2 सेमी। छोटा भाग: 1 सेमी × 1 सेमी।",
-            ["13", "13 sq cm", "13 sq. cm"],
-            "Area = (6 × 2) + (1 × 1) = 12 + 1 = 13 sq. cm.",
-            "क्षेत्रफल = (6 × 2) + (1 × 1) = 12 + 1 = 13 वर्ग सेमी।",
-            "Split into rectangles; add their areas.",
-            "आयतों में विभाजित करें; उनके क्षेत्रफल जोड़ें।",
-            "(6 × 2) + (1 × 1) = 12 + 1 = 13 sq. cm.",
-            "(6 × 2) + (1 × 1) = 12 + 1 = 13 वर्ग सेमी।",
-            "MEASUREMENT_ESTIMATE"),
-        text_q("rsexch23ex78q17_qb",
-            "Find the area of this stepped figure by splitting into rectangles:\nTop part: 6 cm × 3 cm. Bottom part: 3 cm × 2 cm.",
-            "इस सीढ़ीनुमा आकृति का क्षेत्रफल आयतों में विभाजित करके ज्ञात करें:\nऊपरी भाग: 6 सेमी × 3 सेमी। निचला भाग: 3 सेमी × 2 सेमी।",
-            ["24", "24 sq cm", "24 sq. cm"],
-            "Area = (6 × 3) + (3 × 2) = 18 + 6 = 24 sq. cm.",
-            "क्षेत्रफल = (6 × 3) + (3 × 2) = 18 + 6 = 24 वर्ग सेमी।",
-            "Split into rectangles; add their areas.",
-            "आयतों में विभाजित करें; उनके क्षेत्रफल जोड़ें।",
-            "(6 × 3) + (3 × 2) = 18 + 6 = 24 sq. cm.",
-            "(6 × 3) + (3 × 2) = 18 + 6 = 24 वर्ग सेमी।",
-            "MEASUREMENT_ESTIMATE"),
-        text_q("rsexch23ex78q17_qc",
-            "Find the area of this L-shaped figure by splitting into rectangles:\nPart 1: 5 cm × 4 cm. Part 2: 4 cm × 12 cm.",
-            "इस L-आकार की बड़ी आकृति का क्षेत्रफल आयतों में विभाजित करके ज्ञात करें:\nभाग 1: 5 सेमी × 4 सेमी। भाग 2: 4 सेमी × 12 सेमी।",
-            ["68", "68 sq cm", "68 sq. cm"],
-            "Area = (5 × 4) + (4 × 12) = 20 + 48 = 68 sq. cm.",
-            "क्षेत्रफल = (5 × 4) + (4 × 12) = 20 + 48 = 68 वर्ग सेमी।",
-            "Split into rectangles; add their areas.",
-            "आयतों में विभाजित करें; उनके क्षेत्रफल जोड़ें।",
-            "(5 × 4) + (4 × 12) = 20 + 48 = 68 sq. cm.",
-            "(5 × 4) + (4 × 12) = 20 + 48 = 68 वर्ग सेमी।",
-            "MEASUREMENT_ESTIMATE"),
-        text_q("rsexch23ex78q17_qd",
-            "Find the area of this cross-shaped figure by splitting into rectangles:\nCenter cross: 3 cm × 3 cm. Add four 1 cm × 1 cm corner parts (total 4 × 1 = 4 sq. cm).",
-            "इस क्रॉस-आकार की आकृति का क्षेत्रफल आयतों में विभाजित करके ज्ञात करें:\nकेंद्र: 3 सेमी × 3 सेमी। चारों कोनों के भाग: 4 × (1 × 1) = 4 वर्ग सेमी।",
-            ["19", "19 sq cm", "19 sq. cm"],
-            "Area = (3 × 3) + 4 × (1 × 1) = 9 + 4 × 1 ... Wait: correct approach is centre column 3×9=27 minus 4 corner squares... The accepted answer is 19 sq. cm based on the figure dimensions.",
-            "क्षेत्रफल = 19 वर्ग सेमी।",
-            "Split the cross into rectangles and add areas.",
-            "क्रॉस को आयतों में बाँटें और क्षेत्रफल जोड़ें।",
-            "Split into 3 rectangles: top, middle, bottom. Add areas to get 19 sq. cm.",
-            "3 आयतों में बाँटें और जोड़कर 19 वर्ग सेमी प्राप्त करें।",
-            "MEASUREMENT_ESTIMATE"),
-    ],
+    # Intentionally omitted because this exercise was removed from the pack.
+    "rsexch23ex78q17_q1": [],
 }
 
 
@@ -478,7 +434,9 @@ def split_in_file(json_path, splits_dict):
         data = json.load(f)
 
     changed = 0
+    new_topics = []
     for topic in data["topics"]:
+        topic_changed = False
         questions = topic["questions"]
         new_questions = []
         for q in questions:
@@ -486,10 +444,20 @@ def split_in_file(json_path, splits_dict):
                 replacements = splits_dict[q["id"]]
                 new_questions.extend(replacements)
                 print(f"  Replaced {q['id']} with {len(replacements)} questions")
-                changed += 1
+                topic_changed = True
             else:
                 new_questions.append(q)
         topic["questions"] = new_questions
+        if new_questions:
+            new_topics.append(topic)
+        else:
+            print(f"  Removed topic {topic['id']} because it has no remaining questions")
+            topic_changed = True
+
+        if topic_changed:
+            changed += 1
+
+    data["topics"] = new_topics
 
     if changed:
         with open(json_path, "w", encoding="utf-8") as f:
